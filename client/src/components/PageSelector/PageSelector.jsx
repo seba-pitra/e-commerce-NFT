@@ -1,7 +1,6 @@
 import React from 'react';
 import * as actions from '../../redux/actions';
 import { useSelector, useDispatch } from 'react-redux';
-import './PageSelector.css'
 
 export default function PageSelector(){
     const nftQuantity = useSelector(state => state.filteredNfts.length)

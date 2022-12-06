@@ -1,7 +1,6 @@
 import * as actions from '../../redux/actions'
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import search_icon from '../../images/utils/search_icon.png'
 
 function SearchBar(){
     const [searchQuery, setSearchQuery] = useState("");
@@ -31,7 +30,6 @@ function SearchBar(){
                         type="submit">
                         <img 
                             className="search-icon"
-                            src={search_icon}
                             alt="" />
                     </button>
             </form>
