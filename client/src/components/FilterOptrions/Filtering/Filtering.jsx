@@ -17,13 +17,13 @@ export default function Filtering(){
                 <button
                     className='option-btn'
                     value="api"
-                    onClick={(e)=>{filterByOwner(e)}}
+                    onClick={(e)=>{/*despacho funcion de filtrado*/}}
                     >filtro 2
                 </button>
                 <button
                     className='option-btn'
                     value="all"
-                    onClick={(e)=>{filterByOwner(e)}}
+                    onClick={(e)=>{/*despacho funcion de filtrado*/}}
                     >filtro 3
                 </button>
             </div>
@@ -32,15 +32,15 @@ export default function Filtering(){
             <label className='label' htmlFor="genres">Categorias: </label>
             <div className='button-list' name="genres" id="">
                 {/*mapeo los botones que activarian los filtros.*/}
-                {categories.map(category => {
+                {/* categories.map(category => {
                     return <button 
-                    onClick={(e)=>{/*despacho funcion de filtrado*/}}
-                    id={selectedFilter.includes(category) ? "selected" : ""} //esto es para cambiar el css depende de si lo seleccione cambia el css.
+                    onClick={(e)=>{despacho funcion de filtrado}}
+                    id={selectedFilter.includes(category)? "selected" : ""} //esto es para cambiar el css depende de si lo seleccione cambia el css.
                     className="option-btn btn-filter"
                     >
                         {category}
                     </button>
-                })}
+                }) */}
             </div>
         </div>
         </>

@@ -11,7 +11,7 @@ export default function NFTSPerPageSelector(){
         <label className='gpp-label'htmlFor="gamesPerPage">Resultados Por Pagina:</label>
             {/*dropdown menu para seleccionar la cantidad de resultados que el usuario quiera ver por pagina.*/}
                 <select 
-                    onChange={(e)=> dispatch(actions.setNftsPerPage(e.target.value))} 
+                    onChange={(e)=> {/* dispatch(actions.setNftsPerPage(e.target.value)) */}} 
                     name="gamesPerPage" 
                     id="games-per-page-selector">
                     {validValues.map(value => {
