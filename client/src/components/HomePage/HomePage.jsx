@@ -6,7 +6,7 @@ import FilterOptions from '../FilterOptrions/Options';
 import Loading from '../Loading/Loading';
 import SearchBar from '../SearchBar/SearchBar';
 
-import './HomePage.css'
+// import './HomePage.css'
 
 function HomePage(){
     // eslint-disable-next-line
