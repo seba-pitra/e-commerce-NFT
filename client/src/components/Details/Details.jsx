@@ -5,6 +5,7 @@ import Loading from '../Loading/Loading';
 import { Link } from 'react-router-dom';
 
 function Details(props){
+    //{image, name, id, owner, price, lastSale,viewsCount,SalesHistory}
     const { id } = props.match.params
     const nftDetail = useSelector(state => state.nftDetail)
     const isLoading = useSelector(state => state.isLoading)
