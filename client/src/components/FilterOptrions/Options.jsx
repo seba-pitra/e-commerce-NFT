@@ -1,0 +1,28 @@
+import * as actions from '../../redux/actions'
+import Ordering from './Ordering/Ordering';
+import Filtering from './Filtering/Filtering';
+import NFTSPerPageSelector from './NFTSPerPageSelector/NFTSPerPageSelector';
+import { useDispatch } from 'react-redux';
+
+import './Options.css'
+
+export default function Options(){
+    const dispatch = useDispatch();
+
+    return (
+        <>
+            <Ordering/>
+            <Filtering/>
+            <NFTSPerPageSelector/>
+            <div className='options-container'>
+                {/*boton de reseteo de filtros.*/}
+            <button
+                className='option-btn'
+                onClick={()=>{dispatch(actions.resetFilters())}}
+                >Reset Filters
+            </button>
+            </div>
+        </>
+    )
+
+}
