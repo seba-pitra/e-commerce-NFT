@@ -2,44 +2,41 @@ const { DataTypes } = require("sequelize");
 
 module.exports = (sequelize) => {
   sequelize.define(
-    "nft",
+    "user",
     {
       id: {
+        type: DataTypes.UUID,
+        defaultValue: DataTypes.UUIDV4,
         primaryKey: true,
         unique: true,
         allowNull: false,
+        validate: {
+          isUUID: 4,
+        },
+      },
+      name: {
+        type: DataTypes.STRING,
+        allowNull: false,
+      },
+      last_name: {
+        type: DataTypes.STRING,
+        allowNull: false,
+      },
+      age: {
+        type: DataTypes.INTEGER,
+        allowNull: false,
+      },
+      email: {
+        type: DataTypes.email,
+        allowNull: false,
+        unique: true,
       },
       type: {
-        type: DataTypes.STRING,
+        type: DataTypes.ENUM("Admin", "Basic", "Medium"),
         allowNull: false,
       },
-      contract: {
-        type: DataTypes.STRING,
-        allowNull: false,
-        unique: true,
-      },
-      collectionId: {
-        type: DataTypes.STRING,
-        allowNull: false,
-        unique: true,
-      },
-      tokenId: {
-        type: DataTypes.STRING,
-        allowNull: false,
-        unique: true,
-      },
-      price: {
-        type: DataTypes.FLOAT,
-        allowNull: false,
-        unique: true,
-      },
-      source: {
-        type: DataTypes.JSON,
-        allowNull: false,
-        unique: true,
-      },
-      tokenData: {
-        type: DataTypes.JSON,
+      dni: {
+        type: DataTypes.INTEGER,
         allowNull: false,
         unique: true,
       },
