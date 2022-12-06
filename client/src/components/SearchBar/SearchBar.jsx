@@ -10,8 +10,8 @@ function SearchBar(){
     //funcion de busqueda
     function search(e){
         e.preventDefault();
-        dispatch(actions.resetFilters()) //resetea los filtos
-        dispatch(actions.searchNFT(searchQuery)); //y manda el query al action de busqueda
+        /* dispatch(actions.resetFilters()) //resetea los filtos
+        dispatch(actions.searchNFT(searchQuery)); //y manda el query al action de busqueda */
         setSearchQuery("");
     }
 
