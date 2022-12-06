@@ -16,15 +16,3 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
 }
-
-@font-face {
-  font-family: 'Norse';
-  src: url('./fonts/Norse.otf') format("opentype");
-}
-
-
-@font-face {
-  font-family: 'Norse';
-  font-weight: bold;
-  src: url('./fonts/Norsebold.otf') format("opentype");
-}

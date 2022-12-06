@@ -2,8 +2,6 @@ import * as actions from '../../../redux/actions'
 import { useState } from 'react'
 import { useDispatch, useSelector } from "react-redux";
 
-import './Ordering.css'
-
 export default function Ordering(){
     //dos estados uno el estado de la flecha que indica si el orden es ascendente o descendente y otro, global, que hace referencia al orden si es alfabetico o por rating.
     const [currentArrowState, setCurrentArrowState] = useState(true);
@@ -13,19 +11,19 @@ export default function Ordering(){
 
     //funcion para revertir el orden de las tarjetas y cambiar la direccion de la flecha.
     const reverseAndOrder = () => {
-        setCurrentArrowState(!currentArrowState);
+        /* setCurrentArrowState(!currentArrowState);
         dispatch(actions.reverseOrder(currentOrder))
-        dispatch(actions.orderNfts())
+        dispatch(actions.orderNfts()) */
     }
     //ordernar por alfabetico
     const orderByName = () => {
-        dispatch(actions.setOrderType('abc'))
-        dispatch(actions.orderNfts())
+        /* dispatch(actions.setOrderType('abc'))
+        dispatch(actions.orderNfts()) */
     }
     //ordernar Por Rating
     const orderByRating = () => {
-        dispatch(actions.setOrderType('rating'))
-        dispatch(actions.orderNfts())
+        /* dispatch(actions.setOrderType('rating'))
+        dispatch(actions.orderNfts()) */
     }
 
     return (
