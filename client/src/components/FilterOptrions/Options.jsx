@@ -16,7 +16,7 @@ export default function Options(){
                 {/*boton de reseteo de filtros.*/}
             <button
                 className='option-btn'
-                onClick={()=>{dispatch(actions.resetFilters())}}
+                onClick={()=>{/* dispatch(actions.resetFilters()) */}}
                 >Reset Filters
             </button>
             </div>

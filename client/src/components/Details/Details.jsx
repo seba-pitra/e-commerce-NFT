@@ -11,7 +11,7 @@ function Details(props){
     const dispatch = useDispatch();
 
     useEffect(()=>{
-        dispatch(actions.getNFTDetail(id));
+        dispatch(actions.getNftDetail(id));
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
     

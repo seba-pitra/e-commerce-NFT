@@ -17,7 +17,7 @@ export default function PageSelector(){
     return (
             <div className='page-numbers'>
                 <button 
-                    onClick={()=> dispatch(actions.previousPage())} 
+                    onClick={()=> {/* dispatch(actions.previousPage()) */}} 
                     className={activePage === 1 ? "hidden" : "page-button"}
                 >
                         &#x21e6;
@@ -25,14 +25,14 @@ export default function PageSelector(){
                 {pageNumbers.map(pageNumber => {
                     return <button 
                             key={pageNumber} 
-                            onClick={()=> dispatch(actions.selectPage(pageNumber))}
+                            onClick={()=> {/* dispatch(actions.selectPage(pageNumber)) */}}
                             className={activePage === pageNumber ? "active-page" : "page-button"}
                             >
                         {pageNumber}
                     </button>
                 })}
                 <button 
-                    onClick={()=> dispatch(actions.nextPage())}
+                    onClick={()=> {/* dispatch(actions.nextPage()) */}}
                     className={activePage === lastPageNumber ? "hidden" : "page-button"} 
                 >&#x21e8;</button>
             </div>

@@ -11,19 +11,19 @@ export default function Ordering(){
 
     //funcion para revertir el orden de las tarjetas y cambiar la direccion de la flecha.
     const reverseAndOrder = () => {
-        setCurrentArrowState(!currentArrowState);
+        /* setCurrentArrowState(!currentArrowState);
         dispatch(actions.reverseOrder(currentOrder))
-        dispatch(actions.orderNfts())
+        dispatch(actions.orderNfts()) */
     }
     //ordernar por alfabetico
     const orderByName = () => {
-        dispatch(actions.setOrderType('abc'))
-        dispatch(actions.orderNfts())
+        /* dispatch(actions.setOrderType('abc'))
+        dispatch(actions.orderNfts()) */
     }
     //ordernar Por Rating
     const orderByRating = () => {
-        dispatch(actions.setOrderType('rating'))
-        dispatch(actions.orderNfts())
+        /* dispatch(actions.setOrderType('rating'))
+        dispatch(actions.orderNfts()) */
     }
 
     return (

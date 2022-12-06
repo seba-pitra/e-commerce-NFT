@@ -16,7 +16,7 @@ function HomePage(){
     const dispatch = useDispatch();
 
     useEffect(() => {
-        dispatch(actions.getAllNFTS());
+        dispatch(actions.getAllNfts());
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
     
