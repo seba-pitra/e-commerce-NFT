@@ -2,8 +2,6 @@ import * as actions from '../../../redux/actions'
 import { useState } from 'react'
 import { useDispatch, useSelector } from "react-redux";
 
-import './Ordering.css'
-
 export default function Ordering(){
     //dos estados uno el estado de la flecha que indica si el orden es ascendente o descendente y otro, global, que hace referencia al orden si es alfabetico o por rating.
     const [currentArrowState, setCurrentArrowState] = useState(true);

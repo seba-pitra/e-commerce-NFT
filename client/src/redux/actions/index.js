@@ -44,7 +44,7 @@ export const getNFTDetail = (id) => dispatch => {
 
 
 export const createNFT = (payload) => dispatch => { 
-    return axios.post(/*Ruta del back donde se postea el nft nuevo */route,  payload)
+    return axios.post(/*Ruta del back donde se postea el nft nuevo */'ruta',  payload)
         .then(response => response.data)
         .then(json => {
             dispatch({
