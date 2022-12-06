@@ -14,10 +14,10 @@ function App() {
     <div className='App'>
       <Nav />
       <Switch>
-        <Route exact path='/' render={()=><LandingPage/>} />
+        {/* <Route exact path='/' render={()=><LandingPage/>} />
         <Route path='/home' render={()=><HomePage/>} />
         <Route path='/details/:id' render={({match}) => <Details match={match}/>}/>
-        <Route component={NotFoundException}/>
+        <Route component={NotFoundException}/> */}
       </Switch>
     </div>
   );
