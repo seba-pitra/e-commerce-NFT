@@ -6,8 +6,11 @@ import FilterOptions from '../FilterOptrions/Options';
 import Loading from '../Loading/Loading';
 import SearchBar from '../SearchBar/SearchBar';
 
+<<<<<<< HEAD
 // import './HomePage.css'
 
+=======
+>>>>>>> development
 function HomePage(){
     // eslint-disable-next-line
     const orderType = useSelector(state => state.orderType);
@@ -18,7 +21,7 @@ function HomePage(){
     const dispatch = useDispatch();
 
     useEffect(() => {
-        dispatch(actions.getAllNFTS());
+        dispatch(actions.getAllNfts());
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
     

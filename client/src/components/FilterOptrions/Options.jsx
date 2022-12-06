@@ -4,8 +4,6 @@ import Filtering from './Filtering/Filtering';
 import NFTSPerPageSelector from './NFTSPerPageSelector/NFTSPerPageSelector';
 import { useDispatch } from 'react-redux';
 
-import './Options.css'
-
 export default function Options(){
     const dispatch = useDispatch();
 
@@ -18,7 +16,7 @@ export default function Options(){
                 {/*boton de reseteo de filtros.*/}
             <button
                 className='option-btn'
-                onClick={()=>{dispatch(actions.resetFilters())}}
+                onClick={()=>{/* dispatch(actions.resetFilters()) */}}
                 >Reset Filters
             </button>
             </div>
