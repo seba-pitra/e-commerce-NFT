@@ -1,10 +1,6 @@
 import * as actions from '../../redux/actions'
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
-<<<<<<< HEAD
-// import search_icon from '../../images/utils/search_icon.png'
-=======
->>>>>>> development
 
 function SearchBar(){
     const [searchQuery, setSearchQuery] = useState("");
