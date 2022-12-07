@@ -1,5 +1,5 @@
 const fetch = require("node-fetch");
-const { allNFTs } = require("../nft");
+const { allNFTs } = require("../../../client/src/nft");
 const { Nft } = require("../db");
 
 // const createAllInitialNFTs = async () => {

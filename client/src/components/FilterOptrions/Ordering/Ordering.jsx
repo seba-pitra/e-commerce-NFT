@@ -11,19 +11,31 @@ export default function Ordering(){
 
     //funcion para revertir el orden de las tarjetas y cambiar la direccion de la flecha.
     const reverseAndOrder = () => {
-        /* setCurrentArrowState(!currentArrowState);
-        dispatch(actions.reverseOrder(currentOrder))
+        setCurrentArrowState(!currentArrowState);
+        /*dispatch(actions.reverseOrder(currentOrder))
         dispatch(actions.orderNfts()) */
     }
     //ordernar por alfabetico
     const orderByName = () => {
-        /* dispatch(actions.setOrderType('abc'))
-        dispatch(actions.orderNfts()) */
+        /* 
+        dispatch(actions.orderName(e.target.value))
+        dispatch(actions.orderNfts())
+         */
     }
     //ordernar Por Rating
-    const orderByRating = () => {
-        /* dispatch(actions.setOrderType('rating'))
-        dispatch(actions.orderNfts()) */
+    const orderByPrice = () => {
+        /*
+        dispatch(actions.setOrderType('rating'))
+        dispatch(actions.orderNfts())
+        */
+    }
+
+    const orderByAmount = () => {
+
+    }
+
+    const orderByRelease  = () => {
+
     }
 
     return (
@@ -34,21 +46,31 @@ export default function Ordering(){
                 <button 
                     id='abc-option'
                     className='option-btn button-order'
-                    value="abc" 
-                    onClick={()=> orderByName()}
-                    >Alfabetico</button>
+                    value="a-z" 
+                    onClick={(e)=> orderByName(e)}
+                    >Name</button>
                 {/*boton para elegir orden por rating*/}
                 <button
                     id='rating-option'
                     className='option-btn button-order'
-                    value="rating"
-                    onClick={()=> orderByRating()}
-                    >Rating</button>
-                    {/*boton para cambiar de orden descendente a ascendente y visceversa*/}
-                <button 
+                    value="up-down"
+                    onClick={(e)=> orderByPrice(e)}
+                    >Price</button>
+                <button
+                    id='rating-option'
+                    className='option-btn button-order'
+                    onClick={(e)=> orderByAmount(e)}
+                    >Amount</button>
+                <button
+                    id='rating-option'
+                    className='option-btn button-order'
+                    onClick={(e)=> orderByRelease(e)}
+                    >Release date</button>
+                {/*boton para cambiar de orden descendente a ascendente y visceversa*/}
+                {/* <button 
                     className='option-btn button-order'
                     dangerouslySetInnerHTML={{ __html: currentArrowState ? '&#8648;' : '&#8650;'}} 
-                    onClick={()=> reverseAndOrder()}></button>
+                    onClick={(e)=> reverseAndOrder(e)}></button> */}
             </div>
         </div>
     )
