@@ -1898,7 +1898,11 @@ const updatedNFTs = allNFTs.map(nft=>{
   }
 })
 let a= new Set(allNFTs.map(nft=>nft.collectionId))
-const allCollections= new Array(...a)
-
+let allCollections= new Array(...a)
+allCollections = allCollections.map(data => {
+  return {
+    description: data
+  }
+})
 
 module.exports = { allNFTs, updatedNFTs, allCollections };
