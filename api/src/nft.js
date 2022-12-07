@@ -1897,7 +1897,8 @@ const updatedNFTs = allNFTs.map(nft=>{
     tokenData: nft.tokenData
   }
 })
-let a= new Set(allNFTs.map(nft=>nft.collectionId))
+
+let a=  new Set(allNFTs.map(nft=>nft.collectionId))
 let allCollections= new Array(...a)
 allCollections = allCollections.map(data => {
   return {

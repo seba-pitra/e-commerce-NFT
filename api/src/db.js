@@ -44,8 +44,6 @@ sequelize.models = Object.fromEntries(capsEntries);
 // Para relacionarlos hacemos un destructuring
 const { User, Nft, Collection } = sequelize.models;
 
-// Aca vendrian las relaciones
-// Product.hasMany(Reviews);
 
 User.hasMany(Nft);
 Nft.belongsTo(User);

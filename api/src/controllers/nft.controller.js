@@ -19,6 +19,7 @@ const createAllInitialNFTs = async () => {
     }
 
     let createdNft = await Nft.create(nftToCreated);
+
     let createdCollection = await Collection.findOrCreate({
       where: {
         description: data.collectionId
