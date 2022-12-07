@@ -5,14 +5,10 @@ module.exports = (sequelize) => {
     "nft",
     {
       id: {
-        type: DataTypes.UUID,
-        defaultValue: DataTypes.UUIDV4,
+        type: DataTypes.INTEGER,
         primaryKey: true,
         unique: true,
         allowNull: false,
-        validate: {
-          isUUID: 4,
-        },
       },
       type: {
         type: DataTypes.STRING,
@@ -22,9 +18,8 @@ module.exports = (sequelize) => {
         type: DataTypes.STRING,
         allowNull: false,
       },
-      collectionId: {
+      tokenId: {
         type: DataTypes.STRING,
-        allowNull: false,
       },
       price: {
         type: DataTypes.FLOAT,
