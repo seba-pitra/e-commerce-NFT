@@ -4,18 +4,26 @@ import axios from 'axios';
 // import * as controllers from '../../utils';
 export const GET_ALL_NFTS = "GET_ALL_NFTS";
 export const GET_NFT_DETAIL = "GET_NFT_DETAIL";
-// export const CREATE_NFT = "CREATE_NFT";
-// export const DELETE_NFT = "DELETE_NFT";
+export const CREATE_NFT = "CREATE_NFT";
+export const DELETE_NFT = "DELETE_NFT";
+export const UPDATE_NFT = "UPDATE_NFT";
+
+export const RESET_FILTERS = "RESET_FILTERS";
+export const FILTER_NFT_COLLECTION = "FILTER_NFT_COLLECTION"; 
+export const FILTER_NFT_CATEGORY = "FILTER_NFT_CATEGORY"; 
+export const FILTER_NFT_STATE = "FILTER_NFT_STATE";
+export const ORDER_NFT_PRICE = "ORDER_NFT_PRICE"; 
+export const ORDER_NFT_AMOUNT = "ORDER_NFT_AMOUNT";
+export const ORDER_NFT_CREATED_AT = "ORDER_NFT_CREATED_AT"; 
+
 // export const SEARCH_NFT = "SEARCH_NFT";
-// export const RESET_FILTERS = "RESET_FILTERS";
-// export const ORDER_NFTS = "ORDER_NFTS";
 // export const SELECT_PAGE = "SELECT_PAGE";
 // export const PREV_PAGE = "PREV_PAGE";
 // export const NEXT_PAGE = "NEXT_PAGE";
 // export const SET_NFTS_PER_PAGE = "SET_GAMES_PER_PAGE";
 // export const SET_ORDER_TYPE = "SET_ORDER_TYPE";
-// export const REVERSE_ORDER = "REVERSE_ORDER";
-// export const LOADING = "LOADING";
+
+export const LOADING = "LOADING";
 
 export const getAllNfts = () => {
   dispatch({type : LOADING}) // set loading > settear en null en reducer
@@ -43,7 +51,81 @@ export const getNftDetail = (id) => {
   }
 };
 
+export const resetFilters = (payload) => {
+  return { type: RESET_FILTERS, payload } // reset all > copy nft on nftFilters
+};
 
+// --- FILTERS ---
+
+export const filterCollection = (payload) => {
+  return { type: FILTER_NFT_COLLECTION, payload } // creadores
+};
+
+export const filterCategory = (payload) => {
+  return { type: FILTER_NFT_CATEGORY, payload } // autos - monos - perros - etc
+};
+
+export const filterState = (payload) => {
+  return { type: FILTER_NFT_STATE, payload } // compra o subasta
+};
+
+// --- ORDERS ---
+
+export const orderName = (payload) => {
+  return { type: ORDER_NFT_NAME, payload } // nombre asc o des ??? pa que... 
+};
+
+export const orderPrice = (payload) => {
+  return { type: ORDER_NFT_PRICE, payload } // precio mayor a menor ... precio de $x a $xxx
+};
+
+export const orderAmount = (payload) => {
+  return { type: ORDER_NFT_AMOUNT, payload } // cantidad 1 o 100 unidades
+};
+
+export const orderCreatedAt = (payload) => {
+  return { type: ORDER_NFT_CREATED_AT, payload } // mas nuevos, mas antiguos
+};
+
+
+
+
+
+// --- ADMIN ONLY --- 
+
+export const createNft = (payload) => {
+  return async (dispatch) => {
+    try {
+      await axios.post(`ruta`, payload)
+      dispatch({type: CREATE_NFT }) // no hace nada actualmente 
+      alert("NFT created successfully");
+      window.location.href = "ruta al home";
+    } catch (e) {
+      alert(e.response.data)
+    }
+  }
+}
+
+export const deleteNft = (id) => {
+  return async (dispatch) => {
+    const deletedNft = await axios.delete(`ruta delete o borrado logico??`) // http://localhost:3001/recipes/delete/${id}
+    dispatch({type: DELETE_NFT, payload: deletedNft.data}) // no hace nada actualmente 
+  }
+}
+
+export const updateNft = (payload) => { // que se puede updatear? 
+  return async (dispatch) => {
+    try {
+      await axios.put(`ruta update`, payload)
+      dispatch({type: UPDATE_NFT}) // no hace nada actualmente 
+      alert("NFT updated successfully");
+    } catch (e) {
+      alert(e.response.data)
+    } 
+  }
+}
+
+// --- ADMIN ONLY --- 
 
 
 

@@ -1,7 +1,7 @@
 // branch
 
-import { GET_ALL_NFTS, GET_NFT_DETAIL } from "../actions";
-// CREATE_NFT, DELETE_NFT, SEARCH_NFT, RESET_FILTERS, ORDER_NFTS, SELECT_PAGE, SET_NFTS_PER_PAGE, SET_ORDER_TYPE, REVERSE_ORDER, NEXT_PAGE, PREV_PAGE, LOADING,
+import { GET_ALL_NFTS, GET_NFT_DETAIL, CREATE_NFT, DELETE_NFT, UPDATE_NFT} from "../actions";
+//  SEARCH_NFT, RESET_FILTERS, ORDER_NFTS, SELECT_PAGE, SET_NFTS_PER_PAGE, SET_ORDER_TYPE, REVERSE_ORDER, NEXT_PAGE, PREV_PAGE, LOADING,
 
 // import * as controllers from '../../utils'
 
@@ -32,18 +32,16 @@ const rootReducer = (state = initialState, action) => {
       return { ...state, nfts: action.payload, filteredNfts: action.payload, nftDetail: {}, isLoading: false } // reset all
     case GET_NFT_DETAIL:
       return { ...state, nftDetail: action.payload, isLoading : false }
-    //agrega el nft creado al final del estado.
-    // case CREATE_NFT:
-    //   return {
-    //     ...state,
-    //     nfts: state.nfts.concat(action.payload)
-    //   }
-    //   //borra el nft que se indica por id
-    // case DELETE_NFT:
-    //   return {
-    //     ...state,
-    //     nfts : state.nfts.filter(nfts => nfts.id !== action.payload)
-    //   }
+    case CREATE_NFT:
+      return { ...state } // no hace nada actualmente
+    case DELETE_NFT:
+      return { ...state } // no hace nada actualmente
+    case UPDATE_NFT:
+      return { ...state } // no hace nada actualmente
+
+
+
+
     //   //aplica la logica de busqueda y resetea la la pagina activa e indica que ya no esta cargando.
     // case SEARCH_NFT:
     //     /*Logica de busqueda */
