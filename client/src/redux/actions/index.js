@@ -1,5 +1,4 @@
 // branch
-
 import axios from 'axios';
 // import * as controllers from '../../utils';
 export const GET_ALL_NFTS = "GET_ALL_NFTS";
@@ -26,28 +25,28 @@ export const ORDER_NFT_CREATED_AT = "ORDER_NFT_CREATED_AT";
 export const LOADING = "LOADING";
 
 export const getAllNfts = () => {
-  dispatch({type : LOADING}) // set loading > settear en null en reducer
   return async (dispatch) => {
-    try {
-      const allNfts = await axios.get("ruta") // add ruta
-      dispatch({type: GET_ALL_NFTS, payload: allNfts.data})
-    }
-    catch (e) {
-      alert("There was a connection error, please try again later")
-    }
+      dispatch({type : LOADING}) // set loading > settear en null en reducer
+      try {
+          const allNfts = await axios.get("ruta") // add ruta
+          dispatch({type: GET_ALL_NFTS, payload: allNfts.data})
+      }
+      catch (e) {
+          alert("There was a connection error, please try again later")
+      }
   }
 };
 
 export const getNftDetail = (id) => {
-  dispatch({type : LOADING}) // set loading > settear en null en reducer
   return async (dispatch) => {
-    try{
+    dispatch({type : LOADING}) // set loading > settear en null en reducer
+      try{
       const nftId = await axios.get(`ruta`) // add ruta http://localhost:3001/recipes/${id}
       dispatch({type: GET_NFT_DETAIL, payload: nftId.data})
-    }
-    catch (e) {
+      }
+      catch (e) {
       alert(e.response.data)
-    }
+      }
   }
 };
 
