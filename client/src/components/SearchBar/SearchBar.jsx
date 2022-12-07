@@ -1,6 +1,7 @@
 import * as actions from '../../redux/actions'
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
+import './SearchBar.css'
 
 function SearchBar(){
     const [searchQuery, setSearchQuery] = useState("");
@@ -19,7 +20,10 @@ function SearchBar(){
         <div className='search-bar-container'>    
             <form onSubmit={search} className='search-bar-component'>
                     <input
-                        className="search-input"
+                        className="search-input
+                            brand-colorized-border-color
+                            brand-colorized-background-color
+                            brand-colorized-text"
                         type="text"
                         placeholder="Nombre..."
                         value={searchQuery}
@@ -28,9 +32,7 @@ function SearchBar(){
                     <button 
                         id="search-btn"
                         type="submit">
-                        <img 
-                            className="search-icon"
-                            alt="" />
+                        Buscar
                     </button>
             </form>
         </div>

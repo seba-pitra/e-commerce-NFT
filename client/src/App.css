@@ -16,3 +16,15 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
 }
+
+.brand-colorized-text{
+  color: rgb(211, 68, 139);
+}
+
+.brand-colorized-background-color {
+  background-color: rgb(3, 6, 21);
+}
+
+.brand-colorized-border-color{
+  color: rgb(211, 68, 139);
+}
