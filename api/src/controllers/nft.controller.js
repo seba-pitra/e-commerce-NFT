@@ -1,17 +1,20 @@
-const { API_KEY } = process.env;
 const fetch = require("node-fetch");
-// const {  } = require("../db");
+const { allNFTs } = require("../nft");
+
+const getNfts = async () => {
+  if (!allNFTs.length) throw new Error("No NFT found");
+
+  return allNFTs;
+};
+
+const searchNftById = async (id) => {};
+
+const searchNftByName = async (name) => {};
 
 const createNft = async () => {};
-
-const getNfts = async () => {};
-
-const searchByName = async (name) => {};
-
-const searchById = async (id) => {};
 
 const update = async (attribute, value, dogId) => {};
 
 const deleteController = async (id) => {};
 
-module.exports = {};
+module.exports = { getNfts };

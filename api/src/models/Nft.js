@@ -6,6 +6,7 @@ module.exports = (sequelize) => {
     {
       id: {
         primaryKey: true,
+        type: DataTypes.INTEGER,
         unique: true,
         allowNull: false,
       },
@@ -34,12 +35,12 @@ module.exports = (sequelize) => {
         unique: true,
       },
       source: {
-        type: DataTypes.JSON,
+        type: DataTypes.JSONB,
         allowNull: false,
         unique: true,
       },
       tokenData: {
-        type: DataTypes.JSON,
+        type: DataTypes.JSONB,
         allowNull: false,
         unique: true,
       },
