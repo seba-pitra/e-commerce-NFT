@@ -1,0 +1,183 @@
+{
+    "collections": [
+    {
+    "collectionId": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+    "name": "CryptoPunks",
+    "contract": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+    "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1a4a0b4a39ab04b646bf006827af0929a777e4ae02b4fa3341d5847437ec6c95b780286950562004e1ea5e7f4a6716ddc0fdfedcfe2d1c387cf166e6375a5f01d5b5160c4ca13188e42167a8d4461cc76f500f6f307553a5e84f2a9f09b186f842a1771aa3e1ed870695a9b1b4ab8bc0e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+    "allTimeVolume": 1043121.59093,
+    "floorAskPrice": 63.95,
+    "openseaVerificationStatus": "verified"
+    },
+    {
+    "collectionId": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+    "name": "Bored Ape Yacht Club",
+    "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+    "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+    "allTimeVolume": 879298.31853,
+    "floorAskPrice": 65.35,
+    "openseaVerificationStatus": "verified"
+    },
+    {
+    "collectionId": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+    "name": "Mutant Ape Yacht Club",
+    "contract": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+    "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75add5f47e04b38afadae642f273a0e37a608bbf1e23918d071719d2575201a4ba471d208a841cc7be27238ee19d228ef9271e34cc8f24a46c583c154c71df043228d781a2f5402cd108e96956e9ab029c8fa81a7b290da3f11e52558afbc546482bd501fff65d912d2fa0686ee8650bc94e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+    "allTimeVolume": 583192.67668,
+    "floorAskPrice": 14,
+    "openseaVerificationStatus": "verified"
+    },
+    {
+    "collectionId": "0x34d85c9cdeb23fa97cb08333b511ac86e1c4e258",
+    "name": "Otherdeed for Otherside",
+    "contract": "0x34d85c9cdeb23fa97cb08333b511ac86e1c4e258",
+    "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a312e057711fee47e5880a927227bc0be8dabc8057b8b4b70cf2da64a178af36b369afc886ecdb237a5719d74e606af03e819c6cd53f53d6c005fb418440dc3e735393c985a6ece34ea2308e11f52cdf7357efd788860d2da0e11ab756d28b9632ccce254c9443767b86ff31e7b7292d3e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+    "allTimeVolume": 468437.24811,
+    "floorAskPrice": 1.1929,
+    "openseaVerificationStatus": "verified"
+    },
+    {
+    "collectionId": "0xed5af388653567af2f388e6224dc7c4b3241c544",
+    "name": "Azuki",
+    "contract": "0xed5af388653567af2f388e6224dc7c4b3241c544",
+    "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ade092235bd2cc36d27b9d693db89296f1838ead5239984050e8de91af3996f95465b116f05bc00810d8b94061be9813ed5d3982897ac3347986988af960c0c9dcb69dba529f802a98f9ff00deaddb0ec492fd785dbf724889ce41b42f7d748eda17b0f81bb9b0257361cdb74bd6cfa4d058ed9feecb44e991ea6b299d1f7ae6c",
+    "allTimeVolume": 338309.4781,
+    "floorAskPrice": 11.5,
+    "openseaVerificationStatus": "verified"
+    },
+    {
+    "collectionId": "0x495f947276749ce646f68ac8c248420045cb7b5e",
+    "name": "OS Shared Storefront Collection",
+    "contract": "0x495f947276749ce646f68ac8c248420045cb7b5e",
+    "allTimeVolume": 311314.79609,
+    "floorAskPrice": 0,
+    "openseaVerificationStatus": "not_requested"
+    },
+    {
+    "collectionId": "0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b",
+    "name": "CLONE X - X TAKASHI MURAKAMI",
+    "contract": "0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b",
+    "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a29a27e034e4df3c9f68cd43b02c48784fb552715c3078de9d0cc3a9b98cf5c634dda87b54af68ab3b8c4271b52dd4984ce8b97fd66689d52d3f4b6fc39a04b34cf9188c37ecf01787318fc704f1912ea6726789ef90d80817749b960c107c3de9c285c2a6e3c0941ca87e837a063755d23c5e4198f99eda3f3b783c3322e8c56",
+    "allTimeVolume": 286600.36312,
+    "floorAskPrice": 6.19,
+    "openseaVerificationStatus": "verified"
+    },
+    {
+    "collectionId": "0x23581767a106ae21c074b2276d25e5c3e136a68b",
+    "name": "Moonbirds",
+    "contract": "0x23581767a106ae21c074b2276d25e5c3e136a68b",
+    "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75afd2453db10ed50e9b73fd05665bc30a36c2eb9587eeb8d2502da2126aed43c11a0728ecf7489095022e52a29b278734dfd2838640733cd02842339b5f64d047bdf30acbe563444e5f1e68084758a00550560b7b733f9d19973e57111fe6304fd528269adf03a7fb1229776ad447124c5058ed9feecb44e991ea6b299d1f7ae6c",
+    "allTimeVolume": 222633.35589,
+    "floorAskPrice": 8.65,
+    "openseaVerificationStatus": "verified"
+    },
+    {
+    "collectionId": "0x7bd29408f11d2bfc23c34f18275bbf23bb716bc7",
+    "name": "Meebits",
+    "contract": "0x7bd29408f11d2bfc23c34f18275bbf23bb716bc7",
+    "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a72c339e5972b7b383fd7f8091bc81572376e83b0993480cab7cffeab945c5ccea3f461132961111acadfe097a150e87c23df5d17b79ef021b83c754f395f0d6bf0636e00d2bdf040d4c79b48c4760b70fc61dddaa4d6aca18a1afc161b4d3c53b81f34b9ba8bd0a70d9171d3ab000f331e9cbf17948473242070ca80b70c6daf",
+    "allTimeVolume": 195883.91856,
+    "floorAskPrice": 2.69037,
+    "openseaVerificationStatus": "verified"
+    },
+    {
+    "collectionId": "0x8a90cab2b38dba80c64b7734e58ee1db38b8992e",
+    "name": "Doodles",
+    "contract": "0x8a90cab2b38dba80c64b7734e58ee1db38b8992e",
+    "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a62423cbe449c8eb60fe73563a761fff51abb4ff1d5da793726c4942fbea3d5d088636aa5590d5a80178caa145c6d7aad84424b2fdba87369effb5e576530cbbec1394fd02cd2dca60f0553d2a30c85c91aafba61cd1343aff5268522af620956420a6caec8dbc0fd3d8be83038d4a57123c5e4198f99eda3f3b783c3322e8c56",
+    "allTimeVolume": 187530.08505,
+    "floorAskPrice": 6.88,
+    "openseaVerificationStatus": "verified"
+    },
+    {
+    "collectionId": "0x81ae0be3a8044772d04f32398bac1e1b4b215aa8",
+    "name": "Dreadfulz",
+    "contract": "0x81ae0be3a8044772d04f32398bac1e1b4b215aa8",
+    "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a34593e36272c72a4a0cb71d258795f975f04ef940ef21283ed905e52a2f2014a91568e81e1f1e32e2186f4f8abfffafad9a9e237b95a15a8855d1b24a27bdf9989b6f3ef57a60565f68f345520e2289b2310e29bfc66013d13af69a4e74f604697fb67698df12bfc7778658fa8dbc54923c5e4198f99eda3f3b783c3322e8c56",
+    "allTimeVolume": 177683.90545,
+    "floorAskPrice": 0.011,
+    "openseaVerificationStatus": "approved"
+    },
+    {
+    "collectionId": "0xba30e5f9bb24caa003e9f2f0497ad287fdf95623",
+    "name": "Bored Ape Kennel Club",
+    "contract": "0xba30e5f9bb24caa003e9f2f0497ad287fdf95623",
+    "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a34caf4d36ac247845734cd2b5d546e015746f2d7a43cef00f69198630680042d386968c0c2e3b0880c326bc679c36ed202f267a1671542285a8fe36c7930d2f0fccf916fc1385ad0fbdadb95826791965feef8817e6541c6cda6919c5714f54cc4f4eb994752befe6cdbe0274b8aa63e058ed9feecb44e991ea6b299d1f7ae6c",
+    "allTimeVolume": 132046.70106,
+    "floorAskPrice": 6.3,
+    "openseaVerificationStatus": "verified"
+    },
+    {
+    "collectionId": "0x1a92f7381b9f03921564a437210bb9396471050c",
+    "name": "Cool Cats NFT",
+    "contract": "0x1a92f7381b9f03921564a437210bb9396471050c",
+    "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ac69f84c3e344979d401b066fbd65075972085e71bd967382d82eb143aa29a09d973c75b036a6e2a3bb2aad1ac4063a971f52ac8108d3f3e3a30dd66cf186dd97e1258bdc337f49a2fdc6e2edf4a2cb2fe3e5a86dccbb196bfb7b60037f4b772b6b1a15dd2ceabcf5fb2b065c6107bd6fe1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+    "allTimeVolume": 122921.61101,
+    "floorAskPrice": 1.839,
+    "openseaVerificationStatus": "verified"
+    },
+    {
+    "collectionId": "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+    "name": "ENS: Ethereum Name Service",
+    "contract": "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+    "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a156ce2bbcb982384df0fefca79e9e9f75bd42a5b5dffcdbd31c79fc19144d6c1c7bc3d212bd6b15392edd0a52139dedc0fab89cf00976fbfe7eec09d215f4a4cbc4177a9fe19bb4d36047c652d637ad0e9dba01419b98c6b8e42c4558640c76d624989a207071c237e059a8d388ef8732573e7e40288fee9530d283ebd0a413d",
+    "allTimeVolume": 106375.60374,
+    "floorAskPrice": 0,
+    "openseaVerificationStatus": "verified"
+    },
+    {
+    "collectionId": "0x50f5474724e0ee42d9a4e711ccfb275809fd6d4a",
+    "name": "The Sandbox",
+    "contract": "0x50f5474724e0ee42d9a4e711ccfb275809fd6d4a",
+    "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a6471a7c55387162658cd5195226e3a07c6a4f7a2417ead7098f813325196c4e08c53ad23983f71823bba09eedce30a0cdc1db65a3ecfe8e05aa0da38667b38a1a677e642c4f457e8f23030295d23c6565b9d4506f2fc34e99eacf28d765773c1e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+    "allTimeVolume": 98743.1533,
+    "floorAskPrice": null,
+    "openseaVerificationStatus": "verified"
+    },
+    {
+    "collectionId": "0x306b1ea3ecdf94ab739f1910bbda052ed4a9f949",
+    "name": "BEANZ Official",
+    "contract": "0x306b1ea3ecdf94ab739f1910bbda052ed4a9f949",
+    "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55dd384adc9521d113a24fe98387afdec136a173c9663c1ff0085b4d116bc9dac7923413fa89d788ada3770b0110ccf46c1a445c39cf0b64df2c9bebc8883a4287442361f6a380fae228cc5ba5eee0b5ebc91cb01c4001e176c819ae8cdac74461056fde4e6b62b37730acbff3275ba4058ed9feecb44e991ea6b299d1f7ae6c",
+    "allTimeVolume": 90339.3731,
+    "floorAskPrice": 0.85417,
+    "openseaVerificationStatus": "verified"
+    },
+    {
+    "collectionId": "0xe785e82358879f061bc3dcac6f0444462d4b5330",
+    "name": "World of Women",
+    "contract": "0xe785e82358879f061bc3dcac6f0444462d4b5330",
+    "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ad0a29636af3ccaf8a59e58cd06ab7c47466b23e0e10af865ef4cf798816eee86fb2de3775bbd3e0aa4db6e36db489e4c46f9e628a5a688fb09d1b2c155d609a8cd9517d7ff27f1a7b906c838f95db9cfccc8cd52325f5d0461fb649815b0d4cdf96645ee922629e1e033f7e94277d8f7058ed9feecb44e991ea6b299d1f7ae6c",
+    "allTimeVolume": 79082.43443,
+    "floorAskPrice": 1.83,
+    "openseaVerificationStatus": "verified"
+    },
+    {
+    "collectionId": "0xff9c1b15b16263c61d017ee9f65c50e4ae0113d7",
+    "name": "Loot (for Adventurers)",
+    "contract": "0xff9c1b15b16263c61d017ee9f65c50e4ae0113d7",
+    "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a708966a998fdb3ce0b7de059237609a6f96c885bbd90fb1d065efb59ea7321d73425756b212ee25c0288862bc313af285ed850de181e72e932b454d5fdd583b95337bcb172fe71a0a50d6067e5d88f3bc384c97797a4abeff3084cc2378db26e2aa0971ec3e0f64ea50f4751369e81ca23c5e4198f99eda3f3b783c3322e8c56",
+    "allTimeVolume": 78496.51612,
+    "floorAskPrice": 0.88,
+    "openseaVerificationStatus": "verified"
+    },
+    {
+    "collectionId": "0x1cb1a5e65610aeff2551a50f76a87a7d3fb649c6",
+    "name": "CrypToadz by GREMPLIN",
+    "contract": "0x1cb1a5e65610aeff2551a50f76a87a7d3fb649c6",
+    "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aca53b9894e1dd29a16fba3de7a87e8fc731c8d9fd2a72cd98fa0da5406c8d0dc8d4bf2045a42310d20553e9be84d5f398c63efeb71b4c160d21ecaa1f2f12b3be3417aa13b9b637b10db9babd1a1ea3bad692ed91929335b17ed8338e7176e29f2c20d0c510023e330011eb1379e635ee1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+    "allTimeVolume": 75267.71243,
+    "floorAskPrice": 1.282,
+    "openseaVerificationStatus": "verified"
+    },
+    {
+    "collectionId": "0xbd3531da5cf5857e7cfaa92426877b022e612cf8",
+    "name": "Pudgy Penguins",
+    "contract": "0xbd3531da5cf5857e7cfaa92426877b022e612cf8",
+    "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a133473830b9a4bfc738149880fb0ba3a79e4c2e3edcf9b1879ca8816426c991f44080eb1776b34ba94a24f7dc56feae2af2baa6eb93c70fd4972f9cef58f13dcd23baf62a3b815e43fcfc793c10cc7ae876458edd173aac6c211f9e6be778a46ea973687b4a4852abdda38aab69dda61058ed9feecb44e991ea6b299d1f7ae6c",
+    "allTimeVolume": 72748.79509,
+    "floorAskPrice": 4.2849,
+    "openseaVerificationStatus": "verified"
+    }
+    ]
+    }

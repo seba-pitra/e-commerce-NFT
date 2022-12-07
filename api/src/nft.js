@@ -1886,7 +1886,6 @@ const allNFTs = [
   },
 ];
 
-
 const updatedNFTs = allNFTs.map(nft=>{
   return {
     id:nft.id,
