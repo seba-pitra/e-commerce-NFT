@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.navbar-company-name-header {
+    margin-left: 10%;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bolder;
+    font-size: 100%;
+}
+
+.search-input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid;
+}
+
+.search-input:focus{
+    outline: none;
+}
+.search-input::placeholder{
+    color: rgb(211, 68, 139, 0.5);
+}
+
