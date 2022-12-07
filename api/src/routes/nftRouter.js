@@ -3,32 +3,24 @@ const {
   getNfts,
   searchNftById,
   createAllInitialNFTs,
-  createInitialCollections
+  createNft,
 } = require("../controllers/nft.controller");
 
 const nftRouter = Router();
 
 nftRouter.post("/", async (req, res) => {
-  // try {
-  //   res.status(201).json();
-  // } catch (err) {
-  //   res.status(400).send(err.message);
-  // }
+  try {
+    const newNft = await createNft(req.body);
+    res.status(201).send("todo ok");
+  } catch (err) {
+    res.status(400).send(err.message);
+  }
 });
 
 nftRouter.post("/initialNFTs", async (req, res) => {
   try {
     const createdNFTs = await createAllInitialNFTs();
-    res.status(201).json(createdNFTs);
-  } catch (err) {
-    res.status(400).send(err);
-  }
-});
-
-nftRouter.post("/initialCollections", async (req, res) => {
-  try {
-    const createdCollection = await createInitialCollections();
-    res.status(201).json(createdCollection);
+    res.status(201).send("se crearon correctamente");
   } catch (err) {
     res.status(400).send(err);
   }

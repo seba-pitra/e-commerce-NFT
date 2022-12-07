@@ -18,8 +18,9 @@ module.exports = (sequelize) => {
         type: DataTypes.STRING,
         allowNull: false,
       },
-      tokenId: {
+      collectionId: {
         type: DataTypes.STRING,
+        allowNull: false,
       },
       price: {
         type: DataTypes.FLOAT,
