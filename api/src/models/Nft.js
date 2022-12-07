@@ -18,10 +18,6 @@ module.exports = (sequelize) => {
         type: DataTypes.STRING,
         allowNull: false,
       },
-      collectionId: {
-        type: DataTypes.STRING,
-        allowNull: false,
-      },
       tokenId: {
         type: DataTypes.STRING,
       },
