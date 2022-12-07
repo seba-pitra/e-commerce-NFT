@@ -5,7 +5,6 @@ const { Nft, Collection } = require("../db");
 const createAllInitialNFTs = async () => {
   allNFTs.forEach(async (data) => {
     let nftToCreated = {
-      id: data.id,
       type: data.type,
       contract: data.contract,
       tokenId: data.tokenId,
@@ -18,7 +17,7 @@ const createAllInitialNFTs = async () => {
 
     let createdCollection = await Collection.findOrCreate({
       where: {
-        description: data.collectionId,
+        id: data.collectionId,
       },
     }).then(([collection, created]) => collection);
 
@@ -51,13 +50,15 @@ const createNft = async (body) => {
 };
 
 const getNfts = async () => {
-  const dbNfts = await Nft.findAll({
+  const dbNfts = await Nft
+    .findAll
+    /* {
     include: {
       model: Collection,
-      through: { attributes: [] },
+      attributes: ["id"],
     },
-  });
-
+  } */
+    ();
   if (!dbNfts.length) throw new Error("No NFT found");
 
   return dbNfts;

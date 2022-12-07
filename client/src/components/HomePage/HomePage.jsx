@@ -16,23 +16,22 @@ function HomePage(){
 
     const dispatch = useDispatch();
 
-    /* useEffect(() => {
+     useEffect(() => {
         dispatch(actions.getAllNfts());
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, []); */
+    }, [dispatch]); // <<-- only on Loading 
     
     return(
         <>
         <div className='home-background'>
             <div className='home-container'>
                 {/*si estoy haciendo todavia el fetch muestro el componente de carga sino muestro los componentes pertenecientes a la homepage*/}
-	    {isLoading ? 
-            <Loading/> : 
-                <>
+	    {isLoading ?      
+            <Loading/> :      
+                <>        
                 <FilterOptions/>
                 <Pages />
                 </>
-	    }  
+	    }   
             </div>
         </div>
         </>
