@@ -12,9 +12,16 @@ import NFTNav from './components/NFTNav/NFTNav';
 function App() {
   return (
     <div className='App'>
+<<<<<<< HEAD
       <NFTNav />
+=======
+      
+>>>>>>> development
       <Switch>
-        {/* <Route exact path='/' render={()=><LandingPage/>} />
+    
+	<Route exact path='/' render={()=><LandingPage/>} />
+	<Route path='/home' render={()=><HomePage/>} />
+    {/* <Route exact path='/' render={()=><LandingPage/>} />
         <Route path='/home' render={()=><HomePage/>} />
         <Route path='/details/:id' render={({match}) => <Details match={match}/>}/>
         <Route component={NotFoundException}/> */}

@@ -18,7 +18,8 @@ function SearchBar(){
 
     return (
         <div className='search-bar-container'>    
-            <form onSubmit={search} className='search-bar-component'>
+    
+	    <form onSubmit={search} className='search-bar-component'>
                     <input
                         className="search-input
                             brand-colorized-border-color
