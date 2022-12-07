@@ -32,7 +32,16 @@ module.exports = (sequelize) => {
         unique: true,
       },
       type: {
-        type: DataTypes.ENUM("Admin", "Basic", "Medium"),
+        type: DataTypes.STRING,
+        defaultValue: "Basic",
+        validate: {
+          customValidator: (value) => {
+            const enums = ["Admin", "Medium"];
+            if (!enums.includes(value)) {
+              throw new Error("not a valid option");
+            }
+          },
+        },
         allowNull: false,
       },
       dni: {
