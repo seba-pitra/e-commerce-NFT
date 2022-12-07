@@ -6,6 +6,7 @@ function Nav(){
     return(
         <>
             <div>
+		<h1> NAV BAR</h1>
                 <img src="" alt="" />
             </div>
         </>

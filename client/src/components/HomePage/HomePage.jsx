@@ -5,9 +5,11 @@ import Pages from "../Pages/Pages";
 import FilterOptions from '../FilterOptrions/Options';
 import Loading from '../Loading/Loading';
 import SearchBar from '../SearchBar/SearchBar';
+import Nav from '../../components/Nav/Nav';
 
 function HomePage(){
     // eslint-disable-next-line
+/*
     const orderType = useSelector(state => state.orderType);
     // eslint-disable-next-line
     const order = useSelector(state => state.order);
@@ -19,20 +21,23 @@ function HomePage(){
         dispatch(actions.getAllNfts());
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
-    
+  */  
     return(
         <>
         <div className='home-background'>
             <div className='home-container'>
                 {/*si estoy haciendo todavia el fetch muestro el componente de carga sino muestro los componentes pertenecientes a la homepage*/}
-                {isLoading ? 
-                    <Loading/> : 
+                
+	{/*	{isLoading ?  */ }
+                    
+	    	 
                     <>
+	    	    <Nav />
                     <SearchBar/>
                     <FilterOptions/>
                     <Pages />
                     </>
-                }
+	    {/*      }  */ }
             </div>
         </div>
         </>

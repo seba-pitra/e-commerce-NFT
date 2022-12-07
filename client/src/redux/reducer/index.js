@@ -1,6 +1,6 @@
 // branch
 
-import { GET_ALL_NFTS, GET_NFT_DETAIL } from "../actions";
+import { GET_ALL_NFTS, GET_NFT_DETAIL, LOADING } from "../actions";
 // CREATE_NFT, DELETE_NFT, SEARCH_NFT, RESET_FILTERS, ORDER_NFTS, SELECT_PAGE, SET_NFTS_PER_PAGE, SET_ORDER_TYPE, REVERSE_ORDER, NEXT_PAGE, PREV_PAGE, LOADING,
 
 // import * as controllers from '../../utils'
