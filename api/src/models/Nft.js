@@ -5,8 +5,8 @@ module.exports = (sequelize) => {
     "nft",
     {
       id: {
-        primaryKey: true,
         type: DataTypes.INTEGER,
+        primaryKey: true,
         unique: true,
         allowNull: false,
       },
@@ -17,32 +17,22 @@ module.exports = (sequelize) => {
       contract: {
         type: DataTypes.STRING,
         allowNull: false,
-        unique: true,
       },
       collectionId: {
         type: DataTypes.STRING,
         allowNull: false,
-        unique: true,
       },
       tokenId: {
         type: DataTypes.STRING,
-        allowNull: false,
-        unique: true,
       },
       price: {
         type: DataTypes.FLOAT,
-        allowNull: false,
-        unique: true,
       },
       source: {
         type: DataTypes.JSONB,
-        allowNull: false,
-        unique: true,
       },
       tokenData: {
         type: DataTypes.JSONB,
-        allowNull: false,
-        unique: true,
       },
     },
     {
