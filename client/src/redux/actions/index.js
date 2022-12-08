@@ -10,6 +10,7 @@ export const RESET_FILTERS = "RESET_FILTERS";
 export const FILTER_NFT_COLLECTION = "FILTER_NFT_COLLECTION"; 
 export const FILTER_NFT_CATEGORY = "FILTER_NFT_CATEGORY"; 
 export const FILTER_NFT_STATE = "FILTER_NFT_STATE";
+export const FILTER_NFT_PRICE = "FILTER_NFT_PRICE"; 
 export const ORDER_NFT_NAME = "ORDER_NFT_NAME"; 
 export const ORDER_NFT_PRICE = "ORDER_NFT_PRICE"; 
 export const ORDER_NFT_AMOUNT = "ORDER_NFT_AMOUNT"; 
@@ -19,27 +20,27 @@ export const LOADING = "LOADING";
 
 export const getAllNfts = () => {
   return async (dispatch) => {
-      dispatch({type : LOADING}) // set loading > settear en null en reducer
-      try {
-          const allNfts = await axios.get("ruta") // add ruta
-          dispatch({type: GET_ALL_NFTS, payload: allNfts.data})
-      }
-      catch (e) {
-          alert("There was a connection error, please try again later")
-      }
+    dispatch({type : LOADING})
+    try {
+      const allNfts = await axios.get("/nft")
+      dispatch({type: GET_ALL_NFTS, payload: allNfts.data})
+    }
+    catch (e) {
+      alert("There was a connection error, please try again later")
+    }
   }
 };
 
 export const getNftDetail = (id) => {
   return async (dispatch) => {
-    dispatch({type : LOADING}) // set loading > settear en null en reducer
-      try{
-      const nftId = await axios.get(`ruta`) // add ruta http://localhost:3001/recipes/${id}
+    dispatch({type : LOADING})
+    try{
+      const nftId = await axios.get(`/nft/${id}`)
       dispatch({type: GET_NFT_DETAIL, payload: nftId.data})
-      }
-      catch (e) {
+    }
+    catch (e) {
       alert(e.response.data)
-      }
+    }
   }
 };
 
@@ -50,33 +51,37 @@ export const resetFilters = (payload) => {
 // --- FILTERS ---
 
 export const filterCollection = (payload) => {
-  return { type: FILTER_NFT_COLLECTION, payload } // creadores
+  return { type: FILTER_NFT_COLLECTION, payload }
 };
 
 export const filterCategory = (payload) => {
-  return { type: FILTER_NFT_CATEGORY, payload } // autos - monos - perros - etc
+  return { type: FILTER_NFT_CATEGORY, payload }
+};
+
+export const filterPrice = (payload) => {
+  return { type: FILTER_NFT_PRICE, payload }
 };
 
 export const filterState = (payload) => {
-  return { type: FILTER_NFT_STATE, payload } // compra o subasta
+  return { type: FILTER_NFT_STATE, payload } // compra o subasta FALTA EDITAR TYPE BACK
 };
 
 // --- ORDERS ---
 
 export const orderName = (payload) => {
-  return { type: ORDER_NFT_NAME, payload } // nombre asc o des ??? pa que... 
+  return { type: ORDER_NFT_NAME, payload }
 };
 
 export const orderPrice = (payload) => {
-  return { type: ORDER_NFT_PRICE, payload } // precio mayor a menor ... precio de $x a $xxx
+  return { type: ORDER_NFT_PRICE, payload }
 };
 
 export const orderAmount = (payload) => {
-  return { type: ORDER_NFT_AMOUNT, payload } // cantidad 1 o 100 unidades
+  return { type: ORDER_NFT_AMOUNT, payload } // cantidad 1 o 100 unidades FALTA
 };
 
 export const orderCreatedAt = (payload) => {
-  return { type: ORDER_NFT_CREATED_AT, payload } // mas nuevos, mas antiguos
+  return { type: ORDER_NFT_CREATED_AT, payload } // mas nuevos, mas antiguos FALTA
 };
 
 
@@ -87,8 +92,8 @@ export const orderCreatedAt = (payload) => {
 export const createNft = (payload) => {
   return async (dispatch) => {
     try {
-      await axios.post(`ruta`, payload)
-      dispatch({type: CREATE_NFT }) // no hace nada actualmente 
+      const createdNft = await axios.post(`/nft`, payload)
+      dispatch({type: CREATE_NFT, payload: createdNft.data}) // msj desde el back
       alert("NFT created successfully");
       window.location.href = "ruta al home";
     } catch (e) {
@@ -99,16 +104,21 @@ export const createNft = (payload) => {
 
 export const deleteNft = (id) => {
   return async (dispatch) => {
-    const deletedNft = await axios.delete(`ruta delete o borrado logico??`) // http://localhost:3001/recipes/delete/${id}
-    dispatch({type: DELETE_NFT, payload: deletedNft.data}) // no hace nada actualmente 
+    try {
+      const deletedNft = await axios.delete(`/nft/${id}`)
+      dispatch({type: DELETE_NFT, payload: deletedNft.data}) // msj desde el back
+      alert("NFT deleted successfully");
+    } catch (e) {
+      alert(e.response.data)
+    }
   }
 }
 
-export const updateNft = (payload) => { // que se puede updatear? 
+export const updateNft = (atribute, payload) => { // mmh?
   return async (dispatch) => {
     try {
-      await axios.put(`ruta update`, payload)
-      dispatch({type: UPDATE_NFT}) // no hace nada actualmente 
+      const updateNft = await axios.put(`/nft/${atribute}`, payload)
+      dispatch({type: UPDATE_NFT, payload: updateNft.data}) // msj desde el back
       alert("NFT updated successfully");
     } catch (e) {
       alert(e.response.data)
