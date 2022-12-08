@@ -11,7 +11,7 @@ export default function NFTCard(props){
                 to={'ruta de detalle'}>
 
                 {/*estructura de la tarjeta del nft*/}
-
+                MockCard
             </Link>
         </div>
     )
