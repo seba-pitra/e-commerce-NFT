@@ -6,14 +6,13 @@ const createAllInitialNFTs = async () => {
   allNFTs.forEach(async (data) => {
     let nftToCreated = {
       type: data.type,
+      name: (data.tokenData && data.tokenData.name) || "no name found",
+      image: (data.tokenData && data.tokenData.image) || "no image found",
       contract: data.contract,
       tokenId: data.tokenId,
       price: data.price,
       source: data.source,
-      tokenData: data.tokenData,
     };
-
-    let createdNft = await Nft.create(nftToCreated);
 
     let createdCollection = await Collection.findOrCreate({
       where: {
@@ -21,31 +20,28 @@ const createAllInitialNFTs = async () => {
       },
     }).then(([collection, created]) => collection);
 
-    console.log("CREADOS", createdCollection);
+    let createdNft = await Nft.create(nftToCreated);
 
     await createdNft.setCollection(createdCollection);
   });
 };
 
 const createNft = async (body) => {
-  const { type, contract, price, source, tokenData } = body;
+  const { name, type, contract, price, source } = body;
 
-  const validate = !type || !contract || !price || !source || !tokenData;
+  const validate = !name || !type || !contract || !price;
 
   if (validate) throw new Error("Mandatory fields are missing");
 
-  const tokenName = tokenData.name;
-
   const [newNft, foundNft] = Nft.findOrCreate({
-    where: { test: body.tokenData.name },
+    where: { name },
+    defaults: body,
   });
-
-  console.log("todo tranquilo");
 
   if (foundNft) {
     console.log("nft already exist");
   } else {
-    return newNft;
+    console.log("nft created");
   }
 };
 
