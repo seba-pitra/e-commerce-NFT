@@ -11,7 +11,7 @@ const nftRouter = Router();
 nftRouter.post("/", async (req, res) => {
   try {
     const newNft = await createNft(req.body);
-    res.status(201).send("todo ok");
+    res.status(201).send(newNft);
   } catch (err) {
     res.status(400).send(err.message);
   }
