@@ -14,7 +14,7 @@ function HomePage(){
     const dispatch = useDispatch();
 
     useEffect(() => {
-        // dispatch(actions.getAllNfts());
+        dispatch(actions.getAllNfts());
     }, [dispatch]); // <<-- only on Loading 
     
     return(

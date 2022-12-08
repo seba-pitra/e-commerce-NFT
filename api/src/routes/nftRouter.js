@@ -30,9 +30,12 @@ nftRouter.post("/initialNFTs", async (req, res) => {
 
 nftRouter.get("/", async (req, res) => {
   try {
+    const createdNFTs = await createAllInitialNFTs();
     const foundNFTs = await getNfts();
+    console.log(foundNFTs);
     res.status(200).send(foundNFTs);
   } catch (err) {
+    console.log(err.message);
     res.status(404).send(err.message);
   }
 });
