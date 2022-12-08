@@ -1,0 +1,14 @@
+.mainContainerDetail{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.imageNftContainer{
+    display: flex;
+    flex-direction: column;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+}
