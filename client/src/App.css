@@ -3,6 +3,10 @@
   display: none;
 }
 
+.selected {
+  background-color: red;
+  color: white;
+}
 .testborder {
   border: 1px solid red;
 }

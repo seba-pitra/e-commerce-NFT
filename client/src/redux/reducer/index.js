@@ -17,6 +17,7 @@ const rootReducer = (state = initialState, action) => {
     case GET_ALL_NFTS:
       return { ...state, nfts: action.payload, filteredNfts: action.payload, nftDetail: {}, isLoading: false } // reset all
     case GET_NFT_DETAIL:
+      console.log(action.payload)
       return { ...state, nftDetail: action.payload, isLoading : false }
     case CREATE_NFT:
       return { ...state, msj: action.payload }

@@ -7,6 +7,7 @@ const allNFTs = [
     tokenId: "3692",
     price: 0.2757,
     available: true,
+    category: "animal",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -28,6 +29,7 @@ const allNFTs = [
       "78623574327630436185204531123722765010724429989569130899103246805544757458930",
     price: 14.0006,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -49,6 +51,7 @@ const allNFTs = [
     tokenId: "604",
     price: 0.1201,
     available: true,
+    category: "humanoid",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -69,6 +72,7 @@ const allNFTs = [
     tokenId: "2149",
     price: 0.25,
     available: true,
+    category: "animal",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -89,6 +93,7 @@ const allNFTs = [
     tokenId: "3958",
     price: 0.82668,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -109,6 +114,7 @@ const allNFTs = [
     tokenId: null,
     price: 0.34,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -123,6 +129,7 @@ const allNFTs = [
     tokenId: "8568",
     price: 0.16,
     available: true,
+    category: "humanoid",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -143,6 +150,7 @@ const allNFTs = [
     tokenId: "8756",
     price: 0.8001,
     available: true,
+    category: "animal",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -163,6 +171,7 @@ const allNFTs = [
     tokenId: "16913",
     price: 0.53759,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -183,6 +192,7 @@ const allNFTs = [
     tokenId: "9246",
     price: 0.161,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -203,6 +213,7 @@ const allNFTs = [
     tokenId: "4352",
     price: 0.2528,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -223,6 +234,7 @@ const allNFTs = [
     tokenId: "1200",
     price: 0.42787,
     available: true,
+    category: "humanoid",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -243,6 +255,7 @@ const allNFTs = [
     tokenId: "5997",
     price: 0.485,
     available: true,
+    category: "humanoid",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -263,6 +276,7 @@ const allNFTs = [
     tokenId: "2294",
     price: 0.2036,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -283,6 +297,7 @@ const allNFTs = [
     tokenId: "875",
     price: 0.9013,
     available: true,
+    category: "animal",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -303,6 +318,7 @@ const allNFTs = [
     tokenId: "7400",
     price: 11.0521,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -323,6 +339,7 @@ const allNFTs = [
     tokenId: "12923",
     price: 0.25,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -343,6 +360,7 @@ const allNFTs = [
     tokenId: "5360",
     price: 0.7011,
     available: true,
+    category: "animal",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -363,6 +381,7 @@ const allNFTs = [
     tokenId: "7900",
     price: 0.7354,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -384,6 +403,7 @@ const allNFTs = [
       "17496586203003168687879806160287919845069312784687138403816034719405218982591",
     price: 1.1566,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -405,6 +425,7 @@ const allNFTs = [
     tokenId: "17600030145",
     price: 4.2,
     available: true,
+    category: "humanoid",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -425,6 +446,7 @@ const allNFTs = [
     tokenId: "772",
     price: 0.1667,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -445,6 +467,7 @@ const allNFTs = [
     tokenId: "1393",
     price: 0.17578,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -465,6 +488,7 @@ const allNFTs = [
     tokenId: "2937",
     price: 0.83,
     available: true,
+    category: "animal",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -486,6 +510,7 @@ const allNFTs = [
       "51457731374073904989060677163202139728239805965200231863268478268617865108067",
     price: 0.05018,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -507,6 +532,7 @@ const allNFTs = [
     tokenId: "773",
     price: 0.1565,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -527,6 +553,7 @@ const allNFTs = [
     tokenId: "328",
     price: 0.6489,
     available: true,
+    category: "animal",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -547,6 +574,7 @@ const allNFTs = [
     tokenId: "499",
     price: 0.1601,
     available: true,
+    category: "animal",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -567,6 +595,7 @@ const allNFTs = [
     tokenId: "351",
     price: 0.118,
     available: true,
+    category: "animal",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -587,6 +616,7 @@ const allNFTs = [
     tokenId: "4291690561",
     price: 0.33535,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -607,6 +637,7 @@ const allNFTs = [
     tokenId: "5400",
     price: 0.66,
     available: true,
+    category: "animal",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -627,6 +658,7 @@ const allNFTs = [
     tokenId: "5069",
     price: 0.23155,
     available: true,
+    category: "humanoid",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -647,6 +679,7 @@ const allNFTs = [
     tokenId: "4333",
     price: 0.15,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -667,6 +700,7 @@ const allNFTs = [
     tokenId: "7124",
     price: 0.0816,
     available: true,
+    category: "humanoid",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -687,6 +721,7 @@ const allNFTs = [
     tokenId: "7760",
     price: 0.29728,
     available: true,
+    category: "humanoid",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -707,6 +742,7 @@ const allNFTs = [
     tokenId: "6131",
     price: 0.74185,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -727,6 +763,7 @@ const allNFTs = [
     tokenId: "6148",
     price: 0.07321,
     available: true,
+    category: "humanoid",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -747,6 +784,7 @@ const allNFTs = [
     tokenId: "77309423224",
     price: 0.47894,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -767,6 +805,7 @@ const allNFTs = [
     tokenId: "4495",
     price: 0.1203,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -787,6 +826,7 @@ const allNFTs = [
     tokenId: "3788",
     price: 0.4,
     available: true,
+    category: "animal",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -807,6 +847,7 @@ const allNFTs = [
     tokenId: "731",
     price: 0.1589,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -827,6 +868,7 @@ const allNFTs = [
     tokenId: "5033",
     price: 1.4506,
     available: true,
+    category: "animal",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -847,6 +889,7 @@ const allNFTs = [
     tokenId: null,
     price: 0.02104,
     available: true,
+    category: "object",
     source: {
       domain: "x2y2.io",
       name: "X2Y2",
@@ -861,6 +904,7 @@ const allNFTs = [
     tokenId: "4291756082",
     price: 0.19,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -881,6 +925,7 @@ const allNFTs = [
     tokenId: "3078",
     price: 0.1125,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -901,6 +946,7 @@ const allNFTs = [
     tokenId: null,
     price: 2.2594,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -915,6 +961,7 @@ const allNFTs = [
     tokenId: "8083",
     price: 1.1113,
     available: true,
+    category: "humanoid",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -936,6 +983,7 @@ const allNFTs = [
       "78276023152187789992540871422452321693714750816418690443661911361027347008970",
     price: 1.1834,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -958,6 +1006,7 @@ const allNFTs = [
       "101845430057417674696006034186264735455311683811675009933419411089686898161017",
     price: 14.0002,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -979,6 +1028,7 @@ const allNFTs = [
     tokenId: "166",
     price: 0.25,
     available: true,
+    category: "humanoid",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -999,6 +1049,7 @@ const allNFTs = [
     tokenId: "7574",
     price: 0.18377,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1020,6 +1071,7 @@ const allNFTs = [
       "40238633275081582560308998219929113172359131043480500975779224899555629377349",
     price: 0.2101,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1041,6 +1093,7 @@ const allNFTs = [
     tokenId: "1889",
     price: 0.2018,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1062,6 +1115,7 @@ const allNFTs = [
       "51272562196199160864040647603693930280378919872451524472438088096485316903409",
     price: 1.1632,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1083,6 +1137,7 @@ const allNFTs = [
     tokenId: "1476",
     price: 0.15,
     available: true,
+    category: "humanoid",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1104,6 +1159,7 @@ const allNFTs = [
       "110221059787778806384403364329966457884458567470965380560229160957910835797419",
     price: 0.03018,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1125,6 +1181,7 @@ const allNFTs = [
     tokenId: "8847",
     price: 4.5674,
     available: true,
+    category: "humanoid",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1145,6 +1202,7 @@ const allNFTs = [
     tokenId: "4096",
     price: 2.1815,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1165,6 +1223,7 @@ const allNFTs = [
     tokenId: "6962",
     price: 0.151,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1185,6 +1244,7 @@ const allNFTs = [
     tokenId: "4119",
     price: 0.7016,
     available: true,
+    category: "animal",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1205,6 +1265,7 @@ const allNFTs = [
     tokenId: "5674",
     price: 0.7012,
     available: true,
+    category: "animal",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1225,6 +1286,7 @@ const allNFTs = [
     tokenId: "6831",
     price: 0.669,
     available: true,
+    category: "humanoid",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1246,6 +1308,7 @@ const allNFTs = [
       "77966843005657051865893041381378865643577453560047785150643346176309867850286",
     price: 1.12,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1267,6 +1330,7 @@ const allNFTs = [
     tokenId: "112",
     price: 0.7,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1287,6 +1351,7 @@ const allNFTs = [
     tokenId: "2612",
     price: 0.15025,
     available: true,
+    category: "humanoid",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1307,6 +1372,7 @@ const allNFTs = [
     tokenId: "4915265",
     price: 0.33525,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1327,6 +1393,7 @@ const allNFTs = [
     tokenId: "3424",
     price: 0.45,
     available: true,
+    category: "animal",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1347,6 +1414,7 @@ const allNFTs = [
     tokenId: "13740",
     price: 0.375,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1367,6 +1435,7 @@ const allNFTs = [
     tokenId: null,
     price: 0.15443,
     available: true,
+    category: "object",
     source: {
       domain: "x2y2.io",
       name: "X2Y2",
@@ -1382,6 +1451,7 @@ const allNFTs = [
       "83709159667154091369088411939933365186468971065199878122294167332239708074870",
     price: 1.1571,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1403,6 +1473,7 @@ const allNFTs = [
     tokenId: "4290",
     price: 0.2792,
     available: true,
+    category: "humanoid",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1423,6 +1494,7 @@ const allNFTs = [
     tokenId: "716",
     price: 0.28,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1444,6 +1516,7 @@ const allNFTs = [
       "99114902007464053189827416879144825615375415779576483731593998858624403389004",
     price: 0.03018,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1466,6 +1539,7 @@ const allNFTs = [
       "29128219344241625672649927581711420551919280521992575145036139448178906977453",
     price: 1.1608,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1487,6 +1561,7 @@ const allNFTs = [
     tokenId: null,
     price: 0.69416,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1501,6 +1576,7 @@ const allNFTs = [
     tokenId: "19240",
     price: 0.19032,
     available: true,
+    category: "humanoid",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1521,6 +1597,7 @@ const allNFTs = [
     tokenId: "4840",
     price: 0.7213,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1541,6 +1618,7 @@ const allNFTs = [
     tokenId: "1294",
     price: 0.0303,
     available: true,
+    category: "animal",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1561,6 +1639,7 @@ const allNFTs = [
     tokenId: "6653",
     price: 0.08,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1580,6 +1659,7 @@ const allNFTs = [
     tokenId: "1022",
     price: 0.57,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1600,6 +1680,7 @@ const allNFTs = [
     tokenId: "148991",
     price: 1.1,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1620,6 +1701,7 @@ const allNFTs = [
     tokenId: "160354",
     price: 1.11731,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1641,6 +1723,7 @@ const allNFTs = [
       "72787300798922300374976336178008287974202342578435317697937250404406507920989",
     price: 1.161,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1662,6 +1745,7 @@ const allNFTs = [
     tokenId: "2111",
     price: 0.2757,
     available: true,
+    category: "animal",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1682,6 +1766,7 @@ const allNFTs = [
     tokenId: "4570",
     price: 0.2025,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1702,6 +1787,7 @@ const allNFTs = [
     tokenId: null,
     price: 0.76926,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1716,6 +1802,7 @@ const allNFTs = [
     tokenId: "4863",
     price: 0.031,
     available: true,
+    category: "humanoid",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1736,6 +1823,7 @@ const allNFTs = [
     tokenId: "9466",
     price: 1.81005,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1757,6 +1845,7 @@ const allNFTs = [
       "72654528211073432287651017538130345038031692330656205030771824015633053801307",
     price: 0.015,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1778,6 +1867,7 @@ const allNFTs = [
     tokenId: "1132",
     price: 0.131,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1798,6 +1888,7 @@ const allNFTs = [
     tokenId: "3631",
     price: 0.183,
     available: true,
+    category: "animal",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1818,6 +1909,7 @@ const allNFTs = [
     tokenId: "2232",
     price: 0.6549,
     available: true,
+    category: "humanoid",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1838,6 +1930,7 @@ const allNFTs = [
     tokenId: "2313",
     price: 0.2048,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1858,6 +1951,7 @@ const allNFTs = [
     tokenId: "5608",
     price: 0.72024,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1878,6 +1972,7 @@ const allNFTs = [
     tokenId: "2711",
     price: 1.3048,
     available: true,
+    category: "humanoid",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1898,6 +1993,7 @@ const allNFTs = [
     tokenId: "1558",
     price: 0.0759,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1918,6 +2014,7 @@ const allNFTs = [
     tokenId: "5792",
     price: 0.7255,
     available: true,
+    category: "object",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1938,6 +2035,7 @@ const allNFTs = [
     tokenId: "5744",
     price: 0.4924,
     available: true,
+    category: "animal",
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1958,6 +2056,7 @@ const allNFTs = [
     tokenId: null,
     price: 0.13614,
     available: true,
+    category: "object",
     source: {
       domain: "x2y2.io",
       name: "X2Y2",
@@ -1972,6 +2071,7 @@ const allNFTs = [
     tokenId: "1214",
     price: 0.2011,
     available: true,
+    category: "animal",
     source: {
       domain: "opensea.io",
       name: "OpenSea",

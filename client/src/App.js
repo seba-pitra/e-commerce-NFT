@@ -7,6 +7,7 @@ import Details from './components/Details/Details';
 import NotFoundException from './components/404Page/404Page';
 import { Route, Switch } from 'react-router-dom';
 import NFTNav from './components/NFTNav/NFTNav';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -16,11 +17,11 @@ function App() {
       <Switch>
       <Route exact path='/' render={()=><LandingPage/>} />
       <Route path='/home' render={()=><HomePage/>} />
-        {/* <Route exact path='/' render={()=><LandingPage/>} />
-            <Route path='/home' render={()=><HomePage/>} />
-            <Route path='/details/:id' render={({match}) => <Details match={match}/>}/>
-            <Route component={NotFoundException}/> */}
+      <Route exact path='/' render={()=><LandingPage/>} />
+      <Route path='/details/:id' render={({match}) => <Details match={match}/>}/>
+      <Route component={NotFoundException}/>
       </Switch>
+      <Footer />
     </div>
   );
 }
