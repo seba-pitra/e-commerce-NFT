@@ -27,12 +27,21 @@ module.exports = (sequelize) => {
         allowNull: false,
       },
       email: {
-        type: DataTypes.email,
+        type: DataTypes.STRING,
         allowNull: false,
         unique: true,
       },
       type: {
-        type: DataTypes.ENUM("Admin", "Basic", "Medium"),
+        type: DataTypes.STRING,
+        defaultValue: "Basic",
+        validate: {
+          customValidator: (value) => {
+            const enums = ["Admin", "Medium"];
+            if (!enums.includes(value)) {
+              throw new Error("not a valid option");
+            }
+          },
+        },
         allowNull: false,
       },
       dni: {
