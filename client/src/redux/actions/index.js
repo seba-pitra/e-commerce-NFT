@@ -20,7 +20,7 @@ export const getAllNfts = () => {
     return async (dispatch) => {
         dispatch({type : LOADING}) // set loading > settear en null en reducer
         try {
-            const allNfts = await axios.get("ruta") // add ruta
+            const allNfts = await axios.get("/nft") // add ruta
             dispatch({type: GET_ALL_NFTS, payload: allNfts.data})
         }
         catch (e) {
