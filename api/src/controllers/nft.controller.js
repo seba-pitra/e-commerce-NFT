@@ -63,7 +63,33 @@ const searchNftById = async (id) => {
   return foundNftFromDB;
 };
 
-const update = async (attribute, value, dogId) => {};
+const updateNFT = async (attribute, value, dogId) => {
+  try {
+    if (!body || !nftId) throw new Error("Iinsuficient data for update");
+
+    const { price, userId } = body;
+    const selectedNFT = await Nft.findByPk(nftId);
+
+    if (!selectedNFT) throw new Error("No NFT found");
+
+    //UserUpdate temporaly outOfService
+
+    // if (userId) {
+    //   const selectedUser = await User.findByPk(userId);
+    //   if (!selectedUser) throw new Error("No User Found");
+    //   await selectedNFT.setUser(selectedUser);
+    //   await selectedNFT.save();
+    // }
+
+    if (price) {
+      await selectedNFT.set({ price: price });
+      await selectedNFT.save();
+    }
+    return selectedNFT;
+  } catch (error) {
+    throw error;
+  }
+};
 
 const deleteNft = async (id) => {
   const foundNft = await Nft.findByPk(id);
@@ -83,4 +109,5 @@ module.exports = {
   createAllInitialNFTs,
   createNft,
   deleteNft,
+  updateNFT,
 };
