@@ -17,7 +17,7 @@ export default function NFTCard(props) {
     <div className={card.cardContainer}>
       {/*coloque un link rodeando a todo el card para que cuando el usuario hace click en **la tarjeta... lo lleve al detalle del nft** */}
 
-      <Link className="link" to={`/home/details/${props.id}`}>
+      <Link className="link" to={`/details/${props.id}`}>
         {/*estructura de la tarjeta del nft*/}
 
         <img className={card.nftImage} src={props.image} alt="nft-image" />

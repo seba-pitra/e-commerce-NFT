@@ -4,8 +4,6 @@ import { useEffect, useState } from 'react';
 import Pages from "../Pages/Pages";
 import FilterOptions from '../FilterOptrions/Options';
 import Loading from '../Loading/Loading';
-import SearchBar from '../SearchBar/SearchBar';
-import Footer from '../Footer/Footer';
 
 
 function HomePage(){
@@ -27,7 +25,6 @@ function HomePage(){
                 <>        
                 <FilterOptions />
                 <Pages />
-		<Footer />
                 </>
 	{/*    }    */}
             </div>

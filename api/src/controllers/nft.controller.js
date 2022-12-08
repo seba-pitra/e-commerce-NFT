@@ -22,7 +22,6 @@ const createAllInitialNFTs = async () => {
     }).then(([collection, created]) => collection);
 
     let createdNft = await Nft.create(nftToCreated);
-    console.log(createdNft)
 
     await createdNft.setCollection(createdCollection);
   });
@@ -52,7 +51,6 @@ const createNft = async (body) => {
 
 const getNfts = async () => {
   const dbNfts = await Nft.findAll();
-  console.log(dbNfts);
   if (!dbNfts.length) throw new Error("No NFT found");
 
   return dbNfts;
@@ -62,7 +60,6 @@ const searchNftById = async (id) => {
   const foundNftFromDB = await Nft.findByPk(id);
 
   if (!foundNftFromDB) throw new Error("No dog found");
-
   return foundNftFromDB;
 };
 

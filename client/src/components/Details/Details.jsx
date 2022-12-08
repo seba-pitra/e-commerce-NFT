@@ -42,12 +42,11 @@ function Details(props) {
               <h1>
                 {nftDetail.name} {nftDetail.tokenId}
               </h1>
-              <h2>
-                
+              {/* <h2>
                 Property of : {nftDetail.source.name}/
                 {nftDetail.userId && <h2>ID : {nftDetail.userId}</h2>}
-              </h2>
-              <img src={nftDetail.source.icon} alt="owner-icon" />
+              </h2> */}
+ {/*              <img src={nftDetail.source.icon} alt="owner-icon" /> */}
               <h4>Type: {nftDetail.type}</h4>
               <h3>Price : {nftDetail.price}</h3>
               {nftDetail.collectionId && (
