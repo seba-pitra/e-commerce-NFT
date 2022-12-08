@@ -3,41 +3,53 @@ const { updatedNFTs, allCollections, allNFTs } = require("../nft");
 const { Nft, Collection } = require("../db");
 
 const createAllInitialNFTs = async () => {
-  // let allNFTsCreated = await Nft.bulkCreate(updatedNFTs);
-
-  // return allNFTsCreated;
-
   allNFTs.forEach(async (data) => {
     let nftToCreated = {
       type: data.type,
+      name: (data.tokenData && data.tokenData.name) || "no name found",
+      image: (data.tokenData && data.tokenData.image) || "no image found",
       contract: data.contract,
       tokenId: data.tokenId,
       price: data.price,
       source: data.source,
-      tokenData: data.tokenData,
     };
 
-    let createdNft = await Nft.create(nftToCreated);
     let createdCollection = await Collection.findOrCreate({
       where: {
         id: data.collectionId,
       },
     }).then(([collection, created]) => collection);
 
+    let createdNft = await Nft.create(nftToCreated);
+
     await createdNft.setCollection(createdCollection);
   });
 };
 
+const createNft = async (body) => {
+  const { name, image, type, contract, price, collectionId } = body;
+
+  const validate = !name || !image || !type || !contract || !price;
+
+  if (validate) throw new Error("Mandatory fields are missing");
+
+  const newNft = await Nft.findOrCreate({
+    where: { name },
+    defaults: body,
+  }).then(([nft, created]) => {
+    if (!created) throw new Error("NFT already exists with this name");
+
+    return nft;
+  });
+
+  await newNft.setCollection(collectionId);
+
+  return newNft;
+};
+
 const getNfts = async () => {
-  const dbNfts = await Nft
-    .findAll
-    /* {
-    include: {
-      model: Collection,
-      attributes: ["id"],
-    },
-  } */
-    ();
+  const dbNfts = await Nft.findAll();
+
   if (!dbNfts.length) throw new Error("No NFT found");
 
   return dbNfts;
@@ -51,12 +63,24 @@ const searchNftById = async (id) => {
   return foundNftFromDB;
 };
 
-const searchNftByName = async (name) => {};
-
-const createNft = async () => {};
-
 const update = async (attribute, value, dogId) => {};
 
-const deleteController = async (id) => {};
+const deleteNft = async (id) => {
+  const foundNft = await Nft.findByPk(id);
 
-module.exports = { getNfts, searchNftById, createAllInitialNFTs };
+  if (!foundNft) throw new Error("No NFT found");
+
+  const nftName = foundNft.name;
+
+  await foundNft.destroy();
+
+  return nftName;
+};
+
+module.exports = {
+  getNfts,
+  searchNftById,
+  createAllInitialNFTs,
+  createNft,
+  deleteNft,
+};

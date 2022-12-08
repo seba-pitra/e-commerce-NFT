@@ -14,6 +14,14 @@ module.exports = (sequelize) => {
           isUUID: 4,
         },
       },
+      name: {
+        type: DataTypes.STRING,
+        allowNull: false,
+      },
+      image: {
+        type: DataTypes.STRING,
+        allowNull: false,
+      },
       type: {
         type: DataTypes.STRING,
         allowNull: false,
@@ -29,9 +37,6 @@ module.exports = (sequelize) => {
         type: DataTypes.FLOAT,
       },
       source: {
-        type: DataTypes.JSONB,
-      },
-      tokenData: {
         type: DataTypes.JSONB,
       },
     },

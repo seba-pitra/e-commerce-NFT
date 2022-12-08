@@ -1886,23 +1886,23 @@ const allNFTs = [
   },
 ];
 
-const updatedNFTs = allNFTs.map(nft=>{
+const updatedNFTs = allNFTs.map((nft) => {
   return {
-    id:nft.id,
-    type:nft.type,
+    id: nft.id,
+    type: nft.type,
     contract: nft.contract,
-    tokenId:nft.tokenId,
+    tokenId: nft.tokenId,
     price: nft.price,
     source: nft.source,
-    tokenData: nft.tokenData
-  }
-})
-let a= new Set(allNFTs.map(nft=>nft.collectionId))
-let allCollections= new Array(...a)
-allCollections = allCollections.map(data => {
+    tokenData: nft.tokenData,
+  };
+});
+let a = new Set(allNFTs.map((nft) => nft.collectionId));
+let allCollections = new Array(...a);
+allCollections = allCollections.map((data) => {
   return {
-    description: data
-  }
-})
+    description: data,
+  };
+});
 
 module.exports = { allNFTs, updatedNFTs, allCollections };
