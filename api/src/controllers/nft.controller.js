@@ -36,8 +36,7 @@ const createNft = async (body) => {
   const newNft = await Nft.findOrCreate({
     where: { name },
     defaults: body,
-  })
-  .then(([nft, created]) => {
+  }).then(([nft, created]) => {
     if (!created) throw new Error("NFT already exists with this name");
 
     return nft;
@@ -64,15 +63,24 @@ const searchNftById = async (id) => {
   return foundNftFromDB;
 };
 
-const searchNftByName = async (name) => {};
-
 const update = async (attribute, value, dogId) => {};
 
-const deleteController = async (id) => {};
+const deleteNft = async (id) => {
+  const foundNft = await Nft.findByPk(id);
+
+  if (!foundNft) throw new Error("No NFT found");
+
+  const nftName = foundNft.name;
+
+  await foundNft.destroy();
+
+  return nftName;
+};
 
 module.exports = {
   getNfts,
   searchNftById,
   createAllInitialNFTs,
   createNft,
+  deleteNft,
 };
