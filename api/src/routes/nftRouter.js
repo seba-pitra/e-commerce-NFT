@@ -2,26 +2,29 @@ const { Router } = require("express");
 const {
   getNfts,
   searchNftById,
-  /*createAllInitialNFTs*/
+  createAllInitialNFTs,
+  createNft,
+  deleteNft,
 } = require("../controllers/nft.controller");
 
 const nftRouter = Router();
 
 nftRouter.post("/", async (req, res) => {
-  // try {
-  //   res.status(201).json();
-  // } catch (err) {
-  //   res.status(400).send(err.message);
-  // }
+  try {
+    const newNft = await createNft(req.body);
+    res.status(201).send(newNft);
+  } catch (err) {
+    res.status(400).send(err.message);
+  }
 });
 
 nftRouter.post("/initialNFTs", async (req, res) => {
-  // try {
-  //   const createdNFTs = await createAllInitialNFTs();
-  //   res.status(201).json(createdNFTs);
-  // } catch (err) {
-  //   res.status(400).send(err);
-  // }
+  try {
+    const createdNFTs = await createAllInitialNFTs();
+    res.status(201).send("se crearon correctamente");
+  } catch (err) {
+    res.status(400).send(err);
+  }
 });
 
 nftRouter.get("/", async (req, res) => {
@@ -50,9 +53,13 @@ nftRouter.put("/:attribute", async (req, res) => {
 });
 
 nftRouter.delete("/:id", async (req, res) => {
-  // try {
-  // } catch (err) {
-  // }
+  try {
+    const { id } = req.params;
+    const nftName = await deleteNft(id);
+    res.status(200).send(`${nftName} was deleted successfully`);
+  } catch (err) {
+    res.status(404).send(err.message);
+  }
 });
 
 module.exports = nftRouter;
