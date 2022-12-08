@@ -40,6 +40,9 @@ module.exports = (sequelize) => {
       price: {
         type: DataTypes.FLOAT,
       },
+      category: {
+        type: DataTypes.STRING,
+      },
       source: {
         type: DataTypes.JSONB,
       },
