@@ -12,6 +12,7 @@ const createAllInitialNFTs = async () => {
       contract: data.contract,
       tokenId: data.tokenId,
       price: data.price,
+      category: data.category,
       source: data.source,
     };
 
@@ -65,7 +66,7 @@ const searchNftById = async (id) => {
   return foundNftFromDB;
 };
 
-const updateNFT = async (attribute, value, dogId) => {
+const updateNFT = async (nftId, body) => {
   try {
     if (!body || !nftId) throw new Error("Iinsuficient data for update");
 
@@ -74,7 +75,7 @@ const updateNFT = async (attribute, value, dogId) => {
 
     if (!selectedNFT) throw new Error("No NFT found");
 
-    //UserUpdate temporaly outOfService
+    //UserUpdate temporaly disabled
 
     // if (userId) {
     //   const selectedUser = await User.findByPk(userId);
