@@ -8,6 +8,7 @@ const createAllInitialNFTs = async () => {
       type: data.type,
       name: (data.tokenData && data.tokenData.name) || "no name found",
       image: (data.tokenData && data.tokenData.image) || "no image found",
+      available: data.available,
       contract: data.contract,
       tokenId: data.tokenId,
       price: data.price,
@@ -27,9 +28,10 @@ const createAllInitialNFTs = async () => {
 };
 
 const createNft = async (body) => {
-  const { name, image, type, contract, price, collectionId } = body;
+  const { name, image, type, contract, price, collectionId, available } = body;
 
-  const validate = !name || !image || !type || !contract || !price;
+  const validate =
+    !name || !image || !type || !contract || !price || !available;
 
   if (validate) throw new Error("Mandatory fields are missing");
 
@@ -65,6 +67,19 @@ const searchNftById = async (id) => {
 
 const update = async (attribute, value, dogId) => {};
 
+const changeAvailablePropertyNft = async (id) => {
+  const foundNft = await Nft.findByPk(id);
+
+  if (!foundNft) throw new Error("No NFT found");
+
+  if (foundNft.available) foundNft.available = false;
+  else if (!foundNft.available) foundNft.available = true;
+
+  await foundNft.save();
+
+  return foundNft;
+};
+
 const deleteNft = async (id) => {
   const foundNft = await Nft.findByPk(id);
 
@@ -82,5 +97,6 @@ module.exports = {
   searchNftById,
   createAllInitialNFTs,
   createNft,
+  changeAvailablePropertyNft,
   deleteNft,
 };
