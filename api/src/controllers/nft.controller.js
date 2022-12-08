@@ -27,34 +27,30 @@ const createAllInitialNFTs = async () => {
 };
 
 const createNft = async (body) => {
-  const { name, type, contract, price, source } = body;
+  const { name, image, type, contract, price, collectionId } = body;
 
-  const validate = !name || !type || !contract || !price;
+  const validate = !name || !image || !type || !contract || !price;
 
   if (validate) throw new Error("Mandatory fields are missing");
 
-  const [newNft, foundNft] = Nft.findOrCreate({
+  const newNft = await Nft.findOrCreate({
     where: { name },
     defaults: body,
+  })
+  .then(([nft, created]) => {
+    if (!created) throw new Error("NFT already exists with this name");
+
+    return nft;
   });
 
-  if (foundNft) {
-    console.log("nft already exist");
-  } else {
-    console.log("nft created");
-  }
+  await newNft.setCollection(collectionId);
+
+  return newNft;
 };
 
 const getNfts = async () => {
-  const dbNfts = await Nft
-    .findAll
-    /* {
-    include: {
-      model: Collection,
-      attributes: ["id"],
-    },
-  } */
-    ();
+  const dbNfts = await Nft.findAll();
+
   if (!dbNfts.length) throw new Error("No NFT found");
 
   return dbNfts;
