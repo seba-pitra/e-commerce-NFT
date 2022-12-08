@@ -4,6 +4,7 @@ const {
   searchNftById,
   createAllInitialNFTs,
   createNft,
+  deleteNft,
 } = require("../controllers/nft.controller");
 
 const nftRouter = Router();
@@ -52,9 +53,13 @@ nftRouter.put("/:attribute", async (req, res) => {
 });
 
 nftRouter.delete("/:id", async (req, res) => {
-  // try {
-  // } catch (err) {
-  // }
+  try {
+    const { id } = req.params;
+    const nftName = await deleteNft(id);
+    res.status(200).send(`${nftName} was deleted successfully`);
+  } catch (err) {
+    res.status(404).send(err.message);
+  }
 });
 
 module.exports = nftRouter;
