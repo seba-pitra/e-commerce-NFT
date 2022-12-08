@@ -4,6 +4,7 @@ const {
   searchNftById,
   createAllInitialNFTs,
   createNft,
+  changeAvailablePropertyNft,
   deleteNft,
 } = require("../controllers/nft.controller");
 
@@ -47,9 +48,22 @@ nftRouter.get("/:id", async (req, res) => {
 });
 
 nftRouter.put("/:attribute", async (req, res) => {
-  // try {
-  // } catch (err) {
-  // }
+  try {
+    const createdNFTs = await createAllInitialNFTs();
+    res.status(201).json(createdNFTs);
+  } catch (err) {
+    res.status(400).send(err.message);
+  }
+});
+
+nftRouter.delete("/available/:id", async (req, res) => {
+  try {
+    const { id } = req.params;
+    const nftName = await changeAvailablePropertyNft(id);
+    res.status(200).json(nftName);
+  } catch (err) {
+    res.status(404).send(err.message);
+  }
 });
 
 nftRouter.delete("/:id", async (req, res) => {
