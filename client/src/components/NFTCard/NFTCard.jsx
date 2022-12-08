@@ -5,6 +5,8 @@ export default function NFTCard(props){
     //faltaria transformar precio eth a usd en el momento
     return(
         <div
+            height="100px"
+            width="100px"
             className='card-container' 
             >
                 {/*coloque un link rodeando a todo el card para que cuando el usuario hace click en **la tarjeta... lo lleve al detalle del nft** */}
@@ -20,9 +22,9 @@ export default function NFTCard(props){
                 <h3>{props.name}</h3>
                 <h4>{props.id}</h4>
                 </div>
-                <h4>{props.owner}</h4>
+                <h4>{/* props.owner */}</h4>
                 <h3>{props.price}</h3>
-                <h3>Last sale: {props.lastSale}</h3>
+                <h3>Last sale: {/* {props.lastSale} */}</h3>
             </Link>
         </div>
         

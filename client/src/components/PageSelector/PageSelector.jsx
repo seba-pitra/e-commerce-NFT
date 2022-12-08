@@ -3,8 +3,7 @@ import * as actions from '../../redux/actions';
 import { useSelector, useDispatch } from 'react-redux';
 
 export default function PageSelector({setActivePage, activePage, nftsPerPage}){
-    // const nftQuantity = useSelector(state => state.filteredNfts.length)
-    const nftQuantity = 20; //reemplazar esta parte con el estado global cuando el redux este listo
+    const nftQuantity = useSelector(state => state.filteredNfts.length)
 
     const pageNumbers = [];
     for (let i = 1; i <= Math.ceil(nftQuantity/nftsPerPage); i++) {

@@ -15,7 +15,8 @@ const rootReducer = (state = initialState, action) => {
     case LOADING:
       return { ...state, isLoading : true } // loading mientras carga la info
     case GET_ALL_NFTS:
-      console.log(action.payload);
+      console.warn("");
+      console.log("action.payload" + action.payload);
       return { ...state, nfts: action.payload, filteredNfts: action.payload, nftDetail: {}, isLoading: false } // reset all
     case GET_NFT_DETAIL:
       return { ...state, nftDetail: action.payload, isLoading : false }
