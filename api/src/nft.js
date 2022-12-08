@@ -6,6 +6,7 @@ const allNFTs = [
     collectionId: "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
     tokenId: "3692",
     price: 0.2757,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -26,6 +27,7 @@ const allNFTs = [
     tokenId:
       "78623574327630436185204531123722765010724429989569130899103246805544757458930",
     price: 14.0006,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -46,6 +48,7 @@ const allNFTs = [
     collectionId: "0xd6d80461b1875a8679fe789db689156f42b7f86b",
     tokenId: "604",
     price: 0.1201,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -65,6 +68,7 @@ const allNFTs = [
     collectionId: "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
     tokenId: "2149",
     price: 0.25,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -84,6 +88,7 @@ const allNFTs = [
     collectionId: "0xb76fbbb30e31f2c3bdaa2466cfb1cfe39b220d06",
     tokenId: "3958",
     price: 0.82668,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -103,6 +108,7 @@ const allNFTs = [
     collectionId: "0x2cf6be9aac1c7630d5a23af88c28275c70eb8819",
     tokenId: null,
     price: 0.34,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -116,6 +122,7 @@ const allNFTs = [
     collectionId: "0x1a2f71468f656e97c2f86541e57189f59951efe7",
     tokenId: "8568",
     price: 0.16,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -135,6 +142,7 @@ const allNFTs = [
     collectionId: "0x09233d553058c2f42ba751c87816a8e9fae7ef10",
     tokenId: "8756",
     price: 0.8001,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -154,6 +162,7 @@ const allNFTs = [
     collectionId: "0x942bc2d3e7a589fe5bd4a5c6ef9727dfd82f5c8a",
     tokenId: "16913",
     price: 0.53759,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -173,6 +182,7 @@ const allNFTs = [
     collectionId: "0xb76fbbb30e31f2c3bdaa2466cfb1cfe39b220d06",
     tokenId: "9246",
     price: 0.161,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -192,6 +202,7 @@ const allNFTs = [
     collectionId: "0x2308742aa28cc460522ff855d24a365f99deba7b",
     tokenId: "4352",
     price: 0.2528,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -211,6 +222,7 @@ const allNFTs = [
     collectionId: "0x837704ec8dfec198789baf061d6e93b0e1555da6",
     tokenId: "1200",
     price: 0.42787,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -230,6 +242,7 @@ const allNFTs = [
     collectionId: "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
     tokenId: "5997",
     price: 0.485,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -249,6 +262,7 @@ const allNFTs = [
     collectionId: "0x2308742aa28cc460522ff855d24a365f99deba7b",
     tokenId: "2294",
     price: 0.2036,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -268,6 +282,7 @@ const allNFTs = [
     collectionId: "0x09233d553058c2f42ba751c87816a8e9fae7ef10",
     tokenId: "875",
     price: 0.9013,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -287,6 +302,7 @@ const allNFTs = [
     collectionId: "0x34d85c9cdeb23fa97cb08333b511ac86e1c4e258",
     tokenId: "7400",
     price: 11.0521,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -306,6 +322,7 @@ const allNFTs = [
     collectionId: "0x7ab2352b1d2e185560494d5e577f9d3c238b78c5",
     tokenId: "12923",
     price: 0.25,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -325,6 +342,7 @@ const allNFTs = [
     collectionId: "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
     tokenId: "5360",
     price: 0.7011,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -344,6 +362,7 @@ const allNFTs = [
     collectionId: "0xb76fbbb30e31f2c3bdaa2466cfb1cfe39b220d06",
     tokenId: "7900",
     price: 0.7354,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -364,6 +383,7 @@ const allNFTs = [
     tokenId:
       "17496586203003168687879806160287919845069312784687138403816034719405218982591",
     price: 1.1566,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -384,6 +404,7 @@ const allNFTs = [
     collectionId: "0x8a939fd297fab7388d6e6c634eee3c863626be57",
     tokenId: "17600030145",
     price: 4.2,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -403,6 +424,7 @@ const allNFTs = [
     collectionId: "0x4a8c9d751eeabc5521a68fb080dd7e72e46462af",
     tokenId: "772",
     price: 0.1667,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -422,6 +444,7 @@ const allNFTs = [
     collectionId: "0x4a8c9d751eeabc5521a68fb080dd7e72e46462af",
     tokenId: "1393",
     price: 0.17578,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -441,6 +464,7 @@ const allNFTs = [
     collectionId: "0x09233d553058c2f42ba751c87816a8e9fae7ef10",
     tokenId: "2937",
     price: 0.83,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -461,6 +485,7 @@ const allNFTs = [
     tokenId:
       "51457731374073904989060677163202139728239805965200231863268478268617865108067",
     price: 0.05018,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -481,6 +506,7 @@ const allNFTs = [
     collectionId: "0x4a8c9d751eeabc5521a68fb080dd7e72e46462af",
     tokenId: "773",
     price: 0.1565,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -500,6 +526,7 @@ const allNFTs = [
     collectionId: "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
     tokenId: "328",
     price: 0.6489,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -519,6 +546,7 @@ const allNFTs = [
     collectionId: "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
     tokenId: "499",
     price: 0.1601,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -538,6 +566,7 @@ const allNFTs = [
     collectionId: "0xdfe3ac769b2d8e382cb86143e0b0b497e1ed5447",
     tokenId: "351",
     price: 0.118,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -557,6 +586,7 @@ const allNFTs = [
     collectionId: "0xefaed650f1a94801806bb110019d9b0dc79531a8",
     tokenId: "4291690561",
     price: 0.33535,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -576,6 +606,7 @@ const allNFTs = [
     collectionId: "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
     tokenId: "5400",
     price: 0.66,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -595,6 +626,7 @@ const allNFTs = [
     collectionId: "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
     tokenId: "5069",
     price: 0.23155,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -614,6 +646,7 @@ const allNFTs = [
     collectionId: "0xbd5fb504d4482ef4366dfa0c0edfb85ed50a9bbb",
     tokenId: "4333",
     price: 0.15,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -633,6 +666,7 @@ const allNFTs = [
     collectionId: "0x6d0de90cdc47047982238fcf69944555d27ecb25",
     tokenId: "7124",
     price: 0.0816,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -652,6 +686,7 @@ const allNFTs = [
     collectionId: "0x282a7d13152b3f51a3e31d46a2ca563f8554d85d",
     tokenId: "7760",
     price: 0.29728,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -671,6 +706,7 @@ const allNFTs = [
     collectionId: "0xb76fbbb30e31f2c3bdaa2466cfb1cfe39b220d06",
     tokenId: "6131",
     price: 0.74185,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -690,6 +726,7 @@ const allNFTs = [
     collectionId: "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
     tokenId: "6148",
     price: 0.07321,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -709,6 +746,7 @@ const allNFTs = [
     collectionId: "0x0cfb5d82be2b949e8fa73a656df91821e2ad99fd",
     tokenId: "77309423224",
     price: 0.47894,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -728,6 +766,7 @@ const allNFTs = [
     collectionId: "0x2308742aa28cc460522ff855d24a365f99deba7b",
     tokenId: "4495",
     price: 0.1203,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -747,6 +786,7 @@ const allNFTs = [
     collectionId: "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
     tokenId: "3788",
     price: 0.4,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -766,6 +806,7 @@ const allNFTs = [
     collectionId: "0x4a8c9d751eeabc5521a68fb080dd7e72e46462af",
     tokenId: "731",
     price: 0.1589,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -785,6 +826,7 @@ const allNFTs = [
     collectionId: "0xfe8c6d19365453d26af321d0e8c910428c23873f",
     tokenId: "5033",
     price: 1.4506,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -804,6 +846,7 @@ const allNFTs = [
     collectionId: "0x09d53609a3709bbc1206b9aa8c54dc71625e31ac",
     tokenId: null,
     price: 0.02104,
+    available: true,
     source: {
       domain: "x2y2.io",
       name: "X2Y2",
@@ -817,6 +860,7 @@ const allNFTs = [
     collectionId: "0xefaed650f1a94801806bb110019d9b0dc79531a8",
     tokenId: "4291756082",
     price: 0.19,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -836,6 +880,7 @@ const allNFTs = [
     collectionId: "0x2308742aa28cc460522ff855d24a365f99deba7b",
     tokenId: "3078",
     price: 0.1125,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -855,6 +900,7 @@ const allNFTs = [
     collectionId: "0x3903d4ffaaa700b62578a66e7a67ba4cb67787f9",
     tokenId: null,
     price: 2.2594,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -868,6 +914,7 @@ const allNFTs = [
     collectionId: "0x394e3d3044fc89fcdd966d3cb35ac0b32b0cda91",
     tokenId: "8083",
     price: 1.1113,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -888,6 +935,7 @@ const allNFTs = [
     tokenId:
       "78276023152187789992540871422452321693714750816418690443661911361027347008970",
     price: 1.1834,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -909,6 +957,7 @@ const allNFTs = [
     tokenId:
       "101845430057417674696006034186264735455311683811675009933419411089686898161017",
     price: 14.0002,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -929,6 +978,7 @@ const allNFTs = [
     collectionId: "0x4b3406a41399c7fd2ba65cbc93697ad9e7ea61e5",
     tokenId: "166",
     price: 0.25,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -948,6 +998,7 @@ const allNFTs = [
     collectionId: "0xb76fbbb30e31f2c3bdaa2466cfb1cfe39b220d06",
     tokenId: "7574",
     price: 0.18377,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -968,6 +1019,7 @@ const allNFTs = [
     tokenId:
       "40238633275081582560308998219929113172359131043480500975779224899555629377349",
     price: 0.2101,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -988,6 +1040,7 @@ const allNFTs = [
     collectionId: "0x2308742aa28cc460522ff855d24a365f99deba7b",
     tokenId: "1889",
     price: 0.2018,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1008,6 +1061,7 @@ const allNFTs = [
     tokenId:
       "51272562196199160864040647603693930280378919872451524472438088096485316903409",
     price: 1.1632,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1028,6 +1082,7 @@ const allNFTs = [
     collectionId: "0xaa462106da447c0440a4be29614c19387a59a331",
     tokenId: "1476",
     price: 0.15,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1048,6 +1103,7 @@ const allNFTs = [
     tokenId:
       "110221059787778806384403364329966457884458567470965380560229160957910835797419",
     price: 0.03018,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1068,6 +1124,7 @@ const allNFTs = [
     collectionId: "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
     tokenId: "8847",
     price: 4.5674,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1087,6 +1144,7 @@ const allNFTs = [
     collectionId: "0x466cfcd0525189b573e794f554b8a751279213ac",
     tokenId: "4096",
     price: 2.1815,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1106,6 +1164,7 @@ const allNFTs = [
     collectionId: "0xdd70af84ba86f29bf437756b655110d134b5651c",
     tokenId: "6962",
     price: 0.151,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1125,6 +1184,7 @@ const allNFTs = [
     collectionId: "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
     tokenId: "4119",
     price: 0.7016,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1144,6 +1204,7 @@ const allNFTs = [
     collectionId: "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
     tokenId: "5674",
     price: 0.7012,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1163,6 +1224,7 @@ const allNFTs = [
     collectionId: "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
     tokenId: "6831",
     price: 0.669,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1183,6 +1245,7 @@ const allNFTs = [
     tokenId:
       "77966843005657051865893041381378865643577453560047785150643346176309867850286",
     price: 1.12,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1203,6 +1266,7 @@ const allNFTs = [
     collectionId: "0xf6ee484f82f28d69688f37fe90af514ce212b7c3",
     tokenId: "112",
     price: 0.7,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1222,6 +1286,7 @@ const allNFTs = [
     collectionId: "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
     tokenId: "2612",
     price: 0.15025,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1241,6 +1306,7 @@ const allNFTs = [
     collectionId: "0xefaed650f1a94801806bb110019d9b0dc79531a8",
     tokenId: "4915265",
     price: 0.33525,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1260,6 +1326,7 @@ const allNFTs = [
     collectionId: "0x524cab2ec69124574082676e6f654a18df49a048",
     tokenId: "3424",
     price: 0.45,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1279,6 +1346,7 @@ const allNFTs = [
     collectionId: "0x942bc2d3e7a589fe5bd4a5c6ef9727dfd82f5c8a",
     tokenId: "13740",
     price: 0.375,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1298,6 +1366,7 @@ const allNFTs = [
     collectionId: "0x338be3d8d0209815601e72f7a04ac7f37d61564b",
     tokenId: null,
     price: 0.15443,
+    available: true,
     source: {
       domain: "x2y2.io",
       name: "X2Y2",
@@ -1312,6 +1381,7 @@ const allNFTs = [
     tokenId:
       "83709159667154091369088411939933365186468971065199878122294167332239708074870",
     price: 1.1571,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1332,6 +1402,7 @@ const allNFTs = [
     collectionId: "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
     tokenId: "4290",
     price: 0.2792,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1351,6 +1422,7 @@ const allNFTs = [
     collectionId: "0x05b505f6bda522efd3b5f63b6338f275f14549a2",
     tokenId: "716",
     price: 0.28,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1371,6 +1443,7 @@ const allNFTs = [
     tokenId:
       "99114902007464053189827416879144825615375415779576483731593998858624403389004",
     price: 0.03018,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1392,6 +1465,7 @@ const allNFTs = [
     tokenId:
       "29128219344241625672649927581711420551919280521992575145036139448178906977453",
     price: 1.1608,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1412,6 +1486,7 @@ const allNFTs = [
     collectionId: "0x31d45de84fde2fb36575085e05754a4932dd5170",
     tokenId: null,
     price: 0.69416,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1425,6 +1500,7 @@ const allNFTs = [
     collectionId: "0xf61f24c2d93bf2de187546b14425bf631f28d6dc",
     tokenId: "19240",
     price: 0.19032,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1444,6 +1520,7 @@ const allNFTs = [
     collectionId: "0xb76fbbb30e31f2c3bdaa2466cfb1cfe39b220d06",
     tokenId: "4840",
     price: 0.7213,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1463,6 +1540,7 @@ const allNFTs = [
     collectionId: "0x5802c586f657c787902280ac091d81832d7faf84",
     tokenId: "1294",
     price: 0.0303,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1482,6 +1560,7 @@ const allNFTs = [
     collectionId: "0xec7f8a34b97ac65caad3841659f2cd54285a3950",
     tokenId: "6653",
     price: 0.08,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1500,6 +1579,7 @@ const allNFTs = [
     collectionId: "0x80dbbdcb4280030fb22e2a9d671a368211d49d6e",
     tokenId: "1022",
     price: 0.57,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1519,6 +1599,7 @@ const allNFTs = [
     collectionId: "0x5cc5b05a8a13e3fbdb0bb9fccd98d38e50f90c38",
     tokenId: "148991",
     price: 1.1,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1538,6 +1619,7 @@ const allNFTs = [
     collectionId: "0x5cc5b05a8a13e3fbdb0bb9fccd98d38e50f90c38",
     tokenId: "160354",
     price: 1.11731,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1558,6 +1640,7 @@ const allNFTs = [
     tokenId:
       "72787300798922300374976336178008287974202342578435317697937250404406507920989",
     price: 1.161,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1578,6 +1661,7 @@ const allNFTs = [
     collectionId: "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
     tokenId: "2111",
     price: 0.2757,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1597,6 +1681,7 @@ const allNFTs = [
     collectionId: "0x2308742aa28cc460522ff855d24a365f99deba7b",
     tokenId: "4570",
     price: 0.2025,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1616,6 +1701,7 @@ const allNFTs = [
     collectionId: "0xbce3781ae7ca1a5e050bd9c4c77369867ebc307e",
     tokenId: null,
     price: 0.76926,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1629,6 +1715,7 @@ const allNFTs = [
     collectionId: "0x6fd053bff10512d743fa36c859e49351a4920df6",
     tokenId: "4863",
     price: 0.031,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1648,6 +1735,7 @@ const allNFTs = [
     collectionId: "0xb76fbbb30e31f2c3bdaa2466cfb1cfe39b220d06",
     tokenId: "9466",
     price: 1.81005,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1668,6 +1756,7 @@ const allNFTs = [
     tokenId:
       "72654528211073432287651017538130345038031692330656205030771824015633053801307",
     price: 0.015,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1688,6 +1777,7 @@ const allNFTs = [
     collectionId: "0x18487d2cac946c7fe800855c4039aac210f68baa",
     tokenId: "1132",
     price: 0.131,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1707,6 +1797,7 @@ const allNFTs = [
     collectionId: "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
     tokenId: "3631",
     price: 0.183,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1726,6 +1817,7 @@ const allNFTs = [
     collectionId: "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
     tokenId: "2232",
     price: 0.6549,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1745,6 +1837,7 @@ const allNFTs = [
     collectionId: "0x2308742aa28cc460522ff855d24a365f99deba7b",
     tokenId: "2313",
     price: 0.2048,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1764,6 +1857,7 @@ const allNFTs = [
     collectionId: "0xb76fbbb30e31f2c3bdaa2466cfb1cfe39b220d06",
     tokenId: "5608",
     price: 0.72024,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1783,6 +1877,7 @@ const allNFTs = [
     collectionId: "0x394e3d3044fc89fcdd966d3cb35ac0b32b0cda91",
     tokenId: "2711",
     price: 1.3048,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1802,6 +1897,7 @@ const allNFTs = [
     collectionId: "0x28462739c3eb65a571bf92689e8257c806bd275d",
     tokenId: "1558",
     price: 0.0759,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1821,6 +1917,7 @@ const allNFTs = [
     collectionId: "0xb76fbbb30e31f2c3bdaa2466cfb1cfe39b220d06",
     tokenId: "5792",
     price: 0.7255,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1840,6 +1937,7 @@ const allNFTs = [
     collectionId: "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
     tokenId: "5744",
     price: 0.4924,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1859,6 +1957,7 @@ const allNFTs = [
     collectionId: "0x6400c9cf1961a36b40616ead83e87a973f47f548",
     tokenId: null,
     price: 0.13614,
+    available: true,
     source: {
       domain: "x2y2.io",
       name: "X2Y2",
@@ -1872,6 +1971,7 @@ const allNFTs = [
     collectionId: "0x6632a9d63e142f17a668064d41a21193b49b41a0",
     tokenId: "1214",
     price: 0.2011,
+    available: true,
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -1893,6 +1993,7 @@ const updatedNFTs = allNFTs.map((nft) => {
     contract: nft.contract,
     tokenId: nft.tokenId,
     price: nft.price,
+    available: true,
     source: nft.source,
     tokenData: nft.tokenData,
   };
