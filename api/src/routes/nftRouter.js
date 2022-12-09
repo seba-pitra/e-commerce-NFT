@@ -5,6 +5,7 @@ const {
   createAllInitialNFTs,
   createNft,
   deleteNft,
+  updateNFT,
 } = require("../controllers/nft.controller");
 
 const nftRouter = Router();
@@ -46,10 +47,14 @@ nftRouter.get("/:id", async (req, res) => {
   }
 });
 
-nftRouter.put("/:attribute", async (req, res) => {
-  // try {
-  // } catch (err) {
-  // }
+nftRouter.put("/:id", async (req, res) => {
+  try {
+    const { id } = req.params;
+    const updatedNFT = await updateNFT(id, req.body);
+    res.status(201).json(updatedNFT);
+  } catch (err) {
+    res.status(400).send(err.message);
+  }
 });
 
 nftRouter.delete("/:id", async (req, res) => {
