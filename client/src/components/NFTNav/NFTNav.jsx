@@ -3,6 +3,15 @@ import SearchBar from '../SearchBar/SearchBar'
 import logo from '../../images/logo/logo.png';
 import './NFTNav.css';
 
+import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
+
+import  Shoppingkart from '../Shoppingkart/Shoppingkart'
+import Offcanvas from 'react-bootstrap/Offcanvas';
+
+
+
+
+
 export default function NFTNav() {
   return (
     <Navbar className="brand-colorized-background-color" expand="lg">
@@ -33,7 +42,9 @@ export default function NFTNav() {
           <Nav>
             <Nav.Link className="brand-colorized-text" href="/login">Log in</Nav.Link>
             <Nav.Link  className="brand-colorized-text" href="/signup">Sign up</Nav.Link>
-          </Nav>
+	  
+	 <button onClick={<Shoppingkart/> }> <ShoppingCartIcon /></button>
+	  </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
