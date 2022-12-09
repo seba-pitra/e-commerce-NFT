@@ -3,31 +3,32 @@ import { useState } from 'react'
 import { useDispatch } from 'react-redux'
 import { collections } from '../../../collections.json'
 
+
 export default function Filtering(){
     //aqui van los estados de filtado que se encuentran en redux/reducer.
-    const [selectedCollections, setSelectedCollections] = useState([])
-    const [selectedCategories, setSelectedCategories] = useState([])
-    const [selectedStates, setSelectedStates] = useState([])
+    const [selectedCollection, setSelectedCollection] = useState("")
+    const [selectedCategory, setSelectedCategory] = useState("")
+    const [selectedState, setSelectedState] = useState("")
 
     const dispatch = useDispatch();
 
     const categories = ['Cars', 'Monkeys', 'Dogs', 'People']
     const states = ['Buy Now', 'Auction', 'All']
 
+    console.log(selectedCategory)
+    console.log(selectedCollection)
+    console.log(selectedState)
     const selectCollection = (e) => {
-        selectedCollections.push(e.target.value)
-        setSelectedCollections(...selectedCollections)
-        /*dispatch(actions.filterCollection(e.target.value))*/
+        setSelectedCollection(e.target.value);
+        dispatch(actions.filterCollection(e.target.value))
     }
     const selectCategory = (e) => {
-        selectedCategories.push(e.target.value)
-        setSelectedCategories(...selectedCategories)
-        /*dispatch(actions.filterCategory)*/
+        setSelectedCategory(e.target.value)
+        dispatch(actions.filterCategory(e.target.value))
     }
     const selectState = (e) => {
-        selectedStates.push(e.target.value)
-        setSelectedStates(...selectedStates)
-        /*dispatch(actions.filterState)*/
+        setSelectedState(selectedState);
+        dispatch(actions.filterState(e.target.value))
     }
 
     return (
@@ -38,8 +39,9 @@ export default function Filtering(){
                 {collections.map(collection => {
                     return <button 
                     key={collection.name}
+                    value={collection.name}
                     onClick={(e)=>{selectCollection(e)}}
-                    id={selectedCollections.includes(collection.name)? "selected" : ""} //esto es para cambiar el css depende de si lo seleccione cambia el css.
+                    id={selectedCollection.includes(collection.name)? "selected" : ""} //esto es para cambiar el css depende de si lo seleccione cambia el css.
                     className="option-btn btn-filter"
                     >
                         {collection.name}
@@ -55,7 +57,7 @@ export default function Filtering(){
                     key={category}
                     value={category}
                     onClick={(e)=>{selectCategory(e)}}
-                    id={selectedCategories.includes(category)? "selected" : ""} //esto es para cambiar el css depende de si lo seleccione cambia el css.
+                    id={selectedCategory.includes(category)? "selected" : ""} //esto es para cambiar el css depende de si lo seleccione cambia el css.
                     className="option-btn btn-filter"
                     >
                         {category}
@@ -72,7 +74,7 @@ export default function Filtering(){
                     key={state}
                     value={state}
                     onClick={(e)=>{selectState(e)}}
-                    id={selectedStates.includes(state)? "selected" : ""} //esto es para cambiar el css depende de si lo seleccione cambia el css.
+                    id={selectedState.includes(state)? "selected" : ""} //esto es para cambiar el css depende de si lo seleccione cambia el css.
                     className="option-btn btn-filter"
                     >
                         {state}

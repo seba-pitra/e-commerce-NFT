@@ -22,6 +22,10 @@ module.exports = (sequelize) => {
         type: DataTypes.STRING,
         allowNull: false,
       },
+      /* available: {
+        type: DataTypes.BOOLEAN,
+        allowNull: false,
+      }, */
       type: {
         type: DataTypes.STRING,
         allowNull: false,
@@ -35,6 +39,9 @@ module.exports = (sequelize) => {
       },
       price: {
         type: DataTypes.FLOAT,
+      },
+      category: {
+        type: DataTypes.STRING,
       },
       source: {
         type: DataTypes.JSONB,

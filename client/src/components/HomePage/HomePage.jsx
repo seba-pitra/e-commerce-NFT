@@ -1,24 +1,17 @@
 import * as actions from '../../redux/actions'
 import { useDispatch, useSelector } from 'react-redux';
-import { useEffect } from 'react'; 
+import { useEffect, useState } from 'react'; 
 import Pages from "../Pages/Pages";
 import FilterOptions from '../FilterOptrions/Options';
 import Loading from '../Loading/Loading';
-import SearchBar from '../SearchBar/SearchBar';
-import Footer from '../Footer/Footer';
 
 
 function HomePage(){
     // eslint-disable-next-line
-
-    const orderType = useSelector(state => state.orderType);
-    // eslint-disable-next-line
-    const order = useSelector(state => state.order);
     const isLoading = useSelector(state => state.isLoading);
-
     const dispatch = useDispatch();
 
-     useEffect(() => {
+    useEffect(() => {
         dispatch(actions.getAllNfts());
     }, [dispatch]); // <<-- only on Loading 
     
@@ -30,9 +23,8 @@ function HomePage(){
 	{/*    {isLoading ?    <<-- commented for Homepage testing only  */} 
             <Loading/> :      
                 <>        
-                <FilterOptions/>
+                <FilterOptions />
                 <Pages />
-		<Footer />
                 </>
 	{/*    }    */}
             </div>

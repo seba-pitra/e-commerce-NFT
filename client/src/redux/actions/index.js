@@ -19,16 +19,16 @@ export const ORDER_NFT_CREATED_AT = "ORDER_NFT_CREATED_AT";
 export const LOADING = "LOADING";
 
 export const getAllNfts = () => {
-  return async (dispatch) => {
-    dispatch({type : LOADING})
-    try {
-      const allNfts = await axios.get("/nft")
-      dispatch({type: GET_ALL_NFTS, payload: allNfts.data})
-    }
-    catch (e) {
-      alert("There was a connection error, please try again later")
-    }
-  }
+    return async (dispatch) => {
+        dispatch({type : LOADING}) // set loading > settear en null en reducer
+        try {
+            const allNfts = await axios.get("/nft") // add ruta
+            dispatch({type: GET_ALL_NFTS, payload: allNfts.data})
+        }
+        catch (e) {
+            alert("There was a connection error, please try again later")
+        }
+}
 };
 
 export const getNftDetail = (id) => {

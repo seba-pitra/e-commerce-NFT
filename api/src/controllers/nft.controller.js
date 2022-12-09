@@ -8,9 +8,11 @@ const createAllInitialNFTs = async () => {
       type: data.type,
       name: (data.tokenData && data.tokenData.name) || "no name found",
       image: (data.tokenData && data.tokenData.image) || "no image found",
+      available: data.available,
       contract: data.contract,
       tokenId: data.tokenId,
       price: data.price,
+      category: data.category,
       source: data.source,
     };
 
@@ -27,9 +29,10 @@ const createAllInitialNFTs = async () => {
 };
 
 const createNft = async (body) => {
-  const { name, image, type, contract, price, collectionId } = body;
+  const { name, image, type, contract, price, collectionId, available } = body;
 
-  const validate = !name || !image || !type || !contract || !price;
+  const validate =
+    !name || !image || !type || !contract || !price || !available;
 
   if (validate) throw new Error("Mandatory fields are missing");
 
@@ -49,7 +52,6 @@ const createNft = async (body) => {
 
 const getNfts = async () => {
   const dbNfts = await Nft.findAll();
-
   if (!dbNfts.length) throw new Error("No NFT found");
 
   return dbNfts;
@@ -59,11 +61,49 @@ const searchNftById = async (id) => {
   const foundNftFromDB = await Nft.findByPk(id);
 
   if (!foundNftFromDB) throw new Error("No dog found");
-
   return foundNftFromDB;
 };
 
-const update = async (attribute, value, dogId) => {};
+const updateNFT = async (nftId, body) => {
+  try {
+    if (!body || !nftId) throw new Error("Iinsuficient data for update");
+
+    const { price, userId } = body;
+    const selectedNFT = await Nft.findByPk(nftId);
+
+    if (!selectedNFT) throw new Error("No NFT found");
+
+    //UserUpdate temporaly disabled
+
+    // if (userId) {
+    //   const selectedUser = await User.findByPk(userId);
+    //   if (!selectedUser) throw new Error("No User Found");
+    //   await selectedNFT.setUser(selectedUser);
+    //   await selectedNFT.save();
+    // }
+
+    if (price) {
+      await selectedNFT.set({ price: price });
+      await selectedNFT.save();
+    }
+    return selectedNFT;
+  } catch (error) {
+    throw error;
+  }
+};
+
+const changeAvailablePropertyNft = async (id) => {
+  const foundNft = await Nft.findByPk(id);
+
+  if (!foundNft) throw new Error("No NFT found");
+
+  if (foundNft.available) foundNft.available = false;
+  else if (!foundNft.available) foundNft.available = true;
+
+  await foundNft.save();
+
+  return foundNft;
+};
 
 const deleteNft = async (id) => {
   const foundNft = await Nft.findByPk(id);
@@ -82,5 +122,7 @@ module.exports = {
   searchNftById,
   createAllInitialNFTs,
   createNft,
+  changeAvailablePropertyNft,
   deleteNft,
+  updateNFT,
 };
