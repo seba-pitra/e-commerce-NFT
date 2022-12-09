@@ -102,7 +102,7 @@ const deleteNft = async (id) => {
 
   await foundNft.save();
 
-  return foundNft;
+  return foundNft.name;
 };
 
 module.exports = {
