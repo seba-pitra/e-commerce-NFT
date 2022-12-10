@@ -1,6 +1,7 @@
 import React from "react";
 import "./CreateNft.css";
 import "../NFTCard/NFTCard.css";
+import PreviewNft from './PreviewNft/PreviewNft'
 // import * as actions from "../redux/actions/index.js";
 import { useDispatch, useSelector } from "react-redux";
 
@@ -13,6 +14,7 @@ export default function Form() {
     link: "",
     categories: [],
     price: 0,
+    image:"no image found"
   });
   //asi tendria q venir el array de categories,puede cambiar como venga
   let categories = ["humanoid", "cyberpunk", "object", "animal"];
@@ -129,28 +131,7 @@ export default function Form() {
 
         <div className="ilustrationContainer">
           <h2>This is how your NFT it will be create</h2>
-          <div className="cardContainer">
-            {/* pense en traer el componente entero de NftCard pero tiene un link ,cosa q este no puede tener ,por eso hago uno nuevo */}
-            <div className="nft-ilustration">
-              <img
-                className="nftImage"
-                src="https://images.wondershare.com/repairit/aticle/2021/07/resolve-images-not-showing-problem-1.jpg"
-                alt=""
-              />
-
-              <div className="nameAndToken">
-                {/* horizontal div */}
-                <h3>{input.name}</h3>
-                <h4>*Token ID</h4>
-              </div>
-              <h3>{input.price}</h3>
-              {/* <h3>Last sale: falta esto</h3> */}
-              <div className="CardButtons">
-                <img src="" alt="add-to-favs" />
-                <img src="" alt="shopping-cart" />
-              </div>
-            </div>
-          </div>
+          <PreviewNft image={input.image} name={input.name} price={input.price} />
         </div>
       </div>
     </React.Fragment>
