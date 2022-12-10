@@ -1,0 +1,150 @@
+import React from "react";
+import "./CreateNft.css";
+import '../NFTCard/NFTCard.css'
+// import * as actions from "../redux/actions/index.js";
+import { useDispatch, useSelector } from "react-redux";
+
+export default function Form() {
+  //name and file for the nft are obligatories
+  let [input, setInput] = React.useState({
+    name: "",
+    description: "",
+    collection: "",
+    link: "",
+    categories: [],
+    price:0
+  });
+  //asi tendria q venir el array de categories,puede cambiar como venga
+  let categories = ["humanoid", "cyberpunk", "object", "animal"];
+
+  let handleChange = (e) => {
+    e.preventDefault();
+    setInput((prev) => ({ ...prev, [e.target.name]: e.target.value }));
+    console.log(input);
+    // setErrors(
+    //   validate({
+    //     ...input,
+    //     [e.target.name]: e.target.value,
+    //   })
+    // );
+  };
+
+  let handleChangeSelect = (e) => {
+    if (!input.categories.includes(e.target.value)) {
+      setInput((prev) => ({
+        ...prev,
+        categories: [...input.categories, e.target.value],
+      }));
+    }
+    console.log(input);
+  };
+
+  return (
+    <React.Fragment>
+      <div className="mainContainer">
+        <h1>Create Non Fungible Token</h1>
+
+        <form className="createNft">
+          <label>Name</label>
+          <input
+            type={"text"}
+            name={"name"}
+            value={input.name}
+            onChange={(e) => handleChange(e)}
+          />
+          <h3>Image,video,audio or 3D model</h3>
+          <p>
+            File types supported: JPG, PNG, GIF, SVG, MP4, WEBM, MP3, WAV, OGG,
+            GLB, GLTF. Max size: 100 MB
+          </p>
+
+          <label>External Link</label>
+          {/* aca deberia ir el input para agregar el archivo  */}
+          <input
+            type={"text"}
+            name={"link"}
+            value={input.link}
+            onChange={(e) => handleChange(e)}
+          />
+
+          <p>
+            It will include a link to this URL on the detail page of this item
+            so that users can click to learn more about it.
+          </p>
+
+          <label>Description</label>
+          <input
+            type={"text"}
+            name={"description"}
+            value={input.description}
+            onChange={(e) => handleChange(e)}
+          />
+          <p>
+            The description will be included on the item's detail page below its
+            image.
+          </p>
+
+          <label>Collection</label>
+          <p>This is the collection where your item will appear.</p>
+          <input
+            type={"text"}
+            name={"collection"}
+            value={input.collection}
+            onChange={(e) => handleChange(e)}
+          />
+
+            <label >Price</label>
+            {/* se podria agregar en dolares/ethereum ,etc */}
+            <input type={"number"} 
+                  name={"price"}
+                  value={input.price}
+                  onChange={(e) => handleChange(e)}/>
+
+
+          <label>Category</label>
+          <p>
+            Add one category or more to classify it.You can select categories by
+            existing ones or add a new one
+          </p>
+          <input type={"text"} name={"category"} />
+          <button className="addCategory"></button>
+
+          <select onChange={(e) => handleChangeSelect(e)} name="categories">
+            <option hidden disabled selected value>
+              Temperaments
+            </option>
+
+            {categories &&
+              categories.map((e) => (
+                <option value={e} name="categories" key={e}>
+                  {e}
+                </option>
+              ))}
+          </select>
+
+        </form>
+
+        <h2>This is how your NFT it will be create</h2>
+        <div className="cardContainer">
+          
+          {/* pense en traer el componente entero de NftCard pero tiene un link ,cosa q este no puede tener ,por eso hago uno nuevo */}
+          <div className="nft-ilustration">
+            <img className="nftImage" src='https://images.wondershare.com/repairit/aticle/2021/07/resolve-images-not-showing-problem-1.jpg' alt="" />
+
+            <div className="nameAndToken">
+              {/* horizontal div */}
+              <h3>{input.name}</h3>
+              <h4>*Here will be the Token ID</h4>
+            </div>
+            <h3>{input.price}</h3>
+            {/* <h3>Last sale: falta esto</h3> */}
+            <div className="CardButtons">
+              <img src="" alt="add-to-favs" />
+              <img src="" alt="shopping-cart" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </React.Fragment>
+  );
+}
