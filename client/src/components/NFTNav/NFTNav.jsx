@@ -5,15 +5,21 @@ import './NFTNav.css';
 
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 
-import  Shoppingkart from '../Shoppingkart/Shoppingkart'
+//import  Shoppingkart from '../Shoppingkart/Shoppingkart'
 import Offcanvas from 'react-bootstrap/Offcanvas';
-
-
-
+import {React, useState } from 'react';
 
 
 export default function NFTNav() {
-  return (
+
+	const [show, setShow] = useState(false);
+
+	const handleClose = () => setShow(false);
+  	const handleShow = () => setShow(true);
+
+
+
+return (
     <Navbar className="brand-colorized-background-color" expand="lg">
       <Container fluid>
             <img
@@ -43,8 +49,21 @@ export default function NFTNav() {
             <Nav.Link className="brand-colorized-text" href="/login">Log in</Nav.Link>
             <Nav.Link  className="brand-colorized-text" href="/signup">Sign up</Nav.Link>
 	  
-	 <button onClick={<Shoppingkart/> }> <ShoppingCartIcon /></button>
-	  </Nav>
+	 <button onClick={handleShow}> <ShoppingCartIcon /></button>
+
+ <Offcanvas show={show} onHide={handleClose}>
+        <Offcanvas.Header closeButton>
+          <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+        </Offcanvas.Header>
+        <Offcanvas.Body>
+Gracias por su compra.
+	 </Offcanvas.Body>
+      </Offcanvas>
+	 <h1>content</h1>
+
+
+
+	</Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
