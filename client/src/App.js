@@ -17,7 +17,6 @@ function App() {
       <Switch>
       <Route exact path='/' render={()=><LandingPage/>} />
       <Route path='/home' render={()=><HomePage/>} />
-      <Route exact path='/' render={()=><LandingPage/>} />
       <Route path='/details/:id' render={({match}) => <Details match={match}/>}/>
       <Route component={NotFoundException}/>
       </Switch>

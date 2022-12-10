@@ -70,8 +70,8 @@ export const getNftDetail = (id) => {
   }
 };
 
-export const resetFilters = (payload) => {
-  return { type: RESET_FILTERS, payload } // reset all > copy nft on nftFilters
+export const resetFilters = () => {
+  return { type: RESET_FILTERS } // reset all > copy nft on nftFilters
 };
 
 // --- FILTERS ---
