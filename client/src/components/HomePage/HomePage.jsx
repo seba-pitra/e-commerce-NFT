@@ -19,13 +19,13 @@ function HomePage(){
         <div className='home-background'>
             <div className='home-container'>
                 {/*si estoy haciendo todavia el fetch muestro el componente de carga sino muestro los componentes pertenecientes a la homepage*/}
-	{/*    {isLoading ?    <<-- commented for Homepage testing only  */} 
+	{ isLoading ?
             <Loading/> :      
-                <>        
+                <>
                 <FilterOptions />
                 <Pages />
                 </>
-	{/*    }    */}
+	}
             </div>
         </div>
         </>
