@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import "./NFTCard.css";
-// import FavoriteIcon from "@material-ui/icons/Favorite";
+
+import FavoriteIcon from "@material-ui/icons/Favorite";
+import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 
 export default function NFTCard(props) {
   //{
@@ -44,13 +46,13 @@ export default function NFTCard(props) {
             </div>
           </div>
           <div className="CardButtons">
-            <div>
+            <div className="nftCard-icon-container">
               {/* <FavoriteIcon /> */}
-              🧡
+              <FavoriteIcon />
             </div>
-            <div>
+            <div className="nftCard-icon-container">
               {/* <FavoriteIcon /> */}
-              🚗
+              <ShoppingCartIcon />
             </div>
             {/* <img src="" alt="add-to-favs" />
           <img src="" alt="shopping-cart" /> */}
