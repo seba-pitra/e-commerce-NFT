@@ -15,6 +15,8 @@ export default function Filtering(){
 
     const nfts = useSelector(state => state.nfts);
 
+    const collections = useSelector(state => state.collections);
+
     const arrCategories = nfts.map(e => e.category)
     const categories = []
     arrCategories.filter(e => { if ( categories.indexOf(e) === -1 ) categories.push(e) })
@@ -44,12 +46,12 @@ export default function Filtering(){
             <select onChange={(e)=>{selectCollection(e)}}>
                 {collections.map(collection => {
                     return <option 
-                    key={collection.name}
-                    value={collection.name}
-                    id={selectedCollection.includes(collection.name)? "selected" : ""} //esto es para cambiar el css depende de si lo seleccione cambia el css.
+                    key={collection.id}
+                    value={collection.id}
+                    id={selectedCollection.includes(collection.id)? "selected" : ""} //esto es para cambiar el css depende de si lo seleccione cambia el css.
                     className="option-btn btn-filter"
                     >
-                        {collection.name}
+                        {collection.id}
                     </option>
                 })}
             </select>

@@ -37,7 +37,6 @@ export const getAllCollections = () => {
   return async (dispatch) => {
     try {
         const allCollections = await axios.get("/collection")
-        console.log(allCollections)
         dispatch({type: GET_ALL_COLLECTIONS, payload: allCollections.data})
     }
     catch (e) {

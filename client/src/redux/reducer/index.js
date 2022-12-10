@@ -16,7 +16,6 @@ const rootReducer = (state = initialState, action) => {
     case LOADING:
       return { ...state, isLoading : true } // loading mientras carga la info
     case GET_ALL_NFTS:
-      console.log(action.payload)
       return { ...state, nfts: action.payload, filteredNfts: action.payload, nftDetail: {}, isLoading: false } // reset all
     case GET_ALL_COLLECTIONS:
       return { ...state, collections: action.payload }
@@ -33,16 +32,8 @@ const rootReducer = (state = initialState, action) => {
     case RESET_FILTERS:
       return { ...state, filteredNfts: state.nfts }
     case FILTER_NFT_COLLECTION:
-      let filterByCollectionId = [];
-      let filterByCollection = [];
-      console.log(action.payload)
-      console.log(state.collections) // vacio, falta ruta del back
-      state.collections.map(e => { // probando de a una
-        if(action.payload === e.name) filterByCollectionId.push(e.id)
-        console.log("aaa")
-        console.log(filterByCollectionId)
-        filterByCollection = state.filteredNfts.filter(e => e.collectionId === filterByCollectionId)
-      })
+      let filterByCollection = []; // falta fixear
+      filterByCollection = state.nfts.filter(e => e.collectionId === action.payload)
       return {...state, filteredNfts: filterByCollection}
     case FILTER_NFT_CATEGORY:
       let filterByCategory = []; // funciona de a una, err > si elijo 2, se acumulan, no se puede desseleecionar
@@ -53,10 +44,11 @@ const rootReducer = (state = initialState, action) => {
       })
       return {...state, filteredNfts: filterByCategory}
     case FILTER_NFT_PRICE:
+      console.log(action.payload)
       let filterByPrice = []; // enviar error if max < min front?
       filterByPrice = state.nfts.filter(e => e.price !== 0) // sin max o min no filtra? resetea si se borra alguno?
       if (action.payload.min !== 0) filterByPrice = state.nfts.filter(e => e.price > action.payload.min)
-      else if (action.payload.max !== 0) filterByPrice = state.nfts.filter(e => e.price < action.payload.max) 
+      if (action.payload.max !== 0) filterByPrice = filterByPrice.filter(e => e.price < action.payload.max) 
       return {...state, filteredNfts: filterByPrice}
     case FILTER_NFT_STATE:
       let filterByState = [];

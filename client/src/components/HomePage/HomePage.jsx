@@ -12,7 +12,7 @@ function HomePage(){
     const dispatch = useDispatch();
 
     useEffect(() => dispatch(actions.getAllNfts()), [dispatch]); // <<-- only on Loading 
-    useEffect(() => dispatch(actions.getAllCollections()), [dispatch] )
+    useEffect(() => dispatch(actions.getAllCollections()), [dispatch])
     
     return(
         <>
