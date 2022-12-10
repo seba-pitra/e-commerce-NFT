@@ -22,7 +22,7 @@ export const LOADING = "LOADING";
 
 export const getAllNfts = () => {
   return async (dispatch) => {
-    dispatch({type : LOADING}) // set loading > settear en null en reducer
+    dispatch({type : LOADING})
     try {
         const allNfts = await axios.get("/nft") 
         dispatch({type: GET_ALL_NFTS, payload: allNfts.data})
@@ -71,7 +71,7 @@ export const getNftDetail = (id) => {
 };
 
 export const resetFilters = (payload) => {
-  return { type: RESET_FILTERS, payload } // reset all > copy nft on nftFilters
+  return { type: RESET_FILTERS, payload }
 };
 
 // --- FILTERS ---
