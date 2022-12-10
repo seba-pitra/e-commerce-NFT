@@ -24,6 +24,8 @@ export default function Ordering(){
     }
     //ordernar Por Rating
     const orderByPrice = () => {
+        console.log("1")
+        dispatch(actions.orderPrice("up-down"))
         /*
         dispatch(actions.setOrderType('rating'))
         dispatch(actions.orderNfts())

@@ -22,13 +22,13 @@ module.exports = (sequelize) => {
         type: DataTypes.STRING,
         allowNull: false,
       },
-      available: {
-        type: DataTypes.BOOLEAN,
-        allowNull: false,
-        validate: {
-          isIn: [[true, false]],
-        },
-      },
+      // available: {
+      //   type: DataTypes.BOOLEAN,
+      //   allowNull: false,
+      //   validate: {
+      //     isIn: [[true, false]],
+      //   },
+      // },
       type: {
         type: DataTypes.STRING,
         allowNull: false,
