@@ -18,7 +18,12 @@ const createAllInitialNFTs = async () => {
 
     let createdCollection = await Collection.findOrCreate({
       where: {
-        id: data.collectionId,
+        id: data.collection.collectionId,
+      },
+      defaults: {
+        id: data.collection.collectionId,
+        name: data.collection.name,
+        image: data.collection.image,
       },
     }).then(([collection, created]) => collection);
 
