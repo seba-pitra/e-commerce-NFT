@@ -62,6 +62,14 @@ const rootReducer = (state = initialState, action) => {
       })
       return {...state, filteredNfts: filterByCategory}
     case FILTER_NFT_PRICE:
+      /*
+        action.payload:
+        range = {
+          min : float,
+          max : float,
+          currency : string
+        }
+      */
       let filterByPrice = []; // enviar error if max < min front?
       filterByPrice = state.nfts.filter(e => e.price !== 0) // sin max o min no filtra? resetea si se borra alguno?
       if (action.payload.min !== 0) filterByPrice = state.nfts.filter(e => e.price > action.payload.min)
