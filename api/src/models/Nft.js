@@ -22,10 +22,13 @@ module.exports = (sequelize) => {
         type: DataTypes.STRING,
         allowNull: false,
       },
-      /* available: {
+      available: {
         type: DataTypes.BOOLEAN,
         allowNull: false,
-      }, */
+        validate: {
+          isIn: [[true, false]],
+        },
+      },
       type: {
         type: DataTypes.STRING,
         allowNull: false,
