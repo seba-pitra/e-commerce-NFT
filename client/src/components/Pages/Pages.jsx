@@ -22,7 +22,7 @@ function Pages(){
         />
     });
     
-
+    console.log(nftsInPage);
     return(
         <div>
             { 
@@ -30,9 +30,7 @@ function Pages(){
                 <NotFoundResults/> :
                 <>
                 <PageSelector/>
-                    <div className='carousel' >
-                        {cards}
-                    </div>
+                    <div className='pageSelector-Container'>{cards}</div>
                 <PageSelector/>
                 </>
         }
