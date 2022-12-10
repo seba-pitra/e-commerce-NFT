@@ -1,13 +1,12 @@
+import {React, useState } from 'react';
 import { Container, Nav, Navbar, NavDropdown} from 'react-bootstrap';
 import SearchBar from '../SearchBar/SearchBar'
 import logo from '../../images/logo/logo.png';
 import './NFTNav.css';
 
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
-
-//import  Shoppingkart from '../Shoppingkart/Shoppingkart'
+import  Shoppingkart from '../Shoppingkart/Shoppingkart'
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import {React, useState } from 'react';
 
 
 export default function NFTNav() {
@@ -48,20 +47,20 @@ return (
           <Nav>
             <Nav.Link className="brand-colorized-text" href="/login">Log in</Nav.Link>
             <Nav.Link  className="brand-colorized-text" href="/signup">Sign up</Nav.Link>
-	  
+
+{/* slide kart trigger*/ } 
 	 <button onClick={handleShow}> <ShoppingCartIcon /></button>
 
-
-	{/* slide kart*/}
+{/* slide kart*/}
 	<Offcanvas show={show} onHide={handleClose} placement={'end'}>
 	<Offcanvas.Header closeButton>
 	<Offcanvas.Title>Shopping Cart</Offcanvas.Title>
 	</Offcanvas.Header>
 	<Offcanvas.Body>
-	Gracias por su compra.
+		<Shoppingkart/>
 	</Offcanvas.Body>
 	</Offcanvas>
-	{/* slide kart*/}
+{/* slide kart*/}
 
 	</Nav>
         </Navbar.Collapse>
