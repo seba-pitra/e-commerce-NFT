@@ -1,43 +1,35 @@
 import * as actions from '../../../redux/actions'
 import { useState } from 'react'
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
+
+import './Ordering.css'
 
 export default function Ordering(){
-    //dos estados uno el estado de la flecha que indica si el orden es ascendente o descendente y otro, global, que hace referencia al orden si es alfabetico o por rating.
-    const [currentArrowState, setCurrentArrowState] = useState(true);
-    const currentOrder = useSelector(state => state.order);
+    const [nameOrderUp, setNameOrderUp] = useState(true);
+    const [priceOrderUp, setPriceOrderUp] = useState(true);
+    const [amountOrderUp, setAmountOrderUp] = useState(true);
+    const [releaseOrderUp, setReleaseOrderUp] = useState(true);
 
     const dispatch = useDispatch();
 
-    //funcion para revertir el orden de las tarjetas y cambiar la direccion de la flecha.
-    const reverseAndOrder = () => {
-        setCurrentArrowState(!currentArrowState);
-        /*dispatch(actions.reverseOrder(currentOrder))
-        dispatch(actions.orderNfts()) */
-    }
-    //ordernar por alfabetico
-    const orderByName = () => {
-        /* 
+    const orderByName = (e) => {
+        setNameOrderUp(!nameOrderUp)
         dispatch(actions.orderName(e.target.value))
-        dispatch(actions.orderNfts())
-         */
-    }
-    //ordernar Por Rating
-    const orderByPrice = () => {
-        console.log("1")
-        dispatch(actions.orderPrice("up-down"))
-        /*
-        dispatch(actions.setOrderType('rating'))
-        dispatch(actions.orderNfts())
-        */
     }
 
-    const orderByAmount = () => {
-
+    const orderByPrice = (e) => {
+        setPriceOrderUp(!priceOrderUp)
+        dispatch(actions.orderPrice(e.target.value))
     }
 
-    const orderByRelease  = () => {
+    const orderByAmount = (e) => {
+        setAmountOrderUp(!amountOrderUp)
+        dispatch(actions.orderAmount(e.target.value))
+    }
 
+    const orderByRelease  = (e) => {
+        setReleaseOrderUp(!releaseOrderUp)
+        dispatch(actions.orderCreatedAt(e.target.value))
     }
 
     return (
@@ -46,26 +38,29 @@ export default function Ordering(){
             <div className='button-list'>
                 {/*Boton para elegir orden alfabetico*/ }
                 <button 
-                    id='abc-option'
-                    className='option-btn button-order'
-                    value="a-z" 
+                    id='name-option'
+                    className={nameOrderUp ? 'btn-order-up' : 'btn-order-down'}
+                    value={nameOrderUp ? "a-z" : "z-a"}
                     onClick={(e)=> orderByName(e)}
                     >Name</button>
                 {/*boton para elegir orden por rating*/}
                 <button
-                    id='rating-option'
-                    className='option-btn button-order'
-                    value="up-down"
+                    id='price-option'
+                    className={priceOrderUp ? 'btn-order-up' : 'btn-order-down'}
+                    value={priceOrderUp ? "up-down" : "down-up"}
                     onClick={(e)=> orderByPrice(e)}
                     >Price</button>
                 <button
-                    id='rating-option'
-                    className='option-btn button-order'
+                    id='amount-option'
+                    className={amountOrderUp ? 'btn-order-up' : 'btn-order-down'}
+                    value={amountOrderUp ? "up-down" : "down-up"}
+                    onChange={(e)=> console.log("changed value" + e.target.value)}
                     onClick={(e)=> orderByAmount(e)}
                     >Amount</button>
                 <button
-                    id='rating-option'
-                    className='option-btn button-order'
+                    id='releasedate-option'
+                    className={releaseOrderUp ? 'btn-order-up' : 'btn-order-down'}
+                    value={releaseOrderUp ? "up-down" : "down-up"}
                     onClick={(e)=> orderByRelease(e)}
                     >Release date</button>
                 {/*boton para cambiar de orden descendente a ascendente y visceversa*/}
