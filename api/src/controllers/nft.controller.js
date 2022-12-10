@@ -92,7 +92,7 @@ const updateNFT = async (nftId, body) => {
   }
 };
 
-const changeAvailablePropertyNft = async (id) => {
+const deleteNft = async (id) => {
   const foundNft = await Nft.findByPk(id);
 
   if (!foundNft) throw new Error("No NFT found");
@@ -102,19 +102,7 @@ const changeAvailablePropertyNft = async (id) => {
 
   await foundNft.save();
 
-  return foundNft;
-};
-
-const deleteNft = async (id) => {
-  const foundNft = await Nft.findByPk(id);
-
-  if (!foundNft) throw new Error("No NFT found");
-
-  const nftName = foundNft.name;
-
-  await foundNft.destroy();
-
-  return nftName;
+  return foundNft.name;
 };
 
 module.exports = {
@@ -122,7 +110,6 @@ module.exports = {
   searchNftById,
   createAllInitialNFTs,
   createNft,
-  changeAvailablePropertyNft,
   deleteNft,
   updateNFT,
 };
