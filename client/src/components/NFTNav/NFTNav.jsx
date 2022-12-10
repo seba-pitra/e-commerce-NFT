@@ -1,10 +1,24 @@
+import {React, useState } from 'react';
 import { Container, Nav, Navbar, NavDropdown} from 'react-bootstrap';
 import SearchBar from '../SearchBar/SearchBar'
 import logo from '../../images/logo/logo.png';
-import './NFTNav.css';
+import  style from './NFTNav.css';
+
+import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
+import  Shoppingkart from '../Shoppingkart/Shoppingkart'
+import Offcanvas from 'react-bootstrap/Offcanvas';
+
 
 export default function NFTNav() {
-  return (
+	{/* Pim Pum Pam*/}
+	const [show, setShow] = useState(false);
+
+	const handleClose = () => setShow(false);
+  	const handleShow = () => setShow(true);
+
+
+
+return (
     <Navbar className="brand-colorized-background-color" expand="lg">
       <Container fluid>
             <img
@@ -33,7 +47,22 @@ export default function NFTNav() {
           <Nav>
             <Nav.Link className="brand-colorized-text" href="/login">Log in</Nav.Link>
             <Nav.Link  className="brand-colorized-text" href="/signup">Sign up</Nav.Link>
-          </Nav>
+
+{/* slide kart trigger*/ } 
+	 <button  style={{backgroundColor: "black",color: "#D3448B",border: "none" }} onClick={handleShow}> <ShoppingCartIcon /></button>
+
+{/* slide kart*/}
+	<Offcanvas show={show} onHide={handleClose} placement={'end'}>
+	<Offcanvas.Header closeButton>
+	<Offcanvas.Title>Your Shopping Cart</Offcanvas.Title>
+	</Offcanvas.Header>
+	<Offcanvas.Body>
+		<Shoppingkart/>
+	</Offcanvas.Body>
+	</Offcanvas>
+{/* slide kart*/}
+
+	</Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>

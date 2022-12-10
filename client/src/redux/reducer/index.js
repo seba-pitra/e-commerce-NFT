@@ -1,10 +1,11 @@
-import { GET_ALL_NFTS, GET_NFT_DETAIL, CREATE_NFT, DELETE_NFT, UPDATE_NFT, LOADING, RESET_FILTERS, FILTER_NFT_COLLECTION, FILTER_NFT_CATEGORY, FILTER_NFT_STATE, FILTER_NFT_PRICE, ORDER_NFT_NAME, ORDER_NFT_PRICE, ORDER_NFT_AMOUNT, ORDER_NFT_CREATED_AT} from "../actions";
+import { GET_ALL_NFTS, GET_ALL_COLLECTIONS, GET_ALL_USERS, GET_NFT_DETAIL, CREATE_NFT, DELETE_NFT, UPDATE_NFT, LOADING, RESET_FILTERS, FILTER_NFT_COLLECTION, FILTER_NFT_CATEGORY, FILTER_NFT_STATE, FILTER_NFT_PRICE, ORDER_NFT_NAME, ORDER_NFT_PRICE, ORDER_NFT_AMOUNT, ORDER_NFT_CREATED_AT} from "../actions";
 //  SEARCH_NFT, SELECT_PAGE, SET_NFTS_PER_PAGE, NEXT_PAGE, PREV_PAGE
 
 const initialState = {
   nfts: [], 
   filteredNfts: [],
   collections: [],
+  users: [],
   nftDetail: {}, 
   isLoading: false,
   msj: ""
@@ -16,8 +17,11 @@ const rootReducer = (state = initialState, action) => {
       return { ...state, isLoading : true } // loading mientras carga la info
     case GET_ALL_NFTS:
       return { ...state, nfts: action.payload, filteredNfts: action.payload, nftDetail: {}, isLoading: false } // reset all
+    case GET_ALL_COLLECTIONS:
+      return { ...state, collections: action.payload }
+    case GET_ALL_USERS:
+      return { ...state, users: action.payload }
     case GET_NFT_DETAIL:
-      console.log(action.payload)
       return { ...state, nftDetail: action.payload, isLoading : false }
     case CREATE_NFT:
       return { ...state, msj: action.payload }
@@ -28,24 +32,23 @@ const rootReducer = (state = initialState, action) => {
     case RESET_FILTERS:
       return { ...state, filteredNfts: state.nfts }
     case FILTER_NFT_COLLECTION:
-      let filterByCollectionId = [];
-      let filterByCollection = [];
-      state.collections.map(e => { // probando de a una
-        if(action.payload === e.name) filterByCollectionId.push(e.id)
-        filterByCollection = state.filteredNfts.filter(e => e.collectionId === filterByCollectionId)
-      })
+      let filterByCollection = []; // falta fixear
+      filterByCollection = state.nfts.filter(e => e.collectionId === action.payload)
       return {...state, filteredNfts: filterByCollection}
     case FILTER_NFT_CATEGORY:
-      let filterByCategory = []; // deberia funcionar de a varias
-      action.payload.map ( e => {
-        filterByCategory = state.filteredNfts.filter (nft => nft.category.find(e))
+      let filterByCategory = []; // funciona de a una, err > si elijo 2, se acumulan, no se puede desseleecionar
+      const categories = []
+      categories.push(action.payload)
+      categories.map ( e => {
+        filterByCategory = state.filteredNfts.filter (nft => nft.category === e)
       })
       return {...state, filteredNfts: filterByCategory}
     case FILTER_NFT_PRICE:
+      console.log(action.payload)
       let filterByPrice = []; // enviar error if max < min front?
       filterByPrice = state.nfts.filter(e => e.price !== 0) // sin max o min no filtra? resetea si se borra alguno?
       if (action.payload.min !== 0) filterByPrice = state.nfts.filter(e => e.price > action.payload.min)
-      else if (action.payload.max !== 0) filterByPrice = state.nfts.filter(e => e.price < action.payload.max) 
+      if (action.payload.max !== 0) filterByPrice = filterByPrice.filter(e => e.price < action.payload.max) 
       return {...state, filteredNfts: filterByPrice}
     case FILTER_NFT_STATE:
       let filterByState = [];
@@ -60,7 +63,7 @@ const rootReducer = (state = initialState, action) => {
       return {...state, filteredNfts: orderByName}
     case ORDER_NFT_PRICE:
       let orderByPrice = [];
-      if (action.payload === "up-down") orderByPrice = state.nfts.sort((a,b) => a.price > b.price ?  1 : -1)
+      if (action.payload === "up-down") orderByPrice = state.nfts.sort((a,b) => a.price > b.price ?  -1 : 1)
       else orderByPrice = state.nfts.sort((a,b) => a.price < b.price ?  1 : -1)
       return {...state, filteredNfts: orderByPrice}
     case ORDER_NFT_AMOUNT:

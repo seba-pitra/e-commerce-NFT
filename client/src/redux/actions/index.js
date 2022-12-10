@@ -1,6 +1,8 @@
 import axios from 'axios';
 
 export const GET_ALL_NFTS = "GET_ALL_NFTS";
+export const GET_ALL_COLLECTIONS = "GET_ALL_COLLECTIONS"; 
+export const GET_ALL_USERS = "GET_ALL_USERS"; 
 export const GET_NFT_DETAIL = "GET_NFT_DETAIL";
 export const CREATE_NFT = "CREATE_NFT";
 export const DELETE_NFT = "DELETE_NFT";
@@ -19,16 +21,40 @@ export const ORDER_NFT_CREATED_AT = "ORDER_NFT_CREATED_AT";
 export const LOADING = "LOADING";
 
 export const getAllNfts = () => {
-    return async (dispatch) => {
-        dispatch({type : LOADING}) // set loading > settear en null en reducer
-        try {
-            const allNfts = await axios.get("/nft") // add ruta
-            dispatch({type: GET_ALL_NFTS, payload: allNfts.data})
-        }
-        catch (e) {
-            alert("There was a connection error, please try again later")
-        }
-}
+  return async (dispatch) => {
+    dispatch({type : LOADING}) // set loading > settear en null en reducer
+    try {
+        const allNfts = await axios.get("/nft") 
+        dispatch({type: GET_ALL_NFTS, payload: allNfts.data})
+    }
+    catch (e) {
+        alert("There was a connection error, please try again later")
+    }
+  } 
+};
+
+export const getAllCollections = () => {
+  return async (dispatch) => {
+    try {
+        const allCollections = await axios.get("/collection")
+        dispatch({type: GET_ALL_COLLECTIONS, payload: allCollections.data})
+    }
+    catch (e) {
+        alert("There was a connection error, please try again later")
+    }
+  } 
+};
+
+export const getAllUsers = () => {
+  return async (dispatch) => {
+    try {
+        const allUsers = await axios.get("ruta") 
+        dispatch({type: GET_ALL_USERS, payload: allUsers.data})
+    }
+    catch (e) {
+        alert("There was a connection error, please try again later")
+    }
+  } 
 };
 
 export const getNftDetail = (id) => {
@@ -95,7 +121,7 @@ export const createNft = (payload) => {
       const createdNft = await axios.post(`/nft`, payload)
       dispatch({type: CREATE_NFT, payload: createdNft.data}) // msj desde el back
       alert("NFT created successfully");
-      window.location.href = "ruta al home";
+      window.location.href = "/";
     } catch (e) {
       alert(e.response.data)
     }
@@ -114,10 +140,10 @@ export const deleteNft = (id) => {
   }
 }
 
-export const updateNft = (atribute, payload) => { // mmh?
+export const updateNft = (id, payload) => { // mmh?
   return async (dispatch) => {
     try {
-      const updateNft = await axios.put(`/nft/${atribute}`, payload)
+      const updateNft = await axios.put(`/nft/${id}`, payload)
       dispatch({type: UPDATE_NFT, payload: updateNft.data}) // msj desde el back
       alert("NFT updated successfully");
     } catch (e) {
