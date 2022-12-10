@@ -1,8 +1,12 @@
 import { useState } from 'react';
+import * as actions from '../../../redux/actions'
+import { useDispatch } from "react-redux";
 import Typography from '@material-ui/core/Typography';
 import Slider from '@material-ui/core/Slider';
 
 const App = () => {
+
+    const dispatch = useDispatch();
 
     const [range, setRange] =  useState(
         {
@@ -24,13 +28,15 @@ const App = () => {
     }
     
     const handleSubmit = (e) => {
+        e.preventDefault()
+        dispatch(actions.filterPrice(range))
         /*
         dispatch range to reducer
         */
        alert(`el reducer recibio el rango ${range.min} - ${range.max}` )
     };
-    console.log(invalidMaxValue)
-    console.log(range)
+    // console.log(invalidMaxValue)
+    // console.log(range)
 
     return (
         <form onSubmit={(e)=>handleSubmit(e)}>

@@ -11,9 +11,8 @@ function HomePage(){
     const isLoading = useSelector(state => state.isLoading);
     const dispatch = useDispatch();
 
-    useEffect(() => {
-        dispatch(actions.getAllNfts());
-    }, [dispatch]); // <<-- only on Loading 
+    useEffect(() => dispatch(actions.getAllNfts()), [dispatch]); // <<-- only on Loading 
+    useEffect(() => dispatch(actions.getAllCollections()), [dispatch])
     
     return(
         <>
