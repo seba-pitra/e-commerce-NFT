@@ -19,8 +19,6 @@ function App() {
       <Route exact path='/' render={()=><LandingPage/>} />
       <Route path='/home' render={()=><HomePage/>} />
       <Route path='/createNft' render={()=><CreateNft/>} />
-
-      <Route exact path='/' render={()=><LandingPage/>} />
       <Route path='/details/:id' render={({match}) => <Details match={match}/>}/>
       <Route component={NotFoundException}/>
       </Switch>

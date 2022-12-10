@@ -34,7 +34,7 @@ export default function Filtering(){
         dispatch(actions.filterCategory(e.target.value))
     }
     const selectState = (e) => {
-        setSelectedState(selectedState);
+        setSelectedState(e.target.value);
         dispatch(actions.filterState(e.target.value))
     }
 

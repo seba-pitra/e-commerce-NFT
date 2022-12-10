@@ -20,11 +20,35 @@ export const ORDER_NFT_CREATED_AT = "ORDER_NFT_CREATED_AT";
 
 export const LOADING = "LOADING";
 
+
+/*
+  nft = {
+    collectionId: string (code),
+    contract : string (code),
+    id : string (UUIDV4),
+    image : string (url),
+    name : string,
+    price : float,
+    source : object (
+      {
+        domain : string,
+        icon : string (url)
+        name : string
+      }
+    )
+    tokenId : string (code)
+    type : string 
+    userId : string (UUIDV4)
+  }
+*/
+
 export const getAllNfts = () => {
   return async (dispatch) => {
     dispatch({type : LOADING}) // set loading > settear en null en reducer
     try {
         const allNfts = await axios.get("/nft") 
+        console.warn("all nfts")
+        console.log(allNfts);
         dispatch({type: GET_ALL_NFTS, payload: allNfts.data})
     }
     catch (e) {
@@ -37,6 +61,8 @@ export const getAllCollections = () => {
   return async (dispatch) => {
     try {
         const allCollections = await axios.get("/collection")
+        console.warn("allCollections")
+        console.log(allCollections);
         dispatch({type: GET_ALL_COLLECTIONS, payload: allCollections.data})
     }
     catch (e) {
@@ -49,6 +75,8 @@ export const getAllUsers = () => {
   return async (dispatch) => {
     try {
         const allUsers = await axios.get("ruta") 
+        console.warn("allUsers")
+        console.log(allUsers);
         dispatch({type: GET_ALL_USERS, payload: allUsers.data})
     }
     catch (e) {
@@ -70,8 +98,8 @@ export const getNftDetail = (id) => {
   }
 };
 
-export const resetFilters = (payload) => {
-  return { type: RESET_FILTERS, payload } // reset all > copy nft on nftFilters
+export const resetFilters = () => {
+  return { type: RESET_FILTERS } // reset all > copy nft on nftFilters
 };
 
 // --- FILTERS ---
@@ -95,18 +123,22 @@ export const filterState = (payload) => {
 // --- ORDERS ---
 
 export const orderName = (payload) => {
+  console.log(payload)
   return { type: ORDER_NFT_NAME, payload }
 };
 
 export const orderPrice = (payload) => {
+  console.log(payload)
   return { type: ORDER_NFT_PRICE, payload }
 };
 
 export const orderAmount = (payload) => {
+  console.log(payload)
   return { type: ORDER_NFT_AMOUNT, payload } // cantidad 1 o 100 unidades FALTA
 };
 
 export const orderCreatedAt = (payload) => {
+  console.log(payload)
   return { type: ORDER_NFT_CREATED_AT, payload } // mas nuevos, mas antiguos FALTA
 };
 

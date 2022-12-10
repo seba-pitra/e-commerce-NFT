@@ -1,4 +1,22 @@
-import { GET_ALL_NFTS, GET_ALL_COLLECTIONS, GET_ALL_USERS, GET_NFT_DETAIL, CREATE_NFT, DELETE_NFT, UPDATE_NFT, LOADING, RESET_FILTERS, FILTER_NFT_COLLECTION, FILTER_NFT_CATEGORY, FILTER_NFT_STATE, FILTER_NFT_PRICE, ORDER_NFT_NAME, ORDER_NFT_PRICE, ORDER_NFT_AMOUNT, ORDER_NFT_CREATED_AT} from "../actions";
+import { 
+  GET_ALL_NFTS, 
+  GET_ALL_COLLECTIONS, 
+  GET_ALL_USERS,
+  GET_NFT_DETAIL, 
+  CREATE_NFT, 
+  DELETE_NFT, 
+  UPDATE_NFT, 
+  LOADING, 
+  RESET_FILTERS, 
+  FILTER_NFT_COLLECTION, 
+  FILTER_NFT_CATEGORY, 
+  FILTER_NFT_STATE, 
+  FILTER_NFT_PRICE, 
+  ORDER_NFT_NAME, 
+  ORDER_NFT_PRICE, 
+  ORDER_NFT_AMOUNT, 
+  ORDER_NFT_CREATED_AT
+} from "../actions";
 //  SEARCH_NFT, SELECT_PAGE, SET_NFTS_PER_PAGE, NEXT_PAGE, PREV_PAGE
 
 const initialState = {
@@ -44,7 +62,14 @@ const rootReducer = (state = initialState, action) => {
       })
       return {...state, filteredNfts: filterByCategory}
     case FILTER_NFT_PRICE:
-      console.log(action.payload)
+      /*
+        action.payload:
+        range = {
+          min : float,
+          max : float,
+          currency : string
+        }
+      */
       let filterByPrice = []; // enviar error if max < min front?
       filterByPrice = state.nfts.filter(e => e.price !== 0) // sin max o min no filtra? resetea si se borra alguno?
       if (action.payload.min !== 0) filterByPrice = state.nfts.filter(e => e.price > action.payload.min)
