@@ -11,7 +11,7 @@ import {React, useState } from 'react';
 
 
 export default function NFTNav() {
-
+	{/* Pim Pum Pam*/}
 	const [show, setShow] = useState(false);
 
 	const handleClose = () => setShow(false);
@@ -51,17 +51,17 @@ return (
 	  
 	 <button onClick={handleShow}> <ShoppingCartIcon /></button>
 
- <Offcanvas show={show} onHide={handleClose}>
-        <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Offcanvas</Offcanvas.Title>
-        </Offcanvas.Header>
-        <Offcanvas.Body>
-Gracias por su compra.
-	 </Offcanvas.Body>
-      </Offcanvas>
-	 <h1>content</h1>
 
-
+	{/* slide kart*/}
+	<Offcanvas show={show} onHide={handleClose} placement={'end'}>
+	<Offcanvas.Header closeButton>
+	<Offcanvas.Title>Shopping Cart</Offcanvas.Title>
+	</Offcanvas.Header>
+	<Offcanvas.Body>
+	Gracias por su compra.
+	</Offcanvas.Body>
+	</Offcanvas>
+	{/* slide kart*/}
 
 	</Nav>
         </Navbar.Collapse>
