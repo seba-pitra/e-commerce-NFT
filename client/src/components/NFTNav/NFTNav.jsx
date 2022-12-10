@@ -2,7 +2,7 @@ import {React, useState } from 'react';
 import { Container, Nav, Navbar, NavDropdown} from 'react-bootstrap';
 import SearchBar from '../SearchBar/SearchBar'
 import logo from '../../images/logo/logo.png';
-import './NFTNav.css';
+import  styles from './NFTNav.css';
 
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import  Shoppingkart from '../Shoppingkart/Shoppingkart'
@@ -49,12 +49,12 @@ return (
             <Nav.Link  className="brand-colorized-text" href="/signup">Sign up</Nav.Link>
 
 {/* slide kart trigger*/ } 
-	 <button onClick={handleShow}> <ShoppingCartIcon /></button>
+	 <button className={styles.kartButton} onClick={handleShow}> <ShoppingCartIcon /></button>
 
 {/* slide kart*/}
 	<Offcanvas show={show} onHide={handleClose} placement={'end'}>
 	<Offcanvas.Header closeButton>
-	<Offcanvas.Title>Shopping Cart</Offcanvas.Title>
+	<Offcanvas.Title>Your Shopping Cart</Offcanvas.Title>
 	</Offcanvas.Header>
 	<Offcanvas.Body>
 		<Shoppingkart/>
