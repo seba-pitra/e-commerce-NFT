@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import card from './NFTCard.css';
+import "./NFTCard.css";
+// import FavoriteIcon from "@material-ui/icons/Favorite";
 
 export default function NFTCard(props) {
   //{
@@ -14,25 +15,48 @@ export default function NFTCard(props) {
   //}
   //faltaria transformar precio eth a usd en el momento
   return (
-    <div className={card.cardContainer}>
-      {/*coloque un link rodeando a todo el card para que cuando el usuario hace click en **la tarjeta... lo lleve al detalle del nft** */}
-
+    <div className="cardContainer">
       <Link className="link" to={`/details/${props.id}`}>
-        {/*estructura de la tarjeta del nft*/}
+        {/*coloque un link rodeando a todo el card para que cuando el usuario hace click en **la tarjeta... lo lleve al detalle del nft** */}
 
-        <img className={card.nftImage} src={props.image} alt="nft-image" />
-        
-        <div className={card.nameAndToken}>
-            {/* horizontal div */}
-          <h3>{props.name}</h3>
-          <h4>{props.tokenId}</h4>
+        {/*estructura de la tarjeta del nft*/}
+        <div className="nftCard-image-info">
+          <div className="nftCard-img-container">
+            <img
+              className={"nftImage"}
+              src={`${
+                props.image === "no image found"
+                  ? "https://preview.redd.it/j82jl2vpg4n71.jpg?auto=webp&s=e8431005571759e9fd9b5cd2e82dd27696d0b6c4"
+                  : props.image
+              }`}
+              alt="nft-image"
+            />
+          </div>
+
+          <div className={"bottom-img-info"}>
+            <div className="nftCard-nameToken">
+              {/* horizontal div */}
+              <h3>{props.name}</h3>
+              <h4>{props.tokenId}</h4>
+            </div>
+            <div>
+              <h3>floor price: {props.price}</h3>
+            </div>
+          </div>
+          <div className="CardButtons">
+            <div>
+              {/* <FavoriteIcon /> */}
+              🧡
+            </div>
+            <div>
+              {/* <FavoriteIcon /> */}
+              🚗
+            </div>
+            {/* <img src="" alt="add-to-favs" />
+          <img src="" alt="shopping-cart" /> */}
+          </div>
         </div>
-        <h3>{props.price}</h3>
         {/* <h3>Last sale: falta esto</h3> */}
-        <div className={card.CardButtons}>
-        <img src="" alt="add-to-favs" />
-        <img src="" alt="shopping-cart" />
-        </div>
       </Link>
     </div>
   );
