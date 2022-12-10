@@ -8,6 +8,7 @@ import NotFoundException from './components/404Page/404Page';
 import { Route, Switch } from 'react-router-dom';
 import NFTNav from './components/NFTNav/NFTNav';
 import Footer from './components/Footer/Footer';
+import CreateNft from './components/CreateNft/CreateNft';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Switch>
       <Route exact path='/' render={()=><LandingPage/>} />
       <Route path='/home' render={()=><HomePage/>} />
+      <Route path='/createNft' render={()=><CreateNft/>} />
       <Route path='/details/:id' render={({match}) => <Details match={match}/>}/>
       <Route component={NotFoundException}/>
       </Switch>
