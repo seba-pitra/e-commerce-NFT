@@ -1,10 +1,11 @@
 import * as actions from '../../../redux/actions'
 import { useState } from 'react'
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector} from "react-redux";
 
 import './Ordering.css'
 
 export default function Ordering(){
+    //estos estados son para cambiar el estilo.
     const [nameOrderUp, setNameOrderUp] = useState(true);
     const [priceOrderUp, setPriceOrderUp] = useState(true);
     const [amountOrderUp, setAmountOrderUp] = useState(true);
@@ -12,24 +13,28 @@ export default function Ordering(){
 
     const dispatch = useDispatch();
 
-    const orderByName = (e) => {
+    const orderByName = () => {
         setNameOrderUp(!nameOrderUp)
-        dispatch(actions.orderName(e.target.value))
+        dispatch(actions.changeOrderDirection())
+        dispatch(actions.orderName())
     }
 
-    const orderByPrice = (e) => {
+    const orderByPrice = () => {
         setPriceOrderUp(!priceOrderUp)
-        dispatch(actions.orderPrice(e.target.value))
+        dispatch(actions.changeOrderDirection())
+        dispatch(actions.orderPrice())
     }
 
-    const orderByAmount = (e) => {
+    const orderByAmount = () => {
         setAmountOrderUp(!amountOrderUp)
-        dispatch(actions.orderAmount(e.target.value))
+        dispatch(actions.changeOrderDirection())
+        dispatch(actions.orderAmount())
     }
 
-    const orderByRelease  = (e) => {
+    const orderByRelease  = () => {
         setReleaseOrderUp(!releaseOrderUp)
-        dispatch(actions.orderCreatedAt(e.target.value))
+        dispatch(actions.changeOrderDirection())
+        dispatch(actions.orderCreatedAt())
     }
 
     return (
@@ -40,29 +45,24 @@ export default function Ordering(){
                 <button 
                     id='name-option'
                     className={nameOrderUp ? 'btn-order-up' : 'btn-order-down'}
-                    value={nameOrderUp ? "a-z" : "z-a"}
-                    onClick={(e)=> orderByName(e)}
+                    onClick={()=> orderByName()}
                     >Name</button>
                 {/*boton para elegir orden por rating*/}
                 <button
                     id='price-option'
                     className={priceOrderUp ? 'btn-order-up' : 'btn-order-down'}
-                    value={priceOrderUp ? "up-down" : "down-up"}
-                    onClick={(e)=> orderByPrice(e)}
+                    onClick={()=> orderByPrice()}
                     >Price</button>
                 <button
                     id='amount-option'
                     className={amountOrderUp ? 'btn-order-up' : 'btn-order-down'}
-                    value={amountOrderUp ? "up-down" : "down-up"}
-                    onChange={(e)=> console.log("changed value" + e.target.value)}
-                    onClick={(e)=> orderByAmount(e)}
+                    onClick={()=> orderByAmount()}
                     >Amount</button>
                 <button
                     id='releasedate-option'
                     className={releaseOrderUp ? 'btn-order-up' : 'btn-order-down'}
-                    value={releaseOrderUp ? "up-down" : "down-up"}
-                    onClick={(e)=> orderByRelease(e)}
-                    >Release date</button>
+                    onClick={()=> orderByRelease()}
+                    >Creation Date</button>
                 {/*boton para cambiar de orden descendente a ascendente y visceversa*/}
                 {/* <button 
                     className='option-btn button-order'
