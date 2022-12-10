@@ -3,7 +3,12 @@ const allNFTs = [
     id: 1242562390,
     type: "bid",
     contract: "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-    collectionId: "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
+    collection: {
+      collectionId: "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
+      name: "PhantaBear",
+      image:
+        "https://i.seadn.io/gae/1wTnxFx6paNeV1lv_ht10OFpDucUhg-fL6IZbPrai3Jf_3pHS5dSazhpU_UBn2BVQBUEffYAeoo2iVbCu9LPeUDhmwZwt_7J4xpdrQ?w=500&auto=format",
+    },
     tokenId: "3692",
     price: 0.2757,
     available: true,
@@ -24,7 +29,12 @@ const allNFTs = [
     id: 1242562389,
     type: "bid",
     contract: "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
-    collectionId: "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+    collection: {
+      collectionId: "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+      name: "ENS: Ethereum Name Service",
+      image:
+        "https://i.seadn.io/gae/0cOqWoYA7xL9CkUjGlxsjreSYBdrUBE0c6EO1COG4XE8UeP-Z30ckqUNiL872zHQHQU5MUNMNhfDpyXIP17hRSC5HQ?w=500&auto=format",
+    },
     tokenId:
       "78623574327630436185204531123722765010724429989569130899103246805544757458930",
     price: 14.0006,
@@ -47,7 +57,12 @@ const allNFTs = [
     id: 1242562388,
     type: "bid",
     contract: "0xd6d80461b1875a8679fe789db689156f42b7f86b",
-    collectionId: "0xd6d80461b1875a8679fe789db689156f42b7f86b",
+    collection: {
+      collectionId: "0xd6d80461b1875a8679fe789db689156f42b7f86b",
+      name: "Creepz Mega Shapeshifterz",
+      image:
+        "https://i.seadn.io/gae/q2Mbczrn-KvVuawxYccKIPchWTP953CyB5ZNYG8BTW1B5PSz4t0XQfpU4SYmZP2CplueFA7IOB3nk5KxuMTEAiTK3PKfPm6WCfTV?w=500&auto=format",
+    },
     tokenId: "604",
     price: 0.1201,
     available: true,
@@ -68,7 +83,12 @@ const allNFTs = [
     id: 1242562387,
     type: "bid",
     contract: "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
-    collectionId: "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+    collection: {
+      collectionId: "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      name: "AngryCat - official",
+      image:
+        "https://i.seadn.io/gcs/files/856e56e379fcd78b5ad956a3eb2d7247.png?w=500&auto=format",
+    },
     tokenId: "2149",
     price: 0.25,
     available: true,
@@ -89,7 +109,12 @@ const allNFTs = [
     id: 1242562386,
     type: "bid",
     contract: "0xb76fbbb30e31f2c3bdaa2466cfb1cfe39b220d06",
-    collectionId: "0xb76fbbb30e31f2c3bdaa2466cfb1cfe39b220d06",
+    collection: {
+      collectionId: "0xb76fbbb30e31f2c3bdaa2466cfb1cfe39b220d06",
+      name: "Wolf Game - Wool Pouch",
+      image:
+        "https://i.seadn.io/gae/WbsvgftKvXTeSKmE2C9L6_bVY5Y015WBj0wjcaG7mP3IEy7tX6S6xO63wX1WxvsUuLj4akqHqPHXzq5fj69GPnViZbaLUOQ5N_NJXZE?w=500&auto=format",
+    },
     tokenId: "3958",
     price: 0.82668,
     available: true,
@@ -110,7 +135,12 @@ const allNFTs = [
     id: 1242562385,
     type: "bid",
     contract: "0x2cf6be9aac1c7630d5a23af88c28275c70eb8819",
-    collectionId: "0x2cf6be9aac1c7630d5a23af88c28275c70eb8819",
+    collection: {
+      collectionId: "0x2cf6be9aac1c7630d5a23af88c28275c70eb8819",
+      name: "Bulls and Apes Project - Genesis",
+      image:
+        "https://i.seadn.io/gae/QI4Jt7EOSxbUDAm6ZMPjelWtVB9_KpNJsVjwjfMWCFyA4LaCgCpyDalVUc-MozD4jPwJqH80MCAKw0gRbpK13wc5HrEkp4JqV4I_Yw?w=500&auto=format",
+    },
     tokenId: null,
     price: 0.34,
     available: true,
@@ -125,7 +155,12 @@ const allNFTs = [
     id: 1242562384,
     type: "bid",
     contract: "0x1a2f71468f656e97c2f86541e57189f59951efe7",
-    collectionId: "0x1a2f71468f656e97c2f86541e57189f59951efe7",
+    collection: {
+      collectionId: "0x1a2f71468f656e97c2f86541e57189f59951efe7",
+      name: "CryptoMories",
+      image:
+        "https://i.seadn.io/gae/vb1frYDXLe4AHtDQORgr1O1EODOkq31xePpKvgsN3uE5wopK0M8rBYECcDbvTkOpx5Y-9x1TQIP61ae4wI9lq9qwe-wdSUsXywlw?w=500&auto=format",
+    },
     tokenId: "8568",
     price: 0.16,
     available: true,
@@ -146,7 +181,12 @@ const allNFTs = [
     id: 1242562383,
     type: "bid",
     contract: "0x09233d553058c2f42ba751c87816a8e9fae7ef10",
-    collectionId: "0x09233d553058c2f42ba751c87816a8e9fae7ef10",
+    collection: {
+      collectionId: "0x09233d553058c2f42ba751c87816a8e9fae7ef10",
+      name: "My Pet Hooligan",
+      image:
+        "https://i.seadn.io/gae/aITOppXWvfLhdRq4gUL5kkQ2Li0ljfWOAveam2wQy_znEa7WWI7Ci1mbSE6-DIVQl1MNxuAaYWx2wsVAv_IU7PpL-DfWWrZ60Tv6fw?w=500&auto=format",
+    },
     tokenId: "8756",
     price: 0.8001,
     available: true,
@@ -167,7 +207,12 @@ const allNFTs = [
     id: 1242562382,
     type: "bid",
     contract: "0x942bc2d3e7a589fe5bd4a5c6ef9727dfd82f5c8a",
-    collectionId: "0x942bc2d3e7a589fe5bd4a5c6ef9727dfd82f5c8a",
+    collection: {
+      collectionId: "0x942bc2d3e7a589fe5bd4a5c6ef9727dfd82f5c8a",
+      name: "Friendship Bracelets by Alexis André",
+      image:
+        "https://i.seadn.io/gcs/files/01de134db029be955aa892ea066c085f.png?w=500&auto=format",
+    },
     tokenId: "16913",
     price: 0.53759,
     available: true,
@@ -188,7 +233,12 @@ const allNFTs = [
     id: 1242562381,
     type: "bid",
     contract: "0xb76fbbb30e31f2c3bdaa2466cfb1cfe39b220d06",
-    collectionId: "0xb76fbbb30e31f2c3bdaa2466cfb1cfe39b220d06",
+    collection: {
+      collectionId: "0xb76fbbb30e31f2c3bdaa2466cfb1cfe39b220d06",
+      name: "Wolf Game - Wool Pouch",
+      image:
+        "https://i.seadn.io/gae/WbsvgftKvXTeSKmE2C9L6_bVY5Y015WBj0wjcaG7mP3IEy7tX6S6xO63wX1WxvsUuLj4akqHqPHXzq5fj69GPnViZbaLUOQ5N_NJXZE?w=500&auto=format",
+    },
     tokenId: "9246",
     price: 0.161,
     available: true,
@@ -209,7 +259,12 @@ const allNFTs = [
     id: 1242562380,
     type: "bid",
     contract: "0x2308742aa28cc460522ff855d24a365f99deba7b",
-    collectionId: "0x2308742aa28cc460522ff855d24a365f99deba7b",
+    collection: {
+      collectionId: "0x2308742aa28cc460522ff855d24a365f99deba7b",
+      name: "FLUF World: Buzzies",
+      image:
+        "https://i.seadn.io/gcs/files/8a2cba93df02564fa7a9120f9d6ca94b.png?w=500&auto=format",
+    },
     tokenId: "4352",
     price: 0.2528,
     available: true,
@@ -230,7 +285,12 @@ const allNFTs = [
     id: 1242562379,
     type: "bid",
     contract: "0x837704ec8dfec198789baf061d6e93b0e1555da6",
-    collectionId: "0x837704ec8dfec198789baf061d6e93b0e1555da6",
+    collection: {
+      collectionId: "0x837704ec8dfec198789baf061d6e93b0e1555da6",
+      name: "Evaverse",
+      image:
+        "https://i.seadn.io/gae/FbrOJX99uNKuOVxBSqt3MqmtYZhFE7uXEZ8LI3NL_bCxZ64ciCi9dLZPDJ4UJhoAPUGotxBoAI-dXx_OHBxHlhEYSi278CZs6Qiw?w=500&auto=format",
+    },
     tokenId: "1200",
     price: 0.42787,
     available: true,
@@ -251,7 +311,12 @@ const allNFTs = [
     id: 1242562378,
     type: "bid",
     contract: "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
-    collectionId: "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+    collection: {
+      collectionId: "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+      name: "The MV3 Universe",
+      image:
+        "https://i.seadn.io/gae/_4dMHkytDJlc3h85kgXGBQppopP_x0BPc4DOIR_R8UEC9ScttoQ7AjAx3Dksv6TNwV_C3ZkjNutYhXsbC4_fuaMgRmtMlBl0DmtaoZk?w=500&auto=format",
+    },
     tokenId: "5997",
     price: 0.485,
     available: true,
@@ -272,7 +337,12 @@ const allNFTs = [
     id: 1242562377,
     type: "bid",
     contract: "0x2308742aa28cc460522ff855d24a365f99deba7b",
-    collectionId: "0x2308742aa28cc460522ff855d24a365f99deba7b",
+    collection: {
+      collectionId: "0x2308742aa28cc460522ff855d24a365f99deba7b",
+      name: "FLUF World: Buzzies",
+      image:
+        "https://i.seadn.io/gcs/files/8a2cba93df02564fa7a9120f9d6ca94b.png?w=500&auto=format",
+    },
     tokenId: "2294",
     price: 0.2036,
     available: true,
@@ -293,7 +363,12 @@ const allNFTs = [
     id: 1242562376,
     type: "bid",
     contract: "0x09233d553058c2f42ba751c87816a8e9fae7ef10",
-    collectionId: "0x09233d553058c2f42ba751c87816a8e9fae7ef10",
+    collection: {
+      collectionId: "0x09233d553058c2f42ba751c87816a8e9fae7ef10",
+      name: "My Pet Hooligan",
+      image:
+        "https://i.seadn.io/gae/aITOppXWvfLhdRq4gUL5kkQ2Li0ljfWOAveam2wQy_znEa7WWI7Ci1mbSE6-DIVQl1MNxuAaYWx2wsVAv_IU7PpL-DfWWrZ60Tv6fw?w=500&auto=format",
+    },
     tokenId: "875",
     price: 0.9013,
     available: true,
@@ -314,7 +389,12 @@ const allNFTs = [
     id: 1242562375,
     type: "bid",
     contract: "0x34d85c9cdeb23fa97cb08333b511ac86e1c4e258",
-    collectionId: "0x34d85c9cdeb23fa97cb08333b511ac86e1c4e258",
+    collection: {
+      collectionId: "0x34d85c9cdeb23fa97cb08333b511ac86e1c4e258",
+      name: "Otherdeed for Otherside",
+      image:
+        "https://i.seadn.io/gae/yIm-M5-BpSDdTEIJRt5D6xphizhIdozXjqSITgK4phWq7MmAU3qE7Nw7POGCiPGyhtJ3ZFP8iJ29TFl-RLcGBWX5qI4-ZcnCPcsY4zI?w=500&auto=format",
+    },
     tokenId: "7400",
     price: 11.0521,
     available: true,
@@ -335,7 +415,12 @@ const allNFTs = [
     id: 1242562374,
     type: "bid",
     contract: "0x7ab2352b1d2e185560494d5e577f9d3c238b78c5",
-    collectionId: "0x7ab2352b1d2e185560494d5e577f9d3c238b78c5",
+    collection: {
+      collectionId: "0x7ab2352b1d2e185560494d5e577f9d3c238b78c5",
+      name: "Adam Bomb Squad",
+      image:
+        "https://i.seadn.io/gae/AFLfluhz2BbvfAUDmTdZzZKvF-wETqzYFZUefPJIw9tO9uXiqftaznKxpgUobXFQqpmG5n2tgAvjbSycubZZ7E89D4K8QbzIFtGWCkY?w=500&auto=format",
+    },
     tokenId: "12923",
     price: 0.25,
     available: true,
@@ -356,7 +441,12 @@ const allNFTs = [
     id: 1242562373,
     type: "bid",
     contract: "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
-    collectionId: "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+    collection: {
+      collectionId: "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+      name: "DEGEN TOONZ COLLECTION",
+      image:
+        "https://i.seadn.io/gae/bLRdXEC6KIRmFAWBAgppvqeYQUVojbsGzIJJGfyH-WWF57iqOOlZu-1I0v0GYyrG8C-p-sVjpCMOZMFw0oVExilWzJTDbOfLeKhl1w?w=500&auto=format",
+    },
     tokenId: "5360",
     price: 0.7011,
     available: true,
@@ -377,7 +467,12 @@ const allNFTs = [
     id: 1242562372,
     type: "bid",
     contract: "0xb76fbbb30e31f2c3bdaa2466cfb1cfe39b220d06",
-    collectionId: "0xb76fbbb30e31f2c3bdaa2466cfb1cfe39b220d06",
+    collection: {
+      collectionId: "0xb76fbbb30e31f2c3bdaa2466cfb1cfe39b220d06",
+      name: "Wolf Game - Wool Pouch",
+      image:
+        "https://i.seadn.io/gae/WbsvgftKvXTeSKmE2C9L6_bVY5Y015WBj0wjcaG7mP3IEy7tX6S6xO63wX1WxvsUuLj4akqHqPHXzq5fj69GPnViZbaLUOQ5N_NJXZE?w=500&auto=format",
+    },
     tokenId: "7900",
     price: 0.7354,
     available: true,
@@ -398,7 +493,12 @@ const allNFTs = [
     id: 1242562371,
     type: "bid",
     contract: "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
-    collectionId: "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+    collection: {
+      collectionId: "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+      name: "ENS: Ethereum Name Service",
+      image:
+        "https://i.seadn.io/gae/0cOqWoYA7xL9CkUjGlxsjreSYBdrUBE0c6EO1COG4XE8UeP-Z30ckqUNiL872zHQHQU5MUNMNhfDpyXIP17hRSC5HQ?w=500&auto=format",
+    },
     tokenId:
       "17496586203003168687879806160287919845069312784687138403816034719405218982591",
     price: 1.1566,
@@ -421,7 +521,12 @@ const allNFTs = [
     id: 1242562370,
     type: "bid",
     contract: "0x8a939fd297fab7388d6e6c634eee3c863626be57",
-    collectionId: "0x8a939fd297fab7388d6e6c634eee3c863626be57",
+    collection: {
+      collectionId: "0x8a939fd297fab7388d6e6c634eee3c863626be57",
+      name: "XCOPY",
+      image:
+        "https://i.seadn.io/gae/6u03VU9Xbl5_RWNbxO98ukh9TwUqF3Xfbbl0AljjVi28paJuDWAtmtZEEYVyvzsIjRwa0f6A9BHrDXVxQBKfEmwGWrDv26dKZHjrAg?w=500&auto=format",
+    },
     tokenId: "17600030145",
     price: 4.2,
     available: true,
@@ -442,7 +547,12 @@ const allNFTs = [
     id: 1242562369,
     type: "bid",
     contract: "0x4a8c9d751eeabc5521a68fb080dd7e72e46462af",
-    collectionId: "0x4a8c9d751eeabc5521a68fb080dd7e72e46462af",
+    collection: {
+      collectionId: "0x4a8c9d751eeabc5521a68fb080dd7e72e46462af",
+      name: "Arcade Land",
+      image:
+        "https://i.seadn.io/gcs/files/ebe8353e1af3ffd0fd4e93d0ff80919e.png?w=500&auto=format",
+    },
     tokenId: "772",
     price: 0.1667,
     available: true,
@@ -463,7 +573,12 @@ const allNFTs = [
     id: 1242562368,
     type: "bid",
     contract: "0x4a8c9d751eeabc5521a68fb080dd7e72e46462af",
-    collectionId: "0x4a8c9d751eeabc5521a68fb080dd7e72e46462af",
+    collection: {
+      collectionId: "0x4a8c9d751eeabc5521a68fb080dd7e72e46462af",
+      name: "Arcade Land",
+      image:
+        "https://i.seadn.io/gcs/files/ebe8353e1af3ffd0fd4e93d0ff80919e.png?w=500&auto=format",
+    },
     tokenId: "1393",
     price: 0.17578,
     available: true,
@@ -484,7 +599,12 @@ const allNFTs = [
     id: 1242562367,
     type: "bid",
     contract: "0x09233d553058c2f42ba751c87816a8e9fae7ef10",
-    collectionId: "0x09233d553058c2f42ba751c87816a8e9fae7ef10",
+    collection: {
+      collectionId: "0x09233d553058c2f42ba751c87816a8e9fae7ef10",
+      name: "My Pet Hooligan",
+      image:
+        "https://i.seadn.io/gae/aITOppXWvfLhdRq4gUL5kkQ2Li0ljfWOAveam2wQy_znEa7WWI7Ci1mbSE6-DIVQl1MNxuAaYWx2wsVAv_IU7PpL-DfWWrZ60Tv6fw?w=500&auto=format",
+    },
     tokenId: "2937",
     price: 0.83,
     available: true,
@@ -505,7 +625,12 @@ const allNFTs = [
     id: 1242562366,
     type: "bid",
     contract: "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
-    collectionId: "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+    collection: {
+      collectionId: "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+      name: "ENS: Ethereum Name Service",
+      image:
+        "https://i.seadn.io/gae/0cOqWoYA7xL9CkUjGlxsjreSYBdrUBE0c6EO1COG4XE8UeP-Z30ckqUNiL872zHQHQU5MUNMNhfDpyXIP17hRSC5HQ?w=500&auto=format",
+    },
     tokenId:
       "51457731374073904989060677163202139728239805965200231863268478268617865108067",
     price: 0.05018,
@@ -528,7 +653,12 @@ const allNFTs = [
     id: 1242562365,
     type: "bid",
     contract: "0x4a8c9d751eeabc5521a68fb080dd7e72e46462af",
-    collectionId: "0x4a8c9d751eeabc5521a68fb080dd7e72e46462af",
+    collection: {
+      collectionId: "0x4a8c9d751eeabc5521a68fb080dd7e72e46462af",
+      name: "Arcade Land",
+      image:
+        "https://i.seadn.io/gcs/files/ebe8353e1af3ffd0fd4e93d0ff80919e.png?w=500&auto=format",
+    },
     tokenId: "773",
     price: 0.1565,
     available: true,
@@ -549,7 +679,12 @@ const allNFTs = [
     id: 1242562364,
     type: "bid",
     contract: "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
-    collectionId: "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+    collection: {
+      collectionId: "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+      name: "DEGEN TOONZ COLLECTION",
+      image:
+        "https://i.seadn.io/gae/bLRdXEC6KIRmFAWBAgppvqeYQUVojbsGzIJJGfyH-WWF57iqOOlZu-1I0v0GYyrG8C-p-sVjpCMOZMFw0oVExilWzJTDbOfLeKhl1w?w=500&auto=format",
+    },
     tokenId: "328",
     price: 0.6489,
     available: true,
@@ -570,11 +705,16 @@ const allNFTs = [
     id: 1242562363,
     type: "bid",
     contract: "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
-    collectionId: "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+    collection: {
+      collectionId: "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+      name: "Kitaro World Official",
+      image:
+        "https://i.seadn.io/gcs/files/e83060afb04e12a354d1de52ca8e2d3c.gif?w=500&auto=format",
+    },
     tokenId: "499",
     price: 0.1601,
     available: true,
-    category: ["animal","humanoid"],
+    category: ["animal", "humanoid"],
     source: {
       domain: "opensea.io",
       name: "OpenSea",
@@ -591,7 +731,12 @@ const allNFTs = [
     id: 1242562362,
     type: "bid",
     contract: "0xdfe3ac769b2d8e382cb86143e0b0b497e1ed5447",
-    collectionId: "0xdfe3ac769b2d8e382cb86143e0b0b497e1ed5447",
+    collection: {
+      collectionId: "0xdfe3ac769b2d8e382cb86143e0b0b497e1ed5447",
+      name: "THE PLUTO ALLIANCE",
+      image:
+        "https://i.seadn.io/gae/vM7VlOHIFYdaedGtGaN82kTXcvt0Cl3TgTwhhtngZXcyjOyQG7c3nJukvXLjci1LMh-jS2tYD3V2gkZY3GHr3qb3uI1gkpDI__jufDs?w=500&auto=format",
+    },
     tokenId: "351",
     price: 0.118,
     available: true,
@@ -612,7 +757,12 @@ const allNFTs = [
     id: 1242562361,
     type: "bid",
     contract: "0xefaed650f1a94801806bb110019d9b0dc79531a8",
-    collectionId: "0xefaed650f1a94801806bb110019d9b0dc79531a8",
+    collection: {
+      collectionId: "0xefaed650f1a94801806bb110019d9b0dc79531a8",
+      name: "SHIB YARD",
+      image:
+        "https://i.seadn.io/gae/x4vwvMXyHhqb2JC4_ZY7MDvfRs4oGwMQSaydtcr4l8VCSleolJKXTJ8BIfeITriccmzHBpjZ3MfaKWEF-bapHv-NV2uZqkS401mL?w=500&auto=format",
+    },
     tokenId: "4291690561",
     price: 0.33535,
     available: true,
@@ -633,7 +783,12 @@ const allNFTs = [
     id: 1242562360,
     type: "bid",
     contract: "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
-    collectionId: "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+    collection: {
+      collectionId: "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+      name: "DEGEN TOONZ COLLECTION",
+      image:
+        "https://i.seadn.io/gae/bLRdXEC6KIRmFAWBAgppvqeYQUVojbsGzIJJGfyH-WWF57iqOOlZu-1I0v0GYyrG8C-p-sVjpCMOZMFw0oVExilWzJTDbOfLeKhl1w?w=500&auto=format",
+    },
     tokenId: "5400",
     price: 0.66,
     available: true,
@@ -654,7 +809,12 @@ const allNFTs = [
     id: 1242562359,
     type: "bid",
     contract: "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
-    collectionId: "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+    collection: {
+      collectionId: "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+      name: "YuGiYn",
+      image:
+        "https://i.seadn.io/gcs/files/fb756068f5be3cf135f7c5ef211d08c6.png?w=500&auto=format",
+    },
     tokenId: "5069",
     price: 0.23155,
     available: true,
@@ -675,7 +835,12 @@ const allNFTs = [
     id: 1242562358,
     type: "bid",
     contract: "0xbd5fb504d4482ef4366dfa0c0edfb85ed50a9bbb",
-    collectionId: "0xbd5fb504d4482ef4366dfa0c0edfb85ed50a9bbb",
+    collection: {
+      collectionId: "0xbd5fb504d4482ef4366dfa0c0edfb85ed50a9bbb",
+      name: "Corntown wtf",
+      image:
+        "https://i.seadn.io/gcs/files/a44712ea177438675a52223fc593dc20.png?w=500&auto=format",
+    },
     tokenId: "4333",
     price: 0.15,
     available: true,
@@ -696,7 +861,12 @@ const allNFTs = [
     id: 1242562357,
     type: "bid",
     contract: "0x6d0de90cdc47047982238fcf69944555d27ecb25",
-    collectionId: "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+    collection: {
+      collectionId: "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+      name: "Regulars",
+      image:
+        "https://i.seadn.io/gae/2ZAcXeq5pWS-3bXAM3x-opC8bK4qOyu2S5612zgVCHQWgl2KLyySKpHsiqrJu3nlZWrF-KOici-ZSkUNKpu1nS-SWryli9XLDsxKsmM?w=500&auto=format",
+    },
     tokenId: "7124",
     price: 0.0816,
     available: true,
@@ -717,7 +887,12 @@ const allNFTs = [
     id: 1242562356,
     type: "bid",
     contract: "0x282a7d13152b3f51a3e31d46a2ca563f8554d85d",
-    collectionId: "0x282a7d13152b3f51a3e31d46a2ca563f8554d85d",
+    collection: {
+      collectionId: "0x282a7d13152b3f51a3e31d46a2ca563f8554d85d",
+      name: "Toxic Skulls Club",
+      image:
+        "https://i.seadn.io/gae/43adAijXmN5KxqP5jfuG7mFiVwe994MRuPhZCfbFd47YGWZG6fHYm9J6aRRPZnyEjm8kGATnGUOd253SaSdNpF883K6Xh_8YNlAWaJo?w=500&auto=format",
+    },
     tokenId: "7760",
     price: 0.29728,
     available: true,
@@ -738,7 +913,12 @@ const allNFTs = [
     id: 1242562355,
     type: "bid",
     contract: "0xb76fbbb30e31f2c3bdaa2466cfb1cfe39b220d06",
-    collectionId: "0xb76fbbb30e31f2c3bdaa2466cfb1cfe39b220d06",
+    collection: {
+      collectionId: "0xb76fbbb30e31f2c3bdaa2466cfb1cfe39b220d06",
+      name: "Wolf Game - Wool Pouch",
+      image:
+        "https://i.seadn.io/gae/WbsvgftKvXTeSKmE2C9L6_bVY5Y015WBj0wjcaG7mP3IEy7tX6S6xO63wX1WxvsUuLj4akqHqPHXzq5fj69GPnViZbaLUOQ5N_NJXZE?w=500&auto=format",
+    },
     tokenId: "6131",
     price: 0.74185,
     available: true,
@@ -759,7 +939,12 @@ const allNFTs = [
     id: 1242562354,
     type: "bid",
     contract: "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
-    collectionId: "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+    collection: {
+      collectionId: "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      name: "Boki",
+      image:
+        "https://i.seadn.io/gae/f1SkQRNk7E8t-E8A7AxCNcgpx4gcG41UCe1Uy2_V50HGe2lKFmls2iStJUA5JGXrwGEn5S9xcvYPn507Y4yRz8ajLPovoCzYsbziXQ?w=500&auto=format",
+    },
     tokenId: "6148",
     price: 0.07321,
     available: true,
@@ -780,7 +965,12 @@ const allNFTs = [
     id: 1242562353,
     type: "bid",
     contract: "0x0cfb5d82be2b949e8fa73a656df91821e2ad99fd",
-    collectionId: "0x0cfb5d82be2b949e8fa73a656df91821e2ad99fd",
+    collection: {
+      collectionId: "0x0cfb5d82be2b949e8fa73a656df91821e2ad99fd",
+      name: "10KTF",
+      image:
+        "https://i.seadn.io/gae/pyp53Pww5B2BvzOhN06mXQQWttj8j6nwj-SK9M6faFS1k-VYKQ_knLCgtwOcE4GHIZlli4xgwJqxBmzoh8K-FwuGOQikyV_7fOKdHA?w=500&auto=format",
+    },
     tokenId: "77309423224",
     price: 0.47894,
     available: true,
@@ -801,7 +991,12 @@ const allNFTs = [
     id: 1242562352,
     type: "bid",
     contract: "0x2308742aa28cc460522ff855d24a365f99deba7b",
-    collectionId: "0x2308742aa28cc460522ff855d24a365f99deba7b",
+    collection: {
+      collectionId: "0x2308742aa28cc460522ff855d24a365f99deba7b",
+      name: "FLUF World: Buzzies",
+      image:
+        "https://i.seadn.io/gcs/files/8a2cba93df02564fa7a9120f9d6ca94b.png?w=500&auto=format",
+    },
     tokenId: "4495",
     price: 0.1203,
     available: true,
@@ -822,7 +1017,12 @@ const allNFTs = [
     id: 1242562351,
     type: "bid",
     contract: "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
-    collectionId: "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+    collection: {
+      collectionId: "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      name: "AngryCat - official",
+      image:
+        "https://i.seadn.io/gcs/files/856e56e379fcd78b5ad956a3eb2d7247.png?w=500&auto=format",
+    },
     tokenId: "3788",
     price: 0.4,
     available: true,
@@ -843,7 +1043,12 @@ const allNFTs = [
     id: 1242562349,
     type: "bid",
     contract: "0x4a8c9d751eeabc5521a68fb080dd7e72e46462af",
-    collectionId: "0x4a8c9d751eeabc5521a68fb080dd7e72e46462af",
+    collection: {
+      collectionId: "0x4a8c9d751eeabc5521a68fb080dd7e72e46462af",
+      name: "Arcade Land",
+      image:
+        "https://i.seadn.io/gcs/files/ebe8353e1af3ffd0fd4e93d0ff80919e.png?w=500&auto=format",
+    },
     tokenId: "731",
     price: 0.1589,
     available: true,
@@ -864,7 +1069,12 @@ const allNFTs = [
     id: 1242562347,
     type: "bid",
     contract: "0xfe8c6d19365453d26af321d0e8c910428c23873f",
-    collectionId: "0xfe8c6d19365453d26af321d0e8c910428c23873f",
+    collection: {
+      collectionId: "0xfe8c6d19365453d26af321d0e8c910428c23873f",
+      name: "Creepz by OVERLORD",
+      image:
+        "https://i.seadn.io/gcs/files/13f3b6e7226f54d739ad8c3ed838802b.png?w=500&auto=format",
+    },
     tokenId: "5033",
     price: 1.4506,
     available: true,
@@ -885,7 +1095,12 @@ const allNFTs = [
     id: 1242562346,
     type: "bid",
     contract: "0x09d53609a3709bbc1206b9aa8c54dc71625e31ac",
-    collectionId: "0x09d53609a3709bbc1206b9aa8c54dc71625e31ac",
+    collection: {
+      collectionId: "0x09d53609a3709bbc1206b9aa8c54dc71625e31ac",
+      name: "NounishCNP",
+      image:
+        "https://i.seadn.io/gcs/files/1081cbfb30efec56051a8180b66757ca.gif?w=500&auto=format",
+    },
     tokenId: null,
     price: 0.02104,
     available: true,
@@ -900,7 +1115,12 @@ const allNFTs = [
     id: 1242562345,
     type: "bid",
     contract: "0xefaed650f1a94801806bb110019d9b0dc79531a8",
-    collectionId: "0xefaed650f1a94801806bb110019d9b0dc79531a8",
+    collection: {
+      collectionId: "0xefaed650f1a94801806bb110019d9b0dc79531a8",
+      name: "SHIB YARD",
+      image:
+        "https://i.seadn.io/gae/x4vwvMXyHhqb2JC4_ZY7MDvfRs4oGwMQSaydtcr4l8VCSleolJKXTJ8BIfeITriccmzHBpjZ3MfaKWEF-bapHv-NV2uZqkS401mL?w=500&auto=format",
+    },
     tokenId: "4291756082",
     price: 0.19,
     available: true,
@@ -921,7 +1141,12 @@ const allNFTs = [
     id: 1242562344,
     type: "bid",
     contract: "0x2308742aa28cc460522ff855d24a365f99deba7b",
-    collectionId: "0x2308742aa28cc460522ff855d24a365f99deba7b",
+    collection: {
+      collectionId: "0x2308742aa28cc460522ff855d24a365f99deba7b",
+      name: "FLUF World: Buzzies",
+      image:
+        "https://i.seadn.io/gcs/files/8a2cba93df02564fa7a9120f9d6ca94b.png?w=500&auto=format",
+    },
     tokenId: "3078",
     price: 0.1125,
     available: true,
@@ -942,7 +1167,12 @@ const allNFTs = [
     id: 1242562343,
     type: "bid",
     contract: "0x3903d4ffaaa700b62578a66e7a67ba4cb67787f9",
-    collectionId: "0x3903d4ffaaa700b62578a66e7a67ba4cb67787f9",
+    collection: {
+      collectionId: "0x3903d4ffaaa700b62578a66e7a67ba4cb67787f9",
+      name: "Quirkies Originals",
+      image:
+        "https://i.seadn.io/gae/XS6RqsT7CBpoeX8vUmWkJYldMV6h0Ko7TpagNgFZ-nEh4yrMZFrpY4gtBqyuRDJV6mx2B0ssYxoh9Z9XlO770Xe8FNSu-kj-1EVzMQ?w=500&auto=format",
+    },
     tokenId: null,
     price: 2.2594,
     available: true,
@@ -957,7 +1187,12 @@ const allNFTs = [
     id: 1242562342,
     type: "bid",
     contract: "0x394e3d3044fc89fcdd966d3cb35ac0b32b0cda91",
-    collectionId: "0x394e3d3044fc89fcdd966d3cb35ac0b32b0cda91",
+    collection: {
+      collectionId: "0x394e3d3044fc89fcdd966d3cb35ac0b32b0cda91",
+      name: "RENGA",
+      image:
+        "https://i.seadn.io/gcs/files/f3b11e36be14a5d31c75b19d03996fed.gif?w=500&auto=format",
+    },
     tokenId: "8083",
     price: 1.1113,
     available: true,
@@ -978,7 +1213,12 @@ const allNFTs = [
     id: 1242562341,
     type: "bid",
     contract: "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
-    collectionId: "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+    collection: {
+      collectionId: "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+      name: "ENS: Ethereum Name Service",
+      image:
+        "https://i.seadn.io/gae/0cOqWoYA7xL9CkUjGlxsjreSYBdrUBE0c6EO1COG4XE8UeP-Z30ckqUNiL872zHQHQU5MUNMNhfDpyXIP17hRSC5HQ?w=500&auto=format",
+    },
     tokenId:
       "78276023152187789992540871422452321693714750816418690443661911361027347008970",
     price: 1.1834,
@@ -1001,7 +1241,12 @@ const allNFTs = [
     id: 1242562340,
     type: "bid",
     contract: "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
-    collectionId: "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+    collection: {
+      collectionId: "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+      name: "ENS: Ethereum Name Service",
+      image:
+        "https://i.seadn.io/gae/0cOqWoYA7xL9CkUjGlxsjreSYBdrUBE0c6EO1COG4XE8UeP-Z30ckqUNiL872zHQHQU5MUNMNhfDpyXIP17hRSC5HQ?w=500&auto=format",
+    },
     tokenId:
       "101845430057417674696006034186264735455311683811675009933419411089686898161017",
     price: 14.0002,
@@ -1024,7 +1269,12 @@ const allNFTs = [
     id: 1242562339,
     type: "bid",
     contract: "0x4b3406a41399c7fd2ba65cbc93697ad9e7ea61e5",
-    collectionId: "0x4b3406a41399c7fd2ba65cbc93697ad9e7ea61e5",
+    collection: {
+      collectionId: "0x4b3406a41399c7fd2ba65cbc93697ad9e7ea61e5",
+      name: "LOSTPOETS",
+      image:
+        "https://i.seadn.io/gae/cGKkMxKQ-7J0A4mZvcPqr2LKvGqIVsXjzGqpfxRNb4yVr-zTycPJ0kznkwKqDyUTg--A32oW8cI32BQBl6hrbM-frn1__o544ECpCg?w=500&auto=format",
+    },
     tokenId: "166",
     price: 0.25,
     available: true,
@@ -1045,7 +1295,12 @@ const allNFTs = [
     id: 1242562338,
     type: "bid",
     contract: "0xb76fbbb30e31f2c3bdaa2466cfb1cfe39b220d06",
-    collectionId: "0xb76fbbb30e31f2c3bdaa2466cfb1cfe39b220d06",
+    collection: {
+      collectionId: "0xb76fbbb30e31f2c3bdaa2466cfb1cfe39b220d06",
+      name: "Wolf Game - Wool Pouch",
+      image:
+        "https://i.seadn.io/gae/WbsvgftKvXTeSKmE2C9L6_bVY5Y015WBj0wjcaG7mP3IEy7tX6S6xO63wX1WxvsUuLj4akqHqPHXzq5fj69GPnViZbaLUOQ5N_NJXZE?w=500&auto=format",
+    },
     tokenId: "7574",
     price: 0.18377,
     available: true,
@@ -1066,7 +1321,12 @@ const allNFTs = [
     id: 1242562337,
     type: "bid",
     contract: "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
-    collectionId: "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+    collection: {
+      collectionId: "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+      name: "ENS: Ethereum Name Service",
+      image:
+        "https://i.seadn.io/gae/0cOqWoYA7xL9CkUjGlxsjreSYBdrUBE0c6EO1COG4XE8UeP-Z30ckqUNiL872zHQHQU5MUNMNhfDpyXIP17hRSC5HQ?w=500&auto=format",
+    },
     tokenId:
       "40238633275081582560308998219929113172359131043480500975779224899555629377349",
     price: 0.2101,
@@ -1089,7 +1349,12 @@ const allNFTs = [
     id: 1242562336,
     type: "bid",
     contract: "0x2308742aa28cc460522ff855d24a365f99deba7b",
-    collectionId: "0x2308742aa28cc460522ff855d24a365f99deba7b",
+    collection: {
+      collectionId: "0x2308742aa28cc460522ff855d24a365f99deba7b",
+      name: "FLUF World: Buzzies",
+      image:
+        "https://i.seadn.io/gcs/files/8a2cba93df02564fa7a9120f9d6ca94b.png?w=500&auto=format",
+    },
     tokenId: "1889",
     price: 0.2018,
     available: true,
@@ -1110,7 +1375,12 @@ const allNFTs = [
     id: 1242562335,
     type: "bid",
     contract: "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
-    collectionId: "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+    collection: {
+      collectionId: "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+      name: "ENS: Ethereum Name Service",
+      image:
+        "https://i.seadn.io/gae/0cOqWoYA7xL9CkUjGlxsjreSYBdrUBE0c6EO1COG4XE8UeP-Z30ckqUNiL872zHQHQU5MUNMNhfDpyXIP17hRSC5HQ?w=500&auto=format",
+    },
     tokenId:
       "51272562196199160864040647603693930280378919872451524472438088096485316903409",
     price: 1.1632,
@@ -1133,7 +1403,12 @@ const allNFTs = [
     id: 1242562334,
     type: "bid",
     contract: "0xaa462106da447c0440a4be29614c19387a59a331",
-    collectionId: "0xaa462106da447c0440a4be29614c19387a59a331",
+    collection: {
+      collectionId: "0xaa462106da447c0440a4be29614c19387a59a331",
+      name: "ENS Maxis",
+      image:
+        "https://i.seadn.io/gcs/files/d8952ba88532e51cccd5d683ecb2d723.png?w=500&auto=format",
+    },
     tokenId: "1476",
     price: 0.15,
     available: true,
@@ -1154,7 +1429,12 @@ const allNFTs = [
     id: 1242562333,
     type: "bid",
     contract: "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
-    collectionId: "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+    collection: {
+      collectionId: "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+      name: "ENS: Ethereum Name Service",
+      image:
+        "https://i.seadn.io/gae/0cOqWoYA7xL9CkUjGlxsjreSYBdrUBE0c6EO1COG4XE8UeP-Z30ckqUNiL872zHQHQU5MUNMNhfDpyXIP17hRSC5HQ?w=500&auto=format",
+    },
     tokenId:
       "110221059787778806384403364329966457884458567470965380560229160957910835797419",
     price: 0.03018,
@@ -1177,7 +1457,12 @@ const allNFTs = [
     id: 1242562332,
     type: "bid",
     contract: "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
-    collectionId: "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+    collection: {
+      collectionId: "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+      name: "Genuine Undead",
+      image:
+        "https://i.seadn.io/gcs/files/1eb8d685d4e404c9b1177dfe14c2c9e0.png?w=500&auto=format",
+    },
     tokenId: "8847",
     price: 4.5674,
     available: true,
@@ -1198,7 +1483,12 @@ const allNFTs = [
     id: 1242562331,
     type: "bid",
     contract: "0x466cfcd0525189b573e794f554b8a751279213ac",
-    collectionId: "0x466cfcd0525189b573e794f554b8a751279213ac",
+    collection: {
+      collectionId: "0x466cfcd0525189b573e794f554b8a751279213ac",
+      name: "Dooplicator",
+      image:
+        "https://i.seadn.io/gae/RrCR2EKxJnu_JoadezfSwRBFeiYexn54OwWyAtGdCfZpfvwmjlxiqrajlOrIJ1ri9SRnc6P-UxW9_saOFwp69vUDcxxr_Wr2S_YXjqc?w=500&auto=format",
+    },
     tokenId: "4096",
     price: 2.1815,
     available: true,
@@ -1219,7 +1509,12 @@ const allNFTs = [
     id: 1242562330,
     type: "bid",
     contract: "0xdd70af84ba86f29bf437756b655110d134b5651c",
-    collectionId: "0xdd70af84ba86f29bf437756b655110d134b5651c",
+    collection: {
+      collectionId: "0xdd70af84ba86f29bf437756b655110d134b5651c",
+      name: "iNFT Personality Pod by Alethea AI",
+      image:
+        "https://i.seadn.io/gae/l83Ga13cRv53TOuLzPji49oyCQ2SZW4e2e7gp4CNC2R0w82Y3JoYS6JvkKMe4TJnLdWCkydZrNoXTyUH05iN39M7grHnJSGbDXLVKwQ?w=500&auto=format",
+    },
     tokenId: "6962",
     price: 0.151,
     available: true,
@@ -1240,7 +1535,12 @@ const allNFTs = [
     id: 1242562329,
     type: "bid",
     contract: "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
-    collectionId: "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+    collection: {
+      collectionId: "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+      name: "DEGEN TOONZ COLLECTION",
+      image:
+        "https://i.seadn.io/gae/bLRdXEC6KIRmFAWBAgppvqeYQUVojbsGzIJJGfyH-WWF57iqOOlZu-1I0v0GYyrG8C-p-sVjpCMOZMFw0oVExilWzJTDbOfLeKhl1w?w=500&auto=format",
+    },
     tokenId: "4119",
     price: 0.7016,
     available: true,
@@ -1261,7 +1561,12 @@ const allNFTs = [
     id: 1242562328,
     type: "bid",
     contract: "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
-    collectionId: "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+    collection: {
+      collectionId: "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+      name: "DEGEN TOONZ COLLECTION",
+      image:
+        "https://i.seadn.io/gae/bLRdXEC6KIRmFAWBAgppvqeYQUVojbsGzIJJGfyH-WWF57iqOOlZu-1I0v0GYyrG8C-p-sVjpCMOZMFw0oVExilWzJTDbOfLeKhl1w?w=500&auto=format",
+    },
     tokenId: "5674",
     price: 0.7012,
     available: true,
@@ -1282,7 +1587,12 @@ const allNFTs = [
     id: 1242562327,
     type: "bid",
     contract: "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
-    collectionId: "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+    collection: {
+      collectionId: "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+      name: "YuGiYn",
+      image:
+        "https://i.seadn.io/gcs/files/fb756068f5be3cf135f7c5ef211d08c6.png?w=500&auto=format",
+    },
     tokenId: "6831",
     price: 0.669,
     available: true,
@@ -1303,7 +1613,12 @@ const allNFTs = [
     id: 1242562326,
     type: "bid",
     contract: "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
-    collectionId: "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+    collection: {
+      collectionId: "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+      name: "ENS: Ethereum Name Service",
+      image:
+        "https://i.seadn.io/gae/0cOqWoYA7xL9CkUjGlxsjreSYBdrUBE0c6EO1COG4XE8UeP-Z30ckqUNiL872zHQHQU5MUNMNhfDpyXIP17hRSC5HQ?w=500&auto=format",
+    },
     tokenId:
       "77966843005657051865893041381378865643577453560047785150643346176309867850286",
     price: 1.12,
@@ -1326,7 +1641,12 @@ const allNFTs = [
     id: 1242562325,
     type: "bid",
     contract: "0xf6ee484f82f28d69688f37fe90af514ce212b7c3",
-    collectionId: "0xf6ee484f82f28d69688f37fe90af514ce212b7c3",
+    collection: {
+      collectionId: "0xf6ee484f82f28d69688f37fe90af514ce212b7c3",
+      name: "This Thing Of Ours - The NFT Gaming Collective",
+      image:
+        "https://i.seadn.io/gcs/files/2628e7d7e738de3f28c2b58697b6618b.jpg?w=500&auto=format",
+    },
     tokenId: "112",
     price: 0.7,
     available: true,
@@ -1347,7 +1667,12 @@ const allNFTs = [
     id: 1242562324,
     type: "bid",
     contract: "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
-    collectionId: "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+    collection: {
+      collectionId: "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+      name: "Broadside",
+      image:
+        "https://i.seadn.io/gcs/files/f3695691be601c6ecac480595057215a.png?w=500&auto=format",
+    },
     tokenId: "2612",
     price: 0.15025,
     available: true,
@@ -1368,7 +1693,12 @@ const allNFTs = [
     id: 1242562323,
     type: "bid",
     contract: "0xefaed650f1a94801806bb110019d9b0dc79531a8",
-    collectionId: "0xefaed650f1a94801806bb110019d9b0dc79531a8",
+    collection: {
+      collectionId: "0xefaed650f1a94801806bb110019d9b0dc79531a8",
+      name: "SHIB YARD",
+      image:
+        "https://i.seadn.io/gae/x4vwvMXyHhqb2JC4_ZY7MDvfRs4oGwMQSaydtcr4l8VCSleolJKXTJ8BIfeITriccmzHBpjZ3MfaKWEF-bapHv-NV2uZqkS401mL?w=500&auto=format",
+    },
     tokenId: "4915265",
     price: 0.33525,
     available: true,
@@ -1389,7 +1719,12 @@ const allNFTs = [
     id: 1242562322,
     type: "bid",
     contract: "0x524cab2ec69124574082676e6f654a18df49a048",
-    collectionId: "0x524cab2ec69124574082676e6f654a18df49a048",
+    collection: {
+      collectionId: "0x524cab2ec69124574082676e6f654a18df49a048",
+      name: "Lil Pudgys",
+      image:
+        "https://i.seadn.io/gae/s4Td3KYsUlCblO6lQKAGAWdKwsCuumcxYpebM_YL-Pex-BP886JYAWjKBLeB5StNopAAD6kVx3QHqWm9AmudXyCaCZszHbt8SdteEQ?w=500&auto=format",
+    },
     tokenId: "3424",
     price: 0.45,
     available: true,
@@ -1410,7 +1745,12 @@ const allNFTs = [
     id: 1242562321,
     type: "bid",
     contract: "0x942bc2d3e7a589fe5bd4a5c6ef9727dfd82f5c8a",
-    collectionId: "0x942bc2d3e7a589fe5bd4a5c6ef9727dfd82f5c8a",
+    collection: {
+      collectionId: "0x942bc2d3e7a589fe5bd4a5c6ef9727dfd82f5c8a",
+      name: "Friendship Bracelets by Alexis André",
+      image:
+        "https://i.seadn.io/gcs/files/01de134db029be955aa892ea066c085f.png?w=500&auto=format",
+    },
     tokenId: "13740",
     price: 0.375,
     available: true,
@@ -1431,7 +1771,12 @@ const allNFTs = [
     id: 1242562320,
     type: "bid",
     contract: "0x338be3d8d0209815601e72f7a04ac7f37d61564b",
-    collectionId: "0x338be3d8d0209815601e72f7a04ac7f37d61564b",
+    collection: {
+      collectionId: "0x338be3d8d0209815601e72f7a04ac7f37d61564b",
+      name: "VOX Collectibles: The Walking Dead",
+      image:
+        "https://i.seadn.io/gae/OWylmgHIgVkHzd1J0NztnmyKFTeEW6TqAK0mQ4pmYcBZeEMA0pxAGBdhIdM6sxGCKMHjfLlyJJ62dOYVp1olP7N2XYOZk5AphXKahA?w=500&auto=format",
+    },
     tokenId: null,
     price: 0.15443,
     available: true,
@@ -1446,7 +1791,12 @@ const allNFTs = [
     id: 1242562319,
     type: "bid",
     contract: "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
-    collectionId: "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+    collection: {
+      collectionId: "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+      name: "ENS: Ethereum Name Service",
+      image:
+        "https://i.seadn.io/gae/0cOqWoYA7xL9CkUjGlxsjreSYBdrUBE0c6EO1COG4XE8UeP-Z30ckqUNiL872zHQHQU5MUNMNhfDpyXIP17hRSC5HQ?w=500&auto=format",
+    },
     tokenId:
       "83709159667154091369088411939933365186468971065199878122294167332239708074870",
     price: 1.1571,
@@ -1469,7 +1819,12 @@ const allNFTs = [
     id: 1242562318,
     type: "bid",
     contract: "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
-    collectionId: "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+    collection: {
+      collectionId: "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+      name: "YuGiYn",
+      image:
+        "https://i.seadn.io/gcs/files/fb756068f5be3cf135f7c5ef211d08c6.png?w=500&auto=format",
+    },
     tokenId: "4290",
     price: 0.2792,
     available: true,
@@ -1490,7 +1845,12 @@ const allNFTs = [
     id: 1242562317,
     type: "bid",
     contract: "0x05b505f6bda522efd3b5f63b6338f275f14549a2",
-    collectionId: "0x05b505f6bda522efd3b5f63b6338f275f14549a2",
+    collection: {
+      collectionId: "0x05b505f6bda522efd3b5f63b6338f275f14549a2",
+      name: "MatrixWorld LandVoucher",
+      image:
+        "https://i.seadn.io/gae/erRRScICPuEEn5qjFVr6k0wtPDHpG_5urInOWszHtQx6B44uuPkol3PNg1d3vFeQnduDBlahUHh25u-YLIOgwruH6hoobWqHkPs3?w=500&auto=format",
+    },
     tokenId: "716",
     price: 0.28,
     available: true,
@@ -1511,7 +1871,12 @@ const allNFTs = [
     id: 1242562316,
     type: "bid",
     contract: "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
-    collectionId: "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+    collection: {
+      collectionId: "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+      name: "ENS: Ethereum Name Service",
+      image:
+        "https://i.seadn.io/gae/0cOqWoYA7xL9CkUjGlxsjreSYBdrUBE0c6EO1COG4XE8UeP-Z30ckqUNiL872zHQHQU5MUNMNhfDpyXIP17hRSC5HQ?w=500&auto=format",
+    },
     tokenId:
       "99114902007464053189827416879144825615375415779576483731593998858624403389004",
     price: 0.03018,
@@ -1534,7 +1899,12 @@ const allNFTs = [
     id: 1242562315,
     type: "bid",
     contract: "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
-    collectionId: "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+    collection: {
+      collectionId: "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+      name: "ENS: Ethereum Name Service",
+      image:
+        "https://i.seadn.io/gae/0cOqWoYA7xL9CkUjGlxsjreSYBdrUBE0c6EO1COG4XE8UeP-Z30ckqUNiL872zHQHQU5MUNMNhfDpyXIP17hRSC5HQ?w=500&auto=format",
+    },
     tokenId:
       "29128219344241625672649927581711420551919280521992575145036139448178906977453",
     price: 1.1608,
@@ -1557,7 +1927,12 @@ const allNFTs = [
     id: 1242562314,
     type: "bid",
     contract: "0x31d45de84fde2fb36575085e05754a4932dd5170",
-    collectionId: "0x31d45de84fde2fb36575085e05754a4932dd5170",
+    collection: {
+      collectionId: "0x31d45de84fde2fb36575085e05754a4932dd5170",
+      name: "Rare Apepe YC",
+      image:
+        "https://i.seadn.io/gae/xVeNbgTjhD1vXcji7ws9NnB0eGPxSUMtEN9LAmf0ifIk-wEu42ecxNc-qMO31ICOahxBKEgqywmc5FjWn5L16Qo0IBjCsXuRbeaigQ?w=500&auto=format",
+    },
     tokenId: null,
     price: 0.69416,
     available: true,
@@ -1572,7 +1947,12 @@ const allNFTs = [
     id: 1242562313,
     type: "bid",
     contract: "0xf61f24c2d93bf2de187546b14425bf631f28d6dc",
-    collectionId: "0xf61f24c2d93bf2de187546b14425bf631f28d6dc",
+    collection: {
+      collectionId: "0xf61f24c2d93bf2de187546b14425bf631f28d6dc",
+      name: "World of Women Galaxy",
+      image:
+        "https://i.seadn.io/gae/hP4JJhiY5yXu1mCvNycTke2O_xbtgIFfkLTjfT7C9TNKinkGpP2COikt7cwn0xqzoATRNC21wsiwy_Fe-MQ3PPTgRjkbbCfJf__L?w=500&auto=format",
+    },
     tokenId: "19240",
     price: 0.19032,
     available: true,
@@ -1593,7 +1973,12 @@ const allNFTs = [
     id: 1242562312,
     type: "bid",
     contract: "0xb76fbbb30e31f2c3bdaa2466cfb1cfe39b220d06",
-    collectionId: "0xb76fbbb30e31f2c3bdaa2466cfb1cfe39b220d06",
+    collection: {
+      collectionId: "0xb76fbbb30e31f2c3bdaa2466cfb1cfe39b220d06",
+      name: "Wolf Game - Wool Pouch",
+      image:
+        "https://i.seadn.io/gae/WbsvgftKvXTeSKmE2C9L6_bVY5Y015WBj0wjcaG7mP3IEy7tX6S6xO63wX1WxvsUuLj4akqHqPHXzq5fj69GPnViZbaLUOQ5N_NJXZE?w=500&auto=format",
+    },
     tokenId: "4840",
     price: 0.7213,
     available: true,
@@ -1614,7 +1999,12 @@ const allNFTs = [
     id: 1242562311,
     type: "bid",
     contract: "0x5802c586f657c787902280ac091d81832d7faf84",
-    collectionId: "0x5802c586f657c787902280ac091d81832d7faf84",
+    collection: {
+      collectionId: "0x5802c586f657c787902280ac091d81832d7faf84",
+      name: "Bored y00ts AC",
+      image:
+        "https://i.seadn.io/gcs/files/ee748f72e50489a73c9d7900836da4cc.png?w=500&auto=format",
+    },
     tokenId: "1294",
     price: 0.0303,
     available: true,
@@ -1635,7 +2025,12 @@ const allNFTs = [
     id: 1242562310,
     type: "bid",
     contract: "0xec7f8a34b97ac65caad3841659f2cd54285a3950",
-    collectionId: "0xec7f8a34b97ac65caad3841659f2cd54285a3950",
+    collection: {
+      collectionId: "0xec7f8a34b97ac65caad3841659f2cd54285a3950",
+      name: "Impostors Genesis Pets",
+      image:
+        "https://i.seadn.io/gae/gzMNhfUEBDR9e4yaGiU11fX28VMkotYPjXyLh48UJTl2qDZj-B4k7P4RvBIAjfDSFOrQ054RhYXnzobnccHjRkIXBBUwW0Vm5EN18w?w=500&auto=format",
+    },
     tokenId: "6653",
     price: 0.08,
     available: true,
@@ -1655,7 +2050,12 @@ const allNFTs = [
     id: 1242562309,
     type: "bid",
     contract: "0x80dbbdcb4280030fb22e2a9d671a368211d49d6e",
-    collectionId: "0x80dbbdcb4280030fb22e2a9d671a368211d49d6e",
+    collection: {
+      collectionId: "0x80dbbdcb4280030fb22e2a9d671a368211d49d6e",
+      name: "Undead Blocks Genesis Weapons",
+      image:
+        "https://i.seadn.io/gae/pPBK-0eIDUE-SulwRmXO_bNZroKi-W3JDQvGLcLT4pV2Y1W3cc991jeqAhMwcTn-jvYpqPdPruWR4lO30Q3u23ZkjQsvwgT579qajUA?w=500&auto=format",
+    },
     tokenId: "1022",
     price: 0.57,
     available: true,
@@ -1676,7 +2076,12 @@ const allNFTs = [
     id: 1242562308,
     type: "bid",
     contract: "0x5cc5b05a8a13e3fbdb0bb9fccd98d38e50f90c38",
-    collectionId: "0x5cc5b05a8a13e3fbdb0bb9fccd98d38e50f90c38",
+    collection: {
+      collectionId: "0x5cc5b05a8a13e3fbdb0bb9fccd98d38e50f90c38",
+      name: "The Sandbox",
+      image:
+        "https://i.seadn.io/gae/SXH8tW1siikB80rwCRnjm1a5xM_MwTg9Xl9Db6mioIk9HIlDM09pVoSR7GKJgS6ulSUpgW9BDtMk_ePX_NKgO9A?w=500&auto=format",
+    },
     tokenId: "148991",
     price: 1.1,
     available: true,
@@ -1697,7 +2102,12 @@ const allNFTs = [
     id: 1242562307,
     type: "bid",
     contract: "0x5cc5b05a8a13e3fbdb0bb9fccd98d38e50f90c38",
-    collectionId: "0x5cc5b05a8a13e3fbdb0bb9fccd98d38e50f90c38",
+    collection: {
+      collectionId: "0x5cc5b05a8a13e3fbdb0bb9fccd98d38e50f90c38",
+      name: "The Sandbox",
+      image:
+        "https://i.seadn.io/gae/SXH8tW1siikB80rwCRnjm1a5xM_MwTg9Xl9Db6mioIk9HIlDM09pVoSR7GKJgS6ulSUpgW9BDtMk_ePX_NKgO9A?w=500&auto=format",
+    },
     tokenId: "160354",
     price: 1.11731,
     available: true,
@@ -1718,7 +2128,12 @@ const allNFTs = [
     id: 1242562306,
     type: "bid",
     contract: "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
-    collectionId: "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+    collection: {
+      collectionId: "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+      name: "ENS: Ethereum Name Service",
+      image:
+        "https://i.seadn.io/gae/0cOqWoYA7xL9CkUjGlxsjreSYBdrUBE0c6EO1COG4XE8UeP-Z30ckqUNiL872zHQHQU5MUNMNhfDpyXIP17hRSC5HQ?w=500&auto=format",
+    },
     tokenId:
       "72787300798922300374976336178008287974202342578435317697937250404406507920989",
     price: 1.161,
@@ -1741,7 +2156,12 @@ const allNFTs = [
     id: 1242562305,
     type: "bid",
     contract: "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-    collectionId: "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
+    collection: {
+      collectionId: "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
+      name: "PhantaBear",
+      image:
+        "https://i.seadn.io/gae/1wTnxFx6paNeV1lv_ht10OFpDucUhg-fL6IZbPrai3Jf_3pHS5dSazhpU_UBn2BVQBUEffYAeoo2iVbCu9LPeUDhmwZwt_7J4xpdrQ?w=500&auto=format",
+    },
     tokenId: "2111",
     price: 0.2757,
     available: true,
@@ -1762,7 +2182,12 @@ const allNFTs = [
     id: 1242562304,
     type: "bid",
     contract: "0x2308742aa28cc460522ff855d24a365f99deba7b",
-    collectionId: "0x2308742aa28cc460522ff855d24a365f99deba7b",
+    collection: {
+      collectionId: "0x2308742aa28cc460522ff855d24a365f99deba7b",
+      name: "FLUF World: Buzzies",
+      image:
+        "https://i.seadn.io/gcs/files/8a2cba93df02564fa7a9120f9d6ca94b.png?w=500&auto=format",
+    },
     tokenId: "4570",
     price: 0.2025,
     available: true,
@@ -1783,7 +2208,12 @@ const allNFTs = [
     id: 1242562303,
     type: "bid",
     contract: "0xbce3781ae7ca1a5e050bd9c4c77369867ebc307e",
-    collectionId: "0xbce3781ae7ca1a5e050bd9c4c77369867ebc307e",
+    collection: {
+      collectionId: "0xbce3781ae7ca1a5e050bd9c4c77369867ebc307e",
+      name: "goblintown.wtf",
+      image:
+        "https://i.seadn.io/gae/cb_wdEAmvry_noTfeuQzhqKpghhZWQ_sEhuGS9swM03UM8QMEVJrndu0ZRdLFgGVqEPeCUzOHGTUllxug9U3xdvt0bES6VFdkRCKPqg?w=500&auto=format",
+    },
     tokenId: null,
     price: 0.76926,
     available: true,
@@ -1798,7 +2228,12 @@ const allNFTs = [
     id: 1242562302,
     type: "bid",
     contract: "0x6fd053bff10512d743fa36c859e49351a4920df6",
-    collectionId: "0x6fd053bff10512d743fa36c859e49351a4920df6",
+    collection: {
+      collectionId: "0x6fd053bff10512d743fa36c859e49351a4920df6",
+      name: "C-01 Official Collection",
+      image:
+        "https://i.seadn.io/gae/_hn57CNgbtqSi7fmGhXsBpRk0Ocb0lnQFzHku9hVw1pvtkAtvmXf7k3X6HYqhVwDy4C47McDmikN9Gi5kNrdrVFQG5l0sVeqavCPGQ?w=500&auto=format",
+    },
     tokenId: "4863",
     price: 0.031,
     available: true,
@@ -1819,7 +2254,12 @@ const allNFTs = [
     id: 1242562301,
     type: "bid",
     contract: "0xb76fbbb30e31f2c3bdaa2466cfb1cfe39b220d06",
-    collectionId: "0xb76fbbb30e31f2c3bdaa2466cfb1cfe39b220d06",
+    collection: {
+      collectionId: "0xb76fbbb30e31f2c3bdaa2466cfb1cfe39b220d06",
+      name: "Wolf Game - Wool Pouch",
+      image:
+        "https://i.seadn.io/gae/WbsvgftKvXTeSKmE2C9L6_bVY5Y015WBj0wjcaG7mP3IEy7tX6S6xO63wX1WxvsUuLj4akqHqPHXzq5fj69GPnViZbaLUOQ5N_NJXZE?w=500&auto=format",
+    },
     tokenId: "9466",
     price: 1.81005,
     available: true,
@@ -1840,7 +2280,12 @@ const allNFTs = [
     id: 1242562299,
     type: "bid",
     contract: "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
-    collectionId: "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+    collection: {
+      collectionId: "0x57f1887a8bf19b14fc0df6fd9b2acc9af147ea85",
+      name: "ENS: Ethereum Name Service",
+      image:
+        "https://i.seadn.io/gae/0cOqWoYA7xL9CkUjGlxsjreSYBdrUBE0c6EO1COG4XE8UeP-Z30ckqUNiL872zHQHQU5MUNMNhfDpyXIP17hRSC5HQ?w=500&auto=format",
+    },
     tokenId:
       "72654528211073432287651017538130345038031692330656205030771824015633053801307",
     price: 0.015,
@@ -1863,7 +2308,12 @@ const allNFTs = [
     id: 1242562298,
     type: "bid",
     contract: "0x18487d2cac946c7fe800855c4039aac210f68baa",
-    collectionId: "0x18487d2cac946c7fe800855c4039aac210f68baa",
+    collection: {
+      collectionId: "0x18487d2cac946c7fe800855c4039aac210f68baa",
+      name: "Generative Dungeon",
+      image:
+        "https://i.seadn.io/gae/v0WRIJ4XhRQsmfT6pZJlCXJjsrxqLr0UWe2ZhvlgrhQL6sJuco1Vhd1AAu5WhxjJAPbuq-GNJmSSeMER3620wxxuMDv6dSPV-sDqDMo?w=500&auto=format",
+    },
     tokenId: "1132",
     price: 0.131,
     available: true,
@@ -1884,7 +2334,12 @@ const allNFTs = [
     id: 1242562296,
     type: "bid",
     contract: "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
-    collectionId: "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+    collection: {
+      collectionId: "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+      name: "SupDucks",
+      image:
+        "https://i.seadn.io/gcs/files/1143fc769bd949570b4bf328584518c6.png?w=500&auto=format",
+    },
     tokenId: "3631",
     price: 0.183,
     available: true,
@@ -1905,7 +2360,12 @@ const allNFTs = [
     id: 1242562293,
     type: "bid",
     contract: "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
-    collectionId: "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+    collection: {
+      collectionId: "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+      name: "MekaVerse",
+      image:
+        "https://i.seadn.io/gae/SFCYIPlcznnwFnI8Jd0dYIh5Atr6cp7HL4tWVWUl7_Onikq7uzQxKfTjdK2ptilWALg1ZBttSvzhXBCUbB9qoSlW9kS8qk1S3Z3xkU0?w=500&auto=format",
+    },
     tokenId: "2232",
     price: 0.6549,
     available: true,
@@ -1926,7 +2386,12 @@ const allNFTs = [
     id: 1242562291,
     type: "bid",
     contract: "0x2308742aa28cc460522ff855d24a365f99deba7b",
-    collectionId: "0x2308742aa28cc460522ff855d24a365f99deba7b",
+    collection: {
+      collectionId: "0x2308742aa28cc460522ff855d24a365f99deba7b",
+      name: "FLUF World: Buzzies",
+      image:
+        "https://i.seadn.io/gcs/files/8a2cba93df02564fa7a9120f9d6ca94b.png?w=500&auto=format",
+    },
     tokenId: "2313",
     price: 0.2048,
     available: true,
@@ -1947,7 +2412,12 @@ const allNFTs = [
     id: 1242562290,
     type: "bid",
     contract: "0xb76fbbb30e31f2c3bdaa2466cfb1cfe39b220d06",
-    collectionId: "0xb76fbbb30e31f2c3bdaa2466cfb1cfe39b220d06",
+    collection: {
+      collectionId: "0xb76fbbb30e31f2c3bdaa2466cfb1cfe39b220d06",
+      name: "Wolf Game - Wool Pouch",
+      image:
+        "https://i.seadn.io/gae/WbsvgftKvXTeSKmE2C9L6_bVY5Y015WBj0wjcaG7mP3IEy7tX6S6xO63wX1WxvsUuLj4akqHqPHXzq5fj69GPnViZbaLUOQ5N_NJXZE?w=500&auto=format",
+    },
     tokenId: "5608",
     price: 0.72024,
     available: true,
@@ -1968,7 +2438,12 @@ const allNFTs = [
     id: 1242562289,
     type: "bid",
     contract: "0x394e3d3044fc89fcdd966d3cb35ac0b32b0cda91",
-    collectionId: "0x394e3d3044fc89fcdd966d3cb35ac0b32b0cda91",
+    collection: {
+      collectionId: "0x394e3d3044fc89fcdd966d3cb35ac0b32b0cda91",
+      name: "RENGA",
+      image:
+        "https://i.seadn.io/gcs/files/f3b11e36be14a5d31c75b19d03996fed.gif?w=500&auto=format",
+    },
     tokenId: "2711",
     price: 1.3048,
     available: true,
@@ -1989,7 +2464,12 @@ const allNFTs = [
     id: 1242562288,
     type: "bid",
     contract: "0x28462739c3eb65a571bf92689e8257c806bd275d",
-    collectionId: "0x28462739c3eb65a571bf92689e8257c806bd275d",
+    collection: {
+      collectionId: "0x28462739c3eb65a571bf92689e8257c806bd275d",
+      name: "A0K1VERSE Passport",
+      image:
+        "https://i.seadn.io/gae/ZvdhdE5pSgS3eD2hR2M1hRvnDzwfsgO5y7Qxh-FGm0ZoM2gymuuIOjwXkc-lD-eZVJk7k9WB5hxXmEaf5sZQidQ6AugC_T8teD00hYI?w=500&auto=format",
+    },
     tokenId: "1558",
     price: 0.0759,
     available: true,
@@ -2010,7 +2490,12 @@ const allNFTs = [
     id: 1242562287,
     type: "bid",
     contract: "0xb76fbbb30e31f2c3bdaa2466cfb1cfe39b220d06",
-    collectionId: "0xb76fbbb30e31f2c3bdaa2466cfb1cfe39b220d06",
+    collection: {
+      collectionId: "0xb76fbbb30e31f2c3bdaa2466cfb1cfe39b220d06",
+      name: "Wolf Game - Wool Pouch",
+      image:
+        "https://i.seadn.io/gae/WbsvgftKvXTeSKmE2C9L6_bVY5Y015WBj0wjcaG7mP3IEy7tX6S6xO63wX1WxvsUuLj4akqHqPHXzq5fj69GPnViZbaLUOQ5N_NJXZE?w=500&auto=format",
+    },
     tokenId: "5792",
     price: 0.7255,
     available: true,
@@ -2031,7 +2516,12 @@ const allNFTs = [
     id: 1242562284,
     type: "bid",
     contract: "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
-    collectionId: "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+    collection: {
+      collectionId: "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+      name: "HAPE PRIME",
+      image:
+        "https://i.seadn.io/gcs/files/3f76da086f4bbd07d8e6cdac14e3c02f.png?w=500&auto=format",
+    },
     tokenId: "5744",
     price: 0.4924,
     available: true,
@@ -2052,7 +2542,12 @@ const allNFTs = [
     id: 1242562282,
     type: "bid",
     contract: "0x6400c9cf1961a36b40616ead83e87a973f47f548",
-    collectionId: "0x6400c9cf1961a36b40616ead83e87a973f47f548",
+    collection: {
+      collectionId: "0x6400c9cf1961a36b40616ead83e87a973f47f548",
+      name: "Cypher Genesis Collection",
+      image:
+        "https://i.seadn.io/gcs/files/60839261ef3207f0403d01585437efc1.png?w=500&auto=format",
+    },
     tokenId: null,
     price: 0.13614,
     available: true,
@@ -2067,7 +2562,12 @@ const allNFTs = [
     id: 1242562350,
     type: "bid",
     contract: "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-    collectionId: "0x6632a9d63e142f17a668064d41a21193b49b41a0",
+    collection: {
+      collectionId: "0x6632a9d63e142f17a668064d41a21193b49b41a0",
+      name: "Prime Ape Planet PAP",
+      image:
+        "https://i.seadn.io/gcs/files/62274ec29bd8bae9b0102e6c64bca954.png?w=500&auto=format",
+    },
     tokenId: "1214",
     price: 0.2011,
     available: true,

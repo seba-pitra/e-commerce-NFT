@@ -13,11 +13,20 @@ module.exports = (sequelize) => {
         // validate: {
         //   isUUID: 4,
         // },
-      } /* 
+      },
+      name: {
+        type: DataTypes.STRING,
+        allowNull: false,
+      },
+      image: {
+        type: DataTypes.STRING,
+        allowNull: false,
+      },
+      /* 
       description: {
         type: DataTypes.STRING,
         unique: true,
-      }, */,
+      }, */
     },
     {
       timestamps: false,
