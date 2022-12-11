@@ -6,8 +6,8 @@ const createAllInitialNFTs = async () => {
   allNFTs.forEach(async (data) => {
     let nftToCreated = {
       type: data.type,
-      name: (data.tokenData && data.tokenData.name) || "no name found",
-      image: (data.tokenData && data.tokenData.image) || "no image found",
+      name: (data.tokenData && data.tokenData.name) || null,
+      image: (data.tokenData && data.tokenData.image) || null,
       available: data.available,
       contract: data.contract,
       tokenId: data.tokenId,
@@ -16,20 +16,24 @@ const createAllInitialNFTs = async () => {
       source: data.source,
     };
 
-    let createdCollection = await Collection.findOrCreate({
-      where: {
-        id: data.collection.collectionId,
-      },
-      defaults: {
-        id: data.collection.collectionId,
-        name: data.collection.name,
-        image: data.collection.image,
-      },
-    }).then(([collection, created]) => collection);
+    try {
+      let createdNft = await Nft.create(nftToCreated);
 
-    let createdNft = await Nft.create(nftToCreated);
+      let createdCollection = await Collection.findOrCreate({
+        where: {
+          id: data.collection.collectionId,
+        },
+        defaults: {
+          id: data.collection.collectionId,
+          name: data.collection.name,
+          image: data.collection.image,
+        },
+      }).then(([collection, created]) => collection);
 
-    await createdNft.setCollection(createdCollection);
+      await createdNft.setCollection(createdCollection);
+    } catch (error) {
+      console.log("Can´t create NFT " + data.id);
+    }
   });
 };
 
