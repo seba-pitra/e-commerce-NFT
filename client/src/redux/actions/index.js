@@ -8,11 +8,12 @@ export const CREATE_NFT = "CREATE_NFT";
 export const DELETE_NFT = "DELETE_NFT";
 export const UPDATE_NFT = "UPDATE_NFT";
 
-export const RESET_FILTERS = "RESET_FILTERS"; //
+export const RESET_FILTERS = "RESET_FILTERS";
 export const FILTER_NFT_COLLECTION = "FILTER_NFT_COLLECTION"; 
 export const FILTER_NFT_CATEGORY = "FILTER_NFT_CATEGORY"; 
 export const FILTER_NFT_STATE = "FILTER_NFT_STATE";
 export const FILTER_NFT_PRICE = "FILTER_NFT_PRICE"; 
+export const FILTER_NFT_NAME = "FILTER_NFT_NAME";
 export const ORDER_NFT_NAME = "ORDER_NFT_NAME"; 
 export const ORDER_NFT_PRICE = "ORDER_NFT_PRICE"; 
 export const ORDER_NFT_AMOUNT = "ORDER_NFT_AMOUNT"; 
@@ -87,6 +88,11 @@ export const filterCategory = (payload) => {
 export const filterPrice = (payload) => {
   return { type: FILTER_NFT_PRICE, payload }
 };
+
+export const filterName = (payload) => {
+  return { type: FILTER_NFT_NAME, payload }
+};
+
 
 export const filterState = (payload) => {
   return { type: FILTER_NFT_STATE, payload } // compra o subasta FALTA EDITAR TYPE BACK

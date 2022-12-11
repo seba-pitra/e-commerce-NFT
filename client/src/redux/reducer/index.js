@@ -1,4 +1,4 @@
-import { GET_ALL_NFTS, GET_ALL_COLLECTIONS, GET_ALL_USERS, GET_NFT_DETAIL, CREATE_NFT, DELETE_NFT, UPDATE_NFT, LOADING, RESET_FILTERS, FILTER_NFT_COLLECTION, FILTER_NFT_CATEGORY, FILTER_NFT_STATE, FILTER_NFT_PRICE, ORDER_NFT_NAME, ORDER_NFT_PRICE, ORDER_NFT_AMOUNT, ORDER_NFT_CREATED_AT} from "../actions";
+import { GET_ALL_NFTS, GET_ALL_COLLECTIONS, GET_ALL_USERS, GET_NFT_DETAIL, CREATE_NFT, DELETE_NFT, UPDATE_NFT, LOADING, RESET_FILTERS, FILTER_NFT_COLLECTION, FILTER_NFT_CATEGORY, FILTER_NFT_STATE, FILTER_NFT_PRICE, FILTER_NFT_NAME, ORDER_NFT_NAME, ORDER_NFT_PRICE, ORDER_NFT_AMOUNT, ORDER_NFT_CREATED_AT} from "../actions";
 //  SEARCH_NFT, SELECT_PAGE, SET_NFTS_PER_PAGE, NEXT_PAGE, PREV_PAGE
 
 const initialState = {
@@ -36,6 +36,10 @@ const rootReducer = (state = initialState, action) => {
       let filterByCollection = []; // falta fixear id - name
       filterByCollection = state.nfts.filter(e => e.collectionId === action.payload)
       return {...state, filteredNfts: filterByCollection}
+    case FILTER_NFT_NAME:
+      let filterByName = [];
+      filterByName = state.nfts.filter(e => e.name.toUpperCase().includes(action.payload.toUpperCase()))
+      return {...state, filteredNfts: filterByName}
     case FILTER_NFT_CATEGORY:
       let filterByCategory = [];
       if(!state.categories.includes(action.payload)) state.categories = [...state.categories, action.payload]
