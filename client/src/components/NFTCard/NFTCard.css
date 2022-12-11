@@ -48,6 +48,14 @@
     /* margin-left: 5px; */
     margin: 2px 0 5px 10px;
 }
+
+.bottom-img-info h4{
+    font-size: 12px;
+    /* margin-left: 5px; */
+    color: rgb(182, 182, 182);
+    margin: 2px 0 5px 20px;
+}
+
 .nameAndToken h4{
     display: flex;
 }

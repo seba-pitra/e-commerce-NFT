@@ -1,0 +1,14 @@
+.container_mainpage {
+    border: 1px solid red;
+    width: 100%;
+    display: flex;
+}
+
+.test {
+    border: 1px solid blue;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    display: flex;
+}
