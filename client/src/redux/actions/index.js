@@ -133,7 +133,6 @@ export const filterName = (payload) => {
   return { type: FILTER_NFT_NAME, payload }
 };
 
-
 export const filterState = (payload) => {
   return { type: FILTER_NFT_STATE, payload } // compra o subasta FALTA EDITAR TYPE BACK
 };
@@ -198,35 +197,24 @@ export const updateNft = (id, payload) => { // mmh?
     } 
   }
 }
+
 // --- PAGINATION --- 
 
 export const selectPage = (pageNumber) => {
-    return {
-        type : SELECT_PAGE,
-        payload : pageNumber
-    }
+  return { type : SELECT_PAGE, payload : pageNumber }
 }
 
 export const previousPage = () => {
-    return {
-        type : PREV_PAGE,
-    }
+  return { type : PREV_PAGE }
 }
 
 export const nextPage = () => {
-    return {
-        type : NEXT_PAGE,
-    }
+  return { type : NEXT_PAGE }
 }
 
 export const setNftsPerPage = (gamesPerPage) => {
-    return {
-        type : SET_NFTS_PER_PAGE,
-        payload : gamesPerPage,
-    }
+  return { type : SET_NFTS_PER_PAGE, payload : gamesPerPage }
 }
-
-
 
 // export const searchNFT = (searchQuery) => {
 //     return {
