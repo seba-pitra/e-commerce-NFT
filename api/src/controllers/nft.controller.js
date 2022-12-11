@@ -56,7 +56,13 @@ const createNft = async (body) => {
 };
 
 const getNfts = async () => {
-  const dbNfts = await Nft.findAll();
+  const dbNfts = await Nft.findAll({
+    include: [
+      {
+        model: Collection,
+      },
+    ],
+  });
   if (!dbNfts.length) throw new Error("No NFT found");
 
   return dbNfts;
