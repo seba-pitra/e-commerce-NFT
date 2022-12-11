@@ -2,8 +2,11 @@ import React from 'react';
 import * as actions from '../../redux/actions';
 import { useSelector, useDispatch } from 'react-redux';
 
-export default function PageSelector({setActivePage, activePage, nftsPerPage}){
+export default function PageSelector(){
+    const activePage = useSelector(state => state.activePage)
+    const nftsPerPage = useSelector(state => state.nftsPerPage);
     const nftQuantity = useSelector(state => state.filteredNfts.length)
+    const dispatch = useDispatch()
 
     const pageNumbers = [];
     for (let i = 1; i <= Math.ceil(nftQuantity/nftsPerPage); i++) {
@@ -13,19 +16,16 @@ export default function PageSelector({setActivePage, activePage, nftsPerPage}){
     const lastPageNumber = pageNumbers[pageNumbers.length -1];
 
     const previousPage = () => {
-        activePage--
-        setActivePage(activePage);
+        dispatch(actions.previousPage());
     };
 
     const nextPage = () => {
-        activePage++
-        setActivePage(activePage);
+        dispatch(actions.nextPage());
     };
 
     const selectPage = (e) => {
-        setActivePage(e.target.value)
+        dispatch(actions.selectPage(parseInt(e.target.value)));
     }
-
 
     return (
             <div className='page-numbers'>

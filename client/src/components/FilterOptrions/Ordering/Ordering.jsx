@@ -1,42 +1,41 @@
 import * as actions from '../../../redux/actions'
 import { useState } from 'react'
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch, useSelector} from "react-redux";
+
+import './Ordering.css'
 
 export default function Ordering(){
-    //dos estados uno el estado de la flecha que indica si el orden es ascendente o descendente y otro, global, que hace referencia al orden si es alfabetico o por rating.
-    const [currentArrowState, setCurrentArrowState] = useState(true);
-    const currentOrder = useSelector(state => state.order);
+    //estos estados son para cambiar el estilo.
+    const [nameOrderUp, setNameOrderUp] = useState(true);
+    const [priceOrderUp, setPriceOrderUp] = useState(true);
+    const [amountOrderUp, setAmountOrderUp] = useState(true);
+    const [releaseOrderUp, setReleaseOrderUp] = useState(true);
 
     const dispatch = useDispatch();
 
-    //funcion para revertir el orden de las tarjetas y cambiar la direccion de la flecha.
-    const reverseAndOrder = () => {
-        setCurrentArrowState(!currentArrowState);
-        /*dispatch(actions.reverseOrder(currentOrder))
-        dispatch(actions.orderNfts()) */
-    }
-    //ordernar por alfabetico
     const orderByName = () => {
-        /* 
-        dispatch(actions.orderName(e.target.value))
-        dispatch(actions.orderNfts())
-         */
+        setNameOrderUp(!nameOrderUp)
+        dispatch(actions.changeOrderDirection())
+        dispatch(actions.orderName())
     }
-    //ordernar Por Rating
+
     const orderByPrice = () => {
-        /*
-        dispatch(actions.setOrderType('rating'))
-        dispatch(actions.orderNfts())
-        */
+        setPriceOrderUp(!priceOrderUp)
+        dispatch(actions.changeOrderDirection())
+        dispatch(actions.orderPrice())
     }
 
-    const orderByAmount = () => {
+    // const orderByAmount = () => {
+    //     setAmountOrderUp(!amountOrderUp)
+    //     dispatch(actions.changeOrderDirection())
+    //     dispatch(actions.orderAmount())
+    // }
 
-    }
-
-    const orderByRelease  = () => {
-
-    }
+    // const orderByRelease  = () => {
+    //     setReleaseOrderUp(!releaseOrderUp)
+    //     dispatch(actions.changeOrderDirection())
+    //     dispatch(actions.orderCreatedAt())
+    // }
 
     return (
         <div className='options-container'>
@@ -44,28 +43,26 @@ export default function Ordering(){
             <div className='button-list'>
                 {/*Boton para elegir orden alfabetico*/ }
                 <button 
-                    id='abc-option'
-                    className='option-btn button-order'
-                    value="a-z" 
-                    onClick={(e)=> orderByName(e)}
+                    id='name-option'
+                    className={nameOrderUp ? 'btn-order-up' : 'btn-order-down'}
+                    onClick={()=> orderByName()}
                     >Name</button>
                 {/*boton para elegir orden por rating*/}
                 <button
-                    id='rating-option'
-                    className='option-btn button-order'
-                    value="up-down"
-                    onClick={(e)=> orderByPrice(e)}
+                    id='price-option'
+                    className={priceOrderUp ? 'btn-order-up' : 'btn-order-down'}
+                    onClick={()=> orderByPrice()}
                     >Price</button>
-                <button
-                    id='rating-option'
-                    className='option-btn button-order'
-                    onClick={(e)=> orderByAmount(e)}
+                {/* <button
+                    id='amount-option'
+                    className={amountOrderUp ? 'btn-order-up' : 'btn-order-down'}
+                    onClick={()=> orderByAmount()}
                     >Amount</button>
                 <button
-                    id='rating-option'
-                    className='option-btn button-order'
-                    onClick={(e)=> orderByRelease(e)}
-                    >Release date</button>
+                    id='releasedate-option'
+                    className={releaseOrderUp ? 'btn-order-up' : 'btn-order-down'}
+                    onClick={()=> orderByRelease()}
+                    >Creation Date</button> */}
                 {/*boton para cambiar de orden descendente a ascendente y visceversa*/}
                 {/* <button 
                     className='option-btn button-order'

@@ -1,4 +1,4 @@
-const { DataTypes } = require("sequelize");
+const { DataTypes, STRING } = require("sequelize");
 
 module.exports = (sequelize) => {
   sequelize.define(
@@ -22,13 +22,13 @@ module.exports = (sequelize) => {
         type: DataTypes.STRING,
         allowNull: false,
       },
-      available: {
-        type: DataTypes.BOOLEAN,
-        allowNull: false,
-        validate: {
-          isIn: [[true, false]],
-        },
-      },
+      // available: {
+      //   type: DataTypes.BOOLEAN,
+      //   allowNull: false,
+      //   validate: {
+      //     isIn: [[true, false]],
+      //   },
+      // },
       type: {
         type: DataTypes.STRING,
         allowNull: false,
@@ -43,9 +43,9 @@ module.exports = (sequelize) => {
       price: {
         type: DataTypes.FLOAT,
       },
-      // category: {
-      //   type: DataTypes.STRING,
-      // },
+      category: {
+        type: DataTypes.ARRAY(DataTypes.STRING),
+      },
       source: {
         type: DataTypes.JSONB,
       },
