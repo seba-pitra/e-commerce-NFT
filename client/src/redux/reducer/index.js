@@ -1,4 +1,6 @@
 import { GET_ALL_NFTS, GET_ALL_COLLECTIONS, GET_ALL_USERS, GET_NFT_DETAIL, CREATE_NFT, DELETE_NFT, UPDATE_NFT, LOADING, RESET_FILTERS, FILTER_NFT_COLLECTION, FILTER_NFT_CATEGORY, FILTER_NFT_STATE, FILTER_NFT_PRICE, FILTER_NFT_NAME, ORDER_NFT_NAME, ORDER_NFT_PRICE, ORDER_NFT_AMOUNT, ORDER_NFT_CREATED_AT,CHANGE_ORDER_DIRECTION, SELECT_PAGE, PREV_PAGE, NEXT_PAGE, SET_NFTS_PER_PAGE,} from "../actions";
+import * as controllers from '../../utils'
+
 
 const initialState = {
   nfts: [], 
@@ -10,7 +12,7 @@ const initialState = {
   isLoading: false,
   orderDirection: "up-down",
   activePage : 1,
-  nftsPerPage: 6,
+  nftsPerPage: 8,
   msj: ""
 };
 
