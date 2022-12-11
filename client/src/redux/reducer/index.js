@@ -11,7 +11,7 @@ const initialState = {
   isLoading: false,
   orderDirection: "up-down",
   activePage : 1,
-  nftsPerPage: 8,
+  nftsPerPage: 6,
   msj: ""
 };
 
@@ -44,11 +44,12 @@ const rootReducer = (state = initialState, action) => {
       filterByName = state.nfts.filter(e => e.name.toUpperCase().includes(action.payload.toUpperCase()))
       return {...state, filteredNfts: filterByName}
     case FILTER_NFT_CATEGORY:
-      let filterByCategory = [];
+      let filterByCategory = state.nfts;
       if(!state.categories.includes(action.payload)) state.categories = [...state.categories, action.payload]
       else state.categories = state.categories.filter(e => e !== action.payload)
+      console.log(state.categories)
       state.categories.map ( e => { // contiene una u otra? falta testing
-        filterByCategory = state.nfts.filter (nft => nft.category === e)
+        filterByCategory = filterByCategory.filter (nft => nft.category.includes(e))
       })
       return {...state, filteredNfts: filterByCategory, activePage: 1 }
     case FILTER_NFT_PRICE:

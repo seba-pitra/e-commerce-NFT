@@ -17,9 +17,13 @@ export default function Filtering(){
 
     const collections = useSelector(state => state.collections);
 
-    const arrCategories = nfts.map(e => e.category)
+    const arrCategories = [];
+    nfts.map(e => {
+        e.category.map( e => arrCategories.push(e))
+    })
     const categories = []
     arrCategories.filter(e => { if ( categories.indexOf(e) === -1 ) categories.push(e) })
+    console.log(categories)
     const states = ['Buy Now', 'Auction', 'All']
 
     // console.log(selectedCategory)
@@ -44,6 +48,7 @@ export default function Filtering(){
             <label className='label' htmlFor="genres">Collections: </label>
             <div className='button-list' name="genres" id="">
             <select onChange={(e)=>{selectCollection(e)}}>
+                <option hidden disabled selected>Select collection</option>
                 {collections.map(collection => {
                     return <option 
                     key={collection.id}

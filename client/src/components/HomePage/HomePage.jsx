@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import Pages from "../Pages/Pages";
 import FilterOptions from '../FilterOptrions/Options';
 import Loading from '../Loading/Loading';
+import "./HomePage.css"
 
 
 function HomePage(){
@@ -21,14 +22,14 @@ function HomePage(){
         <>
         <div className='home-background'>
             <div className='home-container'>
-	{isLoading 
-        ?
-        <Loading/> :      
-        <>        
-        <FilterOptions />
-        <Pages/>
-        </>
-    }
+            { isLoading ? <Loading/> : 
+                <div className='container_mainpage'>
+                <div className='test'>        
+                    <FilterOptions />
+                </div>
+                <Pages/>
+                </div>     
+            }
             </div>
         </div>
         </>

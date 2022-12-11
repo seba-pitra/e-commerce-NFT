@@ -25,17 +25,17 @@ export default function Ordering(){
         dispatch(actions.orderPrice())
     }
 
-    const orderByAmount = () => {
-        setAmountOrderUp(!amountOrderUp)
-        dispatch(actions.changeOrderDirection())
-        dispatch(actions.orderAmount())
-    }
+    // const orderByAmount = () => {
+    //     setAmountOrderUp(!amountOrderUp)
+    //     dispatch(actions.changeOrderDirection())
+    //     dispatch(actions.orderAmount())
+    // }
 
-    const orderByRelease  = () => {
-        setReleaseOrderUp(!releaseOrderUp)
-        dispatch(actions.changeOrderDirection())
-        dispatch(actions.orderCreatedAt())
-    }
+    // const orderByRelease  = () => {
+    //     setReleaseOrderUp(!releaseOrderUp)
+    //     dispatch(actions.changeOrderDirection())
+    //     dispatch(actions.orderCreatedAt())
+    // }
 
     return (
         <div className='options-container'>
@@ -53,7 +53,7 @@ export default function Ordering(){
                     className={priceOrderUp ? 'btn-order-up' : 'btn-order-down'}
                     onClick={()=> orderByPrice()}
                     >Price</button>
-                <button
+                {/* <button
                     id='amount-option'
                     className={amountOrderUp ? 'btn-order-up' : 'btn-order-down'}
                     onClick={()=> orderByAmount()}
@@ -62,7 +62,7 @@ export default function Ordering(){
                     id='releasedate-option'
                     className={releaseOrderUp ? 'btn-order-up' : 'btn-order-down'}
                     onClick={()=> orderByRelease()}
-                    >Creation Date</button>
+                    >Creation Date</button> */}
                 {/*boton para cambiar de orden descendente a ascendente y visceversa*/}
                 {/* <button 
                     className='option-btn button-order'
