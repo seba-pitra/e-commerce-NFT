@@ -14,7 +14,6 @@ const App = () => {
         }
     );
 
-    
     const currencies = [
         'USD', 
         'ETH', 
