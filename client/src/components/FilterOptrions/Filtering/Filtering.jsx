@@ -53,10 +53,9 @@ export default function Filtering(){
                     return <option 
                     key={collection.id}
                     value={collection.id}
-                    id={selectedCollection.includes(collection.id)? "selected" : ""} //esto es para cambiar el css depende de si lo seleccione cambia el css.
                     className="option-btn btn-filter"
                     >
-                        {collection.id}
+                        {collection.name}
                     </option>
                 })}
             </select>
