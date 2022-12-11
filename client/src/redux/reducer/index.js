@@ -1,80 +1,119 @@
-import { GET_ALL_NFTS, GET_NFT_DETAIL, CREATE_NFT, DELETE_NFT, UPDATE_NFT, LOADING, RESET_FILTERS, FILTER_NFT_COLLECTION, FILTER_NFT_CATEGORY, FILTER_NFT_STATE, FILTER_NFT_PRICE, ORDER_NFT_NAME, ORDER_NFT_PRICE, ORDER_NFT_AMOUNT, ORDER_NFT_CREATED_AT} from "../actions";
+import {
+  GET_ALL_NFTS,
+  GET_NFT_DETAIL,
+  CREATE_NFT,
+  DELETE_NFT,
+  UPDATE_NFT,
+  LOADING,
+  RESET_FILTERS,
+  FILTER_NFT_COLLECTION,
+  FILTER_NFT_CATEGORY,
+  FILTER_NFT_STATE,
+  FILTER_NFT_PRICE,
+  ORDER_NFT_NAME,
+  ORDER_NFT_PRICE,
+  ORDER_NFT_AMOUNT,
+  ORDER_NFT_CREATED_AT,
+} from "../actions";
 //  SEARCH_NFT, SELECT_PAGE, SET_NFTS_PER_PAGE, NEXT_PAGE, PREV_PAGE
 
 const initialState = {
-  nfts: [], 
+  nfts: [],
   filteredNfts: [],
   collections: [],
-  nftDetail: {}, 
+  nftDetail: {},
   isLoading: false,
-  msj: ""
+  msj: "",
 };
 
 const rootReducer = (state = initialState, action) => {
   switch (action.type) {
     case LOADING:
-      return { ...state, isLoading : true } // loading mientras carga la info
+      return { ...state, isLoading: true }; // loading mientras carga la info
     case GET_ALL_NFTS:
-      return { ...state, nfts: action.payload, filteredNfts: action.payload, nftDetail: {}, isLoading: false } // reset all
+      return {
+        ...state,
+        nfts: action.payload,
+        filteredNfts: action.payload,
+        nftDetail: {},
+        isLoading: false,
+      }; // reset all
     case GET_NFT_DETAIL:
-      console.log(action.payload)
-      return { ...state, nftDetail: action.payload, isLoading : false }
+      return { ...state, nftDetail: action.payload, isLoading: false };
     case CREATE_NFT:
-      return { ...state, msj: action.payload }
+      return { ...state, msj: action.payload };
     case DELETE_NFT:
-      return { ...state, msj: action.payload }
+      return { ...state, msj: action.payload };
     case UPDATE_NFT:
-      return { ...state, msj: action.payload }
+      return { ...state, msj: action.payload };
     case RESET_FILTERS:
-      return { ...state, filteredNfts: state.nfts }
+      return { ...state, filteredNfts: state.nfts };
     case FILTER_NFT_COLLECTION:
       let filterByCollectionId = [];
       let filterByCollection = [];
-      state.collections.map(e => { // probando de a una
-        if(action.payload === e.name) filterByCollectionId.push(e.id)
-        filterByCollection = state.filteredNfts.filter(e => e.collectionId === filterByCollectionId)
-      })
-      return {...state, filteredNfts: filterByCollection}
+      state.collections.map((e) => {
+        // probando de a una
+        if (action.payload === e.name) filterByCollectionId.push(e.id);
+        filterByCollection = state.filteredNfts.filter(
+          (e) => e.collectionId === filterByCollectionId
+        );
+      });
+      return { ...state, filteredNfts: filterByCollection };
     case FILTER_NFT_CATEGORY:
       let filterByCategory = []; // deberia funcionar de a varias
-      action.payload.map ( e => {
-        filterByCategory = state.filteredNfts.filter (nft => nft.category.find(e))
-      })
-      return {...state, filteredNfts: filterByCategory}
+      action.payload.map((e) => {
+        filterByCategory = state.filteredNfts.filter((nft) =>
+          nft.category.find(e)
+        );
+      });
+      return { ...state, filteredNfts: filterByCategory };
     case FILTER_NFT_PRICE:
       let filterByPrice = []; // enviar error if max < min front?
-      filterByPrice = state.nfts.filter(e => e.price !== 0) // sin max o min no filtra? resetea si se borra alguno?
-      if (action.payload.min !== 0) filterByPrice = state.nfts.filter(e => e.price > action.payload.min)
-      else if (action.payload.max !== 0) filterByPrice = state.nfts.filter(e => e.price < action.payload.max) 
-      return {...state, filteredNfts: filterByPrice}
+      filterByPrice = state.nfts.filter((e) => e.price !== 0); // sin max o min no filtra? resetea si se borra alguno?
+      if (action.payload.min !== 0)
+        filterByPrice = state.nfts.filter((e) => e.price > action.payload.min);
+      else if (action.payload.max !== 0)
+        filterByPrice = state.nfts.filter((e) => e.price < action.payload.max);
+      return { ...state, filteredNfts: filterByPrice };
     case FILTER_NFT_STATE:
       let filterByState = [];
-      if (action.payload === "auction") filterByState = state.nfts.filter(e => e.type === "auction")
-      else if (action.payload === "buynow") filterByState = state.nfts.filter(e => e.type === "buynow")
-      else filterByState = state.nfts.filter(e => e.type === "buynow" || e.type === "auction")  // boton all que elimine este filtrado > funcionara?
-      return {...state, filteredNfts: filterByState}
+      if (action.payload === "auction")
+        filterByState = state.nfts.filter((e) => e.type === "auction");
+      else if (action.payload === "buynow")
+        filterByState = state.nfts.filter((e) => e.type === "buynow");
+      else
+        filterByState = state.nfts.filter(
+          (e) => e.type === "buynow" || e.type === "auction"
+        ); // boton all que elimine este filtrado > funcionara?
+      return { ...state, filteredNfts: filterByState };
     case ORDER_NFT_NAME:
       let orderByName = [];
-      if (action.payload === "a-z") orderByName = state.nfts.sort((a,b) => a.name.toUpperCase() > b.name.toUpperCase() ?  1 : -1)
-      else orderByName = state.nfts.sort((a,b) => a.name.toUpperCase() < b.name.toUpperCase() ?  1 : -1)
-      return {...state, filteredNfts: orderByName}
+      if (action.payload === "a-z")
+        orderByName = state.nfts.sort((a, b) =>
+          a.name.toUpperCase() > b.name.toUpperCase() ? 1 : -1
+        );
+      else
+        orderByName = state.nfts.sort((a, b) =>
+          a.name.toUpperCase() < b.name.toUpperCase() ? 1 : -1
+        );
+      return { ...state, filteredNfts: orderByName };
     case ORDER_NFT_PRICE:
       let orderByPrice = [];
-      if (action.payload === "up-down") orderByPrice = state.nfts.sort((a,b) => a.price > b.price ?  1 : -1)
-      else orderByPrice = state.nfts.sort((a,b) => a.price < b.price ?  1 : -1)
-      return {...state, filteredNfts: orderByPrice}
+      if (action.payload === "up-down")
+        orderByPrice = state.nfts.sort((a, b) => (a.price > b.price ? 1 : -1));
+      else
+        orderByPrice = state.nfts.sort((a, b) => (a.price < b.price ? 1 : -1));
+      return { ...state, filteredNfts: orderByPrice };
     case ORDER_NFT_AMOUNT:
-      return { ...state } // no hace nada actualmente
+      return { ...state }; // no hace nada actualmente
     case ORDER_NFT_CREATED_AT:
-      return { ...state } // no hace nada actualmente
+      return { ...state }; // no hace nada actualmente
     default:
-      return {...state}
+      return { ...state };
   }
 };
 
 export default rootReducer;
-
-
 
 // const initialState = {
 //   searchResults: [], //los resultados de la busqueda
