@@ -52,7 +52,7 @@ export default function Filtering(){
                 {collections.map(collection => {
                     return <option 
                     key={collection.id}
-                    value={collection.name}
+                    value={collection.id}
                     className="option-btn btn-filter"
                     >
                         {collection.name}
