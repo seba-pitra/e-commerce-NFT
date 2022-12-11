@@ -8,7 +8,7 @@ export const CREATE_NFT = "CREATE_NFT";
 export const DELETE_NFT = "DELETE_NFT";
 export const UPDATE_NFT = "UPDATE_NFT";
 
-export const RESET_FILTERS = "RESET_FILTERS";
+export const RESET_FILTERS = "RESET_FILTERS"; //
 export const FILTER_NFT_COLLECTION = "FILTER_NFT_COLLECTION"; 
 export const FILTER_NFT_CATEGORY = "FILTER_NFT_CATEGORY"; 
 export const FILTER_NFT_STATE = "FILTER_NFT_STATE";
