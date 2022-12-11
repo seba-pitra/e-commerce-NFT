@@ -14,12 +14,10 @@ export default function Options(){
             <Filtering/>
             <PriceSelector/>
             {/* <NFTSPerPageSelector/> */}
-
             <div className='options-container'>
-                {/*boton de reseteo de filtros.*/}
             <button
                 className='option-btn'
-                    onClick={()=>{dispatch(actions.resetFilters())}}
+                onClick={()=>{dispatch(actions.resetFilters())}}
                 >Reset Filters
             </button>
             </div>

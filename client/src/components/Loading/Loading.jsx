@@ -1,8 +1,12 @@
+import './Loading.css';
+
 
 export default function Loading(){
     return (
-        <>
-            {/*estructura y front del componente de carga*/ }
-        </>
+        <div className="loading-page-container">
+            <h1 className="loading-message">
+                CARGANDO DATOS...
+            </h1>
+        </div>
     )
 }

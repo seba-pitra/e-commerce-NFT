@@ -34,7 +34,7 @@ export default function Filtering(){
         dispatch(actions.filterCategory(e.target.value))
     }
     const selectState = (e) => {
-        setSelectedState(selectedState);
+        setSelectedState(e.target.value);
         dispatch(actions.filterState(e.target.value))
     }
 
@@ -78,7 +78,7 @@ export default function Filtering(){
             <div className='button-list' name="genres" id="">
                 {/*mapeo los botones que activarian los filtros.*/}
                 {states.map(state => {
-                    return <button 
+                    return <button
                     key={state}
                     value={state}
                     onClick={(e)=>{selectState(e)}}

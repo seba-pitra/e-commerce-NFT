@@ -1,0 +1,13 @@
+.loading-page-container {
+    position: relative;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.loading-message {
+    color : rgb(3, 6, 21);
+    font-weight: bolder;
+}

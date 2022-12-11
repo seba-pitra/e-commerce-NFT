@@ -1,5 +1,28 @@
-export function orderNFTByName(nfts, order){
-    if (order === 'asc'){
+const NAME = 'name';
+const PRICE = 'price';
+const AMOUNT = 'amount';
+const CREATION = 'creationDate';
+const RATING = 'rating';
+
+// recibe la base del ordenamiento, la direccion y los nft que va a ordernar;
+export function orderNFTBy(orderOption, orderDirection, nftsToSort){
+    switch(orderOption) {
+        case NAME:
+            return orderNFTByName(orderDirection, nftsToSort)
+        case PRICE:
+            return orderNFTByPrice(orderDirection, nftsToSort)
+        case AMOUNT:
+            return orderNFTByAmount(orderDirection, nftsToSort)
+        case CREATION:
+            return orderNFTByCreation(orderDirection, nftsToSort)
+        case RATING:
+            return orderNFTByRating(orderDirection, nftsToSort)
+    }
+}
+
+
+export function orderNFTByName(order, nfts){
+    if (order === 'up-down'){
         return nfts.sort((nftA, nftB) => {
             if (nftA.name > nftB.name) {
                 return 1;   
@@ -9,7 +32,7 @@ export function orderNFTByName(nfts, order){
             }
             return 0;
         });
-    }else if(order === 'desc'){
+    }else if(order === 'down-up'){
         return nfts.sort((nftA, nftB) => {
             if (nftA.name > nftB.name) {
                 return -1;
@@ -21,9 +44,77 @@ export function orderNFTByName(nfts, order){
         })
     }
 }
-
-export function orderNFTByRating(nfts, order){
-    if (order === 'asc'){
+export function orderNFTByPrice(order, nfts){
+    if (order === 'up-down'){
+        return nfts.sort((nftA, nftB) => {
+            if (nftA.price > nftB.price) {
+                return 1;   
+            }
+            if (nftB.price > nftA.price) {
+                return -1;
+            }
+            return 0;
+        });
+    }else if(order === 'down-up'){
+        return nfts.sort((nftA, nftB) => {
+            if (nftA.price > nftB.price) {
+                return -1;
+            }
+            if (nftB.price > nftA.price) {
+                return 1;
+            }
+            return 0;
+        })
+    }
+}
+export function orderNFTByAmount(order, nfts){
+    if (order === 'up-down'){
+        return nfts.sort((nftA, nftB) => {
+            if (nftA.amount > nftB.amount) {
+                return 1;   
+            }
+            if (nftB.amount > nftA.amount) {
+                return -1;
+            }
+            return 0;
+        });
+    }else if(order === 'down-up'){
+        return nfts.sort((nftA, nftB) => {
+            if (nftA.amount > nftB.amount) {
+                return -1;
+            }
+            if (nftB.amount > nftA.amount) {
+                return 1;
+            }
+            return 0;
+        })
+    }
+}
+export function orderNFTByCreation(order, nfts){
+    if (order === 'up-down'){
+        return nfts.sort((nftA, nftB) => {
+            if (nftA.createdAt > nftB.createdAt) {
+                return 1;   
+            }
+            if (nftB.createdAt > nftA.createdAt) {
+                return -1;
+            }
+            return 0;
+        });
+    }else if(order === 'down-up'){
+        return nfts.sort((nftA, nftB) => {
+            if (nftA.createdAt > nftB.createdAt) {
+                return -1;
+            }
+            if (nftB.createdAt > nftA.createdAt) {
+                return 1;
+            }
+            return 0;
+        })
+    }
+}
+export function orderNFTByRating(order, nfts){
+    if (order === 'up-down'){
         return nfts.sort((nftA, nftB) => {
             if (nftA.rating > nftB.rating) {
                 return 1;   
@@ -33,7 +124,7 @@ export function orderNFTByRating(nfts, order){
             }
             return 0;
         });
-    }else if(order === 'desc'){
+    }else if(order === 'down-up'){
         return nfts.sort((nftA, nftB) => {
             if (nftA.rating > nftB.rating) {
                 return -1;
@@ -46,7 +137,9 @@ export function orderNFTByRating(nfts, order){
     }
 }
 
-//Filtro AND
+
+
+/* //Filtro AND
 export function filterGamesByGenreAND(gamesArray, selectedGenreArray){
     return gamesArray.filter(({genres}) => {
         return selectedGenreArray.every((selectedGenre)=>{
@@ -69,4 +162,4 @@ export function filterGamesByPlatformAND(gamesArray, selectedPlatformArray){
             })
         }
     )
-}
+} */
