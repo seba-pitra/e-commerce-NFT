@@ -1,9 +1,7 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Shoppingkart.css';
 import Button from 'react-bootstrap/Button';
-
-
 
 export default function Shoppingkart(){
 
