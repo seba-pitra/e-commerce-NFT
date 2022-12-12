@@ -4,9 +4,31 @@ import './Loading.css';
 export default function Loading(){
     return (
         <div className="loading-page-container">
-            <h1 className="loading-message">
-                CARGANDO DATOS...
-            </h1>
-        </div>
+
+	    
+<div class="triangles">
+  <div class="tri invert"></div>
+  <div class="tri invert"></div>
+  <div class="tri"></div>
+  <div class="tri invert"></div>
+  <div class="tri invert"></div>
+  <div class="tri"></div>
+  <div class="tri invert"></div>
+  <div class="tri"></div>
+  <div class="tri invert"></div>
+
+
+ <h1 className="loading-message">
+		   Loading..
+		    </h1>
+
+
+	    </div>
+
+
+		
+        
+
+	    </div>
     )
 }
