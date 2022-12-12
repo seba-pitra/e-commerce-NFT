@@ -18,14 +18,9 @@ export default function Filtering() {
   const collections = useSelector((state) => state.collections);
 
   const arrCategories = [];
-  nfts.map((e) => {
-    e.category.map((e) => arrCategories.push(e));
-  });
+  nfts.map((e) => { e.category.map((e) => arrCategories.push(e)) });
   const categories = [];
-  arrCategories.filter((e) => {
-    if (categories.indexOf(e) === -1) categories.push(e);
-  });
-  console.log(categories);
+  arrCategories.filter((e) => { if (categories.indexOf(e) === -1) categories.push(e); });
   const states = ["Buy Now", "Auction", "All"];
 
   // console.log(selectedCategory)

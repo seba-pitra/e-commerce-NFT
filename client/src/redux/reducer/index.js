@@ -15,8 +15,8 @@ import {
   FILTER_NFT_NAME,
   ORDER_NFT_NAME,
   ORDER_NFT_PRICE,
-  ORDER_NFT_AMOUNT,
-  ORDER_NFT_CREATED_AT,
+  // ORDER_NFT_AMOUNT,
+  // ORDER_NFT_CREATED_AT,
   CHANGE_ORDER_DIRECTION,
   SELECT_PAGE,
   PREV_PAGE,
@@ -44,17 +44,7 @@ const rootReducer = (state = initialState, action) => {
     case LOADING:
       return { ...state, isLoading: true };
     case GET_ALL_NFTS:
-      return {
-        ...state,
-        nfts: action.payload,
-        filteredNfts: controllers.orderNFTByName(
-          state.orderDirection,
-          action.payload
-        ),
-        nftDetail: {},
-        isLoading: false,
-        categories: [],
-      };
+      return { ...state, nfts: action.payload, filteredNfts: controllers.orderNFTByName( state.orderDirection, action.payload ), nftDetail: {}, isLoading: false, categories: [] };
     case GET_ALL_COLLECTIONS:
       return { ...state, collections: action.payload };
     case GET_ALL_USERS:
@@ -68,58 +58,36 @@ const rootReducer = (state = initialState, action) => {
     case UPDATE_NFT:
       return { ...state, msj: action.payload };
     case RESET_FILTERS:
-      return {
-        ...state,
-        filteredNfts: state.nfts,
-        categories: [],
-        activePage: 1,
-      };
+      return { ...state, filteredNfts: state.nfts, categories: [], activePage: 1, };
     case FILTER_NFT_COLLECTION:
-      let filterByCollection = []; // falta fixear id - name
-      filterByCollection = state.nfts.filter(
-        (e) => e.collectionId === action.payload
-      );
+      // console.log(action.payload)
+      // console.log(state.nfts)
+      let filterByCollection = []; // cambiar a collectionId
+      filterByCollection = state.nfts.filter( (e) => e.contract === action.payload );
       return { ...state, filteredNfts: filterByCollection, activePage: 1 };
     case FILTER_NFT_NAME:
       let filterByName = [];
-      filterByName = state.nfts.filter((e) =>
-        e.name.toUpperCase().includes(action.payload.toUpperCase())
-      );
+      filterByName = state.nfts.filter((e) => e.name.toUpperCase().includes(action.payload.toUpperCase()) );
       return { ...state, filteredNfts: filterByName };
     case FILTER_NFT_CATEGORY:
       let filterByCategory = state.nfts;
-      if (!state.categories.includes(action.payload))
-        state.categories = [...state.categories, action.payload];
-      else
-        state.categories = state.categories.filter((e) => e !== action.payload);
-      console.log(state.categories);
-      state.categories.map((e) => {
-        // contiene una u otra? falta testing
-        filterByCategory = filterByCategory.filter((nft) =>
-          nft.category.includes(e)
-        );
+      if (!state.categories.includes(action.payload)) state.categories = [...state.categories, action.payload];
+      else state.categories = state.categories.filter((e) => e !== action.payload);
+      state.categories.map((e) => { 
+        filterByCategory = filterByCategory.filter((nft) => nft.category.includes(e) );
       });
       return { ...state, filteredNfts: filterByCategory, activePage: 1 };
     case FILTER_NFT_PRICE:
       let filterByPrice = []; // enviar error if max < min front?
       filterByPrice = state.nfts.filter((e) => e.price !== 0); // sin max o min no filtra? resetea si se borra alguno?
-      if (action.payload.min !== 0)
-        filterByPrice = state.nfts.filter((e) => e.price > action.payload.min);
-      if (action.payload.max !== 0)
-        filterByPrice = filterByPrice.filter(
-          (e) => e.price < action.payload.max
-        );
+      if (action.payload.min !== 0) filterByPrice = state.nfts.filter((e) => e.price > action.payload.min);
+      if (action.payload.max !== 0) filterByPrice = filterByPrice.filter( (e) => e.price < action.payload.max );
       return { ...state, filteredNfts: filterByPrice, activePage: 1 };
     case FILTER_NFT_STATE:
       let filterByState = [];
-      if (action.payload === "auction")
-        filterByState = state.nfts.filter((e) => e.type === "auction");
-      else if (action.payload === "buynow")
-        filterByState = state.nfts.filter((e) => e.type === "buynow");
-      else
-        filterByState = state.nfts.filter(
-          (e) => e.type === "buynow" || e.type === "auction"
-        ); // boton all que elimine este filtrado > funcionara?
+      if (action.payload === "auction") filterByState = state.nfts.filter((e) => e.type === "auction");
+      else if (action.payload === "buynow") filterByState = state.nfts.filter((e) => e.type === "buynow");
+      else filterByState = state.nfts.filter( (e) => e.type === "buynow" || e.type === "auction" ); // boton all que elimine este filtrado > funcionara?
       return { ...state, filteredNfts: filterByState, activePage: 1 };
     case CHANGE_ORDER_DIRECTION:
       let newOrder;
@@ -127,33 +95,17 @@ const rootReducer = (state = initialState, action) => {
       else if (state.orderDirection === "down-up") newOrder = "up-down";
       return { ...state, orderDirection: newOrder, activePage: 1 };
     case ORDER_NFT_NAME:
-      let orderedByName = controllers.orderNFTBy(
-        "name",
-        state.orderDirection,
-        state.filteredNfts
-      );
+      let orderedByName = controllers.orderNFTBy( "name", state.orderDirection, state.filteredNfts );
       return { ...state, filteredNfts: orderedByName, activePage: 1 };
     case ORDER_NFT_PRICE:
-      let orderedbyPrice = controllers.orderNFTBy(
-        "price",
-        state.orderDirection,
-        state.filteredNfts
-      );
+      let orderedbyPrice = controllers.orderNFTBy( "price", state.orderDirection, state.filteredNfts );
       return { ...state, filteredNfts: orderedbyPrice, activePage: 1 };
-    case ORDER_NFT_AMOUNT:
-      let orderedByAmount = controllers.orderNFTBy(
-        "amount",
-        state.orderDirection,
-        state.filteredNfts
-      );
-      return { ...state, filteredNfts: orderedByAmount, activePage: 1 };
-    case ORDER_NFT_CREATED_AT:
-      let orderedByCreation = controllers.orderNFTBy(
-        "creationDate",
-        state.orderDirection,
-        state.filteredNfts
-      );
-      return { ...state, filteredNfts: orderedByCreation, activePage: 1 };
+    // case ORDER_NFT_AMOUNT:
+    //   let orderedByAmount = controllers.orderNFTBy( "amount", state.orderDirection, state.filteredNfts );
+    //   return { ...state, filteredNfts: orderedByAmount, activePage: 1 };
+    // case ORDER_NFT_CREATED_AT:
+    //   let orderedByCreation = controllers.orderNFTBy( "creationDate", state.orderDirection, state.filteredNfts );
+    //   return { ...state, filteredNfts: orderedByCreation, activePage: 1 };
     case SELECT_PAGE:
       return { ...state, activePage: action.payload };
     case SET_NFTS_PER_PAGE:
