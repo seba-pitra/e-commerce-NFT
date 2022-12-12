@@ -1,0 +1,45 @@
+.page-numbers{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.page-numbers button:hover{
+    transform: scale(1.05);
+}
+.active-page{
+    width: 30px;
+    height: 30px;
+    margin: 0 2px;
+    padding: 0;
+    border: 2px solid rgb(211, 68, 139, 1);
+    border-radius: 5px;
+    font-weight: 700;
+    color: rgb(211, 68, 139, 1);
+    background-color: rgb(3, 6, 21) ;
+    transition: all 0.2s;
+}
+.page-button{
+    width: 30px;
+    height: 30px;
+    margin: 0 2px;
+    padding: 0;
+    border: 2px solid rgb(211, 68, 139, 1);
+    border-radius: 5px;
+    font-weight: 700;
+    background-color: white; /* rgb(3, 6, 21); */
+    color: rgb(211, 68, 139, 1);
+    transition: all 0.2s ease-in-out;
+
+}
+/* .page-numbers button{
+    width: 30px;
+    height: 30px;
+    margin: 0 2px;
+    padding: 0;
+    border: 2px solid rgb(211, 68, 139, 1);
+    border-radius: 5px;
+    font-weight: 600;
+    background-color: white; /* rgb(3, 6, 21); */
+   
