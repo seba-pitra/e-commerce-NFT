@@ -43,6 +43,7 @@ export default function NFTCard(props) {
             </div>
             <div>
               <h3>floor price: {props.price}</h3>
+              <h4>Usd: ${(props.price * 1271).toFixed(2)}</h4>
             </div>
           </div>
           <div className="CardButtons">

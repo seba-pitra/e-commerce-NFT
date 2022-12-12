@@ -1,10 +1,32 @@
 import React from "react";
 import "./CreateNft.css";
 import "../NFTCard/NFTCard.css";
-import PreviewNft from './PreviewNft/PreviewNft'
+import PreviewNft from "./PreviewNft/PreviewNft";
 // import * as actions from "../redux/actions/index.js";
 import { useDispatch, useSelector } from "react-redux";
 
+export function validate(input) {
+  let errors = { 
+    name: "no data", price: "no data"
+  };
+
+  console.log(input);
+
+  if (!/([A-Z])/.test(input.name)) {
+    errors = {...errors,name : 'Username is invalid'}
+    
+    
+  } else {
+    errors = {...errors,name : 'Name is correct'}
+  } 
+  if(input.price <= 0){
+    errors = {...errors,price : 'Price can not be 0 or less'}
+  }else{
+    errors = {...errors,price : 'Price is correct'}
+  }
+  console.log(errors);
+  return errors;
+}
 export default function Form() {
   //name and file for the nft are obligatories
   let [input, setInput] = React.useState({
@@ -14,8 +36,16 @@ export default function Form() {
     link: "",
     categories: [],
     price: 0,
-    image:"no image found"
+    image: "no image found",
   });
+
+  const [errors, setErrors] = React.useState({
+    name: "no data",
+    price:"do data"
+
+  });
+
+
   //asi tendria q venir el array de categories,puede cambiar como venga
   let categories = ["humanoid", "cyberpunk", "object", "animal"];
 
@@ -23,12 +53,12 @@ export default function Form() {
     e.preventDefault();
     setInput((prev) => ({ ...prev, [e.target.name]: e.target.value }));
     console.log(input);
-    // setErrors(
-    //   validate({
-    //     ...input,
-    //     [e.target.name]: e.target.value,
-    //   })
-    // );
+    setErrors(
+      validate({
+        ...input,
+        [e.target.name]: e.target.value,
+      })
+    );
   };
 
   let handleChangeSelect = (e) => {
@@ -44,7 +74,6 @@ export default function Form() {
   return (
     <React.Fragment>
       <div className="mainContainer">
-
         <div className="createNftContainer">
           <h1>Create Non Fungible Token</h1>
 
@@ -116,7 +145,7 @@ export default function Form() {
 
             <select onChange={(e) => handleChangeSelect(e)} name="categories">
               <option hidden disabled selected value>
-                Temperaments
+                Categories
               </option>
 
               {categories &&
@@ -128,11 +157,29 @@ export default function Form() {
             </select>
           </form>
         </div>
-
+        <div className="ilustration-validations">
+        
         <div className="ilustrationContainer">
           <h2>This is how your NFT it will be create</h2>
-          <PreviewNft image={input.image} name={input.name} price={input.price} />
+          <PreviewNft
+            image={input.image}
+            name={input.name}
+            price={input.price}
+          />
         </div>
+        <div className="validations">
+        <h4>{errors.name}</h4>
+        <h4>{errors.price}</h4>
+
+        </div>
+        <input
+          className='submit'
+            type="submit"
+            value={"Create NFT"}
+            disabled={errors.name !== 'Name is correct' || errors.price !== 'Price is correct'}
+          />
+        </div>
+        
       </div>
     </React.Fragment>
   );
