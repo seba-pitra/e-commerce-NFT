@@ -17,6 +17,13 @@ export default function Filtering() {
 
   const collections = useSelector((state) => state.collections);
 
+  let filterCollection = [], count = 0;
+  collections.map(e => {
+    count = 0;
+    nfts.filter(nft => { if(nft.collectionId === e.id) count = count + 1 })
+    if (count > 1) filterCollection.push(e) 
+  })
+
   const arrCategories = [];
   nfts.map((e) => { e.category.map((e) => arrCategories.push(e)) });
   const categories = [];
@@ -54,7 +61,7 @@ export default function Filtering() {
             <option hidden disabled selected>
               Select collection
             </option>
-            {collections.map((collection) => {
+            {filterCollection.map((collection) => {
               return (
                 <option
                   key={collection.id}
