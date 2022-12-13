@@ -1,0 +1,300 @@
+@keyframes opacityIn {
+  from {
+    opacity: 0.1;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes showup {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes sin {
+  0% {
+    margin-left: -800px;
+  }
+  20% {
+    margin-left: -800px;
+  }
+  35% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 0px;
+  }
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+    width: 0px;
+  }
+  20% {
+    opacity: 1;
+    width: 0px;
+  }
+  30% {
+    width: 355px;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    width: 355px;
+  }
+}
+@keyframes openclose {
+  0% {
+    top: 0.2rem;
+    width: 0;
+  }
+  5% {
+    width: 0;
+  }
+  15% {
+    width: 230px;
+  }
+  30% {
+    top: 0.2rem;
+    width: 230px;
+  }
+  33% {
+    top: 0.2rem;
+    width: 0;
+  }
+  35% {
+    top: 0.2rem;
+    width: 0;
+  }
+  38% {
+    top: -4.5rem;
+  }
+  48% {
+    top: -4.5rem;
+    width: 190px;
+  }
+  62% {
+    top: -4.5rem;
+    width: 190px;
+  }
+  66% {
+    top: -4.5rem;
+    width: 0;
+    text-indent: 0;
+  }
+  71% {
+    top: -9rem;
+    width: 0;
+    text-indent: 5px;
+  }
+  86% {
+    top: -9rem;
+    width: 285px;
+  }
+  95% {
+    top: -9rem;
+    width: 285px;
+  }
+  98% {
+    top: -9rem;
+    width: 0;
+    text-indent: 5px;
+  }
+  100% {
+    top: 0;
+    width: 0;
+    text-indent: 0;
+  }
+}
+
+.landing {
+  background-color: #1c2331;
+  padding: 40px 0;
+}
+.landing-container {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #1c2331;
+}
+
+.link-home {
+  width: 10rem;
+  text-align: center;
+  font-size: 20px;
+  margin-left: -10px;
+  border-radius: 15px;
+  background: #d3448b;
+  color: #fff; /* color de fuente */
+  padding: 16px 20px;
+  border-radius: 3px; /* redondear bordes */
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.link-home:hover {
+  background: #d3448b;
+  color: #000;
+}
+
+.link-home::after {
+  content: "";
+  background: #fff;
+  position: absolute;
+  z-index: -1;
+  padding: 16px 20px;
+  display: block;
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+  transition: all 0.3s ease;
+}
+
+.link-home:hover::after {
+  transition: all 0.3s ease-out;
+  transform: skewX(-45deg) scale(1, 1);
+}
+
+.landing-img {
+  height: 75vh;
+  border-radius: 10px;
+  animation-name: opacityIn;
+  animation-duration: 7s;
+}
+
+@font-face {
+  font-family: "Iceland";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Iceland"), local("Iceland-Regular"),
+    url(http://themes.googleusercontent.com/static/fonts/iceland/v3/F6LYTZLHrG9BNYXRjU7RSw.woff)
+      format("woff");
+}
+
+.landing-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.landing-text-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 5em;
+  margin: 20px 0 20px 0;
+}
+
+.landing-title {
+  color: #fff;
+  /* font-size: 20px; */
+  font-size: 0.9em;
+  margin: 0;
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.landing-text-container .landing-title {
+  /* color: #228dff; */
+  color: #d3448b;
+  font-family: Iceland;
+}
+.landing-text-container .landing-title {
+  -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon2 1.5s ease-in-out infinite alternate;
+  animation: neon2 1.5s ease-in-out infinite alternate;
+}
+
+.landing-text-container .landing-title:hover {
+  color: #fff;
+}
+
+@-webkit-keyframes neon2 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #d3448b,
+      0 0 70px #d3448b, 0 0 80px #d3448b, 0 0 100px #d3448b, 0 0 150px #d3448b;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #d3448b,
+      0 0 35px #d3448b, 0 0 40px #d3448b, 0 0 50px #d3448b, 0 0 75px #d3448b;
+  }
+}
+
+@keyframes neon2 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #d3448b,
+      0 0 70px #d3448b, 0 0 80px #d3448b, 0 0 100px #d3448b, 0 0 150px #d3448b;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #d3448b,
+      0 0 35px #d3448b, 0 0 40px #d3448b, 0 0 50px #d3448b, 0 0 75px #d3448b;
+  }
+}
+
+.landing-subtitle {
+  font-size: 0.7em;
+  color: #e966a8;
+  font-family: Iceland;
+}
+
+.landing-text {
+  font-size: 0.7em;
+  color: #e966a8;
+  font-family: Iceland;
+}
+
+h6 {
+  color: #228dff;
+  font-family: Iceland;
+  font-size: 3rem;
+  font-weight: 100;
+  line-height: 1.5;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  width: 650px;
+}
+
+h6 span {
+  font-size: 40px;
+  margin-left: 40px;
+}
+
+.message {
+  color: #6cb1ffc5;
+  display: block;
+  font-weight: 900;
+  overflow: hidden;
+  position: absolute;
+  padding-left: 0.5rem;
+  top: 0.2rem;
+  animation: openclose 5s ease-in-out infinite;
+}
+
+.word1,
+.word2,
+.word3 {
+  font-family: Iceland;
+}

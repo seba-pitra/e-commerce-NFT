@@ -118,10 +118,9 @@ function Details(props) {
                 </div>
               </div>
               <div className={styles["buttons-container"]}>
-                <button className={styles.button} onClick={handlePay}>
+                <button className={styles["button-detail"]} onClick={handlePay}>
                   Select & buy
                 </button>
-                <button className={styles.button}>Like</button>
               </div>
               {error && <p>{error}</p>}
               {txs && <p>{txs}</p>}
