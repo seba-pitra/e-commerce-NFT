@@ -65,11 +65,11 @@ export const getAllNfts = () => {
   return async (dispatch) => {
     dispatch({type : LOADING})
     try {
-        const allNfts = await axios.get("/nft") 
-        dispatch({type: GET_ALL_NFTS, payload: allNfts.data})
+      const allNfts = await axios.get("/nft") 
+      dispatch({type: GET_ALL_NFTS, payload: allNfts.data})
     }
     catch (e) {
-        alert("There was a connection error, please try again later")
+      alert("There was a connection error, please try again later")
     }
   } 
 };
@@ -77,11 +77,11 @@ export const getAllNfts = () => {
 export const getAllCollections = () => {
   return async (dispatch) => {
     try {
-        const allCollections = await axios.get("/collection")
-        dispatch({type: GET_ALL_COLLECTIONS, payload: allCollections.data})
+      const allCollections = await axios.get("/collection")
+      dispatch({type: GET_ALL_COLLECTIONS, payload: allCollections.data})
     }
     catch (e) {
-        alert("There was a connection error, please try again later")
+      alert("There was a connection error, please try again later")
     }
   } 
 };
@@ -89,11 +89,11 @@ export const getAllCollections = () => {
 export const getAllUsers = () => {
   return async (dispatch) => {
     try {
-        const allUsers = await axios.get("ruta") 
-        dispatch({type: GET_ALL_USERS, payload: allUsers.data})
+      const allUsers = await axios.get("ruta") 
+      dispatch({type: GET_ALL_USERS, payload: allUsers.data})
     }
     catch (e) {
-        alert("There was a connection error, please try again later")
+      alert("There was a connection error, please try again later")
     }
   } 
 };
