@@ -180,7 +180,7 @@
 
 .landing {
   background-color: #1c2331;
-  padding: 40px 0;
+  padding: 60px 0;
   overflow: hidden;
 }
 .landing-container {
@@ -266,7 +266,7 @@
 }
 
 .landing-img {
-  height: 35em;
+  height: 28rem;
   border-radius: 10px;
   animation-name: opacityIn;
   animation-duration: 7s;
