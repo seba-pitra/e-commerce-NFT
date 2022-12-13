@@ -25,9 +25,10 @@ class PaymentController {
     } catch (error) {
       console.log(error);
 
-      return res
-        .status(500)
-        .json({ error: true, msg: "Failed to create subscription" });
+      return res.status(500).json({
+        error: true,
+        msg: "Failed to create subscription",
+      });
     }
   }
 }

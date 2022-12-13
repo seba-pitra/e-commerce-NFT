@@ -1,21 +1,18 @@
-
 const express = require("express");
 const paymentRouter = express.Router();
-
 const PaymentController = require("../controllers/PaymentController");
 const PaymentService = require("../services/PaymentService");
 
 const PaymentInstance = new PaymentController(new PaymentService());
 
-paymentRouter.get("/", function (req, res, next) {
-  return res.json({
-    "/payment": "generates a payment link",
-    "/subscription": "generates a subscription link"
-  });
-});
-
-paymentRouter.get("/payment", function (req, res, next) {
-  PaymentInstance.getPaymentLink(req, res);
+paymentRouter.post("/", async (req, res, next) => {
+  //pasar info por body: email del user a quien se le va a comprar el NFT y los NFT's a comprar
+  //cambiar access token a produccion. Ahora esta con credenciales de prueba
+  try {
+    await PaymentInstance.getPaymentLink(req, res);
+  } catch (err) {
+    res.status(400).send(err.message);
+  }
 });
 
 paymentRouter.get("/subscription", function (req, res, next) {
