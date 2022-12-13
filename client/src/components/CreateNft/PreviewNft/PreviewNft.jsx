@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import "./NFTCard.css";
+
+import "../../NFTCard/NFTCard.css";
 
 import FavoriteIcon from "@material-ui/icons/Favorite";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
@@ -18,7 +18,7 @@ export default function NFTCard(props) {
   //faltaria transformar precio eth a usd en el momento
   return (
     <div className="cardContainer">
-      <Link className="link" to={`/details/${props.id}`}>
+      
         {/*coloque un link rodeando a todo el card para que cuando el usuario hace click en **la tarjeta... lo lleve al detalle del nft** */}
 
         {/*estructura de la tarjeta del nft*/}
@@ -64,7 +64,7 @@ export default function NFTCard(props) {
         <img src="" alt="add-to-favs" />
         <img src="" alt="shopping-cart" />
         </div>
-      </Link>
+      
     </div>
   );
 }

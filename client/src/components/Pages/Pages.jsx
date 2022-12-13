@@ -1,18 +1,18 @@
 import { useSelector } from 'react-redux';
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import NFTCard from "../NFTCard/NFTCard";
-import NotFoundResults from '../NotFoundResults/NotFoundResults';
-import PageSelector from '../PageSelector/PageSelector';
+import NotFoundResults from "../NotFoundResults/NotFoundResults";
+import PageSelector from "../PageSelector/PageSelector";
+import "./Pages.css";
 
 
 function Pages(){
-    const nfts = useSelector(state => state.filteredNfts);
-    // const nfts = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
-    const [activePage, setActivePage] = useState(1)
-    const [nftsPerPage, setNftsPerPage] = useState(6)
+    const filteredNfts = useSelector(state => state.filteredNfts)
+    const activePage = useSelector(state => state.activePage);
+    const nftsPerPage = useSelector(state => state.nftsPerPage);
     const lastNftInPage = activePage * nftsPerPage;
     const firstNftInPage = lastNftInPage - nftsPerPage;
-    const nftsInPage = nfts.slice(firstNftInPage, lastNftInPage);
+    const nftsInPage = filteredNfts.slice(firstNftInPage, lastNftInPage);
     const cards = nftsInPage.map((nft)=>{
         return <NFTCard
             image={nft.image}
@@ -20,25 +20,18 @@ function Pages(){
             id={nft.id}
             price={nft.price}
         />
-    })
-
+    });
+    
+    // console.log(nftsInPage);
     return(
         <div>
             { 
             cards.length === 0 ? 
                 <NotFoundResults/> :
                 <>
-                <PageSelector
-                    setActivePage={setActivePage}
-                    activePage={activePage}
-                    nftsPerPage={nftsPerPage}/>
-                    <div className='carousel' >
-                        {cards}
-                    </div>
-                <PageSelector
-                    setActivePage={setActivePage}
-                    activePage={activePage}
-                    nftsPerPage={nftsPerPage}/>
+                <PageSelector/>
+                    <div className='pageSelector-Container'>{cards}</div>
+                <PageSelector/>
                 </>
         }
         </div>

@@ -31,6 +31,13 @@ module.exports = (sequelize) => {
         allowNull: false,
         unique: true,
       },
+      available: {
+        type: DataTypes.BOOLEAN,
+        allowNull: false,
+        validate: {
+          isIn: [[true, false]],
+        },
+      },
       type: {
         type: DataTypes.STRING,
         defaultValue: "Basic",

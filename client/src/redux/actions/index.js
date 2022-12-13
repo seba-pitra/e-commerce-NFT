@@ -1,34 +1,101 @@
 import axios from 'axios';
 
+// -- GETTERS --
 export const GET_ALL_NFTS = "GET_ALL_NFTS";
+export const GET_ALL_COLLECTIONS = "GET_ALL_COLLECTIONS"; 
+export const GET_ALL_USERS = "GET_ALL_USERS"; 
 export const GET_NFT_DETAIL = "GET_NFT_DETAIL";
+
+// -- ADMIN ACTIONS --
 export const CREATE_NFT = "CREATE_NFT";
 export const DELETE_NFT = "DELETE_NFT";
 export const UPDATE_NFT = "UPDATE_NFT";
 
+// -- FILTERS --
 export const RESET_FILTERS = "RESET_FILTERS";
 export const FILTER_NFT_COLLECTION = "FILTER_NFT_COLLECTION"; 
 export const FILTER_NFT_CATEGORY = "FILTER_NFT_CATEGORY"; 
 export const FILTER_NFT_STATE = "FILTER_NFT_STATE";
 export const FILTER_NFT_PRICE = "FILTER_NFT_PRICE"; 
+export const FILTER_NFT_NAME = "FILTER_NFT_NAME";
 export const ORDER_NFT_NAME = "ORDER_NFT_NAME"; 
 export const ORDER_NFT_PRICE = "ORDER_NFT_PRICE"; 
 export const ORDER_NFT_AMOUNT = "ORDER_NFT_AMOUNT"; 
 export const ORDER_NFT_CREATED_AT = "ORDER_NFT_CREATED_AT"; 
+export const CHANGE_ORDER_DIRECTION = "CHANGE_ORDER_DIRECTION";
 
+// -- HELPERS --
 export const LOADING = "LOADING";
 
+// -- PAGINATION --
+export const SET_ACTIVE_PAGE = "SET_ACTIVE_PAGE";
+export const SELECT_PAGE = "SELECT_PAGE";
+export const PREV_PAGE = "PREV_PAGE";
+export const NEXT_PAGE = "NEXT_PAGE";
+export const SET_NFTS_PER_PAGE = "SET_GAMES_PER_PAGE";
+
+// -- SEARCHING --
+// export const SEARCH_NFT = "SEARCH_NFT";
+
+
+/*
+  nft = {
+    collectionId: string (code),
+    contract : string (code),
+    id : string (UUIDV4),
+    image : string (url),
+    name : string,
+    price : float,
+    source : object (
+      {
+        domain : string,
+        icon : string (url)
+        name : string
+      }
+    )
+    tokenId : string (code)
+    type : string 
+    userId : string (UUIDV4)
+  }
+*/
+
+// -- GETTERS --
+
 export const getAllNfts = () => {
-    return async (dispatch) => {
-        dispatch({type : LOADING}) // set loading > settear en null en reducer
-        try {
-            const allNfts = await axios.get("/nft") // add ruta
-            dispatch({type: GET_ALL_NFTS, payload: allNfts.data})
-        }
-        catch (e) {
-            alert("There was a connection error, please try again later")
-        }
-}
+  return async (dispatch) => {
+    dispatch({type : LOADING})
+    try {
+      const allNfts = await axios.get("/nft") 
+      dispatch({type: GET_ALL_NFTS, payload: allNfts.data})
+    }
+    catch (e) {
+      alert("There was a connection error, please try again later")
+    }
+  } 
+};
+
+export const getAllCollections = () => {
+  return async (dispatch) => {
+    try {
+      const allCollections = await axios.get("/collection")
+      dispatch({type: GET_ALL_COLLECTIONS, payload: allCollections.data})
+    }
+    catch (e) {
+      alert("There was a connection error, please try again later")
+    }
+  } 
+};
+
+export const getAllUsers = () => {
+  return async (dispatch) => {
+    try {
+      const allUsers = await axios.get("ruta") 
+      dispatch({type: GET_ALL_USERS, payload: allUsers.data})
+    }
+    catch (e) {
+      alert("There was a connection error, please try again later")
+    }
+  } 
 };
 
 export const getNftDetail = (id) => {
@@ -44,11 +111,11 @@ export const getNftDetail = (id) => {
   }
 };
 
-export const resetFilters = (payload) => {
-  return { type: RESET_FILTERS, payload } // reset all > copy nft on nftFilters
-};
-
 // --- FILTERS ---
+
+export const resetFilters = () => {
+return { type: RESET_FILTERS }
+};
 
 export const filterCollection = (payload) => {
   return { type: FILTER_NFT_COLLECTION, payload }
@@ -60,6 +127,10 @@ export const filterCategory = (payload) => {
 
 export const filterPrice = (payload) => {
   return { type: FILTER_NFT_PRICE, payload }
+};
+
+export const filterName = (payload) => {
+  return { type: FILTER_NFT_NAME, payload }
 };
 
 export const filterState = (payload) => {
@@ -84,8 +155,9 @@ export const orderCreatedAt = (payload) => {
   return { type: ORDER_NFT_CREATED_AT, payload } // mas nuevos, mas antiguos FALTA
 };
 
-
-
+export const changeOrderDirection = () => {
+  return { type: CHANGE_ORDER_DIRECTION };
+}
 
 // --- ADMIN ONLY --- 
 
@@ -95,7 +167,7 @@ export const createNft = (payload) => {
       const createdNft = await axios.post(`/nft`, payload)
       dispatch({type: CREATE_NFT, payload: createdNft.data}) // msj desde el back
       alert("NFT created successfully");
-      window.location.href = "ruta al home";
+      window.location.href = "/";
     } catch (e) {
       alert(e.response.data)
     }
@@ -114,10 +186,10 @@ export const deleteNft = (id) => {
   }
 }
 
-export const updateNft = (atribute, payload) => { // mmh?
+export const updateNft = (id, payload) => { // mmh?
   return async (dispatch) => {
     try {
-      const updateNft = await axios.put(`/nft/${atribute}`, payload)
+      const updateNft = await axios.put(`/nft/${id}`, payload)
       dispatch({type: UPDATE_NFT, payload: updateNft.data}) // msj desde el back
       alert("NFT updated successfully");
     } catch (e) {
@@ -126,21 +198,23 @@ export const updateNft = (atribute, payload) => { // mmh?
   }
 }
 
-// --- ADMIN ONLY --- 
+// --- PAGINATION --- 
 
+export const selectPage = (pageNumber) => {
+  return { type : SELECT_PAGE, payload : pageNumber }
+}
 
+export const previousPage = () => {
+  return { type : PREV_PAGE }
+}
 
+export const nextPage = () => {
+  return { type : NEXT_PAGE }
+}
 
-
-
-
-
-
-// export const SEARCH_NFT = "SEARCH_NFT";
-// export const SELECT_PAGE = "SELECT_PAGE";
-// export const PREV_PAGE = "PREV_PAGE";
-// export const NEXT_PAGE = "NEXT_PAGE";
-// export const SET_NFTS_PER_PAGE = "SET_GAMES_PER_PAGE";
+export const setNftsPerPage = (gamesPerPage) => {
+  return { type : SET_NFTS_PER_PAGE, payload : gamesPerPage }
+}
 
 // export const searchNFT = (searchQuery) => {
 //     return {
@@ -149,28 +223,3 @@ export const updateNft = (atribute, payload) => { // mmh?
 //     }
 // }
 
-// export const selectPage = (pageNumber) => {
-//     return {
-//         type : SELECT_PAGE,
-//         payload : pageNumber
-//     }
-// }
-
-// export const previousPage = () => {
-//     return {
-//         type : PREV_PAGE,
-//     }
-// }
-
-// export const nextPage = () => {
-//     return {
-//         type : NEXT_PAGE,
-//     }
-// }
-
-// export const setNftsPerPage = (gamesPerPage) => {
-//     return {
-//         type : SET_NFTS_PER_PAGE,
-//         payload : gamesPerPage,
-//     }
-// }

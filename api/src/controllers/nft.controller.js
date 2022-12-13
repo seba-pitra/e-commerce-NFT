@@ -6,8 +6,8 @@ const createAllInitialNFTs = async () => {
   allNFTs.forEach(async (data) => {
     let nftToCreated = {
       type: data.type,
-      name: (data.tokenData && data.tokenData.name) || "no name found",
-      image: (data.tokenData && data.tokenData.image) || "no image found",
+      name: (data.tokenData && data.tokenData.name) || null,
+      image: (data.tokenData && data.tokenData.image) || null,
       available: data.available,
       contract: data.contract,
       tokenId: data.tokenId,
@@ -16,15 +16,24 @@ const createAllInitialNFTs = async () => {
       source: data.source,
     };
 
-    let createdCollection = await Collection.findOrCreate({
-      where: {
-        id: data.collectionId,
-      },
-    }).then(([collection, created]) => collection);
+    try {
+      let createdNft = await Nft.create(nftToCreated);
 
-    let createdNft = await Nft.create(nftToCreated);
+      let createdCollection = await Collection.findOrCreate({
+        where: {
+          id: data.collection.collectionId,
+        },
+        defaults: {
+          id: data.collection.collectionId,
+          name: data.collection.name,
+          image: data.collection.image,
+        },
+      }).then(([collection, created]) => collection);
 
-    await createdNft.setCollection(createdCollection);
+      await createdNft.setCollection(createdCollection);
+    } catch (error) {
+      console.log("Can´t create NFT " + data.id);
+    }
   });
 };
 
@@ -51,8 +60,14 @@ const createNft = async (body) => {
 };
 
 const getNfts = async () => {
-  const dbNfts = await Nft.findAll();
-  if (!dbNfts.length) throw new Error("No NFT found");
+  const dbNfts = await Nft.findAll({
+    include: [
+      {
+        model: Collection,
+      },
+    ],
+  });
+ /*  if (!dbNfts.length) throw new Error("No NFT found"); */
 
   return dbNfts;
 };
@@ -92,7 +107,7 @@ const updateNFT = async (nftId, body) => {
   }
 };
 
-const changeAvailablePropertyNft = async (id) => {
+const deleteNft = async (id) => {
   const foundNft = await Nft.findByPk(id);
 
   if (!foundNft) throw new Error("No NFT found");
@@ -102,19 +117,7 @@ const changeAvailablePropertyNft = async (id) => {
 
   await foundNft.save();
 
-  return foundNft;
-};
-
-const deleteNft = async (id) => {
-  const foundNft = await Nft.findByPk(id);
-
-  if (!foundNft) throw new Error("No NFT found");
-
-  const nftName = foundNft.name;
-
-  await foundNft.destroy();
-
-  return nftName;
+  return foundNft.name;
 };
 
 module.exports = {
@@ -122,7 +125,6 @@ module.exports = {
   searchNftById,
   createAllInitialNFTs,
   createNft,
-  changeAvailablePropertyNft,
   deleteNft,
   updateNFT,
 };

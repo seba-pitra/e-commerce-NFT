@@ -10,9 +10,9 @@ function SearchBar(){
 
     //funcion de busqueda
     function search(e){
+        console.log(searchQuery)
         e.preventDefault();
-        /* dispatch(actions.resetFilters()) //resetea los filtos
-        dispatch(actions.searchNFT(searchQuery)); //y manda el query al action de busqueda */
+        dispatch(actions.filterName(searchQuery)) //resetea los filtos
         setSearchQuery("");
     }
 

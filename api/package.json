@@ -23,6 +23,7 @@
     "morgan": "^1.10.0",
     "node-fetch": "^2.6.7",
     "pg": "^8.5.1",
+    "react-scripts": "3.4.0",
     "sequelize": "^6.3.5"
   },
   "devDependencies": {
