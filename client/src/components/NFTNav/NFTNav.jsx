@@ -1,20 +1,19 @@
 import {React, useState } from 'react';
-import { Container, Nav, Navbar, NavDropdown} from 'react-bootstrap';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 import SearchBar from '../SearchBar/SearchBar'
 import logo from '../../images/logo/logo.png';
-import  style from './NFTNav.css';
 
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import  Shoppingkart from '../Shoppingkart/Shoppingkart'
 import Offcanvas from 'react-bootstrap/Offcanvas';
 
+import './NFTNav.css';
 
 export default function NFTNav() {
-	{/* Pim Pum Pam*/}
 	const [show, setShow] = useState(false);
 
 	const handleClose = () => setShow(false);
-  	const handleShow = () => setShow(true);
+  const handleShow = () => setShow(true);
 
 
 
