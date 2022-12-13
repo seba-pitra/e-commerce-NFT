@@ -1,5 +1,5 @@
 const { Router } = require("express");
-const { app, auth, login, signUp } = require("../firebase.js");
+const { app, auth, login, signUp, logOut, validateUser } = require("../firebase.js");
 
 const firebaseRouter = Router();
 
@@ -14,6 +14,26 @@ firebaseRouter.get("/", async (req, res) => {
     res.status(400).send(error.message);
   }
 });
+
+firebaseRouter.get("/logOut", async (req, res) => {
+
+  try {
+    const test = await logOut();
+    res.status(200).send(test);
+  } catch (error) {
+    res.status(400).send(error.message);
+  }
+});
+
+firebaseRouter.get("/userInfo", async (req, res)=>{
+  try {
+    const test = await validateUser();
+    // const loggedUserID = await getLoggedUser()
+    res.status(200).send(test)
+  } catch (error) {
+    res.status(400).send(error.message)
+  }
+})
 
 firebaseRouter.post("/", async (req, res) => {
   const { email, password } = req.body;
