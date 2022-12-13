@@ -22,7 +22,7 @@ function Pages(){
         />
     });
     
-    console.log(nftsInPage);
+    // console.log(nftsInPage);
     return(
         <div>
             { 

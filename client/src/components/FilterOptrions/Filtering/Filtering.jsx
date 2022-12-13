@@ -17,15 +17,17 @@ export default function Filtering() {
 
   const collections = useSelector((state) => state.collections);
 
+  let filterCollection = [], count = 0;
+  collections.map(e => {
+    count = 0;
+    nfts.filter(nft => { if(nft.collectionId === e.id) count = count + 1 })
+    if (count > 1) filterCollection.push(e) 
+  })
+
   const arrCategories = [];
-  nfts.map((e) => {
-    e.category.map((e) => arrCategories.push(e));
-  });
+  nfts.map((e) => { e.category.map((e) => arrCategories.push(e)) });
   const categories = [];
-  arrCategories.filter((e) => {
-    if (categories.indexOf(e) === -1) categories.push(e);
-  });
-  console.log(categories);
+  arrCategories.filter((e) => { if (categories.indexOf(e) === -1) categories.push(e); });
   const states = ["Buy Now", "Auction", "All"];
 
   // console.log(selectedCategory)
@@ -59,7 +61,7 @@ export default function Filtering() {
             <option hidden disabled selected>
               Select collection
             </option>
-            {collections.map((collection) => {
+            {filterCollection.map((collection) => {
               return (
                 <option
                   key={collection.id}
