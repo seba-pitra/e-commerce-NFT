@@ -8,5 +8,6 @@ const router = Router();
 router.use("/nft", nftRouter);
 router.use("/user", userRouter);
 router.use("/collection", collectionRouter);
+router.use("/payment",paymentRouter);
 
 module.exports = router;
