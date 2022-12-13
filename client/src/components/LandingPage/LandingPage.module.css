@@ -8,6 +8,30 @@
   }
 }
 
+@keyframes slideInToRight {
+  from {
+    margin-left: 0%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 100%;
+    width: 300%;
+  }
+}
+
+@keyframes slideInToLeft {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
 @keyframes showup {
   0% {
     opacity: 0;
@@ -58,6 +82,7 @@
     width: 355px;
   }
 }
+
 @keyframes openclose {
   0% {
     top: 0.2rem;
@@ -122,14 +147,80 @@
   }
 }
 
+@-webkit-keyframes neon2 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #d3448b,
+      0 0 70px #d3448b, 0 0 80px #d3448b, 0 0 100px #d3448b, 0 0 150px #d3448b;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #d3448b,
+      0 0 35px #d3448b, 0 0 40px #d3448b, 0 0 50px #d3448b, 0 0 75px #d3448b;
+  }
+}
+
+@keyframes neon2 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #d3448b,
+      0 0 70px #d3448b, 0 0 80px #d3448b, 0 0 100px #d3448b, 0 0 150px #d3448b;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #d3448b,
+      0 0 35px #d3448b, 0 0 40px #d3448b, 0 0 50px #d3448b, 0 0 75px #d3448b;
+  }
+}
+
+@font-face {
+  font-family: "Iceland";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Iceland"), local("Iceland-Regular"),
+    url(http://themes.googleusercontent.com/static/fonts/iceland/v3/F6LYTZLHrG9BNYXRjU7RSw.woff)
+      format("woff");
+}
+
 .landing {
   background-color: #1c2331;
-  padding: 40px 0;
+  padding: 60px 0;
+  overflow: hidden;
 }
 .landing-container {
   display: flex;
   justify-content: space-evenly;
   background-color: #1c2331;
+}
+
+.slide-container {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #1c2331;
+  animation-name: slideInToRight;
+  animation-duration: 2s;
+  margin-left: 100%;
+  width: 300%;
+}
+
+.account-container {
+  display: none;
+}
+
+.slide-account-container {
+  animation-name: slideInToLeft;
+  animation-duration: 2s;
+  margin-top: -32.3em;
+}
+
+.landing-text-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 5em;
+  margin: 20px 0 20px 0;
+}
+
+.landing-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .link-home {
@@ -139,9 +230,9 @@
   margin-left: -10px;
   border-radius: 15px;
   background: #d3448b;
-  color: #fff; /* color de fuente */
+  color: #fff;
   padding: 16px 20px;
-  border-radius: 3px; /* redondear bordes */
+  border-radius: 3px;
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -175,38 +266,14 @@
 }
 
 .landing-img {
-  height: 75vh;
+  height: 28rem;
   border-radius: 10px;
   animation-name: opacityIn;
   animation-duration: 7s;
 }
 
-@font-face {
-  font-family: "Iceland";
-  font-style: normal;
-  font-weight: 400;
-  src: local("Iceland"), local("Iceland-Regular"),
-    url(http://themes.googleusercontent.com/static/fonts/iceland/v3/F6LYTZLHrG9BNYXRjU7RSw.woff)
-      format("woff");
-}
-
-.landing-info-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.landing-text-container {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  font-size: 5em;
-  margin: 20px 0 20px 0;
-}
-
 .landing-title {
   color: #fff;
-  /* font-size: 20px; */
   font-size: 0.9em;
   margin: 0;
   text-decoration: none;
@@ -228,28 +295,6 @@
 
 .landing-text-container .landing-title:hover {
   color: #fff;
-}
-
-@-webkit-keyframes neon2 {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #d3448b,
-      0 0 70px #d3448b, 0 0 80px #d3448b, 0 0 100px #d3448b, 0 0 150px #d3448b;
-  }
-  to {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #d3448b,
-      0 0 35px #d3448b, 0 0 40px #d3448b, 0 0 50px #d3448b, 0 0 75px #d3448b;
-  }
-}
-
-@keyframes neon2 {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #d3448b,
-      0 0 70px #d3448b, 0 0 80px #d3448b, 0 0 100px #d3448b, 0 0 150px #d3448b;
-  }
-  to {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #d3448b,
-      0 0 35px #d3448b, 0 0 40px #d3448b, 0 0 50px #d3448b, 0 0 75px #d3448b;
-  }
 }
 
 .landing-subtitle {
@@ -274,7 +319,7 @@ h6 {
   white-space: nowrap;
   overflow: hidden;
   position: relative;
-  width: 650px;
+  /* width: 650px; */
 }
 
 h6 span {
@@ -290,7 +335,7 @@ h6 span {
   position: absolute;
   padding-left: 0.5rem;
   top: 0.2rem;
-  animation: openclose 5s ease-in-out infinite;
+  animation: openclose 8s ease-in-out infinite;
 }
 
 .word1,
