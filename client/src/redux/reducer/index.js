@@ -35,7 +35,7 @@ const initialState = {
   isLoading: false,
   orderDirection: "up-down",
   activePage: 1,
-  nftsPerPage: 6,
+  nftsPerPage: 8,
   msj: "",
 };
 
