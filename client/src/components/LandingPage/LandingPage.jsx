@@ -120,7 +120,7 @@ function LandingPage() {
                       />
                       <label
                         className="form-check-label text-light"
-                        for="RememberCheck"
+                        htmlFor="RememberCheck"
                       >
                         Remember me
                       </label>
