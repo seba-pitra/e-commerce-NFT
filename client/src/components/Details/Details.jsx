@@ -61,7 +61,7 @@ function Details(props) {
         <Loading />
       ) : (
         <div className={styles["detail-all-container"]}>
-          <Link to={"/home"} className={styles["back-button"]}>
+          <Link to={"/marketplace"} className={styles["back-button"]}>
             {"< "}Back
           </Link>
           <div className={styles["detail-card-container"]}>
