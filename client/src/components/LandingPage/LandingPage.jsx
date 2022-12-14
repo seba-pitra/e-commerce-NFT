@@ -21,8 +21,8 @@ function LandingPage() {
             <h1 className={styles["landing-subtitle"]}>
               Explore the NFT world
             </h1>
-            <h6>
-              <span></span>
+            <h6 className={styles["title-presentation-words"]}>
+              <span className={styles["title-presentation-span"]}></span>
               <div className={styles.message}>
                 <div className={styles.word1}>Create</div>
                 <div className={styles.word2}>Buy</div>

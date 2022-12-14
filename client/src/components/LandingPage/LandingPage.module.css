@@ -313,7 +313,7 @@
   font-family: Iceland;
 }
 
-h6 {
+.title-presentation-words {
   color: #228dff;
   font-family: Iceland;
   font-size: 3rem;
@@ -326,7 +326,7 @@ h6 {
   /* width: 650px; */
 }
 
-h6 span {
+.title-presentation-words .title-presentation-span {
   font-size: 40px;
   margin-left: 40px;
 }
