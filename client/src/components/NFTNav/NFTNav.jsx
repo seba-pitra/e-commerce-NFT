@@ -63,36 +63,6 @@ export default function NFTNav() {
             </Offcanvas>
           {/* slide kart*/}
             </Nav>
-            <SearchBar />
-            <Nav>
-              <Nav.Link className="brand-colorized-text" href="/login">
-                Log in
-              </Nav.Link>
-              <Nav.Link className="brand-colorized-text" href="/signup">
-                Sign up
-              </Nav.Link>
-              {/* slide kart trigger*/}
-              <button
-                style={{
-                  backgroundColor: "black",
-                  color: "#D3448B",
-                  border: "none",
-                }}
-                onClick={handleShow}
-              >
-                <ShoppingCartIcon />
-              </button>
-              {/* slide kart*/}
-              <Offcanvas show={show} onHide={handleClose} placement={"end"}>
-                <Offcanvas.Header closeButton>
-                  <Offcanvas.Title>Your Shopping Cart</Offcanvas.Title>
-                </Offcanvas.Header>
-                <Offcanvas.Body>
-                  <Shoppingkart />
-                </Offcanvas.Body>
-              </Offcanvas>
-              {/* slide kart*/}
-            </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
