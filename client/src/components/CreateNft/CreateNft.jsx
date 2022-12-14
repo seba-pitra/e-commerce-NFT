@@ -2,8 +2,6 @@ import React from "react";
 import "./CreateNft.css";
 import "../NFTCard/NFTCard.css";
 import PreviewNft from "./PreviewNft/PreviewNft";
-// import * as actions from "../redux/actions/index.js";
-import { useDispatch, useSelector } from "react-redux";
 
 export function validate(input) {
   let errors = {

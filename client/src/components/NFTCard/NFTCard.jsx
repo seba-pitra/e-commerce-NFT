@@ -1,21 +1,17 @@
 import { Link } from "react-router-dom";
-import "./NFTCard.css";
-
 import FavoriteIcon from "@material-ui/icons/Favorite";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
+import { useDispatch } from "react-redux";
+import * as actions from "../../redux/actions";
+import "./NFTCard.css";
 
 export default function NFTCard(props) {
-  //{
-  // id,
-  // price,
-  // image,
-  // type,
-  // contract,
-  // last price,
-  //tokenId
+  const dispatch = useDispatch();
 
-  //}
-  //faltaria transformar precio eth a usd en el momento
+  const handleClickOnShoppingCart = (e) => {
+    dispatch(actions.addNftOnShoppingCart(props));
+  };
+
   return (
     <div className="cardContainer">
       <Link className="link" to={`/details/${props.id}`}>
@@ -31,7 +27,7 @@ export default function NFTCard(props) {
                   ? "https://preview.redd.it/j82jl2vpg4n71.jpg?auto=webp&s=e8431005571759e9fd9b5cd2e82dd27696d0b6c4"
                   : props.image
               }`}
-              alt="nft-image"
+              alt="nft-preview"
             />
           </div>
 
@@ -51,7 +47,10 @@ export default function NFTCard(props) {
               {/* <FavoriteIcon /> */}
               <FavoriteIcon />
             </div>
-            <div className="nftCard-icon-container">
+            <div
+              className="nftCard-icon-container"
+              onClick={handleClickOnShoppingCart}
+            >
               {/* <FavoriteIcon /> */}
               <ShoppingCartIcon />
             </div>
@@ -61,8 +60,8 @@ export default function NFTCard(props) {
         </div>
         {/* <h3>Last sale: falta esto</h3> */}
         <div className="CardButtons">
-        <img src="" alt="add-to-favs" />
-        <img src="" alt="shopping-cart" />
+          <img src="" alt="add-to-favs" />
+          <img src="" alt="shopping-cart" />
         </div>
       </Link>
     </div>

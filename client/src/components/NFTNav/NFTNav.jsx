@@ -1,36 +1,38 @@
-import {React, useState } from 'react';
-import { Container, Nav, Navbar, NavDropdown} from 'react-bootstrap';
-import SearchBar from '../SearchBar/SearchBar'
-import logo from '../../images/logo/logo.png';
-import  style from './NFTNav.css';
+import { React, useState } from "react";
+import { useLocation } from "react-router-dom";
+import { Container, Nav, Navbar } from "react-bootstrap";
+import SearchBar from "../SearchBar/SearchBar";
+import logo from "../../images/logo/logo.png";
 
-import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
-import  Shoppingkart from '../Shoppingkart/Shoppingkart'
-import Offcanvas from 'react-bootstrap/Offcanvas';
+import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
+import Shoppingkart from "../Shoppingkart/Shoppingkart";
+import Offcanvas from "react-bootstrap/Offcanvas";
 
+import "./NFTNav.css";
 
 export default function NFTNav() {
-	{/* Pim Pum Pam*/}
-	const [show, setShow] = useState(false);
+  const [show, setShow] = useState(false);
 
-	const handleClose = () => setShow(false);
-  	const handleShow = () => setShow(true);
+  const location = useLocation();
+  const areWeInLanding = location.pathname === "/";
+  console.log(location.pathname);
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
 
-
-
-return (
-    <Navbar className="brand-colorized-background-color" expand="lg">
-      <Container fluid>
-            <img
-              alt=""
-              src={logo}
-              width="60"
-              height="60"
-              className="d-inline-block align-top"
-            /> {' '}
+  return (
+    <div className={areWeInLanding ? "hidden" : "nav-bar"}>
+      <Navbar className="brand-colorized-background-color" expand="lg">
+        <Container fluid>
+          <img
+            alt=""
+            src={logo}
+            width="60"
+            height="60"
+            className="d-inline-block align-top"
+          />{" "}
           <Navbar.Brand>
             <Navbar.Text className="navbar-company-name-header brand-colorized-text">
-            Non Fungible Town
+              Non Fungible Town
             </Navbar.Text>
           </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -45,10 +47,11 @@ return (
           </Nav>
           <SearchBar/>
           <Nav>
+            <Nav.Link className="brand-colorized-text" href="http://localhost:3000/marketplace">MarketPlace</Nav.Link>
             <Nav.Link className="brand-colorized-text" href="/login">Log in</Nav.Link>
-            <Nav.Link  className="brand-colorized-text" href="/signup">Sign up</Nav.Link>
+            <Nav.Link className="brand-colorized-text" href="/signup">Sign up</Nav.Link>
           {/* slide kart trigger*/ } 
-            <button  style={{backgroundColor: "black", color: "#D3448B",border: "none" }} onClick={handleShow}> <ShoppingCartIcon /></button>
+            <button  style={{backgroundColor: "black", color: "#D3448B",border: "none" }} onClick={handleShow}><ShoppingCartIcon /></button>
           {/* slide kart*/}
             <Offcanvas show={show} onHide={handleClose} placement={'end'}>
             <Offcanvas.Header closeButton>
@@ -60,8 +63,39 @@ return (
             </Offcanvas>
           {/* slide kart*/}
             </Nav>
-      </Navbar.Collapse>
-      </Container>
-    </Navbar>
-            );
+            <SearchBar />
+            <Nav>
+              <Nav.Link className="brand-colorized-text" href="/login">
+                Log in
+              </Nav.Link>
+              <Nav.Link className="brand-colorized-text" href="/signup">
+                Sign up
+              </Nav.Link>
+              {/* slide kart trigger*/}
+              <button
+                style={{
+                  backgroundColor: "black",
+                  color: "#D3448B",
+                  border: "none",
+                }}
+                onClick={handleShow}
+              >
+                <ShoppingCartIcon />
+              </button>
+              {/* slide kart*/}
+              <Offcanvas show={show} onHide={handleClose} placement={"end"}>
+                <Offcanvas.Header closeButton>
+                  <Offcanvas.Title>Your Shopping Cart</Offcanvas.Title>
+                </Offcanvas.Header>
+                <Offcanvas.Body>
+                  <Shoppingkart />
+                </Offcanvas.Body>
+              </Offcanvas>
+              {/* slide kart*/}
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+    </div>
+  );
 }

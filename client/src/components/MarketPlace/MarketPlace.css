@@ -1,0 +1,15 @@
+.container_mainpage {
+  width: 100%;
+  display: flex;
+}
+
+.test {
+  border: none;
+  border-right: 1px solid lightgray;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  display: flex;
+  padding: 0 10px;
+}

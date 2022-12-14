@@ -1,0 +1,61 @@
+@keyframes slideInToLeft {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes slideInToRight {
+  from {
+    margin-left: 0%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 100%;
+    width: 300%;
+  }
+}
+
+.shopping-cart {
+  overflow: hidden;
+}
+
+.cart-nfts-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding: 5px;
+  background-color: #228dff;
+  color: #fff;
+  border: solid 1px rgb(194, 194, 194);
+  border-radius: 10px;
+  animation-name: slideInToLeft;
+  animation-duration: 1s;
+}
+
+.cart-nft-img {
+  height: 7em;
+  border-radius: 10px;
+}
+
+.cart-nft-remove-button {
+  height: 30px;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-right: 5px;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+}
+
+.cart-nft-remove-button:hover {
+  cursor: pointer;
+}

@@ -180,11 +180,13 @@
 
 .landing {
   background-color: #1c2331;
-  padding: 60px 0;
+  padding: 5vh 0;
+  height: 92.5vh;
   overflow: hidden;
 }
 .landing-container {
   display: flex;
+  height: 80vh;
   justify-content: space-evenly;
   background-color: #1c2331;
 }
@@ -206,7 +208,7 @@
 .slide-account-container {
   animation-name: slideInToLeft;
   animation-duration: 2s;
-  margin-top: -32.3em;
+  margin-top: -100vh;
 }
 
 .landing-text-container {
@@ -232,7 +234,7 @@
   background: #d3448b;
   color: #fff;
   padding: 16px 20px;
-  border-radius: 3px;
+  border-radius: 8px;
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -266,7 +268,7 @@
 }
 
 .landing-img {
-  height: 28rem;
+  height: 100%;
   border-radius: 10px;
   animation-name: opacityIn;
   animation-duration: 7s;
@@ -274,8 +276,8 @@
 
 .landing-title {
   color: #fff;
-  font-size: 0.9em;
-  margin: 0;
+  font-size: 0.8em;
+  margin-bottom: 24vh;
   text-decoration: none;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -287,6 +289,7 @@
   color: #d3448b;
   font-family: Iceland;
 }
+
 .landing-text-container .landing-title {
   -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
   -moz-animation: neon2 1.5s ease-in-out infinite alternate;
@@ -301,6 +304,7 @@
   font-size: 0.7em;
   color: #e966a8;
   font-family: Iceland;
+  
 }
 
 .landing-text {
@@ -342,4 +346,24 @@ h6 span {
 .word2,
 .word3 {
   font-family: Iceland;
+}
+
+@media (max-width: 1000px) {
+  .landing-img {
+    display: none;
+  }
+
+  .landing-title {
+    font-size: 0.7em;
+    padding: 0px 10px;
+  }
+
+  .landing-subtitle {
+    font-size: 0.5em;    
+    padding: 0px 10px;
+  }
+
+  .slide-account-container {
+    margin-top: -50vh;
+  }
 }
