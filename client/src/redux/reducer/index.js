@@ -23,6 +23,8 @@ import {
   PREV_PAGE,
   NEXT_PAGE,
   SET_NFTS_PER_PAGE,
+  ADD_NFT_ON_SHOOPING_CART,
+  REMOVE_NFT_OF_SHOOPING_CART,
 } from "../actions";
 import * as controllers from "../../utils";
 
@@ -32,6 +34,7 @@ const initialState = {
   collections: [],
   categories: [],
   users: [],
+  userNfts: [],
   nftDetail: {},
   isLoading: false,
   orderDirection: "up-down",
@@ -46,7 +49,17 @@ const rootReducer = (state = initialState, action) => {
     case LOADING:
       return { ...state, isLoading: true };
     case GET_ALL_NFTS:
-      return { ...state, nfts: action.payload, filteredNfts: controllers.orderNFTByName( state.orderDirection, action.payload ), nftDetail: {}, isLoading: false, categories: [] };
+      return {
+        ...state,
+        nfts: action.payload,
+        filteredNfts: controllers.orderNFTByName(
+          state.orderDirection,
+          action.payload
+        ),
+        nftDetail: {},
+        isLoading: false,
+        categories: [],
+      };
     case GET_ALL_COLLECTIONS:
       return { ...state, collections: action.payload };
     case GET_ALL_USERS:
@@ -60,27 +73,39 @@ const rootReducer = (state = initialState, action) => {
     case UPDATE_NFT:
       return { ...state, msj: action.payload };
     case RESET_FILTERS:
-      return { ...state, filteredNfts: state.nfts, categories: [], activePage: 1, };
+      return {
+        ...state,
+        filteredNfts: state.nfts,
+        categories: [],
+        activePage: 1,
+      };
     case FILTER_NFT_COLLECTION:
       let filterByCollection = [];
-      filterByCollection = state.nfts.filter( (e) => e.collectionId === action.payload );
+      filterByCollection = state.nfts.filter(
+        (e) => e.collectionId === action.payload
+      );
       return { ...state, filteredNfts: filterByCollection, activePage: 1 };
     case FILTER_NFT_NAME:
       let filterByName = [];
-      filterByName = state.nfts.filter((e) => e.name.toUpperCase().includes(action.payload.toUpperCase()) );
+      filterByName = state.nfts.filter((e) =>
+        e.name.toUpperCase().includes(action.payload.toUpperCase())
+      );
       return { ...state, filteredNfts: filterByName };
     case FILTER_NFT_CATEGORY:
       let filterByCategory = state.nfts;
-      if (!state.categories.includes(action.payload)) state.categories = [...state.categories, action.payload];
-      else state.categories = state.categories.filter((e) => e !== action.payload);
-      state.categories.map((e) => { 
-        return filterByCategory = filterByCategory.filter((nft) => nft.category.includes(e) );
+      if (!state.categories.includes(action.payload))
+        state.categories = [...state.categories, action.payload];
+      else
+        state.categories = state.categories.filter((e) => e !== action.payload);
+      state.categories.map((e) => {
+        return (filterByCategory = filterByCategory.filter((nft) =>
+          nft.category.includes(e)
+        ));
       });
       return { ...state, filteredNfts: filterByCategory, activePage: 1 };
     case FILTER_NFT_PRICE:
       let filterByPrice = []; // enviar error if max < min front?
       filterByPrice = state.nfts.filter((e) => e.price !== 0); // sin max o min no filtra? resetea si se borra alguno?
-      console.log(state.ethPrice)
       if(action.payload.currency === "ETH") {
         if (action.payload.min !== 0) filterByPrice = state.nfts.filter( e => e.price > action.payload.min );
         if (action.payload.max !== 0) filterByPrice = filterByPrice.filter( e => e.price < action.payload.max );
@@ -94,9 +119,14 @@ const rootReducer = (state = initialState, action) => {
       return { ...state, filteredNfts: filterByPrice, activePage: 1 };
     case FILTER_NFT_STATE:
       let filterByState = [];
-      if (action.payload === "auction") filterByState = state.nfts.filter((e) => e.type === "auction");
-      else if (action.payload === "buynow") filterByState = state.nfts.filter((e) => e.type === "buynow");
-      else filterByState = state.nfts.filter( (e) => e.type === "buynow" || e.type === "auction" ); // boton all que elimine este filtrado > funcionara?
+      if (action.payload === "auction")
+        filterByState = state.nfts.filter((e) => e.type === "auction");
+      else if (action.payload === "buynow")
+        filterByState = state.nfts.filter((e) => e.type === "buynow");
+      else
+        filterByState = state.nfts.filter(
+          (e) => e.type === "buynow" || e.type === "auction"
+        ); // boton all que elimine este filtrado > funcionara?
       return { ...state, filteredNfts: filterByState, activePage: 1 };
     case CHANGE_ORDER_DIRECTION:
       let newOrder;
@@ -104,10 +134,18 @@ const rootReducer = (state = initialState, action) => {
       else if (state.orderDirection === "down-up") newOrder = "up-down";
       return { ...state, orderDirection: newOrder, activePage: 1 };
     case ORDER_NFT_NAME:
-      let orderedByName = controllers.orderNFTBy( "name", state.orderDirection, state.filteredNfts );
+      let orderedByName = controllers.orderNFTBy(
+        "name",
+        state.orderDirection,
+        state.filteredNfts
+      );
       return { ...state, filteredNfts: orderedByName, activePage: 1 };
     case ORDER_NFT_PRICE:
-      let orderedbyPrice = controllers.orderNFTBy( "price", state.orderDirection, state.filteredNfts );
+      let orderedbyPrice = controllers.orderNFTBy(
+        "price",
+        state.orderDirection,
+        state.filteredNfts
+      );
       return { ...state, filteredNfts: orderedbyPrice, activePage: 1 };
     // case ORDER_NFT_AMOUNT:
     //   let orderedByAmount = controllers.orderNFTBy( "amount", state.orderDirection, state.filteredNfts );
@@ -125,6 +163,21 @@ const rootReducer = (state = initialState, action) => {
       return { ...state, activePage: state.activePage - 1 };
     case GET_ETH_PRICE:
       return { ...state, ethPrice: action.payload };
+    case ADD_NFT_ON_SHOOPING_CART:
+      const foundNft = state.userNfts.find(
+        (nft) => nft.id === action.payload.id
+      );
+      if (foundNft) return { ...state };
+
+      return {
+        ...state,
+        userNfts: [...state.userNfts, action.payload],
+      };
+    case REMOVE_NFT_OF_SHOOPING_CART:
+      return {
+        ...state,
+        userNfts: state.userNfts.filter((nft) => nft.id !== action.payload),
+      };
     default:
       return { ...state };
   }

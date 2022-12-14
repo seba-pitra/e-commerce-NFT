@@ -1,9 +1,9 @@
-import axios from 'axios';
+import axios from "axios";
 
 // -- GETTERS --
 export const GET_ALL_NFTS = "GET_ALL_NFTS";
-export const GET_ALL_COLLECTIONS = "GET_ALL_COLLECTIONS"; 
-export const GET_ALL_USERS = "GET_ALL_USERS"; 
+export const GET_ALL_COLLECTIONS = "GET_ALL_COLLECTIONS";
+export const GET_ALL_USERS = "GET_ALL_USERS";
 export const GET_NFT_DETAIL = "GET_NFT_DETAIL";
 
 // -- ADMIN ACTIONS --
@@ -13,15 +13,15 @@ export const UPDATE_NFT = "UPDATE_NFT";
 
 // -- FILTERS --
 export const RESET_FILTERS = "RESET_FILTERS";
-export const FILTER_NFT_COLLECTION = "FILTER_NFT_COLLECTION"; 
-export const FILTER_NFT_CATEGORY = "FILTER_NFT_CATEGORY"; 
+export const FILTER_NFT_COLLECTION = "FILTER_NFT_COLLECTION";
+export const FILTER_NFT_CATEGORY = "FILTER_NFT_CATEGORY";
 export const FILTER_NFT_STATE = "FILTER_NFT_STATE";
-export const FILTER_NFT_PRICE = "FILTER_NFT_PRICE"; 
+export const FILTER_NFT_PRICE = "FILTER_NFT_PRICE";
 export const FILTER_NFT_NAME = "FILTER_NFT_NAME";
-export const ORDER_NFT_NAME = "ORDER_NFT_NAME"; 
-export const ORDER_NFT_PRICE = "ORDER_NFT_PRICE"; 
-export const ORDER_NFT_AMOUNT = "ORDER_NFT_AMOUNT"; 
-export const ORDER_NFT_CREATED_AT = "ORDER_NFT_CREATED_AT"; 
+export const ORDER_NFT_NAME = "ORDER_NFT_NAME";
+export const ORDER_NFT_PRICE = "ORDER_NFT_PRICE";
+export const ORDER_NFT_AMOUNT = "ORDER_NFT_AMOUNT";
+export const ORDER_NFT_CREATED_AT = "ORDER_NFT_CREATED_AT";
 export const CHANGE_ORDER_DIRECTION = "CHANGE_ORDER_DIRECTION";
 
 // -- HELPERS --
@@ -38,6 +38,10 @@ export const SET_NFTS_PER_PAGE = "SET_GAMES_PER_PAGE";
 // -- SEARCHING --
 // export const SEARCH_NFT = "SEARCH_NFT";
 
+// -- SHOPPING KART --
+export const ADD_NFT_ON_SHOOPING_CART = "ADD_NFT_ON_SHOOPING_CART";
+export const REMOVE_NFT_OF_SHOOPING_CART = "REMOVE_NFT_OF_SHOOPING_CART";
+export const BUY_NFT_ON_SHOOPING_CART = "BUY_NFT_ON_SHOOPING_CART";
 
 /*
   nft = {
@@ -64,15 +68,14 @@ export const SET_NFTS_PER_PAGE = "SET_GAMES_PER_PAGE";
 
 export const getAllNfts = () => {
   return async (dispatch) => {
-    dispatch({type : LOADING})
+    dispatch({ type: LOADING });
     try {
-      const allNfts = await axios.get("/nft") 
-      dispatch({type: GET_ALL_NFTS, payload: allNfts.data})
+      const allNfts = await axios.get("/nft");
+      dispatch({ type: GET_ALL_NFTS, payload: allNfts.data });
+    } catch (e) {
+      alert("There was a connection error, please try again later");
     }
-    catch (e) {
-      alert("There was a connection error, please try again later")
-    }
-  } 
+  };
 };
 
 export const getEthPrice = () => {
@@ -92,144 +95,165 @@ export const getEthPrice = () => {
 export const getAllCollections = () => {
   return async (dispatch) => {
     try {
-      const allCollections = await axios.get("/collection")
-      dispatch({type: GET_ALL_COLLECTIONS, payload: allCollections.data})
+      const allCollections = await axios.get("/collection");
+      dispatch({ type: GET_ALL_COLLECTIONS, payload: allCollections.data });
+    } catch (e) {
+      alert("There was a connection error, please try again later");
     }
-    catch (e) {
-      alert("There was a connection error, please try again later")
-    }
-  } 
+  };
 };
 
 export const getAllUsers = () => {
   return async (dispatch) => {
     try {
-      const allUsers = await axios.get("ruta") 
-      dispatch({type: GET_ALL_USERS, payload: allUsers.data})
+      const allUsers = await axios.get("ruta");
+      dispatch({ type: GET_ALL_USERS, payload: allUsers.data });
+    } catch (e) {
+      alert("There was a connection error, please try again later");
     }
-    catch (e) {
-      alert("There was a connection error, please try again later")
-    }
-  } 
+  };
 };
 
 export const getNftDetail = (id) => {
   return async (dispatch) => {
-    dispatch({type : LOADING})
-    try{
-      const nftId = await axios.get(`/nft/${id}`)
-      dispatch({type: GET_NFT_DETAIL, payload: nftId.data})
+    dispatch({ type: LOADING });
+    try {
+      const nftId = await axios.get(`/nft/${id}`);
+      dispatch({ type: GET_NFT_DETAIL, payload: nftId.data });
+    } catch (e) {
+      alert(e.response.data);
     }
-    catch (e) {
-      alert(e.response.data)
-    }
-  }
+  };
 };
 
 // --- FILTERS ---
 
 export const resetFilters = () => {
-return { type: RESET_FILTERS }
+  return { type: RESET_FILTERS };
 };
 
 export const filterCollection = (payload) => {
-  return { type: FILTER_NFT_COLLECTION, payload }
+  return { type: FILTER_NFT_COLLECTION, payload };
 };
 
 export const filterCategory = (payload) => {
-  return { type: FILTER_NFT_CATEGORY, payload }
+  return { type: FILTER_NFT_CATEGORY, payload };
 };
 
 export const filterPrice = (payload) => {
-  return { type: FILTER_NFT_PRICE, payload }
+  return { type: FILTER_NFT_PRICE, payload };
 };
 
 export const filterName = (payload) => {
-  return { type: FILTER_NFT_NAME, payload }
+  return { type: FILTER_NFT_NAME, payload };
 };
 
 export const filterState = (payload) => {
-  return { type: FILTER_NFT_STATE, payload } // compra o subasta FALTA EDITAR TYPE BACK
+  return { type: FILTER_NFT_STATE, payload }; // compra o subasta FALTA EDITAR TYPE BACK
 };
 
 // --- ORDERS ---
 
 export const orderName = (payload) => {
-  return { type: ORDER_NFT_NAME, payload }
+  return { type: ORDER_NFT_NAME, payload };
 };
 
 export const orderPrice = (payload) => {
-  return { type: ORDER_NFT_PRICE, payload }
+  return { type: ORDER_NFT_PRICE, payload };
 };
 
 export const orderAmount = (payload) => {
-  return { type: ORDER_NFT_AMOUNT, payload } // cantidad 1 o 100 unidades FALTA
+  return { type: ORDER_NFT_AMOUNT, payload }; // cantidad 1 o 100 unidades FALTA
 };
 
 export const orderCreatedAt = (payload) => {
-  return { type: ORDER_NFT_CREATED_AT, payload } // mas nuevos, mas antiguos FALTA
+  return { type: ORDER_NFT_CREATED_AT, payload }; // mas nuevos, mas antiguos FALTA
 };
 
 export const changeOrderDirection = () => {
   return { type: CHANGE_ORDER_DIRECTION };
-}
+};
 
-// --- ADMIN ONLY --- 
+// --- ADMIN ONLY ---
 
 export const createNft = (payload) => {
   return async (dispatch) => {
     try {
-      const createdNft = await axios.post(`/nft`, payload)
-      dispatch({type: CREATE_NFT, payload: createdNft.data}) // msj desde el back
+      const createdNft = await axios.post(`/nft`, payload);
+      dispatch({ type: CREATE_NFT, payload: createdNft.data }); // msj desde el back
       alert("NFT created successfully");
       window.location.href = "/";
     } catch (e) {
-      alert(e.response.data)
+      alert(e.response.data);
     }
-  }
-}
+  };
+};
 
 export const deleteNft = (id) => {
   return async (dispatch) => {
     try {
-      const deletedNft = await axios.delete(`/nft/${id}`)
-      dispatch({type: DELETE_NFT, payload: deletedNft.data}) // msj desde el back
+      const deletedNft = await axios.delete(`/nft/${id}`);
+      dispatch({ type: DELETE_NFT, payload: deletedNft.data }); // msj desde el back
       alert("NFT deleted successfully");
     } catch (e) {
-      alert(e.response.data)
+      alert(e.response.data);
     }
-  }
-}
+  };
+};
 
-export const updateNft = (id, payload) => { // mmh?
+export const updateNft = (id, payload) => {
+  // mmh?
   return async (dispatch) => {
     try {
-      const updateNft = await axios.put(`/nft/${id}`, payload)
-      dispatch({type: UPDATE_NFT, payload: updateNft.data}) // msj desde el back
+      const updateNft = await axios.put(`/nft/${id}`, payload);
+      dispatch({ type: UPDATE_NFT, payload: updateNft.data }); // msj desde el back
       alert("NFT updated successfully");
     } catch (e) {
-      alert(e.response.data)
-    } 
-  }
-}
+      alert(e.response.data);
+    }
+  };
+};
 
-// --- PAGINATION --- 
+// --- PAGINATION ---
 
 export const selectPage = (pageNumber) => {
-  return { type : SELECT_PAGE, payload : pageNumber }
-}
+  return { type: SELECT_PAGE, payload: pageNumber };
+};
 
 export const previousPage = () => {
-  return { type : PREV_PAGE }
-}
+  return { type: PREV_PAGE };
+};
 
 export const nextPage = () => {
-  return { type : NEXT_PAGE }
-}
+  return { type: NEXT_PAGE };
+};
 
 export const setNftsPerPage = (gamesPerPage) => {
-  return { type : SET_NFTS_PER_PAGE, payload : gamesPerPage }
-}
+  return { type: SET_NFTS_PER_PAGE, payload: gamesPerPage };
+};
+
+export const addNftOnShoppingCart = (nftData) => {
+  return { type: ADD_NFT_ON_SHOOPING_CART, payload: nftData };
+};
+
+export const removeNftOfShoppingCart = (nftId) => {
+  return { type: REMOVE_NFT_OF_SHOOPING_CART, payload: nftId };
+};
+
+export const buyNftOnShoppingCart = (nftsOnShoppingCart) => {
+  return (dispatch) => {
+    fetch(`http://localhost:3001/payment`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(nftsOnShoppingCart),
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        //RETORNA EL INIT POINT
+        dispatch({ type: BUY_NFT_ON_SHOOPING_CART, payload: data });
+      });
+  };
+};
 
 // export const searchNFT = (searchQuery) => {
 //     return {
@@ -237,4 +261,3 @@ export const setNftsPerPage = (gamesPerPage) => {
 //         payload : searchQuery
 //     }
 // }
-
