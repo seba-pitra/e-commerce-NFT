@@ -32,3 +32,9 @@
     flex-direction: column;
     margin: 10px 0;
 }
+
+.upload-icon{
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+}

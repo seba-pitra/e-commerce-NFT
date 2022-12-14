@@ -86,6 +86,8 @@ export default function Form() {
             </div>
             <div className="inputContainer">
               <h3>Image,video,audio or 3D model</h3>
+              <img className="upload-icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3hS_HE0vOKsFMFF5hU1beFsT4c7AkZpnjzw&usqp=CAU" alt="upload-icon"  />
+              <button id="upload-btn">Upload File</button>
               <p>
                 File types supported: JPG, PNG, GIF, SVG, MP4, WEBM, MP3, WAV,
                 OGG, GLB, GLTF. Max size: 100 MB
