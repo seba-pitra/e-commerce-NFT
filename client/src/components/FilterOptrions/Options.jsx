@@ -2,7 +2,7 @@ import * as actions from "../../redux/actions";
 import Ordering from "./Ordering/Ordering";
 import Filtering from "./Filtering/Filtering";
 import PriceSelector from "./PriceSelector/PriceSelector";
-import NFTSPerPageSelector from "./NFTSPerPageSelector/NFTSPerPageSelector";
+// import NFTSPerPageSelector from "./NFTSPerPageSelector/NFTSPerPageSelector";
 import { useDispatch } from "react-redux";
 import "./Options.css";
 
