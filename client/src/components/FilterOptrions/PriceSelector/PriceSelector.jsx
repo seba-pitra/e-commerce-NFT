@@ -12,7 +12,7 @@ const App = () => {
     currency: null,
   });
 
-  const currencies = ["USD", "ETH"];
+  const currencies = ["ETH", "USD", "ARS"];
 
 
   const handleMinChange = (e) => {

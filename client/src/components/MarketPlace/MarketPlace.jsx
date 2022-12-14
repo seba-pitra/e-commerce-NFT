@@ -13,8 +13,9 @@ function MarketPlace(){
     const dispatch = useDispatch();
 
     useEffect(() => {
-        dispatch(actions.getAllNfts());
+        dispatch(actions.getAllNfts())
         dispatch(actions.getAllCollections())
+        dispatch(actions.getEthPrice())
     },[dispatch]);
 
     useEffect(()=> {}, [order])
