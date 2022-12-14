@@ -2,8 +2,8 @@ import React from "react";
 import "./CreateNft.css";
 import "../NFTCard/NFTCard.css";
 import PreviewNft from "./PreviewNft/PreviewNft";
-import UploadWidget  from "./UploadWidget";
-
+import UploadWidget from "./UploadWidget";
+import {useEffect,useRef} from 'react';
 export function validate(input) {
   let errors = {
     name: "no data",
@@ -26,8 +26,6 @@ export function validate(input) {
   return errors;
 }
 export default function Form() {
-  // const myImage = new CloudinaryImage('sample', {cloudName: 'dwyhztlkw'}).resize(fill().width(100).height(150));
-  //name and file for the nft are obligatories
   let [input, setInput] = React.useState({
     name: "NFT's name",
     description: "",
@@ -37,9 +35,35 @@ export default function Form() {
     price: 0,
     image: "no image found",
   });
-  let handleOpenWidget = (img) => {
+  const cloudinaryRef = useRef();
+  const widgetRef = useRef();
+
+  useEffect(() => {
+    cloudinaryRef.current = window.cloudinary;
+    console.log(cloudinaryRef.current);
+    widgetRef.current = cloudinaryRef.current.createUploadWidget(
+      {
+        cloudName: "dwyhztlkw",
+        uploadPreset: "non_fungible_town",
+      },
+      function (error, result) {
+        if(result.info.files){
+          let urlImg =result.info.files[0].uploadInfo.secure_url
+          console.log(result.info.files[0].uploadInfo.secure_url)
+          setInput((prev) => ({ ...prev, image: urlImg }));
+        }
+       
+        
+      }
+    );
+  }, []);
+  let handleUpload = (e) => {
+    e.preventDefault();
+    widgetRef.current.open();
     
   };
+  
+  let handleOpenWidget = (img) => {};
   const [errors, setErrors] = React.useState({
     name: "no data",
     price: "do data",
@@ -88,8 +112,8 @@ export default function Form() {
             </div>
             <div className="inputContainer">
               <h3>Image,video,audio or 3D model</h3>
-              <UploadWidget/>
-              
+              <button onClick={(e) => handleUpload(e)}>Upload</button>
+
               <p>
                 File types supported: JPG, PNG, GIF, SVG, MP4, WEBM, MP3, WAV,
                 OGG, GLB, GLTF. Max size: 100 MB
