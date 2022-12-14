@@ -15,7 +15,6 @@ export default function NFTNav() {
 
   const location = useLocation();
   const areWeInLanding = location.pathname === "/";
-  console.log(location.pathname);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
