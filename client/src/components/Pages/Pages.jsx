@@ -32,7 +32,6 @@ function Pages() {
     );
   });
 
-  // console.log(nftsInPage);
   return (
     <div>
       {cards.length === 0 ? (

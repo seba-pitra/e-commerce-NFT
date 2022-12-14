@@ -26,6 +26,7 @@ export const CHANGE_ORDER_DIRECTION = "CHANGE_ORDER_DIRECTION";
 
 // -- HELPERS --
 export const LOADING = "LOADING";
+export const GET_ETH_PRICE = "GET_ETH_PRICE";
 
 // -- PAGINATION --
 export const SET_ACTIVE_PAGE = "SET_ACTIVE_PAGE";
@@ -76,6 +77,20 @@ export const getAllNfts = () => {
     }
   };
 };
+
+export const getEthPrice = () => {
+  return async (dispatch) => {
+    try {
+      const ethPrice = await axios.get("https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=USD,ARS")
+      console.log(ethPrice)
+      dispatch({type: GET_ETH_PRICE, payload: ethPrice.data})
+    }
+    catch (e) {
+        alert("There was a error whit the API, please try again later")
+    }
+  }
+ 
+}
 
 export const getAllCollections = () => {
   return async (dispatch) => {
