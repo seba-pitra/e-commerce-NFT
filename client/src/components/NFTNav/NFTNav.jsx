@@ -1,4 +1,5 @@
-import {React, useState } from 'react';
+import { React, useState } from 'react';
+import {  useLocation } from "react-router-dom";
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import SearchBar from '../SearchBar/SearchBar'
 import logo from '../../images/logo/logo.png';
@@ -12,13 +13,15 @@ import './NFTNav.css';
 export default function NFTNav() {
 	const [show, setShow] = useState(false);
 
+  const location = useLocation();
+  const areWeInLanding = (location.pathname === "/");
+  console.log(location.pathname);
 	const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
-
-
 return (
-    <Navbar className="brand-colorized-background-color" expand="lg">
+  <div className={areWeInLanding ? "hidden" : "nav-bar"}>
+    <Navbar className="brand-colorized-background-color"  expand="lg">
       <Container fluid>
             <img
               alt=""
@@ -26,7 +29,7 @@ return (
               width="60"
               height="60"
               className="d-inline-block align-top"
-            /> {' '}
+              /> {' '}
           <Navbar.Brand>
             <Navbar.Text className="navbar-company-name-header brand-colorized-text">
             Non Fungible Town
@@ -47,7 +50,7 @@ return (
             <Nav.Link className="brand-colorized-text" href="/login">Log in</Nav.Link>
             <Nav.Link  className="brand-colorized-text" href="/signup">Sign up</Nav.Link>
           {/* slide kart trigger*/ } 
-            <button  style={{backgroundColor: "black", color: "#D3448B",border: "none" }} onClick={handleShow}> <ShoppingCartIcon /></button>
+            <button  style={{backgroundColor: "black", color: "#D3448B",border: "none" }} onClick={handleShow}><ShoppingCartIcon /></button>
           {/* slide kart*/}
             <Offcanvas show={show} onHide={handleClose} placement={'end'}>
             <Offcanvas.Header closeButton>
@@ -62,5 +65,6 @@ return (
       </Navbar.Collapse>
       </Container>
     </Navbar>
-            );
+  </div>
+  );
 }
