@@ -2,6 +2,7 @@ import React from "react";
 import "./CreateNft.css";
 import "../NFTCard/NFTCard.css";
 import PreviewNft from "./PreviewNft/PreviewNft";
+import UploadWidget  from "./UploadWidget";
 
 export function validate(input) {
   let errors = {
@@ -25,6 +26,7 @@ export function validate(input) {
   return errors;
 }
 export default function Form() {
+  // const myImage = new CloudinaryImage('sample', {cloudName: 'dwyhztlkw'}).resize(fill().width(100).height(150));
   //name and file for the nft are obligatories
   let [input, setInput] = React.useState({
     name: "NFT's name",
@@ -35,7 +37,9 @@ export default function Form() {
     price: 0,
     image: "no image found",
   });
-
+  let handleOpenWidget = (img) => {
+    
+  };
   const [errors, setErrors] = React.useState({
     name: "no data",
     price: "do data",
@@ -84,8 +88,8 @@ export default function Form() {
             </div>
             <div className="inputContainer">
               <h3>Image,video,audio or 3D model</h3>
-              <img className="upload-icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3hS_HE0vOKsFMFF5hU1beFsT4c7AkZpnjzw&usqp=CAU" alt="upload-icon"  />
-              <button id="upload-btn">Upload File</button>
+              <UploadWidget/>
+              
               <p>
                 File types supported: JPG, PNG, GIF, SVG, MP4, WEBM, MP3, WAV,
                 OGG, GLB, GLTF. Max size: 100 MB
@@ -167,7 +171,7 @@ export default function Form() {
             </div>
           </form>
         </div>
-        
+
         <div className="ilustration-validations">
           <div className="ilustrationContainer">
             <h2>This is how your NFT it will be create</h2>
