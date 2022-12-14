@@ -2,37 +2,38 @@ import * as actions from "../../../redux/actions";
 import { useSelector } from "react-redux";
 import { useState } from "react";
 import { useDispatch } from "react-redux";
-import { collections } from "../../../collections.json";
 import "./Filtering.css";
 
 export default function Filtering() {
   //aqui van los estados de filtado que se encuentran en redux/reducer.
-  const [selectedCollection, setSelectedCollection] = useState("");
+  const [, setSelectedCollection] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("");
   const [selectedState, setSelectedState] = useState("");
 
   const dispatch = useDispatch();
 
   const nfts = useSelector((state) => state.nfts);
-
   const collections = useSelector((state) => state.collections);
 
   let filterCollection = [], count = 0;
-  collections.map(e => {
+  collections.forEach(e => {
     count = 0;
-    nfts.filter(nft => { if(nft.collectionId === e.id) count = count + 1 })
+    nfts.forEach(nft => { if(nft.collectionId === e.id) count = count + 1 })
     if (count > 1) filterCollection.push(e) 
   })
-
-  const arrCategories = [];
-  nfts.map((e) => { e.category.map((e) => arrCategories.push(e)) });
-  const categories = [];
-  arrCategories.filter((e) => { if (categories.indexOf(e) === -1) categories.push(e); });
   const states = ["Buy Now", "Auction", "All"];
 
-  // console.log(selectedCategory)
-  // console.log(selectedCollection)
-  // console.log(selectedState)
+  const arrCategories = [];
+  nfts.forEach((e) => { 
+    e.category.forEach((e) => 
+      arrCategories.push(e)
+      )});
+  const categories = [];
+  arrCategories.forEach((e) => { 
+    if (categories.indexOf(e) === -1) 
+    categories.push(e); 
+  });
+
   const selectCollection = (e) => {
     setSelectedCollection(e.target.value);
     dispatch(actions.filterCollection(e.target.value));

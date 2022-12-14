@@ -1,5 +1,4 @@
 import { useSelector } from 'react-redux';
-import { useEffect, useState } from 'react'
 import NFTCard from "../NFTCard/NFTCard";
 import NotFoundResults from "../NotFoundResults/NotFoundResults";
 import PageSelector from "../PageSelector/PageSelector";
@@ -22,7 +21,6 @@ function Pages(){
         />
     });
     
-    // console.log(nftsInPage);
     return(
         <div>
             { 
