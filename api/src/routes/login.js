@@ -4,7 +4,7 @@ const { app, auth, login, signUp, logOut, validateUser } = require("../firebase.
 const firebaseRouter = Router();
 
 // Login User
-firebaseRouter.get("/", async (req, res) => {
+firebaseRouter.post("/", async (req, res) => {
   const { email, password } = req.body;
 
   try {
@@ -19,7 +19,7 @@ firebaseRouter.get("/logOut", async (req, res) => {
 
   try {
     const test = await logOut();
-    res.status(200).send(test);
+    res.status(200).send({message: test});
   } catch (error) {
     res.status(400).send(error.message);
   }
@@ -35,7 +35,7 @@ firebaseRouter.get("/userInfo", async (req, res)=>{
   }
 })
 
-firebaseRouter.post("/", async (req, res) => {
+firebaseRouter.post("/sign", async (req, res) => {
   const { email, password } = req.body;
 
   try {

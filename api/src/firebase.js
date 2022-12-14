@@ -29,8 +29,12 @@ onAuthStateChanged(auth, (user)=>{
 
 // Login with email
 const login = async (email, password) => {
-  const loginUp = await signInWithEmailAndPassword(auth, email, password);
-  return loginUp;
+  try{
+    const loginUp = await signInWithEmailAndPassword(auth, email, password);
+    return loginUp;
+  } catch (error) {
+    throw error
+  }
 };
 
 
