@@ -69,7 +69,7 @@ export const getAllNfts = () => {
       dispatch({type: GET_ALL_NFTS, payload: allNfts.data})
     }
     catch (e) {
-      alert("There was a connection error, please try again later")
+      alert("There was a connection error, please try again later nft")
     }
   } 
 };
@@ -81,7 +81,7 @@ export const getAllCollections = () => {
       dispatch({type: GET_ALL_COLLECTIONS, payload: allCollections.data})
     }
     catch (e) {
-      alert("There was a connection error, please try again later")
+      alert("There was a connection error, please try again later collection")
     }
   } 
 };
@@ -93,7 +93,7 @@ export const getAllUsers = () => {
       dispatch({type: GET_ALL_USERS, payload: allUsers.data})
     }
     catch (e) {
-      alert("There was a connection error, please try again later")
+      alert("There was a connection error, please try again later user")
     }
   } 
 };

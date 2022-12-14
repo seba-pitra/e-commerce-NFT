@@ -1,5 +1,5 @@
 import { React, useState } from 'react';
-import {  useLocation } from "react-router-dom";
+import {  useLocation, useHistory } from "react-router-dom";
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import SearchBar from '../SearchBar/SearchBar'
 import logo from '../../images/logo/logo.png';
@@ -14,10 +14,27 @@ export default function NFTNav() {
 	const [show, setShow] = useState(false);
 
   const location = useLocation();
+  const history = useHistory()
   const areWeInLanding = (location.pathname === "/");
   console.log(location.pathname);
 	const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
+  const logOutFunction = async () => {
+    try {
+      const logOutUser = await fetch ("http://localhost:3001/login/logOut").then((res) => res.json());
+      if(logOutUser){
+        history.push("/")
+      }
+    } catch (error) {
+      alert(error.message)
+    }
+  }
+
+  const handdleCick = (e) => {
+    logOutFunction()
+    
+  }
 
 return (
   <div className={areWeInLanding ? "hidden" : "nav-bar"}>
@@ -47,8 +64,8 @@ return (
           </Nav>
           <SearchBar/>
           <Nav>
-            <Nav.Link className="brand-colorized-text" href="/login">Log in</Nav.Link>
-            <Nav.Link  className="brand-colorized-text" href="/signup">Sign up</Nav.Link>
+            {/* <Nav.Link className="brand-colorized-text" href="/login">Log in</Nav.Link> */}
+            <Nav.Link onClick={handdleCick} className="brand-colorized-text" >Logout</Nav.Link>
           {/* slide kart trigger*/ } 
             <button  style={{backgroundColor: "black", color: "#D3448B",border: "none" }} onClick={handleShow}><ShoppingCartIcon /></button>
           {/* slide kart*/}
