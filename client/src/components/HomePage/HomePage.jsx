@@ -1,9 +1,9 @@
-import * as actions from '../../redux/actions'
-import { useDispatch, useSelector } from 'react-redux';
-import { useEffect } from 'react'; 
-import Pages from "../Pages/Pages";
-import FilterOptions from '../FilterOptrions/Options';
-import Loading from '../Loading/Loading';
+// import * as actions from '../../redux/actions'
+// import { useDispatch, useSelector } from 'react-redux';
+// import { useEffect } from 'react'; 
+// import Pages from "../Pages/Pages";
+// import FilterOptions from '../FilterOptrions/Options';
+// import Loading from '../Loading/Loading';
 import "./HomePage.css"
 
 
