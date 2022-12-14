@@ -96,9 +96,9 @@ const rootReducer = (state = initialState, action) => {
       else
         state.categories = state.categories.filter((e) => e !== action.payload);
       state.categories.map((e) => {
-        filterByCategory = filterByCategory.filter((nft) =>
+        return (filterByCategory = filterByCategory.filter((nft) =>
           nft.category.includes(e)
-        );
+        ));
       });
       return { ...state, filteredNfts: filterByCategory, activePage: 1 };
     case FILTER_NFT_PRICE:

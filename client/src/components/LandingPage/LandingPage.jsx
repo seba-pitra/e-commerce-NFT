@@ -17,7 +17,7 @@ function LandingPage() {
       <div className={styles[customClass]}>
         <div className={styles["landing-info-container"]}>
           <div className={styles["landing-text-container"]}>
-            <h1 className={styles["landing-title"]}>NOT FUNGIBLE TOWN</h1>
+            <h1 className={styles["landing-title"]}>NON FUNGIBLE TOWN</h1>
             <h1 className={styles["landing-subtitle"]}>
               Explore the NFT world
             </h1>
@@ -120,7 +120,7 @@ function LandingPage() {
                       />
                       <label
                         className="form-check-label text-light"
-                        for="RememberCheck"
+                        htmlFor="RememberCheck"
                       >
                         Remember me
                       </label>

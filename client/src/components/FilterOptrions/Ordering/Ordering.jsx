@@ -1,6 +1,8 @@
 import * as actions from "../../../redux/actions";
 import { useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
+import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 import "./Ordering.css";
 
@@ -8,8 +10,8 @@ export default function Ordering() {
   //estos estados son para cambiar el estilo.
   const [nameOrderUp, setNameOrderUp] = useState(true);
   const [priceOrderUp, setPriceOrderUp] = useState(true);
-  const [amountOrderUp, setAmountOrderUp] = useState(true);
-  const [releaseOrderUp, setReleaseOrderUp] = useState(true);
+  // const [amountOrderUp, setAmountOrderUp] = useState(true);
+  // const [releaseOrderUp, setReleaseOrderUp] = useState(true);
 
   const dispatch = useDispatch();
 
@@ -46,18 +48,28 @@ export default function Ordering() {
         {/*Boton para elegir orden alfabetico*/}
         <button
           id="name-option"
-          className={nameOrderUp ? "btn-order-up" : "btn-order-down"}
+          className={nameOrderUp ? "btn-order-down" : "btn-order-up"}
           onClick={() => orderByName()}
         >
           Name
+          {
+            nameOrderUp ? 
+            <KeyboardArrowUpIcon></KeyboardArrowUpIcon> :
+            <KeyboardArrowDownIcon></KeyboardArrowDownIcon>
+          }
         </button>
         {/*boton para elegir orden por rating*/}
         <button
           id="price-option"
-          className={priceOrderUp ? "btn-order-up" : "btn-order-down"}
+          className={priceOrderUp ? "btn-order-down" : "btn-order-up"}
           onClick={() => orderByPrice()}
         >
           Price
+          {
+            priceOrderUp ? 
+            <KeyboardArrowUpIcon></KeyboardArrowUpIcon> :
+            <KeyboardArrowDownIcon></KeyboardArrowDownIcon>
+          }
         </button>
         {/* <button
                     id='amount-option'
