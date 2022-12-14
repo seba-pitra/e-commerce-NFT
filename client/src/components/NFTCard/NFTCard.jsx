@@ -1,10 +1,12 @@
 import { Link } from "react-router-dom";
 import "./NFTCard.css";
+import { useSelector } from 'react-redux';
 
 import FavoriteIcon from "@material-ui/icons/Favorite";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 
 export default function NFTCard(props) {
+  const ethPrice = useSelector(state => state.ethPrice);
   //{
   // id,
   // price,
@@ -16,13 +18,13 @@ export default function NFTCard(props) {
 
   //}
   //faltaria transformar precio eth a usd en el momento
-  return (
+  return (  
     <div className="cardContainer">
-      <Link className="link" to={`/details/${props.id}`}>
         {/*coloque un link rodeando a todo el card para que cuando el usuario hace click en **la tarjeta... lo lleve al detalle del nft** */}
 
         {/*estructura de la tarjeta del nft*/}
         <div className="nftCard-image-info">
+          <Link className="link" to={`/details/${props.id}`}>
           <div className="nftCard-img-container">
             <img
               className={"nftImage"}
@@ -31,10 +33,9 @@ export default function NFTCard(props) {
                   ? "https://preview.redd.it/j82jl2vpg4n71.jpg?auto=webp&s=e8431005571759e9fd9b5cd2e82dd27696d0b6c4"
                   : props.image
               }`}
-              alt="nft-preview"
+              alt="nft-image"
             />
-          </div>
-
+            </div>
           <div className={"bottom-img-info"}>
             <div className="nftCard-nameToken">
               {/* horizontal div */}
@@ -42,10 +43,11 @@ export default function NFTCard(props) {
               <h4>{props.tokenId}</h4>
             </div>
             <div>
-              <h3>floor price: {props.price}</h3>
-              <h4>Usd: ${(props.price * 1271).toFixed(2)}</h4>
+              <h3>Price ETH: {props.price}</h3> {/* ADD MATERIAL UI ICONO ETH */}
+              <h4>Usd: ${(props.price * ethPrice.USD).toFixed(2)} - Ars: ${(props.price * ethPrice.ARS).toFixed(2)}</h4>
             </div>
           </div>
+          </Link>
           <div className="CardButtons">
             <div className="nftCard-icon-container">
               {/* <FavoriteIcon /> */}
@@ -58,13 +60,12 @@ export default function NFTCard(props) {
             {/* <img src="" alt="add-to-favs" />
           <img src="" alt="shopping-cart" /> */}
           </div>
-        </div>
+          </div>
         {/* <h3>Last sale: falta esto</h3> */}
         <div className="CardButtons">
         <img src="" alt="add-to-favs" />
         <img src="" alt="shopping-cart" />
         </div>
-      </Link>
     </div>
   );
 }

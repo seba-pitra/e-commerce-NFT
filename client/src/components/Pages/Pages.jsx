@@ -21,6 +21,7 @@ function Pages(){
         />
     });
     
+    // console.log(nftsInPage);
     return(
         <div>
             { 
