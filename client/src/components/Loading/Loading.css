@@ -1,18 +1,31 @@
 .loading-page-container {
+  position: relative;
+}
 
+.loading-icon {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 300px;
+  margin: auto;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
 }
 
 .loading-message{
-	margin-top: 90%;
+  margin-top: auto;
+  margin-bottom: auto ;
 }
+
+.triangles-container {
+}
+
 /* entry */
 .triangles {
-  transform: translate(-50%, -50%);
   height: 81px;
   width: 90px;
-  position: absolute;
-  left: 50%;
-  top: 70%;
 }
 
 .tri {
