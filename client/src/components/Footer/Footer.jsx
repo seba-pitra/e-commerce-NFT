@@ -10,7 +10,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 
 export default function Footer(){
     return(
-      <div>
+      <div className='full-footer-container'>
       {/* Footer  Start */} 
         <footer
             className="text-center text-lg-start text-white"
