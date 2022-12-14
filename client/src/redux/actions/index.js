@@ -249,8 +249,7 @@ export const buyNftOnShoppingCart = (nftsOnShoppingCart) => {
     })
       .then((res) => res.json())
       .then((data) => {
-        //RETORNA EL INIT POINT
-        dispatch({ type: BUY_NFT_ON_SHOOPING_CART, payload: data });
+        dispatch({ type: BUY_NFT_ON_SHOOPING_CART, payload: data.init_point });
       });
   };
 };
