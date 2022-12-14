@@ -47,8 +47,9 @@ return (
           </Nav>
           <SearchBar/>
           <Nav>
+            <Nav.Link className="brand-colorized-text" href="http://localhost:3000/marketplace">MarketPlace</Nav.Link>
             <Nav.Link className="brand-colorized-text" href="/login">Log in</Nav.Link>
-            <Nav.Link  className="brand-colorized-text" href="/signup">Sign up</Nav.Link>
+            <Nav.Link className="brand-colorized-text" href="/signup">Sign up</Nav.Link>
           {/* slide kart trigger*/ } 
             <button  style={{backgroundColor: "black", color: "#D3448B",border: "none" }} onClick={handleShow}><ShoppingCartIcon /></button>
           {/* slide kart*/}
