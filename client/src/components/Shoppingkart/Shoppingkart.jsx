@@ -1,10 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import { useDispatch, useSelector } from "react-redux";
 import * as actions from "../../redux/actions";
 import styles from "./ShoppingCart.module.css";
-import { useState } from "react";
 
 export default function Shoppingkart() {
   const userNfts = useSelector((state) => state.userNfts);

@@ -14,8 +14,7 @@ import CreateNft from './components/CreateNft/CreateNft';
 import Register from './components/Registrer/Registrer';
 
 import MarketPlace from './components/MarketPlace/MarketPlace';
-
-
+import Collections from './components/Collections/Collections.jsx';
 
 function App() {
   return (
@@ -28,7 +27,8 @@ function App() {
 
           <Route exact path='/registrer' render={()=><Register/>} />
 
-          <Route exact path='/marketplace' render={()=><MarketPlace/>} />
+          <Route exact path='/marketplace' render={()=><MarketPlace/>} /> 
+          <Route exact path='/collections' render={()=><Collections/>} />
 
           <Route exact path='/createNft' render={()=><CreateNft/>} />
           <Route exact path='/details/:id' render={({match}) => <Details match={match}/>}/>

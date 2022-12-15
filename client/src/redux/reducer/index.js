@@ -63,7 +63,7 @@ const rootReducer = (state = initialState, action) => {
         categories: [],
       };
     case GET_ALL_COLLECTIONS:
-      return { ...state, collections: action.payload };
+      return { ...state, collections: action.payload, isLoading: false };
     case GET_ALL_USERS:
       return { ...state, users: action.payload };
     case GET_NFT_DETAIL:
