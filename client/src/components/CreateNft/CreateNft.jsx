@@ -27,7 +27,7 @@ export function validate(input) {
 }
 export default function Form() {
   let [input, setInput] = React.useState({
-    name: "NFT's name",
+    name: "",
     description: "",
     type: 'bid',
     contract : 'non-contract-yet',
@@ -36,6 +36,8 @@ export default function Form() {
     categories: [],
     price: 0,
     image: "no image found",
+    available :true
+    
   });
   const cloudinaryRef = useRef();
   const widgetRef = useRef();
@@ -65,7 +67,6 @@ export default function Form() {
     
   };
   
-  let handleOpenWidget = (img) => {};
   const [errors, setErrors] = React.useState({
     name: "no data",
     price: "do data",
@@ -110,6 +111,7 @@ export default function Form() {
                 name={"name"}
                 value={input.name}
                 onChange={(e) => handleChange(e)}
+                placeholder={'NFTs name...'}
               />
             </div>
             <div className="inputContainer">
@@ -145,6 +147,7 @@ export default function Form() {
                 name={"description"}
                 value={input.description}
                 onChange={(e) => handleChange(e)}
+                placeholder={'this NFT its about...'}
               />
               <p>
                 The description will be included on the item's detail page below
@@ -165,7 +168,7 @@ export default function Form() {
 
             <div className="inputContainer">
               <label>Price</label>
-              {/* se podria agregar en dolares/ethereum ,etc */}
+              <p>Put the price only in Ethereum</p>
               <input
                 type={"number"}
                 name={"price"}
@@ -205,6 +208,7 @@ export default function Form() {
               image={input.image}
               name={input.name}
               price={input.price}
+              tokenId ={input.tokenId}
             />
           </div>
           <div className="validations">
