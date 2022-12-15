@@ -14,6 +14,7 @@ import Register from './components/Registrer/Registrer';
 import MarketPlace from './components/MarketPlace/MarketPlace';
 import Collections from './components/Collections/Collections.jsx';
 import UserProfile from './components/UserComponents/UserProfile/UserProfile';
+import DeveloperTeam from './components/DeveloperTeam/DeveloperTeam';
 
 function App() {
   return (
