@@ -94,6 +94,7 @@ export const getEthPrice = () => {
 
 export const getAllCollections = () => {
   return async (dispatch) => {
+    dispatch({ type: LOADING });
     try {
       const allCollections = await axios.get("/collection");
       dispatch({ type: GET_ALL_COLLECTIONS, payload: allCollections.data });
@@ -245,6 +246,7 @@ export const buyNftOnShoppingCart = (nftsOnShoppingCart) => {
     await fetch(`http://localhost:3001/payment`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
+      mode: "cors",
       body: JSON.stringify(nftsOnShoppingCart),
     })
       .then((res) => res.json())
