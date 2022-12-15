@@ -81,16 +81,16 @@ export const getAllNfts = () => {
 export const getEthPrice = () => {
   return async (dispatch) => {
     try {
-      const ethPrice = await axios.get("https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=USD,ARS")
-      console.log(ethPrice)
-      dispatch({type: GET_ETH_PRICE, payload: ethPrice.data})
+      const ethPrice = await axios.get(
+        "https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=USD,ARS"
+      );
+      console.log(ethPrice);
+      dispatch({ type: GET_ETH_PRICE, payload: ethPrice.data });
+    } catch (e) {
+      alert("There was a error whit the API, please try again later");
     }
-    catch (e) {
-        alert("There was a error whit the API, please try again later")
-    }
-  }
- 
-}
+  };
+};
 
 export const getAllCollections = () => {
   return async (dispatch) => {
@@ -241,15 +241,15 @@ export const removeNftOfShoppingCart = (nftId) => {
 };
 
 export const buyNftOnShoppingCart = (nftsOnShoppingCart) => {
-  return (dispatch) => {
-    fetch(`http://localhost:3001/payment`, {
+  return async (dispatch) => {
+    await fetch(`http://localhost:3001/payment`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(nftsOnShoppingCart),
     })
       .then((res) => res.json())
       .then((data) => {
-        dispatch({ type: BUY_NFT_ON_SHOOPING_CART, payload: data.init_point });
+        window.location.replace(data.init_point);
       });
   };
 };

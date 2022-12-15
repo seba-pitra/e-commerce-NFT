@@ -8,25 +8,18 @@ import { useState } from "react";
 
 export default function Shoppingkart() {
   const userNfts = useSelector((state) => state.userNfts);
-  const redirectMercadoPago = useSelector((state) => state.redirectMercadoPago);
+
   const dispatch = useDispatch();
 
   const handleRemoveButton = async (nftId) => {
     dispatch(actions.removeNftOfShoppingCart(nftId));
   };
 
-  //Apreto el boton de comprar:
-  //1) dispatchar la action para mandar los nft's al back
-
   const handleBuyNftsOnShoppingCart = async () => {
     dispatch(actions.buyNftOnShoppingCart(userNfts));
   };
-  //2) En el back, llega al router y se ejecuta "getPaymentLink"
-  //3) En este controller, se ejecuta la funcion de suscripcion con la que se hace el pago.
-  //   (le deben llegar los NFT's y el email del user que compra)
 
   let totalAmount = 0;
-
   for (const nft of userNfts) {
     totalAmount += nft.price;
   }
