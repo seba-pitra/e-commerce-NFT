@@ -242,7 +242,7 @@ export const removeNftOfShoppingCart = (nftId) => {
 
 export const buyNftOnShoppingCart = (nftsOnShoppingCart) => {
   return (dispatch) => {
-    fetch(`http://localhost:3001/payment`, {
+      fetch(`http://localhost:3001/payment`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(nftsOnShoppingCart),
