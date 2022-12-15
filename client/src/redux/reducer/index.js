@@ -25,6 +25,7 @@ import {
   SET_NFTS_PER_PAGE,
   ADD_NFT_ON_SHOOPING_CART,
   REMOVE_NFT_OF_SHOOPING_CART,
+  BUY_NFT_ON_SHOOPING_CART,
 } from "../actions";
 import * as controllers from "../../utils";
 
@@ -35,6 +36,7 @@ const initialState = {
   categories: [],
   users: [],
   userNfts: [],
+  redirectMercadoPago: "",
   nftDetail: {},
   isLoading: false,
   orderDirection: "up-down",
@@ -177,6 +179,11 @@ const rootReducer = (state = initialState, action) => {
       return {
         ...state,
         userNfts: state.userNfts.filter((nft) => nft.id !== action.payload),
+      };
+    case BUY_NFT_ON_SHOOPING_CART:
+      return {
+        ...state,
+        redirectMercadoPago: action.payload,
       };
     default:
       return { ...state };

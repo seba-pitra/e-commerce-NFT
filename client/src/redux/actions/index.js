@@ -73,7 +73,7 @@ export const getAllNfts = () => {
       const allNfts = await axios.get("/nft");
       dispatch({ type: GET_ALL_NFTS, payload: allNfts.data });
     } catch (e) {
-      alert("There was a connection error, please try again later");
+      alert("There was a connection error, please try again later NFT");
     }
   };
 };
@@ -84,9 +84,8 @@ export const getEthPrice = () => {
       const ethPrice = await axios.get("https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=USD,ARS")
       console.log(ethPrice)
       dispatch({type: GET_ETH_PRICE, payload: ethPrice.data})
-    }
-    catch (e) {
-        alert("There was a error whit the API, please try again later")
+    } catch (e) { 
+      alert("There was a connection error, please try again later ETH")
     }
   }
  
@@ -98,7 +97,7 @@ export const getAllCollections = () => {
       const allCollections = await axios.get("/collection");
       dispatch({ type: GET_ALL_COLLECTIONS, payload: allCollections.data });
     } catch (e) {
-      alert("There was a connection error, please try again later");
+      alert("There was a connection error, please try again later collections");
     }
   };
 };
@@ -106,10 +105,11 @@ export const getAllCollections = () => {
 export const getAllUsers = () => {
   return async (dispatch) => {
     try {
-      const allUsers = await axios.get("ruta");
-      dispatch({ type: GET_ALL_USERS, payload: allUsers.data });
-    } catch (e) {
-      alert("There was a connection error, please try again later");
+      const allUsers = await axios.get("ruta") 
+      dispatch({type: GET_ALL_USERS, payload: allUsers.data})
+    }
+    catch (e) {
+      alert("There was a connection error, please try again later user")
     }
   };
 };
@@ -249,8 +249,7 @@ export const buyNftOnShoppingCart = (nftsOnShoppingCart) => {
     })
       .then((res) => res.json())
       .then((data) => {
-        //RETORNA EL INIT POINT
-        dispatch({ type: BUY_NFT_ON_SHOOPING_CART, payload: data });
+        dispatch({ type: BUY_NFT_ON_SHOOPING_CART, payload: data.init_point });
       });
   };
 };
