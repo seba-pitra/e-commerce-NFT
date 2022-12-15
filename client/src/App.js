@@ -15,6 +15,9 @@ import Register from './components/Registrer/Registrer';
 
 import MarketPlace from './components/MarketPlace/MarketPlace';
 import Collections from './components/Collections/Collections.jsx';
+import UserProfile from './components/UserComponents/UserProfile/UserProfile';
+
+
 
 function App() {
   return (
@@ -32,6 +35,9 @@ function App() {
 
           <Route exact path='/createNft' render={()=><CreateNft/>} />
           <Route exact path='/details/:id' render={({match}) => <Details match={match}/>}/>
+
+          <Route exact path='/user/:id' render={({match}) => <UserProfile match={match}/>}/>
+          
           <Route render={()=>{<NotFoundException/>}}/>
         </Switch>
       </React.Fragment>

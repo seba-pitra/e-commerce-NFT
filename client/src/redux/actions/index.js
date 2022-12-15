@@ -5,6 +5,7 @@ export const GET_ALL_NFTS = "GET_ALL_NFTS";
 export const GET_ALL_COLLECTIONS = "GET_ALL_COLLECTIONS";
 export const GET_ALL_USERS = "GET_ALL_USERS";
 export const GET_NFT_DETAIL = "GET_NFT_DETAIL";
+export const GET_USER_BY_ID = "GET_USER_BY_ID";
 
 // -- ADMIN ACTIONS --
 export const CREATE_NFT = "CREATE_NFT";
@@ -113,6 +114,18 @@ export const getAllUsers = () => {
       alert("There was a connection error, please try again later user");
     }
   };
+};
+
+export const getUserByID = (id) => {
+  return async (dispatch) => {
+    dispatch({type : LOADING})
+    try {
+      const user = await axios.get("ruta");
+      dispatch({type : GET_USER_BY_ID, payload : user.data});
+    }catch(e){
+      alert("There was a connection error, please try again later user")
+    }
+  }
 };
 
 export const getNftDetail = (id) => {
