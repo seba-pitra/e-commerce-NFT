@@ -5,7 +5,7 @@ export default function Loading(){
         <div className="loading-page-container">
             <div className='loading-icon'>
             <div className='triangles-container'>
-                <div class="triangles">
+                <div className="triangles">
                     <div className="tri invert"></div>
                     <div className="tri invert"></div>
                     <div className="tri"></div>
