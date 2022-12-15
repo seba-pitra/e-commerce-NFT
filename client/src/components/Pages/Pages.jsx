@@ -1,5 +1,4 @@
 import { useSelector } from "react-redux";
-import { useEffect, useState } from "react";
 import NFTCard from "../NFTCard/NFTCard";
 import NotFoundResults from "../NotFoundResults/NotFoundResults";
 import PageSelector from "../PageSelector/PageSelector";
@@ -12,7 +11,6 @@ function Pages() {
   const lastNftInPage = activePage * nftsPerPage;
   const firstNftInPage = lastNftInPage - nftsPerPage;
   const nftsInPage = filteredNfts.slice(firstNftInPage, lastNftInPage);
-  console.log(nftsInPage);
   const cards = nftsInPage.map((nft) => {
     return (
       <NFTCard
