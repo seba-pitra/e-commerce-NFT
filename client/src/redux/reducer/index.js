@@ -36,7 +36,6 @@ const initialState = {
   categories: [],
   users: [],
   userNfts: [],
-  redirectMercadoPago: "",
   nftDetail: {},
   isLoading: false,
   orderDirection: "up-down",
@@ -108,15 +107,33 @@ const rootReducer = (state = initialState, action) => {
     case FILTER_NFT_PRICE:
       let filterByPrice = []; // enviar error if max < min front?
       filterByPrice = state.nfts.filter((e) => e.price !== 0); // sin max o min no filtra? resetea si se borra alguno?
-      if(action.payload.currency === "ETH") {
-        if (action.payload.min !== 0) filterByPrice = state.nfts.filter( e => e.price > action.payload.min );
-        if (action.payload.max !== 0) filterByPrice = filterByPrice.filter( e => e.price < action.payload.max );
-      } else if (action.payload.currency === "USD"){
-        if (action.payload.min !== 0) filterByPrice = state.nfts.filter( e => (e.price * state.ethPrice.USD) > action.payload.min );
-        if (action.payload.max !== 0) filterByPrice = filterByPrice.filter( e => (e.price * state.ethPrice.USD) < action.payload.max );
+      if (action.payload.currency === "ETH") {
+        if (action.payload.min !== 0)
+          filterByPrice = state.nfts.filter(
+            (e) => e.price > action.payload.min
+          );
+        if (action.payload.max !== 0)
+          filterByPrice = filterByPrice.filter(
+            (e) => e.price < action.payload.max
+          );
+      } else if (action.payload.currency === "USD") {
+        if (action.payload.min !== 0)
+          filterByPrice = state.nfts.filter(
+            (e) => e.price * state.ethPrice.USD > action.payload.min
+          );
+        if (action.payload.max !== 0)
+          filterByPrice = filterByPrice.filter(
+            (e) => e.price * state.ethPrice.USD < action.payload.max
+          );
       } else {
-        if (action.payload.min !== 0) filterByPrice = state.nfts.filter( e => (e.price * state.ethPrice.ARS) > action.payload.min );
-        if (action.payload.max !== 0) filterByPrice = filterByPrice.filter( e => (e.price * state.ethPrice.ARS) < action.payload.max );
+        if (action.payload.min !== 0)
+          filterByPrice = state.nfts.filter(
+            (e) => e.price * state.ethPrice.ARS > action.payload.min
+          );
+        if (action.payload.max !== 0)
+          filterByPrice = filterByPrice.filter(
+            (e) => e.price * state.ethPrice.ARS < action.payload.max
+          );
       }
       return { ...state, filteredNfts: filterByPrice, activePage: 1 };
     case FILTER_NFT_STATE:
