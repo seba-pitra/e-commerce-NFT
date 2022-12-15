@@ -245,6 +245,7 @@ export const buyNftOnShoppingCart = (nftsOnShoppingCart) => {
     await fetch(`http://localhost:3001/payment`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
+      mode: "cors",
       body: JSON.stringify(nftsOnShoppingCart),
     })
       .then((res) => res.json())
