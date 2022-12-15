@@ -73,7 +73,7 @@ export const getAllNfts = () => {
       const allNfts = await axios.get("/nft");
       dispatch({ type: GET_ALL_NFTS, payload: allNfts.data });
     } catch (e) {
-      alert("There was a connection error, please try again later");
+      alert("There was a connection error, please try again later NFT");
     }
   };
 };
@@ -98,7 +98,7 @@ export const getAllCollections = () => {
       const allCollections = await axios.get("/collection");
       dispatch({ type: GET_ALL_COLLECTIONS, payload: allCollections.data });
     } catch (e) {
-      alert("There was a connection error, please try again later");
+      alert("There was a connection error, please try again later collections");
     }
   };
 };
@@ -109,7 +109,7 @@ export const getAllUsers = () => {
       const allUsers = await axios.get("ruta");
       dispatch({ type: GET_ALL_USERS, payload: allUsers.data });
     } catch (e) {
-      alert("There was a connection error, please try again later");
+      alert("There was a connection error, please try again later user");
     }
   };
 };
