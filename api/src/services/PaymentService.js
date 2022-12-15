@@ -1,23 +1,34 @@
 const axios = require("axios");
+require("dotenv").config();
+const { validateUser } = require("../firebase");
 
 class PaymentService {
-  async createPayment() {
+  async createPayment(nftBody) {
+    //NFT's y el email del user que va a comprar
     const url = "https://api.mercadopago.com/checkout/preferences";
 
+    const user = validateUser();
+
+    // console.log("USER", user.providerData[0].email);
+
     const body = {
-      payer_email: "test_user_52893000@testuser.com",
-      items: [
-        {
-          title: "Dummy Title",
-          description: "NFT description",
-          picture_url: "http://www.myapp.com/myimage.jpg",
-          category_id: "category123",
+      payer_email: user.providerData[0].email,
+      items: nftBody.map((nft) => {
+        const price = Math.floor(nft.price * 1271);
+
+        return {
+          title: nft.name,
+          description: "NFT descriptcion",
+          picture_url: nft.image,
+          category_id: nft.tokenId,
           quantity: 1,
-          unit_price: 10,
-        },
-      ],
+          unit_price: price,
+        };
+      }),
+
       back_urls: {
-        failure: "/failure",
+        //Create pages result
+        failure: "http://localhost:3000/marketplace",
         pending: "/pending",
         success: "/success",
       },

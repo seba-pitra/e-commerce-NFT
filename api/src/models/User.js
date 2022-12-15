@@ -34,9 +34,6 @@ module.exports = (sequelize) => {
       available: {
         type: DataTypes.BOOLEAN,
         allowNull: false,
-        validate: {
-          isIn: [[true, false]],
-        },
       },
       type: {
         type: DataTypes.STRING,
