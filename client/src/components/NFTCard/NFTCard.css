@@ -27,6 +27,10 @@
   max-height: 300px;
   box-sizing: border-box;
   border-radius: 15px;
+  object-fit:cover;
+
+  background-repeat: no-repeat;
+  
 }
 .bottom-img-info {
   display: flex;

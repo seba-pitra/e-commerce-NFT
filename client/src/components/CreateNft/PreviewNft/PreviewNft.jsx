@@ -39,7 +39,7 @@ export default function NFTCard(props) {
             <div className="nftCard-nameToken">
               {/* horizontal div */}
               <h3>{props.name}</h3>
-              <h4>{props.tokenId}</h4>
+              <h4>999</h4>
             </div>
             <div>
               <h3>floor price: {props.price}</h3>
