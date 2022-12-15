@@ -1,5 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { useHistory } from "react-router-dom";
+import FacebookIcon from "@material-ui/icons/Facebook";
+import GitHubIcon from "@material-ui/icons/GitHub";
+import GoogleIcon from '@mui/icons-material/Google';
+import {loginGoogle} from "../../firebase.js";
 import "./Login.css"
 
 
@@ -28,6 +32,12 @@ const Login = () => {
     });
   };
 
+  const signGoogle = async () =>{
+    await loginGoogle();
+    history.push("/home");
+  }
+
+
   const isLogged = async () =>{
     const loggedUser = await fetch("http://localhost:3001/login/userInfo").then(res=>res.json())
     console.log("Estoy en logged",loggedUser)
@@ -45,7 +55,9 @@ const Login = () => {
           "Content-Type": "application/json;charset=utf-8",
         },
         body: JSON.stringify(params)
-      }).then((res) => res.json());
+      }).then((res) => res.json()).then(data=>{
+        if(data.error) throw new Error (data.error)
+      });
 
       if(loggedUser){
         setError("")
@@ -53,7 +65,13 @@ const Login = () => {
       }
       
     } catch (error) {
-      setError("Could not login, data is invalid")
+      console.log(error.message)
+      if(error.message==="Firebase: Error (auth/user-not-found)."){
+        setError("User not found")
+      }
+      if(error.message === "Firebase: Error (auth/wrong-password)."){
+        setError("Wrong password")
+      }
     }
   };
 
@@ -64,25 +82,24 @@ const Login = () => {
       email: "",
       password: "",
     })
-    console.log(logginForm);
   };
 
-  if(logged) return <p>You've been logged</p>
+  if(logged) return <div className="login-loggedmessage"><p>You've been logged</p></div>
   else return (
     <form>
       <div className="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
-        {/* <p className="lead fw-normal mb-0 me-3 text-light">Sign in with</p>
+        <p className="lead fw-normal mb-0 me-3 text-light">Sign in with</p>
+        <button type="button" className="btn btn-dark btn-floating mx-1" onClick={signGoogle}>
+          <GoogleIcon />
+        </button> */
+
+        <button type="button" className="btn btn-dark btn-floating mx-1">
+          <GitHubIcon />
+        </button>
+
         <button type="button" className="btn btn-dark btn-floating mx-1">
           <FacebookIcon />
-        </button> */}
-
-        {/* <button type="button" className="btn btn-dark btn-floating mx-1">
-          <GitHubIcon />
-        </button> */}
-
-        {/* <button type="button" className="btn btn-dark btn-floating mx-1">
-          <LinkedInIcon />
-        </button> */}
+        </button>
       </div>
 
       {/* <div className="divider d-flex align-items-center my-4">
@@ -102,6 +119,7 @@ const Login = () => {
           id="EmailField"
           className="form-control form-control-lg"
           placeholder="Enter a valid email address"
+          value={logginForm.email}
         />
       </div>
 
@@ -116,6 +134,7 @@ const Login = () => {
           id="PassField"
           className="form-control form-control-lg"
           placeholder="Enter password"
+          value={logginForm.password}
         />
       </div>
 

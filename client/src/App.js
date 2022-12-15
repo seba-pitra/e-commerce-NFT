@@ -14,6 +14,7 @@ import Register from './components/Registrer/Registrer';
 
 
 function App() {
+  
   return (
     <div className='App'>
       <NFTNav></NFTNav>

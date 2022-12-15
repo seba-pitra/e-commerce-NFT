@@ -1,5 +1,5 @@
 const { Router } = require("express");
-const { app, auth, login, signUp, logOut, validateUser } = require("../firebase.js");
+const { app, auth, login, signUp, logOut, validateUser, providerGoogle } = require("../firebase.js");
 
 const firebaseRouter = Router();
 
@@ -11,7 +11,7 @@ firebaseRouter.post("/", async (req, res) => {
     const loginUp = await login(email, password);
     res.status(200).send(loginUp);
   } catch (error) {
-    res.status(400).send(error.message);
+    res.status(400).send({error:error.message});
   }
 });
 
@@ -45,5 +45,6 @@ firebaseRouter.post("/sign", async (req, res) => {
     res.status(400).send(error.message);
   }
 });
+
 
 module.exports = firebaseRouter;
