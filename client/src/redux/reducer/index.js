@@ -15,6 +15,7 @@ import {
   FILTER_NFT_NAME,
   ORDER_NFT_NAME,
   ORDER_NFT_PRICE,
+  GET_ETH_PRICE,
   // ORDER_NFT_AMOUNT,
   // ORDER_NFT_CREATED_AT,
   CHANGE_ORDER_DIRECTION,
@@ -24,6 +25,7 @@ import {
   SET_NFTS_PER_PAGE,
   ADD_NFT_ON_SHOOPING_CART,
   REMOVE_NFT_OF_SHOOPING_CART,
+  BUY_NFT_ON_SHOOPING_CART,
 } from "../actions";
 import * as controllers from "../../utils";
 
@@ -40,6 +42,7 @@ const initialState = {
   activePage: 1,
   nftsPerPage: 8,
   msj: "",
+  ethPrice: {},
 };
 
 const rootReducer = (state = initialState, action) => {
@@ -113,14 +116,23 @@ const rootReducer = (state = initialState, action) => {
           filterByPrice = filterByPrice.filter(
             (e) => e.price < action.payload.max
           );
-      } else {
+      } else if (action.payload.currency === "USD") {
         if (action.payload.min !== 0)
           filterByPrice = state.nfts.filter(
-            (e) => e.price * 1271 > action.payload.min
+            (e) => e.price * state.ethPrice.USD > action.payload.min
           );
         if (action.payload.max !== 0)
           filterByPrice = filterByPrice.filter(
-            (e) => e.price * 1271 < action.payload.max
+            (e) => e.price * state.ethPrice.USD < action.payload.max
+          );
+      } else {
+        if (action.payload.min !== 0)
+          filterByPrice = state.nfts.filter(
+            (e) => e.price * state.ethPrice.ARS > action.payload.min
+          );
+        if (action.payload.max !== 0)
+          filterByPrice = filterByPrice.filter(
+            (e) => e.price * state.ethPrice.ARS < action.payload.max
           );
       }
       return { ...state, filteredNfts: filterByPrice, activePage: 1 };
@@ -168,6 +180,8 @@ const rootReducer = (state = initialState, action) => {
       return { ...state, activePage: state.activePage + 1 };
     case PREV_PAGE:
       return { ...state, activePage: state.activePage - 1 };
+    case GET_ETH_PRICE:
+      return { ...state, ethPrice: action.payload };
     case ADD_NFT_ON_SHOOPING_CART:
       const foundNft = state.userNfts.find(
         (nft) => nft.id === action.payload.id
@@ -182,6 +196,11 @@ const rootReducer = (state = initialState, action) => {
       return {
         ...state,
         userNfts: state.userNfts.filter((nft) => nft.id !== action.payload),
+      };
+    case BUY_NFT_ON_SHOOPING_CART:
+      return {
+        ...state,
+        redirectMercadoPago: action.payload,
       };
     default:
       return { ...state };
