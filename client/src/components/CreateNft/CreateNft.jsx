@@ -2,7 +2,7 @@ import React from "react";
 import "./CreateNft.css";
 import "../NFTCard/NFTCard.css";
 import PreviewNft from "./PreviewNft/PreviewNft";
-import UploadWidget from "./UploadWidget";
+
 import {useEffect,useRef} from 'react';
 export function validate(input) {
   let errors = {
@@ -29,6 +29,8 @@ export default function Form() {
   let [input, setInput] = React.useState({
     name: "NFT's name",
     description: "",
+    type: 'bid',
+    contract : 'non-contract-yet',
     collection: "",
     link: "",
     categories: [],
