@@ -66,6 +66,7 @@ return (
           <SearchBar/>
           <Nav>
             {/* <Nav.Link className="brand-colorized-text" href="/login">Log in</Nav.Link> */}
+            <Nav.Link className="brand-colorized-text" href="http://localhost:3000/collections">Collections</Nav.Link>
             <Nav.Link className="brand-colorized-text" href="http://localhost:3000/marketplace">MarketPlace</Nav.Link>
             <Nav.Link onClick={handdleCick} className="brand-colorized-text" >Logout</Nav.Link>
           {/* slide kart trigger*/ } 
