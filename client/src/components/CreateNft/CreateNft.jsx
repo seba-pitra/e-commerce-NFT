@@ -2,8 +2,9 @@ import React from "react";
 import "./CreateNft.css";
 import "../NFTCard/NFTCard.css";
 import PreviewNft from "./PreviewNft/PreviewNft";
+import { createNft } from "../../redux/actions/index";
 
-import {useEffect,useRef} from 'react';
+import { useEffect, useRef } from "react";
 export function validate(input) {
   let errors = {
     name: "no data",
@@ -29,15 +30,14 @@ export default function Form() {
   let [input, setInput] = React.useState({
     name: "",
     description: "",
-    type: 'bid',
-    contract : 'non-contract-yet',
+    type: "bid",
+    contract: "non-contract-yet",
     collection: "",
     link: "",
     categories: [],
     price: 0,
     image: "no image found",
-    available :true
-    
+    available: true,
   });
   const cloudinaryRef = useRef();
   const widgetRef = useRef();
@@ -51,25 +51,22 @@ export default function Form() {
         uploadPreset: "non_fungible_town",
       },
       function (error, result) {
-        if(result.info.files){
-          let urlImg =result.info.files[0].uploadInfo.secure_url
-          console.log(result.info.files[0].uploadInfo.secure_url)
+        if (result.info.files) {
+          let urlImg = result.info.files[0].uploadInfo.secure_url;
+          console.log(result.info.files[0].uploadInfo.secure_url);
           setInput((prev) => ({ ...prev, image: urlImg }));
         }
-       
-        
       }
     );
   }, []);
   let handleUpload = (e) => {
     e.preventDefault();
     widgetRef.current.open();
-    
   };
-  
+
   const [errors, setErrors] = React.useState({
     name: "no data",
-    price: "do data",
+    price: "no data",
   });
 
   //asi tendria q venir el array de categories,puede cambiar como venga
@@ -97,6 +94,31 @@ export default function Form() {
     console.log(input);
   };
 
+  let handleSubmit = (e) => {
+    e.preventDefault();
+    let obj = {
+      name: input.name,
+      price: input.price,
+      tokenData: {
+        tokenId: "",
+        name: `${input.name.toUpperCase()} #`,
+        image: input.image,
+      },
+      source:{
+        domain:'',
+        name:'',
+        icon:''
+      },
+      description: input.description,
+      type: input.type,
+      available: input.available,
+      category: input.categories,
+      //imprescindibles falta contract y tokenId ,que eso se tiene que crear solo. y esperar a q esa info devuelta correctamente.
+      //source{domain,name,icon} supongo q viene de la cuenta del que crea el nft
+    };
+    // dispatch(createNft(obj))
+  };
+
   return (
     <React.Fragment>
       <div className="mainContainer">
@@ -106,17 +128,24 @@ export default function Form() {
           <form className="createNft">
             <div className="inputContainer">
               <label>Name</label>
+              <div className="inputAndErrorsMsg">
               <input
                 type={"text"}
                 name={"name"}
                 value={input.name}
                 onChange={(e) => handleChange(e)}
-                placeholder={'NFTs name...'}
+                placeholder={"NFTs name..."}
               />
+              <p className={errors.name === 'Name is correct' ? 'greenMsg' : 'redMsg'}>{errors.name}</p>
+              </div>
+              
+
             </div>
             <div className="inputContainer">
               <h3>Image,video,audio or 3D model</h3>
-              <button onClick={(e) => handleUpload(e)}>Upload</button>
+              <button
+              className="upload-file" 
+              onClick={(e) => handleUpload(e)}>Upload</button>
 
               <p>
                 File types supported: JPG, PNG, GIF, SVG, MP4, WEBM, MP3, WAV,
@@ -147,7 +176,7 @@ export default function Form() {
                 name={"description"}
                 value={input.description}
                 onChange={(e) => handleChange(e)}
-                placeholder={'this NFT its about...'}
+                placeholder={"this NFT its about..."}
               />
               <p>
                 The description will be included on the item's detail page below
@@ -169,12 +198,16 @@ export default function Form() {
             <div className="inputContainer">
               <label>Price</label>
               <p>Put the price only in Ethereum</p>
+              <div className="inputAndErrorsMsg">
               <input
                 type={"number"}
                 name={"price"}
                 value={input.price}
                 onChange={(e) => handleChange(e)}
               />
+              <p className={errors.price === 'Price is correct' ? 'greenMsg' : 'redMsg'}>{errors.price}</p>
+              </div>
+              
             </div>
 
             <div className="inputContainer">
@@ -208,21 +241,19 @@ export default function Form() {
               image={input.image}
               name={input.name}
               price={input.price}
-              tokenId ={input.tokenId}
+              tokenId={input.tokenId}
             />
           </div>
-          <div className="validations">
-            <h4>{errors.name}</h4>
-            <h4>{errors.price}</h4>
-          </div>
+          
           <input
-            className="submit"
+            className={errors.name === 'Name is correct' && errors.price === 'Price is correct' ? 'submit' : 'errorSubmit'}
             type="submit"
             value={"Create NFT"}
             disabled={
               errors.name !== "Name is correct" ||
               errors.price !== "Price is correct"
             }
+            onClick={(e) => handleSubmit(e)}
           />
         </div>
       </div>

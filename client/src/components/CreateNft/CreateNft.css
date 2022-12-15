@@ -3,9 +3,13 @@
   flex-direction: row;
   justify-content: space-evenly;
 }
+h1,h2{
+  margin: 25px 0;
+}
 .createNftContainer {
   border-left: 2px solid black;
   border-right: 2px solid black;
+  padding: 0 15px;
 }
 .createNft {
   padding: 5px;
@@ -28,13 +32,97 @@
 }
 .inputContainer{
     border-bottom: 1px solid black;
+    
     display: flex;
     flex-direction: column;
-    margin: 10px 0;
+    margin: 0 0 30px 0;
+    display: flex;
+    flex-direction: column;
 }
-
+.inputContainer *{
+  margin: 2px 0;
+}
+.inputContainer .upload-file{
+  margin-left: 170px;
+  border: 2px solid rgb(211, 68, 139, 1);
+  outline: none;
+  cursor: pointer;
+  appearance: none;
+  background-color: white;
+}
+.inputContainer .upload-file:hover{
+  background-color: #cb4183;
+  color: white;
+  cursor: pointer;
+  border: 2px solid white;
+}
+.upload-file{
+  
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+}
+.inputAndErrorsMsg{
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+.inputAndErrorsMsg p{
+  
+  margin-bottom: 8px;
+  margin-left: 50px;
+}
+.greenMsg{
+  color:green
+}
+.redMsg{
+  color:red
+}
 .upload-icon{
   margin: 0 auto;
   width: 150px;
   height: 150px;
+}
+.ilustration-validations{
+  
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+
+}
+.ilustrationContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.ilustration-validations .submit{
+  width: 180px;
+  height: 50px;
+  border-radius: 15px;
+  border: 2px solid rgb(211, 68, 139, 1);
+  background-color: white;
+  
+  
+}
+.ilustration-validations .submit:hover{
+  background-color: #cb4183;
+  color: white;
+  cursor: pointer;
+  border: 2px solid white;
+
+}
+.errorSubmit{
+  width: 180px;
+  height: 50px;
+  border-radius: 15px;
+  
+  background-color: white;
+  border: 2px solid  #d1d1d1;
 }
