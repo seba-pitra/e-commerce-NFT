@@ -1,6 +1,6 @@
 // import '/node_modules/bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
 import React from "react";
 import LandingPage from './components/LandingPage/LandingPage';
 import HomePage from './components/HomePage/HomePage';
@@ -17,28 +17,31 @@ import MarketPlace from './components/MarketPlace/MarketPlace';
 import Collections from './components/Collections/Collections.jsx';
 import UserProfile from './components/UserComponents/UserProfile/UserProfile';
 
-
-
 function App() {
   return (
-    <div className='App'>
+    <div className="App">
       <NFTNav></NFTNav>
       <React.Fragment>
         <Switch>
-          <Route exact path='/' render={()=><LandingPage/>} />
-          <Route exact path='/home' render={()=><HomePage/>} />
-
-          <Route exact path='/registrer' render={()=><Register/>} />
-
-          <Route exact path='/marketplace' render={()=><MarketPlace/>} /> 
-          <Route exact path='/collections' render={()=><Collections/>} />
-
-          <Route exact path='/createNft' render={()=><CreateNft/>} />
-          <Route exact path='/details/:id' render={({match}) => <Details match={match}/>}/>
-
+          <Route exact path="/" render={() => <LandingPage />} />
+          <Route exact path="/home" render={() => <HomePage />} />
+          <Route exact path="/registrer" render={() => <Register />} />
+          <Route exact path="/marketplace" render={() => <MarketPlace />} />
+          <Route exact path="/collections" render={() => <Collections />} />
+          <Route exact path="/developerTeam" render={() => <DeveloperTeam />} />
+          <Route exact path="/createNft" render={() => <CreateNft />} />
           <Route exact path='/user/:id' render={({match}) => <UserProfile match={match}/>}/>
           
-          <Route render={()=>{<NotFoundException/>}}/>
+          <Route
+            exact
+            path="/details/:id"
+            render={({ match }) => <Details match={match} />}
+          />
+          <Route
+            render={() => {
+              <NotFoundException />;
+            }}
+          />
         </Switch>
       </React.Fragment>
       <Footer />
