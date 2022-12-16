@@ -9,9 +9,11 @@ import Offcanvas from "react-bootstrap/Offcanvas";
 import { signOut } from "firebase/auth"
 import { auth } from "../../firebase";
 import "./NFTNav.css";
+import { useDispatch, useSelector } from "react-redux";
 
 export default function NFTNav() {
   const [show, setShow] = useState(false);
+	const cartItemsCount = useSelector((state) => state.userNfts);
 
   const location = useLocation();
   const history = useHistory();
@@ -74,6 +76,12 @@ export default function NFTNav() {
               </Nav.Link>
               <Nav.Link
                 className="brand-colorized-text"
+                href="http://localhost:3000/collections"
+              >
+                Collections
+              </Nav.Link>
+              <Nav.Link
+                className="brand-colorized-text"
                 href="http://localhost:3000/developerTeam"
               >
                 Developer Team
@@ -91,7 +99,8 @@ export default function NFTNav() {
                 onClick={handleShow}
               >
                 <ShoppingCartIcon />
-              </button>
+		<span id="cart_Numer_Items"  class="badge rounded-circle">{cartItemsCount.length}</span>
+	        </button>
               {/* slide kart*/}
               <Offcanvas show={show} onHide={handleClose} placement={"end"}>
                 <Offcanvas.Header closeButton>

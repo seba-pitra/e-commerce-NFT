@@ -1,18 +1,128 @@
-.mainContainer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+h1,h2{
+  margin: 25px 0;
+}
+.createNftContainer {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  padding: 0 15px;
+}
+.createNft {
+  padding: 5px;
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: auto;
 }
 
-.createNft{
-    background-color: #151b25;
-    color: white;
-    padding: 5px;
-    border:4px solid white;
-    border-radius: 30px;
-    max-width: 500px;
-    width: 100%;
+.createNft input {
+  max-width: 250px;
+  border-radius: 10px;
+  border: 2px solid rgb(211, 68, 139, 1);
+  outline: none;
+  cursor: pointer;
+  appearance: none;
+  padding-left: 5px;
+  margin: 15px 0;
+}
+.inputContainer{
+    border-bottom: 1px solid black;
+    
     display: flex;
     flex-direction: column;
-    height: auto;
+    margin: 0 0 30px 0;
+    display: flex;
+    flex-direction: column;
+}
+.inputContainer *{
+  margin: 2px 0;
+}
+.inputContainer .upload-file{
+  margin-left: 170px;
+  border: 2px solid rgb(211, 68, 139, 1);
+  outline: none;
+  cursor: pointer;
+  appearance: none;
+  background-color: white;
+}
+.inputContainer .upload-file:hover{
+  background-color: #cb4183;
+  color: white;
+  cursor: pointer;
+  border: 2px solid white;
+}
+.upload-file{
+  
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+}
+.inputAndErrorsMsg{
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+.inputAndErrorsMsg p{
+  
+  margin-bottom: 8px;
+  margin-left: 50px;
+}
+.greenMsg{
+  color:green
+}
+.redMsg{
+  color:red
+}
+.upload-icon{
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+}
+.ilustration-validations{
+  
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+
+}
+.ilustrationContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.ilustration-validations .submit{
+  width: 180px;
+  height: 50px;
+  border-radius: 15px;
+  border: 2px solid rgb(211, 68, 139, 1);
+  background-color: white;
+  
+  
+}
+.ilustration-validations .submit:hover{
+  background-color: #cb4183;
+  color: white;
+  cursor: pointer;
+  border: 2px solid white;
+
+}
+.errorSubmit{
+  width: 180px;
+  height: 50px;
+  border-radius: 15px;
+  
+  background-color: white;
+  border: 2px solid  #d1d1d1;
 }
