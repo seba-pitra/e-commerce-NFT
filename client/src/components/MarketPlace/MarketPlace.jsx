@@ -28,7 +28,9 @@ function MarketPlace(){
                 <div className='test'>        
                     <FilterOptions />
                 </div>
-                <Pages/>
+                    <div className='hola'>
+                    <Pages/>
+                    </div>
                 </div>     
             }
             </div>
