@@ -7,9 +7,11 @@ import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 import Shoppingkart from "../Shoppingkart/Shoppingkart";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import "./NFTNav.css";
+import { useDispatch, useSelector } from "react-redux";
 
 export default function NFTNav() {
   const [show, setShow] = useState(false);
+	const cartItemsCount = useSelector((state) => state.userNfts);
 
   const location = useLocation();
   const history = useHistory();
@@ -93,7 +95,7 @@ export default function NFTNav() {
                 onClick={handleShow}
               >
                 <ShoppingCartIcon />
-		<span id="cart_Numer_Items"  class="badge rounded-circle">9</span>
+		<span id="cart_Numer_Items"  class="badge rounded-circle">{cartItemsCount.length}</span>
 	        </button>
               {/* slide kart*/}
               <Offcanvas show={show} onHide={handleClose} placement={"end"}>
