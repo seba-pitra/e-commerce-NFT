@@ -93,7 +93,8 @@ export default function NFTNav() {
                 onClick={handleShow}
               >
                 <ShoppingCartIcon />
-              </button>
+		<span id="cart_Numer_Items"  class="badge rounded-circle">9</span>
+	        </button>
               {/* slide kart*/}
               <Offcanvas show={show} onHide={handleClose} placement={"end"}>
                 <Offcanvas.Header closeButton>

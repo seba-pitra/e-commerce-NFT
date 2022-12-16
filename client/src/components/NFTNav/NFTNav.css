@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css');
 
 .navbar-company-name-header {
     margin-left: 10%;
@@ -22,3 +23,17 @@
 }
 
 
+#cart_Numer_Items {
+  position: relative;
+  top: -30px;
+  left: 55%;
+  background: red;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 2px;
+}
