@@ -22,10 +22,10 @@ module.exports = (sequelize) => {
         type: DataTypes.STRING,
         allowNull: false,
       },
-      available: {
-        type: DataTypes.BOOLEAN,
-        allowNull: false,
-      },
+      // available: {
+      //   type: DataTypes.BOOLEAN,
+      //   allowNull: false,
+      // },
       type: {
         type: DataTypes.STRING,
         allowNull: false,

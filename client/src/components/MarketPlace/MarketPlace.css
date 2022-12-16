@@ -6,10 +6,19 @@
 .test {
   border: none;
   border-right: 1px solid lightgray;
-  width: 320px;
+  width: 14vw;
+  min-width: 270px;
   display: flex;
   flex-direction: column;
   margin: 0px;
   display: flex;
   padding: 0 10px;
+  min-height: 750px;
+}
+
+.hola {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px auto;
 }

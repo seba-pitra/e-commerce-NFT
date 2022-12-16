@@ -76,6 +76,12 @@ export default function NFTNav() {
               </Nav.Link>
               <Nav.Link
                 className="brand-colorized-text"
+                href="http://localhost:3000/collections"
+              >
+                Collections
+              </Nav.Link>
+              <Nav.Link
+                className="brand-colorized-text"
                 href="http://localhost:3000/developerTeam"
               >
                 Developer Team
