@@ -3,7 +3,8 @@ import { useHistory } from "react-router-dom";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import GoogleIcon from '@mui/icons-material/Google';
-import {loginGoogle} from "../../firebase.js";
+import {auth, loginGoogle} from "../../firebase.js";
+import {signInWithEmailAndPassword, } from "firebase/auth"
 import "./Login.css"
 
 
@@ -48,20 +49,18 @@ const Login = () => {
 
   const logginFunction = async (params) => {
     try {
-      const loggedUser = await fetch("http://localhost:3001/login",{
-        method: "POST",
-        headers: {
-          Accept: "application/json",
-          "Content-Type": "application/json;charset=utf-8",
-        },
-        body: JSON.stringify(params)
-      }).then((res) => res.json()).then(data=>{
-        if(data.error) throw new Error (data.error)
-      });
+      const loggedUser = await signInWithEmailAndPassword(auth, params.email, params.password)
 
       if(loggedUser){
+        fetch("http://localhost:3001/payment/userEmail", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(auth.currentUser),
+        // body: "hola",
+        // mode: "same-origin",
+      });
         setError("")
-        history.push("/home")
+        history.push("/marketplace")
       }
       
     } catch (error) {

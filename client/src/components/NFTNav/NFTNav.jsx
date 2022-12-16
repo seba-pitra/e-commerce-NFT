@@ -6,6 +6,8 @@ import logo from "../../images/logo/logo.png";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 import Shoppingkart from "../Shoppingkart/Shoppingkart";
 import Offcanvas from "react-bootstrap/Offcanvas";
+import { signOut } from "firebase/auth"
+import { auth } from "../../firebase";
 import "./NFTNav.css";
 
 export default function NFTNav() {
@@ -20,13 +22,9 @@ export default function NFTNav() {
 
   const logOutFunction = async () => {
     try {
-      const logOutUser = await fetch("http://localhost:3001/login/logOut").then(
-        (res) => res.json()
-      );
-      if (logOutUser) {
+        await signOut(auth)
         history.push("/");
-      }
-    } catch (error) {
+      } catch (error) {
       alert(error.message);
     }
   };

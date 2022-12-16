@@ -1,7 +1,7 @@
 // import '/node_modules/bootstrap/dist/css/bootstrap.min.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import React from "react";
+import React, {useState} from "react";
 import LandingPage from "./components/LandingPage/LandingPage";
 import HomePage from "./components/HomePage/HomePage";
 import Details from "./components/Details/Details";
@@ -14,21 +14,29 @@ import Register from "./components/Registrer/Registrer";
 import MarketPlace from "./components/MarketPlace/MarketPlace";
 import DeveloperTeam from "./components/DeveloperTeam/DeveloperTeam";
 import Collections from "./components/Collections/Collections.jsx";
-
+import { auth } from "./firebase.js";
+import { onAuthStateChanged } from "firebase/auth";
 function App() {
-  
+  const [loggedIn, setLoggedIn] = useState(true);
+  onAuthStateChanged(auth, (user) => {
+    if (user) {
+      setLoggedIn(true);
+    } else {
+      setLoggedIn(false);
+    }
+  });
   return (
     <div className="App">
       <NFTNav></NFTNav>
       <React.Fragment>
         <Switch>
-          <Route exact path="/" render={() => <LandingPage />} />
-          <Route exact path="/home" render={() => <HomePage />} />
-          <Route exact path="/registrer" render={() => <Register />} />
-          <Route exact path="/marketplace" render={() => <MarketPlace />} />
-          <Route exact path="/collections" render={() => <Collections />} />
-          <Route exact path="/developerTeam" render={() => <DeveloperTeam />} />
-          <Route exact path="/createNft" render={() => <CreateNft />} />
+          <Route exact path="/" render={() => <LandingPage loggedIn={loggedIn} />} />
+          <Route exact path="/home" render={() => <HomePage loggedIn={loggedIn} />} />
+          <Route exact path="/registrer" render={() => <Register loggedIn={loggedIn} />} />
+          <Route exact path="/marketplace" render={() => <MarketPlace loggedIn={loggedIn} />} />
+          <Route exact path="/collections" render={() => <Collections loggedIn={loggedIn} />} />
+          <Route exact path="/developerTeam" render={() => <DeveloperTeam loggedIn={loggedIn} />} />
+          <Route exact path="/createNft" render={() => <CreateNft loggedIn={loggedIn} />} />
           <Route
             exact
             path="/details/:id"
