@@ -2,6 +2,7 @@ import * as actions from '../../redux/actions'
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react'; 
 import { useHistory } from 'react-router-dom';
+import { loggedIn } from '../../firebase';
 import "./HomePage.css"
 
 
@@ -23,16 +24,15 @@ function HomePage(){
     },[dispatch])
     const validateUser = async () => {
         try {
-          const loggedUser = await fetch ("http://localhost:3001/login/userInfo").then((res) => res.json());
-          if(loggedUser){
+          if(loggedIn){
             dispatch(actions.getAllNfts());
             dispatch(actions.getAllCollections())
           }
           
         } catch (error) {
-            history.push("/")
+            history.push("/marketplace")
         }
-      }
+    }
 
     return(
         <>
