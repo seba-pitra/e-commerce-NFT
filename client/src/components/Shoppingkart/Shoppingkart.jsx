@@ -13,6 +13,11 @@ export default function Shoppingkart() {
     dispatch(actions.removeNftOfShoppingCart(nftId));
   };
 
+  //Apreto el boton de comprar:
+  //1) dispatchar la action para mandar los nft's al back
+  //2) En el back, llega al router y se ejecuta "getPaymentLink"
+  //3) En este controller, se ejecuta la funcion de suscripcion con la que se hace el pago.
+  //   (le deben llegar los NFT's y el email del user que compra)
   const handleBuyNftsOnShoppingCart = async () => {
     dispatch(actions.buyNftOnShoppingCart(userNfts));
   };
@@ -65,7 +70,7 @@ export default function Shoppingkart() {
       {/* To pay API   */}
       <div className="text-center text-lg-bottom mt-4 pt-2">
         <Button
-          onClick={() => {
+          onClick={(e) => {
             handleBuyNftsOnShoppingCart();
           }}
         >
