@@ -5,7 +5,11 @@ const { Nft, Collection } = require("../db");
 
 const getNfts = async (req, res) => {
   try {
-    const dbNfts = await Nft.findAll({});
+    const dbNfts = await Nft.findAll({
+      include: {
+        model : Collection
+      }
+    });
     if(dbNfts.length === 0){
       throw new Error("nothing on database please contact Mr. Miguel Villa");
     }
@@ -50,8 +54,13 @@ const createAllInitialNFTs = async () => {
     const response = await Nft.findAll();
     if(response.length === 0){
       allNFTs.forEach(async (nft) => {
+        let nftName = nft.token.name || nft.token.collection.name + " #" + nft.token.tokenId
+
+        nftName = nftName.charAt(0) === "#" ? nft.token.collection.name + " " + nftName : nftName
+        nftName = nftName.includes("#") ? nftName : nftName + " #" + nft.token.tokenId
+
         let nftToDB = {
-        name: nft.token.name || "No name",
+        name: nftName,
         image: nft.token.image || "No image",
         available: true,
         contract: nft.token.contract,
