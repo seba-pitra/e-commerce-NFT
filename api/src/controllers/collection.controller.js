@@ -4,9 +4,9 @@ const { collections } = require("../jsondata/collections.json")
 
 const getCollections = async (req, res) => {
   try{
-    let dbCollections = await Collection.findAll();
+    const dbCollections = await Collection.findAll();
     if(dbCollections.length === 0){
-      dbCollections = await createAllInitialCollections();
+      throw new Error("nothing on database please contact Mr. Miguel Villa");
     }
     return res.status(200).json(dbCollections);
   }catch(err){
@@ -30,7 +30,7 @@ const createAllInitialCollections = async () => {
       id : collection.collectionId,
       name : collection.name,
       image : collection.image
-    }
+    };
     const collectionInDB = await Collection.create(collectionToDB)
     response.push(collectionInDB);
   })
