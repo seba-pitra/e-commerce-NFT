@@ -67,7 +67,6 @@ const getNfts = async () => {
       },
     ],
   });
- /*  if (!dbNfts.length) throw new Error("No NFT found"); */
 
   return dbNfts;
 };

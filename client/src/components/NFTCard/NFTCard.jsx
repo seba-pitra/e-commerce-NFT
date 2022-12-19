@@ -1,28 +1,26 @@
 import { Link } from "react-router-dom";
 import "./NFTCard.css";
+import { useSelector } from "react-redux";
 
 import FavoriteIcon from "@material-ui/icons/Favorite";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
+import { useDispatch } from "react-redux";
+import * as actions from "../../redux/actions";
+import "./NFTCard.css";
 
 export default function NFTCard(props) {
-  //{
-  // id,
-  // price,
-  // image,
-  // type,
-  // contract,
-  // last price,
-  //tokenId
+  const ethPrice = useSelector((state) => state.ethPrice);
 
-  //}
-  //faltaria transformar precio eth a usd en el momento
+  const dispatch = useDispatch();
+
+  const handleClickOnShoppingCart = (e) => {
+    dispatch(actions.addNftOnShoppingCart(props));
+  };
+
   return (
     <div className="cardContainer">
-      <Link className="link" to={`/details/${props.id}`}>
-        {/*coloque un link rodeando a todo el card para que cuando el usuario hace click en **la tarjeta... lo lleve al detalle del nft** */}
-
-        {/*estructura de la tarjeta del nft*/}
-        <div className="nftCard-image-info">
+      <div className="nftCard-image-info">
+        <Link className="link" to={`/details/${props.id}`}>
           <div className="nftCard-img-container">
             <img
               className={"nftImage"}
@@ -34,37 +32,35 @@ export default function NFTCard(props) {
               alt="nft-image"
             />
           </div>
-
           <div className={"bottom-img-info"}>
             <div className="nftCard-nameToken">
-              {/* horizontal div */}
               <h3>{props.name}</h3>
-              <h4>{props.tokenId}</h4>
             </div>
             <div>
-              <h3>floor price: {props.price}</h3>
-              <h4>Usd: ${(props.price * 1271).toFixed(2)}</h4>
+              <h3>Price ETH: {props.price}</h3>{" "}
+              <h4>
+                Usd: ${(props.price * ethPrice.USD).toFixed(2)} - Ars: $
+                {(props.price * ethPrice.ARS).toFixed(2)}
+              </h4>
             </div>
           </div>
-          <div className="CardButtons">
-            <div className="nftCard-icon-container">
-              {/* <FavoriteIcon /> */}
-              <FavoriteIcon />
-            </div>
-            <div className="nftCard-icon-container">
-              {/* <FavoriteIcon /> */}
-              <ShoppingCartIcon />
-            </div>
-            {/* <img src="" alt="add-to-favs" />
-          <img src="" alt="shopping-cart" /> */}
+        </Link>
+        <div className="CardButtons">
+          <div className="nftCard-icon-container">
+            <FavoriteIcon />
+          </div>
+          <div
+            className="nftCard-icon-container"
+            onClick={handleClickOnShoppingCart}
+          >
+            <ShoppingCartIcon />
           </div>
         </div>
-        {/* <h3>Last sale: falta esto</h3> */}
-        <div className="CardButtons">
+      </div>
+      <div className="CardButtons">
         <img src="" alt="add-to-favs" />
         <img src="" alt="shopping-cart" />
-        </div>
-      </Link>
+      </div>
     </div>
   );
 }

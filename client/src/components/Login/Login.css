@@ -1,0 +1,11 @@
+.login-errormessage{
+    display: flex;
+    color: white;
+}
+.login-loggedmessage{
+    color: white;
+    font-size: 16px;
+}
+.noneDisplay{
+    display: none;
+}

@@ -17,6 +17,8 @@ export function orderNFTBy(orderOption, orderDirection, nftsToSort){
             return orderNFTByCreation(orderDirection, nftsToSort)
         case RATING:
             return orderNFTByRating(orderDirection, nftsToSort)
+        default:
+            return nftsToSort;
     }
 }
 

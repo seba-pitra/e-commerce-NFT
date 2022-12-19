@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
 import styles from "./LandingPage.module.css";
 
-import FacebookIcon from "@material-ui/icons/Facebook";
-import GitHubIcon from "@material-ui/icons/GitHub";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
+// import FacebookIcon from "@material-ui/icons/Facebook";
+// import GitHubIcon from "@material-ui/icons/GitHub";
+// import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import img from "../../images/city-landing.jpg";
+import Login from "../Login/Login";
 import { useState } from "react";
 
 function LandingPage() {
@@ -17,12 +18,12 @@ function LandingPage() {
       <div className={styles[customClass]}>
         <div className={styles["landing-info-container"]}>
           <div className={styles["landing-text-container"]}>
-            <h1 className={styles["landing-title"]}>NOT FUNGIBLE TOWN</h1>
+            <h1 className={styles["landing-title"]}>NON FUNGIBLE TOWN</h1>
             <h1 className={styles["landing-subtitle"]}>
               Explore the NFT world
             </h1>
-            <h6>
-              <span></span>
+            <h6 className={styles["title-presentation-words"]}>
+              <span className={styles["title-presentation-span"]}></span>
               <div className={styles.message}>
                 <div className={styles.word1}>Create</div>
                 <div className={styles.word2}>Buy</div>
@@ -53,7 +54,8 @@ function LandingPage() {
           <div className="container-fluid h-custom">
             <div className="row d-flex justify-content-center align-items-center h-100">
               <div className="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
-                <form>
+                <Login />
+                {/* <form>
                   <div className="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
                     <p className="lead fw-normal mb-0 me-3 text-light">
                       Sign in with
@@ -120,7 +122,7 @@ function LandingPage() {
                       />
                       <label
                         className="form-check-label text-light"
-                        for="RememberCheck"
+                        htmlFor="RememberCheck"
                       >
                         Remember me
                       </label>
@@ -161,7 +163,7 @@ function LandingPage() {
                       </a>
                     </p>
                   </div>
-                </form>
+                </form> */}
                 <Link to={"/home"} className={styles["link-home"]}>
                   Home
                 </Link>

@@ -12,9 +12,8 @@ const App = () => {
     currency: null,
   });
 
-  const currencies = ["USD", "ETH"];
+  const currencies = ["ETH", "USD", "ARS"];
 
-  const invalidMaxValue = range.max <= range.min;
 
   const handleMinChange = (e) => {
     setRange({ ...range, min: parseFloat(e.target.value) });
