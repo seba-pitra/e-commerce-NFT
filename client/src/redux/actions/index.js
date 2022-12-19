@@ -72,7 +72,6 @@ export const getAllNfts = () => {
     dispatch({ type: LOADING });
     try {
       const allNfts = await axios.get("/nft");
-      console.log(allNfts.data[0]);
       dispatch({ type: GET_ALL_NFTS, payload: allNfts.data });
     } catch (e) {
       alert("There was a connection error, please try again later NFT");
@@ -86,6 +85,7 @@ export const getEthPrice = () => {
       const ethPrice = await axios.get(
         "https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=USD,ARS"
       );
+      console.log(ethPrice.data);
       dispatch({ type: GET_ETH_PRICE, payload: ethPrice.data });
     } catch (e) {
       alert("There was a error whit the API, please try again later");

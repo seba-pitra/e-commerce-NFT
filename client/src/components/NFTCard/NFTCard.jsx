@@ -10,7 +10,6 @@ import "./NFTCard.css";
 
 export default function NFTCard(props) {
   const ethPrice = useSelector((state) => state.ethPrice);
-  console.log(props);
   const dispatch = useDispatch();
 
   const handleClickOnShoppingCart = (e) => {

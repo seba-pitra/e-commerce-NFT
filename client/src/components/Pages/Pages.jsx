@@ -6,14 +6,12 @@ import "./Pages.css";
 
 function Pages() {
   const filteredNfts = useSelector((state) => state.filteredNfts);
-  console.log(filteredNfts);
   const activePage = useSelector((state) => state.activePage);
   const nftsPerPage = useSelector((state) => state.nftsPerPage);
   const lastNftInPage = activePage * nftsPerPage;
   const firstNftInPage = lastNftInPage - nftsPerPage;
   const nftsInPage = filteredNfts.slice(firstNftInPage, lastNftInPage);
   const cards = nftsInPage.map((nft) => {
-    console.log(nft)
     return (
       <NFTCard
         key={nft.id}
@@ -28,8 +26,6 @@ function Pages() {
       />
     );
   });
-
-  console.log(cards);
 
   return (
     <div>
