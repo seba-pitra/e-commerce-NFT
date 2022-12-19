@@ -1,0 +1,1202 @@
+[
+      {
+        "token": {
+          "contract": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+          "tokenId": "10432",
+          "name": "#10432 (M1)",
+          "description": null,
+          "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aa2832ca56b7eacac607d6f51d108f7048b61d01a042131f92e90d6a87a9395555ae3d213a95fc131180ba7cf9d20fbbbfbd665d005ccd37ae584b85aa5dabdc714822ee628ac713b1d46dbc52d0ceb84db04a171f404a6971ae907f36c8efc1b9d77360de48535278a2382385d17a9e0058ed9feecb44e991ea6b299d1f7ae6c",
+          "media": null,
+          "kind": "erc721",
+          "isFlagged": true,
+          "lastFlagUpdate": "2022-12-16T16:17:59.370Z",
+          "lastFlagChange": null,
+          "rarity": 71.733,
+          "rarityRank": 15402,
+          "collection": {
+            "id": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+            "name": "Mutant Ape Yacht Club",
+            "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75add5f47e04b38afadae642f273a0e37a608bbf1e23918d071719d2575201a4ba471d208a841cc7be27238ee19d228ef9271e34cc8f24a46c583c154c71df043228d781a2f5402cd108e96956e9ab029c8fa81a7b290da3f11e52558afbc546482bd501fff65d912d2fa0686ee8650bc94e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+            "slug": "mutant-ape-yacht-club"
+          },
+          "lastBuy": {
+            "value": 13.3001,
+            "timestamp": 1671035207
+          },
+          "lastSell": {
+            "value": 40,
+            "timestamp": 1651283860
+          },
+          "owner": "0x9f28152ae399a6f1b9760c04972de4f9303c0c9f"
+        },
+        "market": {
+          "floorAsk": {
+            "id": "0xa412496f72fae79cddedd6d783d1248b88db580dc46b96633a43d601c54ce035",
+            "price": {
+              "currency": {
+                "contract": "0x0000000000000000000000000000000000000000",
+                "name": "Ether",
+                "symbol": "ETH",
+                "decimals": 18
+              },
+              "amount": {
+                "raw": "13500000000000000000",
+                "decimal": 13.5,
+                "usd": 17060.57672,
+                "native": 13.5
+              }
+            },
+            "maker": "0x9f28152ae399a6f1b9760c04972de4f9303c0c9f",
+            "validFrom": 1671050259,
+            "validUntil": 1671303076,
+            "source": {
+              "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+              "domain": "looksrare.org",
+              "name": "LooksRare",
+              "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+              "url": "https://looksrare.org/collections/0x60e4d786628fea6478f785a6d7e704777c86a7c6/10432"
+            }
+          }
+        }
+      },
+      {
+        "token": {
+          "contract": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+          "tokenId": "14694",
+          "name": "#14694 (M1)",
+          "description": null,
+          "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a63f69a00a4559e41acb8716b12af52842b104c1379e320cc6cea99c69ae01e661cf0f6b63fd0e10f572c54e8cca69b37f9aa20f926ef3098e60b833b46ece8f39dbc779cc92be08122995f3ed8b39df30923f0ea23d0fa2e671dfc6d395426e8cb4055b9c7f0c293bcc81c303f2eeface1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+          "media": null,
+          "kind": "erc721",
+          "isFlagged": true,
+          "lastFlagUpdate": "2022-12-16T16:31:09.971Z",
+          "lastFlagChange": null,
+          "rarity": 67.739,
+          "rarityRank": 16562,
+          "collection": {
+            "id": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+            "name": "Mutant Ape Yacht Club",
+            "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75add5f47e04b38afadae642f273a0e37a608bbf1e23918d071719d2575201a4ba471d208a841cc7be27238ee19d228ef9271e34cc8f24a46c583c154c71df043228d781a2f5402cd108e96956e9ab029c8fa81a7b290da3f11e52558afbc546482bd501fff65d912d2fa0686ee8650bc94e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+            "slug": "mutant-ape-yacht-club"
+          },
+          "lastBuy": {
+            "value": null,
+            "timestamp": null
+          },
+          "lastSell": {
+            "value": 25.49,
+            "timestamp": 1650206924
+          },
+          "owner": "0xf3fcd156d11d2de9ef85834e1d26bb9a7c4af3f9"
+        },
+        "market": {
+          "floorAsk": {
+            "id": "0x2217b5a1adaf1d07dffa84dd3630d75fc741483531bed033206212ef4bc41ec5",
+            "price": {
+              "currency": {
+                "contract": "0x0000000000000000000000000000000000000000",
+                "name": "Ether",
+                "symbol": "ETH",
+                "decimals": 18
+              },
+              "amount": {
+                "raw": "13550000000000000000",
+                "decimal": 13.55,
+                "usd": 17123.76404,
+                "native": 13.55
+              }
+            },
+            "maker": "0xf3fcd156d11d2de9ef85834e1d26bb9a7c4af3f9",
+            "validFrom": 1671115247,
+            "validUntil": 1671291070,
+            "source": {
+              "id": "0xdc28ffaea1f91a88fb6fd0a8fe70d71bdd64284c",
+              "domain": "x2y2.io",
+              "name": "X2Y2",
+              "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/x2y2-logo.png",
+              "url": "https://x2y2.io/eth/0x60e4d786628fea6478f785a6d7e704777c86a7c6/14694"
+            }
+          }
+        }
+      },
+      {
+        "token": {
+          "contract": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+          "tokenId": "25400",
+          "name": "#25400 (M1)",
+          "description": null,
+          "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af84b0735526241d8f15fabd3a7062f3d79b394475ad2d45891e1b3b33cba3e54a829b59703b6e72929813f386296c943c59dfe5e0662a4750b961cea61355181969d418d5c98bcd0a5165659eab28a2d7131ee536ebeb77f2dba7760cee125e0791b3684db5e28e1bd227a0944649f3023c5e4198f99eda3f3b783c3322e8c56",
+          "media": null,
+          "kind": "erc721",
+          "isFlagged": true,
+          "lastFlagUpdate": "2022-12-16T16:11:00.852Z",
+          "lastFlagChange": "2022-12-16T08:11:16.414Z",
+          "rarity": 76.039,
+          "rarityRank": 14218,
+          "collection": {
+            "id": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+            "name": "Mutant Ape Yacht Club",
+            "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75add5f47e04b38afadae642f273a0e37a608bbf1e23918d071719d2575201a4ba471d208a841cc7be27238ee19d228ef9271e34cc8f24a46c583c154c71df043228d781a2f5402cd108e96956e9ab029c8fa81a7b290da3f11e52558afbc546482bd501fff65d912d2fa0686ee8650bc94e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+            "slug": "mutant-ape-yacht-club"
+          },
+          "lastBuy": {
+            "value": null,
+            "timestamp": null
+          },
+          "lastSell": {
+            "value": 13.63,
+            "timestamp": 1671149111
+          },
+          "owner": "0x0097b9cfe64455eed479292671a1121f502bc954"
+        },
+        "market": {
+          "floorAsk": {
+            "id": "0x9db6a8b149ba3194fbc9e00dd93e0eb5bc9a56a932f145344ef65410a502ca2e",
+            "price": {
+              "currency": {
+                "contract": "0x0000000000000000000000000000000000000000",
+                "name": "Ether",
+                "symbol": "ETH",
+                "decimals": 18
+              },
+              "amount": {
+                "raw": "13908200000000000000",
+                "decimal": 13.9082,
+                "usd": 17576.43801,
+                "native": 13.9082
+              }
+            },
+            "maker": "0x0097b9cfe64455eed479292671a1121f502bc954",
+            "validFrom": 1671180140,
+            "validUntil": 1671266541,
+            "source": {
+              "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+              "domain": "looksrare.org",
+              "name": "LooksRare",
+              "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+              "url": "https://looksrare.org/collections/0x60e4d786628fea6478f785a6d7e704777c86a7c6/25400"
+            }
+          }
+        }
+      },
+      {
+        "token": {
+          "contract": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+          "tokenId": "6067",
+          "name": "#6067 (M1)",
+          "description": null,
+          "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a78a8e5062ad3e7482c0e4df727619e91b51e28a16bfecc3aba03a5856b5c9f353300e281d996eb0a1e0673a0944c3628745eab631f1692d6fc69dd412b6030eb6b03221ef9b3d5c0d484b39c713582882de5c2fd2efe3ac47e57821b9c2f289b69bee2c4fad57ffdfd20ffcd8e8a79ce058ed9feecb44e991ea6b299d1f7ae6c",
+          "media": null,
+          "kind": "erc721",
+          "isFlagged": true,
+          "lastFlagUpdate": "2022-12-16T02:42:34.180Z",
+          "lastFlagChange": null,
+          "rarity": 131.352,
+          "rarityRank": 6412,
+          "collection": {
+            "id": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+            "name": "Mutant Ape Yacht Club",
+            "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75add5f47e04b38afadae642f273a0e37a608bbf1e23918d071719d2575201a4ba471d208a841cc7be27238ee19d228ef9271e34cc8f24a46c583c154c71df043228d781a2f5402cd108e96956e9ab029c8fa81a7b290da3f11e52558afbc546482bd501fff65d912d2fa0686ee8650bc94e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+            "slug": "mutant-ape-yacht-club"
+          },
+          "lastBuy": {
+            "value": 12.8,
+            "timestamp": 1670818259
+          },
+          "lastSell": {
+            "value": 13.3,
+            "timestamp": 1671177515
+          },
+          "owner": "0x6cdfaf2efecfbeabe2db319d598d7307f855c03a"
+        },
+        "market": {
+          "floorAsk": {
+            "id": "0xe94af0eeee9a14c3a811400158afd0357062cd6475cd1c74394b7badbcd64113",
+            "price": {
+              "currency": {
+                "contract": "0x0000000000000000000000000000000000000000",
+                "name": "Ether",
+                "symbol": "ETH",
+                "decimals": 18
+              },
+              "amount": {
+                "raw": "13969400000000000000",
+                "decimal": 13.9694,
+                "usd": 17653.7793,
+                "native": 13.9694
+              }
+            },
+            "maker": "0x6cdfaf2efecfbeabe2db319d598d7307f855c03a",
+            "validFrom": 1671177706,
+            "validUntil": 1671264105,
+            "source": {
+              "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+              "domain": "looksrare.org",
+              "name": "LooksRare",
+              "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+              "url": "https://looksrare.org/collections/0x60e4d786628fea6478f785a6d7e704777c86a7c6/6067"
+            }
+          }
+        }
+      },
+      {
+        "token": {
+          "contract": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+          "tokenId": "8456",
+          "name": "#8456 (M1)",
+          "description": null,
+          "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a6acf7ec319f556e422a7e48a6068110c5a346c65ccd6d10c54c1e1728057284274c4a27b695e6baa5a00ee291c425698c84f7ad890ab8975453d8c5b078f1b5041831013e6b156787c0b9f8a696106514a669619cd4c84025980ad1edf893c6aebf35dfc4289571f036c75df3f290f34e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+          "media": null,
+          "kind": "erc721",
+          "isFlagged": true,
+          "lastFlagUpdate": "2022-12-16T16:19:41.424Z",
+          "lastFlagChange": null,
+          "rarity": 116.488,
+          "rarityRank": 7466,
+          "collection": {
+            "id": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+            "name": "Mutant Ape Yacht Club",
+            "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75add5f47e04b38afadae642f273a0e37a608bbf1e23918d071719d2575201a4ba471d208a841cc7be27238ee19d228ef9271e34cc8f24a46c583c154c71df043228d781a2f5402cd108e96956e9ab029c8fa81a7b290da3f11e52558afbc546482bd501fff65d912d2fa0686ee8650bc94e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+            "slug": "mutant-ape-yacht-club"
+          },
+          "lastBuy": {
+            "value": 14.1,
+            "timestamp": 1664478059
+          },
+          "lastSell": {
+            "value": 13.3,
+            "timestamp": 1671177587
+          },
+          "owner": "0x6cdfaf2efecfbeabe2db319d598d7307f855c03a"
+        },
+        "market": {
+          "floorAsk": {
+            "id": "0xeffc3ec7a6a992712c7b09fef38d5e9e59314df5b769fdc0fad836cdf1bb6978",
+            "price": {
+              "currency": {
+                "contract": "0x0000000000000000000000000000000000000000",
+                "name": "Ether",
+                "symbol": "ETH",
+                "decimals": 18
+              },
+              "amount": {
+                "raw": "13969400000000000000",
+                "decimal": 13.9694,
+                "usd": 17653.7793,
+                "native": 13.9694
+              }
+            },
+            "maker": "0x6cdfaf2efecfbeabe2db319d598d7307f855c03a",
+            "validFrom": 1671177729,
+            "validUntil": 1671264128,
+            "source": {
+              "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+              "domain": "looksrare.org",
+              "name": "LooksRare",
+              "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+              "url": "https://looksrare.org/collections/0x60e4d786628fea6478f785a6d7e704777c86a7c6/8456"
+            }
+          }
+        }
+      },
+      {
+        "token": {
+          "contract": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+          "tokenId": "987",
+          "name": "#987 (M1)",
+          "description": null,
+          "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1b573d99e72ac7df85ceb4326ac9483780691a698731d1d62c871b20358ae3243e781e5c80a6d4acd084dcfc23e25cd19090aa036fcd2fd3854ef8d6dbc78f3693dff1fd6f708634872507d3c22544c66b9674f1a85a108110c150f2ce9160bd60944d7dd2189a3a0247d705ea0c7114e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+          "media": null,
+          "kind": "erc721",
+          "isFlagged": false,
+          "lastFlagUpdate": "2022-12-16T16:08:24.755Z",
+          "lastFlagChange": null,
+          "rarity": 59.277,
+          "rarityRank": 18530,
+          "collection": {
+            "id": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+            "name": "Mutant Ape Yacht Club",
+            "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75add5f47e04b38afadae642f273a0e37a608bbf1e23918d071719d2575201a4ba471d208a841cc7be27238ee19d228ef9271e34cc8f24a46c583c154c71df043228d781a2f5402cd108e96956e9ab029c8fa81a7b290da3f11e52558afbc546482bd501fff65d912d2fa0686ee8650bc94e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+            "slug": "mutant-ape-yacht-club"
+          },
+          "lastBuy": {
+            "value": 14.75,
+            "timestamp": 1670725787
+          },
+          "lastSell": {
+            "value": 14.45,
+            "timestamp": 1670652287
+          },
+          "owner": "0x44d1bc1f5a586ac88678a3f46a6d06daf8653a4b"
+        },
+        "market": {
+          "floorAsk": {
+            "id": "0xd3b0b880e5614685b8cd8819fb1f1d0d4af6be2dbf6c21d9277b26cefd836a6d",
+            "price": {
+              "currency": {
+                "contract": "0x0000000000000000000000000000000000000000",
+                "name": "Ether",
+                "symbol": "ETH",
+                "decimals": 18
+              },
+              "amount": {
+                "raw": "13980000000000000000",
+                "decimal": 13.98,
+                "usd": 17667.17501,
+                "native": 13.98
+              }
+            },
+            "maker": "0x44d1bc1f5a586ac88678a3f46a6d06daf8653a4b",
+            "validFrom": 1671071738,
+            "validUntil": 1671324088,
+            "source": {
+              "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+              "domain": "looksrare.org",
+              "name": "LooksRare",
+              "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+              "url": "https://looksrare.org/collections/0x60e4d786628fea6478f785a6d7e704777c86a7c6/987"
+            }
+          }
+        }
+      },
+      {
+        "token": {
+          "contract": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+          "tokenId": "15894",
+          "name": "#15894 (M1)",
+          "description": null,
+          "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a50597a92491a54cabdcf865aae204d90e89144378ba27b248672f5533a1cc0d2c96f1ce99c69a7d707598470d9e500ec1a42b885add724d3ae836bbd40ad622659583781ed4d3347bc9b746b8228d953717d0951364f2991098f1925f92110cfa5f540f992309709c3f2d681412e37c023c5e4198f99eda3f3b783c3322e8c56",
+          "media": null,
+          "kind": "erc721",
+          "isFlagged": true,
+          "lastFlagUpdate": "2022-12-16T16:15:37.402Z",
+          "lastFlagChange": null,
+          "rarity": 59.049,
+          "rarityRank": 18566,
+          "collection": {
+            "id": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+            "name": "Mutant Ape Yacht Club",
+            "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75add5f47e04b38afadae642f273a0e37a608bbf1e23918d071719d2575201a4ba471d208a841cc7be27238ee19d228ef9271e34cc8f24a46c583c154c71df043228d781a2f5402cd108e96956e9ab029c8fa81a7b290da3f11e52558afbc546482bd501fff65d912d2fa0686ee8650bc94e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+            "slug": "mutant-ape-yacht-club"
+          },
+          "lastBuy": {
+            "value": 10.32,
+            "timestamp": 1668031079
+          },
+          "lastSell": {
+            "value": 10.5,
+            "timestamp": 1668591071
+          },
+          "owner": "0xd51461bc26add3d4a0b85ac465324f4e44955138"
+        },
+        "market": {
+          "floorAsk": {
+            "id": "0x074d8443267eb665a5c6c851d74a5a01db16d68c38707231fde290f0eb0f97ce",
+            "price": {
+              "currency": {
+                "contract": "0x0000000000000000000000000000000000000000",
+                "name": "Ether",
+                "symbol": "ETH",
+                "decimals": 18
+              },
+              "amount": {
+                "raw": "14000000000000000000",
+                "decimal": 14,
+                "usd": 17692.44994,
+                "native": 14
+              }
+            },
+            "maker": "0xd51461bc26add3d4a0b85ac465324f4e44955138",
+            "validFrom": 1669483103,
+            "validUntil": 1672075070,
+            "source": {
+              "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+              "domain": "looksrare.org",
+              "name": "LooksRare",
+              "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+              "url": "https://looksrare.org/collections/0x60e4d786628fea6478f785a6d7e704777c86a7c6/15894"
+            }
+          }
+        }
+      },
+      {
+        "token": {
+          "contract": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+          "tokenId": "16640",
+          "name": "#16640 (M1)",
+          "description": null,
+          "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75acdd8aa3f7f09c98e0e8c547811c142b6e5ebd90823eef314a5daac25d64bfd8223ee7c9fc75c99a6e379a465ab026dd7f278675da01f1c8f7b3fe31767e3800691caa15ac29731c9347b4d172fd82974ac7fe7f024dbc0f438bdce0f59563af1fb5b25314199d1051cf68a06ca759038058ed9feecb44e991ea6b299d1f7ae6c",
+          "media": null,
+          "kind": "erc721",
+          "isFlagged": true,
+          "lastFlagUpdate": "2022-12-16T16:15:20.403Z",
+          "lastFlagChange": null,
+          "rarity": 78.279,
+          "rarityRank": 13635,
+          "collection": {
+            "id": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+            "name": "Mutant Ape Yacht Club",
+            "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75add5f47e04b38afadae642f273a0e37a608bbf1e23918d071719d2575201a4ba471d208a841cc7be27238ee19d228ef9271e34cc8f24a46c583c154c71df043228d781a2f5402cd108e96956e9ab029c8fa81a7b290da3f11e52558afbc546482bd501fff65d912d2fa0686ee8650bc94e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+            "slug": "mutant-ape-yacht-club"
+          },
+          "lastBuy": {
+            "value": 25.6,
+            "timestamp": 1651693910
+          },
+          "lastSell": {
+            "value": 10.5,
+            "timestamp": 1668591107
+          },
+          "owner": "0xd51461bc26add3d4a0b85ac465324f4e44955138"
+        },
+        "market": {
+          "floorAsk": {
+            "id": "0x3b8de887cd34bae1435e0d191deaca58c6ae0bc1e94aec8bbd6f21cec450147e",
+            "price": {
+              "currency": {
+                "contract": "0x0000000000000000000000000000000000000000",
+                "name": "Ether",
+                "symbol": "ETH",
+                "decimals": 18
+              },
+              "amount": {
+                "raw": "14000000000000000000",
+                "decimal": 14,
+                "usd": 17692.44994,
+                "native": 14
+              }
+            },
+            "maker": "0xd51461bc26add3d4a0b85ac465324f4e44955138",
+            "validFrom": 1669483108,
+            "validUntil": 1672075070,
+            "source": {
+              "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+              "domain": "looksrare.org",
+              "name": "LooksRare",
+              "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+              "url": "https://looksrare.org/collections/0x60e4d786628fea6478f785a6d7e704777c86a7c6/16640"
+            }
+          }
+        }
+      },
+      {
+        "token": {
+          "contract": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+          "tokenId": "19576",
+          "name": "#19576 (M1)",
+          "description": null,
+          "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1b7beafc7e98b3d10493b0d2c6feb39c52623aa56b0a81b2c6d9c623d91d88e2e4d0af4b6422dcb278e88317cca1cdfab2579f1114e5f4f04105f0d597255f8fcebdc0db35dba9673231441560f62237039237a47f69c425400d1e919bbe7d3c1d17747330adab9de15f852371f757b8058ed9feecb44e991ea6b299d1f7ae6c",
+          "media": null,
+          "kind": "erc721",
+          "isFlagged": true,
+          "lastFlagUpdate": "2022-12-16T16:13:50.379Z",
+          "lastFlagChange": null,
+          "rarity": 80.923,
+          "rarityRank": 12992,
+          "collection": {
+            "id": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+            "name": "Mutant Ape Yacht Club",
+            "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75add5f47e04b38afadae642f273a0e37a608bbf1e23918d071719d2575201a4ba471d208a841cc7be27238ee19d228ef9271e34cc8f24a46c583c154c71df043228d781a2f5402cd108e96956e9ab029c8fa81a7b290da3f11e52558afbc546482bd501fff65d912d2fa0686ee8650bc94e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+            "slug": "mutant-ape-yacht-club"
+          },
+          "lastBuy": {
+            "value": 12.73,
+            "timestamp": 1669738163
+          },
+          "lastSell": {
+            "value": 13.18,
+            "timestamp": 1670100815
+          },
+          "owner": "0xd51461bc26add3d4a0b85ac465324f4e44955138"
+        },
+        "market": {
+          "floorAsk": {
+            "id": "0xbf46f6764dd4aaabb758705c3fa5dae5798dfb646be797cdf0d731a4b7414b52",
+            "price": {
+              "currency": {
+                "contract": "0x0000000000000000000000000000000000000000",
+                "name": "Ether",
+                "symbol": "ETH",
+                "decimals": 18
+              },
+              "amount": {
+                "raw": "14000000000000000000",
+                "decimal": 14,
+                "usd": 17692.44994,
+                "native": 14
+              }
+            },
+            "maker": "0xd51461bc26add3d4a0b85ac465324f4e44955138",
+            "validFrom": 1670112556,
+            "validUntil": 1672704550,
+            "source": {
+              "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+              "domain": "looksrare.org",
+              "name": "LooksRare",
+              "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+              "url": "https://looksrare.org/collections/0x60e4d786628fea6478f785a6d7e704777c86a7c6/19576"
+            }
+          }
+        }
+      },
+      {
+        "token": {
+          "contract": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+          "tokenId": "28146",
+          "name": "#28146 (M1)",
+          "description": null,
+          "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aa13002ba0ef75025721ea86abb6ff5d600fd21ba20a35ee06bf1e8e63166be3d6b9f8ee4aca823606faf5a14f99cd0b39adb8fbb4976f3eebf34615d86a59d10ef4050f996aeff59c6ce576e397f1b740476424ba321575586b91ead7e9ace5839921d916602860335dd2e489e6de45a058ed9feecb44e991ea6b299d1f7ae6c",
+          "media": null,
+          "kind": "erc721",
+          "isFlagged": true,
+          "lastFlagUpdate": "2022-12-16T16:09:28.242Z",
+          "lastFlagChange": null,
+          "rarity": 58.27,
+          "rarityRank": 18696,
+          "collection": {
+            "id": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+            "name": "Mutant Ape Yacht Club",
+            "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75add5f47e04b38afadae642f273a0e37a608bbf1e23918d071719d2575201a4ba471d208a841cc7be27238ee19d228ef9271e34cc8f24a46c583c154c71df043228d781a2f5402cd108e96956e9ab029c8fa81a7b290da3f11e52558afbc546482bd501fff65d912d2fa0686ee8650bc94e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+            "slug": "mutant-ape-yacht-club"
+          },
+          "lastBuy": {
+            "value": 11.521,
+            "timestamp": 1660842066
+          },
+          "lastSell": {
+            "value": 10.71,
+            "timestamp": 1668593771
+          },
+          "owner": "0xd51461bc26add3d4a0b85ac465324f4e44955138"
+        },
+        "market": {
+          "floorAsk": {
+            "id": "0x269884a62721c51fa561b85911706ea7d034082465f88cfab7522bc3394ca050",
+            "price": {
+              "currency": {
+                "contract": "0x0000000000000000000000000000000000000000",
+                "name": "Ether",
+                "symbol": "ETH",
+                "decimals": 18
+              },
+              "amount": {
+                "raw": "14000000000000000000",
+                "decimal": 14,
+                "usd": 17692.44994,
+                "native": 14
+              }
+            },
+            "maker": "0xd51461bc26add3d4a0b85ac465324f4e44955138",
+            "validFrom": 1669483079,
+            "validUntil": 1672075070,
+            "source": {
+              "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+              "domain": "looksrare.org",
+              "name": "LooksRare",
+              "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+              "url": "https://looksrare.org/collections/0x60e4d786628fea6478f785a6d7e704777c86a7c6/28146"
+            }
+          }
+        }
+      },
+      {
+        "token": {
+          "contract": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+          "tokenId": "29632",
+          "name": "#29632 (M1)",
+          "description": null,
+          "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af565f3ceea31537bfd9e70c7b75e2df425237c07cea9e0073a537228afb3a2a1eb9b61734230e89dc9639cab8a96ed95ca205121bc41a889f64faba98726012701118416106c9b37c8cda9ad179ca16f2f6a9d1169ee6da5a3a3ab38bac00b7307e65cea82e82cbf8f6096ffe3f646c7058ed9feecb44e991ea6b299d1f7ae6c",
+          "media": null,
+          "kind": "erc721",
+          "isFlagged": true,
+          "lastFlagUpdate": "2022-12-16T16:08:43.050Z",
+          "lastFlagChange": null,
+          "rarity": 109.303,
+          "rarityRank": 8120,
+          "collection": {
+            "id": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+            "name": "Mutant Ape Yacht Club",
+            "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75add5f47e04b38afadae642f273a0e37a608bbf1e23918d071719d2575201a4ba471d208a841cc7be27238ee19d228ef9271e34cc8f24a46c583c154c71df043228d781a2f5402cd108e96956e9ab029c8fa81a7b290da3f11e52558afbc546482bd501fff65d912d2fa0686ee8650bc94e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+            "slug": "mutant-ape-yacht-club"
+          },
+          "lastBuy": {
+            "value": 17.27,
+            "timestamp": 1654204863
+          },
+          "lastSell": {
+            "value": 10,
+            "timestamp": 1668434435
+          },
+          "owner": "0xd51461bc26add3d4a0b85ac465324f4e44955138"
+        },
+        "market": {
+          "floorAsk": {
+            "id": "0xf61fd8db6580a4992611d6478049b588f44091198eb140caa9495b8c6d311d6e",
+            "price": {
+              "currency": {
+                "contract": "0x0000000000000000000000000000000000000000",
+                "name": "Ether",
+                "symbol": "ETH",
+                "decimals": 18
+              },
+              "amount": {
+                "raw": "14000000000000000000",
+                "decimal": 14,
+                "usd": 17692.44994,
+                "native": 14
+              }
+            },
+            "maker": "0xd51461bc26add3d4a0b85ac465324f4e44955138",
+            "validFrom": 1669483124,
+            "validUntil": 1672075070,
+            "source": {
+              "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+              "domain": "looksrare.org",
+              "name": "LooksRare",
+              "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+              "url": "https://looksrare.org/collections/0x60e4d786628fea6478f785a6d7e704777c86a7c6/29632"
+            }
+          }
+        }
+      },
+      {
+        "token": {
+          "contract": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+          "tokenId": "8101",
+          "name": "#8101 (M1)",
+          "description": null,
+          "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aad7226eb6b4516ac55bc377ee576d83d7aa7b467b21f485355acc3519ef185d4b4b3b3a11e53debcbcf2c66528b19fdd725dd206b459bc4f43af1a006390d3f92766bd2e6ad9a1c506f786145ff793fbb92458d3860acbe4fb5f8c848f28bd748128029c7d1ea9dedcdbab1b7781713423c5e4198f99eda3f3b783c3322e8c56",
+          "media": null,
+          "kind": "erc721",
+          "isFlagged": true,
+          "lastFlagUpdate": "2022-12-16T16:19:58.508Z",
+          "lastFlagChange": null,
+          "rarity": 58.287,
+          "rarityRank": 18694,
+          "collection": {
+            "id": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+            "name": "Mutant Ape Yacht Club",
+            "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75add5f47e04b38afadae642f273a0e37a608bbf1e23918d071719d2575201a4ba471d208a841cc7be27238ee19d228ef9271e34cc8f24a46c583c154c71df043228d781a2f5402cd108e96956e9ab029c8fa81a7b290da3f11e52558afbc546482bd501fff65d912d2fa0686ee8650bc94e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+            "slug": "mutant-ape-yacht-club"
+          },
+          "lastBuy": {
+            "value": null,
+            "timestamp": null
+          },
+          "lastSell": {
+            "value": 12,
+            "timestamp": 1661367423
+          },
+          "owner": "0xc3cea12ffda8b3dff435155461de6fcc72315117"
+        },
+        "market": {
+          "floorAsk": {
+            "id": "0xb4ab83553bd25d9c7c18b0c2c74f05fe2475e04d83f059cf0ed6972aa4a581c5",
+            "price": {
+              "currency": {
+                "contract": "0x0000000000000000000000000000000000000000",
+                "name": "Ether",
+                "symbol": "ETH",
+                "decimals": 18
+              },
+              "amount": {
+                "raw": "14150000000000000000",
+                "decimal": 14.15,
+                "usd": 17882.0119,
+                "native": 14.15
+              }
+            },
+            "maker": "0xc3cea12ffda8b3dff435155461de6fcc72315117",
+            "validFrom": 1671046367,
+            "validUntil": 1673493387,
+            "source": {
+              "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+              "domain": "looksrare.org",
+              "name": "LooksRare",
+              "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+              "url": "https://looksrare.org/collections/0x60e4d786628fea6478f785a6d7e704777c86a7c6/8101"
+            }
+          }
+        }
+      },
+      {
+        "token": {
+          "contract": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+          "tokenId": "9881",
+          "name": "#9881 (M1)",
+          "description": null,
+          "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af0d541f3e12e77b6cdc6341c8cb352e9d09bb33531e88540a62cbc446bdd7efbde81ee1270cf1bfb3f59b49dd4a931a8c4b705097e8c626d3631a2101afa075a7de67d46303cea9b2b7da8d83398d7829b081a1a8e26f4423913aaa00470484d4daff930cedb4e1cf8a7bf4fecb51ef823c5e4198f99eda3f3b783c3322e8c56",
+          "media": null,
+          "kind": "erc721",
+          "isFlagged": false,
+          "lastFlagUpdate": "2022-12-16T16:18:17.455Z",
+          "lastFlagChange": null,
+          "rarity": 80.329,
+          "rarityRank": 13131,
+          "collection": {
+            "id": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+            "name": "Mutant Ape Yacht Club",
+            "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75add5f47e04b38afadae642f273a0e37a608bbf1e23918d071719d2575201a4ba471d208a841cc7be27238ee19d228ef9271e34cc8f24a46c583c154c71df043228d781a2f5402cd108e96956e9ab029c8fa81a7b290da3f11e52558afbc546482bd501fff65d912d2fa0686ee8650bc94e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+            "slug": "mutant-ape-yacht-club"
+          },
+          "lastBuy": {
+            "value": 13.64,
+            "timestamp": 1671143267
+          },
+          "lastSell": {
+            "value": 13.64,
+            "timestamp": 1671152735
+          },
+          "owner": "0xffd06caa72cef7aa6798f0feb8b1aec097b70304"
+        },
+        "market": {
+          "floorAsk": {
+            "id": "0xa627e82e2171155f0f6157ee422197815f735f40b383aa7e8b248174fa87fdec",
+            "price": {
+              "currency": {
+                "contract": "0x0000000000000000000000000000000000000000",
+                "name": "Ether",
+                "symbol": "ETH",
+                "decimals": 18
+              },
+              "amount": {
+                "raw": "14150000000000000000",
+                "decimal": 14.15,
+                "usd": 17882.0119,
+                "native": 14.15
+              }
+            },
+            "maker": "0xffd06caa72cef7aa6798f0feb8b1aec097b70304",
+            "validFrom": 1671193679,
+            "validUntil": 1671452873,
+            "source": {
+              "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+              "domain": "looksrare.org",
+              "name": "LooksRare",
+              "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+              "url": "https://looksrare.org/collections/0x60e4d786628fea6478f785a6d7e704777c86a7c6/9881"
+            }
+          }
+        }
+      },
+      {
+        "token": {
+          "contract": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+          "tokenId": "6882",
+          "name": "#6882 (M1)",
+          "description": null,
+          "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae1fa61b929e2c5361bfe40cbf7465e183028f84ac53e70133aaa1ae3f91ecf14a3af22e45b765933a636a913540491889b638cba649975393f521378d1a66237f312e4d7ac0a443c18a44837a395c1b346b1eb6aee0f9a231095e4910f16e48940e44b89276b6297a9e9bd77ad3ad57023c5e4198f99eda3f3b783c3322e8c56",
+          "media": null,
+          "kind": "erc721",
+          "isFlagged": false,
+          "lastFlagUpdate": "2022-12-16T16:21:17.956Z",
+          "lastFlagChange": null,
+          "rarity": 78.07,
+          "rarityRank": 13692,
+          "collection": {
+            "id": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+            "name": "Mutant Ape Yacht Club",
+            "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75add5f47e04b38afadae642f273a0e37a608bbf1e23918d071719d2575201a4ba471d208a841cc7be27238ee19d228ef9271e34cc8f24a46c583c154c71df043228d781a2f5402cd108e96956e9ab029c8fa81a7b290da3f11e52558afbc546482bd501fff65d912d2fa0686ee8650bc94e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+            "slug": "mutant-ape-yacht-club"
+          },
+          "lastBuy": {
+            "value": 14.12,
+            "timestamp": 1671034487
+          },
+          "lastSell": {
+            "value": 13.49,
+            "timestamp": 1671099695
+          },
+          "owner": "0x2ba09bdb3ee2241be30616e53174fbc851adcb3d"
+        },
+        "market": {
+          "floorAsk": {
+            "id": "0x9699c4bbb9a8e68e8c1037d7ffe9a243d7b97be4b1404b93b47be2b74e75ea7a",
+            "price": {
+              "currency": {
+                "contract": "0x0000000000000000000000000000000000000000",
+                "name": "Ether",
+                "symbol": "ETH",
+                "decimals": 18
+              },
+              "amount": {
+                "raw": "14200000000000000000",
+                "decimal": 14.2,
+                "usd": 17945.19922,
+                "native": 14.2
+              }
+            },
+            "maker": "0x2ba09bdb3ee2241be30616e53174fbc851adcb3d",
+            "validFrom": 1671100176,
+            "validUntil": 1673692168,
+            "source": {
+              "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+              "domain": "looksrare.org",
+              "name": "LooksRare",
+              "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+              "url": "https://looksrare.org/collections/0x60e4d786628fea6478f785a6d7e704777c86a7c6/6882"
+            }
+          }
+        }
+      },
+      {
+        "token": {
+          "contract": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+          "tokenId": "5323",
+          "name": "#5323 (M1)",
+          "description": null,
+          "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a80f5aeadd728816617b1e85c4017dff9280043aa4b7ddc8e3678230401aa7a90d7f508d5837882673bb61c7191e1a67ab6fe0c7bf1de858ad385cf5022dc182e4d7f19cca76ca5736957e9aa619a27385345cabc441b4bc38439f6e4ef636eb535d1e1b3139d9e30e02fc8029cad96c823c5e4198f99eda3f3b783c3322e8c56",
+          "media": null,
+          "kind": "erc721",
+          "isFlagged": false,
+          "lastFlagUpdate": "2022-12-16T02:43:05.339Z",
+          "lastFlagChange": null,
+          "rarity": 65.518,
+          "rarityRank": 17139,
+          "collection": {
+            "id": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+            "name": "Mutant Ape Yacht Club",
+            "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75add5f47e04b38afadae642f273a0e37a608bbf1e23918d071719d2575201a4ba471d208a841cc7be27238ee19d228ef9271e34cc8f24a46c583c154c71df043228d781a2f5402cd108e96956e9ab029c8fa81a7b290da3f11e52558afbc546482bd501fff65d912d2fa0686ee8650bc94e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+            "slug": "mutant-ape-yacht-club"
+          },
+          "lastBuy": {
+            "value": 13.621,
+            "timestamp": 1671187151
+          },
+          "lastSell": {
+            "value": 15.6,
+            "timestamp": 1665026363
+          },
+          "owner": "0xb67b362b89b83fa1bea4545082968a0fcad7ce5f"
+        },
+        "market": {
+          "floorAsk": {
+            "id": "0x3beb4122c85ab6a3d483a673ff663f1b8900ad6d51a10fb40c4ddd580cec74d9",
+            "price": {
+              "currency": {
+                "contract": "0x0000000000000000000000000000000000000000",
+                "name": "Ether",
+                "symbol": "ETH",
+                "decimals": 18
+              },
+              "amount": {
+                "raw": "14214300000000000000",
+                "decimal": 14.2143,
+                "usd": 17963.27079,
+                "native": 14.2143
+              }
+            },
+            "maker": "0xb67b362b89b83fa1bea4545082968a0fcad7ce5f",
+            "validFrom": 1671194055,
+            "validUntil": 1671280455,
+            "source": {
+              "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+              "domain": "looksrare.org",
+              "name": "LooksRare",
+              "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+              "url": "https://looksrare.org/collections/0x60e4d786628fea6478f785a6d7e704777c86a7c6/5323"
+            }
+          }
+        }
+      },
+      {
+        "token": {
+          "contract": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+          "tokenId": "1029",
+          "name": "#1029 (M1)",
+          "description": null,
+          "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ac2a76d03088fa9fbae329b7bb6e41e5fd534851349a05f36286d1894a1251c68d317087afda75065873a874e185efde989708ba911ff0d47b1e31955d2038504cb732891653de28a17abc9da968ba1d5faaf137921efae292c6c9545c9c7501b77d62e95247ceac2413325711391cb9023c5e4198f99eda3f3b783c3322e8c56",
+          "media": null,
+          "kind": "erc721",
+          "isFlagged": true,
+          "lastFlagUpdate": "2022-12-16T02:46:02.459Z",
+          "lastFlagChange": null,
+          "rarity": 67.587,
+          "rarityRank": 16608,
+          "collection": {
+            "id": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+            "name": "Mutant Ape Yacht Club",
+            "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75add5f47e04b38afadae642f273a0e37a608bbf1e23918d071719d2575201a4ba471d208a841cc7be27238ee19d228ef9271e34cc8f24a46c583c154c71df043228d781a2f5402cd108e96956e9ab029c8fa81a7b290da3f11e52558afbc546482bd501fff65d912d2fa0686ee8650bc94e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+            "slug": "mutant-ape-yacht-club"
+          },
+          "lastBuy": {
+            "value": 15.7,
+            "timestamp": 1658779467
+          },
+          "lastSell": {
+            "value": null,
+            "timestamp": null
+          },
+          "owner": "0x61f00862bea0237b8cba423ac37ebdfa90cb9768"
+        },
+        "market": {
+          "floorAsk": {
+            "id": "0xa20baed82fa6542c42262feabe3f83c0e091802c407822465f6912a314e87573",
+            "price": {
+              "currency": {
+                "contract": "0x0000000000000000000000000000000000000000",
+                "name": "Ether",
+                "symbol": "ETH",
+                "decimals": 18
+              },
+              "amount": {
+                "raw": "14250000000000000000",
+                "decimal": 14.25,
+                "usd": 18008.38654,
+                "native": 14.25
+              }
+            },
+            "maker": "0x61f00862bea0237b8cba423ac37ebdfa90cb9768",
+            "validFrom": 1670380042,
+            "validUntil": 1672972030,
+            "source": {
+              "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+              "domain": "looksrare.org",
+              "name": "LooksRare",
+              "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+              "url": "https://looksrare.org/collections/0x60e4d786628fea6478f785a6d7e704777c86a7c6/1029"
+            }
+          }
+        }
+      },
+      {
+        "token": {
+          "contract": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+          "tokenId": "9007",
+          "name": "#9007 (M1)",
+          "description": null,
+          "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a727a61cabd90ff83a6e825c70cbd14f589c5cb1391e627ca03a5af145e112cc6380df7b5eee3e460e6719b3cad1a2bcb881ea7f8d6b5df557865050e061f310abf430a0b603116465bf3c2bb2bd52dbb69e533b067b5c8a42577c5cb33e28fd5bca9550f63ff1177a3b3b1bf80ab3808058ed9feecb44e991ea6b299d1f7ae6c",
+          "media": null,
+          "kind": "erc721",
+          "isFlagged": false,
+          "lastFlagUpdate": "2022-12-16T16:19:07.797Z",
+          "lastFlagChange": null,
+          "rarity": 65.745,
+          "rarityRank": 17077,
+          "collection": {
+            "id": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+            "name": "Mutant Ape Yacht Club",
+            "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75add5f47e04b38afadae642f273a0e37a608bbf1e23918d071719d2575201a4ba471d208a841cc7be27238ee19d228ef9271e34cc8f24a46c583c154c71df043228d781a2f5402cd108e96956e9ab029c8fa81a7b290da3f11e52558afbc546482bd501fff65d912d2fa0686ee8650bc94e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+            "slug": "mutant-ape-yacht-club"
+          },
+          "lastBuy": {
+            "value": null,
+            "timestamp": null
+          },
+          "lastSell": {
+            "value": null,
+            "timestamp": null
+          },
+          "owner": "0x73f33822f62de03e236e374e18d93daff662b8ff"
+        },
+        "market": {
+          "floorAsk": {
+            "id": "0x37a8b6a76caa53e6788dfbc9d0ef26c93310344c5d92cf6c50c17af85407f4ec",
+            "price": {
+              "currency": {
+                "contract": "0x0000000000000000000000000000000000000000",
+                "name": "Ether",
+                "symbol": "ETH",
+                "decimals": 18
+              },
+              "amount": {
+                "raw": "14250000000000000000",
+                "decimal": 14.25,
+                "usd": 18008.38654,
+                "native": 14.25
+              }
+            },
+            "maker": "0x73f33822f62de03e236e374e18d93daff662b8ff",
+            "validFrom": 1671085208,
+            "validUntil": 1673510191,
+            "source": {
+              "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+              "domain": "opensea.io",
+              "name": "OpenSea",
+              "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+              "url": "https://opensea.io/assets/0x60e4d786628fea6478f785a6d7e704777c86a7c6/9007"
+            }
+          }
+        }
+      },
+      {
+        "token": {
+          "contract": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+          "tokenId": "12816",
+          "name": "#12816 (M1)",
+          "description": null,
+          "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a467bb7649c494a327e4ce7636a11363cbeabaa9efbaaf840ca90e65c19a29ce4dc70f523ccb8e09fb47c0ff417889e86854674c2baa509c2d4dd957dd68316a12b00bb78905a5e3bb332eca53d1414115afdd1079083ba13138f1adde957a51132568bf31e362ce2a138cca7464c457f23c5e4198f99eda3f3b783c3322e8c56",
+          "media": null,
+          "kind": "erc721",
+          "isFlagged": true,
+          "lastFlagUpdate": "2022-12-16T16:16:52.759Z",
+          "lastFlagChange": null,
+          "rarity": 73.915,
+          "rarityRank": 14781,
+          "collection": {
+            "id": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+            "name": "Mutant Ape Yacht Club",
+            "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75add5f47e04b38afadae642f273a0e37a608bbf1e23918d071719d2575201a4ba471d208a841cc7be27238ee19d228ef9271e34cc8f24a46c583c154c71df043228d781a2f5402cd108e96956e9ab029c8fa81a7b290da3f11e52558afbc546482bd501fff65d912d2fa0686ee8650bc94e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+            "slug": "mutant-ape-yacht-club"
+          },
+          "lastBuy": {
+            "value": 9.512,
+            "timestamp": 1668374687
+          },
+          "lastSell": {
+            "value": 10.5,
+            "timestamp": 1668601367
+          },
+          "owner": "0xc3cea12ffda8b3dff435155461de6fcc72315117"
+        },
+        "market": {
+          "floorAsk": {
+            "id": "0xb68abe7a4877a7ec28648bf8745ba836e3d2fbf3b65ee5d7fe936a699dcc8faf",
+            "price": {
+              "currency": {
+                "contract": "0x0000000000000000000000000000000000000000",
+                "name": "Ether",
+                "symbol": "ETH",
+                "decimals": 18
+              },
+              "amount": {
+                "raw": "14250000000000000000",
+                "decimal": 14.25,
+                "usd": 18008.38654,
+                "native": 14.25
+              }
+            },
+            "maker": "0xc3cea12ffda8b3dff435155461de6fcc72315117",
+            "validFrom": 1671046376,
+            "validUntil": 1673493391,
+            "source": {
+              "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+              "domain": "looksrare.org",
+              "name": "LooksRare",
+              "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+              "url": "https://looksrare.org/collections/0x60e4d786628fea6478f785a6d7e704777c86a7c6/12816"
+            }
+          }
+        }
+      },
+      {
+        "token": {
+          "contract": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+          "tokenId": "28938",
+          "name": "#28938 (M1)",
+          "description": null,
+          "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4f4c319e7a934e702dee72c7de4ff785ad4a3fbe75a67fdefab1639d5633ec936bc54ffa6a72d8df97a3f918cb28d8926da09c20c4da4dc557e5cae8c1fcc792fb587f57acbd3f9022e54d376df470ae5b685cbad8016285576f3c86c33226714374e011ffc4ef39a755e3cdb2298753058ed9feecb44e991ea6b299d1f7ae6c",
+          "media": null,
+          "kind": "erc721",
+          "isFlagged": false,
+          "lastFlagUpdate": "2022-12-16T16:09:01.797Z",
+          "lastFlagChange": null,
+          "rarity": 78.677,
+          "rarityRank": 13537,
+          "collection": {
+            "id": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+            "name": "Mutant Ape Yacht Club",
+            "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75add5f47e04b38afadae642f273a0e37a608bbf1e23918d071719d2575201a4ba471d208a841cc7be27238ee19d228ef9271e34cc8f24a46c583c154c71df043228d781a2f5402cd108e96956e9ab029c8fa81a7b290da3f11e52558afbc546482bd501fff65d912d2fa0686ee8650bc94e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+            "slug": "mutant-ape-yacht-club"
+          },
+          "lastBuy": {
+            "value": 11.8,
+            "timestamp": 1669190807
+          },
+          "lastSell": {
+            "value": 11.39,
+            "timestamp": 1669350527
+          },
+          "owner": "0x0ff434b2deb7bffed2b9db472367a5ff971b9896"
+        },
+        "market": {
+          "floorAsk": {
+            "id": "0xeba4b7892b2c6cf3dca8874f9ae4a9c2161e717923d0fcce89879150f78f8a7d",
+            "price": {
+              "currency": {
+                "contract": "0x0000000000000000000000000000000000000000",
+                "name": "Ether",
+                "symbol": "ETH",
+                "decimals": 18
+              },
+              "amount": {
+                "raw": "14280000000000000000",
+                "decimal": 14.28,
+                "usd": 18046.29893,
+                "native": 14.28
+              }
+            },
+            "maker": "0x0ff434b2deb7bffed2b9db472367a5ff971b9896",
+            "validFrom": 1671195930,
+            "validUntil": 1671282278,
+            "source": {
+              "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+              "domain": "looksrare.org",
+              "name": "LooksRare",
+              "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+              "url": "https://looksrare.org/collections/0x60e4d786628fea6478f785a6d7e704777c86a7c6/28938"
+            }
+          }
+        }
+      },
+      {
+        "token": {
+          "contract": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+          "tokenId": "18372",
+          "name": "#18372 (M1)",
+          "description": null,
+          "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ac6ae36f3d9cf4e0a107f3362258dff343e9fa9e3d50013e91b4ff73cb75ff05d9f8f2c1bf14187e38178db6a2e6da792dcb6e3a48c215432b43298dc84d21991b19572a4f19e64e17dc5f7aa5b1daa6c4b5a0c15630c32754f8190f50e089af8e42308f67f0fec62d6a273ebe9b7e163e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+          "media": null,
+          "kind": "erc721",
+          "isFlagged": true,
+          "lastFlagUpdate": "2022-12-16T16:08:29.429Z",
+          "lastFlagChange": null,
+          "rarity": 64.656,
+          "rarityRank": 17353,
+          "collection": {
+            "id": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+            "name": "Mutant Ape Yacht Club",
+            "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75add5f47e04b38afadae642f273a0e37a608bbf1e23918d071719d2575201a4ba471d208a841cc7be27238ee19d228ef9271e34cc8f24a46c583c154c71df043228d781a2f5402cd108e96956e9ab029c8fa81a7b290da3f11e52558afbc546482bd501fff65d912d2fa0686ee8650bc94e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+            "slug": "mutant-ape-yacht-club"
+          },
+          "lastBuy": {
+            "value": 10.852,
+            "timestamp": 1669226939
+          },
+          "lastSell": {
+            "value": 13.27,
+            "timestamp": 1670314547
+          },
+          "owner": "0x41963e09247348110f9b25300b0b6652f67a4bee"
+        },
+        "market": {
+          "floorAsk": {
+            "id": "0xe517342e43303a345cd5b9a74eb313aaa8c24540dd38a0ce65266c3e7ce29e17",
+            "price": {
+              "currency": {
+                "contract": "0x0000000000000000000000000000000000000000",
+                "name": "Ether",
+                "symbol": "ETH",
+                "decimals": 18
+              },
+              "amount": {
+                "raw": "14300000000000000000",
+                "decimal": 14.3,
+                "usd": 18071.57386,
+                "native": 14.3
+              }
+            },
+            "maker": "0x41963e09247348110f9b25300b0b6652f67a4bee",
+            "validFrom": 1670827460,
+            "validUntil": 1673407779,
+            "source": {
+              "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+              "domain": "looksrare.org",
+              "name": "LooksRare",
+              "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+              "url": "https://looksrare.org/collections/0x60e4d786628fea6478f785a6d7e704777c86a7c6/18372"
+            }
+          }
+        }
+      }
+    ]

@@ -1,0 +1,41 @@
+[
+  {
+    "token": {
+      "contract": "String. CollectionID",
+      "tokenId": "String Number",
+      "name": "String",
+      "description": "String",
+      "image": "String URL",
+      "rarity": "Float",
+      "rarityRank": "Integer",
+      "collection": {
+        "id": "String ID",
+        "name": "String",
+        "image": "String URL"
+      },
+      "lastSell": {
+        "value": "Float",
+        "timestamp": "Float"
+      },
+      "owner": "String ID"
+    },
+
+    "market": {
+      "floorAsk": {
+        "id": "String ID",
+        "price": {
+          "amount": {
+            "decimal": "Float"
+          }
+        },
+        "source": {
+          "id": "String ID",
+          "domain": "String",
+          "name": "String",
+          "icon": "String URL",
+          "url": "String URL"
+        }
+      }
+    }
+  }
+]

@@ -16,9 +16,8 @@ export default function NFTNav() {
 	const cartItemsCount = useSelector((state) => state.userNfts);
 
   const location = useLocation();
-  const history = useHistory();
-  const areWeInLanding = location.pathname === "/";
-  console.log(location.pathname);
+  const history = useHistory()
+  const areWeInLanding = (location.pathname === "/");
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
