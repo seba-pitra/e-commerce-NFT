@@ -19,15 +19,11 @@ module.exports = (sequelize) => {
         allowNull: false,
       },
       image: {
-        type: DataTypes.STRING,
+        type: DataTypes.TEXT,
         allowNull: false,
       },
-      // available: {
-      //   type: DataTypes.BOOLEAN,
-      //   allowNull: false,
-      // },
-      type: {
-        type: DataTypes.STRING,
+      available: {
+        type: DataTypes.BOOLEAN,
         allowNull: false,
       },
       contract: {
@@ -39,12 +35,6 @@ module.exports = (sequelize) => {
       },
       price: {
         type: DataTypes.FLOAT,
-      },
-      category: {
-        type: DataTypes.ARRAY(DataTypes.STRING),
-      },
-      source: {
-        type: DataTypes.JSONB,
       },
     },
     {

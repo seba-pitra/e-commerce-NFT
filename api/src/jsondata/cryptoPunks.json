@@ -1,0 +1,1202 @@
+[
+      {
+        "token": {
+          "contract": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+          "tokenId": "749",
+          "name": "CryptoPunk #749",
+          "description": null,
+          "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a6b74255d6ef0e7d63af6d4e5ac5e07a37f508d0436b141513dc7777b6479ce6858de4c77cd3b1101a3d1f63f50e6b624b5c1537e4259472e62a40eddc3e7b26c237712f294cbeca0aa5cd202074d28ecb5e5e265a356d7d45eec7c2df919ef45fa0af3f215080c1bb6bc5903c8c2c61be1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+          "media": null,
+          "kind": "cryptopunks",
+          "isFlagged": true,
+          "lastFlagUpdate": "2022-12-15T20:23:35.098Z",
+          "lastFlagChange": "2022-12-15T14:38:22.643Z",
+          "rarity": 86.871,
+          "rarityRank": 3181,
+          "collection": {
+            "id": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+            "name": "CryptoPunks",
+            "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1a4a0b4a39ab04b646bf006827af0929a777e4ae02b4fa3341d5847437ec6c95b780286950562004e1ea5e7f4a6716ddc0fdfedcfe2d1c387cf166e6375a5f01d5b5160c4ca13188e42167a8d4461cc76f500f6f307553a5e84f2a9f09b186f842a1771aa3e1ed870695a9b1b4ab8bc0e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+            "slug": "cryptopunks"
+          },
+          "lastBuy": {
+            "value": null,
+            "timestamp": null
+          },
+          "lastSell": {
+            "value": 44.69,
+            "timestamp": 1653562551
+          },
+          "owner": "0x125c30d64024adf3a65125ff5b02c69fac298a46"
+        },
+        "market": {
+          "floorAsk": {
+            "id": "0x51e3706f56c847d680ea4c7cd1af38ef6dc95d040b4ea690b00b1b3096bb842c",
+            "price": {
+              "currency": {
+                "contract": "0x0000000000000000000000000000000000000000",
+                "name": "Ether",
+                "symbol": "ETH",
+                "decimals": 18
+              },
+              "amount": {
+                "raw": "63690000000000000000",
+                "decimal": 63.69,
+                "usd": 80488.00974,
+                "native": 63.69
+              }
+            },
+            "maker": "0x125c30d64024adf3a65125ff5b02c69fac298a46",
+            "validFrom": 1671110675,
+            "validUntil": 0,
+            "source": {
+              "id": "0x83dcaa3248d7526149eec93a2815ff61a41cd327",
+              "domain": "cryptopunks.app",
+              "name": "CryptoPunks",
+              "icon": "https://cryptopunks.app/public/images/favicon.png",
+              "url": "https://www.reservoir.market/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb/749"
+            }
+          }
+        }
+      },
+      {
+        "token": {
+          "contract": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+          "tokenId": "1527",
+          "name": "CryptoPunk #1527",
+          "description": null,
+          "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a46ee73ed920a14e5a873bfe0cb24f2491b9d94e086898e0430cb4fa2d1a8e27adc5fe63c09b6c3b973b9001372767693d5f02415cff7e1acc8689d5b455c3ac8b2236aadd271809cccead0257dae1868643388f10fad294b0bf7053929d2a0b23caa479aeed2eebbaf35092dbda53c9423c5e4198f99eda3f3b783c3322e8c56",
+          "media": null,
+          "kind": "cryptopunks",
+          "isFlagged": false,
+          "lastFlagUpdate": "2022-12-16T11:47:01.749Z",
+          "lastFlagChange": "2022-12-16T11:47:01.749Z",
+          "rarity": 82.05,
+          "rarityRank": 3725,
+          "collection": {
+            "id": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+            "name": "CryptoPunks",
+            "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1a4a0b4a39ab04b646bf006827af0929a777e4ae02b4fa3341d5847437ec6c95b780286950562004e1ea5e7f4a6716ddc0fdfedcfe2d1c387cf166e6375a5f01d5b5160c4ca13188e42167a8d4461cc76f500f6f307553a5e84f2a9f09b186f842a1771aa3e1ed870695a9b1b4ab8bc0e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+            "slug": "cryptopunks"
+          },
+          "lastBuy": {
+            "value": null,
+            "timestamp": null
+          },
+          "lastSell": {
+            "value": 28.98,
+            "timestamp": 1627701749
+          },
+          "owner": "0xe703f231ab056ecb99c92a1232cc1020acfc72f8"
+        },
+        "market": {
+          "floorAsk": {
+            "id": "0xef2944b85c0bbdeff87859d8dd07c085c7f789e62f3d5c55cb76668a330478b9",
+            "price": {
+              "currency": {
+                "contract": "0x0000000000000000000000000000000000000000",
+                "name": "Ether",
+                "symbol": "ETH",
+                "decimals": 18
+              },
+              "amount": {
+                "raw": "64500000000000000000",
+                "decimal": 64.5,
+                "usd": 81511.64435,
+                "native": 64.5
+              }
+            },
+            "maker": "0xe703f231ab056ecb99c92a1232cc1020acfc72f8",
+            "validFrom": 1670889299,
+            "validUntil": 0,
+            "source": {
+              "id": "0x83dcaa3248d7526149eec93a2815ff61a41cd327",
+              "domain": "cryptopunks.app",
+              "name": "CryptoPunks",
+              "icon": "https://cryptopunks.app/public/images/favicon.png",
+              "url": "https://www.reservoir.market/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb/1527"
+            }
+          }
+        }
+      },
+      {
+        "token": {
+          "contract": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+          "tokenId": "1512",
+          "name": "CryptoPunk #1512",
+          "description": null,
+          "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af9aa43054dfefdfd7960cd1e7f4995c673a39ffab71fb87e2fbf825a89a9bfc7f713a073f74188db5288561d8e88b05b1adeb03c24cf9bf5d07a4e7c93321206b75eaeb2037be24b21c0d1f6ffcf286a9f253cc0281488fea78cb5fc97e45ee1fe2bf1ecc3c05078da6a76ac00f8f006c91e0ae0cbdf3a66c0b83f83fab8bad4",
+          "media": null,
+          "kind": "cryptopunks",
+          "isFlagged": false,
+          "lastFlagUpdate": "2022-12-06T04:22:43.848Z",
+          "lastFlagChange": "2022-12-06T04:22:43.848Z",
+          "rarity": 58.807,
+          "rarityRank": 8250,
+          "collection": {
+            "id": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+            "name": "CryptoPunks",
+            "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1a4a0b4a39ab04b646bf006827af0929a777e4ae02b4fa3341d5847437ec6c95b780286950562004e1ea5e7f4a6716ddc0fdfedcfe2d1c387cf166e6375a5f01d5b5160c4ca13188e42167a8d4461cc76f500f6f307553a5e84f2a9f09b186f842a1771aa3e1ed870695a9b1b4ab8bc0e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+            "slug": "cryptopunks"
+          },
+          "lastBuy": {
+            "value": null,
+            "timestamp": null
+          },
+          "lastSell": {
+            "value": 0.18,
+            "timestamp": 1502631679
+          },
+          "owner": "0x9113d4142de0f25a50d952f808f4c09dd70da46d"
+        },
+        "market": {
+          "floorAsk": {
+            "id": "0xedb36a870f1e92241a6adafb35895f717f7fcaba503693c210b00e182f6c9e18",
+            "price": {
+              "currency": {
+                "contract": "0x0000000000000000000000000000000000000000",
+                "name": "Ether",
+                "symbol": "ETH",
+                "decimals": 18
+              },
+              "amount": {
+                "raw": "64800000000000000000",
+                "decimal": 64.8,
+                "usd": 81890.76827,
+                "native": 64.8
+              }
+            },
+            "maker": "0x9113d4142de0f25a50d952f808f4c09dd70da46d",
+            "validFrom": 1671008807,
+            "validUntil": 0,
+            "source": {
+              "id": "0x83dcaa3248d7526149eec93a2815ff61a41cd327",
+              "domain": "cryptopunks.app",
+              "name": "CryptoPunks",
+              "icon": "https://cryptopunks.app/public/images/favicon.png",
+              "url": "https://www.reservoir.market/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb/1512"
+            }
+          }
+        }
+      },
+      {
+        "token": {
+          "contract": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+          "tokenId": "4721",
+          "name": "CryptoPunk #4721",
+          "description": null,
+          "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a788eaccb633c7f74c2ea5f0b1d6d58f2f17c98139fb5c83dfcafddbb470423e49c1d901d6052165e01e2838209b46e56ef1eb65617358d2aaaee2d2bbaeff09ea2bfca9356ead38af7eb1e122652dc584ae4ece09d6e9f6d89dbaedd34233ce761f0d699065437a121a1f908890cdc2c058ed9feecb44e991ea6b299d1f7ae6c",
+          "media": null,
+          "kind": "cryptopunks",
+          "isFlagged": false,
+          "lastFlagUpdate": "2022-12-13T13:20:39.118Z",
+          "lastFlagChange": "2022-12-13T13:20:39.118Z",
+          "rarity": 58.036,
+          "rarityRank": 8486,
+          "collection": {
+            "id": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+            "name": "CryptoPunks",
+            "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1a4a0b4a39ab04b646bf006827af0929a777e4ae02b4fa3341d5847437ec6c95b780286950562004e1ea5e7f4a6716ddc0fdfedcfe2d1c387cf166e6375a5f01d5b5160c4ca13188e42167a8d4461cc76f500f6f307553a5e84f2a9f09b186f842a1771aa3e1ed870695a9b1b4ab8bc0e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+            "slug": "cryptopunks"
+          },
+          "lastBuy": {
+            "value": null,
+            "timestamp": null
+          },
+          "lastSell": {
+            "value": null,
+            "timestamp": null
+          },
+          "owner": "0xac3b465c8521773b8b8494db65003a4845056c61"
+        },
+        "market": {
+          "floorAsk": {
+            "id": "0x9dc0d88e408c76020f8837bfb425fca40ed1f8579ca70d0117c744b8896a6003",
+            "price": {
+              "currency": {
+                "contract": "0x0000000000000000000000000000000000000000",
+                "name": "Ether",
+                "symbol": "ETH",
+                "decimals": 18
+              },
+              "amount": {
+                "raw": "64950000000000000000",
+                "decimal": 64.95,
+                "usd": 82080.33024,
+                "native": 64.95
+              }
+            },
+            "maker": "0xac3b465c8521773b8b8494db65003a4845056c61",
+            "validFrom": 1670809907,
+            "validUntil": 0,
+            "source": {
+              "id": "0x83dcaa3248d7526149eec93a2815ff61a41cd327",
+              "domain": "cryptopunks.app",
+              "name": "CryptoPunks",
+              "icon": "https://cryptopunks.app/public/images/favicon.png",
+              "url": "https://www.reservoir.market/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb/4721"
+            }
+          }
+        }
+      },
+      {
+        "token": {
+          "contract": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+          "tokenId": "9691",
+          "name": "CryptoPunk #9691",
+          "description": null,
+          "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae1e1baf6433a45672e5bf3a9635f2a1050a93db266d16dd47a910774b946f08cc3dbbd2cbe66e487b49be885568fc5895adcc84ed67b9dc8384601c8aca985f0ec037d9f352e6d38c7cb5293a72fb6089e7d580400ad8e70b5c570e59a4b362dd8c488fd6b470d552ff933f1c5f3200c058ed9feecb44e991ea6b299d1f7ae6c",
+          "media": null,
+          "kind": "cryptopunks",
+          "isFlagged": false,
+          "lastFlagUpdate": "2022-12-14T09:42:07.134Z",
+          "lastFlagChange": "2022-12-14T09:42:07.134Z",
+          "rarity": 71.55,
+          "rarityRank": 5135,
+          "collection": {
+            "id": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+            "name": "CryptoPunks",
+            "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1a4a0b4a39ab04b646bf006827af0929a777e4ae02b4fa3341d5847437ec6c95b780286950562004e1ea5e7f4a6716ddc0fdfedcfe2d1c387cf166e6375a5f01d5b5160c4ca13188e42167a8d4461cc76f500f6f307553a5e84f2a9f09b186f842a1771aa3e1ed870695a9b1b4ab8bc0e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+            "slug": "cryptopunks"
+          },
+          "lastBuy": {
+            "value": null,
+            "timestamp": null
+          },
+          "lastSell": {
+            "value": 63.5,
+            "timestamp": 1669844903
+          },
+          "owner": "0x1cb89e486db5774ba084f683796286848df489d0"
+        },
+        "market": {
+          "floorAsk": {
+            "id": "0x3cd6e024f79b8afdd6dfdd1f9b496030e6ceb3a9c3d8f56ed191442ebfc1e4e4",
+            "price": {
+              "currency": {
+                "contract": "0x0000000000000000000000000000000000000000",
+                "name": "Ether",
+                "symbol": "ETH",
+                "decimals": 18
+              },
+              "amount": {
+                "raw": "65500000000000000000",
+                "decimal": 65.5,
+                "usd": 82775.39077,
+                "native": 65.5
+              }
+            },
+            "maker": "0x1cb89e486db5774ba084f683796286848df489d0",
+            "validFrom": 1671060851,
+            "validUntil": 0,
+            "source": {
+              "id": "0x83dcaa3248d7526149eec93a2815ff61a41cd327",
+              "domain": "cryptopunks.app",
+              "name": "CryptoPunks",
+              "icon": "https://cryptopunks.app/public/images/favicon.png",
+              "url": "https://www.reservoir.market/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb/9691"
+            }
+          }
+        }
+      },
+      {
+        "token": {
+          "contract": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+          "tokenId": "5766",
+          "name": "CryptoPunk #5766",
+          "description": null,
+          "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1c32f9d23968423b07eb857ae3e6f2e67bb9ae60ac90be26d4427bb4dea3e73138d73d12b541892f4d3a70a01b376c6ac5b3798e6c12efd6b35debf9afa7ed43fdcafae69caa1d9a85f41b66c822395373d361be9eb2b08ce65106d6f6895037b316bb7e5a19ca45a72644f1a25d64fe23c5e4198f99eda3f3b783c3322e8c56",
+          "media": null,
+          "kind": "cryptopunks",
+          "isFlagged": true,
+          "lastFlagUpdate": "2022-12-09T22:20:16.538Z",
+          "lastFlagChange": "2022-12-08T18:45:55.982Z",
+          "rarity": 71.265,
+          "rarityRank": 5189,
+          "collection": {
+            "id": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+            "name": "CryptoPunks",
+            "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1a4a0b4a39ab04b646bf006827af0929a777e4ae02b4fa3341d5847437ec6c95b780286950562004e1ea5e7f4a6716ddc0fdfedcfe2d1c387cf166e6375a5f01d5b5160c4ca13188e42167a8d4461cc76f500f6f307553a5e84f2a9f09b186f842a1771aa3e1ed870695a9b1b4ab8bc0e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+            "slug": "cryptopunks"
+          },
+          "lastBuy": {
+            "value": null,
+            "timestamp": null
+          },
+          "lastSell": {
+            "value": 64.9,
+            "timestamp": 1645994024
+          },
+          "owner": "0x0232d1083e970f0c78f56202b9a666b526fa379f"
+        },
+        "market": {
+          "floorAsk": {
+            "id": "0x58a1ef01b41d622482ad00cd1b2058145c2b115180f4f9e9c4569d03733c05f3",
+            "price": {
+              "currency": {
+                "contract": "0x0000000000000000000000000000000000000000",
+                "name": "Ether",
+                "symbol": "ETH",
+                "decimals": 18
+              },
+              "amount": {
+                "raw": "65690000000000000000",
+                "decimal": 65.69,
+                "usd": 83015.50259,
+                "native": 65.69
+              }
+            },
+            "maker": "0x0232d1083e970f0c78f56202b9a666b526fa379f",
+            "validFrom": 1670769227,
+            "validUntil": 0,
+            "source": {
+              "id": "0x83dcaa3248d7526149eec93a2815ff61a41cd327",
+              "domain": "cryptopunks.app",
+              "name": "CryptoPunks",
+              "icon": "https://cryptopunks.app/public/images/favicon.png",
+              "url": "https://www.reservoir.market/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb/5766"
+            }
+          }
+        }
+      },
+      {
+        "token": {
+          "contract": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+          "tokenId": "8602",
+          "name": "CryptoPunk #8602",
+          "description": null,
+          "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af01002768660ad17642280b0b976fb1a896909ae9175464ada7dd3bd4c9cc2fe475d1abd05c013c89e9bdc3567438502b29653f7f3b37245f14e2833f656ef09ef57e8bb0cab32b01afc05e43f2bcb93397d6c74fce63a6adf18605502cc0183859a725ae8421426bcd6fc889a664838058ed9feecb44e991ea6b299d1f7ae6c",
+          "media": null,
+          "kind": "cryptopunks",
+          "isFlagged": false,
+          "lastFlagUpdate": "2022-11-30T02:07:53.603Z",
+          "lastFlagChange": null,
+          "rarity": 70.99,
+          "rarityRank": 5256,
+          "collection": {
+            "id": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+            "name": "CryptoPunks",
+            "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1a4a0b4a39ab04b646bf006827af0929a777e4ae02b4fa3341d5847437ec6c95b780286950562004e1ea5e7f4a6716ddc0fdfedcfe2d1c387cf166e6375a5f01d5b5160c4ca13188e42167a8d4461cc76f500f6f307553a5e84f2a9f09b186f842a1771aa3e1ed870695a9b1b4ab8bc0e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+            "slug": "cryptopunks"
+          },
+          "lastBuy": {
+            "value": null,
+            "timestamp": null
+          },
+          "lastSell": {
+            "value": 49,
+            "timestamp": 1655238082
+          },
+          "owner": "0x0232d1083e970f0c78f56202b9a666b526fa379f"
+        },
+        "market": {
+          "floorAsk": {
+            "id": "0xd3f4d382fc57b0e40f50dad26cc33c07b2b234b5a7632349723b3ba0736dbdf9",
+            "price": {
+              "currency": {
+                "contract": "0x0000000000000000000000000000000000000000",
+                "name": "Ether",
+                "symbol": "ETH",
+                "decimals": 18
+              },
+              "amount": {
+                "raw": "65950000000000000000",
+                "decimal": 65.95,
+                "usd": 83344.07666,
+                "native": 65.95
+              }
+            },
+            "maker": "0x0232d1083e970f0c78f56202b9a666b526fa379f",
+            "validFrom": 1670769227,
+            "validUntil": 0,
+            "source": {
+              "id": "0x83dcaa3248d7526149eec93a2815ff61a41cd327",
+              "domain": "cryptopunks.app",
+              "name": "CryptoPunks",
+              "icon": "https://cryptopunks.app/public/images/favicon.png",
+              "url": "https://www.reservoir.market/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb/8602"
+            }
+          }
+        }
+      },
+      {
+        "token": {
+          "contract": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+          "tokenId": "1621",
+          "name": "CryptoPunk #1621",
+          "description": null,
+          "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af3448a4101617a205b4aaa828dcdc74610ac9625498c33ffaaf1a82b9c66d66aae2cc5f58af351fe9533e7890c3cd4ca79ae004a2fcb9500e34860b4196c17211c7289d497f32519d9ce8e091c31b8ce69b5ac0ce8c5f6cf9f90875d7165c86156518052cec60389b86a71904e9d4ad8e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+          "media": null,
+          "kind": "cryptopunks",
+          "isFlagged": false,
+          "lastFlagUpdate": "2022-11-23T09:15:13.476Z",
+          "lastFlagChange": null,
+          "rarity": 79.54,
+          "rarityRank": 4107,
+          "collection": {
+            "id": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+            "name": "CryptoPunks",
+            "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1a4a0b4a39ab04b646bf006827af0929a777e4ae02b4fa3341d5847437ec6c95b780286950562004e1ea5e7f4a6716ddc0fdfedcfe2d1c387cf166e6375a5f01d5b5160c4ca13188e42167a8d4461cc76f500f6f307553a5e84f2a9f09b186f842a1771aa3e1ed870695a9b1b4ab8bc0e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+            "slug": "cryptopunks"
+          },
+          "lastBuy": {
+            "value": null,
+            "timestamp": null
+          },
+          "lastSell": {
+            "value": 67.5,
+            "timestamp": 1670295071
+          },
+          "owner": "0xfe2108fe61e9b8ba76ad56968f29c16efd926846"
+        },
+        "market": {
+          "floorAsk": {
+            "id": "0x77bca5bca48c8e2e0a722aa6f91a775df432c260eaffd6043a315e4bdf8ec244",
+            "price": {
+              "currency": {
+                "contract": "0x0000000000000000000000000000000000000000",
+                "name": "Ether",
+                "symbol": "ETH",
+                "decimals": 18
+              },
+              "amount": {
+                "raw": "66500000000000000000",
+                "decimal": 66.5,
+                "usd": 84039.1372,
+                "native": 66.5
+              }
+            },
+            "maker": "0xfe2108fe61e9b8ba76ad56968f29c16efd926846",
+            "validFrom": 1671139475,
+            "validUntil": 0,
+            "source": {
+              "id": "0x83dcaa3248d7526149eec93a2815ff61a41cd327",
+              "domain": "cryptopunks.app",
+              "name": "CryptoPunks",
+              "icon": "https://cryptopunks.app/public/images/favicon.png",
+              "url": "https://www.reservoir.market/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb/1621"
+            }
+          }
+        }
+      },
+      {
+        "token": {
+          "contract": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+          "tokenId": "7836",
+          "name": "CryptoPunk #7836",
+          "description": null,
+          "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a8e4135ad0f9b479269f4deb03e4712d0a33591f27bfde34ca08a4568feb653cbd2cb5b4710361087e200194eb92f27800fefd440ac008289fda41ba8bddfbd401a8d3101ddd886af94f288cc00d7b7d7901913095f7c6073bf160854c256b73ffe2bf1ecc3c05078da6a76ac00f8f006c91e0ae0cbdf3a66c0b83f83fab8bad4",
+          "media": null,
+          "kind": "cryptopunks",
+          "isFlagged": false,
+          "lastFlagUpdate": "2022-12-03T00:38:28.566Z",
+          "lastFlagChange": null,
+          "rarity": 68.371,
+          "rarityRank": 5745,
+          "collection": {
+            "id": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+            "name": "CryptoPunks",
+            "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1a4a0b4a39ab04b646bf006827af0929a777e4ae02b4fa3341d5847437ec6c95b780286950562004e1ea5e7f4a6716ddc0fdfedcfe2d1c387cf166e6375a5f01d5b5160c4ca13188e42167a8d4461cc76f500f6f307553a5e84f2a9f09b186f842a1771aa3e1ed870695a9b1b4ab8bc0e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+            "slug": "cryptopunks"
+          },
+          "lastBuy": {
+            "value": null,
+            "timestamp": null
+          },
+          "lastSell": {
+            "value": 1,
+            "timestamp": 1579390394
+          },
+          "owner": "0x6301add4fb128de9778b8651a2a9278b86761423"
+        },
+        "market": {
+          "floorAsk": {
+            "id": "0x939bb3d36a06b2294662b02f623d0ef5e013d450ed2cc38c10e4c4898013ea91",
+            "price": {
+              "currency": {
+                "contract": "0x0000000000000000000000000000000000000000",
+                "name": "Ether",
+                "symbol": "ETH",
+                "decimals": 18
+              },
+              "amount": {
+                "raw": "66900000000000000000",
+                "decimal": 66.9,
+                "usd": 84544.63576,
+                "native": 66.9
+              }
+            },
+            "maker": "0x6301add4fb128de9778b8651a2a9278b86761423",
+            "validFrom": 1670347739,
+            "validUntil": 0,
+            "source": {
+              "id": "0x83dcaa3248d7526149eec93a2815ff61a41cd327",
+              "domain": "cryptopunks.app",
+              "name": "CryptoPunks",
+              "icon": "https://cryptopunks.app/public/images/favicon.png",
+              "url": "https://www.reservoir.market/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb/7836"
+            }
+          }
+        }
+      },
+      {
+        "token": {
+          "contract": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+          "tokenId": "3960",
+          "name": "CryptoPunk #3960",
+          "description": null,
+          "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a44e6cb5d67ff56667f3d5555848d03cf8c4d54f062b102a10865021bf2f32b7c75c9b0fa8fb20dcbd61567bb3556097aaf44534b28259ed0153d046fe2e0e8e597592e5501dcee37d3797e30d79369cdcfbd5073c635629a5c15902c79d86e1416398dd4463352e4ce0f563ad6a2d92f23c5e4198f99eda3f3b783c3322e8c56",
+          "media": null,
+          "kind": "cryptopunks",
+          "isFlagged": false,
+          "lastFlagUpdate": "2022-12-10T19:19:48.015Z",
+          "lastFlagChange": "2022-12-02T20:12:24.739Z",
+          "rarity": 60.411,
+          "rarityRank": 7628,
+          "collection": {
+            "id": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+            "name": "CryptoPunks",
+            "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1a4a0b4a39ab04b646bf006827af0929a777e4ae02b4fa3341d5847437ec6c95b780286950562004e1ea5e7f4a6716ddc0fdfedcfe2d1c387cf166e6375a5f01d5b5160c4ca13188e42167a8d4461cc76f500f6f307553a5e84f2a9f09b186f842a1771aa3e1ed870695a9b1b4ab8bc0e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+            "slug": "cryptopunks"
+          },
+          "lastBuy": {
+            "value": null,
+            "timestamp": null
+          },
+          "lastSell": {
+            "value": 67.99,
+            "timestamp": 1664317643
+          },
+          "owner": "0x1919db36ca2fa2e15f9000fd9cdc2edcf863e685"
+        },
+        "market": {
+          "floorAsk": {
+            "id": "0x51774fbf23c40a32a8d93136e2ef5fe2d59c9dc463678542b9fb2ad40695a5a8",
+            "price": {
+              "currency": {
+                "contract": "0x0000000000000000000000000000000000000000",
+                "name": "Ether",
+                "symbol": "ETH",
+                "decimals": 18
+              },
+              "amount": {
+                "raw": "66950000000000000000",
+                "decimal": 66.95,
+                "usd": 84607.82309,
+                "native": 66.95
+              }
+            },
+            "maker": "0x1919db36ca2fa2e15f9000fd9cdc2edcf863e685",
+            "validFrom": 1670769251,
+            "validUntil": 0,
+            "source": {
+              "id": "0x83dcaa3248d7526149eec93a2815ff61a41cd327",
+              "domain": "cryptopunks.app",
+              "name": "CryptoPunks",
+              "icon": "https://cryptopunks.app/public/images/favicon.png",
+              "url": "https://www.reservoir.market/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb/3960"
+            }
+          }
+        }
+      },
+      {
+        "token": {
+          "contract": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+          "tokenId": "8054",
+          "name": "CryptoPunk #8054",
+          "description": null,
+          "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ac936bb77ae40da28cf08ec0999f95b9f1e4dd2464a56934bda7f84c1010c816540084df91eed8d172c2ae9a415347246a2b780d25cf63adc4cc44c492adae736e167ab48664e0711e4c76729b806e6ce7a059cd488f254026d3fae54c198b051b57a3ca95e9a05e28739966228a9163523c5e4198f99eda3f3b783c3322e8c56",
+          "media": null,
+          "kind": "cryptopunks",
+          "isFlagged": false,
+          "lastFlagUpdate": "2022-12-08T18:04:45.931Z",
+          "lastFlagChange": "2022-12-08T18:04:45.931Z",
+          "rarity": 67.884,
+          "rarityRank": 5834,
+          "collection": {
+            "id": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+            "name": "CryptoPunks",
+            "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1a4a0b4a39ab04b646bf006827af0929a777e4ae02b4fa3341d5847437ec6c95b780286950562004e1ea5e7f4a6716ddc0fdfedcfe2d1c387cf166e6375a5f01d5b5160c4ca13188e42167a8d4461cc76f500f6f307553a5e84f2a9f09b186f842a1771aa3e1ed870695a9b1b4ab8bc0e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+            "slug": "cryptopunks"
+          },
+          "lastBuy": {
+            "value": null,
+            "timestamp": null
+          },
+          "lastSell": {
+            "value": 64.2,
+            "timestamp": 1670345495
+          },
+          "owner": "0x955619054b88303da4f73582bc4182112be7693d"
+        },
+        "market": {
+          "floorAsk": {
+            "id": "0x772bc8b72dfdb02df067259122d77c45903b588260bb5e78a270ab389f58a51d",
+            "price": {
+              "currency": {
+                "contract": "0x0000000000000000000000000000000000000000",
+                "name": "Ether",
+                "symbol": "ETH",
+                "decimals": 18
+              },
+              "amount": {
+                "raw": "67000000000000000000",
+                "decimal": 67,
+                "usd": 84671.01041,
+                "native": 67
+              }
+            },
+            "maker": "0x955619054b88303da4f73582bc4182112be7693d",
+            "validFrom": 1671061535,
+            "validUntil": 0,
+            "source": {
+              "id": "0x83dcaa3248d7526149eec93a2815ff61a41cd327",
+              "domain": "cryptopunks.app",
+              "name": "CryptoPunks",
+              "icon": "https://cryptopunks.app/public/images/favicon.png",
+              "url": "https://www.reservoir.market/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb/8054"
+            }
+          }
+        }
+      },
+      {
+        "token": {
+          "contract": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+          "tokenId": "9682",
+          "name": "CryptoPunk #9682",
+          "description": null,
+          "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75afa6f47c3527d5f5f4cbba4e77b06db13d26e2fce4267e88557113f207e29e15ae64774c4f499f1f11abb9cfdb0aa7bff88135325147af7d52837ffea26e83b849c76cc0804e51765b573927fa1f0f0aaa5e08e7cf926654537f247ffcbf54bf2e0a2256a7075b2ee5c1afaaba294922823c5e4198f99eda3f3b783c3322e8c56",
+          "media": null,
+          "kind": "cryptopunks",
+          "isFlagged": false,
+          "lastFlagUpdate": "2022-11-23T09:08:43.640Z",
+          "lastFlagChange": null,
+          "rarity": 58.821,
+          "rarityRank": 8240,
+          "collection": {
+            "id": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+            "name": "CryptoPunks",
+            "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1a4a0b4a39ab04b646bf006827af0929a777e4ae02b4fa3341d5847437ec6c95b780286950562004e1ea5e7f4a6716ddc0fdfedcfe2d1c387cf166e6375a5f01d5b5160c4ca13188e42167a8d4461cc76f500f6f307553a5e84f2a9f09b186f842a1771aa3e1ed870695a9b1b4ab8bc0e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+            "slug": "cryptopunks"
+          },
+          "lastBuy": {
+            "value": null,
+            "timestamp": null
+          },
+          "lastSell": {
+            "value": null,
+            "timestamp": null
+          },
+          "owner": "0x0a68c97fc10e77ebe065a4959ae3e7e4896802b6"
+        },
+        "market": {
+          "floorAsk": {
+            "id": "0x627776272a088027595ed66fa7ed76803acaf31a2a0f0167a53eb5552f4637e6",
+            "price": {
+              "currency": {
+                "contract": "0x0000000000000000000000000000000000000000",
+                "name": "Ether",
+                "symbol": "ETH",
+                "decimals": 18
+              },
+              "amount": {
+                "raw": "67000000000000000000",
+                "decimal": 67,
+                "usd": 84671.01041,
+                "native": 67
+              }
+            },
+            "maker": "0x0a68c97fc10e77ebe065a4959ae3e7e4896802b6",
+            "validFrom": 1671011999,
+            "validUntil": 0,
+            "source": {
+              "id": "0x83dcaa3248d7526149eec93a2815ff61a41cd327",
+              "domain": "cryptopunks.app",
+              "name": "CryptoPunks",
+              "icon": "https://cryptopunks.app/public/images/favicon.png",
+              "url": "https://www.reservoir.market/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb/9682"
+            }
+          }
+        }
+      },
+      {
+        "token": {
+          "contract": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+          "tokenId": "7941",
+          "name": "CryptoPunk #7941",
+          "description": null,
+          "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aa4459996d3ce1fd0e064e32bf57aba635caa20a40b28d2c598585cffd3738d033d4ba2b6f7fb73ae047fed1f40795672f4b7a38b719ae1117cc9f22521e2a8981b08f2bc7863f9dc3241cd777b7c10aaaeac087f56aa641f9ed9d48162ff3740ce12ebb5565be5cec62ef5f18489029323c5e4198f99eda3f3b783c3322e8c56",
+          "media": null,
+          "kind": "cryptopunks",
+          "isFlagged": false,
+          "lastFlagUpdate": "2022-11-23T09:09:54.613Z",
+          "lastFlagChange": null,
+          "rarity": 83.936,
+          "rarityRank": 3506,
+          "collection": {
+            "id": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+            "name": "CryptoPunks",
+            "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1a4a0b4a39ab04b646bf006827af0929a777e4ae02b4fa3341d5847437ec6c95b780286950562004e1ea5e7f4a6716ddc0fdfedcfe2d1c387cf166e6375a5f01d5b5160c4ca13188e42167a8d4461cc76f500f6f307553a5e84f2a9f09b186f842a1771aa3e1ed870695a9b1b4ab8bc0e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+            "slug": "cryptopunks"
+          },
+          "lastBuy": {
+            "value": null,
+            "timestamp": null
+          },
+          "lastSell": {
+            "value": 66.95,
+            "timestamp": 1667998223
+          },
+          "owner": "0x1845e30fbca8772bf93b42ba7512257e21213a86"
+        },
+        "market": {
+          "floorAsk": {
+            "id": "0x65ce7134635feb52fbe41cdd175c1746a51db815d6474e7c8a3b4daf60936817",
+            "price": {
+              "currency": {
+                "contract": "0x0000000000000000000000000000000000000000",
+                "name": "Ether",
+                "symbol": "ETH",
+                "decimals": 18
+              },
+              "amount": {
+                "raw": "67390000000000000000",
+                "decimal": 67.39,
+                "usd": 85163.87151,
+                "native": 67.39
+              }
+            },
+            "maker": "0x1845e30fbca8772bf93b42ba7512257e21213a86",
+            "validFrom": 1671083483,
+            "validUntil": 0,
+            "source": {
+              "id": "0x83dcaa3248d7526149eec93a2815ff61a41cd327",
+              "domain": "cryptopunks.app",
+              "name": "CryptoPunks",
+              "icon": "https://cryptopunks.app/public/images/favicon.png",
+              "url": "https://www.reservoir.market/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb/7941"
+            }
+          }
+        }
+      },
+      {
+        "token": {
+          "contract": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+          "tokenId": "7711",
+          "name": "CryptoPunk #7711",
+          "description": null,
+          "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a324d60ddc133daab11ba9726a852fc91204a52d90da54ccad79c817d2b771b0332d947f4ac63f84f8e6d97cf65bf7890d64af6b7f177b0ffb1686632745c5a916ce5b57a4caca9ef185d1f59d93579db2dac6c084d7f93bafb37129e350e3fbde1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+          "media": null,
+          "kind": "cryptopunks",
+          "isFlagged": false,
+          "lastFlagUpdate": "2022-12-03T00:38:30.137Z",
+          "lastFlagChange": null,
+          "rarity": 60.929,
+          "rarityRank": 7508,
+          "collection": {
+            "id": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+            "name": "CryptoPunks",
+            "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1a4a0b4a39ab04b646bf006827af0929a777e4ae02b4fa3341d5847437ec6c95b780286950562004e1ea5e7f4a6716ddc0fdfedcfe2d1c387cf166e6375a5f01d5b5160c4ca13188e42167a8d4461cc76f500f6f307553a5e84f2a9f09b186f842a1771aa3e1ed870695a9b1b4ab8bc0e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+            "slug": "cryptopunks"
+          },
+          "lastBuy": {
+            "value": null,
+            "timestamp": null
+          },
+          "lastSell": {
+            "value": 83.95,
+            "timestamp": 1658065645
+          },
+          "owner": "0x0232d1083e970f0c78f56202b9a666b526fa379f"
+        },
+        "market": {
+          "floorAsk": {
+            "id": "0x9eb56ad5ab7962a76fc5810d26c6b96d32c1dbb50c95c8ecd19f96cc5985b527",
+            "price": {
+              "currency": {
+                "contract": "0x0000000000000000000000000000000000000000",
+                "name": "Ether",
+                "symbol": "ETH",
+                "decimals": 18
+              },
+              "amount": {
+                "raw": "67690000000000000000",
+                "decimal": 67.69,
+                "usd": 85542.99544,
+                "native": 67.69
+              }
+            },
+            "maker": "0x0232d1083e970f0c78f56202b9a666b526fa379f",
+            "validFrom": 1667605175,
+            "validUntil": 0,
+            "source": {
+              "id": "0x83dcaa3248d7526149eec93a2815ff61a41cd327",
+              "domain": "cryptopunks.app",
+              "name": "CryptoPunks",
+              "icon": "https://cryptopunks.app/public/images/favicon.png",
+              "url": "https://www.reservoir.market/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb/7711"
+            }
+          }
+        }
+      },
+      {
+        "token": {
+          "contract": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+          "tokenId": "3817",
+          "name": "CryptoPunk #3817",
+          "description": null,
+          "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aac5e9d633c93a5c0b815a10227442dd1366ac594ee4225d09769ab7d4a3b9905636ccd551a5d828cf450fce6078d71f91bb4c2162dbec7502da9669e709fd69318473e6070d66d7af02222765e040b27b693fd5d8ac2a6315ae3cf763441ea2ef1e5de9ecd2cec1a2cb94b4d85ee5face1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+          "media": null,
+          "kind": "cryptopunks",
+          "isFlagged": false,
+          "lastFlagUpdate": "2022-12-03T00:38:28.470Z",
+          "lastFlagChange": null,
+          "rarity": 63.759,
+          "rarityRank": 6787,
+          "collection": {
+            "id": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+            "name": "CryptoPunks",
+            "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1a4a0b4a39ab04b646bf006827af0929a777e4ae02b4fa3341d5847437ec6c95b780286950562004e1ea5e7f4a6716ddc0fdfedcfe2d1c387cf166e6375a5f01d5b5160c4ca13188e42167a8d4461cc76f500f6f307553a5e84f2a9f09b186f842a1771aa3e1ed870695a9b1b4ab8bc0e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+            "slug": "cryptopunks"
+          },
+          "lastBuy": {
+            "value": null,
+            "timestamp": null
+          },
+          "lastSell": {
+            "value": 65.9,
+            "timestamp": 1668521879
+          },
+          "owner": "0x1919db36ca2fa2e15f9000fd9cdc2edcf863e685"
+        },
+        "market": {
+          "floorAsk": {
+            "id": "0x95c32a85ee4a673a77f4f7ee3f7b69c0c6cb9e71bf5c82fd0367f63327282b6a",
+            "price": {
+              "currency": {
+                "contract": "0x0000000000000000000000000000000000000000",
+                "name": "Ether",
+                "symbol": "ETH",
+                "decimals": 18
+              },
+              "amount": {
+                "raw": "67950000000000000000",
+                "decimal": 67.95,
+                "usd": 85871.56951,
+                "native": 67.95
+              }
+            },
+            "maker": "0x1919db36ca2fa2e15f9000fd9cdc2edcf863e685",
+            "validFrom": 1670769263,
+            "validUntil": 0,
+            "source": {
+              "id": "0x83dcaa3248d7526149eec93a2815ff61a41cd327",
+              "domain": "cryptopunks.app",
+              "name": "CryptoPunks",
+              "icon": "https://cryptopunks.app/public/images/favicon.png",
+              "url": "https://www.reservoir.market/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb/3817"
+            }
+          }
+        }
+      },
+      {
+        "token": {
+          "contract": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+          "tokenId": "2072",
+          "name": "CryptoPunk #2072",
+          "description": null,
+          "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a2df7c999c9726a3f4cefd5e5d65ec232cc5a064f4d9f4010679f024ac727e61d48c44b3162725ee297e61051f16a39b949b7deda0a197dd306ea7bfca5ca7e2da649ff5dd0563f88c3fecbb3fbd77e247b3b1e4d64337f949d387714fe277627a7093ffc531f36b720161ed8076c80c7058ed9feecb44e991ea6b299d1f7ae6c",
+          "media": null,
+          "kind": "cryptopunks",
+          "isFlagged": false,
+          "lastFlagUpdate": "2022-12-06T04:24:46.770Z",
+          "lastFlagChange": "2022-12-06T04:24:46.770Z",
+          "rarity": 100.88,
+          "rarityRank": 1930,
+          "collection": {
+            "id": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+            "name": "CryptoPunks",
+            "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1a4a0b4a39ab04b646bf006827af0929a777e4ae02b4fa3341d5847437ec6c95b780286950562004e1ea5e7f4a6716ddc0fdfedcfe2d1c387cf166e6375a5f01d5b5160c4ca13188e42167a8d4461cc76f500f6f307553a5e84f2a9f09b186f842a1771aa3e1ed870695a9b1b4ab8bc0e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+            "slug": "cryptopunks"
+          },
+          "lastBuy": {
+            "value": null,
+            "timestamp": null
+          },
+          "lastSell": {
+            "value": 63,
+            "timestamp": 1661175804
+          },
+          "owner": "0xcc2a855946a3c20683858fe6ee15acf8b836f0b3"
+        },
+        "market": {
+          "floorAsk": {
+            "id": "0x6f526fc75120f42fb1e18b2e1b3122df5813ef50a50d45082840e7be85316ed8",
+            "price": {
+              "currency": {
+                "contract": "0x0000000000000000000000000000000000000000",
+                "name": "Ether",
+                "symbol": "ETH",
+                "decimals": 18
+              },
+              "amount": {
+                "raw": "67990000000000000000",
+                "decimal": 67.99,
+                "usd": 85922.11937,
+                "native": 67.99
+              }
+            },
+            "maker": "0xcc2a855946a3c20683858fe6ee15acf8b836f0b3",
+            "validFrom": 1671116159,
+            "validUntil": 0,
+            "source": {
+              "id": "0x83dcaa3248d7526149eec93a2815ff61a41cd327",
+              "domain": "cryptopunks.app",
+              "name": "CryptoPunks",
+              "icon": "https://cryptopunks.app/public/images/favicon.png",
+              "url": "https://www.reservoir.market/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb/2072"
+            }
+          }
+        }
+      },
+      {
+        "token": {
+          "contract": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+          "tokenId": "6981",
+          "name": "CryptoPunk #6981",
+          "description": null,
+          "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a6e98d0fa1a9dd47a7de82f00ba3a4afb8287df3f1735c73cbf9197d16f88ab98cfbb7bf2fdeddf15ff17294e12b3305d839b735ac0221af264624ee864e1dfc6c13af2958d5867b57e4f926073fd033d6adb58f9a538d405621384aea4d5d21d6934c6fded7413a9e285bb36c6a92995e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+          "media": null,
+          "kind": "cryptopunks",
+          "isFlagged": false,
+          "lastFlagUpdate": "2022-12-03T00:38:30.340Z",
+          "lastFlagChange": null,
+          "rarity": 58.205,
+          "rarityRank": 8439,
+          "collection": {
+            "id": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+            "name": "CryptoPunks",
+            "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1a4a0b4a39ab04b646bf006827af0929a777e4ae02b4fa3341d5847437ec6c95b780286950562004e1ea5e7f4a6716ddc0fdfedcfe2d1c387cf166e6375a5f01d5b5160c4ca13188e42167a8d4461cc76f500f6f307553a5e84f2a9f09b186f842a1771aa3e1ed870695a9b1b4ab8bc0e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+            "slug": "cryptopunks"
+          },
+          "lastBuy": {
+            "value": null,
+            "timestamp": null
+          },
+          "lastSell": {
+            "value": null,
+            "timestamp": null
+          },
+          "owner": "0x577ebc5de943e35cdf9ecb5bbe1f7d7cb6c7c647"
+        },
+        "market": {
+          "floorAsk": {
+            "id": "0xebeb3fedc7566ffecb9f72247451b15be4151c2d0fc63e9a4ad19586511b1c53",
+            "price": {
+              "currency": {
+                "contract": "0x0000000000000000000000000000000000000000",
+                "name": "Ether",
+                "symbol": "ETH",
+                "decimals": 18
+              },
+              "amount": {
+                "raw": "67990000000000000000",
+                "decimal": 67.99,
+                "usd": 85922.11937,
+                "native": 67.99
+              }
+            },
+            "maker": "0x577ebc5de943e35cdf9ecb5bbe1f7d7cb6c7c647",
+            "validFrom": 1666323911,
+            "validUntil": 0,
+            "source": {
+              "id": "0x83dcaa3248d7526149eec93a2815ff61a41cd327",
+              "domain": "cryptopunks.app",
+              "name": "CryptoPunks",
+              "icon": "https://cryptopunks.app/public/images/favicon.png",
+              "url": "https://www.reservoir.market/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb/6981"
+            }
+          }
+        }
+      },
+      {
+        "token": {
+          "contract": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+          "tokenId": "6750",
+          "name": "CryptoPunk #6750",
+          "description": null,
+          "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af70be62f5f8ab906e02cbb08e7a0ba0e90f1cffd489c4b7d905f5fd0cfaaae0c5faa8e271de47605ada19e594174c6ac1a1c4e233c36f1b01c862e88e5d196a488957e3ed759cb0ba88780a36668d22c08399701a8b5e5f529596aac3417b6f6105c928111ba35ba8be12f0702ad3fac058ed9feecb44e991ea6b299d1f7ae6c",
+          "media": null,
+          "kind": "cryptopunks",
+          "isFlagged": false,
+          "lastFlagUpdate": "2022-12-03T00:38:30.268Z",
+          "lastFlagChange": null,
+          "rarity": 65.021,
+          "rarityRank": 6423,
+          "collection": {
+            "id": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+            "name": "CryptoPunks",
+            "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1a4a0b4a39ab04b646bf006827af0929a777e4ae02b4fa3341d5847437ec6c95b780286950562004e1ea5e7f4a6716ddc0fdfedcfe2d1c387cf166e6375a5f01d5b5160c4ca13188e42167a8d4461cc76f500f6f307553a5e84f2a9f09b186f842a1771aa3e1ed870695a9b1b4ab8bc0e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+            "slug": "cryptopunks"
+          },
+          "lastBuy": {
+            "value": null,
+            "timestamp": null
+          },
+          "lastSell": {
+            "value": 76,
+            "timestamp": 1647079552
+          },
+          "owner": "0xced462398bdfbb1b45d75b7f2c61172643a18009"
+        },
+        "market": {
+          "floorAsk": {
+            "id": "0x8689638e6c277ea14e2414ad1dc22e0619a5dd5f8f7a415fb0821a21c539bcdf",
+            "price": {
+              "currency": {
+                "contract": "0x0000000000000000000000000000000000000000",
+                "name": "Ether",
+                "symbol": "ETH",
+                "decimals": 18
+              },
+              "amount": {
+                "raw": "68000000000000000000",
+                "decimal": 68,
+                "usd": 85934.75683,
+                "native": 68
+              }
+            },
+            "maker": "0xced462398bdfbb1b45d75b7f2c61172643a18009",
+            "validFrom": 1668647243,
+            "validUntil": 0,
+            "source": {
+              "id": "0x83dcaa3248d7526149eec93a2815ff61a41cd327",
+              "domain": "cryptopunks.app",
+              "name": "CryptoPunks",
+              "icon": "https://cryptopunks.app/public/images/favicon.png",
+              "url": "https://www.reservoir.market/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb/6750"
+            }
+          }
+        }
+      },
+      {
+        "token": {
+          "contract": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+          "tokenId": "9910",
+          "name": "CryptoPunk #9910",
+          "description": null,
+          "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a9bebe13dd34f2975fb189b7bbcad3f72c1b598ae8a6d7541dc11d821ba4ab1d0324a3d8a7b6bedccae3aca685158df48e16b58ec6123e6cf672107d98a93bfa3e4840a5626117a73cacacb26cdb3c4af349a4f864b87ef8fe3798e98ab2f5c6aa8886d1698650de946b9645847ecb08de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+          "media": null,
+          "kind": "cryptopunks",
+          "isFlagged": false,
+          "lastFlagUpdate": "2022-12-03T00:38:28.601Z",
+          "lastFlagChange": null,
+          "rarity": 72.552,
+          "rarityRank": 4993,
+          "collection": {
+            "id": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+            "name": "CryptoPunks",
+            "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1a4a0b4a39ab04b646bf006827af0929a777e4ae02b4fa3341d5847437ec6c95b780286950562004e1ea5e7f4a6716ddc0fdfedcfe2d1c387cf166e6375a5f01d5b5160c4ca13188e42167a8d4461cc76f500f6f307553a5e84f2a9f09b186f842a1771aa3e1ed870695a9b1b4ab8bc0e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+            "slug": "cryptopunks"
+          },
+          "lastBuy": {
+            "value": null,
+            "timestamp": null
+          },
+          "lastSell": {
+            "value": 74.69,
+            "timestamp": 1647043040
+          },
+          "owner": "0xdb1cf642c4299ef486baae9ce15a66f9f8d6acc0"
+        },
+        "market": {
+          "floorAsk": {
+            "id": "0xc9f1fd981f705c650489133ffa9b1041b5e3e290c6653421f2280d41423577f9",
+            "price": {
+              "currency": {
+                "contract": "0x0000000000000000000000000000000000000000",
+                "name": "Ether",
+                "symbol": "ETH",
+                "decimals": 18
+              },
+              "amount": {
+                "raw": "68000000000000000000",
+                "decimal": 68,
+                "usd": 85934.75683,
+                "native": 68
+              }
+            },
+            "maker": "0xdb1cf642c4299ef486baae9ce15a66f9f8d6acc0",
+            "validFrom": 1670398007,
+            "validUntil": 0,
+            "source": {
+              "id": "0x83dcaa3248d7526149eec93a2815ff61a41cd327",
+              "domain": "cryptopunks.app",
+              "name": "CryptoPunks",
+              "icon": "https://cryptopunks.app/public/images/favicon.png",
+              "url": "https://www.reservoir.market/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb/9910"
+            }
+          }
+        }
+      },
+      {
+        "token": {
+          "contract": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+          "tokenId": "2411",
+          "name": "CryptoPunk #2411",
+          "description": null,
+          "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab97c7d72f9d59714d3fea81b7c4ac06e4f882636776f2ab7d9ce61c659501d514bf7f06542eac36a88ae6fa14434319c1c9a1a9b2a6aeddbfc667a7f7e544b31caa96bb88dfe11c7594c08a77d3cd587c689adc4522e6400660035985cc537f95fec23bf48837ea9027135d2b95503bc058ed9feecb44e991ea6b299d1f7ae6c",
+          "media": null,
+          "kind": "cryptopunks",
+          "isFlagged": false,
+          "lastFlagUpdate": "2022-12-03T00:38:30.193Z",
+          "lastFlagChange": null,
+          "rarity": 79.322,
+          "rarityRank": 4138,
+          "collection": {
+            "id": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+            "name": "CryptoPunks",
+            "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1a4a0b4a39ab04b646bf006827af0929a777e4ae02b4fa3341d5847437ec6c95b780286950562004e1ea5e7f4a6716ddc0fdfedcfe2d1c387cf166e6375a5f01d5b5160c4ca13188e42167a8d4461cc76f500f6f307553a5e84f2a9f09b186f842a1771aa3e1ed870695a9b1b4ab8bc0e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+            "slug": "cryptopunks"
+          },
+          "lastBuy": {
+            "value": null,
+            "timestamp": null
+          },
+          "lastSell": {
+            "value": null,
+            "timestamp": null
+          },
+          "owner": "0x577ebc5de943e35cdf9ecb5bbe1f7d7cb6c7c647"
+        },
+        "market": {
+          "floorAsk": {
+            "id": "0xd537e1f3b3f0e22c2180dd6e54f7f64630f46dd9d47bd0d877c0b55f5c200b80",
+            "price": {
+              "currency": {
+                "contract": "0x0000000000000000000000000000000000000000",
+                "name": "Ether",
+                "symbol": "ETH",
+                "decimals": 18
+              },
+              "amount": {
+                "raw": "68490000000000000000",
+                "decimal": 68.49,
+                "usd": 86553.99258,
+                "native": 68.49
+              }
+            },
+            "maker": "0x577ebc5de943e35cdf9ecb5bbe1f7d7cb6c7c647",
+            "validFrom": 1666323827,
+            "validUntil": 0,
+            "source": {
+              "id": "0x83dcaa3248d7526149eec93a2815ff61a41cd327",
+              "domain": "cryptopunks.app",
+              "name": "CryptoPunks",
+              "icon": "https://cryptopunks.app/public/images/favicon.png",
+              "url": "https://www.reservoir.market/0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb/2411"
+            }
+          }
+        }
+      }
+    ]
