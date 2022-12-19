@@ -28,7 +28,7 @@ const createAllInitialCollections = async () => {
     const response = [];
     collections.forEach(async collection => {
       let collectionToDB = {
-        id : collection.collectionId,
+        id : collection.id,
         name : collection.name || "No name",
         image : collection.image || "No image"
       };
