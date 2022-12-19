@@ -1,6 +1,11 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
-import "./Registrer.css"
+import { auth } from "../../firebase.js";
+import {
+  createUserWithEmailAndPassword,
+  sendEmailVerification,
+} from "firebase/auth";
+import "./Registrer.css";
 
 const Register = () => {
   const history = useHistory();
@@ -14,21 +19,26 @@ const Register = () => {
 
   const createUser = async (params) => {
     try {
-      const userCreate = await fetch("http://localhost:3001/login/sign", {
-        method: "POST",
-        headers: {
-          Accept: "application/json",
-          "Content-Type": "application/json;charset=utf-8",
-        },
-        body: JSON.stringify(params),
-      }).then((res) => res.json());
-      
-      if (userCreate) {
-        fetch ("http://localhost:3001/login/logOut").then((res) => res.json());
+      const signUp = await createUserWithEmailAndPassword(
+        auth,
+        params.email,
+        params.password
+      );
+      if (signUp) {
+        sendEmailVerification(auth.currentUser);
+        setError("")
         history.push("/");
       }
     } catch (error) {
-      setError("Could not create user");
+      if(error.message==="Firebase: Error (auth/invalid-email)."){
+        setError("User not found")
+      }
+      if(error.message==="Firebase: Error (auth/email-already-in-use)."){
+        setError("User not found")
+      }
+      if(error.message === "Firebase: Error (auth/weak-password)."){
+        setError("Wrong password")
+      }
     }
   };
 
@@ -51,46 +61,50 @@ const Register = () => {
 
   return (
     <form>
-      <div className="form-outline mb-4">
-        <label className="form-label text-light" for="EmailField">
-          Email address
-        </label>
-        <input
-          onChange={handdleChange}
-          name="email"
-          type="email"
-          id="EmailField"
-          className="form-control form-control-lg"
-          placeholder="Enter a valid email address"
-        />
-      </div>
+      <div className="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
+        <div className="form-outline mb-4">
+          <label className="form-label text-light" for="EmailField">
+            Email address
+          </label>
+          <input
+            onChange={handdleChange}
+            name="email"
+            type="email"
+            id="EmailField"
+            className="form-control form-control-lg"
+            placeholder="Enter a valid email address"
+            value={signUp.email}
+          />
+        </div>
 
-      <div className="form-outline mb-3">
-        <label className="form-label text-light" for="PassField">
-          Password
-        </label>
-        <input
-          onChange={handdleChange}
-          name="password"
-          type="password"
-          id="PassField"
-          className="form-control form-control-lg"
-          placeholder="Enter password"
-        />
-      </div>
+        <div className="form-outline mb-3">
+          <label className="form-label text-light" for="PassField">
+            Password
+          </label>
+          <input
+            onChange={handdleChange}
+            name="password"
+            type="password"
+            id="PassField"
+            className="form-control form-control-lg"
+            placeholder="Enter password"
+            value={signUp.password}
+          />
+        </div>
 
-      <div className={`login-errormessage ${error ? "" : "noneDisplay"}`}>
-        <p>{error}</p>
-      </div>
-      <div className="text-center text-lg-start mt-4 pt-2">
-        <button
-          onClick={handdleSubmit}
-          type="button"
-          className="btn btn-dark btn-lg"
-          style={{ paddingLeft: "2.5rem", paddingRight: "2.5rem" }}
-        >
-          Registrer
-        </button>
+        <div className={`login-errormessage ${error ? "" : "noneDisplay"}`}>
+          <p>{error}</p>
+        </div>
+        <div className="text-center text-lg-start mt-4 pt-2">
+          <button
+            onClick={handdleSubmit}
+            type="button"
+            className="btn btn-dark btn-lg"
+            style={{ paddingLeft: "2.5rem", paddingRight: "2.5rem" }}
+          >
+            Registrer
+          </button>
+        </div>
       </div>
     </form>
   );

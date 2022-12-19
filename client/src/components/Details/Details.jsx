@@ -55,6 +55,12 @@ function Details(props) {
     });
   };
 
+{/*add to cart*/}
+const handleClickOnShoppingCart = (e) => {
+    dispatch(actions.addNftOnShoppingCart(nftDetail ));
+  };
+
+
   return (
     <>
       {isLoading ? (
@@ -121,7 +127,12 @@ function Details(props) {
                 <button className={styles["button-detail"]} onClick={handlePay}>
                   Select & buy
                 </button>
-              </div>
+	      
+                <button className={styles["button-detail"]} onClick={handleClickOnShoppingCart}>
+                  Add to Cart
+                </button>
+             
+	      </div>
               {error && <p>{error}</p>}
               {txs && <p>{txs}</p>}
             </div>

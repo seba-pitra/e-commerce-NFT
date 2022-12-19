@@ -7,6 +7,8 @@ const {
   signOut,
   onAuthStateChanged,
   sendEmailVerification,
+  GoogleAuthProvider,
+  signInWithPopup
 } = require("firebase/auth");
 require("dotenv").config();
 const { FIREBASE_CONFIG } = process.env;
@@ -16,6 +18,9 @@ const firebaseConfig = JSON.parse(FIREBASE_CONFIG);
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
+
+const provider = new GoogleAuthProvider();
+provider.addScope('https://www.googleapis.com/auth/contacts.readonly');
 
 let loggedIn= false
 
@@ -33,7 +38,7 @@ const login = async (email, password) => {
     const loginUp = await signInWithEmailAndPassword(auth, email, password);
     return loginUp;
   } catch (error) {
-    throw error
+    throw new Error (error.message)
   }
 };
 
@@ -49,13 +54,18 @@ const logOut = async () => {
 
 // Create user with email
 const signUp = async (email, password) => {
-  const signUp = await createUserWithEmailAndPassword(auth, email, password);
-  if(signUp) {
-    sendEmailVerification(auth.currentUser)
-  } else {
-    throw new Error("No sirve")
+  try {
+    const signUp = await createUserWithEmailAndPassword(auth, email, password);
+    if(signUp) {
+      sendEmailVerification(auth.currentUser)
+    } else {
+      throw new Error("No sirve")
+    }
+    return signUp;
+    
+  } catch (error) {
+    throw new Error (error.message)
   }
-  return signUp;
 };
 
 // Validate User
@@ -67,5 +77,14 @@ const validateUser = () => {
   }
 }
 
+// Googule Auth
+const providerGoogle = () => {
+  try {
+    return signInWithPopup(auth, provider);
+  } catch (error) {
+    throw new Error(error.message)
+  }
+} 
+
 // Export functions for routes
-module.exports = { app, auth, login, signUp, logOut, validateUser };
+module.exports = { app, auth, login, signUp, logOut, validateUser, providerGoogle };

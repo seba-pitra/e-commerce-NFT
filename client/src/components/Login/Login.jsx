@@ -1,8 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { useHistory } from "react-router-dom";
+import FacebookIcon from "@material-ui/icons/Facebook";
+import GitHubIcon from "@material-ui/icons/GitHub";
+import GoogleIcon from '@mui/icons-material/Google';
+import {auth, loginGoogle, loginGitHub , loginFacebook} from "../../firebase.js";
+import {signInWithEmailAndPassword, } from "firebase/auth"
 import "./Login.css"
 
-
+// sendPasswordResetEmail
 const Login = () => {
 
   const history = useHistory()
@@ -28,8 +33,23 @@ const Login = () => {
     });
   };
 
+  const signGoogle = async () =>{
+    await loginGoogle();
+    history.push("/marketplace");
+  }
+
+  const signGitHub = async () =>{
+    await loginGitHub();
+    history.push("/marketplace");
+  }
+  const signFacebook = async () =>{
+    await loginFacebook();
+    history.push("/marketplace");
+  }
+
+
   const isLogged = async () =>{
-    const loggedUser = await fetch("http://localhost:3001/login/userInfo").then(res=>res.json())
+    const loggedUser = auth.currentUser
     console.log("Estoy en logged",loggedUser)
     if(loggedUser){
       setLogged(loggedUser)
@@ -38,22 +58,28 @@ const Login = () => {
 
   const logginFunction = async (params) => {
     try {
-      const loggedUser = await fetch("http://localhost:3001/login",{
-        method: "POST",
-        headers: {
-          Accept: "application/json",
-          "Content-Type": "application/json;charset=utf-8",
-        },
-        body: JSON.stringify(params)
-      }).then((res) => res.json());
-
+      const loggedUser = await signInWithEmailAndPassword(auth, params.email, params.password)
+      
       if(loggedUser){
+        fetch("http://localhost:3001/payment/userEmail", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(auth.currentUser),
+        // body: "hola",
+        // mode: "same-origin",
+      });
         setError("")
-        history.push("/home")
+        history.push("/marketplace")
       }
       
     } catch (error) {
-      setError("Could not login, data is invalid")
+      console.log(error.message)
+      if(error.message==="Firebase: Error (auth/user-not-found)."){
+        setError("User not found")
+      }
+      if(error.message === "Firebase: Error (auth/wrong-password)."){
+        setError("Wrong password")
+      }
     }
   };
 
@@ -64,25 +90,24 @@ const Login = () => {
       email: "",
       password: "",
     })
-    console.log(logginForm);
   };
 
-  if(logged) return <p>You've been logged</p>
+  if(logged) return <div className="login-loggedmessage"><p>You've been logged</p></div>
   else return (
     <form>
       <div className="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
-        {/* <p className="lead fw-normal mb-0 me-3 text-light">Sign in with</p>
-        <button type="button" className="btn btn-dark btn-floating mx-1">
-          <FacebookIcon />
-        </button> */}
+        <p className="lead fw-normal mb-0 me-3 text-light">Sign in with</p>
+        <button type="button" className="btn btn-dark btn-floating mx-1" onClick={signGoogle}>
+          <GoogleIcon />
+        </button> */
 
-        {/* <button type="button" className="btn btn-dark btn-floating mx-1">
+        <button type="button" className="btn btn-dark btn-floating mx-1" onClick={signGitHub}>
           <GitHubIcon />
-        </button> */}
+        </button>
 
-        {/* <button type="button" className="btn btn-dark btn-floating mx-1">
-          <LinkedInIcon />
-        </button> */}
+        <button type="button" className="btn btn-dark btn-floating mx-1" onClick={signFacebook}>
+          <FacebookIcon />
+        </button>
       </div>
 
       {/* <div className="divider d-flex align-items-center my-4">
@@ -102,6 +127,7 @@ const Login = () => {
           id="EmailField"
           className="form-control form-control-lg"
           placeholder="Enter a valid email address"
+          value={logginForm.email}
         />
       </div>
 
@@ -116,6 +142,7 @@ const Login = () => {
           id="PassField"
           className="form-control form-control-lg"
           placeholder="Enter password"
+          value={logginForm.password}
         />
       </div>
 
