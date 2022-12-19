@@ -47,7 +47,6 @@ const createNewNFT = async (req, res) => {
 
 const createAllInitialNFTs = async () => {
   try {
-    const response = [];
     allNFTs.forEach(async (nft) => {
       let nftToDB = {
         name: nft.token.name || "No name",
@@ -65,15 +64,8 @@ const createAllInitialNFTs = async () => {
         }
       });
 
-      if(correspondingCollection){
-        console.log(correspondingCollection);
-      }
-
       await nftInDb.setCollection(correspondingCollection);
-      response.push(nftInDb);
     });
-    
-    return response;
     }catch (err) {
       throw err;
     }
