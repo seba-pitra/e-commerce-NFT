@@ -4,13 +4,12 @@ const { Nft, Collection } = require("../db");
 
 const postEverythingToDB = async (req, res) => {
     try {
-        await createAllInitialCollections();
-        await createAllInitialNFTs();
+        const allCollections = await createAllInitialCollections();
+        const allNfts = await createAllInitialNFTs();
         res.status(200).json({
             success: "todos los datos creados correctamente"
         })
     }catch (error) {
-        console.log(error.message)
         res.status(400).json({error : error.message})
     }
 }

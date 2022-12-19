@@ -47,14 +47,16 @@ const createNewNFT = async (req, res) => {
 
 const createAllInitialNFTs = async () => {
   try {
-    allNFTs.forEach(async (nft) => {
-      let nftToDB = {
+    const response = await Nft.findAll();
+    if(response.length === 0){
+      allNFTs.forEach(async (nft) => {
+        let nftToDB = {
         name: nft.token.name || "No name",
         image: nft.token.image || "No image",
         available: true,
         contract: nft.token.contract,
         tokenId: nft.token.tokenId,
-        price: nft.market.floorAsk.price?.amount.decimal || 0.0
+        price: nft.market.floorAsk.price.amount.decimal || 0.0
       };
       
       const nftInDb = await Nft.create(nftToDB);
@@ -63,11 +65,13 @@ const createAllInitialNFTs = async () => {
           id: nft.token.collection.id
         }
       });
-
+      
       await nftInDb.setCollection(correspondingCollection);
+      response.push(nftInDb);
     });
+  }
     }catch (err) {
-      throw err;
+      throw new Error(err.message)
     }
   };
 

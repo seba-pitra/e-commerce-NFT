@@ -1,5 +1,4 @@
 const angryCat = require("../jsondata/angryCat.json")
-const bloodCards = require("../jsondata/bloodCards.json")
 const boki = require("../jsondata/Boki.json")
 const boredy00tsAC = require("../jsondata/Bored-y00ts-AC.json")
 const boredApeYacht = require("../jsondata/boredApeYacht.json")
@@ -36,7 +35,6 @@ const YuGiYn = require("../jsondata/YuGiYn.json")
 
 const allNFTs = [ 
     ...angryCat,
-    ...bloodCards,
     ...boki,
     ...boredy00tsAC,
     ...boredApeYacht,
