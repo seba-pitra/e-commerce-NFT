@@ -3,7 +3,7 @@ const { postEverythingToDB, getEverythingFromDB } = require("../controllers/db.c
 
 const dbRouter = Router();
 
-dbRouter.post("/createAll", postEverythingToDB);
+dbRouter.get("/createAll", postEverythingToDB);
 
 dbRouter.get("/getAll", getEverythingFromDB);
 

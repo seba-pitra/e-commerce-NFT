@@ -38,7 +38,7 @@ const updateNft = async (req, res) => {
 
 const createNewNFT = async (req, res) => {
   const { name, image, price, collectionId, available } = req.body;
-  
+
 };
 
 /*
@@ -46,31 +46,38 @@ const createNewNFT = async (req, res) => {
 */
 
 const createAllInitialNFTs = async () => {
-  const response = [];
-  
-  allNFTs.forEach(async (nft) => {
-    let nftToDB = {
-      name: nft.token.name,
-      image: nft.token.image,
-      available: true,
-      contract: nft.token.contract,
-      tokenId: nft.token.tokenId,
-      price: nft.market.floorAsk.price.amount.decimal,
-    };
-    
-    const nftInDb = await Nft.create(nftToDB);
-    const correspondingCollection = await Collection.findOne({
-      where: {
-        id: nft.token.collection.id
-      }
-    });
+  try {
+    const response = [];
+    allNFTs.forEach(async (nft) => {
+      let nftToDB = {
+        name: nft.token.name || "No name",
+        image: nft.token.image || "No image",
+        available: true,
+        contract: nft.token.contract,
+        tokenId: nft.token.tokenId,
+        price: nft.market.floorAsk.price?.amount.decimal || 0.0
+      };
+      
+      const nftInDb = await Nft.create(nftToDB);
+      const correspondingCollection = await Collection.findOne({
+        where: {
+          id: nft.token.collection.id
+        }
+      });
 
-    await nftInDb.setCollection(correspondingCollection);
-    response.push(nftInDb);
-  });
-  
-  return response;
-};
+      if(correspondingCollection){
+        console.log(correspondingCollection);
+      }
+
+      await nftInDb.setCollection(correspondingCollection);
+      response.push(nftInDb);
+    });
+    
+    return response;
+    }catch (err) {
+      throw err;
+    }
+  };
 
 module.exports = {
   getNfts,

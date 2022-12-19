@@ -24,17 +24,21 @@ const postAllCollectionsToDB = async (req, res) => {
 }
 
 const createAllInitialCollections = async () => {
-  const response = [];
-  collections.forEach(async collection => {
-    let collectionToDB = {
-      id : collection.collectionId,
-      name : collection.name,
-      image : collection.image
-    };
-    const collectionInDB = await Collection.create(collectionToDB)
-    response.push(collectionInDB);
-  })
-  return response;
+  try{
+    const response = [];
+    collections.forEach(async collection => {
+      let collectionToDB = {
+        id : collection.collectionId,
+        name : collection.name || "No name",
+        image : collection.image || "No image"
+      };
+      const collectionInDB = await Collection.create(collectionToDB)
+      response.push(collectionInDB);
+    })
+    return response;
+  }catch(err) {
+    throw err
+  }
 }
 
 

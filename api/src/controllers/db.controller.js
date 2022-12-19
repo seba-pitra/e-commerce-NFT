@@ -10,7 +10,8 @@ const postEverythingToDB = async (req, res) => {
             success: "todos los datos creados correctamente"
         })
     }catch (error) {
-        res.status(400).json({error : err.message})
+        console.log(error.message)
+        res.status(400).json({error : error.message})
     }
 }
 
