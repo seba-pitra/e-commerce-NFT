@@ -72,6 +72,4 @@ const allNFTs = [
     ...YuGiYn
 ];
 
-console.log(allNFTs[0].market.floorAsk.price.amount.decimal);
-
 module.exports = allNFTs

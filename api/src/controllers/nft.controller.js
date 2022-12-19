@@ -2,27 +2,6 @@ const allNFTs = require('../jsondata')
 const { Nft, Collection } = require("../db");
 
 
-/* const createNewNFT = async (req, res) => {
-  const { name, image, contract, price, collectionId, available } = body;
-  
-  const validate =
-  !name || !image || !type || !contract || !price || !available;
-  
-  if (validate) throw new Error("Mandatory fields are missing");
-  
-  const newNft = await Nft.findOrCreate({
-    where: { name },
-    defaults: body,
-  }).then(([nft, created]) => {
-    if (!created) throw new Error("NFT already exists with this name");
-    
-    return nft;
-  });
-  
-  await newNft.setCollection(collectionId);
-  
-  return newNft;
-}; */
 
 const getNfts = async (req, res) => {
   try {
@@ -36,10 +15,30 @@ const getNfts = async (req, res) => {
   }
 };
 
-const searchNftById = async (id) => {
-  const foundNftFromDB = await Nft.findByPk(id);
-  if (!foundNftFromDB) throw new Error("No NFT exists with this id");
-  return foundNftFromDB;
+const searchNftById = async (req, res) => {
+  try {
+    const { id } = req.params;
+    const foundNftFromDB = await Nft.findByPk(id);
+    res.status(200).send(foundNftFromDB);
+  } catch (err) {
+    res.status(400).send(err.message);
+  }
+};
+
+
+const updateNft = async (req, res) => {
+  try {
+    const { id } = req.params;
+    const updatedNFT = await updateNFT(id, req.body);
+    res.status(201).json(updatedNFT);
+  } catch (err) {
+    res.status(400).send(err.message);
+  }
+};
+
+const createNewNFT = async (req, res) => {
+  const { name, image, price, collectionId, available } = req.body;
+  
 };
 
 /*
@@ -47,9 +46,9 @@ const searchNftById = async (id) => {
 */
 
 const createAllInitialNFTs = async () => {
-    const response = [];
-
-    allNFTs.forEach(async (nft) => {
+  const response = [];
+  
+  allNFTs.forEach(async (nft) => {
     let nftToDB = {
       name: nft.token.name,
       image: nft.token.image,
@@ -58,7 +57,7 @@ const createAllInitialNFTs = async () => {
       tokenId: nft.token.tokenId,
       price: nft.market.floorAsk.price.amount.decimal,
     };
-
+    
     const nftInDb = await Nft.create(nftToDB);
     const correspondingCollection = await Collection.findOne({
       where: {
@@ -72,9 +71,11 @@ const createAllInitialNFTs = async () => {
   
   return response;
 };
+
 module.exports = {
   getNfts,
   searchNftById,
   createAllInitialNFTs,
-  /* createNft, */
+  updateNft,
+  createNewNFT
 };
