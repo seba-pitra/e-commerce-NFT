@@ -2,6 +2,8 @@ import { initializeApp } from "firebase/app";
 import {
   getAuth,
   GoogleAuthProvider,
+  GithubAuthProvider,
+  FacebookAuthProvider,
   signInWithPopup,
   onAuthStateChanged,
 } from "firebase/auth";
@@ -13,6 +15,8 @@ export const firebaseConfig = JSON.parse(process.env.REACT_APP_FIREBASE_CONFIG);
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
 const provider = new GoogleAuthProvider();
+const providerGitHub = new GithubAuthProvider();
+const providerFacebook = new FacebookAuthProvider();
 
 // Validate User
 export let loggedIn = false;
@@ -27,6 +31,14 @@ onAuthStateChanged(auth, (user) => {
 // Login with Google
 export const loginGoogle = () => {
   return signInWithPopup(auth, provider);
+};
+// Login with GitHub
+export const loginGitHub = () => {
+  return signInWithPopup(auth, providerGitHub);
+};
+// Login with Facebook
+export const loginFacebook = () => {
+  return signInWithPopup(auth, providerFacebook);
 };
 
 // // Login with email
