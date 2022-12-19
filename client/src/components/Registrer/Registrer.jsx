@@ -1,5 +1,10 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
+import { auth } from "../../firebase.js";
+import {
+  createUserWithEmailAndPassword,
+  sendEmailVerification,
+} from "firebase/auth";
 import "./Registrer.css";
 
 const Register = () => {
@@ -14,22 +19,26 @@ const Register = () => {
 
   const createUser = async (params) => {
     try {
-      const userCreate = await fetch("http://localhost:3001/login/sign", {
-        method: "POST",
-        headers: {
-          Accept: "application/json",
-          "Content-Type": "application/json;charset=utf-8",
-        },
-        body: JSON.stringify(params),
-      }).then((res) => res.json());
-
-      if (userCreate) {
+      const signUp = await createUserWithEmailAndPassword(
+        auth,
+        params.email,
+        params.password
+      );
+      if (signUp) {
+        sendEmailVerification(auth.currentUser);
         setError("")
-        fetch("http://localhost:3001/login/logOut").then((res) => res.json());
         history.push("/");
       }
     } catch (error) {
-      setError("Could not create user");
+      if(error.message==="Firebase: Error (auth/invalid-email)."){
+        setError("User not found")
+      }
+      if(error.message==="Firebase: Error (auth/email-already-in-use)."){
+        setError("User not found")
+      }
+      if(error.message === "Firebase: Error (auth/weak-password)."){
+        setError("Wrong password")
+      }
     }
   };
 

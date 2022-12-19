@@ -3,11 +3,11 @@ import { useHistory } from "react-router-dom";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import GoogleIcon from '@mui/icons-material/Google';
-import {auth, loginGoogle} from "../../firebase.js";
+import {auth, loginGoogle, loginGitHub , loginFacebook} from "../../firebase.js";
 import {signInWithEmailAndPassword, } from "firebase/auth"
 import "./Login.css"
 
-
+// sendPasswordResetEmail
 const Login = () => {
 
   const history = useHistory()
@@ -35,12 +35,21 @@ const Login = () => {
 
   const signGoogle = async () =>{
     await loginGoogle();
-    history.push("/home");
+    history.push("/marketplace");
+  }
+
+  const signGitHub = async () =>{
+    await loginGitHub();
+    history.push("/marketplace");
+  }
+  const signFacebook = async () =>{
+    await loginFacebook();
+    history.push("/marketplace");
   }
 
 
   const isLogged = async () =>{
-    const loggedUser = await fetch("http://localhost:3001/login/userInfo").then(res=>res.json())
+    const loggedUser = auth.currentUser
     console.log("Estoy en logged",loggedUser)
     if(loggedUser){
       setLogged(loggedUser)
@@ -50,7 +59,7 @@ const Login = () => {
   const logginFunction = async (params) => {
     try {
       const loggedUser = await signInWithEmailAndPassword(auth, params.email, params.password)
-
+      
       if(loggedUser){
         fetch("http://localhost:3001/payment/userEmail", {
         method: "POST",
@@ -92,11 +101,11 @@ const Login = () => {
           <GoogleIcon />
         </button> */
 
-        <button type="button" className="btn btn-dark btn-floating mx-1">
+        <button type="button" className="btn btn-dark btn-floating mx-1" onClick={signGitHub}>
           <GitHubIcon />
         </button>
 
-        <button type="button" className="btn btn-dark btn-floating mx-1">
+        <button type="button" className="btn btn-dark btn-floating mx-1" onClick={signFacebook}>
           <FacebookIcon />
         </button>
       </div>
