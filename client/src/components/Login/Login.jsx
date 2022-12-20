@@ -4,7 +4,7 @@ import FacebookIcon from "@material-ui/icons/Facebook";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import GoogleIcon from '@mui/icons-material/Google';
 import {auth, loginGoogle, loginGitHub , loginFacebook} from "../../firebase.js";
-import {signInWithEmailAndPassword, } from "firebase/auth"
+import {signInWithEmailAndPassword, sendPasswordResetEmail } from "firebase/auth"
 import "./Login.css"
 
 // sendPasswordResetEmail
@@ -50,7 +50,6 @@ const Login = () => {
 
   const isLogged = async () =>{
     const loggedUser = auth.currentUser
-    console.log("Estoy en logged",loggedUser)
     if(loggedUser){
       setLogged(loggedUser)
     }
@@ -65,8 +64,6 @@ const Login = () => {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(auth.currentUser),
-        // body: "hola",
-        // mode: "same-origin",
       });
         setError("")
         history.push("/marketplace")
@@ -82,6 +79,15 @@ const Login = () => {
       }
     }
   };
+
+  const recovery = async (params) => {
+    try {
+      const sendRecovery = await sendPasswordResetEmail(auth, params.email);
+      return sendRecovery;
+    } catch (error) {
+      console.log(error.message)
+    }
+  }
 
   const handdleSubmit = (e) => {
     e.preventDefault();
@@ -199,6 +205,10 @@ const Login = () => {
           Don't have an account?{" "}
           <a href="/registrer" className="link-danger">
             Register
+          </a>
+          <> </>
+          <a href="/recovery" className="link-danger">
+            Recovery your password
           </a>
         </p>
       </div>

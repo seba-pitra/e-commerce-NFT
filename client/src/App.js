@@ -16,6 +16,9 @@ import DeveloperTeam from "./components/DeveloperTeam/DeveloperTeam";
 import Collections from "./components/Collections/Collections.jsx";
 import { auth } from "./firebase.js";
 import { onAuthStateChanged } from "firebase/auth";
+import Recovery from "./components/Recovery/Recovery";
+
+
 function App() {
   const [loggedIn, setLoggedIn] = useState(true);
   onAuthStateChanged(auth, (user) => {
@@ -33,7 +36,8 @@ function App() {
           <Route exact path="/" render={() => <LandingPage loggedIn={loggedIn} />} />
           <Route exact path="/home" render={() => <HomePage loggedIn={loggedIn} />} />
           <Route exact path="/registrer" render={() => <Register loggedIn={loggedIn} />} />
-          <Route exact path="/marketplace" render={() => <MarketPlace loggedIn={loggedIn} />} />
+          <Route exact path="/recovery" render={() => <Recovery loggedIn={loggedIn} />} />
+          <Route exact path="/marketplace" render={() => <MarketPlace loggedIn={loggedIn}  />} />
           <Route exact path="/collections" render={() => <Collections loggedIn={loggedIn} />} />
           <Route exact path="/developerTeam" render={() => <DeveloperTeam loggedIn={loggedIn} />} />
           <Route exact path="/createNft" render={() => <CreateNft loggedIn={loggedIn} />} />
