@@ -60,6 +60,7 @@ const handleClickOnShoppingCart = (e) => {
     dispatch(actions.addNftOnShoppingCart(nftDetail ));
   };
 
+  console.log(nftDetail)
 
   return (
     <>

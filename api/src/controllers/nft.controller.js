@@ -61,11 +61,20 @@ const createAllInitialNFTs = async () => {
 
         let nftToDB = {
         name: nftName,
+        description: nft.token.description || "No description",
         image: nft.token.image || "No image",
         available: true,
         contract: nft.token.contract,
         tokenId: nft.token.tokenId,
-        price: nft.market.floorAsk.price.amount.decimal || 0.0
+        price: nft.market.floorAsk.price.amount.decimal,
+        rarity: nft.token.rarity || 0.0,
+        rarityRank: nft.token.rarityRank || 0.0,
+        lastBuyValue: nft.token.lastBuy.value || 0.0,
+        lastBuyTs: nft.token.lastBuy.timestamp || 0.0,
+        lastSellValue: nft.token.lastSell.value || 0.0,
+        lastSellTs: nft.token.lastSell.timestamp || 0.0,
+        ownerName: nft.market.floorAsk.source.name || "OpenSea",
+        ownerIcon: nft.market.floorAsk.source.icon || "OpenSea Icon"
       };
       
       const nftInDb = await Nft.create(nftToDB);
