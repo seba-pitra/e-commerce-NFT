@@ -40,7 +40,7 @@ const initialState = {
   isLoading: false,
   orderDirection: "up-down",
   activePage: 1,
-  nftsPerPage: 200,
+  nftsPerPage: 100,
   msj: "",
   ethPrice: {},
 };
