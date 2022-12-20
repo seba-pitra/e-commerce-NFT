@@ -2,66 +2,6 @@
   {
     "token": {
       "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "5748",
-      "name": "#5748",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a02dbc8641b3f6ccec5ee24b89a12a3e2d0de44227d91c9e4ba185ee9ee10e03ba56f559def429cd91f7821da72bf140f99c331ce4defa39f436d66871734a2f73fd4845d1c320e04806c46863cb6a773028fbb62295bbc3efbd968ae8a15132c3d0b09d9b43215193151fcad7850e0ee23c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": true,
-      "lastFlagUpdate": "2022-12-07T01:00:32.797Z",
-      "lastFlagChange": null,
-      "rarity": 90.241,
-      "rarityRank": 5886,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": 0.11111,
-        "timestamp": 1669638983
-      },
-      "lastSell": {
-        "value": 0.1,
-        "timestamp": 1669638983
-      },
-      "owner": "0xd722755aa3d8b2e9521209ee5014d0e446b82ff5"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x1bacdf99f7363ef6ed866cbfcf634c9dc7ebc0481b31b4a1749f8715a39193d9",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "149000000000000000",
-            "decimal": 0.149,
-            "usd": 188.29822,
-            "native": 0.149
-          }
-        },
-        "maker": "0xd722755aa3d8b2e9521209ee5014d0e446b82ff5",
-        "validFrom": 1671215274,
-        "validUntil": 1671217058,
-        "source": {
-          "id": "0xdc28ffaea1f91a88fb6fd0a8fe70d71bdd64284c",
-          "domain": "x2y2.io",
-          "name": "X2Y2",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/x2y2-logo.png",
-          "url": "https://x2y2.io/eth/0x6632a9d63e142f17a668064d41a21193b49b41a0/5748"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
       "tokenId": "7370",
       "name": "#7370",
       "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
@@ -102,7 +42,7 @@
           "amount": {
             "raw": "150000000000000000",
             "decimal": 0.15,
-            "usd": 189.56196,
+            "usd": 178.01669,
             "native": 0.15
           }
         },
@@ -122,17 +62,77 @@
   {
     "token": {
       "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "7964",
-      "name": "#7964",
+      "tokenId": "1354",
+      "name": "#1354",
       "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a312465d66480266a13c176fa5f47b13f240f288c2ae85618a77633f62c1f4203d2b86ff309877005ba91c52b4da574051d0260fe2a9558610170d4f4232913c70af1ba44a5d5c879ab0eca130a288c6710b04331c0b141ddbed9180be1e991b315cf6ef669f71bd110b3f1a66be476aa23c5e4198f99eda3f3b783c3322e8c56",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a85db8b65e0a205495cca35263a3531ce83f0bdebea0a84d3f8c0d712b639bda9964f032056559f0f0714f5fc8de6de7785d551d8b0938b3f6166e2a7f0850291899f8d07f6d7b86542b9fe26456636482c904f6599152ce8771bb51f62edf55eecf3c7eb59eab017d28ea4e77e2a17f5e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
       "media": null,
       "kind": "erc721",
       "isFlagged": false,
-      "lastFlagUpdate": "2022-12-16T18:42:41.737Z",
+      "lastFlagUpdate": "2022-12-19T23:37:59.144Z",
       "lastFlagChange": null,
-      "rarity": 73.9,
-      "rarityRank": 7547,
+      "rarity": 240.246,
+      "rarityRank": 1742,
+      "collection": {
+        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
+        "name": "Prime Ape Planet PAP",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "primeapeplanetpap"
+      },
+      "lastBuy": {
+        "value": 0.1346,
+        "timestamp": 1671479879
+      },
+      "lastSell": {
+        "value": 0.134,
+        "timestamp": 1652377688
+      },
+      "owner": "0xff09189560b13228f703696ce1dc29d846f61181"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xa5311420c4b11f9b6a59c42fbe6ab04e6ab22a79dd027fbc852bb9da1bf13baa",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "180000000000000000",
+            "decimal": 0.18,
+            "usd": 213.62002,
+            "native": 0.18
+          }
+        },
+        "maker": "0xff09189560b13228f703696ce1dc29d846f61181",
+        "validFrom": 1671492902,
+        "validUntil": 1671579302,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/1354"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
+      "tokenId": "5863",
+      "name": "#5863",
+      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af13c624337111e0632d2e5be553597798bc970f4475dff83629fdbb05e48cfc8d4c8f441d08c521ff5e98ed073b13e6b04702b654b64b1038dea8b5da8c5bbe0ffa3da4371eda27fb1698d93262e177b145a2a07c6bcd7e763c5bcf9bef5665b3e8ad2ad04ff29ec9c45a1bf01e69236e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-07T01:00:29.059Z",
+      "lastFlagChange": null,
+      "rarity": 96.382,
+      "rarityRank": 5435,
       "collection": {
         "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
         "name": "Prime Ape Planet PAP",
@@ -144,314 +144,14 @@
         "timestamp": null
       },
       "lastSell": {
-        "value": 0.328,
-        "timestamp": 1661189530
-      },
-      "owner": "0x1be5d3e21113c325ee83967ebebee6232b14cf8b"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0xe9acecb36d99240458adaf655b3996eb60ce3b5badf4ea47562e8695b49feb59",
-        "price": {
-          "currency": {
-            "contract": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
-            "name": "Wrapped Ether",
-            "symbol": "WETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "178000000000000000",
-            "decimal": 0.178,
-            "usd": 225.4603,
-            "native": 0.178
-          }
-        },
-        "maker": "0x1be5d3e21113c325ee83967ebebee6232b14cf8b",
-        "validFrom": 1671216013,
-        "validUntil": 1671394503,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/7964"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "6474",
-      "name": "#6474",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a50699af6fe17066cb909522285052628a743c6e7d8416eeb7853b9d69f9dc1a645d08e8f69a62b45392ebd70b77e1fcb120d0e2e1433185be6184d521fc7d0a4d1b29f3143f5ee7387b9d7f2af0b0103845739b8133d4eb049724c396ca1db6a3ad261d00c58c4008f0d1bf0613c047c23c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-16T18:32:40.498Z",
-      "lastFlagChange": null,
-      "rarity": 103.406,
-      "rarityRank": 5047,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": 0.1515,
-        "timestamp": 1671119723
-      },
-      "lastSell": {
-        "value": 0.89,
-        "timestamp": 1645670125
-      },
-      "owner": "0x42c06befb799ad2abc95e592d3d81c8416c39e08"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x14a6ae1fa4362fef6928345b82f97ce557de5653709c016e135f1b70a84029aa",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "178800000000000000",
-            "decimal": 0.1788,
-            "usd": 225.95786,
-            "native": 0.1788
-          }
-        },
-        "maker": "0x42c06befb799ad2abc95e592d3d81c8416c39e08",
-        "validFrom": 1671215424,
-        "validUntil": 1671219024,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/6474"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "1017",
-      "name": "#1017",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a69200124d2030120f1762b323b2779a14300e0ff450a5b605a4186b492ea123dd768802f9d327954a3bcf1b3526c5dcc6911d8f484f1b14791c8a8d6aff16882451a27320391f988d8615af54a42f33312e338d013ca81ab4ea972371524d03f365793f1e6ceb62fc810febd0ce13f5c23c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-16T18:14:58.101Z",
-      "lastFlagChange": null,
-      "rarity": 94.696,
-      "rarityRank": 5557,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": 0.1341,
-        "timestamp": 1671144275
-      },
-      "lastSell": {
-        "value": 0.648,
-        "timestamp": 1647132941
-      },
-      "owner": "0xf916037148312cad69362460387c1a7d545ea5dd"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x8f3bdc4a0505617efae5246ea8faffe120cdb68682c105a3cb1a502d1c651e61",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "178900000000000000",
-            "decimal": 0.1789,
-            "usd": 226.08424,
-            "native": 0.1789
-          }
-        },
-        "maker": "0xf916037148312cad69362460387c1a7d545ea5dd",
-        "validFrom": 1671214364,
-        "validUntil": 1673822819,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/1017"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "3561",
-      "name": "#3561",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5351ca26df2f50baec8cb7824f97f859c43b8b445dfd0830162b39b735b197614ba2a4e32932f26d08793820dae3fbf4d65418a7b81f65ad2f99547c9624d27636b307e463ed353128ee3432cd293607e99b49c10ec7a66315f52d1d1b3a985690ce42969e9f034105537d0e299b70b9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-16T18:02:42.351Z",
-      "lastFlagChange": null,
-      "rarity": 165.185,
-      "rarityRank": 3114,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": 0.15091,
-        "timestamp": 1671055295
-      },
-      "lastSell": {
-        "value": 0.16,
-        "timestamp": 1670506403
-      },
-      "owner": "0xc926653632a40d3c59919f4d153c736aac17328c"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x81933fdd7ec2a34a4c8b9b553ab273e26524a25bdd38e294c2c7f00c70edc5e3",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "179000000000000000",
-            "decimal": 0.179,
-            "usd": 226.21061,
-            "native": 0.179
-          }
-        },
-        "maker": "0xc926653632a40d3c59919f4d153c736aac17328c",
-        "validFrom": 1671213755,
-        "validUntil": 1671217355,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/3561"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "4291",
-      "name": "#4291",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a201d9e1e24e130b00bef2be8eaf8ac28d2e644f332c168a4938950fdc07972ca04e38abba09b6206b74b3265ccb10e107aada704130f063d7f9b43c74456b87782f210b8dc917913c7a083fd100a2f6507b8b8b15de8c17d8e5670d076ae5c0c596e4f52577d36df2b51f201942106c6e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-16T10:52:29.930Z",
-      "lastFlagChange": null,
-      "rarity": 86.832,
-      "rarityRank": 6179,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": 0.15131,
-        "timestamp": 1671103595
-      },
-      "lastSell": {
-        "value": 0.28,
-        "timestamp": 1648755126
-      },
-      "owner": "0xc926653632a40d3c59919f4d153c736aac17328c"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x5aca5013f3a4389dc8f9788ce102275efd99dc1c24c5c12053407a1978183e82",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "179300000000000000",
-            "decimal": 0.1793,
-            "usd": 226.58973,
-            "native": 0.1793
-          }
-        },
-        "maker": "0xc926653632a40d3c59919f4d153c736aac17328c",
-        "validFrom": 1671216003,
-        "validUntil": 1671219603,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/4291"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "1463",
-      "name": "#1463",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a36c20f20bc862d34cff00d9a7b97ad6b4eb0774eb66478b2fb98f53dc65639a4d3955b57c3c6b05faa457135bd6236895fbffab8cb375c793c025c4fadd7691e381ec4e278ef2f0b227af729f716e04d5bb2ac916dc05fed5f5c2b2e8176a3074688d5da7a8298eaa86cbb6e2674ad9623c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T01:07:45.540Z",
-      "lastFlagChange": null,
-      "rarity": 134.489,
-      "rarityRank": 3901,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": 0.1355,
-        "timestamp": 1671204971
-      },
-      "lastSell": {
         "value": null,
         "timestamp": null
       },
-      "owner": "0x63329fd6bf322f8eb5a555dd0e0e29ed08336471"
+      "owner": "0x3a1d50234144a52dead5acff7515e7e7aae9ad82"
     },
     "market": {
       "floorAsk": {
-        "id": "0xd5e6259b4b84f3996b5bae30ee4c9b37614284d9dbccddedc48f68847715b6aa",
+        "id": "0xe617cdc6cededc2070aa501ce8169b56faa699fa07e5284756b14503f84d297c",
         "price": {
           "currency": {
             "contract": "0x0000000000000000000000000000000000000000",
@@ -460,21 +160,21 @@
             "decimals": 18
           },
           "amount": {
-            "raw": "179700000000000000",
-            "decimal": 0.1797,
-            "usd": 227.09523,
-            "native": 0.1797
+            "raw": "180000000000000000",
+            "decimal": 0.18,
+            "usd": 213.62002,
+            "native": 0.18
           }
         },
-        "maker": "0x63329fd6bf322f8eb5a555dd0e0e29ed08336471",
-        "validFrom": 1671205832,
-        "validUntil": 1671292232,
+        "maker": "0x3a1d50234144a52dead5acff7515e7e7aae9ad82",
+        "validFrom": 1671279461,
+        "validUntil": 1673860502,
         "source": {
           "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
           "domain": "opensea.io",
           "name": "OpenSea",
           "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/1463"
+          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/5863"
         }
       }
     }
@@ -482,17 +182,17 @@
   {
     "token": {
       "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "2045",
-      "name": "#2045",
+      "tokenId": "5937",
+      "name": "#5937",
       "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ad914699b6e27ef07ecc4fe52706794f6835492a65f8005541c883c6fb091accde6ed7a321c0a851c53301f1e97fe9abde4ac832e10a247900ad2a2e9023cf5843d86a09dc739a499c89b557f17b664ed1fd96eb15bdab155678b4b16d459fe518b4262c29d04e37d9b476c73c602aac6058ed9feecb44e991ea6b299d1f7ae6c",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75abd4cb64515097b55d953f04051cda09820bd28471633c9f68512340fe8d0a75c3073104aba036d6b15ba7a477b50783ac2a761860256949964363606b9cede61398a56a1666dea30302097155ae447beafba29370d082d6bad751db3101820850153018c3dd407438e4a7cf843ea9a2223c5e4198f99eda3f3b783c3322e8c56",
       "media": null,
       "kind": "erc721",
       "isFlagged": false,
-      "lastFlagUpdate": "2022-12-16T11:38:26.984Z",
+      "lastFlagUpdate": "2022-12-07T01:00:23.837Z",
       "lastFlagChange": null,
-      "rarity": 97.753,
-      "rarityRank": 5336,
+      "rarity": 84.647,
+      "rarityRank": 6369,
       "collection": {
         "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
         "name": "Prime Ape Planet PAP",
@@ -500,18 +200,18 @@
         "slug": "primeapeplanetpap"
       },
       "lastBuy": {
-        "value": 0.13435,
-        "timestamp": 1671178175
+        "value": 0.1488,
+        "timestamp": 1671515663
       },
       "lastSell": {
-        "value": 0.285,
-        "timestamp": 1649635290
+        "value": 0.269,
+        "timestamp": 1654912824
       },
-      "owner": "0x824f5cdd32c5ca44c5b83383ea8e005c6452c6c4"
+      "owner": "0xff09189560b13228f703696ce1dc29d846f61181"
     },
     "market": {
       "floorAsk": {
-        "id": "0x30616fa35047c847d0a9cf1f3976a9e24ef52211e6333d478ae468199f8b13c2",
+        "id": "0xcff7b1a0c351100be7e070aaf8c9d40cd2b1888600798c4d3dee8614079fe649",
         "price": {
           "currency": {
             "contract": "0x0000000000000000000000000000000000000000",
@@ -520,81 +220,21 @@
             "decimals": 18
           },
           "amount": {
-            "raw": "180900000000000000",
-            "decimal": 0.1809,
-            "usd": 228.61173,
-            "native": 0.1809
+            "raw": "180000000000000000",
+            "decimal": 0.18,
+            "usd": 213.62002,
+            "native": 0.18
           }
         },
-        "maker": "0x824f5cdd32c5ca44c5b83383ea8e005c6452c6c4",
-        "validFrom": 1671189962,
-        "validUntil": 1671794762,
+        "maker": "0xff09189560b13228f703696ce1dc29d846f61181",
+        "validFrom": 1671516424,
+        "validUntil": 1671775624,
         "source": {
           "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
           "domain": "opensea.io",
           "name": "OpenSea",
           "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/2045"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "1558",
-      "name": "#1558",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a13bd70cec8ab30207d5f0f5b7c5bc6018711a441314c7edaae013a3ff8db27aaa542799f09228a9bee51a29ed93f1c73e0cfe4dee66270dbb78940a6322731b07b603be7c5c491e8a1f239cbd4627aee90478de7ae3adb42c88e18b9a078e6cddb84c4e02be6f77a70ce72d5063d7095e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-16T09:52:33.195Z",
-      "lastFlagChange": null,
-      "rarity": 78.076,
-      "rarityRank": 7047,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": 0.369,
-        "timestamp": 1661548416
-      },
-      "owner": "0xf4b4e6600d1c31c23227c3e6b584c9dd58b1653c"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x8ba43ce4f44372c3c02ed26f15bc28a50759037b6bc23f26b8b611f9ee9cd5c7",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "181600000000000000",
-            "decimal": 0.1816,
-            "usd": 229.49635,
-            "native": 0.1816
-          }
-        },
-        "maker": "0xf4b4e6600d1c31c23227c3e6b584c9dd58b1653c",
-        "validFrom": 1671183588,
-        "validUntil": 1671270108,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/1558"
+          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/5937"
         }
       }
     }
@@ -642,7 +282,7 @@
           "amount": {
             "raw": "182700000000000000",
             "decimal": 0.1827,
-            "usd": 230.88647,
+            "usd": 216.82433,
             "native": 0.1827
           }
         },
@@ -702,7 +342,7 @@
           "amount": {
             "raw": "183700000000000000",
             "decimal": 0.1837,
-            "usd": 232.15022,
+            "usd": 218.0111,
             "native": 0.1837
           }
         },
@@ -715,126 +355,6 @@
           "name": "LooksRare",
           "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
           "url": "https://looksrare.org/collections/0x6632a9d63e142f17a668064d41a21193b49b41a0/4213"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "3927",
-      "name": "#3927",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af1a69d73a64586630fe2c2aedab2ec532874bb63caf3d1ac2b64f5418e159ffbace40cdb8464aa7f45a58c17c92461e47f90c84c7152864800c9e8dd2a1e606d49b2550082d8551bb7c95f3518760a3438fa1427325e7a6d3ba2d73ac283a7276545c4e8f3bf30f7d1455865d3061c9b058ed9feecb44e991ea6b299d1f7ae6c",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-15T17:25:14.192Z",
-      "lastFlagChange": null,
-      "rarity": 96.439,
-      "rarityRank": 5430,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": 0.155,
-        "timestamp": 1671119183
-      },
-      "lastSell": {
-        "value": 0.94,
-        "timestamp": 1645596544
-      },
-      "owner": "0x7b46ac923c9585696cac5c7fa2b1a28cfa6b3639"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x4adb3798de4d7a9a00fdcb4d28cf77b3e6cf2c0691d9ba417b3227321e537bbc",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "187000000000000000",
-            "decimal": 0.187,
-            "usd": 236.32058,
-            "native": 0.187
-          }
-        },
-        "maker": "0x7b46ac923c9585696cac5c7fa2b1a28cfa6b3639",
-        "validFrom": 1671124916,
-        "validUntil": 1673803316,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/3927"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "2388",
-      "name": "#2388",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75afdfb7d5020b216f960eba25e8e2dd253b3c2336c5d5a4d8c9ab316309f448d93a002d60fc7d1c658fa1efe260314d47b53f2189edfbb31ea3af44f3a83a32f7d04d9c3360282147ac142aebf8b3269469f300ef05710f73c997c8788c50856b5e0d6e54f274527e9f75a286840b68a8c23c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T01:05:44.619Z",
-      "lastFlagChange": null,
-      "rarity": 102.754,
-      "rarityRank": 5074,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": 0.1551,
-        "timestamp": 1671119231
-      },
-      "lastSell": {
-        "value": 1,
-        "timestamp": 1645597102
-      },
-      "owner": "0x7b46ac923c9585696cac5c7fa2b1a28cfa6b3639"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0xba3994ca27c30f421b93adab6e7c1740c85e084faa01fc3ab6119c042170ca1e",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "190000000000000000",
-            "decimal": 0.19,
-            "usd": 240.11182,
-            "native": 0.19
-          }
-        },
-        "maker": "0x7b46ac923c9585696cac5c7fa2b1a28cfa6b3639",
-        "validFrom": 1671124897,
-        "validUntil": 1673803297,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/2388"
         }
       }
     }
@@ -882,7 +402,7 @@
           "amount": {
             "raw": "197700000000000000",
             "decimal": 0.1977,
-            "usd": 249.84267,
+            "usd": 234.62599,
             "native": 0.1977
           }
         },
@@ -942,7 +462,7 @@
           "amount": {
             "raw": "199000000000000000",
             "decimal": 0.199,
-            "usd": 251.48554,
+            "usd": 236.16881,
             "native": 0.199
           }
         },
@@ -1002,7 +522,7 @@
           "amount": {
             "raw": "199990000000000000",
             "decimal": 0.19999,
-            "usd": 252.73665,
+            "usd": 237.34372,
             "native": 0.19999
           }
         },
@@ -1062,7 +582,7 @@
           "amount": {
             "raw": "199990000000000000",
             "decimal": 0.19999,
-            "usd": 252.73665,
+            "usd": 237.34372,
             "native": 0.19999
           }
         },
@@ -1122,7 +642,7 @@
           "amount": {
             "raw": "200000000000000000",
             "decimal": 0.2,
-            "usd": 252.74928,
+            "usd": 237.35558,
             "native": 0.2
           }
         },
@@ -1135,66 +655,6 @@
           "name": "OpenSea",
           "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
           "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/4266"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "5863",
-      "name": "#5863",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af13c624337111e0632d2e5be553597798bc970f4475dff83629fdbb05e48cfc8d4c8f441d08c521ff5e98ed073b13e6b04702b654b64b1038dea8b5da8c5bbe0ffa3da4371eda27fb1698d93262e177b145a2a07c6bcd7e763c5bcf9bef5665b3e8ad2ad04ff29ec9c45a1bf01e69236e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T01:00:29.059Z",
-      "lastFlagChange": null,
-      "rarity": 96.382,
-      "rarityRank": 5435,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0x3a1d50234144a52dead5acff7515e7e7aae9ad82"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x16ac4f1eb3ab5454065aa40af3fb502a1e699058684529e9dade3b924bf65395",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "200000000000000000",
-            "decimal": 0.2,
-            "usd": 252.74928,
-            "native": 0.2
-          }
-        },
-        "maker": "0x3a1d50234144a52dead5acff7515e7e7aae9ad82",
-        "validFrom": 1671182102,
-        "validUntil": 1673860502,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/5863"
         }
       }
     }
@@ -1242,7 +702,7 @@
           "amount": {
             "raw": "202000000000000000",
             "decimal": 0.202,
-            "usd": 255.27678,
+            "usd": 239.72914,
             "native": 0.202
           }
         },
@@ -1255,6 +715,66 @@
           "name": "LooksRare",
           "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
           "url": "https://looksrare.org/collections/0x6632a9d63e142f17a668064d41a21193b49b41a0/6278"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
+      "tokenId": "3088",
+      "name": "#3088",
+      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5e938c89e390443d9ea14bed79668d29368b5ed2b81db1ef67f2f2bb50a8910f7c1936a27f3f5383eac4fc5726cae3dd92359c9825595cfc9664f9233e109dc0e374012daac57579bd22c7a8a4f12ee03b1af99f638bcdcee34f850c65a1fd6f14af14f362ced91718d44dba228c57d023c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T12:15:42.903Z",
+      "lastFlagChange": null,
+      "rarity": 75.722,
+      "rarityRank": 7349,
+      "collection": {
+        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
+        "name": "Prime Ape Planet PAP",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "primeapeplanetpap"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.14,
+        "timestamp": 1671452135
+      },
+      "owner": "0xc8d0cdfad3f4d80f5f25ea8573ff469e56839b62"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xc7faa2b82a7cccc79b888401487c1729a1c73b0740b3f47af4389eed3ed32c31",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "205000000000000000",
+            "decimal": 0.205,
+            "usd": 243.28947,
+            "native": 0.205
+          }
+        },
+        "maker": "0xc8d0cdfad3f4d80f5f25ea8573ff469e56839b62",
+        "validFrom": 1671545601,
+        "validUntil": 1671804801,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/3088"
         }
       }
     }
@@ -1302,7 +822,7 @@
           "amount": {
             "raw": "208000000000000000",
             "decimal": 0.208,
-            "usd": 262.85926,
+            "usd": 246.84981,
             "native": 0.208
           }
         },
@@ -1362,7 +882,7 @@
           "amount": {
             "raw": "211000000000000000",
             "decimal": 0.211,
-            "usd": 266.65049,
+            "usd": 250.41014,
             "native": 0.211
           }
         },
@@ -1375,66 +895,6 @@
           "name": "OpenSea",
           "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
           "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/3673"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "5937",
-      "name": "#5937",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75abd4cb64515097b55d953f04051cda09820bd28471633c9f68512340fe8d0a75c3073104aba036d6b15ba7a477b50783ac2a761860256949964363606b9cede61398a56a1666dea30302097155ae447beafba29370d082d6bad751db3101820850153018c3dd407438e4a7cf843ea9a2223c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T01:00:23.837Z",
-      "lastFlagChange": null,
-      "rarity": 84.647,
-      "rarityRank": 6369,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": 0.16391,
-        "timestamp": 1670020031
-      },
-      "lastSell": {
-        "value": 0.269,
-        "timestamp": 1654912824
-      },
-      "owner": "0xa788936677b89ede19e6269362100229040edb18"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x9ec70b11f53c3a29fbf41eb75f4ab122ef535c38cdc6c19f1ff7158977c10373",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "215360250000000000",
-            "decimal": 0.21536,
-            "usd": 272.16075,
-            "native": 0.21536
-          }
-        },
-        "maker": "0xa788936677b89ede19e6269362100229040edb18",
-        "validFrom": 1670020748,
-        "validUntil": 1672699205,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/5937"
         }
       }
     }
@@ -1482,7 +942,7 @@
           "amount": {
             "raw": "229000000000000000",
             "decimal": 0.229,
-            "usd": 289.39793,
+            "usd": 271.77214,
             "native": 0.229
           }
         },
@@ -1542,7 +1002,7 @@
           "amount": {
             "raw": "237000000000000000",
             "decimal": 0.237,
-            "usd": 299.5079,
+            "usd": 281.26637,
             "native": 0.237
           }
         },
@@ -1555,66 +1015,6 @@
           "name": "OpenSea",
           "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
           "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/7626"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "1363",
-      "name": "#1363",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75acffdbf11f55cbf16fc36fada8e71ccb49a0e9fc58851b11d2d610749a1f60b1cb73cc60085a427c34ec01fdb7bc0bb27825cd922f147ea7a4e59f6f0dcc02cbe21c1623816c5f07cf8c68541f4e4348609343462fda83985cca94e3c8c6ea98782b5482c561da832565ca23db7b74c3ee1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T01:07:49.516Z",
-      "lastFlagChange": null,
-      "rarity": 121.534,
-      "rarityRank": 4251,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0x503744627400cd9d25be38d1014221fd8423eb91"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x150d09ca3590cb129b7f688ed833373ffe02431557a0ea814fa7c9799ebabde2",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "240000000000000000",
-            "decimal": 0.24,
-            "usd": 303.29914,
-            "native": 0.24
-          }
-        },
-        "maker": "0x503744627400cd9d25be38d1014221fd8423eb91",
-        "validFrom": 1671137290,
-        "validUntil": 1671223690,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/1363"
         }
       }
     }
@@ -1662,7 +1062,7 @@
           "amount": {
             "raw": "240000000000000000",
             "decimal": 0.24,
-            "usd": 303.29914,
+            "usd": 284.8267,
             "native": 0.24
           }
         },
@@ -1722,7 +1122,7 @@
           "amount": {
             "raw": "240000000000000000",
             "decimal": 0.24,
-            "usd": 303.29914,
+            "usd": 284.8267,
             "native": 0.24
           }
         },
@@ -1782,7 +1182,7 @@
           "amount": {
             "raw": "241000000000000000",
             "decimal": 0.241,
-            "usd": 304.56289,
+            "usd": 286.01348,
             "native": 0.241
           }
         },
@@ -1842,7 +1242,7 @@
           "amount": {
             "raw": "243900000000000000",
             "decimal": 0.2439,
-            "usd": 308.22775,
+            "usd": 289.45513,
             "native": 0.2439
           }
         },
@@ -1902,7 +1302,7 @@
           "amount": {
             "raw": "243900000000000000",
             "decimal": 0.2439,
-            "usd": 308.22775,
+            "usd": 289.45513,
             "native": 0.2439
           }
         },
@@ -1922,17 +1322,17 @@
   {
     "token": {
       "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "4702",
-      "name": "#4702",
+      "tokenId": "4778",
+      "name": "#4778",
       "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75afc66366130082aaf87541a6ae677e382f6d195752bc19ad1234dd8ea037518170ebd8adf089d040f240e57982ffecb701815babd9da411a3d480aa3cf70314de9f61909cfe429a19ba5d992c2d511d17204888135bf76b4175a0ec2e4b7e04cb09d55660762a8547fd6654933e22d33f23c5e4198f99eda3f3b783c3322e8c56",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae9d879c45d74202fd5be6d6b5cff5b1210fb7310947a265a56d5f1ed9480a815475bcd37c5e03fe0e4c8173eaf44ba84d8df8f016b59d1168912db7f79de221f4acfee623083d5e34603d7ced5e499a857c6e44b796cd5389805eb95ded40ed78e3584e47e4b262e695396925d9feacc23c5e4198f99eda3f3b783c3322e8c56",
       "media": null,
       "kind": "erc721",
       "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T01:02:55.669Z",
+      "lastFlagUpdate": "2022-12-07T01:02:50.218Z",
       "lastFlagChange": null,
-      "rarity": 220.065,
-      "rarityRank": 2025,
+      "rarity": 94.823,
+      "rarityRank": 5548,
       "collection": {
         "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
         "name": "Prime Ape Planet PAP",
@@ -1940,18 +1340,18 @@
         "slug": "primeapeplanetpap"
       },
       "lastBuy": {
-        "value": null,
-        "timestamp": null
+        "value": 0.1954,
+        "timestamp": 1668884747
       },
       "lastSell": {
-        "value": 0.25,
-        "timestamp": 1653996663
+        "value": 0.2035,
+        "timestamp": 1669206251
       },
-      "owner": "0x467c910b91a0964c5b5856a751eb5753c8f03052"
+      "owner": "0xf54abd683f9ace959f629fabb52b2b48ea42f9f7"
     },
     "market": {
       "floorAsk": {
-        "id": "0x3bfcdaf3658ac98fa231b79c503a681abd493c1cd95e07a38668ddfed9188323",
+        "id": "0x148d703c4f7ae830fe074fab847f57c0589a954d39182e44265f0f48853c63df",
         "price": {
           "currency": {
             "contract": "0x0000000000000000000000000000000000000000",
@@ -1960,21 +1360,81 @@
             "decimals": 18
           },
           "amount": {
-            "raw": "249000000000000000",
-            "decimal": 0.249,
-            "usd": 314.67286,
-            "native": 0.249
+            "raw": "248800000000000000",
+            "decimal": 0.2488,
+            "usd": 295.27035,
+            "native": 0.2488
           }
         },
-        "maker": "0x467c910b91a0964c5b5856a751eb5753c8f03052",
-        "validFrom": 1671211114,
-        "validUntil": 1671297634,
+        "maker": "0xf54abd683f9ace959f629fabb52b2b48ea42f9f7",
+        "validFrom": 1671488096,
+        "validUntil": 1673531480,
         "source": {
           "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
           "domain": "opensea.io",
           "name": "OpenSea",
           "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/4702"
+          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/4778"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
+      "tokenId": "4291",
+      "name": "#4291",
+      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a201d9e1e24e130b00bef2be8eaf8ac28d2e644f332c168a4938950fdc07972ca04e38abba09b6206b74b3265ccb10e107aada704130f063d7f9b43c74456b87782f210b8dc917913c7a083fd100a2f6507b8b8b15de8c17d8e5670d076ae5c0c596e4f52577d36df2b51f201942106c6e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T11:47:18.595Z",
+      "lastFlagChange": null,
+      "rarity": 86.832,
+      "rarityRank": 6179,
+      "collection": {
+        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
+        "name": "Prime Ape Planet PAP",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "primeapeplanetpap"
+      },
+      "lastBuy": {
+        "value": 0.15131,
+        "timestamp": 1671103595
+      },
+      "lastSell": {
+        "value": 0.1397,
+        "timestamp": 1671450431
+      },
+      "owner": "0xa55e38a07b7e3bf3dac4486db8365f3ccd1c325b"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x318c07ae22d062b2570e23429c8c6c4ccb09dd339310a7655d265ae281d87a18",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "249800000000000000",
+            "decimal": 0.2498,
+            "usd": 296.45712,
+            "native": 0.2498
+          }
+        },
+        "maker": "0xa55e38a07b7e3bf3dac4486db8365f3ccd1c325b",
+        "validFrom": 1671466459,
+        "validUntil": 1671725659,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/4291"
         }
       }
     }
@@ -2011,7 +1471,7 @@
     },
     "market": {
       "floorAsk": {
-        "id": "0xd4c600cb5e22177b7007c8469a0484cb6924188666143521f0e0a0611baa7e4f",
+        "id": "0x275eadb8a4bf21ae1e7feeb7e083fbabea9d0deb7e2bf9f4b10d1b909da97df6",
         "price": {
           "currency": {
             "contract": "0x0000000000000000000000000000000000000000",
@@ -2022,13 +1482,13 @@
           "amount": {
             "raw": "249900000000000000",
             "decimal": 0.2499,
-            "usd": 315.81023,
+            "usd": 296.5758,
             "native": 0.2499
           }
         },
         "maker": "0xf7265b8c713f12d76ee4483b5eea4fb7889741bc",
-        "validFrom": 1671196766,
-        "validUntil": 1671283166,
+        "validFrom": 1671515018,
+        "validUntil": 1671601418,
         "source": {
           "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
           "domain": "opensea.io",
@@ -2071,7 +1531,7 @@
     },
     "market": {
       "floorAsk": {
-        "id": "0x12bb710f31b0b762a9fa13f46c48c13b3ef69eb4df71b08be9f2d84c1c9a1a82",
+        "id": "0x3dbc3c2ff831bcad97139c4749629c2f01df3ee993fc58d527e7abd24ce53b60",
         "price": {
           "currency": {
             "contract": "0x0000000000000000000000000000000000000000",
@@ -2082,13 +1542,13 @@
           "amount": {
             "raw": "249900000000000000",
             "decimal": 0.2499,
-            "usd": 315.81023,
+            "usd": 296.5758,
             "native": 0.2499
           }
         },
         "maker": "0xf7265b8c713f12d76ee4483b5eea4fb7889741bc",
-        "validFrom": 1671196766,
-        "validUntil": 1671283166,
+        "validFrom": 1671515018,
+        "validUntil": 1671601418,
         "source": {
           "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
           "domain": "opensea.io",
@@ -2102,17 +1562,17 @@
   {
     "token": {
       "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "1439",
-      "name": "#1439",
+      "tokenId": "1363",
+      "name": "#1363",
       "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1e9588878ca4ef2ad28a8fc6585c84efad376028b612c7210d7d804ef6684921b539a0e9e757ab5eaab43afd917486ee327582807b30244c06817a42bc9eb3ea89d727e4029178582b564c1f37e0cb129892393ae24d85fe43d01838eb10253dafa09648b961f136e0dfc44bae0dd94d23c5e4198f99eda3f3b783c3322e8c56",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75acffdbf11f55cbf16fc36fada8e71ccb49a0e9fc58851b11d2d610749a1f60b1cb73cc60085a427c34ec01fdb7bc0bb27825cd922f147ea7a4e59f6f0dcc02cbe21c1623816c5f07cf8c68541f4e4348609343462fda83985cca94e3c8c6ea98782b5482c561da832565ca23db7b74c3ee1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
       "media": null,
       "kind": "erc721",
       "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T01:07:46.748Z",
+      "lastFlagUpdate": "2022-12-07T01:07:49.516Z",
       "lastFlagChange": null,
-      "rarity": 153.196,
-      "rarityRank": 3423,
+      "rarity": 121.534,
+      "rarityRank": 4251,
       "collection": {
         "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
         "name": "Prime Ape Planet PAP",
@@ -2120,18 +1580,18 @@
         "slug": "primeapeplanetpap"
       },
       "lastBuy": {
-        "value": 0.5559,
-        "timestamp": 1647867785
+        "value": null,
+        "timestamp": null
       },
       "lastSell": {
-        "value": 0.689,
-        "timestamp": 1647971481
+        "value": null,
+        "timestamp": null
       },
-      "owner": "0x05a4a913a61f36de53b963f9d0c76a342bcdcfa6"
+      "owner": "0x503744627400cd9d25be38d1014221fd8423eb91"
     },
     "market": {
       "floorAsk": {
-        "id": "0x0f891470b628398eda80ddf67d24d4c7575d67d491a75b3977a32c74c8db56e8",
+        "id": "0x4a7521cbd2deb15415dae51ebe8d696f1b555d06e6f7e6eb5ad0d7917da14813",
         "price": {
           "currency": {
             "contract": "0x0000000000000000000000000000000000000000",
@@ -2142,19 +1602,19 @@
           "amount": {
             "raw": "250000000000000000",
             "decimal": 0.25,
-            "usd": 315.93661,
+            "usd": 296.69448,
             "native": 0.25
           }
         },
-        "maker": "0x05a4a913a61f36de53b963f9d0c76a342bcdcfa6",
-        "validFrom": 1671215112,
-        "validUntil": 1673877506,
+        "maker": "0x503744627400cd9d25be38d1014221fd8423eb91",
+        "validFrom": 1671464167,
+        "validUntil": 1671723367,
         "source": {
           "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
           "domain": "opensea.io",
           "name": "OpenSea",
           "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/1439"
+          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/1363"
         }
       }
     }
@@ -2202,7 +1662,7 @@
           "amount": {
             "raw": "250000000000000000",
             "decimal": 0.25,
-            "usd": 315.93661,
+            "usd": 296.69448,
             "native": 0.25
           }
         },
@@ -2262,7 +1722,7 @@
           "amount": {
             "raw": "250000000000000000",
             "decimal": 0.25,
-            "usd": 315.93661,
+            "usd": 296.69448,
             "native": 0.25
           }
         },
@@ -2282,17 +1742,17 @@
   {
     "token": {
       "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "3668",
-      "name": "#3668",
+      "tokenId": "4147",
+      "name": "#4147",
       "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a08c2a51f4e082c08e2f38ef323134289b8aa4d657e4758075711ebabf65f2da5824fa6068215c47f858d0996c8339dcbafcdead44e6d24d7ec9ff72174caee414538a7a90f0e99254f1ab6f180b7cd06c3abdaadf45d9b1d8374eeb99d620c3b7309425dee786716ac3b917d67779003058ed9feecb44e991ea6b299d1f7ae6c",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a403be2999a29a42b7be9534d4c8b8a8f71b0a2c6460145d23b3c665b87f79aeb26b9143bba0e5088ff00501a25fd60dc3e7c401a796c09693c3ff5a65da2e22f1a6b84f4c972310eb536bcafb8c3c576936df73cc0b982e918354cae605bc4bf3e6ee5c127b3adea0b4412e4784b2cdb23c5e4198f99eda3f3b783c3322e8c56",
       "media": null,
       "kind": "erc721",
       "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T01:04:04.065Z",
+      "lastFlagUpdate": "2022-12-07T01:03:37.505Z",
       "lastFlagChange": null,
-      "rarity": 179.73,
-      "rarityRank": 2751,
+      "rarity": 82.454,
+      "rarityRank": 6556,
       "collection": {
         "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
         "name": "Prime Ape Planet PAP",
@@ -2304,14 +1764,14 @@
         "timestamp": null
       },
       "lastSell": {
-        "value": 1.1,
-        "timestamp": 1645500176
+        "value": 0.58,
+        "timestamp": 1647932863
       },
-      "owner": "0x213a3dcb4a82a928a226dc2cece610d04aac9706"
+      "owner": "0xb83d1cd67ef4d54a02b6202cd534e8efe12a2738"
     },
     "market": {
       "floorAsk": {
-        "id": "0xc88756a1aad957599985f7e9402c94430a9ede6fbc3d8a940acb8319ecd5b163",
+        "id": "0x39be3715cd9b2223a9519339f4fd9127cd8fa170bf53a7eb74dae7002ea53e09",
         "price": {
           "currency": {
             "contract": "0x0000000000000000000000000000000000000000",
@@ -2322,19 +1782,19 @@
           "amount": {
             "raw": "250000000000000000",
             "decimal": 0.25,
-            "usd": 315.93661,
+            "usd": 296.69448,
             "native": 0.25
           }
         },
-        "maker": "0x213a3dcb4a82a928a226dc2cece610d04aac9706",
-        "validFrom": 1671064151,
-        "validUntil": 1671323351,
+        "maker": "0xb83d1cd67ef4d54a02b6202cd534e8efe12a2738",
+        "validFrom": 1671485616,
+        "validUntil": 1674164016,
         "source": {
           "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
           "domain": "opensea.io",
           "name": "OpenSea",
           "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/3668"
+          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/4147"
         }
       }
     }
@@ -2382,7 +1842,7 @@
           "amount": {
             "raw": "250000000000000000",
             "decimal": 0.25,
-            "usd": 315.93661,
+            "usd": 296.69448,
             "native": 0.25
           }
         },
@@ -2395,66 +1855,6 @@
           "name": "OpenSea",
           "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
           "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/4503"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "4778",
-      "name": "#4778",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae9d879c45d74202fd5be6d6b5cff5b1210fb7310947a265a56d5f1ed9480a815475bcd37c5e03fe0e4c8173eaf44ba84d8df8f016b59d1168912db7f79de221f4acfee623083d5e34603d7ced5e499a857c6e44b796cd5389805eb95ded40ed78e3584e47e4b262e695396925d9feacc23c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T01:02:50.218Z",
-      "lastFlagChange": null,
-      "rarity": 94.823,
-      "rarityRank": 5548,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": 0.1954,
-        "timestamp": 1668884747
-      },
-      "lastSell": {
-        "value": 0.2035,
-        "timestamp": 1669206251
-      },
-      "owner": "0xf54abd683f9ace959f629fabb52b2b48ea42f9f7"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0xb5bc11148845e4dc6c30ea20712ba436df9065b641d114d7f967ca19aead5a1d",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "250000000000000000",
-            "decimal": 0.25,
-            "usd": 315.93661,
-            "native": 0.25
-          }
-        },
-        "maker": "0xf54abd683f9ace959f629fabb52b2b48ea42f9f7",
-        "validFrom": 1670853080,
-        "validUntil": 1673531480,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/4778"
         }
       }
     }
@@ -2502,7 +1902,7 @@
           "amount": {
             "raw": "250000000000000000",
             "decimal": 0.25,
-            "usd": 315.93661,
+            "usd": 296.69448,
             "native": 0.25
           }
         },
@@ -2562,7 +1962,7 @@
           "amount": {
             "raw": "250000000000000000",
             "decimal": 0.25,
-            "usd": 315.93661,
+            "usd": 296.69448,
             "native": 0.25
           }
         },
@@ -2622,7 +2022,7 @@
           "amount": {
             "raw": "254100000000000000",
             "decimal": 0.2541,
-            "usd": 321.11797,
+            "usd": 301.56027,
             "native": 0.2541
           }
         },
@@ -2682,7 +2082,7 @@
           "amount": {
             "raw": "254100000000000000",
             "decimal": 0.2541,
-            "usd": 321.11797,
+            "usd": 301.56027,
             "native": 0.2541
           }
         },
@@ -2702,17 +2102,17 @@
   {
     "token": {
       "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "949",
-      "name": "#949",
+      "tokenId": "754",
+      "name": "#754",
       "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ac276b8706a7da5a3ecfaa4284414a0886cff4be94bf6db48d40e5f3b416f4ce27389678c6b37865793cf83d082ac5a9ee86ebcd390570b2fd332d3cfcdee05502dca669abfcb8c00f3ed23dfb63e20d5cebb8be6608d77d9fad9566372a615af674c8adb6209a150a6c0f251cad2053123c5e4198f99eda3f3b783c3322e8c56",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a0fd2259a3872bd535c03b3bb265fd703610c333730739dab0b2e830f9dc93543f5866f9801a57a2e7122ac0cb2e66cc848058344adfc2fabd9fea9d69a1bcf24d39522440478040cd91fa001b367776887e8fd91007b89ab2d329af83f1b11e881328b68bcfdf30c77efa8f6f34c74e123c5e4198f99eda3f3b783c3322e8c56",
       "media": null,
       "kind": "erc721",
       "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T01:08:07.455Z",
+      "lastFlagUpdate": "2022-12-07T01:08:14.977Z",
       "lastFlagChange": null,
-      "rarity": 177.612,
-      "rarityRank": 2803,
+      "rarity": 72.54,
+      "rarityRank": 7672,
       "collection": {
         "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
         "name": "Prime Ape Planet PAP",
@@ -2727,11 +2127,11 @@
         "value": null,
         "timestamp": null
       },
-      "owner": "0x1f1bf37faae1276b60c22295b44883778dcf8c22"
+      "owner": "0x0c6578028e60ada8aa6b30ee5cbd95eeedb86692"
     },
     "market": {
       "floorAsk": {
-        "id": "0x2525337a2b8b12e5a53a0f698459e2c11bd54b968994064c8c962a0bdd114cd2",
+        "id": "0xcd8fbbbf8455dc9e037303b1138161d8e9dda1ed766c1a24e3a174f5fe02f4d1",
         "price": {
           "currency": {
             "contract": "0x0000000000000000000000000000000000000000",
@@ -2742,19 +2142,19 @@
           "amount": {
             "raw": "260000000000000000",
             "decimal": 0.26,
-            "usd": 328.57407,
+            "usd": 308.56226,
             "native": 0.26
           }
         },
-        "maker": "0x1f1bf37faae1276b60c22295b44883778dcf8c22",
-        "validFrom": 1671067707,
-        "validUntil": 1673746107,
+        "maker": "0x0c6578028e60ada8aa6b30ee5cbd95eeedb86692",
+        "validFrom": 1671433818,
+        "validUntil": 1674112218,
         "source": {
           "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
           "domain": "opensea.io",
           "name": "OpenSea",
           "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/949"
+          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/754"
         }
       }
     }
@@ -2762,17 +2162,17 @@
   {
     "token": {
       "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "2306",
-      "name": "#2306",
+      "tokenId": "7312",
+      "name": "#7312",
       "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a09498e745049299e2d040f1ddb05154068f10b0ae6e63a40f284c8e7f355cbea7ed4a246915d76027966cd096f3f4894c7572410edf4ed906f6626375cd9cad0d2162d39a4e235ce345775997779968a4113dafcfd66c119b60f348062adc49a004b5c782a2b7173d1d17bbdcde994cde1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a37f9fa4a804144291d1ad0c1bcec2ebc9edf85c7f9ea4f1a611844503f40966902434467dbe543072c1bfffad7b3bba180428272cc90451634e7e0efef623f1fdfaf4330be299623ab3bb2b0c591a010b20f4f3916c0e39a63d6f30ea8f53294742a1321fed17de05e982b2736f4fb69e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
       "media": null,
       "kind": "erc721",
       "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T01:05:47.490Z",
+      "lastFlagUpdate": "2022-12-07T00:58:00.138Z",
       "lastFlagChange": null,
-      "rarity": 186.826,
-      "rarityRank": 2608,
+      "rarity": 69.123,
+      "rarityRank": 7900,
       "collection": {
         "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
         "name": "Prime Ape Planet PAP",
@@ -2780,18 +2180,18 @@
         "slug": "primeapeplanetpap"
       },
       "lastBuy": {
-        "value": null,
-        "timestamp": null
+        "value": 0.1557,
+        "timestamp": 1669213031
       },
       "lastSell": {
-        "value": null,
-        "timestamp": null
+        "value": 0.1994,
+        "timestamp": 1669265831
       },
-      "owner": "0x1f1bf37faae1276b60c22295b44883778dcf8c22"
+      "owner": "0x2ac9dab7f65f2713871146f6c7b2d60a1aaa4f45"
     },
     "market": {
       "floorAsk": {
-        "id": "0x40a69b7212e34acf8a9e23f02988b9373e37e69895b0264f0dc43f47d727e92e",
+        "id": "0xae8db46ce8e42447dadc0fdb8f77d6dbf7098dc699fe39c275262afeb56dba62",
         "price": {
           "currency": {
             "contract": "0x0000000000000000000000000000000000000000",
@@ -2802,19 +2202,19 @@
           "amount": {
             "raw": "260000000000000000",
             "decimal": 0.26,
-            "usd": 328.57407,
+            "usd": 308.56226,
             "native": 0.26
           }
         },
-        "maker": "0x1f1bf37faae1276b60c22295b44883778dcf8c22",
-        "validFrom": 1671067676,
-        "validUntil": 1672715279,
+        "maker": "0x2ac9dab7f65f2713871146f6c7b2d60a1aaa4f45",
+        "validFrom": 1671220558,
+        "validUntil": 1672446684,
         "source": {
           "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
           "domain": "opensea.io",
           "name": "OpenSea",
           "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/2306"
+          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/7312"
         }
       }
     }
@@ -2862,7 +2262,7 @@
           "amount": {
             "raw": "260000000000000000",
             "decimal": 0.26,
-            "usd": 328.57407,
+            "usd": 308.56226,
             "native": 0.26
           }
         },
@@ -2875,66 +2275,6 @@
           "name": "OpenSea",
           "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
           "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/7336"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "7560",
-      "name": "#7560",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a97da74de4ce3c4d84093a2cc48abf61decd8e9ee444fada93797c9a0bbaddd681d37b90ef0cc16e0aeeb284d99ab5d8328e4ae0ff9808f827bf2fed52e30593be639b1f757994f90a82a2ba0b0112f69cc63609a24842dde401ca763220a49e9edbfa37551acf75c1e6db29571f2c47423c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T00:57:50.249Z",
-      "lastFlagChange": null,
-      "rarity": 187.13,
-      "rarityRank": 2598,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": 0.18,
-        "timestamp": 1671132767
-      },
-      "lastSell": {
-        "value": 0.3,
-        "timestamp": 1671066671
-      },
-      "owner": "0x2a04f6af8d5be87879f919472f00ba3706e9c046"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0xb4a550c42a8db3bf05c7a91e3f691c705899246374e395dd0aa6543afb2f68b3",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "260000000000000000",
-            "decimal": 0.26,
-            "usd": 328.57407,
-            "native": 0.26
-          }
-        },
-        "maker": "0x2a04f6af8d5be87879f919472f00ba3706e9c046",
-        "validFrom": 1671190913,
-        "validUntil": 1671277313,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/7560"
         }
       }
     }
@@ -2982,7 +2322,7 @@
           "amount": {
             "raw": "265000000000000000",
             "decimal": 0.265,
-            "usd": 334.8928,
+            "usd": 314.49615,
             "native": 0.265
           }
         },
@@ -3042,7 +2382,7 @@
           "amount": {
             "raw": "270000000000000000",
             "decimal": 0.27,
-            "usd": 341.21153,
+            "usd": 320.43004,
             "native": 0.27
           }
         },
@@ -3102,7 +2442,7 @@
           "amount": {
             "raw": "270000000000000000",
             "decimal": 0.27,
-            "usd": 341.21153,
+            "usd": 320.43004,
             "native": 0.27
           }
         },
@@ -3162,7 +2502,7 @@
           "amount": {
             "raw": "270000000000000000",
             "decimal": 0.27,
-            "usd": 341.21153,
+            "usd": 320.43004,
             "native": 0.27
           }
         },
@@ -3222,7 +2562,7 @@
           "amount": {
             "raw": "270000000000000000",
             "decimal": 0.27,
-            "usd": 341.21153,
+            "usd": 320.43004,
             "native": 0.27
           }
         },
@@ -3282,7 +2622,7 @@
           "amount": {
             "raw": "274500000000000000",
             "decimal": 0.2745,
-            "usd": 346.89839,
+            "usd": 325.77054,
             "native": 0.2745
           }
         },
@@ -3295,126 +2635,6 @@
           "name": "LooksRare",
           "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
           "url": "https://looksrare.org/collections/0x6632a9d63e142f17a668064d41a21193b49b41a0/3718"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "4654",
-      "name": "#4654",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a8ab858441a3c8c9c4fe52a17f146b76f0633b30b97d227a15f38ade35558b4eba7fa29bf3391a332ea2868d6c8412a8c9f17e597bd0945f2dc100c98386ea11e47de92d16fe26c26080d08f57f15802265e4852ee2add41cc6880e1906965f503b7d57a1850797f7bf733f48912e57a423c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": true,
-      "lastFlagUpdate": "2022-12-07T01:02:57.497Z",
-      "lastFlagChange": null,
-      "rarity": 104.105,
-      "rarityRank": 5018,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": 0.20355,
-        "timestamp": 1668688751
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0x4f0e1afcefd307ef0f306959c970fe96839349bc"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x5cd89eab459d570c4d6b9dc287f53a85700810fa0a2c31a1a4364212ae72269d",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "274800000000000000",
-            "decimal": 0.2748,
-            "usd": 347.27752,
-            "native": 0.2748
-          }
-        },
-        "maker": "0x4f0e1afcefd307ef0f306959c970fe96839349bc",
-        "validFrom": 1668692975,
-        "validUntil": 1671281212,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/4654"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "4956",
-      "name": "#4956",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ac0074e428317742f77b88ca21e2ca5193dc7fc135b058f7b4ca87b6dbdae3de517c74c7cbee8ab334076adbd57bfe18adbc79436c03e726d158f585e7150de1514bc0e15acd3e7661c042acbc0be6041ad0a747b83ea5bc21caab940eb861cd096fbc2ea88c4ed9ad900b22f829bac06e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T01:02:41.650Z",
-      "lastFlagChange": null,
-      "rarity": 81.265,
-      "rarityRank": 6693,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": 0.2251,
-        "timestamp": 1668706907
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0x2e49f47f5933dcb7d02b44518c8afcd5ffe60a4d"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x8f8aede76f045cc5841b9cab0de157e97d81d904c05b86339b9379f9d90fcdcc",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "274800000000000000",
-            "decimal": 0.2748,
-            "usd": 347.27752,
-            "native": 0.2748
-          }
-        },
-        "maker": "0x2e49f47f5933dcb7d02b44518c8afcd5ffe60a4d",
-        "validFrom": 1668706819,
-        "validUntil": 1671298819,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/4956"
         }
       }
     }
@@ -3462,7 +2682,7 @@
           "amount": {
             "raw": "277000000000000000",
             "decimal": 0.277,
-            "usd": 350.05776,
+            "usd": 328.73748,
             "native": 0.277
           }
         },
@@ -3522,7 +2742,7 @@
           "amount": {
             "raw": "280000000000000000",
             "decimal": 0.28,
-            "usd": 353.849,
+            "usd": 332.29782,
             "native": 0.28
           }
         },
@@ -3582,7 +2802,7 @@
           "amount": {
             "raw": "280000000000000000",
             "decimal": 0.28,
-            "usd": 353.849,
+            "usd": 332.29782,
             "native": 0.28
           }
         },
@@ -3642,7 +2862,7 @@
           "amount": {
             "raw": "280000000000000000",
             "decimal": 0.28,
-            "usd": 353.849,
+            "usd": 332.29782,
             "native": 0.28
           }
         },
@@ -3702,7 +2922,7 @@
           "amount": {
             "raw": "280000000000000000",
             "decimal": 0.28,
-            "usd": 353.849,
+            "usd": 332.29782,
             "native": 0.28
           }
         },
@@ -3762,7 +2982,7 @@
           "amount": {
             "raw": "280000000000000000",
             "decimal": 0.28,
-            "usd": 353.849,
+            "usd": 332.29782,
             "native": 0.28
           }
         },
@@ -3775,2226 +2995,6 @@
           "name": "OpenSea",
           "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
           "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/2215"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "3365",
-      "name": "#3365",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a094de23d3743e679eff21ead0cc2c3f438b156d881410bbaa06362bcaf18ff4356bad3b1652bbe12fc661e301a5a0bb381fdedcbd993a0fe72bde5a9d531aa77c51001474c3d05e42cf6d3306c146ccea8f6eef11442d32683bce6421cc1903047aa61571db573f505f84638f08355e523c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T01:04:18.284Z",
-      "lastFlagChange": null,
-      "rarity": 109.758,
-      "rarityRank": 4719,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0x2bb68c26e75b01d2cbb9b1d71432fc53c4c80350"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x114f7880ebdfcf64d833a5afb6f3798591adb6340f354585c6e4f0ccefd16424",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "283700000000000000",
-            "decimal": 0.2837,
-            "usd": 358.52486,
-            "native": 0.2837
-          }
-        },
-        "maker": "0x2bb68c26e75b01d2cbb9b1d71432fc53c4c80350",
-        "validFrom": 1671201507,
-        "validUntil": 1673793506,
-        "source": {
-          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
-          "domain": "looksrare.org",
-          "name": "LooksRare",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
-          "url": "https://looksrare.org/collections/0x6632a9d63e142f17a668064d41a21193b49b41a0/3365"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "5",
-      "name": "#5",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ac6703a3a27d346c82684fbbd10219835ccff2fa3e3dead002a5622a303c756552737c321301968ec85e1e83385e0103d6573d47a29f741fe04cb81df7951c1faa3a99520dd06118b252076712f47335ceb2b8ba2ebfc240a740f26de9510a00125096e01f2f6beb78f3381f8fb9b158923c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T01:08:52.269Z",
-      "lastFlagChange": null,
-      "rarity": 89.743,
-      "rarityRank": 5951,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0x2edda162a8d7b6d3f8d69b22597832b7417b2201"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x2d5ff51d021266e8b685c37883cb57e74261339c308d46beae3b15aadff2fc00",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "288000000000000000",
-            "decimal": 0.288,
-            "usd": 363.95897,
-            "native": 0.288
-          }
-        },
-        "maker": "0x2edda162a8d7b6d3f8d69b22597832b7417b2201",
-        "validFrom": 1669392660,
-        "validUntil": 1671984660,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/5"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "3925",
-      "name": "#3925",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ad72900022d6310044ce3ab325d9c77c6bdf4b720f6afc8576e1c7757a0a3779f56d815cd1e9c0289a7d2fff27d2820a8a000eb1d2af3958eee72e4936d469fb6366146de0062f9db060489558976d8239b111cc565da5afdfd557e6b490c5e8451b8f2471adc2b157d371fc39498426823c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T01:03:46.944Z",
-      "lastFlagChange": null,
-      "rarity": 135.957,
-      "rarityRank": 3868,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": 0.329,
-        "timestamp": 1649519916
-      },
-      "owner": "0x9db60b9adf8acbe062d3a78ec68896da3e4a1a7b"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0xa0f7aef9298defe38cd410ece31825e3fd444da45f06655843b86da83213aba4",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "288000000000000000",
-            "decimal": 0.288,
-            "usd": 363.95897,
-            "native": 0.288
-          }
-        },
-        "maker": "0x9db60b9adf8acbe062d3a78ec68896da3e4a1a7b",
-        "validFrom": 1671116310,
-        "validUntil": 1673794710,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/3925"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "990",
-      "name": "#990",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5629a67214c63614813835d77cdfaf771eba500be58b08f1451c4c084fb25413b5d777efd3af4ec7da0773841ad537ff2365efd8a425cbb0dba8a28dfff4f0dd3c8a3cfbd909f5a1e8e25920ec0dd408af2c6546e9877d170cb439be21527bd7efbc76e084435eefca440f101206f02623c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T01:08:05.391Z",
-      "lastFlagChange": null,
-      "rarity": 250.845,
-      "rarityRank": 1607,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": 1.35,
-        "timestamp": 1647122531
-      },
-      "owner": "0x333674905a5936c8ea905d779d4bfbdcae6bcb70"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x88925b7c6d42249ecf4f7b72842950e22a8f9115af2770c7d5ddf2e2c1134356",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "290000000000000000",
-            "decimal": 0.29,
-            "usd": 366.48646,
-            "native": 0.29
-          }
-        },
-        "maker": "0x333674905a5936c8ea905d779d4bfbdcae6bcb70",
-        "validFrom": 1671154857,
-        "validUntil": 1686537228,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/990"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "995",
-      "name": "#995",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75afe72583227786e56eba325eb489b8f2d436e770bb959b29cc49ddc97b0406f337aa6bdabfb273cca25c3337068da587eb2b443ed0c1ff6ae7afca71ffa6a682130ef1fc57cd012dd0a34a4e53cf187dcb4e80137488c96a6314efa4f682e91eadcb327a44a8df74b7869d9573ff473fd23c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T01:08:05.391Z",
-      "lastFlagChange": null,
-      "rarity": 107.785,
-      "rarityRank": 4817,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": 0.522,
-        "timestamp": 1647727073
-      },
-      "lastSell": {
-        "value": 0.25,
-        "timestamp": 1652957294
-      },
-      "owner": "0x333674905a5936c8ea905d779d4bfbdcae6bcb70"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x84fd450a4ac7322b6707343f34ecceb430d0dbf82acaff1ec5f2f01543c30252",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "290000000000000000",
-            "decimal": 0.29,
-            "usd": 366.48646,
-            "native": 0.29
-          }
-        },
-        "maker": "0x333674905a5936c8ea905d779d4bfbdcae6bcb70",
-        "validFrom": 1671149313,
-        "validUntil": 1673666404,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/995"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "1269",
-      "name": "#1269",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af22b060caa9f13b3d30a6264fb0dfd3789a49f29d461979dd2f301b0dfdc8e010f8fe4eb488be90a35dd5c02531b1f31cb9d13a74ddd62f9e754ddbab10c0e0878a35f745cddd459894c78d0d06b760c79ebc4b98b5db26add5a7d9fc1d7ea4333503c28d7397068c4be140598148592e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T01:07:53.825Z",
-      "lastFlagChange": null,
-      "rarity": 164.928,
-      "rarityRank": 3124,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": 0.918,
-        "timestamp": 1645549738
-      },
-      "owner": "0x420aa9b92f8cd1d73d118bcd6ba9208911a423ce"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x9a49a095553064ffca4876fbe2c8d5f0e9a535a82a14246ade4f38ab56ddf807",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "290000000000000000",
-            "decimal": 0.29,
-            "usd": 366.48646,
-            "native": 0.29
-          }
-        },
-        "maker": "0x420aa9b92f8cd1d73d118bcd6ba9208911a423ce",
-        "validFrom": 1671185145,
-        "validUntil": 1673863545,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/1269"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "1328",
-      "name": "#1328",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3cab362fafae2659779cd4abb7d23cec5abbc2d2b3a4f0bb21d492795b9346dd114c69f3a6cf7b030a9ac07348884c6bc4c5cdff4369f9fc8f5f06ce66bac224a950aaa7718eb22408124bb217563d5e383feb32c1405c2ee220636f0fd3a052afab2b5e15bd54fd5d0c79cdc65d763a23c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T01:07:50.888Z",
-      "lastFlagChange": null,
-      "rarity": 76.778,
-      "rarityRank": 7194,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": 0.135,
-        "timestamp": 1650895492
-      },
-      "owner": "0x420aa9b92f8cd1d73d118bcd6ba9208911a423ce"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0xe2e87f53b468ee5da9ef8c6092a2fa0e0948009e9ec8d4d0eaa5ca53cd92e645",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "290000000000000000",
-            "decimal": 0.29,
-            "usd": 366.48646,
-            "native": 0.29
-          }
-        },
-        "maker": "0x420aa9b92f8cd1d73d118bcd6ba9208911a423ce",
-        "validFrom": 1671184199,
-        "validUntil": 1673862599,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/1328"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "1968",
-      "name": "#1968",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75afcf0482d849b2569e65278ad8f6a2da196cff0e801961210ba7dad7e874aa9d8ee2792295ad25416d112a1fb95be153786f789bf86a311e90b676e19b00908e9de10f7b0980b0f309de6cafbaf50c840ba409cc0ffe222eb0be5c9d04b8f620460e08af53490452a067abc96898aa27223c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T01:07:23.345Z",
-      "lastFlagChange": null,
-      "rarity": 215.42,
-      "rarityRank": 2083,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": 0.375,
-        "timestamp": 1652665474
-      },
-      "owner": "0x333674905a5936c8ea905d779d4bfbdcae6bcb70"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x387bd115eef5d50a01de15fb0c753e7dd1bd3772eb668cb5cbd91cf8ba576cab",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "290000000000000000",
-            "decimal": 0.29,
-            "usd": 366.48646,
-            "native": 0.29
-          }
-        },
-        "maker": "0x333674905a5936c8ea905d779d4bfbdcae6bcb70",
-        "validFrom": 1671154882,
-        "validUntil": 1686537294,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/1968"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "6761",
-      "name": "#6761",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a86350c05acc846bf0b59df97a4e96cedc6f427e6f876fade9d767578ca6b3502e0d5ff358bcc4a5510f1c6e5be92c57e65b7c4b307e26531df74402bfdc750abbc9df39a601dd221c193746d82ace178fedbab5bdbf1c738965abfa3b911adc97008b8375182a39b1efb025c132b812223c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T00:58:24.215Z",
-      "lastFlagChange": null,
-      "rarity": 158.133,
-      "rarityRank": 3298,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": 0.8,
-        "timestamp": 1646218039
-      },
-      "owner": "0x420aa9b92f8cd1d73d118bcd6ba9208911a423ce"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x3001468cf30c44a97a291d1d2f3ab23a5fc1fb31fdd9af06d35f60b10f05e579",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "290000000000000000",
-            "decimal": 0.29,
-            "usd": 366.48646,
-            "native": 0.29
-          }
-        },
-        "maker": "0x420aa9b92f8cd1d73d118bcd6ba9208911a423ce",
-        "validFrom": 1671185185,
-        "validUntil": 1673863585,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/6761"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "6942",
-      "name": "#6942",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a47db2bdfc83dda0f5c4158f05209ec1f756bbee708c4cb698cf8d4c81c2820846bb3b7f18be484694e5ee33c89584dce29ea206b3461600281069e9db357b4f637af0a15b891ef2b045dec1b9a47e90e95ccf444f89b536c3af7d81536358186751e0b295f3715265f4f5ce38f3775ec23c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T00:58:15.333Z",
-      "lastFlagChange": null,
-      "rarity": 128.759,
-      "rarityRank": 4042,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": 0.29,
-        "timestamp": 1648743119
-      },
-      "owner": "0x1c6e5499e26ee75480756940272ab8f0194967d7"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0xd28aff3f01bbd39a5634c1b369b823fd1878f659c5e4e33568d318452dc93e1c",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "290000000000000000",
-            "decimal": 0.29,
-            "usd": 366.48646,
-            "native": 0.29
-          }
-        },
-        "maker": "0x1c6e5499e26ee75480756940272ab8f0194967d7",
-        "validFrom": 1670681877,
-        "validUntil": 1673360277,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/6942"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "7316",
-      "name": "#7316",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5355edb1d129c8d8f7a76ec406f18214a6cec8c4ee92cd67d92a1dc55415d630d3a1497bf8bfd93f61600c1e0f9d0573d565fc0584a8bf50732ae7349d8f310dc816b389faf68f2766fbeaa1edbc7be07ef502d71343b2a23bab4721d7f4012142d6bc0d1bb5abf21023946d22a2028b23c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T00:58:00.143Z",
-      "lastFlagChange": null,
-      "rarity": 110.121,
-      "rarityRank": 4707,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": 0.1911,
-        "timestamp": 1648852528
-      },
-      "lastSell": {
-        "value": 0.169,
-        "timestamp": 1650482089
-      },
-      "owner": "0x420aa9b92f8cd1d73d118bcd6ba9208911a423ce"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0xbda087324865ee880650f843768750c61bdad4dcd536ba394200fe13ff266586",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "290000000000000000",
-            "decimal": 0.29,
-            "usd": 366.48646,
-            "native": 0.29
-          }
-        },
-        "maker": "0x420aa9b92f8cd1d73d118bcd6ba9208911a423ce",
-        "validFrom": 1671184726,
-        "validUntil": 1673863126,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/7316"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "5027",
-      "name": "#5027",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a160e9947f8f785756c080009a3b8863b744cb4c258d1d2a2379094b3cc12d0e37efed41520f861ce35f327d481342e3c88952721183d2c1eb6eb10d7f088ef142bbbdcf348cb0822d9dcb32f328a17bea2cf243479dfef7b1b437df6176c161401d8c5c82eea42f4ada335b52860cc43e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T01:01:37.153Z",
-      "lastFlagChange": null,
-      "rarity": 89.787,
-      "rarityRank": 5944,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0xbe758d834d6ea425a8e371354399867d7cd0d71d"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0xd5772f3fb4df3e0b072fc63108978bfd5d958e75364ec42c97495b8a6e21b3f0",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "299000000000000000",
-            "decimal": 0.299,
-            "usd": 377.86018,
-            "native": 0.299
-          }
-        },
-        "maker": "0xbe758d834d6ea425a8e371354399867d7cd0d71d",
-        "validFrom": 1670964380,
-        "validUntil": 1671223580,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/5027"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "198",
-      "name": "#198",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a27018167a542ffedd6712505527122ce9595b5f424341fb5f5d0545b51ee30443fa389580af675dc953125960d0b83c1e64de631641526b3fa9506d40f78ab49100ad74c37c308550b203eb14ecf6f426a492ef77fc678e1f3cb8cb3f7f27b65d1151104ec24ce23a8e830c8d3ce4a7b058ed9feecb44e991ea6b299d1f7ae6c",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T01:08:44.023Z",
-      "lastFlagChange": null,
-      "rarity": 155.411,
-      "rarityRank": 3365,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0xf60301c45f4d3c93d5af7bd17bb57ea662ab7f7b"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0xae93b475275444a983b2731e1506807d695735c697b0448b4b9071054194761d",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "300000000000000000",
-            "decimal": 0.3,
-            "usd": 379.12393,
-            "native": 0.3
-          }
-        },
-        "maker": "0xf60301c45f4d3c93d5af7bd17bb57ea662ab7f7b",
-        "validFrom": 1668797829,
-        "validUntil": 1671389829,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/198"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "258",
-      "name": "#258",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a51b8899b7f0fe0be8178b2f1876fc4bfbcfb5414634aacbd9e06c77b6ced9ff816f5d67b7226e4a4b9282f2999bd446c844c88f7f6fa220e0a5c0c58388e90f09924e04b6a2d3b6d6d4b5aab8dae29f2d452c29b2fea40cce082aaddef7a1483a0497f24b0bcf364afec4f804c712d69e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T01:08:42.155Z",
-      "lastFlagChange": null,
-      "rarity": 82.302,
-      "rarityRank": 6573,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0x886d6639f0be7d0983bdf86e3bfcdb88c9f98fc5"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x3470f84e4fa4041e74dd0f5ac6c42574924af8279574915721278bddb2f43f9c",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "300000000000000000",
-            "decimal": 0.3,
-            "usd": 379.12393,
-            "native": 0.3
-          }
-        },
-        "maker": "0x886d6639f0be7d0983bdf86e3bfcdb88c9f98fc5",
-        "validFrom": 1671196885,
-        "validUntil": 1671283285,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/258"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "1452",
-      "name": "#1452",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a27cb9dd73fcd6fec3d1c08cdac06a88d561d0d7ec58856202bb23479199ce50fddc1e467ec6d84a5f4ed26a8590601788482a180eb54b2984deb37f9bb1f386b1e13e3ab19859d3055d2cbc291dbbaa4811ea88660cf4024cea1a959f6b7c09b22ef17e3c8bd5742be11dde3cbb57e9923c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T01:07:46.747Z",
-      "lastFlagChange": null,
-      "rarity": 165.648,
-      "rarityRank": 3107,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": 0.21,
-        "timestamp": 1669056479
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0x8ef7c7253597996797d91eb1d56c18c7f223bc2e"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0xaa506cde0999b7ef91b447ecbf7d6cd75d3a28f894fcf7fb0f016dca9ef7322a",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "300000000000000000",
-            "decimal": 0.3,
-            "usd": 379.12393,
-            "native": 0.3
-          }
-        },
-        "maker": "0x8ef7c7253597996797d91eb1d56c18c7f223bc2e",
-        "validFrom": 1669057436,
-        "validUntil": 1671649436,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/1452"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "2148",
-      "name": "#2148",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a72c2ad8b709b07ecf70ea197b40212202e200654400d500eb48f6c811a139de100f400483bdfabb24b8a3e43c4873cccc6541c92c05db345a063b386819e9a812bfa3e01c661f3e3846991352fa2adf4dc97fae3d683d87ae0de1b16c5d5758b5ecf3e4260590047f5f144fb4ad5192ee1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T01:05:53.746Z",
-      "lastFlagChange": null,
-      "rarity": 111.189,
-      "rarityRank": 4650,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": 0.6,
-        "timestamp": 1646790995
-      },
-      "lastSell": {
-        "value": 0.21,
-        "timestamp": 1658633660
-      },
-      "owner": "0xb0d2e01c077a7a04d04b9dd56ae427dd3e26b57e"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0xc862d22843b5e5ec3fd2781b4f9683da1a6506d2b65390050fefbc2d0e640ee6",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "300000000000000000",
-            "decimal": 0.3,
-            "usd": 379.12393,
-            "native": 0.3
-          }
-        },
-        "maker": "0xb0d2e01c077a7a04d04b9dd56ae427dd3e26b57e",
-        "validFrom": 1670943137,
-        "validUntil": 1671547937,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/2148"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "3263",
-      "name": "#3263",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a0bf5d7752bc9c1f73014aaf91969d04befa90e32118bdf89bdef546e013965a3c7c390f8e9c285649dc0ba1e28a7c8ff2c3c5cd09e07e4f022341c1219973ea9a9b25f5f993496ddf5956862232a16767af0edd7d64231ed905e977e60c13da58b5be3a00bdb9984c63d56af61ece5b3058ed9feecb44e991ea6b299d1f7ae6c",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T01:04:30.916Z",
-      "lastFlagChange": null,
-      "rarity": 305.864,
-      "rarityRank": 1122,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0xef0e9313528cb4ca5c8f0b8eee05cfd1c11fb4cf"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0xbbf92cc01797d05248f7cd86ab688e5e8c0dd743aa91a059625943b29c7775a0",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "300000000000000000",
-            "decimal": 0.3,
-            "usd": 379.12393,
-            "native": 0.3
-          }
-        },
-        "maker": "0xef0e9313528cb4ca5c8f0b8eee05cfd1c11fb4cf",
-        "validFrom": 1671113706,
-        "validUntil": 1672678860,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/3263"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "4615",
-      "name": "#4615",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a868158afad674ced62cb1d9cdd76afbae3d31f1430bfe9f67e321f20372086d1553df68c59d72f4e2f2a8901aef4029e96dc2e68e7f332e39ef83ee4f3260033b59efaece47cb69686c41ffd55ac1c41457564cfe644d97edd40ca71deb4f413b9c98417a504a9c389bbc903a9c03dee058ed9feecb44e991ea6b299d1f7ae6c",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T01:02:59.815Z",
-      "lastFlagChange": null,
-      "rarity": 206.947,
-      "rarityRank": 2214,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": 1.18,
-        "timestamp": 1646091664
-      },
-      "lastSell": {
-        "value": 0.5,
-        "timestamp": 1652872886
-      },
-      "owner": "0x333674905a5936c8ea905d779d4bfbdcae6bcb70"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x264c2431acf79c5f3d1e4685e44e714930ef8b30e5a1bcfbb3d4299807ea49a3",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "300000000000000000",
-            "decimal": 0.3,
-            "usd": 379.12393,
-            "native": 0.3
-          }
-        },
-        "maker": "0x333674905a5936c8ea905d779d4bfbdcae6bcb70",
-        "validFrom": 1671147907,
-        "validUntil": 1686537056,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/4615"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "7166",
-      "name": "#7166",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a8f7c3a35df10a54f0634996c8f8486672198565ebbf170c874bba15d35d953d931b5fc419ac1debb3e1593354e8512014739ae1883acff940464e16592a48dfe815c066f97aff80999cc86a9bc56b850170aaac68c49a1136059704a679f5455da1fc167267eea1ae545dc9c2c58c1abe1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T00:58:05.633Z",
-      "lastFlagChange": null,
-      "rarity": 454.66,
-      "rarityRank": 551,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0xef0e9313528cb4ca5c8f0b8eee05cfd1c11fb4cf"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0xdae6c36d726afa48af01c1e7326a8d5da3d67c99928c3c59a245b9ea720637f8",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "300000000000000000",
-            "decimal": 0.3,
-            "usd": 379.12393,
-            "native": 0.3
-          }
-        },
-        "maker": "0xef0e9313528cb4ca5c8f0b8eee05cfd1c11fb4cf",
-        "validFrom": 1671113695,
-        "validUntil": 1672678904,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/7166"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "7312",
-      "name": "#7312",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a37f9fa4a804144291d1ad0c1bcec2ebc9edf85c7f9ea4f1a611844503f40966902434467dbe543072c1bfffad7b3bba180428272cc90451634e7e0efef623f1fdfaf4330be299623ab3bb2b0c591a010b20f4f3916c0e39a63d6f30ea8f53294742a1321fed17de05e982b2736f4fb69e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T00:58:00.138Z",
-      "lastFlagChange": null,
-      "rarity": 69.123,
-      "rarityRank": 7900,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": 0.1557,
-        "timestamp": 1669213031
-      },
-      "lastSell": {
-        "value": 0.1994,
-        "timestamp": 1669265831
-      },
-      "owner": "0x2ac9dab7f65f2713871146f6c7b2d60a1aaa4f45"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x2d09af856c5d2827a46143b14f22b51ed722a759b91428bad33fb7f377102288",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "300000000000000000",
-            "decimal": 0.3,
-            "usd": 379.12393,
-            "native": 0.3
-          }
-        },
-        "maker": "0x2ac9dab7f65f2713871146f6c7b2d60a1aaa4f45",
-        "validFrom": 1670733165,
-        "validUntil": 1672446684,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/7312"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "7934",
-      "name": "#7934",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a2c7a0f99cea3675bc9da9af7d9dba53aa59ef1dc66d4137ef09523a2d16d20e4c1c2f8f66cb176e84dbeafb37de755664aafdf8d52391e63d9bde0cd99d1f592f2253090749711f66cade8288b33391e35cd6cc68cf78fe549e23e65ddb924f58882b53890fbddcabef69d24d2f5d1c3e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T00:57:34.707Z",
-      "lastFlagChange": null,
-      "rarity": 91.475,
-      "rarityRank": 5794,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": 0.13,
-        "timestamp": 1660484337
-      },
-      "lastSell": {
-        "value": 0.3,
-        "timestamp": 1668216455
-      },
-      "owner": "0x13b2544db9724be3e8a59519e64f1cbabc844dea"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x05404a9fb1efc3067a4d14327dff8946af79e0dd0f6cc4a4daae23dfaafdc838",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "318000000000000000",
-            "decimal": 0.318,
-            "usd": 401.87136,
-            "native": 0.318
-          }
-        },
-        "maker": "0x13b2544db9724be3e8a59519e64f1cbabc844dea",
-        "validFrom": 1668947191,
-        "validUntil": 1671539162,
-        "source": {
-          "id": "0xdc28ffaea1f91a88fb6fd0a8fe70d71bdd64284c",
-          "domain": "x2y2.io",
-          "name": "X2Y2",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/x2y2-logo.png",
-          "url": "https://x2y2.io/eth/0x6632a9d63e142f17a668064d41a21193b49b41a0/7934"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "5565",
-      "name": "#5565",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a69301df278e531aa5bf32e1fb863ca63905bd927de9047658a8e4aa302040b41e51746290cd426b7ca3a354a571ccecd683e5493ea14ea6f15ada127adf3a27732c3d61e052417d2190a9db6ace89ad6a6ebc6a2da5a811d1700cd796301c2550f1cdf8d31398731105fe01ff54bd41e23c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T01:00:59.904Z",
-      "lastFlagChange": null,
-      "rarity": 90.558,
-      "rarityRank": 5866,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": 0.2,
-        "timestamp": 1669455671
-      },
-      "owner": "0xa38f845326c5984c6072261868d34f1aefbd5594"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0xaa35e2710df9b6ab4a9089c91baeca189c3de0e782d5785b1f304ad1659375c3",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "320000000000000000",
-            "decimal": 0.32,
-            "usd": 404.39886,
-            "native": 0.32
-          }
-        },
-        "maker": "0xa38f845326c5984c6072261868d34f1aefbd5594",
-        "validFrom": 1669456942,
-        "validUntil": 1685008942,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/5565"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "5843",
-      "name": "#5843",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aedba739d1fd9c0586d12b5d33d99c519b7602647d569a7ba238118ca415d8efb3c91ad4cbfaae2897b2fcd1d2ab8238f938925ce64a93d40c76ffabc3b3cd9b625373b9ddcdf27a73e19db1a3a8944d6281f547a97e77d6a2963d1030d21aac29498169668f70654e4f6315fffc37cf9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T01:00:29.061Z",
-      "lastFlagChange": null,
-      "rarity": 160.478,
-      "rarityRank": 3229,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": 0.199,
-        "timestamp": 1650310955
-      },
-      "owner": "0x420aa9b92f8cd1d73d118bcd6ba9208911a423ce"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x003d459f02a98d49fb2cdf8ec535bb3aca9b2c80186f5d56f3a2192c411e4cb7",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "320000000000000000",
-            "decimal": 0.32,
-            "usd": 404.39886,
-            "native": 0.32
-          }
-        },
-        "maker": "0x420aa9b92f8cd1d73d118bcd6ba9208911a423ce",
-        "validFrom": 1671184605,
-        "validUntil": 1673863005,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/5843"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "1326",
-      "name": "#1326",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3c71bf9de8564a026956d571cbbcc41a4cd630c85c98e96a81581ed6e3c9a8bb6f5f3fa4c604c8b8e6be8d370365dd22ac1272bd28875d1c28ef23d51eebe87b6701053abd1cca8b2e437f5278206c16bd69764a8a1605c0b27afb0a6c9da429eb0782db3174f8f270d1735a3dfe0715058ed9feecb44e991ea6b299d1f7ae6c",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T01:07:50.900Z",
-      "lastFlagChange": null,
-      "rarity": 193.344,
-      "rarityRank": 2470,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": 0.3,
-        "timestamp": 1651421858
-      },
-      "owner": "0x333674905a5936c8ea905d779d4bfbdcae6bcb70"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0xac8fc152b746ca4f10f3160470be60bca8e2fe675feec8c8ba9486e0692db443",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "330000000000000000",
-            "decimal": 0.33,
-            "usd": 417.03632,
-            "native": 0.33
-          }
-        },
-        "maker": "0x333674905a5936c8ea905d779d4bfbdcae6bcb70",
-        "validFrom": 1671154838,
-        "validUntil": 1686537392,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/1326"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "6741",
-      "name": "#6741",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ac859f7f88c1a271cdb510ebb839260297ed7c6106eb37e9a9790a1ce740ec12e2f06a7d476d0defa738347f6146550214958fe8f2c12eb78655b93865ca2198d89b393d12abc47328045527b9a278c6760c4f1b5edf226b10141cfb5907005738820dda326df1b418d4407b6ae1c3667e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T00:58:25.076Z",
-      "lastFlagChange": null,
-      "rarity": 219.218,
-      "rarityRank": 2035,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": 0.25,
-        "timestamp": 1649132530
-      },
-      "owner": "0x6b11142d2eef298e3ce07b5c682dfdb6b173557e"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x7f764b6e3f9de64ed1b5de8d67ac5f9ad0a27a9e4f7e86d99f2163341d1947c8",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "333000000000000000",
-            "decimal": 0.333,
-            "usd": 420.82756,
-            "native": 0.333
-          }
-        },
-        "maker": "0x6b11142d2eef298e3ce07b5c682dfdb6b173557e",
-        "validFrom": 1671169385,
-        "validUntil": 1671774185,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/6741"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "7937",
-      "name": "#7937",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af466a82e71001390acedc12439902cbf0fe2e560435224a3e1d9e8a75ce8442d82edc725e3d86e884bfbc89e7f49e1d13b3f1cf3620951282faed3fdde12ab0a58667dd45b59b8938ac3f5f0484c3d791583d0036b10de7e02c2f5cd229a66e90dff2814c150970147361f77e8c0df8423c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T00:57:34.707Z",
-      "lastFlagChange": null,
-      "rarity": 211.079,
-      "rarityRank": 2148,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0x333674905a5936c8ea905d779d4bfbdcae6bcb70"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0xda3ddee5c7b7ca9915671132f8f402bff8ebfe246fd27c3ea76afe36ff3963f6",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "340000000000000000",
-            "decimal": 0.34,
-            "usd": 429.67378,
-            "native": 0.34
-          }
-        },
-        "maker": "0x333674905a5936c8ea905d779d4bfbdcae6bcb70",
-        "validFrom": 1671155027,
-        "validUntil": 1686538176,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/7937"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "6015",
-      "name": "#6015",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75abfd217718a2b8311910ebd7a47e382820fb2e24cdca16bb833a436632188ecd1db6e7b51578084dee9ddc9d0db8c99d6233057cdf8724686181030c9f6dcd6b1e435b0ad406908e0638ad0233038d2789d573d249045aac82e7f487c21c166f18eba1eb6ff08be9bbfb963d34349a527058ed9feecb44e991ea6b299d1f7ae6c",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T00:58:51.753Z",
-      "lastFlagChange": null,
-      "rarity": 285.476,
-      "rarityRank": 1289,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0x271ae017fa83fb570e61a4fc2ee984f20bfbd967"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x15ece99b7e43549b78f793cc678561bb7b8f540fb8e37e0af4d95ed1235a6408",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "344000000000000000",
-            "decimal": 0.344,
-            "usd": 434.72877,
-            "native": 0.344
-          }
-        },
-        "maker": "0x271ae017fa83fb570e61a4fc2ee984f20bfbd967",
-        "validFrom": 1670763008,
-        "validUntil": 1673441408,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/6015"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "6487",
-      "name": "#6487",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a31e45bbdd21e7bac9469c0018fd62130ea2a1f69559b0f072c7b4b8bed32eec8843ad8254242b4ab9805899e663e97e848188b58412af21b11673f2950152f04f1cdf8c332fdb61982a10ef7f594c654e4e4702fc8fb22f38d94b44228ba9de4488251e8595d68262e2d5818eca3ce4723c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T00:58:33.959Z",
-      "lastFlagChange": null,
-      "rarity": 176.018,
-      "rarityRank": 2849,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": 0.24,
-        "timestamp": 1652980505
-      },
-      "owner": "0x420aa9b92f8cd1d73d118bcd6ba9208911a423ce"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x9a630621ed34d392334109b53d8d0857c0370639d889c2b11e1e89c13c8da29d",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "344000000000000000",
-            "decimal": 0.344,
-            "usd": 434.72877,
-            "native": 0.344
-          }
-        },
-        "maker": "0x420aa9b92f8cd1d73d118bcd6ba9208911a423ce",
-        "validFrom": 1671184534,
-        "validUntil": 1673862934,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/6487"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "7531",
-      "name": "#7531",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75acd7a0de683e7f220854886b429b8aac431823b02c891b871794215bd57b3b9f61503f4b6bf53cf9d1c69d6ca3d6019c33b30b0f63393e46407a090a1525262b8ba320d3808c0935f9a4b6f7bbc136f560f6cafb9fd6058b28cadfe57976d4a77d193358ba5f8bd423b59648199dad9321e9cbf17948473242070ca80b70c6daf",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T00:57:51.713Z",
-      "lastFlagChange": null,
-      "rarity": 168.259,
-      "rarityRank": 3039,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0x420aa9b92f8cd1d73d118bcd6ba9208911a423ce"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x1b732cf0e26e9fb0dc48c8fc663eb67ed33520d859a2fb440f6584cc9b82667b",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "344000000000000000",
-            "decimal": 0.344,
-            "usd": 434.72877,
-            "native": 0.344
-          }
-        },
-        "maker": "0x420aa9b92f8cd1d73d118bcd6ba9208911a423ce",
-        "validFrom": 1671185667,
-        "validUntil": 1673864067,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/7531"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "5354",
-      "name": "#5354",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a51078e761450e1eac456d9e4beb9dbb62a930c0768d4357ddf17f5bf48772debe992b14fc5d51bab1ac6b33ae2bf0e4c2ea389d95bec03b6518048704ae60844b6b74329c2b9bd517fa88713e2666f8a0756ead0424bf0d8a4ae207ead8ec7b16bedf66ac3e9e1854f8f8f8cfce6ca04e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T01:01:12.067Z",
-      "lastFlagChange": null,
-      "rarity": 156.584,
-      "rarityRank": 3335,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": 0.349,
-        "timestamp": 1654611571
-      },
-      "owner": "0x420aa9b92f8cd1d73d118bcd6ba9208911a423ce"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x2d542d3492d4e4739cb307e4c791d121746155965461174a381ccfae5cd2c896",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "345000000000000000",
-            "decimal": 0.345,
-            "usd": 435.99252,
-            "native": 0.345
-          }
-        },
-        "maker": "0x420aa9b92f8cd1d73d118bcd6ba9208911a423ce",
-        "validFrom": 1671184666,
-        "validUntil": 1673863066,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/5354"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "7019",
-      "name": "#7019",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a0a5e6d006bcb96f5163c0eb511afc83e37894b76eaec0f8a853e81b750006862b1275f3f7c4d4b0ec693580bac69394e232f8ae30a77c65e706b2ab509a289d9f58d73130c24037ccbe5e9166bab9841bfc7f54a4c3db6c8679e4e131f133f8d06d4072a8917ca9b13f22f94845a47cb058ed9feecb44e991ea6b299d1f7ae6c",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T00:58:12.324Z",
-      "lastFlagChange": null,
-      "rarity": 136.521,
-      "rarityRank": 3854,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": 0.128,
-        "timestamp": 1652275162
-      },
-      "lastSell": {
-        "value": 0.176,
-        "timestamp": 1652283439
-      },
-      "owner": "0x420aa9b92f8cd1d73d118bcd6ba9208911a423ce"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x62904e8c723f4b2ac70e40bbaf809773034b05ca823911a6d98897770a71741c",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "345000000000000000",
-            "decimal": 0.345,
-            "usd": 435.99252,
-            "native": 0.345
-          }
-        },
-        "maker": "0x420aa9b92f8cd1d73d118bcd6ba9208911a423ce",
-        "validFrom": 1671183945,
-        "validUntil": 1673862345,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/7019"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "666",
-      "name": "#666",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1e8551ffe892a435ba54565814d3beee182a2f50752dd48d0731479b0e0da551fd8f34c5228827f08927d7068d6bd0a31b9d5ac731b7dd03bdaf5739966b9b14a5454a9b635c36266a05b647e5f908d7c1218accd29cce8513045066adbccd95751527f187bd19bc43241a8be596601623c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T01:08:23.053Z",
-      "lastFlagChange": null,
-      "rarity": 76.958,
-      "rarityRank": 7164,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": 0.174,
-        "timestamp": 1670964035
-      },
-      "owner": "0x4cfa0aaa38bc52c8f7b3ccef534f696aed14b756"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0xe89dd849402db3fbe8fc3404529e2d04e63da83e3e25086a1cdf45acf783bcfd",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "350000000000000000",
-            "decimal": 0.35,
-            "usd": 442.31125,
-            "native": 0.35
-          }
-        },
-        "maker": "0x4cfa0aaa38bc52c8f7b3ccef534f696aed14b756",
-        "validFrom": 1671038976,
-        "validUntil": 1678814976,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/666"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "2935",
-      "name": "#2935",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a0c6121dc8f5d11cf737dfbf206d46d6a2829b34a1a89eaeacc76c195d6439300c2d3d73297df22cf84306cc7dead25e246773bf6fa00a32632c80d6a39659c0a2def5a74469a82ee987038f348d2672bf75a40588329a9d1c36ff252b477233a793bf215b3d6e5d49ba6f9ef7aef15d523c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-09T04:48:48.474Z",
-      "lastFlagChange": null,
-      "rarity": 77.706,
-      "rarityRank": 7080,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": 0.1551,
-        "timestamp": 1670129075
-      },
-      "lastSell": {
-        "value": 0.1888,
-        "timestamp": 1670964035
-      },
-      "owner": "0x4cfa0aaa38bc52c8f7b3ccef534f696aed14b756"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x6f76f1a1fc4f56be15530c86145621fd3b1250aabb35dc19bc29595f82d1fe45",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "350000000000000000",
-            "decimal": 0.35,
-            "usd": 442.31125,
-            "native": 0.35
-          }
-        },
-        "maker": "0x4cfa0aaa38bc52c8f7b3ccef534f696aed14b756",
-        "validFrom": 1671038923,
-        "validUntil": 1678814923,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/2935"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "3033",
-      "name": "#3033",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aa5c5059c9a11ffd55a473a0679fe259c0a8616eefd9ad621f8582b09f8bc1bc6f77ffb14cbaad418287247194037b8d7fe200bdbb06884efab877bc7fe2f5bf093c5f68637142f724fe267a2ea11880a0bad9f6d31f30ea3ebf3b2987722c7b16e25749e5d13611bdb9cec248601943e23c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T01:04:38.263Z",
-      "lastFlagChange": null,
-      "rarity": 179.226,
-      "rarityRank": 2761,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": 0.19,
-        "timestamp": 1650384833
-      },
-      "owner": "0x420aa9b92f8cd1d73d118bcd6ba9208911a423ce"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x56ae52f82fb86e5d81955327d2eb4189e25e4c1ae0078d3a6aec689c0611bf13",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "350000000000000000",
-            "decimal": 0.35,
-            "usd": 442.31125,
-            "native": 0.35
-          }
-        },
-        "maker": "0x420aa9b92f8cd1d73d118bcd6ba9208911a423ce",
-        "validFrom": 1671185240,
-        "validUntil": 1673863640,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/3033"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "3368",
-      "name": "#3368",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a9e9fb375653455b8b65694ded61c5851ed3d2f2f2b231cce52d26842c210ce010c047c9bc13841649ded3a36b0b1c8cbe04bff9fe6a6c38b3c233908efcf36afa2fc94b300c1bd7ae5569e4c9f65c01df24c25d40d128b20330af0f79124c296b2e6bf764797e04aae04376bd588b950e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T01:04:18.306Z",
-      "lastFlagChange": null,
-      "rarity": 181.038,
-      "rarityRank": 2719,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": 0.3,
-        "timestamp": 1654611298
-      },
-      "owner": "0x420aa9b92f8cd1d73d118bcd6ba9208911a423ce"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x833e2df2776e3c62c43fd17978bbcd65e7918d855dbbb064c55af532946c8244",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "350000000000000000",
-            "decimal": 0.35,
-            "usd": 442.31125,
-            "native": 0.35
-          }
-        },
-        "maker": "0x420aa9b92f8cd1d73d118bcd6ba9208911a423ce",
-        "validFrom": 1671185616,
-        "validUntil": 1673864016,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/3368"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "5896",
-      "name": "#5896",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a573502cd2a1e33d5b6f5d3c03c01f39c0ae0f54fbae6f976c96d5606809c986e27dabc72100c7430be6bb67970ceb7d40aa539315c0f46dc3984bba2151a7590a46c55b579fe406191f493824d60d0eeb858e21f451031dacd6a56d8c56fea1d7c1e4f2239da13920168f6eda750293623c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T01:00:26.071Z",
-      "lastFlagChange": null,
-      "rarity": 489.451,
-      "rarityRank": 452,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": 1,
-        "timestamp": 1647909317
-      },
-      "owner": "0x6c64e1be126fa81af7e2c52b87063e11e385da1e"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x9bf8e0e202c15017bdc5e74262623c9b432b7c5e55bc44bf6401abf6381cfdbb",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "350000000000000000",
-            "decimal": 0.35,
-            "usd": 442.31125,
-            "native": 0.35
-          }
-        },
-        "maker": "0x6c64e1be126fa81af7e2c52b87063e11e385da1e",
-        "validFrom": 1671152808,
-        "validUntil": 1673831208,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x6632a9d63e142f17a668064d41a21193b49b41a0/5896"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-      "tokenId": "6983",
-      "name": "#6983",
-      "description": "A unique collection of 7,979 3D hand-drawn Prime Apes, stored on the Ethereum network.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae25533fce713a35bd5ee5ff83e02cf96d37d1f5b4ef3e9a05121f3f1d719cf52ea8160f10d87efbe20093a9e4c5b6cb784a8f80589e3355c7f643c6ef925832e26f902216c7c03f15233cdf3c5dd5b3cdc3ee5c6c5580bc72bc4c9be8bb0df12a78febbb0acda4f4407776bd35e442b523c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-07T00:58:13.473Z",
-      "lastFlagChange": null,
-      "rarity": 75.527,
-      "rarityRank": 7372,
-      "collection": {
-        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
-        "name": "Prime Ape Planet PAP",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-        "slug": "primeapeplanetpap"
-      },
-      "lastBuy": {
-        "value": 0.533,
-        "timestamp": 1646977108
-      },
-      "lastSell": {
-        "value": 0.1498,
-        "timestamp": 1650448253
-      },
-      "owner": "0x2bb68c26e75b01d2cbb9b1d71432fc53c4c80350"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x0c518b71bc63102baa8df8424cf06286aa71e31578451a7e8122ff06ab30d09d",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "351000000000000000",
-            "decimal": 0.351,
-            "usd": 443.57499,
-            "native": 0.351
-          }
-        },
-        "maker": "0x2bb68c26e75b01d2cbb9b1d71432fc53c4c80350",
-        "validFrom": 1671201516,
-        "validUntil": 1673793515,
-        "source": {
-          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
-          "domain": "looksrare.org",
-          "name": "LooksRare",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
-          "url": "https://looksrare.org/collections/0x6632a9d63e142f17a668064d41a21193b49b41a0/6983"
         }
       }
     }
