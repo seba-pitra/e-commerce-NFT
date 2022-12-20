@@ -1,0 +1,9 @@
+.login-errormessage{
+    display: flex;
+    width: 300px;
+    background-color: #202633;
+    color: white
+}
+.noneDisplay{
+    display: none;
+}
