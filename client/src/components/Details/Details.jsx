@@ -8,7 +8,7 @@ import ethereumLogo from "../../images/ethereum-logo.png";
 import { useState } from "react";
 import { ethers } from "ethers";
 
-const startPayment = async ({ setError, setTxs, ether, addr }) => {
+export const startPayment = async ({ setError, setTxs, ether, addr }) => {
   try {
     if (!window.ethereum)
       throw new Error("No cripto wallet found. Please install it.");
@@ -55,9 +55,11 @@ function Details(props) {
     });
   };
 
-{/*add to cart*/}
-const handleClickOnShoppingCart = (e) => {
-    dispatch(actions.addNftOnShoppingCart(nftDetail ));
+  {
+    /*add to cart*/
+  }
+  const handleClickOnShoppingCart = (e) => {
+    dispatch(actions.addNftOnShoppingCart(nftDetail));
   };
 
   console.log(nftDetail)
@@ -128,12 +130,14 @@ const handleClickOnShoppingCart = (e) => {
                 <button className={styles["button-detail"]} onClick={handlePay}>
                   Select & buy
                 </button>
-	      
-                <button className={styles["button-detail"]} onClick={handleClickOnShoppingCart}>
+
+                <button
+                  className={styles["button-detail"]}
+                  onClick={handleClickOnShoppingCart}
+                >
                   Add to Cart
                 </button>
-             
-	      </div>
+              </div>
               {error && <p>{error}</p>}
               {txs && <p>{txs}</p>}
             </div>
