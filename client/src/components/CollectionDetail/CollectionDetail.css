@@ -1,0 +1,8 @@
+.collection-details{
+  background-color: #9fbcf7;
+}
+
+.collection-details-container {
+  display: flex;
+  justify-content: space-evenly;
+}

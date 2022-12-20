@@ -7,12 +7,6 @@
             "slug": "angrycat-official"
         },
         {
-            "id": "0xf6ee484f82f28d69688f37fe90af514ce212b7c3",
-            "name": "This Thing Of Ours - The NFT Gaming Collective",
-            "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a586451e3a1e161453670ec39b49282c3b051599858c4178adada2dfa889ac05906bf68d079c4b8077a1788b7c7dff145ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
-            "slug": "this-thing-of-ours-nft"
-        },
-        {
         "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
         "name": "Boki",
         "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
@@ -79,22 +73,10 @@
         "slug": "degentoonz-collection"
         },
         {
-        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
-        "name": "Dooplicator",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
-        "slug": "the-dooplicator"
-        },
-        {
         "id": "0xaa462106da447c0440a4be29614c19387a59a331",
         "name": "ENS Maxis",
         "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae253604b994a28a8423144ec6fa14ae170f3067a585e9eab62f31ff1f614a7f7735cebcd1ecec0e07070c278c469a879ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
         "slug": "ensmaxis"
-        },
-        {
-        "id": "0x837704ec8dfec198789baf061d6e93b0e1555da6",
-        "name": "Evaverse",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aca85a75af080f6979628184e4cf5d70c1d0b5e0e91970789f7d0005d2bde5f504ac15ec1a522ba3d06363ec6c535a0cb02552acae203f113074c9666227fb4b7eb0a7caeecd76fc899ee209b6a28041602d8d70f19f6c2019cff8fe4ecb3f4c94d462603c26a4f7e22eea2381054d80e058ed9feecb44e991ea6b299d1f7ae6c",
-        "slug": "evaverse"
         },
         {
         "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",

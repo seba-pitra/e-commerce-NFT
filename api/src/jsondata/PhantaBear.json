@@ -2,186 +2,6 @@
   {
     "token": {
       "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "7692",
-      "name": "PHANTA BEAR #7692",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a68ffc4adc8d17099b6e01ec0325d4f439af363cb95d7f44c461b776881a855fb8af6cffc6a771cb88552e2ce8107b96ff8efe1b0e513d52c3ef8416926e928be20f9a0cf9e2f594d7c27695ec1c5d774ddf0cb23ccd59c67a09137ad44defb09bdacca48ffdf7a54bc2ac359f89b1541058ed9feecb44e991ea6b299d1f7ae6c",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-15T06:41:19.724Z",
-      "lastFlagChange": null,
-      "rarity": 12.719,
-      "rarityRank": 9606,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": 1.49,
-        "timestamp": 1647585793
-      },
-      "owner": "0x1be3edd704be69a7f9e44b7ad842dca0757c1816"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x0c921d58479e03b72dad38cc23729449628ea4af75d818721b8145b8d4d136ed",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "241000000000000000",
-            "decimal": 0.241,
-            "usd": 304.56289,
-            "native": 0.241
-          }
-        },
-        "maker": "0x1be3edd704be69a7f9e44b7ad842dca0757c1816",
-        "validFrom": 1671086326,
-        "validUntil": 1673764726,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/7692"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "6817",
-      "name": "PHANTA BEAR #6817",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ac7d675e0c3f928a6e92c1418d0898f0bd91395f75cca00cebf15951a391818f446cfd8291e33b678a95bfda25d1942b8f3828ad7716a0fdc3efb7720e954ab017c4868bb56e922d44fe43f33f5bb9d9aa603f0ddc34203dacef8868d080058bd09ec052f99f1efc5c9cb3f542e8830b823c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-08T13:45:56.806Z",
-      "lastFlagChange": null,
-      "rarity": 12.915,
-      "rarityRank": 8268,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": 0.232,
-        "timestamp": 1670313275
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0x28a5a680e3e722cb71a951638ad76632b64f5c44"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x10379bca4055a282319d9bcb0a14766997a6831022130379a510ab2c554a966c",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "267100000000000000",
-            "decimal": 0.2671,
-            "usd": 337.54667,
-            "native": 0.2671
-          }
-        },
-        "maker": "0x28a5a680e3e722cb71a951638ad76632b64f5c44",
-        "validFrom": 1671081051,
-        "validUntil": 1673387639,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/6817"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "9229",
-      "name": "PHANTA BEAR #9229",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab6298feeb2631de109136fbe20aef501b6aa49983ee10091be40236c90ae99a8d2a9d24dd4d8d842cffd8aea5ebb993042884d260ad20c3ea37fedcd709fc71efd1ac3247b6b0b51084bc2284bb5079f60470dc4eb5fdfa80ddea59def5b5690607e07f49567a4da1e55f270e033909ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:11:53.854Z",
-      "lastFlagChange": null,
-      "rarity": 23.252,
-      "rarityRank": 1568,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": 0.2266,
-        "timestamp": 1670818283
-      },
-      "lastSell": {
-        "value": 0.465,
-        "timestamp": 1658715885
-      },
-      "owner": "0x760069c634f0e9775b7b8d94d493cab24206d55a"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x75524d2524d0aa29d14e0bdb2fb0d280670838ba8d308f25ca4d82e6a420632e",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "268900000000000000",
-            "decimal": 0.2689,
-            "usd": 339.82141,
-            "native": 0.2689
-          }
-        },
-        "maker": "0x760069c634f0e9775b7b8d94d493cab24206d55a",
-        "validFrom": 1671124070,
-        "validUntil": 1671728870,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/9229"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
       "tokenId": "1409",
       "name": "PHANTA BEAR #1409",
       "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
@@ -222,7 +42,7 @@
           "amount": {
             "raw": "269000000000000000",
             "decimal": 0.269,
-            "usd": 339.94779,
+            "usd": 319.24326,
             "native": 0.269
           }
         },
@@ -235,126 +55,6 @@
           "name": "OpenSea",
           "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
           "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/1409"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "2136",
-      "name": "PHANTA BEAR #2136",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a96f0aa822e5c6d59912e59b2ec65a7cb4d65e8a2f0ba0fb554b7b7e95f566ce4b226aa4bb19a031cd3c2a5ac467eb9c9c37d6368c3e37ae3226d977a84a2a3992d09523022014077089dfc669569f88daf7e19a2ec830b46be7ba2cb070efb59ca0ebde789e595630c6fe36143291dc6e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:20:02.513Z",
-      "lastFlagChange": null,
-      "rarity": 12.955,
-      "rarityRank": 7914,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0xb50260f2076d744a6a87d4ba0102fa8770c08e34"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x1082f4264fbfb2f1b1f46a45ccfb72ccb7a1186ef719aadb50dc04fb0517049a",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "269000000000000000",
-            "decimal": 0.269,
-            "usd": 339.94779,
-            "native": 0.269
-          }
-        },
-        "maker": "0xb50260f2076d744a6a87d4ba0102fa8770c08e34",
-        "validFrom": 1670906837,
-        "validUntil": 1673224532,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/2136"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "844",
-      "name": "PHANTA BEAR #844",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae655c5aabe54d9b31496272b6e016e3911151da4d06a1634ab4289aefe7310599f14454540f1c1c51032f891b24a5db80311f1313c8152f62d44a4afc07b26e39fe31c097411945f06a9a4d23eddb14eedf79e54a4017ef2f1835dc397ce613bcc48a09846f299300c164a550c15c3b923c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:21:01.934Z",
-      "lastFlagChange": null,
-      "rarity": 12.96,
-      "rarityRank": 7871,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": 0.25581,
-        "timestamp": 1665111203
-      },
-      "lastSell": {
-        "value": 0.27,
-        "timestamp": 1665736679
-      },
-      "owner": "0xa73275f75b790f1bd718c6bf5b89aff296132b62"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x25e8a15cc54a629e1d9dfcbe7979ced1bea5c2d439295011c7483caff70c02ae",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "275000000000000000",
-            "decimal": 0.275,
-            "usd": 347.53027,
-            "native": 0.275
-          }
-        },
-        "maker": "0xa73275f75b790f1bd718c6bf5b89aff296132b62",
-        "validFrom": 1670941542,
-        "validUntil": 1673619942,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/844"
         }
       }
     }
@@ -402,7 +102,7 @@
           "amount": {
             "raw": "278800000000000000",
             "decimal": 0.2788,
-            "usd": 352.3325,
+            "usd": 330.87368,
             "native": 0.2788
           }
         },
@@ -462,7 +162,7 @@
           "amount": {
             "raw": "280000000000000000",
             "decimal": 0.28,
-            "usd": 353.849,
+            "usd": 332.29782,
             "native": 0.28
           }
         },
@@ -522,7 +222,7 @@
           "amount": {
             "raw": "280000000000000000",
             "decimal": 0.28,
-            "usd": 353.849,
+            "usd": 332.29782,
             "native": 0.28
           }
         },
@@ -582,7 +282,7 @@
           "amount": {
             "raw": "280000000000000000",
             "decimal": 0.28,
-            "usd": 353.849,
+            "usd": 332.29782,
             "native": 0.28
           }
         },
@@ -642,7 +342,7 @@
           "amount": {
             "raw": "280000000000000000",
             "decimal": 0.28,
-            "usd": 353.849,
+            "usd": 332.29782,
             "native": 0.28
           }
         },
@@ -655,66 +355,6 @@
           "name": "LooksRare",
           "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
           "url": "https://looksrare.org/collections/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/3256"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "3890",
-      "name": "PHANTA BEAR #3890",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a08b9f069c587477321c0c6bbb149fd3037d9cf0236288d0027675f46645d0f70a5b52e31b9986f7ee195e0176cb958e5aef7ad0df68636073670bd90f9503bce984430a0963336627c33d63dac5ea46511b23020ee331ab42ec3dea6b23f4f44192ff391474f7f6ae0c45e7d3af64a6623c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:18:31.580Z",
-      "lastFlagChange": null,
-      "rarity": 12.747,
-      "rarityRank": 9479,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0x80a6e3220f381678ef66d346e80d8ff8709fa29c"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x3836b1416263ea73d1cb4fb3f72dd9d0298fe1cddce944ecde87a9fa3f3a423e",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "280000000000000000",
-            "decimal": 0.28,
-            "usd": 353.849,
-            "native": 0.28
-          }
-        },
-        "maker": "0x80a6e3220f381678ef66d346e80d8ff8709fa29c",
-        "validFrom": 1670294703,
-        "validUntil": 1685846702,
-        "source": {
-          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
-          "domain": "looksrare.org",
-          "name": "LooksRare",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
-          "url": "https://looksrare.org/collections/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/3890"
         }
       }
     }
@@ -762,7 +402,7 @@
           "amount": {
             "raw": "280000000000000000",
             "decimal": 0.28,
-            "usd": 353.849,
+            "usd": 332.29782,
             "native": 0.28
           }
         },
@@ -822,7 +462,7 @@
           "amount": {
             "raw": "280000000000000000",
             "decimal": 0.28,
-            "usd": 353.849,
+            "usd": 332.29782,
             "native": 0.28
           }
         },
@@ -882,7 +522,7 @@
           "amount": {
             "raw": "280000000000000000",
             "decimal": 0.28,
-            "usd": 353.849,
+            "usd": 332.29782,
             "native": 0.28
           }
         },
@@ -942,7 +582,7 @@
           "amount": {
             "raw": "280000000000000000",
             "decimal": 0.28,
-            "usd": 353.849,
+            "usd": 332.29782,
             "native": 0.28
           }
         },
@@ -1002,7 +642,7 @@
           "amount": {
             "raw": "280000000000000000",
             "decimal": 0.28,
-            "usd": 353.849,
+            "usd": 332.29782,
             "native": 0.28
           }
         },
@@ -1062,7 +702,7 @@
           "amount": {
             "raw": "280000000000000000",
             "decimal": 0.28,
-            "usd": 353.849,
+            "usd": 332.29782,
             "native": 0.28
           }
         },
@@ -1122,7 +762,7 @@
           "amount": {
             "raw": "280000000000000000",
             "decimal": 0.28,
-            "usd": 353.849,
+            "usd": 332.29782,
             "native": 0.28
           }
         },
@@ -1135,66 +775,6 @@
           "name": "LooksRare",
           "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
           "url": "https://looksrare.org/collections/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/9886"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "3228",
-      "name": "PHANTA BEAR #3228",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a20757000141acb9f61819d99cbcecb9c07bfcb0bfeefa39ab81ba431fce18d4d037152d3fdc26f99067fc12c380e7827f9865d6fb477b64615c80478be7dea355544dcd6804a0fc5154691433c693b3530cc91ea38d87ab811dac1a5d14c9a239ff6686d8c9200efd93d66e49fa5999f23c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:19:07.496Z",
-      "lastFlagChange": null,
-      "rarity": 12.886,
-      "rarityRank": 8512,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": 0.287,
-        "timestamp": 1665649571
-      },
-      "owner": "0xa0555469bb4a95d251dcf9d65fe47670dea15fdb"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0xfa308dae814537f2fb79e48dd205173f6ca9a2359e1956049c04311f7268afed",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "283700000000000000",
-            "decimal": 0.2837,
-            "usd": 358.52486,
-            "native": 0.2837
-          }
-        },
-        "maker": "0xa0555469bb4a95d251dcf9d65fe47670dea15fdb",
-        "validFrom": 1669729879,
-        "validUntil": 1672321879,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/3228"
         }
       }
     }
@@ -1242,7 +822,7 @@
           "amount": {
             "raw": "285600000000000000",
             "decimal": 0.2856,
-            "usd": 360.92598,
+            "usd": 338.94377,
             "native": 0.2856
           }
         },
@@ -1302,7 +882,7 @@
           "amount": {
             "raw": "299900000000000000",
             "decimal": 0.2999,
-            "usd": 378.99755,
+            "usd": 355.9147,
             "native": 0.2999
           }
         },
@@ -1315,66 +895,6 @@
           "name": "OpenSea",
           "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
           "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/3793"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "7472",
-      "name": "PHANTA BEAR #7472",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75acabfaf46dd10e3db3b9e538aa43539d0c8867a13d4da1bffb33439691a2e15082dfce800fa5bdb38e7b41b1d5480d7e43ab0199f338e9be288dcfbdc51a5241e3d81282a2cd0fcb081b3594c498233f52b90e618dc17e94d2d47742c7f35df82d48f4e227d12c68231a73b7bc9d89a37058ed9feecb44e991ea6b299d1f7ae6c",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:13:52.071Z",
-      "lastFlagChange": null,
-      "rarity": 23.48,
-      "rarityRank": 1368,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0xf40086c2826a1433dac0a5f6b69e063ee5b189c3"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0xc0d298d8712a4a59992a38cac096765ca266896edceca25d5708a9039e27207b",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "300000000000000000",
-            "decimal": 0.3,
-            "usd": 379.12393,
-            "native": 0.3
-          }
-        },
-        "maker": "0xf40086c2826a1433dac0a5f6b69e063ee5b189c3",
-        "validFrom": 1670754020,
-        "validUntil": 1673432420,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/7472"
         }
       }
     }
@@ -1422,7 +942,7 @@
           "amount": {
             "raw": "304700000000000000",
             "decimal": 0.3047,
-            "usd": 385.06354,
+            "usd": 361.61123,
             "native": 0.3047
           }
         },
@@ -1482,7 +1002,7 @@
           "amount": {
             "raw": "309900000000000000",
             "decimal": 0.3099,
-            "usd": 391.63502,
+            "usd": 367.78248,
             "native": 0.3099
           }
         },
@@ -1542,7 +1062,7 @@
           "amount": {
             "raw": "320000000000000000",
             "decimal": 0.32,
-            "usd": 404.39886,
+            "usd": 379.76893,
             "native": 0.32
           }
         },
@@ -1555,66 +1075,6 @@
           "name": "LooksRare",
           "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
           "url": "https://looksrare.org/collections/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/2148"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "8564",
-      "name": "PHANTA BEAR #8564",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a0858f16953159f0936f89d55d8665db9ccfbaf29f891f43b5f989dc755d1b9bbdae98b086b6de355392d4a78247f7300ef65686392e86041922c547bcc216c2ef1aa8e3bddb99f010cddfe7f69b66e1e48078dc015727636055e7101be84ff3f18d85aee1ff0018762fa06fd86501c0d058ed9feecb44e991ea6b299d1f7ae6c",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:12:21.237Z",
-      "lastFlagChange": null,
-      "rarity": 12.829,
-      "rarityRank": 8926,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": 0.2038,
-        "timestamp": 1670491799
-      },
-      "lastSell": {
-        "value": 0.2477,
-        "timestamp": 1670592803
-      },
-      "owner": "0x886cf70bab66becc693417c79c40e4d5e67f9252"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x7e52238b072695ece3a42d6c0ed9f520fa259516107ca2bc1b7d0eec3dd0c067",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "320000000000000000",
-            "decimal": 0.32,
-            "usd": 404.39886,
-            "native": 0.32
-          }
-        },
-        "maker": "0x886cf70bab66becc693417c79c40e4d5e67f9252",
-        "validFrom": 1670729024,
-        "validUntil": 1671333823,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/8564"
         }
       }
     }
@@ -1662,7 +1122,7 @@
           "amount": {
             "raw": "320000000000000000",
             "decimal": 0.32,
-            "usd": 404.39886,
+            "usd": 379.76893,
             "native": 0.32
           }
         },
@@ -1675,66 +1135,6 @@
           "name": "LooksRare",
           "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
           "url": "https://looksrare.org/collections/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/9494"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "641",
-      "name": "PHANTA BEAR #641",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a22d5647df4394f1018294411d5d85ca35f971dae5df5699b486f1eecab6b1150ba9dfd873916bb2ecf5b66eacb2f8203d2b98ce035262e01069c85557813b50c027c2805f53aa10ba3d5050097c881a0029ab8971f456f28da04d849717c9a21e280783bbb0bb9a51e7068c954663698e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:21:11.107Z",
-      "lastFlagChange": null,
-      "rarity": 22.665,
-      "rarityRank": 2580,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0x175ea5b549d90b24684ff0668ff7cd478aa671a9"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x6fa6a88cf84629ab09215308ddfb057b6f551ca28c630d0c13ef10a68fad38e8",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "330000000000000000",
-            "decimal": 0.33,
-            "usd": 417.03632,
-            "native": 0.33
-          }
-        },
-        "maker": "0x175ea5b549d90b24684ff0668ff7cd478aa671a9",
-        "validFrom": 1669833403,
-        "validUntil": 1671565396,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/641"
         }
       }
     }
@@ -1782,7 +1182,7 @@
           "amount": {
             "raw": "330000000000000000",
             "decimal": 0.33,
-            "usd": 417.03632,
+            "usd": 391.63671,
             "native": 0.33
           }
         },
@@ -1842,7 +1242,7 @@
           "amount": {
             "raw": "330000000000000000",
             "decimal": 0.33,
-            "usd": 417.03632,
+            "usd": 391.63671,
             "native": 0.33
           }
         },
@@ -1902,7 +1302,7 @@
           "amount": {
             "raw": "340000000000000000",
             "decimal": 0.34,
-            "usd": 429.67378,
+            "usd": 403.50449,
             "native": 0.34
           }
         },
@@ -1962,7 +1362,7 @@
           "amount": {
             "raw": "350000000000000000",
             "decimal": 0.35,
-            "usd": 442.31125,
+            "usd": 415.37227,
             "native": 0.35
           }
         },
@@ -2022,7 +1422,7 @@
           "amount": {
             "raw": "350000000000000000",
             "decimal": 0.35,
-            "usd": 442.31125,
+            "usd": 415.37227,
             "native": 0.35
           }
         },
@@ -2082,7 +1482,7 @@
           "amount": {
             "raw": "350000000000000000",
             "decimal": 0.35,
-            "usd": 442.31125,
+            "usd": 415.37227,
             "native": 0.35
           }
         },
@@ -2095,6 +1495,126 @@
           "name": "OpenSea",
           "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
           "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/9193"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
+      "tokenId": "9273",
+      "name": "PHANTA BEAR #9273",
+      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ac47d235ce280d89f538bfeeef26f7397318613a7bed79fd75a74e2bbe0c976640846147ca4c9f0302a9e56f681dbc2b83782c38379e5aeac10d933c4f8119c16cbb36b87254fc177c79842216e0f0e8f84bf7dd1d9a97c402aff4ce1ac491be713f22f220a77157e7a847bfec3f0c556058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-06T07:11:50.867Z",
+      "lastFlagChange": null,
+      "rarity": 13.135,
+      "rarityRank": 6205,
+      "collection": {
+        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
+        "name": "PhantaBear",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "phantabear"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x45d323c1fe3ce590c58fb1a54633a7385b9fcf44"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x3a53b401f54ef21dbd4ad57e92af9be0fbf1b997af4e758774dfd4016ad34560",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "350000000000000000",
+            "decimal": 0.35,
+            "usd": 415.37227,
+            "native": 0.35
+          }
+        },
+        "maker": "0x45d323c1fe3ce590c58fb1a54633a7385b9fcf44",
+        "validFrom": 1671511380,
+        "validUntil": 1672116180,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/9273"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
+      "tokenId": "7265",
+      "name": "PHANTA BEAR #7265",
+      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adf637cb87910ea1ce5279d3cf2e517430b0e18128b20de5d47f1ffd4228878b79acbac95cde602c611e268a9f8fcf7fd0fd12077b336e01fe3f31a9fb52696cb4cd534fdb64c5c94af2ab3f96749cc94172b78140a99ff08e9e4485dba95c47001ab0b2a65a079de3098067505a0fdfb23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-18T09:01:05.818Z",
+      "lastFlagChange": null,
+      "rarity": 21.581,
+      "rarityRank": 4120,
+      "collection": {
+        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
+        "name": "PhantaBear",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "phantabear"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.266,
+        "timestamp": 1671354059
+      },
+      "owner": "0x5499c1289723e3fe483c980c1e944837b044a482"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xe4b0136f5791b0fbdfd395f982984561dcf16d56d1cee05fec07995969d00114",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "355000000000000000",
+            "decimal": 0.355,
+            "usd": 421.30616,
+            "native": 0.355
+          }
+        },
+        "maker": "0x5499c1289723e3fe483c980c1e944837b044a482",
+        "validFrom": 1671469489,
+        "validUntil": 1674147889,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/7265"
         }
       }
     }
@@ -2142,7 +1662,7 @@
           "amount": {
             "raw": "357100000000000000",
             "decimal": 0.3571,
-            "usd": 451.28385,
+            "usd": 423.7984,
             "native": 0.3571
           }
         },
@@ -2202,7 +1722,7 @@
           "amount": {
             "raw": "360000000000000000",
             "decimal": 0.36,
-            "usd": 454.94871,
+            "usd": 427.24005,
             "native": 0.36
           }
         },
@@ -2215,6 +1735,66 @@
           "name": "OpenSea",
           "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
           "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/5057"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
+      "tokenId": "7785",
+      "name": "PHANTA BEAR #7785",
+      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a6d3ec815d1d4a63eed4fcfbda5e3e8cc6b34ab67c2e3e797cda7c7f2653aac1606fa47ff2cfb51eac9c6d6044c6105931187c5896e0bf4eea980131b3054a4f53e832ca3df61b5c2ffbe63720d4fa2579a57fcba3752c996e9e2fd760dc9dbeae7b152aa18f7f8602ee2929eac21f2e9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-06T07:13:41.037Z",
+      "lastFlagChange": null,
+      "rarity": 23.586,
+      "rarityRank": 1282,
+      "collection": {
+        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
+        "name": "PhantaBear",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "phantabear"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.283,
+        "timestamp": 1669417667
+      },
+      "owner": "0x55ea9357af88e4911dbba6dcbb081b90914818a4"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x8139694b2e5c187fa9b177656d33ba927cc05b92b9c5f8108b329e66d91d1483",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "360000000000000000",
+            "decimal": 0.36,
+            "usd": 427.24005,
+            "native": 0.36
+          }
+        },
+        "maker": "0x55ea9357af88e4911dbba6dcbb081b90914818a4",
+        "validFrom": 1671320324,
+        "validUntil": 1672010343,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/7785"
         }
       }
     }
@@ -2262,7 +1842,7 @@
           "amount": {
             "raw": "370000000000000000",
             "decimal": 0.37,
-            "usd": 467.58618,
+            "usd": 439.10783,
             "native": 0.37
           }
         },
@@ -2322,7 +1902,7 @@
           "amount": {
             "raw": "370000000000000000",
             "decimal": 0.37,
-            "usd": 467.58618,
+            "usd": 439.10783,
             "native": 0.37
           }
         },
@@ -2335,6 +1915,66 @@
           "name": "OpenSea",
           "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
           "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/3187"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
+      "tokenId": "3396",
+      "name": "PHANTA BEAR #3396",
+      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a6e0c779f85ad8216887b0e2783f8678f0c6293b262fbdb6bb5f356e696623c15857cf834e3b102697b55067c48cf16c2a7691d2f205dd60fd59dc898dad086474715d0c8c1c7912b1dc952a2f9e7a8fa08972583b9159ef6d72dc5a160bc567022f9d81f5ada208d25f14f749513d0a6e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-18T07:26:52.767Z",
+      "lastFlagChange": null,
+      "rarity": 22.134,
+      "rarityRank": 3308,
+      "collection": {
+        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
+        "name": "PhantaBear",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "phantabear"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.2399,
+        "timestamp": 1671354059
+      },
+      "owner": "0x5499c1289723e3fe483c980c1e944837b044a482"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x522ff0553cf46150501727632bb0d8074a8ca9d3a0e29df68f6dab5fe25cba30",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "370000000000000000",
+            "decimal": 0.37,
+            "usd": 439.10783,
+            "native": 0.37
+          }
+        },
+        "maker": "0x5499c1289723e3fe483c980c1e944837b044a482",
+        "validFrom": 1671469511,
+        "validUntil": 1674147911,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/3396"
         }
       }
     }
@@ -2382,7 +2022,7 @@
           "amount": {
             "raw": "370000000000000000",
             "decimal": 0.37,
-            "usd": 467.58618,
+            "usd": 439.10783,
             "native": 0.37
           }
         },
@@ -2442,7 +2082,7 @@
           "amount": {
             "raw": "377600000000000000",
             "decimal": 0.3776,
-            "usd": 477.19065,
+            "usd": 448.12734,
             "native": 0.3776
           }
         },
@@ -2455,66 +2095,6 @@
           "name": "LooksRare",
           "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
           "url": "https://looksrare.org/collections/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/5598"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "3428",
-      "name": "PHANTA BEAR #3428",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a80db732bdf7f3613935b05a9859bb3ecbe64e8767782df1ff3ebb0a138c5943087d1d268b4ebc9e6669131788b6addf22486c34e2289e3035e331e1e22ca16421f597f7d5a01e83460da68a045524f61bd798ea56bfd922a94508d99e27717278fae243b7deca99ccecc6cc32edc942e23c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:18:55.691Z",
-      "lastFlagChange": null,
-      "rarity": 12.803,
-      "rarityRank": 9138,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": 0.34,
-        "timestamp": 1667479799
-      },
-      "owner": "0x1770e3f4c5201e58f31cffbf02449a21ae4017fa"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0xfc241401f7ed5e51befba484e6d2a38cac8bc944b8d49562870782a458b9309d",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "380000000000000000",
-            "decimal": 0.38,
-            "usd": 480.22364,
-            "native": 0.38
-          }
-        },
-        "maker": "0x1770e3f4c5201e58f31cffbf02449a21ae4017fa",
-        "validFrom": 1668950826,
-        "validUntil": 1671542826,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/3428"
         }
       }
     }
@@ -2562,7 +2142,7 @@
           "amount": {
             "raw": "380000000000000000",
             "decimal": 0.38,
-            "usd": 480.22364,
+            "usd": 450.97561,
             "native": 0.38
           }
         },
@@ -2622,7 +2202,7 @@
           "amount": {
             "raw": "388000000000000000",
             "decimal": 0.388,
-            "usd": 490.33361,
+            "usd": 460.46983,
             "native": 0.388
           }
         },
@@ -2682,7 +2262,7 @@
           "amount": {
             "raw": "390000000000000000",
             "decimal": 0.39,
-            "usd": 492.86111,
+            "usd": 462.84339,
             "native": 0.39
           }
         },
@@ -2742,7 +2322,7 @@
           "amount": {
             "raw": "390000000000000000",
             "decimal": 0.39,
-            "usd": 492.86111,
+            "usd": 462.84339,
             "native": 0.39
           }
         },
@@ -2802,7 +2382,7 @@
           "amount": {
             "raw": "390000000000000000",
             "decimal": 0.39,
-            "usd": 492.86111,
+            "usd": 462.84339,
             "native": 0.39
           }
         },
@@ -2822,17 +2402,17 @@
   {
     "token": {
       "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "7785",
-      "name": "PHANTA BEAR #7785",
+      "tokenId": "8223",
+      "name": "PHANTA BEAR #8223",
       "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a6d3ec815d1d4a63eed4fcfbda5e3e8cc6b34ab67c2e3e797cda7c7f2653aac1606fa47ff2cfb51eac9c6d6044c6105931187c5896e0bf4eea980131b3054a4f53e832ca3df61b5c2ffbe63720d4fa2579a57fcba3752c996e9e2fd760dc9dbeae7b152aa18f7f8602ee2929eac21f2e9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a42fe140f5248baa12eb214e095356e580f8ed451c9cf7075c6ca0412bd945045707d13b322d54719de67a7b6442a34ad7f0d6d8f6e39124cb2c18194194da97a78662c57e3b00f9ce86f286c3527291cf40204a540355ef33ecb11b1c2d676b5466a026ac3609a500494318a59deb2ee23c5e4198f99eda3f3b783c3322e8c56",
       "media": null,
       "kind": "erc721",
       "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:13:41.037Z",
+      "lastFlagUpdate": "2022-12-06T07:12:37.135Z",
       "lastFlagChange": null,
-      "rarity": 23.586,
-      "rarityRank": 1282,
+      "rarity": 23.464,
+      "rarityRank": 1377,
       "collection": {
         "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
         "name": "PhantaBear",
@@ -2844,14 +2424,14 @@
         "timestamp": null
       },
       "lastSell": {
-        "value": 0.283,
-        "timestamp": 1669417667
+        "value": null,
+        "timestamp": null
       },
-      "owner": "0x55ea9357af88e4911dbba6dcbb081b90914818a4"
+      "owner": "0x340415f16478d5d83b9c1be9312c53b939352ae3"
     },
     "market": {
       "floorAsk": {
-        "id": "0x7788d5084a023b15c4ddf2bdbe68f67ac4eb40936c9ea5b67e8076bf566198c3",
+        "id": "0x856dff17e60b84dc3b776dff6523a961dc3dc459c0b878dca784a1066acd772c",
         "price": {
           "currency": {
             "contract": "0x0000000000000000000000000000000000000000",
@@ -2862,19 +2442,19 @@
           "amount": {
             "raw": "390000000000000000",
             "decimal": 0.39,
-            "usd": 492.86111,
+            "usd": 462.84339,
             "native": 0.39
           }
         },
-        "maker": "0x55ea9357af88e4911dbba6dcbb081b90914818a4",
-        "validFrom": 1669721132,
-        "validUntil": 1672010343,
+        "maker": "0x340415f16478d5d83b9c1be9312c53b939352ae3",
+        "validFrom": 1671263354,
+        "validUntil": 1672895655,
         "source": {
           "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
           "domain": "opensea.io",
           "name": "OpenSea",
           "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/7785"
+          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/8223"
         }
       }
     }
@@ -2922,7 +2502,7 @@
           "amount": {
             "raw": "398000000000000000",
             "decimal": 0.398,
-            "usd": 502.97108,
+            "usd": 472.33761,
             "native": 0.398
           }
         },
@@ -2982,7 +2562,7 @@
           "amount": {
             "raw": "398000000000000000",
             "decimal": 0.398,
-            "usd": 502.97108,
+            "usd": 472.33761,
             "native": 0.398
           }
         },
@@ -3042,7 +2622,7 @@
           "amount": {
             "raw": "398000000000000000",
             "decimal": 0.398,
-            "usd": 502.97108,
+            "usd": 472.33761,
             "native": 0.398
           }
         },
@@ -3102,7 +2682,7 @@
           "amount": {
             "raw": "398000000000000000",
             "decimal": 0.398,
-            "usd": 502.97108,
+            "usd": 472.33761,
             "native": 0.398
           }
         },
@@ -3162,7 +2742,7 @@
           "amount": {
             "raw": "398000000000000000",
             "decimal": 0.398,
-            "usd": 502.97108,
+            "usd": 472.33761,
             "native": 0.398
           }
         },
@@ -3222,7 +2802,7 @@
           "amount": {
             "raw": "398000000000000000",
             "decimal": 0.398,
-            "usd": 502.97108,
+            "usd": 472.33761,
             "native": 0.398
           }
         },
@@ -3282,7 +2862,7 @@
           "amount": {
             "raw": "398000000000000000",
             "decimal": 0.398,
-            "usd": 502.97108,
+            "usd": 472.33761,
             "native": 0.398
           }
         },
@@ -3295,6 +2875,66 @@
           "name": "OpenSea",
           "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
           "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/5098"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
+      "tokenId": "5622",
+      "name": "PHANTA BEAR #5622",
+      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adb30ba4d3dad60369b127d4885d72fa5b180c178cd8f85c9a1e4431cdbe00739f73be9fd3b4322aa1239202e847cc58e6bd59d6cf49478b591ebb1b0ad3314062cb0cd58856c7ec32acc04099faa121ecfa0de711cc42e14d4854be14d51b0b8d289581415c58cc814fdbe4f396f7b6b23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-06T07:16:43.562Z",
+      "lastFlagChange": null,
+      "rarity": 21.148,
+      "rarityRank": 4474,
+      "collection": {
+        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
+        "name": "PhantaBear",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "phantabear"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.38,
+        "timestamp": 1668937223
+      },
+      "owner": "0x8784ce271dca455dc3095343061cbb26074652e1"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xddda9b9f1fd0fe76905588611b193409958d44804274a33d05b379a4b400a853",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "398000000000000000",
+            "decimal": 0.398,
+            "usd": 472.33761,
+            "native": 0.398
+          }
+        },
+        "maker": "0x8784ce271dca455dc3095343061cbb26074652e1",
+        "validFrom": 1671344851,
+        "validUntil": 1671949650,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/5622"
         }
       }
     }
@@ -3342,7 +2982,7 @@
           "amount": {
             "raw": "398000000000000000",
             "decimal": 0.398,
-            "usd": 502.97108,
+            "usd": 472.33761,
             "native": 0.398
           }
         },
@@ -3355,2646 +2995,6 @@
           "name": "OpenSea",
           "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
           "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/7948"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "8413",
-      "name": "PHANTA BEAR #8413",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a73ae71853465b6f4a61cc3b1928074dc9b729a71620e7ad37a39d48abcaf27973273ba7798fc43d55ed2983986459d4b4a7fade3a42f71681fbb2cb22d74c1296ca7a1a2c4aca56134897ad8a66442ef1f40e8a9b443af6debee0f852edd77665e6b474d1cfe51a39e451bd7f7d7b97ee1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:12:29.041Z",
-      "lastFlagChange": null,
-      "rarity": 12.788,
-      "rarityRank": 9245,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": 0.325,
-        "timestamp": 1660421858
-      },
-      "owner": "0x4cb4394493aa0d2825535dcb34444792cb1bb205"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0xce16941c2b464f2b2e0853efed0f865c575ffb1f16eecd4dc54b67e789b23d58",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "398000000000000000",
-            "decimal": 0.398,
-            "usd": 502.97108,
-            "native": 0.398
-          }
-        },
-        "maker": "0x4cb4394493aa0d2825535dcb34444792cb1bb205",
-        "validFrom": 1667943271,
-        "validUntil": 1672502371,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/8413"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "9298",
-      "name": "PHANTA BEAR #9298",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab7668ea9724a9ac0338174972a923a4037de5b8059b4b8d13fca7fd145db408ba4931f2b5cfcfa6d9f975caea0056beada581bc831559193606b7f892d85b8441d0554e56824910ab68ba97eb8fa2289fa015bc0f6153bb52e5713513d75a9d0d787710bc344f2a3553f0e292f33055a23c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:11:49.979Z",
-      "lastFlagChange": null,
-      "rarity": 13.038,
-      "rarityRank": 7141,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": 0.35,
-        "timestamp": 1660264841
-      },
-      "owner": "0x4cb4394493aa0d2825535dcb34444792cb1bb205"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x3a36ef515e6afb89442cfd558477109c32f9ffa2f069fea3a93f3b16e1034949",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "398000000000000000",
-            "decimal": 0.398,
-            "usd": 502.97108,
-            "native": 0.398
-          }
-        },
-        "maker": "0x4cb4394493aa0d2825535dcb34444792cb1bb205",
-        "validFrom": 1667943322,
-        "validUntil": 1672502362,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/9298"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "1028",
-      "name": "PHANTA BEAR #1028",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aec47c1f417bbc03218e020003f295a0e8c209b9584c8ac3324a9446d38df3c681fdd34bec66c4e3407fcea2fec134f9251d9599a90ecc7f52f0197a3d960fecbf0615b6c06cca9c397ad2d9e57fb4f60d43ee2e335286d6f2f3284e852135b1d98cdf1bd058448cc29620edd750e11c8e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:20:54.256Z",
-      "lastFlagChange": null,
-      "rarity": 13.029,
-      "rarityRank": 7221,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": 0.296,
-        "timestamp": 1662989094
-      },
-      "owner": "0xd3ee66657c13925052de4406ad27a582313f8d1f"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x764fc43fdf742b86d496979914c520c1e2a000ba60c2b358d9a50160302f379c",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "400000000000000000",
-            "decimal": 0.4,
-            "usd": 505.49857,
-            "native": 0.4
-          }
-        },
-        "maker": "0xd3ee66657c13925052de4406ad27a582313f8d1f",
-        "validFrom": 1662991784,
-        "validUntil": 1678543784,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/1028"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "3466",
-      "name": "PHANTA BEAR #3466",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a29bc7ee427b57cac90ff624949cff2bad2f26d34a4b5cb9d622626e26267513953e2b42ef8834d98ef9b749b96ffe74f100368251698d49e00cfe69a3162e42d880324232075be7e73e210d18c9ed12e9068a79ca57b2096dc01f397de1f005a68afcbccbdb4c4a45dbb9ce769bf6b31e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:18:53.655Z",
-      "lastFlagChange": null,
-      "rarity": 23.932,
-      "rarityRank": 1151,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0x3ae42cdde0aa6889049eb67cebf56b6fcffe24f9"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0xf9158472641cb88e150ad91a03c099eab5afafa2a26d0b7393b1771889cb2ec1",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "400000000000000000",
-            "decimal": 0.4,
-            "usd": 505.49857,
-            "native": 0.4
-          }
-        },
-        "maker": "0x3ae42cdde0aa6889049eb67cebf56b6fcffe24f9",
-        "validFrom": 1671026232,
-        "validUntil": 1671631020,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/3466"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "4431",
-      "name": "PHANTA BEAR #4431",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adb19491744ec42f14b579836dd6a02c9641462203361b8dc990873cc4d0b8a2e7a588e9f829f23c96ba5b4868906aab6565bbe26b176e0a4654eccf3eb1987227a643e03ab98204e6f2bec8625c1108dff08a8fcf3195e5d1d9665c3e209beab366beba542bfcfd2a2c2bf83dcaef3ab23c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:18:07.072Z",
-      "lastFlagChange": null,
-      "rarity": 12.812,
-      "rarityRank": 9075,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": 0.308,
-        "timestamp": 1661661917
-      },
-      "owner": "0xaa13fc21e4d19526a3f39080209545e699e7b345"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0xdeb5f81293de3774fa6f7ab743ff2d1f27dd5936cde80b5c49b5ef85402941e3",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "400000000000000000",
-            "decimal": 0.4,
-            "usd": 505.49857,
-            "native": 0.4
-          }
-        },
-        "maker": "0xaa13fc21e4d19526a3f39080209545e699e7b345",
-        "validFrom": 1669783023,
-        "validUntil": 1677559023,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/4431"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "7160",
-      "name": "PHANTA BEAR #7160",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a88b8bf6b5a6c259a793904317341f76b74432b89afb6c2227861fbf819d6de58921a9182bfcac6512bc3f24e7ae5c78e9d7e9fe2c961c84c74851b14b089c8d0cad12c80de96284b67600c12055982ea1c6bdc959a26507907a27d5d5da5cac4c8f30822cdb7b7b0fc422d057c01087a23c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:14:06.551Z",
-      "lastFlagChange": null,
-      "rarity": 12.934,
-      "rarityRank": 8103,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": 0.38,
-        "timestamp": 1659726448
-      },
-      "owner": "0x1e671354dbad271e81a5a5349823c021e8708370"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x911d77ab882d47945a210d7184a35e099f0c6ac3eca5e7f750ad98a8fda02ff6",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "400000000000000000",
-            "decimal": 0.4,
-            "usd": 505.49857,
-            "native": 0.4
-          }
-        },
-        "maker": "0x1e671354dbad271e81a5a5349823c021e8708370",
-        "validFrom": 1660252698,
-        "validUntil": 1675803877,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/7160"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "7572",
-      "name": "PHANTA BEAR #7572",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3c50ca556bb2c6d557a485088adf641460e6f2395f2a9e63b20f51989c1ee44056ad548689df871c39c682fc7f7950a5c0dd90992172f30a294ae4488b241605e3fb6568a1118010d818e888c2e360acd818ceedf0c5a397e19e5a204ab46dc43ddb38ef19d509437b096fc660e6881923c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:13:47.835Z",
-      "lastFlagChange": null,
-      "rarity": 13.081,
-      "rarityRank": 6724,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": 0.3501,
-        "timestamp": 1659783856
-      },
-      "lastSell": {
-        "value": 0.4153,
-        "timestamp": 1659863208
-      },
-      "owner": "0x1e671354dbad271e81a5a5349823c021e8708370"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x74aedb6fd30d8ece78417d9ab82d1a24269bf664f14bded4cca302b681ef81be",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "400000000000000000",
-            "decimal": 0.4,
-            "usd": 505.49857,
-            "native": 0.4
-          }
-        },
-        "maker": "0x1e671354dbad271e81a5a5349823c021e8708370",
-        "validFrom": 1660252505,
-        "validUntil": 1675804396,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/7572"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "9943",
-      "name": "PHANTA BEAR #9943",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7881a436100ee5b81c0562561b0b7554d19b49b8a4761ca85be53d5cfe4d4b0dd56be3275be4676bab957c04afe24b5bc644f8c71f41a0d205f089ac3aece7975fd36e7c887a4e310e7ab77b50eeaaf14ce1e6999f724828152cead0b97d90607e94cdadf352783a146abe6ff88b0f0723c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:11:22.272Z",
-      "lastFlagChange": null,
-      "rarity": 13.323,
-      "rarityRank": 4959,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": 0.42,
-        "timestamp": 1659726995
-      },
-      "owner": "0x1e671354dbad271e81a5a5349823c021e8708370"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0xef6aeae17a7d4fed3a0c7bfab827c6e89e2d1f8544ed6a9d8e98835ad0389c15",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "400000000000000000",
-            "decimal": 0.4,
-            "usd": 505.49857,
-            "native": 0.4
-          }
-        },
-        "maker": "0x1e671354dbad271e81a5a5349823c021e8708370",
-        "validFrom": 1660252549,
-        "validUntil": 1675804320,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/9943"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "8597",
-      "name": "PHANTA BEAR #8597",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a48db6bd6b68d9eb8c3144632d2ec1595df1bfc85cc84cd5bce6ae8dc2249137350b70316329cea4c1442d7edad66d4f4b19ddbeb6b7da1ec5789acb38444302d00178291ff779f86da8c9868ead2dc9f94be5dca92b8e1397e2b58305e7690dba497f5ad54ff2d4ea741fa0fa6ba16f6058ed9feecb44e991ea6b299d1f7ae6c",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:12:19.880Z",
-      "lastFlagChange": null,
-      "rarity": 12.911,
-      "rarityRank": 8309,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0x49c83c32ce6dab28e2445e7502a088b9374e8b6a"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x11b190fb88540b07a61966de1e24857cbc38e76db8bbc1ffa56b324ba029fb0f",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "420000000000000000",
-            "decimal": 0.42,
-            "usd": 530.7735,
-            "native": 0.42
-          }
-        },
-        "maker": "0x49c83c32ce6dab28e2445e7502a088b9374e8b6a",
-        "validFrom": 1664910017,
-        "validUntil": 1680462017,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/8597"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "4715",
-      "name": "PHANTA BEAR #4715",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a6a32e283c26e76f0fe29a66541e407282ae4a8f106eafad68e5d0538ae1309e460b62077e30af6e6532ea4ecea52c9d540be2ba0d15ca31d25d3995f4af8de3370ecc9f4fbcd5f136b35000550a0841313ab899aedd5edf80d6a2b15191550bf218437be324248eebe7adf4a4f8ad0d823c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:17:54.010Z",
-      "lastFlagChange": null,
-      "rarity": 21.682,
-      "rarityRank": 3964,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0x4cb4394493aa0d2825535dcb34444792cb1bb205"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x8f6139658346d8d59371aa3b4cef0bcd7cb6bfe516129ea0cf106d787c89f80b",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "449000000000000000",
-            "decimal": 0.449,
-            "usd": 567.42214,
-            "native": 0.449
-          }
-        },
-        "maker": "0x4cb4394493aa0d2825535dcb34444792cb1bb205",
-        "validFrom": 1667943180,
-        "validUntil": 1672502340,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/4715"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "5180",
-      "name": "PHANTA BEAR #5180",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af2098a7135bb4e8ba70b6f76f6395a7be1c1d0ab7e3fab0a2c25b53d834deb0f1c16738ccffe65a791301e754266841cecf049ce893ee957c9d17586397abf89c3d458ea123a10aa31ed1e1c624e2ebd82f96485700b11179c5f104ed61423f5535a0421f37faa8f2904bc1906b12ab023c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:17:05.882Z",
-      "lastFlagChange": null,
-      "rarity": 23.787,
-      "rarityRank": 1188,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0x4cb4394493aa0d2825535dcb34444792cb1bb205"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x60a028ee408439f11345405f8710cfea02f1888361d72d7d72cccea45e478268",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "449000000000000000",
-            "decimal": 0.449,
-            "usd": 567.42214,
-            "native": 0.449
-          }
-        },
-        "maker": "0x4cb4394493aa0d2825535dcb34444792cb1bb205",
-        "validFrom": 1667943072,
-        "validUntil": 1672502352,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/5180"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "1492",
-      "name": "PHANTA BEAR #1492",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ad930e3ca98044e1139e1c0fe050c476819633557f1ab9a4409b318a2601ca7a198a55f7b9c45c42f9f59e2dc603c7ac9640cb49ccae1add966af2f9dc8f1673963c5c17d1b0ad6b37e5d942e6b255e2c11ca10dfecddabc3f4fcdc463b86df1e549ad82857aff6aa10290a3c58a2a5b0058ed9feecb44e991ea6b299d1f7ae6c",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:20:34.269Z",
-      "lastFlagChange": null,
-      "rarity": 23.601,
-      "rarityRank": 1268,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0x55ea9357af88e4911dbba6dcbb081b90914818a4"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x06771067949d8a15bf895a42dbf3e7572468266dbab5dded2a986e99e8258636",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "450000000000000000",
-            "decimal": 0.45,
-            "usd": 568.68589,
-            "native": 0.45
-          }
-        },
-        "maker": "0x55ea9357af88e4911dbba6dcbb081b90914818a4",
-        "validFrom": 1670965777,
-        "validUntil": 1671570577,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/1492"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "2650",
-      "name": "PHANTA BEAR #2650",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae949011cd5c0f643d239f75331888d46fe7f09541eb22f6bf7018062f86320921fcf2b8e38514fd922cc3b0bbce152992c3fba70a46cbf60bcf4592d1c25e5d55d304c07e8f907d2bc9ba0504e3ab632e7647bc26d827033ae5c967e3db2a61d9f4ce77029027d033b4b5b319b4a041b23c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:19:32.921Z",
-      "lastFlagChange": null,
-      "rarity": 12.951,
-      "rarityRank": 7951,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0xdf5569a35e391e7093ca75c84e840220556ed483"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x38de271a376c9fd8a3d54282ce1d1478147cef5ca57bc8d9338746f34a88c573",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "450000000000000000",
-            "decimal": 0.45,
-            "usd": 568.68589,
-            "native": 0.45
-          }
-        },
-        "maker": "0xdf5569a35e391e7093ca75c84e840220556ed483",
-        "validFrom": 1669191426,
-        "validUntil": 1671783426,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/2650"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "9649",
-      "name": "PHANTA BEAR #9649",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a84192d34ff0149e30d1129255b679385d249e16d4240f28da6215c0bcabd53439db3327d2619a420cc085705a49dddb71e12d3fc28b63bdee9f11c40018ea04c28523c29de326a0a0f3d9b5ecbf054d8a8103c9c2f5749ad9209011ae48330e3578adf4ea5804478aa51aaad793edb0623c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:11:34.233Z",
-      "lastFlagChange": null,
-      "rarity": 23.573,
-      "rarityRank": 1292,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0x3961d456f44a8f3276a74c1568af3a839b39de68"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0xe72970a62909e7423efcddf0f7656352ac564243f9be920f233d7bca7ddfe6d8",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "450000000000000000",
-            "decimal": 0.45,
-            "usd": 568.68589,
-            "native": 0.45
-          }
-        },
-        "maker": "0x3961d456f44a8f3276a74c1568af3a839b39de68",
-        "validFrom": 1670262848,
-        "validUntil": 1672941248,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/9649"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "8142",
-      "name": "PHANTA BEAR #8142",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ace83d682505d786c213362c707b4b1ff172414008efc91194b110a8b57ead45a880c58c32689bffef22e5a36707438367ad339f95da1f7f214d84f113328e4fed237deece3d6854066c2e50e83be0b99f3dd1573b77e50f759252fd9e67a05a12b2af649d67d685c7b6486b54c5873dc23c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:12:40.067Z",
-      "lastFlagChange": null,
-      "rarity": 22.325,
-      "rarityRank": 3042,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0x4636b75ec9f0c849015c284fb652a783d350f85a"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x62bb328e85dbf484307dd811db7c77a5cd02d1e77e94e0e7c4e15c2270b9bfde",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "460000000000000000",
-            "decimal": 0.46,
-            "usd": 581.32335,
-            "native": 0.46
-          }
-        },
-        "maker": "0x4636b75ec9f0c849015c284fb652a783d350f85a",
-        "validFrom": 1669044041,
-        "validUntil": 1671636041,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/8142"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "1823",
-      "name": "PHANTA BEAR #1823",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a77a7768d2d9c0ee6005f0ab0f2e4d5de40c50815c77550f4f3f54edd69368fa5a7127cc8795b42d998341b479d530fc444f187c0940a2eceaaae48ca69f657dd775b6573b822a76ed2dc9cf1aa930efd0096a6950fcebe4f5764f9ab5363ea2393fd7ccdff1ef0f7a24b956e2513ca1c23c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:20:20.600Z",
-      "lastFlagChange": null,
-      "rarity": 12.815,
-      "rarityRank": 9047,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": 0.2301,
-        "timestamp": 1670094791
-      },
-      "lastSell": {
-        "value": 0.23,
-        "timestamp": 1668029339
-      },
-      "owner": "0x71ec1f58656b583f14aa2d7c628aea8f4e1c1cd4"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x8a87bcf8104c93c35ceb75d954d5a42448d4911845baed309569fb6bf812524e",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "479000000000000000",
-            "decimal": 0.479,
-            "usd": 605.33454,
-            "native": 0.479
-          }
-        },
-        "maker": "0x71ec1f58656b583f14aa2d7c628aea8f4e1c1cd4",
-        "validFrom": 1670725363,
-        "validUntil": 1673403763,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/1823"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "7755",
-      "name": "PHANTA BEAR #7755",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ac1bd4244103c726fbbcbfeae5deeb35585d3b8f2dcc0bc84a235587ac547dd582e7ebd10d3a6c4cd7c5c8da0e946bc4b6959faac0f2dde247605418a6112f726d61b365b18fbcef7a1cb77c34bcc4169e2d30e0f664bdd6a83e3673094d2e847fe87ea018f47289cc2eef1ca34a75e23058ed9feecb44e991ea6b299d1f7ae6c",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:13:41.915Z",
-      "lastFlagChange": null,
-      "rarity": 22.817,
-      "rarityRank": 2291,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": 0.272,
-        "timestamp": 1664516423
-      },
-      "lastSell": {
-        "value": 0.35,
-        "timestamp": 1664531699
-      },
-      "owner": "0x5499c1289723e3fe483c980c1e944837b044a482"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x18d3599fd251d744fbfed420c2c2eb1778cea976ea6739b3aa77972be50d7e9c",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "480000000000000000",
-            "decimal": 0.48,
-            "usd": 606.59828,
-            "native": 0.48
-          }
-        },
-        "maker": "0x5499c1289723e3fe483c980c1e944837b044a482",
-        "validFrom": 1670005628,
-        "validUntil": 1672684028,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/7755"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "9345",
-      "name": "PHANTA BEAR #9345",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ad084c9ef123ea96ba7efd867bfdba642bb7d6b5897a19bb1c665c193b14bd297470984d90bad231e578fe5b09cdef8dca882e368e9eb2df5f6d000c30a705112d31ea5ddf91f9f55b4e9158d04140d6aec9bec1bb57471290cbc7b5479ba9098ff6c6dfec4c75528178835f8fac6c2a223c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:11:47.628Z",
-      "lastFlagChange": null,
-      "rarity": 13.378,
-      "rarityRank": 4760,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0x4599956d06a3016476c89c3cf2dc0d4f71f590ae"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x00ba84c5ce65d109f989be5b950a6171428eb3a412b4258984c27afe4a93bd7b",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "490000000000000000",
-            "decimal": 0.49,
-            "usd": 619.23575,
-            "native": 0.49
-          }
-        },
-        "maker": "0x4599956d06a3016476c89c3cf2dc0d4f71f590ae",
-        "validFrom": 1670854596,
-        "validUntil": 1673532996,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/9345"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "276",
-      "name": "PHANTA BEAR #276",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aaaf33f3c6e98f04e5bd036ca92d8fc50c2cdd229d0bcb944a247621e8d391de848b8d0654c29529fdf47a542f0e8a0b112182729f9edd1a6e11a9d9e7a868c8f0c021aaa04751fd5a5a356729531267510dab982e4a843e089e11a6c5dd2d8d2c64198102199c4929fc7ccd01e75dfda23c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:21:29.025Z",
-      "lastFlagChange": null,
-      "rarity": 22.149,
-      "rarityRank": 3285,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0x7ae494cfacba23094ac7a441daf853166a207817"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x251157e4a9cb9400e5063da14269465981653a51b26b9265d5e1228d44e65a79",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "500000000000000000",
-            "decimal": 0.5,
-            "usd": 631.87321,
-            "native": 0.5
-          }
-        },
-        "maker": "0x7ae494cfacba23094ac7a441daf853166a207817",
-        "validFrom": 1667122027,
-        "validUntil": 1682674027,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/276"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "411",
-      "name": "PHANTA BEAR #411",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7bd98bceee5c538b9048b1990acff15066c5574e3bbfecc62cfe31c5820b42702cbb50d519654e39613e2918cbf6bbd1b34ede846833822934b0cc0dfbc5a127c1b5500f7f78392368f05283f9445afa59ea25803c883797ad56aee158f9fc03c5e7c6f6eecfec2264c2c3329049502823c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:21:23.111Z",
-      "lastFlagChange": null,
-      "rarity": 12.936,
-      "rarityRank": 8086,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0xea2d77a264a1352103940f2f1deb0b5d2d4760c8"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x71a49bdf1677aee2c59e1c4ebc9a517e4dc476713b09d3b24b030e49354d42f9",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "500000000000000000",
-            "decimal": 0.5,
-            "usd": 631.87321,
-            "native": 0.5
-          }
-        },
-        "maker": "0xea2d77a264a1352103940f2f1deb0b5d2d4760c8",
-        "validFrom": 1668622905,
-        "validUntil": 1684174905,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/411"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "1123",
-      "name": "PHANTA BEAR #1123",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab3e84a19b363f32976bd4b795d1b5cc9c92378cb7f693a4ad27526be134a4e7552df1eedd0a1f43abd913e15a7417a3c8f95bb883d3532d031bdbc3ff5a31caa279549fc723a48f729edde670b5158f786a61b5b3d6fc7759a82c542b445f033e1757105f14a868639c4bf4021285d76e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:20:49.939Z",
-      "lastFlagChange": null,
-      "rarity": 31.386,
-      "rarityRank": 820,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0xa6c9b5696cf6edbef25d941714ce1bfca544f3c4"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0xb20439207f913e5756790576226de23f85fa47142e0f178265d97d04f1bdc766",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "500000000000000000",
-            "decimal": 0.5,
-            "usd": 631.87321,
-            "native": 0.5
-          }
-        },
-        "maker": "0xa6c9b5696cf6edbef25d941714ce1bfca544f3c4",
-        "validFrom": 1668503164,
-        "validUntil": 1684055159,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/1123"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "4504",
-      "name": "PHANTA BEAR #4504",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a8180b4665de279c4cc57cdc0ee5592a5770386674733d4f8d2cce35d3b46e2bb9ec2a835c051e21987ab895ae9b61a417b2f9ec49dbcd5816fbfaa9f6616dead393e4e077b7e2f1b1c0b226014599a642c0efb429af4a9ca011652ca1873eda5ad6bd3fa52df65cf88efac1d50b5cd0423c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:18:03.453Z",
-      "lastFlagChange": null,
-      "rarity": 23.367,
-      "rarityRank": 1460,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0xd0e5effda60de525e6b2e739d953e2ed4c27c5e7"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x233285e7c82cb6713f354fc4dce64641a91e2ea500e6ba621241344827a1c47e",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "500000000000000000",
-            "decimal": 0.5,
-            "usd": 631.87321,
-            "native": 0.5
-          }
-        },
-        "maker": "0xd0e5effda60de525e6b2e739d953e2ed4c27c5e7",
-        "validFrom": 1671187155,
-        "validUntil": 1673865555,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/4504"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "6324",
-      "name": "PHANTA BEAR #6324",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a315c7fa83c599f01808c6dc522f09918984a3f3d8eed8f8c592404216ae7d324588cb49c20e9a71914696ad99f4c4b2ea199b03554cc0a090914a074c347266ac17480b32720d8814c9a6617f602a811caebf92ddf13ad0abac43c86f7d0a5e3b85b1f6c5f0a88025bfbd6b4720afd3b23c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:15:25.405Z",
-      "lastFlagChange": null,
-      "rarity": 23.415,
-      "rarityRank": 1412,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0x1a47ef7e41e3ac6e7f9612f697e69f8d0d9f0249"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0xe11c14abda03f958ff816c3f8e51618491e184b92f4ab5a7491fde2d81ea932d",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "500000000000000000",
-            "decimal": 0.5,
-            "usd": 631.87321,
-            "native": 0.5
-          }
-        },
-        "maker": "0x1a47ef7e41e3ac6e7f9612f697e69f8d0d9f0249",
-        "validFrom": 1670630515,
-        "validUntil": 1673308915,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/6324"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "6610",
-      "name": "PHANTA BEAR #6610",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af75fb60431ff1af7c93454ef41b551999a55eb9b5677e64520125ac396d58f71af7dc820d0402ba31fce980602fdb9255c6b7aaea3f68ee6e8fa73938bbbf8fd427365a06458e03d84e1aa9cca3f487b62f4095c65b4d9e1c62f8a7cbe7c3215a70f8db3c6762995007f30c63e3a7dd4058ed9feecb44e991ea6b299d1f7ae6c",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:15:12.169Z",
-      "lastFlagChange": null,
-      "rarity": 12.996,
-      "rarityRank": 7514,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": 0.41,
-        "timestamp": 1655556842
-      },
-      "owner": "0xaf27b7b4d2eddd0f3b48a14e936c8fa0a77bd009"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x5e107cc9baf978edf75b50e77db172e0fd19e742d096b85385bec0f7350eac9f",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "500000000000000000",
-            "decimal": 0.5,
-            "usd": 631.87321,
-            "native": 0.5
-          }
-        },
-        "maker": "0xaf27b7b4d2eddd0f3b48a14e936c8fa0a77bd009",
-        "validFrom": 1667733602,
-        "validUntil": 1683285602,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/6610"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "7156",
-      "name": "PHANTA BEAR #7156",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a6e3dfb23a97afaad0d0b9c396ff806d8bc9b15f0dee7641c5f5c7dd2581d4a99e29d0d69dd5978a640ef791660955c5b7de8eb719a94928b00950a2c57feecc763218ff491c1f750298c04564d49b0f442b5b3aaf8dc5c1eef75769bc4c8073b1aa00eb1ef089bc5d0e4f111d3ad17b3e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:14:07.154Z",
-      "lastFlagChange": null,
-      "rarity": 13.068,
-      "rarityRank": 6862,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": 0.296,
-        "timestamp": 1662988913
-      },
-      "owner": "0xd3ee66657c13925052de4406ad27a582313f8d1f"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0xb28ee2094ed19facb8965621d1c038cbb84eff1830f25ec7008c9f03e8d088c7",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "500000000000000000",
-            "decimal": 0.5,
-            "usd": 631.87321,
-            "native": 0.5
-          }
-        },
-        "maker": "0xd3ee66657c13925052de4406ad27a582313f8d1f",
-        "validFrom": 1662991820,
-        "validUntil": 1678543820,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/7156"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "7413",
-      "name": "PHANTA BEAR #7413",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ac2bbf277273738e19bc1145ac9844230110a401432616e5a5d5983aafd6357f9d3e5595c7990a3a7544214c0c2161d25a94c43ecc0e77c1f3e08ee69bd0abbcc7ad28aef3a3f404136b1bd8bb91b08977864c1c1825e85b14fae38b711a11fc7ade85d529ff89d310019966d8c8446f123c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:13:55.444Z",
-      "lastFlagChange": null,
-      "rarity": 23.41,
-      "rarityRank": 1416,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0x88a6adde136a58bc1e2ab0a5ca1c91749893c57f"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0xc73a931741b5a5bff93be3dcfc0c24c86e3784c4d97d7266dcfcadd4466c8204",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "500000000000000000",
-            "decimal": 0.5,
-            "usd": 631.87321,
-            "native": 0.5
-          }
-        },
-        "maker": "0x88a6adde136a58bc1e2ab0a5ca1c91749893c57f",
-        "validFrom": 1671059561,
-        "validUntil": 1671664361,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/7413"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "8123",
-      "name": "PHANTA BEAR #8123",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3339a7732fd65f02cdf3b6d4ce4dd46df901bfc12cde8a7e18f2b2db6820e07cb92228bbe16b24603bbc258b5e06411c78a5fdfc181fc6067245a0f66d7c07b94ad13b83aa5fef11c99ce75c7ede81d2c0f6cbb8cc1a874c93b6d1ff21d99735a260ab7ff99b49b7e5704acde2c8ff5123c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:12:40.708Z",
-      "lastFlagChange": null,
-      "rarity": 22.743,
-      "rarityRank": 2423,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0x2436091dcc92514def60fb06a5b85630f54bc895"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x91660d8ebe629188322b1673115f99204ab99cde0c1eeb1dba406a9c910a6ad1",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "500000000000000000",
-            "decimal": 0.5,
-            "usd": 631.87321,
-            "native": 0.5
-          }
-        },
-        "maker": "0x2436091dcc92514def60fb06a5b85630f54bc895",
-        "validFrom": 1670917149,
-        "validUntil": 1686469149,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/8123"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "8312",
-      "name": "PHANTA BEAR #8312",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a537595ca0826a3d4047d92909d7a7a16a8a01716586af381fcebae5212b08ac62b5d254d453c9575df2df1bf9d0a4d7ae9c19458d05d8f87b68974046afb7264d62cff07d64368059f175fec50fc6e17279ffcdba6e70a3da75371951949de8bb9dba696802f13ef9a4f3764b9b4d89723c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:12:32.971Z",
-      "lastFlagChange": null,
-      "rarity": 13.408,
-      "rarityRank": 4688,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0x2436091dcc92514def60fb06a5b85630f54bc895"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x0a20b73e467f0914779976e6c0f5087117c1fb1e9a147a57a533e5102b1806e3",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "500000000000000000",
-            "decimal": 0.5,
-            "usd": 631.87321,
-            "native": 0.5
-          }
-        },
-        "maker": "0x2436091dcc92514def60fb06a5b85630f54bc895",
-        "validFrom": 1670917024,
-        "validUntil": 1686469024,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/8312"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "9099",
-      "name": "PHANTA BEAR #9099",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a07d84609e1cfd8e596bba0bd2019c3d4617c31c00082e23a1b52854c63d8fc6ed3a35a232ef880e709ef72f12e29b596e875064a9c710af533f4a72429ec0f35e5a7d0e54bd0e4332804e85ef500821a04a8a8bc019db97661d5ac20e7c1fc74c308aed059c9623376072be9c7552ed723c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:11:59.329Z",
-      "lastFlagChange": null,
-      "rarity": 12.937,
-      "rarityRank": 8078,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0x2436091dcc92514def60fb06a5b85630f54bc895"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0xd99b5896f0ead14bd939e075fa6152fec6716da5fa3532fd6518410974439aab",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "500000000000000000",
-            "decimal": 0.5,
-            "usd": 631.87321,
-            "native": 0.5
-          }
-        },
-        "maker": "0x2436091dcc92514def60fb06a5b85630f54bc895",
-        "validFrom": 1670917182,
-        "validUntil": 1686469182,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/9099"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "273",
-      "name": "PHANTA BEAR #273",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae3eb607bbab1d8abd70edc171f9fdb7de9bddb0492a143bb68d4f15e1a8aba86b55fce5c6331001202c607c1d32cceb600f13a01df742199f454a8054123fccd0bb9468aa71b45bd926a689e029a2b34af98beec60b07e7f244ae798d14b36930a02b12fc14af0ec290631fd88d9dd1523c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:21:29.922Z",
-      "lastFlagChange": null,
-      "rarity": 22.612,
-      "rarityRank": 2659,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": 0.28,
-        "timestamp": 1661077063
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0x5499c1289723e3fe483c980c1e944837b044a482"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x4d9271f20232063925552a65eafdabaf31cb560a7fdf630027be19e24a7f8c5f",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "550000000000000000",
-            "decimal": 0.55,
-            "usd": 695.06053,
-            "native": 0.55
-          }
-        },
-        "maker": "0x5499c1289723e3fe483c980c1e944837b044a482",
-        "validFrom": 1670005582,
-        "validUntil": 1672683982,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/273"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "2512",
-      "name": "PHANTA BEAR #2512",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aaf9ad3ec1474af0b0a699f4f1f5ebeca3ca285b292ea7a5dac96a77a90369bf36dbb2659ffcb2187e8f83247171795e5fd5fa80ed906b5adcee1934b227d57178b96e0ae38091800cb349cbe4f2d3b2f33b58fa5e69f8f66d9f94c328177fb9ee0ba3e1f36789512624d525e0c1e563d23c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:19:38.778Z",
-      "lastFlagChange": null,
-      "rarity": 23.359,
-      "rarityRank": 1470,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0x2436091dcc92514def60fb06a5b85630f54bc895"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x031e2598d62c15871aa34736e1514f75d9c329009ebc9e6e979a3721c21b0f8f",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "550000000000000000",
-            "decimal": 0.55,
-            "usd": 695.06053,
-            "native": 0.55
-          }
-        },
-        "maker": "0x2436091dcc92514def60fb06a5b85630f54bc895",
-        "validFrom": 1670917247,
-        "validUntil": 1686469247,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/2512"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "4991",
-      "name": "PHANTA BEAR #4991",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3fe0b315a0f51818d3136e531d2074b69d422ad370c60ce8cfd79857b34ee7e81f8997aafd0940f26a9dfc65d98142b191f976c2e26ad3c434531b3419addfdcc33fe3415adc9f2522850fec49ee403b4f94f4bd633fb19745c734b7b0ebaacf67be490e9d4c6ce2c163f7ba8ed5a14323c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:17:40.191Z",
-      "lastFlagChange": null,
-      "rarity": 28.936,
-      "rarityRank": 1106,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": 0.45,
-        "timestamp": 1658736642
-      },
-      "owner": "0x28645c6740b2def1e731c6c304df94553f5de0d9"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0xfb2a48475139d66124d1a88772d75199768046cbe2f84f8e02b3acb2a8f279b7",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "550000000000000000",
-            "decimal": 0.55,
-            "usd": 695.06053,
-            "native": 0.55
-          }
-        },
-        "maker": "0x28645c6740b2def1e731c6c304df94553f5de0d9",
-        "validFrom": 1668866244,
-        "validUntil": 1671458244,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/4991"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "7230",
-      "name": "PHANTA BEAR #7230",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ac33964873e9d5836d4f40319ffe19564788690db2905db1d1e4727c434f2248071f2c47785a159867fb13f11a649606acb570c51cb3ec72d973c0e804bef3cae1dca96d9abe722b6022e2284f7396aff5aa4e79b11ffbd94e1d64ac423f1c7a32091380cf48e359eb93d95208a261227e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:14:02.719Z",
-      "lastFlagChange": null,
-      "rarity": 22.655,
-      "rarityRank": 2593,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": 0.26903,
-        "timestamp": 1664516687
-      },
-      "lastSell": {
-        "value": 0.35,
-        "timestamp": 1664526479
-      },
-      "owner": "0x5499c1289723e3fe483c980c1e944837b044a482"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0xe89e8e3c1294bf3fe747e32abe6811423035f76972473728610a2c31d3fe57d4",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "550000000000000000",
-            "decimal": 0.55,
-            "usd": 695.06053,
-            "native": 0.55
-          }
-        },
-        "maker": "0x5499c1289723e3fe483c980c1e944837b044a482",
-        "validFrom": 1670005608,
-        "validUntil": 1672684008,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/7230"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "9599",
-      "name": "PHANTA BEAR #9599",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75abd794b3dc013fbe8ce678c65bdd6960c9e20e9941c79fc1aef2ad21a11e697ae0e35d092d2bef71e7711ad5b2841feb017f8e6067d5c5d833b915dd69bb8088aabcdcb40f07b0cc482c8b26c0bf3da7aba24c4f9882c82a043107f9accb5bc8f9ef6bba5c16bed98456ed8af4527961423c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:11:37.163Z",
-      "lastFlagChange": null,
-      "rarity": 21.679,
-      "rarityRank": 3970,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": 0.38,
-        "timestamp": 1664593439
-      },
-      "owner": "0x5499c1289723e3fe483c980c1e944837b044a482"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0xd1168d3dbdc8416377a43e7b5a6ca37b81f8a3e1964cf27fdb41179c1b089a0a",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "550000000000000000",
-            "decimal": 0.55,
-            "usd": 695.06053,
-            "native": 0.55
-          }
-        },
-        "maker": "0x5499c1289723e3fe483c980c1e944837b044a482",
-        "validFrom": 1670005683,
-        "validUntil": 1672684083,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/9599"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "8772",
-      "name": "PHANTA BEAR #8772",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a276fedba06961e4e27533543ac011eb9383b2fc43ec411aec91df93cbd283e2f677c73ca4292dcd895bc6d33b9b0ca322c82517e069dcef9d2e990ff69f0fa25792fe3d8a65e7fcb69ff27148ce6b336b6d5b34d6e3e422187a1eae0b00cb9c63b7b255a43a6ec8e038551e73dc0bb4523c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:12:12.880Z",
-      "lastFlagChange": null,
-      "rarity": 13.402,
-      "rarityRank": 4698,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": 0.4911,
-        "timestamp": 1658050313
-      },
-      "lastSell": {
-        "value": 0.648,
-        "timestamp": 1656034173
-      },
-      "owner": "0xe852c2189316ec5eee9f36272962ade430f38531"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x6ee9b46698185b522fb8f09290ec901b7576b098a56cd2a75085dfd6e9f30662",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "569000000000000000",
-            "decimal": 0.569,
-            "usd": 719.07172,
-            "native": 0.569
-          }
-        },
-        "maker": "0xe852c2189316ec5eee9f36272962ade430f38531",
-        "validFrom": 1663392785,
-        "validUntil": 1677387533,
-        "source": {
-          "id": "0xdc28ffaea1f91a88fb6fd0a8fe70d71bdd64284c",
-          "domain": "x2y2.io",
-          "name": "X2Y2",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/x2y2-logo.png",
-          "url": "https://x2y2.io/eth/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/8772"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "3592",
-      "name": "PHANTA BEAR #3592",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a10f5d6d7ccc61cfbd7dee333934c512a1ab2c0872e3a922288d007b44b1dbeccadc2ab8bb464d5ec8b701197d924562ab5cf4976622b7c798fb9e9170c4453cb6961c69847e758f3936277368c0f63725fe71956411b11917dd34fd7dd6a5f86007fcc6c011c4a2c7a89d53684030edb058ed9feecb44e991ea6b299d1f7ae6c",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:18:47.034Z",
-      "lastFlagChange": null,
-      "rarity": 28.879,
-      "rarityRank": 1111,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0xb53b491e917eefe9c4d713870b9a08d630670245"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x2f8e7a8803e2bd4bd1c4d00d7486bd852a2b4b89fec0bfb4fc6ed625b9ccfeed",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "570000000000000000",
-            "decimal": 0.57,
-            "usd": 720.33546,
-            "native": 0.57
-          }
-        },
-        "maker": "0xb53b491e917eefe9c4d713870b9a08d630670245",
-        "validFrom": 1663585080,
-        "validUntil": 1674617683,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/3592"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "4453",
-      "name": "PHANTA BEAR #4453",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a61ecb37a6be68ac026afee4412a064bcf49c37449288ba98017e7723a863d3c5dc144c76051bb9881264e7b4c6cfb955451a35fa57f59499de1b2c7996b431e1456a0b2d5bbd94731c2331222be99fb95aba4de3d54e5b6897a24c19435bd5120b2c38bc55f2124f97360e87633d1ee0058ed9feecb44e991ea6b299d1f7ae6c",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:18:06.028Z",
-      "lastFlagChange": null,
-      "rarity": 22.093,
-      "rarityRank": 3372,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0x16d864dbf08d31e32943e918536559f6de417878"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x3285629d23c54ad3d36d61ca398fedc2173fc421f615e9fb619a9f6de5aa74ac",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "580000000000000000",
-            "decimal": 0.58,
-            "usd": 732.97293,
-            "native": 0.58
-          }
-        },
-        "maker": "0x16d864dbf08d31e32943e918536559f6de417878",
-        "validFrom": 1669217752,
-        "validUntil": 1671809752,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/4453"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "6997",
-      "name": "PHANTA BEAR #6997",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a63b487249c5b84e7cac959985160d79f7805d53b4d021e087191524f83a2d72782b05926f9b9a29c3ad32bbd30e8e8bbc09a9f296d6854107aac9f18d7450b428c7d42f97dff5ff39c5850059f2416599de74b8c4419b9d2cb0efbcd9f5292b248fd7fa9135e1e41c43464cff4fe592723c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:14:54.606Z",
-      "lastFlagChange": null,
-      "rarity": 21.347,
-      "rarityRank": 4383,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0xe07f46f58f5a1aee8b9e20a16f8cb4ee868e6c25"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x4fd96212445d8dfc264db3ccbeaed357f69c99e85e5c330747a6365172634ac2",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "580000000000000000",
-            "decimal": 0.58,
-            "usd": 732.97293,
-            "native": 0.58
-          }
-        },
-        "maker": "0xe07f46f58f5a1aee8b9e20a16f8cb4ee868e6c25",
-        "validFrom": 1669610726,
-        "validUntil": 1672202726,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/6997"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "8223",
-      "name": "PHANTA BEAR #8223",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a42fe140f5248baa12eb214e095356e580f8ed451c9cf7075c6ca0412bd945045707d13b322d54719de67a7b6442a34ad7f0d6d8f6e39124cb2c18194194da97a78662c57e3b00f9ce86f286c3527291cf40204a540355ef33ecb11b1c2d676b5466a026ac3609a500494318a59deb2ee23c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:12:37.135Z",
-      "lastFlagChange": null,
-      "rarity": 23.464,
-      "rarityRank": 1377,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0x340415f16478d5d83b9c1be9312c53b939352ae3"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0xf0fc97cace4e6b45979c5ace90f05e200a5c95e7eeaf8c0d4a0278f04af50954",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "580000000000000000",
-            "decimal": 0.58,
-            "usd": 732.97293,
-            "native": 0.58
-          }
-        },
-        "maker": "0x340415f16478d5d83b9c1be9312c53b939352ae3",
-        "validFrom": 1670743940,
-        "validUntil": 1672895655,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/8223"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "8084",
-      "name": "PHANTA BEAR #8084",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab85428398c9ba395b3f1c1b6764da747f47ff34c1d6999fa965ab54cb8c060fc61e57df1ac25bacd4d03565a768835cfaeae278bf5aaaa21f95dcba989810f1eda20fa773cdd10e9923768fcc326773b8977e7c9b00837408fbddebbe4747b4bc5cdf92e544f0800dc877fd67094015a23c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:12:42.495Z",
-      "lastFlagChange": null,
-      "rarity": 13.149,
-      "rarityRank": 6067,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": 0.6303,
-        "timestamp": 1657173448
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0xcfaa1c9746754fcae2d656197017d9940b6710bb"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x94d60870eed01f5aa72f1f01bc8d25d47e6bb8239a78ed9492f60fcd0fed8902",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "639000000000000000",
-            "decimal": 0.639,
-            "usd": 807.53396,
-            "native": 0.639
-          }
-        },
-        "maker": "0xcfaa1c9746754fcae2d656197017d9940b6710bb",
-        "validFrom": 1669409148,
-        "validUntil": 1672001148,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/8084"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "4208",
-      "name": "PHANTA BEAR #4208",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3ad9ef55bb26a50b2cd75466c0977af242127611c81db1f6e153c869b045867afdee2238c18bc976bcb7691214506e4695c69b9e0c74f87cacb84ed330559cf149ed298471d373252eb3ae72c038313ff33bd53f3c81e27bc3fc91a085781f23271090ae72abf0b1ad032ef7d3f1e19ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:18:15.009Z",
-      "lastFlagChange": null,
-      "rarity": 21.859,
-      "rarityRank": 3655,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0xdc3ab9ada67b1d1fd73eeb7e1ea403f5800bec5f"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0xc228b5b2052b40dc62d7d0d90986bc3a2823f83d9756e76dfc58a7fd86c18ce0",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "640000000000000000",
-            "decimal": 0.64,
-            "usd": 808.79771,
-            "native": 0.64
-          }
-        },
-        "maker": "0xdc3ab9ada67b1d1fd73eeb7e1ea403f5800bec5f",
-        "validFrom": 1667368818,
-        "validUntil": 1674012504,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/4208"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "7580",
-      "name": "PHANTA BEAR #7580",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ad8ce10ea28bd0debe51ce29a282cce28ccb7c55eac36c9d3b6b945ede3dda88be4a5358f608f6df4c38de9b511f03d755a8734085b4a953aa24c44cee28ca126b269c4162c6aa303fe8f7b529177f81f27f8d1973d261401c6ae9a5e10c39f83425a69645dbad4973c446ea7e156cea123c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:13:47.852Z",
-      "lastFlagChange": null,
-      "rarity": 22.141,
-      "rarityRank": 3295,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0xdc3ab9ada67b1d1fd73eeb7e1ea403f5800bec5f"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x5d48c16c12740dde11a1a78b733d4ba750661f1357a30e2f7c6da37bcfc90dad",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "640000000000000000",
-            "decimal": 0.64,
-            "usd": 808.79771,
-            "native": 0.64
-          }
-        },
-        "maker": "0xdc3ab9ada67b1d1fd73eeb7e1ea403f5800bec5f",
-        "validFrom": 1666236457,
-        "validUntil": 1674012457,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/7580"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "5409",
-      "name": "PHANTA BEAR #5409",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ac86aadd59c6e38a0663ace371704e4f4a44f12659c1bce4e4aa9fad837ac3450890b98e182e5bcc2cfc1a6cb94e1e945027fe8378dfca35bfde83ce070c5c5bb1d97767fccf4b392831d7c6ccce6a902e7a885f9182c88264866e6c68682d524badb74d6bc3d57b988cfdb4334fc35ec23c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:16:54.153Z",
-      "lastFlagChange": null,
-      "rarity": 13.354,
-      "rarityRank": 4843,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": 0.2313,
-        "timestamp": 1665448787
-      },
-      "lastSell": {
-        "value": 0.2934,
-        "timestamp": 1665476591
-      },
-      "owner": "0x56085d60f8518a3d6a1bc3aee66d05f719d40a16"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x35e96ff7d6871c9138e799e56a28469dfb24d1786e27df9ef9a0893bf68ce14b",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "660000000000000000",
-            "decimal": 0.66,
-            "usd": 834.07264,
-            "native": 0.66
-          }
-        },
-        "maker": "0x56085d60f8518a3d6a1bc3aee66d05f719d40a16",
-        "validFrom": 1665810959,
-        "validUntil": 1681362959,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/5409"
-        }
-      }
-    }
-  },
-  {
-    "token": {
-      "contract": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-      "tokenId": "9056",
-      "name": "PHANTA BEAR #9056",
-      "description": "Phanta Bear is a collection of 10,000 algorithmically generated digital collectibles that double as membership cards for the Ezek Club.",
-      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4fa526cb509f78c3e8e07779545a30fd0e2aae9f311dc265ec342cc56b66892d3cf82ad9849c3bea6f44925fcbcd7b12c05f3423baa28252fea67a8f2a3ba06ad76c8a7f96a55b66499248d3a983de4ac2a84000aeff20c77947234775e226b186f9180d1c04127270424d9eac183ea323c5e4198f99eda3f3b783c3322e8c56",
-      "media": null,
-      "kind": "erc721",
-      "isFlagged": false,
-      "lastFlagUpdate": "2022-12-06T07:12:01.168Z",
-      "lastFlagChange": null,
-      "rarity": 12.916,
-      "rarityRank": 8254,
-      "collection": {
-        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
-        "name": "PhantaBear",
-        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
-        "slug": "phantabear"
-      },
-      "lastBuy": {
-        "value": null,
-        "timestamp": null
-      },
-      "lastSell": {
-        "value": null,
-        "timestamp": null
-      },
-      "owner": "0xca94f2339ce7df3d981190e6c61da834a6bd73b1"
-    },
-    "market": {
-      "floorAsk": {
-        "id": "0x8d4b3b405e47e50d0c950c90a81abc5117994c7ad90a105c286b35e272b23856",
-        "price": {
-          "currency": {
-            "contract": "0x0000000000000000000000000000000000000000",
-            "name": "Ether",
-            "symbol": "ETH",
-            "decimals": 18
-          },
-          "amount": {
-            "raw": "660000000000000000",
-            "decimal": 0.66,
-            "usd": 834.07264,
-            "native": 0.66
-          }
-        },
-        "maker": "0xca94f2339ce7df3d981190e6c61da834a6bd73b1",
-        "validFrom": 1670173009,
-        "validUntil": 1672851409,
-        "source": {
-          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
-          "domain": "opensea.io",
-          "name": "OpenSea",
-          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-          "url": "https://opensea.io/assets/0x67d9417c9c3c250f61a83c7e8658dac487b56b09/9056"
         }
       }
     }

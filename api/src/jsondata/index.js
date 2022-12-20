@@ -10,9 +10,9 @@ const creepz = require("../jsondata/Creepz-by-OVERLORD.json")
 const cryptoMories = require("../jsondata/CryptoMories.json")
 const cryptoPunks = require("../jsondata/cryptoPunks.json")
 const dEGEN = require("../jsondata/DEGEN-TOONZ.json")
-const dooplicator = require("../jsondata/Dooplicator.json")
+// const dooplicator = require("../jsondata/Dooplicator.json")
 const eNS = require("../jsondata/ENS-Maxis.json")
-const evaverse = require("../jsondata/Evaverse.json")
+// const evaverse = require("../jsondata/Evaverse.json")
 const hAPE = require("../jsondata/HAPE-PRIME.json")
 const kitaroWorld = require("../jsondata/Kitaro-World.json")
 const lilPudgys = require("../jsondata/Lil-Pudgys.json")
@@ -46,9 +46,9 @@ const allNFTs = [
     ...cryptoMories,
     ...cryptoPunks,
     ...dEGEN,
-    ...dooplicator,
+    // ...dooplicator,
     ...eNS,
-    ...evaverse,
+    // ...evaverse,
     ...hAPE,
     ...kitaroWorld,
     ...lilPudgys,

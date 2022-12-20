@@ -18,6 +18,10 @@ module.exports = (sequelize) => {
         type: DataTypes.STRING,
         allowNull: false,
       },
+      description: {
+        type: DataTypes.TEXT,
+        allowNull: false,
+      },
       image: {
         type: DataTypes.TEXT,
         allowNull: false,
@@ -35,6 +39,38 @@ module.exports = (sequelize) => {
       },
       price: {
         type: DataTypes.FLOAT,
+      },
+      rarity: {
+        type: DataTypes.FLOAT,
+        allowNull: false,
+      },
+      rarityRank: {
+        type: DataTypes.FLOAT,
+        allowNull: false,
+      },
+      lastBuyValue: {
+        type: DataTypes.FLOAT,
+        allowNull: false,
+      },
+      lastBuyTs: {
+        type: DataTypes.FLOAT,
+        allowNull: false,
+      },
+      lastSellValue: {
+        type: DataTypes.FLOAT,
+        allowNull: false,
+      },
+      lastSellTs: {
+        type: DataTypes.FLOAT,
+        allowNull: false,
+      },
+      ownerName: {
+        type: DataTypes.TEXT,
+        allowNull: false,
+      },
+      ownerIcon: {
+        type: DataTypes.TEXT,
+        allowNull: false,
       },
     },
     {
