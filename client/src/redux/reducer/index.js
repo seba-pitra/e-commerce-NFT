@@ -27,6 +27,7 @@ import {
   REMOVE_NFT_OF_SHOOPING_CART,
   BUY_NFT_ON_SHOOPING_CART,
   GET_ACTIVE_USER,
+  LOCAL_STORAGE_CART,
 } from "../actions";
 import * as controllers from "../../utils";
 
@@ -205,6 +206,13 @@ const rootReducer = (state = initialState, action) => {
 	...state,
 	activeUser: action.payload,	
 	};
+case LOCAL_STORAGE_CART:
+	return {
+	...state,
+	userNfts: action.payload,
+	}
+
+
 // ---
 
     case BUY_NFT_ON_SHOOPING_CART:

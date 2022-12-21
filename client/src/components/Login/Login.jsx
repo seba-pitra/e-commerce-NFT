@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { useDispatch } from 'react-redux';
-import { gettingActiveUserToState } from '../../redux/actions'
+import { useDispatch, useSelector } from 'react-redux';
+import { gettingActiveUserToState, injectLocalStorageCart } from '../../redux/actions'
 import { useHistory } from "react-router-dom";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import GitHubIcon from "@material-ui/icons/GitHub";
@@ -12,12 +12,16 @@ import "./Login.css"
 // sendPasswordResetEmail
 const Login = () => {
 
+  const userNfts = useSelector((state) => state.userNfts);
+  
   const history = useHistory()
 
   const [logginForm, setLogginForm] = useState({
     email: "",
     password: "",
   });
+
+
 
   const [error, setError] = useState("")
 
@@ -87,9 +91,17 @@ const Login = () => {
     }
   };
 
+
+	function loadLocalStorage(){
+	let localCart = JSON.parse(localStorage.getItem(logginForm.email));
+	dispatch(injectLocalStorageCart(localCart));	
+	}
+
+
   const handdleSubmit = (e) => {
     e.preventDefault();
-  dispatch(gettingActiveUserToState(logginForm.email));
+    dispatch(gettingActiveUserToState(logginForm.email));
+    loadLocalStorage();	
     logginFunction(logginForm)
     setLogginForm({
       email: "",
