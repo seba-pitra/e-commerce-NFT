@@ -14,34 +14,21 @@ export default function Filtering() {
 
   const nfts = useSelector((state) => state.nfts);
   const collections = useSelector((state) => state.collections);
-
-  let filterCollection = [], count = 0;
+  
+  /*  let filterCollection = [], count = 0;
   collections.forEach(e => {
     count = 0;
     nfts.forEach(nft => { if(nft.collectionId === e.id) count = count + 1 })
     if (count > 1) filterCollection.push(e) 
-  })
-  const states = ["Buy Now", "Auction", "All"];
+  }) */
 
-  const arrCategories = [];
-  nfts.forEach((e) => { 
-    e.category.forEach((e) => 
-      arrCategories.push(e)
-      )});
-  const categories = [];
-  arrCategories.forEach((e) => { 
-    if (categories.indexOf(e) === -1) 
-    categories.push(e); 
-  });
+  const states = ["Buy Now", "Auction", "All"];
 
   const selectCollection = (e) => {
     setSelectedCollection(e.target.value);
     dispatch(actions.filterCollection(e.target.value));
   };
-  const selectCategory = (e) => {
-    setSelectedCategory(e.target.value);
-    dispatch(actions.filterCategory(e.target.value));
-  };
+
   const selectState = (e) => {
     setSelectedState(e.target.value);
     dispatch(actions.filterState(e.target.value));
@@ -62,7 +49,7 @@ export default function Filtering() {
             <option hidden disabled selected>
               Select collection
             </option>
-            {filterCollection.map((collection) => {
+            {collections.map((collection) => {
               return (
                 <option
                   key={collection.id}
@@ -74,30 +61,6 @@ export default function Filtering() {
               );
             })}
           </select>
-        </div>
-      </div>
-      <div className="options-container">
-        <label className="label" htmlFor="genres">
-          Categories:{" "}
-        </label>
-        <div className="button-list" name="genres" id="">
-          {categories.map((category) => {
-            return (
-              <button
-                key={category}
-                value={category}
-                onClick={(e) => {
-                  selectCategory(e);
-                }}
-                id={selectedCategory.includes(category) ? "selected" : ""} //esto es para cambiar el css depende de si lo seleccione cambia el css.
-                className={`option-btn btn-filter ${
-                  selectedCategory.includes(category) ? "selected" : ""
-                }`}
-              >
-                {category}
-              </button>
-            );
-          })}
         </div>
       </div>
       <div className="options-container">

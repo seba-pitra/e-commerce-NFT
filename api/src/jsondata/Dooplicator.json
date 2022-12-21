@@ -1,0 +1,3002 @@
+[
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "4283",
+      "name": "Dooplicator #4283",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbbddbc674446b9f559e99e94e44f7e4029d5b935164d0b65b114e23650fa2cc4876f8c6007de3df1f904c7b8b4a9fad71bd65932058c62230b7c4fb9ee246f3c0b5b8c41537380d0ffa00a4be331adfdbbe3278547b8fd93837d54fd42df532637a772fac3176fe9575e5905e0579ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": true,
+      "lastFlagUpdate": "2022-12-20T08:33:56.511Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": 0.679,
+        "timestamp": 1670219675
+      },
+      "lastSell": {
+        "value": 0.71,
+        "timestamp": 1670570027
+      },
+      "owner": "0x2f21be73060ea2624ed17de4a4d27ffa3a014bd4"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x52f3fc9a8df2943ab3c53d78a78cbd6126feeb7bd75aac9a53687b9297f95b8d",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "910000000000000000",
+            "decimal": 0.91,
+            "usd": 1079.96791,
+            "native": 0.91
+          }
+        },
+        "maker": "0x2f21be73060ea2624ed17de4a4d27ffa3a014bd4",
+        "validFrom": 1671516649,
+        "validUntil": 1674108615,
+        "source": {
+          "id": "0xdc28ffaea1f91a88fb6fd0a8fe70d71bdd64284c",
+          "domain": "x2y2.io",
+          "name": "X2Y2",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/x2y2-logo.png",
+          "url": "https://x2y2.io/eth/0x466cfcd0525189b573e794f554b8a751279213ac/4283"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "7932",
+      "name": "Dooplicator #7932",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a988b898a00d57f76198ed060ee5a8d3ae22c9c6ff4268c86619c352b10a459595da7181cd7da74d13fa8f56186049c10d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T14:35:03.855Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x5c2040e24c4b1d03a6f682f4e15cde173f260871"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x097bf18e4652528dde732e27ea30071d61e2636d5126527b0dc602c44d8b8e5d",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1026900000000000000",
+            "decimal": 1.0269,
+            "usd": 1218.70225,
+            "native": 1.0269
+          }
+        },
+        "maker": "0x5c2040e24c4b1d03a6f682f4e15cde173f260871",
+        "validFrom": 1671546413,
+        "validUntil": 1671632813,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x466cfcd0525189b573e794f554b8a751279213ac/7932"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "7928",
+      "name": "Dooplicator #7928",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a988b898a00d57f76198ed060ee5a8d3ae22c9c6ff4268c86619c352b10a459595da7181cd7da74d13fa8f56186049c10d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T14:33:42.097Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x5c2040e24c4b1d03a6f682f4e15cde173f260871"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x7c4cd485ba6ad52faa03102eb11d218d0a30baa5251fae324bba364766701945",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1029000000000000000",
+            "decimal": 1.029,
+            "usd": 1221.19448,
+            "native": 1.029
+          }
+        },
+        "maker": "0x5c2040e24c4b1d03a6f682f4e15cde173f260871",
+        "validFrom": 1671546333,
+        "validUntil": 1671632733,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x466cfcd0525189b573e794f554b8a751279213ac/7928"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "7927",
+      "name": "Dooplicator #7927",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a988b898a00d57f76198ed060ee5a8d3ae22c9c6ff4268c86619c352b10a459595da7181cd7da74d13fa8f56186049c10d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T14:33:22.204Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x5c2040e24c4b1d03a6f682f4e15cde173f260871"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x97897572f86b7b08bc2323cdc83323d9d3079a28f9d92d6fbd0cdc6be57b0f0a",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1030000000000000000",
+            "decimal": 1.03,
+            "usd": 1222.38126,
+            "native": 1.03
+          }
+        },
+        "maker": "0x5c2040e24c4b1d03a6f682f4e15cde173f260871",
+        "validFrom": 1671546250,
+        "validUntil": 1671632650,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x466cfcd0525189b573e794f554b8a751279213ac/7927"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "1054",
+      "name": "Dooplicator #1054",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a988b898a00d57f76198ed060ee5a8d3ae22c9c6ff4268c86619c352b10a459595da7181cd7da74d13fa8f56186049c10d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T13:00:42.389Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": 1.29628,
+        "timestamp": 1663106880
+      },
+      "lastSell": {
+        "value": 0.785,
+        "timestamp": 1666609055
+      },
+      "owner": "0x0f407ba4f2d39bf4fff305aeca1a272715c2d3de"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x8cad7866401c78b34186c22fb2ce81116cdc8bc01ef21831d3f8d5a53426b6d0",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1038000000000000000",
+            "decimal": 1.038,
+            "usd": 1231.87548,
+            "native": 1.038
+          }
+        },
+        "maker": "0x0f407ba4f2d39bf4fff305aeca1a272715c2d3de",
+        "validFrom": 1671541100,
+        "validUntil": 1671618129,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x466cfcd0525189b573e794f554b8a751279213ac/1054"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "1006",
+      "name": "Dooplicator #1006",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbbddbc674446b9f559e99e94e44f7e4029d5b935164d0b65b114e23650fa2cc4876f8c6007de3df1f904c7b8b4a9fad71bd65932058c62230b7c4fb9ee246f3c0b5b8c41537380d0ffa00a4be331adfdbbe3278547b8fd93837d54fd42df532637a772fac3176fe9575e5905e0579ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-14T23:38:31.091Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.785,
+        "timestamp": 1666609055
+      },
+      "owner": "0x0f407ba4f2d39bf4fff305aeca1a272715c2d3de"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x22edf4189ab10ee203208ed20bcbaa6e9c48e0ad954132a462c54a4b3d6e3602",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1038900000000000000",
+            "decimal": 1.0389,
+            "usd": 1232.94358,
+            "native": 1.0389
+          }
+        },
+        "maker": "0x0f407ba4f2d39bf4fff305aeca1a272715c2d3de",
+        "validFrom": 1671541496,
+        "validUntil": 1671561434,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x466cfcd0525189b573e794f554b8a751279213ac/1006"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "1407",
+      "name": "Dooplicator #1407",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbbddbc674446b9f559e99e94e44f7e4029d5b935164d0b65b114e23650fa2cc4876f8c6007de3df1f904c7b8b4a9fad71bd65932058c62230b7c4fb9ee246f3c0b5b8c41537380d0ffa00a4be331adfdbbe3278547b8fd93837d54fd42df532637a772fac3176fe9575e5905e0579ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-14T23:38:14.817Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.785,
+        "timestamp": 1666609055
+      },
+      "owner": "0x0f407ba4f2d39bf4fff305aeca1a272715c2d3de"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x6fa0da2a089ad27958053d5a587d945a3cd3c893e4d692583ebdc6f2e09c4801",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1038900000000000000",
+            "decimal": 1.0389,
+            "usd": 1232.94358,
+            "native": 1.0389
+          }
+        },
+        "maker": "0x0f407ba4f2d39bf4fff305aeca1a272715c2d3de",
+        "validFrom": 1671541522,
+        "validUntil": 1671627922,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x466cfcd0525189b573e794f554b8a751279213ac/1407"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "8284",
+      "name": "Dooplicator #8284",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a988b898a00d57f76198ed060ee5a8d3ae22c9c6ff4268c86619c352b10a459595da7181cd7da74d13fa8f56186049c10d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T10:23:43.196Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": 0.765,
+        "timestamp": 1666787627
+      },
+      "lastSell": {
+        "value": 1.088,
+        "timestamp": 1665284579
+      },
+      "owner": "0x0f407ba4f2d39bf4fff305aeca1a272715c2d3de"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xfacd7ca6252edd4d75ca82ead786794d42c5f6e793d164232ea9edc7584e88ad",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1038900000000000000",
+            "decimal": 1.0389,
+            "usd": 1232.94358,
+            "native": 1.0389
+          }
+        },
+        "maker": "0x0f407ba4f2d39bf4fff305aeca1a272715c2d3de",
+        "validFrom": 1671541177,
+        "validUntil": 1671618071,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x466cfcd0525189b573e794f554b8a751279213ac/8284"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "1330",
+      "name": "Dooplicator #1330",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a988b898a00d57f76198ed060ee5a8d3ae22c9c6ff4268c86619c352b10a459595da7181cd7da74d13fa8f56186049c10d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T22:48:31.146Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.85,
+        "timestamp": 1670117363
+      },
+      "owner": "0x7e76be39fd9badcbf75fb1af09a129e83c10271b"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x4859ab991d69bcd65af421a2e0e2166771029d1d7da661dd0cda912f82634b98",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1043000000000000000",
+            "decimal": 1.043,
+            "usd": 1237.80937,
+            "native": 1.043
+          }
+        },
+        "maker": "0x7e76be39fd9badcbf75fb1af09a129e83c10271b",
+        "validFrom": 1671489866,
+        "validUntil": 1671576266,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x466cfcd0525189b573e794f554b8a751279213ac/1330"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "6426",
+      "name": "Dooplicator #6426",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbbddbc674446b9f559e99e94e44f7e4029d5b935164d0b65b114e23650fa2cc4876f8c6007de3df1f904c7b8b4a9fad71bd65932058c62230b7c4fb9ee246f3c0b5b8c41537380d0ffa00a4be331adfdbbe3278547b8fd93837d54fd42df532637a772fac3176fe9575e5905e0579ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-14T23:34:58.309Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.77,
+        "timestamp": 1666703471
+      },
+      "owner": "0xff3023d7670aaef12fb4581d40dfc9eaa003c17f"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x98ef81ed6edce4d181e91ec4df78b0c54e49938dc022eabe9de598a7587c1d32",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1043000000000000000",
+            "decimal": 1.043,
+            "usd": 1237.80937,
+            "native": 1.043
+          }
+        },
+        "maker": "0xff3023d7670aaef12fb4581d40dfc9eaa003c17f",
+        "validFrom": 1671493291,
+        "validUntil": 1674171691,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x466cfcd0525189b573e794f554b8a751279213ac/6426"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "3124",
+      "name": "Dooplicator #3124",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbbddbc674446b9f559e99e94e44f7e4029d5b935164d0b65b114e23650fa2cc4876f8c6007de3df1f904c7b8b4a9fad71bd65932058c62230b7c4fb9ee246f3c0b5b8c41537380d0ffa00a4be331adfdbbe3278547b8fd93837d54fd42df532637a772fac3176fe9575e5905e0579ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": true,
+      "lastFlagUpdate": "2022-12-14T23:37:10.219Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": 0.56,
+        "timestamp": 1669298255
+      },
+      "lastSell": {
+        "value": 0.969,
+        "timestamp": 1671475463
+      },
+      "owner": "0xa7e7994dbe7ab8d18e18eadb128fed995245d11e"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x65f725a5f838908144d723a922c65391cf68c47fdfbf98d1b26635dc6132728d",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1050000000000000000",
+            "decimal": 1.05,
+            "usd": 1246.11682,
+            "native": 1.05
+          }
+        },
+        "maker": "0xa7e7994dbe7ab8d18e18eadb128fed995245d11e",
+        "validFrom": 1671493176,
+        "validUntil": 1671579563,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0x466cfcd0525189b573e794f554b8a751279213ac/3124"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "2723",
+      "name": "Dooplicator #2723",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbbddbc674446b9f559e99e94e44f7e4029d5b935164d0b65b114e23650fa2cc4876f8c6007de3df1f904c7b8b4a9fad71bd65932058c62230b7c4fb9ee246f3c0b5b8c41537380d0ffa00a4be331adfdbbe3278547b8fd93837d54fd42df532637a772fac3176fe9575e5905e0579ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-14T23:37:23.955Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x78b8e237da3e45567238e8531caef990ff213f31"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x9636d6770d54969026bdc7c972cf33a41e1194fef73c5bbe48c14163b1f83d59",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1058000000000000000",
+            "decimal": 1.058,
+            "usd": 1255.61104,
+            "native": 1.058
+          }
+        },
+        "maker": "0x78b8e237da3e45567238e8531caef990ff213f31",
+        "validFrom": 1671526619,
+        "validUntil": 1674205019,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x466cfcd0525189b573e794f554b8a751279213ac/2723"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "7439",
+      "name": "Dooplicator #7439",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbbddbc674446b9f559e99e94e44f7e4029d5b935164d0b65b114e23650fa2cc4876f8c6007de3df1f904c7b8b4a9fad71bd65932058c62230b7c4fb9ee246f3c0b5b8c41537380d0ffa00a4be331adfdbbe3278547b8fd93837d54fd42df532637a772fac3176fe9575e5905e0579ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-14T23:34:19.541Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.6,
+        "timestamp": 1667442167
+      },
+      "owner": "0x9bbd708653f4f105d5eadd19607b7f360fa787af"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xf1a339df71f5f2c5ac2ab42ed88a0f04ffaca1bc5e95eb7003d55c164901dd30",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1090800000000000000",
+            "decimal": 1.0908,
+            "usd": 1294.53736,
+            "native": 1.0908
+          }
+        },
+        "maker": "0x9bbd708653f4f105d5eadd19607b7f360fa787af",
+        "validFrom": 1671495753,
+        "validUntil": 1671582155,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0x466cfcd0525189b573e794f554b8a751279213ac/7439"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "7228",
+      "name": "Dooplicator #7228",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbbddbc674446b9f559e99e94e44f7e4029d5b935164d0b65b114e23650fa2cc4876f8c6007de3df1f904c7b8b4a9fad71bd65932058c62230b7c4fb9ee246f3c0b5b8c41537380d0ffa00a4be331adfdbbe3278547b8fd93837d54fd42df532637a772fac3176fe9575e5905e0579ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-14T23:34:27.853Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": 0.73,
+        "timestamp": 1669867979
+      },
+      "lastSell": {
+        "value": 1.3,
+        "timestamp": 1658114256
+      },
+      "owner": "0xa276642f44fabb64d4d1b84fe0ffb8742a0a699f"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xc3c20cb806e4ec48b8f40797d01a9432de066257d45df12aa0c0dda511374f51",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1096900000000000000",
+            "decimal": 1.0969,
+            "usd": 1301.7767,
+            "native": 1.0969
+          }
+        },
+        "maker": "0xa276642f44fabb64d4d1b84fe0ffb8742a0a699f",
+        "validFrom": 1671530428,
+        "validUntil": 1671616948,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x466cfcd0525189b573e794f554b8a751279213ac/7228"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "3919",
+      "name": "Dooplicator #3919",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbbddbc674446b9f559e99e94e44f7e4029d5b935164d0b65b114e23650fa2cc4876f8c6007de3df1f904c7b8b4a9fad71bd65932058c62230b7c4fb9ee246f3c0b5b8c41537380d0ffa00a4be331adfdbbe3278547b8fd93837d54fd42df532637a772fac3176fe9575e5905e0579ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-14T23:36:38.638Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.985,
+        "timestamp": 1664944043
+      },
+      "owner": "0x8018bbadf493a80051ab73b83df31d1bf37790b6"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x2313d1dce9d904a6ced390fc17cebda3ec666fd7a98f8ee90648ec1e68e6db97",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1100000000000000000",
+            "decimal": 1.1,
+            "usd": 1305.45571,
+            "native": 1.1
+          }
+        },
+        "maker": "0x8018bbadf493a80051ab73b83df31d1bf37790b6",
+        "validFrom": 1671491491,
+        "validUntil": 1671737378,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x466cfcd0525189b573e794f554b8a751279213ac/3919"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "5329",
+      "name": "Dooplicator #5329",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbbddbc674446b9f559e99e94e44f7e4029d5b935164d0b65b114e23650fa2cc4876f8c6007de3df1f904c7b8b4a9fad71bd65932058c62230b7c4fb9ee246f3c0b5b8c41537380d0ffa00a4be331adfdbbe3278547b8fd93837d54fd42df532637a772fac3176fe9575e5905e0579ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-14T23:35:45.311Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": 0.99,
+        "timestamp": 1666024655
+      },
+      "lastSell": {
+        "value": 0.99,
+        "timestamp": 1671489623
+      },
+      "owner": "0xb65be727cf840c86c50e89c024090097f25de93a"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x5c2b035da14d5d9261f904bd1b2412eabcef987808a87d78023d04eeb53a503c",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1100000000000000000",
+            "decimal": 1.1,
+            "usd": 1305.45571,
+            "native": 1.1
+          }
+        },
+        "maker": "0xb65be727cf840c86c50e89c024090097f25de93a",
+        "validFrom": 1671490192,
+        "validUntil": 1674082187,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0x466cfcd0525189b573e794f554b8a751279213ac/5329"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "6332",
+      "name": "Dooplicator #6332",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbbddbc674446b9f559e99e94e44f7e4029d5b935164d0b65b114e23650fa2cc4876f8c6007de3df1f904c7b8b4a9fad71bd65932058c62230b7c4fb9ee246f3c0b5b8c41537380d0ffa00a4be331adfdbbe3278547b8fd93837d54fd42df532637a772fac3176fe9575e5905e0579ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-14T23:35:02.471Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": 0.99,
+        "timestamp": 1666026095
+      },
+      "lastSell": {
+        "value": 0.99,
+        "timestamp": 1671489623
+      },
+      "owner": "0xb65be727cf840c86c50e89c024090097f25de93a"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xb675fd5de205241996acc452a98820fe4c3583d90f210fbffb35aebcb09d88fd",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1100000000000000000",
+            "decimal": 1.1,
+            "usd": 1305.45571,
+            "native": 1.1
+          }
+        },
+        "maker": "0xb65be727cf840c86c50e89c024090097f25de93a",
+        "validFrom": 1671490165,
+        "validUntil": 1674082159,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0x466cfcd0525189b573e794f554b8a751279213ac/6332"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "8056",
+      "name": "Dooplicator #8056",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbbddbc674446b9f559e99e94e44f7e4029d5b935164d0b65b114e23650fa2cc4876f8c6007de3df1f904c7b8b4a9fad71bd65932058c62230b7c4fb9ee246f3c0b5b8c41537380d0ffa00a4be331adfdbbe3278547b8fd93837d54fd42df532637a772fac3176fe9575e5905e0579ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-14T23:33:56.563Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": 0.6857,
+        "timestamp": 1668174491
+      },
+      "lastSell": {
+        "value": 0.99,
+        "timestamp": 1671489623
+      },
+      "owner": "0xb65be727cf840c86c50e89c024090097f25de93a"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x50f417e8074552e481f282488d1634f38f041245706968fc1c6c78ee933d19e6",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1100000000000000000",
+            "decimal": 1.1,
+            "usd": 1305.45571,
+            "native": 1.1
+          }
+        },
+        "maker": "0xb65be727cf840c86c50e89c024090097f25de93a",
+        "validFrom": 1671490137,
+        "validUntil": 1674082103,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0x466cfcd0525189b573e794f554b8a751279213ac/8056"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "1629",
+      "name": "Dooplicator #1629",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbbddbc674446b9f559e99e94e44f7e4029d5b935164d0b65b114e23650fa2cc4876f8c6007de3df1f904c7b8b4a9fad71bd65932058c62230b7c4fb9ee246f3c0b5b8c41537380d0ffa00a4be331adfdbbe3278547b8fd93837d54fd42df532637a772fac3176fe9575e5905e0579ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-14T23:38:07.619Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x7b59793ad075e4ce1e35181054759c080b8d965d"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xd49c1fdb8015e3a96ad1b7b973ac1290b169ce056ecb631fe1c95c8e7ac692b2",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1102700000000000000",
+            "decimal": 1.1027,
+            "usd": 1308.66001,
+            "native": 1.1027
+          }
+        },
+        "maker": "0x7b59793ad075e4ce1e35181054759c080b8d965d",
+        "validFrom": 1671496198,
+        "validUntil": 1672100996,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x466cfcd0525189b573e794f554b8a751279213ac/1629"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "1630",
+      "name": "Dooplicator #1630",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbbddbc674446b9f559e99e94e44f7e4029d5b935164d0b65b114e23650fa2cc4876f8c6007de3df1f904c7b8b4a9fad71bd65932058c62230b7c4fb9ee246f3c0b5b8c41537380d0ffa00a4be331adfdbbe3278547b8fd93837d54fd42df532637a772fac3176fe9575e5905e0579ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-14T23:38:07.620Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x7b59793ad075e4ce1e35181054759c080b8d965d"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x692ade6b026dd60005c6f96026b778822b6686d2696ec20d441f9386896c79f3",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1102700000000000000",
+            "decimal": 1.1027,
+            "usd": 1308.66001,
+            "native": 1.1027
+          }
+        },
+        "maker": "0x7b59793ad075e4ce1e35181054759c080b8d965d",
+        "validFrom": 1671496208,
+        "validUntil": 1672101007,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x466cfcd0525189b573e794f554b8a751279213ac/1630"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "1631",
+      "name": "Dooplicator #1631",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbbddbc674446b9f559e99e94e44f7e4029d5b935164d0b65b114e23650fa2cc4876f8c6007de3df1f904c7b8b4a9fad71bd65932058c62230b7c4fb9ee246f3c0b5b8c41537380d0ffa00a4be331adfdbbe3278547b8fd93837d54fd42df532637a772fac3176fe9575e5905e0579ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-14T23:38:07.596Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x7b59793ad075e4ce1e35181054759c080b8d965d"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x3eb40afcc0e949b04c886e6bba904611b9e0732e5c8ea42177fddd54e7ecb8d4",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1102700000000000000",
+            "decimal": 1.1027,
+            "usd": 1308.66001,
+            "native": 1.1027
+          }
+        },
+        "maker": "0x7b59793ad075e4ce1e35181054759c080b8d965d",
+        "validFrom": 1671496216,
+        "validUntil": 1672101015,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x466cfcd0525189b573e794f554b8a751279213ac/1631"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "2332",
+      "name": "Dooplicator #2332",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbbddbc674446b9f559e99e94e44f7e4029d5b935164d0b65b114e23650fa2cc4876f8c6007de3df1f904c7b8b4a9fad71bd65932058c62230b7c4fb9ee246f3c0b5b8c41537380d0ffa00a4be331adfdbbe3278547b8fd93837d54fd42df532637a772fac3176fe9575e5905e0579ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-14T23:37:40.638Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": 0.8003,
+        "timestamp": 1662346698
+      },
+      "lastSell": {
+        "value": 0.892,
+        "timestamp": 1662363567
+      },
+      "owner": "0x5f4636987116de33e8a033db1eaa77265542d1cf"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x82d9790ee36cc159b8896a427e5a49f65fe622b2cbcc97692cae9267cfa21ff0",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1102700000000000000",
+            "decimal": 1.1027,
+            "usd": 1308.66001,
+            "native": 1.1027
+          }
+        },
+        "maker": "0x5f4636987116de33e8a033db1eaa77265542d1cf",
+        "validFrom": 1671477758,
+        "validUntil": 1687029756,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x466cfcd0525189b573e794f554b8a751279213ac/2332"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "4045",
+      "name": "Dooplicator #4045",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbbddbc674446b9f559e99e94e44f7e4029d5b935164d0b65b114e23650fa2cc4876f8c6007de3df1f904c7b8b4a9fad71bd65932058c62230b7c4fb9ee246f3c0b5b8c41537380d0ffa00a4be331adfdbbe3278547b8fd93837d54fd42df532637a772fac3176fe9575e5905e0579ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-14T23:36:34.035Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": 0.7988,
+        "timestamp": 1666637567
+      },
+      "lastSell": {
+        "value": 0.75,
+        "timestamp": 1666636451
+      },
+      "owner": "0x5f4636987116de33e8a033db1eaa77265542d1cf"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x3a4c253fcc1c77378f9ab1b6bd6bb4d074fadb7f911d04abf85e79b2338c29e4",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1102700000000000000",
+            "decimal": 1.1027,
+            "usd": 1308.66001,
+            "native": 1.1027
+          }
+        },
+        "maker": "0x5f4636987116de33e8a033db1eaa77265542d1cf",
+        "validFrom": 1671477699,
+        "validUntil": 1687029697,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x466cfcd0525189b573e794f554b8a751279213ac/4045"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "6738",
+      "name": "Dooplicator #6738",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbbddbc674446b9f559e99e94e44f7e4029d5b935164d0b65b114e23650fa2cc4876f8c6007de3df1f904c7b8b4a9fad71bd65932058c62230b7c4fb9ee246f3c0b5b8c41537380d0ffa00a4be331adfdbbe3278547b8fd93837d54fd42df532637a772fac3176fe9575e5905e0579ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-14T23:34:46.995Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": 1.38,
+        "timestamp": 1658019682
+      },
+      "lastSell": {
+        "value": 0.799,
+        "timestamp": 1666637567
+      },
+      "owner": "0x5f4636987116de33e8a033db1eaa77265542d1cf"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xead052fbcee1739bad1397b5c3ae737a1dfee554bdb9bca17d1988be19b57671",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1102700000000000000",
+            "decimal": 1.1027,
+            "usd": 1308.66001,
+            "native": 1.1027
+          }
+        },
+        "maker": "0x5f4636987116de33e8a033db1eaa77265542d1cf",
+        "validFrom": 1671477714,
+        "validUntil": 1687029713,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x466cfcd0525189b573e794f554b8a751279213ac/6738"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "1223",
+      "name": "Dooplicator #1223",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbbddbc674446b9f559e99e94e44f7e4029d5b935164d0b65b114e23650fa2cc4876f8c6007de3df1f904c7b8b4a9fad71bd65932058c62230b7c4fb9ee246f3c0b5b8c41537380d0ffa00a4be331adfdbbe3278547b8fd93837d54fd42df532637a772fac3176fe9575e5905e0579ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-14T23:38:22.130Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.845,
+        "timestamp": 1671395591
+      },
+      "owner": "0xbdba56dac0c99fa9a020045d9ccc774ed2489558"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xe321b14f8dc7bd54fe82a7f7ffa43343c7df2263ae6bb50ba7d1de714fad4535",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1134100000000000000",
+            "decimal": 1.1341,
+            "usd": 1345.92484,
+            "native": 1.1341
+          }
+        },
+        "maker": "0xbdba56dac0c99fa9a020045d9ccc774ed2489558",
+        "validFrom": 1671488812,
+        "validUntil": 1674080809,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x466cfcd0525189b573e794f554b8a751279213ac/1223"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "7442",
+      "name": "Dooplicator #7442",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbbddbc674446b9f559e99e94e44f7e4029d5b935164d0b65b114e23650fa2cc4876f8c6007de3df1f904c7b8b4a9fad71bd65932058c62230b7c4fb9ee246f3c0b5b8c41537380d0ffa00a4be331adfdbbe3278547b8fd93837d54fd42df532637a772fac3176fe9575e5905e0579ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-14T23:34:19.543Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.6,
+        "timestamp": 1667442059
+      },
+      "owner": "0x9bbd708653f4f105d5eadd19607b7f360fa787af"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x5c762d6da7c4b500ba6ae6718e4cf898e7000f96ea0c6d375082060677f58125",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1142900000000000000",
+            "decimal": 1.1429,
+            "usd": 1356.36848,
+            "native": 1.1429
+          }
+        },
+        "maker": "0x9bbd708653f4f105d5eadd19607b7f360fa787af",
+        "validFrom": 1671480311,
+        "validUntil": 1671566713,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0x466cfcd0525189b573e794f554b8a751279213ac/7442"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "1417",
+      "name": "Dooplicator #1417",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbbddbc674446b9f559e99e94e44f7e4029d5b935164d0b65b114e23650fa2cc4876f8c6007de3df1f904c7b8b4a9fad71bd65932058c62230b7c4fb9ee246f3c0b5b8c41537380d0ffa00a4be331adfdbbe3278547b8fd93837d54fd42df532637a772fac3176fe9575e5905e0579ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-14T23:38:15.101Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": 0.7831,
+        "timestamp": 1670895455
+      },
+      "lastSell": {
+        "value": 0.7,
+        "timestamp": 1669193099
+      },
+      "owner": "0xe3c17823bf6db35b52d07d88ac182dce3f2b926e"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xd81933d6e090be82d7fcf0c58aa06ba9d85b83ff4dcf6f0586422d48f282ce59",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1150000000000000000",
+            "decimal": 1.15,
+            "usd": 1364.79461,
+            "native": 1.15
+          }
+        },
+        "maker": "0xe3c17823bf6db35b52d07d88ac182dce3f2b926e",
+        "validFrom": 1671484446,
+        "validUntil": 1672089236,
+        "source": {
+          "id": "0xdc28ffaea1f91a88fb6fd0a8fe70d71bdd64284c",
+          "domain": "x2y2.io",
+          "name": "X2Y2",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/x2y2-logo.png",
+          "url": "https://x2y2.io/eth/0x466cfcd0525189b573e794f554b8a751279213ac/1417"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "4413",
+      "name": "Dooplicator #4413",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbbddbc674446b9f559e99e94e44f7e4029d5b935164d0b65b114e23650fa2cc4876f8c6007de3df1f904c7b8b4a9fad71bd65932058c62230b7c4fb9ee246f3c0b5b8c41537380d0ffa00a4be331adfdbbe3278547b8fd93837d54fd42df532637a772fac3176fe9575e5905e0579ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-14T23:36:21.006Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.7999,
+        "timestamp": 1667026211
+      },
+      "owner": "0x6ee6c3f0416daa2b85172813c4f51a795939df2e"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xaaaa636dea0b5994d5286eed99222a583455d484ac014889555c5f1e2d73b2ac",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1150000000000000000",
+            "decimal": 1.15,
+            "usd": 1364.79461,
+            "native": 1.15
+          }
+        },
+        "maker": "0x6ee6c3f0416daa2b85172813c4f51a795939df2e",
+        "validFrom": 1671489059,
+        "validUntil": 1674167459,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x466cfcd0525189b573e794f554b8a751279213ac/4413"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "1550",
+      "name": "Dooplicator #1550",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbbddbc674446b9f559e99e94e44f7e4029d5b935164d0b65b114e23650fa2cc4876f8c6007de3df1f904c7b8b4a9fad71bd65932058c62230b7c4fb9ee246f3c0b5b8c41537380d0ffa00a4be331adfdbbe3278547b8fd93837d54fd42df532637a772fac3176fe9575e5905e0579ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-14T23:38:10.309Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 1.1,
+        "timestamp": 1671474539
+      },
+      "owner": "0x28358cef6f55f9746c9c26c62e5728036b4f64b8"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x4f7516e2e3cd4ba02c96ac66cb48c3016453ac27fc47ad6b11002b982ff38f41",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1189200000000000000",
+            "decimal": 1.1892,
+            "usd": 1411.3163,
+            "native": 1.1892
+          }
+        },
+        "maker": "0x28358cef6f55f9746c9c26c62e5728036b4f64b8",
+        "validFrom": 1671480621,
+        "validUntil": 1671567020,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x466cfcd0525189b573e794f554b8a751279213ac/1550"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "1628",
+      "name": "Dooplicator #1628",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbbddbc674446b9f559e99e94e44f7e4029d5b935164d0b65b114e23650fa2cc4876f8c6007de3df1f904c7b8b4a9fad71bd65932058c62230b7c4fb9ee246f3c0b5b8c41537380d0ffa00a4be331adfdbbe3278547b8fd93837d54fd42df532637a772fac3176fe9575e5905e0579ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-14T23:38:07.620Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": 1.052,
+        "timestamp": 1665043739
+      },
+      "lastSell": {
+        "value": 2,
+        "timestamp": 1657171461
+      },
+      "owner": "0xfb643c546acae32584ecd283f97803f344a39f1b"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x977b212d05564944a6a39cae93dde11dd03dbfa81fdc061704256a57c7df9e7b",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1190000000000000000",
+            "decimal": 1.19,
+            "usd": 1412.26572,
+            "native": 1.19
+          }
+        },
+        "maker": "0xfb643c546acae32584ecd283f97803f344a39f1b",
+        "validFrom": 1671541485,
+        "validUntil": 1674219885,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x466cfcd0525189b573e794f554b8a751279213ac/1628"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "3173",
+      "name": "Dooplicator #3173",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbbddbc674446b9f559e99e94e44f7e4029d5b935164d0b65b114e23650fa2cc4876f8c6007de3df1f904c7b8b4a9fad71bd65932058c62230b7c4fb9ee246f3c0b5b8c41537380d0ffa00a4be331adfdbbe3278547b8fd93837d54fd42df532637a772fac3176fe9575e5905e0579ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-14T23:37:07.937Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": 0.7811,
+        "timestamp": 1670928695
+      },
+      "lastSell": {
+        "value": 2.147,
+        "timestamp": 1656607457
+      },
+      "owner": "0xe3c17823bf6db35b52d07d88ac182dce3f2b926e"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x57108227eb9b21008ce44d64bdd6c250d1f602fccf859c884c40c645c404ea6a",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1190000000000000000",
+            "decimal": 1.19,
+            "usd": 1412.26572,
+            "native": 1.19
+          }
+        },
+        "maker": "0xe3c17823bf6db35b52d07d88ac182dce3f2b926e",
+        "validFrom": 1671481072,
+        "validUntil": 1674073056,
+        "source": {
+          "id": "0xdc28ffaea1f91a88fb6fd0a8fe70d71bdd64284c",
+          "domain": "x2y2.io",
+          "name": "X2Y2",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/x2y2-logo.png",
+          "url": "https://x2y2.io/eth/0x466cfcd0525189b573e794f554b8a751279213ac/3173"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "3477",
+      "name": "Dooplicator #3477",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbbddbc674446b9f559e99e94e44f7e4029d5b935164d0b65b114e23650fa2cc4876f8c6007de3df1f904c7b8b4a9fad71bd65932058c62230b7c4fb9ee246f3c0b5b8c41537380d0ffa00a4be331adfdbbe3278547b8fd93837d54fd42df532637a772fac3176fe9575e5905e0579ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-14T23:36:57.507Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": 1.052,
+        "timestamp": 1665043799
+      },
+      "lastSell": {
+        "value": 2,
+        "timestamp": 1657171357
+      },
+      "owner": "0xfb643c546acae32584ecd283f97803f344a39f1b"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x69f96b1766cb1f3c2592ef62bf72932b23c700efee435f5c453f193c6feb78b7",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1190000000000000000",
+            "decimal": 1.19,
+            "usd": 1412.26572,
+            "native": 1.19
+          }
+        },
+        "maker": "0xfb643c546acae32584ecd283f97803f344a39f1b",
+        "validFrom": 1671541439,
+        "validUntil": 1674219839,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x466cfcd0525189b573e794f554b8a751279213ac/3477"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "5163",
+      "name": "Dooplicator #5163",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbbddbc674446b9f559e99e94e44f7e4029d5b935164d0b65b114e23650fa2cc4876f8c6007de3df1f904c7b8b4a9fad71bd65932058c62230b7c4fb9ee246f3c0b5b8c41537380d0ffa00a4be331adfdbbe3278547b8fd93837d54fd42df532637a772fac3176fe9575e5905e0579ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-14T23:35:51.874Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": 1.0504,
+        "timestamp": 1664996639
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xfb643c546acae32584ecd283f97803f344a39f1b"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xd4f5b94122d4af4688558edb8aad7816b1d3fdc131296b63a670b76d5e857829",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1190000000000000000",
+            "decimal": 1.19,
+            "usd": 1412.26572,
+            "native": 1.19
+          }
+        },
+        "maker": "0xfb643c546acae32584ecd283f97803f344a39f1b",
+        "validFrom": 1671541506,
+        "validUntil": 1674219906,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x466cfcd0525189b573e794f554b8a751279213ac/5163"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "5848",
+      "name": "Dooplicator #5848",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbbddbc674446b9f559e99e94e44f7e4029d5b935164d0b65b114e23650fa2cc4876f8c6007de3df1f904c7b8b4a9fad71bd65932058c62230b7c4fb9ee246f3c0b5b8c41537380d0ffa00a4be331adfdbbe3278547b8fd93837d54fd42df532637a772fac3176fe9575e5905e0579ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-14T23:35:25.789Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": 0.6303,
+        "timestamp": 1667453879
+      },
+      "lastSell": {
+        "value": 0.7149,
+        "timestamp": 1667009051
+      },
+      "owner": "0xb1e7f3cf59b5961311add10ce7547285f803129d"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x6516f22ba782b9762414dba5652686b4322a1ae939bbe7b2709e007ad3ff2d48",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1190000000000000000",
+            "decimal": 1.19,
+            "usd": 1412.26572,
+            "native": 1.19
+          }
+        },
+        "maker": "0xb1e7f3cf59b5961311add10ce7547285f803129d",
+        "validFrom": 1671529875,
+        "validUntil": 1672734008,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x466cfcd0525189b573e794f554b8a751279213ac/5848"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "8160",
+      "name": "Dooplicator #8160",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbbddbc674446b9f559e99e94e44f7e4029d5b935164d0b65b114e23650fa2cc4876f8c6007de3df1f904c7b8b4a9fad71bd65932058c62230b7c4fb9ee246f3c0b5b8c41537380d0ffa00a4be331adfdbbe3278547b8fd93837d54fd42df532637a772fac3176fe9575e5905e0579ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-14T23:33:52.873Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.7,
+        "timestamp": 1669130915
+      },
+      "owner": "0x09fa042684a842758cd32ed819e18782f429ba11"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x776c452cae27a86077c3e0d72b2e954199e0c59462e4fe7c3a62c447a2109708",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1190000000000000000",
+            "decimal": 1.19,
+            "usd": 1412.26572,
+            "native": 1.19
+          }
+        },
+        "maker": "0x09fa042684a842758cd32ed819e18782f429ba11",
+        "validFrom": 1671477093,
+        "validUntil": 1671563493,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x466cfcd0525189b573e794f554b8a751279213ac/8160"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "61",
+      "name": "Dooplicator #61",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbbddbc674446b9f559e99e94e44f7e4029d5b935164d0b65b114e23650fa2cc4876f8c6007de3df1f904c7b8b4a9fad71bd65932058c62230b7c4fb9ee246f3c0b5b8c41537380d0ffa00a4be331adfdbbe3278547b8fd93837d54fd42df532637a772fac3176fe9575e5905e0579ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-14T23:39:07.310Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 2.51,
+        "timestamp": 1656104281
+      },
+      "owner": "0x53e0a4cb7d6dafa184f0ffe4e59a1039a3fadf80"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x9681ec4c160e61936f6d55e12000acc0d42fe105adda78edf28cf2235bb2a01f",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1190000000000000126",
+            "decimal": 1.19,
+            "usd": 1412.26572,
+            "native": 1.19
+          }
+        },
+        "maker": "0x53e0a4cb7d6dafa184f0ffe4e59a1039a3fadf80",
+        "validFrom": 1670641055,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x466cfcd0525189b573e794f554b8a751279213ac/61"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "311",
+      "name": "Dooplicator #311",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbbddbc674446b9f559e99e94e44f7e4029d5b935164d0b65b114e23650fa2cc4876f8c6007de3df1f904c7b8b4a9fad71bd65932058c62230b7c4fb9ee246f3c0b5b8c41537380d0ffa00a4be331adfdbbe3278547b8fd93837d54fd42df532637a772fac3176fe9575e5905e0579ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-14T23:38:58.172Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 1.4,
+        "timestamp": 1658103899
+      },
+      "owner": "0x53e0a4cb7d6dafa184f0ffe4e59a1039a3fadf80"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x5c0ea8193f1762e34387f43a941a6ad85582aaf215b00f56b72117311d845d6d",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1190000000000000126",
+            "decimal": 1.19,
+            "usd": 1412.26572,
+            "native": 1.19
+          }
+        },
+        "maker": "0x53e0a4cb7d6dafa184f0ffe4e59a1039a3fadf80",
+        "validFrom": 1670641055,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x466cfcd0525189b573e794f554b8a751279213ac/311"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "341",
+      "name": "Dooplicator #341",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbbddbc674446b9f559e99e94e44f7e4029d5b935164d0b65b114e23650fa2cc4876f8c6007de3df1f904c7b8b4a9fad71bd65932058c62230b7c4fb9ee246f3c0b5b8c41537380d0ffa00a4be331adfdbbe3278547b8fd93837d54fd42df532637a772fac3176fe9575e5905e0579ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-14T23:38:56.624Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 2.35,
+        "timestamp": 1656183317
+      },
+      "owner": "0x53e0a4cb7d6dafa184f0ffe4e59a1039a3fadf80"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xb2febf58cf366eb2d1e3d1797c2f46ec75deab3b75d13edac07ab565a992cb57",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1190000000000000126",
+            "decimal": 1.19,
+            "usd": 1412.26572,
+            "native": 1.19
+          }
+        },
+        "maker": "0x53e0a4cb7d6dafa184f0ffe4e59a1039a3fadf80",
+        "validFrom": 1670641055,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x466cfcd0525189b573e794f554b8a751279213ac/341"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "541",
+      "name": "Dooplicator #541",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbbddbc674446b9f559e99e94e44f7e4029d5b935164d0b65b114e23650fa2cc4876f8c6007de3df1f904c7b8b4a9fad71bd65932058c62230b7c4fb9ee246f3c0b5b8c41537380d0ffa00a4be331adfdbbe3278547b8fd93837d54fd42df532637a772fac3176fe9575e5905e0579ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-14T23:38:49.983Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 2.09,
+        "timestamp": 1656518526
+      },
+      "owner": "0x53e0a4cb7d6dafa184f0ffe4e59a1039a3fadf80"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x33f537f864c6ddcc5bf8c494cb678d8f1075962c693c0ca01a207d7a4bc07220",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1190000000000000126",
+            "decimal": 1.19,
+            "usd": 1412.26572,
+            "native": 1.19
+          }
+        },
+        "maker": "0x53e0a4cb7d6dafa184f0ffe4e59a1039a3fadf80",
+        "validFrom": 1670641055,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x466cfcd0525189b573e794f554b8a751279213ac/541"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "1022",
+      "name": "Dooplicator #1022",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbbddbc674446b9f559e99e94e44f7e4029d5b935164d0b65b114e23650fa2cc4876f8c6007de3df1f904c7b8b4a9fad71bd65932058c62230b7c4fb9ee246f3c0b5b8c41537380d0ffa00a4be331adfdbbe3278547b8fd93837d54fd42df532637a772fac3176fe9575e5905e0579ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-14T23:38:30.102Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x53e0a4cb7d6dafa184f0ffe4e59a1039a3fadf80"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x8a282325cc5f232c643bec5c785ba170edf25d4cc13a7ac97e7405873e739ce2",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1190000000000000126",
+            "decimal": 1.19,
+            "usd": 1412.26572,
+            "native": 1.19
+          }
+        },
+        "maker": "0x53e0a4cb7d6dafa184f0ffe4e59a1039a3fadf80",
+        "validFrom": 1670641055,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x466cfcd0525189b573e794f554b8a751279213ac/1022"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "5743",
+      "name": "Dooplicator #5743",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbbddbc674446b9f559e99e94e44f7e4029d5b935164d0b65b114e23650fa2cc4876f8c6007de3df1f904c7b8b4a9fad71bd65932058c62230b7c4fb9ee246f3c0b5b8c41537380d0ffa00a4be331adfdbbe3278547b8fd93837d54fd42df532637a772fac3176fe9575e5905e0579ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-14T23:35:28.912Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 2.35,
+        "timestamp": 1656183317
+      },
+      "owner": "0x53e0a4cb7d6dafa184f0ffe4e59a1039a3fadf80"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xfbbb72a58655c18fd8e723f36f2631b739b3599762696f1ebe63aa5b3e45e004",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1190000000000000126",
+            "decimal": 1.19,
+            "usd": 1412.26572,
+            "native": 1.19
+          }
+        },
+        "maker": "0x53e0a4cb7d6dafa184f0ffe4e59a1039a3fadf80",
+        "validFrom": 1670641055,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x466cfcd0525189b573e794f554b8a751279213ac/5743"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "6508",
+      "name": "Dooplicator #6508",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbbddbc674446b9f559e99e94e44f7e4029d5b935164d0b65b114e23650fa2cc4876f8c6007de3df1f904c7b8b4a9fad71bd65932058c62230b7c4fb9ee246f3c0b5b8c41537380d0ffa00a4be331adfdbbe3278547b8fd93837d54fd42df532637a772fac3176fe9575e5905e0579ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-14T23:34:55.781Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x53e0a4cb7d6dafa184f0ffe4e59a1039a3fadf80"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xf178e139130854490e9581e30871cc8f2ae61b9fbd4d7d4ba2b41a94fe4397d5",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1190000000000000126",
+            "decimal": 1.19,
+            "usd": 1412.26572,
+            "native": 1.19
+          }
+        },
+        "maker": "0x53e0a4cb7d6dafa184f0ffe4e59a1039a3fadf80",
+        "validFrom": 1670641055,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x466cfcd0525189b573e794f554b8a751279213ac/6508"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "3465",
+      "name": "Dooplicator #3465",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbbddbc674446b9f559e99e94e44f7e4029d5b935164d0b65b114e23650fa2cc4876f8c6007de3df1f904c7b8b4a9fad71bd65932058c62230b7c4fb9ee246f3c0b5b8c41537380d0ffa00a4be331adfdbbe3278547b8fd93837d54fd42df532637a772fac3176fe9575e5905e0579ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-14T23:36:57.505Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": 1.18796,
+        "timestamp": 1663634687
+      },
+      "lastSell": {
+        "value": 0.7,
+        "timestamp": 1667005139
+      },
+      "owner": "0x9bbd708653f4f105d5eadd19607b7f360fa787af"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x84daa2d225669e7cbc63541c104da0652e40cfb9e087b69ebdbc9c6ba01f2885",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1192900000000000000",
+            "decimal": 1.1929,
+            "usd": 1415.70738,
+            "native": 1.1929
+          }
+        },
+        "maker": "0x9bbd708653f4f105d5eadd19607b7f360fa787af",
+        "validFrom": 1671480390,
+        "validUntil": 1671566792,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0x466cfcd0525189b573e794f554b8a751279213ac/3465"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "1502",
+      "name": "Dooplicator #1502",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a988b898a00d57f76198ed060ee5a8d3ae22c9c6ff4268c86619c352b10a459595da7181cd7da74d13fa8f56186049c10d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T18:28:34.888Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 1.025,
+        "timestamp": 1671474503
+      },
+      "owner": "0x81fa0918b53188331b0a229f9767467ff0381b1f"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x9b922bbd7d2c4676b38d61837c026ecf3aaeebf148fa117335229e2f924d434f",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1200000000000000000",
+            "decimal": 1.2,
+            "usd": 1424.13351,
+            "native": 1.2
+          }
+        },
+        "maker": "0x81fa0918b53188331b0a229f9767467ff0381b1f",
+        "validFrom": 1671474766,
+        "validUntil": 1674153166,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x466cfcd0525189b573e794f554b8a751279213ac/1502"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "3653",
+      "name": "Dooplicator #3653",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbbddbc674446b9f559e99e94e44f7e4029d5b935164d0b65b114e23650fa2cc4876f8c6007de3df1f904c7b8b4a9fad71bd65932058c62230b7c4fb9ee246f3c0b5b8c41537380d0ffa00a4be331adfdbbe3278547b8fd93837d54fd42df532637a772fac3176fe9575e5905e0579ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-14T23:36:50.796Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": 0.935,
+        "timestamp": 1666076255
+      },
+      "lastSell": {
+        "value": 3.38,
+        "timestamp": 1654232368
+      },
+      "owner": "0x9a13fe09af08a15d066e31048cedd0c778080c30"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xf1f41867a4f2eb5974a301bf7bf7704c768d6991820e18fa4861d4733f8cd221",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1200000000000000000",
+            "decimal": 1.2,
+            "usd": 1424.13351,
+            "native": 1.2
+          }
+        },
+        "maker": "0x9a13fe09af08a15d066e31048cedd0c778080c30",
+        "validFrom": 1671494932,
+        "validUntil": 1672099715,
+        "source": {
+          "id": "0xdc28ffaea1f91a88fb6fd0a8fe70d71bdd64284c",
+          "domain": "x2y2.io",
+          "name": "X2Y2",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/x2y2-logo.png",
+          "url": "https://x2y2.io/eth/0x466cfcd0525189b573e794f554b8a751279213ac/3653"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "8146",
+      "name": "Dooplicator #8146",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbbddbc674446b9f559e99e94e44f7e4029d5b935164d0b65b114e23650fa2cc4876f8c6007de3df1f904c7b8b4a9fad71bd65932058c62230b7c4fb9ee246f3c0b5b8c41537380d0ffa00a4be331adfdbbe3278547b8fd93837d54fd42df532637a772fac3176fe9575e5905e0579ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-14T23:33:52.875Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": 1.16813,
+        "timestamp": 1663118807
+      },
+      "lastSell": {
+        "value": 0.747,
+        "timestamp": 1666924787
+      },
+      "owner": "0xb4b0641bbcd89127b7467c362467e3960ad58aed"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x11ac9c6f28136e6ca78e06900f2b68930359d5802f04efa5c473b04754868c43",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1200000000000000000",
+            "decimal": 1.2,
+            "usd": 1424.13351,
+            "native": 1.2
+          }
+        },
+        "maker": "0xb4b0641bbcd89127b7467c362467e3960ad58aed",
+        "validFrom": 1669909103,
+        "validUntil": 1672501103,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x466cfcd0525189b573e794f554b8a751279213ac/8146"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "5409",
+      "name": "Dooplicator #5409",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbbddbc674446b9f559e99e94e44f7e4029d5b935164d0b65b114e23650fa2cc4876f8c6007de3df1f904c7b8b4a9fad71bd65932058c62230b7c4fb9ee246f3c0b5b8c41537380d0ffa00a4be331adfdbbe3278547b8fd93837d54fd42df532637a772fac3176fe9575e5905e0579ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-14T23:35:42.655Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": 0.97,
+        "timestamp": 1664280179
+      },
+      "lastSell": {
+        "value": 0.84,
+        "timestamp": 1666385675
+      },
+      "owner": "0x069d5abcb2e396ab255afe7907721b6a077d4002"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x5a9c832d7dd2e22bcef03a5076be5738bb91d4a9a9fc2c28b6bd524a375b7786",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1210000000000000000",
+            "decimal": 1.21,
+            "usd": 1436.00128,
+            "native": 1.21
+          }
+        },
+        "maker": "0x069d5abcb2e396ab255afe7907721b6a077d4002",
+        "validFrom": 1671475222,
+        "validUntil": 1674153622,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x466cfcd0525189b573e794f554b8a751279213ac/5409"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "698",
+      "name": "Dooplicator #698",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbbddbc674446b9f559e99e94e44f7e4029d5b935164d0b65b114e23650fa2cc4876f8c6007de3df1f904c7b8b4a9fad71bd65932058c62230b7c4fb9ee246f3c0b5b8c41537380d0ffa00a4be331adfdbbe3278547b8fd93837d54fd42df532637a772fac3176fe9575e5905e0579ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-14T23:38:43.763Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": 1.26085,
+        "timestamp": 1663548083
+      },
+      "lastSell": {
+        "value": 0.7,
+        "timestamp": 1667100359
+      },
+      "owner": "0x069d5abcb2e396ab255afe7907721b6a077d4002"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xba3f647f4e3cca748d5ed37acbc3b2eef16f5a4704adc1c817ac518f5cf9c6ab",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1230000000000000000",
+            "decimal": 1.23,
+            "usd": 1459.73684,
+            "native": 1.23
+          }
+        },
+        "maker": "0x069d5abcb2e396ab255afe7907721b6a077d4002",
+        "validFrom": 1671474555,
+        "validUntil": 1674152955,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x466cfcd0525189b573e794f554b8a751279213ac/698"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "7309",
+      "name": "Dooplicator #7309",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbbddbc674446b9f559e99e94e44f7e4029d5b935164d0b65b114e23650fa2cc4876f8c6007de3df1f904c7b8b4a9fad71bd65932058c62230b7c4fb9ee246f3c0b5b8c41537380d0ffa00a4be331adfdbbe3278547b8fd93837d54fd42df532637a772fac3176fe9575e5905e0579ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-14T23:34:23.919Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 1,
+        "timestamp": 1664582291
+      },
+      "owner": "0x069d5abcb2e396ab255afe7907721b6a077d4002"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x30157d3ba59dde6cab18cf43783c484055f7b34cd8d60934470dca6b7baf54ab",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1240000000000000000",
+            "decimal": 1.24,
+            "usd": 1471.60462,
+            "native": 1.24
+          }
+        },
+        "maker": "0x069d5abcb2e396ab255afe7907721b6a077d4002",
+        "validFrom": 1671475263,
+        "validUntil": 1674153663,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x466cfcd0525189b573e794f554b8a751279213ac/7309"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x466cfcd0525189b573e794f554b8a751279213ac",
+      "tokenId": "3979",
+      "name": "Dooplicator #3979",
+      "description": "The Dooplicator appears to have formed a small amount of Doodley matter and left us with enough space to throw in a few traits.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbbddbc674446b9f559e99e94e44f7e4029d5b935164d0b65b114e23650fa2cc4876f8c6007de3df1f904c7b8b4a9fad71bd65932058c62230b7c4fb9ee246f3c0b5b8c41537380d0ffa00a4be331adfdbbe3278547b8fd93837d54fd42df532637a772fac3176fe9575e5905e0579ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-14T23:36:36.103Z",
+      "lastFlagChange": null,
+      "rarity": 5,
+      "rarityRank": 3126,
+      "collection": {
+        "id": "0x466cfcd0525189b573e794f554b8a751279213ac",
+        "name": "Dooplicator",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ddc663c92cf6eacd9ae1bbcbc34eae437d67b5ec207440906b0c77f8ce1da05f8063dfc28bae953955844eb101cbcdce5355aa4eed43ee8ce776eadc8850522b61d98376135954277a745a76e448760bb4b6775c0308d1a4d0d187c8afc06e4eeb0aadde3a82f8940c81ed8c9b892cae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "the-dooplicator"
+      },
+      "lastBuy": {
+        "value": 0.99,
+        "timestamp": 1666120931
+      },
+      "lastSell": {
+        "value": 0.875,
+        "timestamp": 1669779095
+      },
+      "owner": "0xb64f815713d49b863391a3ad8ef52ed36f40b977"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x7ebc653e1f26c88a9cdba34177ca36213d13e95b6e11c24ee39d1fab52a039b9",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1250000000000000000",
+            "decimal": 1.25,
+            "usd": 1483.4724,
+            "native": 1.25
+          }
+        },
+        "maker": "0xb64f815713d49b863391a3ad8ef52ed36f40b977",
+        "validFrom": 1669779586,
+        "validUntil": 1672371586,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x466cfcd0525189b573e794f554b8a751279213ac/3979"
+        }
+      }
+    }
+  }
+]
