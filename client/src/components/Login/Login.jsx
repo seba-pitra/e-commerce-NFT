@@ -1,10 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useHistory } from "react-router-dom";
-import FacebookIcon from "@material-ui/icons/Facebook";
-import GitHubIcon from "@material-ui/icons/GitHub";
 import GoogleIcon from '@mui/icons-material/Google';
-import {auth, loginGoogle, loginGitHub , loginFacebook} from "../../firebase.js";
-import {signInWithEmailAndPassword, sendPasswordResetEmail } from "firebase/auth"
+import {auth, loginGoogle} from "../../firebase.js";
+import {signInWithEmailAndPassword } from "firebase/auth"
 import "./Login.css"
 
 // sendPasswordResetEmail
@@ -35,15 +33,6 @@ const Login = () => {
 
   const signGoogle = async () =>{
     await loginGoogle();
-    history.push("/marketplace");
-  }
-
-  const signGitHub = async () =>{
-    await loginGitHub();
-    history.push("/marketplace");
-  }
-  const signFacebook = async () =>{
-    await loginFacebook();
     history.push("/marketplace");
   }
 
@@ -80,15 +69,6 @@ const Login = () => {
     }
   };
 
-  const recovery = async (params) => {
-    try {
-      const sendRecovery = await sendPasswordResetEmail(auth, params.email);
-      return sendRecovery;
-    } catch (error) {
-      console.log(error.message)
-    }
-  }
-
   const handdleSubmit = (e) => {
     e.preventDefault();
     logginFunction(logginForm)
@@ -106,14 +86,6 @@ const Login = () => {
         <button type="button" className="btn btn-dark btn-floating mx-1" onClick={signGoogle}>
           <GoogleIcon />
         </button> */
-
-        <button type="button" className="btn btn-dark btn-floating mx-1" onClick={signGitHub}>
-          <GitHubIcon />
-        </button>
-
-        <button type="button" className="btn btn-dark btn-floating mx-1" onClick={signFacebook}>
-          <FacebookIcon />
-        </button>
       </div>
 
       {/* <div className="divider d-flex align-items-center my-4">
