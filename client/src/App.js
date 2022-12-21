@@ -18,20 +18,17 @@ import Collections from "./components/Collections/Collections.jsx";
 import { auth } from "./firebase.js";
 import { onAuthStateChanged } from "firebase/auth";
 function App() {
+  const [loggedIn, setLoggedIn] = useState(true);
+  onAuthStateChanged(auth, (user) => {
+    if (user) {
+      setLoggedIn(true);
+    } else {
+      setLoggedIn(false);
+    }
+  });
+
   return (
     <div className="App">
-      <NFTNav />
-      <Switch>
-        <Route exact path="/" render={() => <LandingPage />} />
-        <Route path="/home" render={() => <HomePage />} />
-        <Route path="/createNft" render={() => <CreateNft />} />
-        <Route
-          path="/details/:id"
-          render={({ match }) => <Details match={match} />}
-        />
-        <Route path="/test/dashboard" render={() => <AdminDashboard />} />
-        <Route component={NotFoundException} />
-      </Switch>
       <NFTNav></NFTNav>
       <React.Fragment>
         <Switch>
@@ -74,6 +71,11 @@ function App() {
             exact
             path="/details/:id"
             render={({ match }) => <Details match={match} />}
+          />
+          <Route
+            exact
+            path="/pruebas/adminDash"
+            render={() => <AdminDashboard />}
           />
           <Route
             render={() => {
