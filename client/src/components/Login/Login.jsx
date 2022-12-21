@@ -94,7 +94,7 @@ const Login = () => {
 
 	function loadLocalStorage(){
 	let localCart = JSON.parse(localStorage.getItem(logginForm.email));
-	dispatch(injectLocalStorageCart(localCart));	
+	if (localCart){dispatch(injectLocalStorageCart(localCart));} 
 	}
 
 
