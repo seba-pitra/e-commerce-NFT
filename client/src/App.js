@@ -18,6 +18,7 @@ import Collections from "./components/Collections/Collections.jsx";
 import CollectionDetail from "./components/CollectionDetail/CollectionDetail.jsx";
 import { auth } from "./firebase.js";
 import { onAuthStateChanged } from "firebase/auth";
+import Recovery from "./components/Recovery/Recovery";
 
 function App() {
   const [loggedIn, setLoggedIn] = useState(true);
@@ -48,6 +49,11 @@ function App() {
             exact
             path="/registrer"
             render={() => <Register loggedIn={loggedIn} />}
+          />
+          <Route
+            exact
+            path="/recovery"
+            render={() => <Recovery loggedIn={loggedIn} />}
           />
           <Route
             exact

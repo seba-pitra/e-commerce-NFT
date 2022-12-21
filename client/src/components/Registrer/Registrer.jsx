@@ -4,6 +4,7 @@ import { auth } from "../../firebase.js";
 import {
   createUserWithEmailAndPassword,
   sendEmailVerification,
+  signOut,
 } from "firebase/auth";
 import "./Registrer.css";
 
@@ -13,6 +14,9 @@ const Register = () => {
   const [signUp, setSignUpForm] = useState({
     email: "",
     password: "",
+    name: "",
+    last_name: "",
+    age: "",
   });
 
   const [error, setError] = useState("");
@@ -25,19 +29,32 @@ const Register = () => {
         params.password
       );
       if (signUp) {
+        let user = {
+          email: auth.currentUser.email,
+          name: params.name,
+          last_name: params.last_name,
+          age: Number(params.age),
+          available: true,
+        };
+        fetch("http://localhost:3001/user", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(user),
+        });
         sendEmailVerification(auth.currentUser);
-        setError("")
+        await signOut(auth);
+        setError("");
         history.push("/");
       }
     } catch (error) {
-      if(error.message==="Firebase: Error (auth/invalid-email)."){
-        setError("User not found")
+      if (error.message === "Firebase: Error (auth/invalid-email).") {
+        setError("User not found");
       }
-      if(error.message==="Firebase: Error (auth/email-already-in-use)."){
-        setError("User not found")
+      if (error.message === "Firebase: Error (auth/email-already-in-use).") {
+        setError("User not found");
       }
-      if(error.message === "Firebase: Error (auth/weak-password)."){
-        setError("Wrong password")
+      if (error.message === "Firebase: Error (auth/weak-password).") {
+        setError("Wrong password");
       }
     }
   };
@@ -55,8 +72,10 @@ const Register = () => {
     setSignUpForm({
       email: "",
       password: "",
+      name: "",
+      last_name: "",
+      age: "",
     });
-    console.log(signUp);
   };
 
   return (
@@ -89,6 +108,50 @@ const Register = () => {
             className="form-control form-control-lg"
             placeholder="Enter password"
             value={signUp.password}
+          />
+        </div>
+        <div className="form-outline mb-4">
+          <label className="form-label text-light" for="EmailField">
+            Name
+          </label>
+          <input
+            onChange={handdleChange}
+            name="name"
+            type="name"
+            id="NameField"
+            className="form-control form-control-lg"
+            placeholder="Enter a name"
+            value={signUp.name}
+          />
+        </div>
+
+        <div className="form-outline mb-4">
+          <label className="form-label text-light" for="EmailField">
+            Last Name
+          </label>
+          <input
+            onChange={handdleChange}
+            name="last_name"
+            type="last_name"
+            id="LastNameField"
+            className="form-control form-control-lg"
+            placeholder="Enter a last name"
+            value={signUp.last_name}
+          />
+        </div>
+
+        <div className="form-outline mb-4">
+          <label className="form-label text-light" for="EmailField">
+            Age
+          </label>
+          <input
+            onChange={handdleChange}
+            name="age"
+            type="number"
+            id="AgeField"
+            className="form-control form-control-lg"
+            placeholder="Enter your age"
+            value={signUp.age}
           />
         </div>
 
