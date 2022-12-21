@@ -2,11 +2,9 @@ import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from 'react-redux';
 import { gettingActiveUserToState, injectLocalStorageCart } from '../../redux/actions'
 import { useHistory } from "react-router-dom";
-import FacebookIcon from "@material-ui/icons/Facebook";
-import GitHubIcon from "@material-ui/icons/GitHub";
 import GoogleIcon from '@mui/icons-material/Google';
-import {auth, loginGoogle, loginGitHub , loginFacebook} from "../../firebase.js";
-import {signInWithEmailAndPassword, } from "firebase/auth"
+import {auth, loginGoogle} from "../../firebase.js";
+import {signInWithEmailAndPassword } from "firebase/auth"
 import "./Login.css"
 
 // sendPasswordResetEmail
@@ -46,19 +44,9 @@ const Login = () => {
     history.push("/marketplace");
   }
 
-  const signGitHub = async () =>{
-    await loginGitHub();
-    history.push("/marketplace");
-  }
-  const signFacebook = async () =>{
-    await loginFacebook();
-    history.push("/marketplace");
-  }
-
 
   const isLogged = async () =>{
     const loggedUser = auth.currentUser
-    console.log("Estoy en logged",loggedUser)
     if(loggedUser){
       setLogged(loggedUser)
     }
@@ -73,8 +61,6 @@ const Login = () => {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(auth.currentUser),
-        // body: "hola",
-        // mode: "same-origin",
       });
         setError("")
         history.push("/marketplace")
@@ -117,14 +103,6 @@ const Login = () => {
         <button type="button" className="btn btn-dark btn-floating mx-1" onClick={signGoogle}>
           <GoogleIcon />
         </button> */
-
-        <button type="button" className="btn btn-dark btn-floating mx-1" onClick={signGitHub}>
-          <GitHubIcon />
-        </button>
-
-        <button type="button" className="btn btn-dark btn-floating mx-1" onClick={signFacebook}>
-          <FacebookIcon />
-        </button>
       </div>
 
       {/* <div className="divider d-flex align-items-center my-4">
@@ -216,6 +194,10 @@ const Login = () => {
           Don't have an account?{" "}
           <a href="/registrer" className="link-danger">
             Register
+          </a>
+          <> </>
+          <a href="/recovery" className="link-danger">
+            Recovery your password
           </a>
         </p>
       </div>
