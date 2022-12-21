@@ -10,7 +10,6 @@ import "./NFTCard.css";
 
 export default function NFTCard(props) {
   const ethPrice = useSelector((state) => state.ethPrice);
-
   const dispatch = useDispatch();
 
   const handleClickOnShoppingCart = (e) => {
@@ -25,11 +24,11 @@ export default function NFTCard(props) {
             <img
               className={"nftImage"}
               src={`${
-                props.image === "no image found"
+                props.image === "No image"
                   ? "https://preview.redd.it/j82jl2vpg4n71.jpg?auto=webp&s=e8431005571759e9fd9b5cd2e82dd27696d0b6c4"
                   : props.image
               }`}
-              alt="nft-image"
+              alt="nft-preview"
             />
           </div>
           <div className={"bottom-img-info"}>

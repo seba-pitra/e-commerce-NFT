@@ -14,17 +14,14 @@ function Pages() {
   const cards = nftsInPage.map((nft) => {
     return (
       <NFTCard
-        category={nft.category}
-        collection={nft.collection}
+        key={nft.id}
         collectionId={nft.collectionId}
         contract={nft.contract}
         id={nft.id}
         image={nft.image}
         name={nft.name}
         price={nft.price}
-        source={nft.source}
         tokenId={nft.tokenId}
-        type={nft.type}
         userId={nft.userId}
       />
     );
