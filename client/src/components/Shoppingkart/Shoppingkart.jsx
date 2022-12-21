@@ -31,6 +31,8 @@ export const startPayment = async ({ setError, setTxs, ether, addr }) => {
 
 export default function Shoppingkart() {
   const userNfts = useSelector((state) => state.userNfts);
+  const activeUserIs = useSelector((state) => state.activeUser);
+
   const [error, setError] = useState();
   const [txs, setTxs] = useState([]);
 
@@ -52,7 +54,8 @@ export default function Shoppingkart() {
   };
 
   const handleBuyNftsOnShoppingCart = async () => {
-    dispatch(actions.buyNftOnShoppingCart(userNfts));
+    console.log('shopping HERE !!' + activeUserIs);
+	  //dispatch(actions.buyNftOnShoppingCart(userNfts));
   };
 
   let totalAmount = 0;

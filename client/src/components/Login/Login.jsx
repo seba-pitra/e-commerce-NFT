@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import { useDispatch } from 'react-redux';
+import { gettingActiveUserToState } from '../../redux/actions'
 import { useHistory } from "react-router-dom";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import GitHubIcon from "@material-ui/icons/GitHub";
@@ -26,8 +28,10 @@ const Login = () => {
     isLogged()
   }, [])
 
-  const handdleChange = (e) => {
-    setLogginForm({
+  const dispatch = useDispatch();
+  
+	const handdleChange = (e) => {
+      setLogginForm({
       ...logginForm,
       [e.target.name]: e.target.value,
     });
@@ -85,6 +89,7 @@ const Login = () => {
 
   const handdleSubmit = (e) => {
     e.preventDefault();
+  dispatch(gettingActiveUserToState(logginForm.email));
     logginFunction(logginForm)
     setLogginForm({
       email: "",

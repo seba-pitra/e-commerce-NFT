@@ -36,6 +36,10 @@ export const PREV_PAGE = "PREV_PAGE";
 export const NEXT_PAGE = "NEXT_PAGE";
 export const SET_NFTS_PER_PAGE = "SET_GAMES_PER_PAGE";
 
+// -- LOCALSTORAGE --
+export const GET_ACTIVE_USER = "GET_ACTIVE_USER";
+
+
 // -- SEARCHING --
 // export const SEARCH_NFT = "SEARCH_NFT";
 
@@ -254,6 +258,12 @@ export const addNftOnShoppingCart = (nftData) => {
 export const removeNftOfShoppingCart = (nftId) => {
   return { type: REMOVE_NFT_OF_SHOOPING_CART, payload: nftId };
 };
+
+
+export const gettingActiveUserToState = (payload) =>{
+	return {type: GET_ACTIVE_USER, payload};
+	};
+
 
 export const buyNftOnShoppingCart = (nftsOnShoppingCart) => {
   return async (dispatch) => {
