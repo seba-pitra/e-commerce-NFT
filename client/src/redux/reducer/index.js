@@ -201,7 +201,6 @@ const rootReducer = (state = initialState, action) => {
       };
 // LS
     case GET_ACTIVE_USER:
-		  console.log('ACTIONS HERE !! get_active_user: ' + action.payload)
 	return {
 	...state,
 	activeUser: action.payload,	

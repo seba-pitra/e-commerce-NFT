@@ -53,8 +53,14 @@ export default function Shoppingkart() {
     dispatch(actions.removeNftOfShoppingCart(nftId));
   };
 
+function saveLocalStorage(){
+localStorage.setItem(activeUserIs,JSON.stringify(userNfts));
+	// activeUserIs == tag of item in localStorage
+}
+
+
   const handleBuyNftsOnShoppingCart = async () => {
-    console.log('shopping HERE !!' + activeUserIs);
+	  saveLocalStorage(); 
 	  //dispatch(actions.buyNftOnShoppingCart(userNfts));
   };
 
