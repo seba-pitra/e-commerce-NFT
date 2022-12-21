@@ -30,6 +30,11 @@ export const startPayment = async ({ setError, setTxs, ether, addr }) => {
 };
 
 export default function Shoppingkart() {
+
+	function loadLocalStorage(){
+	let localCart = JSON.parse(localStorage.getItem(activeUserIs));
+	}
+
   const userNfts = useSelector((state) => state.userNfts);
   const activeUserIs = useSelector((state) => state.activeUser);
 
