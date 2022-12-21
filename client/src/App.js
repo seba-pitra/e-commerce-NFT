@@ -14,6 +14,7 @@ import Register from "./components/Registrer/Registrer";
 import MarketPlace from "./components/MarketPlace/MarketPlace";
 import DeveloperTeam from "./components/DeveloperTeam/DeveloperTeam";
 import Collections from "./components/Collections/Collections.jsx";
+import CollectionDetail from "./components/CollectionDetail/CollectionDetail.jsx";
 import { auth } from "./firebase.js";
 import { onAuthStateChanged } from "firebase/auth";
 import Recovery from "./components/Recovery/Recovery";
@@ -28,6 +29,7 @@ function App() {
       setLoggedIn(false);
     }
   });
+
   return (
     <div className="App">
       <NFTNav></NFTNav>
@@ -39,6 +41,7 @@ function App() {
           <Route exact path="/recovery" render={() => <Recovery loggedIn={loggedIn} />} />
           <Route exact path="/marketplace" render={() => <MarketPlace loggedIn={loggedIn}  />} />
           <Route exact path="/collections" render={() => <Collections loggedIn={loggedIn} />} />
+          <Route exact path="/collections/:id" render={() => <CollectionDetail loggedIn={loggedIn} />} />
           <Route exact path="/developerTeam" render={() => <DeveloperTeam loggedIn={loggedIn} />} />
           <Route exact path="/createNft" render={() => <CreateNft loggedIn={loggedIn} />} />
           <Route

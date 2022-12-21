@@ -38,6 +38,7 @@ function MarketPlace({loggedIn}) {
     //   history.push("/");
     // }
     validateUser()
+
   }, [loggedIn]);
 
   const validateUser = async () => {
@@ -45,6 +46,7 @@ function MarketPlace({loggedIn}) {
     if (loggedIn) {
       dispatch(actions.getAllNfts());
       dispatch(actions.getAllCollections());
+      dispatch(actions.getEthPrice());
     } else {
       history.push("/");
     }
