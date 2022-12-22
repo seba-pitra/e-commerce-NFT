@@ -10,22 +10,19 @@ import "./CollectionDetail.css";
 const CollectionDetail = () => {
   const { id } = useParams()
 
-  const nfts = useSelector((state) => state.nfts);
   const collections = useSelector((state) => state.collections);
-  const foundNfts = nfts.filter(nft => nft.collectionId === id)
   const foundCollection = collections.find(coll => coll.id === id)
 
   const dispatch = useDispatch();
 
-  useEffect(() => { 
-    dispatch(actions.getAllNfts());
+  useEffect(() => {
     dispatch(actions.getAllCollections());
     dispatch(actions.getEthPrice());
   }, [dispatch]);
 
   let collectionPrice = 0, amountNfts = 0, description = "No description", floorPrice = 100, createdAt = 0;
   
-  const cards = foundNfts.map((nft) => {
+  const cards = foundCollection.nfts.map((nft) => {
     collectionPrice = nft.price + collectionPrice;
     amountNfts++;
     if(description === "No description") description = nft.description;

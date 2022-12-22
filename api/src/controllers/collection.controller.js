@@ -1,5 +1,5 @@
 const { reauthenticateWithCredential } = require("firebase/auth");
-const { Collection } = require("../db");
+const { Collection, Nft } = require("../db");
 const { collections } = require("../jsondata/collections.json")
 
 const getCollections = async (req, res) => {
