@@ -1,10 +1,11 @@
 const { Router } = require("express");
 const {
   getNfts,
-  searchNftById,
+  getNftById,
   updateNft,
   createNewNFT,
   deleteNft,
+  restoreDeletedNft
 } = require("../controllers/nft.controller");
 
 const nftRouter = Router();
@@ -13,19 +14,12 @@ nftRouter.get("/", getNfts);
 
 nftRouter.post("/", createNewNFT)
 
-nftRouter.get("/:id", searchNftById);
+nftRouter.get("/:id", getNftById);
 
 nftRouter.put("/:id", updateNft);
 
+nftRouter.delete("/:id", deleteNft);
 
-nftRouter.delete("/:id", async (req, res) => {
-  try {
-    const { id } = req.params;
-    const nftName = await deleteNft(id);
-    res.status(200).send(`${nftName} was deleted successfully`);
-  } catch (err) {
-    res.status(404).send(err.message);
-  }
-});
+nftRouter.put("/restore/:id", restoreDeletedNft)
 
 module.exports = nftRouter;

@@ -1,10 +1,9 @@
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./NFTCard.css";
-import { useSelector } from "react-redux";
-
+import {  useDispatch, useSelector } from "react-redux";
 import FavoriteIcon from "@material-ui/icons/Favorite";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
-import { useDispatch } from "react-redux";
 import * as actions from "../../redux/actions";
 import "./NFTCard.css";
 
@@ -12,8 +11,9 @@ export default function NFTCard(props) {
   const ethPrice = useSelector((state) => state.ethPrice);
   const dispatch = useDispatch();
 
+
   const handleClickOnShoppingCart = (e) => {
-    dispatch(actions.addNftOnShoppingCart(props));
+	  dispatch(actions.addNftOnShoppingCart(props));
   };
 
   return (

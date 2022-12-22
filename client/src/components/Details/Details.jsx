@@ -62,6 +62,8 @@ function Details(props) {
     dispatch(actions.addNftOnShoppingCart(nftDetail));
   };
 
+  console.log(nftDetail)
+
   return (
     <>
       {isLoading ? (
