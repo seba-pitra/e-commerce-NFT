@@ -20,7 +20,6 @@ module.exports = (sequelize) => {
       },
       description: {
         type: DataTypes.TEXT,
-        allowNull: false,
       },
       category: {
         type: DataTypes.ARRAY(DataTypes.STRING),
@@ -30,20 +29,17 @@ module.exports = (sequelize) => {
         type: DataTypes.TEXT,
         allowNull: false,
       },
-      available: {
-        type: DataTypes.BOOLEAN,
-        allowNull: false,
-      },
       contract: {
         type: DataTypes.STRING,
         allowNull: false,
       },
       tokenId: {
         type: DataTypes.STRING,
+        allowNull: false,
       },
       price: {
         type: DataTypes.FLOAT,
-        allowNull: false,
+        allowNull: false
       },
       rarity: {
         type: DataTypes.FLOAT,
@@ -69,10 +65,12 @@ module.exports = (sequelize) => {
       },
       ownerIcon: {
         type: DataTypes.TEXT,
+        allowNull: false
       },
     },
     {
-      timestamps: false,
+      timestamps: true,
+      paranoid: true,
     }
   );
 };
