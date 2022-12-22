@@ -34,7 +34,7 @@ const updateUser = async (req, res) => {
     const dataToUpdate = req.body;
     const userToUpdate = await User.findByPk(id)
     if(userToUpdate){
-      const [updatedUser, created] = await Nft.upsert({
+      const [updatedUser, created] = await User.upsert({
         id : id,
         ...dataToUpdate
       })
