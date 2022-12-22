@@ -1,25 +1,23 @@
 import React from "react";
 import { useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
 import "./NFTList_dash.css";
-import * as actions from "../../../redux/actions/index";
 
 // Components
 import NFTsCard_dash from "../NFTsCard_dash/NFTsCard_dash";
 import { useState } from "react";
 
-const NFTList_dash = () => {
-  const { nfts } = useSelector((state) => state);
-  const dispatch = useDispatch();
+const NFTList_dash = ({ nfts }) => {
+  // const { nfts } = useSelector((state) => state);
+  // const dispatch = useDispatch();
 
   const [cp, setCp] = useState(0);
   const [nftsxPage, setNFTsxPage] = useState(10);
   const [displayNFTs, setDisplayNFTs] = useState([]);
   const [filteredNFTs, setFilteredNFTs] = useState([]);
 
-  useEffect(() => {
-    dispatch(actions.getAllNfts());
-  }, [dispatch]);
+  // useEffect(() => {
+  //   dispatch(actions.getAllNfts());
+  // }, [dispatch]);
 
   useEffect(() => {
     setDisplayNFTs(
@@ -40,7 +38,8 @@ const NFTList_dash = () => {
   };
 
   const handleShowChange = (e) => {
-    setNFTsxPage(e.target.value);
+    setNFTsxPage(Number(e.target.value));
+    setCp(0);
   };
 
   const handdleClick = (e) => {
@@ -58,7 +57,7 @@ const NFTList_dash = () => {
     setCp(cp - 1);
   };
 
-  if (!nfts.length) return <h1>Loading</h1>;
+  // if (!nfts.length) return <h1>Loading</h1>;
   return (
     <div className="nfts-dash-container">
       soy list
@@ -90,7 +89,7 @@ const NFTList_dash = () => {
         </button>
         <button
           onClick={incrementCp}
-          disabled={cp * nftsxPage + nftsxPage >= nfts.length}
+          disabled={cp * nftsxPage + nftsxPage >= filteredNFTs.length}
         >
           {">"}
         </button>
