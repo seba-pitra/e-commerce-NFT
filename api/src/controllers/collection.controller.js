@@ -4,7 +4,11 @@ const { collections } = require("../jsondata/collections.json")
 
 const getCollections = async (req, res) => {
   try{
-    const dbCollections = await Collection.findAll();
+    const dbCollections = await Collection.findAll({
+      include : {
+        model : Nft
+      }
+    });
     if(dbCollections.length === 0){
       throw new Error("nothing on database please contact Mr. Miguel Villa");
     }

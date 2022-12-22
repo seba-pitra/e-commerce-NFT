@@ -13,7 +13,11 @@ const createUser = async (req, res) => {
 
 const getAllUsers = async (req, res) => {
   try {
-    const allUsers = await User.findAll({})
+    const allUsers = await User.findAll({
+      include: {
+        model : Nft
+      }
+    })
     if (allUsers.length === 0) {
       throw new Error(`No users found on database`);
     }else{
@@ -46,7 +50,11 @@ const updateUser = async (req, res) => {
 const getUserById = async (req, res) => {
   try {
     const { id } = req.params;
-    const foundUser = User.findByPk(id)
+    const foundUser = User.findByPk(id, {
+      include : {
+        model : Nft
+      }
+    })
     if(foundUser){
       return res.status(200).json(foundUser)
     }else{
@@ -106,11 +114,34 @@ const restoreDeletedUser = async (req, res) => {
   }
 }
 
+const verifyUser = async (req, res) => {
+  try {
+    const { id } = req.params;
+    const { dni } = req.body;
+    const user = await User.findByPk(id)
+    if(user){
+      const [updatedUser, created] = await User.upsert({
+        id : id,
+        dni : dni
+      })
+      return res.status(200).json({
+        user : updatedUser,
+        dni : updatedUser.dni
+      })
+    }else{
+      throw new Error(`No user found with id ${id}`)
+    }
+  } catch (error) {
+    return res.status(400).json({error : error.message})
+  }
+}
+
 module.exports = {
   getAllUsers,
   getUserById,
   deleteUser,
   createUser,
   updateUser,
-  restoreDeletedUser
+  restoreDeletedUser,
+  verifyUser
 };

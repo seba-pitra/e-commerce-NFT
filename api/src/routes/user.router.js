@@ -5,7 +5,8 @@ const {
   deleteUser,
   createUser,
   updateUser,
-  restoreDeletedUser
+  restoreDeletedUser,
+  verifyUser
 } = require("../controllers/user.controller");
 
 const userRouter = Router();
@@ -21,5 +22,7 @@ userRouter.put("/:id", updateUser);
 userRouter.delete("/:id", deleteUser);
 
 userRouter.get("/restore/:id", restoreDeletedUser)
+
+userRouter.post("/verify/:id", verifyUser);
 
 module.exports = userRouter;
