@@ -17,6 +17,8 @@ import Collections from "./components/Collections/Collections.jsx";
 import CollectionDetail from "./components/CollectionDetail/CollectionDetail.jsx";
 import { auth } from "./firebase.js";
 import { onAuthStateChanged } from "firebase/auth";
+import Recovery from "./components/Recovery/Recovery";
+
 
 function App() {
   const [loggedIn, setLoggedIn] = useState(true);
@@ -36,7 +38,8 @@ function App() {
           <Route exact path="/" render={() => <LandingPage loggedIn={loggedIn} />} />
           <Route exact path="/home" render={() => <HomePage loggedIn={loggedIn} />} />
           <Route exact path="/registrer" render={() => <Register loggedIn={loggedIn} />} />
-          <Route exact path="/marketplace" render={() => <MarketPlace loggedIn={loggedIn} />} />
+          <Route exact path="/recovery" render={() => <Recovery loggedIn={loggedIn} />} />
+          <Route exact path="/marketplace" render={() => <MarketPlace loggedIn={loggedIn}  />} />
           <Route exact path="/collections" render={() => <Collections loggedIn={loggedIn} />} />
           <Route exact path="/collections/:id" render={() => <CollectionDetail loggedIn={loggedIn} />} />
           <Route exact path="/developerTeam" render={() => <DeveloperTeam loggedIn={loggedIn} />} />

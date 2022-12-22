@@ -9,7 +9,7 @@ module.exports = (sequelize) => {
         defaultValue: DataTypes.UUIDV4,
         primaryKey: true,
         unique: true,
-        allowNull: false,
+        allowNull: true,
         validate: {
           isUUID: 4,
         },
@@ -35,17 +35,17 @@ module.exports = (sequelize) => {
         defaultValue: "Basic",
         validate: {
           customValidator: (value) => {
-            const enums = ["Admin", "Medium"];
+            const enums = ["Admin", "Medium", "Basic"];
             if (!enums.includes(value)) {
               throw new Error("not a valid option");
             }
           },
         },
-        allowNull: false,
+        allowNull: true,
       },
       dni: {
         type: DataTypes.INTEGER,
-        allowNull: false,
+        allowNull: true,
         unique: true,
       },
     },
