@@ -9,7 +9,7 @@ import "./CollectionDetail.css";
 
 const CollectionDetail = () => {
   const { id } = useParams()
-  
+
   const nfts = useSelector((state) => state.nfts);
   const collections = useSelector((state) => state.collections);
   const foundNfts = nfts.filter(nft => nft.collectionId === id)
@@ -17,7 +17,11 @@ const CollectionDetail = () => {
 
   const dispatch = useDispatch();
 
-  useEffect(() => { dispatch(actions.getEthPrice()) }, [dispatch]);
+  useEffect(() => { 
+    dispatch(actions.getAllNfts());
+    dispatch(actions.getAllCollections());
+    dispatch(actions.getEthPrice());
+  }, [dispatch]);
 
   let collectionPrice = 0, amountNfts = 0, description = "No description", floorPrice = 100, createdAt = 0;
   

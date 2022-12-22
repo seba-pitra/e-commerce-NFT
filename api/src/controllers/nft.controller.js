@@ -65,6 +65,7 @@ const createAllInitialNFTs = async () => {
         image: nft.token.image || "No image",
         available: true,
         contract: nft.token.contract,
+        category: nft.token.category || ["Otros"],
         tokenId: nft.token.tokenId,
         price: nft.market.floorAsk.price.amount.decimal,
         rarity: nft.token.rarity || 0.0,
