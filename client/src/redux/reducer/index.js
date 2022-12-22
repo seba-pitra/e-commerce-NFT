@@ -26,6 +26,8 @@ import {
   ADD_NFT_ON_SHOOPING_CART,
   REMOVE_NFT_OF_SHOOPING_CART,
   BUY_NFT_ON_SHOOPING_CART,
+  GET_ACTIVE_USER,
+  LOCAL_STORAGE_CART,
 } from "../actions";
 import * as controllers from "../../utils";
 
@@ -43,6 +45,7 @@ const initialState = {
   nftsPerPage: 100,
   msj: "",
   ethPrice: {},
+  activeUser: {},
 };
 
 const rootReducer = (state = initialState, action) => {
@@ -197,6 +200,21 @@ const rootReducer = (state = initialState, action) => {
         ...state,
         userNfts: state.userNfts.filter((nft) => nft.id !== action.payload),
       };
+// LS
+    case GET_ACTIVE_USER:
+	return {
+	...state,
+	activeUser: action.payload,	
+	};
+case LOCAL_STORAGE_CART:
+	return {
+	...state,
+	userNfts: action.payload,
+	}
+
+
+// ---
+
     case BUY_NFT_ON_SHOOPING_CART:
       return {
         ...state,
