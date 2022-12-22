@@ -24,16 +24,11 @@ module.exports = (sequelize) => {
       },
       age: {
         type: DataTypes.INTEGER,
-        allowNull: false,
       },
       email: {
         type: DataTypes.STRING,
         allowNull: false,
         unique: true,
-      },
-      available: {
-        type: DataTypes.BOOLEAN,
-        allowNull: false,
       },
       type: {
         type: DataTypes.STRING,
@@ -55,7 +50,8 @@ module.exports = (sequelize) => {
       },
     },
     {
-      timestamps: false,
+      timestamps: true,
+      paranoid: true,
     }
   );
 };
