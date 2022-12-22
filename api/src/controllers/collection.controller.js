@@ -1,4 +1,4 @@
-const { reauthenticateWithCredential } = require("firebase/auth");
+
 const { Collection } = require("../db");
 const { collections } = require("../jsondata/collections.json")
 
