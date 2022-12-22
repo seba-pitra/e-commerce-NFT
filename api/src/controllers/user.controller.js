@@ -1,4 +1,4 @@
-const { User } = require("../db");
+const { User, Nft } = require("../db");
 
 const createUser = async (req, res) => {
   try {
