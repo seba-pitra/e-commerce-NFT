@@ -18,16 +18,7 @@ function Collections(){
   const nfts = useSelector((state) => state.nfts);
   const collections = useSelector((state) => state.collections);
 
-  // let filterCollection = [], count = 0;
-  // collections.forEach(e => {
-  //   count = 0;
-  //   nfts.forEach(nft => { if (nft.collectionId === e.id) count = count + 1 } )
-  //   if (count > 1) filterCollection.push(e) 
-  // })
-
   const isLoading = useSelector(state => state.isLoading);
-
-  console.log(collections)
 
   const collectionsCards = collections.map((e) => {
     let x = false;
