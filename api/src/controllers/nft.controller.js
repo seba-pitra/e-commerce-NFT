@@ -1,8 +1,6 @@
 const allNFTs = require('../jsondata')
 const { Nft, Collection } = require("../db");
 
-
-
 const getNfts = async (req, res) => {
   try {
     const dbNfts = await Nft.findAll({
