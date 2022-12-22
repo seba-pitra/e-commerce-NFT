@@ -1,4 +1,5 @@
 import { React, useState } from "react";
+import { freeShoppingCartState } from "../../redux/actions";
 import { useLocation, useHistory } from "react-router-dom";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import SearchBar from "../SearchBar/SearchBar";
@@ -23,6 +24,8 @@ export default function NFTNav() {
   const handleClose = () => setShow(false);
   const handleShow = () => {setShow(true); saveLocalStorage();};
 
+  const dispatch = useDispatch();
+ 
   const logOutFunction = async () => {
     try {
         await signOut(auth)
@@ -33,7 +36,8 @@ export default function NFTNav() {
   };
 
   const handdleCick = (e) => {
-    logOutFunction();
+    dispatch(freeShoppingCartState());
+	  logOutFunction();
   };
 
 function saveLocalStorage(){

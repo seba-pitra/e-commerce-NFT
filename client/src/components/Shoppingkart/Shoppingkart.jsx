@@ -56,6 +56,10 @@ export default function Shoppingkart() {
 
   const handleBuyNftsOnShoppingCart = async () => {
 	  dispatch(actions.buyNftOnShoppingCart(userNfts));
+	  // For free shoppingcar on checkout
+	  // decomment this / or implement on success-page  
+
+      //dispatch(freeShoppingCartState());
   };
 
   let totalAmount = 0;
