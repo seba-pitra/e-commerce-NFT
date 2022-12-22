@@ -36,6 +36,24 @@ export default function Shoppingkart() {
   const [error, setError] = useState();
   const [txs, setTxs] = useState([]);
 
+  const [buyData, setBuyData] = useState({
+    contract: "",
+    statusPay: "Created",
+    payMethod: ""
+  })
+  
+  const handleBuyNftsOnShoppingCart = async () => {
+    await userNfts.forEach(nft => {
+      setBuyData({
+        contract: nft.contract,
+        statusPay: "Created", //? cuando cambia??
+        payMethod: "MercadoPago"
+      })  
+    })
+
+	  dispatch(actions.buyNftOnShoppingCart(userNfts, ...buyData ));// "...buyData" ? => Probar
+  };
+
   const handlePay = async ({ nftPrice, nftContract }) => {
     setError();
 
@@ -53,14 +71,6 @@ export default function Shoppingkart() {
     dispatch(actions.removeNftOfShoppingCart(nftId));
   };
 
-
-  const handleBuyNftsOnShoppingCart = async () => {
-	  dispatch(actions.buyNftOnShoppingCart(userNfts));
-	  // For free shoppingcar on checkout
-	  // decomment this / or implement on success-page  
-
-      //dispatch(freeShoppingCartState());
-  };
 
   let totalAmount = 0;
   for (const nft of userNfts) {
