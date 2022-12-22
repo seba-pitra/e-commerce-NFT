@@ -19,11 +19,15 @@ const getNfts = async (req, res) => {
   }
 };
 
-const searchNftById = async (req, res) => {
+const getNftById = async (req, res) => {
   try {
     const { id } = req.params;
     const foundNftFromDB = await Nft.findByPk(id);
-    res.status(200).send(foundNftFromDB);
+    if(foundNftFromDB){
+      res.status(200).json(foundNftFromDB);
+    }else{
+      throw new Error(`No nft with id ${id}`)
+    }
   } catch (err) {
     res.status(400).send(err.message);
   }
@@ -31,19 +35,114 @@ const searchNftById = async (req, res) => {
 
 
 const updateNft = async (req, res) => {
-  try {
+  try{
     const { id } = req.params;
-    const updatedNFT = await updateNFT(id, req.body);
-    res.status(201).json(updatedNFT);
-  } catch (err) {
+    const dataToUpdate = req.body;
+    const [updatedNft, created] = await Nft.upsert({
+      id : id,
+      ...dataToUpdate
+    })
+    res.status(200).send(updatedNft);
+  }catch(err){
     res.status(400).send(err.message);
   }
 };
 
 const createNewNFT = async (req, res) => {
-  const { name, image, price, collectionId, available } = req.body;
+  try{
+      const {
+        name,
+        description,
+        image,
+        contract,
+        tokenId,
+        price,
+        ownerName,
+        ownerIcon,
+      } = req.body;
+      if(!name || !image || !tokenId || !price || !ownerName || !ownerIcon){
+        throw new Error(`Insufficient data provided`)
+      }
 
-};
+      const newNFT = await Nft.create({
+        name: name,
+        description: description,
+        image : image,
+        contract: contract || "No corresponding contract",
+        tokenId: tokenId,
+        price: price,
+        ownerName: ownerName,
+        ownerIcon: ownerIcon,
+      });
+
+      if(contract){
+        const correspondingCollection = await Collection.findByPk({
+          where : {
+            id: contract
+          }
+        })
+        if(correspondingCollection){ 
+          await newNFT.setCollection(correspondingCollection)
+        }else{
+          throw new Error(`No collection found with id  ${contract}`)
+        }
+      }
+
+      res.status(200).json(newNFT);
+    }catch(err){
+      res.status(400).send(err.message);
+    }
+  };
+
+const deleteNft = async (req, res) => {
+  try {
+    const { id } = req.params;
+    const deletedNFT = await Nft.findByPk({
+      where: {
+        id: id,
+      }
+    })
+    if (deletedNFT) {
+      await Nft.destroy({
+        where : {
+          id: id,
+        }
+      });
+      return res.status(200).send(`${deletedNFT.name}  successfully deleted`);
+    }else {
+      throw new Error(`no NFT found with id: ${id}`)
+    }
+  }catch (err) {
+    return res.status(400).json({error : err.message})
+  }
+  
+}
+
+const restoreDeletedNft = async (req, res) => {
+  try {
+    const { id } = req.params;
+    await Nft.restore({
+      where : {
+        id : id,
+      }
+    })
+    const restoredNft = await Nft.findByPk({
+      where : {
+        id : id,
+      }
+    })
+    if(restoredNft){
+      return res.status(200).json({
+        nft : restoredNft,
+        message : `${restoredNft.name} successfully restored`
+      })
+    }else{
+      throw new Error(`No nft found with id ${id}`)
+    }
+  }catch(err){
+    return res.status(400).json({err : err.message})
+  }
+}
 
 /*
 * function to add all nfts to the database using jsons as the base data.
@@ -63,7 +162,6 @@ const createAllInitialNFTs = async () => {
         name: nftName,
         description: nft.token.description || "No description",
         image: nft.token.image || "No image",
-        available: true,
         contract: nft.token.contract,
         tokenId: nft.token.tokenId,
         price: nft.market.floorAsk.price.amount.decimal,
@@ -95,8 +193,10 @@ const createAllInitialNFTs = async () => {
 
 module.exports = {
   getNfts,
-  searchNftById,
+  getNftById,
   createAllInitialNFTs,
   updateNft,
-  createNewNFT
+  createNewNFT,
+  deleteNft,
+  restoreDeletedNft
 };

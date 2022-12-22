@@ -20,14 +20,9 @@ module.exports = (sequelize) => {
       },
       description: {
         type: DataTypes.TEXT,
-        allowNull: false,
       },
       image: {
         type: DataTypes.TEXT,
-        allowNull: false,
-      },
-      available: {
-        type: DataTypes.BOOLEAN,
         allowNull: false,
       },
       contract: {
@@ -36,33 +31,29 @@ module.exports = (sequelize) => {
       },
       tokenId: {
         type: DataTypes.STRING,
+        allowNull: false,
       },
       price: {
         type: DataTypes.FLOAT,
+        allowNull: false
       },
       rarity: {
         type: DataTypes.FLOAT,
-        allowNull: false,
       },
       rarityRank: {
         type: DataTypes.FLOAT,
-        allowNull: false,
       },
       lastBuyValue: {
         type: DataTypes.FLOAT,
-        allowNull: false,
       },
       lastBuyTs: {
         type: DataTypes.FLOAT,
-        allowNull: false,
       },
       lastSellValue: {
         type: DataTypes.FLOAT,
-        allowNull: false,
       },
       lastSellTs: {
         type: DataTypes.FLOAT,
-        allowNull: false,
       },
       ownerName: {
         type: DataTypes.TEXT,
@@ -70,11 +61,12 @@ module.exports = (sequelize) => {
       },
       ownerIcon: {
         type: DataTypes.TEXT,
-        allowNull: false,
+        allowNull: false
       },
     },
     {
-      timestamps: false,
+      timestamps: true,
+      paranoid: true,
     }
   );
 };
