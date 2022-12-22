@@ -21,6 +21,10 @@ module.exports = (sequelize) => {
       description: {
         type: DataTypes.TEXT,
       },
+      category: {
+        type: DataTypes.ARRAY(DataTypes.STRING),
+        allowNull: false,
+      },
       image: {
         type: DataTypes.TEXT,
         allowNull: false,

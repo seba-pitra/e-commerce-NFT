@@ -28,6 +28,7 @@ import {
   BUY_NFT_ON_SHOOPING_CART,
   GET_ACTIVE_USER,
   LOCAL_STORAGE_CART,
+  DELETE_NFT_ON_SIGNOUT,
 } from "../actions";
 import * as controllers from "../../utils";
 
@@ -212,7 +213,11 @@ case LOCAL_STORAGE_CART:
 	userNfts: action.payload,
 	}
 
-
+case DELETE_NFT_ON_SIGNOUT:
+	return {
+	...state,
+	userNfts: [],
+	}
 // ---
 
     case BUY_NFT_ON_SHOOPING_CART:

@@ -47,7 +47,7 @@ export const LOCAL_STORAGE_CART = "LOCAL_STORAGE_CART"
 export const ADD_NFT_ON_SHOOPING_CART = "ADD_NFT_ON_SHOOPING_CART";
 export const REMOVE_NFT_OF_SHOOPING_CART = "REMOVE_NFT_OF_SHOOPING_CART";
 export const BUY_NFT_ON_SHOOPING_CART = "BUY_NFT_ON_SHOOPING_CART";
-
+export const DELETE_NFT_ON_SIGNOUT = "DELETE_NFT_ON_SIGNOUT"; 
 /*
   nft = {
     collectionId: string (code),
@@ -266,6 +266,10 @@ export const gettingActiveUserToState = (payload) =>{
 export const injectLocalStorageCart = (payload) => {
 	return {type: LOCAL_STORAGE_CART, payload}; 
 	};
+
+export const freeShoppingCartState = () => {
+	return {type: DELETE_NFT_ON_SIGNOUT }; 
+}
 
 export const buyNftOnShoppingCart = (nftsOnShoppingCart) => {
   return async (dispatch) => {

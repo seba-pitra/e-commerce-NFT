@@ -1,8 +1,6 @@
 const allNFTs = require('../jsondata')
 const { Nft, Collection } = require("../db");
 
-
-
 const getNfts = async (req, res) => {
   try {
     const dbNfts = await Nft.findAll({
@@ -163,6 +161,7 @@ const createAllInitialNFTs = async () => {
         description: nft.token.description || "No description",
         image: nft.token.image || "No image",
         contract: nft.token.contract,
+        category: nft.token.category || ["Other"],
         tokenId: nft.token.tokenId,
         price: nft.market.floorAsk.price.amount.decimal,
         rarity: nft.token.rarity || 0.0,
@@ -185,12 +184,12 @@ const createAllInitialNFTs = async () => {
       await nftInDb.setCollection(correspondingCollection);
       response.push(nftInDb);
     });
+  } 
+    return response;
+  } catch (err) {
+    throw new Error(err.message)
   }
-  return response
-    }catch (err) {
-      throw new Error(err.message)
-    }
-  };
+};
 
 module.exports = {
   getNfts,
