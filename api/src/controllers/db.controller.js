@@ -6,9 +6,15 @@ const postEverythingToDB = async (req, res) => {
     try {
         const allCollections = await createAllInitialCollections();
         const allNfts = await createAllInitialNFTs();
-        res.status(200).json({
-            success: "todos los datos creados correctamente"
-        })
+        if(allCollections && allNfts){
+            return res.status(200).json({
+                success: "todos los datos creados correctamente",
+                collections : allCollections,
+                nfts : allNfts
+            })
+        }else{
+            throw new Error(`something went wrong`)
+        }
     }catch (error) {
         res.status(400).json({error : error.message})
     }
