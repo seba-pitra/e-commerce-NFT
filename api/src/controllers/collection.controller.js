@@ -78,7 +78,7 @@ const updateCollection = async (req, res) => {
   try{
     const { id } = req.params;
     const dataToUpdate = req.body;
-    const [updateCollection, created] = await Nft.upsert({
+    const [updateCollection, created] = await Collection.upsert({
       id : id,
       ...dataToUpdate
     })
