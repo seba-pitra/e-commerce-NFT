@@ -186,7 +186,7 @@ const createAllInitialNFTs = async () => {
       response.push(nftInDb);
     });
   }
-  return response;
+  return response
     }catch (err) {
       throw new Error(err.message)
     }
