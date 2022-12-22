@@ -271,8 +271,9 @@ export const freeShoppingCartState = () => {
 	return {type: DELETE_NFT_ON_SIGNOUT }; 
 }
 
-export const buyNftOnShoppingCart = (nftsOnShoppingCart) => {
+export const buyNftOnShoppingCart = (nftsOnShoppingCart, dataBuy) => {
   return async (dispatch) => {
+
     await fetch(`http://localhost:3001/payment`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -283,6 +284,14 @@ export const buyNftOnShoppingCart = (nftsOnShoppingCart) => {
       .then((data) => {
         window.location.replace(data.init_point);
       });
+
+
+    await fetch(`http://localhost:3001/buy`,{ 
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      mode: "cors",
+      body: JSON.stringify(dataBuy),
+    })
   };
 };
 
