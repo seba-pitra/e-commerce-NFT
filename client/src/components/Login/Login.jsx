@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import { useDispatch, useSelector } from 'react-redux';
+import { gettingActiveUserToState, injectLocalStorageCart } from '../../redux/actions'
 import { useHistory } from "react-router-dom";
 import GoogleIcon from '@mui/icons-material/Google';
 import {auth, loginGoogle} from "../../firebase.js";
@@ -8,12 +10,16 @@ import "./Login.css"
 // sendPasswordResetEmail
 const Login = () => {
 
+  const userNfts = useSelector((state) => state.userNfts);
+  
   const history = useHistory()
 
   const [logginForm, setLogginForm] = useState({
     email: "",
     password: "",
   });
+
+
 
   const [error, setError] = useState("")
 
@@ -24,8 +30,10 @@ const Login = () => {
     isLogged()
   }, [])
 
-  const handdleChange = (e) => {
-    setLogginForm({
+  const dispatch = useDispatch();
+  
+	const handdleChange = (e) => {
+      setLogginForm({
       ...logginForm,
       [e.target.name]: e.target.value,
     });
@@ -69,8 +77,17 @@ const Login = () => {
     }
   };
 
+
+	function loadLocalStorage(){
+	let localCart = JSON.parse(localStorage.getItem(logginForm.email));
+	if (localCart){dispatch(injectLocalStorageCart(localCart));} 
+	}
+
+
   const handdleSubmit = (e) => {
     e.preventDefault();
+    dispatch(gettingActiveUserToState(logginForm.email));
+    loadLocalStorage();	
     logginFunction(logginForm)
     setLogginForm({
       email: "",

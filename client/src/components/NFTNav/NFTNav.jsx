@@ -14,12 +14,14 @@ import { useDispatch, useSelector } from "react-redux";
 export default function NFTNav() {
   const [show, setShow] = useState(false);
 	const cartItemsCount = useSelector((state) => state.userNfts);
+	const activeUserIs = useSelector((state) => state.activeUser);
+	const userNfts = useSelector((state) => state.userNfts);
 
   const location = useLocation();
   const history = useHistory()
   const areWeInLanding = (location.pathname === "/");
   const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  const handleShow = () => {setShow(true); saveLocalStorage();};
 
   const logOutFunction = async () => {
     try {
@@ -33,6 +35,14 @@ export default function NFTNav() {
   const handdleCick = (e) => {
     logOutFunction();
   };
+
+function saveLocalStorage(){
+localStorage.setItem(activeUserIs,JSON.stringify(userNfts));
+	// activeUserIs == tag of item in localStorage
+	console.log(cartItemsCount );
+}
+
+
 
   return (
     <div className={areWeInLanding ? "hidden" : "nav-bar"}>
