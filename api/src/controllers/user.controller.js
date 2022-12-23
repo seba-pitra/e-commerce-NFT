@@ -32,18 +32,16 @@ const updateUser = async (req, res) => {
   try{
     const { id } = req.params;
     const dataToUpdate = req.body;
-    const userToUpdate = await User.findByPk(id)
-    if(userToUpdate){
-      const [updatedUser, created] = await User.upsert({
-        id : id,
-        ...dataToUpdate
-      })
-      res.status(200).send(updatedUser);
+    const foundUser = await User.findByPk(id);
+    if(foundUser){
+      foundUser.set(dataToUpdate);
+      await foundUser.save();
+      return res.status(200).send(foundUser);
     }else{
-      throw new Error(`No user found with id: ${id}`);
+      throw new Error(`No user with id ${id}`);
     }
   }catch(err){
-    res.status(400).send({error : err.message});
+    res.status(400).send(err.message);
   }
 }
 
