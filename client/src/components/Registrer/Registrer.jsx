@@ -88,16 +88,20 @@ const Register = () => {
 	<h3>Register</h3>
 </div>
 
-
 <form>
 <div class="input-group form-group">
 
-      <div className="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
-        <div className="form-outline mb-4">
-          <label className="form-label text-light" for="EmailField">
+ 
+
+	  	  
+	    <div className="d-flex flex-row align-items-center justify-content-center justify-content-lg-start"> 
+        <div className="form-outline mb-4"> 
+	  <label className="form-label text-light" for="EmailField">
             Email address
           </label>
-          <input
+          
+	  	  
+	  <input
             onChange={handdleChange}
             name="email"
             type="email"
@@ -106,8 +110,8 @@ const Register = () => {
             placeholder="Enter a valid email address"
             value={signUp.email}
           />
-	  </div>
-        </div>
+	    	  </div> 
+	          </div> 
 
         <div className="form-outline mb-3">
           <label className="form-label text-light" for="PassField">
