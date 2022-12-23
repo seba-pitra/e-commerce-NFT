@@ -35,6 +35,7 @@ import {
   GET_ACTIVE_USER,
   LOCAL_STORAGE_CART,
   DELETE_NFT_ON_SIGNOUT,
+  ADD_BUY_AT_HISTORY_BUYS,
 } from "../actions";
 import * as controllers from "../../utils";
 
@@ -59,6 +60,7 @@ const initialState = {
   msj: "",
   ethPrice: {},
   activeUser: {},
+  historyBuys: [],
 };
 
 const rootReducer = (state = initialState, action) => {
@@ -231,7 +233,25 @@ const rootReducer = (state = initialState, action) => {
     case BUY_NFT_ON_SHOOPING_CART:
       return {
         ...state,
-        redirectMercadoPago: action.payload,
+        activeUser: action.payload,
+      };
+    case LOCAL_STORAGE_CART:
+      return {
+        ...state,
+        userNfts: action.payload,
+      };
+
+    case DELETE_NFT_ON_SIGNOUT:
+      return {
+        ...state,
+        userNfts: [],
+      };
+    // ---
+
+    case ADD_BUY_AT_HISTORY_BUYS:
+      return {
+        ...state,
+        historyBuys: [...state.historyBuys, action.payload],
       };
     default:
       return { ...state };

@@ -46,7 +46,7 @@ export const SET_NFTS_PER_PAGE = "SET_GAMES_PER_PAGE";
 
 // -- LOCALSTORAGE --
 export const GET_ACTIVE_USER = "GET_ACTIVE_USER";
-export const LOCAL_STORAGE_CART = "LOCAL_STORAGE_CART"
+export const LOCAL_STORAGE_CART = "LOCAL_STORAGE_CART";
 
 // -- SHOPPING KART --
 export const ADD_NFT_ON_SHOOPING_CART = "ADD_NFT_ON_SHOOPING_CART";
@@ -61,7 +61,7 @@ export const getAllNfts = () => {
     dispatch({ type: LOADING });
     try {
       const allNfts = await axios.get("/nft");
-      console.log(allNfts.data.length)
+      console.log(allNfts.data.length);
       dispatch({ type: GET_ALL_NFTS, payload: allNfts.data });
     } catch (e) {
       alert("There was a connection error, please try again later NFT");
@@ -108,14 +108,14 @@ export const getAllUsers = () => {
 
 export const getUserByID = (id) => {
   return async (dispatch) => {
-    dispatch({type : LOADING})
+    dispatch({ type: LOADING });
     try {
       const user = await axios.get("ruta");
-      dispatch({type : GET_USER_BY_ID, payload : user.data});
-    }catch(e){
-      alert("There was a connection error, please try again later user")
+      dispatch({ type: GET_USER_BY_ID, payload: user.data });
+    } catch (e) {
+      alert("There was a connection error, please try again later user");
     }
-  }
+  };
 };
 
 export const getNftDetail = (id) => {
@@ -270,17 +270,16 @@ export const removeNftOfShoppingCart = (nftId) => {
   return { type: REMOVE_NFT_OF_SHOOPING_CART, payload: nftId };
 };
 
-
-export const gettingActiveUserToState = (payload) =>{
-	return {type: GET_ACTIVE_USER, payload};
-	};
+export const gettingActiveUserToState = (payload) => {
+  return { type: GET_ACTIVE_USER, payload };
+};
 export const injectLocalStorageCart = (payload) => {
-	return {type: LOCAL_STORAGE_CART, payload}; 
-	};
+  return { type: LOCAL_STORAGE_CART, payload };
+};
 
 export const freeShoppingCartState = () => {
-	return {type: DELETE_NFT_ON_SIGNOUT }; 
-}
+  return { type: DELETE_NFT_ON_SIGNOUT };
+};
 
 export const buyNftOnShoppingCart = (nftsOnShoppingCart) => {
   return async (dispatch) => {
@@ -292,7 +291,22 @@ export const buyNftOnShoppingCart = (nftsOnShoppingCart) => {
     })
       .then((res) => res.json())
       .then((data) => {
+        // window.location.replace(data.sandbox_init_point) // => prueba
         window.location.replace(data.init_point);
+      });
+  };
+};
+
+export const addBuyAtHistoryBuys = (buyData) => {
+  return async (dispatch) => {
+    await fetch(`http://localhost:3001/buy`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(buyData),
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        dispatch({ type: ADD_BUY_AT_HISTORY_BUYS, payload: data });
       });
   };
 };
