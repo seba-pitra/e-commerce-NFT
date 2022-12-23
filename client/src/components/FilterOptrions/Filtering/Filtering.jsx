@@ -2,7 +2,11 @@ import * as actions from "../../../redux/actions";
 import { useSelector } from "react-redux";
 import { useState } from "react";
 import { useDispatch } from "react-redux";
+import Accordion from "@mui/material/Accordion";
+import AccordionSummary from "@mui/material/AccordionSummary";
+import AccordionDetails from "@mui/material/AccordionDetails";
 import "./Filtering.css";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 export default function Filtering() {
   const [selectedCollection, setSelectedCollection] = useState("");
@@ -17,12 +21,12 @@ export default function Filtering() {
   const dispatch = useDispatch();
 
   const nfts = useSelector((state) => state.nfts);
-  const nfts2 = useSelector((state) => state.filteredNfts);
+  const filteredNfts = useSelector((state) => state.filteredNfts);
   const collections = useSelector((state) => state.collections);
 
   let category = { Species: [], Species2: [], Art: [], Type: [], Style: [], Rest: [], Backg: [] }
 
-  nfts.map(n => {
+  nfts.forEach(n => {
     category.Species.push(n.category[0])
     category.Species2.push(n.category[1])
     category.Art.push(n.category[2])
@@ -32,24 +36,14 @@ export default function Filtering() {
     category.Backg.push(n.category[6])
   })
 
-  category.Species = new Set(category.Species)
-  category.Species = Array.from(category.Species)
-  category.Species2 = new Set(category.Species2)
-  category.Species2 = Array.from(category.Species2)
-  category.Art = new Set(category.Art)
-  category.Art = Array.from(category.Art)
-  category.Type = new Set(category.Type)
-  category.Type = Array.from(category.Type)
-  category.Style = new Set(category.Style)
-  category.Style = Array.from(category.Style)
-  category.Rest = new Set(category.Rest)
-  category.Rest = Array.from(category.Rest)
-  category.Backg = new Set(category.Backg)
-  category.Backg = Array.from(category.Backg)
-
-  // console.log("allNfts")
-  // console.log(category)
-
+  category.Species = Array.from(new Set(category.Species))
+  category.Species2 = Array.from(new Set(category.Species2))
+  category.Art = Array.from(new Set(category.Art))
+  category.Type = Array.from(new Set(category.Type))
+  category.Style = Array.from(new Set(category.Style))
+  category.Rest = Array.from(new Set(category.Rest))
+  category.Backg = Array.from(new Set(category.Backg))
+  
   let category2 = {
     Species: [],
     Species2: [],
@@ -60,7 +54,7 @@ export default function Filtering() {
     Backg: []
   }
 
-  nfts2.map(c => {
+  filteredNfts.forEach(c => {
     category2.Species.push(c.category[0])
     category2.Species2.push(c.category[1])
     category2.Art.push(c.category[2])
@@ -165,202 +159,222 @@ export default function Filtering() {
 
   return (
     <>
-      <div className="options-container">
-        <label className="label" htmlFor="genres">
-          Collections:{" "}
-        </label>
-        <div className="button-list" name="genres" id="">
-          <select
-            onChange={(e) => {
-              selectCollection(e);
-            }}
-          >
-            <option hidden disabled selected>
-              Select collection
-            </option>
-            {collections.map((collection) => {
-              return (
-                <option
-                  key={collection.id}
-                  value={collection.id}
-                  className="option-btn btn-filter"
-                >
-                  {collection.name}
-                </option>
-              );
-            })}
-          </select>
-        </div>
-      </div>
-      <div className="options-container">
-        <div className="button-list" name="genres" id="">
-          <select
-            onChange={(e) => {
-              selectCategorySpecies(e);
-            }}
-          >
-            <option hidden disabled selected> Select Species </option>
-            
-            {
-            category.Species?.map((value) => {
-              return (
-                <option
-                  key={value}
-                  value={value}
-                  className="option-btn btn-filter"
-                >
-                  {value}
-                </option>
-              );
-            })}
-          </select>
-        </div>
-      </div>
-      <div className="options-container">
-        <div className="button-list" name="genres" id="">
-          <select
-            onChange={(e) => {
-              selectCategorySpecies2(e);
-            }}
-          >
-            <option hidden disabled selected> Select Species 2 </option>
-            
-            {
-            category.Species2?.map((value) => {
-              return (
-                <option
-                  key={value}
-                  value={value}
-                  className="option-btn btn-filter"
-                >
-                  {value}
-                </option>
-              );
-            })}
-          </select>
-        </div>
-      </div>
-      <div className="options-container">
-        <div className="button-list" name="genres" id="">
-          <select
-            onChange={(e) => {
-              selectCategoryArt(e);
-            }}
-          >
-            <option hidden disabled selected> Select Art </option>
-            
-            {
-            category.Art?.map((value) => {
-              return (
-                <option
-                  key={value}
-                  value={value}
-                  className="option-btn btn-filter"
-                >
-                  {value}
-                </option>
-              );
-            })}
-          </select>
-        </div>
-      </div>
-      <div className="options-container">
-        <div className="button-list" name="genres" id="">
-          <select
-            onChange={(e) => {
-              selectCategoryType(e);
-            }}
-          >
-            <option hidden disabled selected> Select Type</option>
-            
-            {
-            category.Type?.map((value) => {
-              return (
-                <option
-                  key={value}
-                  value={value}
-                  className="option-btn btn-filter"
-                >
-                  {value}
-                </option>
-              );
-            })}
-          </select>
-        </div>
-      </div>
-      <div className="options-container">
-        <div className="button-list" name="genres" id="">
-          <select
-            onChange={(e) => {
-              selectCategoryStyle(e);
-            }}
-          >
-            <option hidden disabled selected> Select Style </option>
-            
-            {
-            category.Style?.map((value) => {
-              return (
-                <option
-                  key={value}
-                  value={value}
-                  className="option-btn btn-filter"
-                >
-                  {value}
-                </option>
-              );
-            })}
-          </select>
-        </div>
-      </div>
-      <div className="options-container">
-        <div className="button-list" name="genres" id="">
-          <select
-            onChange={(e) => {
-              selectCategoryRest(e);
-            }}
-          >
-            <option hidden disabled selected> Select Rest </option>
-            
-            {
-            category.Rest?.map((value) => {
-              return (
-                <option
-                  key={value}
-                  value={value}
-                  className="option-btn btn-filter"
-                >
-                  {value}
-                </option>
-              );
-            })}
-          </select>
-        </div>
-      </div>
-      <div className="options-container">
-        <div className="button-list" name="genres" id="">
-          <select
-            onChange={(e) => {
-              selectCategoryBackg(e);
-            }}
-          >
-            <option hidden disabled selected> Select Background </option>
-            
-            {
-            category.Backg?.map((value) => {
-              return (
-                <option
-                  key={value}
-                  value={value}
-                  className="option-btn btn-filter"
-                >
-                  {value}
-                </option>
-              );
-            })}
-          </select>
-        </div>
-      </div>
-      
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <label className="label" htmlFor="genres">
+            Collections:
+          </label>
+        </AccordionSummary>
+        <AccordionDetails>
+              {collections.map((collection) => {
+                return (
+                  <>
+                    <label htmlFor={collection.id}>{collection.name}</label>
+                    <input
+                    type="checkbox"
+                    key={collection.id}
+                    value={collection.id}
+                    onClick={(e) => {selectCollection(e)}}
+                    className="option-btn btn-filter"
+                    />
+                  </>
+                );
+              })}
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <label className="label" htmlFor="genres">
+            Select Specie:
+          </label>
+        </AccordionSummary>
+        <AccordionDetails>
+              {category.Species?.map((specie) => {
+                return (
+                  <>
+                    <label htmlFor={specie}>{specie}</label>
+                    <input
+                    type="checkbox"
+                    key={specie}
+                    value={specie}
+                    onClick={(e) => {selectCategorySpecies(e)}}
+                    className="option-btn btn-filter"
+                    />
+                  </>
+                );
+              })}
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <label className="label" htmlFor="genres">
+            Select Species 2:
+          </label>
+        </AccordionSummary>
+        <AccordionDetails>
+              {category.Species2?.map((specie) => {
+                return (
+                  <>
+                    <label htmlFor={specie}>{specie}</label>
+                    <input
+                    type="checkbox"
+                    key={specie}
+                    value={specie}
+                    onClick={(e) => {selectCategorySpecies2(e)}}
+                    className="option-btn btn-filter"
+                    />
+                  </>
+                );
+              })}
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <label className="label" htmlFor="genres">
+            Select Art:
+          </label>
+        </AccordionSummary>
+        <AccordionDetails>
+              {category.Art?.map((specie) => {
+                return (
+                  <>
+                    <label htmlFor={specie}>{specie}</label>
+                    <input
+                    type="checkbox"
+                    key={specie}
+                    value={specie}
+                    onClick={(e) => {selectCategoryArt(e)}}
+                    className="option-btn btn-filter"
+                    />
+                  </>
+                );
+              })}
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <label className="label" htmlFor="genres">
+            Select Type:
+          </label>
+        </AccordionSummary>
+        <AccordionDetails>
+              {category.Type?.map((specie) => {
+                return (
+                  <>
+                    <label htmlFor={specie}>{specie}</label>
+                    <input
+                    type="checkbox"
+                    key={specie}
+                    value={specie}
+                    onClick={(e) => {selectCategoryType(e)}}
+                    className="option-btn btn-filter"
+                    />
+                  </>
+                );
+              })}
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <label className="label" htmlFor="genres">
+            Select Style:
+          </label>
+        </AccordionSummary>
+        <AccordionDetails>
+              {category.Style?.map((value) => {
+                return (
+                  <>
+                    <label htmlFor={value}>{value}</label>
+                    <input
+                    type="checkbox"
+                    key={value}
+                    value={value}
+                    onClick={(e) => {selectCategoryStyle(e)}}
+                    className="option-btn btn-filter"
+                    />
+                  </>
+                );
+              })}
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <label className="label" htmlFor="genres">
+            Select Rest:
+          </label>
+        </AccordionSummary>
+        <AccordionDetails>
+              {category.Rest?.map((value) => {
+                return (
+                  <>
+                    <label htmlFor={value}>{value}</label>
+                    <input
+                    type="checkbox"
+                    key={value}
+                    value={value}
+                    onClick={(e) => {selectCategoryRest(e)}}
+                    className="option-btn btn-filter"
+                    />
+                  </>
+                );
+              })}
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <label className="label" htmlFor="genres">
+            Select Background:
+          </label>
+        </AccordionSummary>
+        <AccordionDetails>
+              {category.Backg?.map((value) => {
+                return (
+                  <>
+                    <label htmlFor={value}>{value}</label>
+                    <input
+                    type="checkbox"
+                    key={value}
+                    value={value}
+                    onClick={(e) => {selectCategoryBackg(e)}}
+                    className="option-btn btn-filter"
+                    />
+                  </>
+                );
+              })}
+        </AccordionDetails>
+      </Accordion>
     </>
   );
 }
