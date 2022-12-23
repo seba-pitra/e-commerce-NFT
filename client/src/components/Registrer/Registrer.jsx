@@ -11,6 +11,8 @@ import "./Registrer.css";
 const Register = () => {
   const history = useHistory();
 
+
+
   const [signUp, setSignUpForm] = useState({
     email: "",
     password: "",
@@ -18,6 +20,8 @@ const Register = () => {
     last_name: "",
     age: "",
   });
+
+
 
   const [error, setError] = useState("");
 
