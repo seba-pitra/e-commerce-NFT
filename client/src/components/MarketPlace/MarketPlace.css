@@ -1,6 +1,7 @@
 .container_mainpage {
   width: 100%;
   display: flex;
+  background-color: #1c2331;
 }
 
 .test {

@@ -24,8 +24,10 @@ export const startPayment = async ({ setError, setTxs, ether, addr }) => {
     });
 
     setTxs(tx.hash);
+    return tx;
   } catch (err) {
     setError(err.message);
+    return err.message;
   }
 };
 
@@ -36,41 +38,55 @@ export default function Shoppingkart() {
   const [error, setError] = useState();
   const [txs, setTxs] = useState([]);
 
-  const [buyData, setBuyData] = useState({
-    contract: "",
-    statusPay: "Created",
-    payMethod: ""
-  })
-  
-  const handleBuyNftsOnShoppingCart = async () => {
-    await userNfts.forEach(nft => {
-      setBuyData({
-        contract: nft.contract,
-        statusPay: "Created", //? cuando cambia??
-        payMethod: "MercadoPago"
-      })  
-    })
+  const dispatch = useDispatch();
 
-	  dispatch(actions.buyNftOnShoppingCart(userNfts, ...buyData ));// "...buyData" ? => Probar
+  const handleBuyNftsOnShoppingCart = async () => {
+    dispatch(actions.buyNftOnShoppingCart(userNfts));
   };
 
   const handlePay = async ({ nftPrice, nftContract }) => {
     setError();
 
-    await startPayment({
+    const transactionMetamask = await startPayment({
       setError,
       setTxs,
       ether: nftPrice.toString(),
       addr: nftContract,
     });
-  };
 
-  const dispatch = useDispatch();
+    let buyData = {
+      price: nftPrice + " ETH",
+      contract: nftContract,
+      payMethod: "Metamask",
+      statusPay: "Created",
+    };
+
+    if (transactionMetamask.hash) {
+      //si salio bien...
+      buyData = {
+        ...buyData,
+        statusPay: "Successed",
+      };
+    } else if (transactionMetamask.includes("rejected")) {
+      //si se rechazo en metamask
+      buyData = {
+        ...buyData,
+        statusPay: "Rejected",
+      };
+    } else if (transactionMetamask.includes("insufficient funds")) {
+      //si faltan fondos
+      buyData = {
+        ...buyData,
+        statusPay: "Pending",
+      };
+    }
+
+    dispatch(actions.addBuyAtHistoryBuys(buyData));
+  };
 
   const handleRemoveButton = async (nftId) => {
     dispatch(actions.removeNftOfShoppingCart(nftId));
   };
-
 
   let totalAmount = 0;
   for (const nft of userNfts) {
