@@ -1,4 +1,5 @@
 const { User, Nft } = require("../db");
+const { superUser } = require("../jsondata/superUserData.json")
 
 const createUser = async (req, res) => {
   try {
@@ -135,6 +136,24 @@ const verifyUser = async (req, res) => {
     return res.status(400).json({error : error.message})
   }
 }
+/*
+* Super user data
+*/
+const createSuperUser = async () => {
+  try {
+    let response = await User.findOne({
+      where: {
+        id : superUser.id
+      }
+    })
+    if(!response){
+      response = await User.create(superUser)
+    }
+    return response
+  } catch (error) {
+    throw new Error(error.message)
+  }
+}
 
 module.exports = {
   getAllUsers,
@@ -143,5 +162,6 @@ module.exports = {
   createUser,
   updateUser,
   restoreDeletedUser,
-  verifyUser
+  verifyUser,
+  createSuperUser
 };

@@ -48,6 +48,9 @@ module.exports = (sequelize) => {
         allowNull: true,
         unique: true,
       },
+      profile_pic: {
+        type : DataTypes.TEXT
+      }
     },
     {
       timestamps: true,
