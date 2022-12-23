@@ -79,7 +79,19 @@ const Register = () => {
   };
 
   return (
-    <form>
+
+<div class="container">
+	<div class="d-flex justify-content-center h-100">
+		<div class="card">
+
+<div class="card-header">
+	<h3>Register</h3>
+</div>
+
+
+<form>
+<div class="input-group form-group">
+
       <div className="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
         <div className="form-outline mb-4">
           <label className="form-label text-light" for="EmailField">
@@ -94,6 +106,7 @@ const Register = () => {
             placeholder="Enter a valid email address"
             value={signUp.email}
           />
+	  </div>
         </div>
 
         <div className="form-outline mb-3">
@@ -170,6 +183,14 @@ const Register = () => {
         </div>
       </div>
     </form>
+
+
+</div>
+</div>
+</div>
+
+
+
   );
 };
 
