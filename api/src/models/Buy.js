@@ -11,7 +11,11 @@ module.exports = (sequelize) => {
         unique: true,
         allowNull: false,
       },
-      contract:{
+      price: {
+        type: DataTypes.STRING,
+        // allowNull: false,
+      },
+      contract: {
         type: DataTypes.STRING,
         allowNull: false,
       },
@@ -19,7 +23,7 @@ module.exports = (sequelize) => {
         type: DataTypes.STRING,
         validate: {
           customValidator: (value) => {
-            const enums = ["Created","Pending", "Rejected", "Successed"];
+            const enums = ["Created", "Pending", "Rejected", "Successed"];
             if (!enums.includes(value)) {
               throw new Error("not a valid option");
             }
@@ -29,17 +33,17 @@ module.exports = (sequelize) => {
       payMethod: {
         type: DataTypes.STRING,
         validate: {
-            customValidator: (value) => {
-              const enums = ["MercadoPago", "Metamask"];
-              if (!enums.includes(value)) {
-                throw new Error("not a valid option");
-              }
-            },
+          customValidator: (value) => {
+            const enums = ["MercadoPago", "Metamask"];
+            if (!enums.includes(value)) {
+              throw new Error("not a valid option");
+            }
           },
+        },
       },
-      
-  },
-  {
-    timestamps: true,
-  });
+    },
+    {
+      timestamps: true,
+    }
+  );
 };
