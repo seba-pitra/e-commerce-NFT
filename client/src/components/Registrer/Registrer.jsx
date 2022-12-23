@@ -81,7 +81,7 @@ const Register = () => {
   return (
 
 <div class="container">
-	<div class="d-flex justify-content-center h-100">
+	<div class="d-flex justify-content-center w-100">
 		<div class="card">
 
 <div class="card-header">
@@ -89,12 +89,8 @@ const Register = () => {
 </div>
 
 <form>
-<div class="input-group form-group">
-
- 
-
 	  	  
-	    <div className="d-flex flex-row align-items-center justify-content-center justify-content-lg-start"> 
+	    
         <div className="form-outline mb-4"> 
 	  <label className="form-label text-light" for="EmailField">
             Email address
@@ -111,7 +107,6 @@ const Register = () => {
             value={signUp.email}
           />
 	    	  </div> 
-	          </div> 
 
         <div className="form-outline mb-3">
           <label className="form-label text-light" for="PassField">
@@ -127,11 +122,13 @@ const Register = () => {
             value={signUp.password}
           />
         </div>
-        <div className="form-outline mb-4">
+        
+	  	  <div className="form-outline mb-4">  
           <label className="form-label text-light" for="EmailField">
             Name
           </label>
-          <input
+       
+	  <input
             onChange={handdleChange}
             name="name"
             type="name"
@@ -140,7 +137,7 @@ const Register = () => {
             placeholder="Enter a name"
             value={signUp.name}
           />
-        </div>
+	  	    </div> 
 
         <div className="form-outline mb-4">
           <label className="form-label text-light" for="EmailField">
@@ -172,7 +169,7 @@ const Register = () => {
           />
         </div>
 
-        <div className={`login-errormessage ${error ? "" : "noneDisplay"}`}>
+	  <div className={`login-errormessage ${error ? "" : "noneDisplay"}`}>
           <p>{error}</p>
         </div>
         <div className="text-center text-lg-start mt-4 pt-2">
@@ -182,16 +179,15 @@ const Register = () => {
             className="btn btn-dark btn-lg"
             style={{ paddingLeft: "2.5rem", paddingRight: "2.5rem" }}
           >
-            Registrer
+            Register
           </button>
         </div>
-      </div>
     </form>
 
 
 </div>
 </div>
-</div>
+	  </div>
 
 
 
