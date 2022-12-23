@@ -15,6 +15,7 @@ import {
   FILTER_NFT_NAME,
   ORDER_NFT_NAME,
   ORDER_NFT_PRICE,
+  GET_USER_BY_ID,
   GET_ETH_PRICE,
   // ORDER_NFT_AMOUNT,
   // ORDER_NFT_CREATED_AT,
@@ -40,6 +41,7 @@ const initialState = {
   users: [],
   userNfts: [],
   nftDetail: {},
+  userDetail: {},
   isLoading: false,
   orderDirection: "up-down",
   activePage: 1,
@@ -69,6 +71,8 @@ const rootReducer = (state = initialState, action) => {
       return { ...state, collections: action.payload, isLoading: false };
     case GET_ALL_USERS:
       return { ...state, users: action.payload };
+    case GET_USER_BY_ID:
+      return { ...state, userDetail: action.payload };
     case GET_NFT_DETAIL:
       return { ...state, nftDetail: action.payload, isLoading: false };
     case CREATE_NFT:
@@ -201,24 +205,24 @@ const rootReducer = (state = initialState, action) => {
         ...state,
         userNfts: state.userNfts.filter((nft) => nft.id !== action.payload),
       };
-// LS
+    // LS
     case GET_ACTIVE_USER:
-	return {
-	...state,
-	activeUser: action.payload,	
-	};
-case LOCAL_STORAGE_CART:
-	return {
-	...state,
-	userNfts: action.payload,
-	}
+      return {
+        ...state,
+        activeUser: action.payload,
+      };
+    case LOCAL_STORAGE_CART:
+      return {
+        ...state,
+        userNfts: action.payload,
+      };
 
-case DELETE_NFT_ON_SIGNOUT:
-	return {
-	...state,
-	userNfts: [],
-	}
-// ---
+    case DELETE_NFT_ON_SIGNOUT:
+      return {
+        ...state,
+        userNfts: [],
+      };
+    // ---
 
     case BUY_NFT_ON_SHOOPING_CART:
       return {

@@ -9,20 +9,20 @@ import Loading from "../Loading/Loading";
 
 import "./MarketPlace.css";
 
-function MarketPlace({loggedIn}) {
+function MarketPlace({ loggedIn }) {
   const order = useSelector((state) => state.orderDirection);
   const isLoading = useSelector((state) => state.isLoading);
   const dispatch = useDispatch();
   const history = useHistory();
 
-//   const [loggedIn, setLoggedIn] = useState(true);
-//   onAuthStateChanged(auth, (user) => {
-//     if (user) {
-//       setLoggedIn(true);
-//     } else {
-//       setLoggedIn(false);
-//     }
-//   });
+  //   const [loggedIn, setLoggedIn] = useState(true);
+  //   onAuthStateChanged(auth, (user) => {
+  //     if (user) {
+  //       setLoggedIn(true);
+  //     } else {
+  //       setLoggedIn(false);
+  //     }
+  //   });
 
   useEffect(() => {
     // if (loggedIn !== undefined) {
@@ -37,12 +37,10 @@ function MarketPlace({loggedIn}) {
     // } else {
     //   history.push("/");
     // }
-    validateUser()
-
+    validateUser();
   }, [loggedIn]);
 
   const validateUser = async () => {
-    console.log(loggedIn);
     if (loggedIn) {
       dispatch(actions.getAllNfts());
       dispatch(actions.getAllCollections());

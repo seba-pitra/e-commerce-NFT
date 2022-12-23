@@ -6,7 +6,7 @@ import "./NFTList_dash.css";
 import NFTsCard_dash from "../NFTsCard_dash/NFTsCard_dash";
 import { useState } from "react";
 
-const NFTList_dash = ({ nfts }) => {
+const NFTList_dash = ({ users, nfts }) => {
   // const { nfts } = useSelector((state) => state);
   // const dispatch = useDispatch();
 
@@ -26,25 +26,32 @@ const NFTList_dash = ({ nfts }) => {
   }, [filteredNFTs, cp, nftsxPage]);
 
   useEffect(() => {
-    setFilteredNFTs(nfts);
-  }, [nfts]);
+    if (users) {
+      setFilteredNFTs(users);
+    } else {
+      setFilteredNFTs(nfts);
+    }
+  }, [nfts, users]);
 
   const search = (e) => {
-    let nftsxName = nfts.filter((nft) =>
-      nft.name.toLowerCase().includes(e.target.value.toLowerCase())
-    );
-    if (cp !== 0) setCp(0);
-    setFilteredNFTs(nftsxName);
+    if (users) {
+      let nftsxName = users.filter((user) =>
+        user.name.toLowerCase().includes(e.target.value.toLowerCase())
+      );
+      if (cp !== 0) setCp(0);
+      setFilteredNFTs(nftsxName);
+    } else {
+      let nftsxName = nfts.filter((nft) =>
+        nft.name.toLowerCase().includes(e.target.value.toLowerCase())
+      );
+      if (cp !== 0) setCp(0);
+      setFilteredNFTs(nftsxName);
+    }
   };
 
   const handleShowChange = (e) => {
     setNFTsxPage(Number(e.target.value));
     setCp(0);
-  };
-
-  const handdleClick = (e) => {
-    e.preventDefault();
-    console.log(nfts, filteredNFTs);
   };
 
   const incrementCp = (e) => {
@@ -60,23 +67,52 @@ const NFTList_dash = ({ nfts }) => {
   // if (!nfts.length) return <h1>Loading</h1>;
   return (
     <div className="nfts-dash-container">
-      soy list
-      <button onClick={handdleClick}>Click me pls</button>
-      <div>
-        <label htmlFor="">Search: </label>
+      <div className="nft-dash-search-container">
+        <label htmlFor="">Search by name: </label>
         <input onChange={search} type="text" />
       </div>
-      <div className="dash-nfts-list">
-        {displayNFTs.map((nft) => (
-          <NFTsCard_dash
-            key={nft.id}
-            id={nft.id}
-            name={nft.name}
-            price={nft.price}
-            userId={nft.userId || "null"}
-          />
-        ))}
-      </div>
+      {/* Conditional Div (nft/user) */}
+      {users ? (
+        <div>Holi Soy Users</div>
+      ) : (
+        <div className="dash-nfts-titles">
+          <div className="dash-nfts-idTitle">
+            <p>id</p>
+          </div>
+          <div className="dash-nfts-NameTitle">
+            <p>Name</p>
+          </div>
+          <div className="dash-nfts-PriceTitle">
+            <p>Price</p>
+          </div>
+          <div className="dash-nfts-UserIdTitle">
+            <p>UserId</p>
+          </div>
+        </div>
+      )}
+
+      {/* Conditional Div (nft/user) */}
+      {/* Conditional Div (nft/user) */}
+      {users ? (
+        <div>
+          {displayNFTs.map((user) => (
+            <h6>Soy un user con nombre {user.name}</h6>
+          ))}
+        </div>
+      ) : (
+        <div className="dash-nfts-list">
+          {displayNFTs.map((nft) => (
+            <NFTsCard_dash
+              key={nft.id}
+              id={nft.id}
+              name={nft.name}
+              price={nft.price}
+              userId={nft.userId || "null"}
+            />
+          ))}
+        </div>
+      )}
+      {/* Conditional Div (nft/user) */}
       <div>
         <label htmlFor="nftsxPage">Show: </label>
         <select onChange={handleShowChange} name="nftsxPage">

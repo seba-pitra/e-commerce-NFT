@@ -38,7 +38,7 @@ export const SET_NFTS_PER_PAGE = "SET_GAMES_PER_PAGE";
 
 // -- LOCALSTORAGE --
 export const GET_ACTIVE_USER = "GET_ACTIVE_USER";
-export const LOCAL_STORAGE_CART = "LOCAL_STORAGE_CART"
+export const LOCAL_STORAGE_CART = "LOCAL_STORAGE_CART";
 
 // -- SEARCHING --
 // export const SEARCH_NFT = "SEARCH_NFT";
@@ -47,7 +47,7 @@ export const LOCAL_STORAGE_CART = "LOCAL_STORAGE_CART"
 export const ADD_NFT_ON_SHOOPING_CART = "ADD_NFT_ON_SHOOPING_CART";
 export const REMOVE_NFT_OF_SHOOPING_CART = "REMOVE_NFT_OF_SHOOPING_CART";
 export const BUY_NFT_ON_SHOOPING_CART = "BUY_NFT_ON_SHOOPING_CART";
-export const DELETE_NFT_ON_SIGNOUT = "DELETE_NFT_ON_SIGNOUT"; 
+export const DELETE_NFT_ON_SIGNOUT = "DELETE_NFT_ON_SIGNOUT";
 /*
   nft = {
     collectionId: string (code),
@@ -76,7 +76,7 @@ export const getAllNfts = () => {
     dispatch({ type: LOADING });
     try {
       const allNfts = await axios.get("/nft");
-      console.log(allNfts.data.length)
+      console.log(allNfts.data.length);
       dispatch({ type: GET_ALL_NFTS, payload: allNfts.data });
     } catch (e) {
       alert("There was a connection error, please try again later NFT");
@@ -113,7 +113,8 @@ export const getAllCollections = () => {
 export const getAllUsers = () => {
   return async (dispatch) => {
     try {
-      const allUsers = await axios.get("ruta");
+      const allUsers = await axios.get("/user");
+      console.log(allUsers.data);
       dispatch({ type: GET_ALL_USERS, payload: allUsers.data });
     } catch (e) {
       alert("There was a connection error, please try again later user");
@@ -123,14 +124,14 @@ export const getAllUsers = () => {
 
 export const getUserByID = (id) => {
   return async (dispatch) => {
-    dispatch({type : LOADING})
+    dispatch({ type: LOADING });
     try {
-      const user = await axios.get("ruta");
-      dispatch({type : GET_USER_BY_ID, payload : user.data});
-    }catch(e){
-      alert("There was a connection error, please try again later user")
+      const user = await axios.get(`/user/${id}`);
+      dispatch({ type: GET_USER_BY_ID, payload: user.data });
+    } catch (e) {
+      alert("There was a connection error, please try again later user");
     }
-  }
+  };
 };
 
 export const getNftDetail = (id) => {
@@ -259,17 +260,16 @@ export const removeNftOfShoppingCart = (nftId) => {
   return { type: REMOVE_NFT_OF_SHOOPING_CART, payload: nftId };
 };
 
-
-export const gettingActiveUserToState = (payload) =>{
-	return {type: GET_ACTIVE_USER, payload};
-	};
+export const gettingActiveUserToState = (payload) => {
+  return { type: GET_ACTIVE_USER, payload };
+};
 export const injectLocalStorageCart = (payload) => {
-	return {type: LOCAL_STORAGE_CART, payload}; 
-	};
+  return { type: LOCAL_STORAGE_CART, payload };
+};
 
 export const freeShoppingCartState = () => {
-	return {type: DELETE_NFT_ON_SIGNOUT }; 
-}
+  return { type: DELETE_NFT_ON_SIGNOUT };
+};
 
 export const buyNftOnShoppingCart = (nftsOnShoppingCart) => {
   return async (dispatch) => {

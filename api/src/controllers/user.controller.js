@@ -1,67 +1,69 @@
-const { User } = require("../db");
+const { User, Nft } = require("../db");
 
 const createUser = async (req, res) => {
+  console.log(req.body);
   try {
     const foundUser = await User.create({
-      ...req.body
-    })
+      ...req.body,
+    });
     res.status(200).send(foundUser);
   } catch (err) {
+    console.log(err.message);
     res.status(404).send(err.message);
   }
-}
+};
 
 const getAllUsers = async (req, res) => {
   try {
     const allUsers = await User.findAll({
       include: {
-        model : Nft
-      }
-    })
+        model: Nft,
+      },
+    });
     if (allUsers.length === 0) {
       throw new Error(`No users found on database`);
-    }else{
-      return res.status(200).json(allUsers)
+    } else {
+      return res.status(200).json(allUsers);
     }
   } catch (error) {
-    return res.status(404).json({error: error.message});
+    return res.status(404).json({ error: error.message });
   }
-}
+};
 
 const updateUser = async (req, res) => {
-  try{
+  try {
     const { id } = req.params;
     const dataToUpdate = req.body;
-    const userToUpdate = await User.findByPk(id)
-    if(userToUpdate){
+    const userToUpdate = await User.findByPk(id);
+    if (userToUpdate) {
       const [updatedUser, created] = await User.upsert({
-        id : id,
-        ...dataToUpdate
-      })
+        id: id,
+        ...dataToUpdate,
+      });
       res.status(200).send(updatedUser);
-    }else{
+    } else {
       throw new Error(`No user found with id: ${id}`);
     }
-  }catch(err){
-    res.status(400).send({error : err.message});
+  } catch (err) {
+    res.status(400).send({ error: err.message });
   }
-}
+};
 
 const getUserById = async (req, res) => {
   try {
     const { id } = req.params;
-    const foundUser = User.findByPk(id, {
-      include : {
-        model : Nft
-      }
-    })
-    if(foundUser){
-      return res.status(200).json(foundUser)
-    }else{
-      throw new Error(`No user found with id: ${id}`)
+    const foundUser = await User.findByPk(id, {
+      include: {
+        model: Nft,
+      },
+    });
+    if (foundUser) {
+      return res.status(200).json(foundUser);
+    } else {
+      throw new Error(`No user found with id: ${id}`);
     }
   } catch (error) {
-    return res.status(200).json({error : error.message})
+    return res.status(400).json({ error: error.message });
   }
 };
 
@@ -71,20 +73,20 @@ const deleteUser = async (req, res) => {
     const deletedUser = await User.findByPk({
       where: {
         id: id,
-      }
-    })
+      },
+    });
     if (deletedUser) {
       await Nft.destroy({
-        where : {
+        where: {
           id: id,
-        }
+        },
       });
       return res.status(200).send(`${deletedUser.name}  successfully deleted`);
-    }else {
-      throw new Error(`no NFT found with id: ${id}`)
+    } else {
+      throw new Error(`no NFT found with id: ${id}`);
     }
-  }catch (err) {
-    return res.status(400).json({error : err.message})
+  } catch (err) {
+    return res.status(400).json({ error: err.message });
   }
 };
 
@@ -92,49 +94,49 @@ const restoreDeletedUser = async (req, res) => {
   try {
     const { id } = req.params;
     await User.restore({
-      where : {
-        id : id,
-      }
-    })
+      where: {
+        id: id,
+      },
+    });
     const restoredUser = await Nft.findByPk({
-      where : {
-        id : id,
-      }
-    })
-    if(restoredUser){
+      where: {
+        id: id,
+      },
+    });
+    if (restoredUser) {
       return res.status(200).json({
-        nft : restoredUser,
-        message : `${restoredUser.name} successfully restored`
-      })
-    }else{
-      throw new Error(`No nft found with id ${id}`)
+        nft: restoredUser,
+        message: `${restoredUser.name} successfully restored`,
+      });
+    } else {
+      throw new Error(`No nft found with id ${id}`);
     }
-  }catch(err){
-    return res.status(400).json({err : err.message})
+  } catch (err) {
+    return res.status(400).json({ err: err.message });
   }
-}
+};
 
 const verifyUser = async (req, res) => {
   try {
     const { id } = req.params;
     const { dni } = req.body;
-    const user = await User.findByPk(id)
-    if(user){
+    const user = await User.findByPk(id);
+    if (user) {
       const [updatedUser, created] = await User.upsert({
-        id : id,
-        dni : dni
-      })
+        id: id,
+        dni: dni,
+      });
       return res.status(200).json({
-        user : updatedUser,
-        dni : updatedUser.dni
-      })
-    }else{
-      throw new Error(`No user found with id ${id}`)
+        user: updatedUser,
+        dni: updatedUser.dni,
+      });
+    } else {
+      throw new Error(`No user found with id ${id}`);
     }
   } catch (error) {
-    return res.status(400).json({error : error.message})
+    return res.status(400).json({ error: error.message });
   }
-}
+};
 
 module.exports = {
   getAllUsers,
@@ -143,5 +145,5 @@ module.exports = {
   createUser,
   updateUser,
   restoreDeletedUser,
-  verifyUser
+  verifyUser,
 };

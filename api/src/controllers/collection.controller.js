@@ -1,5 +1,6 @@
 const { Collection } = require("../db");
 const { collections } = require("../jsondata/collections.json");
+const { Nft } = require("../db");
 
 const getCollections = async (req, res) => {
   try {

@@ -35,7 +35,14 @@ module.exports = (sequelize) => {
       },
       price: {
         type: DataTypes.FLOAT,
-        allowNull: false
+        allowNull: false,
+        validate: {
+          customValidator: (value) => {
+            if (typeof value !== "number") {
+              throw new Error("Price must be a number");
+            }
+          },
+        },
       },
       rarity: {
         type: DataTypes.FLOAT,
@@ -61,7 +68,7 @@ module.exports = (sequelize) => {
       },
       ownerIcon: {
         type: DataTypes.TEXT,
-        allowNull: false
+        allowNull: false,
       },
     },
     {
