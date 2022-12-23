@@ -40,11 +40,14 @@ const updateNft = async (req, res) => {
   try{
     const { id } = req.params;
     const dataToUpdate = req.body;
-    const [updatedNft, created] = await Nft.upsert({
-      id : id,
-      ...dataToUpdate
-    })
-    res.status(200).send(updatedNft);
+    const foundNft = await Nft.findByPk(id);
+    if(foundNft){
+      foundNft.set(dataToUpdate);
+      await foundNft.save();
+      return res.status(200).send(foundNft);
+    }else{
+      throw new Error(`No nft with id ${id}`);
+    }
   }catch(err){
     res.status(400).send(err.message);
   }

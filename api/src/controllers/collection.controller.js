@@ -78,11 +78,14 @@ const updateCollection = async (req, res) => {
   try{
     const { id } = req.params;
     const dataToUpdate = req.body;
-    const [updateCollection, created] = await Collection.upsert({
-      id : id,
-      ...dataToUpdate
-    })
-    res.status(200).send(updateCollection);
+    const foundCollection = await Collection.findByPk(id);
+    if(foundCollection){
+      foundCollection.set(dataToUpdate);
+      await foundCollection.save();
+      return res.status(200).send(foundCollection);
+    }else{
+      throw new Error(`No collection with id ${id}`);
+    }
   }catch(err){
     res.status(400).send(err.message);
   }
