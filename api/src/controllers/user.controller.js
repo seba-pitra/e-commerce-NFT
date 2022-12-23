@@ -119,13 +119,38 @@ const verifyUser = async (req, res) => {
     const { dni } = req.body;
     const user = await User.findByPk(id)
     if(user){
-      const [updatedUser, created] = await User.upsert({
-        id : id,
-        dni : dni
+      user.set({
+        dni : dni,
+        type : "Medium"
       })
+      await user.save()
       return res.status(200).json({
-        user : updatedUser,
-        dni : updatedUser.dni
+        user : user,
+        dni : user.dni,
+        type : user.type
+      })
+    }else{
+      throw new Error(`No user found with id ${id}`)
+    }
+  } catch (error) {
+    return res.status(400).json({error : error.message})
+  }
+}
+
+const basicToAdmin = async (req, res) => {
+  try {
+    const { id } = req.params;
+    const user = await User.findByPk(id)
+    if(user){
+      user.set({
+        dni : dni,
+        type : "Admin"
+      })
+      await user.save()
+      return res.status(200).json({
+        user : user,
+        dni : user.dni,
+        type : user.type
       })
     }else{
       throw new Error(`No user found with id ${id}`)
@@ -161,5 +186,6 @@ module.exports = {
   updateUser,
   restoreDeletedUser,
   verifyUser,
-  createSuperUser
+  createSuperUser,
+  basicToAdmin
 };

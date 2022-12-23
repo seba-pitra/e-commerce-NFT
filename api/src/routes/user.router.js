@@ -6,7 +6,8 @@ const {
   createUser,
   updateUser,
   restoreDeletedUser,
-  verifyUser
+  verifyUser,
+  basicToAdmin
 } = require("../controllers/user.controller");
 
 const userRouter = Router();
@@ -23,6 +24,8 @@ userRouter.delete("/:id", deleteUser);
 
 userRouter.get("/restore/:id", restoreDeletedUser)
 
-userRouter.post("/verify/:id", verifyUser);
+userRouter.put("/verify/:id", verifyUser);
+
+userRouter.put("/upgrade/:id", basicToAdmin);
 
 module.exports = userRouter;
