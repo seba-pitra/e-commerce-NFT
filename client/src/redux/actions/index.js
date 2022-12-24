@@ -12,11 +12,19 @@ export const CREATE_NFT = "CREATE_NFT";
 export const DELETE_NFT = "DELETE_NFT";
 export const UPDATE_NFT = "UPDATE_NFT";
 
+// -- SETTERS --
+export const SET_CATEGORY_SPECIES = "SET_CATEGORY_SPECIES";
+export const SET_CATEGORY_SPECIES2 = "SET_CATEGORY_SPECIES2";
+export const SET_CATEGORY_ART = "SET_CATEGORY_ART";
+export const SET_CATEGORY_TYPE = "SET_CATEGORY_TYPE";
+export const SET_CATEGORY_STYLE = "SET_CATEGORY_STYLE";
+export const SET_CATEGORY_REST = "SET_CATEGORY_REST";
+export const SET_CATEGORY_BACKG = "SET_CATEGORY_BACKG";
+
 // -- FILTERS --
 export const RESET_FILTERS = "RESET_FILTERS";
-export const FILTER_NFT_COLLECTION = "FILTER_NFT_COLLECTION";
-export const FILTER_NFT_CATEGORY = "FILTER_NFT_CATEGORY";
-export const FILTER_NFT_STATE = "FILTER_NFT_STATE";
+export const FILTER_NFT_COLLECTION = "FILTER_NFT_COLLECTION"; 
+export const FILTER_NFT_CATEGORY = "FILTER_NFT_CATEGORY"; 
 export const FILTER_NFT_PRICE = "FILTER_NFT_PRICE";
 export const FILTER_NFT_NAME = "FILTER_NFT_NAME";
 export const ORDER_NFT_NAME = "ORDER_NFT_NAME";
@@ -40,39 +48,11 @@ export const SET_NFTS_PER_PAGE = "SET_GAMES_PER_PAGE";
 export const GET_ACTIVE_USER = "GET_ACTIVE_USER";
 export const LOCAL_STORAGE_CART = "LOCAL_STORAGE_CART";
 
-// -- SEARCHING --
-// export const SEARCH_NFT = "SEARCH_NFT";
-
 // -- SHOPPING KART --
 export const ADD_NFT_ON_SHOOPING_CART = "ADD_NFT_ON_SHOOPING_CART";
 export const REMOVE_NFT_OF_SHOOPING_CART = "REMOVE_NFT_OF_SHOOPING_CART";
 export const BUY_NFT_ON_SHOOPING_CART = "BUY_NFT_ON_SHOOPING_CART";
-export const DELETE_NFT_ON_SIGNOUT = "DELETE_NFT_ON_SIGNOUT";
-
-// -- BUY's --
-export const ADD_BUY_AT_HISTORY_BUYS = "ADD_BUY_AT_HISTORY_BUYS";
-export const GET_ALL_HISTORY_BUY = "GET_ALL_HISTORY_BUY";
-export const GET_BUY_BY_ID = "GET_BUY_BY_ID";
-/*
-  nft = {
-    collectionId: string (code),
-    contract : string (code),
-    id : string (UUIDV4),
-    image : string (url),
-    name : string,
-    price : float,
-    source : object (
-      {
-        domain : string,
-        icon : string (url)
-        name : string
-      }
-    )
-    tokenId : string (code)
-    type : string 
-    userId : string (UUIDV4)
-  }
-*/
+export const DELETE_NFT_ON_SIGNOUT = "DELETE_NFT_ON_SIGNOUT"; 
 
 // -- GETTERS --
 
@@ -150,18 +130,48 @@ export const getNftDetail = (id) => {
   };
 };
 
+// --- SETTERS ---
+
+export const setCategorySpecies = (payload) => {
+  return { type: SET_CATEGORY_SPECIES, payload };
+};
+
+export const setCategorySpecies2 = (payload) => {
+  return { type: SET_CATEGORY_SPECIES2, payload };
+};
+
+export const setCategoryArt = (payload) => {
+  return { type: SET_CATEGORY_ART, payload };
+};
+
+export const setCategoryType = (payload) => {
+  return { type: SET_CATEGORY_TYPE, payload };
+};
+
+export const setCategoryStyle = (payload) => {
+  return { type: SET_CATEGORY_STYLE, payload };
+};
+
+export const setCategoryRest = (payload) => {
+  return { type: SET_CATEGORY_REST, payload };
+};
+
+export const setCategoryBackg = (payload) => {
+  return { type: SET_CATEGORY_BACKG, payload };
+};
+
 // --- FILTERS ---
 
 export const resetFilters = () => {
   return { type: RESET_FILTERS };
-};
+}; 
 
 export const filterCollection = (payload) => {
   return { type: FILTER_NFT_COLLECTION, payload };
-};
+}; 
 
-export const filterCategory = (payload) => {
-  return { type: FILTER_NFT_CATEGORY, payload };
+export const filterCategory = () => {
+  return { type: FILTER_NFT_CATEGORY };
 };
 
 export const filterPrice = (payload) => {
@@ -170,10 +180,6 @@ export const filterPrice = (payload) => {
 
 export const filterName = (payload) => {
   return { type: FILTER_NFT_NAME, payload };
-};
-
-export const filterState = (payload) => {
-  return { type: FILTER_NFT_STATE, payload }; // compra o subasta FALTA EDITAR TYPE BACK
 };
 
 // --- ORDERS ---
