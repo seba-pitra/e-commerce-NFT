@@ -83,6 +83,7 @@ const Register = () => {
   };
 
   return (
+ <div class="generalContainer">
 
 <div class="container">
 	<div class="d-flex justify-content-center w-100">
@@ -193,7 +194,7 @@ const Register = () => {
 </div>
 	  </div>
 
-
+</div>
 
   );
 };
