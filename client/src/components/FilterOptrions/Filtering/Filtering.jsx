@@ -1,6 +1,6 @@
 import * as actions from "../../../redux/actions";
 import { useSelector } from "react-redux";
-import { useState } from "react";
+import { useState, useEffect } from 'react';
 import { useDispatch } from "react-redux";
 import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
@@ -23,6 +23,17 @@ export default function Filtering() {
   const nfts = useSelector((state) => state.nfts);
   const filteredNfts = useSelector((state) => state.filteredNfts);
   const collections = useSelector((state) => state.collections);
+
+  useEffect(() => {
+    dispatch(actions.setCategorySpecies(selectedCategorySpecies));
+    dispatch(actions.setCategorySpecies2(selectedCategorySpecies2));
+    dispatch(actions.setCategoryArt(selectedCategoryArt));
+    dispatch(actions.setCategoryType(selectedCategoryType));
+    dispatch(actions.setCategoryStyle(selectedCategoryStyle));
+    dispatch(actions.setCategoryRest(selectedCategoryRest));
+    dispatch(actions.setCategoryBackg(selectedCategoryBackg));
+    dispatch(actions.filterCategory());
+  }, [selectedCategorySpecies, selectedCategorySpecies2, selectedCategoryArt, selectedCategoryType, selectedCategoryStyle, selectedCategoryRest, selectedCategoryBackg]);
 
   let category = { Species: [], Species2: [], Art: [], Type: [], Style: [], Rest: [], Backg: [] }
 
@@ -85,8 +96,6 @@ export default function Filtering() {
       setSelectedCategorySpecies(filtered)
     }
     else setSelectedCategorySpecies([...selectedCategorySpecies, e.target.value]);
-    dispatch(actions.setCategorySpecies(selectedCategorySpecies));
-    dispatch(actions.filterCategory());
   };
 
   const selectCategorySpecies2 = (e) => {
@@ -95,8 +104,6 @@ export default function Filtering() {
       setSelectedCategorySpecies2(filtered)
     }
     else setSelectedCategorySpecies2([...selectedCategorySpecies2, e.target.value]);
-    dispatch(actions.setCategorySpecies2(selectedCategorySpecies2));
-    dispatch(actions.filterCategory());
   };
 
   const selectCategoryArt = (e) => {
@@ -105,8 +112,6 @@ export default function Filtering() {
       setSelectedCategoryArt(filtered)
     }
     else setSelectedCategoryArt([...selectedCategoryArt, e.target.value]);
-    dispatch(actions.setCategoryArt(selectedCategoryArt));
-    dispatch(actions.filterCategory());
   };
 
   const selectCategoryType = (e) => {
@@ -115,8 +120,6 @@ export default function Filtering() {
       setSelectedCategoryType(filtered)
     }
     else setSelectedCategoryType([...selectedCategoryType, e.target.value]);
-    dispatch(actions.setCategoryType(selectedCategoryType));
-    dispatch(actions.filterCategory());
   };
 
   const selectCategoryStyle = (e) => {
@@ -125,8 +128,6 @@ export default function Filtering() {
       setSelectedCategoryStyle(filtered)
     }
     else setSelectedCategoryStyle([...selectedCategoryStyle, e.target.value]);
-    dispatch(actions.setCategoryStyle(selectedCategoryStyle));
-    dispatch(actions.filterCategory());
   };
 
   const selectCategoryRest = (e) => {
@@ -135,8 +136,6 @@ export default function Filtering() {
       setSelectedCategoryRest(filtered)
     }
     else setSelectedCategoryRest([...selectedCategoryRest, e.target.value]);
-    dispatch(actions.setCategoryRest(selectedCategoryRest));
-    dispatch(actions.filterCategory());
   };
 
   const selectCategoryBackg = (e) => {
@@ -145,8 +144,6 @@ export default function Filtering() {
       setSelectedCategoryBackg(filtered)
     }
     else setSelectedCategoryBackg([...selectedCategoryBackg, e.target.value]);
-    dispatch(actions.setCategoryBackg(selectedCategoryBackg));
-    dispatch(actions.filterCategory());
   };
 
   return (
