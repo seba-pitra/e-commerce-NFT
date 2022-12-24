@@ -103,15 +103,79 @@ const rootReducer = (state = initialState, action) => {
 
     // --- FILTERS ---
     case FILTER_NFT_CATEGORY:
-      console.log("------------------------------------------------------------------------------------------------")
-      console.log("1 - Species", state.categorySpecies)
-      console.log("2 - Species2", state.categorySpecies2)
-      console.log("3 - Art", state.categoryArt)
-      console.log("4 - Type", state.categoryType)
-      console.log("5 - Style", state.categoryStyle)
-      console.log("6 - Rest", state.categoryRest)
-      console.log("7 - Backg", state.categoryBackg)
-      return { ...state }
+      let allAvailables = state.nfts;
+      
+      if (state.categorySpecies.length !== 0) {
+        let results = [];
+        let filtered = [];
+        state.categorySpecies.filter(cat => {
+          filtered = allAvailables.filter( nft => nft.category.includes(cat) )
+          results = results.concat(filtered)
+        })
+        allAvailables = results
+      }
+
+      if (state.categorySpecies2.length !== 0) {
+        let results = [];
+        let filtered = [];
+        state.categorySpecies2.filter(cat => {
+          filtered = allAvailables.filter( nft => nft.category.includes(cat) )
+          results = results.concat(filtered)
+        })
+        allAvailables = results
+      }
+
+      if (state.categoryArt.length !== 0) {
+        let results = [];
+        let filtered = [];
+        state.categoryArt.filter(cat => {
+          filtered = allAvailables.filter( nft => nft.category.includes(cat) )
+          results = results.concat(filtered)
+        })
+        allAvailables = results
+      }
+
+      if (state.categoryType.length !== 0) {
+        let results = [];
+        let filtered = [];
+        state.categoryType.filter(cat => {
+          filtered = allAvailables.filter( nft => nft.category.includes(cat) )
+          results = results.concat(filtered)
+        })
+        allAvailables = results
+      }
+
+      if (state.categoryStyle.length !== 0) {
+        let results = [];
+        let filtered = [];
+        state.categoryStyle.filter(cat => {
+          filtered = allAvailables.filter( nft => nft.category.includes(cat) )
+          results = results.concat(filtered)
+        })
+        allAvailables = results
+      }
+
+      if (state.categoryRest.length !== 0) {
+        let results = [];
+        let filtered = [];
+        state.categoryRest.filter(cat => {
+          filtered = allAvailables.filter( nft => nft.category.includes(cat) )
+          results = results.concat(filtered)
+        })
+        allAvailables = results
+      }
+
+      if (state.categoryBackg.length !== 0) {
+        let results = [];
+        let filtered = [];
+        state.categoryBackg.filter(cat => {
+          filtered = allAvailables.filter( nft => nft.category.includes(cat) )
+          results = results.concat(filtered)
+        })
+        allAvailables = results
+      }
+
+      return { ...state, filteredNfts: allAvailables }
 
     case RESET_FILTERS:
       return { ...state, filteredNfts: state.nfts, categories: [], activePage: 1, categorySpecies: [], categorySpecies2: [], 
