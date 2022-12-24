@@ -35,6 +35,11 @@ export default function Filtering() {
     dispatch(actions.filterCategory());
   }, [selectedCategorySpecies, selectedCategorySpecies2, selectedCategoryArt, selectedCategoryType, selectedCategoryStyle, selectedCategoryRest, selectedCategoryBackg]);
 
+  useEffect(() => {
+    dispatch(actions.setCollections(selectedCollection));
+    dispatch(actions.filterCollection());
+  }, [selectedCollection]);
+
   let category = { Species: [], Species2: [], Art: [], Type: [], Style: [], Rest: [], Backg: [] }
 
   nfts.forEach(n => {
@@ -82,12 +87,12 @@ export default function Filtering() {
   category2.Backg = new Set(category2.Backg)
   category2.Backg = Array.from(category2.Backg)
 
-  // console.log("FilteredNfts")
-  // console.log(category2)
-
   const selectCollection = (e) => {
-    setSelectedCollection(e.target.value);
-    dispatch(actions.filterCollection(e.target.value));
+    if(selectedCollection.includes(e.target.value)) {
+      let filtered = selectedCollection.filter(a => a !== e.target.value)
+      setSelectedCollection(filtered)
+    }
+    else setSelectedCollection([...selectedCollection, e.target.value]);
   };
 
   const selectCategorySpecies = (e) => {

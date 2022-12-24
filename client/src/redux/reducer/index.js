@@ -9,6 +9,7 @@ import {
   LOADING,
   RESET_FILTERS,
   FILTER_NFT_COLLECTION,
+  SET_COLLECTIONS,
   SET_CATEGORY_SPECIES,
   SET_CATEGORY_SPECIES2,
   SET_CATEGORY_ART,
@@ -43,6 +44,7 @@ const initialState = {
   nfts: [],
   filteredNfts: [],
   collections: [],
+  selectedCollections: [],
   categorySpecies: [],
   categorySpecies2: [], 
   categoryArt: [],
@@ -86,6 +88,8 @@ const rootReducer = (state = initialState, action) => {
       return { ...state, msj: action.payload };
 
     // --- SETTERS ---
+    case SET_COLLECTIONS:
+      return { ...state, selectedCollections: action.payload };
     case SET_CATEGORY_SPECIES:
       return { ...state, categorySpecies: action.payload };
     case SET_CATEGORY_SPECIES2:
@@ -175,18 +179,24 @@ const rootReducer = (state = initialState, action) => {
         allAvailables = results
       }
 
-      return { ...state, filteredNfts: allAvailables }
+      return { ...state, filteredNfts: allAvailables, activePage: 1 }
 
     case RESET_FILTERS:
       return { ...state, filteredNfts: state.nfts, categories: [], activePage: 1, categorySpecies: [], categorySpecies2: [], 
       categoryArt: [], categoryType: [], categoryStyle: [], categoryRest: [], categoryBackg: [] };
 
     case FILTER_NFT_COLLECTION:
-      let filterByCollection = [];
-      filterByCollection = state.nfts.filter(
-        (e) => e.collectionId === action.payload
-      );
-      return { ...state, filteredNfts: filterByCollection, activePage: 1 };
+      let filterByCollection = state.nfts;
+      if (state.selectedCollections.length !== 0) {
+        let results = [];
+        let filtered = [];
+        state.selectedCollections.filter(cat => {
+          filtered = filterByCollection.filter( nft => nft.collectionId === cat )
+          results = results.concat(filtered)
+        })
+        filterByCollection = results
+      }
+      return { ...state, filteredNfts: filterByCollection, activePage: 1  };
 
     case FILTER_NFT_NAME:
       let filterByName = [];

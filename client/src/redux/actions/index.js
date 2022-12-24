@@ -13,6 +13,7 @@ export const DELETE_NFT = "DELETE_NFT";
 export const UPDATE_NFT = "UPDATE_NFT";
 
 // -- SETTERS --
+export const SET_COLLECTIONS = "SET_COLLECTIONS";
 export const SET_CATEGORY_SPECIES = "SET_CATEGORY_SPECIES";
 export const SET_CATEGORY_SPECIES2 = "SET_CATEGORY_SPECIES2";
 export const SET_CATEGORY_ART = "SET_CATEGORY_ART";
@@ -133,6 +134,10 @@ export const getNftDetail = (id) => {
 
 // --- SETTERS ---
 
+export const setCollections = (payload) => {
+  return { type: SET_COLLECTIONS, payload };
+};
+
 export const setCategorySpecies = (payload) => {
   return { type: SET_CATEGORY_SPECIES, payload };
 };
@@ -167,8 +172,8 @@ export const resetFilters = () => {
   return { type: RESET_FILTERS };
 }; 
 
-export const filterCollection = (payload) => {
-  return { type: FILTER_NFT_COLLECTION, payload };
+export const filterCollection = () => {
+  return { type: FILTER_NFT_COLLECTION };
 }; 
 
 export const filterCategory = () => {
