@@ -44,15 +44,7 @@ export default function Filtering() {
   category.Rest = Array.from(new Set(category.Rest))
   category.Backg = Array.from(new Set(category.Backg))
   
-  let category2 = {
-    Species: [],
-    Species2: [],
-    Art: [],
-    Type: [],
-    Style: [],
-    Rest: [],
-    Backg: []
-  }
+  let category2 = { Species: [], Species2: [], Art: [], Type: [], Style: [], Rest: [], Backg: [] }
 
   filteredNfts.forEach(c => {
     category2.Species.push(c.category[0])
