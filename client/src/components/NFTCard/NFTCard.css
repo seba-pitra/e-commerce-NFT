@@ -34,6 +34,14 @@
   background-repeat: no-repeat;
   
 }
+
+.eth-rarity{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
 .bottom-img-info {
   display: flex;
   flex-direction: column;

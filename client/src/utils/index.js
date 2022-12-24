@@ -69,6 +69,107 @@ export function orderNFTByPrice(order, nfts){
         })
     }
 }
+
+// FALTA BOTON
+export function orderNFTByRarity(order, nfts){
+    if (order === 'up-down'){
+        return nfts.sort((nftA, nftB) => {
+            if (nftA.rarity > nftB.rarity) {
+                return 1;   
+            }
+            if (nftB.rarity > nftA.rarity) {
+                return -1;
+            }
+            return 0;
+        });
+    }else if(order === 'down-up'){
+        return nfts.sort((nftA, nftB) => {
+            if (nftA.rarity > nftB.rarity) {
+                return -1;
+            }
+            if (nftB.rarity > nftA.rarity) {
+                return 1;
+            }
+            return 0;
+        })
+    }
+}
+
+// FALTA BOTON
+export function orderNFTByRarityRank(order, nfts){
+    if (order === 'up-down'){
+        return nfts.sort((nftA, nftB) => {
+            if (nftA.rarityRank > nftB.rarityRank) {
+                return 1;   
+            }
+            if (nftB.rarityRank > nftA.rarityRank) {
+                return -1;
+            }
+            return 0;
+        });
+    }else if(order === 'down-up'){
+        return nfts.sort((nftA, nftB) => {
+            if (nftA.rarityRank > nftB.rarityRank) {
+                return -1;
+            }
+            if (nftB.rarityRank > nftA.rarityRank) {
+                return 1;
+            }
+            return 0;
+        })
+    }
+}
+
+// FALTA BOTON
+export function orderNFTByLastBuy(order, nfts){
+    if (order === 'up-down'){
+        return nfts.sort((nftA, nftB) => {
+            if (nftA.lastBuyValue > nftB.lastBuyValue) {
+                return 1;   
+            }
+            if (nftB.lastBuyValue > nftA.lastBuyValue) {
+                return -1;
+            }
+            return 0;
+        });
+    }else if(order === 'down-up'){
+        return nfts.sort((nftA, nftB) => {
+            if (nftA.lastBuyValue > nftB.lastBuyValue) {
+                return -1;
+            }
+            if (nftB.lastBuyValue > nftA.lastBuyValue) {
+                return 1;
+            }
+            return 0;
+        })
+    }
+}
+
+// FALTA BOTON
+export function orderNFTByLastBuyTs(order, nfts){
+    if (order === 'up-down'){
+        return nfts.sort((nftA, nftB) => {
+            if (nftA.lastBuyTs > nftB.lastBuyTs) {
+                return 1;   
+            }
+            if (nftB.lastBuyTs > nftA.lastBuyTs) {
+                return -1;
+            }
+            return 0;
+        });
+    }else if(order === 'down-up'){
+        return nfts.sort((nftA, nftB) => {
+            if (nftA.lastBuyTs > nftB.lastBuyTs) {
+                return -1;
+            }
+            if (nftB.lastBuyTs > nftA.lastBuyTs) {
+                return 1;
+            }
+            return 0;
+        })
+    }
+}
+
 export function orderNFTByAmount(order, nfts){
     if (order === 'up-down'){
         return nfts.sort((nftA, nftB) => {

@@ -11,7 +11,7 @@ export default function NFTCard(props) {
   const ethPrice = useSelector((state) => state.ethPrice);
   const dispatch = useDispatch();
 
-
+  console.log(props)
   const handleClickOnShoppingCart = (e) => {
 	  dispatch(actions.addNftOnShoppingCart(props));
   };
@@ -36,10 +36,13 @@ export default function NFTCard(props) {
               <h3>{props.name}</h3>
             </div>
             <div>
-              <h3>Price ETH: {props.price}</h3>{" "}
+              <div className="eth-rarity">
+                <h3>Price ETH: {props.price}</h3>{" "}
+                <h3>{props.rarity}</h3>
+                <h3>{props.rarityRank}</h3>
+              </div>
               <h4>
-                Usd: ${(props.price * ethPrice.USD).toFixed(2)} - Ars: $
-                {(props.price * ethPrice.ARS).toFixed(2)}
+                Last Buy: ETH {props.lastBuy} - ${(props.lastBuy * ethPrice.USD).toFixed(2)} USD
               </h4>
             </div>
           </div>
