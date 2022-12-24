@@ -1,14 +1,13 @@
-const { User, Nft } = require("../db");
+const { User, Nft, Collection } = require("../db");
 const { superUser } = require("../jsondata/superUserData.json")
 
 const createUser = async (req, res) => {
   try {
-    const foundUser = await User.create({
-      ...req.body
-    })
-    res.status(200).send(foundUser);
+    const userData = req.body
+    const newUser = await User.create(userData)
+    res.status(200).json(newUser);
   } catch (err) {
-    res.status(404).send(err.message);
+    res.status(404).json({error : err.message});
   }
 }
 
@@ -16,7 +15,7 @@ const getAllUsers = async (req, res) => {
   try {
     const allUsers = await User.findAll({
       include: {
-        model : Nft
+        model : Nft,
       }
     })
     if (allUsers.length === 0) {
@@ -51,7 +50,8 @@ const getUserById = async (req, res) => {
     const { id } = req.params;
     const foundUser = User.findByPk(id, {
       include : {
-        model : Nft
+        model : Nft,
+        model : Collection
       }
     })
     if(foundUser){
@@ -118,36 +118,41 @@ const verifyUser = async (req, res) => {
     const { id } = req.params;
     const { dni } = req.body;
     const user = await User.findByPk(id)
-    if(user){
-      user.set({
-        dni : dni,
-        type : "Medium"
-      })
-      await user.save()
-      return res.status(200).json({
-        user : user,
-        dni : user.dni,
-        type : user.type
-      })
+    if(user.type === "Basic"){
+      if(user){
+        user.set({
+          dni : dni,
+          type : "Verified"
+        })
+        await user.save()
+        return res.status(200).json({
+          user : user,
+          dni : user.dni,
+          type : user.type
+        })
+      }else{
+        throw new Error(`No user found with id ${id}`)
+      }
     }else{
-      throw new Error(`No user found with id ${id}`)
+        res.status(200).send("User already verified")
     }
   } catch (error) {
     return res.status(400).json({error : error.message})
   }
 }
 
-const basicToAdmin = async (req, res) => {
+const verifiedToAdmin = async (req, res) => {
   try {
     const { id } = req.params;
     const user = await User.findByPk(id)
-    if(user){
-      user.set({
-        dni : dni,
-        type : "Admin"
-      })
-      await user.save()
-      return res.status(200).json({
+    if(user.type === "Verified"){
+      if(user){
+        user.set({
+          dni : dni,
+          type : "Admin"
+        })
+        await user.save()
+        return res.status(200).json({
         user : user,
         dni : user.dni,
         type : user.type
@@ -155,6 +160,40 @@ const basicToAdmin = async (req, res) => {
     }else{
       throw new Error(`No user found with id ${id}`)
     }
+  }else if(user.type === "Basic"){
+      throw new Error(`User not verified`)
+  }else{
+      res.status(200).send(`User is already an admin`)
+  }
+  } catch (error) {
+    return res.status(400).json({error : error.message})
+  }
+}
+
+const adminToVerified = async (req, res) => {
+  try {
+    const { id } = req.params;
+    const user = await User.findByPk(id)
+    if(user.type === "Admin"){
+      if(user){
+        user.set({
+          dni : dni,
+          type : "Verified"
+        })
+        await user.save()
+        return res.status(200).json({
+        user : user,
+        dni : user.dni,
+        type : user.type
+      })
+    }else{
+      throw new Error(`No user found with id ${id}`)
+    }
+  }else if(user.type === "Verified"){
+      throw new Error(`User not admin`)
+  }else{
+      res.status(200).send(`User is already an verified`)
+  }
   } catch (error) {
     return res.status(400).json({error : error.message})
   }
@@ -187,5 +226,6 @@ module.exports = {
   restoreDeletedUser,
   verifyUser,
   createSuperUser,
-  basicToAdmin
+  verifiedToAdmin,
+  adminToVerified
 };
