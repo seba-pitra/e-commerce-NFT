@@ -1,5 +1,9 @@
 const NAME = 'name';
 const PRICE = 'price';
+const RARITY = 'rarity';
+const RARITYRANK = 'rarityrank';
+const LASTBUY = 'lastbuy';
+const LASTBUYTS = 'lastbuyts';
 const AMOUNT = 'amount';
 const CREATION = 'creationDate';
 const RATING = 'rating';
@@ -11,6 +15,14 @@ export function orderNFTBy(orderOption, orderDirection, nftsToSort){
             return orderNFTByName(orderDirection, nftsToSort)
         case PRICE:
             return orderNFTByPrice(orderDirection, nftsToSort)
+        case RARITY:
+            return orderNFTByRarity(orderDirection, nftsToSort)
+        case RARITYRANK:
+            return orderNFTByRarityRank(orderDirection, nftsToSort)
+        case LASTBUY:
+            return orderNFTByLastBuy(orderDirection, nftsToSort)
+        case LASTBUYTS:
+            return orderNFTByLastBuyTs(orderDirection, nftsToSort)
         case AMOUNT:
             return orderNFTByAmount(orderDirection, nftsToSort)
         case CREATION:
