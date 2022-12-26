@@ -4,7 +4,7 @@ const { Nft, Collection, User } = require("../db");
 const { superUser } = require("../jsondata/superUserData.json");
 
 const superUserId = superUser.id;
-
+// Devuelve todos los nfts de la base da datos junto con su coleccion asignada.
 const getNfts = async (req, res) => {
   try {
     const dbNfts = await Nft.findAll({
@@ -20,7 +20,7 @@ const getNfts = async (req, res) => {
     res.status(404).send(err.message);
   }
 };
-
+// Devuelve el nft que busca mediante id.
 const getNftById = async (req, res) => {
   try {
     const { id } = req.params;
@@ -35,6 +35,7 @@ const getNftById = async (req, res) => {
   }
 };
 
+//Actualiza el nft que busca mediante id.
 const updateNft = async (req, res) => {
   try {
     const { id } = req.params;
@@ -51,7 +52,7 @@ const updateNft = async (req, res) => {
     res.status(400).send(err.message);
   }
 };
-
+//Crea el nuevo nft a partir de nombre, descripcion, imagen, contrato, id del token, precio, dueño e imagen.
 const createNewNFT = async (req, res) => {
   try {
     const {
@@ -97,7 +98,7 @@ const createNewNFT = async (req, res) => {
     res.status(400).send(err.message);
   }
 };
-
+// Borra el nft de la base de datos (Soft-delete)
 const deleteNft = async (req, res) => {
   try {
     const { id } = req.params;
@@ -120,7 +121,7 @@ const deleteNft = async (req, res) => {
     return res.status(400).json({ error: err.message });
   }
 };
-
+//Restaura el nft borrado previamente.
 const restoreDeletedNft = async (req, res) => {
   try {
     const { id } = req.params;
@@ -153,9 +154,14 @@ const restoreDeletedNft = async (req, res) => {
 
 const createAllInitialNFTs = async () => {
   try {
-    const response = await Nft.findAll();
+    let response = await Nft.findAll({});
+    const superUser = await User.findOne({
+      where: {
+        id: superUserId,
+      },
+    });
     if (response.length === 0) {
-      allNFTs.forEach(async (nft) => {
+      for (const nft of allNFTs) {
         let nftName =
           nft.token.name ||
           nft.token.collection.name + " #" + nft.token.tokenId;
@@ -170,12 +176,9 @@ const createAllInitialNFTs = async () => {
 
         let priceLastBuy = 0;
         if (nft.token.lastSell.value === null) {
-          console.log("value token ", nft.token.lastSell.value);
-          console.log("PRICE ", nft.market.floorAsk.price.amount.decimal);
           priceLastBuy =
             nft.market.floorAsk.price.amount.decimal -
             nft.market.floorAsk.price.amount.decimal * 0.1;
-          console.log("final  ", priceLastBuy.toFixed(2));
         } else priceLastBuy = nft.token.lastSell.value;
 
         let nftToDB = {
@@ -207,15 +210,12 @@ const createAllInitialNFTs = async () => {
             id: nft.token.collection.id,
           },
         });
-        const superUser = await User.findOne({
-          where: {
-            id: superUserId,
-          },
-        });
+
         await nftInDb.setCollection(correspondingCollection);
         await nftInDb.setUser(superUser);
+        // console.log(nftInDb);
         response.push(nftInDb);
-      });
+      }
     }
     return response;
   } catch (err) {

@@ -1,6 +1,15 @@
 const { Collection, Nft } = require("../db");
 const { collections } = require("../jsondata/collections.json");
+const { reauthenticateWithCredential } = require("firebase/auth");
+const { Collection, Nft, User } = require("../db");
+const { collections } = require("../jsondata/collections.json");
 
+const { superUser } = require("../jsondata/superUserData.json");
+
+const superUserId = superUser.id;
+
+// Get all collections from the database.
+// Conseguir todas las colecciones de la base de datos.
 const getCollections = async (req, res) => {
   try {
     const dbCollections = await Collection.findAll({
@@ -16,6 +25,9 @@ const getCollections = async (req, res) => {
     return res.status(400).json({ error: err.message });
   }
 };
+
+//Get a collection through id from the database.
+//Conseguir una colleccion de la base de datos usando el id.
 const getCollectionById = async (req, res) => {
   try {
     const { id } = req.params;
@@ -33,6 +45,9 @@ const getCollectionById = async (req, res) => {
     res.status(400).json({ error: err.message });
   }
 };
+
+//Crear una nueva colleccion a partir de el id, el nombre y una imagen.
+//**(Es necesario revisar, el id de las collections de la api tiene un formato especifico)**
 const createNewCollection = async (req, res) => {
   try {
     const { id, name, image } = req.body;
@@ -50,6 +65,8 @@ const createNewCollection = async (req, res) => {
     res.status(400).json({ error: err.message });
   }
 };
+
+//Borrar coleccion de la base de datos a partir de id. (Soft-delete)
 const deleteCollection = async (req, res) => {
   try {
     const { id } = req.params;
@@ -75,6 +92,7 @@ const deleteCollection = async (req, res) => {
   }
 };
 
+//Actualizar los datos de una collecion a partir de el id.
 const updateCollection = async (req, res) => {
   try {
     const { id } = req.params;
@@ -91,7 +109,7 @@ const updateCollection = async (req, res) => {
     res.status(400).send(err.message);
   }
 };
-
+//Restaurar una colleccion eliminada.
 const restoreDeletedCollection = async (req, res) => {
   try {
     const { id } = req.params;
@@ -105,7 +123,6 @@ const restoreDeletedCollection = async (req, res) => {
         id: id,
       },
     });
-
     if (restoredCollection) {
       return res.status(200).json({
         nft: restoredCollection,
@@ -118,10 +135,10 @@ const restoreDeletedCollection = async (req, res) => {
     return res.status(400).json({ err: err.message });
   }
 };
+
 /*
   controllers to create and post collections to db
 */
-
 const postAllCollectionsToDB = async (req, res) => {
   try {
     const allCollections = createAllInitialCollections();
@@ -133,17 +150,23 @@ const postAllCollectionsToDB = async (req, res) => {
 
 const createAllInitialCollections = async () => {
   try {
-    const response = await Collection.findAll();
+    let response = await Collection.findAll({});
+    const userOwner = await User.findOne({
+      where: {
+        id: superUserId,
+      },
+    });
     if (response.length === 0) {
-      collections.forEach(async (collection) => {
+      for (const collection of collections) {
         let collectionToDB = {
           id: collection.id,
           name: collection.name || "No name",
           image: collection.image || "No image",
         };
         const collectionInDB = await Collection.create(collectionToDB);
+        collectionInDB.setUser(userOwner);
         response.push(collectionInDB);
-      });
+      }
     }
     return response;
   } catch (err) {
