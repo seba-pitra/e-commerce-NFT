@@ -32,7 +32,7 @@ module.exports = (sequelize) => {
         defaultValue: "Basic",
         validate: {
           customValidator: (value) => {
-            const enums = ["Admin", "Medium", "Basic"];
+            const enums = ["Admin", "Verified", "Basic"];
             if (!enums.includes(value)) {
               throw new Error("not a valid option");
             }
@@ -45,6 +45,9 @@ module.exports = (sequelize) => {
         allowNull: true,
         unique: true,
       },
+      profile_pic: {
+        type : DataTypes.TEXT
+      }
     },
     {
       timestamps: true,
