@@ -1,5 +1,8 @@
 const { Buy, User } = require("../db");
 
+
+// Create a new purchase and add it to the database
+// Crear una nueva compra y agregarla a la base de datos
 const createNewBuy = async (req, res) => {
     const {payMethod,contract,statusPay} = req.body;
   try {
@@ -14,6 +17,8 @@ const createNewBuy = async (req, res) => {
   }
 }
 
+// Get purchase through id.
+// Conseguir una compra a través del id.
 const getBuyById = async (req, res) => {
   try {
     const {id} = req.params
@@ -31,10 +36,10 @@ const getBuyById = async (req, res) => {
     res.status(404).send({error: err.message})
   }
 }
-
+// Get a list of all purchases.
+// Conseguir el listado de todas las compras.
 const getAllBuy = async (req, res) => {
   try {
-    // const dbBuys = await Buy.findAll()
     const dbBuys = await Buy.findAll({
       include: {
         model: User,
