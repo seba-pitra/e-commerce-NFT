@@ -23,12 +23,12 @@ const Login = ({ loggedIn }) => {
 
   const [error, setError] = useState("");
 
-  const [logged, setLogged] = useState(null);
+  // const [logged, setLogged] = useState(null);
 
-  useEffect(() => {
-    // console.log(logged)
-    isLogged();
-  }, []);
+  // useEffect(() => {
+  //   // console.log(logged)
+  //   isLogged();
+  // }, []);
 
   const dispatch = useDispatch();
 
@@ -44,14 +44,14 @@ const Login = ({ loggedIn }) => {
     history.push("/marketplace");
   };
 
-  const isLogged = async () => {
-    console.log(loggedIn);
-    if (loggedIn) {
-      setLogged(true);
-    } else {
-      setLogged(false);
-    }
-  };
+  // const isLogged = async () => {
+  //   console.log(loggedIn);
+  //   if (loggedIn) {
+  //     setLogged(true);
+  //   } else {
+  //     setLogged(false);
+  //   }
+  // };
 
   const logginFunction = async (params) => {
     try {
@@ -100,7 +100,7 @@ const Login = ({ loggedIn }) => {
     });
   };
 
-  if (logged)
+  if (loggedIn)
     return (
       <div className="login-loggedmessage">
         <p>You've been logged</p>

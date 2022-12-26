@@ -16,22 +16,22 @@ import "./BarChart.css";
 Chart.defaults.color = "black";
 Chart.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
 
-const Graficos = () => {
-  const { nfts, collections } = useSelector((state) => state);
-
+const BarChart = ({ chartNfts, chartCollections }) => {
   const [data, setData] = useState([]);
   const [avgPrice, setAvgPrice] = useState([]);
   const [totalPrice, setTotalPrice] = useState([]);
+  const [collectionName, setCollectionName] = useState(
+    chartCollections.map((names) => names.name)
+  );
+  console.log(chartNfts);
+  const [NftsCollection, setNftsCollection] = useState(
+    chartNfts.map((names) =>
+      names.collection ? names.collection.name : "No name"
+    )
+  );
 
-  const dispatch = useDispatch();
-
-  useEffect(() => {
-    dispatch(actions.getAllNfts());
-    dispatch(actions.getAllCollections());
-  }, [dispatch]);
-
-  const collectionName = collections.map((names) => names.name);
-  const NftsCollection = nfts.map((names) => names.collection.name);
+  // const collectionName = collections.map((names) => names.name);
+  // const NftsCollection = nfts.map((names) => names.collection.name);
 
   const creatingData = () => {
     let datos = [];
@@ -39,7 +39,9 @@ const Graficos = () => {
     let totalPrecio = [];
     collectionName.forEach((element) => {
       let collectionArray = NftsCollection.filter((data) => data === element);
-      let nftArray = nfts.filter((data) => data.collection.name === element);
+      let nftArray = chartNfts.filter(
+        (data) => data.collection?.name === element
+      );
       datos.push(collectionArray.length);
       precioMedio.push(
         nftArray.map((elem) => elem.price).reduce((a, c) => a + c) /
@@ -56,7 +58,7 @@ const Graficos = () => {
 
   useEffect(() => {
     creatingData();
-  }, [nfts, collections]);
+  }, []);
 
   const chartData = {
     labels: collectionName,
@@ -119,4 +121,4 @@ const Graficos = () => {
   );
 };
 
-export default Graficos;
+export default BarChart;

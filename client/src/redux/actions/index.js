@@ -68,7 +68,6 @@ export const getAllNfts = () => {
     try {
       const allNfts = await axios.get("/nft");
       console.log(allNfts.data.length);
-      console.log(allNfts.data.length);
       dispatch({ type: GET_ALL_NFTS, payload: allNfts.data });
     } catch (e) {
       alert("There was a connection error, please try again later NFT");
