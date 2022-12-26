@@ -10,6 +10,11 @@ export default function Ordering() {
   //estos estados son para cambiar el estilo.
   const [nameOrderUp, setNameOrderUp] = useState(true);
   const [priceOrderUp, setPriceOrderUp] = useState(true);
+  const [rarityOrderUp, setRarityOrderUp] = useState(true);
+  const [rarityRankOrderUp, setRarityRankOrderUp] = useState(true);
+  const [lastBuyOrderUp, setLastBuyOrderUp] = useState(true);
+  const [lastBuyTsOrderUp, setLastBuyTsOrderUp] = useState(true);
+
   // const [amountOrderUp, setAmountOrderUp] = useState(true);
   // const [releaseOrderUp, setReleaseOrderUp] = useState(true);
 
@@ -25,6 +30,30 @@ export default function Ordering() {
     setPriceOrderUp(!priceOrderUp);
     dispatch(actions.changeOrderDirection());
     dispatch(actions.orderPrice());
+  };
+
+  const orderByRarity = () => {
+    setRarityOrderUp(!rarityOrderUp);
+    dispatch(actions.changeOrderDirection());
+    dispatch(actions.orderRarity());
+  };
+
+  const orderByRarityRank = () => {
+    setRarityRankOrderUp(!rarityRankOrderUp);
+    dispatch(actions.changeOrderDirection());
+    dispatch(actions.orderRarityRank());
+  };
+
+  const orderByLastBuy = () => {
+    setLastBuyOrderUp(!lastBuyOrderUp);
+    dispatch(actions.changeOrderDirection());
+    dispatch(actions.orderLastBuy());
+  };
+
+  const orderByLastBuyTs = () => {
+    setLastBuyTsOrderUp(!lastBuyTsOrderUp);
+    dispatch(actions.changeOrderDirection());
+    dispatch(actions.orderLastBuyTs());
   };
 
   // const orderByAmount = () => {
@@ -67,6 +96,56 @@ export default function Ordering() {
           Price
           {
             priceOrderUp ? 
+            <KeyboardArrowUpIcon></KeyboardArrowUpIcon> :
+            <KeyboardArrowDownIcon></KeyboardArrowDownIcon>
+          }
+        </button>
+        <button
+          id="rarity-option"
+          className={rarityOrderUp ? "btn-order-down" : "btn-order-up"}
+          onClick={() => orderByRarity()}
+        >
+          Rarity
+          {
+            rarityOrderUp ? 
+            <KeyboardArrowUpIcon></KeyboardArrowUpIcon> :
+            <KeyboardArrowDownIcon></KeyboardArrowDownIcon>
+          }
+        </button>
+        <button
+          id="rarityrank-option"
+          className={rarityRankOrderUp ? "btn-order-down" : "btn-order-up"}
+          onClick={() => orderByRarityRank()}
+        >
+          RarityRank
+          {
+            rarityRankOrderUp ? 
+            <KeyboardArrowUpIcon></KeyboardArrowUpIcon> :
+            <KeyboardArrowDownIcon></KeyboardArrowDownIcon>
+          }
+        </button>
+
+        <button
+          id="lastbuy-option"
+          className={lastBuyOrderUp ? "btn-order-down" : "btn-order-up"}
+          onClick={() => orderByLastBuy()}
+        >
+          LastBuy
+          {
+            lastBuyOrderUp ? 
+            <KeyboardArrowUpIcon></KeyboardArrowUpIcon> :
+            <KeyboardArrowDownIcon></KeyboardArrowDownIcon>
+          }
+        </button>
+
+        <button
+          id="lastbuyts-option"
+          className={lastBuyTsOrderUp ? "btn-order-down" : "btn-order-up"}
+          onClick={() => orderByLastBuyTs()}
+        >
+          LastBuyTs
+          {
+            lastBuyTsOrderUp ? 
             <KeyboardArrowUpIcon></KeyboardArrowUpIcon> :
             <KeyboardArrowDownIcon></KeyboardArrowDownIcon>
           }

@@ -13,6 +13,7 @@ export const DELETE_NFT = "DELETE_NFT";
 export const UPDATE_NFT = "UPDATE_NFT";
 
 // -- SETTERS --
+export const SET_COLLECTIONS = "SET_COLLECTIONS";
 export const SET_CATEGORY_SPECIES = "SET_CATEGORY_SPECIES";
 export const SET_CATEGORY_SPECIES2 = "SET_CATEGORY_SPECIES2";
 export const SET_CATEGORY_ART = "SET_CATEGORY_ART";
@@ -28,7 +29,11 @@ export const FILTER_NFT_CATEGORY = "FILTER_NFT_CATEGORY";
 export const FILTER_NFT_PRICE = "FILTER_NFT_PRICE";
 export const FILTER_NFT_NAME = "FILTER_NFT_NAME";
 export const ORDER_NFT_NAME = "ORDER_NFT_NAME";
-export const ORDER_NFT_PRICE = "ORDER_NFT_PRICE";
+export const ORDER_NFT_PRICE = "ORDER_NFT_PRICE"; 
+export const ORDER_NFT_RARITY = "ORDER_NFT_RARITY"; 
+export const ORDER_NFT_RARITYRANK = "ORDER_NFT_RARITYRANK"; 
+export const ORDER_NFT_LASTBUY = "ORDER_NFT_LASTBUY"; 
+export const ORDER_NFT_LASTBUYTS = "ORDER_NFT_LASTBUYTS"; 
 export const ORDER_NFT_AMOUNT = "ORDER_NFT_AMOUNT";
 export const ORDER_NFT_CREATED_AT = "ORDER_NFT_CREATED_AT";
 export const CHANGE_ORDER_DIRECTION = "CHANGE_ORDER_DIRECTION";
@@ -133,6 +138,10 @@ export const getNftDetail = (id) => {
 
 // --- SETTERS ---
 
+export const setCollections = (payload) => {
+  return { type: SET_COLLECTIONS, payload };
+};
+
 export const setCategorySpecies = (payload) => {
   return { type: SET_CATEGORY_SPECIES, payload };
 };
@@ -167,8 +176,8 @@ export const resetFilters = () => {
   return { type: RESET_FILTERS };
 }; 
 
-export const filterCollection = (payload) => {
-  return { type: FILTER_NFT_COLLECTION, payload };
+export const filterCollection = () => {
+  return { type: FILTER_NFT_COLLECTION };
 }; 
 
 export const filterCategory = () => {
@@ -191,6 +200,22 @@ export const orderName = (payload) => {
 
 export const orderPrice = (payload) => {
   return { type: ORDER_NFT_PRICE, payload };
+};
+
+export const orderRarity = (payload) => {
+  return { type: ORDER_NFT_RARITY, payload };
+};
+
+export const orderRarityRank = (payload) => {
+  return { type: ORDER_NFT_RARITYRANK, payload };
+};
+
+export const orderLastBuy = (payload) => {
+  return { type: ORDER_NFT_LASTBUY, payload };
+};
+
+export const orderLastBuyTs = (payload) => {
+  return { type: ORDER_NFT_LASTBUYTS, payload };
 };
 
 export const orderAmount = (payload) => {

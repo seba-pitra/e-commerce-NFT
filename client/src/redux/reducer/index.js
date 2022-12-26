@@ -9,6 +9,7 @@ import {
   LOADING,
   RESET_FILTERS,
   FILTER_NFT_COLLECTION,
+  SET_COLLECTIONS,
   SET_CATEGORY_SPECIES,
   SET_CATEGORY_SPECIES2,
   SET_CATEGORY_ART,
@@ -21,6 +22,10 @@ import {
   FILTER_NFT_NAME,
   ORDER_NFT_NAME,
   ORDER_NFT_PRICE,
+  ORDER_NFT_RARITY,
+  ORDER_NFT_RARITYRANK,
+  ORDER_NFT_LASTBUY,
+  ORDER_NFT_LASTBUYTS,
   GET_ETH_PRICE,
   // ORDER_NFT_AMOUNT,
   // ORDER_NFT_CREATED_AT,
@@ -43,6 +48,7 @@ const initialState = {
   nfts: [],
   filteredNfts: [],
   collections: [],
+  selectedCollections: [],
   categorySpecies: [],
   categorySpecies2: [], 
   categoryArt: [],
@@ -86,6 +92,8 @@ const rootReducer = (state = initialState, action) => {
       return { ...state, msj: action.payload };
 
     // --- SETTERS ---
+    case SET_COLLECTIONS:
+      return { ...state, selectedCollections: action.payload };
     case SET_CATEGORY_SPECIES:
       return { ...state, categorySpecies: action.payload };
     case SET_CATEGORY_SPECIES2:
@@ -103,26 +111,96 @@ const rootReducer = (state = initialState, action) => {
 
     // --- FILTERS ---
     case FILTER_NFT_CATEGORY:
-      console.log("------------------------------------------------------------------------------------------------")
-      console.log("1 - Species", state.categorySpecies)
-      console.log("2 - Species2", state.categorySpecies2)
-      console.log("3 - Art", state.categoryArt)
-      console.log("4 - Type", state.categoryType)
-      console.log("5 - Style", state.categoryStyle)
-      console.log("6 - Rest", state.categoryRest)
-      console.log("7 - Backg", state.categoryBackg)
-      return { ...state }
+      let allAvailables = state.nfts;
+      
+      if (state.categorySpecies.length !== 0) {
+        let results = [];
+        let filtered = [];
+        state.categorySpecies.filter(cat => {
+          filtered = allAvailables.filter( nft => nft.category.includes(cat) )
+          results = results.concat(filtered)
+        })
+        allAvailables = results
+      }
+
+      if (state.categorySpecies2.length !== 0) {
+        let results = [];
+        let filtered = [];
+        state.categorySpecies2.filter(cat => {
+          filtered = allAvailables.filter( nft => nft.category.includes(cat) )
+          results = results.concat(filtered)
+        })
+        allAvailables = results
+      }
+
+      if (state.categoryArt.length !== 0) {
+        let results = [];
+        let filtered = [];
+        state.categoryArt.filter(cat => {
+          filtered = allAvailables.filter( nft => nft.category.includes(cat) )
+          results = results.concat(filtered)
+        })
+        allAvailables = results
+      }
+
+      if (state.categoryType.length !== 0) {
+        let results = [];
+        let filtered = [];
+        state.categoryType.filter(cat => {
+          filtered = allAvailables.filter( nft => nft.category.includes(cat) )
+          results = results.concat(filtered)
+        })
+        allAvailables = results
+      }
+
+      if (state.categoryStyle.length !== 0) {
+        let results = [];
+        let filtered = [];
+        state.categoryStyle.filter(cat => {
+          filtered = allAvailables.filter( nft => nft.category.includes(cat) )
+          results = results.concat(filtered)
+        })
+        allAvailables = results
+      }
+
+      if (state.categoryRest.length !== 0) {
+        let results = [];
+        let filtered = [];
+        state.categoryRest.filter(cat => {
+          filtered = allAvailables.filter( nft => nft.category.includes(cat) )
+          results = results.concat(filtered)
+        })
+        allAvailables = results
+      }
+
+      if (state.categoryBackg.length !== 0) {
+        let results = [];
+        let filtered = [];
+        state.categoryBackg.filter(cat => {
+          filtered = allAvailables.filter( nft => nft.category.includes(cat) )
+          results = results.concat(filtered)
+        })
+        allAvailables = results
+      }
+
+      return { ...state, filteredNfts: allAvailables, activePage: 1 }
 
     case RESET_FILTERS:
       return { ...state, filteredNfts: state.nfts, categories: [], activePage: 1, categorySpecies: [], categorySpecies2: [], 
       categoryArt: [], categoryType: [], categoryStyle: [], categoryRest: [], categoryBackg: [] };
 
     case FILTER_NFT_COLLECTION:
-      let filterByCollection = [];
-      filterByCollection = state.nfts.filter(
-        (e) => e.collectionId === action.payload
-      );
-      return { ...state, filteredNfts: filterByCollection, activePage: 1 };
+      let filterByCollection = state.nfts;
+      if (state.selectedCollections.length !== 0) {
+        let results = [];
+        let filtered = [];
+        state.selectedCollections.filter(cat => {
+          filtered = filterByCollection.filter( nft => nft.collectionId === cat )
+          results = results.concat(filtered)
+        })
+        filterByCollection = results
+      }
+      return { ...state, filteredNfts: filterByCollection, activePage: 1  };
 
     case FILTER_NFT_NAME:
       let filterByName = [];
@@ -185,6 +263,37 @@ const rootReducer = (state = initialState, action) => {
       );
       return { ...state, filteredNfts: orderedbyPrice, activePage: 1 };
     
+    case ORDER_NFT_RARITY:
+      let orderedbyRarity = controllers.orderNFTBy(
+        "rarity",
+        state.orderDirection,
+        state.filteredNfts
+      );
+      return { ...state, filteredNfts: orderedbyRarity, activePage: 1 };
+    
+      case ORDER_NFT_RARITYRANK:
+        let orderedbyRarityRank = controllers.orderNFTBy(
+          "rarityrank",
+          state.orderDirection,
+          state.filteredNfts
+        );
+        return { ...state, filteredNfts: orderedbyRarityRank, activePage: 1 };
+
+        case ORDER_NFT_LASTBUY:
+      let orderedbyLastBuy = controllers.orderNFTBy(
+        "lastbuy",
+        state.orderDirection,
+        state.filteredNfts
+      );
+      return { ...state, filteredNfts: orderedbyLastBuy, activePage: 1 };
+
+      case ORDER_NFT_LASTBUYTS:
+      let orderedbyLastBuyTs = controllers.orderNFTBy(
+        "lastbuyts",
+        state.orderDirection,
+        state.filteredNfts
+      );
+      return { ...state, filteredNfts: orderedbyLastBuyTs, activePage: 1 };
     // --- PAGINATION ---
     case SELECT_PAGE:
       return { ...state, activePage: action.payload };
