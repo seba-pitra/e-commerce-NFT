@@ -20,7 +20,13 @@ const getCollections = async (req, res) => {
 const getCollectionById = async (req, res) => {
   try{
     const { id } = req.params;
-    const foundCollectionInDB = await Collection.findByPk(id);
+    const foundCollectionInDB = await Collection.findByPk(id,
+      {
+        include : {
+          model : Nft
+        }
+      }
+      );
     if(foundCollectionInDB){
       res.status(200).json(foundCollectionInDB);
     }else{

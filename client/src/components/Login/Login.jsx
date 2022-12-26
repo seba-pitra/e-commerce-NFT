@@ -12,7 +12,7 @@ const Login = () => {
 
   const userNfts = useSelector((state) => state.userNfts);
   
-  const history = useHistory()
+  const history = useHistory();
 
   const [logginForm, setLogginForm] = useState({
     email: "",

@@ -1,4 +1,4 @@
-const { Buy } = require("../db");
+const { Buy, User } = require("../db");
 
 const createNewBuy = async (req, res) => {
     const {payMethod,contract,statusPay} = req.body;
@@ -17,8 +17,11 @@ const createNewBuy = async (req, res) => {
 const getBuyById = async (req, res) => {
   try {
     const {id} = req.params
-    const foundBuy = await Buy.findByPk(id)
-    
+    const foundBuy = await Buy.findByPk(id, {
+      include : {
+        model: User,
+      }
+    })
     if (foundBuy) {
       res.status(200).json(foundBuy)
     } else {
@@ -31,8 +34,12 @@ const getBuyById = async (req, res) => {
 
 const getAllBuy = async (req, res) => {
   try {
-    const dbBuys = await Buy.findAll()
-    // const dbBuys = await Buy.findAll({ include: User })
+    // const dbBuys = await Buy.findAll()
+    const dbBuys = await Buy.findAll({
+      include: {
+        model: User,
+      }
+    })
     res.status(200).json(dbBuys)
   } catch (err) {
     res.status(404).send({error: err.message})
