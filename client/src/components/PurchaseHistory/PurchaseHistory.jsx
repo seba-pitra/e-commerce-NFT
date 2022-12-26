@@ -1,37 +1,36 @@
-import * as actions from '../actions/actions.js';
+import * as actions from "../actions/actions.js";
 
 
+const PurchaseHistory = (props) => {
+  
+  
+  return (
+    <div className="detail-shopping-history">
+      
+      
+      {history ? (
 
-
-const PurchaseHistory =  (props) =>{
-    // id user
-
-   React.useEffect(()=>{
-    dispatch(actions.getHistoryPurchase(props.id))
-   },[])
-    return(
-        <div className="detail-shopping-history">
-        
-        <div className="creation-history">
-          <div className="columns-name">
-            <div>created By</div>
-            <div>Date</div>
-          </div>
+        <div className="history-title-container">
+          <div className="sale">Sale Price</div>
+          <div className="from">From</div>
+          <div className="to">To</div>
+          <div className="date">Date</div>
         </div>
+      ) : (
+        <div>There isn't shopping history</div>
+      )}
 
-        {!history && <div>There isn't shopping history</div>}
-
-        {history &&
-          history.map((elem) => {
-            <div>
-              <div>Sale Price</div>
-              <div>From</div>
-              <div>To</div>
-              <div>Date</div>
-            </div>;
-          })}
-      </div>
-    )
-}
+      {history &&
+        history.map((elem) => {
+          <div className="history-title-container">
+            <div className="sale">Sale Price</div>
+            <div className="from">From</div>
+            <div className="to">To</div>
+            <div className="date">Date</div>
+          </div>;
+        })}
+    </div>
+  );
+};
 
 export default PurchaseHistory;

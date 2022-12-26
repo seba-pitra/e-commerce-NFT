@@ -60,6 +60,9 @@ export const BUY_NFT_ON_SHOOPING_CART = "BUY_NFT_ON_SHOOPING_CART";
 export const DELETE_NFT_ON_SIGNOUT = "DELETE_NFT_ON_SIGNOUT"; 
 export const ADD_BUY_AT_HISTORY_BUYS = "ADD_BUY_AT_HISTORY_BUYS"; 
 
+
+
+
 // -- GETTERS --
 
 export const getAllNfts = () => {
@@ -116,7 +119,7 @@ export const getUserByID = (id) => {
   return async (dispatch) => {
     dispatch({ type: LOADING });
     try {
-      const user = await axios.get("ruta");
+      const user = await axios.get(`/user/${id}`);
       dispatch({ type: GET_USER_BY_ID, payload: user.data });
     } catch (e) {
       alert("There was a connection error, please try again later user");
@@ -135,6 +138,9 @@ export const getNftDetail = (id) => {
     }
   };
 };
+
+
+
 
 // --- SETTERS ---
 

@@ -1,9 +1,9 @@
 const { Buy, User } = require("../db");
 
 const createNewBuy = async (req, res) => {
-    const {payMethod,contract,statusPay} = req.body;
+    const {payMethod,contract,statusPay,purchases} = req.body;
   try {
-    if(!payMethod || !contract || !statusPay){
+    if(!payMethod || !contract || !statusPay || !purchases){
         res.status(422).json({ error: "There are missing values" });
     }
     return res.status(201).json(
@@ -45,6 +45,9 @@ const getAllBuy = async (req, res) => {
     res.status(404).send({error: err.message})
   }
 }
+
+
+
 
 module.exports = {
   createNewBuy,
