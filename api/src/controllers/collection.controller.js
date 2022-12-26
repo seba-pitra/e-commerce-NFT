@@ -1,7 +1,10 @@
 const { reauthenticateWithCredential } = require("firebase/auth");
-const { Collection, Nft } = require("../db");
+const { Collection, Nft, User } = require("../db");
 const { collections } = require("../jsondata/collections.json")
 
+const { superUser } = require("../jsondata/superUserData.json")
+
+const superUserId = superUser.id;
 
 // Get all collections from the database.
 // Conseguir todas las colecciones de la base de datos.
@@ -150,17 +153,23 @@ const postAllCollectionsToDB = async (req, res) => {
 
 const createAllInitialCollections = async () => {
   try{
-    const response = await Collection.findAll();
+    let response = await Collection.findAll({});
+    const userOwner = await User.findOne({
+      where : {
+        id : superUserId,
+      }
+    })
     if(response.length === 0){
-      collections.forEach(async collection => {
+      for(const collection of collections){
         let collectionToDB = {
           id : collection.id,
           name : collection.name || "No name",
           image : collection.image || "No image"
         };
         const collectionInDB = await Collection.create(collectionToDB)
+        collectionInDB.setUser(userOwner)
         response.push(collectionInDB);
-      })
+      }
     }
       return response;
   }catch(err) {
