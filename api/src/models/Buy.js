@@ -2,56 +2,48 @@ const { DataTypes } = require("sequelize");
 
 module.exports = (sequelize) => {
   sequelize.define(
-    "user",
+    "buy",
     {
       id: {
-        type: DataTypes.STRING,
-        // defaultValue: DataTypes.UUIDV4,
+        type: DataTypes.UUID,
+        defaultValue: DataTypes.UUIDV4,
         primaryKey: true,
         unique: true,
         allowNull: false,
       },
-      name: {
+      price: {
+        type: DataTypes.STRING,
+        // allowNull: false,
+      },
+      contract: {
         type: DataTypes.STRING,
         allowNull: false,
       },
-      last_name: {
+      statusPay: {
         type: DataTypes.STRING,
-        allowNull: false,
-      },
-      age: {
-        type: DataTypes.INTEGER,
-      },
-      email: {
-        type: DataTypes.STRING,
-        allowNull: false,
-        unique: true,
-      },
-      type: {
-        type: DataTypes.STRING,
-        defaultValue: "Basic",
         validate: {
           customValidator: (value) => {
-            const enums = ["Admin", "Verified", "Basic"];
+            const enums = ["Created", "Pending", "Rejected", "Successed"];
             if (!enums.includes(value)) {
               throw new Error("not a valid option");
             }
           },
         },
-        allowNull: true,
       },
-      dni: {
-        type: DataTypes.INTEGER,
-        allowNull: true,
-        unique: true,
+      payMethod: {
+        type: DataTypes.STRING,
+        validate: {
+          customValidator: (value) => {
+            const enums = ["MercadoPago", "Metamask"];
+            if (!enums.includes(value)) {
+              throw new Error("not a valid option");
+            }
+          },
+        },
       },
-      profile_pic: {
-        type : DataTypes.TEXT
-      }
     },
     {
       timestamps: true,
-      paranoid: true,
     }
   );
 };

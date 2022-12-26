@@ -12,15 +12,28 @@ export const CREATE_NFT = "CREATE_NFT";
 export const DELETE_NFT = "DELETE_NFT";
 export const UPDATE_NFT = "UPDATE_NFT";
 
+// -- SETTERS --
+export const SET_COLLECTIONS = "SET_COLLECTIONS";
+export const SET_CATEGORY_SPECIES = "SET_CATEGORY_SPECIES";
+export const SET_CATEGORY_SPECIES2 = "SET_CATEGORY_SPECIES2";
+export const SET_CATEGORY_ART = "SET_CATEGORY_ART";
+export const SET_CATEGORY_TYPE = "SET_CATEGORY_TYPE";
+export const SET_CATEGORY_STYLE = "SET_CATEGORY_STYLE";
+export const SET_CATEGORY_REST = "SET_CATEGORY_REST";
+export const SET_CATEGORY_BACKG = "SET_CATEGORY_BACKG";
+
 // -- FILTERS --
 export const RESET_FILTERS = "RESET_FILTERS";
-export const FILTER_NFT_COLLECTION = "FILTER_NFT_COLLECTION";
-export const FILTER_NFT_CATEGORY = "FILTER_NFT_CATEGORY";
-export const FILTER_NFT_STATE = "FILTER_NFT_STATE";
+export const FILTER_NFT_COLLECTION = "FILTER_NFT_COLLECTION"; 
+export const FILTER_NFT_CATEGORY = "FILTER_NFT_CATEGORY"; 
 export const FILTER_NFT_PRICE = "FILTER_NFT_PRICE";
 export const FILTER_NFT_NAME = "FILTER_NFT_NAME";
 export const ORDER_NFT_NAME = "ORDER_NFT_NAME";
-export const ORDER_NFT_PRICE = "ORDER_NFT_PRICE";
+export const ORDER_NFT_PRICE = "ORDER_NFT_PRICE"; 
+export const ORDER_NFT_RARITY = "ORDER_NFT_RARITY"; 
+export const ORDER_NFT_RARITYRANK = "ORDER_NFT_RARITYRANK"; 
+export const ORDER_NFT_LASTBUY = "ORDER_NFT_LASTBUY"; 
+export const ORDER_NFT_LASTBUYTS = "ORDER_NFT_LASTBUYTS"; 
 export const ORDER_NFT_AMOUNT = "ORDER_NFT_AMOUNT";
 export const ORDER_NFT_CREATED_AT = "ORDER_NFT_CREATED_AT";
 export const CHANGE_ORDER_DIRECTION = "CHANGE_ORDER_DIRECTION";
@@ -40,34 +53,12 @@ export const SET_NFTS_PER_PAGE = "SET_GAMES_PER_PAGE";
 export const GET_ACTIVE_USER = "GET_ACTIVE_USER";
 export const LOCAL_STORAGE_CART = "LOCAL_STORAGE_CART";
 
-// -- SEARCHING --
-// export const SEARCH_NFT = "SEARCH_NFT";
-
 // -- SHOPPING KART --
 export const ADD_NFT_ON_SHOOPING_CART = "ADD_NFT_ON_SHOOPING_CART";
 export const REMOVE_NFT_OF_SHOOPING_CART = "REMOVE_NFT_OF_SHOOPING_CART";
 export const BUY_NFT_ON_SHOOPING_CART = "BUY_NFT_ON_SHOOPING_CART";
-export const DELETE_NFT_ON_SIGNOUT = "DELETE_NFT_ON_SIGNOUT";
-/*
-  nft = {
-    collectionId: string (code),
-    contract : string (code),
-    id : string (UUIDV4),
-    image : string (url),
-    name : string,
-    price : float,
-    source : object (
-      {
-        domain : string,
-        icon : string (url)
-        name : string
-      }
-    )
-    tokenId : string (code)
-    type : string 
-    userId : string (UUIDV4)
-  }
-*/
+export const DELETE_NFT_ON_SIGNOUT = "DELETE_NFT_ON_SIGNOUT"; 
+export const ADD_BUY_AT_HISTORY_BUYS = "ADD_BUY_AT_HISTORY_BUYS"; 
 
 // -- GETTERS --
 
@@ -146,18 +137,52 @@ export const getNftDetail = (id) => {
   };
 };
 
+// --- SETTERS ---
+
+export const setCollections = (payload) => {
+  return { type: SET_COLLECTIONS, payload };
+};
+
+export const setCategorySpecies = (payload) => {
+  return { type: SET_CATEGORY_SPECIES, payload };
+};
+
+export const setCategorySpecies2 = (payload) => {
+  return { type: SET_CATEGORY_SPECIES2, payload };
+};
+
+export const setCategoryArt = (payload) => {
+  return { type: SET_CATEGORY_ART, payload };
+};
+
+export const setCategoryType = (payload) => {
+  return { type: SET_CATEGORY_TYPE, payload };
+};
+
+export const setCategoryStyle = (payload) => {
+  return { type: SET_CATEGORY_STYLE, payload };
+};
+
+export const setCategoryRest = (payload) => {
+  return { type: SET_CATEGORY_REST, payload };
+};
+
+export const setCategoryBackg = (payload) => {
+  return { type: SET_CATEGORY_BACKG, payload };
+};
+
 // --- FILTERS ---
 
 export const resetFilters = () => {
   return { type: RESET_FILTERS };
-};
+}; 
 
-export const filterCollection = (payload) => {
-  return { type: FILTER_NFT_COLLECTION, payload };
-};
+export const filterCollection = () => {
+  return { type: FILTER_NFT_COLLECTION };
+}; 
 
-export const filterCategory = (payload) => {
-  return { type: FILTER_NFT_CATEGORY, payload };
+export const filterCategory = () => {
+  return { type: FILTER_NFT_CATEGORY };
 };
 
 export const filterPrice = (payload) => {
@@ -168,10 +193,6 @@ export const filterName = (payload) => {
   return { type: FILTER_NFT_NAME, payload };
 };
 
-export const filterState = (payload) => {
-  return { type: FILTER_NFT_STATE, payload }; // compra o subasta FALTA EDITAR TYPE BACK
-};
-
 // --- ORDERS ---
 
 export const orderName = (payload) => {
@@ -180,6 +201,22 @@ export const orderName = (payload) => {
 
 export const orderPrice = (payload) => {
   return { type: ORDER_NFT_PRICE, payload };
+};
+
+export const orderRarity = (payload) => {
+  return { type: ORDER_NFT_RARITY, payload };
+};
+
+export const orderRarityRank = (payload) => {
+  return { type: ORDER_NFT_RARITYRANK, payload };
+};
+
+export const orderLastBuy = (payload) => {
+  return { type: ORDER_NFT_LASTBUY, payload };
+};
+
+export const orderLastBuyTs = (payload) => {
+  return { type: ORDER_NFT_LASTBUYTS, payload };
 };
 
 export const orderAmount = (payload) => {
@@ -281,7 +318,22 @@ export const buyNftOnShoppingCart = (nftsOnShoppingCart) => {
     })
       .then((res) => res.json())
       .then((data) => {
+        // window.location.replace(data.sandbox_init_point) // => prueba
         window.location.replace(data.init_point);
+      });
+  };
+};
+
+export const addBuyAtHistoryBuys = (buyData) => {
+  return async (dispatch) => {
+    await fetch(`http://localhost:3001/buy`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(buyData),
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        dispatch({ type: ADD_BUY_AT_HISTORY_BUYS, payload: data });
       });
   };
 };

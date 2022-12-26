@@ -1,6 +1,6 @@
-const { Collection } = require("../db");
-const { collections } = require("../jsondata/collections.json");
-const { Nft } = require("../db");
+const { reauthenticateWithCredential } = require("firebase/auth");
+const { Collection, Nft } = require("../db");
+const { collections } = require("../jsondata/collections.json")
 
 const getCollections = async (req, res) => {
   try {
@@ -21,7 +21,7 @@ const getCollectionById = async (req, res) => {
   try {
     const { id } = req.params;
     const foundCollectionInDB = await Collection.findByPk(id);
-    if (foundCollectionInDB) {
+    if(foundCollectionInDB){
       res.status(200).json(foundCollectionInDB);
     } else {
       throw new Error(`Could not find collection in db with id ${id}`);
@@ -77,11 +77,11 @@ const updateCollection = async (req, res) => {
     const { id } = req.params;
     const dataToUpdate = req.body;
     const [updateCollection, created] = await Collection.upsert({
-      id: id,
-      ...dataToUpdate,
-    });
+      id : id,
+      ...dataToUpdate
+    })
     res.status(200).send(updateCollection);
-  } catch (err) {
+  }catch(err){
     res.status(400).send(err.message);
   }
 };

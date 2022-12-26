@@ -207,7 +207,6 @@ export default function Form() {
               />
               <p className={errors.price === 'Price is correct' ? 'greenMsg' : 'redMsg'}>{errors.price}</p>
               </div>
-              
             </div>
 
             <div className="inputContainer">
@@ -216,7 +215,6 @@ export default function Form() {
                 Add one category or more to classify it.You can select
                 categories by existing ones or add a new one
               </p>
-              <input type={"text"} name={"category"} />
               <button className="addCategory"></button>
               <select onChange={(e) => handleChangeSelect(e)} name="categories">
                 <option hidden disabled selected value>

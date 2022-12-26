@@ -13,7 +13,7 @@ import "./Login.css";
 // sendPasswordResetEmail
 const Login = ({ loggedIn }) => {
   const userNfts = useSelector((state) => state.userNfts);
-
+  
   const history = useHistory();
 
   const [logginForm, setLogginForm] = useState({
