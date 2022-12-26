@@ -1,5 +1,9 @@
 const allNFTs = require('../jsondata')
-const { Nft, Collection } = require("../db");
+const { Nft, Collection, User } = require("../db");
+
+const { superUser } = require("../jsondata/superUserData.json")
+
+const superUserId = superUser.id;
 
 const getNfts = async (req, res) => {
   try {
@@ -159,6 +163,15 @@ const createAllInitialNFTs = async () => {
         nftName = nftName.charAt(0) === "#" ? nft.token.collection.name + " " + nftName : nftName
         nftName = nftName.includes("#") ? nftName : nftName + " #" + nft.token.tokenId
 
+        let priceLastBuy = 0;
+        if(nft.token.lastSell.value === null) {
+          console.log("value token ", nft.token.lastSell.value)
+          console.log("PRICE ", nft.market.floorAsk.price.amount.decimal)
+          priceLastBuy = nft.market.floorAsk.price.amount.decimal - (nft.market.floorAsk.price.amount.decimal * 0.1);
+          console.log("final  ", priceLastBuy.toFixed(2))
+        }
+        else priceLastBuy = nft.token.lastSell.value;
+
         let nftToDB = {
         name: nftName,
         description: nft.token.description || "No description",
@@ -167,14 +180,12 @@ const createAllInitialNFTs = async () => {
         category: nft.token.category || ["Other"],
         tokenId: nft.token.tokenId,
         price: nft.market.floorAsk.price.amount.decimal,
-        rarity: nft.token.rarity || 0.0,
-        rarityRank: nft.token.rarityRank || 0.0,
-        lastBuyValue: nft.token.lastBuy.value || 0.0,
-        lastBuyTs: nft.token.lastBuy.timestamp || 0.0,
-        lastSellValue: nft.token.lastSell.value || 0.0,
-        lastSellTs: nft.token.lastSell.timestamp || 0.0,
+        rarity: Math.floor(nft.token.rarity) || Math.floor(Math.random() * 20000 + 9000),
+        rarityRank: nft.token.rarityRank || Math.floor(Math.random() * 30000 + 1),
+        lastBuyValue: priceLastBuy.toFixed(2),
+        lastBuyTs: nft.token.lastBuy.timestamp || Math.floor(Math.random() * (40000000) + 1631509481),
         ownerName: nft.market.floorAsk.source.name || "OpenSea",
-        ownerIcon: nft.market.floorAsk.source.icon || "OpenSea Icon"
+        ownerIcon: nft.market.floorAsk.source.icon || "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg"
       };
       
       const nftInDb = await Nft.create(nftToDB);
@@ -183,8 +194,13 @@ const createAllInitialNFTs = async () => {
           id: nft.token.collection.id
         }
       });
-      
+      const superUser = await User.findOne({
+        where: {
+          id: superUserId
+        }
+      })
       await nftInDb.setCollection(correspondingCollection);
+      await nftInDb.setUser(superUser);
       response.push(nftInDb);
     });
   } 
