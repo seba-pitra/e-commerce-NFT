@@ -51,7 +51,8 @@ const getUserById = async (req, res) => {
     const foundUser = User.findByPk(id, {
       include : {
         model : Nft,
-        model : Collection
+        model : Collection,
+        model : Buy
       }
     })
     if(foundUser){
@@ -218,6 +219,8 @@ const createSuperUser = async () => {
     throw new Error(error.message)
   }
 }
+
+
 
 module.exports = {
   getAllUsers,

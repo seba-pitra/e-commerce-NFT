@@ -5,7 +5,10 @@ import { useDispatch, /* useSelector */ } from "react-redux";
 export default function UserProfile(props){
     const { id } = props.match.params;
     const dispatch = useDispatch();
-    /* const userData = useSelector(state => state.userData); */
+    const userData = useSelector(state => state.user); 
+    
+
+    // FALTA TRAER EL COMPONENTE PurchaseHistory y pasarle por params las relaciones con buy para q muestre el historial
 
     useEffect(()=>{
         dispatch(actions.getUserByID(id));
@@ -14,6 +17,7 @@ export default function UserProfile(props){
     return (
         <section style={{ backgroundColor: '#eee' }}>
         <div className="py-5">
+            {console.log(userData)}
             <div>
             <div lg="4">
                 <div className="mb-4">
@@ -24,6 +28,7 @@ export default function UserProfile(props){
                     className="rounded-circle"
                     style={{ width: '150px' }}
                     fluid />
+                    {/* falta nombre de usuario  */}
                     <p className="text-muted mb-1">NOMBRE DE USARIO</p>
                     <div className="d-flex justify-content-center mb-2">
                     </div>
@@ -38,7 +43,7 @@ export default function UserProfile(props){
                         <div>Full Name</div>
                     </div>
                     <div sm="9">
-                        <div className="text-muted">Johnatan Smith</div>
+                        <div className="text-muted">{userData.name} {userData.name}</div>
                     </div>
                     </div>
                     <hr />
@@ -47,7 +52,7 @@ export default function UserProfile(props){
                         <div>Email</div>
                     </div>
                     <div sm="9">
-                        <div className="text-muted">example@example.com</div>
+                        <div className="text-muted">{userData.email}</div>
                     </div>
                     </div>
                     <hr />
