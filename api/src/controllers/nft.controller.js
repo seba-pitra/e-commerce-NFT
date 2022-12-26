@@ -1,5 +1,9 @@
 const allNFTs = require('../jsondata')
-const { Nft, Collection } = require("../db");
+const { Nft, Collection, User } = require("../db");
+
+const { superUser } = require("../jsondata/superUserData.json")
+
+const superUserId = superUser.id;
 
 const getNfts = async (req, res) => {
   try {
@@ -190,8 +194,13 @@ const createAllInitialNFTs = async () => {
           id: nft.token.collection.id
         }
       });
-      
+      const superUser = await User.findOne({
+        where: {
+          id: superUserId
+        }
+      })
       await nftInDb.setCollection(correspondingCollection);
+      await nftInDb.setUser(superUser);
       response.push(nftInDb);
     });
   } 
