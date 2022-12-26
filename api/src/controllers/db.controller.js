@@ -7,11 +7,13 @@ const { Nft, Collection, Buy, User } = require("../db");
 //Creates every initial data, and posts it to the database.
 const postEverythingToDB = async (req, res) => {
     try {
+        console.log("Starting database injection..." + Date.now())
         const [superUser, allCollections, allNfts] = await generateEverything();
-        console.log(superUser)
+        console.log(superUser.name)
         console.log(allCollections.length)
         console.log(allNfts.length)
         if(allCollections.length > 0 && allNfts.length > 0 && superUser){
+            console.log("Everything on database: " + Date.now())
             return res.status(200).json({
                 success: "todos los datos creados correctamente",
                 collections : allCollections,
@@ -29,6 +31,7 @@ const postEverythingToDB = async (req, res) => {
 //Returns all data that is present in the database.
 const getEverythingFromDB = async (req, res) => {
     try {
+        console.log(User);
         const allNfts = await Nft.findAll();
         const allCollections = await Collection.findAll();
         const allBuys = await Buy.findAll();

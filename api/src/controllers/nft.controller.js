@@ -162,6 +162,7 @@ const createAllInitialNFTs = async () => {
       }
     })
     if(response.length === 0){
+      console.log("Starting NFTs creation database." + Date.now())
       for(const nft of allNFTs){
         let nftName = nft.token.name || nft.token.collection.name + " #" + nft.token.tokenId
 
@@ -199,10 +200,10 @@ const createAllInitialNFTs = async () => {
       
       await nftInDb.setCollection(correspondingCollection);
       await nftInDb.setUser(superUser);
-      // console.log(nftInDb);
       response.push(nftInDb);
     }
   } 
+    console.log("NFT Creation SUCCESS " + response.length + " NFTS on DB" + Date.now());
     return response;
   } catch (err) {
     throw new Error(err.message)
