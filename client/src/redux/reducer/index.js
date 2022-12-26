@@ -22,6 +22,10 @@ import {
   FILTER_NFT_NAME,
   ORDER_NFT_NAME,
   ORDER_NFT_PRICE,
+  ORDER_NFT_RARITY,
+  ORDER_NFT_RARITYRANK,
+  ORDER_NFT_LASTBUY,
+  ORDER_NFT_LASTBUYTS,
   GET_ETH_PRICE,
   // ORDER_NFT_AMOUNT,
   // ORDER_NFT_CREATED_AT,
@@ -259,6 +263,37 @@ const rootReducer = (state = initialState, action) => {
       );
       return { ...state, filteredNfts: orderedbyPrice, activePage: 1 };
     
+    case ORDER_NFT_RARITY:
+      let orderedbyRarity = controllers.orderNFTBy(
+        "rarity",
+        state.orderDirection,
+        state.filteredNfts
+      );
+      return { ...state, filteredNfts: orderedbyRarity, activePage: 1 };
+    
+      case ORDER_NFT_RARITYRANK:
+        let orderedbyRarityRank = controllers.orderNFTBy(
+          "rarityrank",
+          state.orderDirection,
+          state.filteredNfts
+        );
+        return { ...state, filteredNfts: orderedbyRarityRank, activePage: 1 };
+
+        case ORDER_NFT_LASTBUY:
+      let orderedbyLastBuy = controllers.orderNFTBy(
+        "lastbuy",
+        state.orderDirection,
+        state.filteredNfts
+      );
+      return { ...state, filteredNfts: orderedbyLastBuy, activePage: 1 };
+
+      case ORDER_NFT_LASTBUYTS:
+      let orderedbyLastBuyTs = controllers.orderNFTBy(
+        "lastbuyts",
+        state.orderDirection,
+        state.filteredNfts
+      );
+      return { ...state, filteredNfts: orderedbyLastBuyTs, activePage: 1 };
     // --- PAGINATION ---
     case SELECT_PAGE:
       return { ...state, activePage: action.payload };
