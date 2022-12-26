@@ -29,11 +29,11 @@ export const FILTER_NFT_CATEGORY = "FILTER_NFT_CATEGORY";
 export const FILTER_NFT_PRICE = "FILTER_NFT_PRICE";
 export const FILTER_NFT_NAME = "FILTER_NFT_NAME";
 export const ORDER_NFT_NAME = "ORDER_NFT_NAME";
-export const ORDER_NFT_PRICE = "ORDER_NFT_PRICE"; 
-export const ORDER_NFT_RARITY = "ORDER_NFT_RARITY"; 
-export const ORDER_NFT_RARITYRANK = "ORDER_NFT_RARITYRANK"; 
-export const ORDER_NFT_LASTBUY = "ORDER_NFT_LASTBUY"; 
-export const ORDER_NFT_LASTBUYTS = "ORDER_NFT_LASTBUYTS"; 
+export const ORDER_NFT_PRICE = "ORDER_NFT_PRICE";
+export const ORDER_NFT_RARITY = "ORDER_NFT_RARITY";
+export const ORDER_NFT_RARITYRANK = "ORDER_NFT_RARITYRANK";
+export const ORDER_NFT_LASTBUY = "ORDER_NFT_LASTBUY";
+export const ORDER_NFT_LASTBUYTS = "ORDER_NFT_LASTBUYTS";
 export const ORDER_NFT_AMOUNT = "ORDER_NFT_AMOUNT";
 export const ORDER_NFT_CREATED_AT = "ORDER_NFT_CREATED_AT";
 export const CHANGE_ORDER_DIRECTION = "CHANGE_ORDER_DIRECTION";
@@ -121,6 +121,17 @@ export const getUserByID = (id) => {
       const user = await axios.get(`/user/${id}`);
       dispatch({ type: GET_USER_BY_ID, payload: user.data });
     } catch (e) {
+      alert("There was a connection error, please try again later user");
+    }
+  };
+};
+
+export const updateUser = (id, body) => {
+  return async (dispatch) => {
+    try {
+      const update = await axios.put(`/user/${id}`, body);
+      dispatch({ type: GET_USER_BY_ID, payload: update.data });
+    } catch (error) {
       alert("There was a connection error, please try again later user");
     }
   };
