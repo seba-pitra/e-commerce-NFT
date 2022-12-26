@@ -35,11 +35,14 @@ const updateNft = async (req, res) => {
   try {
     const { id } = req.params;
     const dataToUpdate = req.body;
-    const searchNFT = await Nft.findByPk(id);
-    if (!searchNFT) throw new Error("No NFT found");
-    searchNFT.set(dataToUpdate);
-    await searchNFT.save();
-    res.status(200).send(searchNFT);
+    const foundNft = await Nft.findByPk(id);
+    if (foundNft) {
+      foundNft.set(dataToUpdate);
+      await foundNft.save();
+      return res.status(200).send(foundNft);
+    } else {
+      throw new Error(`No nft with id ${id}`);
+    }
   } catch (err) {
     res.status(400).send(err.message);
   }
@@ -166,6 +169,7 @@ const createAllInitialNFTs = async () => {
           description: nft.token.description || "No description",
           image: nft.token.image || "No image",
           contract: nft.token.contract,
+          category: nft.token.category || ["Other"],
           tokenId: nft.token.tokenId,
           price: nft.market.floorAsk.price.amount.decimal,
           rarity: nft.token.rarity || 0.0,
@@ -189,6 +193,7 @@ const createAllInitialNFTs = async () => {
         response.push(nftInDb);
       });
     }
+    return response;
   } catch (err) {
     throw new Error(err.message);
   }
