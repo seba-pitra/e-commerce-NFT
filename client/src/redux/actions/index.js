@@ -24,10 +24,9 @@ export const SET_CATEGORY_BACKG = "SET_CATEGORY_BACKG";
 
 // -- FILTERS --
 export const RESET_FILTERS = "RESET_FILTERS";
-export const FILTER_NFT_COLLECTION = "FILTER_NFT_COLLECTION"; 
-export const FILTER_NFT_CATEGORY = "FILTER_NFT_CATEGORY"; 
-export const FILTER_NFT_PRICE = "FILTER_NFT_PRICE";
-export const FILTER_NFT_NAME = "FILTER_NFT_NAME";
+export const FILTER_NFTS = "FILTER_NFTS"; 
+export const SET_NFTS_PRICE = "SET_NFTS_PRICE";
+export const SEARCH_NFT_NAME = "SEARCH_NFT_NAME";
 export const ORDER_NFT_NAME = "ORDER_NFT_NAME";
 export const ORDER_NFT_PRICE = "ORDER_NFT_PRICE"; 
 export const ORDER_NFT_RARITY = "ORDER_NFT_RARITY"; 
@@ -180,22 +179,18 @@ export const setCategoryBackg = (payload) => {
 
 export const resetFilters = () => {
   return { type: RESET_FILTERS };
-}; 
-
-export const filterCollection = () => {
-  return { type: FILTER_NFT_COLLECTION };
-}; 
-
-export const filterCategory = () => {
-  return { type: FILTER_NFT_CATEGORY };
 };
 
-export const filterPrice = (payload) => {
-  return { type: FILTER_NFT_PRICE, payload };
+export const filterNfts = () => {
+  return { type: FILTER_NFTS };
+};
+
+export const setPrice = (payload) => {
+  return { type: SET_NFTS_PRICE, payload };
 };
 
 export const filterName = (payload) => {
-  return { type: FILTER_NFT_NAME, payload };
+  return { type: SEARCH_NFT_NAME, payload };
 };
 
 // --- ORDERS ---

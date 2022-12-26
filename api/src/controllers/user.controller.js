@@ -212,8 +212,10 @@ const createSuperUser = async () => {
     if(!response){
       response = await User.create(superUser)
     }
+    console.log(response);
     return response
   } catch (error) {
+    console.error('User error message', error.message);
     throw new Error(error.message)
   }
 }
