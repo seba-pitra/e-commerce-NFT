@@ -9,9 +9,6 @@ const postEverythingToDB = async (req, res) => {
     try {
         console.log("Starting database injection..." + new Date().toString())
         const [superUser, allCollections, allNfts] = await generateEverything();
-        console.log(superUser.name)
-        console.log(allCollections.length)
-        console.log(allNfts.length)
         if(allCollections.length > 0 && allNfts.length > 0 && superUser){
             console.log("Everything on database: " + new Date().toString())
             return res.status(200).json({
@@ -37,9 +34,6 @@ const postQuantityToDB = async (req, res) => {
         }
         console.log("Starting database injection of " + nftQuantity + " nfts... " + new Date().toString())
         const [superUser, allCollections, allNfts] = await generateEverythingByChoice(parseInt(nftQuantity));
-        console.log(superUser.name)
-        console.log(allCollections.length)
-        console.log(allNfts.length)
         if(allCollections.length > 0 && allNfts.length > 0 && superUser){
             console.log("Everything on database: " + new Date().toString())
             return res.status(200).json({
