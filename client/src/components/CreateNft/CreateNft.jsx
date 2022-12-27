@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import "./CreateNft.css";
 import "../NFTCard/NFTCard.css";
 import PreviewNft from "./PreviewNft/PreviewNft";
@@ -24,7 +24,14 @@ export function validate(input) {
 }
 
 export default function Form() {
+
+  useEffect(() => {
+    dispatch(actions.getAllCollections());
+  }, []);
+
   const dispatch = useDispatch();
+
+  const allCollections = useSelector((state) => state.collections);
 
   // cloudinary >>>
   const cloudinaryRef = useRef();
@@ -171,7 +178,6 @@ export default function Form() {
       categories: auxCats
     }));
   };
-  
 
   let handleSubmit = (e) => {
     e.preventDefault();
@@ -179,7 +185,6 @@ export default function Form() {
   };
 
   // --- NEXT - PREV ---
-
   const [createStep, setCreateStep] = useState(1);
 
   const next = (e) => {
@@ -219,6 +224,13 @@ export default function Form() {
               input.collection === ""
             } >Next
           </button>
+
+          <select onChange={(e) => handleChangeSelect1(e)} name="categories">
+              <option hidden disabled selected value> Select collection </option>
+              {allCollections?.map((e) => ( <option value={e.name} name="categories" key={e.name}> {e.name} </option> ))}
+            </select>
+
+
         </fieldset>
 
         <fieldset className={`info-fieldset ${createStep !== 2 ? "noneDisplay" : ""}`} >
@@ -362,6 +374,7 @@ export default function Form() {
 
           <button onClick={back}>Back</button>
         </fieldset>
+        
       </div>
 
     </React.Fragment>
