@@ -1,6 +1,3 @@
-import * as actions from '../../../redux/actions'
-import { useEffect } from "react";
-import { useDispatch,  useSelector } from "react-redux";
 import * as actions from "../../../redux/actions";
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
@@ -12,6 +9,7 @@ export default function UserProfile(props){
     const { id } = props.match.params;
     const dispatch = useDispatch();
     const userData = useSelector(state => state.user); 
+    const { userDetail } = useSelector((state) => state);
     
 
     // FALTA TRAER EL COMPONENTE PurchaseHistory y pasarle por params las relaciones con buy para q muestre el historial
@@ -19,7 +17,30 @@ export default function UserProfile(props){
   const [edit, setEdit] = useState(false);
   const [type, setType] = useState("");
   const [update, setUpdate] = useState(false);
+  const handleteEdit = (e) => {
+    e.preventDefault();
+    setEdit(!edit);
+  };
 
+  const handleTypeChange = (e) => {
+    setType(e.target.value);
+  };
+
+  const handleUpdate = (e) => {
+    e.preventDefault();
+    let body = {
+      type: type,
+    };
+    dispatch(actions.updateUser(id, body)).then((data) => {
+      setUpdate(!update);
+      setEdit(!edit);
+    });
+  };
+
+  useEffect(() => {
+    dispatch(actions.getUserByID(id));
+  }, [dispatch, id, update]);
+  
     return (
         <section style={{ backgroundColor: '#eee' }}>
         <div className="py-5">
