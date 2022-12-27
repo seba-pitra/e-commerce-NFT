@@ -146,27 +146,7 @@ const Details = (props) => {
             </div>
           </div>
 
-          <div className="detail-shopping-history">
-            {/* aca tiene q venir el historial de adquisiciones de este nft en particular */}
-            <div className="creation-history">
-              <div className="columns-name">
-                <div>created By</div>
-                <div>Date</div>
-              </div>
-            </div>
-
-            {!sales && <div>There isn't shopping history</div>}
-
-            {sales &&
-              sales.map((sale) => {
-                <div>
-                  <div>Sale Price</div>
-                  <div>From</div>
-                  <div>To</div>
-                  <div>Date</div>
-                </div>;
-              })}
-          </div>
+          
         </div>
       )}
     </>

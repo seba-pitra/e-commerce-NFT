@@ -6,7 +6,9 @@ const {
   createUser,
   updateUser,
   restoreDeletedUser,
-  verifyUser
+  verifyUser,
+  verifiedToAdmin,
+  adminToVerified,
 } = require("../controllers/user.controller");
 
 const userRouter = Router();
@@ -21,8 +23,12 @@ userRouter.put("/:id", updateUser);
 
 userRouter.delete("/:id", deleteUser);
 
-userRouter.get("/restore/:id", restoreDeletedUser)
+userRouter.get("/restore/:id", restoreDeletedUser);
 
-userRouter.post("/verify/:id", verifyUser);
+userRouter.put("/verify/:id", verifyUser);
+
+userRouter.put("/upgrade/:id", verifiedToAdmin);
+
+userRouter.put("/downgrade/:id", adminToVerified);
 
 module.exports = userRouter;

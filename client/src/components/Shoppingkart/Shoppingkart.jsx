@@ -44,7 +44,7 @@ export default function Shoppingkart() {
     dispatch(actions.buyNftOnShoppingCart(userNfts));
   };
 
-  const handlePay = async ({ nftPrice, nftContract }) => {
+  const handlePay = async ({ nftPrice, nftContract,nftObj }) => {
     setError();
 
     const transactionMetamask = await startPayment({
@@ -59,6 +59,8 @@ export default function Shoppingkart() {
       contract: nftContract,
       payMethod: "Metamask",
       statusPay: "Created",
+      //se envia todo el obj entero
+      purchases : nftObj
     };
 
     if (transactionMetamask.hash) {
@@ -147,6 +149,7 @@ export default function Shoppingkart() {
                       handlePay({
                         nftPrice: nft.price,
                         nftContract: nft.contract,
+                        purchases : nft
                       })
                     }
                   >

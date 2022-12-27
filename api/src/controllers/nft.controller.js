@@ -1,6 +1,10 @@
 const allNFTs = require('../jsondata')
-const { Nft, Collection } = require("../db");
+const { Nft, Collection, User } = require("../db");
 
+const { superUser } = require("../jsondata/superUserData.json")
+
+const superUserId = superUser.id;
+// Devuelve todos los nfts de la base da datos junto con su coleccion asignada.
 const getNfts = async (req, res) => {
   try {
     const dbNfts = await Nft.findAll({
@@ -16,7 +20,7 @@ const getNfts = async (req, res) => {
     res.status(404).send(err.message);
   }
 };
-
+// Devuelve el nft que busca mediante id.
 const getNftById = async (req, res) => {
   try {
     const { id } = req.params;
@@ -31,7 +35,7 @@ const getNftById = async (req, res) => {
   }
 };
 
-
+//Actualiza el nft que busca mediante id.
 const updateNft = async (req, res) => {
   try{
     const { id } = req.params;
@@ -48,7 +52,7 @@ const updateNft = async (req, res) => {
     res.status(400).send(err.message);
   }
 };
-
+//Crea el nuevo nft a partir de nombre, descripcion, imagen, contrato, id del token, precio, dueño e imagen.
 const createNewNFT = async (req, res) => {
   try{
       const {
@@ -94,7 +98,7 @@ const createNewNFT = async (req, res) => {
       res.status(400).send(err.message);
     }
   };
-
+// Borra el nft de la base de datos (Soft-delete)
 const deleteNft = async (req, res) => {
   try {
     const { id } = req.params;
@@ -118,7 +122,7 @@ const deleteNft = async (req, res) => {
   }
   
 }
-
+//Restaura el nft borrado previamente.
 const restoreDeletedNft = async (req, res) => {
   try {
     const { id } = req.params;
@@ -151,13 +155,26 @@ const restoreDeletedNft = async (req, res) => {
 
 const createAllInitialNFTs = async () => {
   try {
-    const response = await Nft.findAll();
+    let response = await Nft.findAll({});
+    const superUser = await User.findOne({
+      where: {
+        id: superUserId
+      }
+    })
     if(response.length === 0){
-      allNFTs.forEach(async (nft) => {
+      console.log("Starting NFTs creation database." + new Date().toString())
+      for(const nft of allNFTs){
+        let count = 0;
         let nftName = nft.token.name || nft.token.collection.name + " #" + nft.token.tokenId
 
         nftName = nftName.charAt(0) === "#" ? nft.token.collection.name + " " + nftName : nftName
         nftName = nftName.includes("#") ? nftName : nftName + " #" + nft.token.tokenId
+
+        let priceLastBuy = 0;
+        if(nft.token.lastSell.value === null) {
+          priceLastBuy = nft.market.floorAsk.price.amount.decimal - (nft.market.floorAsk.price.amount.decimal * 0.1);
+        }
+        else priceLastBuy = nft.token.lastSell.value;
 
         let nftToDB = {
         name: nftName,
@@ -167,14 +184,12 @@ const createAllInitialNFTs = async () => {
         category: nft.token.category || ["Other"],
         tokenId: nft.token.tokenId,
         price: nft.market.floorAsk.price.amount.decimal,
-        rarity: nft.token.rarity || 0.0,
-        rarityRank: nft.token.rarityRank || 0.0,
-        lastBuyValue: nft.token.lastBuy.value || 0.0,
-        lastBuyTs: nft.token.lastBuy.timestamp || 0.0,
-        lastSellValue: nft.token.lastSell.value || 0.0,
-        lastSellTs: nft.token.lastSell.timestamp || 0.0,
+        rarity: Math.floor(nft.token.rarity) || Math.floor(Math.random() * 20000 + 9000),
+        rarityRank: nft.token.rarityRank || Math.floor(Math.random() * 30000 + 1),
+        lastBuyValue: priceLastBuy.toFixed(2),
+        lastBuyTs: nft.token.lastBuy.timestamp || Math.floor(Math.random() * (40000000) + 1631509481),
         ownerName: nft.market.floorAsk.source.name || "OpenSea",
-        ownerIcon: nft.market.floorAsk.source.icon || "OpenSea Icon"
+        ownerIcon: nft.market.floorAsk.source.icon || "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg"
       };
       
       const nftInDb = await Nft.create(nftToDB);
@@ -185,9 +200,83 @@ const createAllInitialNFTs = async () => {
       });
       
       await nftInDb.setCollection(correspondingCollection);
+      await nftInDb.setUser(superUser);
       response.push(nftInDb);
-    });
+      count++;
+      if(count === 100){
+        console.log(response.length);
+        count = 0;
+      }
+    }
+  }else{
+    throw new Error("Database contains data, if you are trying to reset, please erase previous contents with force: true");
+  }
+    console.log("NFT Creation SUCCESS " + response.length + " NFTS on DB" + new Date().toString());
+    return response;
+  } catch (err) {
+    throw new Error(err.message)
+  }
+};
+
+const createNftQuantityByChoice = async (nftQuantity) => {
+  try {
+    const nfts = allNFTs.slice(0, nftQuantity);
+    let response = await Nft.findAll({});
+    const superUser = await User.findOne({
+      where: {
+        id: superUserId
+      }
+    })
+    if(response.length === 0){
+      console.log("Starting NFTs creation database. " + new Date().toString())
+      for(const nft of nfts){
+        let nftName = nft.token.name || nft.token.collection.name + " #" + nft.token.tokenId
+
+        nftName = nftName.charAt(0) === "#" ? nft.token.collection.name + " " + nftName : nftName
+        nftName = nftName.includes("#") ? nftName : nftName + " #" + nft.token.tokenId
+
+        let priceLastBuy = 0;
+        if(nft.token.lastSell.value === null) {
+          priceLastBuy = nft.market.floorAsk.price.amount.decimal - (nft.market.floorAsk.price.amount.decimal * 0.1);
+        }
+        else priceLastBuy = nft.token.lastSell.value;
+
+        let nftToDB = {
+        name: nftName,
+        description: nft.token.description || "No description",
+        image: nft.token.image || "No image",
+        contract: nft.token.contract,
+        category: nft.token.category || ["Other"],
+        tokenId: nft.token.tokenId,
+        price: nft.market.floorAsk.price.amount.decimal,
+        rarity: Math.floor(nft.token.rarity) || Math.floor(Math.random() * 20000 + 9000),
+        rarityRank: nft.token.rarityRank || Math.floor(Math.random() * 30000 + 1),
+        lastBuyValue: priceLastBuy.toFixed(2),
+        lastBuyTs: nft.token.lastBuy.timestamp || Math.floor(Math.random() * (40000000) + 1631509481),
+        ownerName: nft.market.floorAsk.source.name || "OpenSea",
+        ownerIcon: nft.market.floorAsk.source.icon || "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg"
+      };
+      
+      const nftInDb = await Nft.create(nftToDB);
+      const correspondingCollection = await Collection.findOne({
+        where: {
+          id: nft.token.collection.id
+        }
+      });
+      
+      await nftInDb.setCollection(correspondingCollection);
+      await nftInDb.setUser(superUser);
+      response.push(nftInDb);
+      console.log(
+        "---------------------------\n" + 
+        "NFT n°" + response.length + " \n" +
+        "Name: " + nftInDb.name + " \n" +
+        "Created at: " + new Date().toString() + " \n" +
+        "---------------------------"
+        );
+    }
   } 
+    console.log("NFT Creation SUCCESS " + response.length + " NFTS on DB " + new Date().toString());
     return response;
   } catch (err) {
     throw new Error(err.message)
@@ -201,5 +290,6 @@ module.exports = {
   updateNft,
   createNewNFT,
   deleteNft,
-  restoreDeletedNft
+  restoreDeletedNft,
+  createNftQuantityByChoice
 };

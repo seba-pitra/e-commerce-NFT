@@ -41,6 +41,10 @@ module.exports = (sequelize) => {
           },
         },
       },
+      purchases:{
+        type: DataTypes.ARRAY(DataTypes.JSON),
+        allowNull:false
+      }
     },
     {
       timestamps: true,

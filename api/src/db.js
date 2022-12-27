@@ -40,6 +40,9 @@ const { User, Nft, Collection, Buy } = sequelize.models;
 User.hasMany(Nft);
 Nft.belongsTo(User);
 
+User.hasMany(Collection);
+Collection.belongsTo(User);
+
 Nft.belongsTo(Collection);
 Collection.hasMany(Nft);
 

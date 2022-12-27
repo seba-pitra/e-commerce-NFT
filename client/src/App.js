@@ -19,6 +19,7 @@ import { auth } from "./firebase.js";
 import { onAuthStateChanged } from "firebase/auth";
 import Recovery from "./components/Recovery/Recovery";
 import PayResult from "./components/PayResult/PayResult";
+import UserProfile from "./components/UserComponents/UserProfile/UserProfile";
 
 function App() {
   const [loggedIn, setLoggedIn] = useState(true);
@@ -95,6 +96,12 @@ function App() {
             path="/pay/pending"
             render={() => <PayResult loggedIn={loggedIn} />}
           />
+          <Route
+            exact
+            path="/user/:id"
+            render={() => <UserProfile loggedIn={loggedIn} />}
+          />
+
           <Route
             exact
             path="/details/:id"
