@@ -17,7 +17,7 @@ module.exports = (sequelize) => {
       },
       contract: {
         type: DataTypes.STRING,
-        allowNull: false,
+        // allowNull: false,
       },
       statusPay: {
         type: DataTypes.STRING,
@@ -41,10 +41,10 @@ module.exports = (sequelize) => {
           },
         },
       },
-      purchases:{
+      purchases: {
         type: DataTypes.ARRAY(DataTypes.JSON),
-        allowNull:false
-      }
+        allowNull: false,
+      },
     },
     {
       timestamps: true,
