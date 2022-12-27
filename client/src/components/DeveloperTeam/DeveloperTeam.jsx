@@ -11,10 +11,45 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
-import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import { useDispatch } from "react-redux";
+import * as actions from "../../redux/actions";
 
 const DeveloperTeam = (props) => {
+  const dispatch = useDispatch();
+
+  let mercadoPagoBuyData = {
+    price: 222,
+    payMethod: "MercadoPago",
+    statusPay: "Created",
+    contract: "2321312awdassadasldj",
+  };
+
+  const validate =
+    window.location.href.includes("collection_status") &&
+    window.location.href.includes("external_reference");
+
+  if (validate) {
+    if (window.location.href.includes("approved")) {
+      mercadoPagoBuyData = {
+        ...mercadoPagoBuyData,
+        statusPay: "Successed",
+      };
+    } else if (window.location.href.includes("rejected")) {
+      mercadoPagoBuyData = {
+        ...mercadoPagoBuyData,
+        statusPay: "Rejected",
+      };
+    } else if (window.location.href.includes("null")) {
+      mercadoPagoBuyData = {
+        ...mercadoPagoBuyData,
+        statusPay: "Pending",
+      };
+    }
+
+    dispatch(actions.addBuyAtHistoryBuys(mercadoPagoBuyData));
+  }
+
   return (
     <div className={styles["about-us"]}>
       <div className={styles["about-us-container"]}>
