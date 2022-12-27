@@ -5,15 +5,18 @@ import { useParams } from "react-router-dom";
 import EditIcon from "@material-ui/icons/Edit";
 import DoneIcon from "@material-ui/icons/Done";
 
-export default function UserProfile(props) {
-  const { id } = useParams();
-  const dispatch = useDispatch();
-  const { userDetail } = useSelector((state) => state);
+export default function UserProfile(props){
+    const { id } = props.match.params;
+    const dispatch = useDispatch();
+    const userData = useSelector(state => state.user); 
+    const { userDetail } = useSelector((state) => state);
+    
+
+    // FALTA TRAER EL COMPONENTE PurchaseHistory y pasarle por params las relaciones con buy para q muestre el historial
 
   const [edit, setEdit] = useState(false);
   const [type, setType] = useState("");
   const [update, setUpdate] = useState(false);
-
   const handleteEdit = (e) => {
     e.preventDefault();
     setEdit(!edit);
@@ -37,40 +40,77 @@ export default function UserProfile(props) {
   useEffect(() => {
     dispatch(actions.getUserByID(id));
   }, [dispatch, id, update]);
-  return (
-    <section style={{ backgroundColor: "#eee" }}>
-      <div className="py-5">
-        <div>
-          <div lg="4">
-            <div className="mb-4">
-              <div className="text-center">
-                {/* Imagen proximamente */}
-                {
-                  /* <img
-                //   src={"/*userData.avatar*/
-                  //"}
-                  //   alt="avatar"
-                  //   className="rounded-circle"
-                  //   style={{ width: "150px" }}
-                  //   fluid
-                  //>*/}
-                }
-
-                <p className="text-muted mb-1">{`${userDetail.name} ${userDetail.last_name}`}</p>
-                <div className="d-flex justify-content-center mb-2"></div>
-              </div>
+  
+    return (
+        <section style={{ backgroundColor: '#eee' }}>
+        <div className="py-5">
+            {console.log(userData)}
+            <div>
+            <div lg="4">
+                <div className="mb-4">
+                <div className="text-center">
+                    <img
+                    src={'/*userData.avatar*/'}
+                    alt="avatar"
+                    className="rounded-circle"
+                    style={{ width: '150px' }}
+                    fluid />
+                    {/* falta nombre de usuario  */}
+                    <p className="text-muted mb-1">NOMBRE DE USARIO</p>
+                    <div className="d-flex justify-content-center mb-2">
+                    </div>
+                </div>
+                </div>
             </div>
           </div>
           <div lg="8">
             <div className="mb-4">
               <div>
                 <div>
-                  <div sm="3">
-                    <div>Full Name</div>
-                  </div>
-                  <div sm="9">
-                    <div className="text-muted">{`${userDetail.name} ${userDetail.last_name}`}</div>
-                  </div>
+                    <div>
+                    <div sm="3">
+                        <div>Full Name</div>
+                    </div>
+                    <div sm="9">
+                        <div className="text-muted">{userData.name} {userData.name}</div>
+                    </div>
+                    </div>
+                    <hr />
+                    <div>
+                    <div sm="3">
+                        <div>Email</div>
+                    </div>
+                    <div sm="9">
+                        <div className="text-muted">{userData.email}</div>
+                    </div>
+                    </div>
+                    <hr />
+                    <div>
+                    <div sm="3">
+                        <div>Phone</div>
+                    </div>
+                    <div sm="9">
+                        <div className="text-muted">(097) 234-5678</div>
+                    </div>
+                    </div>
+                    <hr />
+                    <div>
+                    <div sm="3">
+                        <div>Mobile</div>
+                    </div>
+                    <div sm="9">
+                        <div className="text-muted">(098) 765-4321</div>
+                    </div>
+                    </div>
+                    <hr />
+                    <div>
+                    <div sm="3">
+                        <div>Address</div>
+                    </div>
+                    <div sm="9">
+                        <div className="text-muted">Bay Area, San Francisco, CA</div>
+                    </div>
+                    </div>
                 </div>
                 <hr />
                 <div>
@@ -134,7 +174,6 @@ export default function UserProfile(props) {
             </div>
           </div>
         </div>
-      </div>
     </section>
   );
 }

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import {
   gettingActiveUserToState,
@@ -46,6 +46,21 @@ const Login = ({ loggedIn }) => {
 
   const signGoogle = async () => {
     await loginGoogle();
+    dispatch(gettingActiveUserToState(auth.currentUser.email));
+    loadLocalStorage(auth.currentUser.email);
+    let fullName = auth.currentUser.displayName;
+    let user = {
+      id: auth.currentUser.uid,
+      email: auth.currentUser.email,
+      name: fullName.split(" ")[0],
+      last_name: fullName.split(" ")[1],
+      profile_pic: auth.currentUser.photoURL,
+    };
+    fetch("http://localhost:3001/user", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(user),
+        });
     history.push("/marketplace");
   };
 
@@ -109,7 +124,6 @@ const Login = ({ loggedIn }) => {
     });
   };
 
-  if (loggedIn)
     if (loggedIn)
       return (
         <div className="login-loggedmessage">

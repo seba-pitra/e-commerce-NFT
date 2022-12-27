@@ -149,13 +149,13 @@ const createAllInitialCollections = async () => {
   try {
     let response = await Collection.findAll({});
     const userOwner = await User.findOne({
-      where: {
-        id: superUserId,
-      },
-    });
-    if (response.length === 0) {
-      console.log("Starting collections creation " + new Date().toString());
-      for (const collection of collections) {
+      where : {
+        id : superUserId,
+      }
+    })
+    if(response.length === 0){
+      console.log("Starting collections creation " + new Date().toString())
+      for(const collection of collections){
         let collectionToDB = {
           id: collection.id,
           name: collection.name || "No name",
@@ -166,12 +166,6 @@ const createAllInitialCollections = async () => {
         response.push(collectionInDB);
       }
     }
-    console.log(
-      "Collections Creation SUCCESS " +
-        response.length +
-        " collections on db " +
-        new Date().toString()
-    );
     return response;
   } catch (err) {
     throw new Error(err.message);

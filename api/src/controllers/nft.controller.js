@@ -157,16 +157,14 @@ const createAllInitialNFTs = async () => {
     let response = await Nft.findAll({});
     const superUser = await User.findOne({
       where: {
-        id: superUserId,
-      },
-    });
-    if (response.length === 0) {
-      console.log("Starting NFTs creation database." + new Date().toString());
-      for (const nft of allNFTs) {
+        id: superUserId
+      }
+    })
+    if(response.length === 0){
+      console.log("Starting NFTs creation database." + new Date().toString())
+      for(const nft of allNFTs){
         let count = 0;
-        let nftName =
-          nft.token.name ||
-          nft.token.collection.name + " #" + nft.token.tokenId;
+        let nftName = nft.token.name || nft.token.collection.name + " #" + nft.token.tokenId
 
         nftName =
           nftName.charAt(0) === "#"
@@ -338,5 +336,5 @@ module.exports = {
   createNewNFT,
   deleteNft,
   restoreDeletedNft,
-  createNftQuantityByChoice,
+  createNftQuantityByChoice
 };
