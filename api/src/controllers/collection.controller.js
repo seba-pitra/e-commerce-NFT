@@ -149,7 +149,8 @@ const createAllInitialCollections = async () => {
       }
     })
     if(response.length === 0){
-      for (const collection of collections){
+      console.log("Starting collections creation " + new Date().toString())
+      for(const collection of collections){
         let collectionToDB = {
           id: collection.id,
           name: collection.name || "No name",

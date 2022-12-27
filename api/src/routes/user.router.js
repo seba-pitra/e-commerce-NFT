@@ -8,7 +8,7 @@ const {
   restoreDeletedUser,
   verifyUser,
   verifiedToAdmin,
-  adminToVerified
+  adminToVerified,
 } = require("../controllers/user.controller");
 
 const userRouter = Router();
@@ -23,7 +23,7 @@ userRouter.put("/:id", updateUser);
 
 userRouter.delete("/:id", deleteUser);
 
-userRouter.get("/restore/:id", restoreDeletedUser)
+userRouter.get("/restore/:id", restoreDeletedUser);
 
 userRouter.put("/verify/:id", verifyUser);
 

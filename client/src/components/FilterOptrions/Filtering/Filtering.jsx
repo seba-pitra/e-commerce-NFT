@@ -25,6 +25,7 @@ export default function Filtering() {
   const collections = useSelector((state) => state.collections);
 
   useEffect(() => {
+    dispatch(actions.setCollections(selectedCollection));
     dispatch(actions.setCategorySpecies(selectedCategorySpecies));
     dispatch(actions.setCategorySpecies2(selectedCategorySpecies2));
     dispatch(actions.setCategoryArt(selectedCategoryArt));
@@ -32,13 +33,9 @@ export default function Filtering() {
     dispatch(actions.setCategoryStyle(selectedCategoryStyle));
     dispatch(actions.setCategoryRest(selectedCategoryRest));
     dispatch(actions.setCategoryBackg(selectedCategoryBackg));
-    dispatch(actions.filterCategory());
-  }, [selectedCategorySpecies, selectedCategorySpecies2, selectedCategoryArt, selectedCategoryType, selectedCategoryStyle, selectedCategoryRest, selectedCategoryBackg]);
-
-  useEffect(() => {
-    dispatch(actions.setCollections(selectedCollection));
-    dispatch(actions.filterCollection());
-  }, [selectedCollection]);
+    dispatch(actions.filterNfts());
+  }, [selectedCategorySpecies, selectedCategorySpecies2, selectedCategoryArt, selectedCategoryType, 
+    selectedCategoryStyle, selectedCategoryRest, selectedCategoryBackg, selectedCollection]);
 
   let category = { Species: [], Species2: [], Art: [], Type: [], Style: [], Rest: [], Backg: [] }
 
