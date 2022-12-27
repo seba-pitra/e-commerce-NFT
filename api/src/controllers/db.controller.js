@@ -56,14 +56,20 @@ const postQuantityToDB = async (req, res) => {
 const getEverythingFromDB = async (req, res) => {
     try {
         const allNfts = await Nft.findAll({
-            include : {
+            include : [{
                 model : Collection
-            }
+            }, {
+                model : User,
+                as: 'owner'
+            }]
         });
         const allCollections = await Collection.findAll({
-            include : {
+            include : [{
                 model : Nft
-            }
+            },{
+                model : User,
+                as : 'owner'
+            }]
         });
         const allBuys = await Buy.findAll({
             include : {
@@ -75,6 +81,9 @@ const getEverythingFromDB = async (req, res) => {
                 model : Collection
             },{
                 model: Nft
+            },{
+                model : Buy,
+                as : 'purchases'
             }]
         });
         res.status(200).json({

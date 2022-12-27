@@ -8,9 +8,12 @@ const superUserId = superUser.id;
 const getNfts = async (req, res) => {
   try {
     const dbNfts = await Nft.findAll({
-      include: {
+      include: [{
         model: Collection,
-      },
+      },{
+        model : User,
+        as : 'owner'
+      }],
     });
     if (dbNfts.length === 0) {
       throw new Error("nothing on database please contact Mr. Miguel Villa");
@@ -24,7 +27,14 @@ const getNfts = async (req, res) => {
 const getNftById = async (req, res) => {
   try {
     const { id } = req.params;
-    const foundNftFromDB = await Nft.findByPk(id);
+    const foundNftFromDB = await Nft.findByPk(id, {
+      include: [{
+        model: Collection,
+      },{
+        model : User,
+        as : 'owner'
+      }],
+    });
     if (foundNftFromDB) {
       res.status(200).json(foundNftFromDB);
     } else {
@@ -163,7 +173,6 @@ const createAllInitialNFTs = async () => {
     if(response.length === 0){
       console.log("Starting NFTs creation database." + new Date().toString())
       for(const nft of allNFTs){
-        let count = 0;
         let nftName = nft.token.name || nft.token.collection.name + " #" + nft.token.tokenId
 
         nftName =
@@ -214,11 +223,6 @@ const createAllInitialNFTs = async () => {
         await nftInDb.setCollection(correspondingCollection);
         await nftInDb.setUser(superUser);
         response.push(nftInDb);
-        count++;
-        if (count === 100) {
-          console.log(response.length);
-          count = 0;
-        }
       }
     } else {
       throw new Error(

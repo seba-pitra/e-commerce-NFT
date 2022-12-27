@@ -10,9 +10,12 @@ const superUserId = superUser.id;
 const getCollections = async (req, res) => {
   try {
     const dbCollections = await Collection.findAll({
-      include: {
+      include: [{
         model: Nft,
-      },
+      },{
+        model : User,
+        as : 'owner'
+      }],
     });
     if (dbCollections.length === 0) {
       throw new Error("nothing on database");
@@ -29,9 +32,12 @@ const getCollectionById = async (req, res) => {
   try {
     const { id } = req.params;
     const foundCollectionInDB = await Collection.findByPk(id, {
-      include: {
+      include: [{
         model: Nft,
-      },
+      },{
+        model : User,
+        as : 'owner'
+      }],
     });
     if (foundCollectionInDB) {
       res.status(200).json(foundCollectionInDB);
