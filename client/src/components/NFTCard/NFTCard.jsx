@@ -8,12 +8,24 @@ import * as actions from "../../redux/actions";
 import "./NFTCard.css";
 
 export default function NFTCard(props) {
+	const activeUserIs = useSelector((state) => state.activeUser);
+	const cartItemsCount = useSelector((state) => state.userNfts);
+	const userNfts = useSelector((state) => state.userNfts);
+
   const ethPrice = useSelector((state) => state.ethPrice);
   const dispatch = useDispatch();
 
-  const handleClickOnShoppingCart = (e) => {
-	  dispatch(actions.addNftOnShoppingCart(props));
-  };
+
+	function saveLocalStorage(){
+		localStorage.setItem(activeUserIs,JSON.stringify(userNfts));
+		console.log(cartItemsCount );
+	}
+
+	const handleClickOnShoppingCart = (e) => {
+		dispatch(actions.addNftOnShoppingCart(props));
+		saveLocalStorage();
+	};
+
 
   return (
     <div className="cardContainer">
