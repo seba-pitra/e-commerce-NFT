@@ -14,7 +14,6 @@ const getCollections = async (req, res) => {
         model: Nft,
       },{
         model : User,
-        as : 'owner'
       }],
     });
     if (dbCollections.length === 0) {
@@ -36,7 +35,6 @@ const getCollectionById = async (req, res) => {
         model: Nft,
       },{
         model : User,
-        as : 'owner'
       }],
     });
     if (foundCollectionInDB) {

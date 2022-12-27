@@ -1,40 +1,24 @@
 const { createAllInitialCollections } = require("../controllers/collection.controller")
-const { createAllInitialNFTs, createNftQuantityByChoice } = require("../controllers/nft.controller")
+const { createInitialNFTs } = require("../controllers/nft.controller")
 const { createSuperUser } = require("../controllers/user.controller");
 const { Nft, Collection, Buy, User } = require("../db");
 
 
 //Creates every initial data, and posts it to the database.
-const postEverythingToDB = async (req, res) => {
+const postNftsToDB = async (req, res) => {
     try {
-        console.log("Starting database injection..." + new Date().toString())
-        const [superUser, allCollections, allNfts] = await generateEverything();
-        if(allCollections.length > 0 && allNfts.length > 0 && superUser){
-            console.log("Everything on database: " + new Date().toString())
-            return res.status(200).json({
-                success: "todos los datos creados correctamente",
-                collections : allCollections,
-                nfts : allNfts,
-                superUserData : superUser
-            });
+        let { nftQuantity } = req.params
+        if (!nftQuantity){
+            nftQuantity = 1600
         }else{
-            throw new Error(`something went wrong`)
+            nftQuantity = parseInt(nftQuantity)
         }
-    }catch (error) {
-        res.status(400).json({error : error.message})
-    }
-}
-
-//Create only 100 nfts for testing purposes
-const postQuantityToDB = async (req, res) => {
-    try {
-        const { nftQuantity } = req.params
         if(nftQuantity > 1600){
             throw new Error("Number should be equal or less than 1600");
         }
         console.log("Starting database injection of " + nftQuantity + " nfts... " + new Date().toString())
         
-        const [superUser, allCollections, allNfts] = await generateEverythingByChoice(parseInt(nftQuantity));
+        const [superUser, allCollections, allNfts] = await generateEverything(nftQuantity);
 
         if(allCollections.length > 0 && allNfts.length > 0 && superUser){
             console.log("Everything on database: " + new Date().toString())
@@ -60,7 +44,6 @@ const getEverythingFromDB = async (req, res) => {
                 model : Collection
             }, {
                 model : User,
-                as: 'owner'
             }]
         });
         const allCollections = await Collection.findAll({
@@ -68,12 +51,11 @@ const getEverythingFromDB = async (req, res) => {
                 model : Nft
             },{
                 model : User,
-                as : 'owner'
             }]
         });
         const allBuys = await Buy.findAll({
             include : {
-                model : User
+                model : User,
             }
         });
         const allUsers = await User.findAll({
@@ -83,7 +65,6 @@ const getEverythingFromDB = async (req, res) => {
                 model: Nft
             },{
                 model : Buy,
-                as : 'purchases'
             }]
         });
         res.status(200).json({
@@ -110,7 +91,7 @@ const generateEverythingByChoice = async (nftQuantity) => {
 
         response.push(allCollections);
 
-        const hundredNfts = await createNftQuantityByChoice(nftQuantity);
+        const hundredNfts = await createInitialNFTs(nftQuantity);
 
         response.push(hundredNfts);
 
@@ -121,7 +102,7 @@ const generateEverythingByChoice = async (nftQuantity) => {
 }
 
 //Generate all nfts and all collections
-const generateEverything = async () => {
+const generateEverything = async (nftQuantity) => {
     try {
         const response = [];
 
@@ -132,7 +113,7 @@ const generateEverything = async () => {
         const allCollections = await createAllInitialCollections();
         response.push(allCollections);
 
-        const allNfts = await createAllInitialNFTs();
+        const allNfts = await createInitialNFTs(nftQuantity);
 
         response.push(allNfts);
 
@@ -143,7 +124,6 @@ const generateEverything = async () => {
 }
 
 module.exports = {
-    postEverythingToDB,
     getEverythingFromDB,
-    postQuantityToDB
+    postNftsToDB
 }

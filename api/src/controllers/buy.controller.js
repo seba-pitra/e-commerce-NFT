@@ -3,7 +3,6 @@ const { Buy, User } = require("../db");
 // Create a new purchase and add it to the database
 // Crear una nueva compra y agregarla a la base de datos
 const createNewBuy = async (req, res) => {
-  const { payMethod, contract, statusPay } = req.body;
   try {
     const { payMethod, statusPay, purchases } = req.body;
     if (!payMethod || !statusPay || !purchases) {
