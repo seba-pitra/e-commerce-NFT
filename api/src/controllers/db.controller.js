@@ -53,7 +53,6 @@ const postQuantityToDB = async (req, res) => {
 //Returns all data that is present in the database.
 const getEverythingFromDB = async (req, res) => {
     try {
-        console.log(User);
         const allNfts = await Nft.findAll();
         const allCollections = await Collection.findAll();
         const allBuys = await Buy.findAll();
