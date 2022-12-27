@@ -383,17 +383,7 @@ const rootReducer = (state = initialState, action) => {
         ...state,
         activeUser: action.payload,
       };
-    case LOCAL_STORAGE_CART:
-      return {
-        ...state,
-        userNfts: action.payload,
-      };
 
-    case DELETE_NFT_ON_SIGNOUT:
-      return {
-        ...state,
-        userNfts: [],
-      };
     // ---
 
     case ADD_BUY_AT_HISTORY_BUYS:

@@ -2,6 +2,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import React, { useState } from "react";
+import React, { useState } from "react";
 import LandingPage from "./components/LandingPage/LandingPage";
 import HomePage from "./components/HomePage/HomePage";
 import Details from "./components/Details/Details";
@@ -19,6 +20,7 @@ import CollectionDetail from "./components/CollectionDetail/CollectionDetail.jsx
 import { auth } from "./firebase.js";
 import { onAuthStateChanged } from "firebase/auth";
 import Recovery from "./components/Recovery/Recovery";
+import PayResult from "./components/PayResult/PayResult";
 import UserProfile from "./components/UserComponents/UserProfile/UserProfile";
 
 function App() {
@@ -80,6 +82,21 @@ function App() {
             exact
             path="/createNft"
             render={() => <CreateNft loggedIn={loggedIn} />}
+          />
+          <Route
+            exact
+            path="/pay/success"
+            render={() => <PayResult loggedIn={loggedIn} />}
+          />
+          <Route
+            exact
+            path="/pay/failure"
+            render={() => <PayResult loggedIn={loggedIn} />}
+          />
+          <Route
+            exact
+            path="/pay/pending"
+            render={() => <PayResult loggedIn={loggedIn} />}
           />
           <Route
             exact
