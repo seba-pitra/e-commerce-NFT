@@ -5,11 +5,11 @@ const { Buy, User } = require("../db");
 const createNewBuy = async (req, res) => {
   const { payMethod, contract, statusPay } = req.body;
   try {
-    const { payMethod, contract, statusPay, purchases } = req.body;
-    if (!payMethod || !contract || !statusPay || !purchases) {
-      res.status(422).json({ error: "There are missing values" });
+    const { payMethod, statusPay, purchases } = req.body;
+    if (!payMethod || !statusPay || !purchases) {
+      throw new Error("There are missing values");
     }
-    return res.status(201).json(await Buy.create(req.body));
+    res.status(201).json(await Buy.create(req.body));
   } catch (err) {
     res.status(400).send({ error: err.message });
   }

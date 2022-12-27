@@ -5,7 +5,7 @@ import Loading from "../Loading/Loading";
 import { Link } from "react-router-dom";
 import styles from "./Details.module.css";
 import ethereumLogo from "../../images/ethereum-logo.png";
-import { startPayment } from "../Shoppingkart/Shoppingkart";
+import { startPayment } from "../../utils";
 
 const Details = (props) => {
   const { id } = props.match.params;
@@ -145,8 +145,6 @@ const Details = (props) => {
               {txs && <p>{txs}</p>}
             </div>
           </div>
-
-          
         </div>
       )}
     </>

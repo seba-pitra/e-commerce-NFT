@@ -1,4 +1,4 @@
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import * as actions from "../../redux/actions";
 import { useState } from "react";
 import successIcon from "../../images/icons/success-icon.png";
@@ -7,6 +7,13 @@ import styles from "./PayResult.module.css";
 
 function PayResult(props) {
   const dispatch = useDispatch();
+
+  let userNfts = JSON.parse(localStorage.getItem("nftsOnShoppingCart"));
+
+  let totalAmount = 0;
+  for (const nft of userNfts) {
+    totalAmount += nft.price;
+  }
 
   let resultContainer;
 
@@ -63,10 +70,10 @@ function PayResult(props) {
   );
 
   let mercadoPagoBuyData = {
-    price: 222,
+    price: totalAmount,
     payMethod: "MercadoPago",
     statusPay: "Created",
-    contract: "contract de prueba",
+    purchases: userNfts,
   };
 
   const validate =
@@ -97,25 +104,6 @@ function PayResult(props) {
     dispatch(actions.addBuyAtHistoryBuys(mercadoPagoBuyData));
   }
 
-  if (window.location.href.includes("success")) {
-    resultContainer = sucessContainer;
-    mercadoPagoBuyData = {
-      ...mercadoPagoBuyData,
-      statusPay: "Successed",
-    };
-  } else if (window.location.href.includes("failure")) {
-    resultContainer = failureContainer;
-    mercadoPagoBuyData = {
-      ...mercadoPagoBuyData,
-      statusPay: "Rejected",
-    };
-  } else if (window.location.href.includes("pending")) {
-    resultContainer = pendingContainer;
-    mercadoPagoBuyData = {
-      ...mercadoPagoBuyData,
-      statusPay: "Pending",
-    };
-  }
   return <div className={styles["pay-result"]}>{resultContainer}</div>;
 }
 

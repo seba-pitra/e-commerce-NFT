@@ -3,33 +3,7 @@ import Button from "react-bootstrap/Button";
 import { useDispatch, useSelector } from "react-redux";
 import * as actions from "../../redux/actions";
 import styles from "./ShoppingCart.module.css";
-import { ethers } from "ethers";
-// import { startPayment } from "../Details/Details";
-
-export const startPayment = async ({ setError, setTxs, ether, addr }) => {
-  try {
-    if (!window.ethereum)
-      throw new Error("No cripto wallet found. Please install it.");
-
-    await window.ethereum.send("eth_requestAccounts"); //connect with metamask wallet
-
-    const provider = new ethers.providers.Web3Provider(window.ethereum);
-    const signer = provider.getSigner();
-
-    ethers.utils.getAddress(addr); //address validation
-
-    const tx = await signer.sendTransaction({
-      to: addr,
-      value: ethers.utils.parseEther(ether), //can not pay with ethereum directly.We need to pass the ethereum to "wei"
-    });
-
-    setTxs(tx.hash);
-    return tx;
-  } catch (err) {
-    setError(err.message);
-    return err.message;
-  }
-};
+import { startPayment } from "../../utils";
 
 export default function Shoppingkart() {
   const userNfts = useSelector((state) => state.userNfts);
@@ -41,10 +15,13 @@ export default function Shoppingkart() {
   const dispatch = useDispatch();
 
   const handleBuyNftsOnShoppingCart = async () => {
+    //localStorage for payment for mercago pago in component "PayResult"
+    localStorage.setItem("nftsOnShoppingCart", JSON.stringify(userNfts));
+
     dispatch(actions.buyNftOnShoppingCart(userNfts));
   };
 
-  const handlePay = async ({ nftPrice, nftContract,nftObj }) => {
+  const handlePay = async ({ nftPrice, nftContract, nftObj }) => {
     setError();
 
     const transactionMetamask = await startPayment({
@@ -59,8 +36,7 @@ export default function Shoppingkart() {
       contract: nftContract,
       payMethod: "Metamask",
       statusPay: "Created",
-      //se envia todo el obj entero
-      purchases : nftObj
+      purchases: nftObj,
     };
 
     if (transactionMetamask.hash) {
@@ -95,37 +71,6 @@ export default function Shoppingkart() {
     totalAmount += nft.price;
   }
 
-  let mercadoPagoBuyData = {
-    price: totalAmount,
-    payMethod: "MercadoPago",
-    statusPay: "Created",
-  };
-
-  const validate =
-    window.location.href.includes("collection_status") &&
-    window.location.href.includes("external_reference");
-
-  if (validate) {
-    if (window.location.href.includes("approved")) {
-      mercadoPagoBuyData = {
-        ...mercadoPagoBuyData,
-        statusPay: "Successed",
-      };
-    } else if (window.location.href.includes("rejected")) {
-      mercadoPagoBuyData = {
-        ...mercadoPagoBuyData,
-        statusPay: "Rejected",
-      };
-    } else if (window.location.href.includes("null")) {
-      mercadoPagoBuyData = {
-        ...mercadoPagoBuyData,
-        statusPay: "Pending",
-      };
-    }
-
-    dispatch(actions.addBuyAtHistoryBuys(mercadoPagoBuyData));
-  }
-
   return (
     <div className={styles["shopping-cart"]}>
       <div className={styles["shopping-cart-nft-cards"]}>
@@ -149,7 +94,7 @@ export default function Shoppingkart() {
                       handlePay({
                         nftPrice: nft.price,
                         nftContract: nft.contract,
-                        purchases : nft
+                        purchases: nft,
                       })
                     }
                   >
