@@ -25,6 +25,7 @@ import {
   ORDER_NFT_RARITYRANK,
   ORDER_NFT_LASTBUY,
   ORDER_NFT_LASTBUYTS,
+  GET_USER_BY_ID,
   GET_ETH_PRICE,
   CHANGE_ORDER_DIRECTION,
   SELECT_PAGE,
@@ -57,6 +58,7 @@ const initialState = {
   users: [],
   userNfts: [],
   nftDetail: {},
+  userDetail: {},
   isLoading: false,
   orderDirection: "up-down",
   activePage: 1,
@@ -92,6 +94,8 @@ const rootReducer = (state = initialState, action) => {
       return { ...state, collections: action.payload, isLoading: false };
     case GET_ALL_USERS:
       return { ...state, users: action.payload };
+    case GET_USER_BY_ID:
+      return { ...state, userDetail: action.payload };
     case GET_NFT_DETAIL:
       return { ...state, nftDetail: action.payload, isLoading: false };
     case CREATE_NFT:
@@ -344,23 +348,6 @@ const rootReducer = (state = initialState, action) => {
     case GET_ACTIVE_USER:
       return {
         ...state,
-        activeUser: action.payload,
-      };
-    case LOCAL_STORAGE_CART:
-      return {
-        ...state,
-        userNfts: action.payload,
-      };
-    case DELETE_NFT_ON_SIGNOUT:
-      return {
-        ...state,
-        userNfts: [],
-      };
-
-    // --- CART ---
-    case BUY_NFT_ON_SHOOPING_CART:
-      return {
-        ...state,
         // activeUser: action.payload,
       };
     case LOCAL_STORAGE_CART:
@@ -374,6 +361,14 @@ const rootReducer = (state = initialState, action) => {
         ...state,
         userNfts: [],
       };
+
+    // --- CART ---
+    case BUY_NFT_ON_SHOOPING_CART:
+      return {
+        ...state,
+        activeUser: action.payload,
+      };
+
     // ---
 
     case ADD_BUY_AT_HISTORY_BUYS:

@@ -10,6 +10,7 @@ import { Route, Switch } from "react-router-dom";
 import NFTNav from "./components/NFTNav/NFTNav";
 import Footer from "./components/Footer/Footer";
 import CreateNft from "./components/CreateNft/CreateNft";
+import AdminDashboard from "./components/AdminDashBoard/AdminDashboard";
 import Register from "./components/Registrer/Registrer";
 import MarketPlace from "./components/MarketPlace/MarketPlace";
 import DeveloperTeam from "./components/DeveloperTeam/DeveloperTeam";
@@ -106,6 +107,11 @@ function App() {
             exact
             path="/details/:id"
             render={({ match }) => <Details match={match} />}
+          />
+          <Route
+            exact
+            path="/pruebas/adminDash"
+            render={() => <AdminDashboard />}
           />
           <Route
             render={() => {
