@@ -54,6 +54,7 @@ const getUserById = async (req, res) => {
       include: {
         model: Nft,
         model: Collection,
+        model: Buy,
       },
     });
     if (foundUser) {

@@ -19,6 +19,7 @@ import CollectionDetail from "./components/CollectionDetail/CollectionDetail.jsx
 import { auth } from "./firebase.js";
 import { onAuthStateChanged } from "firebase/auth";
 import Recovery from "./components/Recovery/Recovery";
+import UserProfile from "./components/UserComponents/UserProfile/UserProfile";
 
 function App() {
   const [loggedIn, setLoggedIn] = useState(true);
@@ -80,6 +81,12 @@ function App() {
             path="/createNft"
             render={() => <CreateNft loggedIn={loggedIn} />}
           />
+          <Route
+            exact
+            path="/user/:id"
+            render={() => <UserProfile loggedIn={loggedIn} />}
+          />
+
           <Route
             exact
             path="/details/:id"
