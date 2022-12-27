@@ -1,10 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { useEffect } from "react";
 import "./NFTList_dash.css";
 
 // Components
 import NFTsCard_dash from "../NFTsCard_dash/NFTsCard_dash";
-import { useState } from "react";
+import UserCard_dash from "../UserCard_dash/UserCard_dash";
 
 const NFTList_dash = ({ users, nfts }) => {
   // const { nfts } = useSelector((state) => state);
@@ -73,7 +73,23 @@ const NFTList_dash = ({ users, nfts }) => {
       </div>
       {/* Conditional Div (nft/user) */}
       {users ? (
-        <div>Holi Soy Users</div>
+        <div className="dash-nfts-titles">
+          <div className="dash-users-IdTitle">
+            <p>id</p>
+          </div>
+          <div className="dash-users-NameTitle">
+            <p>Name</p>
+          </div>
+          <div className="dash-users-Last_NameTitle">
+            <p>Last Name</p>
+          </div>
+          <div className="dash-users-EmailTitle">
+            <p>email</p>
+          </div>
+          <div className="dash-users-DNITitle">
+            <p>DNI</p>
+          </div>
+        </div>
       ) : (
         <div className="dash-nfts-titles">
           <div className="dash-nfts-idTitle">
@@ -94,9 +110,15 @@ const NFTList_dash = ({ users, nfts }) => {
       {/* Conditional Div (nft/user) */}
       {/* Conditional Div (nft/user) */}
       {users ? (
-        <div>
+        <div className="dash-nfts-list">
           {displayNFTs.map((user) => (
-            <h6>Soy un user con nombre {user.name}</h6>
+            <UserCard_dash
+              id={user.id}
+              name={user.name}
+              last_name={user.last_name}
+              email={user.email}
+              dni={user.dni}
+            />
           ))}
         </div>
       ) : (

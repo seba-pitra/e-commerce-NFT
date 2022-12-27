@@ -1,8 +1,7 @@
-// const { reauthenticateWithCredential } = require("firebase/auth");
 const { Collection, Nft, User } = require("../db");
-const { collections } = require("../jsondata/collections.json")
+const { collections } = require("../jsondata/collections.json");
 
-const { superUser } = require("../jsondata/superUserData.json")
+const { superUser } = require("../jsondata/superUserData.json");
 
 const superUserId = superUser.id;
 
@@ -29,8 +28,12 @@ const getCollections = async (req, res) => {
 const getCollectionById = async (req, res) => {
   try {
     const { id } = req.params;
-    const foundCollectionInDB = await Collection.findByPk(id);
-    if(foundCollectionInDB){
+    const foundCollectionInDB = await Collection.findByPk(id, {
+      include: {
+        model: Nft,
+      },
+    });
+    if (foundCollectionInDB) {
       res.status(200).json(foundCollectionInDB);
     } else {
       throw new Error(`Could not find collection in db with id ${id}`);
@@ -58,7 +61,7 @@ const createNewCollection = async (req, res) => {
   } catch (err) {
     res.status(400).json({ error: err.message });
   }
-}
+};
 
 //Borrar coleccion de la base de datos a partir de id. (Soft-delete)
 const deleteCollection = async (req, res) => {
@@ -91,15 +94,18 @@ const updateCollection = async (req, res) => {
   try {
     const { id } = req.params;
     const dataToUpdate = req.body;
-    const [updateCollection, created] = await Collection.upsert({
-      id : id,
-      ...dataToUpdate
-    })
-    res.status(200).send(updateCollection);
-  }catch(err){
+    const foundCollection = await Collection.findByPk(id);
+    if (foundCollection) {
+      foundCollection.set(dataToUpdate);
+      await foundCollection.save();
+      return res.status(200).send(foundCollection);
+    } else {
+      throw new Error(`No collection with id ${id}`);
+    }
+  } catch (err) {
     res.status(400).send(err.message);
   }
-}
+};
 //Restaurar una colleccion eliminada.
 const restoreDeletedCollection = async (req, res) => {
   try {
@@ -110,11 +116,11 @@ const restoreDeletedCollection = async (req, res) => {
       },
     });
     const restoredCollection = await Collection.findByPk({
-      where : {
-        id : id,
-      }
-    })
-    if(restoredCollection){
+      where: {
+        id: id,
+      },
+    });
+    if (restoredCollection) {
       return res.status(200).json({
         nft: restoredCollection,
         message: `${restoredCollection.name} successfully restored`,
@@ -125,8 +131,7 @@ const restoreDeletedCollection = async (req, res) => {
   } catch (err) {
     return res.status(400).json({ err: err.message });
   }
-}
-
+};
 
 /*
   controllers to create and post collections to db
@@ -141,7 +146,7 @@ const postAllCollectionsToDB = async (req, res) => {
 };
 
 const createAllInitialCollections = async () => {
-  try{
+  try {
     let response = await Collection.findAll({});
     const userOwner = await User.findOne({
       where : {
@@ -156,8 +161,8 @@ const createAllInitialCollections = async () => {
           name: collection.name || "No name",
           image: collection.image || "No image",
         };
-        const collectionInDB = await Collection.create(collectionToDB)
-        collectionInDB.setUser(userOwner)
+        const collectionInDB = await Collection.create(collectionToDB);
+        collectionInDB.setUser(userOwner);
         response.push(collectionInDB);
       }
     }
@@ -175,5 +180,6 @@ module.exports = {
   updateCollection,
   restoreDeletedCollection,
   postAllCollectionsToDB,
+  createAllInitialCollections,
   createAllInitialCollections,
 };
