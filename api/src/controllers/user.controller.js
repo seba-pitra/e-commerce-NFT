@@ -1,11 +1,27 @@
-const { User, Nft, Collection } = require("../db");
+const { User, Nft, Collection, Buy } = require("../db");
 const { superUser } = require("../jsondata/superUserData.json");
 
 const createUser = async (req, res) => {
   console.log(req.body);
   try {
     const userData = req.body;
-    const newUser = await User.create(userData);
+    const [newUser, created] = await User.findOrCreate({
+      where: {
+        id: userData.id,
+      },
+      defaults: {
+        id: userData.id,
+        name: userData.name,
+        last_name: userData.last_name,
+        age: userData.age || null,
+        email: userData.email,
+        profile_pic: userData.profile_pic || null,
+      }
+    })
+    if (!created) {
+      newUser.set(userData);
+      await newUser.save();
+    }
     res.status(200).json(newUser);
   } catch (err) {
     console.log(err.message);
@@ -50,19 +66,21 @@ const updateUser = async (req, res) => {
 const getUserById = async (req, res) => {
   try {
     const { id } = req.params;
-    const foundUser = User.findByPk(id, {
+    const foundUser = await User.findByPk(id, {
       include: {
         model: Nft,
         model: Collection,
         model: Buy,
       },
     });
+    console.log(foundUser)
     if (foundUser) {
       return res.status(200).json(foundUser);
     } else {
       throw new Error(`No user found with id: ${id}`);
     }
   } catch (error) {
+    console.log(error.message)
     return res.status(400).json({ error: error.message });
   }
 };
