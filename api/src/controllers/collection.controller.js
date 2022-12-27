@@ -160,6 +160,7 @@ const createAllInitialCollections = async () => {
       }
     })
     if(response.length === 0){
+      console.log("Starting collections creation " + new Date().toString())
       for(const collection of collections){
         let collectionToDB = {
           id : collection.id,
@@ -171,6 +172,7 @@ const createAllInitialCollections = async () => {
         response.push(collectionInDB);
       }
     }
+      console.log("Collections Creation SUCCESS " + response.length + " collections on db " + new Date().toString())
       return response;
   }catch(err) {
     throw new Error(err.message);
@@ -186,5 +188,5 @@ module.exports = {
   updateCollection,
   restoreDeletedCollection,
   postAllCollectionsToDB,
-  createAllInitialCollections
+  createAllInitialCollections,
 };

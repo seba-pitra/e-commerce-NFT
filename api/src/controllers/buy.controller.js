@@ -4,8 +4,8 @@ const { Buy, User } = require("../db");
 // Create a new purchase and add it to the database
 // Crear una nueva compra y agregarla a la base de datos
 const createNewBuy = async (req, res) => {
-    const {payMethod,contract,statusPay,purchases} = req.body;
   try {
+    const {payMethod,contract,statusPay,purchases} = req.body;
     if(!payMethod || !contract || !statusPay || !purchases){
         res.status(422).json({ error: "There are missing values" });
     }
