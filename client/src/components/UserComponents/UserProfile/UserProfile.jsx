@@ -1,19 +1,46 @@
-import * as actions from '../../../redux/actions'
-import { useEffect } from "react";
-import { useDispatch,  useSelector } from "react-redux";
+import * as actions from "../../../redux/actions";
+import { useEffect, useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { useParams } from "react-router-dom";
+import EditIcon from "@material-ui/icons/Edit";
+import DoneIcon from "@material-ui/icons/Done";
 
 export default function UserProfile(props){
     const { id } = props.match.params;
     const dispatch = useDispatch();
     const userData = useSelector(state => state.user); 
+    const { userDetail } = useSelector((state) => state);
     
 
     // FALTA TRAER EL COMPONENTE PurchaseHistory y pasarle por params las relaciones con buy para q muestre el historial
 
-    useEffect(()=>{
-        dispatch(actions.getUserByID(id));
-    },[dispatch, id])
+  const [edit, setEdit] = useState(false);
+  const [type, setType] = useState("");
+  const [update, setUpdate] = useState(false);
+  const handleteEdit = (e) => {
+    e.preventDefault();
+    setEdit(!edit);
+  };
 
+  const handleTypeChange = (e) => {
+    setType(e.target.value);
+  };
+
+  const handleUpdate = (e) => {
+    e.preventDefault();
+    let body = {
+      type: type,
+    };
+    dispatch(actions.updateUser(id, body)).then((data) => {
+      setUpdate(!update);
+      setEdit(!edit);
+    });
+  };
+
+  useEffect(() => {
+    dispatch(actions.getUserByID(id));
+  }, [dispatch, id, update]);
+  
     return (
         <section style={{ backgroundColor: '#eee' }}>
         <div className="py-5">
@@ -35,8 +62,10 @@ export default function UserProfile(props){
                 </div>
                 </div>
             </div>
-            <div lg="8">
-                <div className="mb-4">
+          </div>
+          <div lg="8">
+            <div className="mb-4">
+              <div>
                 <div>
                     <div>
                     <div sm="3">
@@ -83,76 +112,68 @@ export default function UserProfile(props){
                     </div>
                     </div>
                 </div>
-                </div>
-
+                <hr />
                 <div>
-                <div md="6">
-                    <div className="mb-4 mb-md-0">
-                    <div>
-                        <div className="mb-4"><span className="text-primary font-italic me-1">assigment</span> Project Status</div>
-                        <div className="mb-1" style={{ fontSize: '.77rem' }}>Web Design</div>
-                        <div className="rounded">
-                        <div width={80} valuemin={0} valuemax={100} />
-                        </div>
-
-                        <div className="mt-4 mb-1" style={{ fontSize: '.77rem' }}>Website Markup</div>
-                        <div className="rounded">
-                        <div width={72} valuemin={0} valuemax={100} />
-                        </div>
-
-                        <div className="mt-4 mb-1" style={{ fontSize: '.77rem' }}>One Page</div>
-                        <div className="rounded">
-                        <div width={89} valuemin={0} valuemax={100} />
-                        </div>
-
-                        <div className="mt-4 mb-1" style={{ fontSize: '.77rem' }}>Mobile Template</div>
-                        <div className="rounded">
-                        <div width={55} valuemin={0} valuemax={100} />
-                        </div>
-
-                        <div className="mt-4 mb-1" style={{ fontSize: '.77rem' }}>Backend API</div>
-                        <div className="rounded">
-                        <div width={66} valuemin={0} valuemax={100} />
-                        </div>
-                    </div>
-                    </div>
+                  <div sm="3">
+                    <div>Email</div>
+                  </div>
+                  <div sm="9">
+                    <div className="text-muted">{`${userDetail.email}`}</div>
+                  </div>
                 </div>
-
-                <div md="6">
-                    <div className="mb-4 mb-md-0">
-                    <div>
-                        <div className="mb-4"><span className="text-primary font-italic me-1">assigment</span> Project Status</div>
-                        <div className="mb-1" style={{ fontSize: '.77rem' }}>Web Design</div>
-                        <div className="rounded">
-                        <div width={80} valuemin={0} valuemax={100} />
-                        </div>
-
-                        <div className="mt-4 mb-1" style={{ fontSize: '.77rem' }}>Website Markup</div>
-                        <div className="rounded">
-                        <div width={72} valuemin={0} valuemax={100} />
-                        </div>
-
-                        <div className="mt-4 mb-1" style={{ fontSize: '.77rem' }}>One Page</div>
-                        <div className="rounded">
-                        <div width={89} valuemin={0} valuemax={100} />
-                        </div>
-
-                        <div className="mt-4 mb-1" style={{ fontSize: '.77rem' }}>Mobile Template</div>
-                        <div className="rounded">
-                        <div width={55} valuemin={0} valuemax={100} />
-                        </div>
-
-                        <div className="mt-4 mb-1" style={{ fontSize: '.77rem' }}>Backend API</div>
-                        <div className="rounded">
-                        <div width={66} valuemin={0} valuemax={100} />
-                        </div>
-                    </div>
-                    </div>
+                <hr />
+                <div>
+                  <div sm="3">
+                    <div>Age</div>
+                  </div>
+                  <div sm="9">
+                    <div className="text-muted">{`${userDetail.age}`}</div>
+                  </div>
                 </div>
+                <hr />
+                <div>
+                  <div sm="3">
+                    <div>Type</div>
+                  </div>
+                  <div sm="9">
+                    {" "}
+                    {edit ? (
+                      <div>
+                        <select value={type} onChange={handleTypeChange}>
+                          <option value="">- Select Type Admin -</option>
+                          <option value="Admin">Admin</option>
+                          <option value="Medium">Medium</option>
+                          <option value="Basic">Basic</option>
+                        </select>
+                        <div>
+                          <DoneIcon onClick={handleUpdate} />
+                        </div>
+                      </div>
+                    ) : (
+                      <div className="text-muted">
+                        {`${userDetail.type}`}
+                        <div>
+                          <EditIcon onClick={handleteEdit} />
+                        </div>
+                      </div>
+                    )}
+                  </div>
                 </div>
+                <hr />
+                <div>
+                  <div sm="3">
+                    <div>DNI</div>
+                  </div>
+                  <div sm="9">
+                    <div className="text-muted">{`${
+                      userDetail.dni ? userDetail.dni : "No DNI"
+                    } `}</div>
+                  </div>
+                </div>
+              </div>
             </div>
-            </div>
+          </div>
         </div>
-        </section>
-    );
+    </section>
+  );
 }

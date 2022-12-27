@@ -5,14 +5,11 @@ module.exports = (sequelize) => {
     "user",
     {
       id: {
-        type: DataTypes.UUID,
-        defaultValue: DataTypes.UUIDV4,
+        type: DataTypes.STRING,
+        defaultValue: DataTypes.UUID,
         primaryKey: true,
         unique: true,
-        allowNull: true,
-        validate: {
-          isUUID: 4,
-        },
+        allowNull: false,
       },
       name: {
         type: DataTypes.STRING,
@@ -24,6 +21,7 @@ module.exports = (sequelize) => {
       },
       age: {
         type: DataTypes.INTEGER,
+        allowNull: true,
       },
       email: {
         type: DataTypes.STRING,
@@ -49,7 +47,8 @@ module.exports = (sequelize) => {
         unique: true,
       },
       profile_pic: {
-        type : DataTypes.TEXT
+        type : DataTypes.TEXT,
+        allowNull: true,
       }
     },
     {

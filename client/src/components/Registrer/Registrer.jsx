@@ -33,12 +33,13 @@ const Register = () => {
         params.password
       );
       if (signUp) {
+        console.log(auth.currentUser);
         let user = {
+          id: auth.currentUser.uid,
           email: auth.currentUser.email,
           name: params.name,
           last_name: params.last_name,
           age: Number(params.age),
-          available: true,
         };
         fetch("http://localhost:3001/user", {
           method: "POST",
