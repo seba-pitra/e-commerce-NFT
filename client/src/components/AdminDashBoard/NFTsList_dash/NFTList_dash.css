@@ -2,6 +2,7 @@
     width: fit-content;
     background-color: lightgray;
     border: 1px solid lightgray;
+    border-radius: 5px;
 }
 .nft-dash-search-container{
     width: 100%;
@@ -29,6 +30,11 @@
 .dash-nfts-titles p{
     margin: 5px 0;
 }
+.dash-users-IdTitle,
+.dash-users-NameTitle,
+.dash-users-Last_NameTitle,
+.dash-users-EmailTitle,
+.dash-users-DNITitle,
 .dash-nfts-idTitle,
 .dash-nfts-NameTitle,
 .dash-nfts-PriceTitle,
@@ -49,5 +55,22 @@
 }
 .dash-nfts-PriceTitle{
     width: 70px;
+    margin: 0 5px;
+}
+.dash-users-IdTitle{
+    width: 260px;
+    margin: 0 5px;
+}
+.dash-users-NameTitle,
+.dash-users-Last_NameTitle{
+    width: 80px;
+    margin: 0 5px;
+}
+.dash-users-EmailTitle{
+    width: 300px;
+    margin: 0 5px;
+}
+.dash-users-DNITitle{
+    width: 200px;
     margin: 0 5px;
 }

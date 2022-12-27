@@ -107,6 +107,7 @@ export const getAllUsers = () => {
       console.log(allUsers.data);
       dispatch({ type: GET_ALL_USERS, payload: allUsers.data });
     } catch (e) {
+      console.log(e.message);
       alert("There was a connection error, please try again later user");
     }
   };
@@ -119,6 +120,17 @@ export const getUserByID = (id) => {
       const user = await axios.get(`/user/${id}`);
       dispatch({ type: GET_USER_BY_ID, payload: user.data });
     } catch (e) {
+      alert("There was a connection error, please try again later user");
+    }
+  };
+};
+
+export const updateUser = (id, body) => {
+  return async (dispatch) => {
+    try {
+      const update = await axios.put(`/user/${id}`, body);
+      dispatch({ type: GET_USER_BY_ID, payload: update.data });
+    } catch (error) {
       alert("There was a connection error, please try again later user");
     }
   };
@@ -295,6 +307,7 @@ export const removeNftOfShoppingCart = (nftId) => {
 export const gettingActiveUserToState = (payload) => {
   return { type: GET_ACTIVE_USER, payload };
 };
+
 export const injectLocalStorageCart = (payload) => {
   return { type: LOCAL_STORAGE_CART, payload };
 };
