@@ -39,6 +39,9 @@ const CollectionDetail = () => {
         price={nft.price}
         tokenId={nft.tokenId}
         userId={nft.userId}
+        rarity={nft.rarity}
+        rarityRank={nft.rarityRank}
+        lastBuy={nft.lastBuyValue || 0.01}
       />
     );
   });

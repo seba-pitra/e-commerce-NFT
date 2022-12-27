@@ -54,30 +54,38 @@ const updateNft = async (req, res) => {
 };
 //Crea el nuevo nft a partir de nombre, descripcion, imagen, contrato, id del token, precio, dueño e imagen.
 const createNewNFT = async (req, res) => {
+  console.log(req.body)
   try {
     const {
+      collection,
       name,
       description,
       image,
-      contract,
-      tokenId,
       price,
+      categories,
+      contract,
       ownerName,
       ownerIcon,
     } = req.body;
-    if (!name || !image || !tokenId || !price || !ownerName || !ownerIcon) {
+    if (!name || !image || !price || !collection || !categories) {
       throw new Error(`Insufficient data provided`);
     }
 
     const newNFT = await Nft.create({
       name: name,
-      description: description,
-      image: image,
-      contract: contract || "No corresponding contract",
-      tokenId: tokenId,
-      price: price,
-      ownerName: ownerName,
-      ownerIcon: ownerIcon,
+      description: description || "No description",
+      image: image || "No image",
+      contract: contract || "No idea",
+      category: categories || ["Other", "Other", "Other", "Other", "Other", "Normal", "Other"],
+      tokenId: "1",
+      price: parseInt(price),
+      rarity: Math.floor(Math.random() * 20000 + 9000),
+      rarityRank: Math.floor(Math.random() * 30000 + 1),
+      lastBuyValue: 0.01,
+      lastBuyTs: Date.now(),
+      ownerName: ownerName || "OpenSea",
+      ownerIcon: ownerIcon || "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+      available: true,
     });
 
     if (contract) {
