@@ -86,7 +86,10 @@ export default function Form() {
     price: "no data",
   });
 
-  const [addCollection, setAddCollection] = React.useState("");
+  const [addCollection, setAddCollection] = React.useState({
+    name: "",
+    image: "https://images.pexels.com/photos/12786598/pexels-photo-12786598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  });
 
   //asi tendria q venir el array de categories,puede cambiar como venga
   const allCategories = {
@@ -101,7 +104,10 @@ export default function Form() {
 
   let handleChange = (e) => {
     e.preventDefault();
-    setAddCollection(e.target.value);
+    setAddCollection((prev) => ({
+      ...prev,
+      name: e.target.value
+    }))
   };
 
   let submitAddCollection = (e) => {
@@ -213,7 +219,7 @@ export default function Form() {
               <input
                 type="text"
                 name="collection"
-                value={addCollection}
+                value={addCollection.name}
                 onChange={(e) => handleChange(e)}
               />
               <button onClick={(e) => submitAddCollection(e)}>add</button>
