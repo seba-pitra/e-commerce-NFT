@@ -33,6 +33,7 @@ const getBuyById = async (req, res) => {
     res.status(404).send({ error: err.message });
   }
 };
+
 // Get a list of all purchases.
 // Conseguir el listado de todas las compras.
 const getAllBuy = async (req, res) => {

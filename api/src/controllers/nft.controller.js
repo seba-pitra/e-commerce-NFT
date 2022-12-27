@@ -8,9 +8,11 @@ const superUserId = superUser.id;
 const getNfts = async (req, res) => {
   try {
     const dbNfts = await Nft.findAll({
-      include: {
+      include: [{
         model: Collection,
-      },
+      },{
+        model : User,
+      }],
     });
     if (dbNfts.length === 0) {
       throw new Error("nothing on database please contact Mr. Miguel Villa");
@@ -24,7 +26,13 @@ const getNfts = async (req, res) => {
 const getNftById = async (req, res) => {
   try {
     const { id } = req.params;
-    const foundNftFromDB = await Nft.findByPk(id);
+    const foundNftFromDB = await Nft.findByPk(id, {
+      include: [{
+        model: Collection,
+      },{
+        model : User,
+      }],
+    });
     if (foundNftFromDB) {
       res.status(200).json(foundNftFromDB);
     } else {
@@ -160,7 +168,7 @@ const restoreDeletedNft = async (req, res) => {
  * function to add all nfts to the database using jsons as the base data.
  */
 
-const createAllInitialNFTs = async () => {
+/* const createAllInitialNFTs = async () => {
   try {
     let response = await Nft.findAll({});
     const superUser = await User.findOne({
@@ -171,7 +179,6 @@ const createAllInitialNFTs = async () => {
     if(response.length === 0){
       console.log("Starting NFTs creation database." + new Date().toString())
       for(const nft of allNFTs){
-        let count = 0;
         let nftName = nft.token.name || nft.token.collection.name + " #" + nft.token.tokenId
 
         nftName =
@@ -215,18 +222,13 @@ const createAllInitialNFTs = async () => {
         const nftInDb = await Nft.create(nftToDB);
         const correspondingCollection = await Collection.findOne({
           where: {
-            id: nft.token.collection.id,
+            apiId: nft.token.collection.id,
           },
         });
 
         await nftInDb.setCollection(correspondingCollection);
         await nftInDb.setUser(superUser);
         response.push(nftInDb);
-        count++;
-        if (count === 100) {
-          console.log(response.length);
-          count = 0;
-        }
       }
     } else {
       throw new Error(
@@ -243,19 +245,21 @@ const createAllInitialNFTs = async () => {
   } catch (err) {
     throw new Error(err.message);
   }
-};
+}; */
 
-const createNftQuantityByChoice = async (nftQuantity) => {
+const createInitialNFTs = async (nftQuantity) => {
   try {
-    const nfts = allNFTs.slice(0, nftQuantity);
     let response = await Nft.findAll({});
+
     const superUser = await User.findOne({
       where: {
         id: superUserId,
       },
     });
+
     if (response.length === 0) {
       console.log("Starting NFTs creation database. " + new Date().toString());
+      const nfts = allNFTs.slice(0, nftQuantity);
       for (const nft of nfts) {
         let nftName =
           nft.token.name ||
@@ -302,13 +306,16 @@ const createNftQuantityByChoice = async (nftQuantity) => {
         const nftInDb = await Nft.create(nftToDB);
         const correspondingCollection = await Collection.findOne({
           where: {
-            id: nft.token.collection.id,
+            apiId: nft.token.collection.id,
           },
         });
+
+        console.log(correspondingCollection.apiId + " " + correspondingCollection.id)
 
         await nftInDb.setCollection(correspondingCollection);
         await nftInDb.setUser(superUser);
         response.push(nftInDb);
+
         console.log(
           "---------------------------\n" +
             "NFT n°" +
@@ -320,9 +327,13 @@ const createNftQuantityByChoice = async (nftQuantity) => {
             "Created at: " +
             new Date().toString() +
             " \n" +
+            "Collection: " + correspondingCollection.name + " \n" +
+            "User: " + superUser.name + " \n" +
             "---------------------------"
         );
       }
+    }else{
+      throw new Error("Database already contains data.")
     }
     console.log(
       "NFT Creation SUCCESS " +
@@ -339,10 +350,9 @@ const createNftQuantityByChoice = async (nftQuantity) => {
 module.exports = {
   getNfts,
   getNftById,
-  createAllInitialNFTs,
+  createInitialNFTs,
   updateNft,
   createNewNFT,
   deleteNft,
   restoreDeletedNft,
-  createNftQuantityByChoice
 };

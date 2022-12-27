@@ -10,6 +10,7 @@ import VerifiedIcon from '@mui/icons-material/Verified';
 function Collections(){
 
   const dispatch = useDispatch();
+
   useEffect(() => {
     dispatch(actions.getAllNfts())
     dispatch(actions.getAllCollections())
@@ -17,29 +18,18 @@ function Collections(){
 
   const nfts = useSelector((state) => state.nfts);
   const collections = useSelector((state) => state.collections);
-
   const isLoading = useSelector(state => state.isLoading);
 
-  const collectionsCards = collections.map((e) => {
-    let x = false;
+  const collectionsCards = collections.map((collection) => {
     return (
-      <Link to={`/collections/${e.id}`}>
+      <Link to={`/collections/${collection.id}`}>
         <div className='collections-conteiner'>
-          <img className='collections-img-main' src={e.image} alt="img-collections" />
+          <img className='collections-img-main' src={collection.image} alt="img-collections" />
           <div className='img-name-conteiner'>
-            { 
-              nfts.map(a => {
-                if (a.collectionId === e.id) {
-                  if (x === false) {
-                    x = true;
-                    return <img className='collections-img-owner' src={a.image} alt="img-collections" />
-                  }  
-                }
-              })
-            }
+            <img className='collections-img-owner' src={collection.nfts[0].image} alt="img-collections" />
             <div className='collection-name-conteiner'>             
             <VerifiedIcon/>
-            <h3 className='collections-name'> {e.name} </h3>
+            <h3 className='collections-name'> {collection.name} </h3>
             </div>
           </div>
         </div>

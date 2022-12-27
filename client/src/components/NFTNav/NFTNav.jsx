@@ -36,6 +36,7 @@ export default function NFTNav() {
   };
 
   const handdleCick = (e) => {
+	  saveLocalStorage();
     dispatch(freeShoppingCartState());
 	  logOutFunction();
   };
