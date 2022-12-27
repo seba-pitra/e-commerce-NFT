@@ -4,11 +4,11 @@ const { Buy, User } = require("../db");
 // Crear una nueva compra y agregarla a la base de datos
 const createNewBuy = async (req, res) => {
   try {
-    const { payMethod, contract, statusPay, purchases } = req.body;
-    if (!payMethod || !contract || !statusPay || !purchases) {
-      res.status(422).json({ error: "There are missing values" });
+    const { payMethod, statusPay, purchases } = req.body;
+    if (!payMethod || !statusPay || !purchases) {
+      throw new Error("There are missing values");
     }
-    return res.status(201).json(await Buy.create(req.body));
+    res.status(201).json(await Buy.create(req.body));
   } catch (err) {
     res.status(400).send({ error: err.message });
   }

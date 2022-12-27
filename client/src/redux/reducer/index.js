@@ -25,6 +25,7 @@ import {
   ORDER_NFT_RARITYRANK,
   ORDER_NFT_LASTBUY,
   ORDER_NFT_LASTBUYTS,
+  GET_USER_BY_ID,
   GET_ETH_PRICE,
   CHANGE_ORDER_DIRECTION,
   SELECT_PAGE,
@@ -47,16 +48,17 @@ const initialState = {
   collections: [],
   setCollections: [],
   setCategorySpecies: [],
-  setCategorySpecies2: [], 
+  setCategorySpecies2: [],
   setCategoryArt: [],
   setCategoryType: [],
   setCategoryStyle: [],
-  setCategoryRest: [], 
+  setCategoryRest: [],
   setCategoryBackg: [],
   setNftsPrice: {},
   users: [],
   userNfts: [],
   nftDetail: {},
+  userDetail: {},
   isLoading: false,
   orderDirection: "up-down",
   activePage: 1,
@@ -71,15 +73,29 @@ const rootReducer = (state = initialState, action) => {
   switch (action.type) {
     case LOADING:
       return { ...state, isLoading: true };
-    
+
     // --- GETTERS ---
     case GET_ALL_NFTS:
-      return { ...state, nfts: action.payload, filteredNfts: action.payload, nftDetail: {}, isLoading: false, setCategorySpecies: [],
-      setCategorySpecies2: [], setCategoryArt: [], setCategoryType: [], setCategoryStyle: [], setCategoryRest: [], setCategoryBackg: [], };   
+      return {
+        ...state,
+        nfts: action.payload,
+        filteredNfts: action.payload,
+        nftDetail: {},
+        isLoading: false,
+        setCategorySpecies: [],
+        setCategorySpecies2: [],
+        setCategoryArt: [],
+        setCategoryType: [],
+        setCategoryStyle: [],
+        setCategoryRest: [],
+        setCategoryBackg: [],
+      };
     case GET_ALL_COLLECTIONS:
       return { ...state, collections: action.payload, isLoading: false };
     case GET_ALL_USERS:
       return { ...state, users: action.payload };
+    case GET_USER_BY_ID:
+      return { ...state, userDetail: action.payload };
     case GET_NFT_DETAIL:
       return { ...state, nftDetail: action.payload, isLoading: false };
     case CREATE_NFT:
@@ -112,88 +128,89 @@ const rootReducer = (state = initialState, action) => {
     // --- FILTERS ---
     case FILTER_NFTS:
       let allAvailables = state.nfts;
-      
+
       if (state.setCategorySpecies.length !== 0) {
         let results = [];
         let filtered = [];
-        state.setCategorySpecies.filter(cat => {
-          filtered = allAvailables.filter( nft => nft.category.includes(cat) )
-          results = results.concat(filtered)
-        })
-        allAvailables = results
+        state.setCategorySpecies.filter((cat) => {
+          filtered = allAvailables.filter((nft) => nft.category.includes(cat));
+          results = results.concat(filtered);
+        });
+        allAvailables = results;
       }
 
       if (state.setCategorySpecies2.length !== 0) {
         let results = [];
         let filtered = [];
-        state.setCategorySpecies2.filter(cat => {
-          filtered = allAvailables.filter( nft => nft.category.includes(cat) )
-          results = results.concat(filtered)
-        })
-        allAvailables = results
+        state.setCategorySpecies2.filter((cat) => {
+          filtered = allAvailables.filter((nft) => nft.category.includes(cat));
+          results = results.concat(filtered);
+        });
+        allAvailables = results;
       }
 
       if (state.setCategoryArt.length !== 0) {
         let results = [];
         let filtered = [];
-        state.setCategoryArt.filter(cat => {
-          filtered = allAvailables.filter( nft => nft.category.includes(cat) )
-          results = results.concat(filtered)
-        })
-        allAvailables = results
+        state.setCategoryArt.filter((cat) => {
+          filtered = allAvailables.filter((nft) => nft.category.includes(cat));
+          results = results.concat(filtered);
+        });
+        allAvailables = results;
       }
 
       if (state.setCategoryType.length !== 0) {
         let results = [];
         let filtered = [];
-        state.setCategoryType.filter(cat => {
-          filtered = allAvailables.filter( nft => nft.category.includes(cat) )
-          results = results.concat(filtered)
-        })
-        allAvailables = results
+        state.setCategoryType.filter((cat) => {
+          filtered = allAvailables.filter((nft) => nft.category.includes(cat));
+          results = results.concat(filtered);
+        });
+        allAvailables = results;
       }
 
       if (state.setCategoryStyle.length !== 0) {
         let results = [];
         let filtered = [];
-        state.setCategoryStyle.filter(cat => {
-          filtered = allAvailables.filter( nft => nft.category.includes(cat) )
-          results = results.concat(filtered)
-        })
-        allAvailables = results
+        state.setCategoryStyle.filter((cat) => {
+          filtered = allAvailables.filter((nft) => nft.category.includes(cat));
+          results = results.concat(filtered);
+        });
+        allAvailables = results;
       }
 
       if (state.setCategoryRest.length !== 0) {
         let results = [];
         let filtered = [];
-        state.setCategoryRest.filter(cat => {
-          filtered = allAvailables.filter( nft => nft.category.includes(cat) )
-          results = results.concat(filtered)
-        })
-        allAvailables = results
+        state.setCategoryRest.filter((cat) => {
+          filtered = allAvailables.filter((nft) => nft.category.includes(cat));
+          results = results.concat(filtered);
+        });
+        allAvailables = results;
       }
 
       if (state.setCategoryBackg.length !== 0) {
         let results = [];
         let filtered = [];
-        state.setCategoryBackg.filter(cat => {
-          filtered = allAvailables.filter( nft => nft.category.includes(cat) )
-          results = results.concat(filtered)
-        })
-        allAvailables = results
+        state.setCategoryBackg.filter((cat) => {
+          filtered = allAvailables.filter((nft) => nft.category.includes(cat));
+          results = results.concat(filtered);
+        });
+        allAvailables = results;
       }
 
       if (state.setCollections.length !== 0) {
         let results = [];
         let filtered = [];
-        state.setCollections.filter(col => {
-          filtered = allAvailables.filter( nft => nft.collectionId === col )
-          results = results.concat(filtered)
-        })
-        allAvailables = results
+        state.setCollections.filter((col) => {
+          filtered = allAvailables.filter((nft) => nft.collectionId === col);
+          results = results.concat(filtered);
+        });
+        allAvailables = results;
       }
 
-      if(Object.entries(state.setNftsPrice).length !== 0) { // noanda
+      if (Object.entries(state.setNftsPrice).length !== 0) {
+        // noanda
         if (state.setNftsPrice.currency === "ETH") {
           if (state.setNftsPrice.min !== 0)
             allAvailables = allAvailables.filter(
@@ -224,11 +241,22 @@ const rootReducer = (state = initialState, action) => {
         }
       }
 
-      return { ...state, filteredNfts: allAvailables, activePage: 1 }
+      return { ...state, filteredNfts: allAvailables, activePage: 1 };
 
     case RESET_FILTERS:
-      return { ...state, filteredNfts: state.nfts, categories: [], activePage: 1, setCategorySpecies: [], setCategorySpecies2: [], 
-      setCategoryArt: [], setCategoryType: [], setCategoryStyle: [], setCategoryRest: [], setCategoryBackg: [] };
+      return {
+        ...state,
+        filteredNfts: state.nfts,
+        categories: [],
+        activePage: 1,
+        setCategorySpecies: [],
+        setCategorySpecies2: [],
+        setCategoryArt: [],
+        setCategoryType: [],
+        setCategoryStyle: [],
+        setCategoryRest: [],
+        setCategoryBackg: [],
+      };
 
     case SEARCH_NFT_NAME:
       let filterByName = [];
@@ -236,7 +264,7 @@ const rootReducer = (state = initialState, action) => {
         e.name.toUpperCase().includes(action.payload.toUpperCase())
       );
       return { ...state, filteredNfts: filterByName };
-    
+
     // --- ORDERS ---
     case CHANGE_ORDER_DIRECTION:
       let newOrder;
@@ -257,7 +285,7 @@ const rootReducer = (state = initialState, action) => {
         state.filteredNfts
       );
       return { ...state, filteredNfts: orderedbyPrice, activePage: 1 };
-    
+
     case ORDER_NFT_RARITY:
       let orderedbyRarity = controllers.orderNFTBy(
         "rarity",
@@ -265,16 +293,16 @@ const rootReducer = (state = initialState, action) => {
         state.filteredNfts
       );
       return { ...state, filteredNfts: orderedbyRarity, activePage: 1 };
-    
-      case ORDER_NFT_RARITYRANK:
-        let orderedbyRarityRank = controllers.orderNFTBy(
-          "rarityrank",
-          state.orderDirection,
-          state.filteredNfts
-        );
-        return { ...state, filteredNfts: orderedbyRarityRank, activePage: 1 };
 
-        case ORDER_NFT_LASTBUY:
+    case ORDER_NFT_RARITYRANK:
+      let orderedbyRarityRank = controllers.orderNFTBy(
+        "rarityrank",
+        state.orderDirection,
+        state.filteredNfts
+      );
+      return { ...state, filteredNfts: orderedbyRarityRank, activePage: 1 };
+
+    case ORDER_NFT_LASTBUY:
       let orderedbyLastBuy = controllers.orderNFTBy(
         "lastbuy",
         state.orderDirection,
@@ -282,7 +310,7 @@ const rootReducer = (state = initialState, action) => {
       );
       return { ...state, filteredNfts: orderedbyLastBuy, activePage: 1 };
 
-      case ORDER_NFT_LASTBUYTS:
+    case ORDER_NFT_LASTBUYTS:
       let orderedbyLastBuyTs = controllers.orderNFTBy(
         "lastbuyts",
         state.orderDirection,
@@ -319,25 +347,8 @@ const rootReducer = (state = initialState, action) => {
     // --- LOCAL STORAGE ---
     case GET_ACTIVE_USER:
       return {
-      ...state,
-      activeUser: action.payload,	
-      };
-    case LOCAL_STORAGE_CART:
-      return {
-      ...state,
-      userNfts: action.payload,
-      }
-    case DELETE_NFT_ON_SIGNOUT:
-      return {
-      ...state,
-      userNfts: [],
-      }
-
-    // --- CART ---
-    case BUY_NFT_ON_SHOOPING_CART:
-      return {
         ...state,
-        activeUser: action.payload,
+        // activeUser: action.payload,
       };
     case LOCAL_STORAGE_CART:
       return {
@@ -350,6 +361,14 @@ const rootReducer = (state = initialState, action) => {
         ...state,
         userNfts: [],
       };
+
+    // --- CART ---
+    case BUY_NFT_ON_SHOOPING_CART:
+      return {
+        ...state,
+        activeUser: action.payload,
+      };
+
     // ---
 
     case ADD_BUY_AT_HISTORY_BUYS:
