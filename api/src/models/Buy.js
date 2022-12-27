@@ -17,7 +17,7 @@ module.exports = (sequelize) => {
       },
       contract: {
         type: DataTypes.STRING,
-        allowNull: false,
+        // allowNull: false, //despues hacer force y borrar esta linea. Podria ser nula
       },
       statusPay: {
         type: DataTypes.STRING,

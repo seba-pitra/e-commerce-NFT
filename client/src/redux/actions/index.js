@@ -24,8 +24,8 @@ export const SET_CATEGORY_BACKG = "SET_CATEGORY_BACKG";
 
 // -- FILTERS --
 export const RESET_FILTERS = "RESET_FILTERS";
-export const FILTER_NFT_COLLECTION = "FILTER_NFT_COLLECTION"; 
-export const FILTER_NFT_CATEGORY = "FILTER_NFT_CATEGORY"; 
+export const FILTER_NFT_COLLECTION = "FILTER_NFT_COLLECTION";
+export const FILTER_NFT_CATEGORY = "FILTER_NFT_CATEGORY";
 export const FILTER_NFT_PRICE = "FILTER_NFT_PRICE";
 export const FILTER_NFT_NAME = "FILTER_NFT_NAME";
 export const ORDER_NFT_NAME = "ORDER_NFT_NAME";
@@ -53,8 +53,8 @@ export const LOCAL_STORAGE_CART = "LOCAL_STORAGE_CART";
 export const ADD_NFT_ON_SHOOPING_CART = "ADD_NFT_ON_SHOOPING_CART";
 export const REMOVE_NFT_OF_SHOOPING_CART = "REMOVE_NFT_OF_SHOOPING_CART";
 export const BUY_NFT_ON_SHOOPING_CART = "BUY_NFT_ON_SHOOPING_CART";
-export const DELETE_NFT_ON_SIGNOUT = "DELETE_NFT_ON_SIGNOUT"; 
-export const ADD_BUY_AT_HISTORY_BUYS = "ADD_BUY_AT_HISTORY_BUYS"; 
+export const DELETE_NFT_ON_SIGNOUT = "DELETE_NFT_ON_SIGNOUT";
+export const ADD_BUY_AT_HISTORY_BUYS = "ADD_BUY_AT_HISTORY_BUYS";
 
 // -- GETTERS --
 
@@ -170,11 +170,11 @@ export const setCategoryBackg = (payload) => {
 
 export const resetFilters = () => {
   return { type: RESET_FILTERS };
-}; 
+};
 
 export const filterCollection = () => {
   return { type: FILTER_NFT_COLLECTION };
-}; 
+};
 
 export const filterCategory = () => {
   return { type: FILTER_NFT_CATEGORY };
