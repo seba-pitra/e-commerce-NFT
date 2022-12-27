@@ -1,5 +1,5 @@
 const { createAllInitialCollections } = require("../controllers/collection.controller")
-const { createAllInitialNFTs } = require("../controllers/nft.controller")
+const { createAllInitialNFTs, createNftQuantityByChoice } = require("../controllers/nft.controller")
 const { createSuperUser } = require("../controllers/user.controller");
 const { Nft, Collection, Buy, User } = require("../db");
 
@@ -7,13 +7,41 @@ const { Nft, Collection, Buy, User } = require("../db");
 //Creates every initial data, and posts it to the database.
 const postEverythingToDB = async (req, res) => {
     try {
-        console.log("Starting database injection..." + Date.now())
+        console.log("Starting database injection..." + new Date().toString())
         const [superUser, allCollections, allNfts] = await generateEverything();
         console.log(superUser.name)
         console.log(allCollections.length)
         console.log(allNfts.length)
         if(allCollections.length > 0 && allNfts.length > 0 && superUser){
-            console.log("Everything on database: " + Date.now())
+            console.log("Everything on database: " + new Date().toString())
+            return res.status(200).json({
+                success: "todos los datos creados correctamente",
+                collections : allCollections,
+                nfts : allNfts,
+                superUserData : superUser
+            });
+        }else{
+            throw new Error(`something went wrong`)
+        }
+    }catch (error) {
+        res.status(400).json({error : error.message})
+    }
+}
+
+//Create only 100 nfts for testing purposes
+const postQuantityToDB = async (req, res) => {
+    try {
+        const { nftQuantity } = req.params
+        if(nftQuantity > 1600){
+            throw new Error("Number should be equal or less than 1600");
+        }
+        console.log("Starting database injection of " + nftQuantity + " nfts... " + new Date().toString())
+        const [superUser, allCollections, allNfts] = await generateEverythingByChoice(parseInt(nftQuantity));
+        console.log(superUser.name)
+        console.log(allCollections.length)
+        console.log(allNfts.length)
+        if(allCollections.length > 0 && allNfts.length > 0 && superUser){
+            console.log("Everything on database: " + new Date().toString())
             return res.status(200).json({
                 success: "todos los datos creados correctamente",
                 collections : allCollections,
@@ -47,6 +75,29 @@ const getEverythingFromDB = async (req, res) => {
     }
 }
 
+//Generate only one hundred nfts.
+const generateEverythingByChoice = async (nftQuantity) => {
+    try {
+        const response = [];
+
+        const superUser = await createSuperUser();
+
+        response.push(superUser);
+
+        const allCollections = await createAllInitialCollections();
+        response.push(allCollections);
+
+        const hundredNfts = await createNftQuantityByChoice(nftQuantity);
+
+        response.push(hundredNfts);
+
+        return response;
+    }catch(error) {
+        throw new Error(error.message);
+    }
+}
+
+//Generate all nfts and all collections
 const generateEverything = async () => {
     try {
         const response = [];
@@ -70,5 +121,6 @@ const generateEverything = async () => {
 
 module.exports = {
     postEverythingToDB,
-    getEverythingFromDB
+    getEverythingFromDB,
+    postQuantityToDB
 }
