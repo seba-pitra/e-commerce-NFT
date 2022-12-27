@@ -66,7 +66,7 @@ const updateUser = async (req, res) => {
 const getUserById = async (req, res) => {
   try {
     const { id } = req.params;
-    const foundUser = User.findByPk(id, {
+    const foundUser = await User.findByPk(id, {
       include : {
         model : Nft,
         model : Collection,

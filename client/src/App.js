@@ -99,8 +99,13 @@ function App() {
           />
           <Route
             exact
-            path="/user/:id"
+            path="/user"
             render={() => <UserProfile loggedIn={loggedIn} />}
+          />
+          <Route
+            exact
+            path="/user/:id"
+            render={({match}) => <UserProfile match={match} loggedIn={loggedIn} />}
           />
 
           <Route
