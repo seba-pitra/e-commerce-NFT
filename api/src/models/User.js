@@ -6,7 +6,7 @@ module.exports = (sequelize) => {
     {
       id: {
         type: DataTypes.STRING,
-        // defaultValue: DataTypes.UUIDV4,
+        defaultValue: DataTypes.UUID,
         primaryKey: true,
         unique: true,
         allowNull: false,
@@ -21,6 +21,7 @@ module.exports = (sequelize) => {
       },
       age: {
         type: DataTypes.INTEGER,
+        allowNull: true,
       },
       email: {
         type: DataTypes.STRING,
@@ -46,7 +47,8 @@ module.exports = (sequelize) => {
         unique: true,
       },
       profile_pic: {
-        type : DataTypes.TEXT
+        type : DataTypes.TEXT,
+        allowNull: true,
       }
     },
     {

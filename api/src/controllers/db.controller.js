@@ -8,9 +8,6 @@ const { Nft, Collection, Buy, User } = require("../db");
 const postEverythingToDB = async (req, res) => {
     try {
         const [superUser, allCollections, allNfts] = await generateEverything();
-        console.log(superUser)
-        console.log(allCollections.length)
-        console.log(allNfts.length)
         if(allCollections.length > 0 && allNfts.length > 0 && superUser){
             return res.status(200).json({
                 success: "todos los datos creados correctamente",

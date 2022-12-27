@@ -1,4 +1,4 @@
-const { reauthenticateWithCredential } = require("firebase/auth");
+// const { reauthenticateWithCredential } = require("firebase/auth");
 const { Collection, Nft, User } = require("../db");
 const { collections } = require("../jsondata/collections.json")
 
@@ -149,7 +149,7 @@ const createAllInitialCollections = async () => {
       }
     })
     if(response.length === 0){
-      for(const collection of collections){
+      for (const collection of collections){
         let collectionToDB = {
           id: collection.id,
           name: collection.name || "No name",

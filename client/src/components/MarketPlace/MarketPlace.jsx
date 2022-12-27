@@ -41,6 +41,7 @@ function MarketPlace({ loggedIn }) {
   }, [loggedIn]);
 
   const validateUser = async () => {
+    console.log(auth.currentUser)
     if (loggedIn) {
       dispatch(actions.getAllNfts());
       dispatch(actions.getAllCollections());

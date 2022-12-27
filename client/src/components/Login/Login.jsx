@@ -7,7 +7,7 @@ import {
 import { useHistory } from "react-router-dom";
 import GoogleIcon from "@mui/icons-material/Google";
 import { auth, loginGoogle } from "../../firebase.js";
-import { signInWithEmailAndPassword } from "firebase/auth";
+import { signInWithEmailAndPassword, signOut } from "firebase/auth";
 import "./Login.css";
 
 // sendPasswordResetEmail
@@ -23,12 +23,12 @@ const Login = ({ loggedIn }) => {
 
   const [error, setError] = useState("");
 
-  const [logged, setLogged] = useState(null);
+  // const [logged, setLogged] = useState(null);
 
-  useEffect(() => {
-    // console.log(logged)
-    isLogged();
-  }, []);
+  // useEffect(() => {
+  //   // console.log(logged)
+  //   isLogged();
+  // }, []);
 
   const dispatch = useDispatch();
 
@@ -41,17 +41,32 @@ const Login = ({ loggedIn }) => {
 
   const signGoogle = async () => {
     await loginGoogle();
+    dispatch(gettingActiveUserToState(auth.currentUser.email));
+    loadLocalStorage(auth.currentUser.email);
+    let fullName = auth.currentUser.displayName;
+    let user = {
+      id: auth.currentUser.uid,
+      email: auth.currentUser.email,
+      name: fullName.split(" ")[0],
+      last_name: fullName.split(" ")[1],
+      profile_pic: auth.currentUser.photoURL,
+    };
+    fetch("http://localhost:3001/user", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(user),
+        });
     history.push("/marketplace");
   };
 
-  const isLogged = async () => {
-    console.log(loggedIn);
-    if (loggedIn) {
-      setLogged(true);
-    } else {
-      setLogged(false);
-    }
-  };
+  // const isLogged = async () => {
+  //   console.log(loggedIn);
+  //   if (loggedIn) {
+  //     setLogged(true);
+  //   } else {
+  //     setLogged(false);
+  //   }
+  // };
 
   const logginFunction = async (params) => {
     try {
@@ -61,8 +76,9 @@ const Login = ({ loggedIn }) => {
         params.password
       );
 
-      if (loggedUser) {
-        console.log(auth.currentUser);
+      if (auth.currentUser.emailVerified && loggedUser) {
+        // dispatch(gettingActiveUserToState(auth.currentUser.email));
+        // loadLocalStorage(auth.currentUser.email);
         fetch("http://localhost:3001/payment/userEmail", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -70,6 +86,10 @@ const Login = ({ loggedIn }) => {
         });
         setError("");
         history.push("/marketplace");
+      }
+      else {
+        setError("Email not verified");
+        await signOut(auth);
       }
     } catch (error) {
       console.log(error.message);
@@ -82,8 +102,8 @@ const Login = ({ loggedIn }) => {
     }
   };
 
-  function loadLocalStorage() {
-    let localCart = JSON.parse(localStorage.getItem(logginForm.email));
+  function loadLocalStorage(email) {
+    let localCart = JSON.parse(localStorage.getItem(email));
     if (localCart) {
       dispatch(injectLocalStorageCart(localCart));
     }
@@ -92,7 +112,7 @@ const Login = ({ loggedIn }) => {
   const handdleSubmit = (e) => {
     e.preventDefault();
     dispatch(gettingActiveUserToState(logginForm.email));
-    loadLocalStorage();
+    loadLocalStorage(logginForm.email);
     logginFunction(logginForm);
     setLogginForm({
       email: "",
@@ -100,7 +120,7 @@ const Login = ({ loggedIn }) => {
     });
   };
 
-  if (logged)
+  if (loggedIn)
     return (
       <div className="login-loggedmessage">
         <p>You've been logged</p>
