@@ -5,6 +5,7 @@
     align-items: center;
     height: 30px;
     border-radius: 5px;
+    background-color: #e0e0e0;
     margin: 10px 0;
 }
 .user-dash-card p{
@@ -12,7 +13,6 @@
 }
 .user-dash-id{
     width: 260px;
-    background-color: aqua;
     margin: 0 5px;
 }
 .user-dash-last_name,

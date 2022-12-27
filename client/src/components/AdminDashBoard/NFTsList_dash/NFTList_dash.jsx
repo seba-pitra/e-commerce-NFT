@@ -73,7 +73,23 @@ const NFTList_dash = ({ users, nfts }) => {
       </div>
       {/* Conditional Div (nft/user) */}
       {users ? (
-        <div>Holi Soy Users</div>
+        <div className="dash-nfts-titles">
+          <div className="dash-users-IdTitle">
+            <p>id</p>
+          </div>
+          <div className="dash-users-NameTitle">
+            <p>Name</p>
+          </div>
+          <div className="dash-users-Last_NameTitle">
+            <p>Last Name</p>
+          </div>
+          <div className="dash-users-EmailTitle">
+            <p>email</p>
+          </div>
+          <div className="dash-users-DNITitle">
+            <p>DNI</p>
+          </div>
+        </div>
       ) : (
         <div className="dash-nfts-titles">
           <div className="dash-nfts-idTitle">
@@ -94,7 +110,7 @@ const NFTList_dash = ({ users, nfts }) => {
       {/* Conditional Div (nft/user) */}
       {/* Conditional Div (nft/user) */}
       {users ? (
-        <div>
+        <div className="dash-nfts-list">
           {displayNFTs.map((user) => (
             <UserCard_dash
               id={user.id}

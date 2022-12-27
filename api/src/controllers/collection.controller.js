@@ -1,6 +1,3 @@
-const { Collection, Nft } = require("../db");
-const { collections } = require("../jsondata/collections.json");
-const { reauthenticateWithCredential } = require("firebase/auth");
 const { Collection, Nft, User } = require("../db");
 const { collections } = require("../jsondata/collections.json");
 

@@ -8,6 +8,7 @@ const createUser = async (req, res) => {
     const newUser = await User.create(userData);
     res.status(200).json(newUser);
   } catch (err) {
+    console.log(err.message);
     res.status(404).json({ error: err.message });
   }
 };
@@ -67,14 +68,11 @@ const getUserById = async (req, res) => {
 
 const deleteUser = async (req, res) => {
   try {
+    console.log("Delete user id ", req.params.id);
     const { id } = req.params;
-    const deletedUser = await User.findByPk({
-      where: {
-        id: id,
-      },
-    });
+    const deletedUser = await User.findByPk(id);
     if (deletedUser) {
-      await Nft.destroy({
+      await User.destroy({
         where: {
           id: id,
         },
@@ -84,6 +82,7 @@ const deleteUser = async (req, res) => {
       throw new Error(`no NFT found with id: ${id}`);
     }
   } catch (err) {
+    console.log(err.message);
     return res.status(400).json({ error: err.message });
   }
 };

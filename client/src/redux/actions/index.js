@@ -108,6 +108,7 @@ export const getAllUsers = () => {
       console.log(allUsers.data);
       dispatch({ type: GET_ALL_USERS, payload: allUsers.data });
     } catch (e) {
+      console.log(e.message);
       alert("There was a connection error, please try again later user");
     }
   };
