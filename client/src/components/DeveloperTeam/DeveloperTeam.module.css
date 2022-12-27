@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Iceland";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Iceland"), local("Iceland-Regular"),
+    url(http://themes.googleusercontent.com/static/fonts/iceland/v3/F6LYTZLHrG9BNYXRjU7RSw.woff)
+      format("woff");
+}
+
+.about-us {
+  background-color: #1c2331;
+  font-family: Iceland;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.about-us-container {
+  width: 70em;
+}
+.about-us-card-accordion {
+  display: flex;
+}
+.about-us-img {
+  border-radius: 20px;
+  height: 25em;
+  margin-right: 20px;
+}
+.about-accordion-description {
+  font-size: 20px;
+}

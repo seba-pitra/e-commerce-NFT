@@ -4,11 +4,6 @@ const fs = require("fs");
 const path = require("path");
 const { DB_USER, DB_PASSWORD, DB_HOST, DB_DEPLOY, DB_DEPLOY2 } = process.env;
 
-// const sequelize = new Sequelize(`postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}:5432/ecommercenfts`, {
-//   logging: false, // set to console.log to see the raw SQL queries
-//   native: false, // lets Sequelize know we can use pg-native for ~30% more speed
-// });
-
 const sequelize = new Sequelize(DB_DEPLOY, {
   logging: false, // set to console.log to see the raw SQL queries
   native: false, // lets Sequelize know we can use pg-native for ~30% more speed
@@ -40,13 +35,19 @@ sequelize.models = Object.fromEntries(capsEntries);
 
 // En sequelize.models están todos los modelos importados como propiedades
 // Para relacionarlos hacemos un destructuring
-const { User, Nft, Collection } = sequelize.models;
+const { User, Nft, Collection, Buy } = sequelize.models;
 
 User.hasMany(Nft);
 Nft.belongsTo(User);
 
+User.hasMany(Collection);
+Collection.belongsTo(User);
+
 Nft.belongsTo(Collection);
 Collection.hasMany(Nft);
+
+User.hasMany(Buy);
+Buy.belongsTo(User);
 
 module.exports = {
   ...sequelize.models, // para poder importar los modelos así: const { Product, User } = require('./db.js');

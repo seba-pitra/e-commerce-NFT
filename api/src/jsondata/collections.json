@@ -1,0 +1,196 @@
+{
+    "collections": [
+        {
+            "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+            "name": "AngryCat - official",
+            "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+            "slug": "angrycat-official"
+        },
+        {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+        },
+        {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+        },
+        {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+        },
+        {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+        },
+        {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+        },
+        {
+        "id": "0x1a92f7381b9f03921564a437210bb9396471050c",
+        "name": "Cool Cats NFT",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ac69f84c3e344979d401b066fbd65075972085e71bd967382d82eb143aa29a09d973c75b036a6e2a3bb2aad1ac4063a971f52ac8108d3f3e3a30dd66cf186dd97e1258bdc337f49a2fdc6e2edf4a2cb2fe3e5a86dccbb196bfb7b60037f4b772b6b1a15dd2ceabcf5fb2b065c6107bd6fe1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "cool-cats-nft"
+        },
+        {
+        "id": "0xbd5fb504d4482ef4366dfa0c0edfb85ed50a9bbb",
+        "name": "Corntown wtf",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a93430df712973fdcf516efca276a28736907f5e2ceb4cfcc6e783d4589f8de847d8bd839ed59d82e49526db5dadacf26ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "corntownofficial"
+        },
+        {
+        "id": "0xfe8c6d19365453d26af321d0e8c910428c23873f",
+        "name": "Creepz by OVERLORD",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4ed63757bd4c21f54d3c9178f30f2c641f8262f503e70d44105aa248113dd09ffe3c9b022ea6dc7e6155f41a4ef63416ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genesis-creepz"
+        },
+        {
+        "id": "0x1a2f71468f656e97c2f86541e57189f59951efe7",
+        "name": "CryptoMories",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a2490e5f5f220778dd8ce028ee03b55ef9a31bd18c7c6896d5c25a538180007dfd5115aa90a6b700c2aa6a698501d26fa282d82f80ca2d773002b179c3e9586fb6ae0eb3df71a4518d3812426c0b6d72a42828de9a1159042f9df52387b2cea0a99b1269ffaa6110d1954612f0b5ae783058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "cryptomories"
+        },
+        {
+        "id": "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
+        "name": "CryptoPunks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1a4a0b4a39ab04b646bf006827af0929a777e4ae02b4fa3341d5847437ec6c95b780286950562004e1ea5e7f4a6716ddc0fdfedcfe2d1c387cf166e6375a5f01d5b5160c4ca13188e42167a8d4461cc76f500f6f307553a5e84f2a9f09b186f842a1771aa3e1ed870695a9b1b4ab8bc0e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "cryptopunks"
+        },
+        {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+        },
+        {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae253604b994a28a8423144ec6fa14ae170f3067a585e9eab62f31ff1f614a7f7735cebcd1ecec0e07070c278c469a879ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+        },
+        {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+        },
+        {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+        },
+        {
+        "id": "0x524cab2ec69124574082676e6f654a18df49a048",
+        "name": "Lil Pudgys",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ad00e16fa320d9bbc68eb0fe0f1a7c9c577e3e8f5d7e471b36ecb01aef793d2ccacaa5a6a6e8fab517dfa6f25e13866501ffd30bafc3ffec05d17115f88866bd0928468ab072f33bc9e1f4741f94c7b070a76b7d758d3fdac7bfe3705045837baf77cb95ab9a4bd6d1a9a6e5cf4c0726223c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "lilpudgys"
+        },
+        {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+        },
+        {
+        "id": "0x4b3406a41399c7fd2ba65cbc93697ad9e7ea61e5",
+        "name": "LOSTPOETS",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a627b25dc50ff421629c3ee316dbb587185d2fd73f3dc33e76b0ea4d95973668ca860821a8da957f23e46c19af094aeab4271d0db62be487a515fc06d68af2d23aafffd035de78477a692be20012649fd674e3a13c792d6b168db64acd11812ff40651c1819eac21a5f2a5f97faaee1de23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "lostpoets"
+        },
+        {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+        },
+        {
+        "id": "0x23581767a106ae21c074b2276d25e5c3e136a68b",
+        "name": "Moonbirds",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75afd2453db10ed50e9b73fd05665bc30a36c2eb9587eeb8d2502da2126aed43c11a0728ecf7489095022e52a29b278734dfd2838640733cd02842339b5f64d047bdf30acbe563444e5f1e68084758a00550560b7b733f9d19973e57111fe6304fd528269adf03a7fb1229776ad447124c5058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "proof-moonbirds"
+        },
+        {
+        "id": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+        "name": "Mutant Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75add5f47e04b38afadae642f273a0e37a608bbf1e23918d071719d2575201a4ba471d208a841cc7be27238ee19d228ef9271e34cc8f24a46c583c154c71df043228d781a2f5402cd108e96956e9ab029c8fa81a7b290da3f11e52558afbc546482bd501fff65d912d2fa0686ee8650bc94e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mutant-ape-yacht-club"
+        },
+        {
+        "id": "0x09233d553058c2f42ba751c87816a8e9fae7ef10",
+        "name": "My Pet Hooligan",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab75ea521e56b725f6354a77f477a3577a6b742d4319547f1f0b158eb1314308596276f4a31265f9e04ce9b5f6965361db3cbd2eeab17695082fbf5d84540b84340b29639481234eb667bfb13d03fb761bac2229c3ad78b1c9907775e4b5031fdb1af3bc13009630636f6e4da62323c9423c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "mypethooligan"
+        },
+        {
+        "id": "0x67d9417c9c3c250f61a83c7e8658dac487b56b09",
+        "name": "PhantaBear",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072ffd65d6d99df169386561ca96d87ef293e30f2a36a96c271c21d2f3a292e02a78988c0d3daec54351ea6244b0da02a583223459f8068eaa38a1805faa47f79ab8e71519b8585aca05d382d9479b025d9d8202f72335b68a32d4e57c45b2340dc44fbbd7e1db1490d4746023a6521f23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "phantabear"
+        },
+        {
+        "id": "0x6632a9d63e142f17a668064d41a21193b49b41a0",
+        "name": "Prime Ape Planet PAP",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9210bc495669eca2e32bc0736dd7e7bf35c21be848af769ef3d2f0877baaeb9ce18f88f69e84caba68ebf1194793e85ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "primeapeplanetpap"
+        },
+        {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+        },
+        {
+        "id": "0x394e3d3044fc89fcdd966d3cb35ac0b32b0cda91",
+        "name": "RENGA",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a8c7f5b630b45a6b2e7bc8dc938f588bd33251d8319b363fd7775e478ae8f41051b8cc6f1c4cbe7d299731e49af41597cd21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "renga"
+        },
+        {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+        },
+        {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+        },
+        {
+        "id": "0xdfe3ac769b2d8e382cb86143e0b0b497e1ed5447",
+        "name": "THE PLUTO ALLIANCE",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ac178f2ed1726ad1a12253a2b00db3bbe35dbe9461a24dc11dcd2313678fceb7de8bae3a90474e08cc9bcddb4182bf1932cf3b09a56776ea26cef3a1079b66298225432900a791ccd1ffeda07080d257227f884f2387fe6f92514b0b222153da4c570045772e111b4f41b9a9f705797a5e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "theplutoalliance"
+        },
+        {
+        "id": "0x282a7d13152b3f51a3e31d46a2ca563f8554d85d",
+        "name": "Toxic Skulls Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a040acbdf756bb1bb956b6c88e1ee6fb6e21f6bf56008572434a7b68a74a01659e89df759f10ef892c2cb5e9c49d8adacf815f3c1927445714bb5badf0235cc7da1c6c55a671fa7de69bc52ad9b988b3ab2f9557ffdc468aec1f30a21db5bbe5f6e5157133e0c6a96b8195fe2359201ede1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "toxic-skulls-club"
+        },
+        {
+        "id": "0xf61f24c2d93bf2de187546b14425bf631f28d6dc",
+        "name": "World of Women Galaxy",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab23a351be0432796b75a957bf17ded856c19ff0ef866f8e34ff5beb25d406dca6aefb5eedefbd0cd7c75edab2e7a8206648c50ac30da3c0d92eedddf1ca3e2004fb69c05d54d1717aca7fb5f22c4c04404401dbd1c8ba8cbfb5c7fa2c037c7d2a84776981c875ac31f4b5d847b0549a3058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "world-of-women-galaxy"
+        },
+        {
+            "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+            "name": "YuGiYn",
+            "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+            "slug": "yugiyn-official"
+        }
+    ]
+}

@@ -5,14 +5,11 @@ module.exports = (sequelize) => {
     "user",
     {
       id: {
-        type: DataTypes.UUID,
-        defaultValue: DataTypes.UUIDV4,
+        type: DataTypes.STRING,
+        defaultValue: DataTypes.UUID,
         primaryKey: true,
         unique: true,
         allowNull: false,
-        validate: {
-          isUUID: 4,
-        },
       },
       name: {
         type: DataTypes.STRING,
@@ -24,41 +21,39 @@ module.exports = (sequelize) => {
       },
       age: {
         type: DataTypes.INTEGER,
-        allowNull: false,
+        allowNull: true,
       },
       email: {
         type: DataTypes.STRING,
         allowNull: false,
         unique: true,
       },
-      available: {
-        type: DataTypes.BOOLEAN,
-        allowNull: false,
-        validate: {
-          isIn: [[true, false]],
-        },
-      },
       type: {
         type: DataTypes.STRING,
         defaultValue: "Basic",
         validate: {
           customValidator: (value) => {
-            const enums = ["Admin", "Medium"];
+            const enums = ["Admin", "Verified", "Basic"];
             if (!enums.includes(value)) {
               throw new Error("not a valid option");
             }
           },
         },
-        allowNull: false,
+        allowNull: true,
       },
       dni: {
         type: DataTypes.INTEGER,
-        allowNull: false,
+        allowNull: true,
         unique: true,
       },
+      profile_pic: {
+        type : DataTypes.TEXT,
+        allowNull: true,
+      }
     },
     {
-      timestamps: false,
+      timestamps: true,
+      paranoid: true,
     }
   );
 };

@@ -1,0 +1,10 @@
+{
+    "superUser" : {
+        "id" : "BbSKyKizFvWGpSqkBqCM2ardrkm1",
+        "name" : "Skynet",
+        "last_name" : "S.R.L",
+        "email": "skynet@nft.com",
+        "type": "Admin",
+        "profile_pic": "https://www.choisirunfilm.fr/characters/medium/16359.jpg"
+    }
+}

@@ -1,0 +1,3052 @@
+[
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "5219",
+      "name": "BROADSIDE #5219 - Goody",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a24ec47bd0c311d07ca39cbdd13d3eb0409003ac8cf4d0d7c30d65ec0ce63d956031abab5548271eaf108a8fe96ec5d41ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": true,
+      "lastFlagUpdate": "2022-12-18T06:03:29.412Z",
+      "lastFlagChange": "2022-12-18T06:03:28.332Z",
+      "rarity": 7738.573,
+      "rarityRank": 4802,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": 0.0426,
+        "timestamp": 1671307223
+      },
+      "lastSell": {
+        "value": 0.01333,
+        "timestamp": 1671307223
+      },
+      "owner": "0xea27c344487b6fb780e33d40b636fe3d0103a15e"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x3023281d7e53e3b1bc742ca41dea9ff545ef6ddcef92c61b608155735c9b890c",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "51200000000000000",
+            "decimal": 0.0512,
+            "usd": 60.76303,
+            "native": 0.0512
+          }
+        },
+        "maker": "0xea27c344487b6fb780e33d40b636fe3d0103a15e",
+        "validFrom": 1671343405,
+        "validUntil": 1671948130,
+        "source": {
+          "id": "0xdc28ffaea1f91a88fb6fd0a8fe70d71bdd64284c",
+          "domain": "x2y2.io",
+          "name": "X2Y2",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/x2y2-logo.png",
+          "url": "https://x2y2.io/eth/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/5219"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "2668",
+      "name": "BROADSIDE #2668 - Meltz",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1b4314656629da95040de48cdc6ce7dcc8433311e89c67ccbeaf84887f16704af0cbcb07ed1ddb267cb63ab997d4f90aea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T14:30:53.382Z",
+      "lastFlagChange": null,
+      "rarity": 5503.501,
+      "rarityRank": 6472,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": 0.03931,
+        "timestamp": 1671521591
+      },
+      "lastSell": {
+        "value": 0.156,
+        "timestamp": 1668981971
+      },
+      "owner": "0x4c3df5ebfbb70e31b51e57dfad5696ac22d532e4"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x2a3be1ba8a6075081c81b308574f34fd6218bc3f6b2e3794dc6b56011a7d3898",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "51540000000000000",
+            "decimal": 0.05154,
+            "usd": 61.16653,
+            "native": 0.05154
+          }
+        },
+        "maker": "0x4c3df5ebfbb70e31b51e57dfad5696ac22d532e4",
+        "validFrom": 1671546220,
+        "validUntil": 1671549820,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/2668"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "4630",
+      "name": "BROADSIDE #4630 - Oni",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aac16eae20383a495b3ae5fff8e2863b9e3d8078c96da0f068f89c4fd25d7d6a3374886c42fc88692ff5c816e7d33b473654719da8324a2f71de85ef61866558dcd2ffdb6ecd0a35e8c36f5f28131141b6756ca6a3588358404f57ed521d8ae268d2c249d4e8fb1899920b5aa28524128058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-02T03:44:27.660Z",
+      "lastFlagChange": null,
+      "rarity": 6653.639,
+      "rarityRank": 5528,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": 0.03901,
+        "timestamp": 1671541223
+      },
+      "lastSell": {
+        "value": 0.1098,
+        "timestamp": 1669071935
+      },
+      "owner": "0x4c3df5ebfbb70e31b51e57dfad5696ac22d532e4"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xa0052de106d0d3bdb4c7b6d868d0c4356f5912567bb309d76916de010be9d8bf",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "51540000000000000",
+            "decimal": 0.05154,
+            "usd": 61.16653,
+            "native": 0.05154
+          }
+        },
+        "maker": "0x4c3df5ebfbb70e31b51e57dfad5696ac22d532e4",
+        "validFrom": 1671548292,
+        "validUntil": 1671551892,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/4630"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "6488",
+      "name": "BROADSIDE #6488 - Cavezy",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ac08f43c1965f2caeb0fb5017fc5aa88f41b7867189d51761a138ee3f92716052f0bf9ab0d69471bda1e348fa8e9631b9ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T10:33:24.142Z",
+      "lastFlagChange": null,
+      "rarity": 6020.196,
+      "rarityRank": 6004,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": 0.0321,
+        "timestamp": 1671484079
+      },
+      "lastSell": {
+        "value": 0.105,
+        "timestamp": 1668784787
+      },
+      "owner": "0xbdaa4fb29a4ef897c417b0a176dfb8c651c9d32d"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x31f6c08247ddbb637097a312d1ddf16ee2d977170776c5713c3dfc2afe472ec7",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "51644444440000000",
+            "decimal": 0.05164,
+            "usd": 61.29049,
+            "native": 0.05164
+          }
+        },
+        "maker": "0xbdaa4fb29a4ef897c417b0a176dfb8c651c9d32d",
+        "validFrom": 1671532162,
+        "validUntil": 1674194739,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/6488"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "6462",
+      "name": "BROADSIDE #6462 - Mana",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aa2614d5e5ea07453c2fb36536d5afd0cee37d2b6abf38009efb93ddf71bbb8b86db45f5e4aaefa780114edf1316dba5eae662c63d25b558d41a2dd4f1542fdaae7a5eea7774d1274734b74b22f6d25674e2d5865eb33785970e36e9d94f64ad974f58ef10e0becc59d1da107033e364523c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-02T04:28:47.918Z",
+      "lastFlagChange": null,
+      "rarity": 10163.124,
+      "rarityRank": 2719,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": 0.0361,
+        "timestamp": 1671467963
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xabb7cde562ece9c4fa5b5e6e71a32500da25ac27"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x2398af9f1fe51f95b000e572e448c7260fccda134a01d34cb48c87f15a7bb47f",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "51800000000000000",
+            "decimal": 0.0518,
+            "usd": 61.4751,
+            "native": 0.0518
+          }
+        },
+        "maker": "0xabb7cde562ece9c4fa5b5e6e71a32500da25ac27",
+        "validFrom": 1671525025,
+        "validUntil": 1674203425,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/6462"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "2483",
+      "name": "BROADSIDE #2483 - Samba",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aa52dcb38391a38cedf5c440f86ca7686b7571b3a4081898658155589b2b0e2ada7ae3c83fd87ca514ed63d8aadb53295ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T23:26:28.895Z",
+      "lastFlagChange": null,
+      "rarity": 6895.856,
+      "rarityRank": 5362,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": 0.037,
+        "timestamp": 1671471683
+      },
+      "lastSell": {
+        "value": 0.141,
+        "timestamp": 1669005719
+      },
+      "owner": "0x13a4318f5fa1f4ec1d5efe180b8c70389626f5cc"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x30aed3a2b4dbdcf248048c41b9540c6ecb093f9a1003ffd505496e470c96105b",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "52000000000000000",
+            "decimal": 0.052,
+            "usd": 61.71245,
+            "native": 0.052
+          }
+        },
+        "maker": "0x13a4318f5fa1f4ec1d5efe180b8c70389626f5cc",
+        "validFrom": 1671492231,
+        "validUntil": 1672086194,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/2483"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "2891",
+      "name": "BROADSIDE #2891 - Asad",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a988dcab173e734b8ec2b546d0ee457d2f7790ff245866fd5b4129841603992ffa85c223868baeb6c63951c2e6b64b9c0ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T23:22:57.758Z",
+      "lastFlagChange": null,
+      "rarity": 4262.551,
+      "rarityRank": 7219,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x7c748a0b4eae895c54bd7859586d357528dc2312"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x9dde23a1901685069fd537069cb68c8f27c1d9268c0ab00825696950d0463f93",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "52000000000000000",
+            "decimal": 0.052,
+            "usd": 61.71245,
+            "native": 0.052
+          }
+        },
+        "maker": "0x7c748a0b4eae895c54bd7859586d357528dc2312",
+        "validFrom": 1671492020,
+        "validUntil": 1674170420,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/2891"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "2932",
+      "name": "BROADSIDE #2932 - Alon",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aa66eb76df0f8795b26a1872db003f4f738e49c693e266c6bc8f191df60b5370e753b978ed0ef4d5929b39ef306d50cc31a790b2ae1d57c4fba1ed5ab03d8200a5d6fc8726a6bcf62c82ec603e2651599be0ffc681afd8fe396419ec2fd79d4128263ce997e3ddaeffec0189d8eaf064c23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-02T03:11:22.339Z",
+      "lastFlagChange": null,
+      "rarity": 5871.946,
+      "rarityRank": 6141,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x7c748a0b4eae895c54bd7859586d357528dc2312"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xc4fa71810991ccc1360e4977e80b3c889335f38b5fd9ac87e8ae16681803f48f",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "52000000000000000",
+            "decimal": 0.052,
+            "usd": 61.71245,
+            "native": 0.052
+          }
+        },
+        "maker": "0x7c748a0b4eae895c54bd7859586d357528dc2312",
+        "validFrom": 1671492102,
+        "validUntil": 1674170502,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/2932"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "7129",
+      "name": "BROADSIDE #7129 - Bully",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a2623f4f97bd7a0b719e838b8b059fd357c47f977ed447753f36eb4e70553d3fde3fe7a11c74e120d4b879eb36f077898ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T21:47:41.711Z",
+      "lastFlagChange": null,
+      "rarity": 4795.891,
+      "rarityRank": 7010,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.0919,
+        "timestamp": 1668683435
+      },
+      "owner": "0x3ba74c579e12b9e25b8c55dbf63c22b0e8d86d1e"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x67c348f04d781f7be18cfd96c7f19b3c8aa6be2a0644e352b1071de96f785580",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "52000000000000000",
+            "decimal": 0.052,
+            "usd": 61.71245,
+            "native": 0.052
+          }
+        },
+        "maker": "0x3ba74c579e12b9e25b8c55dbf63c22b0e8d86d1e",
+        "validFrom": 1671486323,
+        "validUntil": 1672939675,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/7129"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "3692",
+      "name": "BROADSIDE #3692 - Peaches",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ad743fa6446f497fd561dd098c6605fc7167250e8af3704e0920fb42750cac884ace65cac409d70b9504c37b907eaf7c9eedc0c25c595e90afa6cea1f3118d7f4dcbe804b8462165a97a032548397f4763cb798f48197c058361f0614341b6e1ee3f0908f0398e75374ef1eff86001ca423c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": true,
+      "lastFlagUpdate": "2022-12-02T03:30:33.917Z",
+      "lastFlagChange": null,
+      "rarity": 7634.466,
+      "rarityRank": 4882,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.171,
+        "timestamp": 1668983423
+      },
+      "owner": "0x184e1642e3afcd1f4fdcc584cc70f969fae3e3e1"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x2dd94edce194395ea081a8f5fd8b5eefbeb3ce4aed14d2b6457acfe65710f268",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "55000000000000000",
+            "decimal": 0.055,
+            "usd": 65.27278,
+            "native": 0.055
+          }
+        },
+        "maker": "0x184e1642e3afcd1f4fdcc584cc70f969fae3e3e1",
+        "validFrom": 1670948627,
+        "validUntil": 1671553385,
+        "source": {
+          "id": "0xdc28ffaea1f91a88fb6fd0a8fe70d71bdd64284c",
+          "domain": "x2y2.io",
+          "name": "X2Y2",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/x2y2-logo.png",
+          "url": "https://x2y2.io/eth/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/3692"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "5566",
+      "name": "BROADSIDE #5566 - Kira",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a92ace2fc8a41a21f9afd8a7f2dadbabf26e285a2f9152b05c956ae39d205c35c0ea43d31cc832e072563b55f12ce585751c6052af0b30f4c4e4a0054903dcdb89c80cfef0b5bd30092229478d89ad8f99476fec1471d0ff8aee62a6c54fd15d09e4976a35c6ba4ca08569ff1f847742523c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-02T04:04:10.503Z",
+      "lastFlagChange": null,
+      "rarity": 4333.572,
+      "rarityRank": 7203,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": 0.0363,
+        "timestamp": 1671472547
+      },
+      "lastSell": {
+        "value": 0.086,
+        "timestamp": 1669494155
+      },
+      "owner": "0xa14368e5a732611adc565f3cad488f30d0023166"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x6e2726a47ed1269543bedf328f0c5cd91bcb0d4fbbfb85c23b7f01cc8f866b79",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "59000000000000000",
+            "decimal": 0.059,
+            "usd": 70.0199,
+            "native": 0.059
+          }
+        },
+        "maker": "0xa14368e5a732611adc565f3cad488f30d0023166",
+        "validFrom": 1671503621,
+        "validUntil": 1674180041,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/5566"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "4480",
+      "name": "BROADSIDE #4480 - Regan",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4e3d191bf08d96850ef3175ea96e820c16d0552554734e19910e7642cb094302219028bab7b18e380f7cf39c16682cab1b8b754d2333b1a16c029ad9e052dd48c45eb9150737b6e707d774370eed334fe6aec168d6bc686056494019e796abd56777e4f7939a5514d922e88c27661f8223c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-02T03:42:20.381Z",
+      "lastFlagChange": null,
+      "rarity": 11120.657,
+      "rarityRank": 2004,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.12,
+        "timestamp": 1668712115
+      },
+      "owner": "0x11568cca0a242544a1340dd20973ef762899ac8e"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xe4d6b4a4fd0fd6c224b6281a62550abb2ae2c017cb86f8f51d2617a4e0204aad",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "65000000000000000",
+            "decimal": 0.065,
+            "usd": 77.14056,
+            "native": 0.065
+          }
+        },
+        "maker": "0x11568cca0a242544a1340dd20973ef762899ac8e",
+        "validFrom": 1671539772,
+        "validUntil": 1674199573,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/4480"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "5288",
+      "name": "BROADSIDE #5288 - Top",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ad8dfdedc62dbdff83a6a78cf4372d2405708623f4683e1b0e1867048c517d3b89b6ede28cd4de273e73886a5fe4612b6076a74464a9e1b627bf64c0bfc984bd55342b31750c5cb71ca6cfa65fd186c9709e088d5ca4a44648b7dbcb67aba366dff896511c9ce54440208bf543bf0db8323c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-02T03:55:04.253Z",
+      "lastFlagChange": null,
+      "rarity": 5265.946,
+      "rarityRank": 6680,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": 0.04955,
+        "timestamp": 1670957903
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xea27c344487b6fb780e33d40b636fe3d0103a15e"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x80135864556c5dc09ac099361e437b191989db36a66625e44af2c9a2a5b6f05c",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "66600000000000000",
+            "decimal": 0.0666,
+            "usd": 79.03941,
+            "native": 0.0666
+          }
+        },
+        "maker": "0xea27c344487b6fb780e33d40b636fe3d0103a15e",
+        "validFrom": 1671155616,
+        "validUntil": 1671563595,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/5288"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "4886",
+      "name": "BROADSIDE #4886 - Striker",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7535cb00f84e6375e715b884ed905d8e2752e62c1b3633cf9648919d180ee47125da985de709b0af7e3c31cbcea77f8a1537216f4dcbb5a8c31b7bad103c2842ba22c298c5ec702ce087f5e5d758ad9cf2adcb4bf3bc4a9f9c2c5eec69519552579ceaeffe2fdf5cda1383fbd49976c623c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-02T03:49:25.228Z",
+      "lastFlagChange": null,
+      "rarity": 6502.68,
+      "rarityRank": 5630,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": 0.0453,
+        "timestamp": 1671277283
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x1cefd1809ac0c45e983a81be52e0be98fea9f653"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x82233184a2af4a27dc52e1559d3d03dc1f233625cc6bd1f3c73457263fc29d3a",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "67000000000000000",
+            "decimal": 0.067,
+            "usd": 79.51412,
+            "native": 0.067
+          }
+        },
+        "maker": "0x1cefd1809ac0c45e983a81be52e0be98fea9f653",
+        "validFrom": 1671277695,
+        "validUntil": 1686826095,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/4886"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "5613",
+      "name": "BROADSIDE #5613 - Reep",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a6f66a9cf3b2c2e48de538a66da255c07ae867c56c934a360daf3799264d92f69bdc0f17bfd442f791c485a766283dd0b6a90366aebd47e5dd86195e9737fdde94c01531c557b5424c3c0cbd051d77e9b423e9d707a66255c73348fb563ed750597529d263dd1eb10c79f0f53619929a9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-01T19:51:58.759Z",
+      "lastFlagChange": null,
+      "rarity": 6021.923,
+      "rarityRank": 6000,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": 0.0393,
+        "timestamp": 1671525371
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xdf5ce0eb85390170c08c277b5c07c7f0ea435898"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x002c96bcb99e93da08854b415abe282fe33a9bb678baef02c76392d9838b211a",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "67000000000000000",
+            "decimal": 0.067,
+            "usd": 79.51412,
+            "native": 0.067
+          }
+        },
+        "maker": "0xdf5ce0eb85390170c08c277b5c07c7f0ea435898",
+        "validFrom": 1671527071,
+        "validUntil": 1674205471,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/5613"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "1661",
+      "name": "BROADSIDE #1661 - Indigo",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af561148b6f315d8c6727a087d15d419449131ef63b20b3a41a8ae473ee516c3d3b36818f27d0c1c54d17ba90bfb78f22af6d493494ac09176dadd7b18596cb78ca2f5e82115fc6b8a513abd8fa9a7825d88167446d41451863e07c6555d6c6e31ee8e101e6e447ce04ee0edb725df59de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-01T21:29:34.123Z",
+      "lastFlagChange": null,
+      "rarity": 5306.204,
+      "rarityRank": 6650,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xf68cf80593422bb429265478dd2e7775f2c2130e"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xd6996b3bf57da65aa4511232940b5b979f36f77e2d6925fd6fdd664e58658d1a",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "69000000000000000",
+            "decimal": 0.069,
+            "usd": 81.88768,
+            "native": 0.069
+          }
+        },
+        "maker": "0xf68cf80593422bb429265478dd2e7775f2c2130e",
+        "validFrom": 1671486917,
+        "validUntil": 1671837795,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/1661"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "2129",
+      "name": "BROADSIDE #2129 - Lara",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1bbe711d5a6b01cad9f3180dc5622e1da67a1f2188ce1fde82e9ec169b4c57198c778386cf1e4f4bb3a0b7086871499c8b2b94793c29a5b2b2c71a0713406f36adcdffdf90bc355c3b4d9b7db0c8b30b4223e27b95fd94d523c459ef6def70a03606fa54203305ecc69147de045b0a0fe1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-13T17:48:28.498Z",
+      "lastFlagChange": null,
+      "rarity": 6973.783,
+      "rarityRank": 5314,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.05,
+        "timestamp": 1670953691
+      },
+      "owner": "0xc2ff400b37f203e2750081eb10b5b64409bbf31a"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x656b752f5bed4ecb9a1fdf9f2d4288711d63eb5140d49c669b43afb04980ae26",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "69000000000000000",
+            "decimal": 0.069,
+            "usd": 81.88768,
+            "native": 0.069
+          }
+        },
+        "maker": "0xc2ff400b37f203e2750081eb10b5b64409bbf31a",
+        "validFrom": 1670953674,
+        "validUntil": 1671558474,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/2129"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "2587",
+      "name": "BROADSIDE #2587 - Umbra",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a0437d003d5be7d08e0ea4373bea8562dd90909244e813c9d0c0a31d37f299163fd3a7258f14b44b9dc06fa4dba3f388796c6a44594995b8bbeb12094f3eda0a3c19946281b6a5cfda7167fd947c5e45861558ef78727c2556d57f6a25cdab4a372ff51468fb5018073fbbc201d9e3d2f23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-02T02:33:16.862Z",
+      "lastFlagChange": null,
+      "rarity": 8551.174,
+      "rarityRank": 4116,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.12,
+        "timestamp": 1668971459
+      },
+      "owner": "0x8067afb2dc757386c15e60dfe05bf403bda56670"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xcce8e84facae1b2135b6f2d2e4f1d54c9be6cadd4cb623a7e1693fbcf0f481c1",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "69000000000000000",
+            "decimal": 0.069,
+            "usd": 81.88768,
+            "native": 0.069
+          }
+        },
+        "maker": "0x8067afb2dc757386c15e60dfe05bf403bda56670",
+        "validFrom": 1671503429,
+        "validUntil": 1674181829,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/2587"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "4595",
+      "name": "BROADSIDE #4595 - Vincenzo",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a6cf9d5786829146c39130927d2f7a45c89bf5b857c2c57911f667883523f89926ec0a796209238bdf055d514fcd13484b2acbcd604e22fb1b9dd05680a31ffce7f4a735218b5ecf75b262b1531dfd5a7eae394f66e81b9d51f4a73aea17ac69713897b5da52f437d0fa40165446948f2058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-01T19:55:08.987Z",
+      "lastFlagChange": null,
+      "rarity": 6660.923,
+      "rarityRank": 5522,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": 0.1082,
+        "timestamp": 1668742355
+      },
+      "lastSell": {
+        "value": 0.1337,
+        "timestamp": 1668782591
+      },
+      "owner": "0xae218d635728dc1d656cc190f43c7dfc36addab1"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x2afb49c5af92cf47c6510fe04b5761bce1df111cf7a9ff2638e3cc169ce54b55",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "69000000000000000",
+            "decimal": 0.069,
+            "usd": 81.88768,
+            "native": 0.069
+          }
+        },
+        "maker": "0xae218d635728dc1d656cc190f43c7dfc36addab1",
+        "validFrom": 1671132995,
+        "validUntil": 1673811395,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/4595"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "5615",
+      "name": "BROADSIDE #5615 - Zaylin",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a71d8680d4613fe468dfa02ce117974a71da0358d49bbc50dc7092d61230b6b570237e42df710d330a05db5617b12fe00c68aa7f932f0e72d8b831ffb8e10d3915134ae76bf8a4d41439863d84fd84329d2a7587dbd303547d7e664fab83b46894baafd65a8df52a5bc058c275c9108fb23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-01T19:51:59.076Z",
+      "lastFlagChange": null,
+      "rarity": 14121.948,
+      "rarityRank": 986,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": 0.03941,
+        "timestamp": 1671524027
+      },
+      "lastSell": {
+        "value": 0.05164,
+        "timestamp": 1671540815
+      },
+      "owner": "0x474e5ded6b5d078163bfb8f6dba355c3aa5478c8"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xa91ae8731bfcab3d0beb2613ace5db8bc40f6a04f32820312efb7716c8401557",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "69000000000000000",
+            "decimal": 0.069,
+            "usd": 81.88768,
+            "native": 0.069
+          }
+        },
+        "maker": "0x474e5ded6b5d078163bfb8f6dba355c3aa5478c8",
+        "validFrom": 1671540706,
+        "validUntil": 1674219106,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/5615"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "7138",
+      "name": "BROADSIDE #7138 - Haakonian",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a9a2e94949f47eb6cfbb7c42e436363e9971a759d8df4678417cecc5f2dfccf1e0f87d7f7606e5dfc9f7b2d36b1e23d5031bf6434508705f7340927211255a549e187628db5e22bd82f36a4d4beaf4a2c9cc07ddc08432067c4ed2525ae5a7ba164ccbc77ad82cebcb73ef8cbe87f6b4323c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-14T14:14:03.191Z",
+      "lastFlagChange": null,
+      "rarity": 8840.844,
+      "rarityRank": 3846,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.051,
+        "timestamp": 1671025931
+      },
+      "owner": "0xc2ff400b37f203e2750081eb10b5b64409bbf31a"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xb08c946ee9a7e9b11acfc05120e9a8ea4edc7cd64a66765cc907b81a30c2ebea",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "69000000000000000",
+            "decimal": 0.069,
+            "usd": 81.88768,
+            "native": 0.069
+          }
+        },
+        "maker": "0xc2ff400b37f203e2750081eb10b5b64409bbf31a",
+        "validFrom": 1671028499,
+        "validUntil": 1673706899,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/7138"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "4791",
+      "name": "BROADSIDE #4791 - Bird",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adc85613792ca2e69e691d69bd2671ebe08bdfe3df3b9ce05578af4de6a747d2a7592a20cdfee8f157923f7c617ec80820c5a2bba70ea3961ada7eb43fef6b6a4c8faf7f44ac9b93fc3b4bcf2518df40192b61ccf4170f62c204fc7151b5cba00b984ed8ff3a138e09da9352cf299b83b23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T17:58:56.381Z",
+      "lastFlagChange": null,
+      "rarity": 5350.3,
+      "rarityRank": 6601,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": 0.05301,
+        "timestamp": 1670707139
+      },
+      "lastSell": {
+        "value": 0.0609,
+        "timestamp": 1670781527
+      },
+      "owner": "0xc7b25121f05457fd6eb6143950d653d4bee15765"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x95e90498997ee1309aed864dc61aad69994f379df93af97e93ee9421673e99d9",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "70000000000000000",
+            "decimal": 0.07,
+            "usd": 83.07445,
+            "native": 0.07
+          }
+        },
+        "maker": "0xc7b25121f05457fd6eb6143950d653d4bee15765",
+        "validFrom": 1671541659,
+        "validUntil": 1672146459,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/4791"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "5291",
+      "name": "BROADSIDE #5291 - Tyrant",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a262de062b06f0e689d8bfc3344e457d6d8da298189d1953121af4d3e316fcaad2fbad67238e6a99e235cf86624f398201d1b4ef5266f422af56e2357a912d3151d7355871cac9987d9da1a31f7144540a0af9ef3dc71841824833912a20a78cd943de10cb274911fa973044daed6648ee1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-02T03:53:21.235Z",
+      "lastFlagChange": null,
+      "rarity": 9845.936,
+      "rarityRank": 2981,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xd5376d43179916242c2957f8a699363217dba410"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x611114edbd4f8af2082e19979a3084aa39f204e4dec0ed376716d364882f6aea",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "70000000000000000",
+            "decimal": 0.07,
+            "usd": 83.07445,
+            "native": 0.07
+          }
+        },
+        "maker": "0xd5376d43179916242c2957f8a699363217dba410",
+        "validFrom": 1671402937,
+        "validUntil": 1671751178,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/5291"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "6283",
+      "name": "BROADSIDE #6283 - Moth",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a0959a5319b54deecdb513b76b2e441be7013ba428f87d07f7f7146fddefe1468cb7672f372cd78a354c0771ab2cfcdeb6141a469d4a94f3a698dde062339c5dc787e58e342f86ec5efc9106b39e4bb6fcf36f6b3c9ad25f3fda4bc72493f037f3aa51d81b5c4d4ebf2019df81938c87023c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-02T04:18:27.921Z",
+      "lastFlagChange": null,
+      "rarity": 6624.689,
+      "rarityRank": 5549,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x3e9ef3b3d2aa4fde5727d35a191ecfb5a8a59733"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x7e588c4a19cd211a20d4c8593a1b57a63981daa77ea30445345ee6cf4b18c6e5",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "70000000000000000",
+            "decimal": 0.07,
+            "usd": 83.07445,
+            "native": 0.07
+          }
+        },
+        "maker": "0x3e9ef3b3d2aa4fde5727d35a191ecfb5a8a59733",
+        "validFrom": 1671522646,
+        "validUntil": 1676899736,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/6283"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "6705",
+      "name": "BROADSIDE #6705 - Calamity",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a854aa07b70e823fd189444e66c9f5009331449492a1e54fe8bcd01283668978da1a4d3720620c7a6e6034863017153600c57c6d0fd8fe7218f7875dee7302d7e21c3d923e8f3a279cedf180a71abbf7d9d47aa4fac7554b1a4939d6fce02d9201fa6a1e20b44ed6f2b7cc00a75baaa71e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-01T19:44:17.168Z",
+      "lastFlagChange": null,
+      "rarity": 9733.033,
+      "rarityRank": 3076,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": 0.09,
+        "timestamp": 1668954995
+      },
+      "lastSell": {
+        "value": 0.113,
+        "timestamp": 1669308527
+      },
+      "owner": "0xd5376d43179916242c2957f8a699363217dba410"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xd338b46fec0e3173752c09ec6ddb889b90bf2fdd99c1ab13593736d843a8db0a",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "70000000000000000",
+            "decimal": 0.07,
+            "usd": 83.07445,
+            "native": 0.07
+          }
+        },
+        "maker": "0xd5376d43179916242c2957f8a699363217dba410",
+        "validFrom": 1671402824,
+        "validUntil": 1673824615,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/6705"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "6831",
+      "name": "BROADSIDE #6831 - Dorian",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75add3421ecbd69fb494ea3bb6574eb8497abed801c2cf82b302b28cda0d1e2d96a99aede9f74c828f8dc725b838c14923b0e1fcbbc689c6798eb5e33ad058914322cf7f2cdaeaabb91d88d17183944879a4a6475330acad40f9c4c4546e2f7cb6628b495b4770d8e0dfe43e09f6e2ceceb23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-02T04:24:33.203Z",
+      "lastFlagChange": null,
+      "rarity": 6484.821,
+      "rarityRank": 5640,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xd5376d43179916242c2957f8a699363217dba410"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x68caced38d21a2724cfd589a1e22de24a52a555b7a2c91844aa130024c0d7b8c",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "70000000000000000",
+            "decimal": 0.07,
+            "usd": 83.07445,
+            "native": 0.07
+          }
+        },
+        "maker": "0xd5376d43179916242c2957f8a699363217dba410",
+        "validFrom": 1671402898,
+        "validUntil": 1671751178,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/6831"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "4435",
+      "name": "BROADSIDE #4435 - Fantasy",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75acbaaf5cb7de33436f60e345285d11599398d400eb3ec59b281de80f32bfc7f9539eeeaa092848737cca4da2485c2b2f2a87a8c675c7c8c63fb1bd2e2473a7ae9f6bd576561b1721b46f0f0425ac36d819e533516597fecbed8c566f7c91e88ad3a9ee69b796ed7f09ab8a283abc1645de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-02T03:41:18.502Z",
+      "lastFlagChange": null,
+      "rarity": 5182.912,
+      "rarityRank": 6743,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x7bb3fad216678a47caeed210123fc9e9e263030e"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x621fe6768fc914f7af1ef1ff8d783ba515ebed7c81a7c5c18ad0765141575aab",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "74900000000000000",
+            "decimal": 0.0749,
+            "usd": 88.88967,
+            "native": 0.0749
+          }
+        },
+        "maker": "0x7bb3fad216678a47caeed210123fc9e9e263030e",
+        "validFrom": 1669946629,
+        "validUntil": 1685498628,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/4435"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "2519",
+      "name": "BROADSIDE #2519 - New",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab6c52bc70b48a9ae28257735b9505fc2d93cc00c74e461bc6e99f9d5ff772f98e7afc3158586f9ba041da42f6a7e6517554f59c304cd35027747fbb99d461741475854d28fedc0fa88b364d03289339ca262caa49582a6edd209e2fb37d2111ab876b08417aedee11ce147d46e792f0723c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-02T02:33:23.118Z",
+      "lastFlagChange": null,
+      "rarity": 5406.655,
+      "rarityRank": 6556,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": 0.14,
+        "timestamp": 1669004579
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x326891e8f4934d02abf214a8df279d71fb5ab9e5"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x7886a2e6450a9fa0aee7b07dc04045829cd0c32686d9785fdc1261e1cbf8f1c3",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "78000000000000000",
+            "decimal": 0.078,
+            "usd": 92.56868,
+            "native": 0.078
+          }
+        },
+        "maker": "0x326891e8f4934d02abf214a8df279d71fb5ab9e5",
+        "validFrom": 1671314504,
+        "validUntil": 1671573704,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/2519"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "649",
+      "name": "BROADSIDE #649 - Beau",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a8704a3b80b379876c061547228276509161e6e8c68332bdc272691ccfba58960556bf4e6645ea9cdbc0ee384970416f022d64b750c7669af0b72313a1bc08bf646631bf7863bcd4a8c5a6d6fe5a157d13862dfd2edf9cc518020a6fc2bc77c9174fbd4f0bb2c470c11fd896fa9eb9f28058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-01T20:10:20.599Z",
+      "lastFlagChange": null,
+      "rarity": 9279.497,
+      "rarityRank": 3456,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x0c779db50bcd6eec0ca4fe0ae62d26badbae50b9"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x98defccef7b7cc6b1cd9ca071354f784e8619566a327ffc9e0b455f8f40821dc",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "79000000000000000",
+            "decimal": 0.079,
+            "usd": 93.75545,
+            "native": 0.079
+          }
+        },
+        "maker": "0x0c779db50bcd6eec0ca4fe0ae62d26badbae50b9",
+        "validFrom": 1671455788,
+        "validUntil": 1672060587,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/649"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "3233",
+      "name": "BROADSIDE #3233 - Modi",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab1704de515e5850a3167b3648c7c459cca7c6595efc8b0d06196f2198b556cfd03498ee52ca9c4c9e4ec9e0871a82ebbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-16T15:16:18.083Z",
+      "lastFlagChange": null,
+      "rarity": 6295.317,
+      "rarityRank": 5783,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": 0.04801,
+        "timestamp": 1671179015
+      },
+      "lastSell": {
+        "value": 0.05,
+        "timestamp": 1671220715
+      },
+      "owner": "0xc2ff400b37f203e2750081eb10b5b64409bbf31a"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x6d46c4d3d606c571878bd9bc375c6ab58b65dc827fb04db619851312bb562fc4",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "79000000000000000",
+            "decimal": 0.079,
+            "usd": 93.75545,
+            "native": 0.079
+          }
+        },
+        "maker": "0xc2ff400b37f203e2750081eb10b5b64409bbf31a",
+        "validFrom": 1671221303,
+        "validUntil": 1673899703,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/3233"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "4137",
+      "name": "BROADSIDE #4137 - Nacho",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7b0fc99b0c2ac2cf52950c3aa27bfcfc784a347b1ade1dc2f0465a3e799eddf3664caa5109fbcce052056dcdbd6f9e79ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-16T18:57:26.339Z",
+      "lastFlagChange": null,
+      "rarity": 5099.285,
+      "rarityRank": 6810,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.048,
+        "timestamp": 1671220715
+      },
+      "owner": "0xc2ff400b37f203e2750081eb10b5b64409bbf31a"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xb4a0168abd0d36b75e6f385455156129c0a24ea7af7a02186b3ffcc06143b3f6",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "79000000000000000",
+            "decimal": 0.079,
+            "usd": 93.75545,
+            "native": 0.079
+          }
+        },
+        "maker": "0xc2ff400b37f203e2750081eb10b5b64409bbf31a",
+        "validFrom": 1671221303,
+        "validUntil": 1673899703,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/4137"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "5526",
+      "name": "BROADSIDE #5526 - Natalio",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aa24d88244264433c6b439b34b5ae64f75ca6796b5cfb00e2100c6d8f98f0a330d403508cc3f34d97baf993c2e6287a13ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T07:56:27.288Z",
+      "lastFlagChange": null,
+      "rarity": 10452.164,
+      "rarityRank": 2472,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.052,
+        "timestamp": 1671220715
+      },
+      "owner": "0xc2ff400b37f203e2750081eb10b5b64409bbf31a"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x91054c1b4ca11d9ec259a348a87165e1f142277045de8b3800092e9fd44625b2",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "79000000000000000",
+            "decimal": 0.079,
+            "usd": 93.75545,
+            "native": 0.079
+          }
+        },
+        "maker": "0xc2ff400b37f203e2750081eb10b5b64409bbf31a",
+        "validFrom": 1671221303,
+        "validUntil": 1673899703,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/5526"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "5676",
+      "name": "BROADSIDE #5676 - Penjani",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3be72e61da2f8785b38b31eca650880cd9258e90bc0f552bfa7dbe7baac4203a6a33772d8af5a4d88e904e7ca775df0eea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-16T15:53:22.895Z",
+      "lastFlagChange": null,
+      "rarity": 7991.157,
+      "rarityRank": 4591,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": 0.04801,
+        "timestamp": 1671202319
+      },
+      "lastSell": {
+        "value": 0.0499,
+        "timestamp": 1671220715
+      },
+      "owner": "0xc2ff400b37f203e2750081eb10b5b64409bbf31a"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x8daf596b903e11f7822cac196ec06d100e438e30c6513ea053323ba65ee3b6ba",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "79000000000000000",
+            "decimal": 0.079,
+            "usd": 93.75545,
+            "native": 0.079
+          }
+        },
+        "maker": "0xc2ff400b37f203e2750081eb10b5b64409bbf31a",
+        "validFrom": 1671221303,
+        "validUntil": 1673899703,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/5676"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "6162",
+      "name": "BROADSIDE #6162 - Trace",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae8ea55026fbb00197e2d07d66c6309f8bdc3f2b6d97637cbb9d7395e94c568efe5f916892e31900003a06bc855e9d203ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-16T19:58:41.624Z",
+      "lastFlagChange": null,
+      "rarity": 11433.874,
+      "rarityRank": 1838,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.05,
+        "timestamp": 1671220715
+      },
+      "owner": "0xc2ff400b37f203e2750081eb10b5b64409bbf31a"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xc58711dd79910202c226e71318a261abdc92dc1cb4a907fa5249392c508e8f9d",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "79000000000000000",
+            "decimal": 0.079,
+            "usd": 93.75545,
+            "native": 0.079
+          }
+        },
+        "maker": "0xc2ff400b37f203e2750081eb10b5b64409bbf31a",
+        "validFrom": 1671221303,
+        "validUntil": 1673899703,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/6162"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "6490",
+      "name": "BROADSIDE #6490 - Antares",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab05b68fa5907a53daf1c912bc204008880f83208a37bda578fe07b993df2247bf914310286161aa09ee9238304993b53ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-16T23:28:47.220Z",
+      "lastFlagChange": null,
+      "rarity": 9087.645,
+      "rarityRank": 3616,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": 0.1034,
+        "timestamp": 1668782603
+      },
+      "lastSell": {
+        "value": 0.05,
+        "timestamp": 1671220715
+      },
+      "owner": "0xc2ff400b37f203e2750081eb10b5b64409bbf31a"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x23d656bfd2f94b450fc41aefefe287a449ca88d4cd4e2f60a71f3aaaa55a44be",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "79000000000000000",
+            "decimal": 0.079,
+            "usd": 93.75545,
+            "native": 0.079
+          }
+        },
+        "maker": "0xc2ff400b37f203e2750081eb10b5b64409bbf31a",
+        "validFrom": 1671221303,
+        "validUntil": 1673899703,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/6490"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "2759",
+      "name": "BROADSIDE #2759 - Areana",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a8ffebecf497c28b70949e4a02cc19abd93fa0c338dae74210d5e7866351e23e845f7c185e75d7960764fc551025ad82aa918c6791ae37b21cfa212dc148e7feedeffaf6cb3c8edb960ee7072973ebfdb55522e429ddc9dfe31e0c75e1f4d34e7c3a406fb44e9b30dae5eedd74883f4eee1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-02T02:57:40.074Z",
+      "lastFlagChange": null,
+      "rarity": 7662.35,
+      "rarityRank": 4858,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.07,
+        "timestamp": 1671322955
+      },
+      "owner": "0x1a10599a70114d50eb4b193f94377b056eecfdb5"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x0893c252127fb5727c2a4fd06cc55625da7c565986551b6de5a641f222053b73",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "80000000000000000",
+            "decimal": 0.08,
+            "usd": 94.94223,
+            "native": 0.08
+          }
+        },
+        "maker": "0x1a10599a70114d50eb4b193f94377b056eecfdb5",
+        "validFrom": 1671505091,
+        "validUntil": 1674098586,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/2759"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "3122",
+      "name": "BROADSIDE #3122 - Hea",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a701da2a095074bb2ddd29b19e1d33ad766aedf4491b2ece5aa6a913e1644d5cf362fa1cc9b3a66c03ba9d2487b21aa75ba43efb5e622114073aeb6165d7e9e0bccaafe76820f0d29b319a2e933b052f842696eda972705fa397b6019015afff0c6bb32f02295b90ac749eadae06b648223c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-02T03:12:05.629Z",
+      "lastFlagChange": null,
+      "rarity": 13360.388,
+      "rarityRank": 1155,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.065,
+        "timestamp": 1670263127
+      },
+      "owner": "0x1a10599a70114d50eb4b193f94377b056eecfdb5"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x0c170918ae2d38f64445357d06463700d6b85142f22706228fb3561bbe5dd095",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "80000000000000000",
+            "decimal": 0.08,
+            "usd": 94.94223,
+            "native": 0.08
+          }
+        },
+        "maker": "0x1a10599a70114d50eb4b193f94377b056eecfdb5",
+        "validFrom": 1671505178,
+        "validUntil": 1674098639,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/3122"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "3702",
+      "name": "BROADSIDE #3702 - Damien",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a68207b682350d3b4b7df40faf0e515c640aff5010ae76153e5bd95e0079fd8a24b43e90ea266fb0b14be0cba73926a60154e892d37ebdfa57ed2cd37703634213934754cca13b8c44a016ad6a3ae0ba3e623e10bfa6e1a823220f2d21f77b470dd534869468d82f916a3c37adc38c01a23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-02T03:30:29.400Z",
+      "lastFlagChange": null,
+      "rarity": 9365.746,
+      "rarityRank": 3375,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x1a10599a70114d50eb4b193f94377b056eecfdb5"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xcb3c6bb5fbe309a0786590aa3f552cce733055bd37e0d37030960d3b805e7f07",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "80000000000000000",
+            "decimal": 0.08,
+            "usd": 94.94223,
+            "native": 0.08
+          }
+        },
+        "maker": "0x1a10599a70114d50eb4b193f94377b056eecfdb5",
+        "validFrom": 1671505255,
+        "validUntil": 1674098834,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/3702"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "4110",
+      "name": "BROADSIDE #4110 - Flowz",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a872de2b11ae5c26a4cfc2642c9bb85f448b949847e57ca4dbd9d5cb9dd4d17a8cf0e7a24e38721504d5a294f731d24d8ce6626ed785bf88eb0ebd983f542b7e865c8bcf0eef61dabc40889a7e1e0d2c8ded3a6bea59dfcfde7c1553df15d32f660944eb5aec8b202cb87c90b4508f44ce1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-02T03:05:57.792Z",
+      "lastFlagChange": null,
+      "rarity": 11530.989,
+      "rarityRank": 1794,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x1e4277a443aa0a440df37bc6866da58370ff7b41"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x35b9c382bb75472db376af2e3bf36d94388ab6c46175ef7e6bf3ae48882bafc4",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "80000000000000000",
+            "decimal": 0.08,
+            "usd": 94.94223,
+            "native": 0.08
+          }
+        },
+        "maker": "0x1e4277a443aa0a440df37bc6866da58370ff7b41",
+        "validFrom": 1670936514,
+        "validUntil": 1671983346,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/4110"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "6060",
+      "name": "BROADSIDE #6060 - Garth",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a43bb743bd6ae9d3f36a7f73e0e208295747df0757d130bfa0193e776b687487b11c0c3f2c27eb12592ca02f27dda5ec6d888bc0bbefa04a693adbceb6a89d2555c33a152aa114b0fedb14d82b4a1413b9455af2d15aad95ca2ac06f46105f1a4ce2c71d55647f86c89c5e77f002d96e323c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-02T04:24:10.614Z",
+      "lastFlagChange": null,
+      "rarity": 8549.329,
+      "rarityRank": 4118,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.085,
+        "timestamp": 1669493267
+      },
+      "owner": "0x12c5657d9611911fedb1d4d8a16a16c4ea1a49e0"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xad02d36ce5a75e2cf0c1f6b8a6e0e4d29f70a89cb0581eb6a96848179760d139",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "80000000000000000",
+            "decimal": 0.08,
+            "usd": 94.94223,
+            "native": 0.08
+          }
+        },
+        "maker": "0x12c5657d9611911fedb1d4d8a16a16c4ea1a49e0",
+        "validFrom": 1671038784,
+        "validUntil": 1673327062,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/6060"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "6972",
+      "name": "BROADSIDE #6972 - Stranger",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75affb2596f58190f3c2f7fd1b5770618a94d412efc38fbc2c75e46611a2a22c41ebfecd1591ef692b6d5aa12e00f8bfb36a33cd787b9c177c2282b5006907b1def1f2e0a81fd2868dd5e0e9aca418dd174371786c108069982429b6c1b586016c60b765c19ed29ff07a7a70f25b9e3dd8b23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-02T04:26:12.911Z",
+      "lastFlagChange": null,
+      "rarity": 12873.041,
+      "rarityRank": 1281,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.11,
+        "timestamp": 1668711143
+      },
+      "owner": "0xd935ef8775c04e7e327f0b65d5ab255149d145c4"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x71c871b9d39c706d27fbe7fde34b500457a7ff89292af9f80798f3bd76567eb6",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "80000000000000000",
+            "decimal": 0.08,
+            "usd": 94.94223,
+            "native": 0.08
+          }
+        },
+        "maker": "0xd935ef8775c04e7e327f0b65d5ab255149d145c4",
+        "validFrom": 1671109454,
+        "validUntil": 1673787854,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/6972"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "4371",
+      "name": "BROADSIDE #4371 - Digger",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a6b2a3ad3f2b74d3458f5cd37dca94c2fff34ffdfc9222b08636249e9e32ab39d514a1b78bd30e1f1e325affe9c6e8ae9183b0ce14e97864945ada472bd675ea8393a0691fa0532f6fd6e3ff08b5551632487b3e7f0be658d73b578566f6432d3bdbe664b3e5ae6c46804606b1bcbdd161e9cbf17948473242070ca80b70c6daf",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-02T03:12:27.941Z",
+      "lastFlagChange": null,
+      "rarity": 11794.404,
+      "rarityRank": 1677,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x0f8210bee773d543fb7b32b551f028180438a3e8"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xd7f9f2f484c2e27ad0d0033f3f2dc25a1a96be9698264193533ea9d03c59bead",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "83000000000000000",
+            "decimal": 0.083,
+            "usd": 98.50257,
+            "native": 0.083
+          }
+        },
+        "maker": "0x0f8210bee773d543fb7b32b551f028180438a3e8",
+        "validFrom": 1671493989,
+        "validUntil": 1672098788,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/4371"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "6303",
+      "name": "BROADSIDE #6303 - Gridsy",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7a89df8cd2ea343fb9499bd9bf5eb5ecdc1cc01da766660fd1f614f17c17c2c08e7e9d6d07a2048e9a0cf36fcc41e6afcbcfab5da137183ba092beedcc21f9c66920af7a9fe7c625c336311b3b1b2dfa5c8443b64961288b0006336522fea9f17c0ba3cf504df3e5f4267e25c4566867e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-01T19:43:10.534Z",
+      "lastFlagChange": null,
+      "rarity": 4866.15,
+      "rarityRank": 6967,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x566a82e259646e9ac841065987f8e40c096e1f03"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xee3cd91395674f4e27e0b566baa2f6bdb9e3b34abe6cfc13c99cbcd0a4fef54b",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "85000000000000000",
+            "decimal": 0.085,
+            "usd": 100.87612,
+            "native": 0.085
+          }
+        },
+        "maker": "0x566a82e259646e9ac841065987f8e40c096e1f03",
+        "validFrom": 1671500958,
+        "validUntil": 1673823115,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/6303"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "6984",
+      "name": "BROADSIDE #6984 - Lani",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ad13c84f0824e452a11ce881b64ecd03c5c7aabf391e64b7fdd2aec729f5cf2520940c7b697be2235a2d5abeb2b6256bde7c1fea01547ef83ee946408a0a3852297425425a15e9fff228536d65910b1649449268dfffc3a0d1c63c77da3fbf962f9f7cfecf803020fd72162d7937e48f1058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-02T04:26:12.016Z",
+      "lastFlagChange": null,
+      "rarity": 8840.398,
+      "rarityRank": 3847,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": 0.0808,
+        "timestamp": 1669644875
+      },
+      "lastSell": {
+        "value": 0.1,
+        "timestamp": 1669338143
+      },
+      "owner": "0x326891e8f4934d02abf214a8df279d71fb5ab9e5"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xfccc8458b451688c5b55c51d7d6773c38149fcd75ef4a0e925f63fd2f779032a",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "85000000000000000",
+            "decimal": 0.085,
+            "usd": 100.87612,
+            "native": 0.085
+          }
+        },
+        "maker": "0x326891e8f4934d02abf214a8df279d71fb5ab9e5",
+        "validFrom": 1671314441,
+        "validUntil": 1671573641,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/6984"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "5755",
+      "name": "BROADSIDE #5755 - Pugilist",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a95e2b6961bd081ded05bbbe4da3b99476a1749a5a976cc544fb98b124a57700e9ba6489e41a4666f441bdb07e05f6438b7b8fd173fa26ec0bdcd96ee67d0478994a38ceb3f8824dd79af0176b4fd67bd671a8baa06c027f166710f3d845acf68a11429047c56961f101fdf8dae44bd33058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-02T04:08:02.601Z",
+      "lastFlagChange": null,
+      "rarity": 6197.93,
+      "rarityRank": 5857,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.137,
+        "timestamp": 1668975167
+      },
+      "owner": "0x8c9b627c39af7500414f9c57ac090d727a0828db"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x105fa0aa1a76b3b18b789e81ccf17e21a6cfb3341ff61dd2947d204d892bca01",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "88000000000000000",
+            "decimal": 0.088,
+            "usd": 104.43646,
+            "native": 0.088
+          }
+        },
+        "maker": "0x8c9b627c39af7500414f9c57ac090d727a0828db",
+        "validFrom": 1670873908,
+        "validUntil": 1671653184,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/5755"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "2178",
+      "name": "BROADSIDE #2178 - Garcia",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aac7698372de87ed0e4e658c0aa9681ce593da8e95ef861bf9fac8d1fc26926167e9d12c18f550973dd4b6a5e68a8658f7a2d67253a104a6e3059eaecc1949b07651af4f1a24462075580b18a4ec3bd23e962382c1d294ece56b2d4159b860c7fb616729e4601371886b0cda84ef0d79c23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-01T20:09:13.736Z",
+      "lastFlagChange": null,
+      "rarity": 9179.106,
+      "rarityRank": 3539,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x2227de445dbfd90712c48bcd74d492ccca1cb242"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x876b665a803db4873ef067ddf140ffe4267b687327c7aba71cac2a3c08565d84",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "88800000000000000",
+            "decimal": 0.0888,
+            "usd": 105.38588,
+            "native": 0.0888
+          }
+        },
+        "maker": "0x2227de445dbfd90712c48bcd74d492ccca1cb242",
+        "validFrom": 1671541766,
+        "validUntil": 1679317766,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/2178"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "959",
+      "name": "BROADSIDE #959 - Priestess",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a0b913067e03ddf02c24b1f80f5ff3b14df941cfca4e0ec5efd7e008e21ff234f263c63857cc0c2b5742b65007973689621a09f59e692cf9ec94c03e2b3e311006becfc75a90e551b37c71cd2292db950fbebd85c568ec5bb017f5565fad50b94e44309ed494562402ec7489fdd07381b23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-01T20:17:59.220Z",
+      "lastFlagChange": null,
+      "rarity": 5177.023,
+      "rarityRank": 6750,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xc9c5caa37dc34bc87ca1bf0ac88a70ff926946a9"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x526daf36122e3d0890a9a2c82fb2e7bc89575b75f2e8fc1a80fac473b03e000a",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "89000000000000000",
+            "decimal": 0.089,
+            "usd": 105.62323,
+            "native": 0.089
+          }
+        },
+        "maker": "0xc9c5caa37dc34bc87ca1bf0ac88a70ff926946a9",
+        "validFrom": 1671205425,
+        "validUntil": 1673883825,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/959"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "1929",
+      "name": "BROADSIDE #1929 - Lira",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a832ada9fa7ccdd677e028adf283f05733c1ac6093501de8a9989e6eefb0782bb9c2b8c611308df5c2209f5f51a79598881a384ac7fe0edf8becf3272792e06c98cd25472f4c1161fab84e666361f341ff1ffedd896ffd7c8dd9fde3f55ea0a26ed0deb757b495482a211146dcb9190d223c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-12T13:24:07.354Z",
+      "lastFlagChange": null,
+      "rarity": 5070.163,
+      "rarityRank": 6827,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.059,
+        "timestamp": 1670921639
+      },
+      "owner": "0x79e2aad972cf55970dcbf414162141fd291b5847"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x9d03e03aacc4400d7b7eeb92617d9276814f4b15d615d48a6c5c84c345a275a9",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "89000000000000000",
+            "decimal": 0.089,
+            "usd": 105.62323,
+            "native": 0.089
+          }
+        },
+        "maker": "0x79e2aad972cf55970dcbf414162141fd291b5847",
+        "validFrom": 1671480430,
+        "validUntil": 1671739630,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/1929"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "677",
+      "name": "BROADSIDE #677 - Aoko",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75acd9a141d877d58d4e2d3ce6784e244e9bff0eb93b06962a23881afae1a16c2f650aee22d441929cc7caeeadc2a754479ced5e7cad95172b983b0ccc887800f5c09aa1d26a0191cac629011943d4a75fa69a1ad4da1d0c76fc15d57e327cc617b59d9f6b8d1f313c6c0a3c3616f729ab223c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-02T02:56:51.726Z",
+      "lastFlagChange": null,
+      "rarity": 7495.535,
+      "rarityRank": 4997,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.106,
+        "timestamp": 1669238459
+      },
+      "owner": "0xd5376d43179916242c2957f8a699363217dba410"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xbf9610aa752009081c787df4f5fa183aef4b59989c63b9570de6175ab1354d01",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "90000000000000000",
+            "decimal": 0.09,
+            "usd": 106.81001,
+            "native": 0.09
+          }
+        },
+        "maker": "0xd5376d43179916242c2957f8a699363217dba410",
+        "validFrom": 1671402855,
+        "validUntil": 1673824570,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/677"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+"category": ["Humanoid", "Person", "Cartoon", "3d", "Street", "Normal", "Other"],
+      "tokenId": "1775",
+      "name": "BROADSIDE #1775 - Giovanni",
+      "description": "A decentralized tale of 7,290 anonymous heroes\nA multi-part journey that unfolds from launch\nCC0 or Full Commercial Rights\n11 Episode NFTs telling the story of your specific character dropped to Broadsiders in the months following mint\nOnce final chapter drops, merge and burn Episode NFTs into a 1/1 Book NFT, featuring your character on the 1/1 cover art, with the ability to print and sell copies\nCollection features rare traits (both cc0 and licensed from other projects) contributed by guest artists and from projects including XCOPY, Cryptopunk #5046, OSF / Rektguy, Moonbirds, Eclectic Method, Goblintown, Nouns, Blitmaps, Kristy Glas, Grillz Gang, Cryptoadz, Robness and more.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a2dbcb8ccdc496c2fc1d21c362446a1d8b376de2084ebaba9fd4a49cd25d168c78d7d0f34590a12960e12f277a4706bf89e313ac2db5eff498788c4a44b45fa4ae92e4c0c76ab21ce7384c27761f021ec6912334915a04457e63340ab8d91d44534a466b64468dfb6c197be90e03c4d11e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-02T02:58:14.628Z",
+      "lastFlagChange": null,
+      "rarity": 4299.788,
+      "rarityRank": 7212,
+      "collection": {
+        "id": "0xe3589ae55bbd7697c76c510a5335eb31d972a17e",
+        "name": "Broadside",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a835d807a397bd043778e1852365a10cf209653581dcc9a8d0ea56c4cfc3b1c963a7c8c4ede6495994dc0eb18b50473fdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "broadside"
+      },
+      "lastBuy": {
+        "value": 0.075,
+        "timestamp": 1668892775
+      },
+      "lastSell": {
+        "value": 0.14,
+        "timestamp": 1668895859
+      },
+      "owner": "0x6946927084d667b3bea475ca36a6e9990c9cba5b"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xea8b854039de43e4c5002f1bd89a50d0582f57a6b664ef4a088122c532516f2b",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "90000000000000000",
+            "decimal": 0.09,
+            "usd": 106.81001,
+            "native": 0.09
+          }
+        },
+        "maker": "0x6946927084d667b3bea475ca36a6e9990c9cba5b",
+        "validFrom": 1671370960,
+        "validUntil": 1671630160,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xe3589ae55bbd7697c76c510a5335eb31d972a17e/1775"
+        }
+      }
+    }
+  }
+]

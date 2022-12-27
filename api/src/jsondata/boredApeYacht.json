@@ -1,0 +1,3052 @@
+[
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "3329",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a719a8a0ce2e70f9851b420c365dfa327d87d3c409543fbe59058b461b0749503395e983f79a7575d26f5b4d85da875b0ae38f4b2c6f4ddfef4956c2c26e6b51e5eb2ea97146166521ca127f61b7719981a96f51e0936e2a32c68cc5f0edf660c27cc8c01e5d1efbe776ebba722372218e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": true,
+      "lastFlagUpdate": "2022-12-20T12:40:39.061Z",
+      "lastFlagChange": null,
+      "rarity": 36.399,
+      "rarityRank": 9756,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": 65.97,
+        "timestamp": 1666815527
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x6b3897d06de1dddb6d98a7baacd34ee62a6dfff7435d73e44246540b1f9c7f85",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "62726400000000000000",
+            "decimal": 62.7264,
+            "usd": 74442.30658,
+            "native": 62.7264
+          }
+        },
+        "maker": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236",
+        "validFrom": 1671511097,
+        "validUntil": 1674102571,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/3329"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "2533",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ad4c59d41b1efe1a412f43d5f91512a6be01e737023b551fe0df40d1e01b1af3b1b34f7d37dcc1015816fc08d98d811532b9cb9f429b7c3ea7568060d3c940bc350970d96dd28acff874c3f34704b200192a11b4393cde877afaf7b90829479eed2d05ddf436be9f0158e386d33ee8b4d23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": true,
+      "lastFlagUpdate": "2022-12-20T14:33:58.189Z",
+      "lastFlagChange": "2022-12-19T14:34:13.682Z",
+      "rarity": 65.542,
+      "rarityRank": 3867,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": 64,
+        "timestamp": 1670517827
+      },
+      "lastSell": {
+        "value": 59,
+        "timestamp": 1671480071
+      },
+      "owner": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x82d73411062b123115933e8be43e1e14df7e26fbb66a8dcfadecc70623e921c4",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "63028200000000000000",
+            "decimal": 63.0282,
+            "usd": 74800.47616,
+            "native": 63.0282
+          }
+        },
+        "maker": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236",
+        "validFrom": 1671511056,
+        "validUntil": 1674102571,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/2533"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "6217",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aa92eb9036a589703ded0f57c24bc64db35c010b228a10171ddef89125d19a64dc3b529b7a00cb44bbf4118310fa32aa4b9c23d38de787334256abc11646c735d00b282e7f94ff90c4b61bb61d7b15cbc0690d5750c7f454be4e42cc92c4aed95ed7d77bb3d7ac2d1ae2d6549edc1dc2123c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": true,
+      "lastFlagUpdate": "2022-12-20T12:21:10.804Z",
+      "lastFlagChange": "2022-12-17T06:37:51.946Z",
+      "rarity": 44.575,
+      "rarityRank": 8499,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": 65.5,
+        "timestamp": 1671249539
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xc8f3fa9e70fe4ae6b17c157472f13c8a15f89d597fe39f071148dc23f70ee812",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "64637700000000000000",
+            "decimal": 64.6377,
+            "usd": 76710.59522,
+            "native": 64.6377
+          }
+        },
+        "maker": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236",
+        "validFrom": 1671514672,
+        "validUntil": 1674102571,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/6217"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "2877",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a00898e00141770753f2a6bfbe97051a12b8df2c62d851f1d0b0117ac04eca357230db3b2267a6153d163069008eec44f89e940afb0df92deff47545456cab6586d09995f3257d0281baf5498ca76a56f4bcd0c7cc822b25315ab55856602977f66fa6476cb5b041fce844fff300930eae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": true,
+      "lastFlagUpdate": "2022-12-20T07:44:21.007Z",
+      "lastFlagChange": "2022-12-17T06:48:54.227Z",
+      "rarity": 53.044,
+      "rarityRank": 6417,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": 65.5,
+        "timestamp": 1671249647
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xa7631836db2e3ec13cb2e7cfbc687c168dbed336"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x6e17c0a52460e503c81a46f2a83bba95281f4709177ed8338db80d3c59b96d6b",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "65000000000000000000",
+            "decimal": 65,
+            "usd": 77140.56486,
+            "native": 65
+          }
+        },
+        "maker": "0xa7631836db2e3ec13cb2e7cfbc687c168dbed336",
+        "validFrom": 1671483900,
+        "validUntil": 1671743098,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/2877"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "7904",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a53ff8476a6651c4531951aa6874e3dec8576811308467cfd7494ad623f32a1c8b95d4794b0bc30ce6ba883d5c9fe0f7efb3afacc86537c4c5f26c734c6a7dff6c32861d9168f74354d3b46dc3e61484ca88544668a3743cfbc0a6a9da96a697f399c300466ccfe1e6b5624304335c2e423c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T14:10:58.011Z",
+      "lastFlagChange": null,
+      "rarity": 52.181,
+      "rarityRank": 6635,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": 65.4,
+        "timestamp": 1671172331
+      },
+      "lastSell": {
+        "value": 63.85,
+        "timestamp": 1671143615
+      },
+      "owner": "0x0dd8dcc57c6227896d1955bf5b2a54a5382839c8"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x2c2aa01e49e4c4e507f88472cd010bb27b24fac110d5d2d741e648910b6033e0",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "65153100000000000000",
+            "decimal": 65.1531,
+            "usd": 77322.26056,
+            "native": 65.1531
+          }
+        },
+        "maker": "0x0dd8dcc57c6227896d1955bf5b2a54a5382839c8",
+        "validFrom": 1671132349,
+        "validUntil": 1673724349,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/7904"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "3559",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7fe35935026157a446b097343762849dacdc1cb475605c31e60a80290b6993b59cebc5bbdb0ba939e0693ca80fe09efe3bcc590e9315dbc4ccecc6318ceb31d60bfcd0fabe62b50446fe3ce7cc5cde5752ba035f1bb0f8d359b2a3a2c4218dfae240127a4bebdcb45ff731b64da82ae7e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T07:43:44.659Z",
+      "lastFlagChange": null,
+      "rarity": 66.955,
+      "rarityRank": 3621,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": 64.2,
+        "timestamp": 1671545807
+      },
+      "lastSell": {
+        "value": 65.6,
+        "timestamp": 1671169931
+      },
+      "owner": "0x8f779b7de59c5f61ca8ee9d1461db4aff670c3ed"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xb999fdf9af1391ca2140d809cd525505e94b6b35f681eb15208f17cec38072ff",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "65627600000000000000",
+            "decimal": 65.6276,
+            "usd": 77885.38669,
+            "native": 65.6276
+          }
+        },
+        "maker": "0x8f779b7de59c5f61ca8ee9d1461db4aff670c3ed",
+        "validFrom": 1671546012,
+        "validUntil": 1674138012,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/3559"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "3367",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb16f93e61b1b4181d30db961c9a18838aedc9ef3977fed652e99cab8c84eae7b47bd9c96f65146541280f1a72778d70625ddf5d4271e4527ff57730ce3bc2f9c0ffe91bb6870b4886d8cb0fd1cd041f7fefd14930a56b0cec714116c397cacf2ee5a845a6c0e9154eabf7281d63f53fe1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T07:43:53.783Z",
+      "lastFlagChange": null,
+      "rarity": 41.568,
+      "rarityRank": 9064,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": 64.21,
+        "timestamp": 1671545747
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x5d5335e6bea4b12dcb942cec1da951ae63f2ae64"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x35be0e78ca5c1a600f5c0fa246f32e49a80d94eb01cc2134781b8cbf99568d42",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "66316300000000000000",
+            "decimal": 66.3163,
+            "usd": 78702.72064,
+            "native": 66.3163
+          }
+        },
+        "maker": "0x5d5335e6bea4b12dcb942cec1da951ae63f2ae64",
+        "validFrom": 1671546776,
+        "validUntil": 1671633174,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/3367"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "8914",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba88c8e9367d3ec4271aaf5aac2747eef31e5ec8a384efb6b5bfb2c664dbcee4fcc66bc56233af2214df433ce881aece3d2325a227aaea2208e74280ce65e9a685eb59830d53c00a11aae574da63c346b5f812f3d38a28c52402a1f7509831e6d659fec91e0ffcd44e5b01bb317637cf23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T14:08:30.843Z",
+      "lastFlagChange": null,
+      "rarity": 50.649,
+      "rarityRank": 7047,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": 64.2,
+        "timestamp": 1671533303
+      },
+      "lastSell": {
+        "value": 62.9,
+        "timestamp": 1671077915
+      },
+      "owner": "0x2f41cf826eff65866b884329f4dcb20fa827ae8c"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x42774eb74a8a3a843ff130019bd94532b008f123b88e02878a7a7511ff1398a2",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "66326500000000000000",
+            "decimal": 66.3265,
+            "usd": 78714.82578,
+            "native": 66.3265
+          }
+        },
+        "maker": "0x2f41cf826eff65866b884329f4dcb20fa827ae8c",
+        "validFrom": 1671534021,
+        "validUntil": 1687086022,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/8914"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "9568",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a00b992f995693cc0889df0e61fa5300f36c23e681d463c653c0e3c8a570f6c765d42619de1264d780cb6b12e7fda96cb7fa6b9cfeb61c424abfcb77e776325c96498e5e7aed18d994ba6e6919d9fadce46541d9124098728c05de922fdde8b11359b6b67387d4ad05ffa4c32dc0c433123c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T14:07:31.621Z",
+      "lastFlagChange": null,
+      "rarity": 75.945,
+      "rarityRank": 2269,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": 64.2,
+        "timestamp": 1671533303
+      },
+      "lastSell": {
+        "value": 72,
+        "timestamp": 1663816019
+      },
+      "owner": "0x2f41cf826eff65866b884329f4dcb20fa827ae8c"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x92cb9b42ee4146d61931d1151199625e9a4716d6d6f43dcdd8e666ac001fcbe9",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "66326500000000000000",
+            "decimal": 66.3265,
+            "usd": 78714.82578,
+            "native": 66.3265
+          }
+        },
+        "maker": "0x2f41cf826eff65866b884329f4dcb20fa827ae8c",
+        "validFrom": 1671534029,
+        "validUntil": 1687086030,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/9568"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "6367",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a8ee6fee81a8833f7f1e08cec4fa0076e93741e3b7e23387fd92c5e2772cafbd89a4efbba0e4c380507ac1fbe557f8462966222f4b60dbca7fee889e4153c9de6beda4c26d27696f59993ffaf171cd275810ff7602064269ba58ab6db9e9f6c1919693f07685b43de92d665c2c442879c23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T07:41:36.034Z",
+      "lastFlagChange": null,
+      "rarity": 54.823,
+      "rarityRank": 6008,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": 64.2,
+        "timestamp": 1671542771
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x8f779b7de59c5f61ca8ee9d1461db4aff670c3ed"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xde91a483614deda9d209d2046daf52c41d47eff858cd99c64c3568069709c1cf",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "66341800000000000000",
+            "decimal": 66.3418,
+            "usd": 78732.98348,
+            "native": 66.3418
+          }
+        },
+        "maker": "0x8f779b7de59c5f61ca8ee9d1461db4aff670c3ed",
+        "validFrom": 1671544372,
+        "validUntil": 1674136372,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/6367"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "6752",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a42c66df572ac9226654f88eec803a180b7dacc94e5ac6d5eadd1098a9d8c96b3b6030082aec2b925e2d13dfb5214c1b750002672b670a917ca728f47223c84aa80d9b664ddc7e23e781429c71cd6672b87a1de746c1a52659c66af5d832ed887be6281a6df920e3dd0bb717cf1e688c0058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T07:41:20.731Z",
+      "lastFlagChange": null,
+      "rarity": 43.172,
+      "rarityRank": 8774,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": 65.11,
+        "timestamp": 1671342743
+      },
+      "lastSell": {
+        "value": 65.5,
+        "timestamp": 1671232583
+      },
+      "owner": "0xfd61cef0879dafb9ebfabe59b8e25d221821c722"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x4667d5fd07965857861cb9343c91426a5ec0682a5b5c24e2e22c0ccc6a958df3",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "66438800000000000000",
+            "decimal": 66.4388,
+            "usd": 78848.10094,
+            "native": 66.4388
+          }
+        },
+        "maker": "0xfd61cef0879dafb9ebfabe59b8e25d221821c722",
+        "validFrom": 1671387440,
+        "validUntil": 1671992240,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/6752"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "7717",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a10cc8fdf6bbc3b394a24c6edec5930981c20266e84bff15715955fbeac27abf6dd3c3be5b608d58a191a15b36f91426e10f1e7682e52684230fece7e9ba3d036eb73af7b316f74361f05e1838f73b9ad48c166540412e637148332b9a30ed0ea0504025aa2452ae5d61828182a5a58eee1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T14:11:13.471Z",
+      "lastFlagChange": null,
+      "rarity": 66.609,
+      "rarityRank": 3676,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": 71.11,
+        "timestamp": 1665570767
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xc4e866cf9dfa2c1b827c671dee36365f8189a6b0"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x87efda5d31d48e9845fd8201e2af1590b707f64839a93ee3dd8f20c67c159361",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "67000000000000000000",
+            "decimal": 67,
+            "usd": 79514.12071,
+            "native": 67
+          }
+        },
+        "maker": "0xc4e866cf9dfa2c1b827c671dee36365f8189a6b0",
+        "validFrom": 1671453748,
+        "validUntil": 1673972706,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/7717"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "1398",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a40b18c8d88f670c590147ac507743aff6cb9d8302e009cf83a00d3f1cfdd33eb8d6e560cf1b0d61ca226b5a1c79f1bdf687f33b2cf643c34904cb672941801247a9faf9b1e1ba058bcb1ee393b138afc56ab3aba35b06824a2d8288743febd9037b470e56c998b93d2b4126825d20fea23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T07:45:26.343Z",
+      "lastFlagChange": null,
+      "rarity": 45.668,
+      "rarityRank": 8227,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": 70.7,
+        "timestamp": 1665531995
+      },
+      "lastSell": {
+        "value": 74,
+        "timestamp": 1665542939
+      },
+      "owner": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x8a0f01a3f6f59b3521982306ccac56e25a8ee1f4919108fc7d7a246815c5136c",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "67605600000000000000",
+            "decimal": 67.6056,
+            "usd": 80232.83342,
+            "native": 67.6056
+          }
+        },
+        "maker": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236",
+        "validFrom": 1671511017,
+        "validUntil": 1674102571,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/1398"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "9459",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75afa907e91fd9cf893af562768dbf09c947fcd0e7786cd3a7979ac2094bdf75b0a5389251578cabffd89f98f8cb351f944e2b30b3e8c655c31d85a70410a716aa40f6b3b1ca026f032961b05688259d5a85295a94f8442af32bcc2cced29b5497f82c37e6f1c603754666d71b3601897f6058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T14:07:41.417Z",
+      "lastFlagChange": null,
+      "rarity": 66.951,
+      "rarityRank": 3622,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": 48.35,
+        "timestamp": 1668479123
+      },
+      "lastSell": {
+        "value": 49.99,
+        "timestamp": 1668489131
+      },
+      "owner": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x8c3a4ca1911828951bd2237e11ba879a877ce04b9c5c72313f56b3e5adc007b5",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "67605600000000000000",
+            "decimal": 67.6056,
+            "usd": 80232.83342,
+            "native": 67.6056
+          }
+        },
+        "maker": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236",
+        "validFrom": 1671511446,
+        "validUntil": 1674102571,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/9459"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "6162",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a01032ed6a1427463fe90cb2f3ce51b318e0b5f7004aaa2463b68c8e35ed08751c043ca53f907bd6331bb31fd117cfd41049376fa2a99cfb38ae7bb69141f033300168ec97731dbef2608feff429b21b05a7c93b9310fccec20b1ae7dad1778d77f4820b0eb1c451355e443a5e031b725058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T07:41:44.925Z",
+      "lastFlagChange": null,
+      "rarity": 57.735,
+      "rarityRank": 5365,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": 66.05,
+        "timestamp": 1670945615
+      },
+      "lastSell": {
+        "value": 66.05,
+        "timestamp": 1670864723
+      },
+      "owner": "0xd26433799ee0e1b615291aa5a0373eaab0c02b80"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x6837d9f92526561f3e607be8ce4f34c2644412b403bce91b446c466a0bd787d0",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "67622400000000000000",
+            "decimal": 67.6224,
+            "usd": 80252.77128,
+            "native": 67.6224
+          }
+        },
+        "maker": "0xd26433799ee0e1b615291aa5a0373eaab0c02b80",
+        "validFrom": 1670946516,
+        "validUntil": 1673538516,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/6162"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "4022",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3f07f79ad9b57ca853e274c8135fd10c4df047fadec6e9d800c507e0ba5e364575ab3d7e08f964fc4aab4a7de82d96b5eedeaf6b10b27445d77425c7948813aff2251c2b43268f712a9cad57c11de1b923fbb50a5c0a8816c900d831e69b77a6f5116e81444090015e2f8a12789683a223c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T07:43:22.832Z",
+      "lastFlagChange": null,
+      "rarity": 42.412,
+      "rarityRank": 8921,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 66,
+        "timestamp": 1670644859
+      },
+      "owner": "0xf1bcf736a46d41f8a9d210777b3d75090860a665"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x1e1ce4669ca910bfe76f798710e63fc23abc236dd8eba395fc057f370e317fa7",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "67670000000000000000",
+            "decimal": 67.67,
+            "usd": 80309.26191,
+            "native": 67.67
+          }
+        },
+        "maker": "0xf1bcf736a46d41f8a9d210777b3d75090860a665",
+        "validFrom": 1671260941,
+        "validUntil": 1671774350,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/4022"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "5943",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3f639d414aefc44498e312c71c87da2c6b8426a070cd14bd475aba87b7fe1b90e9712586ec3e91f3a2872f7f3bdc8299340a290ecced3c8f4f8aecc3d52f003baeb70ca831aed1c9bb828e7565afe42abcac51037a876b954357c8be76faeb9d1086584dc17f96883647e352d9ea7645e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T07:41:56.148Z",
+      "lastFlagChange": null,
+      "rarity": 46.88,
+      "rarityRank": 7956,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": 59.76,
+        "timestamp": 1668195587
+      },
+      "lastSell": {
+        "value": 66.32,
+        "timestamp": 1670361323
+      },
+      "owner": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x23e5faa714c930469832bf111fe96b2cdf4076e5e38495c97df258ef38edbf65",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "67706200000000000000",
+            "decimal": 67.7062,
+            "usd": 80352.22327,
+            "native": 67.7062
+          }
+        },
+        "maker": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236",
+        "validFrom": 1671511243,
+        "validUntil": 1674102571,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/5943"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "6366",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aa76dad100e2ab8af667f52d855029769228a89f91e0cd079d5034989f3dfa5a4c1b4e2f51ac36056eddee15869131b69be0b8759a2c6e6f4308f1f7a878831daa6c6a548c4f55b720e4f38f9a09bf80e4066ac0500ff0b7c47c1eb8a5a52a52f405f87905964409be729412c30ee7696058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T07:41:36.034Z",
+      "lastFlagChange": null,
+      "rarity": 36.915,
+      "rarityRank": 9700,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": 64.2,
+        "timestamp": 1670552639
+      },
+      "lastSell": {
+        "value": 65.49,
+        "timestamp": 1670633291
+      },
+      "owner": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xd836c0ac35b064edd210a24d3ccb0d69b0419a066ae69ddcf77c452df4a77e6f",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "67706200000000000000",
+            "decimal": 67.7062,
+            "usd": 80352.22327,
+            "native": 67.7062
+          }
+        },
+        "maker": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236",
+        "validFrom": 1671511309,
+        "validUntil": 1674102571,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/6366"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "5037",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aaab669bfb8d05d99403809e6d04617c9927833c7fa6f1985b5bf86620027608479d95aaaff73c5806fbf604a7b09e0b4e1687ff7a35be4f30dc85c716930e7a32dc6c294464152817c775cb0f0eec98ae007ed62f44e0210e48ee73b9fd676143e9e429da0b51de14da85f7b12c62fb323c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T07:42:35.576Z",
+      "lastFlagChange": null,
+      "rarity": 62.929,
+      "rarityRank": 4324,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 66.69,
+        "timestamp": 1669447391
+      },
+      "owner": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xe31cb2cf9e16dbb695cad3ad82e53a4c02bb30d2e2eaaed8112e19448c30409c",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "67907400000000000000",
+            "decimal": 67.9074,
+            "usd": 80591.00299,
+            "native": 67.9074
+          }
+        },
+        "maker": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236",
+        "validFrom": 1671511204,
+        "validUntil": 1674102571,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/5037"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "5462",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a8b27f45bf0c7efbfb6c5692eb90f2dfb1ac5e2d1a572bc900964d5884ebdf8059811a98b79f18d9e8552d7d70300f58f8728e22eff2be4a71c34f8bbea6a5ab5dee4b5c10071ee548452f3dcb51c9d9a6c380e2a2916e7dfedd6a8234fde65b319326e554551409ecd7ca3d7d99cf20f23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T07:42:21.263Z",
+      "lastFlagChange": null,
+      "rarity": 42.645,
+      "rarityRank": 8885,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 66.2,
+        "timestamp": 1670867723
+      },
+      "owner": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xcc794242b0b8373d134c822b8a7293c1b1f8e48a7a3ed7d2fe707f971c428149",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "67907400000000000000",
+            "decimal": 67.9074,
+            "usd": 80591.00299,
+            "native": 67.9074
+          }
+        },
+        "maker": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236",
+        "validFrom": 1671511230,
+        "validUntil": 1674102571,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/5462"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "7608",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a00c3bc7828be9bf1f3d1088884f31159ec94aaff780481f2b09d2b83fe9318398b049c34f6654d4f8818063794d273bbcf18e89db106258499590fd4e65ac03835aff293dd13962c499005b88fd658565c1bcbe4829de14c17b1195010654af62e44939dae7b7d0fdcb47a2ff2a6c5c1e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T14:11:23.908Z",
+      "lastFlagChange": null,
+      "rarity": 49.004,
+      "rarityRank": 7449,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": 62.2,
+        "timestamp": 1671293951
+      },
+      "lastSell": {
+        "value": 65.2,
+        "timestamp": 1671309791
+      },
+      "owner": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xb4c4ab729840375510746fc256b3292dcd4c7d7e160dadb1ac5ed2826ec8d20f",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "67907400000000000000",
+            "decimal": 67.9074,
+            "usd": 80591.00299,
+            "native": 67.9074
+          }
+        },
+        "maker": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236",
+        "validFrom": 1671511350,
+        "validUntil": 1674102571,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/7608"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "7829",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeec3181fd306a4161279a4013e27dc126a34ce51d5e1ada50724dba39bc959c2421259d0a6260f13782602bd045d16b116626be3af043373fa12cffaa214a3213e15a5977b679f42dfb9d383bed8a1344d6ac9f02340cb6cb190d3a1162f570a54dd0ba850e26e3e54c0bb2e9b6dd36b23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T14:11:04.120Z",
+      "lastFlagChange": null,
+      "rarity": 48.525,
+      "rarityRank": 7558,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": 80.88,
+        "timestamp": 1647576190
+      },
+      "lastSell": {
+        "value": 66.6,
+        "timestamp": 1670825783
+      },
+      "owner": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xf17e69bdd0173422405c958cefff858ea427a742ac517176a96a7cbffc65ff16",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "67907400000000000000",
+            "decimal": 67.9074,
+            "usd": 80591.00299,
+            "native": 67.9074
+          }
+        },
+        "maker": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236",
+        "validFrom": 1671511363,
+        "validUntil": 1674102571,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/7829"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "9953",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7b6056098ea362a497cea2ad3e47db8345279e6bb60b49318ce9265ea152864cb60e39974960f8947076291dc8b45a51ea7d353505f1a1ea822f18123a380ae3da03a750f8ae29eb5950288781469ba58cc8f1be18c8c8914ef2797eecb59d958ef365a98eaa894e7145a650b408493823c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T14:06:11.771Z",
+      "lastFlagChange": null,
+      "rarity": 49.905,
+      "rarityRank": 7221,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": 65.45,
+        "timestamp": 1670581343
+      },
+      "lastSell": {
+        "value": 66,
+        "timestamp": 1670596103
+      },
+      "owner": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xad829e327b387b140b5a2c47dacd4a4c9b56b9782fa9305b15d294c458856fe9",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "67907400000000000000",
+            "decimal": 67.9074,
+            "usd": 80591.00299,
+            "native": 67.9074
+          }
+        },
+        "maker": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236",
+        "validFrom": 1671511498,
+        "validUntil": 1674102571,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/9953"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "9646",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5949e0f0823a8f517fcccb97b464a720ae4e91db42d105d289f81e5ff0ca67914524e68a3fc94f624f87a0563d9ad7a6ca668b48dbf7e8b4d42cf685857dcc524a4949ccf05384eae562ead809d2db327c228d9b1e1d0bc6f19f3e429eabdd185aee496e9ebece3528e0479310406c9f23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": true,
+      "lastFlagUpdate": "2022-12-20T14:07:24.908Z",
+      "lastFlagChange": null,
+      "rarity": 51.802,
+      "rarityRank": 6728,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 65.1,
+        "timestamp": 1670027411
+      },
+      "owner": "0xba26877c2036e1f2baba63bdd5bfe996b050e13c"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x830779cd659f02397d84281d901d9f931dc562acfa54338120b41b88fa55c32d",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "67990000000000000000",
+            "decimal": 67.99,
+            "usd": 80689.03085,
+            "native": 67.99
+          }
+        },
+        "maker": "0xba26877c2036e1f2baba63bdd5bfe996b050e13c",
+        "validFrom": 1671095050,
+        "validUntil": 1671699849,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/9646"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "2974",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3de0c500df844f442995b96c0f585a357163d6d9d62be7a95228470e4a104434e0f4f41ee822c2cdc270cc2597e9e1574be5aeedc8efede80c97309d93eb9bd8bf1962e18d1da3ec42561f0abcf8d49d6bd1c59b273cf1b83f082155dce0b094b9628fe7100ebbe307a1cd9fbc3d207223c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T07:44:16.347Z",
+      "lastFlagChange": null,
+      "rarity": 62.968,
+      "rarityRank": 4319,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": 64.501,
+        "timestamp": 1667953811
+      },
+      "lastSell": {
+        "value": 67.5,
+        "timestamp": 1670684975
+      },
+      "owner": "0xc4899b8aa371917e382e989078ce22469b822f18"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x14a3c0a4333989c2f22f23538adc209f7d24a34c94b89446144794c95c8bded0",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "68000000000000000000",
+            "decimal": 68,
+            "usd": 80700.89863,
+            "native": 68
+          }
+        },
+        "maker": "0xc4899b8aa371917e382e989078ce22469b822f18",
+        "validFrom": 1671347742,
+        "validUntil": 1673934543,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/2974"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "571",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ac351dce7f6a00c6d718de1ff3255be59c7482497bcacd1a04b0c400cb033ad185fdc0542a741c4498a2dfec5a403293cd5b8a08858fadb51504ec98f94277c01bd9fb9ed8e52c208626e1b1dfcf4846c277a81c8f408644be221611ba10c6cd1d1e87d1ce29dab8a34a75aa5317ed0ba058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T07:46:18.236Z",
+      "lastFlagChange": null,
+      "rarity": 36.729,
+      "rarityRank": 9720,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": 65.2,
+        "timestamp": 1671177359
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x8d264240d382becf3b6aeb4e1d3ae60f21b494787063c8ee1e87cfa7cef01fa2",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "68008000000000000000",
+            "decimal": 68.008,
+            "usd": 80710.39285,
+            "native": 68.008
+          }
+        },
+        "maker": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236",
+        "validFrom": 1671510909,
+        "validUntil": 1674102571,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/571"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "3139",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7b146adbdec2f51bc8b0444e454ddf67924ff741cf5eece7867afb2b4847271e0a1fc14d8a5889c340cd139077d41406c7cedf78866b431ced5dc0c441c75c6b1e5f40a95aa5ccbb8e3bbb627b5fdfcc04f0d1ddea598c8ba9aec9d09568d2f017dbdc3083f3dc53f5a3ccae7cdb8579058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T07:44:04.708Z",
+      "lastFlagChange": null,
+      "rarity": 47.132,
+      "rarityRank": 7902,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": 65.1111,
+        "timestamp": 1671277739
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x7e06fe7b77d58aba06c6c1e2860c7d4930464150d947e87464adeafc5b1fd28f",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "68108700000000000000",
+            "decimal": 68.1087,
+            "usd": 80829.90139,
+            "native": 68.1087
+          }
+        },
+        "maker": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236",
+        "validFrom": 1671511083,
+        "validUntil": 1674102571,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/3139"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "1814",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75acf9e6b85275b8588e33a2c9587715993bc91ff8290a854b7f1efaad475613d01b9967a252041f20aafdc16f387237a22fba525e3197b47b4a80727aa07dee659e2c08e3724637317472f62214ed5da5c58ee0b762b6993e8dc004c15233aaa376d90ff2805d9f3e6301806b2f23d488e23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T07:45:07.743Z",
+      "lastFlagChange": null,
+      "rarity": 47.086,
+      "rarityRank": 7914,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": 63.09,
+        "timestamp": 1671114419
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xa33006d83c60828cbc9dcf8987c03beb289725abadd369a75af0a1bcd8fedbb5",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "68209300000000000000",
+            "decimal": 68.2093,
+            "usd": 80949.29125,
+            "native": 68.2093
+          }
+        },
+        "maker": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236",
+        "validFrom": 1671511032,
+        "validUntil": 1674102571,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/1814"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "2505",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a6dbc3d3c9f03542d99e5a667da1c835daaf1d1cbfbe240ea59fa9413c58eeb9dcd4257d0bd1e3a2b464b71c73bbdda818d8fbba0fabfda0bc42aa62ece561bc0f0a421428499ff7c938fd8fcd88a243c1630d3eb68a91a661734b35de1c9d0e1965e8628c60b6eba03d1e8184201c7b2e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T07:44:37.714Z",
+      "lastFlagChange": null,
+      "rarity": 33.725,
+      "rarityRank": 9911,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": 64.6464,
+        "timestamp": 1671266783
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x0e2be4d59baa9d4d294f465fac9ae0e3cf98ffa0e71685cad1b41b6f2a6b1b2f",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "68209300000000000000",
+            "decimal": 68.2093,
+            "usd": 80949.29125,
+            "native": 68.2093
+          }
+        },
+        "maker": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236",
+        "validFrom": 1671511045,
+        "validUntil": 1674102571,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/2505"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "9168",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a0fb84bec287eddd1d02672a55964b3efa856d21d6f9aa7420f1c313d5a09a2d7b677d93b5f992856bea4829506155026af3fc589996eadb03dce914cb73003569076c4e90a6c03d6996313e210b928536726f9474f5a75c85915319e5141474b7cc4acf53b8513656453bf65ddca1e9c23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T14:08:09.354Z",
+      "lastFlagChange": null,
+      "rarity": 49.465,
+      "rarityRank": 7320,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 66,
+        "timestamp": 1670570399
+      },
+      "owner": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x994ecd761da1ef5859c0e807d22a805ced4fd0042d71cb1930b540c5d2ed1d0b",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "68209300000000000000",
+            "decimal": 68.2093,
+            "usd": 80949.29125,
+            "native": 68.2093
+          }
+        },
+        "maker": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236",
+        "validFrom": 1671511432,
+        "validUntil": 1674102571,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/9168"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "3683",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a73e6e30562d2602ca539e335318ff1e8614c4df852cb240c24ea529579e85769cfbc9af52b5433b29f00fcab4e99271212c5a54cf036c8e7f374da7784b497614f18d677d31f6943a0937ff31a62892dd5d4b3a3139e8b55a09733101023bd89acca91edcbb9654f4e9ed73cba125fac058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T07:43:37.326Z",
+      "lastFlagChange": null,
+      "rarity": 40.286,
+      "rarityRank": 9278,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 65.8,
+        "timestamp": 1671318035
+      },
+      "owner": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x16bc0e6a7e1187b42de5f3509efd46956c7c83bf3c3eb44a331cf44a9c3d4ee2",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "68309900000000000000",
+            "decimal": 68.3099,
+            "usd": 81068.6811,
+            "native": 68.3099
+          }
+        },
+        "maker": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236",
+        "validFrom": 1671511151,
+        "validUntil": 1674102571,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/3683"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "5292",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4236eb3d7db7c6fb2f66e3bc524771f681b33fc06675d5ec71c969997ccf804acaba5be380fd554f00d4c24d850aafff563e08242616247db9f248e6052ccc456fec29bf524ca20bc31481548207d156fc8cd84142cc76a456535bc0fb4d02c1a59715f5ebef5911765576319fbae866058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T07:42:26.199Z",
+      "lastFlagChange": null,
+      "rarity": 52.029,
+      "rarityRank": 6679,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x4fd0f66c0a92046a65f2afcbf0c8a585aee575c9ba3eec49ae3d316efe071bb0",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "68309900000000000000",
+            "decimal": 68.3099,
+            "usd": 81068.6811,
+            "native": 68.3099
+          }
+        },
+        "maker": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236",
+        "validFrom": 1671511217,
+        "validUntil": 1674102571,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/5292"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "9712",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a441f9f3ce67c0697e5c26fa2ea875e69e482848edde8a476a6570f081277f18bf2a5537301bf6bcf241c4109304ae43fb4b74a4fa6874dd16cb1b20e6741889c640e9de77e6e78be102bed6895852f12f8ab7c5a12de485133cbb3c30f9194b654c4bb68e4c6c41cfa04db5814bc1eac23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T14:07:19.029Z",
+      "lastFlagChange": null,
+      "rarity": 37.354,
+      "rarityRank": 9663,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": 64.21,
+        "timestamp": 1671542507
+      },
+      "lastSell": {
+        "value": 64.2,
+        "timestamp": 1671461435
+      },
+      "owner": "0x6c8ee01f1f8b62e987b3d18f6f28b22a0ada755f"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xc0e57d38fbc226fb11bc42776642971e3fdac30d7b34cb5b2420506a4fff9fc0",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "68367300000000000000",
+            "decimal": 68.3673,
+            "usd": 81136.80216,
+            "native": 68.3673
+          }
+        },
+        "maker": "0x6c8ee01f1f8b62e987b3d18f6f28b22a0ada755f",
+        "validFrom": 1671036369,
+        "validUntil": 1671641169,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/9712"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "3412",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5bfaf9f2c533fcb6fd4b9122f2bd1692a5ca913678970586d239eeb6cbd4427784b7604739d527acb14eca394788be8c94e90e8680035bb2604481b1b317fa308471ce258acf3e6bcc01c9d59c6934fe45541dd2d71dd9c0c16d25d27aa1cd00f80e2d344d062f10cddeb3830653a573e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T07:43:51.223Z",
+      "lastFlagChange": null,
+      "rarity": 45.36,
+      "rarityRank": 8298,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x7ed543ed946335332f0f53cb8bd6cfa3c7f0e3c02467bf003a7d7b9df2dace21",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "68410500000000000000",
+            "decimal": 68.4105,
+            "usd": 81188.07096,
+            "native": 68.4105
+          }
+        },
+        "maker": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236",
+        "validFrom": 1671511109,
+        "validUntil": 1674102571,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/3412"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "4930",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a0459e8039b417d71230248b270af8f3a582778a2d2b8a743dea463797253055c36f87aafd72e9ee3ef69c41a2d2bb80bdafc268748361cc77794b34441538f95eec8a09e5e59608a120b7082f10e6c3d7cf20267938813900b983fc0a4896965f24a06769faba95395549fbd312e983ce1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T07:42:41.685Z",
+      "lastFlagChange": null,
+      "rarity": 50.119,
+      "rarityRank": 7164,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": 84.5,
+        "timestamp": 1656449742
+      },
+      "lastSell": {
+        "value": 84.5,
+        "timestamp": 1657242179
+      },
+      "owner": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x82e8e26f93f827345a80adf3b529fda3a60fc45c2cd03dc2dc3caab75c8a4948",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "68511100000000000000",
+            "decimal": 68.5111,
+            "usd": 81307.46082,
+            "native": 68.5111
+          }
+        },
+        "maker": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236",
+        "validFrom": 1671511190,
+        "validUntil": 1674102571,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/4930"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "9615",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a91caab8a2aad0e56144e315ad57429d2dfeffeb172bd479bc5f9687399b2b7c11ba4eaba2ebfa298f8ac40b7e7053de686e9b98671879e591a41efaec239eaea4c50330bc04c3882a5a7b999d01d446af47ce85d69745f6067db48fa143e9587e5b3cdee398dbea02691e7127ced13e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T14:07:26.901Z",
+      "lastFlagChange": null,
+      "rarity": 59.074,
+      "rarityRank": 5072,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": 63.07,
+        "timestamp": 1671103427
+      },
+      "lastSell": {
+        "value": 63.63,
+        "timestamp": 1671115247
+      },
+      "owner": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x471bf879bd15b661b50b4cace6c9f6f49a3a80fbd84f584d62f66f28c7e528b2",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "68511100000000000000",
+            "decimal": 68.5111,
+            "usd": 81307.46082,
+            "native": 68.5111
+          }
+        },
+        "maker": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236",
+        "validFrom": 1671511458,
+        "validUntil": 1674102571,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/9615"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "9617",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7450d3ec087d3bcc8585ccc99af317abdc9e9e1621b6763c23b13e6f77350b04a7afdc957aeead31a3caddb4851863d53dc756f2abaffcba45da8ee42a5f36df957b754167d3194dad0582595b9ed8e732de16ad5a30bd63a5d6eb6fd8542286f2fc46e3b6f12fb55d690ed4ad2216e223c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T14:07:26.715Z",
+      "lastFlagChange": null,
+      "rarity": 70.608,
+      "rarityRank": 2997,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 67.5,
+        "timestamp": 1671348563
+      },
+      "owner": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x95d2d4f5e644cb1e8c72ce1a9e89011fc19e5a306db541060a6015a492ade5d9",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "68511100000000000000",
+            "decimal": 68.5111,
+            "usd": 81307.46082,
+            "native": 68.5111
+          }
+        },
+        "maker": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236",
+        "validFrom": 1671511471,
+        "validUntil": 1674102571,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/9617"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "1347",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae3b7931d8dc9482cffd33672bd29298eefd8c142c02043762f726fecc3c2a3a41b10c43db346a0851e967f8fda1340b537e03701392c9440fe806aa5811829e7719be727445cb929f46d31eb0dce0309513a951238f91610035e27a544b40a7a8b05ac8f2d69a6a5a4e480af28694567e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T07:45:28.557Z",
+      "lastFlagChange": null,
+      "rarity": 52.39,
+      "rarityRank": 6578,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": 65.5,
+        "timestamp": 1671242687
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x39da448083bedc94c7ce519babe99b6725aefb2cec89bb8236487353710fca6b",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "68611700000000000000",
+            "decimal": 68.6117,
+            "usd": 81426.85068,
+            "native": 68.6117
+          }
+        },
+        "maker": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236",
+        "validFrom": 1671510967,
+        "validUntil": 1674102571,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/1347"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "3851",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a15f2100ae81c879e67618cdc8be462f07fba2e1391fe46c5c1107c9d647ac545e99dbf2878d29f863d7724f2863857efe9f660a5a26456e7fbf90a28e083c9acd635dd592db368eade7e61fd6ff7f0cc4bd1b69aa2d63635f5b5d2f9a14e055fd751108d8089e626acf0cc87e092a20f23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T07:43:29.098Z",
+      "lastFlagChange": null,
+      "rarity": 50.111,
+      "rarityRank": 7168,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": 64.01,
+        "timestamp": 1670485667
+      },
+      "lastSell": {
+        "value": 68.5,
+        "timestamp": 1670524763
+      },
+      "owner": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x6baddcd88c00bbb683172a0a311cdc8537f461458382064f03364864c7fc92c5",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "68611700000000000000",
+            "decimal": 68.6117,
+            "usd": 81426.85068,
+            "native": 68.6117
+          }
+        },
+        "maker": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236",
+        "validFrom": 1671511164,
+        "validUntil": 1674102571,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/3851"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "4221",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adcaba723247c21670acf9bf8a73fafebbc8aebe12b1dde1daf275e3d32565926bc59886cb1ea79f71005f3813414b386c596b0cb064166bc4e081e1a7da69e24758c1b1c256f2121c9f51d85f14024296de719b56549561d93ff8d3596f075bfb166731813060162476e7e2331451af123c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T07:43:14.547Z",
+      "lastFlagChange": null,
+      "rarity": 47.535,
+      "rarityRank": 7805,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": 69,
+        "timestamp": 1669666079
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xacdaeeb57ff6886fc8e203b9dd4c2b241df89b7a"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xf9173cb50990f896e10439600b87e3b9b002d1d6c2ceff962c95dc901fce603b",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "68694200000000000000",
+            "decimal": 68.6942,
+            "usd": 81524.75986,
+            "native": 68.6942
+          }
+        },
+        "maker": "0xacdaeeb57ff6886fc8e203b9dd4c2b241df89b7a",
+        "validFrom": 1671530955,
+        "validUntil": 1671617355,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/4221"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "5577",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a88923b8fccf48d0e74243491eaf05a3f4512a20bc638e8af1247e9b6507fe0421c2b3f9596c93a7d8afd6cea659d435140c81243ea0810c970c4873229264dbca2db29175d2640b35aa4480f0b12266cba1be5638ab46fc6e85bd992b79aef979f81b2275fd9d78aaeca64085ba5912923c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T07:42:15.626Z",
+      "lastFlagChange": null,
+      "rarity": 38.016,
+      "rarityRank": 9595,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 68,
+        "timestamp": 1670790311
+      },
+      "owner": "0xacdaeeb57ff6886fc8e203b9dd4c2b241df89b7a"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x869a96accde33bc7688142fee79a036a6deb461e0dd4d83c72b183f1c59455f1",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "68694200000000000000",
+            "decimal": 68.6942,
+            "usd": 81524.75986,
+            "native": 68.6942
+          }
+        },
+        "maker": "0xacdaeeb57ff6886fc8e203b9dd4c2b241df89b7a",
+        "validFrom": 1671530813,
+        "validUntil": 1671617170,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/5577"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "57",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a8a1eb1052be65bbc7df8a899b5d2f767b70c89415aac48111524752edad63084258e005fa413688733b7085524ec36d39ca858e80e7e23aecd12bebcea6f9f4e388e79a2e39f99d69f50913764a304d298911e4f9bf7be6c8d650c2480d21f22f10471e05128c214fecb2eacdff275c123c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T07:46:47.172Z",
+      "lastFlagChange": null,
+      "rarity": 69.529,
+      "rarityRank": 3171,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 61.88,
+        "timestamp": 1669121615
+      },
+      "owner": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x2871e9a9122906c6b836ce3f91a2153a4f4b4c0d86d3356c4a02ffb10751b924",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "68812900000000000000",
+            "decimal": 68.8129,
+            "usd": 81665.6304,
+            "native": 68.8129
+          }
+        },
+        "maker": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236",
+        "validFrom": 1671510876,
+        "validUntil": 1674102571,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/57"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "1894",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a07d335ac24cf6a86fefeb94d8f0071427a1c4a53f7499b40e82961fb2b5ff8658e0c31195d471d51f438a2ce29664cdf2e4bbd95a8f26d34462ef092899cee0abcf25b1b8dca9da1ab2fa25fbd35a1f7c9eb9ee9b4b93bf87ef52a73ccfaf9daad68550ebb7514b6779ba086ef2bd46523c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T07:45:03.467Z",
+      "lastFlagChange": null,
+      "rarity": 40.096,
+      "rarityRank": 9312,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x674988b5a86384687c6ae14b616386ad084bc407"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xde035a95fbac332440220ea5232ca03e8e49b26a5a60b88b47d103379ab76848",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "68850000000000000000",
+            "decimal": 68.85,
+            "usd": 81709.65986,
+            "native": 68.85
+          }
+        },
+        "maker": "0x674988b5a86384687c6ae14b616386ad084bc407",
+        "validFrom": 1671148744,
+        "validUntil": 1673438414,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/1894"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "5167",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab28a476969623d2809ed111b3e2a4c9116686642b019a3a22fec31291de34c3055e59b9c29ff01867216391dc682bfe11ebcace8222d9104a3ad16fdeab68b60e6b0b4a42d2f1b9205093e0976435ebf6248ceea2128a62bdf86bef80426f15be3499649965957cf9b1849d82cb9f64f058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T08:24:11.208Z",
+      "lastFlagChange": null,
+      "rarity": 74.167,
+      "rarityRank": 2467,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xeee01a25d93d55d637498598537b75acf70ecd31"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xf57a420c9b2da7da8047bf28b4a339d24526db660cc5096e78aaa4fe9b198441",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "69000000000000000000",
+            "decimal": 69,
+            "usd": 81887.67655,
+            "native": 69
+          }
+        },
+        "maker": "0xeee01a25d93d55d637498598537b75acf70ecd31",
+        "validFrom": 1671153130,
+        "validUntil": 1671757930,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/5167"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "328",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a41a44458e79b28f2ea45efc78e4fc7547cce3004376a8a25c08c64793fe5b56d5088f50af5f8a6dea3ac791d2a952e4bf013e9ad0692fe99d311419ccd9125aeaccad98292a242fd20dde1d946d4498b89816369ed9ac2673d7c7a5e9dfe0a9c0c0e19a2a706155e753d391566ff28e623c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T07:46:33.645Z",
+      "lastFlagChange": null,
+      "rarity": 55.446,
+      "rarityRank": 5864,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": 65.11,
+        "timestamp": 1671323471
+      },
+      "lastSell": {
+        "value": 66,
+        "timestamp": 1671505607
+      },
+      "owner": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xafe6885653c28489314c4142a2edbb2c6d3f5105203b5c02bf92e71f0fc364ba",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "69315900000000000000",
+            "decimal": 69.3159,
+            "usd": 82262.57969,
+            "native": 69.3159
+          }
+        },
+        "maker": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236",
+        "validFrom": 1671510894,
+        "validUntil": 1674102571,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/328"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "7465",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a64d58d7dfe32434c9face4c6d224ae5a189cfc3d5e6448f98abe11c83e6054d1fc73c28e3b86d63f877a2f69bb869b4500d9634a198c3d0b8406afff68e1ef224a32748d469f84f4240e1ee43bf25a96639a872b5e5cd2436539ca14e096c9d4c0abe0ecfbf7dbeba12a4ccdc207e9cb058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T14:11:34.171Z",
+      "lastFlagChange": null,
+      "rarity": 51.569,
+      "rarityRank": 6789,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 68,
+        "timestamp": 1670773979
+      },
+      "owner": "0xbe1db1dc16341f7ed608753d94583c458ff4098f"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x2d56ab68a597cd62deaaeb41a029326380df5a0e45150093038c32d7a9bbb7d5",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "69377600000000000000",
+            "decimal": 69.3776,
+            "usd": 82335.80389,
+            "native": 69.3776
+          }
+        },
+        "maker": "0xbe1db1dc16341f7ed608753d94583c458ff4098f",
+        "validFrom": 1670975498,
+        "validUntil": 1671580299,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/7465"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "9744",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a16198aaa352e2e127466ec9fdf809a78c87f7650027affa17d389017b22eaa715e49bb815b5d4b37d17c1c11a01893d6bdcc26a914c3d3512d4a0150a85b3421f1e8d6a922b057b57270f3420811b6322a2e8a9d73ad40c0da3e12aac2247e7a853dcfce8faefe5845bd2e16b8630df023c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T14:07:15.430Z",
+      "lastFlagChange": null,
+      "rarity": 41.356,
+      "rarityRank": 9105,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": 56.25,
+        "timestamp": 1671477119
+      },
+      "lastSell": {
+        "value": 56.25,
+        "timestamp": 1671480875
+      },
+      "owner": "0xb40e7dcc9855efe6dd0502ae01c7cbf301b1424a"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x755e4402ed838204ef5bab04ddbe2f71cde7c8b79db77c9388b4b9c37bf175ea",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "69387800000000000000",
+            "decimal": 69.3878,
+            "usd": 82347.90903,
+            "native": 69.3878
+          }
+        },
+        "maker": "0xb40e7dcc9855efe6dd0502ae01c7cbf301b1424a",
+        "validFrom": 1671503265,
+        "validUntil": 1671589664,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/9744"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "1325",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a6bb588a22d29d4e04be02772531df464941be73abd284444fda72a9c1481f0cf73c8896b6b6be798079bc0896032c78e51c87fbcce3af4a338e72c2bf8aba94a368944b04e5894b63d784df3c45c49ed8b09aa89445b1c8a84a9bcda80966ce2eb6d30107c7aadf2a1066299a0a80beae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": true,
+      "lastFlagUpdate": "2022-12-20T07:45:29.992Z",
+      "lastFlagChange": "2022-12-17T06:49:58.144Z",
+      "rarity": 30.889,
+      "rarityRank": 9980,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": 65.45,
+        "timestamp": 1671249947
+      },
+      "lastSell": {
+        "value": 59.69,
+        "timestamp": 1671307427
+      },
+      "owner": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xc344f0c395799ffc87ba2462f00ea47a95f9a683d10c5c17557fbbd6549a734a",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "69416400000000000000",
+            "decimal": 69.4164,
+            "usd": 82381.85088,
+            "native": 69.4164
+          }
+        },
+        "maker": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236",
+        "validFrom": 1671510953,
+        "validUntil": 1674102571,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/1325"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "3634",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ad3aeced3ac34a978732c485b6cd7598e88f3cdfe3c381431309ad28b219392764bed0e7696856b3bfbf43b66ac06366faf7acfcc40d9e808538e201ed2af446fe16dc224cf1a1204b73b21bf19e33fe0001e0691bdb5f5cbf83c22109d9abb1b71b992d0387912ee906fa654f0e06f44e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": true,
+      "lastFlagUpdate": "2022-12-20T07:43:40.517Z",
+      "lastFlagChange": null,
+      "rarity": 38.167,
+      "rarityRank": 9581,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": 56.7,
+        "timestamp": 1667493083
+      },
+      "lastSell": {
+        "value": 56.5,
+        "timestamp": 1668564311
+      },
+      "owner": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x46047c2eb02ffb4caef386fa6413caa16d58839bffb6b70482acd6f57aa6c9cb",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "69416400000000000000",
+            "decimal": 69.4164,
+            "usd": 82381.85088,
+            "native": 69.4164
+          }
+        },
+        "maker": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236",
+        "validFrom": 1671511138,
+        "validUntil": 1674102571,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/3634"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+"category": ["Animal", "Monkey", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "4651",
+      "name": null,
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ac1e39480612c4fa3d077168e42a5198361a9535e6140b0aecb3072b030ee50b125126c3ec03d5ddc325635623fb9e288e304e9ff6cdbc0a6ca86d43678ad016aa12a03e8ee9a19855afac6ef7dbb581db6208cbee993de9f95ce7c530e28f8aa002076c60d7e5555bef0576cc427db1ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": true,
+      "lastFlagUpdate": "2022-12-20T07:42:55.310Z",
+      "lastFlagChange": null,
+      "rarity": 46.852,
+      "rarityRank": 7964,
+      "collection": {
+        "id": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "name": "Bored Ape Yacht Club",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba548cc4b935f736af3635e348b6a2d9c8f5ecb91749e3d0db1afe2c564e23f79f112c4d443d8512b276961756757bf042663729dcf833bdef4bc2ebbba9a1f6449356a2812f60ca5cd147e3968cdb26da731b785da2bddddc77ccd728e7e17367dd1418d4f7468049b3d378d0243c55058ed9feecb44e991ea6b299d1f7ae6c",
+        "slug": "boredapeyachtclub"
+      },
+      "lastBuy": {
+        "value": 73,
+        "timestamp": 1664568971
+      },
+      "lastSell": {
+        "value": 56.49,
+        "timestamp": 1669222223
+      },
+      "owner": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xe6da98fa6b9eaf59bc4b55241f220f546d77ebf7b295473d31d0a10d05608562",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "69416400000000000000",
+            "decimal": 69.4164,
+            "usd": 82381.85088,
+            "native": 69.4164
+          }
+        },
+        "maker": "0xed2ab4948ba6a909a7751dec4f34f303eb8c7236",
+        "validFrom": 1671511177,
+        "validUntil": 1674102571,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/4651"
+        }
+      }
+    }
+  }
+]

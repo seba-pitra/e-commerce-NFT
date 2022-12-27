@@ -1,0 +1,3452 @@
+[
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "6222",
+      "name": "BYAC #6222",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ad3fddc71020e9d832337f093672ed9623a3080c5da8726ec83d55fda52dc927d77b23a86beae6a433842f8fc7f8ad6de688445165e585d0806aba73e451801d6d09cb1be604527e3b6c41e1b2ac246f8960b378c58aa8e4b9a34eeabd83366bb8f99aba6dfaf15f7f5a8d979073f780623c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T13:34:17.006Z",
+      "lastFlagChange": null,
+      "rarity": 61.594,
+      "rarityRank": 5393,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.0111,
+        "timestamp": 1669489355
+      },
+      "owner": "0xb39a6b4cb933aab3c30da765acf26c4c00a4bf11"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xd810063d3a735864353812b66127668c3f5857065f108664dc62c77bb6be9efd",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "17000000000000000",
+            "decimal": 0.017,
+            "usd": 20.17522,
+            "native": 0.017
+          }
+        },
+        "maker": "0xb39a6b4cb933aab3c30da765acf26c4c00a4bf11",
+        "validFrom": 1671483492,
+        "validUntil": 1672347480,
+        "source": {
+          "id": "0xdc28ffaea1f91a88fb6fd0a8fe70d71bdd64284c",
+          "domain": "x2y2.io",
+          "name": "X2Y2",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/x2y2-logo.png",
+          "url": "https://x2y2.io/eth/0x5802c586f657c787902280ac091d81832d7faf84/6222"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "1991",
+      "name": "BYAC #1991",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab5f4f899d01d140b4c31338814cf4ba083e0d8eb419da4de4ce430e89c4f278bd560a5b4141b33b7d8c3f2896778be569c1ee41c7b675f115b1c9972848b606575f667f126270acdd53774dc240b94cc39dcaa6f5c11139a00f755863a4a7cd6dcadfed53cd07ec3179a26f9a16545a923c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T13:33:40.610Z",
+      "lastFlagChange": null,
+      "rarity": 56.075,
+      "rarityRank": 6172,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.02488,
+        "timestamp": 1670151947
+      },
+      "owner": "0x59ec4782912fbd4a1547b6ebe50b922cc408bda1"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x3b361cf26870d06861f2fe3eedc2ca0159a8421ab7b242da4404544d84117e16",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "17500000000000000",
+            "decimal": 0.0175,
+            "usd": 20.76861,
+            "native": 0.0175
+          }
+        },
+        "maker": "0x59ec4782912fbd4a1547b6ebe50b922cc408bda1",
+        "validFrom": 1671547605,
+        "validUntil": 1672152405,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x5802c586f657c787902280ac091d81832d7faf84/1991"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "441",
+      "name": "BYAC #441",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a0c8498418a39ff02708bd98ca61e6f43d1ee215b50770e52351a352b989284745d04f20c228485b319db5b8a6402e89f78c41e404274dd7f4f8eba02ae23289d4599aa992be85dd384ff733efbf1d6eb9e90ce687edd2f0cf22b9d0c5c5b6d6bb0619efec0d68fdf22238243a23005f923c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T13:38:53.357Z",
+      "lastFlagChange": null,
+      "rarity": 63.12,
+      "rarityRank": 5029,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": 0.034,
+        "timestamp": 1669214747
+      },
+      "lastSell": {
+        "value": 0.012,
+        "timestamp": 1669477775
+      },
+      "owner": "0x77494f28b8ab693a7c1d48947f8d09990ce23dff"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x464af6b5cbf58635d2dcd3d5f1d7943c733f2ae63cf0e61763c229b854ab2000",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "17800000000000000",
+            "decimal": 0.0178,
+            "usd": 21.12465,
+            "native": 0.0178
+          }
+        },
+        "maker": "0x77494f28b8ab693a7c1d48947f8d09990ce23dff",
+        "validFrom": 1671528948,
+        "validUntil": 1674207348,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x5802c586f657c787902280ac091d81832d7faf84/441"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "4325",
+      "name": "BYAC #4325",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75afd30fcc0bd5dc628f44079e1e28b48250e436c5e6418adac7d4e3614ac343eaf16f320f2fe3623314927632565096f7a8d4f0add3703b465628d45f8aa581399b19ae61ecabbbdc477ea8edd596444091db589fdfde00e16c3a7edb2e61f476c034e119c75bed65230383f28c65ce96323c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T13:35:54.019Z",
+      "lastFlagChange": null,
+      "rarity": 61.711,
+      "rarityRank": 5374,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": 0.0115,
+        "timestamp": 1670847131
+      },
+      "lastSell": {
+        "value": 0.01477,
+        "timestamp": 1669133027
+      },
+      "owner": "0x917660a684d89f4713d2e22054fec8ea2e29c11a"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x5859a1e012568e7a788b729be116260915e16785fa7356a924287a5ea7d97328",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "17800000000000000",
+            "decimal": 0.0178,
+            "usd": 21.12465,
+            "native": 0.0178
+          }
+        },
+        "maker": "0x917660a684d89f4713d2e22054fec8ea2e29c11a",
+        "validFrom": 1671471838,
+        "validUntil": 1672076629,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x5802c586f657c787902280ac091d81832d7faf84/4325"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "6393",
+      "name": "BYAC #6393",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ea9c17d12a2ef75d63c1de4d4d53fae27b5bee972b6bae118bd0a4026fdb309d443850edee860f336d18f314d0b639c7d7e3409b482edb63ccff0455f06c7e4ce34be3b85cf038a80f326946d144e06dce5f32afaccceb21d70a6f5969841960e41af3b66783eddcd882c6af8b1cb7b058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T13:34:10.258Z",
+      "lastFlagChange": null,
+      "rarity": 54.831,
+      "rarityRank": 6554,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xb39a6b4cb933aab3c30da765acf26c4c00a4bf11"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xe62493509de03c8d54c2535d459ad00cfd30f60612cf4c94d6780c94a5f891ad",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "17800000000000000",
+            "decimal": 0.0178,
+            "usd": 21.12465,
+            "native": 0.0178
+          }
+        },
+        "maker": "0xb39a6b4cb933aab3c30da765acf26c4c00a4bf11",
+        "validFrom": 1671483492,
+        "validUntil": 1672347480,
+        "source": {
+          "id": "0xdc28ffaea1f91a88fb6fd0a8fe70d71bdd64284c",
+          "domain": "x2y2.io",
+          "name": "X2Y2",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/x2y2-logo.png",
+          "url": "https://x2y2.io/eth/0x5802c586f657c787902280ac091d81832d7faf84/6393"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "2957",
+      "name": "BYAC #2957",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ac3fb5234f8c85736ca50c19aa88988ef2cdae8ad275b8ba7d0852302ba9bc385b7113da3bd6de401182b7ef6e5ad1cfb74a2d0c16f97587f5d7f5e0e5ae0c09e8a62b7e56132e54f12e5d5a9b31d77a27c6eb8dc048563ea6fa489599c719103fe53c72b990d9c7ca342730e2903372423c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T13:36:59.842Z",
+      "lastFlagChange": null,
+      "rarity": 61.753,
+      "rarityRank": 5368,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.02,
+        "timestamp": 1669670099
+      },
+      "owner": "0x8f9293e1c954468bcd714bf1faf249ddbedde2d2"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x71eb1308510183f6bcb1bc161075a6fe4ded1b468327485afb8b72bf9b61d734",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "18800000000000000",
+            "decimal": 0.0188,
+            "usd": 22.31142,
+            "native": 0.0188
+          }
+        },
+        "maker": "0x8f9293e1c954468bcd714bf1faf249ddbedde2d2",
+        "validFrom": 1671536707,
+        "validUntil": 1671609329,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x5802c586f657c787902280ac091d81832d7faf84/2957"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "13",
+      "name": "BYAC #13",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a803bfeb39d5b5723d51eaade0f01a3669fbdeeb9b2a2f14ca14bb2258633bd154424167c5a8ac85a669af5e07cca547e4a9a2687d21d81e401bb52ad9d68431d86f59da783b4ad45c8a2aa23bac64f2d7da4d49210829ef4d566b3790222f2d7622e225f4f80b346fa5865d4a3f0ae5023c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T13:39:12.655Z",
+      "lastFlagChange": null,
+      "rarity": 65.374,
+      "rarityRank": 4272,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": 0.01111,
+        "timestamp": 1671484403
+      },
+      "lastSell": {
+        "value": 0.025,
+        "timestamp": 1669161575
+      },
+      "owner": "0x60ddb78e0e92dcf3d325c4b8e60945c81c055d77"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xa1887e2b48f23fb7baf62c7acd8433e1e9346dc63e9fcc9b316b5e529e48c535",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "18900000000000000",
+            "decimal": 0.0189,
+            "usd": 22.4301,
+            "native": 0.0189
+          }
+        },
+        "maker": "0x60ddb78e0e92dcf3d325c4b8e60945c81c055d77",
+        "validFrom": 1671541140,
+        "validUntil": 1674189934,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x5802c586f657c787902280ac091d81832d7faf84/13"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "3071",
+      "name": "BYAC #3071",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a30e949ee069d4ae3e833e5741fb0f05435830565dfc11504b73c281bca71c1e5825fc1b36fc9663e04e1b499ffc8a89af1557771e973764fa6fd0ec78c2167320a8c8ba128e712471d8103a7defd5d02cdcf403e00b098069b3fa43faf17eb42d361543cd7aa949136d9c6ec6bfca95923c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T13:36:53.816Z",
+      "lastFlagChange": null,
+      "rarity": 59.402,
+      "rarityRank": 5623,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.0313,
+        "timestamp": 1670248211
+      },
+      "owner": "0x8a58f89cd7a2cdfd167ed99d2ff7139fa723aac8"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x7f6b59eb36a706f0b8a1eb40ff51df81b758399feab24b2cdbd9d38993b9832f",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "19400000000000000",
+            "decimal": 0.0194,
+            "usd": 23.02349,
+            "native": 0.0194
+          }
+        },
+        "maker": "0x8a58f89cd7a2cdfd167ed99d2ff7139fa723aac8",
+        "validFrom": 1671537464,
+        "validUntil": 1672142261,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x5802c586f657c787902280ac091d81832d7faf84/3071"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "2308",
+      "name": "BYAC #2308",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a8c84fcb239c70ec0d3b7ac1563cbfe4dc139a1100b3cf98a7424de9c1b41efab9df9d59a3145be92c584bbe0eea5c56eea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T03:17:40.828Z",
+      "lastFlagChange": null,
+      "rarity": 67.203,
+      "rarityRank": 3690,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.0225,
+        "timestamp": 1670302571
+      },
+      "owner": "0x2e00846592959fe73c57d57860cc9d175744711e"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x20b92b3894a860cdad0f68ef64de9e9d61c0ed60cd31a511e3371a98be436a47",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "19500000000000000",
+            "decimal": 0.0195,
+            "usd": 23.14217,
+            "native": 0.0195
+          }
+        },
+        "maker": "0x2e00846592959fe73c57d57860cc9d175744711e",
+        "validFrom": 1671430928,
+        "validUntil": 1672983540,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x5802c586f657c787902280ac091d81832d7faf84/2308"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "386",
+      "name": "BYAC #386",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ad8ad22faa84ab81dfe0ac1a96f0d0996ad97279e1fda7e7f98336898b1563e6fccd32564333da7268a6b0c390a37a9f75904754b75f25f3a224aeda3f5dfd1c1d151c45503828b56cbb56655b6386f9709588747ccfc017c04d830078dd816810b7ef530880a23da50b9817c0621d03fe1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T13:38:54.536Z",
+      "lastFlagChange": null,
+      "rarity": 55.93,
+      "rarityRank": 6204,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": 0.01,
+        "timestamp": 1671405167
+      },
+      "lastSell": {
+        "value": 0.01,
+        "timestamp": 1671429575
+      },
+      "owner": "0xe953863a6f5317b8d226ab07cbae97f6b63a0373"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x6ccdf7e07858efa25c99e725b56e07ccd0e257920678fe82b6dc17e094c21395",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "19800000000000000",
+            "decimal": 0.0198,
+            "usd": 23.4982,
+            "native": 0.0198
+          }
+        },
+        "maker": "0xe953863a6f5317b8d226ab07cbae97f6b63a0373",
+        "validFrom": 1671528406,
+        "validUntil": 1672133207,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x5802c586f657c787902280ac091d81832d7faf84/386"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "2801",
+      "name": "BYAC #2801",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7a3481058a9b83932d987dcf154f99b5f83da6ba0f6dc0bf998d63a56578cedb8dfc21ae4e67c27453d4f16e9a563fe4932f0280bcf1888a8dac51bd7f2b1f4116a4e1fe3f72faf7c25de6572e17bb788c59077a1b8d2a66cb4d99e62bd5693e3302ae579cec1deafb9a541bb6dfaf3123c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T13:37:07.720Z",
+      "lastFlagChange": null,
+      "rarity": 66.629,
+      "rarityRank": 3846,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": 0.01181,
+        "timestamp": 1671347447
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x917660a684d89f4713d2e22054fec8ea2e29c11a"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x5dde02d4607385cd4ec8d000dd7dbee8d825efdc6f6c1166dfb9b8d20b52cd8a",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "19800000000000000",
+            "decimal": 0.0198,
+            "usd": 23.4982,
+            "native": 0.0198
+          }
+        },
+        "maker": "0x917660a684d89f4713d2e22054fec8ea2e29c11a",
+        "validFrom": 1671526713,
+        "validUntil": 1672131502,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x5802c586f657c787902280ac091d81832d7faf84/2801"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "1473",
+      "name": "BYAC #1473",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a70bc1915c86578e7874fd8d745666aa55bd6c5184a3c9a36918c8337b5c4cab0bcf457ef0a54a61d18f6b3ba31bb87cbd323eb201110fed5464d147259f65fe97f6f9a95d99611d4e76022531252de047afb93804d6beced281a1c98130522d4b3fa37f0a7f61087c83b8bfce398196123c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T13:38:08.079Z",
+      "lastFlagChange": null,
+      "rarity": 64.263,
+      "rarityRank": 4624,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.012,
+        "timestamp": 1669135727
+      },
+      "owner": "0xbf5be25a765475c4d10dd8957038487ba973d2a0"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xde2d10dd9bdf934c10c55afba78041d081a2ec981aabd3cd0803d4e3ac9efc65",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "19900000000000000",
+            "decimal": 0.0199,
+            "usd": 23.61688,
+            "native": 0.0199
+          }
+        },
+        "maker": "0xbf5be25a765475c4d10dd8957038487ba973d2a0",
+        "validFrom": 1671420783,
+        "validUntil": 1674099183,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x5802c586f657c787902280ac091d81832d7faf84/1473"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "249",
+      "name": "BYAC #249",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a822e30244f9832f116414f67a5eb9c6ab2d74d12738fb95a797b0e2c7b0fbfba1fa2dd8f12d2e7fc032596335115a009dd72dfb7c2751a6b91af95edbc1c7ddd72ebd864c3fb7061b953e9403e0e1270f816f4952143b568b0bd523c36cc6a17837687d850baedc61091f9d33b2ba93023c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T13:39:01.537Z",
+      "lastFlagChange": null,
+      "rarity": 63.895,
+      "rarityRank": 4760,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": 0.026,
+        "timestamp": 1669884695
+      },
+      "lastSell": {
+        "value": 0.0259,
+        "timestamp": 1670173283
+      },
+      "owner": "0xe62c3be5919bc24f93a577d1cbb73b3b8e4b0452"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x70ea8db1e1284ee116a3d01a8a0a5cc97a1c6082e44bb24d6ca6950eee7c691a",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "20000000000000000",
+            "decimal": 0.02,
+            "usd": 23.73556,
+            "native": 0.02
+          }
+        },
+        "maker": "0xe62c3be5919bc24f93a577d1cbb73b3b8e4b0452",
+        "validFrom": 1670421070,
+        "validUntil": 1673099076,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x5802c586f657c787902280ac091d81832d7faf84/249"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "328",
+      "name": "BYAC #328",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a13db3671f02e12301b0b2c15620f3403a923c622e959a2cf03c0c800e3cb6f7973b899108cb409e6b4bce519257fb129039d6a352fae3209614c24412af517caff6fd85d86d35038e7b417eea295d23f0923ff3b9d904cdc9881f86036cc8abff8d0d62d7499846305442ae4eff3f9b823c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T13:38:56.504Z",
+      "lastFlagChange": null,
+      "rarity": 54.764,
+      "rarityRank": 6569,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.01799,
+        "timestamp": 1669100711
+      },
+      "owner": "0xf14bafa607955ee6adb94dbd4e75d4c3e144387e"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x7a410b6d57d7c2b3da04a4699d8396e3fc49da718803dc35f062939524a19e76",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "20000000000000000",
+            "decimal": 0.02,
+            "usd": 23.73556,
+            "native": 0.02
+          }
+        },
+        "maker": "0xf14bafa607955ee6adb94dbd4e75d4c3e144387e",
+        "validFrom": 1671520791,
+        "validUntil": 1672125591,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x5802c586f657c787902280ac091d81832d7faf84/328"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "352",
+      "name": "BYAC #352",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a8815cca5a8fd883f13c459d187a6ccf27da1c773c18dd6be619c276e0c538f776a3f06b207f7836793819060b5fb8a27294916d5bc62f7494ec7b788ed92b7d889550526246e84fc76a60fed97df7a95714e9b8f315d1fc8f125512c6169892136729a84a5e2f6a801f3ed32dcbf09d223c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T13:38:55.854Z",
+      "lastFlagChange": null,
+      "rarity": 54.574,
+      "rarityRank": 6615,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x5cab38ae1543150a64ec89b452481967f9827460"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x590fbeb63a56a15e4e04cab04f3321db17d9e57b98d943cc42f1614988263c49",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "20000000000000000",
+            "decimal": 0.02,
+            "usd": 23.73556,
+            "native": 0.02
+          }
+        },
+        "maker": "0x5cab38ae1543150a64ec89b452481967f9827460",
+        "validFrom": 1670416896,
+        "validUntil": 1671806702,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x5802c586f657c787902280ac091d81832d7faf84/352"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "762",
+      "name": "BYAC #762",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1ecd0ac9ff37dbe4fcbd7af4eb3af4bbb1b1a1fbf35589033c28b8c0ab67efba2f096a01b1546d20f2806d3896e1ffff1e8a14a928c652e6933336af93627cc5d432501d3b2c0e5a3e4a330d056e2bfc80e1560dc8d555c231f8b3cdf24933b543918c37a1253e2e71960abcc67e82fa23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T13:38:36.476Z",
+      "lastFlagChange": null,
+      "rarity": 55.922,
+      "rarityRank": 6208,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": 0.017,
+        "timestamp": 1669714139
+      },
+      "lastSell": {
+        "value": 0.009,
+        "timestamp": 1670990327
+      },
+      "owner": "0x59ec4782912fbd4a1547b6ebe50b922cc408bda1"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x6ca8ce13bb00e5db1df1e86f4158f811a88000bfac9a1ee4e2bf83b04d9c786d",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "20000000000000000",
+            "decimal": 0.02,
+            "usd": 23.73556,
+            "native": 0.02
+          }
+        },
+        "maker": "0x59ec4782912fbd4a1547b6ebe50b922cc408bda1",
+        "validFrom": 1671547605,
+        "validUntil": 1672152405,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x5802c586f657c787902280ac091d81832d7faf84/762"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "925",
+      "name": "BYAC #925",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a6d9862b3bfeec5a2f8fab541a7e526baf6421ca8e2b73e86e5a6b1bda6572d41819c9c5b8b89771587803fa85d009f3943621b20d80af811964e86d3bdc37c60906ee695625fac4c51288fa41ecee9eb2a5be1b3a589578f82adf7630f6787681770e433ff77db055114ce32e2ac4e68e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T13:38:31.151Z",
+      "lastFlagChange": null,
+      "rarity": 64.339,
+      "rarityRank": 4592,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xfb9f48cd3a11594b1a6cb61ba3a84ea594c171ec"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x68ec0cc9453921a833fac495cd2ea048798d7ef957b8d19e306ddfeacfb15b70",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "20000000000000000",
+            "decimal": 0.02,
+            "usd": 23.73556,
+            "native": 0.02
+          }
+        },
+        "maker": "0xfb9f48cd3a11594b1a6cb61ba3a84ea594c171ec",
+        "validFrom": 1670553095,
+        "validUntil": 1678329095,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x5802c586f657c787902280ac091d81832d7faf84/925"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "1237",
+      "name": "BYAC #1237",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a927651bcf67f45d69ee5e10fbfd36b4b876b43e689fc30831e42448dc9fef4d882f39bcab19fcae4b18f1f324f922c0eab7a975b56d92c4867a3c8f620627baca0e924e4b8d5363b19581d2ad6a159e6edf126c2fb6c1e15a0c1713508d4251c96c03f9c4337908ad5e6dde69509f25f23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T13:38:17.026Z",
+      "lastFlagChange": null,
+      "rarity": 63.603,
+      "rarityRank": 4850,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.01,
+        "timestamp": 1669131083
+      },
+      "owner": "0xa4e8787ed2be2f433e99e748e601936a17769899"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x01c8bf9aa0f63edfee9d978212c8072f118103cd66f8663c6ada9118d5b93883",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "20000000000000000",
+            "decimal": 0.02,
+            "usd": 23.73556,
+            "native": 0.02
+          }
+        },
+        "maker": "0xa4e8787ed2be2f433e99e748e601936a17769899",
+        "validFrom": 1671439800,
+        "validUntil": 1674118200,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x5802c586f657c787902280ac091d81832d7faf84/1237"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "1502",
+      "name": "BYAC #1502",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae82dff613d4bd3cca8b48683041521e663c2d23174b71fbcc653cba1b0e6d1f8f17ff3b7d335543c380db3e5f6eb8b894c43772640513ddfed731a88edfe2433fce9c06fb58e50e3acc1443c5aa646ef63f6614c4bd25e420a5d6e839664434718e3a30aa74812f8845726ab9631ef89058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T13:38:07.251Z",
+      "lastFlagChange": null,
+      "rarity": 73.465,
+      "rarityRank": 2913,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.0299,
+        "timestamp": 1670262959
+      },
+      "owner": "0x06336e7a4e727a156e1dc2306a3c7b83011bfbaf"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xb622e127f0c6469f20d98dda8b828fe9b43a6da085f9db985808201fbc8d8ede",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "20000000000000000",
+            "decimal": 0.02,
+            "usd": 23.73556,
+            "native": 0.02
+          }
+        },
+        "maker": "0x06336e7a4e727a156e1dc2306a3c7b83011bfbaf",
+        "validFrom": 1671423757,
+        "validUntil": 1673113791,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x5802c586f657c787902280ac091d81832d7faf84/1502"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "1869",
+      "name": "BYAC #1869",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75abaa22fbc148ead2a2278a463c91f16b8abd511e4fe661a4f617d463aa3cdf04bae38a00871585fb76443437bc7e444c5132989ef0b620c5c3cb2502e941296331908d214959118425b686c249049bcacf1c69b63141b64bb3ac16b94f2f4b6906cc323afea9d7bf03a8e0db19b35715523c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T13:37:50.798Z",
+      "lastFlagChange": null,
+      "rarity": 64.719,
+      "rarityRank": 4471,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x451fa6043c935996ed166d3ee77a89fded473686"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x1ec1690b8d814fec547dd67462aef0baf9201f94097abca04de433cd70e678d9",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "20000000000000000",
+            "decimal": 0.02,
+            "usd": 23.73556,
+            "native": 0.02
+          }
+        },
+        "maker": "0x451fa6043c935996ed166d3ee77a89fded473686",
+        "validFrom": 1670767240,
+        "validUntil": 1673445640,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x5802c586f657c787902280ac091d81832d7faf84/1869"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "3262",
+      "name": "BYAC #3262",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a107be4f3b65f3b4be7c3c48a82a3df830f0812e5f30f31ff1bc3a70dbfd6f8844be2a4009668591ed25cc15bf47c9d954cefa47ef87433f405d47831a6b90eed4417b615dc7169e0ff7f79876db02275955534b2b1a78e76bc85aa1b3d89098a2cee9be485d320c2da529304e784198a23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T13:36:47.206Z",
+      "lastFlagChange": null,
+      "rarity": 64.993,
+      "rarityRank": 4398,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.023,
+        "timestamp": 1669796219
+      },
+      "owner": "0x59ec4782912fbd4a1547b6ebe50b922cc408bda1"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xfc36b555d517a367a2342b7b0592f32a4c08213a6598ac9f583f25117c800ed5",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "20000000000000000",
+            "decimal": 0.02,
+            "usd": 23.73556,
+            "native": 0.02
+          }
+        },
+        "maker": "0x59ec4782912fbd4a1547b6ebe50b922cc408bda1",
+        "validFrom": 1671547605,
+        "validUntil": 1672152405,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x5802c586f657c787902280ac091d81832d7faf84/3262"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "3666",
+      "name": "BYAC #3666",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a830af50d9bb0045d66cf321e506860201f768da5e8aa12b5da5481261fb01b064070e97677c6bfcdb87c08867d5b709294d06eebf951dabba9fe34f271a6701174f4507366706d65b177d990deb632506fcac7038aafb71216a0fac02ed50306145455cf98b848c26813db7f60f854cde1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T13:36:25.530Z",
+      "lastFlagChange": null,
+      "rarity": 57.921,
+      "rarityRank": 5832,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.0245,
+        "timestamp": 1669311539
+      },
+      "owner": "0xb8beb5aab03d6ea5c4097f621b8b0d436e08ae21"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x6c8e85bc5290a29bedc25640950747d60503f2c184f28954ea42fa49a455377d",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "20000000000000000",
+            "decimal": 0.02,
+            "usd": 23.73556,
+            "native": 0.02
+          }
+        },
+        "maker": "0xb8beb5aab03d6ea5c4097f621b8b0d436e08ae21",
+        "validFrom": 1671498595,
+        "validUntil": 1671903713,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x5802c586f657c787902280ac091d81832d7faf84/3666"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "3816",
+      "name": "BYAC #3816",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ac6338618a2d4f08c85270d3a91e728905d766ddc5b73095f6786345a2d24fafed8f45315da1da4a8f4abd8999eb10a67bda380bf7a5cc9370f612415de64ca1d17dd845c8fa4e121eed2ec840d70b7ea7b9ba9f8839f2b46ce1cdf8fb586e13492679603cc3829fac97457a94734030223c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T13:36:16.189Z",
+      "lastFlagChange": null,
+      "rarity": 56.351,
+      "rarityRank": 6106,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": 0.02471,
+        "timestamp": 1669257107
+      },
+      "lastSell": {
+        "value": 0.019,
+        "timestamp": 1670330507
+      },
+      "owner": "0x59ec4782912fbd4a1547b6ebe50b922cc408bda1"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x5bca70436cbb86b792cba0014a668717588344ef46a4c79b5c6b64836343b686",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "20000000000000000",
+            "decimal": 0.02,
+            "usd": 23.73556,
+            "native": 0.02
+          }
+        },
+        "maker": "0x59ec4782912fbd4a1547b6ebe50b922cc408bda1",
+        "validFrom": 1671547605,
+        "validUntil": 1672152405,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x5802c586f657c787902280ac091d81832d7faf84/3816"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "3947",
+      "name": "BYAC #3947",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ad6f53bf4fe44a95e69142846884f7e04657a1d85e3c45e88f4121f2e3b348202b236eb68976626db8df734b57f8adbe89cecb9d4736c0f4b5493add9b835f5baef95877007cfc5853d90e43a5f957de4e7ec9b4af4312d777bc0b053d796bb7f62768b49fa6a07c6fcfc67bb1e09934023c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T13:36:10.779Z",
+      "lastFlagChange": null,
+      "rarity": 54.457,
+      "rarityRank": 6647,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.0377,
+        "timestamp": 1669201847
+      },
+      "owner": "0x5cab38ae1543150a64ec89b452481967f9827460"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x3c1c48232a131edf56403f9755cc45433144328ae3f8845c7cf6f30074b98fee",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "20000000000000000",
+            "decimal": 0.02,
+            "usd": 23.73556,
+            "native": 0.02
+          }
+        },
+        "maker": "0x5cab38ae1543150a64ec89b452481967f9827460",
+        "validFrom": 1670416771,
+        "validUntil": 1673095171,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x5802c586f657c787902280ac091d81832d7faf84/3947"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "4575",
+      "name": "BYAC #4575",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7d6abd451dae49ae226954f8d022c7e9a3ab1dd8aedd1dd1faf657b73788e1e7f27d69acbe3dda504a34cc13391a44a3b8d278e4f9c1108d3543a2cc26e6b249e46d45e3b09aa654e35113d4cceae30c926beff2d370f3929046f568899553757f25016cf8cd2a47b1b885124593b905058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T13:35:41.148Z",
+      "lastFlagChange": null,
+      "rarity": 51.254,
+      "rarityRank": 6895,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": 0.01,
+        "timestamp": 1671405167
+      },
+      "lastSell": {
+        "value": 0.0062,
+        "timestamp": 1669065011
+      },
+      "owner": "0x4ab6fc7aa21f26648c1815c5cc967582dab28ac1"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x8bfc1740585d17872d87d1134b9ce6809a19bac50fe6fdfc384522782d8648cc",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "20000000000000000",
+            "decimal": 0.02,
+            "usd": 23.73556,
+            "native": 0.02
+          }
+        },
+        "maker": "0x4ab6fc7aa21f26648c1815c5cc967582dab28ac1",
+        "validFrom": 1671454622,
+        "validUntil": 1671713822,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x5802c586f657c787902280ac091d81832d7faf84/4575"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "4631",
+      "name": "BYAC #4631",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ace4cd6db30391d6d6fe4d4ff44f5cee6ab502c98ddda4b7c58208048ba9ed59d6f43dbc365e7b2d31c139ab6166202cc24f2a29f02e06ef687839187d42fb4827de6500e47cad0b7ccb1ec59957c368f9be6220170f20edb0d1841c025bf668210c99586d973adf217a53ffb96d3e87523c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T13:35:35.470Z",
+      "lastFlagChange": null,
+      "rarity": 77.29,
+      "rarityRank": 2449,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.018,
+        "timestamp": 1670572895
+      },
+      "owner": "0x59ec4782912fbd4a1547b6ebe50b922cc408bda1"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x346e4c1faa922a926a685cb38e999311291740b03621f28eeff64b980e530dae",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "20000000000000000",
+            "decimal": 0.02,
+            "usd": 23.73556,
+            "native": 0.02
+          }
+        },
+        "maker": "0x59ec4782912fbd4a1547b6ebe50b922cc408bda1",
+        "validFrom": 1671547605,
+        "validUntil": 1672152405,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x5802c586f657c787902280ac091d81832d7faf84/4631"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "5215",
+      "name": "BYAC #5215",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae81ee2409ecd5806e6d7f7405489832be102f6783569d018b08628587bd2453dd1ba70cf5f4ee8d106128c26706399c5cc58304d112fc590b4d6c3e71f9da4b7d7ad009250a3a8a5c7a6e62c3009a6b467f30d3a710a5f7ab8250dc931dccf4406c0ce058ff6bb17c534086933e69ba123c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T13:35:00.674Z",
+      "lastFlagChange": null,
+      "rarity": 54.213,
+      "rarityRank": 6701,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.01887,
+        "timestamp": 1670357891
+      },
+      "owner": "0x2715ca29032e4069b1f6783239ed0eeb4ac669cb"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x8783a618f9728c6e3781ac6bce81b16d8e828ab8d40d5c987039bf03cc04a151",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "20000000000000000",
+            "decimal": 0.02,
+            "usd": 23.73556,
+            "native": 0.02
+          }
+        },
+        "maker": "0x2715ca29032e4069b1f6783239ed0eeb4ac669cb",
+        "validFrom": 1671353514,
+        "validUntil": 1671958313,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0x5802c586f657c787902280ac091d81832d7faf84/5215"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "5433",
+      "name": "BYAC #5433",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab17b15add814934f60b250e6a3a5f2c665627eb6fc1d162c0c36c7ef6ae5660e6b94f40d6879b304d4e54852a8224418667ba2a33a8c893c8afc218d7c8a14d7a9235c44482062dbca5ac01c228ec1f7695704641fb35ba399556ef30ddacd368c1a0d3921b127c01cbd7e7499beeeb823c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T13:34:51.439Z",
+      "lastFlagChange": null,
+      "rarity": 70.625,
+      "rarityRank": 3189,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.027,
+        "timestamp": 1669880639
+      },
+      "owner": "0x11103582febca120aa72e0be554feab3f5399d5f"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x3c428f8bf167599da582ffc45d2b28a284b01fa0cff5405b8558db0327f8e78d",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "20000000000000000",
+            "decimal": 0.02,
+            "usd": 23.73556,
+            "native": 0.02
+          }
+        },
+        "maker": "0x11103582febca120aa72e0be554feab3f5399d5f",
+        "validFrom": 1670910904,
+        "validUntil": 1678686904,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x5802c586f657c787902280ac091d81832d7faf84/5433"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "982",
+      "name": "BYAC #982",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a61f505e317849b083130d512bf23e92d89fea1ffcc455a59a8c25db21d10c037642af38fbf40b1f9cf58e787e3474a9b4220fbe38d62144e9c7156c1e1625402e696e93e26092f7c2e61376992fd185f7ea7f136ab0b1ed2050c60e78859a975e3fdcd6ac0dadb18e34ffd4273dbd410e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T13:38:28.607Z",
+      "lastFlagChange": null,
+      "rarity": 65.065,
+      "rarityRank": 4366,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xfb9f48cd3a11594b1a6cb61ba3a84ea594c171ec"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x3a85c2112fa09548d4f850e05cc83bcd186b4b098708b8b93176d82a9043ad18",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "20200000000000000",
+            "decimal": 0.0202,
+            "usd": 23.97291,
+            "native": 0.0202
+          }
+        },
+        "maker": "0xfb9f48cd3a11594b1a6cb61ba3a84ea594c171ec",
+        "validFrom": 1670553096,
+        "validUntil": 1678329096,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x5802c586f657c787902280ac091d81832d7faf84/982"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "922",
+      "name": "BYAC #922",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a308e649e4f899a6cbccd688fad95eb85831ec12c4481b93b200ea45e806be7a3b1daf5d0b5a2ecdfb2ab1a5816eb3b4ded16ffbc886f32c6778357f61d6beaf9a7ed4954adfa6b9b386a967331545b371d229119f4f38d79b51b192685c2fd7a5d167970685ebad9fbc93b7d0a8c11fb23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T13:38:31.140Z",
+      "lastFlagChange": null,
+      "rarity": 65.276,
+      "rarityRank": 4303,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xfb9f48cd3a11594b1a6cb61ba3a84ea594c171ec"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x6cde67bcb79f0ef60d7925810ad3c47e7f672c78061f82236dc7a5ef040222e5",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "20400000000000000",
+            "decimal": 0.0204,
+            "usd": 24.21027,
+            "native": 0.0204
+          }
+        },
+        "maker": "0xfb9f48cd3a11594b1a6cb61ba3a84ea594c171ec",
+        "validFrom": 1670553095,
+        "validUntil": 1678329095,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x5802c586f657c787902280ac091d81832d7faf84/922"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "3241",
+      "name": "BYAC #3241",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a6ccb90851b379ae3c8e36cda8a3d0c9676545410da4d0975f8b7da76df9a9fb88729afae45fd1aadcdc47e35e51495b95ffd9b809c044bce853fc438ca60002a713ef57063cc0e1e46760bf46da7ff032baabd960ee42fb08fea72c99fe141895507c9a683ce0e41a3abeaebcf911521e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T13:36:47.636Z",
+      "lastFlagChange": null,
+      "rarity": 56.307,
+      "rarityRank": 6115,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.028,
+        "timestamp": 1669163423
+      },
+      "owner": "0x3dafdc9708b4afcf267e545b17202bea7e1df34f"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x97ed7e6541f428b97c36942a7fb942fbff0fc385931e974a1d348edd9d77d862",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "20400000000000000",
+            "decimal": 0.0204,
+            "usd": 24.21027,
+            "native": 0.0204
+          }
+        },
+        "maker": "0x3dafdc9708b4afcf267e545b17202bea7e1df34f",
+        "validFrom": 1671205544,
+        "validUntil": 1673883944,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x5802c586f657c787902280ac091d81832d7faf84/3241"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "5150",
+      "name": "BYAC #5150",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a9bd98f7901fba6aed0d4a2c179747b13f0818d3e0be1776089a81728d5e364945653c243ef5fe32ae1b497de241986a7016598c24901d8e0aaa9a8fbf65e1aae6965ccfbf0cd870293922b985c91fdba25ef13a75eab871247b4386b6f3d5c7181b903d25ca96f17936f4ab669adf3be23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T13:35:04.205Z",
+      "lastFlagChange": null,
+      "rarity": 65.671,
+      "rarityRank": 4158,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": 0.0148,
+        "timestamp": 1669661795
+      },
+      "lastSell": {
+        "value": 0.006,
+        "timestamp": 1669053527
+      },
+      "owner": "0x7880d1a1f23491579fbb244333b6574a88a74596"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x5d6f5148faa16236cfd106c644483965f9d57ac35b26782cd13bb086bdb5708e",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "20400000000000000",
+            "decimal": 0.0204,
+            "usd": 24.21027,
+            "native": 0.0204
+          }
+        },
+        "maker": "0x7880d1a1f23491579fbb244333b6574a88a74596",
+        "validFrom": 1671334344,
+        "validUntil": 1671939141,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x5802c586f657c787902280ac091d81832d7faf84/5150"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "889",
+      "name": "BYAC #889",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a52b405308556a7089af1d8251a4c8211e0d3f4e11041d608bda866b306a6036054470a66d3c69eb00148208d1d62d28c154d506da8050d7a484b5e4cc59c6019913030d85610e039f5deca24fafd62f2cfafb5fb6452d5d585690b4236754432c3346908808eafba248bc08fc0674ce0e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T13:38:32.957Z",
+      "lastFlagChange": null,
+      "rarity": 98.591,
+      "rarityRank": 1032,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": 0.0125,
+        "timestamp": 1671514763
+      },
+      "lastSell": {
+        "value": 0.019,
+        "timestamp": 1669515071
+      },
+      "owner": "0x553e6fb2d7bdd7b2d7865b2e03c10dd6fc7a4f14"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x9152aa610c3a794776dbfd74719b0725e2b13dc9fc9f388f26cfdbff5468aa39",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "20500000000000000",
+            "decimal": 0.0205,
+            "usd": 24.32895,
+            "native": 0.0205
+          }
+        },
+        "maker": "0x553e6fb2d7bdd7b2d7865b2e03c10dd6fc7a4f14",
+        "validFrom": 1671515313,
+        "validUntil": 1671774513,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x5802c586f657c787902280ac091d81832d7faf84/889"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "3414",
+      "name": "BYAC #3414",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a0aa46ecfbb405008a08a4bc6bb1dacab0203674fbb6898afda29ac59a39dde946f79cfa4b03300daf61b55002a7b13937d25d26d6c2ac9ab148b61093ce4ab932555f6a447861ac80f6cd52726826c0d71783f801d81ec4765ce9607bd12e1ada5bce3f5a5fd6485e49b819cb15d7b6b23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T13:36:39.046Z",
+      "lastFlagChange": null,
+      "rarity": 57.118,
+      "rarityRank": 5955,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.03,
+        "timestamp": 1670209091
+      },
+      "owner": "0x3e57efef507b4db7acfa2ee79ceca6b19e18d106"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x3c014a6c9b9c03c364b01ffa97c898938727a0c35f278ee4e0958d69c3fab204",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "20500000000000000",
+            "decimal": 0.0205,
+            "usd": 24.32895,
+            "native": 0.0205
+          }
+        },
+        "maker": "0x3e57efef507b4db7acfa2ee79ceca6b19e18d106",
+        "validFrom": 1670643702,
+        "validUntil": 1678419702,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x5802c586f657c787902280ac091d81832d7faf84/3414"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "5672",
+      "name": "BYAC #5672",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a806f9fc6d3a190cb80ae8a6dbb589e3d929db36cc5c5f3d30a6a2bd81e3be730fde16dbbacb790ac0a3e039f319c2e04d6616eb4fad0cbd1980aaa9ed452dc3014331a73ba237e3e8379d0fee62c006ecee35f015c4a9ae7affdb75d46af8ef3dabd844ff97c375db3bccfea08490730e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T13:34:41.628Z",
+      "lastFlagChange": null,
+      "rarity": 58.295,
+      "rarityRank": 5776,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.0168,
+        "timestamp": 1669099427
+      },
+      "owner": "0x2f80f930af7ae24905e1dfc153d11d3ab0b0be5a"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x2e7a1effa406ceacc7c755d2b08d4ad3319b25669754f76d8bf578d31bbbcfc9",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "20500000000000000",
+            "decimal": 0.0205,
+            "usd": 24.32895,
+            "native": 0.0205
+          }
+        },
+        "maker": "0x2f80f930af7ae24905e1dfc153d11d3ab0b0be5a",
+        "validFrom": 1670474647,
+        "validUntil": 1673066646,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x5802c586f657c787902280ac091d81832d7faf84/5672"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "995",
+      "name": "BYAC #995",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aa077f8861aa4da82485c68441f22704e945dfa52d86d644216378da76301b9d754fdfb1cf828bef0fab151b3949d7dd8955160269453f53a06c8dd93a3d815e21e5190b71d9ba2981e3de6ba4f1737e9af29e63afdbc70a47d3aa4fc87bed4acbdadb7f231a279ed29d6037c13f4a816e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T13:38:28.605Z",
+      "lastFlagChange": null,
+      "rarity": 64.83,
+      "rarityRank": 4444,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xfb9f48cd3a11594b1a6cb61ba3a84ea594c171ec"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x1587ae1ee7b9d7aa9faee1985781ee13ad43b477cf2870a02b25a78c3c725093",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "20900000000000000",
+            "decimal": 0.0209,
+            "usd": 24.80366,
+            "native": 0.0209
+          }
+        },
+        "maker": "0xfb9f48cd3a11594b1a6cb61ba3a84ea594c171ec",
+        "validFrom": 1670553096,
+        "validUntil": 1678329096,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x5802c586f657c787902280ac091d81832d7faf84/995"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "1931",
+      "name": "BYAC #1931",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a74298039b4e2ab7dbfd75a2f3571e8489d4cba60a120b2e4bcec43e33f4339ccf8f5747928793767f65b24dd85152b1e4c144aff7486a8b4a40e09382e579d14922be3fed2c0f846500e3bbf9b84e34433c808c857d074d8de1d49af8201418cb23849e6065aec2f52eaa1c8209c21e523c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T13:37:47.407Z",
+      "lastFlagChange": null,
+      "rarity": 65.258,
+      "rarityRank": 4309,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": 0.0196,
+        "timestamp": 1669745867
+      },
+      "lastSell": {
+        "value": 0.0199,
+        "timestamp": 1670347007
+      },
+      "owner": "0xb47c3fd4f8a83189c1230fbe1f51070cb5dbb8f3"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x230c27ba69917800880154662f45f3ad411ff33332bb39227d78e78dd872885b",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "21000000000000000",
+            "decimal": 0.021,
+            "usd": 24.92234,
+            "native": 0.021
+          }
+        },
+        "maker": "0xb47c3fd4f8a83189c1230fbe1f51070cb5dbb8f3",
+        "validFrom": 1671008909,
+        "validUntil": 1673687309,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x5802c586f657c787902280ac091d81832d7faf84/1931"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "2803",
+      "name": "BYAC #2803",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a6acaf255ac37256c5fe58de89287b7e183421097195913c4a99a436f42a8d4f2caafda1d58d5ccf97b8ce73870351272905db94e9cc6dbeb7c6f1096ada670c074f7a57a220ff2223622dd768b903bd325c88c4b71d9b72d771fc423c396ec3fbd1fc769b0fc472ca22fce5647d34ccc23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T13:37:07.683Z",
+      "lastFlagChange": null,
+      "rarity": 68.113,
+      "rarityRank": 3511,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": 0.006,
+        "timestamp": 1669061903
+      },
+      "lastSell": {
+        "value": 0.0129,
+        "timestamp": 1670487875
+      },
+      "owner": "0x946339bc853b5cf5c635e9142872610307acc707"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xe6b534a3f3c93c772f1695d1c5512e0088ae32c9df96fd03366cf159fc81cf37",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "21000000000000000",
+            "decimal": 0.021,
+            "usd": 24.92234,
+            "native": 0.021
+          }
+        },
+        "maker": "0x946339bc853b5cf5c635e9142872610307acc707",
+        "validFrom": 1671526433,
+        "validUntil": 1673707991,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x5802c586f657c787902280ac091d81832d7faf84/2803"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "3703",
+      "name": "BYAC #3703",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a30ad5656bc2a8936a8b17314134d082c112a27bcfdb17f9eb614c3f601f0084aea5722b0c41681da0e45b2b81561256e52935767d91f78196beeb6b8f5bcb1df5b6d9bb9560441f9e394b473b2d7e33bbf32d3df6b87ee81cebc9030acf7e439470fc4c9cc318c3892694c8851864f90058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T13:36:23.471Z",
+      "lastFlagChange": null,
+      "rarity": 65.462,
+      "rarityRank": 4233,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.01799,
+        "timestamp": 1669100711
+      },
+      "owner": "0xf14bafa607955ee6adb94dbd4e75d4c3e144387e"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x33ed48c4b729c622590c86c6901043f2267c8c384aa3d1d0191d05e355325934",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "21000000000000000",
+            "decimal": 0.021,
+            "usd": 24.92234,
+            "native": 0.021
+          }
+        },
+        "maker": "0xf14bafa607955ee6adb94dbd4e75d4c3e144387e",
+        "validFrom": 1671520791,
+        "validUntil": 1672125591,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x5802c586f657c787902280ac091d81832d7faf84/3703"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "3853",
+      "name": "BYAC #3853",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75afb3bd9a4b3674c50db91ce110ec465f84eb136756290ade4dfdf6a66b4246699f9b2182ec52ecf1fa2eb562681aded608716324b801fec40d620227a649b9096c238f6c36cb7fb2931f3a7c190d5cad03c2bb2dbe14033df4249a212b5897985f11e2d8be1cb48566624eff9da9f85ace1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T13:36:15.644Z",
+      "lastFlagChange": null,
+      "rarity": 55.809,
+      "rarityRank": 6241,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.0174,
+        "timestamp": 1669100711
+      },
+      "owner": "0xf14bafa607955ee6adb94dbd4e75d4c3e144387e"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xd43be2f9fb782e14eafa8f0e8ffee7ab7badcb2cae1faf7373344daf2edd653b",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "21000000000000000",
+            "decimal": 0.021,
+            "usd": 24.92234,
+            "native": 0.021
+          }
+        },
+        "maker": "0xf14bafa607955ee6adb94dbd4e75d4c3e144387e",
+        "validFrom": 1671520791,
+        "validUntil": 1672125591,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x5802c586f657c787902280ac091d81832d7faf84/3853"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "927",
+      "name": "BYAC #927",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a30376cc4e5c7b1cb8b9477bc32da620b1fe1399a66cc47c974415601beea4e216b196bca6529072a1d4eaac7fe58334db853a361784eba7e2d8f69145860735aeab47e6276236a8df556247d63f8e28452d2de7e6bcec37e89d0e65cadcf40a92e20038904deb76db21bd552eea89003058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T13:38:31.117Z",
+      "lastFlagChange": null,
+      "rarity": 66.001,
+      "rarityRank": 4036,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xfb9f48cd3a11594b1a6cb61ba3a84ea594c171ec"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xd6e19511da44eb71658f741aeb2654922e4e04138afbc0d2f5560e9922a3f74e",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "21200000000000000",
+            "decimal": 0.0212,
+            "usd": 25.15969,
+            "native": 0.0212
+          }
+        },
+        "maker": "0xfb9f48cd3a11594b1a6cb61ba3a84ea594c171ec",
+        "validFrom": 1670553095,
+        "validUntil": 1678329095,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x5802c586f657c787902280ac091d81832d7faf84/927"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "4305",
+      "name": "BYAC #4305",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af9ac15ebcf4a452cf76d8df85fac8b293e77804f6396d8dac5bd2787ec3f44b7408fb999b2fc38f56b1dd9dd389ef037ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-16T20:42:38.844Z",
+      "lastFlagChange": null,
+      "rarity": 55.47,
+      "rarityRank": 6333,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": 0.013,
+        "timestamp": 1671322907
+      },
+      "lastSell": {
+        "value": 0.0159,
+        "timestamp": 1671233243
+      },
+      "owner": "0x1938f8bb25da3fd1e9f64d7a9f43d8cdceb94729"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xb7edbc74ef0cefb5010e64e5f44b75b42ba7fb192338b06fe21fbd15398b0a08",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "21200000000000000",
+            "decimal": 0.0212,
+            "usd": 25.15969,
+            "native": 0.0212
+          }
+        },
+        "maker": "0x1938f8bb25da3fd1e9f64d7a9f43d8cdceb94729",
+        "validFrom": 1671511579,
+        "validUntil": 1671597979,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x5802c586f657c787902280ac091d81832d7faf84/4305"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "2881",
+      "name": "BYAC #2881",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af94b9db3435d817bb4fb0c3a8dca6b4e8e7a54405a55f93794c8e4481dfd53847dae37b1443d9f0d64546bff3969042c158747db77b013a3336c7d9f5398484860e8d58862b8b41255d047dfe5de70509945c20044b1be6d2eb05abccb812d79416601600dccb001439bb7bde1d82eb323c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T13:37:04.294Z",
+      "lastFlagChange": null,
+      "rarity": 98.314,
+      "rarityRank": 1050,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": 0.0125,
+        "timestamp": 1671512891
+      },
+      "lastSell": {
+        "value": 0.015,
+        "timestamp": 1669475411
+      },
+      "owner": "0x553e6fb2d7bdd7b2d7865b2e03c10dd6fc7a4f14"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x9f5433c2b682dca9ac1b9e8e26ed7409465f613b0d4d5ca52cd681a22c13d716",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "21500000000000000",
+            "decimal": 0.0215,
+            "usd": 25.51572,
+            "native": 0.0215
+          }
+        },
+        "maker": "0x553e6fb2d7bdd7b2d7865b2e03c10dd6fc7a4f14",
+        "validFrom": 1671515260,
+        "validUntil": 1671774460,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x5802c586f657c787902280ac091d81832d7faf84/2881"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "6528",
+      "name": "BYAC #6528",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a35e54130708c5c9d66a2633a3a56e8c643decfc7a0d4fe59a58aa9c0046c42077807c7886cc05c0da87f00f087a8d5ec7e401aff9be971eee536b24d69d112e1b4a9658a417ba36efbd14a2a17f16e00706976edfaece794795066ff8f88fab8fe9328830f0abb8337afb4952988b81fe1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:19:52.033Z",
+      "lastFlagChange": null,
+      "rarity": 54.678,
+      "rarityRank": 6590,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.0135,
+        "timestamp": 1670775539
+      },
+      "owner": "0x0307d7631d556b1f76950a748817b96a758f8f50"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xc4bf73ca30bec586a9f94cfe15fd92ac92b50ac02e6dc07b77038fc26225b582",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "21500000000000000",
+            "decimal": 0.0215,
+            "usd": 25.51572,
+            "native": 0.0215
+          }
+        },
+        "maker": "0x0307d7631d556b1f76950a748817b96a758f8f50",
+        "validFrom": 1671363150,
+        "validUntil": 1674041550,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x5802c586f657c787902280ac091d81832d7faf84/6528"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "451",
+      "name": "BYAC #451",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a8e898544d143e1a1b19d3d255439e41ecb7b787e8d813b557171c2b2175535520ada5a1bf196fb75a46a9f7aaddd6e273a311570b03c50ed396f61fc870aefdc50a0dd616d50fd8f7278a72372c1efc58cc125d5157e6a31b4e22b8286aa10ca714b4555bf782dd3204956e5b0730ac123c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T13:38:52.346Z",
+      "lastFlagChange": null,
+      "rarity": 69.227,
+      "rarityRank": 3349,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.023,
+        "timestamp": 1669324631
+      },
+      "owner": "0x7880d1a1f23491579fbb244333b6574a88a74596"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xb80ff06e169fd42bf47425fab76a3e256fa0d9a795d68771149333474c689c50",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "21600000000000000",
+            "decimal": 0.0216,
+            "usd": 25.6344,
+            "native": 0.0216
+          }
+        },
+        "maker": "0x7880d1a1f23491579fbb244333b6574a88a74596",
+        "validFrom": 1671334273,
+        "validUntil": 1671939070,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x5802c586f657c787902280ac091d81832d7faf84/451"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "1008",
+      "name": "BYAC #1008",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae3501b5e94821ebc337e625fb3b74bf9040aa330140427c74aa88750cf8c3a04f517d71976d3918607e277f0219cbc627f916edc3f2fbdeac13924f7363cab3f3d32cad1870cf71d9c5367293974ed3853a87976288a369c62d9e69eaebdaa2dcb92e61d4392beb2b7096cfdee4bc966058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T13:38:27.866Z",
+      "lastFlagChange": null,
+      "rarity": 66.792,
+      "rarityRank": 3793,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xfb9f48cd3a11594b1a6cb61ba3a84ea594c171ec"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xd0c48033064599dc209de92810fa6e33b6b2fbd95227f530154509e49f324b05",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "21600000000000000",
+            "decimal": 0.0216,
+            "usd": 25.6344,
+            "native": 0.0216
+          }
+        },
+        "maker": "0xfb9f48cd3a11594b1a6cb61ba3a84ea594c171ec",
+        "validFrom": 1670553096,
+        "validUntil": 1678329097,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x5802c586f657c787902280ac091d81832d7faf84/1008"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "1310",
+      "name": "BYAC #1310",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae82604970e5f5161b4b16145c491f6e81e7e823b167e59a406912db8d869fc445b7e6826c2863b95410c5264ab422a914cc1339936fb120386b1ec03da125b4a31af378e949283d749d877d0c45a1dbce84cb3259b26230155ed13b89d43f575b7971089c270bc42c0a843bfb305f9fe058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T13:38:14.219Z",
+      "lastFlagChange": null,
+      "rarity": 75.792,
+      "rarityRank": 2633,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.0125,
+        "timestamp": 1671001787
+      },
+      "owner": "0xda2e6e221deaaf557c50d50c4a888c7735b9d5a9"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x462709fd6ce081ea89d5c5ba11a1c18c6b3d3b2710a10305325aa5ed79617331",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "21600000000000000",
+            "decimal": 0.0216,
+            "usd": 25.6344,
+            "native": 0.0216
+          }
+        },
+        "maker": "0xda2e6e221deaaf557c50d50c4a888c7735b9d5a9",
+        "validFrom": 1671420471,
+        "validUntil": 1672025271,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x5802c586f657c787902280ac091d81832d7faf84/1310"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "5916",
+      "name": "BYAC #5916",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a8cb8d70c88a55f25abfc6c2d619fe5bc8d8ca7e5a4f6e2a70074ce407e79fc64a3f06c3a4e78e62d194c8979b764380d77813d697465c9a8da5fb571ebe295b4b51e05129d552e70a71f37d2aad52c3bb26da252df89397e45e66333227a42c9816b96ec899667735f7aa64f5b30f10723c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T13:34:31.086Z",
+      "lastFlagChange": null,
+      "rarity": 57.497,
+      "rarityRank": 5889,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.03,
+        "timestamp": 1670209091
+      },
+      "owner": "0x3e57efef507b4db7acfa2ee79ceca6b19e18d106"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x17ec929b45d77ad0137361f600d48a2a1e21377e3cbc6e1b73db2179af752a03",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "21600000000000000",
+            "decimal": 0.0216,
+            "usd": 25.6344,
+            "native": 0.0216
+          }
+        },
+        "maker": "0x3e57efef507b4db7acfa2ee79ceca6b19e18d106",
+        "validFrom": 1670643704,
+        "validUntil": 1678419704,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x5802c586f657c787902280ac091d81832d7faf84/5916"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "1939",
+      "name": "BYAC #1939",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a404111ae008dfd82f209950f4a9c9b28d4245f9434a9b7ec9d12b21d5e453b435709455b6ca4598ea563e9a318b81e0e22853d28822256f68f90c405cb19729ace6e31721ffed6267d06816ddd188248bfa7326f075e6f795cbc43c3cb5ac572a9eb69d1b550d415a8a190bc5bf1c7d3058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T13:37:46.730Z",
+      "lastFlagChange": null,
+      "rarity": 66.079,
+      "rarityRank": 4002,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.023,
+        "timestamp": 1670029859
+      },
+      "owner": "0x74eccda570af4e45219b3047965d7b4668dd2674"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x4b7a0ede180bada582f3c3015fb99cf5dd32065e43b414d2a3664fce323cac1b",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "21690000000000000",
+            "decimal": 0.02169,
+            "usd": 25.74121,
+            "native": 0.02169
+          }
+        },
+        "maker": "0x74eccda570af4e45219b3047965d7b4668dd2674",
+        "validFrom": 1671250165,
+        "validUntil": 1671854965,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x5802c586f657c787902280ac091d81832d7faf84/1939"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x5802c586f657c787902280ac091d81832d7faf84",
+      "category": [
+        "Animal",
+        "Monkey",
+        "Cartoon",
+        "2d",
+        "Street",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "983",
+      "name": "BYAC #983",
+      "description": "Welcome to y00tapeia! our collection consists of 6,969 y00tapes that combines the best of both chains, the Apes & the y00ts, right here on the Ethereum chain! Let's ride the bear together through immaculate vibes in y00tapeia",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a9e8fcf1d54c85e4a49353cec978772d05ed1620b9936f7fdf8b504003b5ecb5c74de6fcc8dd275188b50421db383c11ceaffd4e0c664efd61ec8dbc4d4ca49f0559b42ee0f098e3a1e901426055f779f5136c039d5b3dcca794e49a8827d2580497a53ebf29a79dc0e68c01026e6ee1e23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T13:38:28.588Z",
+      "lastFlagChange": null,
+      "rarity": 67.532,
+      "rarityRank": 3619,
+      "collection": {
+        "id": "0x5802c586f657c787902280ac091d81832d7faf84",
+        "name": "Bored y00ts AC",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a2c42eb020a31398d8a99e337dec02601a48a3587303c8287bfe0cb27a2f78b6125e1feb7c3b94b4830f51461e23f6fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "bored-y00ts-ac"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xfb9f48cd3a11594b1a6cb61ba3a84ea594c171ec"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x547a67b6f44ad9425d87b1b0ee87c49bb5ff393139faa7737c6f9a453822696f",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "21900000000000000",
+            "decimal": 0.0219,
+            "usd": 25.99044,
+            "native": 0.0219
+          }
+        },
+        "maker": "0xfb9f48cd3a11594b1a6cb61ba3a84ea594c171ec",
+        "validFrom": 1670553097,
+        "validUntil": 1678329098,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x5802c586f657c787902280ac091d81832d7faf84/983"
+        }
+      }
+    }
+  }
+]

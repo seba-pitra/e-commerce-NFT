@@ -1,0 +1,27 @@
+.pay-result {
+  background-color: #1c2331;
+  color: white;
+  font-size: 25px;
+  margin: 0 auto;
+}
+
+.pay-result-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: white solid 1px;
+  border-radius: 10px;
+  width: fit-content;
+  padding: 30px;
+}
+
+.pay-result-img-icon {
+  height: 100px;
+}
+
+.pay-result-title {
+}
+.pay-result-span {
+  width: fit-content;
+  padding: 0 30px;
+}

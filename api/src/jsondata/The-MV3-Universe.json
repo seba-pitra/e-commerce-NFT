@@ -1,0 +1,3052 @@
+[
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "1223",
+      "name": "Empath #1041",
+      "description": "Empath #1041\n\nThis character has not had a story added yet",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab80aacb21ee70fa5d6fc43fb27ffe36b3082ab7ec89105b8f5eb7ab9cf4808adf2fe9631436bdfb59da78aacf9c1b560ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T13:26:57.829Z",
+      "lastFlagChange": null,
+      "rarity": 3627.028,
+      "rarityRank": 167,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xf860c21abaa19e1afd03aecf4c660b0fe09bf511"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x2801f62dc2689483851b88d640ca8745621c6854c6cc76ee01a10e27c16e70be",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "259300000000000000",
+            "decimal": 0.2593,
+            "usd": 307.73151,
+            "native": 0.2593
+          }
+        },
+        "maker": "0xf860c21abaa19e1afd03aecf4c660b0fe09bf511",
+        "validFrom": 1671542620,
+        "validUntil": 1671801820,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x2a48420d75777af4c99970c0ed3c25effd1c08be/1223"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "2195",
+      "name": "Elite #1096",
+      "description": "Elite #1096\n\nThis character has not had a story added yet",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a6f5159c6bdfbf734d5985ee3ffe625965d79ecab4a9c0cd64d7c0bbadc65ff79314193a8a9c4659957560c1ccce1ff0c2f4ee3e2d3724140887728a0d829fbdbfd19945a297bda70f0b6670cb2fe78c3d8ea0511b0006ef2fd206ecb753ec5a0dc721a70d013526a92eba730cb4e8a6e23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T05:11:08.245Z",
+      "lastFlagChange": null,
+      "rarity": 2999.611,
+      "rarityRank": 240,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.77778,
+        "timestamp": 1652545991
+      },
+      "owner": "0xd2ff8d304d40f6338b29661c7f7167caf6b5c2a6"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x557a283dec60ef76dbad175d7b2760a440c99fece07cbc74580622a60dff1336",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "259400000000000000",
+            "decimal": 0.2594,
+            "usd": 307.85019,
+            "native": 0.2594
+          }
+        },
+        "maker": "0xd2ff8d304d40f6338b29661c7f7167caf6b5c2a6",
+        "validFrom": 1671426427,
+        "validUntil": 1674104827,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x2a48420d75777af4c99970c0ed3c25effd1c08be/2195"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "4526",
+      "name": "Elite #981",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7c1346db9d6bd3728c6613cd9cc1f29c0eb8d3c8a075dc1e2ba1652698ffe9787b8f3b6ec688009d416b9d248f25a4e172147ba7881a64ff2fb98a4f66c82ed1bd4bfd988473ef818b71cf8fce26cf8c6bee2809a12b48b0d93780b3008120031e1c907280ccc53141949687dd569c60e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-10T01:37:12.610Z",
+      "lastFlagChange": null,
+      "rarity": 465.234,
+      "rarityRank": 5172,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": 0.22902,
+        "timestamp": 1670864531
+      },
+      "lastSell": {
+        "value": 0.25,
+        "timestamp": 1662736249
+      },
+      "owner": "0xf322b2d0d810837a689b518baf25654f860da96d"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x8fecd8a5811d422364f3a0f54a823da3ada7e5aa8d0af348be863e142305d816",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "259500000000000000",
+            "decimal": 0.2595,
+            "usd": 307.96887,
+            "native": 0.2595
+          }
+        },
+        "maker": "0xf322b2d0d810837a689b518baf25654f860da96d",
+        "validFrom": 1671240401,
+        "validUntil": 1671845201,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x2a48420d75777af4c99970c0ed3c25effd1c08be/4526"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "1289",
+      "name": "Empath #1263",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aee80b28a5abce6d03ca9677df2175365a3eb964fbe4567376b22fd9475f55f40aff553df291f964050295fc591b8b495cc6dd6f3c18f119d5a85648abb7ab7e6891a9952651fc912f7665f576d0aa57eee4bbba64d47ebb4097882b83edd6f3a7c03ed6f5f6df146491ad0b986647773e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-10T02:37:51.508Z",
+      "lastFlagChange": null,
+      "rarity": 1413.475,
+      "rarityRank": 1077,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x540f7131c309d2c424efba0c62443f27fa82160f"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x0d3bd6f0b909682622d168129f6e232c208b4c265c6b0ef1b3f7578512ee149a",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "260000000000000000",
+            "decimal": 0.26,
+            "usd": 308.56226,
+            "native": 0.26
+          }
+        },
+        "maker": "0x540f7131c309d2c424efba0c62443f27fa82160f",
+        "validFrom": 1671230438,
+        "validUntil": 1673148856,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x2a48420d75777af4c99970c0ed3c25effd1c08be/1289"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "1730",
+      "name": "Elite #505",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a9aa43d3adbbae332209286c69db49bcf174338829c82e0d2c664012f1f2230d217fe1c51c6312358d78d2b304f03224ab6dc930fb9e3f69fb930781e6bbf8e4b6f489915594286af41a368bd368faa584ea772a1e0f284243dda79dd92d1ae254052e8b55314f163f58873bfdcd199e8058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-10T02:37:34.276Z",
+      "lastFlagChange": null,
+      "rarity": 520.164,
+      "rarityRank": 4491,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x9ad0d60b9be66c2e9c53d2a147a601a670893f0d"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x5c009656bc33d627f71fa3e28563252bd52d4c5c97b02420ae5420e426095545",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "260000000000000000",
+            "decimal": 0.26,
+            "usd": 308.56226,
+            "native": 0.26
+          }
+        },
+        "maker": "0x9ad0d60b9be66c2e9c53d2a147a601a670893f0d",
+        "validFrom": 1671229447,
+        "validUntil": 1673907847,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x2a48420d75777af4c99970c0ed3c25effd1c08be/1730"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "633",
+      "name": "Empath #2037",
+      "description": "Empath #2037\n\nThis character has not had a story added yet",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae8fda6fbcc2c646f19ba42a7c7cdf426d749865667b511ea06c5ef7d0cc94547160594619ddccbfd34f69fb4f43d2d16d030dcb13e57639cb62a4e394f8ac493a4218e83cad67dd219fcfccf3cdb987e924578e2c30c5714f2b008ae57027e9b357f82026c004e9faef398dec5d3af94e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-10T23:36:37.177Z",
+      "lastFlagChange": null,
+      "rarity": 2043.365,
+      "rarityRank": 508,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.216,
+        "timestamp": 1664224643
+      },
+      "owner": "0xacd42f3b4471816e9cc123bc319c9f90fee9cb7a"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x7b5b60105c36eb3f271d9aa242a4a9dd33670459e4bdfb18d34d790be59990be",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "269900000000000000",
+            "decimal": 0.2699,
+            "usd": 320.31136,
+            "native": 0.2699
+          }
+        },
+        "maker": "0xacd42f3b4471816e9cc123bc319c9f90fee9cb7a",
+        "validFrom": 1670714668,
+        "validUntil": 1673393068,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x2a48420d75777af4c99970c0ed3c25effd1c08be/633"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "553",
+      "name": "Elite #1632",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aebf39ca9b818ecf64b339753e20b2688581ac3a4dc8601e5897f6c01242843786bdcfe0082746c4036366c088d220c64910283dd597307cc342956bcfd17d0963a36f06f4e7e7177d299934ff2c693d3c9b96c7e6e637936669a2d365872bd3d351c5ff1ccb89b169418c348e35422afe1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-10T02:49:33.566Z",
+      "lastFlagChange": null,
+      "rarity": 632.015,
+      "rarityRank": 3297,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 2.59,
+        "timestamp": 1649968040
+      },
+      "owner": "0x797e2b9cda782e3bfd44c734b44d89f2bbce65a6"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x399b9acc69a59cf387899e0812578cc59a6f3f9f4e9cd7818b0e083510f23cf5",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "270000000000000000",
+            "decimal": 0.27,
+            "usd": 320.43004,
+            "native": 0.27
+          }
+        },
+        "maker": "0x797e2b9cda782e3bfd44c734b44d89f2bbce65a6",
+        "validFrom": 1671108921,
+        "validUntil": 1673787321,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x2a48420d75777af4c99970c0ed3c25effd1c08be/553"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "3020",
+      "name": "Elite #1238",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1955d276984ff11b257feedd1aa5aa911105779b070b104ede3b7abe0a72239f36e1615143ce99cf14d0744b3d864bb01e6fd0df2ef70840aeb05c4d52a6ce3db658b745615f8e017b8caf30490060d346f7096f765184c25f4238238506136ef912e7df5c5ef38f5505e4b200bb5cc3058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-10T01:57:22.396Z",
+      "lastFlagChange": null,
+      "rarity": 570.175,
+      "rarityRank": 3795,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.595,
+        "timestamp": 1655302237
+      },
+      "owner": "0x9bf1073d0e9970685a5c055f218eadbe60e7d632"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xd59796dfc2458f78db6e2e05b5d75f91948016935843bda17fb072853b900a97",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "275000000000000000",
+            "decimal": 0.275,
+            "usd": 326.36393,
+            "native": 0.275
+          }
+        },
+        "maker": "0x9bf1073d0e9970685a5c055f218eadbe60e7d632",
+        "validFrom": 1671509268,
+        "validUntil": 1671768468,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x2a48420d75777af4c99970c0ed3c25effd1c08be/3020"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "6396",
+      "name": "Elite #821",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a820213948813655c6255540cbff725f126e6d0010f8e6033a4ffee91be2fc5bb9a7cc01b1689b451559fd1e7d3dd64df50c8111ef7ae5f06116473009b17a482a5f37de12bae2d810cc4ea5d52f4d3a55e4a62d70593d8b01d6986cb59400a105854adf16cc5265a4a8b8d88c1f4e07323c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-10T01:26:08.558Z",
+      "lastFlagChange": null,
+      "rarity": 409.292,
+      "rarityRank": 5811,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x810c3243032f3ac57e9351812f116c3ee6953c18"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x2e264b19d398d851c4e9ff305713f6d973d60151a88bad458fa7c660e1e107f3",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "275000000000000000",
+            "decimal": 0.275,
+            "usd": 326.36393,
+            "native": 0.275
+          }
+        },
+        "maker": "0x810c3243032f3ac57e9351812f116c3ee6953c18",
+        "validFrom": 1671518245,
+        "validUntil": 1672123045,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x2a48420d75777af4c99970c0ed3c25effd1c08be/6396"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "1902",
+      "name": "Empath #1435",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ad8d22427602245795c8b6af7b3c14d144b392c86746cb03d3aa35072d5589eed016cef0f101015d71d81e47495d0f9365478c5d75536decdf520ab19cf6877ccf1a1bddbd3afc4f5f506b7db854d5366587baf04bd1ab3a6d2f61e8b8412c80649e0fa8bb247ce82d5636ea308a374a423c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-10T02:37:27.733Z",
+      "lastFlagChange": null,
+      "rarity": 409.9,
+      "rarityRank": 5802,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.25,
+        "timestamp": 1661796008
+      },
+      "owner": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x32d06eb8bbc4fd0203e9710ba9bf9df1159f7ba898b7d17313fe363ec8acd42e",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "275833999999999994",
+            "decimal": 0.27583,
+            "usd": 327.3537,
+            "native": 0.27583
+          }
+        },
+        "maker": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa",
+        "validFrom": 1671320843,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x2a48420d75777af4c99970c0ed3c25effd1c08be/1902"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "2595",
+      "name": "Elite #1806",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af237e3fd96f5495bb540dbcaf8e22fda1275f3bc3dde3abbabbd16f0923d36e714644a2c2e4ecc8da092288495ffbcffb527a86d3b00a7d8d22f4ee09d9bfac4fe23786a7af4821161556280f3d525f60ad28f9124dd10c245099aed8e0ef88907b38a6f55f915dfa1c478c899ee9625058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-10T02:34:13.777Z",
+      "lastFlagChange": null,
+      "rarity": 439.853,
+      "rarityRank": 5458,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": 0.23006,
+        "timestamp": 1662286955
+      },
+      "lastSell": {
+        "value": 0.1,
+        "timestamp": 1668029207
+      },
+      "owner": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xdeb64d8cc0f665a9f45b568c4cdaed1a5df3b66cf8e249d805f0abf80331910c",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "275833999999999994",
+            "decimal": 0.27583,
+            "usd": 327.3537,
+            "native": 0.27583
+          }
+        },
+        "maker": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa",
+        "validFrom": 1671320843,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x2a48420d75777af4c99970c0ed3c25effd1c08be/2595"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "2930",
+      "name": "Elite #428",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aa22f5a2e33a3d01d99ea0ff9c86e7eafb4290e8a6374a3ae1c1fc0dbb4ad00d033705de8c1cc1f47c2ae43981a9c92e643743796763597220adc29840622923a2ef208fc5856ca7f61a7df19111edb5b67e5f68bd52874c92eb8e3ea43eb12947faab116652b5945d2674d8869bdfa0423c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-10T02:34:00.897Z",
+      "lastFlagChange": null,
+      "rarity": 412.205,
+      "rarityRank": 5775,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": 0.22348,
+        "timestamp": 1662286955
+      },
+      "lastSell": {
+        "value": 0.2355,
+        "timestamp": 1661718988
+      },
+      "owner": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x04527637e3cf4ff3c2375a27e6970161bb139a67bccf817aeb4f4d2a82f65af6",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "275833999999999994",
+            "decimal": 0.27583,
+            "usd": 327.3537,
+            "native": 0.27583
+          }
+        },
+        "maker": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa",
+        "validFrom": 1671320843,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x2a48420d75777af4c99970c0ed3c25effd1c08be/2930"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "3408",
+      "name": "Empath #755",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af3d2bed988febbb75e2333a8c3957f85bf272dc27a188692aa8a7330e206ba6364e4f9ffc2ad21bf6d8dde141bd254f253d5baeb542c28178aca14f8e6aff92646f6ab7ed0f1a7c14c66f023bdaaa962c7e64e3400e2320ffd73ea26779724d7e5d2e24a8c863277892becfb3967295ee1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-10T01:57:08.783Z",
+      "lastFlagChange": null,
+      "rarity": 418.585,
+      "rarityRank": 5701,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.25,
+        "timestamp": 1661796008
+      },
+      "owner": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xe696fc670da0934d91e7e185eddb1c875e6465028ef5c46cb86e9cbb7afa5b3b",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "275833999999999994",
+            "decimal": 0.27583,
+            "usd": 327.3537,
+            "native": 0.27583
+          }
+        },
+        "maker": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa",
+        "validFrom": 1671320843,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x2a48420d75777af4c99970c0ed3c25effd1c08be/3408"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "3509",
+      "name": "Elite #476",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a9d35186533e255dcc4d886adf95f02c76c2693521a9ec44ef4ecd890bc3c162017421b8b729c985579ce50002e166643972fc7fed7aea3fcbb5417a14118fed383a468dc0882a44548a65845027846da23313c9b6ea750587210a4fa552eeaee48189acadf3bf0ccad2c82feb7116f5723c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-10T01:57:04.709Z",
+      "lastFlagChange": null,
+      "rarity": 532.397,
+      "rarityRank": 4365,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": 0.1985,
+        "timestamp": 1667501483
+      },
+      "lastSell": {
+        "value": 0.39,
+        "timestamp": 1659056478
+      },
+      "owner": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xdb972104bee55bcfa5071a434e8eea604a730d1a6ceea7084a9506fdc4c95867",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "275833999999999994",
+            "decimal": 0.27583,
+            "usd": 327.3537,
+            "native": 0.27583
+          }
+        },
+        "maker": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa",
+        "validFrom": 1671320843,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x2a48420d75777af4c99970c0ed3c25effd1c08be/3509"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "3789",
+      "name": "Elite #759",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a62a46c1ab767d98cd06ddbb6b849e6e0c3aa954583af71a433fd572b26c72135ddbae75f96881d9f79acaf3debb0be4409f0e2d53f1df5d80f7160729790eed170e32a5756c48ef69c4e2310e331476e14d11a874fea5c9255ea43f39acb8c7174e89ac9674b1cfc426564ac331a98d0058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-10T01:56:52.660Z",
+      "lastFlagChange": null,
+      "rarity": 469.841,
+      "rarityRank": 5110,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": 0.15724,
+        "timestamp": 1663661459
+      },
+      "lastSell": {
+        "value": 0.1001,
+        "timestamp": 1668029231
+      },
+      "owner": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x9f99040fd2fa8fa5e2d5c07a572ff69d84214634e03af0cb295a647631b15f94",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "275833999999999994",
+            "decimal": 0.27583,
+            "usd": 327.3537,
+            "native": 0.27583
+          }
+        },
+        "maker": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa",
+        "validFrom": 1671320843,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x2a48420d75777af4c99970c0ed3c25effd1c08be/3789"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "3850",
+      "name": "Elite #177",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aff6a895bb56e82fb79dfae565ec151f3d196cc5e53323c7d138e304df8f8c3cfb96e63184c6dc884be07543ac3b30dbecabd5f00c5b4dcc91dfa6eeee246fb2ff47e13128dcb4230b76aad6476665e8bf927f30025efe4439c5bc0c26595c862e8549b3c995fe68bab34e4f1656e2b2723c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-10T01:56:50.279Z",
+      "lastFlagChange": null,
+      "rarity": 557.149,
+      "rarityRank": 3926,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": 0.19272,
+        "timestamp": 1662834098
+      },
+      "lastSell": {
+        "value": 0.19,
+        "timestamp": 1662834098
+      },
+      "owner": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x15c9499257953a11f6bc38665705f8897a420c6be4b0b3786f7a671765086185",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "275833999999999994",
+            "decimal": 0.27583,
+            "usd": 327.3537,
+            "native": 0.27583
+          }
+        },
+        "maker": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa",
+        "validFrom": 1671320843,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x2a48420d75777af4c99970c0ed3c25effd1c08be/3850"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "3988",
+      "name": "Elite #722",
+      "description": "Elite #722\n\nThis character has not had a story added yet",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a0293927dfeaec09771f28859abc34937f99c01813f0b9ecfd37842160bdb9de494046c14dbc39d81dc5967b59710f0cb9e035f282f7afec551fc442361e89044765924d7da330594e4004b20735a434d0c3d2d7814f5bf9ecb431a35630c425951c377a98ac8e8e9d6abed6538ed279be1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-17T13:37:19.586Z",
+      "lastFlagChange": null,
+      "rarity": 1872.932,
+      "rarityRank": 631,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": 0.1871,
+        "timestamp": 1662953495
+      },
+      "lastSell": {
+        "value": 0.395,
+        "timestamp": 1659461535
+      },
+      "owner": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x84bee471856b00606efc8cd58a3e071fdd80774dce076d084c457c62a493d477",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "275833999999999994",
+            "decimal": 0.27583,
+            "usd": 327.3537,
+            "native": 0.27583
+          }
+        },
+        "maker": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa",
+        "validFrom": 1671320843,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x2a48420d75777af4c99970c0ed3c25effd1c08be/3988"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "4253",
+      "name": "Elite #423",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75acb2c16fea392ca3335c526abe3fa6554525f770f4b544a87d566c14a37bbbfc1832121e8e945eb8c91296231594a775b0da2e356e02a7b24a86d9c340bf9ccba48ebb53623b7e8f434d7efc7da1bfb8aca85d4658a44609d1279fcadc185b2d8716ba11148bf0f43d3da096d99e69f6823c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-10T01:37:24.156Z",
+      "lastFlagChange": null,
+      "rarity": 402.863,
+      "rarityRank": 5880,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.249,
+        "timestamp": 1661796008
+      },
+      "owner": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x3c968ee096fd003c91577f8f02a50491110d2e82c918b655fcbb8c0e636a6e07",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "275833999999999994",
+            "decimal": 0.27583,
+            "usd": 327.3537,
+            "native": 0.27583
+          }
+        },
+        "maker": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa",
+        "validFrom": 1671320843,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x2a48420d75777af4c99970c0ed3c25effd1c08be/4253"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "4575",
+      "name": "Elite #1246",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a70435f7f640ea909ba7690648f05bcd6999491ff3946756686b6b6291ec4295aab5310078cba2475e9f43ecfd4c0541db2705d64e6a355bcf5c9fe117e460413072ced9aa03035be299da0a1c39ba4b9944c4afd4f329671e43c5587778201ed97a1db603f463c17c1e3102be2914de123c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": true,
+      "lastFlagUpdate": "2022-11-17T21:05:59.408Z",
+      "lastFlagChange": null,
+      "rarity": 892.846,
+      "rarityRank": 2084,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": 0.1871,
+        "timestamp": 1668557795
+      },
+      "lastSell": {
+        "value": 0.38999,
+        "timestamp": 1661183542
+      },
+      "owner": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x5fe85fc230105967c1de78d22b581c5387ac67eca086db661da0faa1962e57d9",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "275833999999999994",
+            "decimal": 0.27583,
+            "usd": 327.3537,
+            "native": 0.27583
+          }
+        },
+        "maker": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa",
+        "validFrom": 1671320843,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x2a48420d75777af4c99970c0ed3c25effd1c08be/4575"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "5092",
+      "name": "Empath #1221",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a2763742750b576bf1c993957b3ae17141bb277876ecf8d9a848da0ac734dbb9ba32a42c4fb4793cac94ceb337e193f357a93b4600218153d96636eccbd33a03267247b7050393ed1e45fed6bdf75277348e48f9d0b045bcfc8b2698202c3ba9036edfdef7129672946c71b1a085cb614e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-10T01:27:38.357Z",
+      "lastFlagChange": null,
+      "rarity": 635.543,
+      "rarityRank": 3276,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": 0.1567,
+        "timestamp": 1663674299
+      },
+      "lastSell": {
+        "value": 0.314,
+        "timestamp": 1659977547
+      },
+      "owner": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x108b3dce75164b6c9064c7b79831de78bc70922b2e2db084f65c386b8c39e448",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "275833999999999994",
+            "decimal": 0.27583,
+            "usd": 327.3537,
+            "native": 0.27583
+          }
+        },
+        "maker": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa",
+        "validFrom": 1671320843,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x2a48420d75777af4c99970c0ed3c25effd1c08be/5092"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "5431",
+      "name": "Elite #1281",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a02918dafbb8a4d1d33a20b6bbd761e1ee61c238c4f492bebc5fdff821a4d231b2eef6d83752b3b3431ddb84030cb8e9735c991f72b7e2a4f98cc5f3522cbf91fc26bab0c0b4a635971ef4dd9d7b7a9f10edc8fc198b29ca1a5fa33bfcbc268a994eeb9d37353d7a33abbb9cba9df4b6123c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-10T01:27:25.198Z",
+      "lastFlagChange": null,
+      "rarity": 398.247,
+      "rarityRank": 5930,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.10253,
+        "timestamp": 1668034403
+      },
+      "owner": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xdc65733ed75235a0bb9a437fa1eed40c54aa6bfbe5186e89123c1c0a8c0f0978",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "275833999999999994",
+            "decimal": 0.27583,
+            "usd": 327.3537,
+            "native": 0.27583
+          }
+        },
+        "maker": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa",
+        "validFrom": 1671320843,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x2a48420d75777af4c99970c0ed3c25effd1c08be/5431"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "5462",
+      "name": "Empath #1384",
+      "description": "Empath #1384\n\nThis character has not had a story added yet",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a65dedf721d576e5e405c6323e09d633bd50e9c3c3fe40371a6a2ab8cbdc944d8ab290fd1811ab392ce72c0109d3de9610c8bb11b2beb82e91014c0225f3a6daf28a2eecf9624e40c580ef0f2731f2d6b294b88d04030f03834f37bb9d1b9d86419cca17dd2a89e7b868695d68f00a8a923c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T23:46:29.783Z",
+      "lastFlagChange": null,
+      "rarity": 3371.367,
+      "rarityRank": 193,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": 0.22341,
+        "timestamp": 1671320843
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x221d5f932373b775be1ffa390f74dfb4cea9853089d14a2df22a33998e397480",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "275833999999999994",
+            "decimal": 0.27583,
+            "usd": 327.3537,
+            "native": 0.27583
+          }
+        },
+        "maker": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa",
+        "validFrom": 1671320843,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x2a48420d75777af4c99970c0ed3c25effd1c08be/5462"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "5622",
+      "name": "Elite #453",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab522978aa1220a3f29e166ffe33cffa5d495fcb1017a9552e43826c8e913e3375cdff4ba1cfaa3c9759ed16265ab9f594dfd6352df2fb45a0d3f5ed80895a7dadd6b838226d2564d437fc06d314f99351dab8832661bb85301e183cdbd93fa24a658edf6d935f054ffb7913014a47db3e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-10T01:27:17.499Z",
+      "lastFlagChange": null,
+      "rarity": 410.818,
+      "rarityRank": 5791,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.25,
+        "timestamp": 1661796008
+      },
+      "owner": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xaaca8dba1a620c78a1e14c497d0ffc7b6212e869667cd4887ec142899c8fe414",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "275833999999999994",
+            "decimal": 0.27583,
+            "usd": 327.3537,
+            "native": 0.27583
+          }
+        },
+        "maker": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa",
+        "validFrom": 1671320843,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x2a48420d75777af4c99970c0ed3c25effd1c08be/5622"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "5632",
+      "name": "Elite #2063",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75abba2f593f994c5ee920bbc3cbfca38d774cf06ce863bf3743c954492e91f43b4952f33acf4d5601eb5c915353f6f1e1c7b1d598622332e7161654bb87ee9f8cec00d751c8fea80ae02fa17a7f4cb19f58c65ab5a6dbf3db752b4a4cdb0de7521a0f13d6a67f5deca95b2b6d045096737e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-10T01:27:16.328Z",
+      "lastFlagChange": null,
+      "rarity": 569.488,
+      "rarityRank": 3802,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": 0.18522,
+        "timestamp": 1661322747
+      },
+      "lastSell": {
+        "value": 0.15038,
+        "timestamp": 1668028619
+      },
+      "owner": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xed5e7af40d9ad3ad54d4ed969ff8a5a550fc63ea6e9d796bf54798e0fe8a4c91",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "275833999999999994",
+            "decimal": 0.27583,
+            "usd": 327.3537,
+            "native": 0.27583
+          }
+        },
+        "maker": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa",
+        "validFrom": 1671320843,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x2a48420d75777af4c99970c0ed3c25effd1c08be/5632"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "5635",
+      "name": "Empath #1254",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a9c3128ccc857e2ae6bac0f491ecf49a75eb52ba4f3b2badae6f28037447bf2f3a91b9c41d29ac9f8d285c9cb169de41c8e6616f51fcea052682c84610cb0e3f95017ec561d51d4d10d9cc3707475fca40896c2bb4409b848fb678d5837ac434ef683020681f7d6cc7fbea89b2de6f7f4e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-10T01:27:16.325Z",
+      "lastFlagChange": null,
+      "rarity": 544.779,
+      "rarityRank": 4215,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.1009,
+        "timestamp": 1668030887
+      },
+      "owner": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x3b47446a2b80ec4cff5f0291697c04f728ab566314e56be1849b1cf3a5808b97",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "275833999999999994",
+            "decimal": 0.27583,
+            "usd": 327.3537,
+            "native": 0.27583
+          }
+        },
+        "maker": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa",
+        "validFrom": 1671320843,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x2a48420d75777af4c99970c0ed3c25effd1c08be/5635"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "5645",
+      "name": "Elite #849",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a22bb9a819808d88d4861620a5ff9b07de9cd8cb32092115b14800261e5b942b9609e0e7b0fe7873512df60010d3b3b53df20f92b69cb52e8778ab3ac49904928790e2832acc1e7a246f5676671d1af57aa20295a1e8b993710f10d03c17d8fd40d4d5c2c06e203c14b2dd5688590aa0823c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-10T01:27:15.597Z",
+      "lastFlagChange": null,
+      "rarity": 354.263,
+      "rarityRank": 6282,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.1002,
+        "timestamp": 1668029243
+      },
+      "owner": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x760432dcb8ea1eba1fde3c97dde87068d29bb4d92cbd7ff17176cb495afb8571",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "275833999999999994",
+            "decimal": 0.27583,
+            "usd": 327.3537,
+            "native": 0.27583
+          }
+        },
+        "maker": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa",
+        "validFrom": 1671320843,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x2a48420d75777af4c99970c0ed3c25effd1c08be/5645"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "5672",
+      "name": "Elite #416",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a95b7fcf0655e2eb41a452faaaa7279dc66c6ac637e05db30cbfb667a9dc8c954d50f645a0bfa58c6690f06f3d8107590d0aeb44aab687c0a18caca5d5f8ddb8b5ac26fa6b9741303dc9fd670cb108fe743088a735bdf33e0c53ec76bd4ac690340cf3fb6560ffb19912abfc229c65cea058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-10T01:27:14.904Z",
+      "lastFlagChange": null,
+      "rarity": 548.23,
+      "rarityRank": 4176,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": 0.22348,
+        "timestamp": 1662286955
+      },
+      "lastSell": {
+        "value": 0.231,
+        "timestamp": 1661718988
+      },
+      "owner": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xca1c92cdb827f5374bf907e4bb5081d8ce0679aafb75e95c61526b53c01395aa",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "275833999999999994",
+            "decimal": 0.27583,
+            "usd": 327.3537,
+            "native": 0.27583
+          }
+        },
+        "maker": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa",
+        "validFrom": 1671320843,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x2a48420d75777af4c99970c0ed3c25effd1c08be/5672"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "5797",
+      "name": "Elite #1614",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a34b3dd5c00eab1a35f903b12ccbaffa00cd323439b13716fd6e951f1756fba67ba4fd79737590bc599e04f16d9b95f3b66216800277c73b5e3354a3ab8ec84edab0d667600d4479eae6774dcd1db55ee2e5c0584c16b7ef592737afca2b768b48ca917bc1f7654d2d45dba7f68be60c723c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": true,
+      "lastFlagUpdate": "2022-11-28T16:22:00.246Z",
+      "lastFlagChange": null,
+      "rarity": 759.911,
+      "rarityRank": 2630,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": 0.23012,
+        "timestamp": 1670911595
+      },
+      "lastSell": {
+        "value": 0.242,
+        "timestamp": 1669804763
+      },
+      "owner": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xaa5cb6dcd22bef7cc7202b78b95d05d3f1b750ccc1c0a63f635af807c1fb4e3f",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "275833999999999994",
+            "decimal": 0.27583,
+            "usd": 327.3537,
+            "native": 0.27583
+          }
+        },
+        "maker": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa",
+        "validFrom": 1671320843,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x2a48420d75777af4c99970c0ed3c25effd1c08be/5797"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "5854",
+      "name": "Empath #1620",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a17a933e324351af63a8054694928a7ee33a823e1bd4fe8850322c50d62edf0930eb39e95247dcebb1e9ffb9c2b4645118de0b6af5047a2f6c3643c3b3e692c3006dd13d6dbd9baf73d836f76ec86a3f3d7913fe9590e017691a260acbfa147b30d7912563c48162a6374d3a1208ea12223c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-10T01:27:08.052Z",
+      "lastFlagChange": null,
+      "rarity": 348.534,
+      "rarityRank": 6323,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": 0.17978,
+        "timestamp": 1661388723
+      },
+      "lastSell": {
+        "value": 0.15038,
+        "timestamp": 1668028619
+      },
+      "owner": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x13de2566feff419830e1c1dff1cff37597428695ba3180f2c6aabd4ff26e96fb",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "275833999999999994",
+            "decimal": 0.27583,
+            "usd": 327.3537,
+            "native": 0.27583
+          }
+        },
+        "maker": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa",
+        "validFrom": 1671320843,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x2a48420d75777af4c99970c0ed3c25effd1c08be/5854"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "5876",
+      "name": "Elite #265",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ac0bdfface74647d5a25a4a32d704c256c6f146a31351cfc87f84d97f3fb9c8bd0a3ae7769ed679a8e46330f4ff9e7b4d10be4d929999906617bb8f0093aca53642aa320535a05c595551188c9ae850733df33d9d24f7aa6579a92042fab9a47371d109998c232161b06fd41da8d00f57058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-10T01:27:07.249Z",
+      "lastFlagChange": null,
+      "rarity": 424.718,
+      "rarityRank": 5631,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.28,
+        "timestamp": 1661796008
+      },
+      "owner": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x61b8f8e1dc7f499a35431d276556caf716332149c296d67f2539b9b1895b0302",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "275833999999999994",
+            "decimal": 0.27583,
+            "usd": 327.3537,
+            "native": 0.27583
+          }
+        },
+        "maker": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa",
+        "validFrom": 1671320843,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x2a48420d75777af4c99970c0ed3c25effd1c08be/5876"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "6133",
+      "name": "Empath #1807",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a2c548e1d8787609f2e07ce8a395c3a62d7862cb1d5664497756a75eab19572d260bb0d0402ace38a2737062b6667fda304ea6eb623d742628b71d4d05d497eda7e27436bb5ba69ce77535b7368979289114ae28500337d9ef3ceec1a8c5d9d8ac37db26f7ea373b8a45469c44e205faee1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-10T01:26:19.685Z",
+      "lastFlagChange": null,
+      "rarity": 392.73,
+      "rarityRank": 5969,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.10161,
+        "timestamp": 1668032351
+      },
+      "owner": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x722d34a1c3a75063013369f386061949c08d36451ea9fee53ce8a4eed2ae2116",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "275833999999999994",
+            "decimal": 0.27583,
+            "usd": 327.3537,
+            "native": 0.27583
+          }
+        },
+        "maker": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa",
+        "validFrom": 1671320843,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x2a48420d75777af4c99970c0ed3c25effd1c08be/6133"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "6249",
+      "name": "Elite #993",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aaecaa2f0c4281c47f40bedc4b84f5a5fe2aa76043e42efc6aa476df06e16e4320166b0576a8bf2e3b873374ea348e427f944e1e5d4132897793755089de3193807b284993ac105f1b10a689f8f9dd5a14548e8f12905c09852d7708e84348936eb28a63a662d14d63c4d33534f81702123c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-10T01:26:13.960Z",
+      "lastFlagChange": null,
+      "rarity": 545.731,
+      "rarityRank": 4207,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.296,
+        "timestamp": 1661796008
+      },
+      "owner": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x22ee5e6f61016900cf1bd443b2973416f5be486e922d31ede32326f7202bd5ef",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "275833999999999994",
+            "decimal": 0.27583,
+            "usd": 327.3537,
+            "native": 0.27583
+          }
+        },
+        "maker": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa",
+        "validFrom": 1671320843,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x2a48420d75777af4c99970c0ed3c25effd1c08be/6249"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "6288",
+      "name": "Empath #1275",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aed7ae46732ec9d3467f21619b0518a5867b6b2aff0cca00ef30ebd59ae74c98604769f2d9e546fd8b64c5591b8c99bcf78834a2a4f5595d048488dd6e459fc6de91f1e4a1961fff7c149dddbc070848491f68d4484e85364a76085abda270d2042fc905e3ed02d4ef762578bc6cddd9f23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-10T01:26:12.543Z",
+      "lastFlagChange": null,
+      "rarity": 465.213,
+      "rarityRank": 5174,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": 0.19658,
+        "timestamp": 1661195335
+      },
+      "lastSell": {
+        "value": 0.10233,
+        "timestamp": 1668033467
+      },
+      "owner": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x8d64c5e18e81b34175d62614217558e5a2252712f48a2dfe967f30ccc43e5f43",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "275833999999999994",
+            "decimal": 0.27583,
+            "usd": 327.3537,
+            "native": 0.27583
+          }
+        },
+        "maker": "0x0cd9a28faf713fd1386ba0477efd16cd968816aa",
+        "validFrom": 1671320843,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x2a48420d75777af4c99970c0ed3c25effd1c08be/6288"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "6449",
+      "name": "Elite #2056",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a0825c42b843aaeafdc1680b1e85aeb4bcc2d91be3c6b61778bb2a07ecd923ac8501f2e334f45d355586a535f5f7f442c43f0b33cf41c994d16e849ae5dbc0fde692a75e9d5ad1ceb6a7bfb42f975bd0b891971db640ca04670bd4f852fbe7a901ca982752c431b15825d491f647e935ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-10T01:26:06.910Z",
+      "lastFlagChange": null,
+      "rarity": 707.198,
+      "rarityRank": 2872,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.36,
+        "timestamp": 1661200660
+      },
+      "owner": "0x840d059b595a6f27592a22d0773cc7cf7c31993c"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x06953d07ef04f512431b9f0b2b44501144428a3fd5a9eb95874aa4e499d58877",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "280000000000000000",
+            "decimal": 0.28,
+            "usd": 332.29782,
+            "native": 0.28
+          }
+        },
+        "maker": "0x840d059b595a6f27592a22d0773cc7cf7c31993c",
+        "validFrom": 1671541490,
+        "validUntil": 1674219890,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x2a48420d75777af4c99970c0ed3c25effd1c08be/6449"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "4190",
+      "name": "Elite #1200",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a63df24d5889f0326389ca5c6cc2e7a1cb82d7825cf608ed33755955db4ec268ad8fd06a12e1a5a55e3b17aabb6fde30f58d3b296c37985859976a21573d91d811d9208ae116b4ce0cb5c9e02a522efe9863057a410b29fb2b0a545348ca4e95e8e3b27a787f4fd054da3a81e6212bfe423c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-10T01:37:26.174Z",
+      "lastFlagChange": null,
+      "rarity": 543.316,
+      "rarityRank": 4230,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.3,
+        "timestamp": 1659748431
+      },
+      "owner": "0x90315ad220aef8c20a42cb560aebffdac7b24ef3"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x3c35acbeab430bedf27b428bbd88f32ce7f55e024eaa11cfdbd50eda901a665e",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "289000000000000000",
+            "decimal": 0.289,
+            "usd": 342.97882,
+            "native": 0.289
+          }
+        },
+        "maker": "0x90315ad220aef8c20a42cb560aebffdac7b24ef3",
+        "validFrom": 1671492270,
+        "validUntil": 1672276184,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x2a48420d75777af4c99970c0ed3c25effd1c08be/4190"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "163",
+      "name": "Elite #413",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a90bd7a740690a570313ef4725c402d1565e36d2b7672f40f2a911b8b5a2b4df0fc7c0a64e6c19b0e25116d10369d4898ffb5aa61c9a8588c3f7ab11ada62603a39a7466aaedec57cfa55a27257b6318f904feb296680b4ca9dee9d8d9fbbb15b1306df054fc908d7ba608de6759c1d8f058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-10T02:49:49.419Z",
+      "lastFlagChange": null,
+      "rarity": 372.675,
+      "rarityRank": 6137,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xaabe57f2010d3b5a3b4aa651ad57350ae49b5812"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x456f5f94c9cfae917cc389c86e36b0a21bc927ba155ace1b0b82a791e4e91e5d",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "290000000000000000",
+            "decimal": 0.29,
+            "usd": 344.1656,
+            "native": 0.29
+          }
+        },
+        "maker": "0xaabe57f2010d3b5a3b4aa651ad57350ae49b5812",
+        "validFrom": 1671299271,
+        "validUntil": 1671558471,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x2a48420d75777af4c99970c0ed3c25effd1c08be/163"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "4551",
+      "name": "Elite #662",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75afe60f1a46c8890f8e1ae34829ce971587793da98845c2d357a172147b2b019a65ae7cf939b4beac86ca0408c44f233fbba02cc688c7106995c8213898079bc14ad2626f2bff445c2f7cdf39ac47b617f60209ced3f9c3eea8534be8ce7694e300024419c05bca64421866181f0a5ce6523c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-10T01:37:11.229Z",
+      "lastFlagChange": null,
+      "rarity": 374.46,
+      "rarityRank": 6120,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": 0.17451,
+        "timestamp": 1661205721
+      },
+      "lastSell": {
+        "value": 0.10613,
+        "timestamp": 1668035687
+      },
+      "owner": "0x7a0da2d5c55ec3f91372f287c0f6662f9ee29647"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x4609bc70c6c7b94d1205bab2c96d99d40c778baa8af2ab1c039466f0d15113d6",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "290000000000000000",
+            "decimal": 0.29,
+            "usd": 344.1656,
+            "native": 0.29
+          }
+        },
+        "maker": "0x7a0da2d5c55ec3f91372f287c0f6662f9ee29647",
+        "validFrom": 1670788970,
+        "validUntil": 1673467370,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x2a48420d75777af4c99970c0ed3c25effd1c08be/4551"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "4716",
+      "name": "Elite #598",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a19c39869c8cd35e6bd624ed32daa652e6ce79aaed3fd0215f27702edb987cb3b5499a64c71773da35ef391c9b0108acd54ae146b034d52b28e5e0bf1d9e5049c5ebb4ed74b041e0e731e1addfa08da0164e768f799d11458a6251c93aca468e646fba33d35d561a1dc101872d8736f8d058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-10T01:37:04.471Z",
+      "lastFlagChange": null,
+      "rarity": 451.979,
+      "rarityRank": 5331,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": 0.23006,
+        "timestamp": 1662286955
+      },
+      "lastSell": {
+        "value": 0.10613,
+        "timestamp": 1668035687
+      },
+      "owner": "0x7a0da2d5c55ec3f91372f287c0f6662f9ee29647"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xdc9481acabf1ede2b63dd34864e505bb75c31ae31bb120c1f426a619d2a7fa03",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "290000000000000000",
+            "decimal": 0.29,
+            "usd": 344.1656,
+            "native": 0.29
+          }
+        },
+        "maker": "0x7a0da2d5c55ec3f91372f287c0f6662f9ee29647",
+        "validFrom": 1670788970,
+        "validUntil": 1673467370,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x2a48420d75777af4c99970c0ed3c25effd1c08be/4716"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "4282",
+      "name": "Empath #23",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae9277474647b97d6645fc00146169592bc20ac89b84b2b97017e9a81b5dbb91e9c5125cdf8b9e87632148bb9be430a36d30157c8aa27028669c454dac63806a33abf6d2b60a3c9816879a7e08b56344daea5c2589a3735836e9b7b9d1a1db3b0c724b9cb8ce643f6a1e3696e6f86c258058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-10T01:37:22.622Z",
+      "lastFlagChange": null,
+      "rarity": 488.3,
+      "rarityRank": 4857,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": 0.192,
+        "timestamp": 1664486339
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xf6fe8b0f7d4261f6809ee079f477a0e9d59bcf32"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x47dddb17c074af71e85d1f4c2d9fd3cfe9c88e04dafe03fca4beb535c851a5d7",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "295000000000000000",
+            "decimal": 0.295,
+            "usd": 350.09949,
+            "native": 0.295
+          }
+        },
+        "maker": "0xf6fe8b0f7d4261f6809ee079f477a0e9d59bcf32",
+        "validFrom": 1669644896,
+        "validUntil": 1672236896,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x2a48420d75777af4c99970c0ed3c25effd1c08be/4282"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "5183",
+      "name": "Elite #510",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af9cbd313cf249fba728a9f08f0621b2987785f1a81c286d7f0b7949649e08ae4c489da4333e58d02375d836f29a2fc99ce2c58b2b1f0abe23df8733487b1d1253d26698d319b79fd29dcef8773502d90a2cf86a4e7e49f68f326c9e7316385643b86e353e45a1aff87e88bb1a349e06c23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-10T01:27:35.368Z",
+      "lastFlagChange": null,
+      "rarity": 526.376,
+      "rarityRank": 4430,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.10518,
+        "timestamp": 1668035495
+      },
+      "owner": "0x9231f3ca8ac8d8ea964199f314c2046b35d72006"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x27a00d72306c906a71829332b16b6a64e3888abee02dee247d2edb9dc06229be",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "295000000000000000",
+            "decimal": 0.295,
+            "usd": 350.09949,
+            "native": 0.295
+          }
+        },
+        "maker": "0x9231f3ca8ac8d8ea964199f314c2046b35d72006",
+        "validFrom": 1670800510,
+        "validUntil": 1673478910,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x2a48420d75777af4c99970c0ed3c25effd1c08be/5183"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "1343",
+      "name": "Elite #127",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1ae643abc0f9ef984de7f69093f4aaec3f24e2ccb30d2c95e5f65b23d270519ddc4d2f196a2879ce1796573694b2650161d55857adf75ab0039fcb2ae8a61aaed49e06e55a5a7a93578155a8237565e4e629ee447c2a84bc76b2bc9908f8f0c387bb502b56d406fff49926c6fa121acce1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-10T02:37:48.932Z",
+      "lastFlagChange": null,
+      "rarity": 485.694,
+      "rarityRank": 4889,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xdae5341ad6f761c1f0a1d3883eb11b72b63864b8"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x3059cac20a5df053a9ea8cd89ae32fa91c7b03871682d8f3c70961440a25029b",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "299000000000000000",
+            "decimal": 0.299,
+            "usd": 354.8466,
+            "native": 0.299
+          }
+        },
+        "maker": "0xdae5341ad6f761c1f0a1d3883eb11b72b63864b8",
+        "validFrom": 1670782309,
+        "validUntil": 1672893567,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x2a48420d75777af4c99970c0ed3c25effd1c08be/1343"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "148",
+      "name": "Elite #1590",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a69ac6a2f66c33ec846bc63606a7a89608b97930017a45d14ae78ccce57c2eb96f32e4728ca65789459bd3607f7a794d6546717bf1d11793ddb88be83a17d5d4ae1f955c8d4b5811b660ab4ccc66271d7b44a1542aa090f6b1b3f244c89792f3e56d0ee42c52c055c5016ea3780f1710e23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-10T02:49:50.354Z",
+      "lastFlagChange": null,
+      "rarity": 628.885,
+      "rarityRank": 3324,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x32c810f382ff968a835ded087e8a69ee61d43528"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xa1334340e69c5d10b7fe2e7778e5953ea58df999ce27fec0c8c308c82f2fac71",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "300000000000000000",
+            "decimal": 0.3,
+            "usd": 356.03338,
+            "native": 0.3
+          }
+        },
+        "maker": "0x32c810f382ff968a835ded087e8a69ee61d43528",
+        "validFrom": 1671231424,
+        "validUntil": 1671836224,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x2a48420d75777af4c99970c0ed3c25effd1c08be/148"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "740",
+      "name": "Empath #920",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ac555c55fd890215054bafd8191ee9dfa848039e9921e6e5bab9005852990fd45ce0b0283203ab6c35d26ac643fb1339e59b4a6f04f961ac1e1c5b375fbcb81daace1c6b0d87f2edb184704438dcc3ac8576cead8fe69d70187800d2650855d36369d958280f3b93f3374b72f8003b97ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-10T02:49:26.285Z",
+      "lastFlagChange": null,
+      "rarity": 428.89,
+      "rarityRank": 5580,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.27,
+        "timestamp": 1661659610
+      },
+      "owner": "0xcefd139dcaf850ea05dd95e2cfa71299a3e949d3"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x7f99dcff21b7f9263fa4a6f744f0efc0ccc6a8873fe0c60606a9c8da7221ec57",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "300000000000000000",
+            "decimal": 0.3,
+            "usd": 356.03338,
+            "native": 0.3
+          }
+        },
+        "maker": "0xcefd139dcaf850ea05dd95e2cfa71299a3e949d3",
+        "validFrom": 1670556715,
+        "validUntil": 1673235115,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x2a48420d75777af4c99970c0ed3c25effd1c08be/740"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "801",
+      "name": "Empath #1244",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75afeb47abf76cc6bea17fbb8e463259315cae27e802e5d2809859839ac97ab6ca54ef923a8cef0198a590e258bc354f60b534d6edaf74610876d94490a24253b6c3c3cce3f5382cb8160e53635ea74000e77f272bcb83dad1ce8819a7e1b4ba392098d8cce10f62f00f15fa46c5c83de98058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-10T02:49:23.791Z",
+      "lastFlagChange": null,
+      "rarity": 344.287,
+      "rarityRank": 6339,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 1.56,
+        "timestamp": 1650019929
+      },
+      "owner": "0x7a664465da59e69f7ca9407914adcfe315b25429"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xa4b2f7efda03f151a80d39b2f4c5acef0f52876fbda1be162cb63e2b7cf7ccd4",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "300000000000000000",
+            "decimal": 0.3,
+            "usd": 356.03338,
+            "native": 0.3
+          }
+        },
+        "maker": "0x7a664465da59e69f7ca9407914adcfe315b25429",
+        "validFrom": 1670512310,
+        "validUntil": 1671820353,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x2a48420d75777af4c99970c0ed3c25effd1c08be/801"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "2249",
+      "name": "Empath #1215",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a347626300f3b452e848eab8af7e9126277c5e682b8404e5dbe3879134ff7a8558370b9e85263c43ce91d9eb621514295debe76a6e7b627a1905459f849f9fdff7fb4a7d488998d26412d9f87113eb85a28c9ab1ded948421b5da7e7fde2dec55f6d917346880c578969cf73c0278fa5223c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-10T02:34:28.596Z",
+      "lastFlagChange": null,
+      "rarity": 690.872,
+      "rarityRank": 2945,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.79,
+        "timestamp": 1652895037
+      },
+      "owner": "0x9bf1073d0e9970685a5c055f218eadbe60e7d632"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xcd603d9f702ec313051954bfd68d54cc9fb3ece325d7e5a72649bbc8c664ba81",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "300000000000000000",
+            "decimal": 0.3,
+            "usd": 356.03338,
+            "native": 0.3
+          }
+        },
+        "maker": "0x9bf1073d0e9970685a5c055f218eadbe60e7d632",
+        "validFrom": 1671513537,
+        "validUntil": 1671772737,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x2a48420d75777af4c99970c0ed3c25effd1c08be/2249"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "2445",
+      "name": "Empath #1936",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a819e46acefde5e982fe9ee93dc684b77ec31c9b5f94217a8f74cf6b6787062447c07d67be9f976bf24668093100703c4565d0752221e9a2d83dfdc164643d8ec3a41b43d97aef828e73697edf7fee675b287ad7f660c25b8882cff9bdba5295289d1a2cc54c3c3d6426eb071331050ca23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-10T02:34:20.096Z",
+      "lastFlagChange": null,
+      "rarity": 661.991,
+      "rarityRank": 3114,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x730228dc081e56f3f359dc43333d57203c52cf78"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x6f9c37484d131c2be17bf779d74d2a104d0795c3cfc5e395dd987195aacf8b43",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "300000000000000000",
+            "decimal": 0.3,
+            "usd": 356.03338,
+            "native": 0.3
+          }
+        },
+        "maker": "0x730228dc081e56f3f359dc43333d57203c52cf78",
+        "validFrom": 1670227972,
+        "validUntil": 1672906372,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x2a48420d75777af4c99970c0ed3c25effd1c08be/2445"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "3452",
+      "name": "Elite #1263",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7e29fd2ecd11ae4f84c0949221edb27abafbcee2195019db7f025cf4e07602938d56d439a6669e41c38d7bb28e3da11626dd71161577a8bda67bb77625abd76e8e03923012ee3a785bc9a39f9e47c3e475c7a2bbd37355400ddb23abf24df5e24cbbc89a64116b87089d4a34d1e319e423c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-10T01:57:06.285Z",
+      "lastFlagChange": null,
+      "rarity": 1022.458,
+      "rarityRank": 1696,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x45f9322b076f5a29a452d60254fa050f3db3d1ad"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xc9bb95668a94919a785d3d9d7bc8cb8528ccc3c2873707254849660e6655e662",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "300000000000000000",
+            "decimal": 0.3,
+            "usd": 356.03338,
+            "native": 0.3
+          }
+        },
+        "maker": "0x45f9322b076f5a29a452d60254fa050f3db3d1ad",
+        "validFrom": 1671467906,
+        "validUntil": 1671554306,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x2a48420d75777af4c99970c0ed3c25effd1c08be/3452"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "5751",
+      "name": "Empath #322",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a853f5ec0a6f7181678f834760d2e5d3e90a1fe5379bbf52dd9d6e5f941bf883cf7b9b181c3ebaa9523b599776791a053f8bb21581fbb424fee98cb68335f875a69da2a3bce782c9b60451790978b0269586ae3d1559112fa2ab16ff7306c7200fd2a713191b6a29f0d7a2c98f3aa16c623c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-10T01:27:11.873Z",
+      "lastFlagChange": null,
+      "rarity": 1135.532,
+      "rarityRank": 1460,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": 0.23157,
+        "timestamp": 1669831031
+      },
+      "lastSell": {
+        "value": 0.2689,
+        "timestamp": 1670083439
+      },
+      "owner": "0x5b2576a02fe7ed6794a0ece070093735063c87db"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xc85f2e5f928450b264f01f9e6459e4317768828b71b7ddf0b31eabcdb9620cf9",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "300000000000000000",
+            "decimal": 0.3,
+            "usd": 356.03338,
+            "native": 0.3
+          }
+        },
+        "maker": "0x5b2576a02fe7ed6794a0ece070093735063c87db",
+        "validFrom": 1671220370,
+        "validUntil": 1673898770,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x2a48420d75777af4c99970c0ed3c25effd1c08be/5751"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "6033",
+      "name": "Empath #1607",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a371b83b5fabbd0c80582c4fd7a8e8ba607c70b123e467d74eed2cf206c6295923dbd61d474d7b4650a7c4d87839481b6e6b0b6913af64800ec905a9e2b464caae76fa6f45fbb9623276c574bf5c0e7a4841293d57a7e339cdd8c75b0c04f3bcc3d0988f395f2acf57a3d03b922bc6739e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-10T01:26:23.449Z",
+      "lastFlagChange": null,
+      "rarity": 910.425,
+      "rarityRank": 2016,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x810c3243032f3ac57e9351812f116c3ee6953c18"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x4f44855df83c16dac1887a8c00f56e41e239c3bd1e2b65d75d9ad9c29a791844",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "300000000000000000",
+            "decimal": 0.3,
+            "usd": 356.03338,
+            "native": 0.3
+          }
+        },
+        "maker": "0x810c3243032f3ac57e9351812f116c3ee6953c18",
+        "validFrom": 1671518331,
+        "validUntil": 1674196731,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x2a48420d75777af4c99970c0ed3c25effd1c08be/6033"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "6140",
+      "name": "Elite #682",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a239e2b4064f003c5148cbec6e015cdf73f70ad4df0304ad7e734bde0d32f644056c33206e99269575ea33cb6703cff678d6f8093cd24abe3009169e1adabd924ba44c4b30c7c79df46b8bd7e24ddffe241327fb21f7e267aefceb7b76f2355575f2056441c8b836a39329b824bf404aa23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-10T01:26:19.685Z",
+      "lastFlagChange": null,
+      "rarity": 388.329,
+      "rarityRank": 6005,
+      "collection": {
+        "id": "0x2a48420d75777af4c99970c0ed3c25effd1c08be",
+        "name": "The MV3 Universe",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2f7b7c07c62665a51fed964ac478f1e98077954de234c79b0431ce2f87f5ecaf29aedcdc2751c63d5670afec7fed2eb78ce734791d408ee0179b180f0e1d779edada8f4c39c7d28373bc6d4c6a225c35df73d6100c08840cc7cbf364cc7632eb223976f0534a8417318b331fe4e4dc9e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "MV3"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.328,
+        "timestamp": 1659972101
+      },
+      "owner": "0x5e38306c529f860073c27672adfd6c200b08659d"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xc0ccee2714895a84b214602a0b1f84e547977fab535454ec0db966625af8def5",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "300000000000000000",
+            "decimal": 0.3,
+            "usd": 356.03338,
+            "native": 0.3
+          }
+        },
+        "maker": "0x5e38306c529f860073c27672adfd6c200b08659d",
+        "validFrom": 1669000945,
+        "validUntil": 1671592945,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x2a48420d75777af4c99970c0ed3c25effd1c08be/6140"
+        }
+      }
+    }
+  }
+]

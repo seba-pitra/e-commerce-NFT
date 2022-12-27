@@ -1,5 +1,4 @@
 import { useSelector } from "react-redux";
-import { useEffect, useState } from "react";
 import NFTCard from "../NFTCard/NFTCard";
 import NotFoundResults from "../NotFoundResults/NotFoundResults";
 import PageSelector from "../PageSelector/PageSelector";
@@ -12,22 +11,21 @@ function Pages() {
   const lastNftInPage = activePage * nftsPerPage;
   const firstNftInPage = lastNftInPage - nftsPerPage;
   const nftsInPage = filteredNfts.slice(firstNftInPage, lastNftInPage);
-  console.log(nftsInPage);
   const cards = nftsInPage.map((nft) => {
     return (
       <NFTCard
-        category={nft.category}
-        collection={nft.collection}
+        key={nft.id}
         collectionId={nft.collectionId}
         contract={nft.contract}
         id={nft.id}
         image={nft.image}
         name={nft.name}
         price={nft.price}
-        source={nft.source}
         tokenId={nft.tokenId}
-        type={nft.type}
         userId={nft.userId}
+        rarity={nft.rarity}
+        rarityRank={nft.rarityRank}
+        lastBuy={nft.lastBuyValue || nft.lastBuySell || 0.02}
       />
     );
   });

@@ -1,0 +1,3052 @@
+[
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "390",
+      "name": "Kitaro #390",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a85265ec75ef38aacc1f43a088c0015be3440d59aa83b7fd3ec145d016988d2173965a788003bdeeadf9f15e1434aeb9eea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": true,
+      "lastFlagUpdate": "2022-12-20T06:54:31.812Z",
+      "lastFlagChange": null,
+      "rarity": 99.922,
+      "rarityRank": 3071,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": 0.14883,
+        "timestamp": 1666935323
+      },
+      "lastSell": {
+        "value": 0.0923,
+        "timestamp": 1670635355
+      },
+      "owner": "0x5f326a749275db7145e677aeef20a16b7a47a15c"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x332ad0207873c10b82bb771c3431dffb1ce9fd029942a396b6c1663ed3bfca97",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "119000000000000014",
+            "decimal": 0.119,
+            "usd": 141.22657,
+            "native": 0.119
+          }
+        },
+        "maker": "0x5f326a749275db7145e677aeef20a16b7a47a15c",
+        "validFrom": 1670643647,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/390"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "729",
+      "name": "Kitaro #729",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a8e228b4de7c93787cbad4d7340f87154a0dd17c5dbe9d8e659c2e26467d10a2c51dc54e656de5f2b2da318d7043163e7ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": true,
+      "lastFlagUpdate": "2022-12-20T06:54:18.395Z",
+      "lastFlagChange": null,
+      "rarity": 102.975,
+      "rarityRank": 2864,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": 0.08268,
+        "timestamp": 1669625183
+      },
+      "lastSell": {
+        "value": 0.115,
+        "timestamp": 1668100247
+      },
+      "owner": "0x4c709ee8f95eeb97665ac37dbd6d7937b942dc6b"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x5b91138f8452a21045b82fd0fd03a68bed86279cba635ac265f931ec6a848f1b",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "129225000000000029",
+            "decimal": 0.12923,
+            "usd": 153.36138,
+            "native": 0.12923
+          }
+        },
+        "maker": "0x4c709ee8f95eeb97665ac37dbd6d7937b942dc6b",
+        "validFrom": 1671241631,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/729"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "1543",
+      "name": "Kitaro #1543",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab2ae0ac6a36b9897227c91e80d65aaf707d1d5926ea7fef5056c0faacab79ea98b1d2a053fbc28ecea94e1c09d7a3cf7ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": true,
+      "lastFlagUpdate": "2022-12-20T06:53:44.844Z",
+      "lastFlagChange": null,
+      "rarity": 77.714,
+      "rarityRank": 4970,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": 0.16134,
+        "timestamp": 1665057575
+      },
+      "lastSell": {
+        "value": 0.169,
+        "timestamp": 1665057491
+      },
+      "owner": "0x4c709ee8f95eeb97665ac37dbd6d7937b942dc6b"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x400fad7d3f74a0327c64abd9923d0ee25fa64f509aa99b1c77a3c97fb7c17d9b",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "129225000000000029",
+            "decimal": 0.12923,
+            "usd": 153.36138,
+            "native": 0.12923
+          }
+        },
+        "maker": "0x4c709ee8f95eeb97665ac37dbd6d7937b942dc6b",
+        "validFrom": 1671241631,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/1543"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "1624",
+      "name": "Kitaro #1624",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab39259f65d9e7cc46edc02340ba2b3363de8c74044d68a49bc78472e59db3b13a4fba41bdb3da2cdc2368a4d5fb9efc7ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": true,
+      "lastFlagUpdate": "2022-12-20T06:53:42.051Z",
+      "lastFlagChange": null,
+      "rarity": 81.558,
+      "rarityRank": 4615,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": 0.11575,
+        "timestamp": 1667865299
+      },
+      "lastSell": {
+        "value": 0.25,
+        "timestamp": 1664911919
+      },
+      "owner": "0x4c709ee8f95eeb97665ac37dbd6d7937b942dc6b"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x7306ed17af1d30f5675cbdaa1a48031d23eb0a179583ed7e264ef375070057b8",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "129225000000000029",
+            "decimal": 0.12923,
+            "usd": 153.36138,
+            "native": 0.12923
+          }
+        },
+        "maker": "0x4c709ee8f95eeb97665ac37dbd6d7937b942dc6b",
+        "validFrom": 1671241631,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/1624"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "1756",
+      "name": "Kitaro #1756",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a31fab1b86e4997c98cf8bd289bd1068dfc75c9b4fb0f22e44ffcaaeeef1ad3d93026b99adcc0b2c8b99caa5019e5ce78ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": true,
+      "lastFlagUpdate": "2022-12-20T06:53:36.142Z",
+      "lastFlagChange": null,
+      "rarity": 85.026,
+      "rarityRank": 4271,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": 0.1819,
+        "timestamp": 1667311871
+      },
+      "lastSell": {
+        "value": 0.148,
+        "timestamp": 1667311691
+      },
+      "owner": "0x4c709ee8f95eeb97665ac37dbd6d7937b942dc6b"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x826169abf4c8953e4d558ea9e16469246ada8db13b8b39d7aa150b4ef9035cfe",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "129225000000000029",
+            "decimal": 0.12923,
+            "usd": 153.36138,
+            "native": 0.12923
+          }
+        },
+        "maker": "0x4c709ee8f95eeb97665ac37dbd6d7937b942dc6b",
+        "validFrom": 1671241631,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/1756"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "2991",
+      "name": "Kitaro #2991",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a2fbb25e670dca073b0c16a50be1baf14ba7cb20ca4f3c1e6784e12810f567afee9f8fcce4bfab4321bc7d573ff1140c1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": true,
+      "lastFlagUpdate": "2022-12-20T06:48:58.833Z",
+      "lastFlagChange": null,
+      "rarity": 89.184,
+      "rarityRank": 3919,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": 0.08268,
+        "timestamp": 1670612927
+      },
+      "lastSell": {
+        "value": 0.12,
+        "timestamp": 1669676987
+      },
+      "owner": "0x4c709ee8f95eeb97665ac37dbd6d7937b942dc6b"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x97d9ff8d2ac4abf73537a218bcd5cae9a9fc2196620e377563592bf2b9c2bbc9",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "129225000000000029",
+            "decimal": 0.12923,
+            "usd": 153.36138,
+            "native": 0.12923
+          }
+        },
+        "maker": "0x4c709ee8f95eeb97665ac37dbd6d7937b942dc6b",
+        "validFrom": 1671241631,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/2991"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "3600",
+      "name": "Kitaro #3600",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ac4d997e469ff1f7fab9141aee6f9a2352cc4c79a45916431f78e02825b43bd87706a74f0bc0276d344b5e6b368625590ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": true,
+      "lastFlagUpdate": "2022-12-20T06:52:20.996Z",
+      "lastFlagChange": null,
+      "rarity": 44.02,
+      "rarityRank": 7696,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": 0.11575,
+        "timestamp": 1667840963
+      },
+      "lastSell": {
+        "value": 0.25,
+        "timestamp": 1664770943
+      },
+      "owner": "0x4c709ee8f95eeb97665ac37dbd6d7937b942dc6b"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xfa976689d7f1af1550c6330fa248d551cde70728389fe91630094d4cba0a1e41",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "129225000000000029",
+            "decimal": 0.12923,
+            "usd": 153.36138,
+            "native": 0.12923
+          }
+        },
+        "maker": "0x4c709ee8f95eeb97665ac37dbd6d7937b942dc6b",
+        "validFrom": 1671241631,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/3600"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "3865",
+      "name": "Kitaro #3865",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a99ce21605687ab78cd6ea818f755bb16c2e766fe03f4337a5fff0c42fc657d3acc51556630823ee0759cd2c3acd6afebea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": true,
+      "lastFlagUpdate": "2022-12-20T06:52:10.196Z",
+      "lastFlagChange": null,
+      "rarity": 80.671,
+      "rarityRank": 4700,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": 0.08268,
+        "timestamp": 1670371655
+      },
+      "lastSell": {
+        "value": 0.1,
+        "timestamp": 1664679059
+      },
+      "owner": "0x4c709ee8f95eeb97665ac37dbd6d7937b942dc6b"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x0a8912cf6e188c6b861d22d096fabcd6b18581d7d93583d31596b57851f5040a",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "129225000000000029",
+            "decimal": 0.12923,
+            "usd": 153.36138,
+            "native": 0.12923
+          }
+        },
+        "maker": "0x4c709ee8f95eeb97665ac37dbd6d7937b942dc6b",
+        "validFrom": 1671241631,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/3865"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "4078",
+      "name": "Kitaro #4078",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5a6d404c6ff63a6eb18905558a1c2a6087b5337c7830e6a9a9a362b3afd3236253fa3bd88085abc9d4222d8970436bf8ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": true,
+      "lastFlagUpdate": "2022-12-20T06:52:01.258Z",
+      "lastFlagChange": null,
+      "rarity": 60.142,
+      "rarityRank": 6627,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": 0.21498,
+        "timestamp": 1666061603
+      },
+      "lastSell": {
+        "value": 0.188,
+        "timestamp": 1666061603
+      },
+      "owner": "0x4c709ee8f95eeb97665ac37dbd6d7937b942dc6b"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x0aeb4ba0510a92551908a48a80ed27a75c79d59bda5e5024a4105e03e8ee11d5",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "129225000000000029",
+            "decimal": 0.12923,
+            "usd": 153.36138,
+            "native": 0.12923
+          }
+        },
+        "maker": "0x4c709ee8f95eeb97665ac37dbd6d7937b942dc6b",
+        "validFrom": 1671241631,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/4078"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "4538",
+      "name": "Kitaro #4538",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a6e6186d94f52330a5549f23057fe530dd1ce3d0f8b9018ba08c2d2845e7530fd90fa1cce8eef0f6d28e682fa4592387fea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": true,
+      "lastFlagUpdate": "2022-12-20T06:51:42.713Z",
+      "lastFlagChange": null,
+      "rarity": 83.951,
+      "rarityRank": 4391,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": 0.11575,
+        "timestamp": 1667733359
+      },
+      "lastSell": {
+        "value": 0.19,
+        "timestamp": 1667295755
+      },
+      "owner": "0x4c709ee8f95eeb97665ac37dbd6d7937b942dc6b"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xe7c1097e54c882ac92f80ac735038d8ceb6bec84c9ec73f6c37aa131b2f5ef27",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "129225000000000029",
+            "decimal": 0.12923,
+            "usd": 153.36138,
+            "native": 0.12923
+          }
+        },
+        "maker": "0x4c709ee8f95eeb97665ac37dbd6d7937b942dc6b",
+        "validFrom": 1671241631,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/4538"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "5020",
+      "name": "Kitaro #5020",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a785b07b8231a9769b090dde72c6dd7effd5fd96207d67ada8273bb990dabdfd51aa878bc73d97257496aa49c1d0ec7d0ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T14:54:45.767Z",
+      "lastFlagChange": null,
+      "rarity": 57.804,
+      "rarityRank": 6842,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": 0.1556,
+        "timestamp": 1665686999
+      },
+      "lastSell": {
+        "value": 0.1035,
+        "timestamp": 1670885051
+      },
+      "owner": "0x770e47ceea683ab42711880de1f67dfab3dc01a1"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xb9f1fa2441c85079d213f197b14c58d576b28f00a1e8ad88c25a68250d508423",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "139500000000000000",
+            "decimal": 0.1395,
+            "usd": 165.55552,
+            "native": 0.1395
+          }
+        },
+        "maker": "0x770e47ceea683ab42711880de1f67dfab3dc01a1",
+        "validFrom": 1671547916,
+        "validUntil": 1671778880,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/5020"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "6417",
+      "name": "Kitaro #6417",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a084eda9ec967a4b9b041cf38bda7cd76bff1161d816aa4f6f3558cf8733ce48261e43a8c09deffdc70fba48625b1744bea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T06:50:20.876Z",
+      "lastFlagChange": null,
+      "rarity": 78.202,
+      "rarityRank": 4921,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.134,
+        "timestamp": 1670896151
+      },
+      "owner": "0xf73d5cc5823bc392d123324040103ccf43b22492"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x2ebcee6b968a9ed980c6c92b5e2cb6c45bdd83db575f95d8d3b5630e9ee7105f",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "140000000000000000",
+            "decimal": 0.14,
+            "usd": 166.14891,
+            "native": 0.14
+          }
+        },
+        "maker": "0xf73d5cc5823bc392d123324040103ccf43b22492",
+        "validFrom": 1671547246,
+        "validUntil": 1674216150,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/6417"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "5023",
+      "name": "Kitaro #5023",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75abb1c5c1a862ff0d53fcb8784cb7a63e07b4ca66c55807d8f2d858d014e41ad94b95be7e1a4040a670f81b42bebd028ffea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T14:22:05.677Z",
+      "lastFlagChange": null,
+      "rarity": 89.931,
+      "rarityRank": 3866,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.15,
+        "timestamp": 1671455387
+      },
+      "owner": "0xa11ce20216a6f224e3083e91940bb8104b8c9009"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xb490a129b0677baea6ea10e50ea8150bc80e25f563b85f35677a68ff6b764dfc",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "143000000000000000",
+            "decimal": 0.143,
+            "usd": 169.70924,
+            "native": 0.143
+          }
+        },
+        "maker": "0xa11ce20216a6f224e3083e91940bb8104b8c9009",
+        "validFrom": 1671545512,
+        "validUntil": 1687177077,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/5023"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "1537",
+      "name": "Kitaro #1537",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aaa06efc6a1d0b613ae0a3110443bec5a2dd07c0fffef9e6ab50fd72da731c2e011556fb55e9c1c6954a0acd04f29b357ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T10:41:06.956Z",
+      "lastFlagChange": null,
+      "rarity": 58.012,
+      "rarityRank": 6820,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": 0.12351,
+        "timestamp": 1671504731
+      },
+      "lastSell": {
+        "value": 0.148,
+        "timestamp": 1671474491
+      },
+      "owner": "0x90aa587b339e81fa93af9920e78b72d398c8c655"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x10505db03dc2e865178e529095bf4132a30be25e173e80e488a68517a51992a0",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "143890000000000000",
+            "decimal": 0.14389,
+            "usd": 170.76548,
+            "native": 0.14389
+          }
+        },
+        "maker": "0x90aa587b339e81fa93af9920e78b72d398c8c655",
+        "validFrom": 1671546905,
+        "validUntil": 1671550505,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/1537"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "4669",
+      "name": "Kitaro #4669",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aa2cbfae02f2091474fcb71a598b4c0c1feec32d9e2f36c8992c15bc49d899a8763055e5dd8254db986b1ed805e75fe05ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T10:35:35.536Z",
+      "lastFlagChange": null,
+      "rarity": 45.126,
+      "rarityRank": 7673,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": 0.12011,
+        "timestamp": 1671525431
+      },
+      "lastSell": {
+        "value": 0.218,
+        "timestamp": 1665957827
+      },
+      "owner": "0x90aa587b339e81fa93af9920e78b72d398c8c655"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xf49f56560a6ac8308d3dec31be978670257b6921ceed89fa1e3d5fd81660662f",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "143890000000000000",
+            "decimal": 0.14389,
+            "usd": 170.76548,
+            "native": 0.14389
+          }
+        },
+        "maker": "0x90aa587b339e81fa93af9920e78b72d398c8c655",
+        "validFrom": 1671546564,
+        "validUntil": 1671550164,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/4669"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "6900",
+      "name": "Kitaro #6900",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4bbcfbcd48259abb740787710b515d0cad776c95f4dceb37533fc0c2ca3ca4deaff2b0f9c374247ade81c0cdbff317eeea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T10:35:28.944Z",
+      "lastFlagChange": null,
+      "rarity": 78.836,
+      "rarityRank": 4863,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": 0.11187,
+        "timestamp": 1671485759
+      },
+      "lastSell": {
+        "value": 0.124,
+        "timestamp": 1670798051
+      },
+      "owner": "0x90aa587b339e81fa93af9920e78b72d398c8c655"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x9cc2035e824833c1206f34720ef88be774a5bece0a38190bf1982a0bb56148b8",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "143890000000000000",
+            "decimal": 0.14389,
+            "usd": 170.76548,
+            "native": 0.14389
+          }
+        },
+        "maker": "0x90aa587b339e81fa93af9920e78b72d398c8c655",
+        "validFrom": 1671546549,
+        "validUntil": 1671550149,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/6900"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "519",
+      "name": "Kitaro #519",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aa4aa4f9acddcdb3d00b84f57a9acadc4e60a03d75e053ca1e85a8f9040262fde0bb6f8a405ede506e1bb8501d3488f7bea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T14:07:46.517Z",
+      "lastFlagChange": null,
+      "rarity": 52.228,
+      "rarityRank": 7301,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": 0.1214,
+        "timestamp": 1671544307
+      },
+      "lastSell": {
+        "value": 0.1449,
+        "timestamp": 1671455459
+      },
+      "owner": "0x6f7119de892801f0c07f868d198b510b9c676f6e"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x7a04617db5ed82cfc2330cd66ac33422566bba681ee0aa787422d6027ff2368b",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "143990000000000000",
+            "decimal": 0.14399,
+            "usd": 170.88415,
+            "native": 0.14399
+          }
+        },
+        "maker": "0x6f7119de892801f0c07f868d198b510b9c676f6e",
+        "validFrom": 1671544390,
+        "validUntil": 1671630790,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/519"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "5429",
+      "name": "Kitaro #5429",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a1c7272d8406412066df97008662e4c56d8fcfbb22c24da167c5e6019ee683b155bce116dbcdfe73bb7e6bd1f14ce0dea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T14:05:18.392Z",
+      "lastFlagChange": null,
+      "rarity": 131.125,
+      "rarityRank": 1502,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.15,
+        "timestamp": 1671455339
+      },
+      "owner": "0xa11ce20216a6f224e3083e91940bb8104b8c9009"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x4d5a166a81133e6461d4b7d225531ebcb94983b78d60b3e2b6efbef0930aa569",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "144000000000000000",
+            "decimal": 0.144,
+            "usd": 170.89602,
+            "native": 0.144
+          }
+        },
+        "maker": "0xa11ce20216a6f224e3083e91940bb8104b8c9009",
+        "validFrom": 1671544238,
+        "validUntil": 1674134178,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/5429"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "432",
+      "name": "Kitaro #432",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7c9b05bc9aa9846d46a17a9d3c960ebd005f1901811d916cf362242cfe0dde56d5b7f9add9fcda4bb4ee78b4444f54daea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T12:15:58.874Z",
+      "lastFlagChange": null,
+      "rarity": 51.55,
+      "rarityRank": 7357,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": 0.1217,
+        "timestamp": 1671520883
+      },
+      "lastSell": {
+        "value": 0.1055,
+        "timestamp": 1669696907
+      },
+      "owner": "0x90aa587b339e81fa93af9920e78b72d398c8c655"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x5863521c44c10ab05b5a323478d9e45b31f05496c521343113e7ac9d1ddfb597",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "144400000000000000",
+            "decimal": 0.1444,
+            "usd": 171.37073,
+            "native": 0.1444
+          }
+        },
+        "maker": "0x90aa587b339e81fa93af9920e78b72d398c8c655",
+        "validFrom": 1671545551,
+        "validUntil": 1671549151,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/432"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "6576",
+      "name": "Kitaro #6576",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ac987827c7b4469ddc50235c103006c78d086027798a50ef745b5de9fe67529eba8685366821d9b792b15ccfa1bcb05cdea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T06:50:04.134Z",
+      "lastFlagChange": null,
+      "rarity": 82.116,
+      "rarityRank": 4560,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": 0.12061,
+        "timestamp": 1671514055
+      },
+      "lastSell": {
+        "value": 0.28,
+        "timestamp": 1664860571
+      },
+      "owner": "0x90aa587b339e81fa93af9920e78b72d398c8c655"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x28f71b36b5d6da6d1f2095a352388dbd5d9f3e4b40d9a0d196d4fc3170ba0f55",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "146700000000000000",
+            "decimal": 0.1467,
+            "usd": 174.10032,
+            "native": 0.1467
+          }
+        },
+        "maker": "0x90aa587b339e81fa93af9920e78b72d398c8c655",
+        "validFrom": 1671545729,
+        "validUntil": 1671549329,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/6576"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "7691",
+      "name": "Kitaro #7691",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae0656f0ac3985c793bd0a6941ce3bb453b78a78cb625ae401b2575775b05409237ebbea934d97a57da431d45102cd6eeea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T09:48:12.227Z",
+      "lastFlagChange": null,
+      "rarity": 60.249,
+      "rarityRank": 6617,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": 0.1512,
+        "timestamp": 1667590259
+      },
+      "lastSell": {
+        "value": 0.149,
+        "timestamp": 1666910867
+      },
+      "owner": "0xd55a183a44ef4ff756f75088b45254206ed543d7"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x1094713dc95717c95bfe5f7ee86102a6ccdaa2484d14d010187e59ad3c49765a",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "146800000000000000",
+            "decimal": 0.1468,
+            "usd": 174.219,
+            "native": 0.1468
+          }
+        },
+        "maker": "0xd55a183a44ef4ff756f75088b45254206ed543d7",
+        "validFrom": 1671529529,
+        "validUntil": 1674207929,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/7691"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "4603",
+      "name": "Kitaro #4603",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aecfddb4e252309291a2bb1b98393867e857dbe01ceba1619e2d81185acb3db4f9e54508b56f2ad9a3fc28f78916d5838ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T06:51:40.571Z",
+      "lastFlagChange": null,
+      "rarity": 47.015,
+      "rarityRank": 7601,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": 0.146,
+        "timestamp": 1665695411
+      },
+      "lastSell": {
+        "value": 0.1035,
+        "timestamp": 1670885051
+      },
+      "owner": "0xfd402bb90ac003ecb700b27d6fb56e88bc11cc9c"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x00019f063f3a38f4ffa9b20ae84c8551c9d45b2b9d0b4944b1ce7bcf48dd9b0f",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "147500000000000000",
+            "decimal": 0.1475,
+            "usd": 175.04974,
+            "native": 0.1475
+          }
+        },
+        "maker": "0xfd402bb90ac003ecb700b27d6fb56e88bc11cc9c",
+        "validFrom": 1671521345,
+        "validUntil": 1674199745,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/4603"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "4023",
+      "name": "Kitaro #4023",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ad4c813b743befd4790c04f4447927123b676f23ec0e355e38a35314ec0ae24d28a0e116fca31339c4983cd742662a8daea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T06:52:03.145Z",
+      "lastFlagChange": null,
+      "rarity": 59.494,
+      "rarityRank": 6675,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": 0.097,
+        "timestamp": 1671204887
+      },
+      "lastSell": {
+        "value": 0.225,
+        "timestamp": 1664906507
+      },
+      "owner": "0x3ada986c83d651994652df1f61bf3ed7056d144d"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x0bcd76baefed60839e7b1ac1c2c00e0e3543b884f3d5167cec20255d29954970",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "147900000000000000",
+            "decimal": 0.1479,
+            "usd": 175.52445,
+            "native": 0.1479
+          }
+        },
+        "maker": "0x3ada986c83d651994652df1f61bf3ed7056d144d",
+        "validFrom": 1671488570,
+        "validUntil": 1672093360,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/4023"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "5785",
+      "name": "Kitaro #5785",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a753ace0ad462c4d5dcb289c7fe7316dbc964b5a6450ee12a770cc090d571447d7239530641e674e1575db2f08c680b11ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T06:50:50.435Z",
+      "lastFlagChange": null,
+      "rarity": 72.339,
+      "rarityRank": 5503,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": 0.1063,
+        "timestamp": 1668435359
+      },
+      "lastSell": {
+        "value": 0.0865,
+        "timestamp": 1669154927
+      },
+      "owner": "0x374daf393e2df85a65e2163c6c0236210526443d"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x44f36c35cf051533250982af92dd9ba25e58ee3bc429da5935af9e2b1e5f11a7",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "148000000000000000",
+            "decimal": 0.148,
+            "usd": 175.64313,
+            "native": 0.148
+          }
+        },
+        "maker": "0x374daf393e2df85a65e2163c6c0236210526443d",
+        "validFrom": 1671493083,
+        "validUntil": 1671566905,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/5785"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "3507",
+      "name": "Kitaro #3507",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af11389a7f374df06736241ae72d6cafa501b6521c96cdc7e4de74b70ed08df741b60d075df468e8600172f3b841653aaea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T06:52:24.226Z",
+      "lastFlagChange": null,
+      "rarity": 88.299,
+      "rarityRank": 3985,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": 0.1217,
+        "timestamp": 1671544331
+      },
+      "lastSell": {
+        "value": 0.15,
+        "timestamp": 1671455387
+      },
+      "owner": "0x9d3f56186ce4ba86214ae9127e07491f2449d698"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xa7690660ef7d1650c2a2ce4991ce541a8987dd76bff167f1b075abc35da6cfdb",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "148880000000000000",
+            "decimal": 0.14888,
+            "usd": 176.6875,
+            "native": 0.14888
+          }
+        },
+        "maker": "0x9d3f56186ce4ba86214ae9127e07491f2449d698",
+        "validFrom": 1671547162,
+        "validUntil": 1672150511,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/3507"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "928",
+      "name": "Kitaro #928",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a125d658193f26592e5d4db1e86b38e552b59eb93f0bfe6246ec3bb8785a3f6ef0457ec566965fb7c28ccdda5a261fc93ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T06:54:10.569Z",
+      "lastFlagChange": null,
+      "rarity": 53.246,
+      "rarityRank": 7209,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": 0.1301,
+        "timestamp": 1671478715
+      },
+      "lastSell": {
+        "value": 0.1157,
+        "timestamp": 1671068855
+      },
+      "owner": "0xff09189560b13228f703696ce1dc29d846f61181"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xa80850991ad81237e0872768c2d0b8266204c8923ea946071b5661137198d4b0",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "148900000000000000",
+            "decimal": 0.1489,
+            "usd": 176.71123,
+            "native": 0.1489
+          }
+        },
+        "maker": "0xff09189560b13228f703696ce1dc29d846f61181",
+        "validFrom": 1671492662,
+        "validUntil": 1671579062,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/928"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "4342",
+      "name": "Kitaro #4342",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a072e7a79081875de4c0140e89cbaa5c8a4b8542b7e4639565d330963a1b33f8f04bf8b39fb88c463ebe2002c4690da56ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T06:51:49.145Z",
+      "lastFlagChange": null,
+      "rarity": 59.27,
+      "rarityRank": 6691,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": 0.1301,
+        "timestamp": 1671469535
+      },
+      "lastSell": {
+        "value": 0.1096,
+        "timestamp": 1670523359
+      },
+      "owner": "0xff09189560b13228f703696ce1dc29d846f61181"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x4c89d31fe8eab32072c16c3abb1891eb6a29484c0a075f6efa561144b2eb178f",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "148900000000000000",
+            "decimal": 0.1489,
+            "usd": 176.71123,
+            "native": 0.1489
+          }
+        },
+        "maker": "0xff09189560b13228f703696ce1dc29d846f61181",
+        "validFrom": 1671492696,
+        "validUntil": 1671579096,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/4342"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "3015",
+      "name": "Kitaro #3015",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a82dfd4391c3347eaec948a99ff5d690bb30661bebe6c09ca109f1db8f43071232964d30102a49f2abefdf53c1baa5c10ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T06:52:46.321Z",
+      "lastFlagChange": null,
+      "rarity": 53.682,
+      "rarityRank": 7176,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": 0.11,
+        "timestamp": 1669816499
+      },
+      "lastSell": {
+        "value": 0.1,
+        "timestamp": 1669377791
+      },
+      "owner": "0xcb7ef77644f304e16215fe2733be5f6f4ecfdb89"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x6d3ea04d9eb5bd91f28d82746ac9514a0d902719092fb4fb1ec87ea4ef958a7c",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "149000000000000000",
+            "decimal": 0.149,
+            "usd": 176.82991,
+            "native": 0.149
+          }
+        },
+        "maker": "0xcb7ef77644f304e16215fe2733be5f6f4ecfdb89",
+        "validFrom": 1671463421,
+        "validUntil": 1674137235,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/3015"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "5608",
+      "name": "Kitaro #5608",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a9b7b26a5c8182166af1f5e246dce2fdc76e1f59083641f5bd19a4f9e182a450a06dd64a368dedba0d28ce35bb116d929ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T06:50:59.097Z",
+      "lastFlagChange": null,
+      "rarity": 80.775,
+      "rarityRank": 4688,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": 0.10021,
+        "timestamp": 1671082583
+      },
+      "lastSell": {
+        "value": 0.1167,
+        "timestamp": 1671111779
+      },
+      "owner": "0xd4cc34281d8cb6dac10573a05e6f20c0aec91e6f"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x69c456ed0884a818939da874e42d86eee22086af464b69af46fd008955e18b0e",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "149000000000000000",
+            "decimal": 0.149,
+            "usd": 176.82991,
+            "native": 0.149
+          }
+        },
+        "maker": "0xd4cc34281d8cb6dac10573a05e6f20c0aec91e6f",
+        "validFrom": 1671465184,
+        "validUntil": 1674143584,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/5608"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "6837",
+      "name": "Kitaro #6837",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a6fa15e0cdb78ad6ba4cfc8b89a245ad8bddb755c7d6fdf0c53ad5f55bf4acd998ff75ff0ee1f2baf3d217118d7e38436ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T06:49:50.357Z",
+      "lastFlagChange": null,
+      "rarity": 49.303,
+      "rarityRank": 7502,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": 0.1028,
+        "timestamp": 1667876879
+      },
+      "lastSell": {
+        "value": 0.125,
+        "timestamp": 1671452627
+      },
+      "owner": "0xaf91c5ec99019de1d44fe7056e05aa873094e434"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x53eb8ad22768942475964b0b7da7756d4782f47145785d6bf99bee8c8340cb9c",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "149000000000000000",
+            "decimal": 0.149,
+            "usd": 176.82991,
+            "native": 0.149
+          }
+        },
+        "maker": "0xaf91c5ec99019de1d44fe7056e05aa873094e434",
+        "validFrom": 1671474587,
+        "validUntil": 1671560987,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/6837"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "7445",
+      "name": "Kitaro #7445",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae67c53b9fe4b5996dc2b591f307728593154ed1e6d19c258a0ba6a91e8852d3a25591b362ba1fa84bb3f92b92a712d77ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T06:49:24.346Z",
+      "lastFlagChange": null,
+      "rarity": 55.972,
+      "rarityRank": 7007,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": 0.115,
+        "timestamp": 1667870723
+      },
+      "lastSell": {
+        "value": 0.194,
+        "timestamp": 1667368475
+      },
+      "owner": "0xeca93d9b474196ca99e5d4844091b82e441b314b"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x5df93dacd194800d31b5dc1584c077aaeb1e5beb12bf8b21bb78949bd5c12516",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "149000000000000000",
+            "decimal": 0.149,
+            "usd": 176.82991,
+            "native": 0.149
+          }
+        },
+        "maker": "0xeca93d9b474196ca99e5d4844091b82e441b314b",
+        "validFrom": 1671485419,
+        "validUntil": 1673174733,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/7445"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "1404",
+      "name": "Kitaro #1404",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af13bc3bc175504bdcbea9fc3d3fdc9f21c62d28de2e8255061c886135d52ebfd257912293ea2b7e56b203e149dac8461ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T06:53:50.342Z",
+      "lastFlagChange": null,
+      "rarity": 43.504,
+      "rarityRank": 7710,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": 0.099,
+        "timestamp": 1671127187
+      },
+      "lastSell": {
+        "value": 0.219,
+        "timestamp": 1664963603
+      },
+      "owner": "0x329abdd89dc9913915cba550c09ef808071e9654"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xdc6ff3dd97ac1133904fed6308ba83c747efcbb2ae2ab9c6bbd45b26b5677fd8",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "150000000000000000",
+            "decimal": 0.15,
+            "usd": 178.01669,
+            "native": 0.15
+          }
+        },
+        "maker": "0x329abdd89dc9913915cba550c09ef808071e9654",
+        "validFrom": 1671500299,
+        "validUntil": 1674178699,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/1404"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "4518",
+      "name": "Kitaro #4518",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a9139db76bbbed963fff076ba358ddb7be84c9cec51a3302f932f1fc6efd38cfbe6f8e1977d55c4ba8dc8c457517d2043ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T06:51:43.419Z",
+      "lastFlagChange": null,
+      "rarity": 44.111,
+      "rarityRank": 7694,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": 0.115,
+        "timestamp": 1667991707
+      },
+      "lastSell": {
+        "value": 0.091,
+        "timestamp": 1669134767
+      },
+      "owner": "0xf8a480a07718d8c77f99e46620486bd34be0d506"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xd82c7c104880a468c14095d44b3ae1f89603cfde5a5bb03f3140983860933f1f",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "150000000000000000",
+            "decimal": 0.15,
+            "usd": 178.01669,
+            "native": 0.15
+          }
+        },
+        "maker": "0xf8a480a07718d8c77f99e46620486bd34be0d506",
+        "validFrom": 1671463181,
+        "validUntil": 1687015181,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/4518"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "5755",
+      "name": "Kitaro #5755",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a32cde201df5fe90fb490f826cca8a419dc93d27ddc520f041b999711fd9c56047ca98e75c3debf7fef231b29a3149a8aea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T06:50:51.907Z",
+      "lastFlagChange": null,
+      "rarity": 76.065,
+      "rarityRank": 5156,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.055,
+        "timestamp": 1664650823
+      },
+      "owner": "0x4b490d58f4d030b49d925fcfda951020318527d2"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xb9262b0360810817f8bafae84d1d257f4c3747e07b19f9c6cb4341a30076e7e9",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "150000000000000000",
+            "decimal": 0.15,
+            "usd": 178.01669,
+            "native": 0.15
+          }
+        },
+        "maker": "0x4b490d58f4d030b49d925fcfda951020318527d2",
+        "validFrom": 1671521696,
+        "validUntil": 1674137072,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/5755"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "5958",
+      "name": "Kitaro #5958",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a6238082bc05660f1c69726b71b82549322121787953ac7480ea19627344b29400201d922d2c8fdfc986ceb373c67ea0aea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T06:50:43.110Z",
+      "lastFlagChange": null,
+      "rarity": 111.356,
+      "rarityRank": 2344,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": 0.1,
+        "timestamp": 1670656547
+      },
+      "lastSell": {
+        "value": 0.12,
+        "timestamp": 1671450719
+      },
+      "owner": "0xaf91c5ec99019de1d44fe7056e05aa873094e434"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x404888cfc1a2c82259dbfae3430b439b7980b77c6cc703f48709e15466ea9e75",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "152000000000000000",
+            "decimal": 0.152,
+            "usd": 180.39024,
+            "native": 0.152
+          }
+        },
+        "maker": "0xaf91c5ec99019de1d44fe7056e05aa873094e434",
+        "validFrom": 1671475059,
+        "validUntil": 1671561459,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/5958"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "461",
+      "name": "Kitaro #461",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a0290fb0278bd5336531d492d09a6ed83ca93389b1d693a542a7109809ff8bf42384cc9fbfa2a68cde456be4c8730087cea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T06:54:28.861Z",
+      "lastFlagChange": null,
+      "rarity": 79.401,
+      "rarityRank": 4818,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": 0.1855,
+        "timestamp": 1666320491
+      },
+      "lastSell": {
+        "value": 0.3275,
+        "timestamp": 1664817023
+      },
+      "owner": "0x4e943b25dedc1a86a4d31dd461b1379d09fd723a"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xb12e780f93be1d8032ec5ef2e1a649d6e465bf3138656d6ddb9af1a11e7f1f16",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "152200000000000000",
+            "decimal": 0.1522,
+            "usd": 180.6276,
+            "native": 0.1522
+          }
+        },
+        "maker": "0x4e943b25dedc1a86a4d31dd461b1379d09fd723a",
+        "validFrom": 1671480316,
+        "validUntil": 1671739516,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/461"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "2309",
+      "name": "Kitaro #2309",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75abccc28c452f4c5facc6a0a6e484354ddaf49bd2b00ae22030372b9921dd6c050fb2d8c14a646c58fe0397969e026b5caea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T06:53:13.361Z",
+      "lastFlagChange": null,
+      "rarity": 82.234,
+      "rarityRank": 4546,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": 0.145,
+        "timestamp": 1667635475
+      },
+      "lastSell": {
+        "value": 0.205,
+        "timestamp": 1666456859
+      },
+      "owner": "0x8970374e91518a88f3e13aa506dc6f4e42bdf506"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x70303ca37d747ff04e01fe192ec5f697d7b3520f684cf2905e7f16032bab693f",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "153900000000000000",
+            "decimal": 0.1539,
+            "usd": 182.64512,
+            "native": 0.1539
+          }
+        },
+        "maker": "0x8970374e91518a88f3e13aa506dc6f4e42bdf506",
+        "validFrom": 1671461523,
+        "validUntil": 1674139923,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/2309"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "3883",
+      "name": "Kitaro #3883",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1bbbd4a3fd7e7ef73791aa83f244d7972cee73de9c13af32b54b1b4424d807af294452ef205eca6103876e511c4ef75dea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T06:52:07.959Z",
+      "lastFlagChange": null,
+      "rarity": 78.496,
+      "rarityRank": 4898,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": 0.08511,
+        "timestamp": 1669163735
+      },
+      "lastSell": {
+        "value": 0.0999,
+        "timestamp": 1669207103
+      },
+      "owner": "0xce49a5b02943335cdb1512eea1073c28a5d16f55"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xf04d3361bd0556ab5af2e864f988ace315964f1b83f4148ad52ce9c520473908",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "155000000000000000",
+            "decimal": 0.155,
+            "usd": 183.95058,
+            "native": 0.155
+          }
+        },
+        "maker": "0xce49a5b02943335cdb1512eea1073c28a5d16f55",
+        "validFrom": 1671501173,
+        "validUntil": 1671587573,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/3883"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "2521",
+      "name": "Kitaro #2521",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab07a99ab0bf034324586362b3e3aa6b2e5e9547db58e7c11cf4b7691ff4e15148e7d45839eed548d59ebf09b00fac039ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T06:53:05.378Z",
+      "lastFlagChange": null,
+      "rarity": 97.206,
+      "rarityRank": 3293,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": 0.08351,
+        "timestamp": 1669216907
+      },
+      "lastSell": {
+        "value": 0.086,
+        "timestamp": 1669244999
+      },
+      "owner": "0xfc7e814e59988ebba857b51d2c60414b25f364fb"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xbdfa48a59f28c4b01e7ecba960d8d8679be70798a2d8d223a334e81588a0598b",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "159000000000000000",
+            "decimal": 0.159,
+            "usd": 188.69769,
+            "native": 0.159
+          }
+        },
+        "maker": "0xfc7e814e59988ebba857b51d2c60414b25f364fb",
+        "validFrom": 1671509248,
+        "validUntil": 1672059947,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/2521"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "238",
+      "name": "Kitaro #238",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75abbb6818e19dc772df39c601d62321b04afd03a3799bb10956fb413a0581e7ad951e7420fa19550604c5423e7619a1de0ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T06:54:38.370Z",
+      "lastFlagChange": null,
+      "rarity": 68.137,
+      "rarityRank": 5914,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.1158,
+        "timestamp": 1668344747
+      },
+      "owner": "0x95b929941e5581a7d65dba4d319279c5c693bd15"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x7018f8028428b34a174dcd079b53d82737b227e270de5da959ff58112bd82d7b",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "160000000000000000",
+            "decimal": 0.16,
+            "usd": 189.88447,
+            "native": 0.16
+          }
+        },
+        "maker": "0x95b929941e5581a7d65dba4d319279c5c693bd15",
+        "validFrom": 1671485142,
+        "validUntil": 1671824111,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/238"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "992",
+      "name": "Kitaro #992",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a222fc3740a7a6c723386c31ec558d1402f565f4d77281745d84d8a4444a28c18247f6ccce9421374348eefae6a893f0bea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T06:54:07.463Z",
+      "lastFlagChange": null,
+      "rarity": 49.893,
+      "rarityRank": 7461,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": 0.222,
+        "timestamp": 1666140407
+      },
+      "lastSell": {
+        "value": 0.1096,
+        "timestamp": 1670832491
+      },
+      "owner": "0x14eee2d4f7dea778735f2498cf6df40ab6ff1a0a"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xe1f98a9c8d9b8e1820f44f4b619b93a6ef9e19dd0d9c8bb8a3c4ea67cee6e168",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "163000000000000000",
+            "decimal": 0.163,
+            "usd": 193.4448,
+            "native": 0.163
+          }
+        },
+        "maker": "0x14eee2d4f7dea778735f2498cf6df40ab6ff1a0a",
+        "validFrom": 1671527077,
+        "validUntil": 1671786277,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/992"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "3454",
+      "name": "Kitaro #3454",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ad9f7b910fb598fa68f4bdf03cc24f21dde77f7c5b9741fa464dbdc306afc8d36f87a387cb0704eecd1670cfae3059fe6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T06:52:25.301Z",
+      "lastFlagChange": null,
+      "rarity": 101.726,
+      "rarityRank": 2950,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": 0.169,
+        "timestamp": 1665619091
+      },
+      "lastSell": {
+        "value": 0.23,
+        "timestamp": 1664937143
+      },
+      "owner": "0x4e943b25dedc1a86a4d31dd461b1379d09fd723a"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x7866c0544b3c43730e032ea85736a686dcbd5ad5fd67fedf10e688c66def2849",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "164400000000000000",
+            "decimal": 0.1644,
+            "usd": 195.10629,
+            "native": 0.1644
+          }
+        },
+        "maker": "0x4e943b25dedc1a86a4d31dd461b1379d09fd723a",
+        "validFrom": 1671480570,
+        "validUntil": 1674158970,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/3454"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "122",
+      "name": "Kitaro #122",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1c6257deb18b38804a1965507ed4564c6eaa44c19ee4657103135c76650eedf9bc84217ca9e2be3b7a554e1f76cb1dd6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T06:54:43.156Z",
+      "lastFlagChange": null,
+      "rarity": 84.053,
+      "rarityRank": 4380,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x3107936db982308f29325200c82672df8883fad7"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x9574733b3861ccd7692f0f56498857bc31386a882cc2d7bad2dd500713ca9aee",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "165500000000000000",
+            "decimal": 0.1655,
+            "usd": 196.41174,
+            "native": 0.1655
+          }
+        },
+        "maker": "0x3107936db982308f29325200c82672df8883fad7",
+        "validFrom": 1671493051,
+        "validUntil": 1671752251,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/122"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "6403",
+      "name": "Kitaro #6403",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a2e58cf7abc1dd07b9d606ed61a6ef901f01f66648cf63fa9a65d95719789d8389d2ae6fea744dc33e5fceca94d945223ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T06:50:21.166Z",
+      "lastFlagChange": null,
+      "rarity": 53.885,
+      "rarityRank": 7157,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": 0.17,
+        "timestamp": 1665619427
+      },
+      "lastSell": {
+        "value": 0.235,
+        "timestamp": 1665412091
+      },
+      "owner": "0x4e943b25dedc1a86a4d31dd461b1379d09fd723a"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x0de6a2f7a47c9772d7daaddead36d44a9ae3d8540032cef5c18ecb976c532bc3",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "165500000000000000",
+            "decimal": 0.1655,
+            "usd": 196.41174,
+            "native": 0.1655
+          }
+        },
+        "maker": "0x4e943b25dedc1a86a4d31dd461b1379d09fd723a",
+        "validFrom": 1671480550,
+        "validUntil": 1671566950,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/6403"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "701",
+      "name": "Kitaro #701",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a62ee9cf98a6654ea4da5fd58007aaed8e6d068d0ee5c92563f5395fffcefb82bd1bea0b8201389e59f1293870821c4f4ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T06:54:20.507Z",
+      "lastFlagChange": null,
+      "rarity": 95.31,
+      "rarityRank": 3426,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": 0.101,
+        "timestamp": 1668251303
+      },
+      "lastSell": {
+        "value": 0.1229,
+        "timestamp": 1668051311
+      },
+      "owner": "0x1cefd1809ac0c45e983a81be52e0be98fea9f653"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x922fadcadb953e904ab06e8ccb1b33a51a6ef60df47011709cf07dbb5bbd0859",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "167000000000000000",
+            "decimal": 0.167,
+            "usd": 198.19191,
+            "native": 0.167
+          }
+        },
+        "maker": "0x1cefd1809ac0c45e983a81be52e0be98fea9f653",
+        "validFrom": 1668270474,
+        "validUntil": 1683818874,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/701"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "974",
+      "name": "Kitaro #974",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55cd0ea936b022496c4d186bc3c27979d5ec3b07ef6c9a711e1e06eeb7ae5a06df27976f5a02144a10fbdd28380e6cd6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T06:54:08.132Z",
+      "lastFlagChange": null,
+      "rarity": 69.705,
+      "rarityRank": 5771,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": 0.26,
+        "timestamp": 1664860571
+      },
+      "lastSell": {
+        "value": 0.199,
+        "timestamp": 1665378251
+      },
+      "owner": "0x0a917a8b35fae26dca3feef78d2903eb848512c6"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xcefd3134d7caa73460491d0786fc31347311343b33f5a616b7759698d8ba3b65",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "169000000000000000",
+            "decimal": 0.169,
+            "usd": 200.56547,
+            "native": 0.169
+          }
+        },
+        "maker": "0x0a917a8b35fae26dca3feef78d2903eb848512c6",
+        "validFrom": 1671218340,
+        "validUntil": 1671683239,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/974"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "1166",
+      "name": "Kitaro #1166",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75afbbdc80d1cd9fb0f32369f53d77b93eacabadb092e5e100ccb36369f11d8acb6a2412ea45cc43030008a908d4c1daadaea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T06:54:00.139Z",
+      "lastFlagChange": null,
+      "rarity": 79.736,
+      "rarityRank": 4779,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": 0.1155,
+        "timestamp": 1667991743
+      },
+      "lastSell": {
+        "value": 0.14,
+        "timestamp": 1667690099
+      },
+      "owner": "0xeca93d9b474196ca99e5d4844091b82e441b314b"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x12da11aa622a560c604752de52fef97b5e6dbac0a101d6805008e5526af934b2",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "169000000000000000",
+            "decimal": 0.169,
+            "usd": 200.56547,
+            "native": 0.169
+          }
+        },
+        "maker": "0xeca93d9b474196ca99e5d4844091b82e441b314b",
+        "validFrom": 1670582592,
+        "validUntil": 1673174712,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/1166"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "4553",
+      "name": "Kitaro #4553",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1e183570f09aee6328fc396a9e63eeb8d9c4acf18d0c42fb7ef9a57873f9edef3d101019ab5c6226fb7c227360656c74ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T06:51:42.002Z",
+      "lastFlagChange": null,
+      "rarity": 96.154,
+      "rarityRank": 3367,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.04,
+        "timestamp": 1664236319
+      },
+      "owner": "0xbaaba861464f25f52c2ee10cc3ac024f4f77812a"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x739b2ed03b9288dec8e16c09ea5fa71909f067ab966bc7fdb841a3c1d61eccdf",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "169000000000000000",
+            "decimal": 0.169,
+            "usd": 200.56547,
+            "native": 0.169
+          }
+        },
+        "maker": "0xbaaba861464f25f52c2ee10cc3ac024f4f77812a",
+        "validFrom": 1670508789,
+        "validUntil": 1686060785,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/4553"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "929",
+      "name": "Kitaro #929",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a08798c0556bfa91b224087744bebb826ed7aa043c545bd9231cf6fff504e4e65d51d88158b4f01a70ad9dffe9e6e9af0ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T06:54:10.725Z",
+      "lastFlagChange": null,
+      "rarity": 84.348,
+      "rarityRank": 4345,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": 0.097,
+        "timestamp": 1668851135
+      },
+      "lastSell": {
+        "value": 0.0688,
+        "timestamp": 1664666051
+      },
+      "owner": "0x8970374e91518a88f3e13aa506dc6f4e42bdf506"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x0254b6986136a514182059e689f697f2a34bb306c914fdf2ec42635b1d237ed1",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "170000000000000000",
+            "decimal": 0.17,
+            "usd": 201.75225,
+            "native": 0.17
+          }
+        },
+        "maker": "0x8970374e91518a88f3e13aa506dc6f4e42bdf506",
+        "validFrom": 1671461673,
+        "validUntil": 1674140073,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/929"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "1122",
+      "name": "Kitaro #1122",
+      "description": "Welcome to Kitaro World.  You have found yourself in a familiar multiverse.  Your adventure starts now!",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75acc41ee2e05a83ecd34b379d2f5fec0f543a1305b7783c775c13ed033b238bb0686d07c6a788fafd3bb70b98cf48dabd2ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T06:54:01.848Z",
+      "lastFlagChange": null,
+      "rarity": 54.461,
+      "rarityRank": 7120,
+      "collection": {
+        "id": "0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27",
+        "name": "Kitaro World Official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af00c2ff8019fc9a66d024337e36ae3d20c66c33433a6aff24c4d9ac7a699b815cfb1db53008b086e75f29a9b92f8ea66d21f2912380356fce460d6243ce8e26f2573e7e40288fee9530d283ebd0a413d",
+        "slug": "kitaroworldofficial"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.1035,
+        "timestamp": 1670825927
+      },
+      "owner": "0x15a7aa0e759806e7939fb0c0083e8fb97c670db0"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x992b6a1564b74f4f8d921ba84f626488e3f95d7b366fd7760747d459c3fb0df2",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "170000000000000000",
+            "decimal": 0.17,
+            "usd": 201.75225,
+            "native": 0.17
+          }
+        },
+        "maker": "0x15a7aa0e759806e7939fb0c0083e8fb97c670db0",
+        "validFrom": 1670826076,
+        "validUntil": 1673504476,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x7df64f69544c5bf71171dc5ab69b8602c2ff1e27/1122"
+        }
+      }
+    }
+  }
+]

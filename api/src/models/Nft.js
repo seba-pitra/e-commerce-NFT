@@ -18,19 +18,15 @@ module.exports = (sequelize) => {
         type: DataTypes.STRING,
         allowNull: false,
       },
-      image: {
-        type: DataTypes.STRING,
+      description: {
+        type: DataTypes.TEXT,
+      },
+      category: {
+        type: DataTypes.ARRAY(DataTypes.STRING),
         allowNull: false,
       },
-      // available: {
-      //   type: DataTypes.BOOLEAN,
-      //   allowNull: false,
-      //   validate: {
-      //     isIn: [[true, false]],
-      //   },
-      // },
-      type: {
-        type: DataTypes.STRING,
+      image: {
+        type: DataTypes.TEXT,
         allowNull: false,
       },
       contract: {
@@ -39,19 +35,49 @@ module.exports = (sequelize) => {
       },
       tokenId: {
         type: DataTypes.STRING,
+        allowNull: false,
       },
       price: {
         type: DataTypes.FLOAT,
+        allowNull: false,
+        validate: {
+          customValidator: (value) => {
+            if (typeof value !== "number") {
+              throw new Error("Price must be a number");
+            }
+          },
+        },
       },
-      category: {
-        type: DataTypes.ARRAY(DataTypes.STRING),
+      rarity: {
+        type: DataTypes.FLOAT,
       },
-      source: {
-        type: DataTypes.JSONB,
+      rarityRank: {
+        type: DataTypes.FLOAT,
+      },
+      lastBuyValue: {
+        type: DataTypes.FLOAT,
+      },
+      lastBuyTs: {
+        type: DataTypes.FLOAT,
+      },
+      lastSellValue: {
+        type: DataTypes.FLOAT,
+      },
+      lastSellTs: {
+        type: DataTypes.FLOAT,
+      },
+      ownerName: {
+        type: DataTypes.TEXT,
+        allowNull: false,
+      },
+      ownerIcon: {
+        type: DataTypes.TEXT,
+        allowNull: false,
       },
     },
     {
-      timestamps: false,
+      timestamps: true,
+      paranoid: true,
     }
   );
 };

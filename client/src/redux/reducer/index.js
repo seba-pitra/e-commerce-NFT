@@ -7,17 +7,26 @@ import {
   DELETE_NFT,
   UPDATE_NFT,
   LOADING,
+  SET_COLLECTIONS,
+  SET_CATEGORY_SPECIES,
+  SET_CATEGORY_SPECIES2,
+  SET_CATEGORY_ART,
+  SET_CATEGORY_TYPE,
+  SET_CATEGORY_STYLE,
+  SET_CATEGORY_REST,
+  SET_CATEGORY_BACKG,
+  SET_NFTS_PRICE,
+  FILTER_NFTS,
+  SEARCH_NFT_NAME,
   RESET_FILTERS,
-  FILTER_NFT_COLLECTION,
-  FILTER_NFT_CATEGORY,
-  FILTER_NFT_STATE,
-  FILTER_NFT_PRICE,
-  FILTER_NFT_NAME,
   ORDER_NFT_NAME,
   ORDER_NFT_PRICE,
+  ORDER_NFT_RARITY,
+  ORDER_NFT_RARITYRANK,
+  ORDER_NFT_LASTBUY,
+  ORDER_NFT_LASTBUYTS,
+  GET_USER_BY_ID,
   GET_ETH_PRICE,
-  // ORDER_NFT_AMOUNT,
-  // ORDER_NFT_CREATED_AT,
   CHANGE_ORDER_DIRECTION,
   SELECT_PAGE,
   PREV_PAGE,
@@ -26,6 +35,10 @@ import {
   ADD_NFT_ON_SHOOPING_CART,
   REMOVE_NFT_OF_SHOOPING_CART,
   BUY_NFT_ON_SHOOPING_CART,
+  GET_ACTIVE_USER,
+  LOCAL_STORAGE_CART,
+  DELETE_NFT_ON_SIGNOUT,
+  ADD_BUY_AT_HISTORY_BUYS,
 } from "../actions";
 import * as controllers from "../../utils";
 
@@ -33,39 +46,56 @@ const initialState = {
   nfts: [],
   filteredNfts: [],
   collections: [],
-  categories: [],
+  setCollections: [],
+  setCategorySpecies: [],
+  setCategorySpecies2: [],
+  setCategoryArt: [],
+  setCategoryType: [],
+  setCategoryStyle: [],
+  setCategoryRest: [],
+  setCategoryBackg: [],
+  setNftsPrice: {},
   users: [],
   userNfts: [],
-  redirectMercadoPago: "",
   nftDetail: {},
+  userDetail: {},
   isLoading: false,
   orderDirection: "up-down",
   activePage: 1,
-  nftsPerPage: 8,
+  nftsPerPage: 100,
   msj: "",
   ethPrice: {},
+  activeUser: {},
+  historyBuys: [],
 };
 
 const rootReducer = (state = initialState, action) => {
   switch (action.type) {
     case LOADING:
       return { ...state, isLoading: true };
+
+    // --- GETTERS ---
     case GET_ALL_NFTS:
       return {
         ...state,
         nfts: action.payload,
-        filteredNfts: controllers.orderNFTByName(
-          state.orderDirection,
-          action.payload
-        ),
+        filteredNfts: action.payload,
         nftDetail: {},
         isLoading: false,
-        categories: [],
+        setCategorySpecies: [],
+        setCategorySpecies2: [],
+        setCategoryArt: [],
+        setCategoryType: [],
+        setCategoryStyle: [],
+        setCategoryRest: [],
+        setCategoryBackg: [],
       };
     case GET_ALL_COLLECTIONS:
-      return { ...state, collections: action.payload };
+      return { ...state, collections: action.payload, isLoading: false };
     case GET_ALL_USERS:
       return { ...state, users: action.payload };
+    case GET_USER_BY_ID:
+      return { ...state, userDetail: action.payload };
     case GET_NFT_DETAIL:
       return { ...state, nftDetail: action.payload, isLoading: false };
     case CREATE_NFT:
@@ -74,62 +104,168 @@ const rootReducer = (state = initialState, action) => {
       return { ...state, msj: action.payload };
     case UPDATE_NFT:
       return { ...state, msj: action.payload };
+
+    // --- SETTERS ---
+    case SET_COLLECTIONS:
+      return { ...state, setCollections: action.payload };
+    case SET_CATEGORY_SPECIES:
+      return { ...state, setCategorySpecies: action.payload };
+    case SET_CATEGORY_SPECIES2:
+      return { ...state, setCategorySpecies2: action.payload };
+    case SET_CATEGORY_ART:
+      return { ...state, setCategoryArt: action.payload };
+    case SET_CATEGORY_TYPE:
+      return { ...state, setCategoryType: action.payload };
+    case SET_CATEGORY_STYLE:
+      return { ...state, setCategoryStyle: action.payload };
+    case SET_CATEGORY_REST:
+      return { ...state, setCategoryRest: action.payload };
+    case SET_CATEGORY_BACKG:
+      return { ...state, setCategoryBackg: action.payload };
+    case SET_NFTS_PRICE:
+      return { ...state, setNftsPrice: action.payload };
+
+    // --- FILTERS ---
+    case FILTER_NFTS:
+      let allAvailables = state.nfts;
+
+      if (state.setCategorySpecies.length !== 0) {
+        let results = [];
+        let filtered = [];
+        state.setCategorySpecies.filter((cat) => {
+          filtered = allAvailables.filter((nft) => nft.category.includes(cat));
+          results = results.concat(filtered);
+        });
+        allAvailables = results;
+      }
+
+      if (state.setCategorySpecies2.length !== 0) {
+        let results = [];
+        let filtered = [];
+        state.setCategorySpecies2.filter((cat) => {
+          filtered = allAvailables.filter((nft) => nft.category.includes(cat));
+          results = results.concat(filtered);
+        });
+        allAvailables = results;
+      }
+
+      if (state.setCategoryArt.length !== 0) {
+        let results = [];
+        let filtered = [];
+        state.setCategoryArt.filter((cat) => {
+          filtered = allAvailables.filter((nft) => nft.category.includes(cat));
+          results = results.concat(filtered);
+        });
+        allAvailables = results;
+      }
+
+      if (state.setCategoryType.length !== 0) {
+        let results = [];
+        let filtered = [];
+        state.setCategoryType.filter((cat) => {
+          filtered = allAvailables.filter((nft) => nft.category.includes(cat));
+          results = results.concat(filtered);
+        });
+        allAvailables = results;
+      }
+
+      if (state.setCategoryStyle.length !== 0) {
+        let results = [];
+        let filtered = [];
+        state.setCategoryStyle.filter((cat) => {
+          filtered = allAvailables.filter((nft) => nft.category.includes(cat));
+          results = results.concat(filtered);
+        });
+        allAvailables = results;
+      }
+
+      if (state.setCategoryRest.length !== 0) {
+        let results = [];
+        let filtered = [];
+        state.setCategoryRest.filter((cat) => {
+          filtered = allAvailables.filter((nft) => nft.category.includes(cat));
+          results = results.concat(filtered);
+        });
+        allAvailables = results;
+      }
+
+      if (state.setCategoryBackg.length !== 0) {
+        let results = [];
+        let filtered = [];
+        state.setCategoryBackg.filter((cat) => {
+          filtered = allAvailables.filter((nft) => nft.category.includes(cat));
+          results = results.concat(filtered);
+        });
+        allAvailables = results;
+      }
+
+      if (state.setCollections.length !== 0) {
+        let results = [];
+        let filtered = [];
+        state.setCollections.filter((col) => {
+          filtered = allAvailables.filter((nft) => nft.collectionId === col);
+          results = results.concat(filtered);
+        });
+        allAvailables = results;
+      }
+
+      if (Object.entries(state.setNftsPrice).length !== 0) {
+        // noanda
+        if (state.setNftsPrice.currency === "ETH") {
+          if (state.setNftsPrice.min !== 0)
+            allAvailables = allAvailables.filter(
+              (e) => e.price > state.setNftsPrice.min
+            );
+          if (state.setNftsPrice.max !== 0)
+            allAvailables = allAvailables.filter(
+              (e) => e.price < state.setNftsPrice.max
+            );
+        } else if (state.setNftsPrice.currency === "USD") {
+          if (state.setNftsPrice.min !== 0)
+            allAvailables = allAvailables.filter(
+              (e) => e.price * state.ethPrice.USD > state.setNftsPrice.min
+            );
+          if (state.setNftsPrice.max !== 0)
+            allAvailables = allAvailables.filter(
+              (e) => e.price * state.ethPrice.USD < state.setNftsPrice.max
+            );
+        } else {
+          if (state.setNftsPrice.min !== 0)
+            allAvailables = allAvailables.filter(
+              (e) => e.price * state.ethPrice.ARS > state.setNftsPrice.min
+            );
+          if (state.setNftsPrice.max !== 0)
+            allAvailables = allAvailables.filter(
+              (e) => e.price * state.ethPrice.ARS < state.setNftsPrice.max
+            );
+        }
+      }
+
+      return { ...state, filteredNfts: allAvailables, activePage: 1 };
+
     case RESET_FILTERS:
       return {
         ...state,
         filteredNfts: state.nfts,
         categories: [],
         activePage: 1,
+        setCategorySpecies: [],
+        setCategorySpecies2: [],
+        setCategoryArt: [],
+        setCategoryType: [],
+        setCategoryStyle: [],
+        setCategoryRest: [],
+        setCategoryBackg: [],
       };
-    case FILTER_NFT_COLLECTION:
-      let filterByCollection = [];
-      filterByCollection = state.nfts.filter(
-        (e) => e.collectionId === action.payload
-      );
-      return { ...state, filteredNfts: filterByCollection, activePage: 1 };
-    case FILTER_NFT_NAME:
+
+    case SEARCH_NFT_NAME:
       let filterByName = [];
       filterByName = state.nfts.filter((e) =>
         e.name.toUpperCase().includes(action.payload.toUpperCase())
       );
       return { ...state, filteredNfts: filterByName };
-    case FILTER_NFT_CATEGORY:
-      let filterByCategory = state.nfts;
-      if (!state.categories.includes(action.payload))
-        state.categories = [...state.categories, action.payload];
-      else
-        state.categories = state.categories.filter((e) => e !== action.payload);
-      state.categories.map((e) => {
-        return (filterByCategory = filterByCategory.filter((nft) =>
-          nft.category.includes(e)
-        ));
-      });
-      return { ...state, filteredNfts: filterByCategory, activePage: 1 };
-    case FILTER_NFT_PRICE:
-      let filterByPrice = []; // enviar error if max < min front?
-      filterByPrice = state.nfts.filter((e) => e.price !== 0); // sin max o min no filtra? resetea si se borra alguno?
-      if(action.payload.currency === "ETH") {
-        if (action.payload.min !== 0) filterByPrice = state.nfts.filter( e => e.price > action.payload.min );
-        if (action.payload.max !== 0) filterByPrice = filterByPrice.filter( e => e.price < action.payload.max );
-      } else if (action.payload.currency === "USD"){
-        if (action.payload.min !== 0) filterByPrice = state.nfts.filter( e => (e.price * state.ethPrice.USD) > action.payload.min );
-        if (action.payload.max !== 0) filterByPrice = filterByPrice.filter( e => (e.price * state.ethPrice.USD) < action.payload.max );
-      } else {
-        if (action.payload.min !== 0) filterByPrice = state.nfts.filter( e => (e.price * state.ethPrice.ARS) > action.payload.min );
-        if (action.payload.max !== 0) filterByPrice = filterByPrice.filter( e => (e.price * state.ethPrice.ARS) < action.payload.max );
-      }
-      return { ...state, filteredNfts: filterByPrice, activePage: 1 };
-    case FILTER_NFT_STATE:
-      let filterByState = [];
-      if (action.payload === "auction")
-        filterByState = state.nfts.filter((e) => e.type === "auction");
-      else if (action.payload === "buynow")
-        filterByState = state.nfts.filter((e) => e.type === "buynow");
-      else
-        filterByState = state.nfts.filter(
-          (e) => e.type === "buynow" || e.type === "auction"
-        ); // boton all que elimine este filtrado > funcionara?
-      return { ...state, filteredNfts: filterByState, activePage: 1 };
+
+    // --- ORDERS ---
     case CHANGE_ORDER_DIRECTION:
       let newOrder;
       if (state.orderDirection === "up-down") newOrder = "down-up";
@@ -149,12 +285,39 @@ const rootReducer = (state = initialState, action) => {
         state.filteredNfts
       );
       return { ...state, filteredNfts: orderedbyPrice, activePage: 1 };
-    // case ORDER_NFT_AMOUNT:
-    //   let orderedByAmount = controllers.orderNFTBy( "amount", state.orderDirection, state.filteredNfts );
-    //   return { ...state, filteredNfts: orderedByAmount, activePage: 1 };
-    // case ORDER_NFT_CREATED_AT:
-    //   let orderedByCreation = controllers.orderNFTBy( "creationDate", state.orderDirection, state.filteredNfts );
-    //   return { ...state, filteredNfts: orderedByCreation, activePage: 1 };
+
+    case ORDER_NFT_RARITY:
+      let orderedbyRarity = controllers.orderNFTBy(
+        "rarity",
+        state.orderDirection,
+        state.filteredNfts
+      );
+      return { ...state, filteredNfts: orderedbyRarity, activePage: 1 };
+
+    case ORDER_NFT_RARITYRANK:
+      let orderedbyRarityRank = controllers.orderNFTBy(
+        "rarityrank",
+        state.orderDirection,
+        state.filteredNfts
+      );
+      return { ...state, filteredNfts: orderedbyRarityRank, activePage: 1 };
+
+    case ORDER_NFT_LASTBUY:
+      let orderedbyLastBuy = controllers.orderNFTBy(
+        "lastbuy",
+        state.orderDirection,
+        state.filteredNfts
+      );
+      return { ...state, filteredNfts: orderedbyLastBuy, activePage: 1 };
+
+    case ORDER_NFT_LASTBUYTS:
+      let orderedbyLastBuyTs = controllers.orderNFTBy(
+        "lastbuyts",
+        state.orderDirection,
+        state.filteredNfts
+      );
+      return { ...state, filteredNfts: orderedbyLastBuyTs, activePage: 1 };
+    // --- PAGINATION ---
     case SELECT_PAGE:
       return { ...state, activePage: action.payload };
     case SET_NFTS_PER_PAGE:
@@ -180,10 +343,38 @@ const rootReducer = (state = initialState, action) => {
         ...state,
         userNfts: state.userNfts.filter((nft) => nft.id !== action.payload),
       };
+
+    // --- LOCAL STORAGE ---
+    case GET_ACTIVE_USER:
+      return {
+        ...state,
+        // activeUser: action.payload,
+      };
+    case LOCAL_STORAGE_CART:
+      return {
+        ...state,
+        userNfts: action.payload,
+      };
+
+    case DELETE_NFT_ON_SIGNOUT:
+      return {
+        ...state,
+        userNfts: [],
+      };
+
+    // --- CART ---
     case BUY_NFT_ON_SHOOPING_CART:
       return {
         ...state,
-        redirectMercadoPago: action.payload,
+        activeUser: action.payload,
+      };
+
+    // ---
+
+    case ADD_BUY_AT_HISTORY_BUYS:
+      return {
+        ...state,
+        historyBuys: [...state.historyBuys, action.payload],
       };
     default:
       return { ...state };

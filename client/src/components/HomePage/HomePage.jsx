@@ -1,17 +1,14 @@
 import * as actions from '../../redux/actions'
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react'; 
-import Pages from "../Pages/Pages";
-import FilterOptions from '../FilterOptrions/Options';
-import Loading from '../Loading/Loading';
 import { useHistory } from 'react-router-dom';
+import { loggedIn } from '../../firebase';
 import "./HomePage.css"
 
 
 function HomePage(){
 
     const order = useSelector(state => state.orderDirection)
-    const isLoading = useSelector(state => state.isLoading);
     const dispatch = useDispatch();
     const history = useHistory()
 
@@ -27,16 +24,15 @@ function HomePage(){
     },[dispatch])
     const validateUser = async () => {
         try {
-          const loggedUser = await fetch ("http://localhost:3001/login/userInfo").then((res) => res.json());
-          if(loggedUser){
+          if(loggedIn){
             dispatch(actions.getAllNfts());
             dispatch(actions.getAllCollections())
           }
           
         } catch (error) {
-            history.push("/")
+            history.push("/marketplace")
         }
-      }
+    }
 
     return(
         <>

@@ -1,14 +1,20 @@
 const axios = require("axios");
+require("dotenv").config();
+// const { validateUser } = require("../firebase");
+let loggedUser = { providerData: [{ email: "jojojojoj@gmail.com" }] };
+
+const getLoggedUser = (userInfo) => {
+  loggedUser = userInfo;
+};
 
 class PaymentService {
   async createPayment(nftBody) {
-    //NFT's y el email del user que va a comprar
     const url = "https://api.mercadopago.com/checkout/preferences";
 
-    console.log("BODY: ", nftBody);
+    let user = loggedUser;
 
     const body = {
-      payer_email: "test_user_52893000@testuser.com",
+      payer_email: user.providerData[0].email,
       items: nftBody.map((nft) => {
         const price = Math.floor(nft.price * 1271);
 
@@ -21,22 +27,12 @@ class PaymentService {
           unit_price: price,
         };
       }),
-      // items: [
-      //   {
-      //     title: "Dummy Title",
-      //     description: "NFT description",
-      //     picture_url: "http://www.myapp.com/myimage.jpg",
-      //     category_id: "category123",
-      //     quantity: 1,
-      //     unit_price: 10,
-      //   },
-      // ],
 
       back_urls: {
         //Create pages result
-        failure: "http://localhost:3000/marketplace",
-        pending: "/pending",
-        success: "/success",
+        failure: "http://localhost:3000/pay/failure",
+        pending: "http://localhost:3000/pay/pending",
+        success: "http://localhost:3000/pay/success",
       },
     };
 
@@ -76,4 +72,4 @@ class PaymentService {
   }
 }
 
-module.exports = PaymentService;
+module.exports = { PaymentService, getLoggedUser };

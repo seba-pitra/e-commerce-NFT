@@ -1,15 +1,26 @@
 const { Router } = require("express");
-const { getCollections } = require("../controllers/collection.controller");
+const {
+    getCollections,
+    getCollectionById,
+    createNewCollection,
+    deleteCollection,
+    updateCollection,
+    restoreDeletedCollection
+} = require("../controllers/collection.controller");
 
 const collectionRouter = Router();
 
-collectionRouter.get("/", async (req, res) => {
-  try {
-    const foundCollections = await getCollections();
-    res.status(200).send(foundCollections);
-  } catch (err) {
-    res.status(404).send(err.message);
-  }
-});
+collectionRouter.get("/", getCollections);
+
+collectionRouter.post("/", createNewCollection);
+
+collectionRouter.get("/:id", getCollectionById);
+
+collectionRouter.put("/:id", updateCollection);
+
+collectionRouter.delete("/:id", deleteCollection);
+
+collectionRouter.put("/restore/:id", restoreDeletedCollection);
+
 
 module.exports = collectionRouter;

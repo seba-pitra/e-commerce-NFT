@@ -28,7 +28,8 @@ const App = () => {
 
   const handleRangeSubmit = (e) => {
     e.preventDefault();
-    dispatch(actions.filterPrice(range));
+    dispatch(actions.setPrice(range));
+    dispatch(actions.filterNfts());
   };
 
   return (

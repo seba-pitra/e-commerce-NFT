@@ -1,40 +1,16 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import * as actions from "../../redux/actions";
 import Loading from "../Loading/Loading";
 import { Link } from "react-router-dom";
 import styles from "./Details.module.css";
 import ethereumLogo from "../../images/ethereum-logo.png";
-import { useState } from "react";
-import { ethers } from "ethers";
+import { startPayment } from "../../utils";
 
-const startPayment = async ({ setError, setTxs, ether, addr }) => {
-  try {
-    if (!window.ethereum)
-      throw new Error("No cripto wallet found. Please install it.");
-
-    await window.ethereum.send("eth_requestAccounts"); //connect with metamask wallet
-
-    const provider = new ethers.providers.Web3Provider(window.ethereum);
-    const signer = provider.getSigner();
-
-    ethers.utils.getAddress(addr); //address validation
-
-    const tx = await signer.sendTransaction({
-      to: addr,
-      value: ethers.utils.parseEther(ether), //can not pay with ethereum directly.We need to pass the ethereum to "wei"
-    });
-
-    setTxs(tx.hash);
-  } catch (err) {
-    setError(err.message);
-  }
-};
-
-function Details(props) {
+const Details = (props) => {
   const { id } = props.match.params;
   const dispatch = useDispatch();
-
+  let sales;
   const nftDetail = useSelector((state) => state.nftDetail);
   const isLoading = useSelector((state) => state.isLoading);
 
@@ -47,13 +23,49 @@ function Details(props) {
 
   const handlePay = async (e) => {
     setError();
-    await startPayment({
+    const transactionMetamask = await startPayment({
       setError,
       setTxs,
       ether: nftDetail.price.toString(),
       addr: nftDetail.contract,
     });
+
+    console.log(transactionMetamask);
+    let buyData = {
+      price: nftDetail.price + " ETH",
+      contract: nftDetail.contract,
+      payMethod: "Metamask",
+      statusPay: "Created",
+    };
+
+    if (transactionMetamask.hash) {
+      //si salio bien...
+      buyData = {
+        ...buyData,
+        statusPay: "Successed",
+      };
+    } else if (transactionMetamask.includes("rejected")) {
+      //si se rechazo en metamask
+      buyData = {
+        ...buyData,
+        statusPay: "Rejected",
+      };
+    } else if (transactionMetamask.includes("insufficient funds")) {
+      //si faltan fondos
+      buyData = {
+        ...buyData,
+        statusPay: "Pending",
+      };
+    }
+
+    dispatch(actions.addBuyAtHistoryBuys(buyData));
   };
+
+  const handleClickOnShoppingCart = (e) => {
+    dispatch(actions.addNftOnShoppingCart(nftDetail));
+  };
+
+  console.log(nftDetail);
 
   return (
     <>
@@ -121,6 +133,13 @@ function Details(props) {
                 <button className={styles["button-detail"]} onClick={handlePay}>
                   Select & buy
                 </button>
+
+                <button
+                  className={styles["button-detail"]}
+                  onClick={handleClickOnShoppingCart}
+                >
+                  Add to Cart
+                </button>
               </div>
               {error && <p>{error}</p>}
               {txs && <p>{txs}</p>}
@@ -130,6 +149,6 @@ function Details(props) {
       )}
     </>
   );
-}
+};
 
 export default Details;

@@ -1,0 +1,3052 @@
+[
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "1144",
+      "name": "TOONZ #1144",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ac250e4103bde88838b4e0da76f2155f87f90fce826caf59416ef120d502e47ce78913778520665a5c5f205a282777721aeb66848436394c3165c35764b54adf2b7adbfcf86039efb80a626e1845062a3338e7252895a6cde95f834433b170da302c4692d0fb1a1cbfad780763eed98f123c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T05:11:56.588Z",
+      "lastFlagChange": null,
+      "rarity": 69.425,
+      "rarityRank": 2656,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.69,
+        "timestamp": 1645845501
+      },
+      "owner": "0xfbaaac7c4820ef581cc2ff80e09626fe0814c301"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xf7772a52e125c61b8118dc7c986893a2333e482d8b58cfa4846d6c746bd2f3cb",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1088000000000000000",
+            "decimal": 1.088,
+            "usd": 1291.21438,
+            "native": 1.088
+          }
+        },
+        "maker": "0xfbaaac7c4820ef581cc2ff80e09626fe0814c301",
+        "validFrom": 1671514792,
+        "validUntil": 1671586502,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x19b86299c21505cdf59ce63740b240a9c822b5e4/1144"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "6874",
+      "name": "TOONZ #6874",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aa322e2fb49b6ff856cbedafd9f94174bac67b9c2b1ed5026a606a7ed8da90ad219fd4c707985c330b5c339715184a356a28109c6767dd7690eafa58e8aaffb21e22b6e86ef5795a3bac474643aff27099ed31919e5bc17a7401fa3083402faa1f12581d37175b55d2a4046c927af7c5823c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T04:44:58.800Z",
+      "lastFlagChange": null,
+      "rarity": 69.246,
+      "rarityRank": 2684,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.66,
+        "timestamp": 1647626180
+      },
+      "owner": "0xab8d1b93536ef67883235f626802d3cf0ca22325"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x55b77c5eadb5131e8d7532842a36bc888d095bcfeaa33327f6bc83df4445fa9a",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1089000000000000000",
+            "decimal": 1.089,
+            "usd": 1292.40116,
+            "native": 1.089
+          }
+        },
+        "maker": "0xab8d1b93536ef67883235f626802d3cf0ca22325",
+        "validFrom": 1670948644,
+        "validUntil": 1673555751,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x19b86299c21505cdf59ce63740b240a9c822b5e4/6874"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "5453",
+      "name": "TOONZ #5453",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a587a64a568ce17469df0d22645bc5754c75fe9a4d3fef4b3201d3af1c671c2a48ac4870e0aa47bffe2f977f1216ecb74ee474b875da33aef6fe17232b10620b5cce3b1475341a2dea7c63465b1df4f0dcf6462476a56d6c6d627c45c1ccc160d4d0070b64bb60c0ad2ba47d95425899ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T05:06:24.328Z",
+      "lastFlagChange": null,
+      "rarity": 56.959,
+      "rarityRank": 5094,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.4,
+        "timestamp": 1648878476
+      },
+      "owner": "0xc9b4441561df23492e0efd58fbaf6993c5aa45ab"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xca096593a14efb46c20743fa41077fa74cbc8f9641c61dce5b3f06f363a66eba",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1090000000000000000",
+            "decimal": 1.09,
+            "usd": 1293.58793,
+            "native": 1.09
+          }
+        },
+        "maker": "0xc9b4441561df23492e0efd58fbaf6993c5aa45ab",
+        "validFrom": 1671372631,
+        "validUntil": 1674051031,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x19b86299c21505cdf59ce63740b240a9c822b5e4/5453"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "5987",
+      "name": "TOONZ #5987",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a780a2502090ba9dc6e87b4539451c01b85f8aff12190276b25c4ab94749278efec0afab931697583baa112d406b980eac8bef213ac95aca59b33f01feb18b3ea386b39b669ed54714064dca43a5846c6777886affb4820cd1e5dd0d1ca0c802adf63a052f96b8e296e054dd1e74748d4e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T04:46:04.873Z",
+      "lastFlagChange": null,
+      "rarity": 52.804,
+      "rarityRank": 6510,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": 0.901,
+        "timestamp": 1671466055
+      },
+      "lastSell": {
+        "value": 1.3,
+        "timestamp": 1654278800
+      },
+      "owner": "0x949691842c5ef943780211e3f53654bf37e88888"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xc2dac31c0a19a289048686bc996d222c91dd674aca87b671e4ee309a250836bd",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1098000000000000000",
+            "decimal": 1.098,
+            "usd": 1303.08216,
+            "native": 1.098
+          }
+        },
+        "maker": "0x949691842c5ef943780211e3f53654bf37e88888",
+        "validFrom": 1671466224,
+        "validUntil": 1674144624,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x19b86299c21505cdf59ce63740b240a9c822b5e4/5987"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "2779",
+      "name": "TOONZ #2779",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3bca118f31832012ef9b04a561c815545df504ef71cbfb615de8a508d74f944167464a90a7f8c6e39bef1b6f8e1329be070aa9f9e853cdaf464249fb4f1abb4c3dace5e5f92432b153de14831bb35e7bf7f7bacaee4933a93ecec742b996b6739feed83f5d50b87e98ca8578254a5e1123c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T05:10:23.942Z",
+      "lastFlagChange": null,
+      "rarity": 52.72,
+      "rarityRank": 6540,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.79,
+        "timestamp": 1651638314
+      },
+      "owner": "0x60cc0349d1151af21fd25f608429c63c6b1a9448"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xa721c71574d77a2d5a15eb851c7981aacfb01380fb69eb105c8fe7aeba12f355",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1100000000000000000",
+            "decimal": 1.1,
+            "usd": 1305.45571,
+            "native": 1.1
+          }
+        },
+        "maker": "0x60cc0349d1151af21fd25f608429c63c6b1a9448",
+        "validFrom": 1669891638,
+        "validUntil": 1672570038,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x19b86299c21505cdf59ce63740b240a9c822b5e4/2779"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "5679",
+      "name": "TOONZ #5679",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ad06caf10e1aae79d2bc8f87ee22d9bf5387049537e68455d9615070dc6d0dbb36484a794953d3e5c6f18285e6e5c2705eb019c21c2c65e91238b442d2367f4c870db22d300de1f27b3431086091c2dbd5603f5273d1fe240396e674c366d57f8b81d88264d4f86d03ec38e1cc590dbde23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T04:46:21.417Z",
+      "lastFlagChange": null,
+      "rarity": 54.942,
+      "rarityRank": 5739,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 1.25,
+        "timestamp": 1645912785
+      },
+      "owner": "0xe7d04ea9efbd7c5ddeb7c279cedd831c941e90f7"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xac6dc0ca0ae4f6d813c46082755b20c77137cac7bd113fc5ce9e616102d570ec",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1100000000000000000",
+            "decimal": 1.1,
+            "usd": 1305.45571,
+            "native": 1.1
+          }
+        },
+        "maker": "0xe7d04ea9efbd7c5ddeb7c279cedd831c941e90f7",
+        "validFrom": 1671474025,
+        "validUntil": 1671560425,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x19b86299c21505cdf59ce63740b240a9c822b5e4/5679"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "7977",
+      "name": "TOONZ #7977",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a2f7d70c1e9e20d7357446579aba34ac09eccc53116f17a61a7d47166cb4c6fb8f21a31da93287f75888eb74220804801de69ae5487eda5136141a069b508ed23d6829a9c07965c69fe922949af383cbeb9d74962a5b3bea2191adeba457e72592786888fbf9bc760374191c5b596f558e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T04:43:52.163Z",
+      "lastFlagChange": null,
+      "rarity": 73.821,
+      "rarityRank": 2046,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.72,
+        "timestamp": 1662164455
+      },
+      "owner": "0xb0bdca5b81add33304ba47cf90ae3adb870ad72b"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x038475b2572e55075b10a6e70b50bdf7807c1793adf648bf56acbcbd89febb82",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1100000000000000000",
+            "decimal": 1.1,
+            "usd": 1305.45571,
+            "native": 1.1
+          }
+        },
+        "maker": "0xb0bdca5b81add33304ba47cf90ae3adb870ad72b",
+        "validFrom": 1671498932,
+        "validUntil": 1679199825,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x19b86299c21505cdf59ce63740b240a9c822b5e4/7977"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "1492",
+      "name": "TOONZ #1492",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4e06a92f3720e2351758d4fa2a1e813b2a4d62a3f4830c05c141a4070657d60196d2dc7db54baee99f1b8762ca9439a6feb6d50a46ae9ef4ed1dc65c97b99597bfc8dddcd6560a39d1f655d25be570de520c88f48b9903e1134ca91cf7286a83f862d4a6ca50395b4b9b2b189fd4377023c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T05:11:35.765Z",
+      "lastFlagChange": null,
+      "rarity": 55.088,
+      "rarityRank": 5688,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": 0.37,
+        "timestamp": 1668400355
+      },
+      "lastSell": {
+        "value": 0.425,
+        "timestamp": 1668595823
+      },
+      "owner": "0x1ecc6a0705d53d7f61a143a5e5f69a8bedb7c612"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x69f9df3f0f17faeeecab978e64f760ea63faa7b4f30cdd7ecbd05abb62871a4e",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1110000000000000000",
+            "decimal": 1.11,
+            "usd": 1317.32349,
+            "native": 1.11
+          }
+        },
+        "maker": "0x1ecc6a0705d53d7f61a143a5e5f69a8bedb7c612",
+        "validFrom": 1669893468,
+        "validUntil": 1672571868,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x19b86299c21505cdf59ce63740b240a9c822b5e4/1492"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "560",
+      "name": "TOONZ #560",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4b4972f905761c8d47882b47f8bfe139df6069daaef26e5cac6028fb932aaf9fc50f7601c56524baee28cb54cf909f2bd73b1883993e7f7d336fdc91374ebe71f3b1f8bb2687db5ab2e47ff8475c75235f961de13fde9a467dbed3fb0f80bf129cc168a849699fecdd5d6df4e67a317023c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T05:12:28.745Z",
+      "lastFlagChange": null,
+      "rarity": 43.852,
+      "rarityRank": 8701,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": 0.555,
+        "timestamp": 1646556460
+      },
+      "lastSell": {
+        "value": 1,
+        "timestamp": 1670875283
+      },
+      "owner": "0xf28eb6df753b2b937f092eb3abdefb940916d144"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xfcd6f5bd22efa1b90562779887528a2d2f0664ccf8e6bab51fc71e6734af9c6e",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1120000000000000000",
+            "decimal": 1.12,
+            "usd": 1329.19127,
+            "native": 1.12
+          }
+        },
+        "maker": "0xf28eb6df753b2b937f092eb3abdefb940916d144",
+        "validFrom": 1671520551,
+        "validUntil": 1674151561,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x19b86299c21505cdf59ce63740b240a9c822b5e4/560"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "936",
+      "name": "TOONZ #936",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1cf513272db5938466c040d0e564189350ef5a386458390674a192cc12af32fefd8102af28011dc2d9dcbcbcb8c5874cdd1dc4967803465d57748677f7e9ae7e1fdfe4ac319d5150dc4f8af1bcc524bc633bdf1091c2db27f617012349c3993c8b91383c257ff24611638af7db35204423c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T05:12:07.888Z",
+      "lastFlagChange": null,
+      "rarity": 58.299,
+      "rarityRank": 4734,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.625,
+        "timestamp": 1669913759
+      },
+      "owner": "0xe390fe5cd2b3c8af2540bb85264176416d34cfc6"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x64adc6d4ea356fde27d941219a9b4e211c0bcec6df87afb3fdacb8a8b21ee0aa",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1150000000000000000",
+            "decimal": 1.15,
+            "usd": 1364.79461,
+            "native": 1.15
+          }
+        },
+        "maker": "0xe390fe5cd2b3c8af2540bb85264176416d34cfc6",
+        "validFrom": 1671239028,
+        "validUntil": 1673543469,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x19b86299c21505cdf59ce63740b240a9c822b5e4/936"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "1640",
+      "name": "TOONZ #1640",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a39556b24c4ee5e3f3c4d1ba80447e9cc3b32e373ede4e75ef18dec04c6fef006bb1195687b5ea8c1390cab78b5dfcec60ba4d7e0fd7c70891a060f1649352a7bda56f0ce823ef673af51330d5deef52f8cee230e8fdf58de799ead1532ddfdddf0aa2b46d4043b690c7908f24b936020058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T05:11:25.768Z",
+      "lastFlagChange": null,
+      "rarity": 55.566,
+      "rarityRank": 5533,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": 0.55,
+        "timestamp": 1646901685
+      },
+      "lastSell": {
+        "value": 0.5,
+        "timestamp": 1669766363
+      },
+      "owner": "0xcf2cd39fb7599cfba7c6cc3bedb37c8a7c6c47a8"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xe7e937f393b1559942c0152d55918210a903b99544a28f75c1e39fdbe8a515ef",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1150000000000000000",
+            "decimal": 1.15,
+            "usd": 1364.79461,
+            "native": 1.15
+          }
+        },
+        "maker": "0xcf2cd39fb7599cfba7c6cc3bedb37c8a7c6c47a8",
+        "validFrom": 1671362576,
+        "validUntil": 1671621776,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x19b86299c21505cdf59ce63740b240a9c822b5e4/1640"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "4838",
+      "name": "TOONZ #4838",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4e5c3df03282d7b1346344c00184cc1ffaa3e564ac9a344b8889a022df2a8b8e997d295aeac8074a64f4408d2c6fa5c4c6f0a7a64f39f4f8f31bd3c97574260995351b0ee3c7ce26a950e7987de8f2e0cd696251f2e16feb5df9dab87bf810c38131860d506157f31725b5594e3c61e423c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T05:07:03.946Z",
+      "lastFlagChange": null,
+      "rarity": 43.539,
+      "rarityRank": 8731,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xdc9913af0f754a798d15c7eea74ebfc072bfb96e"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x6e6afc51113061454307c035bbadb14c020f4f804f9a9328c30870251687aa65",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1150000000000000000",
+            "decimal": 1.15,
+            "usd": 1364.79461,
+            "native": 1.15
+          }
+        },
+        "maker": "0xdc9913af0f754a798d15c7eea74ebfc072bfb96e",
+        "validFrom": 1671131785,
+        "validUntil": 1673637302,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x19b86299c21505cdf59ce63740b240a9c822b5e4/4838"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "6617",
+      "name": "TOONZ #6617",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a97fd32b6dbd7291352e74e378b9d8f8ef1f6387848989b676331370652b24b9b652bb519438871f102ed70c0c26b2f0bcae22c7438ac920b0c72f509c319348e5893321286a62ee84a911ec1a091952f887cbaea73218fb2f90e245796075b31ee8e27f18ff48fe76c1dfc36e925f8f023c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T04:45:11.356Z",
+      "lastFlagChange": null,
+      "rarity": 51.264,
+      "rarityRank": 7068,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": 0.2881,
+        "timestamp": 1650537097
+      },
+      "lastSell": {
+        "value": 0.95,
+        "timestamp": 1670944715
+      },
+      "owner": "0xbc8a4501cf41c02f1b3b66ace3af551229612cb4"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x5978479133410664bfeb12425df55486360366910318652fc048c6316e7b23c7",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1150000000000000000",
+            "decimal": 1.15,
+            "usd": 1364.79461,
+            "native": 1.15
+          }
+        },
+        "maker": "0xbc8a4501cf41c02f1b3b66ace3af551229612cb4",
+        "validFrom": 1671526065,
+        "validUntil": 1671785265,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x19b86299c21505cdf59ce63740b240a9c822b5e4/6617"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "8475",
+      "name": "TOONZ #8475",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a749743f618d678925a532f988c947c81f8fbb51a4b7fe0837719b6bbbe5d6a3566c7464369279d9932d232b906200c55252b0edfb707416d69826ad97ef58cd850c4c1dd16158b509a43d99b6c031f526fb84356a2968ab0e556df538786a834fc08ed4775cc8b37dad0acc522ba478423c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T04:43:24.186Z",
+      "lastFlagChange": null,
+      "rarity": 48.043,
+      "rarityRank": 8008,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": 0.406,
+        "timestamp": 1661693590
+      },
+      "lastSell": {
+        "value": 0.45,
+        "timestamp": 1661895908
+      },
+      "owner": "0x17b174d63481c5828afe3e22b111af7b1ccfd9e2"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xffdf7050a25106682dc08b112b1a3a4a86c18e941f31565528c9a98666883106",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1150000000000000000",
+            "decimal": 1.15,
+            "usd": 1364.79461,
+            "native": 1.15
+          }
+        },
+        "maker": "0x17b174d63481c5828afe3e22b111af7b1ccfd9e2",
+        "validFrom": 1671463803,
+        "validUntil": 1674142203,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x19b86299c21505cdf59ce63740b240a9c822b5e4/8475"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "2847",
+      "name": "TOONZ #2847",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af2a752536f3f193e47ded9754228e4606f68b5dd22b5410cc4e3e68ac25741663ed9930ccd0b02aa0824f1393a12099e1e4ea32e622751f5ed4e4aa881f3fe6d557017b714285de91dc7d969c16f6b4fe52797c61527282c672afe21a9492f31e7c44a6e4a0857ce619bc89f533b89a723c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T10:56:06.577Z",
+      "lastFlagChange": null,
+      "rarity": 46.739,
+      "rarityRank": 8279,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": 0.89,
+        "timestamp": 1671265295
+      },
+      "lastSell": {
+        "value": 0.99,
+        "timestamp": 1671274559
+      },
+      "owner": "0x8439098cc1f261722f07dd4b1a80a2da32949fc1"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x6880e80754dc994e528c4d9f54584ead73396d101ca5a841a82a612cf0db2271",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1160000000000000000",
+            "decimal": 1.16,
+            "usd": 1376.66239,
+            "native": 1.16
+          }
+        },
+        "maker": "0x8439098cc1f261722f07dd4b1a80a2da32949fc1",
+        "validFrom": 1671351369,
+        "validUntil": 1671610569,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x19b86299c21505cdf59ce63740b240a9c822b5e4/2847"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "3839",
+      "name": "TOONZ #3839",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a2a9ae2f932fb64cc80faf7dab152efbfb381c80936cff93bb24e1de63647a71aed20c82786ce24483a05cbf246ab6f2f88a51aef5e24401f1a532c2757b428ae28e633c65cfbdf597bc60649186591cac1206edf601240d1c18513211564a2f74dcc1bc27fc403ec2932ad3dab47efcbe1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T05:08:31.762Z",
+      "lastFlagChange": null,
+      "rarity": 45.031,
+      "rarityRank": 8539,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": 0.666,
+        "timestamp": 1669897103
+      },
+      "lastSell": {
+        "value": 0.596,
+        "timestamp": 1669828559
+      },
+      "owner": "0x7c0c7f32dda5a066dc3de12cc547872dd2ec7fda"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x790f80759f3a97776adb0f0071eef02844af5651408fcdec94564ae5d4f5e813",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1160000000000000000",
+            "decimal": 1.16,
+            "usd": 1376.66239,
+            "native": 1.16
+          }
+        },
+        "maker": "0x7c0c7f32dda5a066dc3de12cc547872dd2ec7fda",
+        "validFrom": 1671003626,
+        "validUntil": 1673682026,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x19b86299c21505cdf59ce63740b240a9c822b5e4/3839"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "7253",
+      "name": "TOONZ #7253",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a18413f95054358aa1380c5978112cadd392cea6bacbb37c6952ac005b5c788e139c0ec3cb0f6c71dee07da642a55f8450028e0071871827d3f5d91edeef818acfa45afaa1c4358d9938f21c0d5fb28d033df1cdaf0ddadd5aacb5a471b961a659ed077e038a0c97118545e6f6dd1494ce1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T04:44:35.096Z",
+      "lastFlagChange": null,
+      "rarity": 52.634,
+      "rarityRank": 6565,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.55,
+        "timestamp": 1658180847
+      },
+      "owner": "0xfad94ecd4d42c6948c3de0e33cac31ac268be288"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xbfeaa22aa22920877d99f80437ff67d986aff311346aa2052fcdc24397e62770",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1170000000000000000",
+            "decimal": 1.17,
+            "usd": 1388.53017,
+            "native": 1.17
+          }
+        },
+        "maker": "0xfad94ecd4d42c6948c3de0e33cac31ac268be288",
+        "validFrom": 1671014106,
+        "validUntil": 1673692506,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x19b86299c21505cdf59ce63740b240a9c822b5e4/7253"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "588",
+      "name": "TOONZ #588",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5ed2a1539a074619d9a47bf3eee77b6ba54c38c6977407251ec21d94c90c88a32983b09cc9979d3b6687c4b7df3d201b15f344a8abcd9cf412fb07a99ce4dd310f54847ee6347acdf4cf6a4548171216343aa5be2f9d487e4b87f336fef5d901def220b5487dfb39c4062e48dcf99df5e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T05:12:26.393Z",
+      "lastFlagChange": null,
+      "rarity": 53.215,
+      "rarityRank": 6353,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": 0.58287,
+        "timestamp": 1645999292
+      },
+      "lastSell": {
+        "value": 0.74,
+        "timestamp": 1659678076
+      },
+      "owner": "0x93e2f97974d848e63e419e5364550fcdfa10f6f2"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x8f0413dc7fd06d9a17db64b396eb90d5a83defc2284a437f7ad7d572cae3103e",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1180000000000000000",
+            "decimal": 1.18,
+            "usd": 1400.39795,
+            "native": 1.18
+          }
+        },
+        "maker": "0x93e2f97974d848e63e419e5364550fcdfa10f6f2",
+        "validFrom": 1671477078,
+        "validUntil": 1671736278,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x19b86299c21505cdf59ce63740b240a9c822b5e4/588"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "1070",
+      "name": "TOONZ #1070",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a70061ce8ece9e6719e1c36ee096276970a709a6027fd4ab810dbca6592324a856fe02a89da6ff3c54d9f5809d0c6551cdbdf835b1d16da5b8bb649439349f00549b22aaad035019c67b29299d1fdd7c06be3ac7fb6a34c8d79dd7462b88a8bc408ef3683b6aae578a3e36f394e24a665e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T05:12:01.806Z",
+      "lastFlagChange": null,
+      "rarity": 73.235,
+      "rarityRank": 2112,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.99,
+        "timestamp": 1655103317
+      },
+      "owner": "0x2026a53500976252a2436e2b4584939eb15008fd"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x058b97b405e76ef63594c4f66c8f48020b968c18955bfb0d73582663c55700b3",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1180000000000000000",
+            "decimal": 1.18,
+            "usd": 1400.39795,
+            "native": 1.18
+          }
+        },
+        "maker": "0x2026a53500976252a2436e2b4584939eb15008fd",
+        "validFrom": 1671266004,
+        "validUntil": 1673944404,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x19b86299c21505cdf59ce63740b240a9c822b5e4/1070"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "884",
+      "name": "TOONZ #884",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a40ed78b1273f3badc67de03f3b0af221204a2b44afe9fe389ed8e258e725c9564bf3d313ecacd177e08698cb2a2fa9ad51d75b8983aa47066ce2c91e19e030df88234ed5e409a620f7f6ed472ebc82ac9c3df85119cdd8b1a9a1e490ccbbc16784f8fa0d0869dee38346fa0181e37039e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T05:12:10.025Z",
+      "lastFlagChange": null,
+      "rarity": 70.86,
+      "rarityRank": 2452,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": 0.645,
+        "timestamp": 1669916735
+      },
+      "lastSell": {
+        "value": 1.086,
+        "timestamp": 1656256801
+      },
+      "owner": "0x27309b53aacfb7f5b53ab8ee32a954687c15c9d0"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x448be27627e26d3b7d4ad1534f29b30f1409868e77cc066af271325c175fc511",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1199000000000000000",
+            "decimal": 1.199,
+            "usd": 1422.94673,
+            "native": 1.199
+          }
+        },
+        "maker": "0x27309b53aacfb7f5b53ab8ee32a954687c15c9d0",
+        "validFrom": 1671526331,
+        "validUntil": 1671566411,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x19b86299c21505cdf59ce63740b240a9c822b5e4/884"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "6521",
+      "name": "TOONZ #6521",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aef7fe54d0087cf7e870f18131a1c9cb7cae80f0b64b533292170593fed980661e31cb9f84d9403a567302226ecd92ae274ff44ed3921cab70d2aa3d55453d7b143268afcdd9877521d60ef4609712ee526bba12843523000237bb146ea1eba981f9a21ddadf65964023045b1648ad689058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T04:45:17.592Z",
+      "lastFlagChange": null,
+      "rarity": 49.852,
+      "rarityRank": 7527,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.8,
+        "timestamp": 1652095471
+      },
+      "owner": "0x69e1517cc8aa5bde19e867d980554677485dfccb"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xa553a09d2a5ddc8d05930e892622b50245d0619dbcfd356ead18a303a23bd3b4",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1199000000000000000",
+            "decimal": 1.199,
+            "usd": 1422.94673,
+            "native": 1.199
+          }
+        },
+        "maker": "0x69e1517cc8aa5bde19e867d980554677485dfccb",
+        "validFrom": 1670955233,
+        "validUntil": 1673547233,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x19b86299c21505cdf59ce63740b240a9c822b5e4/6521"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "7682",
+      "name": "TOONZ #7682",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4292e15d224a90d974ca3387029fee3eae829fb85e7c69b44b83f9038270f8bacd8ccccc99ff928aacbbd23c0d1e5cd6565aa813a150611622f46f4778a19221b101a29238d50fd5ebc42ee131981589bd309c877abf3c0208d7cf4e612250ab7cb4b36ae05ab82bbe1a841a01351076058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T04:44:07.722Z",
+      "lastFlagChange": null,
+      "rarity": 53.546,
+      "rarityRank": 6239,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": 1.01,
+        "timestamp": 1654625486
+      },
+      "lastSell": {
+        "value": 1.89,
+        "timestamp": 1653923762
+      },
+      "owner": "0xe852c2189316ec5eee9f36272962ade430f38531"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x2866d9053fc62fda0ab52f906480e8ccd17d54aa39bd05d19958b9b84c3ef2ec",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1199000000000000000",
+            "decimal": 1.199,
+            "usd": 1422.94673,
+            "native": 1.199
+          }
+        },
+        "maker": "0xe852c2189316ec5eee9f36272962ade430f38531",
+        "validFrom": 0,
+        "validUntil": 1674795956,
+        "source": {
+          "id": "0xdc28ffaea1f91a88fb6fd0a8fe70d71bdd64284c",
+          "domain": "x2y2.io",
+          "name": "X2Y2",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/x2y2-logo.png",
+          "url": "https://x2y2.io/eth/0x19b86299c21505cdf59ce63740b240a9c822b5e4/7682"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "710",
+      "name": "TOONZ #710",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab7a061380db5835e3e8f5cc9520bfb05bb8880af7c11e212c7565bd3b1a5d95efa244ae1c4fb03e162ed06af8d26ea9a44714a193a855197cfd68b99c2f8919b4dc2723a5e843799458a43b0672b3cf696b04de8afb1833835ca14dd157aeceea87b56fd7f0138190ec57de07ef254b4e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T05:12:19.154Z",
+      "lastFlagChange": null,
+      "rarity": 54.175,
+      "rarityRank": 6016,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": 0.45,
+        "timestamp": 1667007275
+      },
+      "lastSell": {
+        "value": 0.65,
+        "timestamp": 1669818659
+      },
+      "owner": "0xcfc2b36ddf3ecc4bf896bfbe77fea4276b42792a"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x06654811919b464d274ec5aa9f2ab92f6adef88958b0c32af08c5f4a7c34b5b8",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1200000000000000000",
+            "decimal": 1.2,
+            "usd": 1424.13351,
+            "native": 1.2
+          }
+        },
+        "maker": "0xcfc2b36ddf3ecc4bf896bfbe77fea4276b42792a",
+        "validFrom": 1671418515,
+        "validUntil": 1671624765,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x19b86299c21505cdf59ce63740b240a9c822b5e4/710"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "1269",
+      "name": "TOONZ #1269",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4ebe9ae21e35633b9f413f16a88cd2d408a7c944faf6c977d51eb0244a1b41893bc05e936a050cc46d2631715a3067d049cbfff76dcd0d07a4634500124bdc2c425fa574b5da52036b08002d14e7c46959935f39cc6e6c2dd09197f21a680ce9c4cecd591aa29afe33976317e7bab5a923c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T05:11:47.930Z",
+      "lastFlagChange": null,
+      "rarity": 52.682,
+      "rarityRank": 6551,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": 0.5,
+        "timestamp": 1669505771
+      },
+      "lastSell": {
+        "value": 0.7,
+        "timestamp": 1670612015
+      },
+      "owner": "0x419f5f771603dda7d7769fd2b8af08ac81f47459"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x9195ee4ae1921f3ed9d5de4bfcc1787ebefcab831b59d58170f804777a80fdcd",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1200000000000000000",
+            "decimal": 1.2,
+            "usd": 1424.13351,
+            "native": 1.2
+          }
+        },
+        "maker": "0x419f5f771603dda7d7769fd2b8af08ac81f47459",
+        "validFrom": 1671459527,
+        "validUntil": 1672064325,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x19b86299c21505cdf59ce63740b240a9c822b5e4/1269"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "2101",
+      "name": "TOONZ #2101",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aabb2a793a4468961bcd4dae042e11aa135c9c88ec6c5a298886831c835bdf88623ccf498a15b1007bd4569a8454eb546e98b001d64f7d35a25aaf241a1f58cb88f2cd7465af7f67a67c80be85cda0ec3071d721dacc691fc61449e20bd3463f215e976f8a5435fb503e7ccdbe272267823c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T05:11:02.127Z",
+      "lastFlagChange": null,
+      "rarity": 54.782,
+      "rarityRank": 5808,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.55,
+        "timestamp": 1666575395
+      },
+      "owner": "0x36cd5dc24234332b3b7b2dc77abc57242a05b7c9"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xed20be6cc24996c6e7e11ffd945e3e8f4aaf8d90bbca9763a62b483e3640e069",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1200000000000000000",
+            "decimal": 1.2,
+            "usd": 1424.13351,
+            "native": 1.2
+          }
+        },
+        "maker": "0x36cd5dc24234332b3b7b2dc77abc57242a05b7c9",
+        "validFrom": 1671198670,
+        "validUntil": 1685962645,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x19b86299c21505cdf59ce63740b240a9c822b5e4/2101"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "2242",
+      "name": "TOONZ #2242",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a19d485eec697b4154b2e58b9382725a58c1ae19fa13adc2e970e8a01e1f7d10158427ce1c7116a8affd3e677e6268542a7dbf33d696b0e53c6409a1c15afdc510b7343fd8ff9e2b68c1ecac82d71e4b1db485e1f57175795f878ab488d75ac6b8d465a5909d834029cadb16f9458488023c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T05:10:55.980Z",
+      "lastFlagChange": null,
+      "rarity": 66.601,
+      "rarityRank": 3101,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.75,
+        "timestamp": 1645849896
+      },
+      "owner": "0x60cc0349d1151af21fd25f608429c63c6b1a9448"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xa8a1110312e83885dac1de30284e925d30992fa7c2bb9d7bc87098d716fb5cb0",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1200000000000000000",
+            "decimal": 1.2,
+            "usd": 1424.13351,
+            "native": 1.2
+          }
+        },
+        "maker": "0x60cc0349d1151af21fd25f608429c63c6b1a9448",
+        "validFrom": 1669892308,
+        "validUntil": 1672570708,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x19b86299c21505cdf59ce63740b240a9c822b5e4/2242"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "2649",
+      "name": "TOONZ #2649",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a196230bb62243a41052fedb8a92278709436716a6349e286d3e30e4bcfa5664245d66da4d5a4e9a9181fdab742e88bcb1f0958219f439c56b8ecd9717c6b2dfa12f1ae3125d91443d11de5b9955e9494e749efae18639bfe3956ee3c33e91bb22f6ce4122e8a09d4c74cde5fc5ab183823c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T05:10:32.067Z",
+      "lastFlagChange": null,
+      "rarity": 55.081,
+      "rarityRank": 5690,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 1.1,
+        "timestamp": 1645951852
+      },
+      "owner": "0x549b95d1c457ed4f04b61a7f4a0d251606bd255c"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xf9eca21972d6a4214482298143873fd3f37a6133685b33df4ceb90c0e477f344",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1200000000000000000",
+            "decimal": 1.2,
+            "usd": 1424.13351,
+            "native": 1.2
+          }
+        },
+        "maker": "0x549b95d1c457ed4f04b61a7f4a0d251606bd255c",
+        "validFrom": 1669794343,
+        "validUntil": 1685432743,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x19b86299c21505cdf59ce63740b240a9c822b5e4/2649"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "3628",
+      "name": "TOONZ #3628",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a95f4467f72e530e8d2e0cf218cf2adaaca1809de7102c6259648b82f5b06809580300aebf27bc99f18eaec8b7ceda6f263d3c2bdc8b3ca570d48aff9fb5e1911fe833a9509c2ccba9738e5da50ee50b0bc2e3af98d685c56afc6030a95b8b9cf5e4279e0936ad94f89e9167ee05a31dc23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T05:08:55.542Z",
+      "lastFlagChange": null,
+      "rarity": 56.77,
+      "rarityRank": 5153,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.51,
+        "timestamp": 1648041428
+      },
+      "owner": "0x49b496a7729ffed1502b0e2d3573c7e87a60cf9c"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x75c9d241edce5e167e653476b4cc25fd8ec8abaa3c94c9ba2ed903dd413429db",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1200000000000000000",
+            "decimal": 1.2,
+            "usd": 1424.13351,
+            "native": 1.2
+          }
+        },
+        "maker": "0x49b496a7729ffed1502b0e2d3573c7e87a60cf9c",
+        "validFrom": 1671448874,
+        "validUntil": 1674127274,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x19b86299c21505cdf59ce63740b240a9c822b5e4/3628"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "4232",
+      "name": "TOONZ #4232",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3f4a22e0f85ad6118a384c2eb07724632f7e7d1d54768eb54718b6e59274b269281e27425023050d0214c9c16fe423b2b8db818ff4e50ba00dd27986ab78616d40ef3e9a9ff0ae971514f3de164e01b0ad7632f0b660d40d7fe02da44d34b1a545d60bd62446473138a0e1b05a92fc2323c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T05:07:55.311Z",
+      "lastFlagChange": null,
+      "rarity": 47.343,
+      "rarityRank": 8157,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": 1.02,
+        "timestamp": 1655873314
+      },
+      "lastSell": {
+        "value": 1.03,
+        "timestamp": 1671100415
+      },
+      "owner": "0x660677e325090767efae070d66d9b8a9d0aa24c0"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x19b7cf313c59b8ba614747f8a189abc2a74c7de80186f4156e2115ce0815115a",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1200000000000000000",
+            "decimal": 1.2,
+            "usd": 1424.13351,
+            "native": 1.2
+          }
+        },
+        "maker": "0x660677e325090767efae070d66d9b8a9d0aa24c0",
+        "validFrom": 1671272370,
+        "validUntil": 1671877169,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0x19b86299c21505cdf59ce63740b240a9c822b5e4/4232"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "4240",
+      "name": "TOONZ #4240",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a752195f2d9ce874ba55b5413d5aff713def6e4d700edb3d884ca1485935d54a51ccba3e66a3fb3693eabc9f64ea8be73dff9d5ff6197d089e162c079852237fc7ba2a7a70d9148f9942f950a57265182d6a66eb6d5d7932432a95bba2427329f7b07c2a649b8bc797556f4fe7b42bba3e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T05:07:55.315Z",
+      "lastFlagChange": null,
+      "rarity": 79.65,
+      "rarityRank": 1341,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.83,
+        "timestamp": 1671123167
+      },
+      "owner": "0x2a445941de26da53689c1b6a912c0bc09a6b3691"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xd8e485c1c17455d76a04f3a436307950a714e30a00794ac594a9481717ef814a",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1200000000000000000",
+            "decimal": 1.2,
+            "usd": 1424.13351,
+            "native": 1.2
+          }
+        },
+        "maker": "0x2a445941de26da53689c1b6a912c0bc09a6b3691",
+        "validFrom": 1671543219,
+        "validUntil": 1671629619,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x19b86299c21505cdf59ce63740b240a9c822b5e4/4240"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "4836",
+      "name": "TOONZ #4836",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a21890fda9f19d985bc7e2f75908661001abe5902b76e8fcb4cc595ab0626db6cf748eafd9c0967280349962f5b59dd8c3981d05696f451d170c5cc011c11576247ca722cf54353f1a6b65362f44bcf3960150497f7d22f6fdce82e2a9376d0e9552c8bf4e60591dc865a650c3c4699b123c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T05:07:03.947Z",
+      "lastFlagChange": null,
+      "rarity": 55.758,
+      "rarityRank": 5464,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 1.1,
+        "timestamp": 1655466223
+      },
+      "owner": "0xedb2fb1dfc519a0a4d9c03503501fef52016e603"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xf2da4f5548c81ecf2eabb967613e75814a3586136d4505adf6d7edce16dad898",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1200000000000000000",
+            "decimal": 1.2,
+            "usd": 1424.13351,
+            "native": 1.2
+          }
+        },
+        "maker": "0xedb2fb1dfc519a0a4d9c03503501fef52016e603",
+        "validFrom": 1671506711,
+        "validUntil": 1671593111,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x19b86299c21505cdf59ce63740b240a9c822b5e4/4836"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "5145",
+      "name": "TOONZ #5145",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a2b0a85b7475d5d00470299b23015dddc44a4649696f81bd29db36b53a05efe0f683abe03a268143bf865ebb2aa8a83c5524c741264036026aa27c8fa1a9139cf5270300b6ea60c5d6dfbca4ed67ecd53de64ada483a9d03144dc57515ab1c37d0ae99856b2c137b15a6942cd57801a9be1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T05:06:39.517Z",
+      "lastFlagChange": null,
+      "rarity": 52.541,
+      "rarityRank": 6607,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": 0.30388,
+        "timestamp": 1645686655
+      },
+      "lastSell": {
+        "value": 0.8,
+        "timestamp": 1646402009
+      },
+      "owner": "0xf901905d61d4927b029160527ba5c1c88c277373"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x73c3c6ef12f07a1ff1c555156c18f840de1b62f8de9279131bc19b88e8130dd1",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1200000000000000000",
+            "decimal": 1.2,
+            "usd": 1424.13351,
+            "native": 1.2
+          }
+        },
+        "maker": "0xf901905d61d4927b029160527ba5c1c88c277373",
+        "validFrom": 1669689580,
+        "validUntil": 1672281580,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x19b86299c21505cdf59ce63740b240a9c822b5e4/5145"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "6397",
+      "name": "TOONZ #6397",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75acec2331675a9a9d25df739e16e181f2d602791273dff34f67ff1cfb3b3eaca9f497301cace7d50f69c206f9958115d8340cec9f1187722ed2e49484eccafcc54a9b7df24a9f5e0638b8b77c19ef7ab637dd3490ee0fd51bfc8475123890663555aa22ee0d79246b2ed3866596c744156e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T04:45:31.211Z",
+      "lastFlagChange": null,
+      "rarity": 53.33,
+      "rarityRank": 6312,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": 0.388,
+        "timestamp": 1667951375
+      },
+      "lastSell": {
+        "value": 0.735,
+        "timestamp": 1662165655
+      },
+      "owner": "0x32f2296dc01d3d6b378356b2d9795772a32b4f96"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xb98ea73e93a404378d58f38588af86213923a6baa03d8454c4d1cbcbf8027e7d",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1200000000000000000",
+            "decimal": 1.2,
+            "usd": 1424.13351,
+            "native": 1.2
+          }
+        },
+        "maker": "0x32f2296dc01d3d6b378356b2d9795772a32b4f96",
+        "validFrom": 1669870769,
+        "validUntil": 1672462769,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x19b86299c21505cdf59ce63740b240a9c822b5e4/6397"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "7919",
+      "name": "TOONZ #7919",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1f00af5f0b5e2258689663f47c2cd6338385ea650efb9c89a69bb517a26da4d1610eb3f7f37a8d3b4e6f44a06c8817e5d9e7603e26fdb0bf83548b23c3c13b9054796fda49f2aacbc9d8ac8df03328fe0996b5989256b8074a8b3b37b2a96caa8e927d5bbf1508203436ab0b5d4e4cd423c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T04:43:55.485Z",
+      "lastFlagChange": null,
+      "rarity": 51.144,
+      "rarityRank": 7101,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": 0.68,
+        "timestamp": 1670691851
+      },
+      "lastSell": {
+        "value": 0.69,
+        "timestamp": 1670697791
+      },
+      "owner": "0x20bcdfb20ca6ee97dfc363e3a08f5c8d904cc689"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x0a14ca1e8890c2a167a19ebb5e9eab2878c2006b91307835f8dd668fe1e264de",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1200000000000000000",
+            "decimal": 1.2,
+            "usd": 1424.13351,
+            "native": 1.2
+          }
+        },
+        "maker": "0x20bcdfb20ca6ee97dfc363e3a08f5c8d904cc689",
+        "validFrom": 1671116335,
+        "validUntil": 1671721135,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x19b86299c21505cdf59ce63740b240a9c822b5e4/7919"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "8399",
+      "name": "TOONZ #8399",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5c409c242926063ca8b16d1480eb08f2643d3fc9cb9f67d4e25b272f688c9728c553311a43fbf275a60f7d649a96bc028e0391060cb738ec61550e6a1c39f01904db205e2ad82017157a34f86a825e2e35377b3431ab8947c1f05ab1e27c90f2df342a52299fd2b2bb4a9151ae8b35f123c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T04:43:28.757Z",
+      "lastFlagChange": null,
+      "rarity": 78.553,
+      "rarityRank": 1456,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": 0.65,
+        "timestamp": 1670337911
+      },
+      "lastSell": {
+        "value": 1,
+        "timestamp": 1671296855
+      },
+      "owner": "0x6742dc28e16fe31189eb111b1ab6bb953561b6b0"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xde5b515f9a862acde5219dc7d02662c7b0d48c2fa666da118fd2583fbd43674f",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1230000000000000000",
+            "decimal": 1.23,
+            "usd": 1459.73684,
+            "native": 1.23
+          }
+        },
+        "maker": "0x6742dc28e16fe31189eb111b1ab6bb953561b6b0",
+        "validFrom": 1671347730,
+        "validUntil": 1686899730,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0x19b86299c21505cdf59ce63740b240a9c822b5e4/8399"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "2399",
+      "name": "TOONZ #2399",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3c2511838d467df79467ea3e0eea16a22014b1bceb7237cb0d7b3b4413a65b44e29eaf7bae1ca76825e3696cdb4199df1665820747ba03d0ecd43a1a42c4073782fa14b18d1d9521ffe83faf7b5389a5e0aa0983d79094c758a8b169279da925c7266c214c795ae1469fa279cf031b3723c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T05:10:49.782Z",
+      "lastFlagChange": null,
+      "rarity": 56.341,
+      "rarityRank": 5288,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": 0.81,
+        "timestamp": 1671086639
+      },
+      "lastSell": {
+        "value": 0.8,
+        "timestamp": 1671129083
+      },
+      "owner": "0x2026a53500976252a2436e2b4584939eb15008fd"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x024c10d9aa9340f43fab8bfdae6538d7badee2685db17aa31f23aa0ea9f72dad",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1240000000000000000",
+            "decimal": 1.24,
+            "usd": 1471.60462,
+            "native": 1.24
+          }
+        },
+        "maker": "0x2026a53500976252a2436e2b4584939eb15008fd",
+        "validFrom": 1671129448,
+        "validUntil": 1673807848,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x19b86299c21505cdf59ce63740b240a9c822b5e4/2399"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "740",
+      "name": "TOONZ #740",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a6636fd9505986cbc61ade0829dc1003cc4dabc7a360e93755ffa9596e85407c78bbb9d0f57f85d43e111ea1e8e57404254e9567a6144a918eddedc1bf2bf557140cd17fc15ef2324ba9db175722cab1d5291561aca51b0e2a4a179892bb766252e9ffdb611ac4c507776dc729261a4fa058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T05:12:18.551Z",
+      "lastFlagChange": null,
+      "rarity": 68.202,
+      "rarityRank": 2851,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": 0.9,
+        "timestamp": 1646080819
+      },
+      "lastSell": {
+        "value": 0.635,
+        "timestamp": 1660187990
+      },
+      "owner": "0xa5cbf0bec756811e08fe692d30416e1a03eaa37e"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x88e8c27087ee506f03e04339d23ffed9f0de5e7ded8e13920cf6f744fd3a7117",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1250000000000000000",
+            "decimal": 1.25,
+            "usd": 1483.4724,
+            "native": 1.25
+          }
+        },
+        "maker": "0xa5cbf0bec756811e08fe692d30416e1a03eaa37e",
+        "validFrom": 1671457536,
+        "validUntil": 1674135936,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x19b86299c21505cdf59ce63740b240a9c822b5e4/740"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "1227",
+      "name": "TOONZ #1227",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aff573c91d5f1e554b38c6729d20a8a88c6528484f4f445361be422959d4c547ab8bac44cc9e05bb86bc3f7a223261f27664c13ff78b885ddbd803efa282bb4cd887c40e33b8666ba0ddebda251a5161cc0b6cd653cfc54a6e2f9be3899cb5cdd3dba73cad1193db3ca169e24b32adf8c058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T05:11:51.354Z",
+      "lastFlagChange": null,
+      "rarity": 46.434,
+      "rarityRank": 8342,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.68,
+        "timestamp": 1659677753
+      },
+      "owner": "0x4934fe0805da9b46ae86bc6008fc4e6f4984134a"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x10779a65525c2c8b697c4ed23c5fb99fd9709d041ebd0cfc04f3bdb71debbe3d",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1250000000000000000",
+            "decimal": 1.25,
+            "usd": 1483.4724,
+            "native": 1.25
+          }
+        },
+        "maker": "0x4934fe0805da9b46ae86bc6008fc4e6f4984134a",
+        "validFrom": 1669856763,
+        "validUntil": 1672535163,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x19b86299c21505cdf59ce63740b240a9c822b5e4/1227"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "1300",
+      "name": "TOONZ #1300",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab20b101143bdfcdeb8dfd978c622ae55b5eb40e3f12fb6b13ea302d2116ce58a14f64fe23ca58d37650654482143ba881f47a6db8dcc78f4d4d79c946843b647bff9c89059e24dcd060f64d00a43f5e3876c3594f0d9d8ebce1892ef7b474ff435067e861854c5cbad8711b98e9c492e058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T05:11:45.869Z",
+      "lastFlagChange": null,
+      "rarity": 50.911,
+      "rarityRank": 7187,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.57,
+        "timestamp": 1659221241
+      },
+      "owner": "0xb6ccec4314b8fa29544ef417d17dca835703c140"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x13d5352a7c2f32e205757d2a35bc0cb14ad9a5808f47a4725ee791895fac85c0",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1250000000000000000",
+            "decimal": 1.25,
+            "usd": 1483.4724,
+            "native": 1.25
+          }
+        },
+        "maker": "0xb6ccec4314b8fa29544ef417d17dca835703c140",
+        "validFrom": 1671454924,
+        "validUntil": 1671714124,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x19b86299c21505cdf59ce63740b240a9c822b5e4/1300"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "1587",
+      "name": "TOONZ #1587",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aa387ad18f4b6b0547a9f565e7f9963d2ee191d2cb6197be8313561c397c3aaa1dfad40f612c1d8a64c29ce1b0951e59f7737ec6f8e79f9a100a45b2c924ebe9ace198e5fc827f65ef712a0eb90714ffb3c6e10624a92f2d7c0237e9b1d54c90354dcf428248b6a1ff3db32b113aabc11e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T05:11:30.764Z",
+      "lastFlagChange": null,
+      "rarity": 51.751,
+      "rarityRank": 6885,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": 0.312,
+        "timestamp": 1649863025
+      },
+      "lastSell": {
+        "value": 1.02,
+        "timestamp": 1671536795
+      },
+      "owner": "0xe15b727b198ae1d97325fcc46a08905855a18c6e"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xbbc123d42686c7ed0792919734328880f8e0f605c96462005afc52f77b8e71fd",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1250000000000000000",
+            "decimal": 1.25,
+            "usd": 1483.4724,
+            "native": 1.25
+          }
+        },
+        "maker": "0xe15b727b198ae1d97325fcc46a08905855a18c6e",
+        "validFrom": 1671541971,
+        "validUntil": 1672141711,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x19b86299c21505cdf59ce63740b240a9c822b5e4/1587"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "3401",
+      "name": "TOONZ #3401",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aad5343a4b5f2a0e04b339cd0df03cc5cec2cbddb0a8e6cd98c309b27642e544cf84f83375b22ea9894a6f1d878320813d03fcc6190ad399bf5b406537476ad7032a838c0b93962ac72234086fd7b9e04713e4681d407d245a5d130da2acfdfaf256bccfa3306ea4f076584b6c1b567c4058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T05:09:13.922Z",
+      "lastFlagChange": null,
+      "rarity": 56.495,
+      "rarityRank": 5230,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 1.05,
+        "timestamp": 1671470675
+      },
+      "owner": "0xbc8a4501cf41c02f1b3b66ace3af551229612cb4"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xd051cbfb490ab890fbaa7aa7df239e0b7e1fc2911a49b96de2af905a2c4fffbc",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1250000000000000000",
+            "decimal": 1.25,
+            "usd": 1483.4724,
+            "native": 1.25
+          }
+        },
+        "maker": "0xbc8a4501cf41c02f1b3b66ace3af551229612cb4",
+        "validFrom": 1671474463,
+        "validUntil": 1671733663,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x19b86299c21505cdf59ce63740b240a9c822b5e4/3401"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "3731",
+      "name": "TOONZ #3731",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab25e690194289496bf9b8bebc3f5c348bfdfd732bde1c4a3a3df09b7ee65c3b572f57b86e1b470c2e2b302278957257eb3c0109d81f8d0cf2f991fcf62f296cef50a3c524fccb678d55e2f056f0539eb2b5e38dbf2009805751c29bc88dc91d5743cf2a65ae295e0c2510570d00b35af058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T05:08:44.922Z",
+      "lastFlagChange": null,
+      "rarity": 98.668,
+      "rarityRank": 358,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": 0.9,
+        "timestamp": 1663678643
+      },
+      "lastSell": {
+        "value": 0.8,
+        "timestamp": 1669860971
+      },
+      "owner": "0x7b578244ba5ffb702b83f55159a09cb907c6b656"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xcacd187bd76faba2c850c476e8895ae697308228022441d2d7bd72d8c71c295b",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1250000000000000000",
+            "decimal": 1.25,
+            "usd": 1483.4724,
+            "native": 1.25
+          }
+        },
+        "maker": "0x7b578244ba5ffb702b83f55159a09cb907c6b656",
+        "validFrom": 1671505495,
+        "validUntil": 1671591895,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x19b86299c21505cdf59ce63740b240a9c822b5e4/3731"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "3867",
+      "name": "TOONZ #3867",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a748fff7088f72e4daa89e8964558d9b4bbdcd340d2e105d24f6832d77aeecc7017251bd5379a5dd219121e59bf0f001949aa71170ca69fa4af1bab4c363a2eb7cb9090567a0f0ad8bb1ca47550afdb29cf767b8c539e9c6689b43232012c979a0e4b4286932271e5394d266805155124e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T05:08:27.595Z",
+      "lastFlagChange": null,
+      "rarity": 47.237,
+      "rarityRank": 8188,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": 0.91,
+        "timestamp": 1670895827
+      },
+      "lastSell": {
+        "value": 1,
+        "timestamp": 1670901203
+      },
+      "owner": "0xbc8a4501cf41c02f1b3b66ace3af551229612cb4"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x9795c6ef6ca280f74e6802c3a19bf537b47fb475be8da3bca87b07376e083c77",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1250000000000000000",
+            "decimal": 1.25,
+            "usd": 1483.4724,
+            "native": 1.25
+          }
+        },
+        "maker": "0xbc8a4501cf41c02f1b3b66ace3af551229612cb4",
+        "validFrom": 1671526000,
+        "validUntil": 1671785200,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x19b86299c21505cdf59ce63740b240a9c822b5e4/3867"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "5030",
+      "name": "TOONZ #5030",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af278f300eb4141d595769470e15f56851fff4c4205c1963466885ba9b21bcd2c69c31664747859edf4e224c8c3998ccc35b1fce0626d52dbd7f2fa4d1594a0f9cf5eb3fb4d48676f642fbfc37badc7d5b3a771727a1f92686a99ce0e481679648d75a4de4fc243e26da43291064e859fe1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T05:06:47.460Z",
+      "lastFlagChange": null,
+      "rarity": 54.142,
+      "rarityRank": 6028,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": 0.45,
+        "timestamp": 1666716455
+      },
+      "lastSell": {
+        "value": 0.51,
+        "timestamp": 1666724075
+      },
+      "owner": "0xcbeda136b27939256907b07922c6e83f07b94802"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xd8c028ecbe3ad81fffefbbbcd08b2df75f56cce8e2d5e8e77a2a174054b74d9a",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1250000000000000000",
+            "decimal": 1.25,
+            "usd": 1483.4724,
+            "native": 1.25
+          }
+        },
+        "maker": "0xcbeda136b27939256907b07922c6e83f07b94802",
+        "validFrom": 1671406319,
+        "validUntil": 1674084719,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x19b86299c21505cdf59ce63740b240a9c822b5e4/5030"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "6860",
+      "name": "TOONZ #6860",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a48d64584b336b6b583fe78aedf75033d410bae408e7a028637ed806a1e19a5e799197ea25236ca3576b4ece9b4169ce46820bae6cbf7f265ea10d753f1098678f2e89428b1c853293eee4ad77ceb2833831240ed9a3d6ff63a43f1aef59c8639514d1651bf101715fbfc19eb6d02ea5623c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T04:44:59.614Z",
+      "lastFlagChange": null,
+      "rarity": 63.278,
+      "rarityRank": 3680,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.8,
+        "timestamp": 1669860335
+      },
+      "owner": "0x16d13ed11698d11e531d43dea9dbb7fd834984f3"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x9e4643a0f8f6d1aa92f64be8a186b66a577836196a05dd0d4309c8c927b96498",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1250000000000000000",
+            "decimal": 1.25,
+            "usd": 1483.4724,
+            "native": 1.25
+          }
+        },
+        "maker": "0x16d13ed11698d11e531d43dea9dbb7fd834984f3",
+        "validFrom": 1671545993,
+        "validUntil": 1671632393,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x19b86299c21505cdf59ce63740b240a9c822b5e4/6860"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "7605",
+      "name": "TOONZ #7605",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a277843dbefd91992de0301a523348a31c88080f3c0a0796a9a17adbf645cfd9747fe70ddbdc7ec84ba5eea63db44c1646863979aceae191737bd4fecbd829e787cf3a6cb12541a74efaed559b52f36228c0b5c215a600ae2c45841a03270c4165b483ea55de2cdaf1bf5bbde58f9bae7058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T04:44:11.396Z",
+      "lastFlagChange": null,
+      "rarity": 80.268,
+      "rarityRank": 1276,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.599,
+        "timestamp": 1659143173
+      },
+      "owner": "0xfa7415cc686c15df86b5fc082d5fca428ce0a4aa"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x3e7b072c973b19ab6e98c267a380019d753ad655679f543d5ab66a6ceb64a291",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1250000000000000000",
+            "decimal": 1.25,
+            "usd": 1483.4724,
+            "native": 1.25
+          }
+        },
+        "maker": "0xfa7415cc686c15df86b5fc082d5fca428ce0a4aa",
+        "validFrom": 1671468881,
+        "validUntil": 1674147281,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x19b86299c21505cdf59ce63740b240a9c822b5e4/7605"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "7672",
+      "name": "TOONZ #7672",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a16f9ebc69d8346f974f96e20fbb750ff36e882b66b5c16361fe17f2b01bba902e78ac8eba17548fb36db94497fd87407ce8190b79a608a616bba1781c3e053a0014c1e4bc4b3cf7cb7fc1e6ad7b3b10674b868853e8839b2273f46e59f50db6bd918e47468c41a905e1c25e1cc7ac09223c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T04:44:07.723Z",
+      "lastFlagChange": null,
+      "rarity": 51.533,
+      "rarityRank": 6967,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.499,
+        "timestamp": 1645831431
+      },
+      "owner": "0x788faff364868831e1340e813757227d662f7e76"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xd0395f1ae971cb278f0b2a4a0e0e8593a3f8f032d29dc24a5774d43de9793c89",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1250000000000000000",
+            "decimal": 1.25,
+            "usd": 1483.4724,
+            "native": 1.25
+          }
+        },
+        "maker": "0x788faff364868831e1340e813757227d662f7e76",
+        "validFrom": 1671548191,
+        "validUntil": 1671807391,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x19b86299c21505cdf59ce63740b240a9c822b5e4/7672"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "8017",
+      "name": "TOONZ #8017",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a26b82e0d636bfbd6beb21b54df8c262461b92b1fe1799e5d5434b54aa00e6d8afc0f97838089a0d01491ce3dff514d659e42d9a500fa1feaf4f8bf6c51d86e5a38cee975fbfd44fa55e58e9050b93ec250780258cbd11cddd423312f0da87b63b0592a469aa8ea6605b6c22b7abf886a058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T04:43:50.418Z",
+      "lastFlagChange": null,
+      "rarity": 58.105,
+      "rarityRank": 4780,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.675,
+        "timestamp": 1670003027
+      },
+      "owner": "0xb1bfa2977080eeed7fb5169c5f251784739e1e9b"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x8524c6b5ea77acee007781fbd18c1900619de3996f5ed22c2892b0f3caa7de28",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1250000000000000000",
+            "decimal": 1.25,
+            "usd": 1483.4724,
+            "native": 1.25
+          }
+        },
+        "maker": "0xb1bfa2977080eeed7fb5169c5f251784739e1e9b",
+        "validFrom": 1671497690,
+        "validUntil": 1671584090,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x19b86299c21505cdf59ce63740b240a9c822b5e4/8017"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "8349",
+      "name": "TOONZ #8349",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7784237e238eb3fb3186babdfc3426591548b610756c4a6b1b66e5a3c2075112b6758dc4a40807afcfe9779a12deeef7fb9f43346f0491977db1c36bbe9dd8afd4cd5f2afe90be813f1adc94fd8e3b3b4f9c22bf1362061e78e2c7c1796f540306614811e8b7706fe1f609f6b75aaae323c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T04:43:31.898Z",
+      "lastFlagChange": null,
+      "rarity": 53.707,
+      "rarityRank": 6187,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 1.5,
+        "timestamp": 1652676247
+      },
+      "owner": "0x9a098a9094e1abb089917d5c7a4fb4291acab8cf"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x6d9f89f57a0a424361b36869c412a8bc3bbf80ef6eb22b67c97ae99e11a509b9",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1250000000000000000",
+            "decimal": 1.25,
+            "usd": 1483.4724,
+            "native": 1.25
+          }
+        },
+        "maker": "0x9a098a9094e1abb089917d5c7a4fb4291acab8cf",
+        "validFrom": 1671495161,
+        "validUntil": 1671557992,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x19b86299c21505cdf59ce63740b240a9c822b5e4/8349"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+"category": ["Animal", "Cat", "Cartoon", "2d", "Street", "Adult", "Flat"],
+      "tokenId": "8486",
+      "name": "TOONZ #8486",
+      "description": "8888 degenerate TOONZ that double as a membership to an exclusive metaverse community with the power to build it from the ground up.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adb6a9cca4283743adf07b458fb9d28fe63a221d4d81a495266c43e3814f404fb29f211c1274e07e8f17dcbff12fd827a81b775a0f3dd56a50cfb5c45a090d9f54e90d1e0f2ca5e45f47e801a3a8e22651d74d894df78f9554076a411032a598d1b3a89a8eaccf928f7f8212d82fdbdda23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T04:43:23.346Z",
+      "lastFlagChange": null,
+      "rarity": 47.688,
+      "rarityRank": 8092,
+      "collection": {
+        "id": "0x19b86299c21505cdf59ce63740b240a9c822b5e4",
+        "name": "DEGEN TOONZ COLLECTION",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a939247b0e8dc0d77650453b082063d705c7760bfc9022592f9c7d6bd0c4abc6e28e5f5655b97390f503471f5627ea212ff6b92804e7a1e22b4d08eaef4293d94226be5857b61bc7d16d318f87c698c1bd6480512a328d656e3e68ecdfab09a8a87a537d35680a7b153c4daef57815e7623c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "degentoonz-collection"
+      },
+      "lastBuy": {
+        "value": 0.69001,
+        "timestamp": 1657155748
+      },
+      "lastSell": {
+        "value": 0.5395,
+        "timestamp": 1658411766
+      },
+      "owner": "0x34478e7bbe181768e9cb02e5e0bb490d77a0517c"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x6f84bc4df8bf4521724d62f0493ca61e3079a95de1459d2d25b650400e4dd809",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "1250000000000000000",
+            "decimal": 1.25,
+            "usd": 1483.4724,
+            "native": 1.25
+          }
+        },
+        "maker": "0x34478e7bbe181768e9cb02e5e0bb490d77a0517c",
+        "validFrom": 1670952162,
+        "validUntil": 1671556962,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x19b86299c21505cdf59ce63740b240a9c822b5e4/8486"
+        }
+      }
+    }
+  }
+]

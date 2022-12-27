@@ -1,0 +1,3052 @@
+[
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "7925",
+      "name": "HAPE #7925",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af82c4bedeba5bfd04dd6454e7f84dc2f8ae66499e44d3141591d9c8c607007175a6dc93428b0b4c83077300d87ec282baeeeb1573037e23e789ecd1a0cec442c5684303208948a45f49f2030679a7e42795d850915b16c6be5e80039357579318b47f3b2cef24c665c89bc34e7c8322c23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": true,
+      "lastFlagUpdate": "2022-12-16T18:29:42.884Z",
+      "lastFlagChange": "2022-12-15T01:22:44.005Z",
+      "rarity": 671.477,
+      "rarityRank": 6654,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": 0.3454,
+        "timestamp": 1671002075
+      },
+      "lastSell": {
+        "value": 1.59,
+        "timestamp": 1646959588
+      },
+      "owner": "0xf5ce84331ae610aebd085ae82c5538e0d4bdb93a"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xeb4193de601011cc4603f6bb932607a109021acc5f1048c7bc7ef1f3942b616f",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "320000000000000000",
+            "decimal": 0.32,
+            "usd": 379.76893,
+            "native": 0.32
+          }
+        },
+        "maker": "0xf5ce84331ae610aebd085ae82c5538e0d4bdb93a",
+        "validFrom": 1671177021,
+        "validUntil": 1671781779,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0x4db1f25d3d98600140dfc18deb7515be5bd293af/7925"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "6192",
+      "name": "HAPE #6192",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a548551b39b37933bdb68a004a6c0f5ede8f2089cbc86b63a6f4cc8011ba0919b953a986402157c5cdd2094b19e8da57588ab24ce3d9fad05223544c7adb5f0fa8edfae52e5e3ce31308934170b8943e314ffca2e2b54c47c04ec91f596b49b91a5f9a9dbe809b115729a63f5f7c7cfda23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": true,
+      "lastFlagUpdate": "2022-12-01T10:26:35.335Z",
+      "lastFlagChange": null,
+      "rarity": 1090.289,
+      "rarityRank": 3229,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": 0.2462,
+        "timestamp": 1669863251
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xbde93ab6fcd81158bf3e1da50d6d3ebcd4c31d21"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x961c33b1e6eb936f708412179c484ef4e59504e8aa2702fba80981bb40c5b9f9",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "437000000000000000",
+            "decimal": 0.437,
+            "usd": 518.62195,
+            "native": 0.437
+          }
+        },
+        "maker": "0xbde93ab6fcd81158bf3e1da50d6d3ebcd4c31d21",
+        "validFrom": 1669916361,
+        "validUntil": 1685417335,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0x4db1f25d3d98600140dfc18deb7515be5bd293af/6192"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "4123",
+      "name": "HAPE #4123",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adcf392a35fa8402d73560cc3062c214b428b9aedcfb16fcf053fe4475893cf58e17bada6ff9f8ada07723d324c10f0c3faac0b73f05e02dcfac46bbdf47743bdfad6a930ca16c18638af7d96986615803180f4c221ff8eee196ddcd993217c06b1a38b18aac6e408492e4e567468053923c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T14:18:11.727Z",
+      "lastFlagChange": null,
+      "rarity": 764.562,
+      "rarityRank": 5702,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": 0.4201,
+        "timestamp": 1670328383
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x89d0f25aeeac1183e34903e3d47e4964903aa8d5"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x6e5ab10db0627de02d224800584eab62cfecb79a9b7caaf0219f1f612f624594",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "439900000000000000",
+            "decimal": 0.4399,
+            "usd": 522.06361,
+            "native": 0.4399
+          }
+        },
+        "maker": "0x89d0f25aeeac1183e34903e3d47e4964903aa8d5",
+        "validFrom": 1671545213,
+        "validUntil": 1673270483,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x4db1f25d3d98600140dfc18deb7515be5bd293af/4123"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "7720",
+      "name": "HAPE #7720",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9eff26d6759f3560ef6406bb26d6b948b7e2fec924379d030272db89905ff727d0e144ba62ace5a147bf14eef972a0ab6f2af71c42bf93532e09ab6b8b4a7e38148bf06e91f17ff8ee4494e8002ae3ae1be8e916e63a11ebaefad08d93ecda57f69f9c39578f85388b9a3fcd5a67b7323c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T13:27:38.345Z",
+      "lastFlagChange": null,
+      "rarity": 1152.24,
+      "rarityRank": 2926,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": 0.38341,
+        "timestamp": 1671424043
+      },
+      "lastSell": {
+        "value": 0.45,
+        "timestamp": 1667595599
+      },
+      "owner": "0xfb20add8c2437cc3995e9cbc5800989c68b978aa"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xc238ffacc2197f0ccdd2db33d3486c92a412f38bfade7aa2849e8f8af2d6ee12",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "440100000000000000",
+            "decimal": 0.4401,
+            "usd": 522.30096,
+            "native": 0.4401
+          }
+        },
+        "maker": "0xfb20add8c2437cc3995e9cbc5800989c68b978aa",
+        "validFrom": 1671546318,
+        "validUntil": 1671549918,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x4db1f25d3d98600140dfc18deb7515be5bd293af/7720"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "1451",
+      "name": "HAPE #1451",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75abbce9f6db04c7dad8e84c511b806d2805bfe91d4c76c09684e646010bf12a13de37b245c8b864f2dbac110abc96868be5f48ece35c9357ab66c2b4ae2a6d2c67e81ec7d6a3bcc69994cdc077eefb16a68f77c0968bd127b5539b6bc75eddaac530491c9ec004f569ba120d938c2cfe3023c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T05:52:11.703Z",
+      "lastFlagChange": null,
+      "rarity": 1103.526,
+      "rarityRank": 3181,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": 0.38376,
+        "timestamp": 1671390419
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xf322b2d0d810837a689b518baf25654f860da96d"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x9b9cb9e7c1bf50fa243ea607ba12d3a627d8d9ec93617685bdb8215282b9123a",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "440200000000000000",
+            "decimal": 0.4402,
+            "usd": 522.41964,
+            "native": 0.4402
+          }
+        },
+        "maker": "0xf322b2d0d810837a689b518baf25654f860da96d",
+        "validFrom": 1671515475,
+        "validUntil": 1672120274,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x4db1f25d3d98600140dfc18deb7515be5bd293af/1451"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "1673",
+      "name": "HAPE #1673",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a11a6f7bd2c46db8cd9f76c8c36383e8936fe5fa2064e4df50ea50c8d2a0d0618ba7b55770ae0f7a2046435ebd59ddbded2d308eb1850033e9b79779fda97f0b6f70660ba0cfaf811f26abf04f94a4730756886555c49f44d310cecc15310cd26792609b5922fbc34e47d62da6434a5a0058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T03:55:45.792Z",
+      "lastFlagChange": null,
+      "rarity": 769.577,
+      "rarityRank": 5641,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": 0.38165,
+        "timestamp": 1671470063
+      },
+      "lastSell": {
+        "value": 1.65,
+        "timestamp": 1647547600
+      },
+      "owner": "0x747bf2818fbe64aa1ea0168137b292c2423e35c3"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x0cd48fce1d5bb92bdec25a8fbb50efdb00b9831db630602ca0da90431079485e",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "440600000000000000",
+            "decimal": 0.4406,
+            "usd": 522.89435,
+            "native": 0.4406
+          }
+        },
+        "maker": "0x747bf2818fbe64aa1ea0168137b292c2423e35c3",
+        "validFrom": 1671508004,
+        "validUntil": 1671594404,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x4db1f25d3d98600140dfc18deb7515be5bd293af/1673"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "1361",
+      "name": "HAPE #1361",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ac7fe8d122aaac7958bfdf8fc2e862d444b29b53bb4b71adea2762896685c7a0f4aac0b1b739cf52ae7ab2b107c7ca99343029f96daf537d3757ecbaddd9a06f7aa161a89eb4b30b9e3f4222e056c24acf14110a7114f80cfac9a6e88ab58b27544bcd4e4fa2ec3d8adcf8e7769308534058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T16:54:17.609Z",
+      "lastFlagChange": null,
+      "rarity": 878.906,
+      "rarityRank": 4647,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": 0.4411,
+        "timestamp": 1669586951
+      },
+      "lastSell": {
+        "value": 1,
+        "timestamp": 1650893352
+      },
+      "owner": "0x05e7749584a2f23c0286986917e3b7054e898bed"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xbdb2161d642dc0767fe2b14a59c840f131d309a9a0adca6e58482641ea1880c8",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "441000000000000000",
+            "decimal": 0.441,
+            "usd": 523.36906,
+            "native": 0.441
+          }
+        },
+        "maker": "0x05e7749584a2f23c0286986917e3b7054e898bed",
+        "validFrom": 1671468688,
+        "validUntil": 1674147088,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x4db1f25d3d98600140dfc18deb7515be5bd293af/1361"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "3730",
+      "name": "HAPE #3730",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aed3aac5886f04b4a3c199f8d84e372ce663931c1865cc8018789f9ca884630182f42e307d75d65aac1481fd1d5c600ec9ca97757a51579a25e317423b1081744ff570602445154b274697277df96d5b8c9a2b37a02f2525033406cedd16a2cdc00a7dc5062fb8381692f7d5c136c35fa058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T10:29:25.597Z",
+      "lastFlagChange": null,
+      "rarity": 560.324,
+      "rarityRank": 7778,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": 0.35,
+        "timestamp": 1670954447
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x4c4c5444f6445b87a17956b5e38afd631a4513bf"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x7274c1c253b6821f031461b177d249077e4196acfade0f973f9ea774f394e9f2",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "442000000000000000",
+            "decimal": 0.442,
+            "usd": 524.55584,
+            "native": 0.442
+          }
+        },
+        "maker": "0x4c4c5444f6445b87a17956b5e38afd631a4513bf",
+        "validFrom": 1671445592,
+        "validUntil": 1673819440,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x4db1f25d3d98600140dfc18deb7515be5bd293af/3730"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "8148",
+      "name": "HAPE #8148",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a88f9bee1e9849472a58f219dd0d29c41c428a0400280982ea2909e3aaad656a74790f631b472f75f6bf51c07c0ae33ca67651f96004c4ff2c77d5b795f651e1501a89a45173486d6004adb936c83cbdf074f274774f516dc420ded921b75ac51f1cfef21f3e1faced16e9b7a9fec5da323c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T10:28:27.932Z",
+      "lastFlagChange": null,
+      "rarity": 1692.164,
+      "rarityRank": 1156,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": 0.35,
+        "timestamp": 1671226163
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x4c4c5444f6445b87a17956b5e38afd631a4513bf"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x922657f439ab2c57968c90fc0f8d581320d8ba07b65de52897dbda0ed458e201",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "442000000000000000",
+            "decimal": 0.442,
+            "usd": 524.55584,
+            "native": 0.442
+          }
+        },
+        "maker": "0x4c4c5444f6445b87a17956b5e38afd631a4513bf",
+        "validFrom": 1671445559,
+        "validUntil": 1673905241,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x4db1f25d3d98600140dfc18deb7515be5bd293af/8148"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "8117",
+      "name": "HAPE #8117",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a029ace26db13dc7cafb2f8536b72e0241b0b4739f0bbcc22bd4568fd02a3dba01a49e9d34c3e64e5bb8e523a050604f8c0b3bd32b90160c153a8f6b54f142f83b24dfd1bf4dd087e92e55f4852f60d9a4d58c0e33659a5a1a7cdbb219d26fc28f0940fb335d28221f1be9da41df509b523c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-18T14:44:50.075Z",
+      "lastFlagChange": null,
+      "rarity": 748.931,
+      "rarityRank": 5849,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.5,
+        "timestamp": 1666787135
+      },
+      "owner": "0x760f43d31ff980d7a77979435de9192551e87aa0"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xe20fa32e32b5f287bb3c46c578c2a117afdeb1a9f2849faa4d4d5ed468cf064e",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "443300000000000000",
+            "decimal": 0.4433,
+            "usd": 526.09865,
+            "native": 0.4433
+          }
+        },
+        "maker": "0x760f43d31ff980d7a77979435de9192551e87aa0",
+        "validFrom": 1671374467,
+        "validUntil": 1671943136,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x4db1f25d3d98600140dfc18deb7515be5bd293af/8117"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "2613",
+      "name": "HAPE #2613",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a723051c3f05da351ee492e3c36589d74b56c08c6d531c7b2d99fb99da6718df8065798cf8269b74b2bca3ff8e010e0c40bf21c13045a20d486a7f9df1504d071a132f65d9ba17d2da46a03c6bb5e4b520d20bdaa41ab71e85e0ac82a81e32d4e70f2e317ae7d9784e270c6c9bda17353058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:41:34.932Z",
+      "lastFlagChange": null,
+      "rarity": 1002.369,
+      "rarityRank": 3734,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": 0.39,
+        "timestamp": 1671424115
+      },
+      "lastSell": {
+        "value": 0.799,
+        "timestamp": 1652415729
+      },
+      "owner": "0x0b54a3de68e0515cb85e44b4c688cb41e35335af"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xb2abe6ffa31abd5ed08ed7bf87b412d5d3170ee2a5ecbd65027801ad9e1f26af",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "444000000000000000",
+            "decimal": 0.444,
+            "usd": 526.9294,
+            "native": 0.444
+          }
+        },
+        "maker": "0x0b54a3de68e0515cb85e44b4c688cb41e35335af",
+        "validFrom": 1671440781,
+        "validUntil": 1671699970,
+        "source": {
+          "id": "0xdc28ffaea1f91a88fb6fd0a8fe70d71bdd64284c",
+          "domain": "x2y2.io",
+          "name": "X2Y2",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/x2y2-logo.png",
+          "url": "https://x2y2.io/eth/0x4db1f25d3d98600140dfc18deb7515be5bd293af/2613"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "7256",
+      "name": "HAPE #7256",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a9f6b8f289b08cd299c4f61228b1e68392fb0fd7a40cecc7e800321e57ea2307f28f33ad7fc487e238e1207d6d816f2d00fee4742ff6a7bd5c428a50d730e00797c0efca955620fc1bccefe8c0506a2c347c07c6f7a5d2954cbe837f7bd9646c7a3c37e0e5e50bacbba5cba08dc0b8fb6058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-12T10:45:32.697Z",
+      "lastFlagChange": null,
+      "rarity": 500.034,
+      "rarityRank": 8115,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xcbfb25027bc84571222569a18a78528bf8e1959b"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xd75a600ae1279ca26ae16e8a746a9a3a6b302cc0df0b0efa3f766ab019660049",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "444400000000000000",
+            "decimal": 0.4444,
+            "usd": 527.40411,
+            "native": 0.4444
+          }
+        },
+        "maker": "0xcbfb25027bc84571222569a18a78528bf8e1959b",
+        "validFrom": 1670841337,
+        "validUntil": 1673519737,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x4db1f25d3d98600140dfc18deb7515be5bd293af/7256"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "7975",
+      "name": "HAPE #7975",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a6fa2f41a86c0506ede89cf1c5983506cf3ce6b9ad277ef3ce1c773676b6fa631988b4d5a54cd6386bfde037a85f53d07dde1ae7583734bb79d02f0a0866181605713b22ed13d87832bf23aa717d8cda6a946b15425442a9c461801002c86b0390c5b59e8f1dd830466633daf80c0ca7723c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": true,
+      "lastFlagUpdate": "2022-11-27T19:02:54.790Z",
+      "lastFlagChange": null,
+      "rarity": 721.754,
+      "rarityRank": 6128,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": 0.39132,
+        "timestamp": 1669230971
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xf322b2d0d810837a689b518baf25654f860da96d"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x5cb29ab5f88d1befebcf1e3a92395363b6fe28c86e7c12c5ce3776bacb30620b",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "444433000000000000",
+            "decimal": 0.44443,
+            "usd": 527.44327,
+            "native": 0.44443
+          }
+        },
+        "maker": "0xf322b2d0d810837a689b518baf25654f860da96d",
+        "validFrom": 1669944237,
+        "validUntil": 1671851866,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0x4db1f25d3d98600140dfc18deb7515be5bd293af/7975"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "4517",
+      "name": "HAPE #4517",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a9fb9d39d1c2cf83505b389adf4a6a7ae2eca85bc3f2b1288dbf50e6db3d863917ecc410fee3a121d1d6a49e1d5eba099f4a94dd63b2269fc751f014afdfbbe377eb2c15203a9a94d61d242c2792fdc148441727f6c01a748de7caf4a38588014adc78f25a82f0372220d08399cbdb01a23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:40:33.787Z",
+      "lastFlagChange": null,
+      "rarity": 472.211,
+      "rarityRank": 8171,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": 0.43033,
+        "timestamp": 1670172203
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xf322b2d0d810837a689b518baf25654f860da96d"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xa907161c0fa4c5a2b997b9d9cbc61032510eed375bd08ddcfecaf9306ab88e94",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "468600000000000000",
+            "decimal": 0.4686,
+            "usd": 556.12413,
+            "native": 0.4686
+          }
+        },
+        "maker": "0xf322b2d0d810837a689b518baf25654f860da96d",
+        "validFrom": 1670296869,
+        "validUntil": 1672876815,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x4db1f25d3d98600140dfc18deb7515be5bd293af/4517"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "2218",
+      "name": "HAPE #2218",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aa586dc904fd85890ad7f703af982b1746cc96ccb6e267d48ed6bfae31dd154260f890b10be6f42f44b671517da19518239297fb254a320502895cdd3d89ff542ff4bc0870723cb5534fc28f953ce7f4781022b1c1831984c8d11766d6370329cc2fdb35967196b2d88c2e4272c1cb41223c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": true,
+      "lastFlagUpdate": "2022-11-28T05:59:18.585Z",
+      "lastFlagChange": null,
+      "rarity": 572.988,
+      "rarityRank": 7677,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": 0.2301,
+        "timestamp": 1671067115
+      },
+      "lastSell": {
+        "value": 0.29,
+        "timestamp": 1671026315
+      },
+      "owner": "0xef1e7ec8e1894f34f4d6d6eff8d9a55233c77ca2"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x14463abf6b53aa1e0ef745437cc60ae5129afa86afaa56c97af120ca261dfdb4",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "469000000000000000",
+            "decimal": 0.469,
+            "usd": 556.59884,
+            "native": 0.469
+          }
+        },
+        "maker": "0xef1e7ec8e1894f34f4d6d6eff8d9a55233c77ca2",
+        "validFrom": 1671108952,
+        "validUntil": 1673700932,
+        "source": {
+          "id": "0xdc28ffaea1f91a88fb6fd0a8fe70d71bdd64284c",
+          "domain": "x2y2.io",
+          "name": "X2Y2",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/x2y2-logo.png",
+          "url": "https://x2y2.io/eth/0x4db1f25d3d98600140dfc18deb7515be5bd293af/2218"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "1705",
+      "name": "HAPE #1705",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a6b499eecb0eb2b388621a1e2a680f65659f1249fe03d18d41e40cf091a80674348eaf922d6fc51b92ea87bdc9585330364a933987f134d1cb0010b35c691bc26e66f1ed08245766239f06b77b6ccebe153f6b033e9b3054f848ac1b15a3c5e70f431a81dab31e19d17ab8aeb96a3d8ed058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:41:47.429Z",
+      "lastFlagChange": null,
+      "rarity": 616.064,
+      "rarityRank": 7259,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xe39c99ba21e19d79a0fd56afa7aa1ade559c9524"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x7007ff44991461c2f1a1ba7ea621cda3625a620139871c3ebb5d6fb4e0294900",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "490000000000000000",
+            "decimal": 0.49,
+            "usd": 581.52118,
+            "native": 0.49
+          }
+        },
+        "maker": "0xe39c99ba21e19d79a0fd56afa7aa1ade559c9524",
+        "validFrom": 1671506371,
+        "validUntil": 1673668729,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x4db1f25d3d98600140dfc18deb7515be5bd293af/1705"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "3744",
+      "name": "HAPE #3744",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a6c1a22d262d114326fc130bc07694caaea9731b195831d81309483ce2cc7207ef68d15dd98f842ebb4d24263fea77a464572ee127fd056efa0a94e54daef2a2bb51a9ad22b0443c19789818eb0ae1db9b22c9e57610ecc236a601d284ef1c107d5b749c2222f8c64a574589c0b789e35e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:40:54.410Z",
+      "lastFlagChange": null,
+      "rarity": 862.876,
+      "rarityRank": 4785,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": 0.6505,
+        "timestamp": 1662412975
+      },
+      "lastSell": {
+        "value": 0.5199,
+        "timestamp": 1663426331
+      },
+      "owner": "0xb34b74be5c2ea1fabf869742d27ba942600933e2"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x8c9a45036ceb4b8b6348092b09827f555868da43792d32a5610cd318f4732996",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "495000000000000000",
+            "decimal": 0.495,
+            "usd": 587.45507,
+            "native": 0.495
+          }
+        },
+        "maker": "0xb34b74be5c2ea1fabf869742d27ba942600933e2",
+        "validFrom": 1670819543,
+        "validUntil": 1673497943,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x4db1f25d3d98600140dfc18deb7515be5bd293af/3744"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "6970",
+      "name": "HAPE #6970",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aee5b92a8687d99db98ff39b3b9732c7fe364e3b184de58d23c070efe2b05f0291997bd8f2772a7e5b22bbc1cf922ebb90503960db168a5bee33c2e309ce65a91a3e3cc96bf62af6048c7b1d2168d2c63a0ef5da122c904304982a7255f042f9f314840366c9c20a1c3c17aa44dcb5891058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-24T10:55:12.590Z",
+      "lastFlagChange": null,
+      "rarity": 686.611,
+      "rarityRank": 6475,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": 0.4117,
+        "timestamp": 1670413655
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x4c4c5444f6445b87a17956b5e38afd631a4513bf"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x3907e62413e46827e85b7d2c76beb871b8857d11f42def917b14c24a7c2e9721",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "499000000000000000",
+            "decimal": 0.499,
+            "usd": 592.20218,
+            "native": 0.499
+          }
+        },
+        "maker": "0x4c4c5444f6445b87a17956b5e38afd631a4513bf",
+        "validFrom": 1671354399,
+        "validUntil": 1673905391,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x4db1f25d3d98600140dfc18deb7515be5bd293af/6970"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "522",
+      "name": "HAPE #522",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a96295a02626d24cb63060c0cc46826f5791ea7562f8cd23434d1233e51a87b5f65c7d759c02f380f1d74bde068731b14f3206e1b6ebdb5f893456e59ac0c55c24037130fc43e0e958c109142179c83e8b3af8916199644cd04fc828525c3ee0f28b55a2c0637d26e9cd55bce8f245d7923c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:42:04.419Z",
+      "lastFlagChange": null,
+      "rarity": 615.466,
+      "rarityRank": 7265,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xe2cbb178700b5c5ec8eed61823322d13726455af"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xd959c6a5ef93a9e26e6ea8ed1d53c7f4102aaf99e7f6d9a78c5fe14ec748e3e5",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "500000000000000000",
+            "decimal": 0.5,
+            "usd": 593.38896,
+            "native": 0.5
+          }
+        },
+        "maker": "0xe2cbb178700b5c5ec8eed61823322d13726455af",
+        "validFrom": 1671165126,
+        "validUntil": 1671769926,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x4db1f25d3d98600140dfc18deb7515be5bd293af/522"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "1216",
+      "name": "HAPE #1216",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a92d1019c657b7bec55568cf097442ddee8f25501bdab531f5b9abfeb2ac32a5c006568d1e0caf485fd52a7a383f6ec91b4dc00dcd23cde6845a548394c546ba364fdeb9411c6b9dff7a09401309828b4452b6bd66d6eac0858cd5a18f0b3879e8da6a74cfe99a024714ca92062bbc8dae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-16T20:52:59.293Z",
+      "lastFlagChange": null,
+      "rarity": 664.67,
+      "rarityRank": 6727,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": 0.338,
+        "timestamp": 1671079703
+      },
+      "lastSell": {
+        "value": 0.399,
+        "timestamp": 1671223967
+      },
+      "owner": "0xa21ac019520ed5930275cc811cc84ffe1cdedb60"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x3508cd415ea6838aa6231c3f3b02fa36143fb2a192da824ba927648678282e3a",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "500000000000000000",
+            "decimal": 0.5,
+            "usd": 593.38896,
+            "native": 0.5
+          }
+        },
+        "maker": "0xa21ac019520ed5930275cc811cc84ffe1cdedb60",
+        "validFrom": 1671497369,
+        "validUntil": 1673902324,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x4db1f25d3d98600140dfc18deb7515be5bd293af/1216"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "4812",
+      "name": "HAPE #4812",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a33b5cd821a51d08a5ff27808511a74d835a76fe3b2026605f1971f93df1af6f0d258a80c68a1b199f7e848aa340851745e2deeb2503cfbbf0747f06f7268b1d1f5700a7b2bea381fb9890b2de676651a0cbcc22861df8d4ed5ce4d2eaf768f7ed2f1f5d6a6711d4c4a7beca67ebe1049058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:40:28.986Z",
+      "lastFlagChange": null,
+      "rarity": 1179.134,
+      "rarityRank": 2800,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x86864dbfdb922c30e490719154bf8ed2c0b891c3"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x428df20dbe20443487cbcdd3b2c00e675753dbe3a74a07da873368a0ef6fad7d",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "500000000000000000",
+            "decimal": 0.5,
+            "usd": 593.38896,
+            "native": 0.5
+          }
+        },
+        "maker": "0x86864dbfdb922c30e490719154bf8ed2c0b891c3",
+        "validFrom": 1671019816,
+        "validUntil": 1673698216,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x4db1f25d3d98600140dfc18deb7515be5bd293af/4812"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "6369",
+      "name": "HAPE #6369",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aa7e25fa105e6b520766266b8ab4a5508534fed3c146fb84e5a77e865db5e6c5c2a0730d01484e3223246cdf7374f6e28741d1f73acb6ebd3ee6b4818ad83bfd8cc565fdaf5ed64bf69f234b6aeceeeb34f8c0f286b0a00371c3d6f83f2280f7c454d9ff5cce1842e36cb5a1d1df75b97058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": true,
+      "lastFlagUpdate": "2022-11-16T12:40:03.797Z",
+      "lastFlagChange": null,
+      "rarity": 678.107,
+      "rarityRank": 6579,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x53185ae092bb1875f35f514f28c67a09ce570e85"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x3f3c3e279eaa9090c31770207de617f82f63ae9eaf25041f0eb4206ab556b927",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "500000000000000000",
+            "decimal": 0.5,
+            "usd": 593.38896,
+            "native": 0.5
+          }
+        },
+        "maker": "0x53185ae092bb1875f35f514f28c67a09ce570e85",
+        "validFrom": 1671426305,
+        "validUntil": 1671685486,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0x4db1f25d3d98600140dfc18deb7515be5bd293af/6369"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "7778",
+      "name": "HAPE #7778",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a119a0ed371f6586b294edaa0a031e400f0f7c0eea4ab56c36e43f304de33efe90e3aff0ea56983d78d9e484a7064de93b06bc2ae1100cf940aa6898c542467cb042c110c5e1cc42bd53524615718e842425bf45b635b99e1106d8e9ca92e38c0340aa766f733fbc03b34e5697688d1c223c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:39:39.631Z",
+      "lastFlagChange": null,
+      "rarity": 1203.485,
+      "rarityRank": 2689,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xf5133067e3f3852a1d3a441b00221bd026d73852"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xce5bd859ea47fe98e0f7fb66daa6244b3f804aca587dca566611bcd9c645a62d",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "500000000000000000",
+            "decimal": 0.5,
+            "usd": 593.38896,
+            "native": 0.5
+          }
+        },
+        "maker": "0xf5133067e3f3852a1d3a441b00221bd026d73852",
+        "validFrom": 1671074648,
+        "validUntil": 1673753048,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x4db1f25d3d98600140dfc18deb7515be5bd293af/7778"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "1735",
+      "name": "HAPE #1735",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75afd0a5c9e72602e4fe128a68897f7a10b49b184409602be6cbca50e8dbb5d82da9be53296b7463ad87840979cb528cd444fbdfda9f93eb68fc0ea3c15fcd0fc91b9ab79cd1209471dcae41d5bbc45b504381028f4b5be266a489387199c5394d1cb3632c4df4a7538ea3afa14a5e0bb9ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:41:46.975Z",
+      "lastFlagChange": null,
+      "rarity": 997.522,
+      "rarityRank": 3770,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x613b909325e0f7bf25beefb6254187f6d9ec7309"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x8ae2ca5aa3ff4091acbd39cbd8236456b54488376ab9b87fa1cf0f06f0433de1",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "550000000000000000",
+            "decimal": 0.55,
+            "usd": 652.72786,
+            "native": 0.55
+          }
+        },
+        "maker": "0x613b909325e0f7bf25beefb6254187f6d9ec7309",
+        "validFrom": 1671087513,
+        "validUntil": 1685075281,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x4db1f25d3d98600140dfc18deb7515be5bd293af/1735"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "1828",
+      "name": "HAPE #1828",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ad71e1cee4357049bd51c3ea2f3aa740b6279f698cafad2a9fde5f1f7e178b4c9ed5bf196d7e3b6820c8e6feaed420832f70459c284ceed17ce689bbab8f1b334d360c2525f0fb473cf9cef318d558ad5418ea486f265e3c997e907bad48db13d9ccab6a2c129c8f62e3035d56ec5868a058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-24T10:54:54.653Z",
+      "lastFlagChange": null,
+      "rarity": 1057.027,
+      "rarityRank": 3411,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.38,
+        "timestamp": 1668381047
+      },
+      "owner": "0x67344ca89c3d20de6a1b39db18cefc7768fe0241"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x2b3dd5dfee7d7afa9f5ac23a8cf0730266e7fa358a762ce6c7a489b9177a8e86",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "550000000000000000",
+            "decimal": 0.55,
+            "usd": 652.72786,
+            "native": 0.55
+          }
+        },
+        "maker": "0x67344ca89c3d20de6a1b39db18cefc7768fe0241",
+        "validFrom": 1671451224,
+        "validUntil": 1671696931,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x4db1f25d3d98600140dfc18deb7515be5bd293af/1828"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "5685",
+      "name": "HAPE #5685",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a0d99932fab2bd0ad058477792b000eda665a2c52572d5a676187e769a7bcbfa2b84c17e4bdd6a28f09e9528efeb586c863b22f9230659d85e7636788601f3a430a0a35f31204e881ce3d7a6316eba393dcd2e81ab2220f7b4ecf662c8abfb9615f2a19afd0d540f5e43c2a7fd5b3fb2a23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:40:16.435Z",
+      "lastFlagChange": null,
+      "rarity": 1180.783,
+      "rarityRank": 2790,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": 0.37538,
+        "timestamp": 1669678115
+      },
+      "lastSell": {
+        "value": 0.4608,
+        "timestamp": 1669699919
+      },
+      "owner": "0x765a0f28b4d714d2c7bdff20fb8a1397527dfe62"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x156506d75e9e1cef0a2e9d185c30a86d56369472a01ac5f0fffee39a63e760e5",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "550000000000000000",
+            "decimal": 0.55,
+            "usd": 652.72786,
+            "native": 0.55
+          }
+        },
+        "maker": "0x765a0f28b4d714d2c7bdff20fb8a1397527dfe62",
+        "validFrom": 1670852987,
+        "validUntil": 1686404987,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x4db1f25d3d98600140dfc18deb7515be5bd293af/5685"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "6734",
+      "name": "HAPE #6734",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab615f84c05a120ab203b3de9684e8bf0c84edea1abb1d27caa446c6a91b363d31d5a2582d7cb6b465338ff1c87df31b6e437e5a0ea9ccc2952a3b956705eed84245665b82d1148eb5a3f365561c95cfd2c977534eabb7a797cd7911dfe4283e8ab1472aeddac2a1302e643b608cb5949e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:39:56.013Z",
+      "lastFlagChange": null,
+      "rarity": 810.897,
+      "rarityRank": 5263,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x6ce0b4d11311f23837ec30f222cbd91c1ba9f615"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x74070da02ddcc74007946c1ccd9e4cfb9d0d3e98c04c2292d77bb72807a36aab",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "550000000000000000",
+            "decimal": 0.55,
+            "usd": 652.72786,
+            "native": 0.55
+          }
+        },
+        "maker": "0x6ce0b4d11311f23837ec30f222cbd91c1ba9f615",
+        "validFrom": 1671546503,
+        "validUntil": 1674135052,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x4db1f25d3d98600140dfc18deb7515be5bd293af/6734"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "316",
+      "name": "HAPE #316",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a8d99511a199f0d605a53d617a7caedb5398ec6009a2d8141df890842c2aeec15d49c4f758ee76c7fe804d580d7399edbcc3c1bb347d562ac0d45387d75f4423a64e491138532a085284301197c26fe6a503d916365c53a347e46d097743db42b8d59efae58d6664b3f8bc81b2c98830123c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:42:07.280Z",
+      "lastFlagChange": null,
+      "rarity": 1525.115,
+      "rarityRank": 1526,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 1.69,
+        "timestamp": 1646643159
+      },
+      "owner": "0x1297ac683b7a2981a47ddb8fd49e6c5de9ce6b31"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x7005ff48c87f24f4e7129565d33d085ee80dea3614bea05c4ca52bf0eab379b4",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "555000000000000000",
+            "decimal": 0.555,
+            "usd": 658.66175,
+            "native": 0.555
+          }
+        },
+        "maker": "0x1297ac683b7a2981a47ddb8fd49e6c5de9ce6b31",
+        "validFrom": 1671477298,
+        "validUntil": 1672082098,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x4db1f25d3d98600140dfc18deb7515be5bd293af/316"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "7414",
+      "name": "HAPE #7414",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae1ffc5f29495b88c23fd5efc9540a70519339df2e300e03e81d39ef500f24d0cd20904ae772c483f8a65359f3b4c14aa2321b34e77dc428cf4f872094e34e12417f53d9453db0e2114573dc0bb4aa3c75505a4741e2966adcf16ed8de3ae246ca464e64cc71fbae43b65de17404201e8e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-25T20:48:49.902Z",
+      "lastFlagChange": null,
+      "rarity": 795.169,
+      "rarityRank": 5409,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.55,
+        "timestamp": 1665777671
+      },
+      "owner": "0x83fea2d7cb61174c55e6ffa794840ff91d889d00"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x6f9146911c7424cc9af3e00d4ea31895b25518b291229a016964dd3a054134fd",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "555000000000000000",
+            "decimal": 0.555,
+            "usd": 658.66175,
+            "native": 0.555
+          }
+        },
+        "maker": "0x83fea2d7cb61174c55e6ffa794840ff91d889d00",
+        "validFrom": 1669910405,
+        "validUntil": 1671967596,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x4db1f25d3d98600140dfc18deb7515be5bd293af/7414"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "5966",
+      "name": "HAPE #5966",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7e9aca69051032509ca52d9d75f0b79f1004de74e6b372e142a9e925f4a3c20a18f460870652e637317b632624c5323ab19cdd2de52b40f556b7f2b5eeba90bb1e257da73f0a1e8cfb70709de25df80eb850fb3a91d81029ba39ab72706bab316966a8394af0d76ce037b958df71d1b823c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-24T10:52:52.671Z",
+      "lastFlagChange": null,
+      "rarity": 1451.12,
+      "rarityRank": 1756,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": 0.4701,
+        "timestamp": 1666479143
+      },
+      "lastSell": {
+        "value": 0.5,
+        "timestamp": 1666643903
+      },
+      "owner": "0xb54f1994b9f5bf4f3bb9ab615ee823b82301480a"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x43d8d54e5017c0642771fbd6c3e5b26efdaeab51d43e0e5ed93b9feb2fd8c79d",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "560000000000000000",
+            "decimal": 0.56,
+            "usd": 664.59564,
+            "native": 0.56
+          }
+        },
+        "maker": "0xb54f1994b9f5bf4f3bb9ab615ee823b82301480a",
+        "validFrom": 1671452411,
+        "validUntil": 1671597571,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x4db1f25d3d98600140dfc18deb7515be5bd293af/5966"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "4063",
+      "name": "HAPE #4063",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aafec47beb248a20f747c452f0e1e0c1f82a7d0491ee6b314c2bda29b4a742ae47ff88c791070071dd00c4f8dc2019660113bd1518a74b81ae87f99d770b55a28b2e2ffc84cdd0d54ef3648535b779bfafebabab6db36874273795de8446af2954ffdf857fddeddb8996246d9e7cafac023c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T15:41:11.049Z",
+      "lastFlagChange": null,
+      "rarity": 1022.995,
+      "rarityRank": 3604,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": 0.2376,
+        "timestamp": 1669598051
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xef1e7ec8e1894f34f4d6d6eff8d9a55233c77ca2"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x2423a23eff13fef8a7ba4e86fa1e74f14d60d1b9783e281891ead491bf2da664",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "589000000000000000",
+            "decimal": 0.589,
+            "usd": 699.0122,
+            "native": 0.589
+          }
+        },
+        "maker": "0xef1e7ec8e1894f34f4d6d6eff8d9a55233c77ca2",
+        "validFrom": 1671494384,
+        "validUntil": 1674086366,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0x4db1f25d3d98600140dfc18deb7515be5bd293af/4063"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "1706",
+      "name": "HAPE #1706",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a96e00770e68b15c388d57ff8225a34f66d45d31c9b98f0aea1eabf05878adaa71888bcd5a485f1a564e7bd207c423738e12ab2f57126b3955f3c4736be22586da55416f3658a2be48f4cd13008cd4b21e578d1390c8b0173ed34b6425fb033fd009cbfabe2e7e46e6aa71de31e087c1923c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-24T09:42:13.704Z",
+      "lastFlagChange": null,
+      "rarity": 1671.368,
+      "rarityRank": 1193,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": 0.4231,
+        "timestamp": 1666518071
+      },
+      "lastSell": {
+        "value": 0.59,
+        "timestamp": 1666720331
+      },
+      "owner": "0x04288bcdff5ddfdf1496e05945e64b8ce98b2230"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x4a92c6e14e015627c52cbc0bbdf9bba4db13ce0709766efb58342bf5d107681b",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "590000000000000000",
+            "decimal": 0.59,
+            "usd": 700.19897,
+            "native": 0.59
+          }
+        },
+        "maker": "0x04288bcdff5ddfdf1496e05945e64b8ce98b2230",
+        "validFrom": 1670071907,
+        "validUntil": 1674673264,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x4db1f25d3d98600140dfc18deb7515be5bd293af/1706"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "2578",
+      "name": "HAPE #2578",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a052b30433c27e5135521db5417513a2b102a95c5000957c4d2b94aea79b74b49d7a8d05e593207b5923853df8fa257799f84116ac6e9b381ec39c2adee4ee5b7e51ad8bf82ffdb6edc3669f1f1c0d5c67c5a533a9f825026d57ee079d868e58243197bbbd53bb105a0e42a9ffa61e37fe1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:41:35.385Z",
+      "lastFlagChange": null,
+      "rarity": 562.343,
+      "rarityRank": 7757,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": 0.4649,
+        "timestamp": 1667242403
+      },
+      "lastSell": {
+        "value": 0.5222,
+        "timestamp": 1667326799
+      },
+      "owner": "0xa8f03ad2201952eb631fa85d3d54a0ba92e9b29d"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x7e9b39d915def2e0a015a0acf5e8db89e1a2cf3b086f851c8be5d1f6004139fd",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "590000000000000000",
+            "decimal": 0.59,
+            "usd": 700.19897,
+            "native": 0.59
+          }
+        },
+        "maker": "0xa8f03ad2201952eb631fa85d3d54a0ba92e9b29d",
+        "validFrom": 1669836266,
+        "validUntil": 1672514666,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x4db1f25d3d98600140dfc18deb7515be5bd293af/2578"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "4479",
+      "name": "HAPE #4479",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a145e961e410cba57189b666caf589282c03a39dae120c5ba4efbf8fcf5cf9190c57d8439d9c86e5b40844c4d1bb087c3f45669872174e2e44777fe5f572ffdd110dbe43b59f9219f2012307afc21bc865015593a379541cdc36cb1dad8e81db03e3024f42ad10b057da77845acd5484c23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-24T10:55:09.517Z",
+      "lastFlagChange": null,
+      "rarity": 746.139,
+      "rarityRank": 5881,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": 0.37,
+        "timestamp": 1668677507
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xc8d0cdfad3f4d80f5f25ea8573ff469e56839b62"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xc8827c33ddf3b2e53d71a17d9e708815b89a56a96c4b356a50ac17d6106877f4",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "590000000000000000",
+            "decimal": 0.59,
+            "usd": 700.19897,
+            "native": 0.59
+          }
+        },
+        "maker": "0xc8d0cdfad3f4d80f5f25ea8573ff469e56839b62",
+        "validFrom": 1671443246,
+        "validUntil": 1672048046,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x4db1f25d3d98600140dfc18deb7515be5bd293af/4479"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "821",
+      "name": "HAPE #821",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a9c35672d5b577b4ef5640278e7e14cdbd3ffd9b57c1b21c3d1d9286dd0e41ad5a5b196ab90b14f4afb89769ece9561a56c1f8baacde1d818769faa2092513ebb220cb4f2bfb7f163b80cec0ab1cb7e43520529c313ca491b831c791174053e2f2bfdc8c34566ff968481463af1bb7e32e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-25T06:39:32.486Z",
+      "lastFlagChange": null,
+      "rarity": 862.525,
+      "rarityRank": 4788,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": 0.5814,
+        "timestamp": 1664383379
+      },
+      "lastSell": {
+        "value": 0.44,
+        "timestamp": 1666030247
+      },
+      "owner": "0x101edbcc6c5b013544a89321b817b243c842010e"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x031268788d34967eeec6904798c4b49fdc7e99fd29458f88cf82b35311e781e4",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "600000000000000000",
+            "decimal": 0.6,
+            "usd": 712.06675,
+            "native": 0.6
+          }
+        },
+        "maker": "0x101edbcc6c5b013544a89321b817b243c842010e",
+        "validFrom": 1671194546,
+        "validUntil": 1673223263,
+        "source": {
+          "id": "0xdc28ffaea1f91a88fb6fd0a8fe70d71bdd64284c",
+          "domain": "x2y2.io",
+          "name": "X2Y2",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/x2y2-logo.png",
+          "url": "https://x2y2.io/eth/0x4db1f25d3d98600140dfc18deb7515be5bd293af/821"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "2555",
+      "name": "HAPE #2555",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a76f14238d9e1286d16ba31e0ce1aa9fdf35708b9107abd4e7e6f634a556a7add029d3384def49d279c63b46c7f1ed06f2c238de742e03e9662ff3d9c317f596002ccbde7e62c2f0a2a3f27c2cb5197a96150030a9284c3da1e8270343f9dd938aca9d3d4ed75c187fcef6120d47a07d5e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:41:35.856Z",
+      "lastFlagChange": null,
+      "rarity": 1480.706,
+      "rarityRank": 1653,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x54aab34ec15dad44073681ec94e29ea9343fa2d9"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x681613b00eba362c2423d5e8db296af8aaba352fd2e4a01c085233b16f56a800",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "600000000000000000",
+            "decimal": 0.6,
+            "usd": 712.06675,
+            "native": 0.6
+          }
+        },
+        "maker": "0x54aab34ec15dad44073681ec94e29ea9343fa2d9",
+        "validFrom": 1671508641,
+        "validUntil": 1671595041,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x4db1f25d3d98600140dfc18deb7515be5bd293af/2555"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "6672",
+      "name": "HAPE #6672",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3690cb0cdeb8c5d5203d88f8917965f924469317aa8b8a61b85102f4df877d66a9b64118158a8b8557642c7e31b17051981427a7fcf6e6466277afb67abe7c0d18d0a9f7b6e9a9182b94e9c079b594ff819e1ed891e85703daf94d92527746e3d7cb7f99015ae2fd7b1f6c1bd11b8bfae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:39:56.945Z",
+      "lastFlagChange": null,
+      "rarity": 914.697,
+      "rarityRank": 4363,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.98,
+        "timestamp": 1651794330
+      },
+      "owner": "0xe2cbb178700b5c5ec8eed61823322d13726455af"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xc31d9613d6ba7c8d808923fac41910177501367701c011c6a60d1d6f72575ec1",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "600000000000000000",
+            "decimal": 0.6,
+            "usd": 712.06675,
+            "native": 0.6
+          }
+        },
+        "maker": "0xe2cbb178700b5c5ec8eed61823322d13726455af",
+        "validFrom": 1671515086,
+        "validUntil": 1672025817,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x4db1f25d3d98600140dfc18deb7515be5bd293af/6672"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "7234",
+      "name": "HAPE #7234",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a0999ff5766fdb09156d288484f5acf42dc0f0d0978a2e6f3fcfa6e477d98fc5f344fbc85932d341e804f514e8a1801682b9cd38073c157cfc9d1491d64362b0c74b357582ed8fa111a4d8c07b1fa83483245e734b0770f55db84736b75337ba4e210a45dc9073757daff05877c5419d123c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:39:48.495Z",
+      "lastFlagChange": null,
+      "rarity": 913.098,
+      "rarityRank": 4373,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x7fbde889d46f54b185348a32db25977194e2ec2f"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x17f5807b603db4a0b007daa16343831cd88d040ff80f4782ccf1df8c1e003739",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "600000000000000000",
+            "decimal": 0.6,
+            "usd": 712.06675,
+            "native": 0.6
+          }
+        },
+        "maker": "0x7fbde889d46f54b185348a32db25977194e2ec2f",
+        "validFrom": 1671406817,
+        "validUntil": 1674085217,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x4db1f25d3d98600140dfc18deb7515be5bd293af/7234"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "5198",
+      "name": "HAPE #5198",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a36016473d667a8f31d275dcc1aa9b8dcc171d587e03c20ea04991790b9053e7bd5ffd4164d907ec6265addd8deee881331d55f2b1bd8077b3b1f55b3a5559b5b4199ade62f19f1c843be7c35fb90fd2c7b7813bcdb5d280b22cea13f14eca073e30e41ecddf50dbe71d2c1719e4fb6d223c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-24T10:53:38.059Z",
+      "lastFlagChange": null,
+      "rarity": 1048.954,
+      "rarityRank": 3459,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": 0.46,
+        "timestamp": 1666770623
+      },
+      "lastSell": {
+        "value": 0.49,
+        "timestamp": 1669275191
+      },
+      "owner": "0x1a1dfee3427c1e717e943df13741795881baf6c6"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x1f98a57e59dcfbc21fa65d40e312f8294a897a1ecc4e55218c6c68d47565004c",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "620000000000000000",
+            "decimal": 0.62,
+            "usd": 735.80231,
+            "native": 0.62
+          }
+        },
+        "maker": "0x1a1dfee3427c1e717e943df13741795881baf6c6",
+        "validFrom": 1671436495,
+        "validUntil": 1671695695,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x4db1f25d3d98600140dfc18deb7515be5bd293af/5198"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "7170",
+      "name": "HAPE #7170",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aff47c1f088739c2620ed43daa45502ca78c49e4a08fc7fa87705884805b7280c435053d59dcc77e32c56fd5ebe4c13cbb339f0c7da533299ef9494241ab5764646d429c2ffec73c8e55ba3ac482dd6b106eecada590eb745269d2e356428b380dbb355a2edbb0e15bb7e2abc1ebff799058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-24T10:56:39.472Z",
+      "lastFlagChange": null,
+      "rarity": 705.935,
+      "rarityRank": 6286,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": 0.5955,
+        "timestamp": 1664643359
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x2e49f47f5933dcb7d02b44518c8afcd5ffe60a4d"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x99f7d187cbe4467e2b459eee7727470f45ddfc1cd12f0096b96c4d3a98504e6f",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "644700000000000000",
+            "decimal": 0.6447,
+            "usd": 765.11572,
+            "native": 0.6447
+          }
+        },
+        "maker": "0x2e49f47f5933dcb7d02b44518c8afcd5ffe60a4d",
+        "validFrom": 1669083654,
+        "validUntil": 1671675654,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x4db1f25d3d98600140dfc18deb7515be5bd293af/7170"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "8141",
+      "name": "HAPE #8141",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a022f8325f8e34398c2f3b77eb0165041e41d2bc204fb71e0b13a05660ace8f6875e6fd3028a51140481df876558e6c412a54a6301f1267f101c154c217820d1923f0493f7df944bd8ba0a289ffa7a10313717275b3f42457aac56bd5664a26c7cdcdd0a33ce68bceeb9f07763dba0c27e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:39:33.311Z",
+      "lastFlagChange": null,
+      "rarity": 2023.73,
+      "rarityRank": 686,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": 0.4275,
+        "timestamp": 1670569343
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xc35de3eb8d2cb560bf90c4a0caa737d2a701f695"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x84782586b89c80b57b7f51cdb8f96f276919bbe3cab6cf78b2642d3e8dffa84c",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "647000000000000000",
+            "decimal": 0.647,
+            "usd": 767.84531,
+            "native": 0.647
+          }
+        },
+        "maker": "0xc35de3eb8d2cb560bf90c4a0caa737d2a701f695",
+        "validFrom": 1670590636,
+        "validUntil": 1673269036,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x4db1f25d3d98600140dfc18deb7515be5bd293af/8141"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "60",
+      "name": "HAPE #60",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3ff8133fc8576b002c41ec16c934b4b0215d77870b55763f2979ac3e0793f1bb27f12c9bd57c8327dcee18ea244ef1b5bc6d8e27fde6191be5aa85d05d8fafcc4bb433e27e95b397305fe05a8743edccecde9731e2d3fbc46d7e9926c223df3391049ad58383e23269a56c1726858b0a23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:42:11.337Z",
+      "lastFlagChange": null,
+      "rarity": 957.216,
+      "rarityRank": 4063,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": 0.42,
+        "timestamp": 1670052503
+      },
+      "lastSell": {
+        "value": 1.39,
+        "timestamp": 1659802633
+      },
+      "owner": "0xaeedeedd4c8727b2025f7f7bf995c5b55d6b93a8"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x0b3ad148aaa454c2d1d34ca4df681c070a6c3c137112f94db3a4098a08c3fe9a",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "649000000000000000",
+            "decimal": 0.649,
+            "usd": 770.21887,
+            "native": 0.649
+          }
+        },
+        "maker": "0xaeedeedd4c8727b2025f7f7bf995c5b55d6b93a8",
+        "validFrom": 1671319097,
+        "validUntil": 1672003697,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x4db1f25d3d98600140dfc18deb7515be5bd293af/60"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "601",
+      "name": "HAPE #601",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1e85c70b32a4a081d8a104a092138b695fc6838c499da6ca2f66f08a0824cedda0c56d9f756df82b1935d53b605179a22c7b0fbabcddeae5a2d88f2acbe1b1f8ecabef299fc342c81c8449b69a5dc212eda023ae73a44518fd5bdbd07ef4801cfd25878d0d0c554d2f575ebb02a48499e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-24T16:10:18.750Z",
+      "lastFlagChange": null,
+      "rarity": 1049.768,
+      "rarityRank": 3453,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": 0.434,
+        "timestamp": 1666701911
+      },
+      "lastSell": {
+        "value": 0.4996,
+        "timestamp": 1666702727
+      },
+      "owner": "0xaeedeedd4c8727b2025f7f7bf995c5b55d6b93a8"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x50ae3aed01d4c6105505e725ad108041ec98e3888f6ce55497543a3dc7c89eb8",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "649000000000000000",
+            "decimal": 0.649,
+            "usd": 770.21887,
+            "native": 0.649
+          }
+        },
+        "maker": "0xaeedeedd4c8727b2025f7f7bf995c5b55d6b93a8",
+        "validFrom": 1671316923,
+        "validUntil": 1671917403,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x4db1f25d3d98600140dfc18deb7515be5bd293af/601"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "5488",
+      "name": "HAPE #5488",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1a1a644bd2fedca95b32e445e8cda0a499e82a97028a6390df9a6f4630aff85feba434b0606f7bfc6b1ed53b540c2d8483c34fef8bd143f24ee4c016add355557fe3d852c7827058c4dc485c491af6eb4c61ac967bd7c50d422ff5fcedc65384226d66101221522794231789a96675ef058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-24T09:42:55.702Z",
+      "lastFlagChange": null,
+      "rarity": 663.235,
+      "rarityRank": 6747,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.48,
+        "timestamp": 1667892479
+      },
+      "owner": "0x40e09d59fcbd4a8ca69d4c2cdccb718da83961e6"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x10b63d3cfa1a5d2b941d368ad1c4c8ff7ceb9f43a6a4cece3961ec674ae01968",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "650000000000000000",
+            "decimal": 0.65,
+            "usd": 771.40565,
+            "native": 0.65
+          }
+        },
+        "maker": "0x40e09d59fcbd4a8ca69d4c2cdccb718da83961e6",
+        "validFrom": 1671525960,
+        "validUntil": 1674204360,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x4db1f25d3d98600140dfc18deb7515be5bd293af/5488"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "7518",
+      "name": "HAPE #7518",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a0790568415c26bd2dda5c7fa4e7847f323fa6db3cb4d01187381bec8c3d3c7f775bd3e765872a1828ebe6387a05503a4e31a3c7438fbd6dfa30898fca0c14083e533cf582932739a3650e7f2d5981c33783a0a9db440149ff6567f7a68f0eb1c3ca606f0eca38d34f7fde610fca599c523c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:39:44.568Z",
+      "lastFlagChange": null,
+      "rarity": 675.677,
+      "rarityRank": 6607,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": 0.3,
+        "timestamp": 1668556307
+      },
+      "lastSell": {
+        "value": 0.63,
+        "timestamp": 1663799399
+      },
+      "owner": "0x6b756219f10c50ba4cd085fcd882d79f53a90384"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x3657ec2a1ba4b33839ea8402b72603b08cb7fd23b8103e5ae10b6907ce4a934f",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "650000000000000000",
+            "decimal": 0.65,
+            "usd": 771.40565,
+            "native": 0.65
+          }
+        },
+        "maker": "0x6b756219f10c50ba4cd085fcd882d79f53a90384",
+        "validFrom": 1671537085,
+        "validUntil": 1671623485,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x4db1f25d3d98600140dfc18deb7515be5bd293af/7518"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "5148",
+      "name": "HAPE #5148",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a63b20ebc040923291b0bb1411fa464e8b6c70aad67ff4d839d8003646df2c0495bf712478b4d2bfee4e6c4a7d6dc4d94f30aaec02c96adec58e080719401cc2cc1d4c11f6c57944ea2de0c24f5ea73d251daefbd434ce7a3dedb925017b68912f949c2ea4a7226f9ca0f5015b38f7487e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-24T10:11:11.966Z",
+      "lastFlagChange": null,
+      "rarity": 1462.954,
+      "rarityRank": 1712,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x865a4de353a7e92b69155dd3075cf412419f0392"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xea2fbf12ac772c672d0382b0dcb98ca70c9880832d1781ebf123d31189cc5c31",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "660000000000000000",
+            "decimal": 0.66,
+            "usd": 783.27343,
+            "native": 0.66
+          }
+        },
+        "maker": "0x865a4de353a7e92b69155dd3075cf412419f0392",
+        "validFrom": 1668692370,
+        "validUntil": 1678292688,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x4db1f25d3d98600140dfc18deb7515be5bd293af/5148"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "315",
+      "name": "HAPE #315",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aad9cf913a11ad2a236381b7645a438b7f17d72fd9412645d58630643d8ae0fb9dd33f10e09e5799fa4c15ff4cbe4556a6acd1c602e0ab749c0656788fdd25e1926855ae27c8b929dab0f52e36634e07c828419b192aafb196cffe7d60aef30e61618644233589ac66b3244fb6247e6d523c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:42:07.491Z",
+      "lastFlagChange": null,
+      "rarity": 982.638,
+      "rarityRank": 3878,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 1.4,
+        "timestamp": 1649355961
+      },
+      "owner": "0xe6cefe40f5fb23dfeb517f3bfe560888cf850d36"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x1e914af1be38db42290e0d4114ecc32a1c29406678f2a56cba83824adee1a676",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "666000000000000000",
+            "decimal": 0.666,
+            "usd": 790.39409,
+            "native": 0.666
+          }
+        },
+        "maker": "0xe6cefe40f5fb23dfeb517f3bfe560888cf850d36",
+        "validFrom": 1669636044,
+        "validUntil": 1672228044,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x4db1f25d3d98600140dfc18deb7515be5bd293af/315"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "3745",
+      "name": "HAPE #3745",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adf0796723203bf23e5ce6f552d46e76e2602846c1f178304e7c41009c8bcc70de31d4a2895b95a50a21a8b6d523904725b791d88ea40c2bcd51bf7fdf9a1f6dbd7a2b359513df12d5c1a4951c6d548074d104feb58503f585c278c6bb047b0e7b0c72e9c2624247a20edceae31294c6323c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:40:54.345Z",
+      "lastFlagChange": null,
+      "rarity": 2737.545,
+      "rarityRank": 340,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": 0.4409,
+        "timestamp": 1670543279
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x02949171263393d5a7cbbdc5f9a7772dff7a3d8a"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x709c94c2dcc53ab095aea82d3c61f7d893b8de0a538a3fdd0d33a89773450615",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "679000000000000000",
+            "decimal": 0.679,
+            "usd": 805.82221,
+            "native": 0.679
+          }
+        },
+        "maker": "0x02949171263393d5a7cbbdc5f9a7772dff7a3d8a",
+        "validFrom": 1670591399,
+        "validUntil": 1673223891,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x4db1f25d3d98600140dfc18deb7515be5bd293af/3745"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "6045",
+      "name": "HAPE #6045",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a927534dd34fcc6fbf0872b340cfb0da6ad9b46d1ff8d29cda3d9d3c8eed06daaa265ff390c9bf8d4bfc3a616ebbe671c3ce625005ee7b0b4b0f08977572977db82e68f73a091261cf08e9627ea0a003e7142f5bfc54d657722dbf38d1530f592cb987eb5698782eabe4e9b6b9a8a612a058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-24T10:11:13.728Z",
+      "lastFlagChange": null,
+      "rarity": 537.265,
+      "rarityRank": 7931,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.5,
+        "timestamp": 1666865243
+      },
+      "owner": "0xda6372e9e6469034cbb7c1d12ee10d9675f5720f"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x31146edace7ac0be090c26bf4da158fec89adecdeb268c60107560fb5fa4602a",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "685000000000000000",
+            "decimal": 0.685,
+            "usd": 812.94287,
+            "native": 0.685
+          }
+        },
+        "maker": "0xda6372e9e6469034cbb7c1d12ee10d9675f5720f",
+        "validFrom": 1667059569,
+        "validUntil": 1682447999,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x4db1f25d3d98600140dfc18deb7515be5bd293af/6045"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+"category": ["Animal", "Monkey", "Cartoon", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "3695",
+      "name": "HAPE #3695",
+      "description": "8192 next-generation, high-fashion HAPES.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af0f2603bbf41a5a126affdfb6c98fbca55dc75e510c83455cf7b216758e53f76a3b7ec8fc9a5bffc39d7062a679e34403037e368ea61303c3bb7f7a45e05187ce8bfd5dd579458dbabfebaac210a7498431c043a42294c7f8b971a5339ecaeb377bf64a3dd6ceada74418215e078fe1523c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": true,
+      "lastFlagUpdate": "2022-11-27T19:02:57.170Z",
+      "lastFlagChange": null,
+      "rarity": 1257.436,
+      "rarityRank": 2448,
+      "collection": {
+        "id": "0x4db1f25d3d98600140dfc18deb7515be5bd293af",
+        "name": "HAPE PRIME",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58b8c516f412d9d256aab64bcfa604244d828ca9dffd38ca9d1e2367a60278f967183d637b34593288298ff8436150c3ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "hapeprime"
+      },
+      "lastBuy": {
+        "value": 0.24,
+        "timestamp": 1667435507
+      },
+      "lastSell": {
+        "value": 0.57,
+        "timestamp": 1663439183
+      },
+      "owner": "0xef1e7ec8e1894f34f4d6d6eff8d9a55233c77ca2"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x71ad8807b41c1887bbeb7130c495ebd13ed28ce373187e668118e779f430c895",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "689000000000000000",
+            "decimal": 0.689,
+            "usd": 817.68999,
+            "native": 0.689
+          }
+        },
+        "maker": "0xef1e7ec8e1894f34f4d6d6eff8d9a55233c77ca2",
+        "validFrom": 1671494547,
+        "validUntil": 1674086532,
+        "source": {
+          "id": "0xdc28ffaea1f91a88fb6fd0a8fe70d71bdd64284c",
+          "domain": "x2y2.io",
+          "name": "X2Y2",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/x2y2-logo.png",
+          "url": "https://x2y2.io/eth/0x4db1f25d3d98600140dfc18deb7515be5bd293af/3695"
+        }
+      }
+    }
+  }
+]

@@ -8,7 +8,7 @@ import img from "../../images/city-landing.jpg";
 import Login from "../Login/Login";
 import { useState } from "react";
 
-function LandingPage() {
+function LandingPage({ loggedIn }) {
   const [customClass, setCustomClass] = useState("landing-container");
   const [secondCustomClass, setSecondCustomClass] =
     useState("account-container");
@@ -54,7 +54,7 @@ function LandingPage() {
           <div className="container-fluid h-custom">
             <div className="row d-flex justify-content-center align-items-center h-100">
               <div className="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
-                <Login />
+                <Login loggedIn={loggedIn} />
                 {/* <form>
                   <div className="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
                     <p className="lead fw-normal mb-0 me-3 text-light">
@@ -164,7 +164,7 @@ function LandingPage() {
                     </p>
                   </div>
                 </form> */}
-                <Link to={"/home"} className={styles["link-home"]}>
+                <Link to={"/marketplace"} className={styles["link-home"]}>
                   Home
                 </Link>
               </div>
