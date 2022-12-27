@@ -2,7 +2,7 @@ import * as actions from "../../redux/actions";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import { useHistory } from "react-router-dom";
-import { auth } from "../../firebase.js";
+// import { auth } from "../../firebase.js";
 import Pages from "../Pages/Pages";
 import FilterOptions from "../FilterOptrions/Options";
 import Loading from "../Loading/Loading";
