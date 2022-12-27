@@ -52,6 +52,9 @@ const getAllBuy = async (req, res) => {
   }
 }
 
+
+
+
 module.exports = {
   createNewBuy,
   getAllBuy,
