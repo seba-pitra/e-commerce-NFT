@@ -3,10 +3,11 @@ const { postEverythingToDB, getEverythingFromDB, postQuantityToDB } = require(".
 
 const dbRouter = Router();
 
-dbRouter.get("/createAll", postEverythingToDB);
-
 dbRouter.get("/getAll", getEverythingFromDB);
 
 dbRouter.get("/create/:nftQuantity", postQuantityToDB);
+
+dbRouter.get("/createAll", postEverythingToDB);
+
 
 module.exports = dbRouter;

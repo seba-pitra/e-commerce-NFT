@@ -207,7 +207,7 @@ const createAllInitialNFTs = async () => {
         const nftInDb = await Nft.create(nftToDB);
         const correspondingCollection = await Collection.findOne({
           where: {
-            id: nft.token.collection.id,
+            apiId: nft.token.collection.id,
           },
         });
 
@@ -294,13 +294,16 @@ const createNftQuantityByChoice = async (nftQuantity) => {
         const nftInDb = await Nft.create(nftToDB);
         const correspondingCollection = await Collection.findOne({
           where: {
-            id: nft.token.collection.id,
+            apiId: nft.token.collection.id,
           },
         });
+
+        console.log(correspondingCollection.apiId + " " + correspondingCollection.id)
 
         await nftInDb.setCollection(correspondingCollection);
         await nftInDb.setUser(superUser);
         response.push(nftInDb);
+
         console.log(
           "---------------------------\n" +
             "NFT n°" +
@@ -312,6 +315,8 @@ const createNftQuantityByChoice = async (nftQuantity) => {
             "Created at: " +
             new Date().toString() +
             " \n" +
+            "Collection: " + correspondingCollection.name + " \n" +
+            "User: " + superUser.name + " \n" +
             "---------------------------"
         );
       }

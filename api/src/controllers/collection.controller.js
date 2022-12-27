@@ -156,15 +156,28 @@ const createAllInitialCollections = async () => {
     if(response.length === 0){
       console.log("Starting collections creation " + new Date().toString())
       for(const collection of collections){
-        let collectionToDB = {
+        const collectionInDB = await Collection.create({
           apiId: collection.id,
           name: collection.name || "No name",
           image: collection.image || "No image",
           origin: "API"
-        };
-        const collectionInDB = await Collection.create(collectionToDB);
+        });
         collectionInDB.setUser(userOwner);
         response.push(collectionInDB);
+        console.log(
+          "---------------------------\n" +
+            "Collection n°" +
+            response.length +
+            " \n" +
+            "Name: " +
+            collectionInDB.name +
+            " \n" +
+            "Created at: " +
+            new Date().toString() +
+            " \n" +
+            userOwner.name + " \n" +
+            "---------------------------"
+        );
       }
     }
     console.log("Collection Creation SUCESSFUL" + 
