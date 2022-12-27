@@ -1,22 +1,17 @@
 const axios = require("axios");
 require("dotenv").config();
 // const { validateUser } = require("../firebase");
-let loggedUser = {providerData:[{email:"jojojojoj@gmail.com"}]};
+let loggedUser = { providerData: [{ email: "jojojojoj@gmail.com" }] };
 
 const getLoggedUser = (userInfo) => {
-  loggedUser = userInfo
-}
+  loggedUser = userInfo;
+};
 
 class PaymentService {
   async createPayment(nftBody) {
-    //NFT's y el email del user que va a comprar
     const url = "https://api.mercadopago.com/checkout/preferences";
 
     let user = loggedUser;
-    console.log(user);
-    // console.log("USER", user.providerData[0].email);
-
-    
 
     const body = {
       payer_email: user.providerData[0].email,
@@ -35,9 +30,9 @@ class PaymentService {
 
       back_urls: {
         //Create pages result
-        failure: "http://localhost:3000/marketplace",
-        pending: "/pending",
-        success: "/success",
+        failure: "http://localhost:3000/pay/failure",
+        pending: "http://localhost:3000/pay/pending",
+        success: "http://localhost:3000/pay/success",
       },
     };
 
@@ -77,4 +72,4 @@ class PaymentService {
   }
 }
 
-module.exports = {PaymentService, getLoggedUser};
+module.exports = { PaymentService, getLoggedUser };
