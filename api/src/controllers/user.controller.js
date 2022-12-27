@@ -32,9 +32,13 @@ const createUser = async (req, res) => {
 const getAllUsers = async (req, res) => {
   try {
     const allUsers = await User.findAll({
-      include: {
+      include: [{
         model: Nft,
-      },
+      },{
+        model : Collection
+      },{
+        model : Buy
+      }],
     });
     if (allUsers.length === 0) {
       throw new Error(`No users found on database`);
@@ -67,11 +71,13 @@ const getUserById = async (req, res) => {
   try {
     const { id } = req.params;
     const foundUser = User.findByPk(id, {
-      include : {
-        model : Nft,
-        model : Collection,
+      include: [{
+        model: Nft,
+      },{
+        model : Collection
+      },{
         model : Buy
-      }
+      }],
     })
     if(foundUser){
       return res.status(200).json(foundUser)

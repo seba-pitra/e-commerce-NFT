@@ -1,6 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
 import * as actions from "../../redux/actions";
-import { useState } from "react";
 import successIcon from "../../images/icons/success-icon.png";
 import issueIcon from "../../images/icons/issue-icon.png";
 import pendingIcon from "../../images/icons/pending-icon.png";
