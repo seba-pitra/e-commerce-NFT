@@ -164,7 +164,7 @@ function LandingPage({ loggedIn }) {
                     </p>
                   </div>
                 </form> */}
-                <Link to={"/home"} className={styles["link-home"]}>
+                <Link to={"/marketplace"} className={styles["link-home"]}>
                   Home
                 </Link>
               </div>
