@@ -71,10 +71,11 @@ const getEverythingFromDB = async (req, res) => {
             }
         });
         const allUsers = await User.findAll({
-            include : {
-                model : Collection,
-                model : Nft
-            }
+            include : [{
+                model : Collection
+            },{
+                model: Nft
+            }]
         });
         res.status(200).json({
             allUsers : allUsers,
