@@ -359,10 +359,3 @@ export const addBuyAtHistoryBuys = (buyData) => {
       });
   };
 };
-
-// export const searchNFT = (searchQuery) => {
-//     return {
-//         type : SEARCH_NFT,
-//         payload : searchQuery
-//     }
-// }

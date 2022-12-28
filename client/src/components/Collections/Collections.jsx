@@ -20,15 +20,22 @@ function Collections(){
 
   const collectionsCards = collections.map((collection) => {
     if(collection.nfts.length > 5) {
+      let floorPrice = 100
+      collection.nfts.map(nft => { if(nft.price < floorPrice) floorPrice = nft.price })
       return (
-        <Link to={`/collections/${collection.id}`}>
+        <Link to={`/collections/${collection.id}`} className="nolink">
           <div className='collections-conteiner'>
             <img className='collections-img-main' src={collection.image} alt="img-collections" />
             <div className='img-name-conteiner'>
               <img className='collections-img-owner' src={collection.nfts[0].image} alt="img-collections" />
-              <div className='collection-name-conteiner'>             
-                <VerifiedIcon/>
-                <h3 className='collections-name'> {collection.name} </h3>
+              <div>
+                <div className='collection-name-conteiner'>             
+                  <VerifiedIcon/> 
+                  <h3 className='collections-name'> {collection.name} </h3>
+                </div>
+                <div className='collection-name-conteiner'>             
+                  <h3 className='collections-name'> Floor Price ETH: {floorPrice} | {collection.nfts.length} items</h3>
+                </div>
               </div>
             </div>
           </div>

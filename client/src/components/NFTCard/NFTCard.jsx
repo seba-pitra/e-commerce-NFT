@@ -6,6 +6,7 @@ import FavoriteIcon from "@material-ui/icons/Favorite";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 import * as actions from "../../redux/actions";
 import "./NFTCard.css";
+import ethereumLogo from "../../images/ethereum-logo.png";
 
 export default function NFTCard(props) {
 	const activeUserIs = useSelector((state) => state.activeUser);
@@ -48,9 +49,18 @@ export default function NFTCard(props) {
             </div>
             <div>
               <div className="eth-rarity">
-                <h3>Price ETH: {props.price}</h3>{" "}
-                <h3>{props.rarity}</h3>
-                <h3>{props.rarityRank}</h3>
+                <div className="flex-row">
+                  <img src={ethereumLogo} alt="ethereum-logo" className="eth-logo"/>
+                  <h3>{props.price}</h3>
+                </div>
+                <div className="flex-row">
+                  <img src={ethereumLogo} alt="ethereum-logo" className="eth-logo"/>
+                  <h3>{props.rarity}</h3>
+                </div>
+                <div className="flex-row">
+                  <img src={ethereumLogo} alt="ethereum-logo" className="eth-logo"/>
+                  <h3>{props.rarityRank}</h3>
+                </div>
               </div>
               <h4>
                 Last Buy: ETH {props.lastBuy} - ${(props.lastBuy * ethPrice.USD).toFixed(2)} USD
