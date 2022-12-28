@@ -102,7 +102,17 @@ export default function Form() {
     flat: ["Flat", "Other"]
   }
 
-  let handleChange = (e) => {
+
+  // COLLECTIONS FUNCTIONS
+  let selectCollection = (e) => {
+    e.preventDefault();
+    setInput((prev) => ({
+      ...prev,
+      collection: e.target.value
+    }))
+  };
+
+  let inputCollections = (e) => {
     e.preventDefault();
     setAddCollection((prev) => ({
       ...prev,
@@ -115,6 +125,16 @@ export default function Form() {
     dispatch(actions.createCollection(addCollection))
   }; 
 
+
+  // INPUTS FUNCTIONS
+  let handleChange = (e) => {
+    e.preventDefault();
+    setInput((prev) => ({ ...prev, [e.target.name]: e.target.value }));
+    setErrors( validate({ ...input, [e.target.name]: e.target.value }));
+  };
+
+
+  // CATEGORIES FUNCTIONS
   let handleChangeSelect = (e) => {
     e.preventDefault();
     let auxCats = input.categories;
@@ -185,6 +205,8 @@ export default function Form() {
     }));
   };
 
+
+  // CREATE NFT
   let handleSubmit = (e) => {
     e.preventDefault();
     dispatch(actions.createNft(input))
@@ -220,7 +242,7 @@ export default function Form() {
                 type="text"
                 name="collection"
                 value={addCollection.name}
-                onChange={(e) => handleChange(e)}
+                onChange={(e) => inputCollections(e)}
               />
               <button onClick={(e) => submitAddCollection(e)}>add</button>
             </div>
@@ -231,9 +253,9 @@ export default function Form() {
             } >Next
           </button>
 
-          <select onChange={(e) => handleChangeSelect1(e)} name="categories">
+          <select onChange={(e) => selectCollection(e)} name="collections">
               <option hidden disabled selected value> Select collection </option>
-              {allCollections?.map((e) => ( <option value={e.name} name="categories" key={e.name}> {e.name} </option> ))}
+              {allCollections?.map((e) => ( <option value={e.name} name="collections" key={e.name}> {e.name} </option> ))}
             </select>
 
 
