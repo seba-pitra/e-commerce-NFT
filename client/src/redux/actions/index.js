@@ -6,6 +6,7 @@ export const GET_ALL_COLLECTIONS = "GET_ALL_COLLECTIONS";
 export const GET_ALL_USERS = "GET_ALL_USERS";
 export const GET_NFT_DETAIL = "GET_NFT_DETAIL";
 export const GET_USER_BY_ID = "GET_USER_BY_ID";
+export const GET_LOGGED_USER = "GET_LOGGED_USER";
 
 // -- ADMIN ACTIONS --
 export const CREATE_NFT = "CREATE_NFT";
@@ -31,7 +32,8 @@ export const SEARCH_NFT_NAME = "SEARCH_NFT_NAME";
 export const ORDER_NFT_NAME = "ORDER_NFT_NAME";
 export const ORDER_NFT_PRICE = "ORDER_NFT_PRICE";
 export const ORDER_NFT_RARITY = "ORDER_NFT_RARITY";
-export const ORDER_NFT_RARITYRANK = "ORDER_NFT_RARITYRANK";
+export const ORDER_NFT_FAVS = "ORDER_NFT_FAVS";
+export const ORDER_NFT_STARS = "ORDER_NFT_STARS";
 export const ORDER_NFT_LASTBUY = "ORDER_NFT_LASTBUY";
 export const ORDER_NFT_LASTBUYTS = "ORDER_NFT_LASTBUYTS";
 export const ORDER_NFT_AMOUNT = "ORDER_NFT_AMOUNT";
@@ -59,6 +61,9 @@ export const REMOVE_NFT_OF_SHOOPING_CART = "REMOVE_NFT_OF_SHOOPING_CART";
 export const BUY_NFT_ON_SHOOPING_CART = "BUY_NFT_ON_SHOOPING_CART";
 export const DELETE_NFT_ON_SIGNOUT = "DELETE_NFT_ON_SIGNOUT";
 export const ADD_BUY_AT_HISTORY_BUYS = "ADD_BUY_AT_HISTORY_BUYS";
+
+export const ADD_FAV = "ADD_FAV";
+
 
 // -- GETTERS --
 
@@ -133,6 +138,17 @@ export const updateUser = (id, body) => {
       dispatch({ type: GET_USER_BY_ID, payload: update.data });
     } catch (error) {
       alert("There was a connection error, please try again later user");
+    }
+  };
+};
+
+export const getLoggedUser = (id) => {
+  return async (dispatch) => {
+    try {
+      const loggedUser = await axios.get(`/user/${id}`);
+      dispatch({ type: GET_LOGGED_USER, payload: loggedUser.data });
+    } catch (error) {
+      alert("logged user doesn exist");
     }
   };
 };
@@ -215,8 +231,12 @@ export const orderRarity = (payload) => {
   return { type: ORDER_NFT_RARITY, payload };
 };
 
-export const orderRarityRank = (payload) => {
-  return { type: ORDER_NFT_RARITYRANK, payload };
+export const orderFavs = (payload) => {
+  return { type: ORDER_NFT_FAVS, payload };
+};
+
+export const orderStars = (payload) => {
+  return { type: ORDER_NFT_STARS, payload };
 };
 
 export const orderLastBuy = (payload) => {
@@ -360,9 +380,7 @@ export const addBuyAtHistoryBuys = (buyData) => {
   };
 };
 
-// export const searchNFT = (searchQuery) => {
-//     return {
-//         type : SEARCH_NFT,
-//         payload : searchQuery
-//     }
-// }
+// --- FAVS ---
+export const addToFav = () => {
+	return {type: ADD_FAV}
+}
