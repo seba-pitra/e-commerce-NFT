@@ -7,47 +7,49 @@ import logo from "../../images/logo/logo.png";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 import Shoppingkart from "../Shoppingkart/Shoppingkart";
 import Offcanvas from "react-bootstrap/Offcanvas";
-import { signOut } from "firebase/auth"
+import { signOut } from "firebase/auth";
 import { auth } from "../../firebase";
 import "./NFTNav.css";
 import { useDispatch, useSelector } from "react-redux";
+import { Link } from "react-router-dom";
 
 export default function NFTNav() {
   const [show, setShow] = useState(false);
-	const cartItemsCount = useSelector((state) => state.userNfts);
-	const activeUserIs = useSelector((state) => state.activeUser);
-	const userNfts = useSelector((state) => state.userNfts);
+  const cartItemsCount = useSelector((state) => state.userNfts);
+  const activeUserIs = useSelector((state) => state.activeUser);
+  const userNfts = useSelector((state) => state.userNfts);
 
   const location = useLocation();
-  const history = useHistory()
-  const areWeInLanding = (location.pathname === "/");
+  const history = useHistory();
+  const areWeInLanding = location.pathname === "/";
   const handleClose = () => setShow(false);
-  const handleShow = () => {setShow(true); saveLocalStorage();};
+  const handleShow = () => {
+    setShow(true);
+    saveLocalStorage();
+  };
 
   const dispatch = useDispatch();
- 
+
   const logOutFunction = async () => {
     try {
-        await signOut(auth)
-        history.push("/");
-      } catch (error) {
+      await signOut(auth);
+      history.push("/");
+    } catch (error) {
       alert(error.message);
     }
   };
 
   const handdleCick = (e) => {
-	  saveLocalStorage();
+    saveLocalStorage();
     dispatch(freeShoppingCartState());
-	  logOutFunction();
+    logOutFunction();
   };
 
-function saveLocalStorage(){
-localStorage.setItem(activeUserIs,JSON.stringify(userNfts));
-	// activeUserIs == tag of item in localStorage
-	console.log(cartItemsCount );
-}
-
-
+  function saveLocalStorage() {
+    localStorage.setItem(activeUserIs, JSON.stringify(userNfts));
+    // activeUserIs == tag of item in localStorage
+    console.log(cartItemsCount);
+  }
 
   return (
     <div className={areWeInLanding ? "hidden" : "nav-bar"}>
@@ -82,24 +84,15 @@ localStorage.setItem(activeUserIs,JSON.stringify(userNfts));
             <SearchBar />
             <Nav>
               {/* <Nav.Link className="brand-colorized-text" href="/login">Log in</Nav.Link> */}
-              <Nav.Link
-                className="brand-colorized-text"
-                href="http://localhost:3000/marketplace"
-              >
+              <Link className="brand-colorized-text" to={"/marketplace"}>
                 MarketPlace
-              </Nav.Link>
-              <Nav.Link
-                className="brand-colorized-text"
-                href="http://localhost:3000/collections"
-              >
+              </Link>
+              <Link to={"/collections"} className="brand-colorized-text">
                 Collections
-              </Nav.Link>
-              <Nav.Link
-                className="brand-colorized-text"
-                href="http://localhost:3000/developerTeam"
-              >
+              </Link>
+              <Link to={"/developerTeam"} className="brand-colorized-text">
                 Developer Team
-              </Nav.Link>
+              </Link>
               <Nav.Link onClick={handdleCick} className="brand-colorized-text">
                 Logout
               </Nav.Link>
@@ -113,8 +106,10 @@ localStorage.setItem(activeUserIs,JSON.stringify(userNfts));
                 onClick={handleShow}
               >
                 <ShoppingCartIcon />
-		<span id="cart_Numer_Items"  class="badge rounded-circle">{cartItemsCount.length}</span>
-	        </button>
+                <span id="cart_Numer_Items" class="badge rounded-circle">
+                  {cartItemsCount.length}
+                </span>
+              </button>
               {/* slide kart*/}
               <Offcanvas show={show} onHide={handleClose} placement={"end"}>
                 <Offcanvas.Header closeButton>
