@@ -26,6 +26,9 @@ export default function NFTCard(props) {
 		dispatch(actions.addNftOnShoppingCart(props));
 		saveLocalStorage();
 	};
+const handleClickOnFavorites = (e) => {
+		dispatch(actions.addToFav());
+	};
 
 
   return (
@@ -69,7 +72,9 @@ export default function NFTCard(props) {
           </div>
         </Link>
         <div className="CardButtons">
-          <div className="nftCard-icon-container">
+          <div className="nftCard-icon-container"
+	  onClick={handleClickOnFavorites}
+	  >
             <FavoriteIcon />
           </div>
           <div

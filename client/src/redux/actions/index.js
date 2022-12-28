@@ -60,6 +60,9 @@ export const BUY_NFT_ON_SHOOPING_CART = "BUY_NFT_ON_SHOOPING_CART";
 export const DELETE_NFT_ON_SIGNOUT = "DELETE_NFT_ON_SIGNOUT";
 export const ADD_BUY_AT_HISTORY_BUYS = "ADD_BUY_AT_HISTORY_BUYS";
 
+export const ADD_FAV = "ADD_FAV";
+
+
 // -- GETTERS --
 
 export const getAllNfts = () => {
@@ -359,3 +362,8 @@ export const addBuyAtHistoryBuys = (buyData) => {
       });
   };
 };
+
+// --- FAVS ---
+export const addToFav = () => {
+	return {type: ADD_FAV}
+}

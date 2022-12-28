@@ -40,6 +40,7 @@ import {
   LOCAL_STORAGE_CART,
   DELETE_NFT_ON_SIGNOUT,
   ADD_BUY_AT_HISTORY_BUYS,
+  ADD_FAV,
 } from "../actions";
 import * as controllers from "../../utils";
 
@@ -384,7 +385,13 @@ const rootReducer = (state = initialState, action) => {
         activeUser: action.payload,
       };
 
-    // ---
+    // --- FAVS ---
+    case ADD_FAV:
+        console.log('Se Agrego a Favoritos..');
+        return {
+      ...state,   
+        }
+
     case ADD_BUY_AT_HISTORY_BUYS:
       return {
         ...state,
@@ -394,6 +401,8 @@ const rootReducer = (state = initialState, action) => {
     default:
       return { ...state };
   }
+
+
 };
 
 export default rootReducer;
