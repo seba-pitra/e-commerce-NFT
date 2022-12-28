@@ -58,11 +58,11 @@ const handleClickOnFavorites = (e) => {
                 </div>
                 <div className="flex-row">
                   <img src={ethereumLogo} alt="ethereum-logo" className="eth-logo"/>
-                  <h3>{props.rarity}</h3>
+                  <h3>{props.favs}</h3>
                 </div>
                 <div className="flex-row">
                   <img src={ethereumLogo} alt="ethereum-logo" className="eth-logo"/>
-                  <h3>{props.rarityRank}</h3>
+                  <h3>{props.stars}</h3>
                 </div>
               </div>
               <h4>

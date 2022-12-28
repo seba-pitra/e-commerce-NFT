@@ -51,13 +51,19 @@ module.exports = (sequelize) => {
       rarity: {
         type: DataTypes.FLOAT,
       },
-      rarityRank: {
+      favs: {
+        type: DataTypes.FLOAT,
+      },
+      stars: {
         type: DataTypes.FLOAT,
       },
       lastBuyValue: {
         type: DataTypes.FLOAT,
       },
       lastBuyTs: {
+        type: DataTypes.FLOAT,
+      },
+      createdTs: {
         type: DataTypes.FLOAT,
       },
       ownerName: {

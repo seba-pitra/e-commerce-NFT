@@ -23,7 +23,8 @@ import {
   ORDER_NFT_NAME,
   ORDER_NFT_PRICE,
   ORDER_NFT_RARITY,
-  ORDER_NFT_RARITYRANK,
+  ORDER_NFT_FAVS,
+  ORDER_NFT_STARS,
   ORDER_NFT_LASTBUY,
   ORDER_NFT_LASTBUYTS,
   GET_USER_BY_ID,
@@ -301,13 +302,21 @@ const rootReducer = (state = initialState, action) => {
       );
       return { ...state, filteredNfts: orderedbyRarity, activePage: 1 };
 
-    case ORDER_NFT_RARITYRANK:
-      let orderedbyRarityRank = controllers.orderNFTBy(
-        "rarityrank",
+    case ORDER_NFT_FAVS:
+      let orderedbyFavs = controllers.orderNFTBy(
+        "favs",
         state.orderDirection,
         state.filteredNfts
       );
-      return { ...state, filteredNfts: orderedbyRarityRank, activePage: 1 };
+      return { ...state, filteredNfts: orderedbyFavs, activePage: 1 };
+
+    case ORDER_NFT_STARS:
+      let orderedbyStars = controllers.orderNFTBy(
+        "stars",
+        state.orderDirection,
+        state.filteredNfts
+      );
+      return { ...state, filteredNfts: orderedbyStars, activePage: 1 };
 
     case ORDER_NFT_LASTBUY:
       let orderedbyLastBuy = controllers.orderNFTBy(
