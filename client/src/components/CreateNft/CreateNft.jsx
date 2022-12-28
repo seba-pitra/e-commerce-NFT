@@ -6,25 +6,24 @@ import PreviewNft from "./PreviewNft/PreviewNft";
 import * as actions from "../../redux/actions";
 import { useEffect, useRef } from "react";
 
-
-
 export function validate(input) {
   let errors = {
     name: "no data",
     price: "no data",
   };
 
-  if (!/([A-Z])/.test(input.name)) errors = { ...errors, name: "Username is invalid" };
+  if (!/([A-Z])/.test(input.name))
+    errors = { ...errors, name: "Username is invalid" };
   else errors = { ...errors, name: "Name is correct" };
 
-  if (input.price <= 0) errors = { ...errors, price: "Price can not be 0 or less" };
+  if (input.price <= 0)
+    errors = { ...errors, price: "Price can not be 0 or less" };
   else errors = { ...errors, price: "Price is correct" };
-  
+
   return errors;
 }
 
 export default function Form() {
-
   useEffect(() => {
     dispatch(actions.getAllCollections());
   }, []);
@@ -54,7 +53,7 @@ export default function Form() {
       }
     );
   }, []);
-  
+
   let handleUpload = (e) => {
     e.preventDefault();
     widgetRef.current.open();
@@ -62,7 +61,6 @@ export default function Form() {
   // cloudinary <<<
 
   let [input, setInput] = React.useState({
-
     // 1er
     collection: "",
 
@@ -88,7 +86,8 @@ export default function Form() {
 
   const [addCollection, setAddCollection] = React.useState({
     name: "",
-    image: "https://images.pexels.com/photos/12786598/pexels-photo-12786598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image:
+      "https://images.pexels.com/photos/12786598/pexels-photo-12786598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   });
 
   //asi tendria q venir el array de categories,puede cambiar como venga
@@ -99,8 +98,8 @@ export default function Form() {
     type: ["2d", "Other"],
     style: ["Urban", "Other"],
     rest: ["Adult", "Normal"],
-    flat: ["Flat", "Other"]
-  }
+    flat: ["Flat", "Other"],
+  };
 
 
   // COLLECTIONS FUNCTIONS
@@ -116,14 +115,14 @@ export default function Form() {
     e.preventDefault();
     setAddCollection((prev) => ({
       ...prev,
-      name: e.target.value
-    }))
+      name: e.target.value,
+    }));
   };
 
   let submitAddCollection = (e) => {
     e.preventDefault();
-    dispatch(actions.createCollection(addCollection))
-  }; 
+    dispatch(actions.createCollection(addCollection));
+  };
 
 
   // INPUTS FUNCTIONS
@@ -138,70 +137,70 @@ export default function Form() {
   let handleChangeSelect = (e) => {
     e.preventDefault();
     let auxCats = input.categories;
-    auxCats[0] = e.target.value
+    auxCats[0] = e.target.value;
     setInput((prev) => ({
       ...prev,
-      categories: auxCats
-    }))
+      categories: auxCats,
+    }));
   };
 
   let handleChangeSelect1 = (e) => {
     e.preventDefault();
     let auxCats = input.categories;
-    auxCats[1] = e.target.value
+    auxCats[1] = e.target.value;
     setInput((prev) => ({
       ...prev,
-      categories: auxCats
+      categories: auxCats,
     }));
   };
 
   let handleChangeSelect2 = (e) => {
     e.preventDefault();
     let auxCats = input.categories;
-    auxCats[2] = e.target.value
+    auxCats[2] = e.target.value;
     setInput((prev) => ({
       ...prev,
-      categories: auxCats
+      categories: auxCats,
     }));
   };
 
   let handleChangeSelect3 = (e) => {
     e.preventDefault();
     let auxCats = input.categories;
-    auxCats[3] = e.target.value
+    auxCats[3] = e.target.value;
     setInput((prev) => ({
       ...prev,
-      categories: auxCats
+      categories: auxCats,
     }));
   };
 
   let handleChangeSelect4 = (e) => {
     e.preventDefault();
     let auxCats = input.categories;
-    auxCats[4] = e.target.value
+    auxCats[4] = e.target.value;
     setInput((prev) => ({
       ...prev,
-      categories: auxCats
+      categories: auxCats,
     }));
   };
 
   let handleChangeSelect5 = (e) => {
     e.preventDefault();
     let auxCats = input.categories;
-    auxCats[5] = e.target.value
+    auxCats[5] = e.target.value;
     setInput((prev) => ({
       ...prev,
-      categories: auxCats
+      categories: auxCats,
     }));
   };
 
   let handleChangeSelect6 = (e) => {
     e.preventDefault();
     let auxCats = input.categories;
-    auxCats[6] = e.target.value
+    auxCats[6] = e.target.value;
     setInput((prev) => ({
       ...prev,
-      categories: auxCats
+      categories: auxCats,
     }));
   };
 
@@ -209,7 +208,7 @@ export default function Form() {
   // CREATE NFT
   let handleSubmit = (e) => {
     e.preventDefault();
-    dispatch(actions.createNft(input))
+    dispatch(actions.createNft(input));
   };
 
   // --- NEXT - PREV ---
@@ -277,7 +276,9 @@ export default function Form() {
                     <input type={"text"} name={"name"} value={input.name} onChange={(e) => handleChange(e)} placeholder={"NFTs name..."} />
                     <p className={errors.name === 'Name is correct' ? 'greenMsg' : 'redMsg'}>{errors.name}</p>
                   </div>
+
                 </div>
+
 
                 <div className="inputContainer">
                   <h5>Image, video, audio or 3D model</h5>
@@ -298,6 +299,7 @@ export default function Form() {
                     <input type={"number"} name={"price"} value={input.price} onChange={(e) => handleChange(e)} />
                     <p className={errors.price === 'Price is correct' ? 'greenMsg' : 'redMsg'}>{errors.price}</p>
                   </div>
+
                 </div>
 
               </form>
@@ -311,6 +313,7 @@ export default function Form() {
                   </div>
               </div>
 
+
               <div className="buttons-next-prev">
                 <button onClick={back}> back </button>
                 <button onClick={next} disabled={ errors.name !== "Name is correct" || errors.price !== "Price is correct" }> next </button>
@@ -323,53 +326,112 @@ export default function Form() {
           <div className="inputContainer">
             <h5>Category</h5>
             <p> Classify your nft from the following categories. You must select all of them or you will not be able to create the nft </p>
+
             <button className="addCategory"></button>
 
             <select onChange={(e) => handleChangeSelect(e)} name="categories">
-              <option hidden disabled selected value> Specie </option>
-              {allCategories.species.map((e) => ( <option value={e} name="categories" key={e}> {e} </option> ))}
+              <option hidden disabled selected value>
+                {" "}
+                Specie{" "}
+              </option>
+              {allCategories.species.map((e) => (
+                <option value={e} name="categories" key={e}>
+                  {" "}
+                  {e}{" "}
+                </option>
+              ))}
             </select>
-            
+
             <select onChange={(e) => handleChangeSelect1(e)} name="categories">
-              <option hidden disabled selected value> Specie2 </option>
-              {allCategories.species2.map((e) => ( <option value={e} name="categories" key={e}> {e} </option> ))}
+              <option hidden disabled selected value>
+                {" "}
+                Specie2{" "}
+              </option>
+              {allCategories.species2.map((e) => (
+                <option value={e} name="categories" key={e}>
+                  {" "}
+                  {e}{" "}
+                </option>
+              ))}
             </select>
 
             <select onChange={(e) => handleChangeSelect2(e)} name="categories">
-              <option hidden disabled selected value> Art </option>
-              {allCategories.art.map((e) => ( <option value={e} name="categories" key={e}> {e} </option> ))}
+              <option hidden disabled selected value>
+                {" "}
+                Art{" "}
+              </option>
+              {allCategories.art.map((e) => (
+                <option value={e} name="categories" key={e}>
+                  {" "}
+                  {e}{" "}
+                </option>
+              ))}
             </select>
 
             <select onChange={(e) => handleChangeSelect3(e)} name="categories">
-              <option hidden disabled selected value> Type </option>
-              {allCategories.type.map((e) => ( <option value={e} name="categories" key={e}> {e} </option> ))}
+              <option hidden disabled selected value>
+                {" "}
+                Type{" "}
+              </option>
+              {allCategories.type.map((e) => (
+                <option value={e} name="categories" key={e}>
+                  {" "}
+                  {e}{" "}
+                </option>
+              ))}
             </select>
-            
+
             <select onChange={(e) => handleChangeSelect4(e)} name="categories">
-              <option hidden disabled selected value> Style </option>
-              {allCategories.style.map((e) => ( <option value={e} name="categories" key={e}> {e} </option> ))}
+              <option hidden disabled selected value>
+                {" "}
+                Style{" "}
+              </option>
+              {allCategories.style.map((e) => (
+                <option value={e} name="categories" key={e}>
+                  {" "}
+                  {e}{" "}
+                </option>
+              ))}
             </select>
 
             <select onChange={(e) => handleChangeSelect5(e)} name="categories">
-              <option hidden disabled selected value> Rest </option>
-              {allCategories.rest.map((e) => ( <option value={e} name="categories" key={e}> {e} </option> ))}
+              <option hidden disabled selected value>
+                {" "}
+                Rest{" "}
+              </option>
+              {allCategories.rest.map((e) => (
+                <option value={e} name="categories" key={e}>
+                  {" "}
+                  {e}{" "}
+                </option>
+              ))}
             </select>
 
             <select onChange={(e) => handleChangeSelect6(e)} name="categories">
-              <option hidden disabled selected value> Flat </option>
-              {allCategories.flat.map((e) => ( <option value={e} name="categories" key={e}> {e} </option> ))}
+              <option hidden disabled selected value>
+                {" "}
+                Flat{" "}
+              </option>
+              {allCategories.flat.map((e) => (
+                <option value={e} name="categories" key={e}>
+                  {" "}
+                  {e}{" "}
+                </option>
+              ))}
             </select>
-
           </div>
-            
+
           <div className="ilustration-validations">
             <input
-              className={errors.name === 'Name is correct' && errors.price === 'Price is correct' ? 'submit' : 'errorSubmit'}
+              className={
+                errors.name === "Name is correct" &&
+                errors.price === "Price is correct"
+                  ? "submit"
+                  : "errorSubmit"
+              }
               type="submit"
               value={"Create NFT"}
-              disabled={
-                input.categories.includes("")
-              }
+              disabled={input.categories.includes("")}
               onClick={(e) => handleSubmit(e)}
             />
           </div>
@@ -379,9 +441,7 @@ export default function Form() {
           </div>
           
         </fieldset>
-        
       </div>
-
     </React.Fragment>
   );
 }

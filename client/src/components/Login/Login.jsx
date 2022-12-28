@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import {
   gettingActiveUserToState,
   injectLocalStorageCart,
+  getAllUsers,
 } from "../../redux/actions";
 import { useHistory } from "react-router-dom";
 import GoogleIcon from "@mui/icons-material/Google";
@@ -11,8 +12,10 @@ import { signInWithEmailAndPassword, signOut } from "firebase/auth";
 import "./Login.css";
 
 // sendPasswordResetEmail
-const Login = ({ loggedIn }) => {
-  const userNfts = useSelector((state) => state.userNfts);
+const Login = () => {
+  const users = useSelector((state) => state.users);
+  const loggedUser = useSelector((state) => state.loggedUser);
+  const dispatch = useDispatch();
 
   const history = useHistory();
 
@@ -23,19 +26,9 @@ const Login = ({ loggedIn }) => {
 
   const [error, setError] = useState("");
 
-  // const [logged, setLogged] = useState(null);
-  // const [logged, setLogged] = useState(null);
-
-  // useEffect(() => {
-  //   // console.log(logged)
-  //   isLogged();
-  // }, []);
-  // useEffect(() => {
-  //   // console.log(logged)
-  //   isLogged();
-  // }, []);
-
-  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(getAllUsers());
+  }, [dispatch]);
 
   const handdleChange = (e) => {
     setLogginForm({
@@ -57,21 +50,14 @@ const Login = ({ loggedIn }) => {
       profile_pic: auth.currentUser.photoURL,
     };
     fetch("http://localhost:3001/user", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(user),
-        });
-    history.push("/marketplace");
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(user),
+    });
+    setTimeout(() => {
+      history.push("/marketplace");
+    }, 1000);
   };
-
-  // const isLogged = async () => {
-  //   console.log(loggedIn);
-  //   if (loggedIn) {
-  //     setLogged(true);
-  //   } else {
-  //     setLogged(false);
-  //   }
-  // };
 
   const logginFunction = async (params) => {
     try {
@@ -81,6 +67,11 @@ const Login = ({ loggedIn }) => {
         params.password
       );
 
+      if (!users.filter((user) => user.id === loggedUser.user.uid).length) {
+        await signOut(auth);
+        throw new Error("Firebase: Error (auth/user-not-found).");
+      }
+
       if (auth.currentUser.emailVerified && loggedUser) {
         // dispatch(gettingActiveUserToState(auth.currentUser.email));
         // loadLocalStorage(auth.currentUser.email);
@@ -89,14 +80,15 @@ const Login = ({ loggedIn }) => {
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(auth.currentUser),
         });
-        setError("");
-        history.push("/marketplace");
+        setTimeout(() => {
+          setError("");
+          history.push("/marketplace");
+        }, 1000);
       } else {
         setError("Email not verified");
         await signOut(auth);
       }
     } catch (error) {
-      console.log(error.message);
       if (error.message === "Firebase: Error (auth/user-not-found).") {
         setError("User not found");
       }
@@ -124,68 +116,68 @@ const Login = ({ loggedIn }) => {
     });
   };
 
-    if (loggedIn)
-      return (
-        <div className="login-loggedmessage">
-          <p>You've been logged</p>
+  if (Object.keys(loggedUser).length) {
+    return (
+      <div className="login-loggedmessage">
+        <p>You've been logged</p>
+      </div>
+    );
+  } else
+    return (
+      <form>
+        <div className="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
+          <p className="lead fw-normal mb-0 me-3 text-light">Sign in with</p>
+          <button
+            type="button"
+            className="btn btn-dark btn-floating mx-1"
+            onClick={signGoogle}
+          >
+            <GoogleIcon />
+          </button>{" "}
+          */
         </div>
-      );
-    else
-      return (
-        <form>
-          <div className="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
-            <p className="lead fw-normal mb-0 me-3 text-light">Sign in with</p>
-            <button
-              type="button"
-              className="btn btn-dark btn-floating mx-1"
-              onClick={signGoogle}
-            >
-              <GoogleIcon />
-            </button>{" "}
-            */
-          </div>
 
-          {/* <div className="divider d-flex align-items-center my-4">
+        {/* <div className="divider d-flex align-items-center my-4">
         <p className="text-center fw-bold mx-3 mb-0 text-light">
           Or if you have an Account:
         </p>
       </div> */}
 
-          <div className="form-outline mb-4">
-            <label className="form-label text-light" for="EmailField">
-              Email address
-            </label>
-            <input
-              onChange={handdleChange}
-              name="email"
-              type="email"
-              id="EmailField"
-              className="form-control form-control-lg"
-              placeholder="Enter a valid email address"
-              value={logginForm.email}
-            />
-          </div>
+        <div className="form-outline mb-4">
+          <label className="form-label text-light" for="EmailField">
+            Email address
+          </label>
+          <input
+            onChange={handdleChange}
+            name="email"
+            type="email"
+            id="EmailField"
+            className="form-control form-control-lg"
+            placeholder="Enter a valid email address"
+            value={logginForm.email}
+          />
+        </div>
 
-          <div className="form-outline mb-3">
-            <label className="form-label text-light" for="PassField">
-              Password
-            </label>
-            <input
-              onChange={handdleChange}
-              name="password"
-              type="password"
-              id="PassField"
-              className="form-control form-control-lg"
-              placeholder="Enter password"
-              value={logginForm.password}
-            />
-          </div>
+        <div className="form-outline mb-3">
+          <label className="form-label text-light" for="PassField">
+            Password
+          </label>
+          <input
+            onChange={handdleChange}
+            name="password"
+            type="password"
+            id="PassField"
+            className="form-control form-control-lg"
+            placeholder="Enter password"
+            value={logginForm.password}
+          />
+        </div>
 
-          <div className={`login-errormessage ${error ? "" : "noneDisplay"}`}>
-            <p>{error}</p>
-          </div>
+        <div className={`login-errormessage ${error ? "" : "noneDisplay"}`}>
+          <p>{error}</p>
+        </div>
 
-          {/* <div className="d-flex justify-content-between align-items-center">
+        {/* <div className="d-flex justify-content-between align-items-center">
         <div className="form-check mb-0">
           <input
             className="form-check-input me-2"
@@ -206,17 +198,18 @@ const Login = ({ loggedIn }) => {
         </a>
       </div> */}
 
-          <div className="text-center text-lg-start mt-4 pt-2">
-            <button
-              onClick={handdleSubmit}
-              type="button"
-              className="btn btn-dark btn-lg"
-              style={{ paddingLeft: "2.5rem", paddingRight: "2.5rem" }}
-            >
-              Login
-            </button>
+        <div className="text-center text-lg-start mt-4 pt-2">
+          <button
+            onClick={handdleSubmit}
+            type="button"
+            className="btn btn-dark btn-lg"
+            style={{ paddingLeft: "2.5rem", paddingRight: "2.5rem" }}
+            disabled={!users.length}
+          >
+            Login
+          </button>
 
-            {/* <Link to="/home">
+          {/* <Link to="/home">
           <button
             type="button"
             className="btn btn-dark btn-lg"
@@ -230,19 +223,19 @@ const Login = ({ loggedIn }) => {
           </button>
         </Link> */}
 
-            <p className="small fw-bold mt-2 pt-1 mb-0 text-light">
-              Don't have an account?{" "}
-              <a href="/registrer" className="link-danger">
-                Register
-              </a>
-              <> </>
-              <a href="/recovery" className="link-danger">
-                Recovery your password
-              </a>
-            </p>
-          </div>
-        </form>
-      );
+          <p className="small fw-bold mt-2 pt-1 mb-0 text-light">
+            Don't have an account?{" "}
+            <a href="/registrer" className="link-danger">
+              Register
+            </a>
+            <> </>
+            <a href="/recovery" className="link-danger">
+              Recovery your password
+            </a>
+          </p>
+        </div>
+      </form>
+    );
 };
 
 export default Login;

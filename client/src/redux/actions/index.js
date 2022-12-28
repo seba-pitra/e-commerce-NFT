@@ -6,6 +6,7 @@ export const GET_ALL_COLLECTIONS = "GET_ALL_COLLECTIONS";
 export const GET_ALL_USERS = "GET_ALL_USERS";
 export const GET_NFT_DETAIL = "GET_NFT_DETAIL";
 export const GET_USER_BY_ID = "GET_USER_BY_ID";
+export const GET_LOGGED_USER = "GET_LOGGED_USER";
 
 // -- ADMIN ACTIONS --
 export const CREATE_NFT = "CREATE_NFT";
@@ -137,6 +138,17 @@ export const updateUser = (id, body) => {
       dispatch({ type: GET_USER_BY_ID, payload: update.data });
     } catch (error) {
       alert("There was a connection error, please try again later user");
+    }
+  };
+};
+
+export const getLoggedUser = (id) => {
+  return async (dispatch) => {
+    try {
+      const loggedUser = await axios.get(`/user/${id}`);
+      dispatch({ type: GET_LOGGED_USER, payload: loggedUser.data });
+    } catch (error) {
+      alert("logged user doesn exist");
     }
   };
 };
