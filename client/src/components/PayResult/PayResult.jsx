@@ -9,6 +9,9 @@ import { Link } from "react-router-dom";
 function PayResult(props) {
   const dispatch = useDispatch();
 
+  const nodemailer = require('nodemailer');
+
+
   let userNfts = JSON.parse(localStorage.getItem("nftsOnShoppingCart"));
 
   let totalAmount = 0;
@@ -110,6 +113,49 @@ function PayResult(props) {
     purchases: userNfts,
   };
 
+// ------- send mail
+
+async function SendingMail() {
+  let testAccount = await nodemailer.createTestAccount();
+
+	// create transporter SMTP transport
+	let transporter = nodemailer.createTransport({
+		host: "mail.gruponucleon.com",
+		port: 587,
+		secure: false, // true for 465, false for other ports
+		auth: {
+			user: "andresarzate@gruponucleon.com", 
+			pass: "Henry-Nodejs-2022", 
+		},
+		tls:{ 
+			secure: false,
+			ignoreTLS: true,
+			rejectUnauthorized: false
+		},
+	});  
+	
+	// messages ----------------------
+
+	let info = await transporter.sendMail({
+		from: '"Principal" <andresarzate@gruponucleon.com>', 
+		to: "direccion@gruponucleon.com", // receivers
+		subject: "Hello world", // Subject line
+		text: "Hello world? all works fine!!", // plain text body
+		html: "<b>Se puede incluir html?</b>", // html body
+	});
+
+	// -------------------------------
+}
+// Shebang function
+// SendingMail().catch(console.error);
+// ----------------SendMail End-
+
+
+
+
+
+
+
   const validate =
     window.location.href.includes("collection_status") &&
     window.location.href.includes("external_reference");
@@ -121,12 +167,14 @@ function PayResult(props) {
         ...mercadoPagoBuyData,
         statusPay: "Successed",
       };
+
     } else if (window.location.href.includes("failure")) {
       resultContainer = failureContainer;
       mercadoPagoBuyData = {
         ...mercadoPagoBuyData,
         statusPay: "Rejected",
       };
+ SendingMail().catch(console.error);
     } else if (window.location.href.includes("pending")) {
       resultContainer = pendingContainer;
       mercadoPagoBuyData = {
