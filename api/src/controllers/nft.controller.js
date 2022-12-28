@@ -3,6 +3,8 @@ const { Nft, Collection, User } = require("../db");
 
 const { superUser } = require("../jsondata/superUserData.json");
 
+const utils = require("../utils")
+
 const superUserId = superUser.id;
 // Devuelve todos los nfts de la base da datos junto con su coleccion asignada.
 const getNfts = async (req, res) => {
@@ -228,57 +230,17 @@ const nftCreator = async (nftsToCreate, responseArray) => {
   });
 
   for (const nft of nftsToCreate) {
-    let nftName =
-      nft.token.name ||
-      nft.token.collection.name + " #" + nft.token.tokenId;
+    //se diseña el name en base a los datos.
+    let nftName =  utils.nftNameCreatorFor(nft)
 
-    nftName =
-      nftName.charAt(0) === "#"
-        ? nft.token.collection.name + " " + nftName
-        : nftName;
-    nftName = nftName.includes("#")
-      ? nftName
-      : nftName + " #" + nft.token.tokenId;
+    //se calcula el precio de la ultima compra
+    let priceLastBuy = utils.priceLastBuyCalculatorFor(nft);
 
-    let priceLastBuy = 0;
+    //se genera el objeto para inyectar en la base de datos.
+    let nftToDb = utils.nftObjectCreatorFrom(nft, nftName, priceLastBuy);
 
-    if (nft.token.lastSell.value === null) {
-      priceLastBuy =
-        nft.market.floorAsk.price.amount.decimal -
-        nft.market.floorAsk.price.amount.decimal * 0.1;
-    } else priceLastBuy = nft.token.lastSell.value;
-
-    let nftToDB = {
-      name: nftName,
-      description: nft.token.description || "No description",
-      image: nft.token.image || "No image",
-      contract: nft.token.contract,
-      category: nft.token.category || [
-        "Other",
-        "Other",
-        "Other",
-        "Other",
-        "Other",
-        "Other",
-        "Other",
-      ],
-      tokenId: nft.token.tokenId,
-      price: nft.market.floorAsk.price.amount.decimal,
-      rarity:
-        Math.floor(nft.token.rarity) ||
-        Math.floor(Math.random() * 20000 + 9000),
-      favs: 0,
-      stars: 0,
-      lastBuyValue: priceLastBuy.toFixed(2),
-      lastBuyTs: Math.floor(Math.random() * 28857600 + 1640995200), // enero 2022 - actual
-      createdTs: Math.floor(Math.random() * 60000000 + 1577836800), // enero 2022 - enero 2022
-      ownerName: nft.market.floorAsk.source.name || "Non Fungible Town",
-      ownerIcon:
-        nft.market.floorAsk.source.icon ||
-        "https://raw.githubusercontent.com/seba-pitra/e-commerce-NFT/main/client/src/images/logo/logo.png",
-    };
-
-    const nftInDb = await Nft.create(nftToDB);
+    const nftInDb = await Nft.create(nftToDb);
+    
     const correspondingCollection = await Collection.findOne({
       where: {
         contract: nft.token.collection.id,
