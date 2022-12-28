@@ -20,15 +20,19 @@ import { auth } from "./firebase.js";
 import { onAuthStateChanged } from "firebase/auth";
 import Recovery from "./components/Recovery/Recovery";
 import PayResult from "./components/PayResult/PayResult";
-import UserProfile from "./components/UserComponents/UserProfile/UserProfile";
+import AdminUserProfile from "./components/UserComponents/UserProfile/AdminUserProfile";
+import { getLoggedUser, GET_LOGGED_USER } from "./redux/actions";
+import { useDispatch } from "react-redux";
 
 function App() {
-  const [loggedIn, setLoggedIn] = useState(true);
+  const dispatch = useDispatch();
   onAuthStateChanged(auth, (user) => {
     if (user) {
-      setLoggedIn(true);
+      dispatch(getLoggedUser(auth.currentUser.uid));
+      console.log("Estoy loggeadi");
     } else {
-      setLoggedIn(false);
+      console.log("NO estoy loggeado");
+      dispatch({ type: GET_LOGGED_USER, payload: {} });
     }
   });
 
@@ -37,71 +41,23 @@ function App() {
       <NFTNav></NFTNav>
       <React.Fragment>
         <Switch>
-          <Route
-            exact
-            path="/"
-            render={() => <LandingPage loggedIn={loggedIn} />}
-          />
-          <Route
-            exact
-            path="/home"
-            render={() => <HomePage loggedIn={loggedIn} />}
-          />
-          <Route
-            exact
-            path="/registrer"
-            render={() => <Register loggedIn={loggedIn} />}
-          />
-          <Route
-            exact
-            path="/recovery"
-            render={() => <Recovery loggedIn={loggedIn} />}
-          />
-          <Route
-            exact
-            path="/marketplace"
-            render={() => <MarketPlace loggedIn={loggedIn} />}
-          />
-          <Route
-            exact
-            path="/collections"
-            render={() => <Collections loggedIn={loggedIn} />}
-          />
+          <Route exact path="/" render={() => <LandingPage />} />
+          <Route exact path="/home" render={() => <HomePage />} />
+          <Route exact path="/registrer" render={() => <Register />} />
+          <Route exact path="/recovery" render={() => <Recovery />} />
+          <Route exact path="/marketplace" render={() => <MarketPlace />} />
+          <Route exact path="/collections" render={() => <Collections />} />
           <Route
             exact
             path="/collections/:id"
-            render={() => <CollectionDetail loggedIn={loggedIn} />}
+            render={() => <CollectionDetail />}
           />
-          <Route
-            exact
-            path="/developerTeam"
-            render={() => <DeveloperTeam loggedIn={loggedIn} />}
-          />
-          <Route
-            exact
-            path="/createNft"
-            render={() => <CreateNft loggedIn={loggedIn} />}
-          />
-          <Route
-            exact
-            path="/pay/success"
-            render={() => <PayResult loggedIn={loggedIn} />}
-          />
-          <Route
-            exact
-            path="/pay/failure"
-            render={() => <PayResult loggedIn={loggedIn} />}
-          />
-          <Route
-            exact
-            path="/pay/pending"
-            render={() => <PayResult loggedIn={loggedIn} />}
-          />
-          <Route
-            exact
-            path="/user/:id"
-            render={() => <UserProfile loggedIn={loggedIn} />}
-          />
+          <Route exact path="/developerTeam" render={() => <DeveloperTeam />} />
+          <Route exact path="/createNft" render={() => <CreateNft />} />
+          <Route exact path="/pay/success" render={() => <PayResult />} />
+          <Route exact path="/pay/failure" render={() => <PayResult />} />
+          <Route exact path="/pay/pending" render={() => <PayResult />} />
+          <Route exact path="/user/:id" render={() => <AdminUserProfile />} />
 
           <Route
             exact

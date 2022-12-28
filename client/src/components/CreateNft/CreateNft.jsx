@@ -3,8 +3,9 @@ import "./CreateNft.css";
 import "../NFTCard/NFTCard.css";
 import PreviewNft from "./PreviewNft/PreviewNft";
 import { createNft } from "../../redux/actions/index";
-
+import { useHistory } from "react-router-dom";
 import { useEffect, useRef } from "react";
+import { useSelector } from "react-redux";
 export function validate(input) {
   let errors = {
     name: "no data",
@@ -26,7 +27,10 @@ export function validate(input) {
   console.log(errors);
   return errors;
 }
-export default function Form() {
+export default function Form({ loggedIn }) {
+  const loggedUser = useSelector((state) => state.loggedUser);
+  const history = useHistory();
+
   let [input, setInput] = React.useState({
     name: "",
     description: "",
@@ -43,22 +47,31 @@ export default function Form() {
   const widgetRef = useRef();
 
   useEffect(() => {
-    cloudinaryRef.current = window.cloudinary;
-    console.log(cloudinaryRef.current);
-    widgetRef.current = cloudinaryRef.current.createUploadWidget(
-      {
-        cloudName: "dwyhztlkw",
-        uploadPreset: "non_fungible_town",
-      },
-      function (error, result) {
-        if (result.info.files) {
-          let urlImg = result.info.files[0].uploadInfo.secure_url;
-          console.log(result.info.files[0].uploadInfo.secure_url);
-          setInput((prev) => ({ ...prev, image: urlImg }));
-        }
-      }
-    );
+    validateUser();
   }, []);
+
+  const validateUser = async () => {
+    if (Object.keys(loggedUser).length) {
+      cloudinaryRef.current = window.cloudinary;
+      console.log(cloudinaryRef.current);
+      widgetRef.current = cloudinaryRef.current.createUploadWidget(
+        {
+          cloudName: "dwyhztlkw",
+          uploadPreset: "non_fungible_town",
+        },
+        function (error, result) {
+          if (result.info.files) {
+            let urlImg = result.info.files[0].uploadInfo.secure_url;
+            console.log(result.info.files[0].uploadInfo.secure_url);
+            setInput((prev) => ({ ...prev, image: urlImg }));
+          }
+        }
+      );
+    } else {
+      history.push("/");
+    }
+  };
+
   let handleUpload = (e) => {
     e.preventDefault();
     widgetRef.current.open();
@@ -104,10 +117,10 @@ export default function Form() {
         name: `${input.name.toUpperCase()} #`,
         image: input.image,
       },
-      source:{
-        domain:'',
-        name:'',
-        icon:''
+      source: {
+        domain: "",
+        name: "",
+        icon: "",
       },
       description: input.description,
       type: input.type,
@@ -129,23 +142,27 @@ export default function Form() {
             <div className="inputContainer">
               <label>Name</label>
               <div className="inputAndErrorsMsg">
-              <input
-                type={"text"}
-                name={"name"}
-                value={input.name}
-                onChange={(e) => handleChange(e)}
-                placeholder={"NFTs name..."}
-              />
-              <p className={errors.name === 'Name is correct' ? 'greenMsg' : 'redMsg'}>{errors.name}</p>
+                <input
+                  type={"text"}
+                  name={"name"}
+                  value={input.name}
+                  onChange={(e) => handleChange(e)}
+                  placeholder={"NFTs name..."}
+                />
+                <p
+                  className={
+                    errors.name === "Name is correct" ? "greenMsg" : "redMsg"
+                  }
+                >
+                  {errors.name}
+                </p>
               </div>
-              
-
             </div>
             <div className="inputContainer">
               <h3>Image,video,audio or 3D model</h3>
-              <button
-              className="upload-file" 
-              onClick={(e) => handleUpload(e)}>Upload</button>
+              <button className="upload-file" onClick={(e) => handleUpload(e)}>
+                Upload
+              </button>
 
               <p>
                 File types supported: JPG, PNG, GIF, SVG, MP4, WEBM, MP3, WAV,
@@ -199,13 +216,19 @@ export default function Form() {
               <label>Price</label>
               <p>Put the price only in Ethereum</p>
               <div className="inputAndErrorsMsg">
-              <input
-                type={"number"}
-                name={"price"}
-                value={input.price}
-                onChange={(e) => handleChange(e)}
-              />
-              <p className={errors.price === 'Price is correct' ? 'greenMsg' : 'redMsg'}>{errors.price}</p>
+                <input
+                  type={"number"}
+                  name={"price"}
+                  value={input.price}
+                  onChange={(e) => handleChange(e)}
+                />
+                <p
+                  className={
+                    errors.price === "Price is correct" ? "greenMsg" : "redMsg"
+                  }
+                >
+                  {errors.price}
+                </p>
               </div>
             </div>
 
@@ -242,9 +265,14 @@ export default function Form() {
               tokenId={input.tokenId}
             />
           </div>
-          
+
           <input
-            className={errors.name === 'Name is correct' && errors.price === 'Price is correct' ? 'submit' : 'errorSubmit'}
+            className={
+              errors.name === "Name is correct" &&
+              errors.price === "Price is correct"
+                ? "submit"
+                : "errorSubmit"
+            }
             type="submit"
             value={"Create NFT"}
             disabled={

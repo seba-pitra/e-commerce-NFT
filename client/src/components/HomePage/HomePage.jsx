@@ -1,42 +1,37 @@
-import * as actions from '../../redux/actions'
-import { useDispatch, useSelector } from 'react-redux';
-import { useEffect } from 'react'; 
-import { useHistory } from 'react-router-dom';
-import { loggedIn } from '../../firebase';
-import "./HomePage.css"
+import * as actions from "../../redux/actions";
+import { useDispatch, useSelector } from "react-redux";
+import { useEffect } from "react";
+import { useHistory } from "react-router-dom";
+import "./HomePage.css";
 
+function HomePage() {
+  const order = useSelector((state) => state.orderDirection);
+  const loggedUser = useSelector((state) => state.loggedUser);
+  const dispatch = useDispatch();
+  const history = useHistory();
 
-function HomePage(){
+  // useEffect(() => {
+  //     dispatch(actions.getAllNfts());
+  //     dispatch(actions.getAllCollections())
+  // },[dispatch]);
 
-    const order = useSelector(state => state.orderDirection)
-    const dispatch = useDispatch();
-    const history = useHistory()
+  useEffect(() => {}, [order]);
 
-    // useEffect(() => {
-    //     dispatch(actions.getAllNfts());
-    //     dispatch(actions.getAllCollections())
-    // },[dispatch]);
-
-    useEffect(()=> {}, [order])
-
-    useEffect(()=>{
-        validateUser()
-    },[dispatch])
-    const validateUser = async () => {
-        try {
-          if(loggedIn){
-            dispatch(actions.getAllNfts());
-            dispatch(actions.getAllCollections())
-          }
-          
-        } catch (error) {
-            history.push("/marketplace")
-        }
+  useEffect(() => {
+    validateUser();
+  }, [dispatch]);
+  const validateUser = async () => {
+    if (loggedUser) {
+      dispatch(actions.getAllNfts());
+      dispatch(actions.getAllCollections());
+    } else {
+      history.push("/");
     }
+  };
 
-    return(
-        <>
-        {/* <div className='carrousel1'>
+  return (
+    <>
+      {/* <div className='carrousel1'>
             <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="false">
             <div className="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -160,8 +155,8 @@ function HomePage(){
 			<span class="js-slider-arrow slider-arrow right"></span>
 		</div>
 	</section> */}
-        </>
-    )
+    </>
+  );
 }
 
 export default HomePage;
