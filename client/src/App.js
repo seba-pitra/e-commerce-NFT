@@ -20,7 +20,6 @@ import { auth } from "./firebase.js";
 import { onAuthStateChanged } from "firebase/auth";
 import Recovery from "./components/Recovery/Recovery";
 import PayResult from "./components/PayResult/PayResult";
-import AdminUserProfile from "./components/UserComponents/UserProfile/AdminUserProfile";
 import { getLoggedUser, GET_LOGGED_USER } from "./redux/actions";
 import { useDispatch } from "react-redux";
 
@@ -57,7 +56,6 @@ function App() {
           <Route exact path="/pay/success" render={() => <PayResult />} />
           <Route exact path="/pay/failure" render={() => <PayResult />} />
           <Route exact path="/pay/pending" render={() => <PayResult />} />
-          <Route exact path="/user/:id" render={() => <AdminUserProfile />} />
 
           <Route
             exact
