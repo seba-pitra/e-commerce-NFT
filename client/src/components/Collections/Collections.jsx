@@ -12,6 +12,7 @@ function Collections() {
   const loggedUser = useSelector((state) => state.loggedUser);
   const history = useHistory();
   const dispatch = useDispatch();
+
   useEffect(() => {
     validateUser();
   }, [dispatch]);
@@ -25,44 +26,34 @@ function Collections() {
     }
   };
 
-  const nfts = useSelector((state) => state.nfts);
   const collections = useSelector((state) => state.collections);
-
   const isLoading = useSelector((state) => state.isLoading);
 
-  const collectionsCards = collections.map((e) => {
-    let x = false;
-    return (
-      <Link to={`/collections/${e.id}`}>
-        <div className="collections-conteiner">
-          <img
-            className="collections-img-main"
-            src={e.image}
-            alt="img-collections"
-          />
-          <div className="img-name-conteiner">
-            {nfts.map((a) => {
-              if (a.collectionId === e.id) {
-                if (x === false) {
-                  x = true;
-                  return (
-                    <img
-                      className="collections-img-owner"
-                      src={a.image}
-                      alt="img-collections"
-                    />
-                  );
-                }
-              }
-            })}
-            <div className="collection-name-conteiner">
-              <VerifiedIcon />
-              <h3 className="collections-name"> {e.name} </h3>
+  const collectionsCards = collections.map((collection) => {
+    if (collection.nfts.length > 5) {
+      return (
+        <Link to={`/collections/${collection.id}`}>
+          <div className="collections-conteiner">
+            <img
+              className="collections-img-main"
+              src={collection.image}
+              alt="img-collections"
+            />
+            <div className="img-name-conteiner">
+              <img
+                className="collections-img-owner"
+                src={collection.nfts[0].image}
+                alt="img-collections"
+              />
+              <div className="collection-name-conteiner">
+                <VerifiedIcon />
+                <h3 className="collections-name"> {collection.name} </h3>
+              </div>
             </div>
           </div>
-        </div>
-      </Link>
-    );
+        </Link>
+      );
+    }
   });
 
   return (

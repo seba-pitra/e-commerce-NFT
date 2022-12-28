@@ -1,287 +1,480 @@
-import React from "react";
+import React, { useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
 import "./CreateNft.css";
 import "../NFTCard/NFTCard.css";
 import PreviewNft from "./PreviewNft/PreviewNft";
-import { createNft } from "../../redux/actions/index";
-import { useHistory } from "react-router-dom";
+import * as actions from "../../redux/actions";
 import { useEffect, useRef } from "react";
-import { useSelector } from "react-redux";
+
 export function validate(input) {
   let errors = {
     name: "no data",
     price: "no data",
   };
 
-  console.log(input);
-
-  if (!/([A-Z])/.test(input.name)) {
+  if (!/([A-Z])/.test(input.name))
     errors = { ...errors, name: "Username is invalid" };
-  } else {
-    errors = { ...errors, name: "Name is correct" };
-  }
-  if (input.price <= 0) {
+  else errors = { ...errors, name: "Name is correct" };
+
+  if (input.price <= 0)
     errors = { ...errors, price: "Price can not be 0 or less" };
-  } else {
-    errors = { ...errors, price: "Price is correct" };
-  }
-  console.log(errors);
+  else errors = { ...errors, price: "Price is correct" };
+
   return errors;
 }
-export default function Form({ loggedIn }) {
-  const loggedUser = useSelector((state) => state.loggedUser);
-  const history = useHistory();
 
-  let [input, setInput] = React.useState({
-    name: "",
-    description: "",
-    type: "bid",
-    contract: "non-contract-yet",
-    collection: "",
-    link: "",
-    categories: [],
-    price: 0,
-    image: "no image found",
-    available: true,
-  });
+export default function Form() {
+  useEffect(() => {
+    dispatch(actions.getAllCollections());
+  }, []);
+
+  const dispatch = useDispatch();
+
+  const allCollections = useSelector((state) => state.collections);
+
+  // cloudinary >>>
   const cloudinaryRef = useRef();
   const widgetRef = useRef();
 
   useEffect(() => {
-    validateUser();
-  }, []);
-
-  const validateUser = async () => {
-    if (Object.keys(loggedUser).length) {
-      cloudinaryRef.current = window.cloudinary;
-      console.log(cloudinaryRef.current);
-      widgetRef.current = cloudinaryRef.current.createUploadWidget(
-        {
-          cloudName: "dwyhztlkw",
-          uploadPreset: "non_fungible_town",
-        },
-        function (error, result) {
-          if (result.info.files) {
-            let urlImg = result.info.files[0].uploadInfo.secure_url;
-            console.log(result.info.files[0].uploadInfo.secure_url);
-            setInput((prev) => ({ ...prev, image: urlImg }));
-          }
+    cloudinaryRef.current = window.cloudinary;
+    console.log(cloudinaryRef.current);
+    widgetRef.current = cloudinaryRef.current.createUploadWidget(
+      {
+        cloudName: "dwyhztlkw",
+        uploadPreset: "non_fungible_town",
+      },
+      function (error, result) {
+        if (result.info.files) {
+          let urlImg = result.info.files[0].uploadInfo.secure_url;
+          console.log(result.info.files[0].uploadInfo.secure_url);
+          setInput((prev) => ({ ...prev, image: urlImg }));
         }
-      );
-    } else {
-      history.push("/");
-    }
-  };
+      }
+    );
+  }, []);
 
   let handleUpload = (e) => {
     e.preventDefault();
     widgetRef.current.open();
   };
+  // cloudinary <<<
+
+  let [input, setInput] = React.useState({
+    // 1er
+    collection: "",
+
+    // 2do
+    name: "",
+    description: "",
+    image: "no image found",
+    price: 0,
+
+    // 3er
+    categories: ["", "", "", "", "", "", ""],
+
+    // autofill
+    contract: "non-contract-yet",
+    ownerName: "banx",
+    ownerIcon: "",
+  });
 
   const [errors, setErrors] = React.useState({
     name: "no data",
     price: "no data",
   });
 
+  const [addCollection, setAddCollection] = React.useState({
+    name: "",
+    image:
+      "https://images.pexels.com/photos/12786598/pexels-photo-12786598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  });
+
   //asi tendria q venir el array de categories,puede cambiar como venga
-  let categories = ["humanoid", "cyberpunk", "object", "animal"];
+  const allCategories = {
+    species: ["Animal", "Humanoid", "Other"],
+    species2: ["Cat", "Other"],
+    art: ["Artist", "Other"],
+    type: ["2d", "Other"],
+    style: ["Urban", "Other"],
+    rest: ["Adult", "Normal"],
+    flat: ["Flat", "Other"],
+  };
 
   let handleChange = (e) => {
     e.preventDefault();
-    setInput((prev) => ({ ...prev, [e.target.name]: e.target.value }));
-    console.log(input);
-    setErrors(
-      validate({
-        ...input,
-        [e.target.name]: e.target.value,
-      })
-    );
+    setAddCollection((prev) => ({
+      ...prev,
+      name: e.target.value,
+    }));
+  };
+
+  let submitAddCollection = (e) => {
+    e.preventDefault();
+    dispatch(actions.createCollection(addCollection));
   };
 
   let handleChangeSelect = (e) => {
-    if (!input.categories.includes(e.target.value)) {
-      setInput((prev) => ({
-        ...prev,
-        categories: [...input.categories, e.target.value],
-      }));
-    }
-    console.log(input);
+    e.preventDefault();
+    let auxCats = input.categories;
+    auxCats[0] = e.target.value;
+    setInput((prev) => ({
+      ...prev,
+      categories: auxCats,
+    }));
+  };
+
+  let handleChangeSelect1 = (e) => {
+    e.preventDefault();
+    let auxCats = input.categories;
+    auxCats[1] = e.target.value;
+    setInput((prev) => ({
+      ...prev,
+      categories: auxCats,
+    }));
+  };
+
+  let handleChangeSelect2 = (e) => {
+    e.preventDefault();
+    let auxCats = input.categories;
+    auxCats[2] = e.target.value;
+    setInput((prev) => ({
+      ...prev,
+      categories: auxCats,
+    }));
+  };
+
+  let handleChangeSelect3 = (e) => {
+    e.preventDefault();
+    let auxCats = input.categories;
+    auxCats[3] = e.target.value;
+    setInput((prev) => ({
+      ...prev,
+      categories: auxCats,
+    }));
+  };
+
+  let handleChangeSelect4 = (e) => {
+    e.preventDefault();
+    let auxCats = input.categories;
+    auxCats[4] = e.target.value;
+    setInput((prev) => ({
+      ...prev,
+      categories: auxCats,
+    }));
+  };
+
+  let handleChangeSelect5 = (e) => {
+    e.preventDefault();
+    let auxCats = input.categories;
+    auxCats[5] = e.target.value;
+    setInput((prev) => ({
+      ...prev,
+      categories: auxCats,
+    }));
+  };
+
+  let handleChangeSelect6 = (e) => {
+    e.preventDefault();
+    let auxCats = input.categories;
+    auxCats[6] = e.target.value;
+    setInput((prev) => ({
+      ...prev,
+      categories: auxCats,
+    }));
   };
 
   let handleSubmit = (e) => {
     e.preventDefault();
-    let obj = {
-      name: input.name,
-      price: input.price,
-      tokenData: {
-        tokenId: "",
-        name: `${input.name.toUpperCase()} #`,
-        image: input.image,
-      },
-      source: {
-        domain: "",
-        name: "",
-        icon: "",
-      },
-      description: input.description,
-      type: input.type,
-      available: input.available,
-      category: input.categories,
-      //imprescindibles falta contract y tokenId ,que eso se tiene que crear solo. y esperar a q esa info devuelta correctamente.
-      //source{domain,name,icon} supongo q viene de la cuenta del que crea el nft
-    };
-    // dispatch(createNft(obj))
+    dispatch(actions.createNft(input));
   };
+
+  // --- NEXT - PREV ---
+  const [createStep, setCreateStep] = useState(1);
+
+  const next = (e) => {
+    e.preventDefault();
+    setCreateStep(createStep + 1);
+  };
+
+  const back = (e) => {
+    e.preventDefault();
+    setCreateStep(createStep - 1);
+  };
+
+  // const restart = (e) => {
+  //   e.preventDefault();
+  //   setCreateStep(1);
+  // };
 
   return (
     <React.Fragment>
       <div className="mainContainer">
-        <div className="createNftContainer">
-          <h1>Create Non Fungible Token</h1>
+        <fieldset
+          className={`info-fieldset ${createStep !== 1 ? "noneDisplay" : ""}`}
+        >
+          <div className="inputContainer">
+            <label>Collection</label>
+            <p>This is the collection where your item will appear.</p>
+            <input
+              type="text"
+              name="collection"
+              value={addCollection.name}
+              onChange={(e) => handleChange(e)}
+            />
+            <button onClick={(e) => submitAddCollection(e)}>add</button>
+          </div>
+          <button onClick={next} disabled={input.collection === ""}>
+            Next
+          </button>
 
-          <form className="createNft">
-            <div className="inputContainer">
-              <label>Name</label>
-              <div className="inputAndErrorsMsg">
+          <select onChange={(e) => handleChangeSelect1(e)} name="categories">
+            <option hidden disabled selected value>
+              {" "}
+              Select collection{" "}
+            </option>
+            {allCollections?.map((e) => (
+              <option value={e.name} name="categories" key={e.name}>
+                {" "}
+                {e.name}{" "}
+              </option>
+            ))}
+          </select>
+        </fieldset>
+
+        <fieldset
+          className={`info-fieldset ${createStep !== 2 ? "noneDisplay" : ""}`}
+        >
+          <div className="createNftContainer">
+            <form className="createNft">
+              <div className="inputContainer">
+                <label>Name</label>
+                <div className="inputAndErrorsMsg">
+                  <input
+                    type={"text"}
+                    name={"name"}
+                    value={input.name}
+                    onChange={(e) => handleChange(e)}
+                    placeholder={"NFTs name..."}
+                  />
+                  <p
+                    className={
+                      errors.name === "Name is correct" ? "greenMsg" : "redMsg"
+                    }
+                  >
+                    {errors.name}
+                  </p>
+                </div>
+              </div>
+
+              <div className="inputContainer">
+                <h3>Image,video,audio or 3D model</h3>
+                <button
+                  className="upload-file"
+                  onClick={(e) => handleUpload(e)}
+                >
+                  Upload
+                </button>
+                <p>
+                  File types supported: JPG, PNG, GIF, SVG, MP4, WEBM, MP3, WAV,
+                  OGG, GLB, GLTF. Max size: 100 MB
+                </p>
+              </div>
+
+              <div className="inputContainer">
+                <label>Description</label>
                 <input
                   type={"text"}
-                  name={"name"}
-                  value={input.name}
+                  name={"description"}
+                  value={input.description}
                   onChange={(e) => handleChange(e)}
-                  placeholder={"NFTs name..."}
+                  placeholder={"this NFT its about..."}
                 />
-                <p
-                  className={
-                    errors.name === "Name is correct" ? "greenMsg" : "redMsg"
-                  }
-                >
-                  {errors.name}
+                <p>
+                  The description will be included on the item's detail page
+                  below its image.
                 </p>
               </div>
-            </div>
-            <div className="inputContainer">
-              <h3>Image,video,audio or 3D model</h3>
-              <button className="upload-file" onClick={(e) => handleUpload(e)}>
-                Upload
-              </button>
 
-              <p>
-                File types supported: JPG, PNG, GIF, SVG, MP4, WEBM, MP3, WAV,
-                OGG, GLB, GLTF. Max size: 100 MB
-              </p>
-            </div>
-
-            <div className="inputContainer">
-              <label>External Link</label>
-              {/* aca deberia ir el input para agregar el archivo  */}
-              <input
-                type={"text"}
-                name={"link"}
-                value={input.link}
-                onChange={(e) => handleChange(e)}
-              />
-
-              <p>
-                It will include a link to this URL on the detail page of this
-                item so that users can click to learn more about it.
-              </p>
-            </div>
-
-            <div className="inputContainer">
-              <label>Description</label>
-              <input
-                type={"text"}
-                name={"description"}
-                value={input.description}
-                onChange={(e) => handleChange(e)}
-                placeholder={"this NFT its about..."}
-              />
-              <p>
-                The description will be included on the item's detail page below
-                its image.
-              </p>
-            </div>
-
-            <div className="inputContainer">
-              <label>Collection</label>
-              <p>This is the collection where your item will appear.</p>
-              <input
-                type={"text"}
-                name={"collection"}
-                value={input.collection}
-                onChange={(e) => handleChange(e)}
-              />
-            </div>
-
-            <div className="inputContainer">
-              <label>Price</label>
-              <p>Put the price only in Ethereum</p>
-              <div className="inputAndErrorsMsg">
+              <div className="inputContainer">
+                <label>Collection</label>
+                <p>This is the collection where your item will appear.</p>
                 <input
-                  type={"number"}
-                  name={"price"}
-                  value={input.price}
+                  type={"text"}
+                  name={"collection"}
+                  value={input.collection}
                   onChange={(e) => handleChange(e)}
                 />
-                <p
-                  className={
-                    errors.price === "Price is correct" ? "greenMsg" : "redMsg"
-                  }
-                >
-                  {errors.price}
-                </p>
               </div>
-            </div>
 
-            <div className="inputContainer">
-              <label>Category</label>
-              <p>
-                Add one category or more to classify it.You can select
-                categories by existing ones or add a new one
-              </p>
-              <button className="addCategory"></button>
-              <select onChange={(e) => handleChangeSelect(e)} name="categories">
-                <option hidden disabled selected value>
-                  Categories
-                </option>
-
-                {categories &&
-                  categories.map((e) => (
-                    <option value={e} name="categories" key={e}>
-                      {e}
-                    </option>
-                  ))}
-              </select>
-            </div>
-          </form>
-        </div>
-
-        <div className="ilustration-validations">
-          <div className="ilustrationContainer">
-            <h2>This is how your NFT it will be create</h2>
-            <PreviewNft
-              image={input.image}
-              name={input.name}
-              price={input.price}
-              tokenId={input.tokenId}
-            />
+              <div className="inputContainer">
+                <label>Price</label>
+                <p>Put the price only in Ethereum</p>
+                <div className="inputAndErrorsMsg">
+                  <input
+                    type={"number"}
+                    name={"price"}
+                    value={input.price}
+                    onChange={(e) => handleChange(e)}
+                  />
+                  <p
+                    className={
+                      errors.price === "Price is correct"
+                        ? "greenMsg"
+                        : "redMsg"
+                    }
+                  >
+                    {errors.price}
+                  </p>
+                </div>
+              </div>
+            </form>
           </div>
 
-          <input
-            className={
-              errors.name === "Name is correct" &&
-              errors.price === "Price is correct"
-                ? "submit"
-                : "errorSubmit"
-            }
-            type="submit"
-            value={"Create NFT"}
+          <div className="ilustration-validations">
+            <div className="ilustrationContainer">
+              <h2>This is how your NFT it will be create</h2>
+              <PreviewNft
+                image={input.image}
+                name={input.name}
+                price={input.price}
+                tokenId={input.tokenId}
+              />
+            </div>
+          </div>
+
+          <button onClick={back}>Back</button>
+          <button
+            onClick={next}
             disabled={
               errors.name !== "Name is correct" ||
               errors.price !== "Price is correct"
             }
-            onClick={(e) => handleSubmit(e)}
-          />
-        </div>
+          >
+            Next
+          </button>
+        </fieldset>
+
+        <fieldset
+          className={`info-fieldset ${createStep !== 3 ? "noneDisplay" : ""}`}
+        >
+          <div className="inputContainer">
+            <label>Category</label>
+            <p>
+              Add one category or more to classify it.You can select categories
+              by existing ones or add a new one
+            </p>
+            <button className="addCategory"></button>
+
+            <select onChange={(e) => handleChangeSelect(e)} name="categories">
+              <option hidden disabled selected value>
+                {" "}
+                Specie{" "}
+              </option>
+              {allCategories.species.map((e) => (
+                <option value={e} name="categories" key={e}>
+                  {" "}
+                  {e}{" "}
+                </option>
+              ))}
+            </select>
+
+            <select onChange={(e) => handleChangeSelect1(e)} name="categories">
+              <option hidden disabled selected value>
+                {" "}
+                Specie2{" "}
+              </option>
+              {allCategories.species2.map((e) => (
+                <option value={e} name="categories" key={e}>
+                  {" "}
+                  {e}{" "}
+                </option>
+              ))}
+            </select>
+
+            <select onChange={(e) => handleChangeSelect2(e)} name="categories">
+              <option hidden disabled selected value>
+                {" "}
+                Art{" "}
+              </option>
+              {allCategories.art.map((e) => (
+                <option value={e} name="categories" key={e}>
+                  {" "}
+                  {e}{" "}
+                </option>
+              ))}
+            </select>
+
+            <select onChange={(e) => handleChangeSelect3(e)} name="categories">
+              <option hidden disabled selected value>
+                {" "}
+                Type{" "}
+              </option>
+              {allCategories.type.map((e) => (
+                <option value={e} name="categories" key={e}>
+                  {" "}
+                  {e}{" "}
+                </option>
+              ))}
+            </select>
+
+            <select onChange={(e) => handleChangeSelect4(e)} name="categories">
+              <option hidden disabled selected value>
+                {" "}
+                Style{" "}
+              </option>
+              {allCategories.style.map((e) => (
+                <option value={e} name="categories" key={e}>
+                  {" "}
+                  {e}{" "}
+                </option>
+              ))}
+            </select>
+
+            <select onChange={(e) => handleChangeSelect5(e)} name="categories">
+              <option hidden disabled selected value>
+                {" "}
+                Rest{" "}
+              </option>
+              {allCategories.rest.map((e) => (
+                <option value={e} name="categories" key={e}>
+                  {" "}
+                  {e}{" "}
+                </option>
+              ))}
+            </select>
+
+            <select onChange={(e) => handleChangeSelect6(e)} name="categories">
+              <option hidden disabled selected value>
+                {" "}
+                Flat{" "}
+              </option>
+              {allCategories.flat.map((e) => (
+                <option value={e} name="categories" key={e}>
+                  {" "}
+                  {e}{" "}
+                </option>
+              ))}
+            </select>
+          </div>
+
+          <div className="ilustration-validations">
+            <input
+              className={
+                errors.name === "Name is correct" &&
+                errors.price === "Price is correct"
+                  ? "submit"
+                  : "errorSubmit"
+              }
+              type="submit"
+              value={"Create NFT"}
+              disabled={input.categories.includes("")}
+              onClick={(e) => handleSubmit(e)}
+            />
+          </div>
+
+          <button onClick={back}>Back</button>
+        </fieldset>
       </div>
     </React.Fragment>
   );

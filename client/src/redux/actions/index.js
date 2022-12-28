@@ -12,6 +12,7 @@ export const GET_LOGGED_USER = "GET_LOGGED_USER";
 export const CREATE_NFT = "CREATE_NFT";
 export const DELETE_NFT = "DELETE_NFT";
 export const UPDATE_NFT = "UPDATE_NFT";
+export const CREATE_COLLECTION = "CREATE_COLLECTION"; 
 
 // -- SETTERS --
 export const SET_COLLECTIONS = "SET_COLLECTIONS";
@@ -59,6 +60,9 @@ export const REMOVE_NFT_OF_SHOOPING_CART = "REMOVE_NFT_OF_SHOOPING_CART";
 export const BUY_NFT_ON_SHOOPING_CART = "BUY_NFT_ON_SHOOPING_CART";
 export const DELETE_NFT_ON_SIGNOUT = "DELETE_NFT_ON_SIGNOUT";
 export const ADD_BUY_AT_HISTORY_BUYS = "ADD_BUY_AT_HISTORY_BUYS";
+
+export const ADD_FAV = "ADD_FAV";
+
 
 // -- GETTERS --
 
@@ -265,6 +269,19 @@ export const createNft = (payload) => {
   };
 };
 
+export const createCollection = (payload) => {
+  return async (dispatch) => {
+    try {
+      const createdNft = await axios.post(`/collection`, payload);
+      dispatch({ type: CREATE_COLLECTION, payload: createdNft.data }); // msj desde el back
+      alert("Collection created successfully");
+      window.location.href = "/";
+    } catch (e) {
+      alert(e.response.data);
+    }
+  };
+};
+
 export const deleteNft = (id) => {
   return async (dispatch) => {
     try {
@@ -357,6 +374,16 @@ export const addBuyAtHistoryBuys = (buyData) => {
       });
   };
 };
+
+// --- FAVS ---
+export const addToFav = () => {
+	return {type: ADD_FAV}
+}
+
+
+// --- FAVS --- 
+
+
 
 // export const searchNFT = (searchQuery) => {
 //     return {

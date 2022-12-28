@@ -6,6 +6,7 @@ import {
   CREATE_NFT,
   DELETE_NFT,
   UPDATE_NFT,
+  CREATE_COLLECTION,
   LOADING,
   SET_COLLECTIONS,
   SET_CATEGORY_SPECIES,
@@ -40,6 +41,7 @@ import {
   LOCAL_STORAGE_CART,
   DELETE_NFT_ON_SIGNOUT,
   ADD_BUY_AT_HISTORY_BUYS,
+  ADD_FAV,
 } from "../actions";
 import * as controllers from "../../utils";
 
@@ -107,6 +109,8 @@ const rootReducer = (state = initialState, action) => {
     case DELETE_NFT:
       return { ...state, msj: action.payload };
     case UPDATE_NFT:
+      return { ...state, msj: action.payload };
+    case CREATE_COLLECTION:
       return { ...state, msj: action.payload };
 
     // --- SETTERS ---
@@ -375,6 +379,17 @@ const rootReducer = (state = initialState, action) => {
 
     // ---
 
+// ---FAVS---
+	case ADD_FAV:
+		  console.log('Se Agrego a Favoritos..');
+		  return {
+		...state,
+			   
+		  }
+// ---FAVS---
+
+
+
     case ADD_BUY_AT_HISTORY_BUYS:
       return {
         ...state,
@@ -383,6 +398,8 @@ const rootReducer = (state = initialState, action) => {
     default:
       return { ...state };
   }
+
+
 };
 
 export default rootReducer;
