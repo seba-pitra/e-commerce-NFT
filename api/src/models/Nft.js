@@ -58,13 +58,13 @@ module.exports = (sequelize) => {
         type: DataTypes.FLOAT,
       },
       lastBuyValue: {
-        type: DataTypes.FLOAT,
+        type: DataTypes.INTEGER,
       },
       lastBuyTs: {
-        type: DataTypes.FLOAT,
+        type: DataTypes.INTEGER,
       },
       createdTs: {
-        type: DataTypes.FLOAT,
+        type: DataTypes.INTEGER,
       },
       ownerName: {
         type: DataTypes.TEXT,
