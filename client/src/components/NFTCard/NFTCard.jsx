@@ -7,6 +7,8 @@ import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 import * as actions from "../../redux/actions";
 import "./NFTCard.css";
 import ethereumLogo from "../../images/ethereum-logo.png";
+import favsLogo from "../../images/favs-logo.png";
+import starsLogo from "../../images/stars-logo.png";
 
 export default function NFTCard(props) {
 	const activeUserIs = useSelector((state) => state.activeUser);
@@ -35,6 +37,7 @@ const handleClickOnFavorites = (e) => {
     <div className="cardContainer">
       <div className="nftCard-image-info">
         <Link className="link" to={`/details/${props.id}`}>
+          <h3 className="raritymove">{props.rarity}</h3>
           <div className="nftCard-img-container">
             <img
               className={"nftImage"}
@@ -57,11 +60,11 @@ const handleClickOnFavorites = (e) => {
                   <h3>{props.price}</h3>
                 </div>
                 <div className="flex-row">
-                  <img src={ethereumLogo} alt="ethereum-logo" className="eth-logo"/>
+                  <img src={favsLogo} alt="ethereum-logo" className="eth-logo"/>
                   <h3>{props.favs}</h3>
                 </div>
                 <div className="flex-row">
-                  <img src={ethereumLogo} alt="ethereum-logo" className="eth-logo"/>
+                  <img src={starsLogo} alt="ethereum-logo" className="eth-logo"/>
                   <h3>{props.stars}</h3>
                 </div>
               </div>

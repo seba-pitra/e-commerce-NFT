@@ -118,5 +118,12 @@
 .flex-row{
   display: flex;
   flex-direction: row;
-  justify-content: left;
+}
+
+.raritymove{
+  position: absolute;
+  color: black;
+  font-size: 16px;
+  left: 8px;
+  top: 8px;
 }
