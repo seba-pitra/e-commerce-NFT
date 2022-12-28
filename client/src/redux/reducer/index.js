@@ -6,6 +6,7 @@ import {
   CREATE_NFT,
   DELETE_NFT,
   UPDATE_NFT,
+  CREATE_COLLECTION,
   LOADING,
   SET_COLLECTIONS,
   SET_CATEGORY_SPECIES,
@@ -103,6 +104,8 @@ const rootReducer = (state = initialState, action) => {
     case DELETE_NFT:
       return { ...state, msj: action.payload };
     case UPDATE_NFT:
+      return { ...state, msj: action.payload };
+    case CREATE_COLLECTION:
       return { ...state, msj: action.payload };
 
     // --- SETTERS ---

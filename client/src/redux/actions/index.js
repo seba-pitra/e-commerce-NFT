@@ -11,6 +11,7 @@ export const GET_USER_BY_ID = "GET_USER_BY_ID";
 export const CREATE_NFT = "CREATE_NFT";
 export const DELETE_NFT = "DELETE_NFT";
 export const UPDATE_NFT = "UPDATE_NFT";
+export const CREATE_COLLECTION = "CREATE_COLLECTION"; 
 
 // -- SETTERS --
 export const SET_COLLECTIONS = "SET_COLLECTIONS";
@@ -246,6 +247,19 @@ export const createNft = (payload) => {
       const createdNft = await axios.post(`/nft`, payload);
       dispatch({ type: CREATE_NFT, payload: createdNft.data }); // msj desde el back
       alert("NFT created successfully");
+      window.location.href = "/";
+    } catch (e) {
+      alert(e.response.data);
+    }
+  };
+};
+
+export const createCollection = (payload) => {
+  return async (dispatch) => {
+    try {
+      const createdNft = await axios.post(`/collection`, payload);
+      dispatch({ type: CREATE_COLLECTION, payload: createdNft.data }); // msj desde el back
+      alert("Collection created successfully");
       window.location.href = "/";
     } catch (e) {
       alert(e.response.data);

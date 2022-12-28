@@ -25,7 +25,7 @@ function Pages() {
         userId={nft.userId}
         rarity={nft.rarity}
         rarityRank={nft.rarityRank}
-        lastBuy={nft.lastBuyValue || nft.lastBuySell || 0.02}
+        lastBuy={nft.lastBuyValue || 0.01}
       />
     );
   });
@@ -36,6 +36,7 @@ function Pages() {
         <NotFoundResults />
       ) : (
         <>
+          <p className="amount-nfts">{filteredNfts.length} items</p>
           <PageSelector />
           <div className="pageSelector-Container">{cards}</div>
           <PageSelector />

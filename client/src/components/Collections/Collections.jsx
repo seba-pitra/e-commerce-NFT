@@ -12,29 +12,29 @@ function Collections(){
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(actions.getAllNfts())
     dispatch(actions.getAllCollections())
   },[dispatch]);
 
-  const nfts = useSelector((state) => state.nfts);
   const collections = useSelector((state) => state.collections);
   const isLoading = useSelector(state => state.isLoading);
 
   const collectionsCards = collections.map((collection) => {
-    return (
-      <Link to={`/collections/${collection.id}`}>
-        <div className='collections-conteiner'>
-          <img className='collections-img-main' src={collection.image} alt="img-collections" />
-          <div className='img-name-conteiner'>
-            <img className='collections-img-owner' src={collection.nfts[0].image} alt="img-collections" />
-            <div className='collection-name-conteiner'>             
-            <VerifiedIcon/>
-            <h3 className='collections-name'> {collection.name} </h3>
+    if(collection.nfts.length > 5) {
+      return (
+        <Link to={`/collections/${collection.id}`}>
+          <div className='collections-conteiner'>
+            <img className='collections-img-main' src={collection.image} alt="img-collections" />
+            <div className='img-name-conteiner'>
+              <img className='collections-img-owner' src={collection.nfts[0].image} alt="img-collections" />
+              <div className='collection-name-conteiner'>             
+                <VerifiedIcon/>
+                <h3 className='collections-name'> {collection.name} </h3>
+              </div>
             </div>
           </div>
-        </div>
-      </Link>
-    );
+        </Link>
+      );
+    }
   });
   
   return(
