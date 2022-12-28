@@ -1,4 +1,4 @@
-import * as actions from '../../redux/actions'
+import * as actions from "../../redux/actions";
 import { useSelector } from "react-redux";
 import NFTCard from "../NFTCard/NFTCard";
 import NotFoundResults from "../NotFoundResults/NotFoundResults";
@@ -8,10 +8,10 @@ import { useParams } from "react-router-dom";
 import "./CollectionDetail.css";
 
 const CollectionDetail = () => {
-  const { id } = useParams()
+  const { id } = useParams();
 
   const collections = useSelector((state) => state.collections);
-  const foundCollection = collections.find(coll => coll.id === id)
+  const foundCollection = collections.find((coll) => coll.id === id);
 
   const dispatch = useDispatch();
 
@@ -20,14 +20,18 @@ const CollectionDetail = () => {
     dispatch(actions.getEthPrice());
   }, [dispatch]);
 
-  let collectionPrice = 0, amountNfts = 0, description = "No description", floorPrice = 100, createdAt = 0;
-  
+  let collectionPrice = 0,
+    amountNfts = 0,
+    description = "No description",
+    floorPrice = 100,
+    createdAt = 0;
+
   const cards = foundCollection.nfts.map((nft) => {
     collectionPrice = nft.price + collectionPrice;
     amountNfts++;
-    if(description === "No description") description = nft.description;
-    if(floorPrice > nft.price) floorPrice = nft.price;
-    if(createdAt < nft.lastSellTs) createdAt = nft.lastSellTs;
+    if (description === "No description") description = nft.description;
+    if (floorPrice > nft.price) floorPrice = nft.price;
+    if (createdAt < nft.lastSellTs) createdAt = nft.lastSellTs;
     return (
       <NFTCard
         key={nft.id}
@@ -53,7 +57,7 @@ const CollectionDetail = () => {
       ) : (
         <div className="collection-details">
           <div className="collection-details-container">
-          <img src={foundCollection.image} alt="collection-detail" />
+            <img src={foundCollection.image} alt="collection-detail" />
             <h1>{foundCollection.name}</h1>
             <h3>Price collection: {collectionPrice}</h3>
             <h3>Amount Nfts: {amountNfts}</h3>
@@ -68,6 +72,6 @@ const CollectionDetail = () => {
       )}
     </div>
   );
-}
+};
 
 export default CollectionDetail;
