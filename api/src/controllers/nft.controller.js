@@ -79,19 +79,25 @@ const createNewNFT = async (req, res) => {
       throw new Error(`Insufficient data provided`);
     }
 
+    let tokenId = 1
+
+    let nftName = name + ' #' + tokenId;
+
     const newNFT = await Nft.create({
-      name: name,
+      name: nftName,
       description: description || "No description",
       image: image || "No image",
-      contract: contract || "No idea",
+      contract: contract || "No available contract",
       category: categories || ["Other", "Other", "Other", "Other", "Other", "Normal", "Other"],
-      tokenId: "1",
+      tokenId: tokenId,
       price: parseInt(price),
       rarity: Math.floor(Math.random() * 20000 + 9000),
-      rarityRank: Math.floor(Math.random() * 30000 + 1),
-      lastBuyValue: 0.01,
-      lastBuyTs: Date.now(),
-      ownerName: ownerName || "OpenSea",
+      favs: 0,
+      stars: 0,
+      lastBuyValue: 0.01, // null ?
+      lastBuyTs: Date.now(), // null ?
+      createdTs: Date.now(),
+      ownerName: ownerName || "Non Fungible Town",
       ownerIcon: ownerIcon || "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
       available: true,
     });
@@ -285,19 +291,16 @@ const createInitialNFTs = async (nftQuantity) => {
           description: nft.token.description || "No description",
           image: nft.token.image || "No image",
           contract: nft.token.contract,
-          category: nft.token.category || ["Other"],
+          category: nft.token.category || ["Other", "Other", "Other", "Other", "Other", "Other", "Other"],
           tokenId: nft.token.tokenId,
           price: nft.market.floorAsk.price.amount.decimal,
-          rarity:
-            Math.floor(nft.token.rarity) ||
-            Math.floor(Math.random() * 20000 + 9000),
-          rarityRank:
-            nft.token.rarityRank || Math.floor(Math.random() * 30000 + 1),
+          rarity: Math.floor(nft.token.rarity) || Math.floor(Math.random() * 20000 + 9000),
+          favs: 0,
+          stars: 0,
           lastBuyValue: priceLastBuy.toFixed(2),
-          lastBuyTs:
-            nft.token.lastBuy.timestamp ||
-            Math.floor(Math.random() * 40000000 + 1631509481),
-          ownerName: nft.market.floorAsk.source.name || "OpenSea",
+          lastBuyTs: Math.floor(Math.random() * 28857600 + 1640995200), // enero 2022 - actual
+          createdTs: Math.floor(Math.random() * 60000000 + 1577836800), // enero 2022 - enero 2022
+          ownerName: nft.market.floorAsk.source.name || "Non Fungible Town",
           ownerIcon:
             nft.market.floorAsk.source.icon ||
             "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",

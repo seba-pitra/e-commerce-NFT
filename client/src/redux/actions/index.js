@@ -32,7 +32,8 @@ export const SEARCH_NFT_NAME = "SEARCH_NFT_NAME";
 export const ORDER_NFT_NAME = "ORDER_NFT_NAME";
 export const ORDER_NFT_PRICE = "ORDER_NFT_PRICE";
 export const ORDER_NFT_RARITY = "ORDER_NFT_RARITY";
-export const ORDER_NFT_RARITYRANK = "ORDER_NFT_RARITYRANK";
+export const ORDER_NFT_FAVS = "ORDER_NFT_FAVS";
+export const ORDER_NFT_STARS = "ORDER_NFT_STARS";
 export const ORDER_NFT_LASTBUY = "ORDER_NFT_LASTBUY";
 export const ORDER_NFT_LASTBUYTS = "ORDER_NFT_LASTBUYTS";
 export const ORDER_NFT_AMOUNT = "ORDER_NFT_AMOUNT";
@@ -230,8 +231,12 @@ export const orderRarity = (payload) => {
   return { type: ORDER_NFT_RARITY, payload };
 };
 
-export const orderRarityRank = (payload) => {
-  return { type: ORDER_NFT_RARITYRANK, payload };
+export const orderFavs = (payload) => {
+  return { type: ORDER_NFT_FAVS, payload };
+};
+
+export const orderStars = (payload) => {
+  return { type: ORDER_NFT_STARS, payload };
 };
 
 export const orderLastBuy = (payload) => {
@@ -379,15 +384,3 @@ export const addBuyAtHistoryBuys = (buyData) => {
 export const addToFav = () => {
 	return {type: ADD_FAV}
 }
-
-
-// --- FAVS --- 
-
-
-
-// export const searchNFT = (searchQuery) => {
-//     return {
-//         type : SEARCH_NFT,
-//         payload : searchQuery
-//     }
-// }

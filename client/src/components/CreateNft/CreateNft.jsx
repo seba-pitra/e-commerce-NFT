@@ -101,7 +101,17 @@ export default function Form() {
     flat: ["Flat", "Other"],
   };
 
-  let handleChange = (e) => {
+
+  // COLLECTIONS FUNCTIONS
+  let selectCollection = (e) => {
+    e.preventDefault();
+    setInput((prev) => ({
+      ...prev,
+      collection: e.target.value
+    }))
+  };
+
+  let inputCollections = (e) => {
     e.preventDefault();
     setAddCollection((prev) => ({
       ...prev,
@@ -114,6 +124,16 @@ export default function Form() {
     dispatch(actions.createCollection(addCollection));
   };
 
+
+  // INPUTS FUNCTIONS
+  let handleChange = (e) => {
+    e.preventDefault();
+    setInput((prev) => ({ ...prev, [e.target.name]: e.target.value }));
+    setErrors( validate({ ...input, [e.target.name]: e.target.value }));
+  };
+
+
+  // CATEGORIES FUNCTIONS
   let handleChangeSelect = (e) => {
     e.preventDefault();
     let auxCats = input.categories;
@@ -184,6 +204,8 @@ export default function Form() {
     }));
   };
 
+
+  // CREATE NFT
   let handleSubmit = (e) => {
     e.preventDefault();
     dispatch(actions.createNft(input));
@@ -210,160 +232,101 @@ export default function Form() {
   return (
     <React.Fragment>
       <div className="mainContainer">
-        <fieldset
-          className={`info-fieldset ${createStep !== 1 ? "noneDisplay" : ""}`}
-        >
+        <fieldset className={`info-fieldset ${createStep !== 1 ? "noneDisplay" : "first-field-collections"}`} >
           <div className="inputContainer">
-            <label>Collection</label>
-            <p>This is the collection where your item will appear.</p>
-            <input
-              type="text"
-              name="collection"
-              value={addCollection.name}
-              onChange={(e) => handleChange(e)}
-            />
-            <button onClick={(e) => submitAddCollection(e)}>add</button>
-          </div>
-          <button onClick={next} disabled={input.collection === ""}>
-            Next
-          </button>
+            <div className="divs-separet">
+              <h3>Collection</h3>
+              <h5>This is the collection where your item will appear.</h5>
+            </div>
 
-          <select onChange={(e) => handleChangeSelect1(e)} name="categories">
-            <option hidden disabled selected value>
-              {" "}
-              Select collection{" "}
-            </option>
-            {allCollections?.map((e) => (
-              <option value={e.name} name="categories" key={e.name}>
-                {" "}
-                {e.name}{" "}
-              </option>
-            ))}
-          </select>
+            <div className="divs-separet">
+              <h6>Create a new collection.</h6>
+              <input type="text" name="collection" value={addCollection.name} onChange={(e) => inputCollections(e)}/>
+              <button onClick={(e) => submitAddCollection(e)}>Create</button>
+            </div>
+            
+            <div className="divs-separet">
+              <h6>Choose the collection in which your nft will be created.</h6>
+              <select onChange={(e) => selectCollection(e)} name="collections">
+                <option hidden disabled selected value> Select collection </option>
+                {allCollections?.map((e) => (<option value={e.name} name="collections" key={e.name}>{e.name} | {e.nfts.length} items</option>))}
+              </select>
+            </div>            
+          </div>
+
+          {/* {allCollections?.map((e) => (
+            <div className="flex-row2" onClick={(e) => selectCollection(e)}>
+              <h5>{e.name}</h5>
+              <h5>{e.nfts.length} items</h5>
+            </div>
+          ))} */}
+          <div className="buttons-next-prev">
+            <button className="button-next" onClick={next}  disabled={ input.collection === "" } > next </button>
+          </div>
         </fieldset>
 
-        <fieldset
-          className={`info-fieldset ${createStep !== 2 ? "noneDisplay" : ""}`}
-        >
-          <div className="createNftContainer">
-            <form className="createNft">
-              <div className="inputContainer">
-                <label>Name</label>
-                <div className="inputAndErrorsMsg">
-                  <input
-                    type={"text"}
-                    name={"name"}
-                    value={input.name}
-                    onChange={(e) => handleChange(e)}
-                    placeholder={"NFTs name..."}
-                  />
-                  <p
-                    className={
-                      errors.name === "Name is correct" ? "greenMsg" : "redMsg"
-                    }
-                  >
-                    {errors.name}
-                  </p>
+        <fieldset className={`info-fieldset ${createStep !== 2 ? "noneDisplay" : ""}`} >
+          <div className="flex-row2">
+            <div className="first-field-collections">
+              <form className="createNft">
+
+                <div className="inputContainer">
+                  <h5>Name</h5>
+                  <div className="inputAndErrorsMsg">
+                    <input type={"text"} name={"name"} value={input.name} onChange={(e) => handleChange(e)} placeholder={"NFTs name..."} />
+                    <p className={errors.name === 'Name is correct' ? 'greenMsg' : 'redMsg'}>{errors.name}</p>
+                  </div>
+
                 </div>
-              </div>
 
-              <div className="inputContainer">
-                <h3>Image,video,audio or 3D model</h3>
-                <button
-                  className="upload-file"
-                  onClick={(e) => handleUpload(e)}
-                >
-                  Upload
-                </button>
-                <p>
-                  File types supported: JPG, PNG, GIF, SVG, MP4, WEBM, MP3, WAV,
-                  OGG, GLB, GLTF. Max size: 100 MB
-                </p>
-              </div>
 
-              <div className="inputContainer">
-                <label>Description</label>
-                <input
-                  type={"text"}
-                  name={"description"}
-                  value={input.description}
-                  onChange={(e) => handleChange(e)}
-                  placeholder={"this NFT its about..."}
-                />
-                <p>
-                  The description will be included on the item's detail page
-                  below its image.
-                </p>
-              </div>
-
-              <div className="inputContainer">
-                <label>Collection</label>
-                <p>This is the collection where your item will appear.</p>
-                <input
-                  type={"text"}
-                  name={"collection"}
-                  value={input.collection}
-                  onChange={(e) => handleChange(e)}
-                />
-              </div>
-
-              <div className="inputContainer">
-                <label>Price</label>
-                <p>Put the price only in Ethereum</p>
-                <div className="inputAndErrorsMsg">
-                  <input
-                    type={"number"}
-                    name={"price"}
-                    value={input.price}
-                    onChange={(e) => handleChange(e)}
-                  />
-                  <p
-                    className={
-                      errors.price === "Price is correct"
-                        ? "greenMsg"
-                        : "redMsg"
-                    }
-                  >
-                    {errors.price}
-                  </p>
+                <div className="inputContainer">
+                  <h5>Image, video, audio or 3D model</h5>
+                  <p> File types supported: JPG, PNG, GIF, SVG, MP4, WEBM, MP3, WAV, OGG, GLB, GLTF. Max size: 100 MB </p>
+                  <button className="upload-file"  onClick={(e) => handleUpload(e)}>Upload</button>
                 </div>
-              </div>
-            </form>
-          </div>
 
-          <div className="ilustration-validations">
-            <div className="ilustrationContainer">
-              <h2>This is how your NFT it will be create</h2>
-              <PreviewNft
-                image={input.image}
-                name={input.name}
-                price={input.price}
-                tokenId={input.tokenId}
-              />
+                <div className="inputContainer">
+                  <h5>Description</h5>
+                  <p> The description will be included on the item's detail page below its image. </p>
+                  <input type={"text"} name={"description"} value={input.description} onChange={(e) => handleChange(e)} placeholder={"this NFT its about..."} />
+                </div>
+
+                <div className="inputContainer">
+                  <h5>Price</h5>
+                  <p>Put the price only in Ethereum</p>
+                  <div className="inputAndErrorsMsg">
+                    <input type={"number"} name={"price"} value={input.price} onChange={(e) => handleChange(e)} />
+                    <p className={errors.price === 'Price is correct' ? 'greenMsg' : 'redMsg'}>{errors.price}</p>
+                  </div>
+
+                </div>
+
+              </form>
+            </div>
+
+            <div className="rigth-side">
+              <div className="ilustration-validations">
+                <div className="ilustrationContainer">
+                    <h2>Nft preview</h2>
+                    <PreviewNft image={input.image} name={input.name} price={input.price} tokenId={input.tokenId} />
+                  </div>
+              </div>
+
+
+              <div className="buttons-next-prev">
+                <button onClick={back}> back </button>
+                <button onClick={next} disabled={ errors.name !== "Name is correct" || errors.price !== "Price is correct" }> next </button>
+              </div>
             </div>
           </div>
-
-          <button onClick={back}>Back</button>
-          <button
-            onClick={next}
-            disabled={
-              errors.name !== "Name is correct" ||
-              errors.price !== "Price is correct"
-            }
-          >
-            Next
-          </button>
         </fieldset>
 
-        <fieldset
-          className={`info-fieldset ${createStep !== 3 ? "noneDisplay" : ""}`}
-        >
+        <fieldset className={`info-fieldset ${createStep !== 3 ? "noneDisplay" : "first-field-collections"}`} >
           <div className="inputContainer">
-            <label>Category</label>
-            <p>
-              Add one category or more to classify it.You can select categories
-              by existing ones or add a new one
-            </p>
+            <h5>Category</h5>
+            <p> Classify your nft from the following categories. You must select all of them or you will not be able to create the nft </p>
+
             <button className="addCategory"></button>
 
             <select onChange={(e) => handleChangeSelect(e)} name="categories">
@@ -472,8 +435,11 @@ export default function Form() {
               onClick={(e) => handleSubmit(e)}
             />
           </div>
-
-          <button onClick={back}>Back</button>
+              
+          <div className="buttons-next-prev">
+            <button onClick={back}> back</button>
+          </div>
+          
         </fieldset>
       </div>
     </React.Fragment>

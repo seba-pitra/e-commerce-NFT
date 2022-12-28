@@ -38,7 +38,7 @@
 .eth-rarity{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 
@@ -109,3 +109,21 @@
     background-repeat: no-repeat;
     background-size: cover;
 } */
+
+.eth-logo{
+  width: 24px;
+  height: 24px;
+}
+
+.flex-row{
+  display: flex;
+  flex-direction: row;
+}
+
+.raritymove{
+  position: absolute;
+  color: black;
+  font-size: 16px;
+  left: 8px;
+  top: 8px;
+}

@@ -23,7 +23,8 @@ import {
   ORDER_NFT_NAME,
   ORDER_NFT_PRICE,
   ORDER_NFT_RARITY,
-  ORDER_NFT_RARITYRANK,
+  ORDER_NFT_FAVS,
+  ORDER_NFT_STARS,
   ORDER_NFT_LASTBUY,
   ORDER_NFT_LASTBUYTS,
   GET_USER_BY_ID,
@@ -94,6 +95,7 @@ const rootReducer = (state = initialState, action) => {
         setCategoryRest: [],
         setCategoryBackg: [],
       };
+      
     case GET_ALL_COLLECTIONS:
       return { ...state, collections: action.payload, isLoading: false };
     case GET_ALL_USERS:
@@ -279,6 +281,7 @@ const rootReducer = (state = initialState, action) => {
       if (state.orderDirection === "up-down") newOrder = "down-up";
       else if (state.orderDirection === "down-up") newOrder = "up-down";
       return { ...state, orderDirection: newOrder, activePage: 1 };
+
     case ORDER_NFT_NAME:
       let orderedByName = controllers.orderNFTBy(
         "name",
@@ -286,6 +289,7 @@ const rootReducer = (state = initialState, action) => {
         state.filteredNfts
       );
       return { ...state, filteredNfts: orderedByName, activePage: 1 };
+
     case ORDER_NFT_PRICE:
       let orderedbyPrice = controllers.orderNFTBy(
         "price",
@@ -302,13 +306,21 @@ const rootReducer = (state = initialState, action) => {
       );
       return { ...state, filteredNfts: orderedbyRarity, activePage: 1 };
 
-    case ORDER_NFT_RARITYRANK:
-      let orderedbyRarityRank = controllers.orderNFTBy(
-        "rarityrank",
+    case ORDER_NFT_FAVS:
+      let orderedbyFavs = controllers.orderNFTBy(
+        "favs",
         state.orderDirection,
         state.filteredNfts
       );
-      return { ...state, filteredNfts: orderedbyRarityRank, activePage: 1 };
+      return { ...state, filteredNfts: orderedbyFavs, activePage: 1 };
+
+    case ORDER_NFT_STARS:
+      let orderedbyStars = controllers.orderNFTBy(
+        "stars",
+        state.orderDirection,
+        state.filteredNfts
+      );
+      return { ...state, filteredNfts: orderedbyStars, activePage: 1 };
 
     case ORDER_NFT_LASTBUY:
       let orderedbyLastBuy = controllers.orderNFTBy(
@@ -325,17 +337,24 @@ const rootReducer = (state = initialState, action) => {
         state.filteredNfts
       );
       return { ...state, filteredNfts: orderedbyLastBuyTs, activePage: 1 };
+
     // --- PAGINATION ---
     case SELECT_PAGE:
       return { ...state, activePage: action.payload };
+
     case SET_NFTS_PER_PAGE:
       return { ...state, gamesPerPage: action.payload, activePage: 1 };
+
     case NEXT_PAGE:
       return { ...state, activePage: state.activePage + 1 };
+
     case PREV_PAGE:
       return { ...state, activePage: state.activePage - 1 };
+
+    // --- OTROS ---
     case GET_ETH_PRICE:
       return { ...state, ethPrice: action.payload };
+
     case ADD_NFT_ON_SHOOPING_CART:
       const foundNft = state.userNfts.find(
         (nft) => nft.id === action.payload.id
@@ -346,6 +365,7 @@ const rootReducer = (state = initialState, action) => {
         ...state,
         userNfts: [...state.userNfts, action.payload],
       };
+
     case REMOVE_NFT_OF_SHOOPING_CART:
       return {
         ...state,
@@ -358,6 +378,7 @@ const rootReducer = (state = initialState, action) => {
         ...state,
         // activeUser: action.payload,
       };
+
     case LOCAL_STORAGE_CART:
       return {
         ...state,
@@ -377,24 +398,19 @@ const rootReducer = (state = initialState, action) => {
         activeUser: action.payload,
       };
 
-    // ---
-
-// ---FAVS---
-	case ADD_FAV:
-		  console.log('Se Agrego a Favoritos..');
-		  return {
-		...state,
-			   
-		  }
-// ---FAVS---
-
-
+    // --- FAVS ---
+    case ADD_FAV:
+        console.log('Se Agrego a Favoritos..');
+        return {
+      ...state,   
+        }
 
     case ADD_BUY_AT_HISTORY_BUYS:
       return {
         ...state,
         historyBuys: [...state.historyBuys, action.payload],
       };
+
     default:
       return { ...state };
   }
