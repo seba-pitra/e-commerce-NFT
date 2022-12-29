@@ -53,7 +53,7 @@ console.log('Aqui estoy !!', loginStatusStorage)
       history.push("/");
     }
   };
-
+  console.log(loggedUser)
   useEffect(() => {}, [order]);
   return (
     <>
