@@ -5,8 +5,12 @@ import "../NFTCard/NFTCard.css";
 import PreviewNft from "./PreviewNft/PreviewNft";
 import * as actions from "../../redux/actions";
 import { useEffect, useRef } from "react";
+import { useHistory } from "react-router-dom";
 
-export function validate(input) {
+
+export function Validate(input) {
+
+
   let errors = {
     name: "no data",
     price: "no data",
@@ -24,11 +28,36 @@ export function validate(input) {
 }
 
 export default function Form() {
-  useEffect(() => {
+
+const dispatch = useDispatch();
+const history = useHistory();
+let loginStatusStorage = localStorage.getItem("Logged");
+	
+
+ useEffect(() => {
+      validateUser();
+  }, []);
+
+
+const validateUser = async () => {
+    
+    if (loginStatusStorage === "Estoy loggeado") {
+      dispatch(actions.getAllNfts());
+      dispatch(actions.getAllCollections());
+      dispatch(actions.getEthPrice());
+    } else {
+      history.push("/");
+    }
+  };
+
+
+
+
+	useEffect(() => {
     dispatch(actions.getAllCollections());
   }, []);
 
-  const dispatch = useDispatch();
+//  const dispatch = useDispatch();
 
   const allCollections = useSelector((state) => state.collections);
 
@@ -131,7 +160,7 @@ export default function Form() {
   let handleChange = (e) => {
     e.preventDefault();
     setInput((prev) => ({ ...prev, [e.target.name]: e.target.value }));
-    setErrors(validate({ ...input, [e.target.name]: e.target.value }));
+    setErrors(Validate({ ...input, [e.target.name]: e.target.value }));
   };
 
   // CATEGORIES FUNCTIONS
@@ -236,6 +265,13 @@ export default function Form() {
   //   e.preventDefault();
   //   setCreateStep(1);
   // };
+if (loginStatusStorage === "Estoy loggeado") {
+    return (
+      <div className="login-loggedmessage">
+        <p>You've been logged</p>
+      </div>
+    );
+  } else
 
   return (
     <React.Fragment>

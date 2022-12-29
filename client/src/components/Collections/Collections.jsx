@@ -20,7 +20,7 @@ let loginStatusStorage = localStorage.getItem("Logged");
   }, [dispatch]);
 
   const validateUser = async () => {
-    if (Object.keys(loginStatusStorage).length) {
+    if (loginStatusStorage) {
       dispatch(actions.getAllNfts());
       dispatch(actions.getAllCollections());
     } else {
