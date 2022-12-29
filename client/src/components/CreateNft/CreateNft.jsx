@@ -1,27 +1,11 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
+import * as utils from "../../utils";
 import "./CreateNft.css";
 import "../NFTCard/NFTCard.css";
 import PreviewNft from "./PreviewNft/PreviewNft";
 import * as actions from "../../redux/actions";
 import { useEffect, useRef } from "react";
-
-export function validate(input) {
-  let errors = {
-    name: "no data",
-    price: "no data",
-  };
-
-  if (!/([A-Z])/.test(input.name))
-    errors = { ...errors, name: "Username is invalid" };
-  else errors = { ...errors, name: "Name is correct" };
-
-  if (input.price <= 0)
-    errors = { ...errors, price: "Price can not be 0 or less" };
-  else errors = { ...errors, price: "Price is correct" };
-
-  return errors;
-}
 
 export default function Form() {
   useEffect(() => {
@@ -41,7 +25,6 @@ export default function Form() {
 
   useEffect(() => {
     cloudinaryRef.current = window.cloudinary;
-    console.log(cloudinaryRef.current);
     widgetRef.current = cloudinaryRef.current.createUploadWidget(
       {
         cloudName: "dwyhztlkw",
@@ -63,20 +46,14 @@ export default function Form() {
   };
   // cloudinary <<<
 
-  let [input, setInput] = React.useState({
-    // 1er
-    collection: "",
-
-    // 2do
-    name: "",
-    description: "",
-    image: "no image found",
+  let [input, setInput] = useState({
+    userId: userId,
+    collection: null,
+    name: null,
+    description: null,
+    image: null,
     price: 0,
-
-    // 3er
     categories: ["", "", "", "", "", "", ""],
-
-    // autofill
     contract: "non-contract-yet",
     ownerName: user.name + " " + user.last_name || "no name found",
     ownerIcon: user.profile_pic || "no image found", 
@@ -131,7 +108,7 @@ export default function Form() {
   let handleChange = (e) => {
     e.preventDefault();
     setInput((prev) => ({ ...prev, [e.target.name]: e.target.value }));
-    setErrors(validate({ ...input, [e.target.name]: e.target.value }));
+    setErrors(utils.validate({ ...input, [e.target.name]: e.target.value }));
   };
 
   // CATEGORIES FUNCTIONS

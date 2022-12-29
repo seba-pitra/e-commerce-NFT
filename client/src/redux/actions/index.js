@@ -259,12 +259,12 @@ export const changeOrderDirection = () => {
   return { type: CHANGE_ORDER_DIRECTION };
 };
 
-// --- ADMIN ONLY ---
+// --- VERIFIED USERS ONLY ---
 
 export const createNft = (payload) => {
   return async (dispatch) => {
     try {
-      const createdNft = await axios.post(`/nft`, payload);
+      const createdNft = await axios.post(`/nft/create`, payload);
       dispatch({ type: CREATE_NFT, payload: createdNft.data }); // msj desde el back
       alert("NFT created successfully");
       window.location.href = "/";
