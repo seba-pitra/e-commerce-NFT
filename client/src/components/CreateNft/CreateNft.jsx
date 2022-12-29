@@ -8,90 +8,15 @@ import * as actions from "../../redux/actions";
 import { useEffect, useRef } from "react";
 import { useHistory } from "react-router-dom";
 
-export function validate(input) {
-  let errors = {
-    name: "no data",
-    price: "no data",
-  };
-
-  if (!/([A-Z])/.test(input.name))
-    errors = { ...errors, name: "Username is invalid" };
-  else errors = { ...errors, name: "Name is correct" };
-
-  if (input.price <= 0)
-    errors = { ...errors, price: "Price can not be 0 or less" };
-  else errors = { ...errors, price: "Price is correct" };
-
-  return errors;
-}
 
 export default function Form() {
-
-const dispatch = useDispatch();
-const history = useHistory();
-let loginStatusStorage = localStorage.getItem("Logged");
-	
-
- useEffect(() => {
-      validateUser();
-  }, []);
-
-
-const validateUser = async () => {
-    
-    if (loginStatusStorage === "Estoy loggeado") {
-      dispatch(actions.getAllNfts());
-      dispatch(actions.getAllCollections());
-      dispatch(actions.getEthPrice());
-    } else {
-      history.push("/");
-    }
-  };
-
-
-
-
-	useEffect(() => {
-    dispatch(actions.getAllCollections());
-  }, []);
-
-//  const dispatch = useDispatch();
-
   const allCollections = useSelector((state) => state.collections);
   const user = useSelector((state) => state.loggedUser);
+  const dispatch = useDispatch();
+  const history = useHistory();
+  const loginStatusStorage = localStorage.getItem("Logged");
 
-  useEffect(() => {
-    dispatch(actions.getAllCollections());
-  }, []);
-
-  // cloudinary >>>
-  const cloudinaryRef = useRef();
-  const widgetRef = useRef();
-
-  useEffect(() => {
-    cloudinaryRef.current = window.cloudinary;
-    widgetRef.current = cloudinaryRef.current.createUploadWidget(
-      {
-        cloudName: "dwyhztlkw",
-        uploadPreset: "non_fungible_town",
-      },
-      function (error, result) {
-        if (result.info.files) {
-          let urlImg = result.info.files[0].uploadInfo.secure_url;
-          console.log(result.info.files[0].uploadInfo.secure_url);
-          setInput((prev) => ({ ...prev, image: urlImg }));
-        }
-      }
-    );
-  }, []);
-
-  let handleUpload = (e) => {
-    e.preventDefault();
-    widgetRef.current.open();
-  };
-  // cloudinary <<<
-
-  let [input, setInput] = useState({
+  const [createdNft, setCreatedNft] = useState({
     userId: user.id,
     collectionId: "",
     collection: null,
@@ -109,6 +34,51 @@ const validateUser = async () => {
     name: "no data",
     price: "no data",
   });
+
+  
+  const validateUser = async () => {
+  if (loginStatusStorage === "Estoy loggeado") {
+      dispatch(actions.getAllNfts());
+      dispatch(actions.getAllCollections());
+      dispatch(actions.getEthPrice());
+    } else {
+      history.push("/");
+    }
+  };
+	
+  
+  useEffect(() => {
+    validateUser();
+  }, []);
+  
+  // cloudinary >>>
+  const cloudinaryRef = useRef();
+  const widgetRef = useRef();
+  
+  useEffect(() => {
+    cloudinaryRef.current = window.cloudinary;
+    widgetRef.current = cloudinaryRef.current.createUploadWidget(
+      {
+        cloudName: "dwyhztlkw",
+        uploadPreset: "non_fungible_town",
+      },
+      function (error, result) {
+        if (result.info.files) {
+          let urlImg = result.info.files[0].uploadInfo.secure_url;
+          console.log(result.info.files[0].uploadInfo.secure_url);
+          setCreatedNft((prev) => ({ ...prev, image: urlImg }));
+        }
+      }
+    );
+  }, []);
+
+  let handleUpload = (e) => {
+    e.preventDefault();
+    widgetRef.current.open();
+  };
+  // cloudinary <<<
+
+
 
   const [addCollection, setAddCollection] = useState({
     userId: user.name,
@@ -132,7 +102,7 @@ const validateUser = async () => {
   // COLLECTIONS FUNCTIONS
   let selectCollection = (e) => {
     e.preventDefault();
-    setInput((prev) => ({
+    setCreatedNft((prev) => ({
       ...prev,
       collection: e.target.value,
     }));
@@ -154,17 +124,17 @@ const validateUser = async () => {
   // INPUTS FUNCTIONS
   let handleChange = (e) => {
     e.preventDefault();
-    setInput((prev) => ({ ...prev, [e.target.name]: e.target.value }));
-    setErrors(validate({ ...input, [e.target.name]: e.target.value }));
+    setCreatedNft((prev) => ({ ...prev, [e.target.name]: e.target.value }));
+    setErrors(utils.validate({ ...createdNft, [e.target.name]: e.target.value }));
   };
 
   // CATEGORIES SELECTOR
   // una sola funcion con indice el cual indica la posicion del arreglo que tiene que editar
   let handleChangeSelect = (e, index) => {
     e.preventDefault();
-    let auxCats = input.categories;
+    let auxCats = createdNft.categories;
     auxCats[index] = e.target.value;
-    setInput((prev) => ({
+    setCreatedNft((prev) => ({
       ...prev,
       categories: auxCats,
     }));
@@ -173,15 +143,14 @@ const validateUser = async () => {
   // CREATE NFT
   let handleSubmit = (e) => {
     e.preventDefault();
-    let inputObj = {
-      ...input,
-      price: Number(input.price),
-      ownerName: user.name + " " + user.last_name || "no name found",
-      ownerIcon: user.profile_pic || "no image found", 
-      userid: user.id || "no user id found",
+    let createdNftObj = {
+      ...createdNft,
+      price: Number(createdNft.price),
+      ownerName: user.name + " " + user.last_name,
+      ownerIcon: user.profile_pic, 
+      userid: user.id,
     };
-    console.log(inputObj);
-    dispatch(actions.createNft(inputObj));
+    dispatch(actions.createNft(createdNftObj));
   };
 
   // --- NEXT - PREV ---
@@ -201,13 +170,6 @@ const validateUser = async () => {
   //   e.preventDefault();
   //   setCreateStep(1);
   // };
-if (loginStatusStorage === "Estoy loggeado") {
-    return (
-      <div className="login-loggedmessage">
-        <p>You've been logged</p>
-      </div>
-    );
-  } else
 
   return (
     <React.Fragment>
