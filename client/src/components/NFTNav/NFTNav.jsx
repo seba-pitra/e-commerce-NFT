@@ -18,6 +18,8 @@ export default function NFTNav() {
   const cartItemsCount = useSelector((state) => state.userNfts);
   const activeUserIs = useSelector((state) => state.activeUser);
   const userNfts = useSelector((state) => state.userNfts);
+  const loggedUser = useSelector((state) => state.loggedUser);
+
 
   const location = useLocation();
   const history = useHistory();
@@ -79,6 +81,9 @@ export default function NFTNav() {
               </Nav.Link>
               <Nav.Link className="brand-colorized-text" href="/createNft">
                 Create
+              </Nav.Link>
+              <Nav.Link className="brand-colorized-text" href={`/user/${loggedUser}`}>
+                My account
               </Nav.Link>
             </Nav>
             <SearchBar />

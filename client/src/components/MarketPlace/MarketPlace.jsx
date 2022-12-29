@@ -43,7 +43,10 @@ function MarketPlace({ loggedIn }) {
 
   const validateUser = async () => {
     console.log(loggedUser);
-    if (Object.keys(loggedUser).length) {
+let loginStatusStorage = localStorage.getItem("Logged");
+console.log('Aqui estoy !!', loginStatusStorage)
+    if (loginStatusStorage === "Estoy loggeado") {
+      dispatch(actions.getAllNfts());
       dispatch(actions.getAllCollections());
       dispatch(actions.getAllNfts());
       dispatch(actions.getEthPrice());
@@ -51,7 +54,7 @@ function MarketPlace({ loggedIn }) {
       history.push("/");
     }
   };
-
+  console.log(loggedUser)
   useEffect(() => {}, [order]);
   return (
     <>
