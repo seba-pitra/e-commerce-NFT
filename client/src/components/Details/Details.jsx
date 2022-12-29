@@ -117,7 +117,11 @@ const Details = (props) => {
 
               <div>
                 <span className={styles["detail-span"]}>
-                  Item from "{nftDetail.collection?.name}" collection
+                  {"Item from "} 
+                  <Link to={"/collections/" + nftDetail.collection?.id}>
+                  {nftDetail.collection?.name}
+                  </Link>
+                  {" collection"}
                 </span>
               </div>
 
