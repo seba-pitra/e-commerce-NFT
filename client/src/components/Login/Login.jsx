@@ -14,8 +14,11 @@ import "./Login.css";
 // sendPasswordResetEmail
 const Login = () => {
   const users = useSelector((state) => state.users);
-  const loggedUser = useSelector((state) => state.loggedUser);
-  const dispatch = useDispatch();
+ // const loggedUser = useSelector((state) => state.loggedUser);
+let loginStatusStorage = localStorage.getItem("Logged");
+
+
+	const dispatch = useDispatch();
 
   const history = useHistory();
 
@@ -50,8 +53,8 @@ const Login = () => {
       profile_pic: auth.currentUser.photoURL,
     };
     fetch("http://localhost:3001/user", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
+      method: "post",
+      headers: { "content-type": "application/json" },
       body: JSON.stringify(user),
     });
     setTimeout(() => {
@@ -61,18 +64,18 @@ const Login = () => {
 
   const logginFunction = async (params) => {
     try {
-      const loggedUser = await signInWithEmailAndPassword(
+      const loggedUserX2 = await signInWithEmailAndPassword(
         auth,
         params.email,
         params.password
       );
 
-      if (!users.filter((user) => user.id === loggedUser.user.uid).length) {
+      if (!users.filter((user) => user.id === loggedUserX2.user.uid).length) {
         await signOut(auth);
         throw new Error("Firebase: Error (auth/user-not-found).");
       }
 
-      if (auth.currentUser.emailVerified && loggedUser) {
+      if (auth.currentUser.emailVerified && loggedUserX2) {
         // dispatch(gettingActiveUserToState(auth.currentUser.email));
         // loadLocalStorage(auth.currentUser.email);
         fetch("http://localhost:3001/payment/userEmail", {
@@ -116,7 +119,7 @@ const Login = () => {
     });
   };
 
-  if (Object.keys(loggedUser).length) {
+  if (loginStatusStorage === "Estoy loggeado") {
     return (
       <div className="login-loggedmessage">
         <p>You've been logged</p>
