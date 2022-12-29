@@ -10,7 +10,7 @@ import { Route, Switch } from "react-router-dom";
 import NFTNav from "./components/NFTNav/NFTNav";
 import Footer from "./components/Footer/Footer";
 import CreateNft from "./components/CreateNft/CreateNft";
-import UserProfile from './components/UserComponents/UserProfile/UserProfile.jsx'
+import UserProfile from "./components/UserComponents/UserProfile/UserProfile.jsx";
 import AdminDashboard from "./components/AdminDashBoard/AdminDashboard";
 import Register from "./components/Registrer/Registrer";
 import MarketPlace from "./components/MarketPlace/MarketPlace";
@@ -30,9 +30,11 @@ function App() {
     if (user) {
       dispatch(getLoggedUser(auth.currentUser.uid));
       console.log("Estoy loggeadi");
+      localStorage.setItem("Logged", "Estoy loggeado");
     } else {
       console.log("NO estoy loggeado");
       dispatch({ type: GET_LOGGED_USER, payload: {} });
+      localStorage.setItem("Logged", "No loggeadoX2");
     }
   });
 
@@ -69,7 +71,7 @@ function App() {
           />
           <Route
             exact
-            path="/pruebas/adminDash"
+            path="/admin/adminDashboard"
             render={() => <AdminDashboard />}
           />
           <Route

@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css');
 
+/* .nav-bar{
+    position: relative;
+} */
+
 .navbar-company-name-header {
     margin-left: 10%;
     font-family: 'Bebas Neue', cursive;

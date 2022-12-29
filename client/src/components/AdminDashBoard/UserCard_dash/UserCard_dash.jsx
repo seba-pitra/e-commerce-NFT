@@ -6,14 +6,14 @@ import { deleteUser } from "firebase/auth";
 import BlockIcon from "@material-ui/icons/Block";
 
 const UserCard_dash = ({ id, name, last_name, email, dni }) => {
-  const handleBlock = () => {
-    fetch(`http://localhost:3001/user/${id}`, {
-      method: "DELETE",
-      headers: { "Content-Type": "application/json" },
-    })
-      .then((res) => res.json())
-      .then((data) => console.log(data));
-  };
+  // const handleBlock = () => {
+  //   fetch(`http://localhost:3001/user/${id}`, {
+  //     method: "DELETE",
+  //     headers: { "Content-Type": "application/json" },
+  //   })
+  //     .then((res) => res.json())
+  //     .then((data) => console.log(data));
+  // };
 
   const handleClick = (e) => {
     e.preventDefault();
@@ -40,7 +40,7 @@ const UserCard_dash = ({ id, name, last_name, email, dni }) => {
       </div>
       <div className="dash-card-icons">
         <div className="card-dash-icon">
-          <BlockIcon onClick={handleBlock} />
+          <BlockIcon /* onClick={handleBlock} */ />
         </div>
       </div>
     </div>
