@@ -22,7 +22,6 @@
     "dotenv": "^16.0.3",
     "ethers": "^5.7.2",
     "firebase": "^9.0.0-2021720181311",
-    "nodemailer": "^6.8.0",
     "react": "^17.0.2",
     "react-bootstrap": "^2.6.0",
     "react-chartjs-2": "^4.3.1",

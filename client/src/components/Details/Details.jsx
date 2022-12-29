@@ -6,10 +6,35 @@ import { Link, useHistory } from "react-router-dom";
 import styles from "./Details.module.css";
 import ethereumLogo from "../../images/ethereum-logo.png";
 import { startPayment } from "../../utils";
+import { useHistory } from "react-router-dom";
+
+
 
 const Details = (props) => {
+
+	const dispatch = useDispatch();
+	const history = useHistory();
+
+	let loginStatusStorage = localStorage.getItem("Logged");
+
+
+	const validateUser = async () => {
+		let loginStatusStorage = localStorage.getItem("Logged");
+		if (loginStatusStorage === "Estoy loggeado") {
+			dispatch(actions.getAllNfts());
+			dispatch(actions.getAllCollections());
+			dispatch(actions.getEthPrice());
+		} else {
+			history.push("/");
+		}
+	};
+
+ //useEffect(() => {
+ //     validateUser();
+ // }, []);
+
+
   const { id } = props.match.params;
-  const dispatch = useDispatch();
   let sales;
   const nftDetail = useSelector((state) => state.nftDetail);
   const isLoading = useSelector((state) => state.isLoading);
@@ -17,10 +42,9 @@ const Details = (props) => {
   const [error, setError] = useState();
   const [txs, setTxs] = useState([]);
 
-  const history = useHistory();
-
   useEffect(() => {
-    dispatch(actions.getNftDetail(id));
+      validateUser();
+	  dispatch(actions.getNftDetail(id));
   }, [dispatch, id]);
 
   const handlePay = async (e) => {
@@ -69,7 +93,6 @@ const Details = (props) => {
 
   console.log(nftDetail);
 
-  
   let date = new Date(nftDetail.createdTs)
   date = date.toString()
   date = date.slice(4, 16)
