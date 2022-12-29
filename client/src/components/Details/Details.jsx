@@ -6,8 +6,6 @@ import { Link, useHistory } from "react-router-dom";
 import styles from "./Details.module.css";
 import ethereumLogo from "../../images/ethereum-logo.png";
 import { startPayment } from "../../utils";
-import { useHistory } from "react-router-dom";
-
 
 
 const Details = (props) => {
