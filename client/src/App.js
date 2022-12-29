@@ -23,6 +23,7 @@ import Recovery from "./components/Recovery/Recovery";
 import PayResult from "./components/PayResult/PayResult";
 import { getLoggedUser, GET_LOGGED_USER } from "./redux/actions";
 import { useDispatch } from "react-redux";
+import UserDetail from "./components/UserComponents/UserProfile/UserDetail.jsx";
 
 function App() {
   const dispatch = useDispatch();
@@ -63,6 +64,11 @@ function App() {
             exact
             path="/user/:id"
             render={({ match }) => <UserProfile match={match} />}
+          />
+          <Route
+            exact
+            path="/admin/user/:id"
+            render={({ match }) => <UserDetail match={match} />}
           />
           <Route
             exact
