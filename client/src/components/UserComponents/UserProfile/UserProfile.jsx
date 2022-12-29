@@ -1,7 +1,7 @@
 import * as actions from "../../../redux/actions";
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { useParams } from "react-router-dom";
+import { useHistory, useParams } from "react-router-dom";
 import EditIcon from "@material-ui/icons/Edit";
 import DoneIcon from "@material-ui/icons/Done";
 import PurchaseHistory from "../../PurchaseHistory/PurchaseHistory";
@@ -10,6 +10,8 @@ import "./UserProfile.css";
 
 export default function UserProfile(props) {
   const { id } = props.match.params;
+
+  let navHistory = useHistory();
 
 
   let history = [
@@ -128,9 +130,7 @@ export default function UserProfile(props) {
   console.log(userDetail);
   return (
     <div className="main-container">
-      <Link to={"/marketplace"} className='back-button'>
-            {"< "}Back
-          </Link>
+      <button onClick={() => navHistory.goBack()} className="back-button"> {"< "}Back </button>
       <div className="profile-container">
         <div className="avatar-nickname-container">
           <img src={userDetail.profile_pic} alt="avatar" />
