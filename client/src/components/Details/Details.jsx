@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import * as actions from "../../redux/actions";
 import Loading from "../Loading/Loading";
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 import styles from "./Details.module.css";
 import ethereumLogo from "../../images/ethereum-logo.png";
 import { startPayment } from "../../utils";
@@ -16,6 +16,8 @@ const Details = (props) => {
 
   const [error, setError] = useState();
   const [txs, setTxs] = useState([]);
+
+  const history = useHistory();
 
   useEffect(() => {
     dispatch(actions.getNftDetail(id));
@@ -73,76 +75,65 @@ const Details = (props) => {
         <Loading />
       ) : (
         <div className={styles["detail-all-container"]}>
-          <Link to={"/marketplace"} className={styles["back-button"]}>
-            {"< "}Back
-          </Link>
+          <button onClick={() => history.goBack()} className={styles["back-button"]}> {"< "}Back </button>
           <div className={styles["detail-card-container"]}>
-            <img
-              src={nftDetail.image}
-              alt="nft-detail"
-              className={styles["nft-img"]}
-            />
+            <img src={nftDetail.image} alt="nft-detail" className={styles["nft-img"]} />
+            
             <div className={styles["nft-data-container"]}>
+
               <div>
                 <h1>{nftDetail.name}</h1>
-                {nftDetail.source && (
-                  <span className={styles["detail-span"]}>
-                    Included from{"  "}
-                    <img
-                      src={nftDetail.source.icon}
-                      alt="icon-detail"
-                      className={styles["source-icon"]}
-                    />
-                  </span>
-                )}
+                <span className={styles["detail-span"]}>
+                  Included from {nftDetail.ownerName + " "}
+                  <img src={nftDetail.ownerIcon} alt="icon-detail" className={styles["source-icon"]} />
+                </span>
               </div>
-              <div className={styles["price-container"]}>
-                <span className={styles["detail-span"]}>Price</span>
-                <div className={styles["ethereum-container"]}>
-                  <img
-                    src={ethereumLogo}
-                    alt="ethereum-logo"
-                    className={styles["ethereum-logo-price"]}
-                  />
-                  <h3>{nftDetail.price}</h3>
-                </div>
-              </div>
-              <div className={styles["data-detail-nft"]}>
-                <h2>Details</h2>
-                {nftDetail.available ? (
-                  <span className={styles.available}>Available</span>
-                ) : (
-                  <span className={styles.unavailable}>Unavailable</span>
-                )}
-                <div>
-                  <span>
-                    Contract
-                    <br />
-                    adress:
-                  </span>
-                  <span className={styles["contract-adress"]}>
-                    {nftDetail.contract}
-                  </span>
-                </div>
-                <div>
-                  <span>Token id:</span>
-                  <span>{nftDetail.tokenId}</span>
-                </div>
-              </div>
-              <div className={styles["buttons-container"]}>
-                <button className={styles["button-detail"]} onClick={handlePay}>
-                  Select & buy
-                </button>
 
-                <button
-                  className={styles["button-detail"]}
-                  onClick={handleClickOnShoppingCart}
-                >
-                  Add to Cart
-                </button>
+              <div>
+                <span className={styles["detail-span"]}>
+                  Item from "{nftDetail.collection?.name}" collection
+                </span>
               </div>
+
+              <div className={styles["flex-row3"]}>
+                <h6>Favs: {nftDetail.favs}</h6>
+                <h6>Stars: {nftDetail.stars}</h6>
+                <h6>Rarity: {nftDetail.rarity}</h6>
+              </div>
+
+              <div className={styles["price-container"]}>
+                <div className={styles["ethereum-container"]}>
+                <span className={styles["detail-span"]}>Price</span>
+                <div className="flex-row">
+                  <img src={ethereumLogo} alt="ethereum-logo" className={styles["ethereum-logo-price"]} />
+                  <h4>{nftDetail.price?.toFixed(3)}</h4>
+                </div>
+                </div>
+                <div className={styles["ethereum-container"]}>
+                <span className={styles["detail-span"]}>Last Buy</span>
+                <div className="flex-row">
+                  <img src={ethereumLogo} alt="ethereum-logo" className={styles["ethereum-logo-price"]} />
+                  <h4>{nftDetail.lastBuyValue?.toFixed(3)}</h4>
+                </div>
+                </div>
+              </div>
+
+              <div className={styles["data-detail-nft"]}>
+                <h3>Details</h3>
+                <h6>{nftDetail.description}</h6>
+                {/* {nftDetail.available ? ( <span className={styles.available}>Available</span> ) : ( <span className={styles.unavailable}>Unavailable</span> )} */}
+                <h6> Categories: {nftDetail.category?.join(", ")}</h6>
+                <h6>Token id: {nftDetail.tokenId}</h6>
+              </div>
+
+              <div className={styles["buttons-container"]}>
+                <button className={styles["button-detail"]} onClick={handlePay}> Buy now </button>
+                <button className={styles["button-detail"]} onClick={handleClickOnShoppingCart} > Add to Cart </button>
+              </div>
+
               {error && <p>{error}</p>}
               {txs && <p>{txs}</p>}
+
             </div>
           </div>
         </div>
