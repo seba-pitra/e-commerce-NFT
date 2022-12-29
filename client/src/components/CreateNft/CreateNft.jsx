@@ -8,16 +8,13 @@ import * as actions from "../../redux/actions";
 import { useEffect, useRef } from "react";
 
 export default function Form() {
+  const dispatch = useDispatch();
+  const allCollections = useSelector((state) => state.collections);
+  const user = useSelector((state) => state.loggedUser);
+
   useEffect(() => {
     dispatch(actions.getAllCollections());
   }, []);
-
-  const dispatch = useDispatch();
-
-  const allCollections = useSelector((state) => state.collections);
-
-  const user = useSelector((state) => state.loggedUser);
-  console.log(user)
 
   // cloudinary >>>
   const cloudinaryRef = useRef();
@@ -47,29 +44,31 @@ export default function Form() {
   // cloudinary <<<
 
   let [input, setInput] = useState({
-    userId: userId,
+    userId: user.id,
+    collectionId: "",
     collection: null,
     name: null,
     description: null,
     image: null,
     price: 0,
     categories: ["", "", "", "", "", "", ""],
-    contract: "non-contract-yet",
+    contract: "here comes the wallet",
     ownerName: user.name + " " + user.last_name || "no name found",
     ownerIcon: user.profile_pic || "no image found", 
-    userid: user.id || "no user id found",
   });
 
-  const [errors, setErrors] = React.useState({
+  const [errors, setErrors] = useState({
     name: "no data",
     price: "no data",
   });
 
-  const [addCollection, setAddCollection] = React.useState({
+  const [addCollection, setAddCollection] = useState({
+    userId: user.name,
     name: "",
-    image:
-      "https://images.pexels.com/photos/12786598/pexels-photo-12786598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "https://images.pexels.com/photos/12786598/pexels-photo-12786598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
   });
+
+  console.log(addCollection);
 
   //asi tendria q venir el array de categories,puede cambiar como venga
   const allCategories = {
@@ -111,71 +110,12 @@ export default function Form() {
     setErrors(utils.validate({ ...input, [e.target.name]: e.target.value }));
   };
 
-  // CATEGORIES FUNCTIONS
-  let handleChangeSelect = (e) => {
+  // CATEGORIES SELECTOR
+  // una sola funcion con indice el cual indica la posicion del arreglo que tiene que editar
+  let handleChangeSelect = (e, index) => {
     e.preventDefault();
     let auxCats = input.categories;
-    auxCats[0] = e.target.value;
-    setInput((prev) => ({
-      ...prev,
-      categories: auxCats,
-    }));
-  };
-
-  let handleChangeSelect1 = (e) => {
-    e.preventDefault();
-    let auxCats = input.categories;
-    auxCats[1] = e.target.value;
-    setInput((prev) => ({
-      ...prev,
-      categories: auxCats,
-    }));
-  };
-
-  let handleChangeSelect2 = (e) => {
-    e.preventDefault();
-    let auxCats = input.categories;
-    auxCats[2] = e.target.value;
-    setInput((prev) => ({
-      ...prev,
-      categories: auxCats,
-    }));
-  };
-
-  let handleChangeSelect3 = (e) => {
-    e.preventDefault();
-    let auxCats = input.categories;
-    auxCats[3] = e.target.value;
-    setInput((prev) => ({
-      ...prev,
-      categories: auxCats,
-    }));
-  };
-
-  let handleChangeSelect4 = (e) => {
-    e.preventDefault();
-    let auxCats = input.categories;
-    auxCats[4] = e.target.value;
-    setInput((prev) => ({
-      ...prev,
-      categories: auxCats,
-    }));
-  };
-
-  let handleChangeSelect5 = (e) => {
-    e.preventDefault();
-    let auxCats = input.categories;
-    auxCats[5] = e.target.value;
-    setInput((prev) => ({
-      ...prev,
-      categories: auxCats,
-    }));
-  };
-
-  let handleChangeSelect6 = (e) => {
-    e.preventDefault();
-    let auxCats = input.categories;
-    auxCats[6] = e.target.value;
+    auxCats[index] = e.target.value;
     setInput((prev) => ({
       ...prev,
       categories: auxCats,
@@ -246,9 +186,9 @@ export default function Form() {
                   {" "}
                   Select Collection{" "}
                 </option>
-                {allCollections?.map((e) => (
-                  <option value={e.name} name="collections" key={e.name}>
-                    {e.name} | {e.nfts.length} items
+                {allCollections?.map((collection) => (
+                  <option value={collection.id} name="collections" key={collection.id}>
+                    {collection.name} | {collection.nfts.length} items
                   </option>
                 ))}
               </select>
@@ -401,7 +341,7 @@ export default function Form() {
 
             <button className="addCategory"></button>
 
-            <select onChange={(e) => handleChangeSelect(e)} name="categories">
+            <select onChange={(e) => handleChangeSelect(e, 0)} name="categories">
               <option hidden disabled selected value>
                 {" "}
                 Select Specie{" "}
@@ -414,7 +354,7 @@ export default function Form() {
               ))}
             </select>
 
-            <select onChange={(e) => handleChangeSelect1(e)} name="categories">
+            <select onChange={(e) => handleChangeSelect(e, 1)} name="categories">
               <option hidden disabled selected value>
                 {" "}
                 Select Subspecie{" "}
@@ -427,7 +367,7 @@ export default function Form() {
               ))}
             </select>
 
-            <select onChange={(e) => handleChangeSelect2(e)} name="categories">
+            <select onChange={(e) => handleChangeSelect(e, 2)} name="categories">
               <option hidden disabled selected value>
                 {" "}
                 Select Art{" "}
@@ -440,7 +380,7 @@ export default function Form() {
               ))}
             </select>
 
-            <select onChange={(e) => handleChangeSelect3(e)} name="categories">
+            <select onChange={(e) => handleChangeSelect(e, 3)} name="categories">
               <option hidden disabled selected value>
                 {" "}
                 Select Type{" "}
@@ -453,7 +393,7 @@ export default function Form() {
               ))}
             </select>
 
-            <select onChange={(e) => handleChangeSelect4(e)} name="categories">
+            <select onChange={(e) => handleChangeSelect(e, 4)} name="categories">
               <option hidden disabled selected value>
                 {" "}
                 Select Style{" "}
@@ -466,7 +406,7 @@ export default function Form() {
               ))}
             </select>
 
-            <select onChange={(e) => handleChangeSelect5(e)} name="categories">
+            <select onChange={(e) => handleChangeSelect(e, 5)} name="categories">
               <option hidden disabled selected value>
                 {" "}
                 Select Restriccion{" "}
@@ -479,7 +419,7 @@ export default function Form() {
               ))}
             </select>
 
-            <select onChange={(e) => handleChangeSelect6(e)} name="categories">
+            <select onChange={(e) => handleChangeSelect(e, 6)} name="categories">
               <option hidden disabled selected value>
                 {" "}
                 Select Background{" "}

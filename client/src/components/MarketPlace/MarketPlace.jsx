@@ -44,8 +44,8 @@ function MarketPlace({ loggedIn }) {
   const validateUser = async () => {
     console.log(loggedUser);
     if (Object.keys(loggedUser).length) {
-      dispatch(actions.getAllNfts());
       dispatch(actions.getAllCollections());
+      dispatch(actions.getAllNfts());
       dispatch(actions.getEthPrice());
     } else {
       history.push("/");

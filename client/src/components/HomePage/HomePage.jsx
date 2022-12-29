@@ -20,7 +20,10 @@ function HomePage() {
   useEffect(() => {
     validateUser();
   }, [dispatch]);
+
   const validateUser = async () => {
+	console.log('validateUser');
+	console.log(loggedUser);
     if (loggedUser) {
       dispatch(actions.getAllNfts());
       dispatch(actions.getAllCollections());

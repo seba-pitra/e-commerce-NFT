@@ -277,12 +277,13 @@ export const createNft = (payload) => {
 export const createCollection = (payload) => {
   return async (dispatch) => {
     try {
-      const createdNft = await axios.post(`/collection`, payload);
+      console.log(payload)
+      const createdNft = await axios.post(`/collection/create`, payload);
       dispatch({ type: CREATE_COLLECTION, payload: createdNft.data }); // msj desde el back
       alert("Collection created successfully");
       window.location.href = "/";
     } catch (e) {
-      alert(e.response.data);
+      console.log(e.response.data.error);
     }
   };
 };

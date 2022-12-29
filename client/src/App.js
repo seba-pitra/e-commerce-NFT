@@ -25,10 +25,12 @@ import { useDispatch } from "react-redux";
 
 function App() {
   const dispatch = useDispatch();
+
   onAuthStateChanged(auth, (user) => {
+    console.log(auth.currentUser)
     if (user) {
       dispatch(getLoggedUser(auth.currentUser.uid));
-      console.log("Estoy loggeadi");
+      console.log("Estoy loggeado");
     } else {
       console.log("NO estoy loggeado");
       dispatch({ type: GET_LOGGED_USER, payload: {} });
