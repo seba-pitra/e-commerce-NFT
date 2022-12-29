@@ -19,7 +19,7 @@ const Details = (props) => {
 	const validateUser = async () => {
 		let loginStatusStorage = localStorage.getItem("Logged");
 		if (loginStatusStorage === "Estoy loggeado") {
-			dispatch(actions.getAllNfts());
+			// dispatch(actions.getAllNfts());
 			dispatch(actions.getAllCollections());
 			dispatch(actions.getEthPrice());
 		} else {
