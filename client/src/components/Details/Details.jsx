@@ -69,6 +69,11 @@ const Details = (props) => {
 
   console.log(nftDetail);
 
+  
+  let date = new Date(nftDetail.createdTs)
+  date = date.toString()
+  date = date.slice(4, 16)
+
   return (
     <>
       {isLoading ? (
@@ -122,8 +127,8 @@ const Details = (props) => {
                 <h3>Details</h3>
                 <h6>{nftDetail.description}</h6>
                 {/* {nftDetail.available ? ( <span className={styles.available}>Available</span> ) : ( <span className={styles.unavailable}>Unavailable</span> )} */}
-                <h6> Categories: {nftDetail.category?.join(", ")}</h6>
-                <h6>Token id: {nftDetail.tokenId}</h6>
+                <h6>Categories: {nftDetail.category?.join(", ")}</h6>
+                <h6>Created At: {date}</h6>
               </div>
 
               <div className={styles["buttons-container"]}>
