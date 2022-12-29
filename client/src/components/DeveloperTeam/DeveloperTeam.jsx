@@ -14,8 +14,35 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { useDispatch } from "react-redux";
 import * as actions from "../../redux/actions";
-
+import { useHistory } from "react-router-dom";
+import React, { useEffect, useState } from "react";
 const DeveloperTeam = (props) => {
+
+const history = useHistory();
+const dispatch = useDispatch();
+
+const validateUser = async () => {
+let loginStatusStorage = localStorage.getItem("Logged");
+console.log('Aqui estoy !!', loginStatusStorage)
+    if (loginStatusStorage === "Estoy loggeado") {
+      dispatch(actions.getAllNfts());
+      dispatch(actions.getAllCollections());
+      dispatch(actions.getEthPrice());
+    } else {
+      history.push("/");
+    }
+  };
+
+
+
+ useEffect(() => {
+      validateUser();
+  }, []);
+
+
+
+
+
   return (
     <div className={styles["about-us"]}>
       <div className={styles["about-us-container"]}>

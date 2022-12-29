@@ -96,6 +96,8 @@
 }
 
 .price-container {
+  display: flex;
+  flex-direction: row;
   margin: 15px 0;
 }
 
@@ -120,12 +122,23 @@
 
 .ethereum-container {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  margin-right: 60px;
 }
 
 .ethereum-logo-price {
-  height: 45px;
+  height: 35px;
   margin-left: -10px;
+}
+
+.flex-row3{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.flex-row3 *{
+  margin-right: 60px;
 }
 
 .data-detail-nft {
@@ -133,7 +146,10 @@
   flex-direction: column;
   gap: 10px;
   align-items: left;
+  width: 720px;
   margin-bottom: 40px;
+  border-bottom: 1px solid #d3448b;
+  border-top: 1px solid #d3448b;
 }
 
 .data-detail-nft div {
@@ -155,7 +171,7 @@
 
 .contract-adress {
   background-color: #d3448b;
-  width: fit-content;
+  width: 200px;
   padding: 7px;
   border-radius: 15px;
   margin-left: -10px;
@@ -167,14 +183,14 @@
 }
 
 .button-detail {
-  width: fit-content;
+  width: 160px;
   font-size: 20px;
   margin-left: -10px;
-  border-radius: 15px;
+  border-radius: 20px;
+  border: 1px solid white;
   background: #d3448b;
   color: #fff; /* color de fuente */
   padding: 16px 20px;
-  border-radius: 3px; /* redondear bordes */
   position: relative;
   z-index: 1;
   overflow: hidden;
