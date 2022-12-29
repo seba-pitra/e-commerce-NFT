@@ -4,6 +4,7 @@ import NFTCard from "../NFTCard/NFTCard";
 import NotFoundResults from "../NotFoundResults/NotFoundResults";
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
+import ethereumLogo from "../../images/ethereum-logo.png";
 import { useParams } from "react-router-dom";
 import "./CollectionDetail.css";
 
@@ -12,6 +13,8 @@ const CollectionDetail = () => {
 
   const collections = useSelector((state) => state.collections);
   const foundCollection = collections.find((coll) => coll.id === id);
+
+  console.log(foundCollection)
 
   const dispatch = useDispatch();
 
@@ -26,10 +29,12 @@ const CollectionDetail = () => {
     floorPrice = 100,
     createdAt = 0;
 
-  const cards = foundCollection.nfts.map((nft) => {
+  const cards = foundCollection?.nfts.map((nft) => {
+    console.log(nft)
     collectionPrice = nft.price + collectionPrice;
     amountNfts++;
     if (description === "No description") description = nft.description;
+    if (createdAt < nft.lastBuyTs) createdAt = nft.createdTs;
     if (floorPrice > nft.price) floorPrice = nft.price;
     if (createdAt < nft.lastSellTs) createdAt = nft.lastSellTs;
     return (
@@ -44,28 +49,47 @@ const CollectionDetail = () => {
         tokenId={nft.tokenId}
         userId={nft.userId}
         rarity={nft.rarity}
-        rarityRank={nft.rarityRank}
+        favs={nft.favs}
+        stars={nft.stars}
         lastBuy={nft.lastBuyValue || 0.01}
       />
     );
   });
 
+  let date = new Date(createdAt)
+  date = date.toString()
+  date = date.slice(4, 16)
+
   return (
     <div>
-      {cards.length === 0 ? (
+      {cards?.length === 0 ? (
         <NotFoundResults />
       ) : (
         <div className="collection-details">
           <div className="collection-details-container">
-            <img src={foundCollection.image} alt="collection-detail" />
-            <h1>{foundCollection.name}</h1>
-            <h3>Price collection: {collectionPrice}</h3>
-            <h3>Amount Nfts: {amountNfts}</h3>
-            <h3>Description: {description}</h3>
-            <h3>FloorPrice: {floorPrice}</h3>
-            <h3>Cadena Ethereum</h3>
-            <h3>Comisión del creador 5%</h3>
-            <h3>{createdAt}</h3>
+            <div className="img-collection">
+              <img src={foundCollection?.image} alt="collection-detail" />
+            </div>
+            <div className="flex-row4">
+              <h2>{foundCollection?.name}</h2>
+              <span>Created by <span className="negrita">{foundCollection?.user.name}</span></span>
+            </div>
+            <div className="flex-row4">
+              <span>Items <span className="negrita">{amountNfts}</span></span>
+              <span><span className="negrita">-</span></span>
+              <span>Created At <span className="negrita">{date}</span></span>
+              <span><span className="negrita">-</span></span>
+              <span>Cadena <span className="negrita">Ethereum</span></span>
+              <span><span className="negrita">-</span></span>
+              <span>Comisión del creador <span className="negrita">5%</span></span>
+            </div>
+              <div className="flex-row4">
+                <h6>{description}</h6>
+              </div>
+            <div className="flex-row4">
+              <span>Collection Price <span className="negrita">{collectionPrice?.toFixed(3)}</span></span>
+              <span>FloorPrice <span className="negrita">{floorPrice}</span></span>
+            </div>
           </div>
           <div className="pageSelector-Container">{cards}</div>
         </div>

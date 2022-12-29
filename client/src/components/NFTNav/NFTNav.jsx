@@ -76,15 +76,15 @@ export default function NFTNav() {
               style={{ maxHeight: "100px" }}
               navbarScroll
             >
-              <Nav.Link className="brand-colorized-text" href="/home">
+              <Link className="brand-colorized-text" to="/home">
                 Home
-              </Nav.Link>
-              <Nav.Link className="brand-colorized-text" href="/createNft">
+              </Link>
+              <Link className="brand-colorized-text" to="/createNft">
                 Create
-              </Nav.Link>
-              <Nav.Link className="brand-colorized-text" href={`/user/${loggedUser}`}>
+              </Link>
+              <Link className="brand-colorized-text" to={`/myAccount`}>
                 My account
-              </Nav.Link>
+              </Link>
             </Nav>
             <SearchBar />
             <Nav>
@@ -98,9 +98,9 @@ export default function NFTNav() {
               <Link to={"/developerTeam"} className="brand-colorized-text">
                 Developer Team
               </Link>
-              <Nav.Link onClick={handdleCick} className="brand-colorized-text">
+              <Link onClick={handdleCick} className="brand-colorized-text">
                 Logout
-              </Nav.Link>
+              </Link>
               {/* slide kart trigger*/}
               <button
                 style={{

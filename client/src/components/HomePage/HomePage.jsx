@@ -6,9 +6,10 @@ import "./HomePage.css";
 
 function HomePage() {
   const order = useSelector((state) => state.orderDirection);
-  const loggedUser = useSelector((state) => state.loggedUser);
+//  const loggedUser = useSelector((state) => state.loggedUser);
   const dispatch = useDispatch();
   const history = useHistory();
+let loginStatusStorage = localStorage.getItem("Logged");
 
   // useEffect(() => {
   //     dispatch(actions.getAllNfts());
@@ -22,9 +23,7 @@ function HomePage() {
   }, [dispatch]);
 
   const validateUser = async () => {
-	console.log('validateUser');
-	console.log(loggedUser);
-    if (loggedUser) {
+    if (loginStatusStorage) {
       dispatch(actions.getAllNfts());
       dispatch(actions.getAllCollections());
     } else {
