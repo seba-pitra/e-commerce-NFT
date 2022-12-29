@@ -21,21 +21,21 @@ import { auth } from "./firebase.js";
 import { onAuthStateChanged } from "firebase/auth";
 import Recovery from "./components/Recovery/Recovery";
 import PayResult from "./components/PayResult/PayResult";
-import { getLoggedUser, GET_LOGGED_USER } from "./redux/actions";
+import { getLoggedUser, removeLoggedUser } from "./redux/actions";
 import { useDispatch } from "react-redux";
 
 function App() {
   const dispatch = useDispatch();
+
   onAuthStateChanged(auth, (user) => {
     if (user) {
       dispatch(getLoggedUser(auth.currentUser.uid));
       console.log("Estoy loggeadi");
-localStorage.setItem("Logged", "Estoy loggeado");
-
+      localStorage.setItem("Logged", "Estoy loggeado");
     } else {
       console.log("NO estoy loggeado");
-      dispatch({ type: GET_LOGGED_USER, payload: {} });
-localStorage.setItem("Logged", "No loggeadoX2");
+      dispatch(removeLoggedUser());
+      localStorage.setItem("Logged", "No loggeadoX2");
     }
   });
 
@@ -62,8 +62,8 @@ localStorage.setItem("Logged", "No loggeadoX2");
           <Route exact path="/pay/pending" render={() => <PayResult />} />
           <Route
             exact
-            path="/user/:id"
-            render={({ match }) => <UserProfile match={match} />}
+            path="/myAccount"
+            render={() => <UserProfile/>}
           />
           <Route
             exact

@@ -7,6 +7,7 @@ export const GET_ALL_USERS = "GET_ALL_USERS";
 export const GET_NFT_DETAIL = "GET_NFT_DETAIL";
 export const GET_USER_BY_ID = "GET_USER_BY_ID";
 export const GET_LOGGED_USER = "GET_LOGGED_USER";
+export const REMOVE_LOGGED_USER = "REMOVE_LOGGED_USER";
 
 // -- ADMIN ACTIONS --
 export const CREATE_NFT = "CREATE_NFT";
@@ -152,6 +153,10 @@ export const getLoggedUser = (id) => {
     }
   };
 };
+
+export const removeLoggedUser = () => {
+  return { type: REMOVE_LOGGED_USER}
+}
 
 export const getNftDetail = (id) => {
   return async (dispatch) => {

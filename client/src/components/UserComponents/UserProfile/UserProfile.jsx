@@ -1,19 +1,15 @@
 import * as actions from "../../../redux/actions";
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { useHistory, useParams } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import EditIcon from "@material-ui/icons/Edit";
 import DoneIcon from "@material-ui/icons/Done";
 import PurchaseHistory from "../../PurchaseHistory/PurchaseHistory";
 import { Link } from "react-router-dom";
 import "./UserProfile.css";
 
-export default function UserProfile(props) {
-  const { id } = props.match.params;
-
+export default function UserProfile() {
   let navHistory = useHistory();
-
-
   let history = [
     {
       id : 'dsnkk242n3kd',
@@ -123,17 +119,17 @@ export default function UserProfile(props) {
   //     });
   //   };
 
-  useEffect(() => {
-    
-  }, [dispatch, id]);
-  
-  console.log(userDetail);
+  console.log(userDetail.profile_pic);
   return (
     <div className="main-container">
       <button onClick={() => navHistory.goBack()} className="back-button"> {"< "}Back </button>
       <div className="profile-container">
         <div className="avatar-nickname-container">
-          <img src={userDetail.profile_pic} alt="avatar" />
+          <img 
+            src={userDetail.profile_pic}
+            alt="avatar"
+            referrerpolicy="no-referrer"
+            />
           {/* falta nombre de usuario  */}
           <p className="text-muted mb-1">NOMBRE DE USARIO</p>
         </div>
