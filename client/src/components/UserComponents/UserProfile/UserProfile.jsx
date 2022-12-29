@@ -5,6 +5,7 @@ import { useParams } from "react-router-dom";
 import EditIcon from "@material-ui/icons/Edit";
 import DoneIcon from "@material-ui/icons/Done";
 import PurchaseHistory from "../../PurchaseHistory/PurchaseHistory";
+import { Link } from "react-router-dom";
 import "./UserProfile.css";
 
 export default function UserProfile(props) {
@@ -89,9 +90,9 @@ export default function UserProfile(props) {
   ]
 
   const dispatch = useDispatch();
-  const userData = useSelector((state) => state.userDetail);
-  const { userDetail } = useSelector((state) => state);
-  console.log(id);
+  const userDetail = useSelector((state) => state.loggedUser);
+  // const { userDetail } = useSelector((state) => state);
+ 
 
   // FALTA TRAER EL COMPONENTE PurchaseHistory y pasarle por params las relaciones con buy para q muestre el historial
 
@@ -121,11 +122,15 @@ export default function UserProfile(props) {
   //   };
 
   useEffect(() => {
-    dispatch(actions.getUserByID(id));
+    
   }, [dispatch, id]);
-  console.log(userData);
+  
+  console.log(userDetail);
   return (
     <div className="main-container">
+      <Link to={"/marketplace"} className='back-button'>
+            {"< "}Back
+          </Link>
       <div className="profile-container">
         <div className="avatar-nickname-container">
           <img src={userDetail.profile_pic} alt="avatar" />
