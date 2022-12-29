@@ -51,7 +51,7 @@ function MarketPlace({ loggedIn }) {
       history.push("/");
     }
   };
-
+  console.log(loggedUser)
   useEffect(() => {}, [order]);
   return (
     <>
