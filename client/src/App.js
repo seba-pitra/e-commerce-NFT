@@ -30,9 +30,12 @@ function App() {
     if (user) {
       dispatch(getLoggedUser(auth.currentUser.uid));
       console.log("Estoy loggeadi");
+localStorage.setItem("Logged", "Estoy loggeado");
+
     } else {
       console.log("NO estoy loggeado");
       dispatch({ type: GET_LOGGED_USER, payload: {} });
+localStorage.setItem("Logged", "No loggeadoX2");
     }
   });
 

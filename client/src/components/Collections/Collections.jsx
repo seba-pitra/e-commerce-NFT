@@ -9,16 +9,18 @@ import "./Collections.css";
 import VerifiedIcon from "@mui/icons-material/Verified";
 
 function Collections() {
-  const loggedUser = useSelector((state) => state.loggedUser);
+//  const loggedUser = useSelector((state) => state.loggedUser);
   const history = useHistory();
   const dispatch = useDispatch();
+let loginStatusStorage = localStorage.getItem("Logged");
+
 
   useEffect(() => {
     validateUser();
   }, [dispatch]);
 
   const validateUser = async () => {
-    if (Object.keys(loggedUser).length) {
+    if (loginStatusStorage) {
       dispatch(actions.getAllNfts());
       dispatch(actions.getAllCollections());
     } else {
