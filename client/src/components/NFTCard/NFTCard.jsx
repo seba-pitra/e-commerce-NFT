@@ -57,7 +57,7 @@ const handleClickOnFavorites = (e) => {
               <div className="eth-rarity">
                 <div className="flex-row">
                   <img src={ethereumLogo} alt="ethereum-logo" className="eth-logo"/>
-                  <h3>{props.price}</h3>
+                  <h3>{props.price.toFixed(3)}</h3>
                 </div>
                 <div className="flex-row">
                   <img src={favsLogo} alt="ethereum-logo" className="eth-logo"/>

@@ -12,7 +12,6 @@ function Pages() {
   const firstNftInPage = lastNftInPage - nftsPerPage;
   const nftsInPage = filteredNfts.slice(firstNftInPage, lastNftInPage);
   const cards = nftsInPage.map((nft) => {
-    console.log(nft);
     return (
       <NFTCard
         key={nft.id}

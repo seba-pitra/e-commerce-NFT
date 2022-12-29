@@ -46,7 +46,7 @@ function Collections() {
                   <h3 className='collections-name'> {collection.name} </h3>
                 </div>
                 <div className='collection-name-conteiner'>             
-                  <h3 className='collections-name'> Floor Price ETH: {floorPrice} | {collection.nfts.length} items</h3>
+                  <h3 className='collections-name'> Floor Price ETH: {floorPrice.toFixed(3)} | {collection.nfts.length} items</h3>
                 </div>
 
               </div>

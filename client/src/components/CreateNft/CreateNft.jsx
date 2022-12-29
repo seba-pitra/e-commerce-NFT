@@ -32,6 +32,9 @@ export default function Form() {
 
   const allCollections = useSelector((state) => state.collections);
 
+  const user = useSelector((state) => state.loggedUser);
+  console.log(user)
+
   // cloudinary >>>
   const cloudinaryRef = useRef();
   const widgetRef = useRef();
@@ -75,8 +78,9 @@ export default function Form() {
 
     // autofill
     contract: "non-contract-yet",
-    ownerName: "banx",
-    ownerIcon: "",
+    ownerName: user.name + " " + user.last_name || "no name found",
+    ownerIcon: user.profile_pic || "no image found", 
+    userid: user.id || "no user id found",
   });
 
   const [errors, setErrors] = React.useState({
@@ -92,13 +96,13 @@ export default function Form() {
 
   //asi tendria q venir el array de categories,puede cambiar como venga
   const allCategories = {
-    species: ["Animal", "Humanoid", "Other"],
-    species2: ["Cat", "Other"],
-    art: ["Artist", "Other"],
-    type: ["2d", "Other"],
-    style: ["Urban", "Other"],
-    rest: ["Adult", "Normal"],
-    flat: ["Flat", "Other"],
+    species: ['Animal', 'Humanoid', "Other"],
+    species2: ['Cat', 'Person', 'Monkey', 'Robot', 'Monster', 'Penguin', 'Duck', 'Reptile', 'Skull', 'Owl', 'Rabbit', 'Bear', 'Other'],
+    art: ['Cartoon', 'Painting', 'Realistic', 'Other'],
+    type: ['2d', '8bit', '3d', 'Other'],
+    style: ['Casual', 'Cute', 'Futuristic', 'Street', 'Bizarre', 'Other'],
+    rest: ['Normal', 'Adult'],
+    flat: ['Flat', 'Other'],
   };
 
   // COLLECTIONS FUNCTIONS
@@ -207,7 +211,11 @@ export default function Form() {
     let inputObj = {
       ...input,
       price: Number(input.price),
+      ownerName: user.name + " " + user.last_name || "no name found",
+      ownerIcon: user.profile_pic || "no image found", 
+      userid: user.id || "no user id found",
     };
+    console.log(inputObj);
     dispatch(actions.createNft(inputObj));
   };
 
@@ -259,7 +267,7 @@ export default function Form() {
               <select onChange={(e) => selectCollection(e)} name="collections">
                 <option hidden disabled selected value>
                   {" "}
-                  Select collection{" "}
+                  Select Collection{" "}
                 </option>
                 {allCollections?.map((e) => (
                   <option value={e.name} name="collections" key={e.name}>
@@ -419,7 +427,7 @@ export default function Form() {
             <select onChange={(e) => handleChangeSelect(e)} name="categories">
               <option hidden disabled selected value>
                 {" "}
-                Specie{" "}
+                Select Specie{" "}
               </option>
               {allCategories.species.map((e) => (
                 <option value={e} name="categories" key={e}>
@@ -432,7 +440,7 @@ export default function Form() {
             <select onChange={(e) => handleChangeSelect1(e)} name="categories">
               <option hidden disabled selected value>
                 {" "}
-                Specie2{" "}
+                Select Subspecie{" "}
               </option>
               {allCategories.species2.map((e) => (
                 <option value={e} name="categories" key={e}>
@@ -445,7 +453,7 @@ export default function Form() {
             <select onChange={(e) => handleChangeSelect2(e)} name="categories">
               <option hidden disabled selected value>
                 {" "}
-                Art{" "}
+                Select Art{" "}
               </option>
               {allCategories.art.map((e) => (
                 <option value={e} name="categories" key={e}>
@@ -458,7 +466,7 @@ export default function Form() {
             <select onChange={(e) => handleChangeSelect3(e)} name="categories">
               <option hidden disabled selected value>
                 {" "}
-                Type{" "}
+                Select Type{" "}
               </option>
               {allCategories.type.map((e) => (
                 <option value={e} name="categories" key={e}>
@@ -471,7 +479,7 @@ export default function Form() {
             <select onChange={(e) => handleChangeSelect4(e)} name="categories">
               <option hidden disabled selected value>
                 {" "}
-                Style{" "}
+                Select Style{" "}
               </option>
               {allCategories.style.map((e) => (
                 <option value={e} name="categories" key={e}>
@@ -484,7 +492,7 @@ export default function Form() {
             <select onChange={(e) => handleChangeSelect5(e)} name="categories">
               <option hidden disabled selected value>
                 {" "}
-                Rest{" "}
+                Select Restriccion{" "}
               </option>
               {allCategories.rest.map((e) => (
                 <option value={e} name="categories" key={e}>
@@ -497,7 +505,7 @@ export default function Form() {
             <select onChange={(e) => handleChangeSelect6(e)} name="categories">
               <option hidden disabled selected value>
                 {" "}
-                Flat{" "}
+                Select Background{" "}
               </option>
               {allCategories.flat.map((e) => (
                 <option value={e} name="categories" key={e}>
