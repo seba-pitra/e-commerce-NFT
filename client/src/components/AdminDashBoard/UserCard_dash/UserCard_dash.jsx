@@ -23,9 +23,8 @@ const UserCard_dash = ({ id, name, last_name, email, dni }) => {
 
   return (
     <div className="user-dash-card">
-      <button onClick={handleClick}>Click me</button>
       <div className="user-dash-id">
-        <Link to={`/admin/user/:${id}`}><p>{id}</p></Link>
+        <Link to={`/admin/user/${id}`}><p>{id}</p></Link>
       </div>
       <div className="user-dash-name">
         <p>{name}</p>

@@ -30,7 +30,7 @@ const UserIcon = ({ setVisible, visible }) => {
     saveLocalStorage();
     dispatch(freeShoppingCartState());
     logOutFunction();
-    setVisible();
+    setVisible(e);
   };
 
   function saveLocalStorage() {
@@ -47,7 +47,7 @@ const UserIcon = ({ setVisible, visible }) => {
       </li>
 
       <li
-        onClick={setVisible}
+        onClick={(e)=>setVisible(e)}
         className={` ${loggedUser.type === "Admin" ? "" : "noneDisplay"}`}
       >
         <Link className={`user-icon-list-link`} to="/admin/adminDashboard">
@@ -55,7 +55,7 @@ const UserIcon = ({ setVisible, visible }) => {
         </Link>
       </li>
 
-      <li onClick={handdleCick}>
+      <li onClick={(e)=>handdleCick(e)}>
         <div className="user-list-noLink">
           Logout
           <div className="logOut-icon">

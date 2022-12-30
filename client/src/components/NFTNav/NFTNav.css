@@ -11,6 +11,9 @@
     font-weight: bolder;
     font-size: 100%;
 }
+.nav-bar-accountIcon{
+    color: rgb(211, 68, 139);
+}
 
 .search-input {
     border-top: none;

@@ -22,13 +22,9 @@ const AdminDashboard = () => {
   const validateUser = () => {
     let loginStatusStorage = localStorage.getItem("Logged");
     if (
-      loginStatusStorage === "Estoy loggeado" &&
-      loggedUser.type === "Admin"
+      !loginStatusStorage === "Estoy loggeado" &&
+      !loggedUser.type === "Admin"
     ) {
-      dispatch(actions.getAllNfts());
-      dispatch(actions.getAllUsers());
-      dispatch(actions.getAllCollections());
-    } else {
       history.push("/");
     }
   };
@@ -37,7 +33,7 @@ const AdminDashboard = () => {
     return <h1>Loading</h1>;
   return (
     <div>
-      <h1>Soy Dashboard</h1>
+      <h1>Admin Dashboard</h1>
       <div>
         <Charts chartNfts={nfts} chartCollections={collections} />
       </div>

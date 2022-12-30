@@ -113,8 +113,8 @@ export default function NFTNav() {
               {/* <Nav.Link onClick={handdleCick} className="brand-colorized-text">
                 Logout
               </Nav.Link> */}
-              <div>
-                <AccountCircleIcon onClick={handleShowUserList} />
+              <div className="nav-bar-accountIcon">
+                <AccountCircleIcon onClick={(e)=>handleShowUserList(e)} />
               </div>
 
               {/* slide kart trigger*/}
