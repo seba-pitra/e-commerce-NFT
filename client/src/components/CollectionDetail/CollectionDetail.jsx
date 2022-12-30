@@ -88,7 +88,7 @@ const CollectionDetail = () => {
               </div>
             <div className="flex-row4">
               <span>Collection Price <span className="negrita">{collectionPrice?.toFixed(3)}</span></span>
-              <span>FloorPrice <span className="negrita">{floorPrice}</span></span>
+              <span>FloorPrice <span className="negrita">{floorPrice?.toFixed(3)}</span></span>
             </div>
           </div>
           <div className="pageSelector-Container">{cards}</div>
