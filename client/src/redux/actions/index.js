@@ -49,7 +49,7 @@ export const SET_ACTIVE_PAGE = "SET_ACTIVE_PAGE";
 export const SELECT_PAGE = "SELECT_PAGE";
 export const PREV_PAGE = "PREV_PAGE";
 export const NEXT_PAGE = "NEXT_PAGE";
-export const SET_NFTS_PER_PAGE = "SET_GAMES_PER_PAGE";
+export const SET_NFTS_PER_PAGE = "SET_NFTS_PER_PAGE";
 
 // -- LOCALSTORAGE --
 export const GET_ACTIVE_USER = "GET_ACTIVE_USER";
@@ -326,8 +326,8 @@ export const nextPage = () => {
   return { type: NEXT_PAGE };
 };
 
-export const setNftsPerPage = (gamesPerPage) => {
-  return { type: SET_NFTS_PER_PAGE, payload: gamesPerPage };
+export const nftsxpage = (payload) => {
+  return { type: SET_NFTS_PER_PAGE, payload };
 };
 
 export const addNftOnShoppingCart = (nftData) => {
