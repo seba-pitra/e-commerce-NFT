@@ -10,7 +10,7 @@ import { Route, Switch } from "react-router-dom";
 import NFTNav from "./components/NFTNav/NFTNav";
 import Footer from "./components/Footer/Footer";
 import CreateNft from "./components/CreateNft/CreateNft";
-import UserProfile from './components/UserComponents/UserProfile/UserProfile.jsx'
+import UserProfile from "./components/UserComponents/UserProfile/UserProfile.jsx";
 import AdminDashboard from "./components/AdminDashBoard/AdminDashboard";
 import Register from "./components/Registrer/Registrer";
 import MarketPlace from "./components/MarketPlace/MarketPlace";
@@ -23,6 +23,7 @@ import Recovery from "./components/Recovery/Recovery";
 import PayResult from "./components/PayResult/PayResult";
 import { getLoggedUser, removeLoggedUser } from "./redux/actions";
 import { useDispatch } from "react-redux";
+import UserDetail from "./components/UserComponents/UserProfile/UserDetail.jsx";
 
 function App() {
   const dispatch = useDispatch();
@@ -67,12 +68,17 @@ function App() {
           />
           <Route
             exact
+            path="/admin/user/:id"
+            render={({ match }) => <UserDetail match={match} />}
+          />
+          <Route
+            exact
             path="/details/:id"
             render={({ match }) => <Details match={match} />}
           />
           <Route
             exact
-            path="/pruebas/adminDash"
+            path="/admin/adminDashboard"
             render={() => <AdminDashboard />}
           />
           <Route

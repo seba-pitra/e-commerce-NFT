@@ -13,13 +13,17 @@ import "./NFTNav.css";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
+import UserIcon from "./UserIcon/UserIcon";
+
+import AccountCircleIcon from "@material-ui/icons/AccountCircle";
+
 export default function NFTNav() {
   const [show, setShow] = useState(false);
+  const [showUserList, setShowUserList] = useState(false);
   const cartItemsCount = useSelector((state) => state.userNfts);
   const activeUserIs = useSelector((state) => state.activeUser);
   const userNfts = useSelector((state) => state.userNfts);
   const loggedUser = useSelector((state) => state.loggedUser);
-
 
   const location = useLocation();
   const history = useHistory();
@@ -45,6 +49,11 @@ export default function NFTNav() {
     saveLocalStorage();
     dispatch(freeShoppingCartState());
     logOutFunction();
+  };
+
+  const handleShowUserList = (e) => {
+    e.preventDefault();
+    setShowUserList(!showUserList);
   };
 
   function saveLocalStorage() {
@@ -101,6 +110,10 @@ export default function NFTNav() {
               <Link onClick={handdleCick} className="brand-colorized-text">
                 Logout
               </Link>
+              <div className="nav-bar-accountIcon">
+                <AccountCircleIcon onClick={(e)=>handleShowUserList(e)} />
+              </div>
+
               {/* slide kart trigger*/}
               <button
                 style={{
@@ -128,6 +141,7 @@ export default function NFTNav() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
+      <UserIcon setVisible={handleShowUserList} visible={showUserList} />
     </div>
   );
 }
