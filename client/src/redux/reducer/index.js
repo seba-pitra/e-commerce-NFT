@@ -346,7 +346,7 @@ const rootReducer = (state = initialState, action) => {
       return { ...state, activePage: action.payload };
 
     case SET_NFTS_PER_PAGE:
-      return { ...state, gamesPerPage: action.payload, activePage: 1 };
+      return { ...state, nftsPerPage: action.payload, activePage: 1 };
 
     case NEXT_PAGE:
       return { ...state, activePage: state.activePage + 1 };

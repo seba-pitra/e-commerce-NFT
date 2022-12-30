@@ -77,9 +77,9 @@ export default function Ordering() {
 
   return (
     <div className="options-container">
-      <label id="order-by-label" className="label" htmlFor="order">
+      {/* <label id="order-by-label" className="label" htmlFor="order">
         Ordenar Por:{" "}
-      </label>
+      </label> */}
       <div className="button-list">
         {/*Boton para elegir orden alfabetico*/}
         <button
