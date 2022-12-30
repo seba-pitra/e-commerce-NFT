@@ -144,6 +144,7 @@ export const getUserByID = (id) => {
     dispatch({ type: LOADING });
     try {
       const user = await axios.get(`/user/${id}`);
+      console.log(user)
       dispatch({ type: GET_USER_BY_ID, payload: user.data });
     } catch (e) {
       alert("There was a connection error, please try again later user");

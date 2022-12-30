@@ -33,6 +33,8 @@ import { onAuthStateChanged } from "firebase/auth";
 
 //-- actions imports
 import { getLoggedUser, removeLoggedUser } from "./redux/actions";
+import { useDispatch } from "react-redux";
+import UserDetail from "./components/UserComponents/UserProfile/UserDetail.jsx";
 
 function App() {
   const dispatch = useDispatch();
@@ -78,12 +80,17 @@ function App() {
           />
           <Route
             exact
+            path="/admin/user/:id"
+            render={({ match }) => <UserDetail match={match} />}
+          />
+          <Route
+            exact
             path="/details/:id"
             render={({ match }) => <Details match={match} />}
           />
           <Route
             exact
-            path="/pruebas/adminDash"
+            path="/admin/adminDashboard"
             render={() => <AdminDashboard />}
           />
           <Route
