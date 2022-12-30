@@ -16,3 +16,17 @@
     text-align: center;
     margin: 12px;
 }
+
+.ordering-buttons-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    height: 40px;
+    margin: 20px;
+}
+
+.ordering-buttons-nav *{
+    height: 36px;
+    margin-left: 20px;
+}
