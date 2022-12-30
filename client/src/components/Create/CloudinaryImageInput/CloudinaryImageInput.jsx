@@ -1,24 +1,25 @@
 import { useEffect, useRef } from "react";
 
-export default function CloudinaryImageInput(props){
+export default function CloudinaryImageInput({setImage}){
     // cloudinary >>>
         const cloudinaryRef = useRef();
         const widgetRef = useRef();
         
         useEffect(() => {
             cloudinaryRef.current = window.cloudinary;
-            widgetRef.current = cloudinaryRef.current.createUploadWidget(
-            {
+            widgetRef.current = cloudinaryRef.current.createUploadWidget({
                 cloudName: "dwyhztlkw",
                 uploadPreset: "non_fungible_town",
             },
             function (error, result) {
                 if (result.info.files) {
                 const urlImg = result.info.files[0].uploadInfo.secure_url;
-                    props.setImage((prev) => ({ ...prev, image: urlImg }));
+                    setImage((prev) => ({
+                        ...prev, 
+                        image: urlImg 
+                    }));
                 }
-            }
-            );
+            });
         }, []);
 
         let handleUpload = (e) => {

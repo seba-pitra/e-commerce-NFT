@@ -1,13 +1,21 @@
-import {  useState } from "react";
+import { useState } from "react";
+import { useSelector, useDispatch } from "react-redux";
 import * as utils from "../../../utils"
 import CloudinaryImageInput from "../CloudinaryImageInput/CloudinaryImageInput";
 import PreviewNft from "./PreviewNft/PreviewNft"
+import * as actions from "../../../redux/actions"
 
-export default function CreateNFT({createdNft, setCreatedNft, back, next}) {
-  const [errors, setErrors] = useState({
-    name: "no data",
-    price: "no data",
-  });
+export default function CreateNFT({
+    createdNft,
+    setCreatedNft,
+    errors,
+    setErrors,
+    back, 
+    next
+  }) {
+  const user = useSelector(state => state.loggedUser)
+  const dispatch = useDispatch();
+
 
   const handleChange = (e) => {
     e.preventDefault();
@@ -15,7 +23,7 @@ export default function CreateNFT({createdNft, setCreatedNft, back, next}) {
     setErrors(utils.validate({ ...createdNft, [e.target.name]: e.target.value }));
   };
 
-  let handleSubmit = (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     let createdNftObj = {
       ...createdNft,
@@ -63,9 +71,8 @@ export default function CreateNFT({createdNft, setCreatedNft, back, next}) {
                 <div className="inputContainer">
                   <h5>Description</h5>
                   <p>
-                    {" "}
                     The description will be included on the item's detail page
-                    below its image.{" "}
+                    below its image.
                   </p>
                   <input
                     type={"text"}
@@ -115,7 +122,10 @@ export default function CreateNFT({createdNft, setCreatedNft, back, next}) {
             </div>
 
             <div className="buttons-next-prev">
-                  <button onClick={back}> back </button>
+                  <button 
+                    onClick={back}> 
+                    back 
+                    </button>
                   <button
                     onClick={next}
                     disabled={
@@ -123,8 +133,7 @@ export default function CreateNFT({createdNft, setCreatedNft, back, next}) {
                       errors.price !== "Price is correct"
                     }
                   >
-                    {" "}
-                    next{" "}
+                    next
                   </button>
             </div>
           </div>

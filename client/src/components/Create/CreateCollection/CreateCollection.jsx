@@ -1,78 +1,103 @@
+import { useEffect } from "react";
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useHistory } from "react-router-dom";
 import * as actions from "../../../redux/actions";
+import CloudinaryImageInput from "../CloudinaryImageInput/CloudinaryImageInput";
 
-export default function CreateCollection(props){
-    const allCollections = useSelector((state) => state.collections);
+export default function CreateCollection({
+        createdCollection,
+        setCreatedCollection,
+        setCreatedNft,
+        createdNft,
+        next
+        })
+    {
     const user = useSelector((state) => state.loggedUser);
+    console.log(user);
     const dispatch = useDispatch();
-    const history = useHistory();
-    const [addCollection, setAddCollection] = useState({
-        userId: null,
-        name: null,
-        image: "https://images.pexels.com/photos/12786598/pexels-photo-12786598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-    });
+    let render = false;
+    console.log(user)
 
-    let selectCollection = (e) => {
+    const selectCollection = (e) => {
         e.preventDefault();
-        props.setCollection((prev) => ({
+        setCreatedNft((prev) => ({
         ...prev,
-        collection: e.target.value,
+        collectionId: e.target.value,
         }));
     };
     
-    let inputCollections = (e) => {
+    const inputCollectionName = (e) => {
         e.preventDefault();
-        setAddCollection((prev) => ({
+        setCreatedCollection((prev) => ({
         ...prev,
         name: e.target.value,
         }));
     };
     
-    let submitAddCollection = (e) => {
+    const submitCreatedCollection = (e) => {
         e.preventDefault();
-        dispatch(actions.createCollection(addCollection));
+        dispatch(actions.createCollection(createdCollection));
+        render = true
     };
+
+    useEffect(()=> {
+        setCreatedCollection((prev) => ({
+            ...prev,
+            userId: user.id,
+        }));
+        render = false
+    }, [user, render])
 
     return (
         <>
             <div className="inputContainer">
                 <div className="divs-separet">
-                <h3>Collection</h3>
-                <h5>This is the collection where your item will appear.</h5>
+                    <h3>Collection</h3>
+                    <h5>This is the collection where your item will appear.</h5>
                 </div>
 
                 <div className="divs-separet">
-                <h6>Create a new collection.</h6>
-                <input
-                    type="text"
-                    name="collection"
-                    value={addCollection.name}
-                    onChange={(e) => inputCollections(e)}
-                    />
-                <button onClick={(e) => submitAddCollection(e)}>Create</button>
+                    <h6>Choose the collection in which your nft will be created.</h6>
+                            <h6 hidden disabled selected>
+                                Select Collection
+                            </h6>
+                            {user.collections?.map((collection) => (
+                                <>
+                                <label htmlFor={collection.id}>{collection.name}</label>
+                                <input
+                                type="checkbox"
+                                key={collection.id}
+                                value={collection.id}
+                                onClick={(e) => {selectCollection(e)}}
+                                className="option-btn btn-filter"
+                                />
+                              </>
+                            ))}
                 </div>
+
                 <div className="divs-separet">
-                <h6>Choose the collection in which your nft will be created.</h6>
-                <select onChange={(e) => selectCollection(e)} name="collections">
-                    <option hidden disabled selected value>
-                    {" "}
-                    Select Collection{" "}
-                    </option>
-                    {allCollections?.map((collection) => (
-                        <option value={collection.id} name="collections" key={collection.id}>
-                        {collection.name} | {collection.nfts.length} items
-                    </option>
-                    ))}
-                </select>
+                    <h6>Or create a new collection.</h6>
+                        <input
+                            type="text"
+                            name="collection"
+                            value={createdCollection.name}
+                            onChange={(e) => inputCollectionName(e)}
+                            />
+                        <div className="inputContainer">
+                            <CloudinaryImageInput
+                                setImage={setCreatedCollection}
+                            />
+                        </div>
+                    <button onClick={(e) => submitCreatedCollection(e)}>Create</button>
                 </div>
+
             </div>
             <div className="buttons-next-prev">
                 <button
-                className="button-next"
-                onClick={next}
-                disabled={createdNft.collection === ""}
+                    className="button-next"
+                    onClick={next}
+                    disabled={createdNft.collectionId === null}
                 >
                 next
                 </button>

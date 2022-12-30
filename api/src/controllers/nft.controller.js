@@ -92,6 +92,7 @@ const createNewNFT = async (req, res) => {
         received categories: ${categories}`
       );
     }else{
+      //se busca el usuario
       const userOwner = await User.findByPk(userId);
       //buscamos collecion correspondiente y la devolvemos con los nfts que contiene.
       const correspondingCollection = await Collection.findByPk(collectionId, {
@@ -99,14 +100,11 @@ const createNewNFT = async (req, res) => {
           model : Nft
         }
       });
+      //si encuentra la coleccion crea el nuevo nft
       if (correspondingCollection) {
-        //si la encuentra la relaciona al nuevo nft.
-        await newNFT.setCollection(correspondingCollection);
-        let tokenId = "#" + (correspondingCollection.nfts.length + 1); // el token id esta relacionado al numero de nfts que ya tiene la coleccion.
-        let nftName = name + " #" + tokenId; // agregamos el tokenId al name.
-      } else {
-        throw new Error(`No collection found with id  ${collectionId}`);
-      }
+      const tokenId = "#" + (correspondingCollection.nfts.length + 1); // el token id esta relacionado al numero de nfts que ya tiene la coleccion.
+      const nftName = name + " #" + tokenId; // agregamos el tokenId al name.
+
       const newNFT = await Nft.create({
         name: nftName,
         description: description || "No description",
@@ -128,13 +126,19 @@ const createNewNFT = async (req, res) => {
         stars: 0,
         lastBuyValue: null, // null ?
         lastBuyTs: null, // null ?
-        createdTs: Date.now(),
+/*         createdTs: Date.now(), */
         ownerName: userOwner.name || "Non Fungible Town",
         ownerIcon: userOwner.profile_pic || "https://raw.githubusercontent.com/seba-pitra/e-commerce-NFT/main/client/src/images/logo/logo.png"
       });
+
+        //si la encuentra la relaciona al nuevo nft.
+        await newNFT.setCollection(correspondingCollection);
+        res.status(200).json(newNFT);
+
+      } else {
+        throw new Error(`No collection found with id  ${collectionId}`);
+      }
     }
-      
-      res.status(200).json(newNFT);
     } catch (err) {
       res.status(400).json({error : err.message});
     }

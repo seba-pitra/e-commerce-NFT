@@ -41,7 +41,7 @@ export default function NFTNav() {
     }
   };
 
-  const handdleCick = (e) => {
+  const handleLogoutClick = (e) => {
     saveLocalStorage();
     dispatch(freeShoppingCartState());
     logOutFunction();
@@ -82,23 +82,22 @@ export default function NFTNav() {
               <Link className="brand-colorized-text" to="/createNft">
                 Create
               </Link>
-              <Link className="brand-colorized-text" to={`/myAccount`}>
+              <Link className="brand-colorized-text" to="/myAccount">
                 My account
               </Link>
             </Nav>
             <SearchBar />
             <Nav>
-              {/* <Nav.Link className="brand-colorized-text" href="/login">Log in</Nav.Link> */}
-              <Link className="brand-colorized-text" to={"/marketplace"}>
+              <Link className="brand-colorized-text" to="/marketplace">
                 MarketPlace
               </Link>
-              <Link to={"/collections"} className="brand-colorized-text">
+              <Link to="/collections" className="brand-colorized-text">
                 Collections
               </Link>
-              <Link to={"/developerTeam"} className="brand-colorized-text">
+              <Link to="/developerTeam" className="brand-colorized-text">
                 Developer Team
               </Link>
-              <Link onClick={handdleCick} className="brand-colorized-text">
+              <Link to="/" onClick={handleLogoutClick} className="brand-colorized-text">
                 Logout
               </Link>
               {/* slide kart trigger*/}
@@ -111,7 +110,7 @@ export default function NFTNav() {
                 onClick={handleShow}
               >
                 <ShoppingCartIcon />
-                <span id="cart_Numer_Items" class="badge rounded-circle">
+                <span id="cart_Numer_Items" className="badge rounded-circle">
                   {cartItemsCount.length}
                 </span>
               </button>

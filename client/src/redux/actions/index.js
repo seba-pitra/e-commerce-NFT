@@ -3,6 +3,7 @@ import axios from "axios";
 // -- GETTERS --
 export const GET_ALL_NFTS = "GET_ALL_NFTS";
 export const GET_ALL_COLLECTIONS = "GET_ALL_COLLECTIONS";
+export const GET_ALL_COLLECTIONS_FROM_USER = "GET_ALL_COLLECTIONS_FROM_USER";
 export const GET_ALL_USERS = "GET_ALL_USERS";
 export const GET_NFT_DETAIL = "GET_NFT_DETAIL";
 export const GET_USER_BY_ID = "GET_USER_BY_ID";
@@ -77,6 +78,7 @@ export const getAllNfts = () => {
       dispatch({ type: GET_ALL_NFTS, payload: allNfts.data });
     } catch (e) {
       alert("There was a connection error, please try again later NFT");
+      console.log(e.message)
     }
   };
 };
@@ -91,6 +93,7 @@ export const getEthPrice = () => {
       dispatch({ type: GET_ETH_PRICE, payload: ethPrice.data });
     } catch (e) {
       alert("There was a error whit the API, please try again later");
+      console.log(e.message)
     }
   };
 };
@@ -103,9 +106,25 @@ export const getAllCollections = () => {
       dispatch({ type: GET_ALL_COLLECTIONS, payload: allCollections.data });
     } catch (e) {
       alert("There was a connection error, please try again later collections");
+      console.log(e.message);
     }
   };
 };
+
+/* export const getAllCollectionFromUser = (userId) => {
+  return async (dispatch) => {
+    try {
+      const userCollections = await axios.get(`/collection/user/${userId}`);
+      dispatch({
+        type : GET_ALL_COLLECTIONS_FROM_USER,
+        payload: userCollections.data
+      })
+    }catch(e){
+      alert("there was a connection error, please try again later");
+      console.log(e.message)
+    }
+  }
+} */
 
 export const getAllUsers = () => {
   return async (dispatch) => {
@@ -150,6 +169,7 @@ export const getLoggedUser = (id) => {
       dispatch({ type: GET_LOGGED_USER, payload: loggedUser.data });
     } catch (error) {
       alert("logged user doesn exist");
+      console.warn(error.message)
     }
   };
 };
@@ -274,7 +294,8 @@ export const createNft = (payload) => {
       alert("NFT created successfully");
       window.location.href = "/";
     } catch (e) {
-      alert(e.response.data);
+      console.log(e.response.data.error)
+      alert(e.response.data.error);
     }
   };
 };
