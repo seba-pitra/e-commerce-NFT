@@ -1,10 +1,12 @@
+import React from "react";
+
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useHistory, useParams } from "react-router-dom";
 import EditIcon from "@material-ui/icons/Edit";
 import DoneIcon from "@material-ui/icons/Done";
 import PurchaseHistory from "../../PurchaseHistory/PurchaseHistory";
-import EditUserInfo from './EditUserInfo'
+import EditUserInfo from './../EditUserInfo'
 import { Link } from "react-router-dom";
 import "./UserProfile.css";
 
@@ -165,7 +167,13 @@ export default function UserProfile(props) {
           />
         </div>
         {edit.state ? (
-          <EditUserInfo />
+          <EditUserInfo 
+          name ={userDetail.name}
+          last_name ={userDetail.last_name}
+          email ={userDetail.email}
+          age ={userDetail.age}
+          phone ={userDetail.phone}
+          mobile ={userDetail.mobile}/>
         ) : (
           <div className="user-info">
             <div className="info">

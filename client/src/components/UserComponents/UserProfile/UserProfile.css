@@ -47,9 +47,7 @@
     background-repeat: no-repeat;
     background-position: cover;
 }
-.info {
-    border-top:2px solid  #d3448b;
-}
+
 .functionalities-history-container{
     width: 700px;
     height: 600px;
@@ -95,4 +93,11 @@
   .back-button:hover {
     background-color: #892859;
     color: #fff;
+  }
+
+
+  /*edit */
+  .edit-input{
+    display: flex;
+    flex-direction: column;
   }

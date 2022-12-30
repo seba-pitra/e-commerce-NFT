@@ -1,4 +1,4 @@
-import * as actions from "../../../redux/actions";
+// import * as actions from "../../../redux/actions";
 import React, { useState } from "react";
 import { useEffect, useRef } from "react";
 
@@ -10,73 +10,82 @@ export default function EditUserINfo(props) {
   let [input, setInput] = React.useState({
     name: props.name,
     last_name: props.last_name,
-    email : props.name,
-    age : props.age,
-    phone : props.phone,
+    email: props.email,
+    age: props.age,
+    phone: props.phone,
     mobile: props.mobile,
   });
 
-  useEffect(() => {
-    
-  }, []);
+  useEffect(() => {}, []);
 
   let handleChange = (e) => {
     e.preventDefault();
     setInput((prev) => ({ ...prev, [e.target.name]: e.target.value }));
     // setErrors(Validate({ ...input, [e.target.name]: e.target.value }));
   };
+  console.log(props);
+  let handleSubmit = (e) => {
+    //al apretar enviar tendria q hacer el dispatch con los cambios,y volver a cargar el componente,pero el lo
+  };
 
   return (
-    <form className="user-info">
-      <div className="info">
+    <form className="edit-form">
+      <div className="edit-input">
         <label>First Name</label>
         <input
+          name="name"
           type="text"
           onChange={(e) => handleChange(e)}
           value={input.name}
         />
       </div>
-      <div className="info">
+      <div className="edit-input">
         <label>Last Name</label>
         <input
+          name="last_name"
           type="text"
           onChange={(e) => handleChange(e)}
           value={input.last_name}
+          
         />
       </div>
-      <div className="info">
+      <div className="edit-input">
         <label>Email</label>
         <input
+        name="email"
           type="text"
           onChange={(e) => handleChange(e)}
           value={input.email}
         />
       </div>
-      <div className="info">
+      <div className="edit-input">
         <label>Age</label>
         <input
+        name="age"
           type="number"
           onChange={(e) => handleChange(e)}
           value={input.age}
         />
       </div>
 
-      <div className="info">
+      <div className="edit-input">
         <label>Phone Number</label>
         <input
+        name="phone"
           type="number"
           onChange={(e) => handleChange(e)}
           value={input.phone}
         />
       </div>
-      <div className="info">
+      <div className="edit-input">
         <label>Mobile Number</label>
         <input
+        name="mobile"
           type="number"
           onChange={(e) => handleChange(e)}
           value={input.mobile}
         />
-        <input type={"submit"} />
+        <input type={"submit"} onClick={(e) => handleSubmit(e)} />
       </div>
     </form>
   );
