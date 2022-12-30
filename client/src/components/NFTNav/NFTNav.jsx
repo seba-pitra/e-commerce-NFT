@@ -20,7 +20,6 @@ export default function NFTNav() {
   const userNfts = useSelector((state) => state.userNfts);
   const loggedUser = useSelector((state) => state.loggedUser);
 
-
   const location = useLocation();
   const history = useHistory();
   const areWeInLanding = location.pathname === "/";
@@ -76,15 +75,15 @@ export default function NFTNav() {
               style={{ maxHeight: "100px" }}
               navbarScroll
             >
-              <Nav.Link className="brand-colorized-text" href="/home">
+              <Link className="brand-colorized-text" to={"/home"}>
                 Home
-              </Nav.Link>
-              <Nav.Link className="brand-colorized-text" href="/createNft">
+              </Link>
+              <Link className="brand-colorized-text" to={"/createNft"}>
                 Create
-              </Nav.Link>
-              <Nav.Link className="brand-colorized-text" href={`/user/${loggedUser}`}>
+              </Link>
+              <Link className="brand-colorized-text" to={`/user/${loggedUser}`}>
                 My account
-              </Nav.Link>
+              </Link>
             </Nav>
             <SearchBar />
             <Nav>
