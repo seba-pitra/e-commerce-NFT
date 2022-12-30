@@ -1,15 +1,22 @@
 // import '/node_modules/bootstrap/dist/css/bootstrap.min.css';
+// --- CSS ---
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import React, { useState } from "react";
+
+//---  React imports ---
+import React from "react";
+import { Route, Switch } from "react-router-dom";
+import { useDispatch } from "react-redux";
+
+
+// -- Component imports ---
 import LandingPage from "./components/LandingPage/LandingPage";
 import HomePage from "./components/HomePage/HomePage";
 import Details from "./components/Details/Details";
 import NotFoundException from "./components/404Page/404Page";
-import { Route, Switch } from "react-router-dom";
 import NFTNav from "./components/NFTNav/NFTNav";
 import Footer from "./components/Footer/Footer";
-import CreateNft from "./components/CreateNft/CreateNft";
+import Create from "./components/Create/Create";
 import UserProfile from './components/UserComponents/UserProfile/UserProfile.jsx'
 import AdminDashboard from "./components/AdminDashBoard/AdminDashboard";
 import Register from "./components/Registrer/Registrer";
@@ -17,12 +24,15 @@ import MarketPlace from "./components/MarketPlace/MarketPlace";
 import DeveloperTeam from "./components/DeveloperTeam/DeveloperTeam";
 import Collections from "./components/Collections/Collections.jsx";
 import CollectionDetail from "./components/CollectionDetail/CollectionDetail.jsx";
-import { auth } from "./firebase.js";
-import { onAuthStateChanged } from "firebase/auth";
 import Recovery from "./components/Recovery/Recovery";
 import PayResult from "./components/PayResult/PayResult";
+
+// Firebase imports
+import { auth } from "./firebase.js";
+import { onAuthStateChanged } from "firebase/auth";
+
+//-- actions imports
 import { getLoggedUser, removeLoggedUser } from "./redux/actions";
-import { useDispatch } from "react-redux";
 
 function App() {
   const dispatch = useDispatch();
@@ -57,7 +67,7 @@ function App() {
             render={() => <CollectionDetail />}
           />
           <Route exact path="/developerTeam" render={() => <DeveloperTeam />} />
-          <Route exact path="/createNft" render={() => <CreateNft />} />
+          <Route exact path="/createNft" render={() => <Create/>} />
           <Route exact path="/pay/success" render={() => <PayResult />} />
           <Route exact path="/pay/failure" render={() => <PayResult />} />
           <Route exact path="/pay/pending" render={() => <PayResult />} />
