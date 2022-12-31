@@ -46,7 +46,6 @@ function MarketPlace({ loggedIn }) {
 let loginStatusStorage = localStorage.getItem("Logged");
 console.log('Aqui estoy !!', loginStatusStorage)
     if (loginStatusStorage === "Estoy loggeado") {
-      dispatch(actions.getAllNfts());
       dispatch(actions.getAllCollections());
       dispatch(actions.getAllNfts());
       dispatch(actions.getEthPrice());
