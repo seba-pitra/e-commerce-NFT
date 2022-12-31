@@ -10,12 +10,14 @@ const superUserId = superUser.id;
 const getCollections = async (req, res) => {
   try {
     const dbCollections = await Collection.findAll({
-      include: {
+      include: [{
         model: Nft,
-      },
+      },{
+        model : User,
+      }],
     });
     if (dbCollections.length === 0) {
-      throw new Error("nothing on database please contact Mr. Miguel Villa");
+      throw new Error("nothing on database");
     }
     return res.status(200).json(dbCollections);
   } catch (err) {
@@ -29,9 +31,11 @@ const getCollectionById = async (req, res) => {
   try {
     const { id } = req.params;
     const foundCollectionInDB = await Collection.findByPk(id, {
-      include: {
+      include: [{
         model: Nft,
-      },
+      },{
+        model : User,
+      }],
     });
     if (foundCollectionInDB) {
       res.status(200).json(foundCollectionInDB);
@@ -47,16 +51,27 @@ const getCollectionById = async (req, res) => {
 //**(Es necesario revisar, el id de las collections de la api tiene un formato especifico)**
 const createNewCollection = async (req, res) => {
   try {
-    const { id, name, image } = req.body;
-    if (!id || !name) {
-      throw new Error(`insufficient parameters for creating collection`);
+    const { name, image, userId } = req.body; //recibe nombre, url de imagen y usuario.
+    if (!name || !userId) {
+      throw new Error(
+        `insufficient parameters for creating collection
+        received name ${name}
+        received image ${image}
+        received userId ${userId}
+        `);
     } else {
+      const userOwner = await User.findByPk(userId); // busca usuario en la db
+
       const newCollection = await Collection.create({
-        id: id,
         name: name,
         image: image,
-      });
-      res.status(200).json(newCollection);
+        origin : "USER",
+        contract : "Here goes the metamask contract",
+      }); // Crea la coleccion con los datos recibidos
+
+      newCollection.setUser(userOwner) //setea el usuario como dueño de la db.
+
+      res.status(200).json(newCollection); //devuelve la coleccion creada.
     }
   } catch (err) {
     res.status(400).json({ error: err.message });
@@ -156,16 +171,33 @@ const createAllInitialCollections = async () => {
     if(response.length === 0){
       console.log("Starting collections creation " + new Date().toString())
       for(const collection of collections){
-        let collectionToDB = {
-          id: collection.id,
+        const collectionInDB = await Collection.create({
+          contract: collection.id,
           name: collection.name || "No name",
           image: collection.image || "No image",
-        };
-        const collectionInDB = await Collection.create(collectionToDB);
+          origin: "API"
+        });
         collectionInDB.setUser(userOwner);
         response.push(collectionInDB);
+        console.log(
+          "---------------------------\n" +
+            "Collection n°" +
+            response.length +
+            " \n" +
+            "Name: " +
+            collectionInDB.name +
+            " \n" +
+            "Created at: " +
+            new Date().toString() +
+            " \n" +
+            userOwner.name + " \n" +
+            "---------------------------"
+        );
       }
     }
+    console.log("Collection Creation SUCESSFUL" + 
+    response.length + " collections created " +
+    "Date: " + new Date().toString());
     return response;
   } catch (err) {
     throw new Error(err.message);
@@ -180,6 +212,5 @@ module.exports = {
   updateCollection,
   restoreDeletedCollection,
   postAllCollectionsToDB,
-  createAllInitialCollections,
   createAllInitialCollections,
 };

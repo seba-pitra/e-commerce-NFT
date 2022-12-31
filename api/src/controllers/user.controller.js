@@ -2,7 +2,6 @@ const { User, Nft, Collection, Buy } = require("../db");
 const { superUser } = require("../jsondata/superUserData.json");
 
 const createUser = async (req, res) => {
-  console.log(req.body);
   try {
     const userData = req.body;
     const [newUser, created] = await User.findOrCreate({
@@ -16,8 +15,8 @@ const createUser = async (req, res) => {
         age: userData.age || null,
         email: userData.email,
         profile_pic: userData.profile_pic || null,
-      }
-    })
+      },
+    });
     if (!created) {
       newUser.set(userData);
       await newUser.save();
@@ -32,9 +31,7 @@ const createUser = async (req, res) => {
 const getAllUsers = async (req, res) => {
   try {
     const allUsers = await User.findAll({
-      include: {
-        model: Nft,
-      },
+      include: [{ model: Nft }, { model: Collection }, { model: Buy }],
     });
     if (allUsers.length === 0) {
       throw new Error(`No users found on database`);
@@ -66,20 +63,25 @@ const updateUser = async (req, res) => {
 const getUserById = async (req, res) => {
   try {
     const { id } = req.params;
-    const foundUser = User.findByPk(id, {
-      include : {
-        model : Nft,
-        model : Collection,
-        model : Buy
-      }
-    })
-    if(foundUser){
-      return res.status(200).json(foundUser)
-    }else{
-      throw new Error(`No user found with id: ${id}`)
+    const foundUser = await User.findByPk(id, {
+      include: [
+        {
+          model: Nft,
+        },
+        {
+          model: Collection,
+        },
+        {
+          model: Buy,
+        },
+      ],
+    });
+    if (foundUser) {
+      return res.status(200).json(foundUser);
+    } else {
+      throw new Error(`No user found with id: ${id}`);
     }
   } catch (error) {
-    console.log(error.message)
     return res.status(400).json({ error: error.message });
   }
 };
@@ -223,29 +225,27 @@ const createSuperUser = async () => {
   try {
     let response = await User.findOne({
       where: {
-        id : superUser.id
-      }
-    })
-    if(!response){
+        id: superUser.id,
+      },
+    });
+    if (!response) {
       response = await User.create({
-        id : superUser.id,
-        name : superUser.name,
-        last_name : superUser.last_name,
-        email : superUser.email,
-        type : superUser.type,
-        profile_pic : superUser.profile_pic
-      })
+        id: superUser.id,
+        name: superUser.name,
+        last_name: superUser.last_name,
+        email: superUser.email,
+        type: superUser.type,
+        profile_pic: superUser.profile_pic,
+      });
     }
-    console.log(superUser)
+    console.log(superUser);
     console.log("Super user created");
-    return response
+    return response;
   } catch (error) {
     console.error("User error message", error.message);
     throw new Error(error.message);
   }
 };
-
-
 
 module.exports = {
   getAllUsers,

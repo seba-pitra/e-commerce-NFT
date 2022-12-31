@@ -7,46 +7,60 @@ import logo from "../../images/logo/logo.png";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 import Shoppingkart from "../Shoppingkart/Shoppingkart";
 import Offcanvas from "react-bootstrap/Offcanvas";
-import { signOut } from "firebase/auth"
+import { signOut } from "firebase/auth";
 import { auth } from "../../firebase";
 import "./NFTNav.css";
 import { useDispatch, useSelector } from "react-redux";
+import { Link } from "react-router-dom";
+
+import UserIcon from "./UserIcon/UserIcon";
+
+import AccountCircleIcon from "@material-ui/icons/AccountCircle";
 
 export default function NFTNav() {
   const [show, setShow] = useState(false);
-	const cartItemsCount = useSelector((state) => state.userNfts);
-	const activeUserIs = useSelector((state) => state.activeUser);
-	const userNfts = useSelector((state) => state.userNfts);
+  const [showUserList, setShowUserList] = useState(false);
+  const cartItemsCount = useSelector((state) => state.userNfts);
+  const activeUserIs = useSelector((state) => state.activeUser);
+  const userNfts = useSelector((state) => state.userNfts);
+  const loggedUser = useSelector((state) => state.loggedUser);
 
   const location = useLocation();
-  const history = useHistory()
-  const areWeInLanding = (location.pathname === "/");
+  const history = useHistory();
+  const areWeInLanding = location.pathname === "/";
   const handleClose = () => setShow(false);
-  const handleShow = () => {setShow(true); saveLocalStorage();};
+  const handleShow = () => {
+    setShow(true);
+    saveLocalStorage();
+  };
 
   const dispatch = useDispatch();
- 
+
   const logOutFunction = async () => {
     try {
-        await signOut(auth)
-        history.push("/");
-      } catch (error) {
+      await signOut(auth);
+      history.push("/");
+    } catch (error) {
       alert(error.message);
     }
   };
 
-  const handdleCick = (e) => {
+  const handleLogoutClick = (e) => {
+    saveLocalStorage();
     dispatch(freeShoppingCartState());
-	  logOutFunction();
+    logOutFunction();
   };
 
-function saveLocalStorage(){
-localStorage.setItem(activeUserIs,JSON.stringify(userNfts));
-	// activeUserIs == tag of item in localStorage
-	console.log(cartItemsCount );
-}
+  const handleShowUserList = (e) => {
+    e.preventDefault();
+    setShowUserList(!showUserList);
+  };
 
-
+  function saveLocalStorage() {
+    localStorage.setItem(activeUserIs, JSON.stringify(userNfts));
+    // activeUserIs == tag of item in localStorage
+    console.log(cartItemsCount);
+  }
 
   return (
     <div className={areWeInLanding ? "hidden" : "nav-bar"}>
@@ -71,49 +85,38 @@ localStorage.setItem(activeUserIs,JSON.stringify(userNfts));
               style={{ maxHeight: "100px" }}
               navbarScroll
             >
-              <Nav.Link className="brand-colorized-text" href="/home">
+              <Link className="brand-colorized-text" to="/home">
                 Home
-              </Nav.Link>
-              <Nav.Link className="brand-colorized-text" href="/createNft">
+              </Link>
+              <Link className="brand-colorized-text" to="/createNft">
                 Create
-              </Nav.Link>
+              </Link>
             </Nav>
             <SearchBar />
             <Nav>
-              {/* <Nav.Link className="brand-colorized-text" href="/login">Log in</Nav.Link> */}
-              <Nav.Link
-                className="brand-colorized-text"
-                href="http://localhost:3000/marketplace"
-              >
+              <Link className="brand-colorized-text" to="/marketplace">
                 MarketPlace
-              </Nav.Link>
-              <Nav.Link
-                className="brand-colorized-text"
-                href="http://localhost:3000/collections"
-              >
+              </Link>
+              <Link to="/collections" className="brand-colorized-text">
                 Collections
-              </Nav.Link>
-              <Nav.Link
-                className="brand-colorized-text"
-                href="http://localhost:3000/developerTeam"
-              >
+              </Link>
+              <Link to="/developerTeam" className="brand-colorized-text">
                 Developer Team
-              </Nav.Link>
-              <Nav.Link onClick={handdleCick} className="brand-colorized-text">
-                Logout
-              </Nav.Link>
+              </Link>
+              <div className="nav-bar-accountIcon">
+                <AccountCircleIcon onClick={(e)=>handleShowUserList(e)} />
+              </div>
+
               {/* slide kart trigger*/}
               <button
-                style={{
-                  backgroundColor: "black",
-                  color: "#D3448B",
-                  border: "none",
-                }}
+                className="testeandooooooooooooooooooo2"
                 onClick={handleShow}
               >
                 <ShoppingCartIcon />
-		<span id="cart_Numer_Items"  class="badge rounded-circle">{cartItemsCount.length}</span>
-	        </button>
+                <span id="cart_Numer_Items" className="badge rounded-circle">
+                  {cartItemsCount.length}
+                </span>
+              </button>
               {/* slide kart*/}
               <Offcanvas show={show} onHide={handleClose} placement={"end"}>
                 <Offcanvas.Header closeButton>
@@ -127,6 +130,7 @@ localStorage.setItem(activeUserIs,JSON.stringify(userNfts));
           </Navbar.Collapse>
         </Container>
       </Navbar>
+      <UserIcon setVisible={handleShowUserList} visible={showUserList} />
     </div>
   );
 }

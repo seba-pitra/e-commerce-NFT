@@ -60,9 +60,18 @@
   flex-direction: row;
 }
 
-.collection-name-conteiner:nth-child(2) {
-  color: rgb(0, 162, 255);
+.collection-name-conteiner:nth-child(1) {
   position: relative;
   left: 45px;
   top: -5px;
+}
+
+.collection-name-conteiner:nth-child(2) {
+  position: relative;
+  left: 45px;
+  top: -5px;
+}
+
+.nolink{
+  text-decoration: none;
 }

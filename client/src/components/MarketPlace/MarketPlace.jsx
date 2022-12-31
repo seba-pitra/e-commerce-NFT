@@ -12,6 +12,7 @@ import "./MarketPlace.css";
 function MarketPlace({ loggedIn }) {
   const order = useSelector((state) => state.orderDirection);
   const isLoading = useSelector((state) => state.isLoading);
+  const loggedUser = useSelector((state) => state.loggedUser);
   const dispatch = useDispatch();
   const history = useHistory();
 
@@ -38,19 +39,21 @@ function MarketPlace({ loggedIn }) {
     //   history.push("/");
     // }
     validateUser();
-  }, [loggedIn]);
+  }, []);
 
   const validateUser = async () => {
-    console.log(auth.currentUser)
-    if (loggedIn) {
-      dispatch(actions.getAllNfts());
+    console.log(loggedUser);
+let loginStatusStorage = localStorage.getItem("Logged");
+console.log('Aqui estoy !!', loginStatusStorage)
+    if (loginStatusStorage === "Estoy loggeado") {
       dispatch(actions.getAllCollections());
+      dispatch(actions.getAllNfts());
       dispatch(actions.getEthPrice());
     } else {
       history.push("/");
     }
   };
-
+  console.log(loggedUser)
   useEffect(() => {}, [order]);
   return (
     <>

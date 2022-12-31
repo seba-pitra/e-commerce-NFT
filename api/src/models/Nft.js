@@ -51,7 +51,10 @@ module.exports = (sequelize) => {
       rarity: {
         type: DataTypes.FLOAT,
       },
-      rarityRank: {
+      favs: {
+        type: DataTypes.FLOAT,
+      },
+      stars: {
         type: DataTypes.FLOAT,
       },
       lastBuyValue: {
@@ -60,14 +63,11 @@ module.exports = (sequelize) => {
       lastBuyTs: {
         type: DataTypes.FLOAT,
       },
-      lastSellValue: {
-        type: DataTypes.FLOAT,
-      },
-      lastSellTs: {
+      createdTs: {
         type: DataTypes.FLOAT,
       },
       ownerName: {
-        type: DataTypes.TEXT,
+        type: DataTypes.STRING,
         allowNull: false,
       },
       ownerIcon: {

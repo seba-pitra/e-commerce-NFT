@@ -11,7 +11,8 @@ export default function Ordering() {
   const [nameOrderUp, setNameOrderUp] = useState(true);
   const [priceOrderUp, setPriceOrderUp] = useState(true);
   const [rarityOrderUp, setRarityOrderUp] = useState(true);
-  const [rarityRankOrderUp, setRarityRankOrderUp] = useState(true);
+  const [favsOrderUp, setFavsOrderUp] = useState(true);
+  const [starsOrderUp, setStarsOrderUp] = useState(true);
   const [lastBuyOrderUp, setLastBuyOrderUp] = useState(true);
   const [lastBuyTsOrderUp, setLastBuyTsOrderUp] = useState(true);
 
@@ -38,10 +39,16 @@ export default function Ordering() {
     dispatch(actions.orderRarity());
   };
 
-  const orderByRarityRank = () => {
-    setRarityRankOrderUp(!rarityRankOrderUp);
+  const orderByFavs = () => {
+    setFavsOrderUp(!favsOrderUp);
     dispatch(actions.changeOrderDirection());
-    dispatch(actions.orderRarityRank());
+    dispatch(actions.orderFavs());
+  };
+
+  const orderByStars = () => {
+    setStarsOrderUp(!starsOrderUp);
+    dispatch(actions.changeOrderDirection());
+    dispatch(actions.orderStars());
   };
 
   const orderByLastBuy = () => {
@@ -70,9 +77,9 @@ export default function Ordering() {
 
   return (
     <div className="options-container">
-      <label id="order-by-label" className="label" htmlFor="order">
+      {/* <label id="order-by-label" className="label" htmlFor="order">
         Ordenar Por:{" "}
-      </label>
+      </label> */}
       <div className="button-list">
         {/*Boton para elegir orden alfabetico*/}
         <button
@@ -113,13 +120,26 @@ export default function Ordering() {
           }
         </button>
         <button
-          id="rarityrank-option"
-          className={rarityRankOrderUp ? "btn-order-down" : "btn-order-up"}
-          onClick={() => orderByRarityRank()}
+          id="favs-option"
+          className={favsOrderUp ? "btn-order-down" : "btn-order-up"}
+          onClick={() => orderByFavs()}
         >
-          RarityRank
+          Favs
           {
-            rarityRankOrderUp ? 
+            favsOrderUp ? 
+            <KeyboardArrowUpIcon></KeyboardArrowUpIcon> :
+            <KeyboardArrowDownIcon></KeyboardArrowDownIcon>
+          }
+        </button>
+
+        <button
+          id="stars-option"
+          className={starsOrderUp ? "btn-order-down" : "btn-order-up"}
+          onClick={() => orderByStars()}
+        >
+          Stars
+          {
+            starsOrderUp ? 
             <KeyboardArrowUpIcon></KeyboardArrowUpIcon> :
             <KeyboardArrowDownIcon></KeyboardArrowDownIcon>
           }
