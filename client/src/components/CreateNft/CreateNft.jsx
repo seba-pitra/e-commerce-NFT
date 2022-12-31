@@ -7,40 +7,31 @@ import * as actions from "../../redux/actions";
 import { useEffect, useRef } from "react";
 import { useHistory } from "react-router-dom";
 
-
 export function Validate(input) {
-
-
   let errors = {
     name: "no data",
     price: "no data",
   };
 
-  if (!/([A-Z])/.test(input.name))
-    errors = { ...errors, name: "Username is invalid" };
+  if (!/([A-Z])/.test(input.name)) errors = { ...errors, name: "Username is invalid" };
   else errors = { ...errors, name: "Name is correct" };
 
-  if (input.price <= 0)
-    errors = { ...errors, price: "Price can not be 0 or less" };
+  if (input.price <= 0) errors = { ...errors, price: "Price can not be 0 or less" };
   else errors = { ...errors, price: "Price is correct" };
 
   return errors;
 }
 
 export default function Form() {
-
-const dispatch = useDispatch();
-const history = useHistory();
-let loginStatusStorage = localStorage.getItem("Logged");
-	
+  const dispatch = useDispatch();
+  const history = useHistory();
+  let loginStatusStorage = localStorage.getItem("Logged");
 
  useEffect(() => {
       validateUser();
   }, []);
 
-
-const validateUser = async () => {
-    
+  const validateUser = async () => {
     if (loginStatusStorage === "Estoy loggeado") {
       dispatch(actions.getAllNfts());
       dispatch(actions.getAllCollections());
@@ -50,19 +41,13 @@ const validateUser = async () => {
     }
   };
 
-
-
-
 	useEffect(() => {
     dispatch(actions.getAllCollections());
   }, []);
 
-//  const dispatch = useDispatch();
-
+  //  const dispatch = useDispatch();
   const allCollections = useSelector((state) => state.collections);
-
   const user = useSelector((state) => state.loggedUser);
-  console.log(user)
 
   // cloudinary >>>
   const cloudinaryRef = useRef();
@@ -123,7 +108,6 @@ const validateUser = async () => {
       "https://images.pexels.com/photos/12786598/pexels-photo-12786598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   });
 
-  //asi tendria q venir el array de categories,puede cambiar como venga
   const allCategories = {
     species: ['Animal', 'Humanoid', "Other"],
     species2: ['Cat', 'Person', 'Monkey', 'Robot', 'Monster', 'Penguin', 'Duck', 'Reptile', 'Skull', 'Owl', 'Rabbit', 'Bear', 'Other'],
@@ -261,18 +245,6 @@ const validateUser = async () => {
     setCreateStep(createStep - 1);
   };
 
-  // const restart = (e) => {
-  //   e.preventDefault();
-  //   setCreateStep(1);
-  // };
-if (loginStatusStorage === "Estoy loggeado") {
-    return (
-      <div className="login-loggedmessage">
-        <p>You've been logged</p>
-      </div>
-    );
-  } else
-
   return (
     <React.Fragment>
       <div className="mainContainer">
@@ -292,13 +264,14 @@ if (loginStatusStorage === "Estoy loggeado") {
               <input
                 type="text"
                 name="collection"
+                placeholder="Name..."
                 value={addCollection.name}
                 onChange={(e) => inputCollections(e)}
               />
               <button onClick={(e) => submitAddCollection(e)}>Create</button>
             </div>
 
-            <div className="divs-separet">
+            <div className="divs-separet aling-bottom-next">
               <h6>Choose the collection in which your nft will be created.</h6>
               <select onChange={(e) => selectCollection(e)} name="collections">
                 <option hidden disabled selected value>
@@ -450,15 +423,13 @@ if (loginStatusStorage === "Estoy loggeado") {
             createStep !== 3 ? "noneDisplay" : "first-field-collections"
           }`}
         >
-          <div className="inputContainer">
+          <div className="inputContainer aling-bottom-next2">
             <h5>Category</h5>
             <p>
               {" "}
               Classify your nft from the following categories. You must select
               all of them or you will not be able to create the nft{" "}
             </p>
-
-            <button className="addCategory"></button>
 
             <select onChange={(e) => handleChangeSelect(e)} name="categories">
               <option hidden disabled selected value>

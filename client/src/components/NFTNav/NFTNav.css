@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css');
 
-/* .nav-bar{
-    position: relative;
-} */
-
 .navbar-company-name-header {
     margin-left: 10%;
     font-family: 'Bebas Neue', cursive;
@@ -16,9 +12,7 @@
 }
 
 .search-input {
-    border-top: none;
-    border-left: none;
-    border-right: none;
+    border: none;
     border-bottom: 1px solid;
 }
 
@@ -27,6 +21,11 @@
 }
 .search-input::placeholder{
     color: rgb(211, 68, 139, 0.5);
+}
+
+.brand-colorized-background-color *{
+    text-align: center;
+    margin: auto 4px;
 }
 
 
@@ -43,4 +42,17 @@
   align-items: center;
   color: white;
   padding: 2px;
+}
+
+.testeandooooooooooooooooooo2{
+    background-color: transparent;
+    color: rgb(211, 68, 139);
+    border: 1px solid rgb(3, 6, 21);
+    margin: 0px;
+    padding: 0px;
+    height: 32px;
+}
+
+.margin-left{
+    margin-left: 40px;
 }

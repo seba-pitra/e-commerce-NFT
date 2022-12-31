@@ -85,23 +85,16 @@ export default function NFTNav() {
               style={{ maxHeight: "100px" }}
               navbarScroll
             >
-              <Nav.Link className="brand-colorized-text" href="/home">
+              <Link className="brand-colorized-text" to="/home">
                 Home
-              </Nav.Link>
-              <Nav.Link className="brand-colorized-text" href="/createNft">
+              </Link>
+              <Link className="brand-colorized-text" to="/createNft">
                 Create
-              </Nav.Link>
-              <Nav.Link
-                className="brand-colorized-text"
-                href={`/user/${loggedUser}`}
-              >
-                My account
-              </Nav.Link>
+              </Link>
             </Nav>
             <SearchBar />
             <Nav>
-              {/* <Nav.Link className="brand-colorized-text" href="/login">Log in</Nav.Link> */}
-              <Link className="brand-colorized-text" to={"/marketplace"}>
+              <Link className="brand-colorized-text margin-left" to={"/marketplace"}>
                 MarketPlace
               </Link>
               <Link to={"/collections"} className="brand-colorized-text">
@@ -110,23 +103,16 @@ export default function NFTNav() {
               <Link to={"/developerTeam"} className="brand-colorized-text">
                 Developer Team
               </Link>
-              {/* <Nav.Link onClick={handdleCick} className="brand-colorized-text">
-                Logout
-              </Nav.Link> */}
               <div className="nav-bar-accountIcon">
                 <AccountCircleIcon onClick={(e)=>handleShowUserList(e)} />
               </div>
 
               {/* slide kart trigger*/}
               <button
-                style={{
-                  backgroundColor: "black",
-                  color: "#D3448B",
-                  border: "none",
-                }}
+                className="testeandooooooooooooooooooo2"
                 onClick={handleShow}
               >
-                <ShoppingCartIcon />
+                <ShoppingCartIcon/>
                 <span id="cart_Numer_Items" class="badge rounded-circle">
                   {cartItemsCount.length}
                 </span>
