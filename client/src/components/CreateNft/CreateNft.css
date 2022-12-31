@@ -2,6 +2,9 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  background-color: #1c2331;
+  color: white;
+  min-height: 92vh;
 }
 
 h1,h2{
@@ -27,12 +30,12 @@ h1,h2{
 }
 
 .inputContainer{
-    border-bottom: 1px solid black;
-    display: flex;
-    flex-direction: column;
-    display: flex;
-    flex-direction: column;
-    margin: 20px;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid white;
+  margin: 20px;
 }
 
 .inputContainer .upload-file{
@@ -61,8 +64,9 @@ h1,h2{
 
 .inputContainer select{
   margin-bottom: 20px;
-  border: 2px solid rgb(211, 68, 139, 1);
-  background-color: white;
+  border: 2px solid white;
+  background-color: #1c2331;
+  color: white;
   border-radius: 8px;
 }
 
@@ -142,12 +146,27 @@ h1,h2{
 .first-field-collections{
   margin: 60px auto;
   padding: 24px;
-  border-left: 2px solid black;
-  border-right: 2px solid black;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
 }
 
 .first-field-collections .divs-separet{
   margin: 20px;
+}
+
+.first-field-collections .divs-separet input{
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  margin-right: 20px;
+}
+
+.first-field-collections .divs-separet button{
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+  margin-right: 12px;
 }
 
 .buttons-next-prev{
@@ -170,10 +189,24 @@ h1,h2{
   font-family: monospace;
 }
 
+.buttons-next-prev button:hover{
+  background-color: rgb(211, 68, 139, 1);
+  border: 2px solid white;
+  color: white;
+}
+
 .rigth-side{
   display: flex;
   flex-direction: column;
   padding: 40px;
   align-items: center;
   justify-content: space-around;
+}
+
+.aling-bottom-next{
+  padding-bottom: 240px;
+}
+
+.aling-bottom-next2{
+  padding-bottom: 140px;
 }
