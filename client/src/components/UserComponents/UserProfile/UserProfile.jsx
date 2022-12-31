@@ -1,5 +1,3 @@
-import React from "react";
-
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useHistory } from "react-router-dom";
@@ -11,7 +9,7 @@ import { Link } from "react-router-dom";
 import "./UserProfile.css";
 
 export default function UserProfile() {
-  let [edit, setEdit] = React.useState({
+  let [edit, setEdit] = useState({
     state: false,
   });
 

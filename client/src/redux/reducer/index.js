@@ -1,7 +1,6 @@
 import {
   GET_ALL_NFTS,
   GET_ALL_COLLECTIONS,
-  GET_ALL_COLLECTIONS_FROM_USER,
   GET_ALL_USERS,
   GET_NFT_DETAIL,
   CREATE_NFT,
@@ -63,7 +62,6 @@ const initialState = {
   setNftsPrice: {},
   users: [],
   userNfts: [],
-  userCollections: [],
   nftDetail: {},
   userDetail: {},
   loggedUser: {},
@@ -101,8 +99,6 @@ const rootReducer = (state = initialState, action) => {
       
     case GET_ALL_COLLECTIONS:
       return { ...state, collections: action.payload, isLoading: false };
-    case GET_ALL_COLLECTIONS_FROM_USER:
-      return { ...state, userCollections : action.payload}
     case GET_ALL_USERS:
       return { ...state, users: action.payload };
     case GET_USER_BY_ID:

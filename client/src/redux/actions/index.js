@@ -3,7 +3,6 @@ import axios from "axios";
 // -- GETTERS --
 export const GET_ALL_NFTS = "GET_ALL_NFTS";
 export const GET_ALL_COLLECTIONS = "GET_ALL_COLLECTIONS";
-export const GET_ALL_COLLECTIONS_FROM_USER = "GET_ALL_COLLECTIONS_FROM_USER";
 export const GET_ALL_USERS = "GET_ALL_USERS";
 export const GET_NFT_DETAIL = "GET_NFT_DETAIL";
 export const GET_USER_BY_ID = "GET_USER_BY_ID";
@@ -110,21 +109,6 @@ export const getAllCollections = () => {
     }
   };
 };
-
-/* export const getAllCollectionFromUser = (userId) => {
-  return async (dispatch) => {
-    try {
-      const userCollections = await axios.get(`/collection/user/${userId}`);
-      dispatch({
-        type : GET_ALL_COLLECTIONS_FROM_USER,
-        payload: userCollections.data
-      })
-    }catch(e){
-      alert("there was a connection error, please try again later");
-      console.log(e.message)
-    }
-  }
-} */
 
 export const getAllUsers = () => {
   return async (dispatch) => {
