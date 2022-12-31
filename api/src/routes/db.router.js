@@ -9,6 +9,4 @@ dbRouter.get("/create", postNftsToDB);
 
 dbRouter.get("/create/:nftQuantity", postNftsToDB);
 
-
-
 module.exports = dbRouter;

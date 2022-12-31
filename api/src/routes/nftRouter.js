@@ -12,7 +12,7 @@ const nftRouter = Router();
 
 nftRouter.get("/", getNfts);
 
-nftRouter.post("/", createNewNFT)
+nftRouter.post("/create", createNewNFT)
 
 nftRouter.get("/:id", getNftById);
 

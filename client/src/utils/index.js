@@ -278,27 +278,19 @@ export const startPayment = async ({ setError, setTxs, ether, addr }) => {
   }
 };
 
-/* //Filtro AND
-export function filterGamesByGenreAND(gamesArray, selectedGenreArray){
-    return gamesArray.filter(({genres}) => {
-        return selectedGenreArray.every((selectedGenre)=>{
-            return genres.find(({name})=>{
-                return selectedGenre.includes(name);
-            })
-        })
-    })
+export function validate(input) {
+  let errors = {
+    name: "Name is required",
+    price: "Pice is required",
+  };
+
+  if (!/([A-Z])/.test(input.name))
+    errors = { ...errors, name: "Name cant contain special characters" };
+  else errors = { ...errors, name: "Name is correct" };
+
+  if (input.price <= 0)
+    errors = { ...errors, price: "Price can not be 0 or less" };
+  else errors = { ...errors, price: "Price is correct" };
+
+  return errors;
 }
-
-
-//Filtro AND
-export function filterGamesByPlatformAND(gamesArray, selectedPlatformArray){
-    return gamesArray.filter((game) => {
-        if(game.platforms === null) return false;
-        return selectedPlatformArray.every((selectedPlatform)=>{
-            return game.platforms.find(({platform})=>{
-                return selectedPlatform.includes(platform.name);
-                })
-            })
-        }
-    )
-} */

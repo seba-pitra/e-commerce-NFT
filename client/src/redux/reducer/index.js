@@ -29,6 +29,7 @@ import {
   ORDER_NFT_LASTBUYTS,
   GET_USER_BY_ID,
   GET_LOGGED_USER,
+  REMOVE_LOGGED_USER,
   GET_ETH_PRICE,
   CHANGE_ORDER_DIRECTION,
   SELECT_PAGE,
@@ -104,6 +105,8 @@ const rootReducer = (state = initialState, action) => {
       return { ...state, userDetail: action.payload };
     case GET_LOGGED_USER:
       return { ...state, loggedUser: action.payload };
+    case REMOVE_LOGGED_USER:
+      return { ...state, loggedUser: {} };
     case GET_NFT_DETAIL:
       return { ...state, nftDetail: action.payload, isLoading: false };
     case CREATE_NFT:

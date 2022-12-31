@@ -1,8 +1,6 @@
-import React from "react";
-
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { useHistory, useParams } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import EditIcon from "@material-ui/icons/Edit";
 import DoneIcon from "@material-ui/icons/Done";
 import PurchaseHistory from "../../PurchaseHistory/PurchaseHistory";
@@ -10,9 +8,8 @@ import EditUserInfo from './../EditUserInfo'
 import { Link } from "react-router-dom";
 import "./UserProfile.css";
 
-export default function UserProfile(props) {
-  const { id } = props.match.params;
-  let [edit, setEdit] = React.useState({
+export default function UserProfile() {
+  let [edit, setEdit] = useState({
     state: false,
   });
 
@@ -135,9 +132,8 @@ export default function UserProfile(props) {
   //     });
   //   };
 
-  useEffect(() => {}, [dispatch, id]);
+  useEffect(() => {}, [dispatch]);
 
-  console.log(userDetail);
   return (
     <div className="main-container">
       <button onClick={() => navHistory.goBack()} className="back-button">
