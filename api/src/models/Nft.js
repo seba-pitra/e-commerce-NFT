@@ -64,7 +64,7 @@ module.exports = (sequelize) => {
         type: DataTypes.FLOAT,
       },
       createdTs: {
-        type: DataTypes.INTEGER,
+        type: DataTypes.FLOAT,
       },
       ownerName: {
         type: DataTypes.STRING,
