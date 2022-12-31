@@ -17,9 +17,8 @@ export default function UnitCategorySelector(props) {
         <select 
             onChange={(e) => handleChangeSelect(e, props.index)}
             name="categories"
-            value={"Select " + props.categoryName}    
                 >
-                    <option hidden disabled value>
+                    <option hidden disabled selected>
                         Select {props.categoryName}
                     </option>
                         {allCategories[props.categoryType].map((category) => (

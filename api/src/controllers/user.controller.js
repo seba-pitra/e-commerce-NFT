@@ -2,7 +2,6 @@ const { User, Nft, Collection, Buy } = require("../db");
 const { superUser } = require("../jsondata/superUserData.json");
 
 const createUser = async (req, res) => {
-  console.log(req.body);
   try {
     const userData = req.body;
     const [newUser, created] = await User.findOrCreate({

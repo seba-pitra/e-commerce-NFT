@@ -11,7 +11,6 @@ export default function CategoriesSelector({createdNft, setCreatedNft}){
                     Classify your nft from the following categories. You must select
                     all of them or you will not be able to create the nft
                 </p>
-                <button className="addCategory"></button>
                 <UnitCategorySelector
                     index={0}
                     categoryName={"Specie"}

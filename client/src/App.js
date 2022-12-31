@@ -33,17 +33,16 @@ import { onAuthStateChanged } from "firebase/auth";
 
 //-- actions imports
 import { getLoggedUser, removeLoggedUser } from "./redux/actions";
-import { useDispatch } from "react-redux";
 import UserDetail from "./components/UserComponents/UserProfile/UserDetail.jsx";
 
 function App() {
   const dispatch = useDispatch();
 
   onAuthStateChanged(auth, (user) => {
-    console.log(auth.currentUser)
     if (user) {
       dispatch(getLoggedUser(auth.currentUser.uid));
-      console.log("Estoy loggeado");
+      console.warn("Estoy loggeado con los siguientes datos");
+      console.log(auth.currentUser)
       localStorage.setItem("Logged", "Estoy loggeado");
     } else {
       console.log("NO estoy loggeado");

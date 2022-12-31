@@ -10,8 +10,7 @@ import EditUserInfo from './../EditUserInfo'
 import { Link } from "react-router-dom";
 import "./UserProfile.css";
 
-export default function UserProfile(props) {
-  const { id } = props.match.params;
+export default function UserProfile() {
   let [edit, setEdit] = React.useState({
     state: false,
   });
@@ -135,9 +134,8 @@ export default function UserProfile(props) {
   //     });
   //   };
 
-  useEffect(() => {}, [dispatch, id]);
+  useEffect(() => {}, [dispatch]);
 
-  console.log(userDetail);
   return (
     <div className="main-container">
       <button onClick={() => navHistory.goBack()} className="back-button">
