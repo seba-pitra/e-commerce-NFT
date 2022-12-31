@@ -18,23 +18,23 @@ function SearchBar(){
 
     return (
         <div className='search-bar-container'>    
-    
-	    <form onSubmit={search} className='search-bar-component'>
-                    <input
-                        className="search-input
-                            brand-colorized-border-color
-                            brand-colorized-background-color
-                            brand-colorized-text"
-                        type="text"
-                        placeholder="Nombre..."
-                        value={searchQuery}
-                        onChange={e => setSearchQuery(e.target.value)}
-                        />
-                    <button 
-                        id="search-btn"
-                        type="submit">
-                        Buscar
-                    </button>
+	        <form onSubmit={search} className='search-bar-component'>
+                <input
+                    className="search-input
+                        brand-colorized-border-color
+                        brand-colorized-background-color
+                        brand-colorized-text"
+                    type="text"
+                    placeholder="Search..."
+                    value={searchQuery}
+                    onChange={e => setSearchQuery(e.target.value)}
+                    />
+                <button 
+                    className="search-button"
+                    id="search-btn"
+                    type="submit">
+                    Search
+                </button>
             </form>
         </div>
     );

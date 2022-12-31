@@ -106,20 +106,13 @@ export default function NFTNav() {
               <Link to="/developerTeam" className="brand-colorized-text">
                 Developer Team
               </Link>
-              <Link to="/" onClick={handleLogoutClick} className="brand-colorized-text">
-                Logout
-              </Link>
               <div className="nav-bar-accountIcon">
                 <AccountCircleIcon onClick={(e)=>handleShowUserList(e)} />
               </div>
 
               {/* slide kart trigger*/}
               <button
-                style={{
-                  backgroundColor: "black",
-                  color: "#D3448B",
-                  border: "none",
-                }}
+                className="testeandooooooooooooooooooo2"
                 onClick={handleShow}
               >
                 <ShoppingCartIcon />

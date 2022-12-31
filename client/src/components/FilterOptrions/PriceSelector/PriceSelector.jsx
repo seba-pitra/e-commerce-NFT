@@ -39,6 +39,7 @@ const App = () => {
     >
       <label>Price : </label>
       <select name="" id="" onChange={(e) => { handleCurrencyClick(e) }}>
+        <option disabled selected value="null">Select currency</option>
         {currencies.map((currency) => {
           return (
             <option
@@ -53,6 +54,7 @@ const App = () => {
       <input
         name="min"
         type="number"
+        placeholder="min"
         value={range.min}
         onChange={(e) => handleMinChange(e)}
         min="0"
