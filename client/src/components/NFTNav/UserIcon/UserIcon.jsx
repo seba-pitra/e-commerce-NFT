@@ -41,7 +41,7 @@ const UserIcon = ({ setVisible, visible }) => {
   return (
     <ul className={`user-icon-list ${visible ? "" : "noneDisplay"}`}>
       <li onClick={setVisible}>
-        <Link className="user-icon-list-link" to={`/user/${loggedUser.id}`}>
+        <Link className="user-icon-list-link" to="/myAccount">
           My Acount{" "}
         </Link>
       </li>

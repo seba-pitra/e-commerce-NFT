@@ -11,8 +11,9 @@ module.exports = (sequelize) => {
         unique: true,
         allowNull: false,
       },
-      apiId : {
+      contract : {
         type : DataTypes.STRING,
+        allowNull : false
       },
       name: {
         type: DataTypes.STRING,
