@@ -1,0 +1,3052 @@
+[
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "113",
+      "name": "Regular #113",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a2d58ac4f2a40ca598aa04e90eb31c232580b76ad02eed0492aa6e10655d860e5e11c760bbdf2670236cbb5ad7d0b88c5bc18d9858d4350cf3a58d89c66288682f70b05959d5325ec1cb05120a0d776bebb4c36f844f13f9acc5ec68d602682489b32ed0cd2521ac394294e8e964f213c23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T08:43:03.749Z",
+      "lastFlagChange": null,
+      "rarity": 308.963,
+      "rarityRank": 7842,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": 0.06194,
+        "timestamp": 1670390963
+      },
+      "lastSell": {
+        "value": 0.175,
+        "timestamp": 1653082984
+      },
+      "owner": "0x343066d752b71b43e6055d8de7469714c028a5ba"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x3e38bd4e54a644d505f59a7403f5694fb5dddd2fc19bd3ba04d4424e4dd8c552",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "65409501638871665",
+            "decimal": 0.06541,
+            "usd": 77.62655,
+            "native": 0.06541
+          }
+        },
+        "maker": "0x343066d752b71b43e6055d8de7469714c028a5ba",
+        "validFrom": 1670616743,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x6d0de90cdc47047982238fcf69944555d27ecb25/113"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "200",
+      "name": "Regular #200",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5c7b9a10e72b24f37e33ef4ed1742072746f5e431a6596ba68218a69ca900a167fc3a09d841d323547ad882d3de1a7c4fd39312cab0f0d3d4ffdf5dc1603d57a9df478a196090095ccad8010c7950baf8172560e5c90f487eb7697ed313b883196773602e2e7ca633bb4d8f3108b31d223c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T08:41:43.068Z",
+      "lastFlagChange": null,
+      "rarity": 290.773,
+      "rarityRank": 8632,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": 0.10982,
+        "timestamp": 1660024967
+      },
+      "lastSell": {
+        "value": 0.11898,
+        "timestamp": 1659986977
+      },
+      "owner": "0x343066d752b71b43e6055d8de7469714c028a5ba"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x6e2c9e11b28f56934b669e6a1fdc1a41d89995cd272c4f2e8054cd1d01e9b88c",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "65409501638871665",
+            "decimal": 0.06541,
+            "usd": 77.62655,
+            "native": 0.06541
+          }
+        },
+        "maker": "0x343066d752b71b43e6055d8de7469714c028a5ba",
+        "validFrom": 1670616743,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x6d0de90cdc47047982238fcf69944555d27ecb25/200"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "661",
+      "name": "Regular #661",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3ddfa84c9126882baf62e66519fb5cf09eb78dbbe6fe82e4386ed96ee72e856e661416c3526fd7ed1ca4aa4f7d9e9307bef6208ab2f328936cc587aee4205370c9bb6a7c48b24ef9f9ec1920e5474d847878e1e6bc52d54c245fd2c53c5a82b1bbaa98281c73e43d678ebc0121a4ae9ee1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-22T07:38:00.344Z",
+      "lastFlagChange": null,
+      "rarity": 454.321,
+      "rarityRank": 4132,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": 0.08684,
+        "timestamp": 1660797983
+      },
+      "lastSell": {
+        "value": 0.08794,
+        "timestamp": 1660722740
+      },
+      "owner": "0x343066d752b71b43e6055d8de7469714c028a5ba"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xf7c25a30c99e206bec50f0fa8c55a029098181562fd223ca156ef82aa790e91d",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "65409501638871665",
+            "decimal": 0.06541,
+            "usd": 77.62655,
+            "native": 0.06541
+          }
+        },
+        "maker": "0x343066d752b71b43e6055d8de7469714c028a5ba",
+        "validFrom": 1670616743,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x6d0de90cdc47047982238fcf69944555d27ecb25/661"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "1011",
+      "name": "Regular #1011",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a19aab660527fb5e195ab572d73532676291842c9d15d6b51c5fc5f9bd1b494c5a3319c6d7cbc391a1daf3bb8a84d188b0fe7a865c019df60042f2eaaffe594f438215214709514ab236824811ee9159bda7fd1376855856ba27352fe9e777edff5c57ac666b76101143049612db95f0fe1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-22T07:37:47.831Z",
+      "lastFlagChange": null,
+      "rarity": 776.488,
+      "rarityRank": 1297,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": 0.06489,
+        "timestamp": 1668165143
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x343066d752b71b43e6055d8de7469714c028a5ba"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x387036dd6f761270d7893e7da7cfdd4112b06599602c33d0e28b5016d526a6bd",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "65409501638871665",
+            "decimal": 0.06541,
+            "usd": 77.62655,
+            "native": 0.06541
+          }
+        },
+        "maker": "0x343066d752b71b43e6055d8de7469714c028a5ba",
+        "validFrom": 1670616743,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x6d0de90cdc47047982238fcf69944555d27ecb25/1011"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "1070",
+      "name": "Regular #1070",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4efc375abbf2771667a156ee559787d9416ab51fd6098512632f8e95b28d2b5093de2776fa044336ecdb3a548b1c6f5210fa838ebabc534f04a6547331d51eca796de48ca837355a008402d17d1498e206b516e361a82dd3c5845e7abec54c484ce6cbc91d02a3f4a46f46572d163e85058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-22T07:37:45.198Z",
+      "lastFlagChange": null,
+      "rarity": 308.257,
+      "rarityRank": 7904,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": 0.05679,
+        "timestamp": 1668190967
+      },
+      "lastSell": {
+        "value": 0.169,
+        "timestamp": 1654460795
+      },
+      "owner": "0x343066d752b71b43e6055d8de7469714c028a5ba"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xcaecb187f7218b2d865cb5a3a77c746c9a28bc4d6b024e827124c01e111c8c0c",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "65409501638871665",
+            "decimal": 0.06541,
+            "usd": 77.62655,
+            "native": 0.06541
+          }
+        },
+        "maker": "0x343066d752b71b43e6055d8de7469714c028a5ba",
+        "validFrom": 1670616743,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x6d0de90cdc47047982238fcf69944555d27ecb25/1070"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "1491",
+      "name": "Regular #1491",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a73d1f521da229d27b07f0c7f8d081a05925064fa76f015886e1ae2985d3908e356de844d8393376f76e81abba6571cc2ea10a004eedf9480e28db6d48eafa339264ef2f05c1fafb10f97834bd89ac96ab1f9f2e2c773d2f325af7427d28248d4e7bac02cbeef8bb526a710b8cb8b15ce058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-22T07:37:29.060Z",
+      "lastFlagChange": null,
+      "rarity": 458.06,
+      "rarityRank": 4033,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": 0.06644,
+        "timestamp": 1667339783
+      },
+      "lastSell": {
+        "value": 0.08,
+        "timestamp": 1664096447
+      },
+      "owner": "0x343066d752b71b43e6055d8de7469714c028a5ba"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xcf30c6976ac3e05a285537638175699032ae1c02bbf1ec51dfc75f2bcf83d778",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "65409501638871665",
+            "decimal": 0.06541,
+            "usd": 77.62655,
+            "native": 0.06541
+          }
+        },
+        "maker": "0x343066d752b71b43e6055d8de7469714c028a5ba",
+        "validFrom": 1670616743,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x6d0de90cdc47047982238fcf69944555d27ecb25/1491"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "2675",
+      "name": "#2675, Norman Bates",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aed3486c7328f6be65ef538cfccb02215e4fc79753ed871b2c258f281bf9692e33f6c6ab2ee8c5f2601762a03f2f18f4c79a62832ca200c9bd1d0bff2cf34d89b701c26888a4c0363d287d9fcf5caea3eb8c84e015c4a920cd918c584918d248cd8fe37a63971a9edc972aba6b8b4f84323c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-22T07:36:37.890Z",
+      "lastFlagChange": null,
+      "rarity": 263.805,
+      "rarityRank": 9451,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": 0.0635,
+        "timestamp": 1662622925
+      },
+      "lastSell": {
+        "value": 0.22,
+        "timestamp": 1652215443
+      },
+      "owner": "0x343066d752b71b43e6055d8de7469714c028a5ba"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x460b562bf3435a3b5b71bdd5a01843a7249bce0d629eb32d902f0ccec5eb901b",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "65409501638871665",
+            "decimal": 0.06541,
+            "usd": 77.62655,
+            "native": 0.06541
+          }
+        },
+        "maker": "0x343066d752b71b43e6055d8de7469714c028a5ba",
+        "validFrom": 1670616743,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x6d0de90cdc47047982238fcf69944555d27ecb25/2675"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "2740",
+      "name": "Regular #2740",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae1a4f58306bce148147c22ea346c6fa6f1212ebc246c23e913e7729e69a1ab98c5f3e135fea3a8aee6bedf154913f4f97ef697acb7a0ab937fef833d50746556598e0d85e44184e20fb6c30a8a32551c182fc9a9ea9b7d93b242a7658b51f191be90e8fab4cd98a3a18b7460ebd6e93a058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-22T07:36:35.808Z",
+      "lastFlagChange": null,
+      "rarity": 459.499,
+      "rarityRank": 4000,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": 0.05696,
+        "timestamp": 1662482195
+      },
+      "lastSell": {
+        "value": 0.1829,
+        "timestamp": 1656073537
+      },
+      "owner": "0x343066d752b71b43e6055d8de7469714c028a5ba"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x3308e84edf8faa8dc2d8031158de5770c90387ebd12637f9f315993fe796d67d",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "65409501638871665",
+            "decimal": 0.06541,
+            "usd": 77.62655,
+            "native": 0.06541
+          }
+        },
+        "maker": "0x343066d752b71b43e6055d8de7469714c028a5ba",
+        "validFrom": 1670616743,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x6d0de90cdc47047982238fcf69944555d27ecb25/2740"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "3154",
+      "name": "Regular #3154",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a8df70448858f72839263fd1ce0d24199c7d1a828a78a324140c1250431bc68cd207adfbca3355fadcb834a1c28530cdf4c27750ea7c9370ba70cb7e03f90e9e737690fb1fdeedde84fa9133ad8ef67ee156f21f843f3e9dd14554754a8e90023189409fd132cce341b275a0011a064e8058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-22T07:36:18.300Z",
+      "lastFlagChange": null,
+      "rarity": 262.449,
+      "rarityRank": 9488,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": 0.10798,
+        "timestamp": 1670066783
+      },
+      "lastSell": {
+        "value": 0.1,
+        "timestamp": 1670066783
+      },
+      "owner": "0x343066d752b71b43e6055d8de7469714c028a5ba"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x9276fe3f60fc126aa3b561e180ded69765474436e095ff5640805dfcb2fe0a7d",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "65409501638871665",
+            "decimal": 0.06541,
+            "usd": 77.62655,
+            "native": 0.06541
+          }
+        },
+        "maker": "0x343066d752b71b43e6055d8de7469714c028a5ba",
+        "validFrom": 1670616743,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x6d0de90cdc47047982238fcf69944555d27ecb25/3154"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "3452",
+      "name": "Regular #3452",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7f8143dc89ff54153d12fe50dba7843ee1a31b283c9a2fd1f6c443866924564c5257b1867a2db587906dad99546426ae6e08293ef1dc15ad6667836af4ba2bcb91e800cdfac9ef284cecfdca039e6ae70a583655d0bcb544f635896e9a68369fd3f8f5ba47ab667abc07605943941f0ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-22T07:36:05.642Z",
+      "lastFlagChange": null,
+      "rarity": 309.438,
+      "rarityRank": 7805,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": 0.06389,
+        "timestamp": 1667562119
+      },
+      "lastSell": {
+        "value": 0.06583,
+        "timestamp": 1667562035
+      },
+      "owner": "0x343066d752b71b43e6055d8de7469714c028a5ba"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xc637e1208ac3636f85487f25de2447995bbcc9a7a48073273bcaadecba56326f",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "65409501638871665",
+            "decimal": 0.06541,
+            "usd": 77.62655,
+            "native": 0.06541
+          }
+        },
+        "maker": "0x343066d752b71b43e6055d8de7469714c028a5ba",
+        "validFrom": 1670616743,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x6d0de90cdc47047982238fcf69944555d27ecb25/3452"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "4019",
+      "name": "Regular #4019",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4ffe2dee5a2f14283b64ffb3e7c4029d2bc0f965c016b375a8129ed43aba57f1d58057a69a5b56cabd3f1691fd13d9e20d0e66bd4c9e9bae1552aaf50c1bda6967d278e055e4dda616f0fcffacd2a8483784427ad5a30ba3debd7a08a03ebfce41fdef306101a878d0673acefeb3727a23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-22T07:35:41.200Z",
+      "lastFlagChange": null,
+      "rarity": 272.178,
+      "rarityRank": 9151,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": 0.09575,
+        "timestamp": 1660359565
+      },
+      "lastSell": {
+        "value": 0.13,
+        "timestamp": 1660184900
+      },
+      "owner": "0x343066d752b71b43e6055d8de7469714c028a5ba"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x622226f1a1446ce136264e57302aec9a10ec91064fd30d3197b7a9bd62d63448",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "65409501638871665",
+            "decimal": 0.06541,
+            "usd": 77.62655,
+            "native": 0.06541
+          }
+        },
+        "maker": "0x343066d752b71b43e6055d8de7469714c028a5ba",
+        "validFrom": 1670616743,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x6d0de90cdc47047982238fcf69944555d27ecb25/4019"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "4031",
+      "name": "Regular #4031",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a828359541459f02408d2a232f87ac0af447952409375f21e3f6fdd7de31cea37c15fa178b7835f3c05fb8862527f05dca3cf30b8f15294df2cfac65c7c521d7836dcf9a6d92a2b1dce590ce053287d70ff2b0cd5fdd6d6531c7bf60b92778074b3e07bcb0fd6b6b46bf46c4467b6e802e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-22T07:35:40.318Z",
+      "lastFlagChange": null,
+      "rarity": 304.935,
+      "rarityRank": 8113,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": 0.06466,
+        "timestamp": 1661953187
+      },
+      "lastSell": {
+        "value": 0.2533,
+        "timestamp": 1652006001
+      },
+      "owner": "0x343066d752b71b43e6055d8de7469714c028a5ba"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x28422437c5f28756bd7f7d6b131d3463482ca974ed813e9567f98618df76692a",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "65409501638871665",
+            "decimal": 0.06541,
+            "usd": 77.62655,
+            "native": 0.06541
+          }
+        },
+        "maker": "0x343066d752b71b43e6055d8de7469714c028a5ba",
+        "validFrom": 1670616743,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x6d0de90cdc47047982238fcf69944555d27ecb25/4031"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "4051",
+      "name": "Regular #4051",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a82494c16ede3a5910649b2b2dd39fed6431f1e8c0ecce2c07b723f725c48ebbcc53cdd4d684928848e4ad07f2d1cf3a5bfe1e2ce43b668618f0737c78055d3bba52f32d02bfb674860f23188635f21c18ed26458ee364a14a9198234f904d2a78e7c5b56c2c839713c282ec653ab5466058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-22T07:35:39.645Z",
+      "lastFlagChange": null,
+      "rarity": 581.495,
+      "rarityRank": 2379,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": 0.0635,
+        "timestamp": 1662685990
+      },
+      "lastSell": {
+        "value": 0.07777,
+        "timestamp": 1662685863
+      },
+      "owner": "0x343066d752b71b43e6055d8de7469714c028a5ba"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xf14a5a1bbc34a8e0926ba9f57c709bd5a094acc60b5e2d8d23ea64cd065c87ed",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "65409501638871665",
+            "decimal": 0.06541,
+            "usd": 77.62655,
+            "native": 0.06541
+          }
+        },
+        "maker": "0x343066d752b71b43e6055d8de7469714c028a5ba",
+        "validFrom": 1670616743,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x6d0de90cdc47047982238fcf69944555d27ecb25/4051"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "4064",
+      "name": "Regular #4064",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae319e863ca2581ef29268adb1372287eeb3712be1316134792076991a4ccb619ab3dd3f3726b324ea9befd2dd54891631decee730a4b4ef046af479c7ac1683d7e20271c5428f2e259286a21bc7162f9757abd7acfe234b8eca345228209d1076be2002a9f66505e07359c7625e2408ee1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-22T07:35:39.645Z",
+      "lastFlagChange": null,
+      "rarity": 382.037,
+      "rarityRank": 5331,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": 0.05906,
+        "timestamp": 1662653939
+      },
+      "lastSell": {
+        "value": 0.07233,
+        "timestamp": 1662651843
+      },
+      "owner": "0x343066d752b71b43e6055d8de7469714c028a5ba"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x2b4be493c44c5bc19a875ebbf3e5a21a4dc0a56c6758ba046de5991c1be5fe3e",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "65409501638871665",
+            "decimal": 0.06541,
+            "usd": 77.62655,
+            "native": 0.06541
+          }
+        },
+        "maker": "0x343066d752b71b43e6055d8de7469714c028a5ba",
+        "validFrom": 1670616743,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x6d0de90cdc47047982238fcf69944555d27ecb25/4064"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "5011",
+      "name": "Regular #5011",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af25705e01b7e146bc4008543f706d537ba1959faa2395d2abcd277b19f57d8dd7576f449d620c9d5f7ef2702c2ca55565455f926082f67d0a544f635cb5006c7147b341f449099a80b4e96040ee350834f5d3a60c9a66494865313c7fc7fcfc576c983367a8378a5b33318f7368b873923c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-22T07:35:01.026Z",
+      "lastFlagChange": null,
+      "rarity": 331.545,
+      "rarityRank": 6297,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": 0.09497,
+        "timestamp": 1670067347
+      },
+      "lastSell": {
+        "value": 0.305,
+        "timestamp": 1651509861
+      },
+      "owner": "0x343066d752b71b43e6055d8de7469714c028a5ba"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x567a562f1d42e2909dd2b8a47a73b4845c0fb496025bb7e25b055237b6ef3d37",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "65409501638871665",
+            "decimal": 0.06541,
+            "usd": 77.62655,
+            "native": 0.06541
+          }
+        },
+        "maker": "0x343066d752b71b43e6055d8de7469714c028a5ba",
+        "validFrom": 1670616743,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x6d0de90cdc47047982238fcf69944555d27ecb25/5011"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "5263",
+      "name": "Regular #5263",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a597d9570beed8b49e6220ada364f4bbd47283f03f4265427fd0fdc3f50c368848983a465b96e30df15a9db0786555561d93cd9fffb02a95bd9c537218c7743b0a17bb8859eda8a57874f62f7759c5c5eb786eede0c764791dcf257ee1c6c402a9a4c4edbe978b46c550dde6338d29fd0e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-22T07:34:49.766Z",
+      "lastFlagChange": null,
+      "rarity": 383.13,
+      "rarityRank": 5311,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": 0.05508,
+        "timestamp": 1664330123
+      },
+      "lastSell": {
+        "value": 0.068,
+        "timestamp": 1664330039
+      },
+      "owner": "0x343066d752b71b43e6055d8de7469714c028a5ba"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x64bd70affd0e57984a82f201d417a609b3e105d5d1189c7ec83acb6f0891a506",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "65409501638871665",
+            "decimal": 0.06541,
+            "usd": 77.62655,
+            "native": 0.06541
+          }
+        },
+        "maker": "0x343066d752b71b43e6055d8de7469714c028a5ba",
+        "validFrom": 1670616743,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x6d0de90cdc47047982238fcf69944555d27ecb25/5263"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "5800",
+      "name": "Regular #5800",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a9e4abc8115edb696493addc6b84b7d846a135c44a9ba9571cd1cd2288edeec100736fc8b088e93cc5d6dd0879a63403170a709b09301f8a25c4d2accc24d38c6e5bad3722e3031dcb14133adc55325bac02d02176a5a170d65d8e0717e66b9a13882e21b04d0da9d69deb22479e88ad1e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-22T07:34:27.099Z",
+      "lastFlagChange": null,
+      "rarity": 305.153,
+      "rarityRank": 8098,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": 0.08354,
+        "timestamp": 1670067563
+      },
+      "lastSell": {
+        "value": 0.42,
+        "timestamp": 1651688043
+      },
+      "owner": "0x343066d752b71b43e6055d8de7469714c028a5ba"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x1977b9af0aef10858fd52539c22b3886788489fc3bc71cf037f26b2e04213803",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "65409501638871665",
+            "decimal": 0.06541,
+            "usd": 77.62655,
+            "native": 0.06541
+          }
+        },
+        "maker": "0x343066d752b71b43e6055d8de7469714c028a5ba",
+        "validFrom": 1670616743,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x6d0de90cdc47047982238fcf69944555d27ecb25/5800"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "5805",
+      "name": "Regular #5805",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ad0c4073162eb1fd5cdec8723a15d7db3632c15f6f94e1060d56461a7f9ed179ef589eb002c0570fa07e2046b63e1ba5dcf9d76039c6a4542b095cef2d9e4dc716a28afeba1da0d4d590e4d73f499fe3855a28d1a497b354a6311a365d107d8836b444792c08b6bf99db4a9b2fed83cf723c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-22T07:34:27.084Z",
+      "lastFlagChange": null,
+      "rarity": 250.39,
+      "rarityRank": 9881,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": 0.09119,
+        "timestamp": 1660463573
+      },
+      "lastSell": {
+        "value": 0.194,
+        "timestamp": 1658010171
+      },
+      "owner": "0x343066d752b71b43e6055d8de7469714c028a5ba"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x6de6c4406cd8fc837640542ac1e4092ec1f7c1a3292cc3979c0c1ff6a6b551f0",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "65409501638871665",
+            "decimal": 0.06541,
+            "usd": 77.62655,
+            "native": 0.06541
+          }
+        },
+        "maker": "0x343066d752b71b43e6055d8de7469714c028a5ba",
+        "validFrom": 1670616743,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x6d0de90cdc47047982238fcf69944555d27ecb25/5805"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "5879",
+      "name": "Regular #5879",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a61a67bd31912ef6dbabdda99e910fe97955d3a943f9cb63545fe6b58d7f1b80d8637f28e4f484da1fefd99f2a7d25a8b4bc18464c2e26752eb2694dbc3ff051e0d822fbb4014ae2be8410201120b6dabdd7f3e1e6a919a3fc48c07a4224c47962a81c2383672cc67abfc3ab92e911d8f058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-22T07:34:24.068Z",
+      "lastFlagChange": null,
+      "rarity": 262.978,
+      "rarityRank": 9472,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": 0.05508,
+        "timestamp": 1664329991
+      },
+      "lastSell": {
+        "value": 0.068,
+        "timestamp": 1664329811
+      },
+      "owner": "0x343066d752b71b43e6055d8de7469714c028a5ba"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x91881cfff252d30fa8d6a080318a20d972ecbce3ed5071b34ee2507298a84b45",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "65409501638871665",
+            "decimal": 0.06541,
+            "usd": 77.62655,
+            "native": 0.06541
+          }
+        },
+        "maker": "0x343066d752b71b43e6055d8de7469714c028a5ba",
+        "validFrom": 1670616743,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x6d0de90cdc47047982238fcf69944555d27ecb25/5879"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "5918",
+      "name": "Regular #5918",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ad48565b861663bedef1a7a1ab2bf7c8fafba988a7a6c18a6ef3babda2472e6c1ae60b48216554b4eb726d6ab7ba316b00685c2a1a6b3209da1e3c89a37881f6d202822257898b2c02ee93ed7b372ab2ceff6a9c1dfe7c411d9c5bd5c626e5ea48b63a864a746797aab34e8385c66d7ce058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-22T07:34:22.409Z",
+      "lastFlagChange": null,
+      "rarity": 588.589,
+      "rarityRank": 2301,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": 0.08684,
+        "timestamp": 1660996721
+      },
+      "lastSell": {
+        "value": 0.028,
+        "timestamp": 1651150721
+      },
+      "owner": "0x343066d752b71b43e6055d8de7469714c028a5ba"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xe68ebf458b419fa5bf305de4c6e4237e7630063a383b127525a0a70c386984aa",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "65409501638871665",
+            "decimal": 0.06541,
+            "usd": 77.62655,
+            "native": 0.06541
+          }
+        },
+        "maker": "0x343066d752b71b43e6055d8de7469714c028a5ba",
+        "validFrom": 1670616743,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x6d0de90cdc47047982238fcf69944555d27ecb25/5918"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "6651",
+      "name": "Regular #6651",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58d97a0db3a2d672f57a1622bbe63e57449809eb5d463402bf63d81ba2f215ef2e2879af98bb58ecd0e49308f80ff11aa0f32eff72c7601a92faed5b7a5aafb5ec9fe98b88008115c191c925011736da955d6764aba7b00c7aead661429d83aed6fb3f16fb60d20c90ac7ed35381e435e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-22T07:33:51.687Z",
+      "lastFlagChange": null,
+      "rarity": 311.36,
+      "rarityRank": 7652,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": 0.08684,
+        "timestamp": 1661377324
+      },
+      "lastSell": {
+        "value": 0.0759,
+        "timestamp": 1661377324
+      },
+      "owner": "0x343066d752b71b43e6055d8de7469714c028a5ba"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x763abaf31e9c8b812e2a944609aa136170bb5577961534b1366909ee5f1d592b",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "65409501638871665",
+            "decimal": 0.06541,
+            "usd": 77.62655,
+            "native": 0.06541
+          }
+        },
+        "maker": "0x343066d752b71b43e6055d8de7469714c028a5ba",
+        "validFrom": 1670616743,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x6d0de90cdc47047982238fcf69944555d27ecb25/6651"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "6775",
+      "name": "Regular #6775",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ac1d05d3e011977c9cb3da6ec2316b74153d7ce4b71316e23227b033e251ca4d5a47b3007c8c435045ceeb9fcbd40d9a30d00b69b54624671ebae486fdcc7fd6707d17851dcd840c5fbc24a9610d34bbc21648e7dca54da63725d6cc37f36911d5933aa5d0c8f7662422438bb777273d6058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-22T07:33:46.951Z",
+      "lastFlagChange": null,
+      "rarity": 603.943,
+      "rarityRank": 2175,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": 0.05907,
+        "timestamp": 1667656355
+      },
+      "lastSell": {
+        "value": 0.073,
+        "timestamp": 1664404703
+      },
+      "owner": "0x343066d752b71b43e6055d8de7469714c028a5ba"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x1c5ba9cadbe36a1b2ccd242fe6ea93fdaf708d15544e621f3149980081442a23",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "65409501638871665",
+            "decimal": 0.06541,
+            "usd": 77.62655,
+            "native": 0.06541
+          }
+        },
+        "maker": "0x343066d752b71b43e6055d8de7469714c028a5ba",
+        "validFrom": 1670616743,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x6d0de90cdc47047982238fcf69944555d27ecb25/6775"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "6892",
+      "name": "Regular #6892",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a92cf5164133e09fae15c4a8a9970da99b9895d8f336f1cedff4adc572d92974bff5c49535f21a22601e40aff122fdf37b180280ab83fd6403675ab9d2a128603dae12f22edf4b375cf42fe66f533dff960f8869225eee9a1b04a9d419da16f959937dde1779e409650de293ae93600d023c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-22T07:33:42.582Z",
+      "lastFlagChange": null,
+      "rarity": 337.632,
+      "rarityRank": 6086,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": 0.06622,
+        "timestamp": 1670390867
+      },
+      "lastSell": {
+        "value": 0.06,
+        "timestamp": 1651284859
+      },
+      "owner": "0x343066d752b71b43e6055d8de7469714c028a5ba"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x43130c5a594a139635a2c02ad2f1a8df5761c94584a694481c39d07c6d7cdcbd",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "65409501638871665",
+            "decimal": 0.06541,
+            "usd": 77.62655,
+            "native": 0.06541
+          }
+        },
+        "maker": "0x343066d752b71b43e6055d8de7469714c028a5ba",
+        "validFrom": 1670616743,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x6d0de90cdc47047982238fcf69944555d27ecb25/6892"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "6940",
+      "name": "Regular #6940",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ac3495e3a35fd362a4c7fa3889687ee11acbc1904fcee78db82c532d364db8b5b5cf6d5bc75c4611f907b1daeb1058fc9bff2d1a512dd7617d9c9e775ee689050b6ba66252265d458bae19b1c97cf73eb6e105bf5c41a9679036befc17999f95cf7a936808fbdd5fe509ecb8dd66ad97823c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T19:14:02.613Z",
+      "lastFlagChange": null,
+      "rarity": 220.583,
+      "rarityRank": 10000,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": 0.05795,
+        "timestamp": 1670616743
+      },
+      "lastSell": {
+        "value": 0.104,
+        "timestamp": 1655350633
+      },
+      "owner": "0x343066d752b71b43e6055d8de7469714c028a5ba"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x08588920e9309a5eb6c9e183d1a4687ac2c64c63c609570fc9cb06de05454938",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "65409501638871665",
+            "decimal": 0.06541,
+            "usd": 77.62655,
+            "native": 0.06541
+          }
+        },
+        "maker": "0x343066d752b71b43e6055d8de7469714c028a5ba",
+        "validFrom": 1670616743,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x6d0de90cdc47047982238fcf69944555d27ecb25/6940"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "7379",
+      "name": "Regular #7379",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab767b3432c7084c656dccab0a67f9a5f99ecfd34a47d8db72d472144a0a8e811c83bc9bd639835441c09d2776798ef36af762de6ea95fb40aaac723043fc8ef367bf104f73961025b6e9b6e3efe6261306edf464faf280dfbb3573593128126ae322f00e062b802faae18dce617fa13c23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-22T07:33:24.448Z",
+      "lastFlagChange": null,
+      "rarity": 276.919,
+      "rarityRank": 8962,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": 0.05753,
+        "timestamp": 1664943851
+      },
+      "lastSell": {
+        "value": 0.07259,
+        "timestamp": 1664425931
+      },
+      "owner": "0x343066d752b71b43e6055d8de7469714c028a5ba"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xef136984b83a749bca9a5fc1361a70291c97e4c6b8a533e4e3e0c8bc94ed3410",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "65409501638871665",
+            "decimal": 0.06541,
+            "usd": 77.62655,
+            "native": 0.06541
+          }
+        },
+        "maker": "0x343066d752b71b43e6055d8de7469714c028a5ba",
+        "validFrom": 1670616743,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x6d0de90cdc47047982238fcf69944555d27ecb25/7379"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "7559",
+      "name": "Regular #7559",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aca8b0e5504da649eb13039e5e64834408f0ae6173a98d10dc08fa2abbc4580bd241e28538fe8f0401e6ab706ae7f2bd0eca8e81281b3bd1dba15b694b0a00eeb9ed737ead9041873530747a5f0f8e568d1304eab253e6804659fcbb86bb4a51eda264cbe57336880f4edafffce295748058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-22T07:33:15.857Z",
+      "lastFlagChange": null,
+      "rarity": 407.544,
+      "rarityRank": 4868,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": 0.06953,
+        "timestamp": 1662224331
+      },
+      "lastSell": {
+        "value": 0.09,
+        "timestamp": 1651398419
+      },
+      "owner": "0x343066d752b71b43e6055d8de7469714c028a5ba"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x29645aa7d2ffe050c9f389701916143daff4b4f9cb315c973fb07965101445db",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "65409501638871665",
+            "decimal": 0.06541,
+            "usd": 77.62655,
+            "native": 0.06541
+          }
+        },
+        "maker": "0x343066d752b71b43e6055d8de7469714c028a5ba",
+        "validFrom": 1670616743,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x6d0de90cdc47047982238fcf69944555d27ecb25/7559"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "7727",
+      "name": "Regular #7727",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a99da618b83f44aad0404eb9ad8990b3ef8c321644db691a2e44662e4ea08c9bc0b9e370ffa91c8dc76acf50477d68c3ef68f280af39f98752a1cce59d7a5583bbe72552cea39f9fde2eaf99778cb80040404d2a4696d13b821bd5001e4bce536eac7a1d9d555d5b7d908661dfcc505c523c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-22T07:33:08.205Z",
+      "lastFlagChange": null,
+      "rarity": 311.404,
+      "rarityRank": 7646,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": 0.10305,
+        "timestamp": 1660310220
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x343066d752b71b43e6055d8de7469714c028a5ba"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x4cfea3308819c83864b8cb3003916a140f03d39c5c4081bfb4dea53e7b8ed946",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "65409501638871665",
+            "decimal": 0.06541,
+            "usd": 77.62655,
+            "native": 0.06541
+          }
+        },
+        "maker": "0x343066d752b71b43e6055d8de7469714c028a5ba",
+        "validFrom": 1670616743,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x6d0de90cdc47047982238fcf69944555d27ecb25/7727"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "8162",
+      "name": "Regular #8162",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a034ed725893414db902c827720410eda706c965f4ad2cc7fa782072e4cb066d170eb3cb6fc7c8cbe957b737e58fd15bfad511456f4ab7b6a1c99a546b991d9bff3a0fa4e889a02d6d0a80ffa26dda1a1a0235789251e1ff4d4dd620031e8cbe057a9353ac0a2ecd053d786162b5226b4058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-22T07:32:51.082Z",
+      "lastFlagChange": null,
+      "rarity": 306.308,
+      "rarityRank": 8043,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": 0.08271,
+        "timestamp": 1660691301
+      },
+      "lastSell": {
+        "value": 0.0777,
+        "timestamp": 1660691301
+      },
+      "owner": "0x343066d752b71b43e6055d8de7469714c028a5ba"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xfaec56ace6f1f925f272f77b4aee52ead0ba5b30c9ba96dbbe88c00fbb44a40c",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "65409501638871665",
+            "decimal": 0.06541,
+            "usd": 77.62655,
+            "native": 0.06541
+          }
+        },
+        "maker": "0x343066d752b71b43e6055d8de7469714c028a5ba",
+        "validFrom": 1670616743,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x6d0de90cdc47047982238fcf69944555d27ecb25/8162"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "8516",
+      "name": "Regular #8516",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a602f46fb2ca34aa90ee26c28b4c8c0051e4a1c73f4ad856a5338371401b8953d178d064e2d06af77feec27999eb1f000c6f7b7f9259c7d37170978dbbf96d257cbbdfbe89d3699788278f03164eb8445eaf2e70e035400f8cb216c035a91552740044443632a023e06e0052215723971e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-22T07:32:35.754Z",
+      "lastFlagChange": null,
+      "rarity": 583.083,
+      "rarityRank": 2366,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": 0.07877,
+        "timestamp": 1660736703
+      },
+      "lastSell": {
+        "value": 0.1,
+        "timestamp": 1660736551
+      },
+      "owner": "0x343066d752b71b43e6055d8de7469714c028a5ba"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x9a9d48ce690725a113f5be851655035561ec48e45b77bcd71e160ddcf2f87e19",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "65409501638871665",
+            "decimal": 0.06541,
+            "usd": 77.62655,
+            "native": 0.06541
+          }
+        },
+        "maker": "0x343066d752b71b43e6055d8de7469714c028a5ba",
+        "validFrom": 1670616743,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x6d0de90cdc47047982238fcf69944555d27ecb25/8516"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "8598",
+      "name": "Regular #8598",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1645e0d3f901c5018fcdb0e0e9105af4c2aa54aa170310829f4ccad4cfa8925c7fd1175a5586969c6d61e1181b5f1f4aa57370aff7d8c3c54d72c423b595eb8f9d74e8ec888da10c81959bfbb665c39d92510f05c9628a407a9b5019739bfb1465d571b1ff6d33158b1e2b873cde2afc23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-22T07:32:32.364Z",
+      "lastFlagChange": null,
+      "rarity": 256.446,
+      "rarityRank": 9740,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": 0.06644,
+        "timestamp": 1667508167
+      },
+      "lastSell": {
+        "value": 0.06,
+        "timestamp": 1665429275
+      },
+      "owner": "0x343066d752b71b43e6055d8de7469714c028a5ba"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xa124e1ca517c826a5b1b5c043266ca559689d0b2ca65319d5bb19ab0705c424c",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "65409501638871665",
+            "decimal": 0.06541,
+            "usd": 77.62655,
+            "native": 0.06541
+          }
+        },
+        "maker": "0x343066d752b71b43e6055d8de7469714c028a5ba",
+        "validFrom": 1670616743,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x6d0de90cdc47047982238fcf69944555d27ecb25/8598"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "8725",
+      "name": "Regular #8725",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ac6041ed834c47534395bd87ea5eb4b2fd9a644375a6f3b010487ba6ecccc61a262ecfeb776033fea0861eeedcdc75389bb6203b4229669ef9b27ee1173c5e1ac287b6b1a3f7f7877bb71bc6ad73a1a90bccbea837c4ce62cc103a8ffc914539b9336b741eaf63a73a576b74522e1506623c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-22T07:32:27.171Z",
+      "lastFlagChange": null,
+      "rarity": 298.873,
+      "rarityRank": 8398,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": 0.05961,
+        "timestamp": 1665957083
+      },
+      "lastSell": {
+        "value": 0.24,
+        "timestamp": 1651492121
+      },
+      "owner": "0x343066d752b71b43e6055d8de7469714c028a5ba"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x797a1c56a468c5bba59ac6b0fc4f814b414a2036e01b2b9ef9053a9966aaef05",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "65409501638871665",
+            "decimal": 0.06541,
+            "usd": 77.62655,
+            "native": 0.06541
+          }
+        },
+        "maker": "0x343066d752b71b43e6055d8de7469714c028a5ba",
+        "validFrom": 1670616743,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x6d0de90cdc47047982238fcf69944555d27ecb25/8725"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "9477",
+      "name": "Regular #9477",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a00f49a9ba110bac6c925af467bd86f80ee997b90247274418d17b2f8168d1bfce98e4c1d195e0c6c69f3c2ddb6655cfe910dfe9c56390f386429adee7432a506df65db8ad9c62174d473d911e2ba3f9486fe4522a80bec34abcd4f2d9e321b55d6400cb5122be57c553d1684a3ef34f8058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-22T07:31:54.766Z",
+      "lastFlagChange": null,
+      "rarity": 253.756,
+      "rarityRank": 9825,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x343066d752b71b43e6055d8de7469714c028a5ba"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xf63b06ea35b785e722b667c74580b9419ea1dcc0824f723971a7ac4d26abb428",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "65409501638871665",
+            "decimal": 0.06541,
+            "usd": 77.62655,
+            "native": 0.06541
+          }
+        },
+        "maker": "0x343066d752b71b43e6055d8de7469714c028a5ba",
+        "validFrom": 1670616743,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x6d0de90cdc47047982238fcf69944555d27ecb25/9477"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "9850",
+      "name": "Regular #9850",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a8987db5f60d272c454c418f0e05d2ae431c14bf5096ee0a1b29abe8c99d0c98b4d3731116069ed75d33348744a992fda6a0c0fdbb47fdc27d1f54acaca3e1f0d0ed661ba08204081dc5e896fd4664a3917863c9399713391b50d6f90cdb21a1b4c0d6a25af2b40797a09c1e82b2cb8c4058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-22T07:31:39.359Z",
+      "lastFlagChange": null,
+      "rarity": 406.606,
+      "rarityRank": 4883,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": 0.07348,
+        "timestamp": 1670258963
+      },
+      "lastSell": {
+        "value": 0.0536,
+        "timestamp": 1668727679
+      },
+      "owner": "0x343066d752b71b43e6055d8de7469714c028a5ba"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xbcd9e73da8dde936b639d566e6d61dc3e7d00e21777d92bcf1972c06319a0e3d",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "65409501638871665",
+            "decimal": 0.06541,
+            "usd": 77.62655,
+            "native": 0.06541
+          }
+        },
+        "maker": "0x343066d752b71b43e6055d8de7469714c028a5ba",
+        "validFrom": 1670616743,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x6d0de90cdc47047982238fcf69944555d27ecb25/9850"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "5416",
+      "name": "Regular #5416",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af080886da0ca53ae621792a899a101bc9f312b209bc56068bd7daaf5cd8145b9ec404e200c78561c9720d6a2857e7e40780b6741163a9a6fed2f77547e239c2712bf39006bb9d18642f010d1bc7d9a981c2dc67e6ce1e5599ef54f8271a119b7734a5f38afcd3bf45c30b56e2738b488e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-22T07:34:44.345Z",
+      "lastFlagChange": null,
+      "rarity": 287.598,
+      "rarityRank": 8712,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x957291eae3d53b5a7c0a6bf2c0f08de5d87b14f6"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x2a52998df93be51bda722a18278105a2afd8d4aab412df4f007e7a3b7b4e96e9",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "73283000000000000",
+            "decimal": 0.07328,
+            "usd": 86.97065,
+            "native": 0.07328
+          }
+        },
+        "maker": "0x957291eae3d53b5a7c0a6bf2c0f08de5d87b14f6",
+        "validFrom": 1671548612,
+        "validUntil": 1687100612,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6d0de90cdc47047982238fcf69944555d27ecb25/5416"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "6367",
+      "name": "Regular #6367",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a9892933cffdba6c21e6def75823537d1c5207596bf029aa918c8929105a4ba91fbf2dca3173be3a684d83790e7e83bfbee15d3b8638757518130ce83b56c9caa7e1f0a706ba8891680823e5bdb25760e7ed16721d880d7a077bbd0a05e3eb28e16dca32c749734f56b6ad06df1f88c3323c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-22T07:34:05.115Z",
+      "lastFlagChange": null,
+      "rarity": 371.498,
+      "rarityRank": 5514,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": 0.06159,
+        "timestamp": 1671147143
+      },
+      "lastSell": {
+        "value": 0.17,
+        "timestamp": 1659023491
+      },
+      "owner": "0x8ff072db4774ff09266d024e098905804f22cf81"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x23ab524b751a60618e4af9406650169b379a68cbc28dce7a9173480385706f2d",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "73283000000000000",
+            "decimal": 0.07328,
+            "usd": 86.97065,
+            "native": 0.07328
+          }
+        },
+        "maker": "0x8ff072db4774ff09266d024e098905804f22cf81",
+        "validFrom": 1671548478,
+        "validUntil": 1671549413,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6d0de90cdc47047982238fcf69944555d27ecb25/6367"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "7293",
+      "name": "Regular #7293",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a64e4af25941d8d2d4873a6e97a6b42b05ba149288fc6c03ece77da0a7000065e2917d7bf03ba1a4c894cccc0b7a2bb54788dce0d813d8a1da7dfb8379737f3b53588b417fa9527c1fd9f0e844f4ced48844896a2ef4c2a983be5d51ac29d89c066e37009928d01b2081d689a25b3a4e1058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-22T07:33:27.648Z",
+      "lastFlagChange": null,
+      "rarity": 322.75,
+      "rarityRank": 6801,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x957291eae3d53b5a7c0a6bf2c0f08de5d87b14f6"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x3e49f60064852ad2f779e5720d1b707752de1c2518e66027f46e7137f5c639f5",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "73283000000000000",
+            "decimal": 0.07328,
+            "usd": 86.97065,
+            "native": 0.07328
+          }
+        },
+        "maker": "0x957291eae3d53b5a7c0a6bf2c0f08de5d87b14f6",
+        "validFrom": 1671548700,
+        "validUntil": 1687100697,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6d0de90cdc47047982238fcf69944555d27ecb25/7293"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "5849",
+      "name": "Regular #5849",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aa3e3a0fbc2bb78bf42b3da35ae20a629d63fbbcc48b228dd002cc64f05f094628ba2e2b301c451a6ba49f56e69d1cf8eed66a704b13b1f250d9b107d297ed7da7f4207a46023c5bd33eb6dc620f5e5f981fe0d9046d4650cc23568450113e7eb6d9d8cc5812693148800f006acffbece058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-22T07:34:25.667Z",
+      "lastFlagChange": null,
+      "rarity": 582.837,
+      "rarityRank": 2370,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": 0.0851,
+        "timestamp": 1660479205
+      },
+      "lastSell": {
+        "value": 0.116,
+        "timestamp": 1660486526
+      },
+      "owner": "0x917d5cfac648ec9cc7dfb2df4b86c99e65a25441"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x40b92454b450bfc42cbbc3fe4e94b7b10f615f9db08b28b32d3122644b24776f",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "73290000000000000",
+            "decimal": 0.07329,
+            "usd": 86.97895,
+            "native": 0.07329
+          }
+        },
+        "maker": "0x917d5cfac648ec9cc7dfb2df4b86c99e65a25441",
+        "validFrom": 1671000168,
+        "validUntil": 1673470173,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6d0de90cdc47047982238fcf69944555d27ecb25/5849"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "7621",
+      "name": "Regular #7621",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a8c1c636b6355c817ca5c33285441245d71927b2bb806e6ccdb50b12132f1c29e9cc43db003c1db591ee129a76b0e698f95cd17e5adeb9c749a89c427346a6213aa4ab157165fc4ad536960e2d49a6615d8dd7502f05c44f2c849fb1edc9ff8dcf1bdf6ad534bc6bf8f1aca1b5bc5e0a2e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-22T07:33:12.372Z",
+      "lastFlagChange": null,
+      "rarity": 281.662,
+      "rarityRank": 8819,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": 0.05251,
+        "timestamp": 1671196751
+      },
+      "lastSell": {
+        "value": 0.0676,
+        "timestamp": 1671210875
+      },
+      "owner": "0x0dd8e226219529082054db46c434dc7e5e95b27a"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xe3484e07af65b453a27b8cf46d80c5d50ac31f8563d3dff98c81c56c266c391c",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "75000000000000000",
+            "decimal": 0.075,
+            "usd": 89.00834,
+            "native": 0.075
+          }
+        },
+        "maker": "0x0dd8e226219529082054db46c434dc7e5e95b27a",
+        "validFrom": 1671479793,
+        "validUntil": 1672084593,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6d0de90cdc47047982238fcf69944555d27ecb25/7621"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "3537",
+      "name": "Regular #3537",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5d65e7abc7a6a0d446d44e5a3addb542364d0d80c0cdf38c0bb6f9884357752fc0f764bbccd8cf522528765d41de2a2f85d1b7e2a615334e3f79de17218c84c4ced8f1eda4ba5200e2830d23f88a7fa9839e70d4557b60d4af879610996e708e9734bb64d6153f14ff375756f57280f4e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-22T07:36:01.439Z",
+      "lastFlagChange": null,
+      "rarity": 298.4,
+      "rarityRank": 8414,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x957291eae3d53b5a7c0a6bf2c0f08de5d87b14f6"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xf80037841d4b5525fc3ec4f58d4014d88729ae5588384a5f785b19bdc801eee4",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "75283000000000000",
+            "decimal": 0.07528,
+            "usd": 89.3442,
+            "native": 0.07528
+          }
+        },
+        "maker": "0x957291eae3d53b5a7c0a6bf2c0f08de5d87b14f6",
+        "validFrom": 1671548594,
+        "validUntil": 1687100593,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6d0de90cdc47047982238fcf69944555d27ecb25/3537"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "6129",
+      "name": "Regular #6129",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75acefdc50108e2db8399ef4a33b459da6217db3556a1b42e85e80e74086b7f40d95bcb9364be3f56f649b3c0d9e56ba4f43c2c9985559b97a71399514e889dcfa6ab2bf8697aa283031401b4af7b00367d22bc06ea7931a1a43394b3c5693fc50c13df7e1c0d8a89b68a048474aa30fa2423c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-22T07:34:13.709Z",
+      "lastFlagChange": null,
+      "rarity": 340.646,
+      "rarityRank": 6020,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x957291eae3d53b5a7c0a6bf2c0f08de5d87b14f6"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x51ac64cee47d6184d76537e5c85804de257f3b218b59134aa8f97c63dda210ec",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "76283000000000000",
+            "decimal": 0.07628,
+            "usd": 90.53098,
+            "native": 0.07628
+          }
+        },
+        "maker": "0x957291eae3d53b5a7c0a6bf2c0f08de5d87b14f6",
+        "validFrom": 1671548683,
+        "validUntil": 1687100682,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6d0de90cdc47047982238fcf69944555d27ecb25/6129"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "4194",
+      "name": "Regular #4194",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1f91f4915b19007ddcf2dc9a4f9fd96550890eed4c420b078827bee7afad7238c118ba9e1731d72ed7c99b5861c48b4932278ccda995a414932e2be1eaad99f77a9e01a9a60d93f6d153417d69bef38b087360b33d22b153bdb627b9fc9c19a04c1c28eab5f09ffdab68ac2a8dd6d615e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-22T07:35:34.151Z",
+      "lastFlagChange": null,
+      "rarity": 329.607,
+      "rarityRank": 6380,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x957291eae3d53b5a7c0a6bf2c0f08de5d87b14f6"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x963ca7fea101845810da80de8b8205f87c1d9acc69233ee1bf1ccb2848d8c1e5",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "77283000000000000",
+            "decimal": 0.07728,
+            "usd": 91.71776,
+            "native": 0.07728
+          }
+        },
+        "maker": "0x957291eae3d53b5a7c0a6bf2c0f08de5d87b14f6",
+        "validFrom": 1671548604,
+        "validUntil": 1687100601,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6d0de90cdc47047982238fcf69944555d27ecb25/4194"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "9120",
+      "name": "Regular #9120",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5af4e8fa8f6cd209ee63cf00d00a0d97f3a871663392f2607fd7a28fa5a4b7b3bd8747a8ceb9f2f5cca3ef4e8bf1f95bc711e66d99e3edc221237b6d16f7f4ed267d0d02e25b2bc1f20e53b31262d32a3aa91b3d3841b8842eba0937f360cad65e3811058dc7bd2d5d2aa7dbad5bdb3023c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-22T07:32:09.531Z",
+      "lastFlagChange": null,
+      "rarity": 302.583,
+      "rarityRank": 8233,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.065,
+        "timestamp": 1666680515
+      },
+      "owner": "0x79b3b99476f44b2bc0288c4396b260f6dfc79597"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x294ad101db0e15c9212de426512b724dd3fcef88bd384d7c25bbbe7c6d88f5d1",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "79000000000000000",
+            "decimal": 0.079,
+            "usd": 93.75545,
+            "native": 0.079
+          }
+        },
+        "maker": "0x79b3b99476f44b2bc0288c4396b260f6dfc79597",
+        "validFrom": 1671542561,
+        "validUntil": 1671801761,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6d0de90cdc47047982238fcf69944555d27ecb25/9120"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "7903",
+      "name": "Regular #7903",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aaad3401b73eaf3f3599ebc94f8a3f9f3d76e8e7599652ff593621a994e37041cb94a73cc4baedd5e81c3d855be33cd0dc79f875f7721b0ea52c9115a3275d832d293ac279d8d456e6537a2a03433bd50980c485e718af2098c83a523a038e2182c391e0b9c9ead45cf3dc7fa77449ebb23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-22T07:33:01.007Z",
+      "lastFlagChange": null,
+      "rarity": 455.805,
+      "rarityRank": 4094,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x957291eae3d53b5a7c0a6bf2c0f08de5d87b14f6"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x70b7e9ab9bdcff26a617d4cd9ec0ba7fd719089441f0f4a0296263bc6060c4b9",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "79283000000000000",
+            "decimal": 0.07928,
+            "usd": 94.09131,
+            "native": 0.07928
+          }
+        },
+        "maker": "0x957291eae3d53b5a7c0a6bf2c0f08de5d87b14f6",
+        "validFrom": 1671548717,
+        "validUntil": 1687100717,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6d0de90cdc47047982238fcf69944555d27ecb25/7903"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "5686",
+      "name": "Regular #5686",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a0a19f745d6af07393fb23806331059ebdf16369bb219c032f7dd7f9b0e876850fbf656cc70e46f9dbfecb7880130acf7f11f497086be13ab04e283ab21ead4d48280609b89463059388f50f7963ad29e55b9184afa150c0102412d9386c1a515b1643055e2ca975dd9a1e7f99f55c6b4058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-22T07:34:31.680Z",
+      "lastFlagChange": null,
+      "rarity": 449.78,
+      "rarityRank": 4230,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x957291eae3d53b5a7c0a6bf2c0f08de5d87b14f6"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xa35962eb937802217fc4b1a31d19ee3346ec4baadac3fdde089ec302c7ea638e",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "81283000000000000",
+            "decimal": 0.08128,
+            "usd": 96.46487,
+            "native": 0.08128
+          }
+        },
+        "maker": "0x957291eae3d53b5a7c0a6bf2c0f08de5d87b14f6",
+        "validFrom": 1671548621,
+        "validUntil": 1687100621,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6d0de90cdc47047982238fcf69944555d27ecb25/5686"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "7851",
+      "name": "Regular #7851",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3605f0e1966a7333ed4189eed4011f5b339636b63cc8df1ec63c2f7458ab7643f67d161dffd5b81b9aa60168b9d00a63860b0194bef2706b159b4c6f2d53dc3271279de04b9509e3f6cd94062921099feb88d180f821bce8afecc59ec9ee573a99b9ae27e3b89660e4a6fafa151a2db623c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-22T07:33:02.631Z",
+      "lastFlagChange": null,
+      "rarity": 721.988,
+      "rarityRank": 1491,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x957291eae3d53b5a7c0a6bf2c0f08de5d87b14f6"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x1f706706dbf0d839f0252bb37dc2385e73bd1bb7e5db3e87500bc039969bb84a",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "82283000000000000",
+            "decimal": 0.08228,
+            "usd": 97.65165,
+            "native": 0.08228
+          }
+        },
+        "maker": "0x957291eae3d53b5a7c0a6bf2c0f08de5d87b14f6",
+        "validFrom": 1671548709,
+        "validUntil": 1687100708,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6d0de90cdc47047982238fcf69944555d27ecb25/7851"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "4564",
+      "name": "Regular #4564",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a814da28d2220a9c2d1d80ded202587ed6016621d45fa5f3cd7424fb687b26790dbe5307515848891bc3644b23d5889e04e6ec58b1c1d7a3ed605850f576970ef1044358578e991adf01ac210f868cf10500201defd3086220397dbb0958d0c9ffe6490d614d765e105c45c68ea34fa5de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-22T07:35:19.289Z",
+      "lastFlagChange": null,
+      "rarity": 490.823,
+      "rarityRank": 3585,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": 0.06111,
+        "timestamp": 1670355167
+      },
+      "lastSell": {
+        "value": 0.109,
+        "timestamp": 1655350509
+      },
+      "owner": "0x790534f76227ea8169cefc7e1c8c5b5c08cda951"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x3c83216f9b91b1498757839fdb4f9cd77192a48bbc217a2052cd55795890db83",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "83390000000000000",
+            "decimal": 0.08339,
+            "usd": 98.96541,
+            "native": 0.08339
+          }
+        },
+        "maker": "0x790534f76227ea8169cefc7e1c8c5b5c08cda951",
+        "validFrom": 1670465945,
+        "validUntil": 1673144345,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6d0de90cdc47047982238fcf69944555d27ecb25/4564"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "2414",
+      "name": "Regular #2414",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aabcf722a5d15b52757735ec4f2d027ae04ee77f99c5661211b9449920d79ca2dd62e9a40da2c3bf8ccc68e4df67a253accf38ed8fe9c1ed1c2ee9e9359acc4545c5f965f0499b3bd9a6bdaf368a419a3003c9ff5e3fb5d5ff002af9ec7af60f4a3de20d43d5452eee63603e0d4f26c89e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-22T07:36:51.595Z",
+      "lastFlagChange": null,
+      "rarity": 317.62,
+      "rarityRank": 7159,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": 0.0688,
+        "timestamp": 1670306411
+      },
+      "lastSell": {
+        "value": 0.104,
+        "timestamp": 1655350684
+      },
+      "owner": "0x2e49f47f5933dcb7d02b44518c8afcd5ffe60a4d"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x6ea91dd3370bcbaa326831ab9f7b949c5694425794b5db3a1acc42b607d31727",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "84000000000000000",
+            "decimal": 0.084,
+            "usd": 99.68935,
+            "native": 0.084
+          }
+        },
+        "maker": "0x2e49f47f5933dcb7d02b44518c8afcd5ffe60a4d",
+        "validFrom": 1670321578,
+        "validUntil": 1672999978,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6d0de90cdc47047982238fcf69944555d27ecb25/2414"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "6098",
+      "name": "Regular #6098",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1654c785a35659e6d73a942abd1fcfb76047356a4487b5c5df634e31ccbf5ba923efbb81a5417e10b7b80130c2e04434b15ee908a47450b2be50bf91d0087158d839a4cfddf105096a2f0ad633e49daf5c31dec9f1d4034490c57c165ecbf42f1ed834882f11f9ef6e0fd06036f66f8423c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-22T07:34:15.467Z",
+      "lastFlagChange": null,
+      "rarity": 781.559,
+      "rarityRank": 1279,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x957291eae3d53b5a7c0a6bf2c0f08de5d87b14f6"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xfb62bbed1b82cdf8bc848cc2bf2d68d716945eda6dbf11f9d8f88cf2cc828aa0",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "85283000000000000",
+            "decimal": 0.08528,
+            "usd": 101.21198,
+            "native": 0.08528
+          }
+        },
+        "maker": "0x957291eae3d53b5a7c0a6bf2c0f08de5d87b14f6",
+        "validFrom": 1671548673,
+        "validUntil": 1687100672,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6d0de90cdc47047982238fcf69944555d27ecb25/6098"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "2853",
+      "name": "Regular #2853",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a71c500cd3b6a65f93326f2ac8a4d0687c48168eb583b946635b1fa251ece0e54b954a14a447f483cf941857e566551b7ae6b559fb1c19b830e329e7202fc13ebd35a6e763d93766d0eeea208efeb602c22c44ad965d0401f9a71b52687c2c75c0ab3501ea58ecb020d25f4c00c3928c723c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-22T07:36:30.963Z",
+      "lastFlagChange": null,
+      "rarity": 321.571,
+      "rarityRank": 6900,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.08799,
+        "timestamp": 1670767415
+      },
+      "owner": "0x25ef59fc52c7be6aff54d44cce1a58c11ab5f57b"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xa36c737eaa6c71de8191042a9f25369dd2ba23bb83c70bd272f8bbf5180da1aa",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "87000000000000000",
+            "decimal": 0.087,
+            "usd": 103.24968,
+            "native": 0.087
+          }
+        },
+        "maker": "0x25ef59fc52c7be6aff54d44cce1a58c11ab5f57b",
+        "validFrom": 1670772430,
+        "validUntil": 1673450830,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6d0de90cdc47047982238fcf69944555d27ecb25/2853"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Casual", "Normal", "Flat"],
+      "tokenId": "7741",
+      "name": "Regular #7741",
+      "description": "An extra-ordinary collection by @p0pps",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a527c86e2e0f49c49b25dbcc0a2635d4eccb1b46030ac4879295b47ecf4b9ee397103b2a9e88c1e92b792b428e8f80d170e4628b333238f6a5eee04c25d7da3d54260e9291ad66c1e4019f5ea38818ee9aab2e87ac4a67168ac18cdee3957bd378785c3fcb327fe3cbfda045b3ddbeedf23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-22T07:33:07.582Z",
+      "lastFlagChange": null,
+      "rarity": 302.793,
+      "rarityRank": 8221,
+      "collection": {
+        "id": "0x6d0de90cdc47047982238fcf69944555d27ecb25",
+        "name": "Regulars",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d85e0b426d4c96926ae14ae55121abdb1a3f3e95c11936dd432f2b084df09933f451564bcf87e077390d9c844694cafe5ce6696a91949c47542de606cf9c6062e0002595079c1688a8ed2eb5247ccfb7d70680267a758ad7f1e419fac1eac74de622a3c7ea0829acf251cb60a8dc051e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "regulars"
+      },
+      "lastBuy": {
+        "value": 0.0684,
+        "timestamp": 1670276555
+      },
+      "lastSell": {
+        "value": 0.13,
+        "timestamp": 1654828612
+      },
+      "owner": "0x1cefd1809ac0c45e983a81be52e0be98fea9f653"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x94e74dc7fb65933187c3d052b2fee497ae3a2bcc5a2b2a58eacbf73661c290ca",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "88000000000000000",
+            "decimal": 0.088,
+            "usd": 104.43646,
+            "native": 0.088
+          }
+        },
+        "maker": "0x1cefd1809ac0c45e983a81be52e0be98fea9f653",
+        "validFrom": 1670276566,
+        "validUntil": 1685824966,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6d0de90cdc47047982238fcf69944555d27ecb25/7741"
+        }
+      }
+    }
+  }
+]

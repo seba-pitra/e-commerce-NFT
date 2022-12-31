@@ -1,0 +1,3052 @@
+[
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "4588",
+      "name": "GENUINE UNDEAD #4588",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae9ed76c98413bd94a4f5ec112d13a0f761cbd3f8f08c7efa2da0c49cb0f57564439b80c0caa540069d771fc4c928f63b8aabee848a82235b416c5ad5b904be696a9d662cec81ed398d69ee8e711c85515815625d86dbaefe8b7a456f26eee4bbf4930d00a015df391f44baa9c9655cc023c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T07:30:59.230Z",
+      "lastFlagChange": null,
+      "rarity": 183.699,
+      "rarityRank": 9177,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": 0.3814,
+        "timestamp": 1671424331
+      },
+      "lastSell": {
+        "value": 0.0195,
+        "timestamp": 1660445167
+      },
+      "owner": "0x01707a90b65014a6974b63f204b1367de6ed42f6"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xf2321751df20c3b24a190294769a69db13681d1ead25765cec69cf923b7ba7b8",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "392300000000000000",
+            "decimal": 0.3923,
+            "usd": 465.57298,
+            "native": 0.3923
+          }
+        },
+        "maker": "0x01707a90b65014a6974b63f204b1367de6ed42f6",
+        "validFrom": 1671521443,
+        "validUntil": 1671607987,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0x209e639a0ec166ac7a1a4ba41968fa967db30221/4588"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "1982",
+      "name": "GENUINE UNDEAD #1982",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a01cc8f6a204999e8929fef84cc3735ce0d01a0d9eb02a4e4b5bfacacd02de349360ae10f97ff7b17281463def4018f9de6ab81db8975336268787d56b08e18cbb8a36e92d80061c6787c4c29893e7722be3ed627ef920a2bd4779af3b9602c2fb1e1b56838a595aa2986816a00265f9e058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": true,
+      "lastFlagUpdate": "2022-12-19T20:32:15.973Z",
+      "lastFlagChange": "2022-12-09T16:46:52.792Z",
+      "rarity": 174.978,
+      "rarityRank": 9846,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": 0.3658,
+        "timestamp": 1670518439
+      },
+      "lastSell": {
+        "value": 0.2,
+        "timestamp": 1670518439
+      },
+      "owner": "0x37b1bf28229331afd7db42616b4994be0691e8db"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xd3fd92f509d489983b165104deb3326c4b8d3fc2698625ba1ec5ac380eafd06f",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "399999999999999993",
+            "decimal": 0.4,
+            "usd": 474.71117,
+            "native": 0.4
+          }
+        },
+        "maker": "0x37b1bf28229331afd7db42616b4994be0691e8db",
+        "validFrom": 1671441299,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x209e639a0ec166ac7a1a4ba41968fa967db30221/1982"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "2685",
+      "name": "GENUINE UNDEAD #2685",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a0bd3a1800c37b4150f5c1c7c047252fa06e7b07c215ff68803bc74ef2c303f4fa7b16383568ef9a863a628e99ac9128a808d921358a061bee6355702d57b6dd425cefc0bfba4614d557b9aab62c747fce5c8c5346e79ab70c12f3eae7168fab3f87e173c0dab2b572e41b93ba3a35ade058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": true,
+      "lastFlagUpdate": "2022-12-19T09:57:36.668Z",
+      "lastFlagChange": "2022-12-03T18:10:43.375Z",
+      "rarity": 213.054,
+      "rarityRank": 6331,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": 0.34673,
+        "timestamp": 1670619275
+      },
+      "lastSell": {
+        "value": 0.282,
+        "timestamp": 1662509200
+      },
+      "owner": "0x37b1bf28229331afd7db42616b4994be0691e8db"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xf879fd2de910b0c9ee983457a63a3b6f657791590cab6c07d241846dc089cd78",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "399999999999999993",
+            "decimal": 0.4,
+            "usd": 474.71117,
+            "native": 0.4
+          }
+        },
+        "maker": "0x37b1bf28229331afd7db42616b4994be0691e8db",
+        "validFrom": 1671441299,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x209e639a0ec166ac7a1a4ba41968fa967db30221/2685"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "6317",
+      "name": "GENUINE UNDEAD #6317",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab26207241a1bf0fc9e6c4c464e6582c4137924c975c94cbe53f73212e59eaae49273e6034ec97bf0cf551acd97c83dcfd95d8e060c3528a83f7b32e4c12c2903d342d0f5a7f871945afd38660023c12e845604c05097ff2a0683147111d4329ed7cb55a10e2ca87207ae50abd3a9a92f23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": true,
+      "lastFlagUpdate": "2022-12-19T20:35:14.759Z",
+      "lastFlagChange": "2022-12-16T09:32:28.042Z",
+      "rarity": 185.768,
+      "rarityRank": 8891,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": 0.32865,
+        "timestamp": 1671184595
+      },
+      "lastSell": {
+        "value": 0.058,
+        "timestamp": 1660711768
+      },
+      "owner": "0x37b1bf28229331afd7db42616b4994be0691e8db"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x9f4ea118ecc83b6305f581e9adbea163df292f4f1909a8d203a4a1a3dd51a816",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "399999999999999993",
+            "decimal": 0.4,
+            "usd": 474.71117,
+            "native": 0.4
+          }
+        },
+        "maker": "0x37b1bf28229331afd7db42616b4994be0691e8db",
+        "validFrom": 1671441299,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x209e639a0ec166ac7a1a4ba41968fa967db30221/6317"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "8245",
+      "name": "GENUINE UNDEAD #8245",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab5978f454346aef6b6b30e7b9a26e0a8a68f05492082f83fbb7539be1377cd633511c321a8a8e75a4f5236bc6705ec9d37589cc1f0d13ba0e216e8f058d89254875cd6229fa6c9d87b3d5b8148a756aa5622013a17186024c6b79c908ebe617161524faea58466dd59925cadcb98a26f058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": true,
+      "lastFlagUpdate": "2022-12-19T20:33:38.011Z",
+      "lastFlagChange": null,
+      "rarity": 244.367,
+      "rarityRank": 4739,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": 0.38592,
+        "timestamp": 1670269643
+      },
+      "lastSell": {
+        "value": 0.37,
+        "timestamp": 1670269643
+      },
+      "owner": "0x37b1bf28229331afd7db42616b4994be0691e8db"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x14724da5d898e5fb8f34dee6dc53158605c838380ffc08fd09d40bae1bdc24f1",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "399999999999999993",
+            "decimal": 0.4,
+            "usd": 474.71117,
+            "native": 0.4
+          }
+        },
+        "maker": "0x37b1bf28229331afd7db42616b4994be0691e8db",
+        "validFrom": 1671441299,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x209e639a0ec166ac7a1a4ba41968fa967db30221/8245"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "9332",
+      "name": "GENUINE UNDEAD #9332",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58e2d26108774c97f126e4de46099ebd11b9500cf077ee4eef8bb5b502f303c201666e9a584e413dc25aaf28f64461e8d28744dcdfd743ebf739cbe7d9d8d6763b417922292ccd435d3126060d4765891f512ece9e8099e36e5a1b4a9c5d7a2efec6d7cc3de516ad383ac7e959234119058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T20:32:52.614Z",
+      "lastFlagChange": null,
+      "rarity": 194.55,
+      "rarityRank": 7733,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": 0.24,
+        "timestamp": 1662446873
+      },
+      "lastSell": {
+        "value": 0.61,
+        "timestamp": 1669819391
+      },
+      "owner": "0x3d6a6ef4348f08fba80bb2161abf7f6592dd7e68"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x278f5fb06c624bb97e8c5b686121d2eff0d90a7988ef3d9599b38a758e7e4bc5",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "419900000000000000",
+            "decimal": 0.4199,
+            "usd": 498.32805,
+            "native": 0.4199
+          }
+        },
+        "maker": "0x3d6a6ef4348f08fba80bb2161abf7f6592dd7e68",
+        "validFrom": 1671545758,
+        "validUntil": 1672412229,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x209e639a0ec166ac7a1a4ba41968fa967db30221/9332"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "3572",
+      "name": "GENUINE UNDEAD #3572",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5e28eb9957f7d44b707d7acb790472dbb945f27d78776f2e4231aa08675013c9296e1514afef1914d89a6ec6c66e5c5a32808204d1d8906974200bbddb79e5a329e06bdfd719ff4d3acc9144326301920170ec39821a7e37c9bee53d73e050360c6799f65a09f141b8ec623015e6ec0023c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": true,
+      "lastFlagUpdate": "2022-12-19T09:56:34.236Z",
+      "lastFlagChange": "2022-12-15T22:43:22.737Z",
+      "rarity": 238.574,
+      "rarityRank": 5075,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": 0.32082,
+        "timestamp": 1671183803
+      },
+      "lastSell": {
+        "value": 0.349,
+        "timestamp": 1671317363
+      },
+      "owner": "0x728b60ea697d113f2e5b382aed68f539ede796be"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x28a8908808ec12877816f192ac8a140602aaa174013f90f442d8a719adb83f3f",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "420000000000000000",
+            "decimal": 0.42,
+            "usd": 498.44673,
+            "native": 0.42
+          }
+        },
+        "maker": "0x728b60ea697d113f2e5b382aed68f539ede796be",
+        "validFrom": 1671328267,
+        "validUntil": 1673920255,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0x209e639a0ec166ac7a1a4ba41968fa967db30221/3572"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "4437",
+      "name": "GENUINE UNDEAD #4437",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aa42195ac2d8948287b28d1d9b8b804658d5712491a145463f3d3379eefa1c1d67e086022b2ff6f130e081712f2eba72ba6722fc3c1ae6b12fa1368066c6dbeda5d2a7ecba29ace434975aa186ffbb1ede883b18e499addc5e08dad89600fa50be1632bd39a035729d4e35e11c7e6b5bd058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T20:49:46.360Z",
+      "lastFlagChange": null,
+      "rarity": 185.095,
+      "rarityRank": 8978,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": 0.1725,
+        "timestamp": 1662625277
+      },
+      "lastSell": {
+        "value": 0.64,
+        "timestamp": 1665806207
+      },
+      "owner": "0xc3196297b10eab9ee836df6e52780512d9242620"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x28f9684cda922c95c3befc13d0ed09dd0333013390ad3998c34af7d831a494e6",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "420000000000000000",
+            "decimal": 0.42,
+            "usd": 498.44673,
+            "native": 0.42
+          }
+        },
+        "maker": "0xc3196297b10eab9ee836df6e52780512d9242620",
+        "validFrom": 1671531792,
+        "validUntil": 1674092708,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x209e639a0ec166ac7a1a4ba41968fa967db30221/4437"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "1151",
+      "name": "GENUINE UNDEAD #1151",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a9949515b68bed93739aaf5d78aa58b3b7873cccb8ef91d4e3324c9e1fc675525ee63675e271906ea781c64cad8b86d9f46ae374b15bb25acc257d981b68344a84b8c4154d915a2d508670e7e54073731f149240d9bd518233ebc8682354ba7744276607ec0629146f3bb3ba0f7c94e20e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T09:59:23.181Z",
+      "lastFlagChange": null,
+      "rarity": 175.465,
+      "rarityRank": 9827,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": 0.38,
+        "timestamp": 1671522071
+      },
+      "lastSell": {
+        "value": 0.145,
+        "timestamp": 1662151468
+      },
+      "owner": "0xc0bc7bbc9afa9b0577d10bd3eb636c8d3ab841d3"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xbf03cce70775670872c387075599a4ec2ba3fd967509c9b02cbf5b3b0d04a2f2",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "422500000000000000",
+            "decimal": 0.4225,
+            "usd": 501.41367,
+            "native": 0.4225
+          }
+        },
+        "maker": "0xc0bc7bbc9afa9b0577d10bd3eb636c8d3ab841d3",
+        "validFrom": 1671522832,
+        "validUntil": 1672127632,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x209e639a0ec166ac7a1a4ba41968fa967db30221/1151"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "6792",
+      "name": "GENUINE UNDEAD #6792",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a25979349d06fffc554a7084e9644eff3126d925cbed5ce666ac4eaf95c8a2dc43b23b352cbc40966beb7d06da58dd05c6042e2dc1dbb71571687fe67f1279d61c0976d40d6f9f373ce4862e6ab08dc35f6a4f2e32d266b5f876450759c4874ba72af35b7f46c86b62ae16cd9b2b8b484e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T20:34:47.926Z",
+      "lastFlagChange": null,
+      "rarity": 200.792,
+      "rarityRank": 7167,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": 0.38,
+        "timestamp": 1671538451
+      },
+      "lastSell": {
+        "value": 0.54694,
+        "timestamp": 1666965647
+      },
+      "owner": "0xc0bc7bbc9afa9b0577d10bd3eb636c8d3ab841d3"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x9edc6cd77c3cb6ff0d82af18a286c342b6e7a5ed847f3434f1a65bd438f11318",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "422500000000000000",
+            "decimal": 0.4225,
+            "usd": 501.41367,
+            "native": 0.4225
+          }
+        },
+        "maker": "0xc0bc7bbc9afa9b0577d10bd3eb636c8d3ab841d3",
+        "validFrom": 1671538750,
+        "validUntil": 1672143548,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x209e639a0ec166ac7a1a4ba41968fa967db30221/6792"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "3031",
+      "name": "GENUINE UNDEAD #3031",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ac29a77a9766126ed77a3731523c952b0790e090ddb4f107babebbee917536ceda0572181dec3de2166e27344d89595afd1d86bdbaca0db113681499e699cc6d1ed0ac06e3874bd5163ce138f45c9610ac7a7d4a0c891b0b3ba65332868e73a546a196dd7ef51c7fb804b7c294aa3bcfa23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T09:57:07.076Z",
+      "lastFlagChange": null,
+      "rarity": 186.489,
+      "rarityRank": 8790,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": 0.4115,
+        "timestamp": 1670765447
+      },
+      "lastSell": {
+        "value": 0.4461,
+        "timestamp": 1671207611
+      },
+      "owner": "0x48ff54cf14c95319f16ffab3468a1e2e71e72614"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xd2b17e023835af287ab97315b84ba47332844ccdbb5c218c70e884617f70a484",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "429000000000000000",
+            "decimal": 0.429,
+            "usd": 509.12773,
+            "native": 0.429
+          }
+        },
+        "maker": "0x48ff54cf14c95319f16ffab3468a1e2e71e72614",
+        "validFrom": 1671518451,
+        "validUntil": 1673987792,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x209e639a0ec166ac7a1a4ba41968fa967db30221/3031"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "5314",
+      "name": "GENUINE UNDEAD #5314",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ac6cd147d948163e688cf7cbf748d0d38042d9bcedb4bc09c3f76c85192d7750280b7d299eef265bf00d080ab0ac8202549a3d347fdcc4238170f84a2651e05e9ae1ec01b156079350e41a59c847a25f53086725d86ea20623948b47ad8a63d17081bfbd1b82c7327b5747980c961752f058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T20:36:13.177Z",
+      "lastFlagChange": null,
+      "rarity": 187.04,
+      "rarityRank": 8722,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": 0.38,
+        "timestamp": 1671372263
+      },
+      "lastSell": {
+        "value": 0.39,
+        "timestamp": 1671382103
+      },
+      "owner": "0x8191956a439f33b8bed1273dcf13ff8e234b31b4"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x58b79a214840a178c0605c52ccf7152a0dfd79b6bc7bb4a1daa537338db71de5",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "430000000000000000",
+            "decimal": 0.43,
+            "usd": 510.31451,
+            "native": 0.43
+          }
+        },
+        "maker": "0x8191956a439f33b8bed1273dcf13ff8e234b31b4",
+        "validFrom": 1671478949,
+        "validUntil": 1674060896,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x209e639a0ec166ac7a1a4ba41968fa967db30221/5314"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "6776",
+      "name": "GENUINE UNDEAD #6776",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aee7f9d6224afe6156d7a74c549eb58bc25dbc2f7cfe34903ea9a2f5f7caa9f16adca28f859feb575c63f2535f9a06e2241c8f506498c562cae15c98fe42c694680a3e577ca8fa7b51773b45a7b266d29b8e570860658b396141cb692f209d7295ed14c99857fd971533210309197b7fa058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T20:34:49.854Z",
+      "lastFlagChange": null,
+      "rarity": 227.62,
+      "rarityRank": 5649,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.293,
+        "timestamp": 1662472937
+      },
+      "owner": "0x3dcff2782f07b19baed2f992e901d2d8990400d3"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x57e7691698af602e68dce7f888f4ebc23863a0e97c006f7824e17457c387e348",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "430000000000000000",
+            "decimal": 0.43,
+            "usd": 510.31451,
+            "native": 0.43
+          }
+        },
+        "maker": "0x3dcff2782f07b19baed2f992e901d2d8990400d3",
+        "validFrom": 1671484829,
+        "validUntil": 1671571289,
+        "source": {
+          "id": "0x3334288b9ce8e1b482ee569050984eaf6329ccc8",
+          "domain": "portal.genuineundead.io",
+          "name": "portal.genuineundead.io",
+          "icon": "https://i.seadn.io/gcs/files/1eb8d685d4e404c9b1177dfe14c2c9e0.png?w=500&auto=format",
+          "url": "https://www.reservoir.market/0x209e639a0ec166ac7a1a4ba41968fa967db30221/6776"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "6619",
+      "name": "GENUINE UNDEAD #6619",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a201e2c7a5bc3ff99e748c98e803dd4a38ae86c43d67c6919d99a22dcafbfd5525a2fecf6465f3b1f2dfbbf9a03dc24d0b229db4e73dae8b6b2715523043ff129a4195a286b545dd23d72bed09029428a645c2ea9b0fb1a59d3a605319c48cef861a0aa20c8af9b4a0cb3b8a7c19222cb23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T20:34:57.358Z",
+      "lastFlagChange": null,
+      "rarity": 185.72,
+      "rarityRank": 8900,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": 0.0213,
+        "timestamp": 1660603682
+      },
+      "lastSell": {
+        "value": 0.0149,
+        "timestamp": 1660650654
+      },
+      "owner": "0xc1c3a9c270b58260ed57eeb53f8bfe51e0b18c05"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x665c04360cfad67cfc4e3576095fd4f569f6e3fd41c021509ecaa61a43c28931",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "432400000000000000",
+            "decimal": 0.4324,
+            "usd": 513.16277,
+            "native": 0.4324
+          }
+        },
+        "maker": "0xc1c3a9c270b58260ed57eeb53f8bfe51e0b18c05",
+        "validFrom": 1671542523,
+        "validUntil": 1671628917,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x209e639a0ec166ac7a1a4ba41968fa967db30221/6619"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "8637",
+      "name": "GENUINE UNDEAD #8637",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a599b265d708776985f457a1ba321e54350cfb438e00f8351b59bbe7e2ee370c1ad5fd63e5800052b4d6a86be377fb8ceb53094c64549d17008f3da8aebeb68d5996cc05901b90c784de47cc7086d3839b47b01a8924b799123b9d8ffa80f0c07ad4765beb1f218e6ed1a022108dcaf6823c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T20:33:21.855Z",
+      "lastFlagChange": null,
+      "rarity": 179.994,
+      "rarityRank": 9543,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": 0.3835,
+        "timestamp": 1671369095
+      },
+      "lastSell": {
+        "value": 0.42,
+        "timestamp": 1671208295
+      },
+      "owner": "0x35571ed01f34b6c25d2d27f3882eed3d2ee652b4"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x9bf1437ed3c04cd13dfcceeef14424754be1590093b91e0d231f8b101fafaf61",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "433990000000000000",
+            "decimal": 0.43399,
+            "usd": 515.04975,
+            "native": 0.43399
+          }
+        },
+        "maker": "0x35571ed01f34b6c25d2d27f3882eed3d2ee652b4",
+        "validFrom": 1671450010,
+        "validUntil": 1674128410,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x209e639a0ec166ac7a1a4ba41968fa967db30221/8637"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "5967",
+      "name": "GENUINE UNDEAD #5967",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ad6ac60621a8f50fe46414fac5aeb8926c95c81431d5df3a733befe6a188d57989035dad0e807a6915ff9edd27153f34adc028428f23272a86ed320cbfa59e93c2c3a006d49ff9578385860a456680d8cea49971acbfb2556fceb4166129d56864b6c989703cb2e969cbd7674fe37279ee1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T20:35:33.922Z",
+      "lastFlagChange": null,
+      "rarity": 209.6,
+      "rarityRank": 6547,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": 0.4156,
+        "timestamp": 1666786559
+      },
+      "lastSell": {
+        "value": 0.6,
+        "timestamp": 1669539539
+      },
+      "owner": "0x401e1934293628acceaceb8e2d0ed27dfb21d1c7"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xe4c256e076f99031d1c7bace0725700a4b862f9dc8d994b25bf15e0e1d752449",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "440000000000000000",
+            "decimal": 0.44,
+            "usd": 522.18228,
+            "native": 0.44
+          }
+        },
+        "maker": "0x401e1934293628acceaceb8e2d0ed27dfb21d1c7",
+        "validFrom": 1671297925,
+        "validUntil": 1673976325,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x209e639a0ec166ac7a1a4ba41968fa967db30221/5967"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "6170",
+      "name": "GENUINE UNDEAD #6170",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a85c71cadd3db4a56559e6cab4600c23e4b7e130a41ea9f3720a611cf4760875760a513ca78884ce23a3244fa25a62af87fcb2d4a3de885f4f733f82a5682985f333f91f35efd7855ffb2ea8e91f85b91832e631757bd658de5f64bb1f947ae45c50e9f429fa6e37b2f44618b3ce0dc3e23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T20:35:22.759Z",
+      "lastFlagChange": null,
+      "rarity": 203.148,
+      "rarityRank": 6985,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": 0.0747,
+        "timestamp": 1662084975
+      },
+      "lastSell": {
+        "value": 0.44,
+        "timestamp": 1669435727
+      },
+      "owner": "0x6f66585b67a05c584ec7b0c9d0130d32fd1f1e2b"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xbe80b9cf0aca6e0b2e3a233fe80f1ea6d095931392b7134a42115fab971ae65e",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "440000000000000000",
+            "decimal": 0.44,
+            "usd": 522.18228,
+            "native": 0.44
+          }
+        },
+        "maker": "0x6f66585b67a05c584ec7b0c9d0130d32fd1f1e2b",
+        "validFrom": 1671525700,
+        "validUntil": 1674204100,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x209e639a0ec166ac7a1a4ba41968fa967db30221/6170"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "3933",
+      "name": "GENUINE UNDEAD #3933",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1c570316bc6ab34d7cacd7032e58e9d06de26b71678d20464230afd8c00c47f14849037b2fd14bf665d3855fa82888320b518867c428e387ae7e97285a912229b979499ea03712d928cd4b3fb8ed62b351f8b9100b1a921311da8e59a4a9db60e7a9648bcfb20a992f438ac4e6941d9c23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T09:56:16.638Z",
+      "lastFlagChange": null,
+      "rarity": 173.486,
+      "rarityRank": 9905,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": 0.73,
+        "timestamp": 1666045175
+      },
+      "lastSell": {
+        "value": 0.0289,
+        "timestamp": 1660590456
+      },
+      "owner": "0xdc8ef66c91692cbfe982f61ac489562f407c1995"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x71ea512593c167a6b54776c9604d778458d7aec2ba65fd975f21869ac3b4fed8",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "443000000000000000",
+            "decimal": 0.443,
+            "usd": 525.74262,
+            "native": 0.443
+          }
+        },
+        "maker": "0xdc8ef66c91692cbfe982f61ac489562f407c1995",
+        "validFrom": 1671538470,
+        "validUntil": 1671624870,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x209e639a0ec166ac7a1a4ba41968fa967db30221/3933"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "4617",
+      "name": "GENUINE UNDEAD #4617",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7aa4675ea97d8120745d7c17910539ad33c4f69702398fabf91fcb47ae843882e896294d81769134cfb1647619392128478632a8c512922885edf795108c3222846002f0fc65eaa8ff3a22f1a026f303912343f1014d33025a68995923950393de944f2d817bd1970b0d65a4249c80fe058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T20:49:44.819Z",
+      "lastFlagChange": null,
+      "rarity": 186.8,
+      "rarityRank": 8749,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.082,
+        "timestamp": 1661882027
+      },
+      "owner": "0xebe47804d058b376d05b5e8717e68c8e0297630b"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xaf0679c8f537246b2984d97cb40415c9b38feec983638593cb949bd63a006e82",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "443000000000000000",
+            "decimal": 0.443,
+            "usd": 525.74262,
+            "native": 0.443
+          }
+        },
+        "maker": "0xebe47804d058b376d05b5e8717e68c8e0297630b",
+        "validFrom": 1671408769,
+        "validUntil": 1672980517,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x209e639a0ec166ac7a1a4ba41968fa967db30221/4617"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "8817",
+      "name": "GENUINE UNDEAD #8817",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a869e2c503567eef1649a5a3fc0b90d35a9b39c8bfac95e684093b945a60b4ea74478bc59c32b59e4907a39dad907c0aad55cee1fff3914cf030d8194c4d0bcaf023253db3a81af4037afa9dda65bda90fb1eb89caebd5c2f42e715a47930456232cf98486edd2b40231940ff4984034023c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T20:33:13.844Z",
+      "lastFlagChange": null,
+      "rarity": 173.165,
+      "rarityRank": 9913,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": 0.45453,
+        "timestamp": 1666633847
+      },
+      "lastSell": {
+        "value": 0.38,
+        "timestamp": 1670947943
+      },
+      "owner": "0xa50854c59cc692a58400e7c3bebeb3d2d70285ce"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x5f88c7dd969adf994cbf24934e0c058a52d2536e849edb68e591d2ae877b554e",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "443200000000000000",
+            "decimal": 0.4432,
+            "usd": 525.97997,
+            "native": 0.4432
+          }
+        },
+        "maker": "0xa50854c59cc692a58400e7c3bebeb3d2d70285ce",
+        "validFrom": 1671544536,
+        "validUntil": 1672149323,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x209e639a0ec166ac7a1a4ba41968fa967db30221/8817"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "4868",
+      "name": "GENUINE UNDEAD #4868",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a93814097ddaad25462edfdcfd908d6fa7f7836a24ed90190614f587f890ba26290353dba26d4e554f73a6b51013c505969cfdc4b5f467e21a7b6939d7982448573c929dfd9839b2e9a49eb607a6cfab35c3fa318487a36c7f8537a745f02dd099c10a552476d775b77b2fe90086a7280058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T20:49:42.338Z",
+      "lastFlagChange": null,
+      "rarity": 207.342,
+      "rarityRank": 6682,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": 0.3813,
+        "timestamp": 1671422087
+      },
+      "lastSell": {
+        "value": 0.0045,
+        "timestamp": 1660390791
+      },
+      "owner": "0x61f59799298f52ea38d3cbfddb13796f3e5c8497"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xb7ef0777cdb7748754b53c245cfed28ab63bd79805b2f07b246078d6a56e64bb",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "444900000000000000",
+            "decimal": 0.4449,
+            "usd": 527.9975,
+            "native": 0.4449
+          }
+        },
+        "maker": "0x61f59799298f52ea38d3cbfddb13796f3e5c8497",
+        "validFrom": 1671437154,
+        "validUntil": 1674029155,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0x209e639a0ec166ac7a1a4ba41968fa967db30221/4868"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "6460",
+      "name": "GENUINE UNDEAD #6460",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a913b7f572c2f6238c582ed47dca37b97f9e5d54f2c0b2955ba66a734436d89cddd20befda5541b1313ecc20eec02f57fddb1e6b275c77b086ebe9b4c12b908be2a03aa02c2c1473f0bf1f8ac04adca4bfe19a52e7947f6bbd60a0a4d89ca5683ef0ea899f600c353c558532da9da459523c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T20:35:07.957Z",
+      "lastFlagChange": null,
+      "rarity": 190.01,
+      "rarityRank": 8327,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": 0.14,
+        "timestamp": 1663003070
+      },
+      "lastSell": {
+        "value": 0.0194,
+        "timestamp": 1660606718
+      },
+      "owner": "0x1a71726b96b27c90a807b897502215be71761832"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xbdb9ff0e2d5c3d23bbd484aaf80df3b3516177740ce3b599872d0e8f57874ef8",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "445000000000000000",
+            "decimal": 0.445,
+            "usd": 528.11617,
+            "native": 0.445
+          }
+        },
+        "maker": "0x1a71726b96b27c90a807b897502215be71761832",
+        "validFrom": 1671416009,
+        "validUntil": 1671675155,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0x209e639a0ec166ac7a1a4ba41968fa967db30221/6460"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "7968",
+      "name": "GENUINE UNDEAD #7968",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a72d7b8d39840250dc77d8facfbe46532ac39a054d3e1ac0160190ee0bdc9091b17419e1d6a0803a3f9f769d69b164bea91bb7b364480bc88333a0613275bd5e5f3610d3cc301518acd8fc021f51c309f0324834eee784b41d51b27f4936ce65125e835febe44a76d4c080ee68649d5c1058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T20:33:51.012Z",
+      "lastFlagChange": null,
+      "rarity": 167.377,
+      "rarityRank": 9991,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": 0.05808,
+        "timestamp": 1660712572
+      },
+      "lastSell": {
+        "value": 0.23,
+        "timestamp": 1662519908
+      },
+      "owner": "0x1a71726b96b27c90a807b897502215be71761832"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x01718d41d159c2cae10365a4f1e755b69344b7b1976d0f70a646774427c2a890",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "445000000000000000",
+            "decimal": 0.445,
+            "usd": 528.11617,
+            "native": 0.445
+          }
+        },
+        "maker": "0x1a71726b96b27c90a807b897502215be71761832",
+        "validFrom": 1671415996,
+        "validUntil": 1671675155,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0x209e639a0ec166ac7a1a4ba41968fa967db30221/7968"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "9034",
+      "name": "GENUINE UNDEAD #9034",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5fcb1238ae8fbd4b1e858f60cc0fb8f7a5a116e8e6d2d0fc1625c9bbabda5839ce04c873ded7ed199a41fe7ef5361ad7906d5149295e9f066d3d84ecdd68a015a7b30249b4f9e5360f6a9a757e2e939eab85aac30e104244b58b38405921e10dbf34cdf15ebdde92a8540b60f5e0617623c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T20:33:03.157Z",
+      "lastFlagChange": null,
+      "rarity": 196.673,
+      "rarityRank": 7494,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": 0.135,
+        "timestamp": 1663023215
+      },
+      "lastSell": {
+        "value": 0.069,
+        "timestamp": 1661181890
+      },
+      "owner": "0x1a71726b96b27c90a807b897502215be71761832"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x5f61c10a882558341f7929c91e48716019cb69d29ba2f457301f544ed48f79e2",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "445000000000000000",
+            "decimal": 0.445,
+            "usd": 528.11617,
+            "native": 0.445
+          }
+        },
+        "maker": "0x1a71726b96b27c90a807b897502215be71761832",
+        "validFrom": 1671416035,
+        "validUntil": 1671675155,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0x209e639a0ec166ac7a1a4ba41968fa967db30221/9034"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "9749",
+      "name": "GENUINE UNDEAD #9749",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a59fe93358de4c1b8a9b3a2a1bbba6f9e1dcbf6e775c0239e3b72a094b9c5ad3b6a5cbfedf0e768d0fdc04c5958c1778fb254ecd10df2d9a29b958230456534ef152ede24c29d371285e2387166aa5a2272b22479b9eb8780cded96afb8a9da5d7281e4dc5a6faf142969b82cb64587c423c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T20:32:35.195Z",
+      "lastFlagChange": null,
+      "rarity": 167.777,
+      "rarityRank": 9989,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": 0.11821,
+        "timestamp": 1663491431
+      },
+      "lastSell": {
+        "value": 0.12021,
+        "timestamp": 1663826219
+      },
+      "owner": "0x1a71726b96b27c90a807b897502215be71761832"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x3d31e8098c9b0be6daff9db4419b9aaf841238f6438c2d484947a5e0e4224376",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "445000000000000000",
+            "decimal": 0.445,
+            "usd": 528.11617,
+            "native": 0.445
+          }
+        },
+        "maker": "0x1a71726b96b27c90a807b897502215be71761832",
+        "validFrom": 1671415972,
+        "validUntil": 1671675155,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0x209e639a0ec166ac7a1a4ba41968fa967db30221/9749"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "499",
+      "name": "GENUINE UNDEAD #499",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a89b759fd43f721ec60e772973b507d0a8e1bfc43efd6c9228b66c55609aa7f73469128ffe3607ada424c8ffe4329479115bd352e81d962b236826ddc1f29530a3888b9f9bca6e9b012568b546817c386e06ab2e275c218aed822cd78a1e9ec2f7cb66ea17ca3c9162b3f6c687b16e49c23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T09:59:50.480Z",
+      "lastFlagChange": null,
+      "rarity": 193.597,
+      "rarityRank": 7852,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": 0.38,
+        "timestamp": 1671408071
+      },
+      "lastSell": {
+        "value": 0.4,
+        "timestamp": 1670528615
+      },
+      "owner": "0x07f122d6af885c8190d59521f07b7c6a55148f5e"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xee6c286e5431d094feb67ebc69748d5a2fd6eef942cd9d5e6c871197e3b952b4",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "449000000000000000",
+            "decimal": 0.449,
+            "usd": 532.86329,
+            "native": 0.449
+          }
+        },
+        "maker": "0x07f122d6af885c8190d59521f07b7c6a55148f5e",
+        "validFrom": 1671522002,
+        "validUntil": 1674200402,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x209e639a0ec166ac7a1a4ba41968fa967db30221/499"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "6906",
+      "name": "GENUINE UNDEAD #6906",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75add008a7c09d5ad70195c6f954548fd516c7c534e7abf92adc0556806fdc375c52135c3cf5b3fd2cd2ae0f14e7712190e213374ba4551c96c6dfb749cc33a4c1ab231bd1bf484c6c7cf5a590a21a4f5f5f4660a10b5a27ccd0e7c28a7020f0862f256bd373e522d340375aee31690d39b058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T20:34:42.462Z",
+      "lastFlagChange": null,
+      "rarity": 189.049,
+      "rarityRank": 8460,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": 0.425,
+        "timestamp": 1671093527
+      },
+      "lastSell": {
+        "value": 0.38,
+        "timestamp": 1670745035
+      },
+      "owner": "0x165925525b9b41a8cefde5df7c4be48b5f7d539c"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xa459a9ff0c9d15f020ae34119067935eeb2a4f4dc90b703a2757e8e5231fb173",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "449000000000000000",
+            "decimal": 0.449,
+            "usd": 532.86329,
+            "native": 0.449
+          }
+        },
+        "maker": "0x165925525b9b41a8cefde5df7c4be48b5f7d539c",
+        "validFrom": 1671476856,
+        "validUntil": 1671702400,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x209e639a0ec166ac7a1a4ba41968fa967db30221/6906"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "8043",
+      "name": "GENUINE UNDEAD #8043",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4c0f00e8706832683587cf6b0e973ef7a97febf35fb9951cf06a16195699dba3f7d7a292cf990f28bd2c49c8f684290273819c4f9badbe8a916b81f72f22e5edbcf7fced31413318ec5379c25cc5853795ddc51e895e6ee16b7c5511b32cd18c4c22ebea2590542c653a4ebe4b39851ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T20:33:47.433Z",
+      "lastFlagChange": null,
+      "rarity": 192.001,
+      "rarityRank": 8028,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": 0.2801,
+        "timestamp": 1668100367
+      },
+      "lastSell": {
+        "value": 0.419,
+        "timestamp": 1670975819
+      },
+      "owner": "0x71bced689fbc7b94596213744940b1ca772d983b"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x13ed32ec9420bcd457fb75d746b67d6a937bee18f313329edd81c9d0834018ef",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "449000000000000000",
+            "decimal": 0.449,
+            "usd": 532.86329,
+            "native": 0.449
+          }
+        },
+        "maker": "0x71bced689fbc7b94596213744940b1ca772d983b",
+        "validFrom": 1671281591,
+        "validUntil": 1673959991,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x209e639a0ec166ac7a1a4ba41968fa967db30221/8043"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "2755",
+      "name": "GENUINE UNDEAD #2755",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ac9afca2747ead6b64791927d45b9fb51739416e29f7cb5e4e576e91ab35f85e0b804a2edb9355a0ae63852ebadd29aff17abc1e2486b7bf4dcd2d748148352c9649542f164a4d107b79e4234327a7b595df2c214a11a5bb4cb7ccf3a91214c4c02fbc7e55b61020265eea2eb01dc8952e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T09:57:29.453Z",
+      "lastFlagChange": null,
+      "rarity": 197.766,
+      "rarityRank": 7405,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": 0.39049,
+        "timestamp": 1670584559
+      },
+      "lastSell": {
+        "value": 0.345,
+        "timestamp": 1668194903
+      },
+      "owner": "0xb8d0bc7ffb428329e925a1922e1015f61007e043"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xf98711428441d65d6239d477814dafb86aef7b171fa1b360a5b30fa8a61792d7",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "450000000000000000",
+            "decimal": 0.45,
+            "usd": 534.05006,
+            "native": 0.45
+          }
+        },
+        "maker": "0xb8d0bc7ffb428329e925a1922e1015f61007e043",
+        "validFrom": 1671457840,
+        "validUntil": 1672062638,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0x209e639a0ec166ac7a1a4ba41968fa967db30221/2755"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "4459",
+      "name": "GENUINE UNDEAD #4459",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab7f05b576da275dd9d91333c3cf3eaa797c582cdace3e251ec75df47dde1919fb5217d87952f1a9d8e0644f9a46a197d7d332f2ff10e9ac2f577f08dffaebde5fe85622764ea204f8ee676c2298a7f76cbdb2da7b351accd81a1d16deb88cb1685e3262ea5740ac8a1ed339e6e35d35623c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T20:49:46.567Z",
+      "lastFlagChange": null,
+      "rarity": 176.58,
+      "rarityRank": 9772,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": 0.387,
+        "timestamp": 1670960447
+      },
+      "lastSell": {
+        "value": 0.39,
+        "timestamp": 1670972027
+      },
+      "owner": "0xdcd711d8a8b0a61ad57f6ba405b9cfa1e0e75538"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x5363e7068d4ea07d546073f6d53075c55e1977621cb1400aad9c69aa52766d88",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "450000000000000000",
+            "decimal": 0.45,
+            "usd": 534.05006,
+            "native": 0.45
+          }
+        },
+        "maker": "0xdcd711d8a8b0a61ad57f6ba405b9cfa1e0e75538",
+        "validFrom": 1671475810,
+        "validUntil": 1671745799,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x209e639a0ec166ac7a1a4ba41968fa967db30221/4459"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "9025",
+      "name": "GENUINE UNDEAD #9025",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3833e42564f503342a7fed43034365b447584f61c1ec4700e03eabc1edc67e01857203984636345b13dd7794eb76bbf849c1696606c79c15cf508e4e323dafa81c80caec50f23707e983605fc9be5f7a21b7f2b014650880540edd052eeaf878df78fe6575a5b4435e8165b23a620130058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T20:33:03.154Z",
+      "lastFlagChange": null,
+      "rarity": 189.001,
+      "rarityRank": 8465,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": 0.0811,
+        "timestamp": 1662109859
+      },
+      "lastSell": {
+        "value": 0.18,
+        "timestamp": 1662732124
+      },
+      "owner": "0x3a5cb697f2111dd78bd540b6f28a611c28d9a0c6"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x9b7c5cba60a749dcfeec7ee5916229c0cc3836080a911b2022cf81200ec7b0df",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "450000000000000000",
+            "decimal": 0.45,
+            "usd": 534.05006,
+            "native": 0.45
+          }
+        },
+        "maker": "0x3a5cb697f2111dd78bd540b6f28a611c28d9a0c6",
+        "validFrom": 1671470158,
+        "validUntil": 1679246217,
+        "source": {
+          "id": "0x3334288b9ce8e1b482ee569050984eaf6329ccc8",
+          "domain": "portal.genuineundead.io",
+          "name": "portal.genuineundead.io",
+          "icon": "https://i.seadn.io/gcs/files/1eb8d685d4e404c9b1177dfe14c2c9e0.png?w=500&auto=format",
+          "url": "https://www.reservoir.market/0x209e639a0ec166ac7a1a4ba41968fa967db30221/9025"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "1366",
+      "name": "GENUINE UNDEAD #1366",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a0fe8bccf59602cf2b7d572fc7a22eb18b67971c37bd9653148105aa17804c156bd695355261cbfbd0b10a9caa41e615a1e970301a7b4106dd8eb6de38a2870be92466d786dc8fdcc6b65e2130ae4f2d2f8be5752945f2e9c42ef0bbf2edac71969d8242762edf9bb4540f0e7b7a2653623c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T09:59:13.518Z",
+      "lastFlagChange": null,
+      "rarity": 182.434,
+      "rarityRank": 9323,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": 0.03833,
+        "timestamp": 1661330676
+      },
+      "lastSell": {
+        "value": 0.42,
+        "timestamp": 1671398531
+      },
+      "owner": "0xeb193090edbd341f606c30af743b48943b750272"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x40200651299fc101f78c96380da7ad59926b8e1dff863b9d609a2d97f90308cf",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "454000000000000000",
+            "decimal": 0.454,
+            "usd": 538.79718,
+            "native": 0.454
+          }
+        },
+        "maker": "0xeb193090edbd341f606c30af743b48943b750272",
+        "validFrom": 1671518245,
+        "validUntil": 1674125169,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x209e639a0ec166ac7a1a4ba41968fa967db30221/1366"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "6670",
+      "name": "GENUINE UNDEAD #6670",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4d4c867dea70f5fd61ca6b522aae454cf43e915991ba916ba8041bcd3bfe300daccfc65dd395664e207d9b2f5feb456d6cc1cdc67d09bcdb5937f30c9b7a8673770d6f1200863d24342a55973b584fe9b47433a07280111b301a87314c4a0261d82be24924cf3ffa9a61e575275c1e05e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T20:34:55.629Z",
+      "lastFlagChange": null,
+      "rarity": 193.811,
+      "rarityRank": 7823,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": 0.4191,
+        "timestamp": 1671312359
+      },
+      "lastSell": {
+        "value": 0.19,
+        "timestamp": 1660859664
+      },
+      "owner": "0x50a4685516e2d99f9db1eecfedf19862da0f551a"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xd6ce32445a4b72bf2d3f4d82753148b0b6f2bf71d0cf5dff8585826fb7a96fb2",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "459000000000000000",
+            "decimal": 0.459,
+            "usd": 544.73106,
+            "native": 0.459
+          }
+        },
+        "maker": "0x50a4685516e2d99f9db1eecfedf19862da0f551a",
+        "validFrom": 1671534882,
+        "validUntil": 1672139682,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x209e639a0ec166ac7a1a4ba41968fa967db30221/6670"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "9035",
+      "name": "GENUINE UNDEAD #9035",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75addb620724cfa0db76536ef832d0c7b0e7b50fb0d48363445c115ac3b09b7933c9e1b348ffb1394afa644eb69407e677b152596ac8dac9dca808cc921acce80e9092f3fd20fb5998ef9902b9cf9ff0c320987fef8a63dccccf58930ecb81a4ce57bcab7f136ef5a50bc0eb5b1f100e63723c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T20:33:03.155Z",
+      "lastFlagChange": null,
+      "rarity": 202.756,
+      "rarityRank": 7001,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": 0.43,
+        "timestamp": 1671030515
+      },
+      "lastSell": {
+        "value": 0.18,
+        "timestamp": 1664600087
+      },
+      "owner": "0xa42210dfe1994808020c5a313b9a88c251009a07"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x75489af2607c0597c5440b35b2cdd7e08dcb2bc66f4a4bfc8f8f66c759e79ef4",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "460000000000000000",
+            "decimal": 0.46,
+            "usd": 545.91784,
+            "native": 0.46
+          }
+        },
+        "maker": "0xa42210dfe1994808020c5a313b9a88c251009a07",
+        "validFrom": 1671406445,
+        "validUntil": 1672011244,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x209e639a0ec166ac7a1a4ba41968fa967db30221/9035"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "2250",
+      "name": "GENUINE UNDEAD #2250",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4ead88f10f73a826c9fbe96d8fd816b1256a5895cb90e29cedc1c6a5facd95883088c96964557fa3fc12c4eb4505abf26a6cfcfbe11bf6277bf9dcbc5ba0951a5628266b9bc2bbbdfbf11d99f723823f0505410b78568f8ee1b980a56bfb8aad55edc63524d756031b341fb33736a87e23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T09:58:11.674Z",
+      "lastFlagChange": null,
+      "rarity": 202.072,
+      "rarityRank": 7054,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": 0.10661,
+        "timestamp": 1663323191
+      },
+      "lastSell": {
+        "value": 0.21065,
+        "timestamp": 1664671499
+      },
+      "owner": "0xa50854c59cc692a58400e7c3bebeb3d2d70285ce"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xaa46b40c368ab861a9659718706d54002d39b72526536f58776f7ede4b35e9f9",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "464900000000000000",
+            "decimal": 0.4649,
+            "usd": 551.73306,
+            "native": 0.4649
+          }
+        },
+        "maker": "0xa50854c59cc692a58400e7c3bebeb3d2d70285ce",
+        "validFrom": 1671544063,
+        "validUntil": 1672148848,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x209e639a0ec166ac7a1a4ba41968fa967db30221/2250"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "2570",
+      "name": "GENUINE UNDEAD #2570",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a49bc25173b047cf09fa7f32d0c83c6a6636e7ec1d737db80c14253440b476f91d80e22201418b5b3492c1b5590d12957a930154867437cbb1bf8b68819d99c2031801aed0a55072497561d73fd02c0795aceeff879ac0b203529ee23eb22ebb79bd2601aad509e778f927ec13f1ad56ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T09:57:47.795Z",
+      "lastFlagChange": null,
+      "rarity": 181.835,
+      "rarityRank": 9364,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.1162,
+        "timestamp": 1663773155
+      },
+      "owner": "0x8c39ceaedf8cd96b49ba1ed7fd60986e497e8f27"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xeddffe19aecb733e176d5c08bc39cb373cf148f8cb3bd15edcde928cdfcf6a2f",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "464900000000000000",
+            "decimal": 0.4649,
+            "usd": 551.73306,
+            "native": 0.4649
+          }
+        },
+        "maker": "0x8c39ceaedf8cd96b49ba1ed7fd60986e497e8f27",
+        "validFrom": 1671544537,
+        "validUntil": 1672149336,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x209e639a0ec166ac7a1a4ba41968fa967db30221/2570"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "3427",
+      "name": "GENUINE UNDEAD #3427",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a8eeed2d7771566596fe53a7f044d1236f1c5249486ccffd31465f534be319137107639e0cc0d915e669e502bb317940077eedaba598a1d746ca6273edc2d2a14b11215175c57c744589becc1b302d5005587260ec7a4ff86e145855d04f21e6bec33bb94bba8f9fe048812dc76b55e18e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T09:56:43.579Z",
+      "lastFlagChange": null,
+      "rarity": 226.092,
+      "rarityRank": 5721,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": 0.11159,
+        "timestamp": 1663316231
+      },
+      "lastSell": {
+        "value": 0.12608,
+        "timestamp": 1663418651
+      },
+      "owner": "0x73bafd0b00ed096abe14f7d752a7f3259ac3e9e3"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xa6f96ee0958bc78200c162d07df0f961790e29353d07425c19c9597f61b49067",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "465000000000000000",
+            "decimal": 0.465,
+            "usd": 551.85173,
+            "native": 0.465
+          }
+        },
+        "maker": "0x73bafd0b00ed096abe14f7d752a7f3259ac3e9e3",
+        "validFrom": 1671351158,
+        "validUntil": 1673943159,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0x209e639a0ec166ac7a1a4ba41968fa967db30221/3427"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "4812",
+      "name": "GENUINE UNDEAD #4812",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aa521f1a9b924c7f3c3627250e1b37dd06b8dbcb89b18317c92cde785bc8a966a6deface9514c0f5740e9f3a768880cd3f65a705ad89f09b4c1454df469e87f57c1d28805ff5f898be01a6b44bf8e6be79958e9267f7eb437916860df5d309d85f22165788801cdbaad12cc2ae6bbb22123c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T20:49:43.094Z",
+      "lastFlagChange": null,
+      "rarity": 179.53,
+      "rarityRank": 9579,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.7217,
+        "timestamp": 1665788411
+      },
+      "owner": "0x95ef9f9322a94c638e4800b31325729d02e95cdb"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x9b449c4d3e9ce7ef3a7415abdb1ef8c264cb833f8cd3e87a9346612010859735",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "469100000000000000",
+            "decimal": 0.4691,
+            "usd": 556.71752,
+            "native": 0.4691
+          }
+        },
+        "maker": "0x95ef9f9322a94c638e4800b31325729d02e95cdb",
+        "validFrom": 1671528125,
+        "validUntil": 1674206525,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x209e639a0ec166ac7a1a4ba41968fa967db30221/4812"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "7119",
+      "name": "GENUINE UNDEAD #7119",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a8186abc5917ddef698a1176dacb187a37e2e32b2765f74c0692d471f51a0b72217946288c797dbd5fa679010186fd342799dd9727004e6448c8689d284e543761dc8eee700a9532e9e0b26f22ae508d429649a57010aaddaf04c72fe5d4cebcdae1d70aed943d483389266de6e56b23023c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T20:34:30.127Z",
+      "lastFlagChange": null,
+      "rarity": 181.449,
+      "rarityRank": 9406,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": 0.42,
+        "timestamp": 1671217115
+      },
+      "lastSell": {
+        "value": 0.38,
+        "timestamp": 1670948111
+      },
+      "owner": "0xb64fdc6c2044242e2823b0f7e251dc2fd69cdbd2"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x69f388cb0ef0eabdf7dffbe88d2cf7125fc86c5d93d87076093ea0605ccb9f3e",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "469800000000000000",
+            "decimal": 0.4698,
+            "usd": 557.54827,
+            "native": 0.4698
+          }
+        },
+        "maker": "0xb64fdc6c2044242e2823b0f7e251dc2fd69cdbd2",
+        "validFrom": 1671299368,
+        "validUntil": 1673896607,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x209e639a0ec166ac7a1a4ba41968fa967db30221/7119"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "5007",
+      "name": "GENUINE UNDEAD #5007",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adb45f3c353dc11e1bc466a904649051086c11d824806b352b030e92ac9c4a1c3e68174ec71d8425908a3839d6e1deef81ed07180e1fa06053df6a98b433a7cd5a5f3b85589ea425cd8fa15383cc6798aa406dd4f588e9ac2155fb462b6780d95db07836f874ae459cba2737fda91552ce1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T20:36:27.456Z",
+      "lastFlagChange": null,
+      "rarity": 249.138,
+      "rarityRank": 4458,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.459,
+        "timestamp": 1670786339
+      },
+      "owner": "0xc9ac49e1b693e28676deda3023ce3a713e3ba5cc"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x0f125112e7326d6000c54b5febff93915072aa422b31c86c74a06827327ca9c0",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "470000000000000000",
+            "decimal": 0.47,
+            "usd": 557.78562,
+            "native": 0.47
+          }
+        },
+        "maker": "0xc9ac49e1b693e28676deda3023ce3a713e3ba5cc",
+        "validFrom": 1671528801,
+        "validUntil": 1671636295,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x209e639a0ec166ac7a1a4ba41968fa967db30221/5007"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "105",
+      "name": "GENUINE UNDEAD #105",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4c6c292846df051aaa169134fd7e21d4e93dba6f2be0dd9c2c9ced5b9c4880ba8b609f97c289e232513a3551655f9a639dabbe6899d77922abaa329ec6bbfd73a1a4db6495436ee6b302ed05aee2e30bab120319903bf81f9d293f893531aec5a99933de78851bff974dd94c62b4ec2923c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T10:40:54.549Z",
+      "lastFlagChange": null,
+      "rarity": 209.335,
+      "rarityRank": 6563,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.25,
+        "timestamp": 1665043715
+      },
+      "owner": "0x1544bd1e4f9f80a5acb4df1b425b6830ed628c07"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xb77f1816a1be5cdd3eebbab9c3125983049485bfbd66ba2b59bcd78dcc9de459",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "475000000000000000",
+            "decimal": 0.475,
+            "usd": 563.71951,
+            "native": 0.475
+          }
+        },
+        "maker": "0x1544bd1e4f9f80a5acb4df1b425b6830ed628c07",
+        "validFrom": 1671543681,
+        "validUntil": 1671894662,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x209e639a0ec166ac7a1a4ba41968fa967db30221/105"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "8623",
+      "name": "GENUINE UNDEAD #8623",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a800f5ff4dea69b3d5bffa3e67697ea759abcd64f50f1ab179a20271ec6236946409bb13ca0f1b1e9e8e3f99d8beb9aad9d13623f739bc1639e623090c4428a4e0637953bc18e524dde5d9ef39dce843c58daa0881bcd9945a077338acf00e3698c74498f9b868cdc5ea80c2eb50bb7de23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T20:33:21.573Z",
+      "lastFlagChange": null,
+      "rarity": 191.252,
+      "rarityRank": 8142,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": 0.39335,
+        "timestamp": 1671314339
+      },
+      "lastSell": {
+        "value": 0.38,
+        "timestamp": 1665192059
+      },
+      "owner": "0xa19e51a85bbdf1f69c10c4222f71e284a8d7a409"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xf0ded5c590d9b94fd62fca4002864cdeeba05660f173e31b6b54615358b8be1d",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "475000000000000000",
+            "decimal": 0.475,
+            "usd": 563.71951,
+            "native": 0.475
+          }
+        },
+        "maker": "0xa19e51a85bbdf1f69c10c4222f71e284a8d7a409",
+        "validFrom": 1671492709,
+        "validUntil": 1671550309,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x209e639a0ec166ac7a1a4ba41968fa967db30221/8623"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "9546",
+      "name": "GENUINE UNDEAD #9546",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75afd8e04621a520c1afe9d525a9ebb854db26c0630170ab77bf2df864e907b9215d73739782ff149427f1d32b2d404ae19e7eff404e7545c914e8f6765e13fa967eee9426db8abf687a4b642db97fb826bfce1be43cf4daf59dec9e6a00d80c70beabb55c96d29e18e5511fe5226e77978e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T20:32:43.066Z",
+      "lastFlagChange": null,
+      "rarity": 216.934,
+      "rarityRank": 6125,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": 0.05,
+        "timestamp": 1660729955
+      },
+      "lastSell": {
+        "value": 0.4,
+        "timestamp": 1671477011
+      },
+      "owner": "0x10a1aa770b0604e9833ba74589a43fbfd8ebb26d"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xb725a232e2092d47ac837a10aee2207e35af25133e5ee60e2d9023e06faf8466",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "475000000000000000",
+            "decimal": 0.475,
+            "usd": 563.71951,
+            "native": 0.475
+          }
+        },
+        "maker": "0x10a1aa770b0604e9833ba74589a43fbfd8ebb26d",
+        "validFrom": 1671477428,
+        "validUntil": 1671736628,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x209e639a0ec166ac7a1a4ba41968fa967db30221/9546"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "2141",
+      "name": "GENUINE UNDEAD #2141",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab10de6c0a9ce3cf78126cd0a58a5746b4a38e086f8ffc6c5537ce28c1590a8d93a5a7bd402b24d15c028fa903856bbaa50c374a2e4ee17277874fd9e0dcbfdb0e91234237b9ebb2bd76d4ff38aca740822019234fd4d025627c06aeae59ca99104be092f0a520c6c3980d79e483f054e058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T09:58:21.023Z",
+      "lastFlagChange": null,
+      "rarity": 280.119,
+      "rarityRank": 2713,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": 0.39081,
+        "timestamp": 1671288479
+      },
+      "lastSell": {
+        "value": 0.4199,
+        "timestamp": 1671296603
+      },
+      "owner": "0xa50854c59cc692a58400e7c3bebeb3d2d70285ce"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x8bd4c3e0332827b529d7307ce14f3bcc8c3d5fe1a2a86a175486f2a452f324e0",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "475600000000000000",
+            "decimal": 0.4756,
+            "usd": 564.43158,
+            "native": 0.4756
+          }
+        },
+        "maker": "0xa50854c59cc692a58400e7c3bebeb3d2d70285ce",
+        "validFrom": 1671544436,
+        "validUntil": 1672149224,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x209e639a0ec166ac7a1a4ba41968fa967db30221/2141"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "2590",
+      "name": "GENUINE UNDEAD #2590",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58fcef9880baef2a4d63c4f5592b70eaa0e7411abdadbbdda1f6654bc2a2a3447a0471c4602b1dace9a8793d95ef842ebc1b63929b460bea0f95d8bdbb0f62f264f63ddefa36439ba9dd0fdbd411cbf820b6201041ac3846b61906a43dafe0c00f04ac1ab34cc0f6dc6bf7f59857f093058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T09:57:46.270Z",
+      "lastFlagChange": null,
+      "rarity": 189.397,
+      "rarityRank": 8414,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.429,
+        "timestamp": 1668805499
+      },
+      "owner": "0x5060f4789060e018c0d05eb9c2e8e99aed91f19a"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x09b817768661028f25c788eda742049c9f22f23539f11e2c7ab6d654ddeff026",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "480000000000000000",
+            "decimal": 0.48,
+            "usd": 569.6534,
+            "native": 0.48
+          }
+        },
+        "maker": "0x5060f4789060e018c0d05eb9c2e8e99aed91f19a",
+        "validFrom": 1671284580,
+        "validUntil": 1671889380,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x209e639a0ec166ac7a1a4ba41968fa967db30221/2590"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "9674",
+      "name": "GENUINE UNDEAD #9674",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aa0cd8ab61a64f7c19a1b85a89152496415caedfd9efd34d3c38bb0fa429f65d9a3c54840aadc90cf8e301f1d9aa6c2e850263537b8ef750cc5f7c103e76210f59801781067ecdf3deb1c4088ac7f2cb978f24765a3aa39d53615b500353abdede7cb2faef43387d32d6ff61a722f7ab2058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T20:32:37.289Z",
+      "lastFlagChange": null,
+      "rarity": 211.885,
+      "rarityRank": 6404,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": 0.40001,
+        "timestamp": 1671237059
+      },
+      "lastSell": {
+        "value": 0.4379,
+        "timestamp": 1671247931
+      },
+      "owner": "0x4d6c155d634ecd4f78388fc0d3d5c29e8f3ceb5b"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xd10a5cc6d9463c72e75873343f76eac8037519970ea2616bda05794b27310a11",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "484200000000000000",
+            "decimal": 0.4842,
+            "usd": 574.63787,
+            "native": 0.4842
+          }
+        },
+        "maker": "0x4d6c155d634ecd4f78388fc0d3d5c29e8f3ceb5b",
+        "validFrom": 1671513511,
+        "validUntil": 1672118310,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x209e639a0ec166ac7a1a4ba41968fa967db30221/9674"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "5692",
+      "name": "GENUINE UNDEAD #5692",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a0d9c9cf9129da274408ded8106252fbf470638d90b93313dd03a70752ffedcc90aa7589c48672cd9308b59906911f51c0ac8456c9fb11eaadafd18b62aff6460075452f47de71ac784b7dfa22346007233270e546bdfdcca6cfab8068cd0139c4ff574fa9e1119788a5d892b62933bb323c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T20:35:47.242Z",
+      "lastFlagChange": null,
+      "rarity": 172.215,
+      "rarityRank": 9936,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": 0.3904,
+        "timestamp": 1670956715
+      },
+      "lastSell": {
+        "value": 0.731,
+        "timestamp": 1665893099
+      },
+      "owner": "0xd4af6c2027eec82b6ea16700a1ce0c532873aa82"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xd5ca993485b4f6c4734396dd0d4a3bd36cc2157c265cd0e60dbc298af00efb89",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "485000000000000000",
+            "decimal": 0.485,
+            "usd": 575.58729,
+            "native": 0.485
+          }
+        },
+        "maker": "0xd4af6c2027eec82b6ea16700a1ce0c532873aa82",
+        "validFrom": 1670974209,
+        "validUntil": 1673652609,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x209e639a0ec166ac7a1a4ba41968fa967db30221/5692"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "4291",
+      "name": "GENUINE UNDEAD #4291",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab71c31abe580bcbd276ebb9b36d6ceae0dbcc4e99592be263146f39f9d176d61a84e86b592d2e24cf35ed11a9fdd857a3f8a6c30a0a02d8c8b9c199eb6e990a5f54c1046818ea9c0104f9a0a7809c989fd4c17b1dd182fde9ee6be4d737f4670eb234ef361527b9a671bd7b5eef36e8423c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T20:49:47.767Z",
+      "lastFlagChange": null,
+      "rarity": 189.516,
+      "rarityRank": 8400,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": 0.4205,
+        "timestamp": 1667166707
+      },
+      "lastSell": {
+        "value": 0.4296,
+        "timestamp": 1670942639
+      },
+      "owner": "0xa50854c59cc692a58400e7c3bebeb3d2d70285ce"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xb353931990fcf8f29277789c3abc9b4fca01e8fa2968a4b796177209e91c558c",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "486500000000000000",
+            "decimal": 0.4865,
+            "usd": 577.36746,
+            "native": 0.4865
+          }
+        },
+        "maker": "0xa50854c59cc692a58400e7c3bebeb3d2d70285ce",
+        "validFrom": 1671544083,
+        "validUntil": 1672148870,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x209e639a0ec166ac7a1a4ba41968fa967db30221/4291"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "6655",
+      "name": "GENUINE UNDEAD #6655",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ace9086a6d5676069c3199c2c8a70ead4839a76d2a33498a0a5ac99b1432bffd4f98a293c0921d6c1a1caeb7aa8bdb889a8372d73679288f14d9c1e977bc656b548892defaf973681926c63b053ca45ccc4cc5f5f23c74d445ac91a6a508d4232b09e3de3114b98b025240544f316744723c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T20:34:56.584Z",
+      "lastFlagChange": null,
+      "rarity": 207.975,
+      "rarityRank": 6641,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": 0.38203,
+        "timestamp": 1670722559
+      },
+      "lastSell": {
+        "value": 0.439,
+        "timestamp": 1670942639
+      },
+      "owner": "0xa50854c59cc692a58400e7c3bebeb3d2d70285ce"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x558af364fbcfce7afbfe7dd9b9c43d0c6772957172461764abb189ff07e5a118",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "486500000000000000",
+            "decimal": 0.4865,
+            "usd": 577.36746,
+            "native": 0.4865
+          }
+        },
+        "maker": "0xa50854c59cc692a58400e7c3bebeb3d2d70285ce",
+        "validFrom": 1671544156,
+        "validUntil": 1672148943,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x209e639a0ec166ac7a1a4ba41968fa967db30221/6655"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+"category": ["Humanoid", "Skull", "Cartoon", "2d", "Casual", "Normal", "Flat"],
+      "tokenId": "1070",
+      "name": "GENUINE UNDEAD #1070",
+      "description": "RISE AND SHINE",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a35614d3b83ff56864959a0da94288b439a1c6a840642d0769232667d895e3b8bde5c04761ad256631f00595e513e51a8a037d3882e7c30ccf6c152924e922f4d2cc076ce59ea5b1872dee91aeae5ee6b7f8b2d96d2eb9392072e04a8512f34e21626b69ba468435a40fe7c970a67bb5323c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T09:59:25.250Z",
+      "lastFlagChange": null,
+      "rarity": 191.355,
+      "rarityRank": 8124,
+      "collection": {
+        "id": "0x209e639a0ec166ac7a1a4ba41968fa967db30221",
+        "name": "Genuine Undead",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab4182d99608080b13cb3e2ae9abb6ba073228633769d5e19b03e86fdeadd558a29268a686e7c870883ffd61501aae2bbea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "genuine-undead"
+      },
+      "lastBuy": {
+        "value": 0.2851,
+        "timestamp": 1662486708
+      },
+      "lastSell": {
+        "value": 0.69,
+        "timestamp": 1665893099
+      },
+      "owner": "0xcc99e8f483d907f1c32aee0673ac78600da8b2af"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xb06371b0705945ac08eee5c25fd022867332e47498cca627663b6ba47d42d3c7",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "488930000000000000",
+            "decimal": 0.48893,
+            "usd": 580.25133,
+            "native": 0.48893
+          }
+        },
+        "maker": "0xcc99e8f483d907f1c32aee0673ac78600da8b2af",
+        "validFrom": 1671539702,
+        "validUntil": 1672144501,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x209e639a0ec166ac7a1a4ba41968fa967db30221/1070"
+        }
+      }
+    }
+  }
+]

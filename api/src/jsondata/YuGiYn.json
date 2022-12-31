@@ -1,0 +1,3052 @@
+[
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "4612",
+      "name": "YuGiYn #4612",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aff8666e23c5c1666ef05078ce3abb18c7f2c4e3361894c28c71887400e5b66462bdc717bb99d0d821d6042938c47ead4411e38830ac003650c8ba4def7fd1bf8d55069d7652e0bf8b5548450e7ae9041edba66665236c896a0a9eff3a15f12926b3409a7a8f76e9f9e3ea665cfa8271223c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T14:59:10.323Z",
+      "lastFlagChange": null,
+      "rarity": 711.439,
+      "rarityRank": 4420,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": 0.2,
+        "timestamp": 1670054123
+      },
+      "lastSell": {
+        "value": 0.309,
+        "timestamp": 1669365131
+      },
+      "owner": "0xec7a6c5ff070d0fd8ec7416e1f93200b261638d7"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x76fe282b413a504fa01b3857aaf76992ca8ff86f6949a7a0d06e39483675dc7d",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "175000000000000000",
+            "decimal": 0.175,
+            "usd": 207.68614,
+            "native": 0.175
+          }
+        },
+        "maker": "0xec7a6c5ff070d0fd8ec7416e1f93200b261638d7",
+        "validFrom": 1671548193,
+        "validUntil": 1674143002,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/4612"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "5545",
+      "name": "YuGiYn #5545",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a76abbac04792309e7a56e686c54c22ba3557bb640505472e2168590457b76e1f2213569a19138f5ed10e04974db9b834b04850433c3efc14d6f5c347cfe872fdda6845aa7d876b586659e145655ac6c222004d0e3ef8f98871bf99e13b7b937f726cf38d949d2333f63291d610c86df5e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T14:35:17.805Z",
+      "lastFlagChange": null,
+      "rarity": 1235.888,
+      "rarityRank": 2498,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": 0.25,
+        "timestamp": 1669599875
+      },
+      "lastSell": {
+        "value": 0.2783,
+        "timestamp": 1669332203
+      },
+      "owner": "0x1cbe8ffa70f199d8255797ff894ee2d0ca8be325"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x8eab2a0419c01ebe1bf5cd257da49471a1611f89e9e2c449eec72ab97fbb4835",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "175000000000000000",
+            "decimal": 0.175,
+            "usd": 207.68614,
+            "native": 0.175
+          }
+        },
+        "maker": "0x1cbe8ffa70f199d8255797ff894ee2d0ca8be325",
+        "validFrom": 1671548327,
+        "validUntil": 1672570743,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/5545"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "5649",
+      "name": "YuGiYn #5649",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aedbcb36aa1a4cfbb5119e4ed59d2d62bb2054e306e1d1dcf839b3bd81aeb0f88779a43898baed9133430a7da5a0e10bcf4614096f7d2676eb4d01ee0fa5a3bc46774c41fff32f8d49bacd00aef5627b331013dfae691b3ec6d774a16242fe1746306310af195eaaf23415b7657dcd77ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-18T08:50:37.855Z",
+      "lastFlagChange": null,
+      "rarity": 599.179,
+      "rarityRank": 4752,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": 0.15224,
+        "timestamp": 1671343883
+      },
+      "lastSell": {
+        "value": 0.1688,
+        "timestamp": 1671416915
+      },
+      "owner": "0xb47d5c9f842174713bbdf6356c38698351c42435"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xad03f7b09c375614b7650845444bfb07933b3721b719ae861ed69b556285ceed",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "175000000000000000",
+            "decimal": 0.175,
+            "usd": 207.68614,
+            "native": 0.175
+          }
+        },
+        "maker": "0xb47d5c9f842174713bbdf6356c38698351c42435",
+        "validFrom": 1671417285,
+        "validUntil": 1686969219,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/5649"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "447",
+      "name": "YuGiYn #447",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a8f53f54896f77b5096ec451a9f2ba04e91e32ef3fcb4fdad8d2caf2daa113a2390229c7de2ddabec906da91e00509ddf21ff3f29fd109455d922d24b7c01c2c1ab14787d908080c625d7ee29f94a96dd2a791a4f4bb42fca4e81df5be9d8b57aa164ab14d1934bd43b6b3df538481bab23c5e4198f99eda3f3b783c3322e8c56",
+      "media": "https://openseauserdata.com/files/0ce4b75a3a726b1ddfd351da446ef615.mp4",
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T14:39:18.718Z",
+      "lastFlagChange": null,
+      "rarity": 196.278,
+      "rarityRank": 4800,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": 0.1352,
+        "timestamp": 1671451391
+      },
+      "lastSell": {
+        "value": 0.154,
+        "timestamp": 1671452495
+      },
+      "owner": "0x618f3d12f5f67e40fd6a4263464693354c5b93f4"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x00f6affa53b96ae16f02a93bbfd75e5fdeb9990689c3f0f297401cff183121ae",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "179000000000000000",
+            "decimal": 0.179,
+            "usd": 212.43325,
+            "native": 0.179
+          }
+        },
+        "maker": "0x618f3d12f5f67e40fd6a4263464693354c5b93f4",
+        "validFrom": 1671542796,
+        "validUntil": 1674221196,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/447"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "4412",
+      "name": "YuGiYn #4412",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7ceea25ad925382cb2b2d2ed448006eef01d2df850ece1401692bad0248318d521f33ffb1bd7398b222d7d873a2f3ac0961b6ffa3884c02172a0b2b5a93686232ce7498a79bd1ecd9840c87d7e73f790cf050827c0d96be73bfae25f82ffdfb45b5e325030f66c2f0792f4dc5c8d741d23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T14:36:18.908Z",
+      "lastFlagChange": null,
+      "rarity": 806.376,
+      "rarityRank": 4053,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": 0.1524,
+        "timestamp": 1671329231
+      },
+      "lastSell": {
+        "value": 0.235,
+        "timestamp": 1670076839
+      },
+      "owner": "0x618f3d12f5f67e40fd6a4263464693354c5b93f4"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x1830c13daa50fb0ef83d5be334b0a52afe5e8ab24dae383f56f55397aad9acf1",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "179000000000000000",
+            "decimal": 0.179,
+            "usd": 212.43325,
+            "native": 0.179
+          }
+        },
+        "maker": "0x618f3d12f5f67e40fd6a4263464693354c5b93f4",
+        "validFrom": 1671542762,
+        "validUntil": 1674221162,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/4412"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "394",
+      "name": "YuGiYn #394",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a323dd052db26d3d142f35daef244cbe1d171c295e75c60b6c40752719e93713690dbab67ab05594ad5abe132a9b4dcf1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-18T22:30:16.295Z",
+      "lastFlagChange": null,
+      "rarity": 2337.727,
+      "rarityRank": 749,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.37,
+        "timestamp": 1671364187
+      },
+      "owner": "0x138b6cdac711b04542daaa6c76b910efe2948f36"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x81b65513d999dccb4dc120a43f38f92853193b6021ebdf4a9d2384e23b962c04",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "183000000000000000",
+            "decimal": 0.183,
+            "usd": 217.18036,
+            "native": 0.183
+          }
+        },
+        "maker": "0x138b6cdac711b04542daaa6c76b910efe2948f36",
+        "validFrom": 1671541687,
+        "validUntil": 1674220087,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/394"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "174",
+      "name": "YuGiYn #174",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aa0e9c9faca0793145f73f59e039c4cc0c08665b4b74103ed5f46389ce7f85bb982abdfb44d803c8eaa6f98f9995d85929c60a19f2ce137f4f93f3d0ce6413266aeeb331434eefe21a681d17877ae46f9d43f9531144a48b63ff5556ec56d9b91aded0079870c7ce0496f8da7f99890da23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T14:39:31.304Z",
+      "lastFlagChange": null,
+      "rarity": 1714.507,
+      "rarityRank": 1533,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": 0.2335,
+        "timestamp": 1669548707
+      },
+      "lastSell": {
+        "value": 0.259,
+        "timestamp": 1669773635
+      },
+      "owner": "0xf8e54638fcf3af697a15a802e1f65fd690e15c25"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xa1586772676b6fda4667a8ac37d672653ed9f16ea0170791e91878b9d4e91b65",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "185000000000000000",
+            "decimal": 0.185,
+            "usd": 219.55391,
+            "native": 0.185
+          }
+        },
+        "maker": "0xf8e54638fcf3af697a15a802e1f65fd690e15c25",
+        "validFrom": 1671509986,
+        "validUntil": 1672114786,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/174"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "7902",
+      "name": "YuGiYn #7902",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4143afab8fd165830eddd25d292e0660549a322779c96c2a55e66e2b7a3f9a069299c7c823b6cc114640e40b96a7d40125c32001cddf52cbe199c025846a4f0608ccd4e5c78d92557f4f21567a1c2fe09d8b5c0d0f0b2f83094acc8586463cb16f60b027edce5e885f22e7e7c84fee2c23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T13:58:39.089Z",
+      "lastFlagChange": null,
+      "rarity": 647.774,
+      "rarityRank": 4625,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.213,
+        "timestamp": 1665772271
+      },
+      "owner": "0xa369f3ded166bf81ac638485599f8558ee0ae5d3"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x423c8b882c9d360185c22bd4e46b8b0160f447a91c07a2b1420c54e0c0e25ec9",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "185000000000000000",
+            "decimal": 0.185,
+            "usd": 219.55391,
+            "native": 0.185
+          }
+        },
+        "maker": "0xa369f3ded166bf81ac638485599f8558ee0ae5d3",
+        "validFrom": 1671528210,
+        "validUntil": 1674206610,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/7902"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "4960",
+      "name": "YuGiYn #4960",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75afc0240bc30159a6b4c719859c08aba3148989c41eebdbc8686baf4573eca11602cbc12354244d737566cfca722674dc28997c951af4e4d089c65ca1fc8e5371c200dada7932dec6b22d769ead011f73072ac7dc8b519d0900ed64e8350f23e964e62a49a6eaa0bdb43ce774b534af08a058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-05T22:53:59.327Z",
+      "lastFlagChange": null,
+      "rarity": 668.897,
+      "rarityRank": 4564,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": 0.2856,
+        "timestamp": 1669390475
+      },
+      "lastSell": {
+        "value": 0.28,
+        "timestamp": 1665602219
+      },
+      "owner": "0x647f1da671f23d28017fc4de62ca219bc0eb358d"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x40d4665c0bf2dfd38ef6ee6e25965e929dda6a5fba5420cb62b8d62db7110ecc",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "188300000000000000",
+            "decimal": 0.1883,
+            "usd": 223.47028,
+            "native": 0.1883
+          }
+        },
+        "maker": "0x647f1da671f23d28017fc4de62ca219bc0eb358d",
+        "validFrom": 1671293434,
+        "validUntil": 1671898233,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/4960"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "5261",
+      "name": "YuGiYn #5261",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4e958cf454d75614cd97e7478d85a20dd73b0b02ca6d81a13d0bf65ceaca3dab76d433c43cf63c8cf85543c20a138d80176a27585e6795f80b4f2825b6261d3949f6c750118b852a49fbcd54678cbe2c6049019e7fdc5bc012ddfa6aa6989ecd8b38ebec4bd6c356693aa3477457fa05e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T14:35:33.242Z",
+      "lastFlagChange": null,
+      "rarity": 586.906,
+      "rarityRank": 4765,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.34,
+        "timestamp": 1666253411
+      },
+      "owner": "0x0ba9b43a58a7097011cf44976ddc3187667b4286"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xbe42ca58760825a7f7161350d6f14ae54a4f9c913ea4a8ff24de9d6da2df7330",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "188900000000000000",
+            "decimal": 0.1889,
+            "usd": 224.18235,
+            "native": 0.1889
+          }
+        },
+        "maker": "0x0ba9b43a58a7097011cf44976ddc3187667b4286",
+        "validFrom": 1671523959,
+        "validUntil": 1671610358,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/5261"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "7497",
+      "name": "YuGiYn #7497",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab112e65132e12813fa93922d532b974b3ed588714a86a1d8572e6fcf8423f86a11ad43afbb5c07dc7756256957b8a6539b919c35ec280fda6b6f2ba0c06d2c40d0af8847d330ab7c72ee05a21a79fd50f04166a8a8c255a73815e2b421683b8c17153e96b48a3f1f28f55788be28e0d8e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T13:58:57.676Z",
+      "lastFlagChange": null,
+      "rarity": 697.532,
+      "rarityRank": 4469,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.349,
+        "timestamp": 1666251599
+      },
+      "owner": "0x0ba9b43a58a7097011cf44976ddc3187667b4286"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x190e7a233806d9c2e13d62c6f17f2859414dab09680b61b4300efac52823587c",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "188900000000000000",
+            "decimal": 0.1889,
+            "usd": 224.18235,
+            "native": 0.1889
+          }
+        },
+        "maker": "0x0ba9b43a58a7097011cf44976ddc3187667b4286",
+        "validFrom": 1671523970,
+        "validUntil": 1671610370,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/7497"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "8113",
+      "name": "YuGiYn #8113",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1744af53ce3c15688f1b140026e4494c4ffb5872c9ebc0a43b39f403d1343b9927f1e499568669e45598a056ab08c7171e766731e8095bb5f4df287a4640c5cad128280e6b11f49c581267e50df7aefaca8e8b06f8353c3fbd0bbed5005e0c8523bef4dbc5e68cb6119e9ae4f758380823c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T13:58:30.876Z",
+      "lastFlagChange": null,
+      "rarity": 1204.035,
+      "rarityRank": 2589,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.344,
+        "timestamp": 1666247495
+      },
+      "owner": "0x0ba9b43a58a7097011cf44976ddc3187667b4286"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x2714ad475934edcf39b82075324879ddd1eab247e40cd40e8819008d6442e2eb",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "188900000000000000",
+            "decimal": 0.1889,
+            "usd": 224.18235,
+            "native": 0.1889
+          }
+        },
+        "maker": "0x0ba9b43a58a7097011cf44976ddc3187667b4286",
+        "validFrom": 1671523985,
+        "validUntil": 1671610385,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/8113"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "8269",
+      "name": "YuGiYn #8269",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a324e840b854bd446b0f11c78e8f288c8998c2029349f3792778543c0db42a8549862c78d587625d5d244a6946f7d66bcf639d9d0afeb64cc381ccbf3acfc8ca9fd5259e9cd3f66a5adebdadc129642d1037dc39b830e5fa42ee94979a9210565bdaa40c912d148562f7dba923f33b733058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T13:58:24.481Z",
+      "lastFlagChange": null,
+      "rarity": 578.147,
+      "rarityRank": 4780,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.3392,
+        "timestamp": 1666253411
+      },
+      "owner": "0x0ba9b43a58a7097011cf44976ddc3187667b4286"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x0f85a5fbf64eb8d8b53d796da795176927bbf54213ac7e09b1e29b48809c5731",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "188900000000000000",
+            "decimal": 0.1889,
+            "usd": 224.18235,
+            "native": 0.1889
+          }
+        },
+        "maker": "0x0ba9b43a58a7097011cf44976ddc3187667b4286",
+        "validFrom": 1671524002,
+        "validUntil": 1671610401,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/8269"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "8520",
+      "name": "YuGiYn #8520",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75afe5749c96a297516031707799e47d82d9ec717407588e4034731ca4def320b81eca92e40a54fdab257e28d3f416fb2f95b0681278dbb34228c45e52f332c03d157ff89b400bc3ef0f2ac81fdd41a3ab0a9ce5bb64b1de1aba29cc35d1b2d2909a6526142ec75225f08da720a74f39d2ce1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T13:58:13.361Z",
+      "lastFlagChange": null,
+      "rarity": 1081.085,
+      "rarityRank": 2988,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": 0.141,
+        "timestamp": 1665585503
+      },
+      "lastSell": {
+        "value": 0.34,
+        "timestamp": 1666253411
+      },
+      "owner": "0x0ba9b43a58a7097011cf44976ddc3187667b4286"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xef554c47dd6a9918ace28cbce6910792f2f9688706c8fffdabfac2473d0a9e68",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "188900000000000000",
+            "decimal": 0.1889,
+            "usd": 224.18235,
+            "native": 0.1889
+          }
+        },
+        "maker": "0x0ba9b43a58a7097011cf44976ddc3187667b4286",
+        "validFrom": 1671524020,
+        "validUntil": 1671610419,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/8520"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "8616",
+      "name": "YuGiYn #8616",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1f3499f9a9c5697a1633664b46d012da2e17a7b5afdcd1dcd1cf582a8bc05836dba5bc325b2a6bd2c193590a47f7c2b6595a673fa6e4ab5432d98fe2ef170856bd078d3b7822791a479fa0fc95c49ab53cb88f1cff01a99e9ed3e0d3f2082a6d9520a3c80b09945beb54db961f588018e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T13:58:07.919Z",
+      "lastFlagChange": null,
+      "rarity": 2138.379,
+      "rarityRank": 958,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.275,
+        "timestamp": 1668156587
+      },
+      "owner": "0xc5ce6fea2d97622c00ce3fbf89ad4e90ca50cbed"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x757766158b8c622b9690ec0154deb76a8519cd5ef2092f7019826cba1463890e",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "188900000000000000",
+            "decimal": 0.1889,
+            "usd": 224.18235,
+            "native": 0.1889
+          }
+        },
+        "maker": "0xc5ce6fea2d97622c00ce3fbf89ad4e90ca50cbed",
+        "validFrom": 1671452872,
+        "validUntil": 1687004867,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/8616"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "8867",
+      "name": "YuGiYn #8867",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab70f423147db1540913dac9d4274c1a65613e6f7f7e2eacc6d9ea455deabbe125c776faa504e7ed424e9654228e8bea597a006b3f4f4c2b1af06a9a5f98acc0236fd289498d3a32b436ea0d8eb705370edb3bd423557038ae4880792362841ae850730ba3fe2c66271a98401c1cbe242058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T13:57:54.107Z",
+      "lastFlagChange": null,
+      "rarity": 1777.855,
+      "rarityRank": 1442,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": 0.1771,
+        "timestamp": 1665592271
+      },
+      "lastSell": {
+        "value": 0.3459,
+        "timestamp": 1666251383
+      },
+      "owner": "0x0ba9b43a58a7097011cf44976ddc3187667b4286"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x1c23c70b8ed997b682bd49fec608037a2710cc228ae4e38d3091a8e34aa653ce",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "188900000000000000",
+            "decimal": 0.1889,
+            "usd": 224.18235,
+            "native": 0.1889
+          }
+        },
+        "maker": "0x0ba9b43a58a7097011cf44976ddc3187667b4286",
+        "validFrom": 1671524038,
+        "validUntil": 1671610436,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/8867"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "149",
+      "name": "YuGiYn #149",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adade57b35e41111ae5874b803bc877bdbc80b726f2863bf56c8b6dcaf2bc88b4e90b186d950eb21281b6d5f3a871c9fc1a3f6e7027b3174776712a67dfd8b5e3a9c06e1b52e2ed446c090ee207d40ad7793eae54dabed54ac84ea27fb4136ada656a4c02673b37c5679650f6235b1ac2e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-15T09:32:54.740Z",
+      "lastFlagChange": null,
+      "rarity": 2170.379,
+      "rarityRank": 927,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": 0.2101,
+        "timestamp": 1671157667
+      },
+      "lastSell": {
+        "value": 0.194,
+        "timestamp": 1671096719
+      },
+      "owner": "0x6bc0931d751711b652e0618b296da9764af73518"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x7458f548f719d28777d4b948adab1d6c39e293e2c0ea71e73de9e3200cadeb53",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "189000000000000000",
+            "decimal": 0.189,
+            "usd": 224.30103,
+            "native": 0.189
+          }
+        },
+        "maker": "0x6bc0931d751711b652e0618b296da9764af73518",
+        "validFrom": 1671536831,
+        "validUntil": 1671795539,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/149"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "7436",
+      "name": "YuGiYn #7436",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a283472e297dabce9e2e7858f6bd8649b83d3ded0e6467c2a83c97f8aa9f3cb4e6ffb5079f5b15844cb290b48c6005203afb70a9a272477be5513109de822f5596ba3f06ff448fee0e5af210b4498b9b8e71370a7d44814ff4079f471068f96ce273b0d1de250b0fc8376944102cfb5261e9cbf17948473242070ca80b70c6daf",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T13:59:00.686Z",
+      "lastFlagChange": null,
+      "rarity": 1024.068,
+      "rarityRank": 3195,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": 0.17,
+        "timestamp": 1670543843
+      },
+      "lastSell": {
+        "value": 0.1965,
+        "timestamp": 1670688575
+      },
+      "owner": "0x5591a671750a7290d583b9645faafbec0f6724dd"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x4b0475544d510e34314b3a6c5ffc215832abfe311349d5856099b5bc78d399ff",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "189000000000000000",
+            "decimal": 0.189,
+            "usd": 224.30103,
+            "native": 0.189
+          }
+        },
+        "maker": "0x5591a671750a7290d583b9645faafbec0f6724dd",
+        "validFrom": 1671495768,
+        "validUntil": 1671977744,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/7436"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "344",
+      "name": "YuGiYn #344",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af2d9e109bcf2c4d903338752840c4738bdb100ae00e3e0851ea007d772331f3869c447f2a7fca9a120b00728714c06559e1b77acf87157c0001a945115cf69b2c63709827595df71cb855b2bb07e182f0ac0a031dbb942e26af5284cd8289be7098a83017ae4509572fd2933525b7e37058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T14:39:23.374Z",
+      "lastFlagChange": null,
+      "rarity": 1924.839,
+      "rarityRank": 1238,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.34,
+        "timestamp": 1669369151
+      },
+      "owner": "0x2f80f930af7ae24905e1dfc153d11d3ab0b0be5a"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x1ced6b2e185ce02beeffd5680b8b3b732584db2cf7246dbc5d1b8fc8c1c48c2d",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "190000000000000000",
+            "decimal": 0.19,
+            "usd": 225.4878,
+            "native": 0.19
+          }
+        },
+        "maker": "0x2f80f930af7ae24905e1dfc153d11d3ab0b0be5a",
+        "validFrom": 1671470588,
+        "validUntil": 1671556986,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/344"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "567",
+      "name": "YuGiYn #567",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aa817c0b6541b3cb78b9fdd47d7bac40c2bcd8e93ce80eb6dfd77f2f14ed7d8ccea5dfb2e65b19d7e3e03908e1b3f0f02f89a1406d320442f25cad1b083a02d2a7f3ddd5a2178cb0a18a7e47103b17d8597749b0d7b9b20f4209494989d8cfd5733ec17e0fe5c8af3433df0bcf28d0c4b058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T14:39:08.779Z",
+      "lastFlagChange": null,
+      "rarity": 699.318,
+      "rarityRank": 4465,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.302,
+        "timestamp": 1669423571
+      },
+      "owner": "0x5a13434e6416798ee8162d994c4f591f1c12bf50"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x3cbd6130930199ccc7aa9cc1a71707ad4c0b37821dfbb2fddf972d6c07e3aa27",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "190000000000000000",
+            "decimal": 0.19,
+            "usd": 225.4878,
+            "native": 0.19
+          }
+        },
+        "maker": "0x5a13434e6416798ee8162d994c4f591f1c12bf50",
+        "validFrom": 1671533643,
+        "validUntil": 1674212043,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/567"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "6608",
+      "name": "YuGiYn #6608",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a62c7ddea984a6136e3a59c7d3c4125c54f884ce8548b102c84f9ff16d2f722b94ef8d08df86025e4f218bd37d64fbed7c7e9392ede8460607b2e4365b0f9d7fb1909db7fac00053d52b7fdf25f059d4dc6c4258b260990dcbed5ae7cb57d6028aad18e6e8212aa9bb49334bed1a44253058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T13:59:37.921Z",
+      "lastFlagChange": null,
+      "rarity": 680.781,
+      "rarityRank": 4527,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.329,
+        "timestamp": 1669373543
+      },
+      "owner": "0x80cf1bb3e6ee7d1b684af3fffa19c961dc0380cc"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xed59ab53316692d7f5eb29c531404532fc2f1641d3486b744fe7833035771903",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "190000000000000000",
+            "decimal": 0.19,
+            "usd": 225.4878,
+            "native": 0.19
+          }
+        },
+        "maker": "0x80cf1bb3e6ee7d1b684af3fffa19c961dc0380cc",
+        "validFrom": 1671543351,
+        "validUntil": 1673788304,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/6608"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "6995",
+      "name": "YuGiYn #6995",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a50fa20441fc5017399148cb1471fa73a53ae57384ff527e1dead16133811de7ddd7fe7199f3704c62b512ede7939d906025c98bc59c4cb989958589965ce7c716d78169355a7c4ebbbcfd5f21dcb24c0b81f76b00e89179273c9d120a482a3eed2b72c210653fad5f026086a91af136f23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T13:59:19.911Z",
+      "lastFlagChange": null,
+      "rarity": 794.423,
+      "rarityRank": 4101,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": 0.275,
+        "timestamp": 1668254447
+      },
+      "lastSell": {
+        "value": 0.272,
+        "timestamp": 1666113587
+      },
+      "owner": "0x5347de448f8b23deacf24a31e81dd4c63900e6ce"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xcad33df6e8dfd4d3c859ec45e9cea1d1e8d18a6c1cf34bf6d14b1f1c4ce4dbc6",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "190000000000000000",
+            "decimal": 0.19,
+            "usd": 225.4878,
+            "native": 0.19
+          }
+        },
+        "maker": "0x5347de448f8b23deacf24a31e81dd4c63900e6ce",
+        "validFrom": 1671377618,
+        "validUntil": 1673856355,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/6995"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "7503",
+      "name": "YuGiYn #7503",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a940c354de02bc89d697bdac787e70747447c81093e0b8a774b4c87313f2f2a4d22cf5a062301c72e7517638cecd7349656b5d956a824dd2996ff96ab20577f9fced04b4aad9153a5686c9f5a190e83638264f12b704b24f8a96f59a3b10241faa92f0f9e64b3617cc00cb659303b2ffd058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T13:58:57.671Z",
+      "lastFlagChange": null,
+      "rarity": 699.29,
+      "rarityRank": 4466,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xd0e139d26326961e9f0c90a735b0590d41e9fb52"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x775485178cf9cde867ce05f8c344f254ccef7a0b7eca6ced790a9729d184da73",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "190000000000000000",
+            "decimal": 0.19,
+            "usd": 225.4878,
+            "native": 0.19
+          }
+        },
+        "maker": "0xd0e139d26326961e9f0c90a735b0590d41e9fb52",
+        "validFrom": 1671186544,
+        "validUntil": 1673864944,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/7503"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "8769",
+      "name": "YuGiYn #8769",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a023264992e982bacf4a0e9f1822b913affe64473f8cf4b9ba9ee1c9fabbece7916a2b1dd9dedfeed09f245a780e739c18a8ddc6148750f17490046c1856949614e7d03ae58b674b1820b7bf40a64eb8da5bfc325163b1464f9fad844f4c582f2622876a9b856832fb8ba42dfe843351e23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-15T19:18:44.090Z",
+      "lastFlagChange": null,
+      "rarity": 643.464,
+      "rarityRank": 4642,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": 0.19,
+        "timestamp": 1670423807
+      },
+      "lastSell": {
+        "value": 0.309,
+        "timestamp": 1669401947
+      },
+      "owner": "0xf3271ff27e61430108a79989708151babfbc4f87"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x1ccbd313601f75c5afd3d3f3ebc17618b0b231dfe8539a92504b829bcd7b7291",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "193800000000000000",
+            "decimal": 0.1938,
+            "usd": 229.99756,
+            "native": 0.1938
+          }
+        },
+        "maker": "0xf3271ff27e61430108a79989708151babfbc4f87",
+        "validFrom": 1671131636,
+        "validUntil": 1673810036,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/8769"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "6823",
+      "name": "YuGiYn #6823",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ad421ad266b8130808407f7501fb70971883666fb08fdaf85cf243f9197c7b5d69691ffe0ce030a1432f2d8f2ed616cc4efbf55dc8f7103aa44bf30289fcdaf42bf7131671cd2036d5426bb4efbbc3a981a9e2e45039367ca20d34da537bcaea9029f48b67cbbd187a20433063859568523c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T13:59:29.146Z",
+      "lastFlagChange": null,
+      "rarity": 821.773,
+      "rarityRank": 3998,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.412,
+        "timestamp": 1666549403
+      },
+      "owner": "0x7a98d94379630580eb72f1b3c6308c64fb83d17b"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x43c67bc7aaaed9480e5dfc3dc3fb822c895c256fb359fe79c60f22d04946e1f9",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "195000000000000000",
+            "decimal": 0.195,
+            "usd": 231.42169,
+            "native": 0.195
+          }
+        },
+        "maker": "0x7a98d94379630580eb72f1b3c6308c64fb83d17b",
+        "validFrom": 1671019388,
+        "validUntil": 1673697788,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/6823"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "8559",
+      "name": "YuGiYn #8559",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58989bbf543b1091e02d72c5b34d3230e3a4de9e1ba2829aa1053d903cbca4094343007528c7d78f82324b045ebfb71b5b0dd7cca01a6002185b99b26345531f5ed9e6cbf798cb7da52381df3eb8dea56dbc3146da56009e66c8352ba95e088a9b8056a488742beb88c1dced97e0b56f23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T13:58:11.789Z",
+      "lastFlagChange": null,
+      "rarity": 1582.925,
+      "rarityRank": 1735,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": 0.1576,
+        "timestamp": 1671247859
+      },
+      "lastSell": {
+        "value": 0.395,
+        "timestamp": 1666574423
+      },
+      "owner": "0x823e44483545bdecbf24380410844894d68c770b"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xf2750b3553d23d6a6e4cb9599883d5ca5e0220d6ed54594ba1bd4e374b85c487",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "198000000000000000",
+            "decimal": 0.198,
+            "usd": 234.98203,
+            "native": 0.198
+          }
+        },
+        "maker": "0x823e44483545bdecbf24380410844894d68c770b",
+        "validFrom": 1671341777,
+        "validUntil": 1671601097,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/8559"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "8045",
+      "name": "YuGiYn #8045",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a2661b0170b080b755c7cec3e5f9ea3dc85b8380e945bdef9aa996b3d7d2c3984e9a9e22202974c119e2566d2d0525c21bf4bee40f5d547de54a87a429d083f8afb313fcf1846cde8d6bfb51da4fec479a764dbd73b8b6d9eb6afe3f186c891bb1e163e72d313d35f502fc24ab4f8ee8523c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T13:58:33.720Z",
+      "lastFlagChange": null,
+      "rarity": 750.949,
+      "rarityRank": 4282,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.26,
+        "timestamp": 1669442231
+      },
+      "owner": "0x86fff6af1614bc18c72840ff8e6c033dd43bed8a"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x95ed62690d10e9fcd8c458667025404400dd6a2e93c1f59d0004a06234246d38",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "199000000000000000",
+            "decimal": 0.199,
+            "usd": 236.16881,
+            "native": 0.199
+          }
+        },
+        "maker": "0x86fff6af1614bc18c72840ff8e6c033dd43bed8a",
+        "validFrom": 1671248264,
+        "validUntil": 1679024264,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/8045"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "8216",
+      "name": "YuGiYn #8216",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a0fc38b59b005914e1cb705c98a9eaaa41df3b226b299da9dbc01a550bea3300d36424eb7d87ab2fffa57ceef203a401e5aa5eef6d048f8305a87e44e9a8bef74749af7609e48d7cbcd5c479c0fa77a89592f07c3d011c35453479ead4c42f20e023ec5c344392c814da403a2cc01e13a058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T13:58:27.870Z",
+      "lastFlagChange": null,
+      "rarity": 749.212,
+      "rarityRank": 4287,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": 0.251,
+        "timestamp": 1669354751
+      },
+      "lastSell": {
+        "value": 0.26,
+        "timestamp": 1669442231
+      },
+      "owner": "0x86fff6af1614bc18c72840ff8e6c033dd43bed8a"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xdd334eb0aaf579b54257ab0fe887e3cbdd8ab82023d9f5b3c7f72ba2c94c4bd7",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "199000000000000000",
+            "decimal": 0.199,
+            "usd": 236.16881,
+            "native": 0.199
+          }
+        },
+        "maker": "0x86fff6af1614bc18c72840ff8e6c033dd43bed8a",
+        "validFrom": 1671248262,
+        "validUntil": 1679024262,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/8216"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "134",
+      "name": "YuGiYn #134",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aff20b9d2a35717c85a8efa0a83e319c0ba5e15de37c509466565dc764f2b553cdc212a35aae56f723cffdf52c834041e35752bceb36d77626c78488ff96652ced9dae410a7e173426092eef39bd71bd0aead4414b7865ed2cfd5e8039964c6c0d3f41809e981c86932d87566791332af23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T04:22:38.426Z",
+      "lastFlagChange": null,
+      "rarity": 1343.44,
+      "rarityRank": 2207,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": 0.294,
+        "timestamp": 1669411379
+      },
+      "lastSell": {
+        "value": 0.1778,
+        "timestamp": 1671279419
+      },
+      "owner": "0x3f1102dfe5eb9422ab9d925fb830904f1f2bb8ef"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x66111161e9164b53569406f722bc04e52b788dc7ce79c0f924d52389e9ed8584",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "200000000000000000",
+            "decimal": 0.2,
+            "usd": 237.35558,
+            "native": 0.2
+          }
+        },
+        "maker": "0x3f1102dfe5eb9422ab9d925fb830904f1f2bb8ef",
+        "validFrom": 1671279315,
+        "validUntil": 1686831315,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/134"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "543",
+      "name": "YuGiYn #543",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1b1ece2c81c9a6491fd3153783a2533d6ffd4d9de1e287c6118bd90f99e40604f4e095138ce848418750cb5d34917a6d3b0398a6aa24c0ff3744663fe050bf357e1a7291932046ac2ff2cb443e0c8f9bdb2d023fdd7ab09e9cd4ef73fb1eb49d17d10e07698e41cdd0b38aea1d188c9023c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T14:39:13.931Z",
+      "lastFlagChange": null,
+      "rarity": 781.971,
+      "rarityRank": 4154,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.304,
+        "timestamp": 1666803563
+      },
+      "owner": "0xd7e3b0ecf0bdfb05c4690d5433380728763f3840"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xb618d19086ec1d07889bdac5cadf0c6f2f8844e97beab00f4e96ce81c6547892",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "200000000000000000",
+            "decimal": 0.2,
+            "usd": 237.35558,
+            "native": 0.2
+          }
+        },
+        "maker": "0xd7e3b0ecf0bdfb05c4690d5433380728763f3840",
+        "validFrom": 1671252313,
+        "validUntil": 1671895964,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/543"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "1202",
+      "name": "YuGiYn #1202",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9b5475af3a2bd2ee54b1da242c5765fda47b25a9d9488b3a8c316c137ae64149f826a8b35f79578c5c95cc4f3a79281f879a10b01d79f7958aca1e7265a757f245c2d8fc02fe7bc19ee72fefb8c904dd8adab9ea656cb97b6be1f1788395a1f9b4f91bcfbe47710f5c2fc057b785fcb23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T14:38:36.546Z",
+      "lastFlagChange": null,
+      "rarity": 683.691,
+      "rarityRank": 4521,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.459,
+        "timestamp": 1669904987
+      },
+      "owner": "0x35c5db168a6c7af3d44f23eb403f87db318648c6"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x59d428a79ccdee0fb3694dda75f961e382a920975623286df4868746b5b78c45",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "200000000000000000",
+            "decimal": 0.2,
+            "usd": 237.35558,
+            "native": 0.2
+          }
+        },
+        "maker": "0x35c5db168a6c7af3d44f23eb403f87db318648c6",
+        "validFrom": 1671442800,
+        "validUntil": 1673360447,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/1202"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "1211",
+      "name": "YuGiYn #1211",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a8f53f54896f77b5096ec451a9f2ba04e91e32ef3fcb4fdad8d2caf2daa113a2390229c7de2ddabec906da91e00509ddf21ff3f29fd109455d922d24b7c01c2c1ab14787d908080c625d7ee29f94a96dd2a791a4f4bb42fca4e81df5be9d8b57aa164ab14d1934bd43b6b3df538481bab23c5e4198f99eda3f3b783c3322e8c56",
+      "media": "https://openseauserdata.com/files/0ce4b75a3a726b1ddfd351da446ef615.mp4",
+      "kind": "erc721",
+      "isFlagged": true,
+      "lastFlagUpdate": "2022-12-18T15:05:05.799Z",
+      "lastFlagChange": "2022-12-18T15:05:03.467Z",
+      "rarity": 196.278,
+      "rarityRank": 4800,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": 0.3105,
+        "timestamp": 1669370891
+      },
+      "lastSell": {
+        "value": 0.308,
+        "timestamp": 1666231367
+      },
+      "owner": "0x770987582f224868e8caddd6d5ed94e20f6c9e2d"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x9adf7d3695b4964d84fc361fd0f40bc4ade9b2dd867c65f83aac9c6415fe51e0",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "200000000000000000",
+            "decimal": 0.2,
+            "usd": 237.35558,
+            "native": 0.2
+          }
+        },
+        "maker": "0x770987582f224868e8caddd6d5ed94e20f6c9e2d",
+        "validFrom": 1671368647,
+        "validUntil": 1673960608,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/1211"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "4547",
+      "name": "YuGiYn #4547",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a8f53f54896f77b5096ec451a9f2ba04e91e32ef3fcb4fdad8d2caf2daa113a2390229c7de2ddabec906da91e00509ddf21ff3f29fd109455d922d24b7c01c2c1ab14787d908080c625d7ee29f94a96dd2a791a4f4bb42fca4e81df5be9d8b57aa164ab14d1934bd43b6b3df538481bab23c5e4198f99eda3f3b783c3322e8c56",
+      "media": "https://openseauserdata.com/files/0ce4b75a3a726b1ddfd351da446ef615.mp4",
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T14:36:07.761Z",
+      "lastFlagChange": null,
+      "rarity": 196.278,
+      "rarityRank": 4800,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.415,
+        "timestamp": 1670201327
+      },
+      "owner": "0x9f1498f67fd2ce379786029c308c22a4a4794599"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x45ad053a4a6fc6d0ed585e79baeff49d4688de0594dbd6ffa318ea0e9c459918",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "200000000000000000",
+            "decimal": 0.2,
+            "usd": 237.35558,
+            "native": 0.2
+          }
+        },
+        "maker": "0x9f1498f67fd2ce379786029c308c22a4a4794599",
+        "validFrom": 1671519941,
+        "validUntil": 1672879772,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/4547"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "4944",
+      "name": "YuGiYn #4944",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a85bfe4f3456b8e385bccdefb48d123ea6208a93ebc86c0fbc49a843c7b6e7eefb68c95505afbf853b7372743dabc2dec605da8157bd8b2f00bb31a82c46c132e37211ec0d5bf1328aebaa2abe57e094abc1a4e8ed7851b2007cc7384a5caf1c89dbd74cf764720ecd435cd006cadb0d9058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T14:35:48.547Z",
+      "lastFlagChange": null,
+      "rarity": 653.759,
+      "rarityRank": 4611,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x547c85da25eb359b3e8abb483a698914be2ce9a6"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xa4d4957f0cb02f77cdaee54db740b5fb06ea6e3868c4dc95b9a4dcdca84a8e58",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "200000000000000000",
+            "decimal": 0.2,
+            "usd": 237.35558,
+            "native": 0.2
+          }
+        },
+        "maker": "0x547c85da25eb359b3e8abb483a698914be2ce9a6",
+        "validFrom": 1670574298,
+        "validUntil": 1671899268,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/4944"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "5840",
+      "name": "YuGiYn #5840",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af2d9c0ea215bc19fd4de8cebf3fe7c6ae7a2742a69f449a80e7fe0f6ff3d3ed6da46df0d547104e5b1ae8f9ab086a3a3c185da7c197a643daccfa64df4813b57a323ce36980de266e7c573a17a60e3930d273119a2e14e706903f0869ae69407197d84e5e7f94ca36aef3e8ee236be6f23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T14:35:02.787Z",
+      "lastFlagChange": null,
+      "rarity": 1051.262,
+      "rarityRank": 3091,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": 0.2,
+        "timestamp": 1665678575
+      },
+      "lastSell": {
+        "value": 0.268,
+        "timestamp": 1665602135
+      },
+      "owner": "0x2c3ed0211d5ea74ce3da545b7af217e4284ea030"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xea950d2013c430c8e1b6979ead000aa04ae54a3aa04cfb22b8bfdbc66e64bc73",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "200000000000000000",
+            "decimal": 0.2,
+            "usd": 237.35558,
+            "native": 0.2
+          }
+        },
+        "maker": "0x2c3ed0211d5ea74ce3da545b7af217e4284ea030",
+        "validFrom": 1671269132,
+        "validUntil": 1671873932,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/5840"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "6047",
+      "name": "YuGiYn #6047",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a8a5bbea39704ecd21dedfa936a5ca142f270d97356740731d597402e63ea3cfac88fadf7749da0c7b476872b370681c46643c3555110aafdb9266fe25979af5c179553f17ac2a5074716a40e86d8ddfb9bb0e488e80f92ac8fd6449abe84d6f899675c7e63570a639bd5526181eb959d058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T14:34:48.487Z",
+      "lastFlagChange": null,
+      "rarity": 735.897,
+      "rarityRank": 4335,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.214,
+        "timestamp": 1665805367
+      },
+      "owner": "0xb6c7b7d512e3593e779853039236e7ad3b057809"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xcfbe2a1fbd7ece68780c792907ff44ee6093980edfa9f05e7b6fa21fe16fcc06",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "200000000000000000",
+            "decimal": 0.2,
+            "usd": 237.35558,
+            "native": 0.2
+          }
+        },
+        "maker": "0xb6c7b7d512e3593e779853039236e7ad3b057809",
+        "validFrom": 1671495776,
+        "validUntil": 1673660195,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/6047"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "7009",
+      "name": "YuGiYn #7009",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5474818dd25ad417d795b5ee04543531e6a8a69e340a16945ebb4b51b6e6a9c72fedce0e4d49fcb89b5675ddf13204b34bd7efb9dcdf20d77e0a0959fdda09025aec4dc7a3723e686918bb0832dd8f08f021452a1bf9d64b2af0386efc3836d6ce2ff3c746f8bc008a792c4ecae45274e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T13:59:19.908Z",
+      "lastFlagChange": null,
+      "rarity": 700.289,
+      "rarityRank": 4462,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": 0.19,
+        "timestamp": 1665704903
+      },
+      "lastSell": {
+        "value": 0.284,
+        "timestamp": 1665612275
+      },
+      "owner": "0x69c1f3471ac09760077d71a3a60125a678b507d2"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x80cbc77be9c30e903201517e921c7d708d9a79a8de618995be73270ad6aa037b",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "200000000000000000",
+            "decimal": 0.2,
+            "usd": 237.35558,
+            "native": 0.2
+          }
+        },
+        "maker": "0x69c1f3471ac09760077d71a3a60125a678b507d2",
+        "validFrom": 1670854884,
+        "validUntil": 1671931826,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/7009"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "7050",
+      "name": "YuGiYn #7050",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a0a5ac3956b726834d31d57faeaae66559f3085fec6d8c486bf8a5b058ac863fb8c55750e8c6b94826118812eb81fc381ef49982471dbd1bb7f4b79b6581506c960b0d47f319ee6fbaa5e98017643e0a921dcf82b59c27932d9e76e3541a7b563614716a66c035d990fc141e44742a762058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T13:59:18.634Z",
+      "lastFlagChange": null,
+      "rarity": 664.423,
+      "rarityRank": 4580,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": 0.28,
+        "timestamp": 1669341707
+      },
+      "lastSell": {
+        "value": 0.433,
+        "timestamp": 1666365995
+      },
+      "owner": "0xe9bd47f900d0c20da77eb62813ff38c266600a02"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xdf9a54f5b5d15497829acad62a6d42593fe8f2eb98fbcf3f7f09cfbb79f278bd",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "200000000000000000",
+            "decimal": 0.2,
+            "usd": 237.35558,
+            "native": 0.2
+          }
+        },
+        "maker": "0xe9bd47f900d0c20da77eb62813ff38c266600a02",
+        "validFrom": 1671548097,
+        "validUntil": 1671598857,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/7050"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "7268",
+      "name": "YuGiYn #7268",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a131fd3451b351e534d9db36df1e37b6bd1daa07ac838d5ee176aba65175484cdf880f67c59a7eb91fa8137875e28f903fbac91e12dd8afc75fd55cbb20394494ac46a16ee08c6cb3c851ebbe9cfe5a4e36c0e219813d498c285b3ff5b4c467a9878b4a829ea33f2cc645491e78c5d249058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T13:59:08.450Z",
+      "lastFlagChange": null,
+      "rarity": 945.842,
+      "rarityRank": 3489,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": 0.167,
+        "timestamp": 1665715499
+      },
+      "lastSell": {
+        "value": 0.2,
+        "timestamp": 1665589775
+      },
+      "owner": "0x8537fdc32730d6f99a42b22994c5be138c18d00f"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xb4e8462ef2b0d847cc1ca96e26164cac64348129babbb9b5969b37faffe63e47",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "200000000000000000",
+            "decimal": 0.2,
+            "usd": 237.35558,
+            "native": 0.2
+          }
+        },
+        "maker": "0x8537fdc32730d6f99a42b22994c5be138c18d00f",
+        "validFrom": 1671340550,
+        "validUntil": 1671938615,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/7268"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "8102",
+      "name": "YuGiYn #8102",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a400a0a3e6ff79652056aeb22bec56d1d2edf2f2674def4b6b38ec352ab0236205d3582c8f9992c4c60bd745880cb167eb9c05851f64b4d658633ba3a1ffae0e84ca49816033ef02d103eccd4fc1e75df121328eba76cc27a5043343625108d9691ee0ebe728ddf4e2e5ed8d541a99c6de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T13:58:30.982Z",
+      "lastFlagChange": null,
+      "rarity": 1379.5,
+      "rarityRank": 2114,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.23,
+        "timestamp": 1665641579
+      },
+      "owner": "0x80e0a7b0eb7d54a9247c1f117f86c2e307b70a45"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x09107c30da92c53579bbe389b2fe8d6bc931333a638b27112dc8e50f66468be1",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "200000000000000000",
+            "decimal": 0.2,
+            "usd": 237.35558,
+            "native": 0.2
+          }
+        },
+        "maker": "0x80e0a7b0eb7d54a9247c1f117f86c2e307b70a45",
+        "validFrom": 1671420001,
+        "validUntil": 1672064611,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/8102"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "4562",
+      "name": "YuGiYn #4562",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adfbf9a75d06ba38e68d943f8b1fab38aa02bd443f52ed2d5fb0de827415dfabfd899ea371b48c3e7a765ecd564449a7c931e2e124f922ac580d0a0a2b8d200f2f144928bc605b23345995e28b8b53dac58dd8ea8110240ec7404030f782d7970d0e9af258aab46905f8a16cacaf7e72de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T14:36:06.751Z",
+      "lastFlagChange": null,
+      "rarity": 1498.652,
+      "rarityRank": 1878,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.283,
+        "timestamp": 1668196223
+      },
+      "owner": "0x259d224467f34259485f1914824f2ce8bfc29634"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x68294c6e5a6dd2cf794d4e99e3c8846f0a29a93381c6bdf47e522287d5a9cc86",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "204100000000000000",
+            "decimal": 0.2041,
+            "usd": 242.22137,
+            "native": 0.2041
+          }
+        },
+        "maker": "0x259d224467f34259485f1914824f2ce8bfc29634",
+        "validFrom": 1671469104,
+        "validUntil": 1674061103,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/4562"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "8588",
+      "name": "YuGiYn #8588",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a310842432fb043513db83e2a9cac5bcc09d2ebf6a6fe1ca874b3d8ed0ee440b1c4e785f6bd0aec430bf4a07700cfa8c32d740383ca49cbb89315b0462fe15a6cea55b35ec0b1998cc9f86f9a7163b9317e3ad30b6b5d23fef7d91015250020b2b6b819f18d637c649f9b7f9cc988b398e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T13:58:09.562Z",
+      "lastFlagChange": null,
+      "rarity": 723.971,
+      "rarityRank": 4380,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": 0.18121,
+        "timestamp": 1670402987
+      },
+      "lastSell": {
+        "value": 0.263,
+        "timestamp": 1669694471
+      },
+      "owner": "0xa291b1dcbacd88f6d5a8de3cb4ec2c844b9cff58"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x6462ef2639fc052d7482a0f78cc4be7f83bbbd5a4755aba092addc0da4a0fef5",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "205000000000000000",
+            "decimal": 0.205,
+            "usd": 243.28947,
+            "native": 0.205
+          }
+        },
+        "maker": "0xa291b1dcbacd88f6d5a8de3cb4ec2c844b9cff58",
+        "validFrom": 1670560591,
+        "validUntil": 1673238991,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/8588"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "6424",
+      "name": "YuGiYn #6424",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75abfbe17ba33002ca575cf664f5a1a5e1d76d47fbb5350bb37611db417c9cede62a3ebe61daad528ba835572df7251ed179a4c45f35e50ea796c13bce471f1d557cb45f064b430e7d4795bfc026df26a1412461d445c1ebdd82ea1c2668043513cedf6e3c727ae1fe82588ad502c10e2ff23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T09:25:26.305Z",
+      "lastFlagChange": null,
+      "rarity": 2326.616,
+      "rarityRank": 755,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.1605,
+        "timestamp": 1671441911
+      },
+      "owner": "0x8987654c4cf55942d5a38e959448a0c88e1c0813"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xd1f5f847d96b82697aa4c0c205f69f50fe9577ec6529d3379254c879ae2c9ba4",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "207800000000000000",
+            "decimal": 0.2078,
+            "usd": 246.61245,
+            "native": 0.2078
+          }
+        },
+        "maker": "0x8987654c4cf55942d5a38e959448a0c88e1c0813",
+        "validFrom": 1671529155,
+        "validUntil": 1671615554,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/6424"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "4580",
+      "name": "YuGiYn #4580",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a8bffd02c1abecbb3eaf193434f86c1a164a2dff1a09f74fe7329da87326aeabc4419602fc887e9eb24d38d88bc1fb2ab80b8b0481c031b99c791b4ad300d9868ab87c2f28503c80a6f5a3f61ef9d3a85e5b2ab1289db2f1566d059a1dab8ded80ee533aff5dc74477b528c46788a64ebe1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T14:36:05.666Z",
+      "lastFlagChange": null,
+      "rarity": 992.572,
+      "rarityRank": 3318,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.277,
+        "timestamp": 1668256727
+      },
+      "owner": "0xdf06a761d286c0ae835173236e1f12f1379e4977"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x60e61d15abec77d7b7b8599ac085ff1fd2fb40fd4c578d3a4328788808ff6d60",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "208000000000000000",
+            "decimal": 0.208,
+            "usd": 246.84981,
+            "native": 0.208
+          }
+        },
+        "maker": "0xdf06a761d286c0ae835173236e1f12f1379e4977",
+        "validFrom": 1670464940,
+        "validUntil": 1673143340,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/4580"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "6534",
+      "name": "YuGiYn #6534",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ac368a08184dd90618046feda1bfb41d91836ba3fd63dccc58b6923c096e28eed53bec1e0cecf16a0a239b27f6607a86b1f6a40d68ff120c151e6c82fc5b9500995762259b8de6f093e1f18fed025ad068259ab5414fd2832f733738ef6255c5c2bcd6e2e10b3444ebd62fe791aebb574e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T13:59:41.570Z",
+      "lastFlagChange": null,
+      "rarity": 831.162,
+      "rarityRank": 3953,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": 0.217,
+        "timestamp": 1669858223
+      },
+      "lastSell": {
+        "value": 0.209,
+        "timestamp": 1669729199
+      },
+      "owner": "0xecca30e2b30c6944a2d54ea31bca5dbcddbac781"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x9aab38acc0e27c4fce8f200247f4dbc670c192a95b9a280e8153cf3a47e2119f",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "210000000000000000",
+            "decimal": 0.21,
+            "usd": 249.22336,
+            "native": 0.21
+          }
+        },
+        "maker": "0xecca30e2b30c6944a2d54ea31bca5dbcddbac781",
+        "validFrom": 1670629191,
+        "validUntil": 1673221190,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/6534"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "928",
+      "name": "YuGiYn #928",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a9c7b9d41912733a24b86ef29a814ba0be3235ce4f907fb7d48a225d23af0df22817e0350e74564cf4de47f957d3b87d2cc46e41497360d34910ef063a07d8522eaed869eaf18d598764e6f9d7631f72c412ed39176d3f73be35ae563b36a2251e9c1204660af49f8991f598cc234308123c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T14:38:49.251Z",
+      "lastFlagChange": null,
+      "rarity": 1602.802,
+      "rarityRank": 1700,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.4,
+        "timestamp": 1666364567
+      },
+      "owner": "0xd476fbd7c8a4c1148aa6fc17874de4f84dc07034"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x17b2099c2ab4de9635e8ef7b87dcef1a300d38b3b22f584fe4a0ed60eb3bda96",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "212000000000000000",
+            "decimal": 0.212,
+            "usd": 251.59692,
+            "native": 0.212
+          }
+        },
+        "maker": "0xd476fbd7c8a4c1148aa6fc17874de4f84dc07034",
+        "validFrom": 1671282310,
+        "validUntil": 1673676688,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/928"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "4746",
+      "name": "YuGiYn #4746",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ac13d7a11cf22ece60043374c58649eef27c9fbe35b6ee39ff3630641491b121ea598db7e0d8507fa8dac62f33281309a19eaa43a166c43550378918d7ef9a108eeef5206dc8521520cb4022bd988bce6cceb816a11326dc39f584527717bf7f1b134153caaaa4b068cb49d4b1b0ae528e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T14:35:57.676Z",
+      "lastFlagChange": null,
+      "rarity": 1104.802,
+      "rarityRank": 2905,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.271,
+        "timestamp": 1668752603
+      },
+      "owner": "0x259d224467f34259485f1914824f2ce8bfc29634"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xd3ff944320fce7e601b3776c2056d1b5dca05f4dc05788d526d0c6f9ef26ea7f",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "212200000000000000",
+            "decimal": 0.2122,
+            "usd": 251.83427,
+            "native": 0.2122
+          }
+        },
+        "maker": "0x259d224467f34259485f1914824f2ce8bfc29634",
+        "validFrom": 1671469092,
+        "validUntil": 1674061091,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/4746"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "5183",
+      "name": "YuGiYn #5183",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3c0019f234fdb991a550a1004aeca7e9022cd55610c769ddb738f2cf4e18f52a94f4b1b6bb130647bca066804746ddf909b1a0b5af68bcfbbe0f5118d1a5430e7d38caecb3643bff2b9ae681478fd3f64e5739d719cd5fb46790bf5a5b29cc5b6fb13e8376d5020e9205ea36a3ac172623c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T14:35:38.477Z",
+      "lastFlagChange": null,
+      "rarity": 1189.605,
+      "rarityRank": 2633,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": 0.211,
+        "timestamp": 1669320083
+      },
+      "lastSell": {
+        "value": 0.3051,
+        "timestamp": 1669398323
+      },
+      "owner": "0x86fff6af1614bc18c72840ff8e6c033dd43bed8a"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xd8895f723dd5d67b9ef28a391da5e376fba0cfe87f9cf34f470e06e90f82a8c4",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "219000000000000000",
+            "decimal": 0.219,
+            "usd": 259.90436,
+            "native": 0.219
+          }
+        },
+        "maker": "0x86fff6af1614bc18c72840ff8e6c033dd43bed8a",
+        "validFrom": 1671248266,
+        "validUntil": 1679024266,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/5183"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "365",
+      "name": "YuGiYn #365",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5b0ea6b70e899c7e7a96484ce1d31fe3c672c0b4719743b971af7acea05093a53471c57fef1b28f4129a13b52134e54a59934d41eab33b02decda608ab19f2a2c4e318c6737504e98d95fd1d689b2bf3d7a8b26536a9351b83ad3fd67907bd6a0787a533e3459985d7ed7518e8204c1d23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T14:39:22.541Z",
+      "lastFlagChange": null,
+      "rarity": 1210.414,
+      "rarityRank": 2570,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": 0.275,
+        "timestamp": 1669581239
+      },
+      "lastSell": {
+        "value": 0.26879,
+        "timestamp": 1666137851
+      },
+      "owner": "0xf44a73bfd7d0efa649cb7fc031b594580c98a292"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x3c4eb15a37369ea2170e501879d2018323be7399c859cdab3c0d31cc35d9b11e",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "220000000000000000",
+            "decimal": 0.22,
+            "usd": 261.09114,
+            "native": 0.22
+          }
+        },
+        "maker": "0xf44a73bfd7d0efa649cb7fc031b594580c98a292",
+        "validFrom": 1671131235,
+        "validUntil": 1671736024,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/365"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+"category": ["Humanoid", "Monster", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "4784",
+      "name": "YuGiYn #4784",
+      "description": "A Ticket towards YuGiYn ecosystem",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4e6fcce87b3b39ef11595e4e20b13ecb819c49a3abd5bf36fed7e4f0c85a1234b03881f92496bee2dece932dd4fe98f7c22b485cf937df2392828befa94e5a506fd5c2f168eb73e95c81db51668e8d0faa94fe220cb56e224bdcc0cec897b8626ebf24f5e15bb7b73958b6bd43fd64f123c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T14:35:56.190Z",
+      "lastFlagChange": null,
+      "rarity": 853.763,
+      "rarityRank": 3854,
+      "collection": {
+        "id": "0x477f885f6333317f5b2810ecc8afadc7d5b69dd2",
+        "name": "YuGiYn",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a55800f688b8edb880191e1fce4d7faa3635a44220624d1255ef3373657c9c7e1507589aecd1cac4ea0b1eac0e1e5feb6ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "yugiyn-official"
+      },
+      "lastBuy": {
+        "value": 0.203,
+        "timestamp": 1670179199
+      },
+      "lastSell": {
+        "value": 0.17,
+        "timestamp": 1670836319
+      },
+      "owner": "0x789825e7767991b5bd12d2be64504a12b8407e9a"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xbda0c58fa6c1748a198b9f1696c4480835ecdbf2dbdc5fcde8eff3134d65fa95",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "220000000000000000",
+            "decimal": 0.22,
+            "usd": 261.09114,
+            "native": 0.22
+          }
+        },
+        "maker": "0x789825e7767991b5bd12d2be64504a12b8407e9a",
+        "validFrom": 1670929400,
+        "validUntil": 1673514633,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x477f885f6333317f5b2810ecc8afadc7d5b69dd2/4784"
+        }
+      }
+    }
+  }
+]

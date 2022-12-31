@@ -1,0 +1,3052 @@
+[
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "1556",
+      "name": "ENS Maxi #1556",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4f0100eb69f1cb8b5dec72ff3d0eb029a2895c89bcc7c05cfbfa42f5df50656571f74fe2247c894323836d61125baca0ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T13:26:37.077Z",
+      "lastFlagChange": null,
+      "rarity": 84.202,
+      "rarityRank": 8497,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.02,
+        "timestamp": 1663005798
+      },
+      "owner": "0xf34fb129f2d2767d8202e349439967c2d1f98ce4"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x2ade11c11b6460c5fc9fcf699ff505d1c2cf5519705407a54fc9aedd73a08f31",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "112800000000000000",
+            "decimal": 0.1128,
+            "usd": 133.86855,
+            "native": 0.1128
+          }
+        },
+        "maker": "0xf34fb129f2d2767d8202e349439967c2d1f98ce4",
+        "validFrom": 1671542712,
+        "validUntil": 1672147513,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/1556"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "9043",
+      "name": "ENS Maxi #9043",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a00ed6b7b67d6aa145dc50665e693c833534aa7d728277357500300447841010c2b3197ac77a72db315f654f9e6598b04a7d4ce3b7aab1cc632a59bdf9e3793ca87bc3147c5d08299583a751fe282c85b70554ee49e352ac3eacd92bd8bfefca310ebf852102919c7e48df81be8cc0c5423c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T05:43:42.648Z",
+      "lastFlagChange": null,
+      "rarity": 159.351,
+      "rarityRank": 2187,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.034,
+        "timestamp": 1661013544
+      },
+      "owner": "0xe09283b2be9431b6c9d866ce1e1317f435d073e9"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x79eeebad6ea80be0694dd8f7481702cbaf375f09bbbb7dbcdb531c87dae5c38a",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "119000000000000000",
+            "decimal": 0.119,
+            "usd": 141.22657,
+            "native": 0.119
+          }
+        },
+        "maker": "0xe09283b2be9431b6c9d866ce1e1317f435d073e9",
+        "validFrom": 1671543450,
+        "validUntil": 1671802619,
+        "source": {
+          "id": "0xdc28ffaea1f91a88fb6fd0a8fe70d71bdd64284c",
+          "domain": "x2y2.io",
+          "name": "X2Y2",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/x2y2-logo.png",
+          "url": "https://x2y2.io/eth/0xaa462106da447c0440a4be29614c19387a59a331/9043"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "367",
+      "name": "ENS Maxi #367",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7a7240ef39818304c4084788b8370dc3d9ba489a49770229df47d6a9d24ec78f9e5eb027e0f66ac2faf00c172be1a7afdd8d423138ae77534bd91d6c3eb5d1eaf79237c8c8c87bdef6745238804c6f79c9ceaa430f061de41dfde9869cd2783cdc46476ed0eb987f9d8774f36be6a92f23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T05:59:27.991Z",
+      "lastFlagChange": null,
+      "rarity": 72.992,
+      "rarityRank": 9828,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x244ec27908974162dee23fe96b6f1fe9b6ea2809"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x2b8c1d61ead6ea8ac55898654d9b7b47fc94177016dfa5ec30b0fdcf2f25d18c",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "120000000000000000",
+            "decimal": 0.12,
+            "usd": 142.41335,
+            "native": 0.12
+          }
+        },
+        "maker": "0x244ec27908974162dee23fe96b6f1fe9b6ea2809",
+        "validFrom": 1671355567,
+        "validUntil": 1673947525,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xaa462106da447c0440a4be29614c19387a59a331/367"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "2662",
+      "name": "ENS Maxi #2662",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7ce51d83a53531728b8a552132365f7a295912ff7bad4dfc9911334a8d7436daf5cfe2595b1516537e02bc1945c4bee67b2effd72db9feae7e8c2beaedaa81356903baf28a9d868612a38f8e647ad1489830a5d7185a06c16005ace65de89a1a9f26e09553e52377e12bc345e133949e058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-12T00:25:40.736Z",
+      "lastFlagChange": null,
+      "rarity": 75.384,
+      "rarityRank": 9474,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.089,
+        "timestamp": 1670804735
+      },
+      "owner": "0x3d0aa2c0bce0239e25e1a4e15bdd9ae903fc6f8c"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xdcdf24a16b972d09cbe2abad9444cb70acb4670744d7b3c13c8aed7acebf7a4b",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "120000000000000000",
+            "decimal": 0.12,
+            "usd": 142.41335,
+            "native": 0.12
+          }
+        },
+        "maker": "0x3d0aa2c0bce0239e25e1a4e15bdd9ae903fc6f8c",
+        "validFrom": 1670805316,
+        "validUntil": 1673483716,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/2662"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "3123",
+      "name": "ENS Maxi #3123",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae762615d5e4bc4ed7b0c91e01a6e20a43a2e737bfd60fe6329ac0807db33d22ef02e111d8697432d516d7506e7e8da092be265cdeb3d304f800a67063100c9e6d4b2fc9a583d7d643bced27b219b7e0fc8018102f68067c05f520f902cfba892da8a49f5d4e3bd0a9e986df56f9604d823c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T05:58:16.974Z",
+      "lastFlagChange": null,
+      "rarity": 113.505,
+      "rarityRank": 5199,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.014,
+        "timestamp": 1660918051
+      },
+      "owner": "0x98c858e832827db96c4104b051894d68822e3799"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x90e955ca4ca2d2bc6dbd54f9cf84cb28a9ba9e1bc95c6a752122b78d8ae80dea",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "120000000000000000",
+            "decimal": 0.12,
+            "usd": 142.41335,
+            "native": 0.12
+          }
+        },
+        "maker": "0x98c858e832827db96c4104b051894d68822e3799",
+        "validFrom": 1670761049,
+        "validUntil": 1672740082,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/3123"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "5468",
+      "name": "ENS Maxi #5468",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a2f9b2647561c4eddb33fab392e26848cf5410b608fb9c02d8c3a2e1dbf3e9d871eadb014694e48d1f83f5bd9c6c6f4976e09a84c8885305222721d6b8cb6497f2113a220070d0ba6e7e4bb8f38ef193cc42b021b86ff8e51ad361fca55f85688ea96caa1c19f975fa8a61e7b8dc97f6b23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T05:47:25.917Z",
+      "lastFlagChange": null,
+      "rarity": 165.931,
+      "rarityRank": 1989,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.08,
+        "timestamp": 1670010695
+      },
+      "owner": "0xd915133b4b4e95dd8321f1c29a82552143f4b97c"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x0f222e6010ada8a3d055d324a10af0d5f1428409e58d6701f1639520ca4230ba",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "120000000000000000",
+            "decimal": 0.12,
+            "usd": 142.41335,
+            "native": 0.12
+          }
+        },
+        "maker": "0xd915133b4b4e95dd8321f1c29a82552143f4b97c",
+        "validFrom": 1670943175,
+        "validUntil": 1673402881,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/5468"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "5594",
+      "name": "ENS Maxi #5594",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a9bbda94db761e918f80397425b0a1a0cf25881be5d1fc9a5f8b0a6aff3c5d81d5a1db7d70368cb4925738266860a1b8cc50f6003a740ac4af3c8be28f75e5e9c31ed672ee77de6bb294883f385928203d77ed29b580a648e597f28d33f4061358dc2b7af833cf2cfbc53f721614c69b4e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T05:47:18.744Z",
+      "lastFlagChange": null,
+      "rarity": 78.856,
+      "rarityRank": 9089,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.016,
+        "timestamp": 1660823261
+      },
+      "owner": "0x0c818eeb41d0c0a370a0cae7567b63dcba8dbf35"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xafb05537515fc50651074c49915b2556de20aa98fc8fd1b2d4804ce3de8d87b4",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "120000000000000000",
+            "decimal": 0.12,
+            "usd": 142.41335,
+            "native": 0.12
+          }
+        },
+        "maker": "0x0c818eeb41d0c0a370a0cae7567b63dcba8dbf35",
+        "validFrom": 1670142533,
+        "validUntil": 1672820933,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/5594"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "8351",
+      "name": "ENS Maxi #8351",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a924a52ab906420125105d3f726bbba53ae26ceddb3d2bfd2fa42bbe72ad560c9e66ab2761480ae3b0e51018c45447d236cab9a721174d8bb79438fd60cc13c808150532a2d595fc81e5231d8324b015ee26b7fcb3c341dcda016750bb496c3706b9ac3109d1e558658daed71d1e0ed4323c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T05:44:12.333Z",
+      "lastFlagChange": null,
+      "rarity": 81.796,
+      "rarityRank": 8784,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": 0.0223,
+        "timestamp": 1662758898
+      },
+      "lastSell": {
+        "value": 0.0215,
+        "timestamp": 1662825530
+      },
+      "owner": "0x80f4a4fb9961833c60e69138dba2578d5d3faba2"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x5cf7992eea275421ad5643bc10117b761d63ba0e55c7e4ef3fd9954ea3d461e1",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "120000000000000000",
+            "decimal": 0.12,
+            "usd": 142.41335,
+            "native": 0.12
+          }
+        },
+        "maker": "0x80f4a4fb9961833c60e69138dba2578d5d3faba2",
+        "validFrom": 1671459002,
+        "validUntil": 1672063802,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/8351"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "75",
+      "name": "ENS Maxi #75",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a96a2bbf2b543c9b49d28c1f743b65b332591140ed75920c21e99732a1313e77ba868a697886dd8d2028805f331e35586a7a4d87b29ca7876451c3c208a80608a64ba2faefbdb1c45773e915408fdb59212b560f5cc1509fcddc5bd29ef568f1d6a858032ab6c76c4df0d93484f191efe23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T05:59:36.815Z",
+      "lastFlagChange": null,
+      "rarity": 72.198,
+      "rarityRank": 9934,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": 0.084,
+        "timestamp": 1671510011
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xee4c2f33d1a9254884d4d52c334d28bc5e77506d"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xf15ab352fe3faf442be4d51defa185fbb0793d61e8d6a6aebccf87385aacb8b1",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "124000000000000000",
+            "decimal": 0.124,
+            "usd": 147.16046,
+            "native": 0.124
+          }
+        },
+        "maker": "0xee4c2f33d1a9254884d4d52c334d28bc5e77506d",
+        "validFrom": 1671543347,
+        "validUntil": 1671629572,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/75"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "638",
+      "name": "ENS Maxi #638",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a54be9137961d921303307c806f2db87a143051ebc2f777ab568fc0ba77de1df2b10b2b95111b98816c94e72f67d5b241489598a9e27371199b96b5096c4752197f28c01e3f9eb1b66d23ec590198b09066945066b3545f1577fcec931e5901ffaddd13698fe57792164c78081af6ef0f23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T05:59:22.037Z",
+      "lastFlagChange": null,
+      "rarity": 125.252,
+      "rarityRank": 4028,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.095,
+        "timestamp": 1666835219
+      },
+      "owner": "0x60080c9a4538c9e0626636dce6e087fcfeff9a58"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x7f1f459dbca74c6158d1788ba38535633585c6d25852269c52bfea91b9abdc54",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "124000000000000000",
+            "decimal": 0.124,
+            "usd": 147.16046,
+            "native": 0.124
+          }
+        },
+        "maker": "0x60080c9a4538c9e0626636dce6e087fcfeff9a58",
+        "validFrom": 1671505115,
+        "validUntil": 1674649608,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/638"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "2920",
+      "name": "ENS Maxi #2920",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1bef0402dcd65ffb2ab24ff166dabb63588f7f54ff569cb09cd4252ebc601ea6ea95b8fd3750ca88f4bde745019d0dfe8c7178516708c4dc7c886819df30f1c77fd5ea301f7761b64e4d8e345b2de0f95cfe550279ba6494035916b48065854e7ed94d138e14e5c40a23e63e076c110523c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T05:58:22.468Z",
+      "lastFlagChange": null,
+      "rarity": 83.814,
+      "rarityRank": 8524,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.0199,
+        "timestamp": 1660725393
+      },
+      "owner": "0x773c652ff2c4578d747fae9bbc9066d37a45d3a6"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x1744f8071b0cbb26455e03eaa582edff32b08f98b174395ce803dbce7cbf880e",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "125000000000000000",
+            "decimal": 0.125,
+            "usd": 148.34724,
+            "native": 0.125
+          }
+        },
+        "maker": "0x773c652ff2c4578d747fae9bbc9066d37a45d3a6",
+        "validFrom": 1671467174,
+        "validUntil": 1674145574,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/2920"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "3439",
+      "name": "ENS Maxi #3439",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aae6b2f6ad88ba368a443d289639ee5d57919912ad10ff79f448488639ea4d5747dce7b32918a2b627186841059715f589da5c11b39a39ab413a32298a88ef365f42152e07cc1226c2fd06ed19b1a040c43a6249053491679927bbd552d07aaff38f7f33ebc3d005c33c4140f66010ddfe1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T05:58:10.703Z",
+      "lastFlagChange": null,
+      "rarity": 134.798,
+      "rarityRank": 3311,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.014,
+        "timestamp": 1660936134
+      },
+      "owner": "0xd243c44cf37cc50fbabff0bfc7a9d210671e7ee4"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xb31220299a868d60737e98c75c8fa50db8776e905bab7992cb359c584cea59c6",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "125000000000000000",
+            "decimal": 0.125,
+            "usd": 148.34724,
+            "native": 0.125
+          }
+        },
+        "maker": "0xd243c44cf37cc50fbabff0bfc7a9d210671e7ee4",
+        "validFrom": 1670863500,
+        "validUntil": 1673541900,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/3439"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "4429",
+      "name": "ENS Maxi #4429",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a9680b20c6447ee0e12bcedd2555f752db0b25f5db7cfb2109ce6d1fc172d542e9c082e51cab942597b150ddb7084b2e42ba8dfc80eabd3bf2b8239f9082115db680f4e2b7db69a5fba1a647c2c4eb0496deb61038c8da6ba93a683e0d2cdef50493bb23d042c6589a48a8ce6d55265a723c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T05:48:55.878Z",
+      "lastFlagChange": null,
+      "rarity": 114.822,
+      "rarityRank": 5058,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.04568,
+        "timestamp": 1663880951
+      },
+      "owner": "0xca39bb329597c010325d80486d40edcc62797d66"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x82389e1f1874096c9e7a4af2225f593eb711d5186b446c9b14fb3a0516747576",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "125000000000000000",
+            "decimal": 0.125,
+            "usd": 148.34724,
+            "native": 0.125
+          }
+        },
+        "maker": "0xca39bb329597c010325d80486d40edcc62797d66",
+        "validFrom": 1671434156,
+        "validUntil": 1673880230,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/4429"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "5670",
+      "name": "ENS Maxi #5670",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a56b7bd850be3538e8334b88cc795bee10b9e3935d7f9924e962cba6e5f54303585ce5042b6e70645436e7f33a9fde35b16d0ed696518c2926c2c08e1c4a6bc3921daf822e60c7259ff34122989e11aef3fa8b7a3a015f083dcd8edb84f42d839d1dda3439e19c8d5e601d7cc44d0f37023c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T05:47:14.067Z",
+      "lastFlagChange": null,
+      "rarity": 97.662,
+      "rarityRank": 6626,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": 0.06,
+        "timestamp": 1668103931
+      },
+      "lastSell": {
+        "value": 0.008,
+        "timestamp": 1660502174
+      },
+      "owner": "0xa279430d7cc9381ef148a6ed822f6fd345a3d0f1"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x30e36154277631c0ac0d4afa3039f38de93889e5babf6e86a5edb34d7a9109e7",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "125000000000000000",
+            "decimal": 0.125,
+            "usd": 148.34724,
+            "native": 0.125
+          }
+        },
+        "maker": "0xa279430d7cc9381ef148a6ed822f6fd345a3d0f1",
+        "validFrom": 1668358594,
+        "validUntil": 1676134594,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/5670"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "5877",
+      "name": "ENS Maxi #5877",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a81131b54d799afb58e814ea389df148a540369735e2287c8bed86790d6daf0af7b11ef45b2267233a4882eaabe326db19b84d15d92b673cf9d01bb9f420c509382f86ecd2d04ae8dcbf5166a54a363ef3161e7d7e04acbcccc75bd2d6c73a8e6897aaa268da26d8df1ec9f1f7b99b6ac23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T05:47:06.292Z",
+      "lastFlagChange": null,
+      "rarity": 89.247,
+      "rarityRank": 7884,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.0899,
+        "timestamp": 1667048135
+      },
+      "owner": "0x68b2ba0fc60334bfd17d8fd453448c845c51870c"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xe02c5f4109518067ffee428b3b6b095d3fa3796ee3b7273a4aeff560c2a2d655",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "125000000000000000",
+            "decimal": 0.125,
+            "usd": 148.34724,
+            "native": 0.125
+          }
+        },
+        "maker": "0x68b2ba0fc60334bfd17d8fd453448c845c51870c",
+        "validFrom": 1670838901,
+        "validUntil": 1673517301,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/5877"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "5988",
+      "name": "ENS Maxi #5988",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aaab27430c027759ca554ed4c199fd6f3962b54cf5114a3753c55fe4143b186506d0f5e171adffd94ecdb96907d7f588e4bcc14352b9ca4c1d12cc42ebc2368ce0e59b34faf1765ffaf88902f02cbba5686aafdf9cd5bc9c8347b3de8558d2a84273df2ff3a8208382fc3bad8011d5c73e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T05:47:02.663Z",
+      "lastFlagChange": null,
+      "rarity": 133.807,
+      "rarityRank": 3373,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.049,
+        "timestamp": 1663880951
+      },
+      "owner": "0xca39bb329597c010325d80486d40edcc62797d66"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xdaeb31eac96552c38ab48d1b91caf69fdfe5852fa1bb683daa176b04d6181626",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "125000000000000000",
+            "decimal": 0.125,
+            "usd": 148.34724,
+            "native": 0.125
+          }
+        },
+        "maker": "0xca39bb329597c010325d80486d40edcc62797d66",
+        "validFrom": 1671428804,
+        "validUntil": 1673880295,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/5988"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "7422",
+      "name": "ENS Maxi #7422",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ac03f9ac653bb321dffd944912b4f0f69905a1a8417bec53be0c450813b232f0385bc673fa59a07a6fd4c56026239946e58ab4157d6285d11bbae8d56e4d9c6cd1526e7c59a61ddf2faa6966ed4a73ee4e2adee275a6642665d6337cc23f096954c7c4d9e5a910c792c719695a7897476e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T05:45:27.876Z",
+      "lastFlagChange": null,
+      "rarity": 107.802,
+      "rarityRank": 5640,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.049,
+        "timestamp": 1663880951
+      },
+      "owner": "0xca39bb329597c010325d80486d40edcc62797d66"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xa65b358033f592a9b0ab6531eb882073b1b158979b63c078e5445b3f26ba0933",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "125000000000000000",
+            "decimal": 0.125,
+            "usd": 148.34724,
+            "native": 0.125
+          }
+        },
+        "maker": "0xca39bb329597c010325d80486d40edcc62797d66",
+        "validFrom": 1671426311,
+        "validUntil": 1673880162,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/7422"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "8580",
+      "name": "ENS Maxi #8580",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7557d492cc3aa0ae888612b8a6f038f29e8eb9f480d16f0990e50cd4d5174ae78b65751eab319b8d915e26caded3bcd1dde64876303aa5f302730421bd65eb2fa905db7b718dd55f45066005b668a482c484ac589920dc3608ccb2753571630c2884cec8a90c6d4c83d6b7867078aed1058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T05:44:02.045Z",
+      "lastFlagChange": null,
+      "rarity": 83.742,
+      "rarityRank": 8531,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": 0.027,
+        "timestamp": 1662328626
+      },
+      "lastSell": {
+        "value": 0.1,
+        "timestamp": 1670645423
+      },
+      "owner": "0xe953863a6f5317b8d226ab07cbae97f6b63a0373"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x337665ff268c4c5a34279310833420b714d1cb57441eac10d20de3164dfe94db",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "128000000000000000",
+            "decimal": 0.128,
+            "usd": 151.90757,
+            "native": 0.128
+          }
+        },
+        "maker": "0xe953863a6f5317b8d226ab07cbae97f6b63a0373",
+        "validFrom": 1671111711,
+        "validUntil": 1671716510,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/8580"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "1205",
+      "name": "ENS Maxi #1205",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a007f7f5b1bd5fa07a01662771a890049cd373437121224c7c1d4f6b76c0bd05117395fdcd36202c989575ba857dcf00c709439b562bc0488d66c883acffe4ad0d1dfab562c942cb77d067e88442e5d9372c4917f0a69bb472007b1f5efee0ac611c0b4cddde4af6d7906cd1b7c63276a23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T05:59:05.173Z",
+      "lastFlagChange": null,
+      "rarity": 104.433,
+      "rarityRank": 5972,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.0375,
+        "timestamp": 1662521323
+      },
+      "owner": "0x60080c9a4538c9e0626636dce6e087fcfeff9a58"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x2326581743261e0d2baadd387cee53baa5d46c1d756770b0cf5738a530a0acde",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "129000000000000000",
+            "decimal": 0.129,
+            "usd": 153.09435,
+            "native": 0.129
+          }
+        },
+        "maker": "0x60080c9a4538c9e0626636dce6e087fcfeff9a58",
+        "validFrom": 1671544899,
+        "validUntil": 1671561933,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/1205"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "7753",
+      "name": "ENS Maxi #7753",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5a7ae2b058e6ec237b6ebe47b14b829d4ae96a8243b2f0cf8421794b43ed81278395738c2047224939052de8cd083689a996f554c1874491453d14b6ed4041232408228450456493e6fdf5441fd4b6102913d0709ad848a1026864783ded2e93da02f85873c90ba03f487afc6817f3dfe1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T05:45:13.493Z",
+      "lastFlagChange": null,
+      "rarity": 96.222,
+      "rarityRank": 6792,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.06,
+        "timestamp": 1664064707
+      },
+      "owner": "0x356ad390c537a79c2f469c6cc504abebd4cbe992"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x8f5e6b33615dd3dbef5a0f3ce247aa919e04045c67d6e9b9cfb5f38d89f2421e",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "129000000000000000",
+            "decimal": 0.129,
+            "usd": 153.09435,
+            "native": 0.129
+          }
+        },
+        "maker": "0x356ad390c537a79c2f469c6cc504abebd4cbe992",
+        "validFrom": 1671544885,
+        "validUntil": 1679616605,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/7753"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "1229",
+      "name": "ENS Maxi #1229",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aac6fe88d6937d6a026e29b25f0e52eb44df878b5171e0e8c94cb227c013bb0f88e5aceebc0cf90bafe455d168f2269ff1435f265c7efbeffe0c0028e1bb6b875d11ddd73b480f7d9e3b32996e47f3192187ca060269ca6537b779c7f2c5afb27923108d1a89832215d9f94d925e377ed23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T05:59:04.686Z",
+      "lastFlagChange": null,
+      "rarity": 89.934,
+      "rarityRank": 7764,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": 0.081,
+        "timestamp": 1670635775
+      },
+      "lastSell": {
+        "value": 0.09,
+        "timestamp": 1670804735
+      },
+      "owner": "0x3d0aa2c0bce0239e25e1a4e15bdd9ae903fc6f8c"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xf097be9770af18a1e5ab516c4ffd4018d93755fc387e83659a2a9621e35a9be0",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "130000000000000000",
+            "decimal": 0.13,
+            "usd": 154.28113,
+            "native": 0.13
+          }
+        },
+        "maker": "0x3d0aa2c0bce0239e25e1a4e15bdd9ae903fc6f8c",
+        "validFrom": 1670805316,
+        "validUntil": 1673483716,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/1229"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "1292",
+      "name": "ENS Maxi #1292",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ac86f40b96d40e5c7ef36a2e85ca7414e88901da60ead68598feb7eb58465bfadf1124360d93cf66d39cb923955de80e6db96fccd5e6a912288c791f8670ac6570e683349b1bbe5c5d78689824daacedb257285d82dbeb4fe9aef4601c767bed4fe3b14a319f6875e63a2e9e4c02c905823c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T05:59:02.642Z",
+      "lastFlagChange": null,
+      "rarity": 105.691,
+      "rarityRank": 5847,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.028,
+        "timestamp": 1663587167
+      },
+      "owner": "0xf6fa960ab19dbae7bf53829c913e1c2a705dee36"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x5bc7fbebd07be6e44b2a9ba697aa0d42664dfeff905049ede4a92227b51527f4",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "130000000000000000",
+            "decimal": 0.13,
+            "usd": 154.28113,
+            "native": 0.13
+          }
+        },
+        "maker": "0xf6fa960ab19dbae7bf53829c913e1c2a705dee36",
+        "validFrom": 1664537600,
+        "validUntil": 1679181168,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/1292"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "1487",
+      "name": "ENS Maxi #1487",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a049039f63ba0d58a2a8be53b3256191ae1b499be153b0db82bc8cee30d4b6a83c108996ffca893b30ec5683ed282159e38309b56ce773cff66fc6a026209003bf45bf61d9b67aae6eae2e92540f9b7774543d2f8c3ef18f44ea302c689a9121bd93676728b6446d648f8b0c9832bc9c123c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T05:58:57.494Z",
+      "lastFlagChange": null,
+      "rarity": 127.775,
+      "rarityRank": 3813,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.026,
+        "timestamp": 1662834319
+      },
+      "owner": "0x722f247a3e9ca11e349db9d000ae8d3892c57686"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xe25b3c0e139b735e474858fa2d151f86da7a4ddfded81f281ce62e05c089e119",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "130000000000000000",
+            "decimal": 0.13,
+            "usd": 154.28113,
+            "native": 0.13
+          }
+        },
+        "maker": "0x722f247a3e9ca11e349db9d000ae8d3892c57686",
+        "validFrom": 1671465934,
+        "validUntil": 1674144334,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/1487"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "4665",
+      "name": "ENS Maxi #4665",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aa6fce2a99ca30ed7197339ab6a9d595899a99d3cf951b8585899254307e9001d26e0c7a8e58995e5688509b5907bb3f4f2841dccb12f05eaa967894d070409d0a037986cef575dcc1a94212b772c9458144ced0dfc22ca26647f085faef591dcfc31a30f85e79d7091495a3bb3d556d923c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T05:48:46.486Z",
+      "lastFlagChange": null,
+      "rarity": 116.992,
+      "rarityRank": 4847,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.01519,
+        "timestamp": 1660749761
+      },
+      "owner": "0x0c818eeb41d0c0a370a0cae7567b63dcba8dbf35"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x850dab3c7bed60ccedb75198b7f9255644b5c1f420b74c144b595860ec24514f",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "130000000000000000",
+            "decimal": 0.13,
+            "usd": 154.28113,
+            "native": 0.13
+          }
+        },
+        "maker": "0x0c818eeb41d0c0a370a0cae7567b63dcba8dbf35",
+        "validFrom": 1670143953,
+        "validUntil": 1672822353,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/4665"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "8142",
+      "name": "ENS Maxi #8142",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9640c93425cc79c2165f8e8f0a0fd9fdc4197fe4f0303714efcda9d00b82343eaf94dd963a2d91850c6e913469957465dbdb9da00e38689a27c98f77154accaae0a705b80bffee8cd4e26a065da8dac2e4e831580a178862200d1c0e369aaaafb534fd4da394352ee87003929183010e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T05:44:21.572Z",
+      "lastFlagChange": null,
+      "rarity": 92.652,
+      "rarityRank": 7298,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.016,
+        "timestamp": 1660918374
+      },
+      "owner": "0x0c818eeb41d0c0a370a0cae7567b63dcba8dbf35"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x6c3c32fb6fb95f4c185f8be6a12eefebf3d539cd6f165986332fd58fbe2c2380",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "130000000000000000",
+            "decimal": 0.13,
+            "usd": 154.28113,
+            "native": 0.13
+          }
+        },
+        "maker": "0x0c818eeb41d0c0a370a0cae7567b63dcba8dbf35",
+        "validFrom": 1669881020,
+        "validUntil": 1677657020,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/8142"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "7814",
+      "name": "ENS Maxi #7814",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aa2e6a661db81e7b4ee69d8c48425d77ab7042ba97a797f17a6270d7865450c231b8dbfd876d56f070b7572a30820eaf6c9797e6cac5a7fc7205426535fc5a8e6e4b944b6f2152ecd57d5970688636eecde26d49f0442f4b8969ab12ad87ca319868c165ea4418bca5c7d62eb5ffa8d58e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T05:45:11.180Z",
+      "lastFlagChange": null,
+      "rarity": 72.093,
+      "rarityRank": 9943,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.033,
+        "timestamp": 1661209407
+      },
+      "owner": "0xf34fb129f2d2767d8202e349439967c2d1f98ce4"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xfff1c81666b157c521424bc1020757ec497cf69d275d97a81fc4eb8a1b4a2e25",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "131300000000000000",
+            "decimal": 0.1313,
+            "usd": 155.82394,
+            "native": 0.1313
+          }
+        },
+        "maker": "0xf34fb129f2d2767d8202e349439967c2d1f98ce4",
+        "validFrom": 1671542942,
+        "validUntil": 1672147744,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/7814"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "3159",
+      "name": "ENS Maxi #3159",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae60e39af1d0f431ebc7d7cd619b64efd4237c6743e07f3415777743fb672e8910f682c19922df3b55308a5c60c99c186ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T12:02:06.422Z",
+      "lastFlagChange": null,
+      "rarity": 93.018,
+      "rarityRank": 7244,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.1,
+        "timestamp": 1671451319
+      },
+      "owner": "0x5df25d755a7018429167ea745286f806596b1a15"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x1c90e692a948c625f61cbbb99b9089b0b2522c9c683fed8a24a8546c5906f256",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "132000000000000000",
+            "decimal": 0.132,
+            "usd": 156.65469,
+            "native": 0.132
+          }
+        },
+        "maker": "0x5df25d755a7018429167ea745286f806596b1a15",
+        "validFrom": 1671498548,
+        "validUntil": 1671584948,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/3159"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "5112",
+      "name": "ENS Maxi #5112",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a0ebcd86a7f27eec0e6fbfb64c5fbea84de9461eeb7517e030b58c932a1c3920bf4d5f13be477a30824f13d1523abab0126264e5b0f16bbee0d11e64479a31366804bba089771047aba724c80900408055e2df63da6c496e32fb33694d3063659202bbfb53503eb5274a937c0df406be223c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T05:47:39.937Z",
+      "lastFlagChange": null,
+      "rarity": 84.4,
+      "rarityRank": 8475,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.087,
+        "timestamp": 1666911035
+      },
+      "owner": "0x5370b3ca55bb561e7bc050c81848873b9bcebbec"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x3ecd8e61298c046f1c1db4e87749eb9e2107bdc6146a2496e41dfcb23e8111ed",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "133000000000000000",
+            "decimal": 0.133,
+            "usd": 157.84146,
+            "native": 0.133
+          }
+        },
+        "maker": "0x5370b3ca55bb561e7bc050c81848873b9bcebbec",
+        "validFrom": 1671348134,
+        "validUntil": 1674026534,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/5112"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "2826",
+      "name": "ENS Maxi #2826",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aa551624c7a325254fcee03528fe8a4f4dc1b22956b5abb0f50fd50e2dc2502eb2ec8eedc5111f521ec57bb75fc95a56412514c13e758a082a6f90a941d36148b4a3c2081d2ce2206f3e47fef4cdb12afc0d9a8c8dc9531ed386f59f0f7cba23633fcbc006b09753df6bf52f88de69f8223c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T18:12:15.244Z",
+      "lastFlagChange": null,
+      "rarity": 133.054,
+      "rarityRank": 3428,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": 0.07501,
+        "timestamp": 1670433791
+      },
+      "lastSell": {
+        "value": 0.0886,
+        "timestamp": 1670453903
+      },
+      "owner": "0xf34fb129f2d2767d8202e349439967c2d1f98ce4"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xa22815d578a09e93edad4055c607217f18debdd49af981120c5be0750df19cd3",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "133300000000000000",
+            "decimal": 0.1333,
+            "usd": 158.1975,
+            "native": 0.1333
+          }
+        },
+        "maker": "0xf34fb129f2d2767d8202e349439967c2d1f98ce4",
+        "validFrom": 1670516134,
+        "validUntil": 1673108134,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/2826"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "6129",
+      "name": "ENS Maxi #6129",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1edb1ce43cb00a24e804a063f1fa77b17345e51567d1f8b376a9e4e7d16da420e961841a5af817e8ad1ffcf770a5d5399769545bfaa501e96233a23acac0d067306173b5c466463ea70085e09b48211989edf553c61a90edd1aff80fa24fd170f6eda08c4c1ba01be8ca3d3380a2fbbfe1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T05:46:56.933Z",
+      "lastFlagChange": null,
+      "rarity": 92.265,
+      "rarityRank": 7375,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.1,
+        "timestamp": 1667161163
+      },
+      "owner": "0x2834a86bd8b551d20bf7609be42d0f8e9fa9f66f"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xee53841b168fb2ad9ab9268c299df5c2e83615183aaeb3d9cb86c07a819891d3",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "134000000000000000",
+            "decimal": 0.134,
+            "usd": 159.02824,
+            "native": 0.134
+          }
+        },
+        "maker": "0x2834a86bd8b551d20bf7609be42d0f8e9fa9f66f",
+        "validFrom": 1670205187,
+        "validUntil": 1672883587,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/6129"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "7087",
+      "name": "ENS Maxi #7087",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aebf9e2fb1e8738840b41cebd3d635478bbed5ddefe1b288a07e52037cb6364e2dc98854f4ae7f3955bcc521211497a67f1fcec261a74782c761a4ce8be1fc9a2a717899e412e88bcd8d2b28e098c7ed613051387aa9d80d82190f9f27a6f29b4d3a6162cc9adcada7bdc8d8f5f9e3f2ce1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T05:45:44.184Z",
+      "lastFlagChange": null,
+      "rarity": 135.228,
+      "rarityRank": 3285,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x0800833a3706db6fbbd846d5d1b9370a79af8097"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xa662c1c84f1cd2612e00da05926957123cc89fe8e316988d8fc63a5960417a4f",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "134000000000000000",
+            "decimal": 0.134,
+            "usd": 159.02824,
+            "native": 0.134
+          }
+        },
+        "maker": "0x0800833a3706db6fbbd846d5d1b9370a79af8097",
+        "validFrom": 1671469996,
+        "validUntil": 1674148396,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/7087"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "4035",
+      "name": "ENS Maxi #4035",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab3f6f5efacae99a48fd84c13be88ce4b85fda2c856d372340c17813eb674e1275ec7f313d87b2153435441a37665e88a20f681f6d0d0455bb8557474d20bbb5b92d2c68ec28ca3adda5b575dce57739627d6f5ab56527b6bb9d71b6666ffa60377f1586c05558fa889d08715a51ba19f23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T05:57:57.361Z",
+      "lastFlagChange": null,
+      "rarity": 95.704,
+      "rarityRank": 6863,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.09,
+        "timestamp": 1667048135
+      },
+      "owner": "0x68b2ba0fc60334bfd17d8fd453448c845c51870c"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xa294f8f71569749c346f9e4b501dc9cb3bea241df5cee4635978b74640170f14",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "135000000000000000",
+            "decimal": 0.135,
+            "usd": 160.21502,
+            "native": 0.135
+          }
+        },
+        "maker": "0x68b2ba0fc60334bfd17d8fd453448c845c51870c",
+        "validFrom": 1670839102,
+        "validUntil": 1673517502,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/4035"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "5939",
+      "name": "ENS Maxi #5939",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75afd503a284b0a490c6e93020a58c8b1fe03d9b218ddd8cebfa702431459583fa6c270f18fc58a114f36124bb1cc9fc794b10365755f3579eaaa38adde9cf270405381e7cb4af6387a339dafcbfa6ec7a23b0d406f37a2f20c8182faf9f36909d55b1a61e4ab718f053833a45fc6c3a0f2058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T05:47:04.126Z",
+      "lastFlagChange": null,
+      "rarity": 157.24,
+      "rarityRank": 2259,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.07,
+        "timestamp": 1665163427
+      },
+      "owner": "0xae84a946a2d6c82399731fd06592300b18076383"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x22771d9c6838b88bd2dbb356d048dce797a0604f74042d1616abccaa0b280911",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "135000000000000000",
+            "decimal": 0.135,
+            "usd": 160.21502,
+            "native": 0.135
+          }
+        },
+        "maker": "0xae84a946a2d6c82399731fd06592300b18076383",
+        "validFrom": 1671500488,
+        "validUntil": 1671586888,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/5939"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "5443",
+      "name": "ENS Maxi #5443",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ac00b75b9d60e4ad8ed47d7af0e110e3816be8c0ab422f42b50fe79deb6ed42584d9430368ccfa807436515b77cef9322a3ccaa00994e039c1e923e811f970188a2d068067b772da4d914e1a39d21b9eef48d1b61a097018a0e86d320706e3efef9cbaa2791ebfbf9cb028f5237eb1ae7e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T05:47:26.458Z",
+      "lastFlagChange": null,
+      "rarity": 118.847,
+      "rarityRank": 4649,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": 0.0541,
+        "timestamp": 1666258031
+      },
+      "lastSell": {
+        "value": 0.17,
+        "timestamp": 1667104607
+      },
+      "owner": "0x4897c27e0f10af43e2592cb9c395fa3d5faaba86"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x23ddf7e608dc4b4103f380f0fc34045a12ead8a044fb5160ddf9c85df6f24799",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "136899900000000000",
+            "decimal": 0.1369,
+            "usd": 162.46978,
+            "native": 0.1369
+          }
+        },
+        "maker": "0x4897c27e0f10af43e2592cb9c395fa3d5faaba86",
+        "validFrom": 1671499130,
+        "validUntil": 1671585650,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/5443"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "113",
+      "name": "ENS Maxi #113",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1c2037ec0696ff550346c39243adfd12fafd88761b6c9640d9f4915b038ae43a13c98efe46271cc07f34f0195a69d64c42785f606c7a7f53f6d203938d214e9a3c60b441665616d99b096f641a7a56287f8e9a3b781452d857b2086a531c1addb9c29aa0f6ee5361de6981ab4d25a25ee1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T05:59:35.269Z",
+      "lastFlagChange": null,
+      "rarity": 112.639,
+      "rarityRank": 5279,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.0187,
+        "timestamp": 1660924166
+      },
+      "owner": "0x9c2f86730fd191c23f2be8df96de94826fc47983"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x6779d77a11c285b57b829998d51bfd6b8c570779bc0b424e7863fb8fb523b120",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "136900000000000000",
+            "decimal": 0.1369,
+            "usd": 162.4699,
+            "native": 0.1369
+          }
+        },
+        "maker": "0x9c2f86730fd191c23f2be8df96de94826fc47983",
+        "validFrom": 1671479737,
+        "validUntil": 1687031737,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/113"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "5734",
+      "name": "ENS Maxi #5734",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a731fc6ff19191a6027fa40cff088bf532677361f5c7e3ec1ce29fab8ed43551e756912aacfc2d2a4d3245fa1d119fe1c89b8cb687f6bbec4a73ea677844fdfe7037e90dfaf1073041c906a89d6e305ee0064c8e011c5bf5ad6b327414c02feeeba838918248e88600b988a3fc67679f6058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T05:47:11.542Z",
+      "lastFlagChange": null,
+      "rarity": 114.345,
+      "rarityRank": 5117,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": 0.077,
+        "timestamp": 1670258363
+      },
+      "lastSell": {
+        "value": 0.099,
+        "timestamp": 1670259011
+      },
+      "owner": "0xfd3342350a50bd312c2fc08e2584ab2bb0b586b2"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xfb266b1adea2a4b909b9ec11e8901df7c3254444392bbdd161ca2fdc2da9b37e",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "136900000000000000",
+            "decimal": 0.1369,
+            "usd": 162.4699,
+            "native": 0.1369
+          }
+        },
+        "maker": "0xfd3342350a50bd312c2fc08e2584ab2bb0b586b2",
+        "validFrom": 1671458321,
+        "validUntil": 1671717521,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/5734"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "1927",
+      "name": "ENS Maxi #1927",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7ea49e72c04f058e6ba4a12b782aac3139fba59518dd4156a1bd5791a3795f1bbaca5977883707930290b60e5661a60ab678879396cd3e042762448fea7583b8ab233a1a995ec994728f0f8988c87e439dacd1613543297f2c10b7f4600aab3d172711a549e06790a341e5fc042475ece1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T05:58:46.790Z",
+      "lastFlagChange": null,
+      "rarity": 123.552,
+      "rarityRank": 4171,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.005,
+        "timestamp": 1660221912
+      },
+      "owner": "0xbc641742e6f9ee626bb44450f78366fdda701389"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xff994ac939d03b37923e94b7a8386cd19eba879516fc6cf6edd573cdc36109f4",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "138000000000000000",
+            "decimal": 0.138,
+            "usd": 163.77535,
+            "native": 0.138
+          }
+        },
+        "maker": "0xbc641742e6f9ee626bb44450f78366fdda701389",
+        "validFrom": 1670321140,
+        "validUntil": 1672999540,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/1927"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "2592",
+      "name": "ENS Maxi #2592",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3c1d312dc92b7a0ff789ab22398ce330ba1fd8447d7de804cf8ca14818551ab6b478756166cedd276065781febad99aa21d359ae3e22bf70bb9c46d63dd1f3c798f4ff1840da82d33174321afe8f0874a41c2013ed4b548888b9e55a515f712a8fd5c1f813e6a58734a83884259908c2e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T05:58:30.112Z",
+      "lastFlagChange": null,
+      "rarity": 99.438,
+      "rarityRank": 6429,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.0888,
+        "timestamp": 1670123927
+      },
+      "owner": "0x32ebcc355f8f0e596ba08599d0b597e0013d3c29"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xbb3cf0c61c13aa5f9e2e865938acb2bb150ed516c2ec6d29a6f668035c06a97b",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "138000000000000000",
+            "decimal": 0.138,
+            "usd": 163.77535,
+            "native": 0.138
+          }
+        },
+        "maker": "0x32ebcc355f8f0e596ba08599d0b597e0013d3c29",
+        "validFrom": 1671544556,
+        "validUntil": 1671630955,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/2592"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "6196",
+      "name": "ENS Maxi #6196",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4771cc202c2587a0b269642d32a65d800831ea540f938bb88f0110aaa35ffb06eeeca61006e5ca2dbd61688630b13ef7b4ceca1127e98f7cd7a22fda908d0afe6925f4f862cebfadfa134bdfe130f105508b1ed3e8b88410d201dddd0de61ec04cf7c64e4eac03055c8e131535bcb22ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T05:46:53.734Z",
+      "lastFlagChange": null,
+      "rarity": 95.932,
+      "rarityRank": 6832,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": 0.072,
+        "timestamp": 1666598363
+      },
+      "lastSell": {
+        "value": 0.092,
+        "timestamp": 1671542579
+      },
+      "owner": "0xf34fb129f2d2767d8202e349439967c2d1f98ce4"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xd96ecf1e8006f4bdea9bdb63a56ffad1d7b0e8832d1c662711535547e7f77bde",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "138500000000000000",
+            "decimal": 0.1385,
+            "usd": 164.36874,
+            "native": 0.1385
+          }
+        },
+        "maker": "0xf34fb129f2d2767d8202e349439967c2d1f98ce4",
+        "validFrom": 1671542888,
+        "validUntil": 1672147689,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/6196"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "3000",
+      "name": "ENS Maxi #3000",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af622619b3e254be6519e9f7475fa0c4d4c97e8a356ad0ca4caecd90f9fb2709654646ff574e02b8e760c0c55f4380cd8a0f670d65732c849b5a44f5bae33130c314b48adef24ca510ba7570f745c4985f83c9a7089d3de166354b20cd3974e59a377c56b65bb36c4ab940b748ea9820ee1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T05:58:19.485Z",
+      "lastFlagChange": null,
+      "rarity": 90.668,
+      "rarityRank": 7605,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x2385202c54197c5a5d007c55311c050adf9a9dc8"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x025b757ca0965a81071fa4b7d8ea5e2be09ded719f846488d04859f6a99e0a92",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "139000000000000000",
+            "decimal": 0.139,
+            "usd": 164.96213,
+            "native": 0.139
+          }
+        },
+        "maker": "0x2385202c54197c5a5d007c55311c050adf9a9dc8",
+        "validFrom": 1667153435,
+        "validUntil": 1682705435,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/3000"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "4051",
+      "name": "ENS Maxi #4051",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1cf1152cbd8dd568324278592dbef17512dec719902858bf3175f0da189811e37679efb4f0d984039b33d5dd483503baf2799dfaf6d91d99864e17afce781bb5949c6e23cdcf5002c041b51e3d6d347aefb9ed10734e0fca173a01ec5cd6455fe1c1c81acb25aacc2eaa4858efca05eb058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T05:57:57.056Z",
+      "lastFlagChange": null,
+      "rarity": 195.863,
+      "rarityRank": 1298,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": 0.085,
+        "timestamp": 1669614347
+      },
+      "lastSell": {
+        "value": 0.008,
+        "timestamp": 1660411877
+      },
+      "owner": "0x2781bcf8b417fbda88f0fa17273605ec3c0757cc"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x60cc7a949e7c526ba8446e39eb7747c7c7692a79f3b3705c0883d3b5b6a21bb1",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "139000000000000000",
+            "decimal": 0.139,
+            "usd": 164.96213,
+            "native": 0.139
+          }
+        },
+        "maker": "0x2781bcf8b417fbda88f0fa17273605ec3c0757cc",
+        "validFrom": 1671081803,
+        "validUntil": 1671686603,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/4051"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "1231",
+      "name": "ENS Maxi #1231",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ad34fc7dbf454d1f8d310f71c7d0a5958d085a4dbbd82b7da50279cf96517f63ad631a497f43970a546d76698dfb932bd9423239a56fe044608d6ffb0def5113c195e14e5bb44a5f36c8fd305fff13161ab8768799160411afe79d66a9135dd8de290e8d0af7195d3b01e88e20634568c23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T05:59:04.687Z",
+      "lastFlagChange": null,
+      "rarity": 106.962,
+      "rarityRank": 5709,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x3c5f0b54723d750c2dc7a1041e7742cdb8888888"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x3ac9410ff3c62b7ccaf8412cfa9bb0249479b096ae42353b89947c1a64028a03",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "140000000000000000",
+            "decimal": 0.14,
+            "usd": 166.14891,
+            "native": 0.14
+          }
+        },
+        "maker": "0x3c5f0b54723d750c2dc7a1041e7742cdb8888888",
+        "validFrom": 1669459672,
+        "validUntil": 1672051672,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/1231"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "1668",
+      "name": "ENS Maxi #1668",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a2827a942316fe09ab6ee4d1ad9c44549bc8269338dffacc1e059d09dec13aca8a1c9584259eb7c80fe32bb9fac93ba8a8e8fc512e58700f961a40f028d4f2d63dadde81361ec7f9491889146c070ccf2772ae67448440adde4f92c77e3d337eec2395c2e26c725bfac926296fe44dbf923c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T05:58:53.017Z",
+      "lastFlagChange": null,
+      "rarity": 93.822,
+      "rarityRank": 7131,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.0398,
+        "timestamp": 1661214754
+      },
+      "owner": "0xf15fe868b185fc82ddaffc805ebc37380c778c52"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x72696e943139be1d5456db3379983d8e638529938f6f8a32b22192c138dabe1e",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "140000000000000000",
+            "decimal": 0.14,
+            "usd": 166.14891,
+            "native": 0.14
+          }
+        },
+        "maker": "0xf15fe868b185fc82ddaffc805ebc37380c778c52",
+        "validFrom": 1664030486,
+        "validUntil": 1679582486,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/1668"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "1766",
+      "name": "ENS Maxi #1766",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a90a6c3c84022c7b51942755ac6c44e1999c0d956529ea08bdc2fb4e8e470c33c3e0a404082a3afe829013102058bc86fd4b0fb73b0d06067177ac9d7d2fb07a49b3b0542332035475392f6be63784d500ec09ae6d0e0f0a3f23c3b2f2d973dd223d5505828058bce25e4446d1e3a5ebd23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T05:58:50.111Z",
+      "lastFlagChange": null,
+      "rarity": 84.567,
+      "rarityRank": 8463,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.01635,
+        "timestamp": 1660821314
+      },
+      "owner": "0x0c818eeb41d0c0a370a0cae7567b63dcba8dbf35"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xb34de252cdcee8276131e9dda46e0c9c29b76138267a102885f60fb9c1f5c997",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "140000000000000000",
+            "decimal": 0.14,
+            "usd": 166.14891,
+            "native": 0.14
+          }
+        },
+        "maker": "0x0c818eeb41d0c0a370a0cae7567b63dcba8dbf35",
+        "validFrom": 1670142138,
+        "validUntil": 1672820538,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/1766"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "2749",
+      "name": "ENS Maxi #2749",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adad818848daec3e0623e6fc9f2398373457f4988b8c48f3a7924bb807c31b4cd4f6e03a9ea511109803edaf726cf1429393ef539e071828dfc218c7eba59fee7eadf394463dfe60548c2f12f5d3902634d9e2f837f440e06be9b2f9184cf8adecaccb3680d20fbd5f1cca14a12f38823058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T05:58:25.515Z",
+      "lastFlagChange": null,
+      "rarity": 85.435,
+      "rarityRank": 8376,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.099,
+        "timestamp": 1670251151
+      },
+      "owner": "0x33b74d26aca3b86cd00481eaa659637c541cf9d7"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xf84bfaffeef41313349dafabd2b76be0a5fd85918534ae686d496bc292aedfde",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "140000000000000000",
+            "decimal": 0.14,
+            "usd": 166.14891,
+            "native": 0.14
+          }
+        },
+        "maker": "0x33b74d26aca3b86cd00481eaa659637c541cf9d7",
+        "validFrom": 1671326287,
+        "validUntil": 1673716317,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/2749"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "3468",
+      "name": "ENS Maxi #3468",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a860a85b49a568f3fe3d5066f5275b1150b0cca1e6d26d3d5bcb24aed6c349aaeecadb3c0361073cf20c2288368cc9e61dfb3335a278b86fe8c930d7efba09d412a599ce8b07907825bd61f09070ce35a817186d1d39f3c0123adf77f0a1aa989dbd54e42a5e23fd8416ce6392111aa9323c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T05:58:10.126Z",
+      "lastFlagChange": null,
+      "rarity": 92.835,
+      "rarityRank": 7271,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x6c3de7b3e30766093b8038e6e4d389eafd83506d"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x9626e2a9225a143acf28f9c55acb22759b148f45e90d721a67d61e25af786b1c",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "140000000000000000",
+            "decimal": 0.14,
+            "usd": 166.14891,
+            "native": 0.14
+          }
+        },
+        "maker": "0x6c3de7b3e30766093b8038e6e4d389eafd83506d",
+        "validFrom": 1667153884,
+        "validUntil": 1682705884,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/3468"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "3590",
+      "name": "ENS Maxi #3590",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4a22a464a2e32efa8c92457bd24946bd81582a6a8cdc6b8c6763d8cd2c3dc235daa16270736c881d0a4606372a54c7c894f7418ddc6c7c605e19e3f260cfcd05bcf0c3cc366910df43131bdc9ae02a0a5c6d018a57307cdd1a241b423cdfd87f9fb82106ada20e3de596a00e77ac183b23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T05:58:07.954Z",
+      "lastFlagChange": null,
+      "rarity": 107.674,
+      "rarityRank": 5649,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x8f59d415ffd78575d9c674d32ac114a41afd3d30"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xd881751bc45c103c6b266c318df25aca70ed06e8f8e63cb4d2d5ad9c167fa469",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "140000000000000000",
+            "decimal": 0.14,
+            "usd": 166.14891,
+            "native": 0.14
+          }
+        },
+        "maker": "0x8f59d415ffd78575d9c674d32ac114a41afd3d30",
+        "validFrom": 1667153975,
+        "validUntil": 1682705975,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/3590"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "3650",
+      "name": "ENS Maxi #3650",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ad220a7ac90edf5d1042e46e22d26554092d2f974a3322bd7ec36716b1e3ff2d5df4621bd2d183c85cf7c6b1f5fe970773d2a05599c97291be2a9581306e9fcaac19c81db8c69dd0f4ea86cc7408e4becda62c3d3d476df5d719f915f481249ecead36a8ebf1cc9245041e64c0d453d22058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T05:58:06.264Z",
+      "lastFlagChange": null,
+      "rarity": 98.948,
+      "rarityRank": 6488,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x9e283ad8f21149679f7bb5a1337b77a411ed4886"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xcc1b6ae7d0702ab23782c6773e8139842792f901c34f86336896933d8808f2dc",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "140000000000000000",
+            "decimal": 0.14,
+            "usd": 166.14891,
+            "native": 0.14
+          }
+        },
+        "maker": "0x9e283ad8f21149679f7bb5a1337b77a411ed4886",
+        "validFrom": 1667154105,
+        "validUntil": 1682706105,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/3650"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "3891",
+      "name": "ENS Maxi #3891",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3d251c9e33b4daf7927d830047e4f7387802c6ae703794d8f3588518b5c82b290c0187a21e2dda248bae7a8857c12bb0ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-18T20:51:11.787Z",
+      "lastFlagChange": null,
+      "rarity": 119.806,
+      "rarityRank": 4564,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.07,
+        "timestamp": 1671396659
+      },
+      "owner": "0x507acadda609641af99f86fc16858b015e2398cc"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xd2b60957705d96f9c4a5c587b2514a9c4b0ad99f0e5afbb448ed1349e8679a10",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "140000000000000000",
+            "decimal": 0.14,
+            "usd": 166.14891,
+            "native": 0.14
+          }
+        },
+        "maker": "0x507acadda609641af99f86fc16858b015e2398cc",
+        "validFrom": 1671546761,
+        "validUntil": 1671609641,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/3891"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xaa462106da447c0440a4be29614c19387a59a331",
+"category": ["Humanoid", "Person", "Painting", "3d", "Street", "Normal", "Other"],
+      "tokenId": "4629",
+      "name": "ENS Maxi #4629",
+      "description": "ENS Maxis is the first NFT collection that gives the diverse communities of ENS Domain holders a way to represent their love through their PFP and be a part of history.\n\nENS Maxi's make representing the Ethereum Naming Service personable and distinguishable. Sure there are some ENS domain names that get a bit of notoriety here and there, but that's not the message the culture is here to convey. The ENS community is here to stay and we are more than just text based domain PFPs. So, ENS Maxis was born.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af9d173a7cc337b9f12bf27e4745671fe6ebdbfc6cd0211ffd8a381af550144c074d95926f42debfa03fb0a56e0faa9fb02b1a0bb2e6182cf762c04fcc09a09b5b7c3baec27be3413ddb5bb4261fc245ef91e8fb5f9a4e14cf4e1eee437044a06b6b23df4aa90e8287efdd84ddc00b2c4e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T05:48:47.702Z",
+      "lastFlagChange": null,
+      "rarity": 157.615,
+      "rarityRank": 2240,
+      "collection": {
+        "id": "0xaa462106da447c0440a4be29614c19387a59a331",
+        "name": "ENS Maxis",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adbbe0e6baa735dc679d080598664b3a423dcc957cd8198200659f1d98e95e1a83b7df836a484d817a5a1d422c12ed1afea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "ensmaxis"
+      },
+      "lastBuy": {
+        "value": 0.06401,
+        "timestamp": 1669607807
+      },
+      "lastSell": {
+        "value": 0.0719,
+        "timestamp": 1669652639
+      },
+      "owner": "0xd915133b4b4e95dd8321f1c29a82552143f4b97c"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xef2e57a3d49b1beff8947d46f5e3098288f18008a88bed03a05d25ed6be52db7",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "140000000000000000",
+            "decimal": 0.14,
+            "usd": 166.14891,
+            "native": 0.14
+          }
+        },
+        "maker": "0xd915133b4b4e95dd8321f1c29a82552143f4b97c",
+        "validFrom": 1670811159,
+        "validUntil": 1673489559,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xaa462106da447c0440a4be29614c19387a59a331/4629"
+        }
+      }
+    }
+  }
+]

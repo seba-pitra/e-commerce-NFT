@@ -1,0 +1,3052 @@
+[
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "7220",
+      "name": "Meka #7220",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a36b84f188b925c421dc365af4c0494d4c9ef08f16d10afe1c5fbb1f08e95907ac155fc106d3f01d8816f0cf52132fce951abf2ec5b487aa432861a1b7792989c782ae4f1a31461b4b54fbc01827419a36fc4d46b45192afc169ce26db033fb3eeae0bcffb7b9d03048ee1b6836669be623c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T15:03:15.867Z",
+      "lastFlagChange": null,
+      "rarity": 98.577,
+      "rarityRank": 8738,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": 0.32344,
+        "timestamp": 1671477599
+      },
+      "lastSell": {
+        "value": 0.215,
+        "timestamp": 1653955615
+      },
+      "owner": "0xb095d9f608d77b95f3ce175ba3cd63534750d60c"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x7d90dab8cbf4e2b1e6c3a5ed44f835b299375489da553ada51364b722a9670ef",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "365023898000000000",
+            "decimal": 0.36502,
+            "usd": 433.2023,
+            "native": 0.36502
+          }
+        },
+        "maker": "0xb095d9f608d77b95f3ce175ba3cd63534750d60c",
+        "validFrom": 1671548533,
+        "validUntil": 1671550377,
+        "source": {
+          "id": "0x2ef16ade581544f8356df46c5035ccc4af1410ab",
+          "domain": "reservoir.market",
+          "name": "Reservoir Market",
+          "icon": "https://www.reservoir.market/reservoir.svg",
+          "url": "https://reservoir.market/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/7220"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "453",
+      "name": "Meka #453",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3b3ac386c817f948b1171e96d9c2abdcd07316ac21dcc45621276776d304d01026135c045d23a508e84e88519ee5efa02b39d87a593524af57b44aa41a140bb123b8419f1fdfd39a1209796b2f51c4490046f84e163c31d5fba1b9b18d1122faf3d4975bc4b70061fbfd19f096ee97e123c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T14:33:12.321Z",
+      "lastFlagChange": null,
+      "rarity": 195.718,
+      "rarityRank": 5041,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": 0.3301,
+        "timestamp": 1671191363
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xa21565e046873f939dce98bd220c1c8e67a5aab8"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x88598dfd7afb1fa8dbf0bd9b2a54e0c41819033d9c56c366ecd958c381465328",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "366800000000000000",
+            "decimal": 0.3668,
+            "usd": 435.31014,
+            "native": 0.3668
+          }
+        },
+        "maker": "0xa21565e046873f939dce98bd220c1c8e67a5aab8",
+        "validFrom": 1671546486,
+        "validUntil": 1671550086,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/453"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "1366",
+      "name": "Meka #1366",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a0c990d39fd87e1ca40cb1f2052914e512f752a86c14f05b598fc0cda014abe4789b3ffb883051fb10525b9b36eb48faa97f7ebcebd5e2ca921c331a258d80db75f030f08a4a735675ed2f177c194a2f751d15904f3066e757eb51784b96c2dd15865efcb11c6f48e19e0f5c68f6e32f723c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T12:15:05.242Z",
+      "lastFlagChange": null,
+      "rarity": 160.401,
+      "rarityRank": 6301,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": 0.33001,
+        "timestamp": 1671477335
+      },
+      "lastSell": {
+        "value": 0.21,
+        "timestamp": 1653955358
+      },
+      "owner": "0xa21565e046873f939dce98bd220c1c8e67a5aab8"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x747b8c46aa094bbb68c41174382c3e829f5427dd016f47a825271535382b21ad",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "366800000000000000",
+            "decimal": 0.3668,
+            "usd": 435.31014,
+            "native": 0.3668
+          }
+        },
+        "maker": "0xa21565e046873f939dce98bd220c1c8e67a5aab8",
+        "validFrom": 1671545498,
+        "validUntil": 1671549098,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/1366"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "2737",
+      "name": "Meka #2737",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a39f3c479821f014fa3d466a16409a68d27d944cdc14b8c9ce43ab31ceddbcc1868351a8a6f90ee317c6ae38a8c92e0f4c8c4dd8c3c46e9e11e2bbf9f55dd9b92d061a17ab943a7f65e9ccc0cd227b6c3bc888808a455801f92850d1e76a30c33641bdd6c9de1fe1f17397d1761ec8bb423c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T11:25:48.072Z",
+      "lastFlagChange": null,
+      "rarity": 153.819,
+      "rarityRank": 6591,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xfafe4fc4784975eb5e7ef5b6c1128b5842f1f2ee"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xe5d98c8fc5ab9dc10bcc33709ccae83aea3da81cd7627a702e710611dc4aedd7",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "366900000000000000",
+            "decimal": 0.3669,
+            "usd": 435.42882,
+            "native": 0.3669
+          }
+        },
+        "maker": "0xfafe4fc4784975eb5e7ef5b6c1128b5842f1f2ee",
+        "validFrom": 1671535163,
+        "validUntil": 1671794340,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/2737"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "3965",
+      "name": "Meka #3965",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ac75c94a45b1ea985512dffb518c38556af8c5a7813d7e49776728d9a9dadbc081e93d5b6366903700118250c2f983607d7f32b074317fdbaef1f5297ee5c51312d763063da3095d9d6e675150000a67d64a78c373e71da7f262b4360f89c37d481aed15b51d3c9ebc7175b5d865db57a23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:06:41.525Z",
+      "lastFlagChange": null,
+      "rarity": 208.484,
+      "rarityRank": 4625,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x9092a6c64c906c5a3eb26ecc69649e76fb7f8b4a"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x136986600323172a218a550c248ab8f0fd7c2c71de420bd4d9b2222a108c41b0",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "367000000000000000",
+            "decimal": 0.367,
+            "usd": 435.5475,
+            "native": 0.367
+          }
+        },
+        "maker": "0x9092a6c64c906c5a3eb26ecc69649e76fb7f8b4a",
+        "validFrom": 1671547946,
+        "validUntil": 1673216927,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/3965"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "755",
+      "name": "Meka #755",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ad13486810739cc6a9f3921295d7981fcfdfafec0e1ecdf46c09ac3a4d8bb1a78b338565527c702e1735841572d3fcb20a7c4bd8269dbb19d77a48351eafe8d59f680e64cff2a05578c5bc310c7a138b37b0cc0143181359f53d064cf9403c100c8e1e7eb4c8d34728368766a8e98b924e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:08:58.115Z",
+      "lastFlagChange": null,
+      "rarity": 201.337,
+      "rarityRank": 4853,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": 0.32,
+        "timestamp": 1671289019
+      },
+      "lastSell": {
+        "value": 1.15,
+        "timestamp": 1646238448
+      },
+      "owner": "0xb51ca7d39deca339268b373b4c40094911491d7e"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x8d5ef9b57ce880e969e4333901c0ac78045fa99910c84a6d836870c15e8a1103",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "370000000000000000",
+            "decimal": 0.37,
+            "usd": 439.10783,
+            "native": 0.37
+          }
+        },
+        "maker": "0xb51ca7d39deca339268b373b4c40094911491d7e",
+        "validFrom": 1671524383,
+        "validUntil": 1673967733,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/755"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "827",
+      "name": "Meka #827",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ac5d3cdd0d632f8bbe28aa7f3d04f776a1d9a80120d2f941d9bb6db765d813b3b811c6c6d625d3004f6241d2bbec86c66b065fb2cd9e0794fd4d3925b787136701f135fd2d3ac10a392180c5a7530bf9a12439856dc4c343f68ead4d0333781e16e3c12bed15bfc3d2f0877e45db71310e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": true,
+      "lastFlagUpdate": "2022-12-17T06:43:36.504Z",
+      "lastFlagChange": null,
+      "rarity": 146.835,
+      "rarityRank": 6904,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": 0.38837,
+        "timestamp": 1669293107
+      },
+      "lastSell": {
+        "value": 0.3759,
+        "timestamp": 1669293107
+      },
+      "owner": "0x11f3449a5b8bc48fdf99b50070f344ae83e1fbc0"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x481e8488a5abb560cf46b690d250aa208820ed11f645cc11b06315252e83627e",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "380599999999999910",
+            "decimal": 0.3806,
+            "usd": 451.68768,
+            "native": 0.3806
+          }
+        },
+        "maker": "0x11f3449a5b8bc48fdf99b50070f344ae83e1fbc0",
+        "validFrom": 1671259403,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/827"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "3108",
+      "name": "Meka #3108",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a40ecddaca187ca397b8e68ded30b1256a2888ffe0a4400ddd070f4f691f74b466339b44f9a0ea02aa7a50b2142fd7c0498633a185e33610e6cf45ae0acc55cb994c6803ba03962668719376b644b4a923afa6c082be02f8b57d5845d48e195217b593ab4a5cf3473596e26c76d31431a23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:07:20.701Z",
+      "lastFlagChange": null,
+      "rarity": 119.06,
+      "rarityRank": 8173,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.35,
+        "timestamp": 1665805271
+      },
+      "owner": "0x11f3449a5b8bc48fdf99b50070f344ae83e1fbc0"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x5aa1e5214b63e2ad1a3bd1d171a96c311b28a2e6f47d2cc4aed1dd2d546d2b45",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "380599999999999910",
+            "decimal": 0.3806,
+            "usd": 451.68768,
+            "native": 0.3806
+          }
+        },
+        "maker": "0x11f3449a5b8bc48fdf99b50070f344ae83e1fbc0",
+        "validFrom": 1671259403,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/3108"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "3483",
+      "name": "Meka #3483",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af60d509ecfc633d6d2c4a815bd31cde36f9d8b4920244930635f1bca155bf28374ce7522e958eb01d2f8b496618e4db35befb72bc26488e668b89c4a834489b12f746a0fe3990b27f57afd48791325e8705688ca2f6d829569f55b41f02abd7c5d470f2afc024997c1676866c9694094058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": true,
+      "lastFlagUpdate": "2022-11-27T12:40:00.268Z",
+      "lastFlagChange": null,
+      "rarity": 152.263,
+      "rarityRank": 6681,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": 0.29179,
+        "timestamp": 1670654855
+      },
+      "lastSell": {
+        "value": 0.25,
+        "timestamp": 1657326621
+      },
+      "owner": "0x11f3449a5b8bc48fdf99b50070f344ae83e1fbc0"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x52723eae54362a791d32937987b29b3b645d48cfba2e546a8ad9a48923aeb409",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "380599999999999910",
+            "decimal": 0.3806,
+            "usd": 451.68768,
+            "native": 0.3806
+          }
+        },
+        "maker": "0x11f3449a5b8bc48fdf99b50070f344ae83e1fbc0",
+        "validFrom": 1671259403,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/3483"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "4863",
+      "name": "Meka #4863",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7c5f54c0017b1cae3253d512715a47ef5c9528871637733ed7341812c29b921669b6b5f206c4628c14c3e4cc8a0df2b1e12f7f5a0d374c3e242fdd5e404c717c64f60c3a851b0f14d188f53e24eefcabc3bf9190fc817301caa52aefd5fe5a8bd48b601ec9dd91601a8f906d59371c1e23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": true,
+      "lastFlagUpdate": "2022-12-10T06:47:41.553Z",
+      "lastFlagChange": null,
+      "rarity": 213.397,
+      "rarityRank": 4471,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": 0.32097,
+        "timestamp": 1669884203
+      },
+      "lastSell": {
+        "value": 1.2,
+        "timestamp": 1649877527
+      },
+      "owner": "0x11f3449a5b8bc48fdf99b50070f344ae83e1fbc0"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xeae422a9ff1b1c6b63c664bf599128e631dbdcd5c1443c64f47d4f6b340db708",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "380599999999999910",
+            "decimal": 0.3806,
+            "usd": 451.68768,
+            "native": 0.3806
+          }
+        },
+        "maker": "0x11f3449a5b8bc48fdf99b50070f344ae83e1fbc0",
+        "validFrom": 1671259403,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/4863"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "4997",
+      "name": "Meka #4997",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a90f37a3c2a85a96e48c917f352387dbfb92f67cb903f9961f61a1f3b8cc5681b825b9a2fdff62f21ecda414103dd1de3abfbd29543d6c36c589233552c80119c4c5042be205432a0b1e92f7f46e17eb2a2b1f41b6b87158536946c4bc47de7c508751ef4af369f3ddd7b6983509909b923c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-17T00:29:29.591Z",
+      "lastFlagChange": null,
+      "rarity": 140.772,
+      "rarityRank": 7199,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.35,
+        "timestamp": 1665805271
+      },
+      "owner": "0x11f3449a5b8bc48fdf99b50070f344ae83e1fbc0"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x04d1d4f2794459acb1ce485d63f03126234c56664ac469d1104d65ecb1b49816",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "380599999999999910",
+            "decimal": 0.3806,
+            "usd": 451.68768,
+            "native": 0.3806
+          }
+        },
+        "maker": "0x11f3449a5b8bc48fdf99b50070f344ae83e1fbc0",
+        "validFrom": 1671259403,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/4997"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "27",
+      "name": "Meka #27",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a6aae365d1a147ae097e918fadd7b0d321e8284ca097389fbd7e9305b7064a26b4a5c88de78a2aa9a3744daec254dd3a7cb40ecb7b458f5f23a059f0f2bfa656c5922178669574846e334ab03ce39a934effd08d0ed76548468004074a79d77d63c20cc1c690f565ddd28a6e89061974723c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:09:29.992Z",
+      "lastFlagChange": null,
+      "rarity": 207.965,
+      "rarityRank": 4653,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x93540353f301dd94a35be4139613fe731bd2008a"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x2cac33832bc7c114cc9c7c1ac57e72f95a0420c9b0ff30f13e7ba74ca10ae43b",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "390000000000000000",
+            "decimal": 0.39,
+            "usd": 462.84339,
+            "native": 0.39
+          }
+        },
+        "maker": "0x93540353f301dd94a35be4139613fe731bd2008a",
+        "validFrom": 1669903344,
+        "validUntil": 1672581744,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/27"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "8121",
+      "name": "Meka #8121",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a14cf0849a611247ed5ca5d1ec5bba544c8231614300d9e7e6b0e93ee9374673cf20d799f7a570ce4413a1bfc3ce09d81210a6cc00c8e2e62d401becfe77ffb03a4e8a035deed5dc4510a861aa8861bb3cc1dbbd711d32107e883bdbadb8b3507545bd5f789d395e8df280c4fa05a57ce23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:02:26.780Z",
+      "lastFlagChange": null,
+      "rarity": 180.431,
+      "rarityRank": 5514,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": 0.38,
+        "timestamp": 1669739195
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x62ff887e3add1bbaa09ce27aefe7f3621c995bf1"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xfa256e117531ce8f57efc40c380bc9b3f4376090004239110ff4367ec040d6c1",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "390000000000000000",
+            "decimal": 0.39,
+            "usd": 462.84339,
+            "native": 0.39
+          }
+        },
+        "maker": "0x62ff887e3add1bbaa09ce27aefe7f3621c995bf1",
+        "validFrom": 1671453163,
+        "validUntil": 1674045118,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/8121"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "1410",
+      "name": "Meka #1410",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af711ef56e60a3bf359fc00a33356886de92339646ffbbc35a894b41b555b647c7b8e62d32e59ac71abf75f37fb3da197ba65e738913b213ba1dbb7ee1f122fdc0e7fda17baca98a1b54d938884375823017392464a9a1f59f507599e9df6d7d3de995786cf918914dfbd19781f9cd80f23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-09T10:12:08.827Z",
+      "lastFlagChange": null,
+      "rarity": 109.089,
+      "rarityRank": 8499,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": 0.1851,
+        "timestamp": 1663176531
+      },
+      "lastSell": {
+        "value": 0.346,
+        "timestamp": 1670488463
+      },
+      "owner": "0xd3e30d4914c650cfa94f6b32f8c240c763f2d389"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x5299d512a6ca99bdb3914e57b763e482722c0999381d8c67ddc39ac8ccf2eebe",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "398000000000000000",
+            "decimal": 0.398,
+            "usd": 472.33761,
+            "native": 0.398
+          }
+        },
+        "maker": "0xd3e30d4914c650cfa94f6b32f8c240c763f2d389",
+        "validFrom": 1671109607,
+        "validUntil": 1673694413,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/1410"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "1403",
+      "name": "Meka #1403",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ac0109c921c58516b463977c949f6fad37751b96f4611e0338e938ee8e9eb58524aa39a7af708ca59840bd68dba5824e61d9feb96fec7262727c6dc597c4969c665a2160e003f13c4e17f9638cdc070fbbcfa10cec2172cef81ec6480a448e493790ac4d23b2fd08d34a3ee4c42866b9123c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:08:31.297Z",
+      "lastFlagChange": null,
+      "rarity": 152.154,
+      "rarityRank": 6691,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": 0.355,
+        "timestamp": 1670590235
+      },
+      "lastSell": {
+        "value": 0.32,
+        "timestamp": 1651753486
+      },
+      "owner": "0x4c4c5444f6445b87a17956b5e38afd631a4513bf"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xb2f7dfb57ad99b5febf6ff36f0f7c2f100e9fe39ec5a80e364a246449b560009",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "400000000000000000",
+            "decimal": 0.4,
+            "usd": 474.71117,
+            "native": 0.4
+          }
+        },
+        "maker": "0x4c4c5444f6445b87a17956b5e38afd631a4513bf",
+        "validFrom": 1671355245,
+        "validUntil": 1673819027,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/1403"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "2532",
+      "name": "Meka #2532",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a491bb96e2cd14b8fb8d548e55fd88481d190b1bb4a6c0d02d3dbecba5c46dfe6723721c0f7e40270e0736b507c67def0b0f59d093064ec107199900e61d97f4cd45ad4244511586b3c38579ee4b5c123923c8e865a365a5aa711be4349d57279d1ab9875cbced9fb848c3795204e3c7ee1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:07:43.892Z",
+      "lastFlagChange": null,
+      "rarity": 157.843,
+      "rarityRank": 6412,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": 0.35,
+        "timestamp": 1670762819
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x4c4c5444f6445b87a17956b5e38afd631a4513bf"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x7aff18edc86c6a17733e6c841ebc58fc2a5687d1ae2f45f4fdfb2e6471afefd0",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "400000000000000000",
+            "decimal": 0.4,
+            "usd": 474.71117,
+            "native": 0.4
+          }
+        },
+        "maker": "0x4c4c5444f6445b87a17956b5e38afd631a4513bf",
+        "validFrom": 1671355197,
+        "validUntil": 1673819531,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/2532"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "5395",
+      "name": "Meka #5395",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a8970e64a704e04256d9b27fb4b6329b9d96479781ae2fd4024e7a53deb6beba8209050d63781b5f595c5752737251369b375c5d5c96a2da9704b366ebb5324d02da6f66f836ebba17621746fc8a9596739c7396c17be426f1079a905520eec059975dff047401446cd542c4f6d1cfccfe1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:05:43.019Z",
+      "lastFlagChange": null,
+      "rarity": 89.681,
+      "rarityRank": 8842,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": 0.3561,
+        "timestamp": 1669868591
+      },
+      "lastSell": {
+        "value": 0.272,
+        "timestamp": 1668447371
+      },
+      "owner": "0xaad33f2a669b969ca0853795468177afc7ed6ebe"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xcb32a71c23cc9d0969cc236716abb997e3ad0a13426116acff9eab32180d4be6",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "400000000000000000",
+            "decimal": 0.4,
+            "usd": 474.71117,
+            "native": 0.4
+          }
+        },
+        "maker": "0xaad33f2a669b969ca0853795468177afc7ed6ebe",
+        "validFrom": 1671458040,
+        "validUntil": 1673190854,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/5395"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "6497",
+      "name": "Meka #6497",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae4c892cf17fb2197f0ff6b689c0e1ce61351d442514ae80cc873a5dc9463bdd368811e14555cc1aedf3a34bc52fbf85f25cd4696090bcdbea3a41b2b875204a0b36b1054b06345e2354ffb24c923d039e272f679c774bcc7ab723d37ded5fa72ca4d6bf5c93a39a09716857b5417663b23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:04:55.259Z",
+      "lastFlagChange": null,
+      "rarity": 184.095,
+      "rarityRank": 5398,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x6cbd920f648c35ae2e512ceb2f317a52439b43aa"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x6d4ab05faa51d91200ddf83590b3175fb77cbe20837c07241f7b31aad1c5a8c6",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "400000000000000000",
+            "decimal": 0.4,
+            "usd": 474.71117,
+            "native": 0.4
+          }
+        },
+        "maker": "0x6cbd920f648c35ae2e512ceb2f317a52439b43aa",
+        "validFrom": 1671132064,
+        "validUntil": 1672445509,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/6497"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "7853",
+      "name": "Meka #7853",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a489a83bc09978a6d0988985813c978e73ae0dddfdb435a2c3f7d3d1523d827b7e52e87ad5228c0838e8fcfc96313a13b8595f78b0f12687e1da0d6474e591a3b83fa34ad249f529f51e007dccd098f001d54e5c18f49a53f841bbdeff4b64c6e69a673532dfc3fa68800f23f3d419fc823c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:03:19.747Z",
+      "lastFlagChange": null,
+      "rarity": 132.698,
+      "rarityRank": 7573,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": 0.25041,
+        "timestamp": 1657396264
+      },
+      "lastSell": {
+        "value": 0.3031,
+        "timestamp": 1657406458
+      },
+      "owner": "0x08f189a5983980cfb5b613065ad5fbf39c62fc59"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xfe6f7c4adab5b41c0262eb0a592c7d849e58f1bb6fb9e6cb4215093d462edba4",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "400000000000000000",
+            "decimal": 0.4,
+            "usd": 474.71117,
+            "native": 0.4
+          }
+        },
+        "maker": "0x08f189a5983980cfb5b613065ad5fbf39c62fc59",
+        "validFrom": 1671022669,
+        "validUntil": 1673614669,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/7853"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "823",
+      "name": "Meka #823",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3fa96e59ec2f9430fc3286f93c413d8baf9541ad55a5c9681b82df382ac8ff02bfcdb4921cf17305238372f29ab9d85b9cec96b0aba7aa399370c93bca8495e42920ef2040e6c90bc8707a80b8aa2905c31b6a9f56412691c99d05c128dfffc798386b67efaaf8c87c0bae8d16f91d34058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:08:55.854Z",
+      "lastFlagChange": null,
+      "rarity": 150.352,
+      "rarityRank": 6760,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x2ba3c2a8807334cf419f00266126ff8655e2191c"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x2b159343b80dcc9e6582547894671ea148e7c8265d63428bb039e358502f697d",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "410000000000000000",
+            "decimal": 0.41,
+            "usd": 486.57895,
+            "native": 0.41
+          }
+        },
+        "maker": "0x2ba3c2a8807334cf419f00266126ff8655e2191c",
+        "validFrom": 1671498702,
+        "validUntil": 1672052438,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/823"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "6971",
+      "name": "Meka #6971",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7afe3d0903b61773e195acb50ca78175a2489cc407114094744166c4458ce85f5673cfd08527a764098eb2b00f1dcb11d52f86a01e9e5b512f35dfd06d7efbb121c626dda6766912449d3407c00a1c6f8eb00426ab70900a16b1e7591a4ae652b9b59b31eb4051497074fbe2332b020b23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:04:36.832Z",
+      "lastFlagChange": null,
+      "rarity": 101.61,
+      "rarityRank": 8683,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.6,
+        "timestamp": 1647930549
+      },
+      "owner": "0x64e55c710550a89d00f39e38dfd07548b51b4943"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x8c683854ffdf534d379248d8e38807d4c7c13364624ac0ef95ae8542b1bce524",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "410000000000000000",
+            "decimal": 0.41,
+            "usd": 486.57895,
+            "native": 0.41
+          }
+        },
+        "maker": "0x64e55c710550a89d00f39e38dfd07548b51b4943",
+        "validFrom": 1670471405,
+        "validUntil": 1673149805,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/6971"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "2556",
+      "name": "Meka #2556",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aaaa4b883e9820bf9f79d97fad3189825233fec9e0016351c8953e327ec10e986dbc5c556beeaada5f08e4f936ad023caaea34b7924bfbf241ab0455a46896e773a9edfd0d7237817ae33a4393c8a0fe0b964afabf5eb17bea4dafe242b4d0aec49a0c96edce1beb44c0ed360a0cda0a123c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:07:43.082Z",
+      "lastFlagChange": null,
+      "rarity": 107.996,
+      "rarityRank": 8521,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x4a90e18f3e90074a820532a3da62b347ea86711b"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x22cdec42368d04d4c1e30f3b9693c3a6e2ff5259ece6044b155ce897e921f8fc",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "428000000000000000",
+            "decimal": 0.428,
+            "usd": 507.94095,
+            "native": 0.428
+          }
+        },
+        "maker": "0x4a90e18f3e90074a820532a3da62b347ea86711b",
+        "validFrom": 1670616196,
+        "validUntil": 1672084980,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/2556"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "2401",
+      "name": "Meka #2401",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75acdf4eeb731a941b285342421e3990e10e31ac5025a28b870e86b0806d2bc5f83271ac3db18884b3a9690223a72bf683cce286c3f176c99468270ee8cfc509af4a2e26ec8929bf9b95bc345db977c16a159df49dee0d0c83bab22da2bedde86e58ebb75b509b6ae3106069047c40c2bf123c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:07:49.222Z",
+      "lastFlagChange": null,
+      "rarity": 183.035,
+      "rarityRank": 5426,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x4a90e18f3e90074a820532a3da62b347ea86711b"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xb2e162f59b97e2d48d1dd2d459ab17b76fbe63e30c9854552a318295c16c2464",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "429000000000000000",
+            "decimal": 0.429,
+            "usd": 509.12773,
+            "native": 0.429
+          }
+        },
+        "maker": "0x4a90e18f3e90074a820532a3da62b347ea86711b",
+        "validFrom": 1669930842,
+        "validUntil": 1672090800,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/2401"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "4755",
+      "name": "Meka #4755",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a624d21cb6cbf330257b264851998868169e4c871cba47379b2351a44e6c1eb5f9e1a149bd416ceb16601d9028262809b4123d996b628c1b1a153b4987d5cc7e8f8ca6b4366e6dbf8f88bdc7d16c9c0583e6c1233c6467006ccf79b76bb594d1c237908485b44663d8e44c3426ead5418e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:06:09.339Z",
+      "lastFlagChange": null,
+      "rarity": 220.375,
+      "rarityRank": 4294,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.398,
+        "timestamp": 1670464811
+      },
+      "owner": "0x43c5704d15851d4e7a7b458d974d49f8392a8d66"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x511f26646dbb6ff594e0b75ff94b834acd3e6c3759360a549f5dd124ec053d38",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "430000000000000000",
+            "decimal": 0.43,
+            "usd": 510.31451,
+            "native": 0.43
+          }
+        },
+        "maker": "0x43c5704d15851d4e7a7b458d974d49f8392a8d66",
+        "validFrom": 1671512019,
+        "validUntil": 1672116725,
+        "source": {
+          "id": "0xdc28ffaea1f91a88fb6fd0a8fe70d71bdd64284c",
+          "domain": "x2y2.io",
+          "name": "X2Y2",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/x2y2-logo.png",
+          "url": "https://x2y2.io/eth/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/4755"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "2498",
+      "name": "Meka #2498",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58451af42da1b7da99f52320e5c9d9d955f40ccd84e2ddf14be18f6cb6d8b60d07215c940f4dba6657d9c570456b7a7f507caeae4eb912a48c81642ec3bc1819a9c3a8aefc10f454a3f135bae8c3355f1e956d3adf35c545e685dd52dbeec29765ab23affd929ff5f0183430cce669aa23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:07:45.544Z",
+      "lastFlagChange": null,
+      "rarity": 205.033,
+      "rarityRank": 4742,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": 0.446,
+        "timestamp": 1669556723
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xf322b2d0d810837a689b518baf25654f860da96d"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x15e1f2b53419d85487f1cae9c5983957ef9a0a36fa2b3483f7b5ebc8549a87cc",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "439900000000000000",
+            "decimal": 0.4399,
+            "usd": 522.06361,
+            "native": 0.4399
+          }
+        },
+        "maker": "0xf322b2d0d810837a689b518baf25654f860da96d",
+        "validFrom": 1670983528,
+        "validUntil": 1671588327,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/2498"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "3373",
+      "name": "Meka #3373",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab88cb51f2182a1ffc16b1aadcadc9b7bcf65dfc67c3e31eeaaec83c9e879942e15730a525075baa112cb0f371b93db450aaea32bd8fb7eba19655040be48147ae42da914248df75bf0706494be247f05ddd41dfa537b35cbab93f9fc8c5e420dc4e24cc7cc8fac2a6013bc493eda403223c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-28T14:57:46.952Z",
+      "lastFlagChange": null,
+      "rarity": 150.189,
+      "rarityRank": 6769,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": 0.391,
+        "timestamp": 1669556987
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xf322b2d0d810837a689b518baf25654f860da96d"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x477cd74cd77c4f68ac18ad2e7cbfac0016df0bc93cdb4c72e4f7dd66b3be1192",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "439900000000000000",
+            "decimal": 0.4399,
+            "usd": 522.06361,
+            "native": 0.4399
+          }
+        },
+        "maker": "0xf322b2d0d810837a689b518baf25654f860da96d",
+        "validFrom": 1670983523,
+        "validUntil": 1671588322,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/3373"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "4684",
+      "name": "Meka #4684",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7f731bb1fe4ab876e43b024a7d8654dd317235530581691393a534eee1aa82c91e288d90125f16697ff16b267aae6ba9d0a40f3087866ee6df2b2a1267f849e42de604af9cf009be1d4dd6c184b732d6a8e552b5069a9b53e3d30a1a492e5df4f8ca2fa7331347dea862d40ee317af9ee1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-23T12:33:06.299Z",
+      "lastFlagChange": null,
+      "rarity": 144.878,
+      "rarityRank": 7004,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": 0.23,
+        "timestamp": 1652244812
+      },
+      "lastSell": {
+        "value": 0.3,
+        "timestamp": 1658859167
+      },
+      "owner": "0x211ce9b0bf7e960594fca984716c56623d21e230"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x444b18ed2c4e5a529bc2a3490a9a3db02c1ff3c88ee2c3972e5b370237886ea6",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "440000000000000000",
+            "decimal": 0.44,
+            "usd": 522.18228,
+            "native": 0.44
+          }
+        },
+        "maker": "0x211ce9b0bf7e960594fca984716c56623d21e230",
+        "validFrom": 1671160877,
+        "validUntil": 1671765670,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/4684"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "210",
+      "name": "Meka #210",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4ca4a8697c238d9f9751ba6512b9c8ff7d9646a5597b7a549a61f533a22a7014d34979bdf333789719b818f1c9866ed00bed369b5d6be4d09637e6e343501ce0511174c471b49f88c20f906643367be429542cf10122c881dbcb63cd82462db52cdc404080e05da899ac8b3f189a64fde1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:09:22.975Z",
+      "lastFlagChange": null,
+      "rarity": 128.951,
+      "rarityRank": 7756,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": 0.411,
+        "timestamp": 1669556891
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xee0b55c9395af9839cc3f86023483fded7e79471"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x6e475a4f5302cadae2b5886029c9e47de5673198fe6dcd0afb0052487ff15b8c",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "444000000000000000",
+            "decimal": 0.444,
+            "usd": 526.9294,
+            "native": 0.444
+          }
+        },
+        "maker": "0xee0b55c9395af9839cc3f86023483fded7e79471",
+        "validFrom": 1671114171,
+        "validUntil": 1673792571,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/210"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "7686",
+      "name": "Meka #7686",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7fc5b21022d43332909e0cd2aff03a96a63d63bfd62b2a1c34e6ade458b9e4de7de695b1194ade21d7faf83155bacbe7836804dcaf51f439ae8e9e70c6bbc68fecf758e771bddcfed99472b677a369daac5378550d02264790b9c9d277e97cca86446f50cec29caca2fb44ac6f64a945058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:03:27.103Z",
+      "lastFlagChange": null,
+      "rarity": 146.6,
+      "rarityRank": 6915,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": 0.4225,
+        "timestamp": 1669556807
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xa1f50ed6656f884df996b7a9a371dd7ef2892ff3"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xc6350031c2a273bbe4690fa47e7963f80a8ae61b59b817303308e93c5bc5f500",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "444000000000000000",
+            "decimal": 0.444,
+            "usd": 526.9294,
+            "native": 0.444
+          }
+        },
+        "maker": "0xa1f50ed6656f884df996b7a9a371dd7ef2892ff3",
+        "validFrom": 1671070930,
+        "validUntil": 1671675730,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/7686"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "946",
+      "name": "Meka #946",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a067fdb0a4f939919dd41dce4c4c07bbe98fd6288192d3cb81e567eedbe8dbff73ac45821898a2e87ea75957a25747fdd3d0f590f605ac2f25281a967fd142fea758e83b2dac3494c3dd7380c05ec6abd262d9e4730fbc84f48a387399b45bd05218382ff1a52a49862390885cf19be79e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:08:49.827Z",
+      "lastFlagChange": null,
+      "rarity": 147.567,
+      "rarityRank": 6866,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xb4cfb411252a80b35b6b73737ff11f510d0f5928"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x3f9f0866bfbf8eec454213c45ba7e4785a210e1edf1a1288a5e596947635c1c1",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "444400000000000000",
+            "decimal": 0.4444,
+            "usd": 527.40411,
+            "native": 0.4444
+          }
+        },
+        "maker": "0xb4cfb411252a80b35b6b73737ff11f510d0f5928",
+        "validFrom": 1670288852,
+        "validUntil": 1672967252,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/946"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "4427",
+      "name": "Meka #4427",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a0aa66314a418b007642092b1c487005fb428d841b548050cab5246bc5083044c3958ff1b82c4e8b2e1161b39f5112382f21000476e84bcb886b0796160e823181a337e1e4b8b0a896eaf8a1c69975c9cc03fdec2c796cbf176663b268fd6bf7db71118d5491e381950b65b12eedb1154e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:06:23.309Z",
+      "lastFlagChange": null,
+      "rarity": 164.545,
+      "rarityRank": 6145,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.3799,
+        "timestamp": 1668812471
+      },
+      "owner": "0x5960621d6a9edc623900ec6f8b5c1643ed8d3146"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x21f5df3bebdca98698588c66268822deba2b0167533a8f27760b2b71140e6b23",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "445000000000000000",
+            "decimal": 0.445,
+            "usd": 528.11617,
+            "native": 0.445
+          }
+        },
+        "maker": "0x5960621d6a9edc623900ec6f8b5c1643ed8d3146",
+        "validFrom": 1671408182,
+        "validUntil": 1671585520,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/4427"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "6789",
+      "name": "Meka #6789",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae0431c04a64b8e92a0ad6c1939f39379b9e46731c4579f73194ff5b104d4a2c7540e26e08db3ac3452c5db04a47d2906a48816bc72cc84e3013b28d03d91a5b0ac94035641ec5824377e55a8f8345c8c110ac975dbba1309a72b885c467aefdf0d366c69a1ebdeaeee45954f95e8afd3058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:04:43.697Z",
+      "lastFlagChange": null,
+      "rarity": 167.026,
+      "rarityRank": 6033,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": 0.4,
+        "timestamp": 1669591919
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x2eac22ba09fc947261739c9cc15c3536d6a000ec"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x9288ae6afadf16da04b2ba55eda57606b439e2b0f5ae93b03c870333211aef9d",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "449000000000000000",
+            "decimal": 0.449,
+            "usd": 532.86329,
+            "native": 0.449
+          }
+        },
+        "maker": "0x2eac22ba09fc947261739c9cc15c3536d6a000ec",
+        "validFrom": 1671115058,
+        "validUntil": 1673793458,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/6789"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "494",
+      "name": "Meka #494",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af79342d16b5893affb1e6735b3560bfa22b769b43d818f304aa5c40e217b41580335a88e4f127adb0cc9a7e3f583d7b78e6390a337d7c2bfab753ac915fe35f843cf0d3c9691138be0ceb3448da3f328ced4d755e544df3b198162a54e5de28a009bdbbf59e041d85400e9cedbab519c23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:09:10.085Z",
+      "lastFlagChange": null,
+      "rarity": 264.067,
+      "rarityRank": 3140,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": 0.31,
+        "timestamp": 1655505605
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xab37d793af8d5dfe779e25b0da76c8f30627b217"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xf52edd8c78e9211b1611998c4106084ad1c217a7b77384ff813d7812f37fbc40",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "450000000000000000",
+            "decimal": 0.45,
+            "usd": 534.05006,
+            "native": 0.45
+          }
+        },
+        "maker": "0xab37d793af8d5dfe779e25b0da76c8f30627b217",
+        "validFrom": 1671278710,
+        "validUntil": 1671730490,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/494"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "8566",
+      "name": "Meka #8566",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a219f34795de330d0d9a14801a2b0f5ac8b0706db49885a4382cac0f99861658b04d0e9841fe938e96611c96a48b8908b17874d292eb535928256ef58b660c15f030495ca28b2bed04dc709398508155dd405875b90b48c0f681d7beabc57ef5bea67b132268324e83f5f884e3ab924a423c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:02:09.580Z",
+      "lastFlagChange": null,
+      "rarity": 191.296,
+      "rarityRank": 5162,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x216e8f4acd9959d722d9c9bad98bdfdceae01755"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xd4d4990126dec09f54eda7fa43deda8914ffb92073d9dbbd8d6b0eb2355555f9",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "450000000000000000",
+            "decimal": 0.45,
+            "usd": 534.05006,
+            "native": 0.45
+          }
+        },
+        "maker": "0x216e8f4acd9959d722d9c9bad98bdfdceae01755",
+        "validFrom": 1670531557,
+        "validUntil": 1671812616,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/8566"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "7129",
+      "name": "Meka #7129",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a94210b957f8436280caa2e31bc8df96f6be5298226af2b8cde148a692b9288b9ddf7f13be2065ea034a6a62fef19566d9664b7e9b734ce4e2ea0a9918b4112acc17318a0eb0e32a8ecd65b5ab35bd0984f94ae382bbc85debdf662746fc47baf71de743d594d293f13c598c8faafc806058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:03:49.198Z",
+      "lastFlagChange": null,
+      "rarity": 126.379,
+      "rarityRank": 7878,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": 0.4019,
+        "timestamp": 1669591439
+      },
+      "lastSell": {
+        "value": 0.4588,
+        "timestamp": 1669451951
+      },
+      "owner": "0x9ae6f872bd544cd20b7086aab5e965c1e219348a"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xc37196980e5953f2373341e4be82b6f7cb725c6a4e2c1752aa279d996b08052d",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "462900000000000000",
+            "decimal": 0.4629,
+            "usd": 549.3595,
+            "native": 0.4629
+          }
+        },
+        "maker": "0x9ae6f872bd544cd20b7086aab5e965c1e219348a",
+        "validFrom": 1671411856,
+        "validUntil": 1672016657,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/7129"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "177",
+      "name": "Meka #177",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a89f2c7fe831bcb0340e996cf577cab9ba5ada00454ec3cd5064be652a4d997e932db7754c3ceb20b2f7c6705a5240fcaeb4a38ba8b48719be136b42aba36dc841af7a1c94ba44dd6cbac2f156954facc6ab2a81f155628f9103769e7014272f1abd6f756344c7700969eedbb9800343723c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:09:24.356Z",
+      "lastFlagChange": null,
+      "rarity": 216.811,
+      "rarityRank": 4374,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x4a90e18f3e90074a820532a3da62b347ea86711b"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xc17904b05c515537738a59c9d901aeda75e8f711887c0dc9337d213aba1faa47",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "464000000000000000",
+            "decimal": 0.464,
+            "usd": 550.66495,
+            "native": 0.464
+          }
+        },
+        "maker": "0x4a90e18f3e90074a820532a3da62b347ea86711b",
+        "validFrom": 1669930925,
+        "validUntil": 1672090920,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/177"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "7403",
+      "name": "Meka #7403",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a254e56f82b83e1e1cd3a27b671a7451d51d76fc82e1b1438b34d30c0a24c09e86123d5955250aecdbf7b078f03a0b8bfa3d735ef21f9d7e9d12220f2f8c10fef48963e82a96020c078fb98f5827b49eec56e7b8326c5ae60c16605b41524955748dfacce89ae53ae34528f1a50467ba723c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:03:38.297Z",
+      "lastFlagChange": null,
+      "rarity": 172.385,
+      "rarityRank": 5822,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.185,
+        "timestamp": 1666750895
+      },
+      "owner": "0x229d636758e752e0738a65313e5ceb546363d740"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xdc58b9e01d95283b9312a9b4ef506fc71f46b63b0189381e28b94c4adac468f6",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "464000000000000000",
+            "decimal": 0.464,
+            "usd": 550.66495,
+            "native": 0.464
+          }
+        },
+        "maker": "0x229d636758e752e0738a65313e5ceb546363d740",
+        "validFrom": 1671546551,
+        "validUntil": 1671805751,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/7403"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "8247",
+      "name": "Meka #8247",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adcf495a81d11fd4baca9fb6a48e2ad0d8241b872247f0110336eff401e4793db0fe69ae047a77aff670a07485024ec5893151c8af29c379804a139d6a72c6fb3ef41da2ba32b65a00e46a9fdd911b59a44e35490d0bc2b1b41c0185ebdfc678713ee040f24b0ea1e2addb9f06aa8646b058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:02:22.003Z",
+      "lastFlagChange": null,
+      "rarity": 100.482,
+      "rarityRank": 8705,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.45,
+        "timestamp": 1669487531
+      },
+      "owner": "0x539d405bf1b99562a7ca6bb1c0347b2c6291b960"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xda8c0a4bf64e76029618c19e2b9388167d2aae0028c70179bd15415ba0acce2c",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "467000000000000000",
+            "decimal": 0.467,
+            "usd": 554.22529,
+            "native": 0.467
+          }
+        },
+        "maker": "0x539d405bf1b99562a7ca6bb1c0347b2c6291b960",
+        "validFrom": 1669572041,
+        "validUntil": 1672079416,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/8247"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "439",
+      "name": "Meka #439",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4af409296a8872c5ead99934cf4c4fa6701326602eca28bcb89a461d9faea25b05a0c7c3e2a1df51b99c9ff71cbbaa3d23d39229c83105da7b31e56274bb2e3048699243b812e5ac4a2ee7a248ea58e8d3ead68b1c916fd839098dddfa556dfb6e159b89bbcf35c3b3afd2f1d91e9a0b058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:09:12.313Z",
+      "lastFlagChange": null,
+      "rarity": 145.72,
+      "rarityRank": 6969,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x4a90e18f3e90074a820532a3da62b347ea86711b"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x46969b7d7bba89530aa433d7d7e3cb57bae74040886ee209a4580a53d98bf4c4",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "469000000000000000",
+            "decimal": 0.469,
+            "usd": 556.59884,
+            "native": 0.469
+          }
+        },
+        "maker": "0x4a90e18f3e90074a820532a3da62b347ea86711b",
+        "validFrom": 1670616263,
+        "validUntil": 1672085040,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/439"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "3170",
+      "name": "Meka #3170",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae220995f885cb308ead1cd96da1f745a4a4b1eecb0d2251f677cd71ef13e95f5dc6d7f84b1f8aed912b242bc1873183780428420ea3385f85d86a1465777f18d8fd7e3477fa1d39a0d503845a0c0e734cdad6cea04a18388906b09df4283bb74933c39d2872045152765452b7e38c44123c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:07:18.332Z",
+      "lastFlagChange": null,
+      "rarity": 164.63,
+      "rarityRank": 6142,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": 0.412,
+        "timestamp": 1669556843
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x3c12ba2b6d6a1f1bc754315d30ebd65f954a7530"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xa8f4dd11fc98101061148692a13d3716b53d8fafaa01fa059a59128e950f8c92",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "479800000000000000",
+            "decimal": 0.4798,
+            "usd": 569.41605,
+            "native": 0.4798
+          }
+        },
+        "maker": "0x3c12ba2b6d6a1f1bc754315d30ebd65f954a7530",
+        "validFrom": 1669560956,
+        "validUntil": 1672152956,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/3170"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "8386",
+      "name": "Meka #8386",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7b2e4cd244a4a6d44f71ad7739ad83a6604e8fdc8d453230ad94a8677ca70f4047a41a6ee5189c39bc9b82f5fb4d6b6512dd7d3b54bba8b6d95b678ba44670196eafef51027942782a98d12cf3d13b4e82935942b487ad78a55afe27195676405d32b27cfca55e355409ae04e98edcee058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:02:16.968Z",
+      "lastFlagChange": null,
+      "rarity": 318.482,
+      "rarityRank": 2056,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xcba1a597261fc24a3569a161c6d8157999b3a342"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x7d0c6ae55c4d1a45e6bdc78738894d0fd5e81b5262dea6e40d783ff686bd86d2",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "480000000000000000",
+            "decimal": 0.48,
+            "usd": 569.6534,
+            "native": 0.48
+          }
+        },
+        "maker": "0xcba1a597261fc24a3569a161c6d8157999b3a342",
+        "validFrom": 1671055464,
+        "validUntil": 1672187215,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/8386"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "6155",
+      "name": "Meka #6155",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aba46b73f56dcfbb967785203280f5f3a90b31d4dfcbd29717d3d2b8b85a7384b3cfee16b942a2023bc713a2552cffc229e4c5ee01d41a5c8093833def23ffa20a57db827bdcbd8c2be05a9031702f9131ca813cec9bf81d2a813b6c33fcef78b0104f6550bdbef6d615169b8ec47feff23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:05:10.181Z",
+      "lastFlagChange": null,
+      "rarity": 102.775,
+      "rarityRank": 8651,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": 0.4612,
+        "timestamp": 1669556639
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xbbf02b1d31b8b99cc02b2a22f51813f62aff9148"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xd7553f72978dd05550a830ca171061a3ccdd5d797dff61fe837f0025cf742b56",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "489000000000000000",
+            "decimal": 0.489,
+            "usd": 580.3344,
+            "native": 0.489
+          }
+        },
+        "maker": "0xbbf02b1d31b8b99cc02b2a22f51813f62aff9148",
+        "validFrom": 1670030622,
+        "validUntil": 1677354575,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/6155"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "3411",
+      "name": "Meka #3411",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a69429d2f3bac6426836189124db649a407723810510e35234146183c4ae2033e99c5bbbbcfeed0912a98bf326a21a252c0bf7c5f0ce358eaecf2a71761ca03968a93f325d31262e41e7fcbec37ceee60beba45f064f33700dc7aba51a972dad0edc00c755376aedacf265625e388c7d023c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:07:08.297Z",
+      "lastFlagChange": null,
+      "rarity": 173.77,
+      "rarityRank": 5769,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.35,
+        "timestamp": 1668627767
+      },
+      "owner": "0x6fdf44e4e578f44975d3de10505d9be5856ba6d0"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x436742098b67d737dd4b3ae8d5c841d3a7b503f539004ee9d7daa886cee83a1b",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "490000000000000000",
+            "decimal": 0.49,
+            "usd": 581.52118,
+            "native": 0.49
+          }
+        },
+        "maker": "0x6fdf44e4e578f44975d3de10505d9be5856ba6d0",
+        "validFrom": 1670000798,
+        "validUntil": 1672679198,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/3411"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "5378",
+      "name": "Meka #5378",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae9eafd969683a37995675c6fc774302756239848fa5b769d028d7f7689bc4d49ac7b8a6a0bdc5fa136b8bc6367f796062994bbd4114b607a8b4946452c644c9a6961513d92211f765f53443e7025576e18a60a8a315c20e264df49943bed2c41df29fa06af96a776b7098078d3123c86058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:05:44.051Z",
+      "lastFlagChange": null,
+      "rarity": 213.204,
+      "rarityRank": 4479,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x917d6eba229425bb917ecffbd821df6b199d9591"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x863946c2b5cf3cd8dc3a3b3d168e5d7b8a81f0a097b3fb83eb0c3df05b24ea96",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "500000000000000000",
+            "decimal": 0.5,
+            "usd": 593.38896,
+            "native": 0.5
+          }
+        },
+        "maker": "0x917d6eba229425bb917ecffbd821df6b199d9591",
+        "validFrom": 1670319979,
+        "validUntil": 1672998379,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/5378"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "7582",
+      "name": "Meka #7582",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aa48fa070a1dad4469b45f23ace7d3c5df4e92745bfeedd5ebe3b8ac454cbc045bc33efffea6c9b41760134d9ce06ed0219bdfd8356f97e703e05789b08f3c5dda1862917ac198f8e669767667b647d0dd6512eea992a387313289810a78337ab13455ba4a3128cb6dd855039ce55d99123c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:03:31.072Z",
+      "lastFlagChange": null,
+      "rarity": 162.336,
+      "rarityRank": 6222,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x17234614cf901c77a38757f396dc3fdab52f73d2"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xc282da857d299779a6499b280573c5bc7e3f1e99efdbb4de1e1a4609e4e3b0c7",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "500000000000000000",
+            "decimal": 0.5,
+            "usd": 593.38896,
+            "native": 0.5
+          }
+        },
+        "maker": "0x17234614cf901c77a38757f396dc3fdab52f73d2",
+        "validFrom": 1670510639,
+        "validUntil": 1673189039,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/7582"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "462",
+      "name": "Meka #462",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a36cac045c1b87e05ba5dfb22874ac5fbed94b1e2f7f914bfeffd4602af90470436fabad2360f68dfe2fdb09f52d47ff5b9cb8f7303597c8fc2cfefd9512144dce41dd367931ce0d4c34e5099362adf782a212c9b2b182c2af5a1d0635631b22b8b3bf1dc34665f1508a7297bd5d31a4023c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:09:11.653Z",
+      "lastFlagChange": null,
+      "rarity": 335.317,
+      "rarityRank": 1819,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x23abd34ac3c08b261196c5061d04a613d18dd2db"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x94328134b50a7095f0d679d57785f06ad1a6f156ff68da2038515f80c519d690",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "510000000000000000",
+            "decimal": 0.51,
+            "usd": 605.25674,
+            "native": 0.51
+          }
+        },
+        "maker": "0x23abd34ac3c08b261196c5061d04a613d18dd2db",
+        "validFrom": 1671216289,
+        "validUntil": 1686768289,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/462"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "1489",
+      "name": "Meka #1489",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5b3f27c3fb92573829442de405e375943486d3ed8652c95b468a085bf9fb184b1685f5ad7f890e386e3b8a6a8800713c0da8f400739b71d19c713c1799aa23ba59c4e61acddcc0a60d0b2d92f783e6391282861d02a7cb0c5003b3ce8d18a672eaff98f679e362a55460714f02c86422058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:08:27.865Z",
+      "lastFlagChange": null,
+      "rarity": 282.57,
+      "rarityRank": 2731,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.4,
+        "timestamp": 1670517971
+      },
+      "owner": "0xb22cc5be1f83edf38ecb3ce0e8efe8b0387fdf6d"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x0442b0bbb34e1c000e548f764ec9d9eb94f7dc9e4435daed7db2a4f86cb28201",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "514000000000000000",
+            "decimal": 0.514,
+            "usd": 610.00385,
+            "native": 0.514
+          }
+        },
+        "maker": "0xb22cc5be1f83edf38ecb3ce0e8efe8b0387fdf6d",
+        "validFrom": 1671442452,
+        "validUntil": 1674120852,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/1489"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "6986",
+      "name": "Meka #6986",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75abfad5dea8775c60f5d5899b205456fced571be3c63d89cd8f91977888ea8ed636c661885fd603fb9a04352d620f9a8e1526a0b29d015de0ccc0a4c1e778817441ded1ca0c0f2393117d7aa1236ea262a8d23dcca01f20afe1c783dfe8b8ece1fa547337a0871bc03c01e21564e06948d058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-17T20:51:27.203Z",
+      "lastFlagChange": null,
+      "rarity": 120.791,
+      "rarityRank": 8099,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": 0.22,
+        "timestamp": 1667017595
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x13ba165509fe4e31781c812ad77549311d058197"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x5994be372e5f01c3ae2cbd33d3037f5fdf67da73b4ce35c85e22188e663f6fc2",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "529900000000000000",
+            "decimal": 0.5299,
+            "usd": 628.87362,
+            "native": 0.5299
+          }
+        },
+        "maker": "0x13ba165509fe4e31781c812ad77549311d058197",
+        "validFrom": 1669495009,
+        "validUntil": 1672070303,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/6986"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "425",
+      "name": "Meka #425",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a958086fd48a80034673a722bcc15370a0c8c00ee3c66e5cda182e9b22feae216178be387dd3b9ba568f5debb763fc9fb9657a84c90fd779d4cc3a612950c317cec10efe2ca5f9ec6e0e70dbe7f665b9616aab105272a69bbef2c1ad15b5d98b4c4c15d8ccc716b184e38761186118dc923c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:09:13.281Z",
+      "lastFlagChange": null,
+      "rarity": 128.482,
+      "rarityRank": 7777,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xa23dbcb07aa1d3df6539846ffc2f4521f67fab9d"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x6831928bd64dc85d3d88b82d22c8521dbc7898aaaa89b763aa32a23ae5e588c1",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "530000000000000000",
+            "decimal": 0.53,
+            "usd": 628.9923,
+            "native": 0.53
+          }
+        },
+        "maker": "0xa23dbcb07aa1d3df6539846ffc2f4521f67fab9d",
+        "validFrom": 1670204164,
+        "validUntil": 1672882564,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/425"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+"category": ["Humanoid", "Robot", "Cartoon", "3d", "Futuristic", "Normal", "Flat"],
+      "tokenId": "2049",
+      "name": "Meka #2049",
+      "description": "Meka from the MekaVerse - A collection of 8,888 unique generative NFTs from an other universe.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a74dab531e7de01c401fdf48805482d21c1e06c5dc7fa5cb9f6c51c9a3a390a27b87163349c0ac07d7f168878a418a96cf282e2f34fdda1101848ff469ecc89692fa1c3cbd0f90363cbae1e573b6825593a2b6b6ee2b0c61c9e19c90f91d5513a84a657bc2825c48ea1ddda6109fed5f4e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-11-16T12:08:04.872Z",
+      "lastFlagChange": null,
+      "rarity": 245.62,
+      "rarityRank": 3599,
+      "collection": {
+        "id": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
+        "name": "MekaVerse",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeb320e3cbc561263d5b4d8ee37d1bd0f063eda9ce8cbdec5d2570b07e1b8fd6ebc694b0ca1b5208f8903412403dcbf607aeac6ab2ee3e38d50248f96a1bdca9f31efd5afd40ece7a257f99e40db7e8020b98c5d62dca2f0de802bd0c6eeb4903b49c9f8c58a114c6f25406799a750b1de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+        "slug": "mekaverse"
+      },
+      "lastBuy": {
+        "value": 0.2387,
+        "timestamp": 1666602491
+      },
+      "lastSell": {
+        "value": 0.2574,
+        "timestamp": 1666763339
+      },
+      "owner": "0x760f43d31ff980d7a77979435de9192551e87aa0"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x8f9463e0b35b060e4b333a66f6417b7c4169b2e697645867ef18e934c99049bc",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "538800000000000000",
+            "decimal": 0.5388,
+            "usd": 639.43594,
+            "native": 0.5388
+          }
+        },
+        "maker": "0x760f43d31ff980d7a77979435de9192551e87aa0",
+        "validFrom": 1669470868,
+        "validUntil": 1672062868,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f/2049"
+        }
+      }
+    }
+  }
+]

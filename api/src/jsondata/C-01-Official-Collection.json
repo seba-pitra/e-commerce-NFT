@@ -1,0 +1,3052 @@
+[
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "2528",
+      "name": "C-01 #2528",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a567fd0d0a4d8b1e45cdf942d56e892d151997c430d7e682826daba5fbbe95ec4dd9825f06e9f7b56587fe133dfab85fde492fa0656d27acfe0b1133d29e03017a64bbc657d7d584be2f5a3b8e974f1ac169469c36ef865f66418b154582702fd49a6274a1d2973a6f228e4a45581d8ad23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": true,
+      "lastFlagUpdate": "2022-12-04T11:23:17.927Z",
+      "lastFlagChange": null,
+      "rarity": 72.609,
+      "rarityRank": 6583,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": 0.159,
+        "timestamp": 1649105974
+      },
+      "lastSell": {
+        "value": 0.03,
+        "timestamp": 1662900620
+      },
+      "owner": "0x732aacc0866931e31871697dc85827c04939f7db"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x4f156d52c8b571042976e23481924e317088f60de67b9bcc4cdd8e72246a3586",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "26000000000000000",
+            "decimal": 0.026,
+            "usd": 30.85622,
+            "native": 0.026
+          }
+        },
+        "maker": "0x732aacc0866931e31871697dc85827c04939f7db",
+        "validFrom": 1662901150,
+        "validUntil": 0,
+        "source": {
+          "id": "0x4749e292ba93ecc24639c5e8dc518c73283ae148",
+          "domain": "sudoswap.xyz",
+          "name": "sudoswap",
+          "icon": "https://sudoswap.xyz/assets/favicon/apple-touch-icon.png",
+          "url": "https://sudoswap.xyz/#/item/0x6fd053bff10512d743fa36c859e49351a4920df6/2528"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "3454",
+      "name": "C-01 #3454",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aa71a981b06f1496f66ad48d58ea546264625dcb46b9d43b24c546592f979be55131ed1dcc26c7fa14e3d1aed7882304d25ece5cbfd0b14cf5054bc45e674fc96b72477157092168c4b4fe64c77278db978e989ceebe61c436c1a0d5c1bf05d6643c1c6538074a245e7b3d4f772aaf189058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T14:56:57.979Z",
+      "lastFlagChange": null,
+      "rarity": 79.926,
+      "rarityRank": 5495,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xe5da9119dcad90da04202650f1e93e0993f52e1d"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xcd75746f2d762ebd27d10514d4f9756a22eea7bc023adb4ae03cfad7f1eadf22",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "44000000000000000",
+            "decimal": 0.044,
+            "usd": 52.21823,
+            "native": 0.044
+          }
+        },
+        "maker": "0xe5da9119dcad90da04202650f1e93e0993f52e1d",
+        "validFrom": 1671547963,
+        "validUntil": 1674226363,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6fd053bff10512d743fa36c859e49351a4920df6/3454"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "7584",
+      "name": "C-01 #7584",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3e67585fb4d8abc23144334ace9fab9233a602a449d4d556cae7c39eb05578b31afd5bfe5dc9b5c87d8565b6d0555eca6a3c604bc78bae6a60fbed2f1e3dacf7321791fd1655fe928017d7a3f72566627d71ae25187329270519054b3774fdb6b0195d686299fbf2cc94f15db2fec703e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T00:43:28.485Z",
+      "lastFlagChange": null,
+      "rarity": 68.732,
+      "rarityRank": 7161,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.29,
+        "timestamp": 1645047294
+      },
+      "owner": "0xe6dbd9495b077a63807e7b17fb45751545910894"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xf8e671e7a23d2de6bbf449d196e24f4a3d791a85066d1247ae2d3d71fb82fc16",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "45000000000000000",
+            "decimal": 0.045,
+            "usd": 53.40501,
+            "native": 0.045
+          }
+        },
+        "maker": "0xe6dbd9495b077a63807e7b17fb45751545910894",
+        "validFrom": 1671410408,
+        "validUntil": 1671669608,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6fd053bff10512d743fa36c859e49351a4920df6/7584"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "7824",
+      "name": "C-01 #7824",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2ee9dc9f79cf30e9b73dc63b632bbc283947d5b8298ee2e05ac586a37cb3a5108e98f090eb17cc03e234165278d172a49554703d51753d3859cd244ae64db1deae42248fa066a4cf25254ef492625d8345323ae6641cd51f678453d73949cb46a8ca7b2466d71ead6c75e9de0792b9623c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T11:18:45.972Z",
+      "lastFlagChange": null,
+      "rarity": 66.999,
+      "rarityRank": 7409,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x4a90e18f3e90074a820532a3da62b347ea86711b"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x27c1bf26db5c25c702c693c8dc73fb3187b405e2b9860db84739168051f0fa18",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "47700000000000000",
+            "decimal": 0.0477,
+            "usd": 56.60931,
+            "native": 0.0477
+          }
+        },
+        "maker": "0x4a90e18f3e90074a820532a3da62b347ea86711b",
+        "validFrom": 1670619288,
+        "validUntil": 1672088040,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6fd053bff10512d743fa36c859e49351a4920df6/7824"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "5474",
+      "name": "C-01 #5474",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5c5326764280eead3bb7e0ba24f3281c2f9737c93fe311e54e0c2a8dc53fe6e5717b2d8803d37b4c781e1061f7a8d24923a574e1d11879dba99072f6370d66459d896f2139b45ee037f66d6031db6c6fe2a5633e6af74d2e94ea5fe5fe1077f40a1776888b459e76c8468440f2ea8628058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T11:21:04.202Z",
+      "lastFlagChange": null,
+      "rarity": 102.894,
+      "rarityRank": 3125,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x4a90e18f3e90074a820532a3da62b347ea86711b"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xc960e621de9da94f1b5c169cb377ea7e34d5d69c7ec1acb245c991aa6d287e48",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "47800000000000000",
+            "decimal": 0.0478,
+            "usd": 56.72798,
+            "native": 0.0478
+          }
+        },
+        "maker": "0x4a90e18f3e90074a820532a3da62b347ea86711b",
+        "validFrom": 1670619263,
+        "validUntil": 1672088040,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6fd053bff10512d743fa36c859e49351a4920df6/5474"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "3113",
+      "name": "C-01 #3113",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a1bcb9cd6ad9ab28ed0a1a7cdf12404f0c34b3b2a762d50d2de8a1a99243f13c68b8b6b88ccd567b2645ca5ef28737962b05bd28e5a9541ad0ad7d19a7f687fe61816c49ef3e0dca8132674460f201985b26765d77c57af7d4bde25b868fd71d676c6315c1b0b12863335ef1f42bf5d23058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T11:22:54.609Z",
+      "lastFlagChange": null,
+      "rarity": 68.529,
+      "rarityRank": 7198,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.02001,
+        "timestamp": 1666093823
+      },
+      "owner": "0xbb93664780e5e4e22f5255c774bfc455ebfa789e"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xad163392db6c58a10f08cf8770488045c57abd5acfcf531dd6067e9b322b7c90",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "48000000000000000",
+            "decimal": 0.048,
+            "usd": 56.96534,
+            "native": 0.048
+          }
+        },
+        "maker": "0xbb93664780e5e4e22f5255c774bfc455ebfa789e",
+        "validFrom": 1668863010,
+        "validUntil": 1684415009,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6fd053bff10512d743fa36c859e49351a4920df6/3113"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "4971",
+      "name": "C-01 #4971",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a40b8d414c669694a9f8494c36e8779037ef79028bc5c152386c9ab2a52d39b50201b8ffac532cf8baa92da208a53fd0a5bbb7c630161d7d2529d76d1a5fcf671b0623a6fa0b9b8a5d3f074294cfab6ed510221044bc79a81bd90e5b27fdd2b19250f6e56fb4034daabc5beace8ffd083e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T11:21:26.311Z",
+      "lastFlagChange": null,
+      "rarity": 88.385,
+      "rarityRank": 4433,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": 0.142,
+        "timestamp": 1649985939
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xf21037a91d14d95b2a6c1a518cd3806d94b202b9"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x4eb1d52160d08303ed503597a4c0c50345e3993f24d12075d7fb068f534fa1e6",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "48800000000000000",
+            "decimal": 0.0488,
+            "usd": 57.91476,
+            "native": 0.0488
+          }
+        },
+        "maker": "0xf21037a91d14d95b2a6c1a518cd3806d94b202b9",
+        "validFrom": 1670262093,
+        "validUntil": 1671730860,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6fd053bff10512d743fa36c859e49351a4920df6/4971"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "4066",
+      "name": "C-01 #4066",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af037c5c8aa128d5534c24bad62e017b56b23b46f590742b6981b518536cd9cf7e45135781b92a9a22a989a4a36048587a55a3540335c9abeff98dee10d5373a2933aeb80188f91725754c52490f7f3aa0db30c127e78c01500cf657bd47ef870e7bf196d6c60b76ce32c3fc47c67938123c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T11:22:06.787Z",
+      "lastFlagChange": null,
+      "rarity": 75.035,
+      "rarityRank": 6221,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.02001,
+        "timestamp": 1666093823
+      },
+      "owner": "0xbb93664780e5e4e22f5255c774bfc455ebfa789e"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xb65c3e72f4df41dfbc0b5d009d31dde0d1fd5512ee6a0af449376e7a890a7d63",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "49000000000000000",
+            "decimal": 0.049,
+            "usd": 58.15212,
+            "native": 0.049
+          }
+        },
+        "maker": "0xbb93664780e5e4e22f5255c774bfc455ebfa789e",
+        "validFrom": 1666094461,
+        "validUntil": 1681646461,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6fd053bff10512d743fa36c859e49351a4920df6/4066"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "5102",
+      "name": "C-01 #5102",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aac832cde107ddefc5ff09017d3697b869d821f4ab20209d6666bf428e7259f147ebf6bbb19d08ca943320e29ab3b3eb966af1a51b8c7facdf7f93d1603144d7bbdfe13a7f283fe34ac6609f3d3a5098c63a0c4009314fb358ab46674480ed9bc0a6214ee3be802a2a2c9ea92ee55abd023c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T11:21:21.321Z",
+      "lastFlagChange": null,
+      "rarity": 73.963,
+      "rarityRank": 6376,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.02001,
+        "timestamp": 1666093475
+      },
+      "owner": "0x96b5074abc1655266afeb5596104919d6dc5fb1d"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x0c11f8bf2aa8d8f399c93704f9e56df4bd35440473e3ea6e23e92cbce4187418",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "49400000000000000",
+            "decimal": 0.0494,
+            "usd": 58.62683,
+            "native": 0.0494
+          }
+        },
+        "maker": "0x96b5074abc1655266afeb5596104919d6dc5fb1d",
+        "validFrom": 1668969031,
+        "validUntil": 1671561031,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6fd053bff10512d743fa36c859e49351a4920df6/5102"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "3892",
+      "name": "C-01 #3892",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab12f2b5311aff4c6d4c462585efb75bf8c5931b97eee9afef6edb07db2b291ba64088d14c89449638e5de78b353e3004411266db71e3ccf7dfad0e73d963a3941d7ced9916da844a2d2822d788182b1686d876b1dff39326d249bfd14c38250aeb26978980e1ffad03862589901fabb323c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T11:22:16.561Z",
+      "lastFlagChange": null,
+      "rarity": 58.954,
+      "rarityRank": 8193,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x6a96ed3839ade4fa4967d75555215eb98084018b"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xf3bf90295c325f46764bc34903de5b9fe27b06eed60e4f88753a29a2c7989347",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "50000000000000000",
+            "decimal": 0.05,
+            "usd": 59.3389,
+            "native": 0.05
+          }
+        },
+        "maker": "0x6a96ed3839ade4fa4967d75555215eb98084018b",
+        "validFrom": 1667133695,
+        "validUntil": 1674909637,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0x6fd053bff10512d743fa36c859e49351a4920df6/3892"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "3921",
+      "name": "C-01 #3921",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af8c5e569a1662873a3e391bc19c5657249454098f3c002babff2d5ffd302d0aa5a4602794fa1c5e38e39e049cd2f8655cced22914975e0f4613cec86cbb41ba1c320b93aeb1bc9f158b1b652dd4261f4019ec06a29f5a2a19bbda11feb924430d03460ab745c42963d837ad498e5541023c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T11:22:15.002Z",
+      "lastFlagChange": null,
+      "rarity": 52.057,
+      "rarityRank": 8627,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.235,
+        "timestamp": 1645794481
+      },
+      "owner": "0x69ddb2c6d31926a27e5caf44523233df08ab9bb3"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x1c2ba0ea5ba3da0ae76ff1120eb218edda75cc7108ea5cb898761f0126398f0f",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "50000000000000000",
+            "decimal": 0.05,
+            "usd": 59.3389,
+            "native": 0.05
+          }
+        },
+        "maker": "0x69ddb2c6d31926a27e5caf44523233df08ab9bb3",
+        "validFrom": 1667754071,
+        "validUntil": 1683302471,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6fd053bff10512d743fa36c859e49351a4920df6/3921"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "5248",
+      "name": "C-01 #5248",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a2efbbbdfd39d6da4084ca2283988df2583fa2bff21b992fa9ae1cc51fcbb8fa97faeb8dd856f1c0f0c53d66df8566e870c42977618ba343df3aefabbad241321e9ca87fe457f7ec5f6e11feeaf2a83e0c8282d83b3a1e7ec377df75a75161b4b50142fb19e56dd5c470f7e9ffb185321058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T11:21:13.995Z",
+      "lastFlagChange": null,
+      "rarity": 130.742,
+      "rarityRank": 1660,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x8e23e66d2ce8f23814eedd6f209201b1b8424f8c"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xa9348026b000e02c742cc0e81874acd919d32e00ca4d95cb6764780d4f33ef5f",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "50000000000000000",
+            "decimal": 0.05,
+            "usd": 59.3389,
+            "native": 0.05
+          }
+        },
+        "maker": "0x8e23e66d2ce8f23814eedd6f209201b1b8424f8c",
+        "validFrom": 1671107734,
+        "validUntil": 1673786134,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6fd053bff10512d743fa36c859e49351a4920df6/5248"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "2498",
+      "name": "C-01 #2498",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a57aed97c3193f3be17656ee04a9bb3640975aef48b432833f13a3c16e27e75e5321a947ca44ee468ba352243ec60bdbe36233426c3df0f35c35b80b78fe063de2ef25f0a934ed536d5534524a309a44fee1dfa41357d80e94aa6e2e65a34aef057dd97c4e2c9f07b7abe5bb7a7e834b623c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T11:23:18.725Z",
+      "lastFlagChange": null,
+      "rarity": 65.689,
+      "rarityRank": 7544,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.02001,
+        "timestamp": 1666093823
+      },
+      "owner": "0xbb93664780e5e4e22f5255c774bfc455ebfa789e"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x816a1ac0675fa9d146b824b8c1045fab4d6dd5f11c0ac2874c14bc864e97aa86",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "55000000000000000",
+            "decimal": 0.055,
+            "usd": 65.27278,
+            "native": 0.055
+          }
+        },
+        "maker": "0xbb93664780e5e4e22f5255c774bfc455ebfa789e",
+        "validFrom": 1668862999,
+        "validUntil": 1684414998,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6fd053bff10512d743fa36c859e49351a4920df6/2498"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "6239",
+      "name": "C-01 #6239",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ace5f1bd3fd80602afd41473d8988d4236be8c2b4cf923c0bf6034e9f40937c38bb77d7b084be4b156e4c1a6ba745e9eeddbc32759bf2cf77667c3bc5f686f38a168e4319f3e339ac53b97ed061f91c058a69e43f75781c928627f189b782a691469e8fec664125a53b025b5683d90ef3058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T11:20:29.987Z",
+      "lastFlagChange": null,
+      "rarity": 106.498,
+      "rarityRank": 2898,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.02001,
+        "timestamp": 1666081535
+      },
+      "owner": "0xbb93664780e5e4e22f5255c774bfc455ebfa789e"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xaa0171cb20c54d933b45839fee5dd21762fb87ba67ed779db5f8b53fa5ae572c",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "58000000000000000",
+            "decimal": 0.058,
+            "usd": 68.83312,
+            "native": 0.058
+          }
+        },
+        "maker": "0xbb93664780e5e4e22f5255c774bfc455ebfa789e",
+        "validFrom": 1666082420,
+        "validUntil": 1681634420,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6fd053bff10512d743fa36c859e49351a4920df6/6239"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "1806",
+      "name": "C-01 #1806",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75afe8aef2c00f39e17e182353f5ad7c3fbe88748792ee3c8e9cce3468301594c48efa89ba65ca5575fe9a496698827e7a25dbd0a0b8390cb1e634519686258c6d941ce84821ef8ef0b3722fa3a72a011da0566bb8eebb3c70c26862f717fdcf231fb6d67c7090c48b55c961fd1661a46dd058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T11:24:24.949Z",
+      "lastFlagChange": null,
+      "rarity": 115.066,
+      "rarityRank": 2354,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.279,
+        "timestamp": 1644820750
+      },
+      "owner": "0xf21037a91d14d95b2a6c1a518cd3806d94b202b9"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x39d780c447a9696064c8f65222cea178de745e19c33583f8e2d15acbff7f6df5",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "58800000000000000",
+            "decimal": 0.0588,
+            "usd": 69.78254,
+            "native": 0.0588
+          }
+        },
+        "maker": "0xf21037a91d14d95b2a6c1a518cd3806d94b202b9",
+        "validFrom": 1670262166,
+        "validUntil": 1671990120,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6fd053bff10512d743fa36c859e49351a4920df6/1806"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "2963",
+      "name": "C-01 #2963",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ace87a5ab5d1b94ccd9e34e9ef73de84225ab8f2f2fb4fa5299676a7f7bca25d5d2ca6161f22182fee2756b738f4b12eeba5882668f5d4234844e3390343456d9f2be0a20001f57cde19f3bcc6fc075f1760715d874076fa5e4c305fa55366326d2702d4758d7082ab9bc0b16b6dd40c823c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T11:22:59.461Z",
+      "lastFlagChange": null,
+      "rarity": 66.78,
+      "rarityRank": 7432,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": 0.0332,
+        "timestamp": 1666082063
+      },
+      "lastSell": {
+        "value": 0.044,
+        "timestamp": 1666606307
+      },
+      "owner": "0x58714f4c926ae28fda1751500b7d07668a6efb24"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x2e26e3995a3297c34d53d7ed59648d0ed3ca38ae0adffc2d725525afeb8a5cf9",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "59000000000000000",
+            "decimal": 0.059,
+            "usd": 70.0199,
+            "native": 0.059
+          }
+        },
+        "maker": "0x58714f4c926ae28fda1751500b7d07668a6efb24",
+        "validFrom": 1668850725,
+        "validUntil": 1676626725,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6fd053bff10512d743fa36c859e49351a4920df6/2963"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "5403",
+      "name": "C-01 #5403",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7fe75b22688312bb97e2398d7826de841bcecfa622affa667f1e4fe6e8035bdb24d36e0edef2c2cf4ad570f62858d82d5a8b7440c9a7786c83f2a4561b59dc0c2dde5b9ba9b61da791e0c4a22342cc7bbafc11d6be8486feb6bf0c68dc129112bd6326c0b8e3a8be383019b9b494292523c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T11:21:07.591Z",
+      "lastFlagChange": null,
+      "rarity": 56.377,
+      "rarityRank": 8391,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.02001,
+        "timestamp": 1666093475
+      },
+      "owner": "0x96b5074abc1655266afeb5596104919d6dc5fb1d"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xa8fb0a11e2d6dbec29f94f960bf2dd21e12d14e96f2bb75c8cef4063073ac688",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "59400000000000000",
+            "decimal": 0.0594,
+            "usd": 70.49461,
+            "native": 0.0594
+          }
+        },
+        "maker": "0x96b5074abc1655266afeb5596104919d6dc5fb1d",
+        "validFrom": 1668969071,
+        "validUntil": 1671561071,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6fd053bff10512d743fa36c859e49351a4920df6/5403"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "3614",
+      "name": "C-01 #3614",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75afd58459497125c7bd6b19fcdf40ff1ffd67a105fd4065698452c6c9a409aad5a3cfc69cf69b457c3bab506fdc15e5f1df61aff0ab6fcf14c1be36d9a180154e943f48035f34f60bdd5d4d1691cff94aa030e13565485ce164b65f7cc31ce1facef8047dc32102349821f3d8e6495834ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T11:22:30.125Z",
+      "lastFlagChange": null,
+      "rarity": 69.102,
+      "rarityRank": 7107,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.02001,
+        "timestamp": 1666093475
+      },
+      "owner": "0x96b5074abc1655266afeb5596104919d6dc5fb1d"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xafb71128ddb75ac0e93f0a50d5faf061459b3d45684939ffb99f44e5233d830c",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "64000000000000000",
+            "decimal": 0.064,
+            "usd": 75.95379,
+            "native": 0.064
+          }
+        },
+        "maker": "0x96b5074abc1655266afeb5596104919d6dc5fb1d",
+        "validFrom": 1668969106,
+        "validUntil": 1671561106,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6fd053bff10512d743fa36c859e49351a4920df6/3614"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "936",
+      "name": "C-01 #936",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75abbec9963bbaa6a20fc20b103d166a65a9cec54edc7934a7339c653b1742d6125d696c7df04e1a372cda7b8366188d2a259a9adc0ec58a28337503559bbf3f66504ff5133b7cfebfba71c97ad00c0b3c54c484bc58b7ff178bce627383139989543c043833976d0d05ad61a55c351c573058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T11:25:55.064Z",
+      "lastFlagChange": null,
+      "rarity": 119.441,
+      "rarityRank": 2135,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.03,
+        "timestamp": 1662830020
+      },
+      "owner": "0xbb93664780e5e4e22f5255c774bfc455ebfa789e"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xdf2e8c6f15150c8c7f86164372dc9bd628e7f0248773a5fe6ee4b08aa03820cb",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "65000000000000000",
+            "decimal": 0.065,
+            "usd": 77.14056,
+            "native": 0.065
+          }
+        },
+        "maker": "0xbb93664780e5e4e22f5255c774bfc455ebfa789e",
+        "validFrom": 1665450428,
+        "validUntil": 1681002428,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6fd053bff10512d743fa36c859e49351a4920df6/936"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "7760",
+      "name": "C-01 #7760",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aa67189f32b536df9c343effbacd7d56dd012fe2bbeb7cc5dc27ed95b3c2af4d480e964c4eee2c78dfd6e273d5f7072c4e455691b0bcddaab8ed820fed5e720bd9304cee66b0f4d1c1e366c62faaad5d5b79fde90acfa75f8b67f72ef2f35d2c88494572abd28b40a820926d200cc3e0c23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T11:18:48.876Z",
+      "lastFlagChange": null,
+      "rarity": 69.586,
+      "rarityRank": 7030,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": 0.16,
+        "timestamp": 1649105974
+      },
+      "lastSell": {
+        "value": 0.03,
+        "timestamp": 1662820423
+      },
+      "owner": "0xbb93664780e5e4e22f5255c774bfc455ebfa789e"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xc5abede6d14e78740dd25d370a7d846dc4f4c7516a8b81cebb34853917cf81d1",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "69000000000000000",
+            "decimal": 0.069,
+            "usd": 81.88768,
+            "native": 0.069
+          }
+        },
+        "maker": "0xbb93664780e5e4e22f5255c774bfc455ebfa789e",
+        "validFrom": 1665450637,
+        "validUntil": 1681002637,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6fd053bff10512d743fa36c859e49351a4920df6/7760"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "3234",
+      "name": "C-01 #3234",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a8664f39807c56f983a656fcdbd735e7a3ae2b7717891f42d80693ee7376499797149c0eb4fb25a97c72fce2db0d724fa6a7a7d04af2deb0146e023a744d8a89b0c18d5b09189965a7fad38b0704b55b9aece1171f1959f889a0b785bf55d5e9009c0abab3dcd3ef51708656892e80fb4e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T11:22:49.111Z",
+      "lastFlagChange": null,
+      "rarity": 73.642,
+      "rarityRank": 6421,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.02001,
+        "timestamp": 1666093475
+      },
+      "owner": "0x96b5074abc1655266afeb5596104919d6dc5fb1d"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xcd84ed7659601e5bf3e11d2b300fd1033ee9d8ed1a22c04fd21efa0881920f48",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "69400000000000000",
+            "decimal": 0.0694,
+            "usd": 82.36239,
+            "native": 0.0694
+          }
+        },
+        "maker": "0x96b5074abc1655266afeb5596104919d6dc5fb1d",
+        "validFrom": 1668969136,
+        "validUntil": 1671561136,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6fd053bff10512d743fa36c859e49351a4920df6/3234"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "1722",
+      "name": "C-01 #1722",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4ac92a34c2d2761067c93ece286768e92e5cbf07391b64efc5f312f7a007488414f1e3bc423f4d37f3ef521dd4a3715bbfd659ea916b65c639a5960aa15fd63a760e3d141a7cc2968fccf68809f69918d836edb55a88720a8bc31d95ccd72d55f936c22e9f529994d52f4fb1bc7f85b0e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T11:24:29.355Z",
+      "lastFlagChange": null,
+      "rarity": 76.369,
+      "rarityRank": 6025,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x7bb3f99d74d3d207c79bb0fa62c4e79db3c53722"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xf3a42a0441e3273165dfb8429952f1af7369f0156fc9e33d39b8fa522ca38765",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "70000000000000000",
+            "decimal": 0.07,
+            "usd": 83.07445,
+            "native": 0.07
+          }
+        },
+        "maker": "0x7bb3f99d74d3d207c79bb0fa62c4e79db3c53722",
+        "validFrom": 1671537225,
+        "validUntil": 1672142025,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6fd053bff10512d743fa36c859e49351a4920df6/1722"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "3414",
+      "name": "C-01 #3414",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75accfdd4d63e317c88ec57d6c0a431942fd8af4639c16ef548207d4ab119da8c8227c828d9115a98e77588f2082e24c71f9ebe009830410fce05f01d0cd17dc6a7cb2e2f0359184a302fc6547121254c89d68226dd48a7042373d3bedbe4b831847c3bff33586cda43e3497c3186a09838058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T11:22:40.010Z",
+      "lastFlagChange": null,
+      "rarity": 71.848,
+      "rarityRank": 6691,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.056,
+        "timestamp": 1657525443
+      },
+      "owner": "0x50e7ce09bf1592cabc3072966a14403df7168a97"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xf15023c10d7da345f62b764a5a41bea93c6371a5a3b8afa7167b3577750797be",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "70000000000000000",
+            "decimal": 0.07,
+            "usd": 83.07445,
+            "native": 0.07
+          }
+        },
+        "maker": "0x50e7ce09bf1592cabc3072966a14403df7168a97",
+        "validFrom": 1669588794,
+        "validUntil": 1672180794,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6fd053bff10512d743fa36c859e49351a4920df6/3414"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "8220",
+      "name": "C-01 #8220",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aecff8d950323e1088cac5d9ec487842e6d7f53d936ae4f66953e4e649fbe4e8c0d2513770ed905a37720ed8ad82aee28e9636933a4aa97f979cfb4490b4bfc21ad85bd6fe141e7c92f333d26cdf17f243a5c0d098aa7e8c789ff2c6e6afbbe54354f9660cf3496595ae3875ec6f99d7c23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T11:18:18.512Z",
+      "lastFlagChange": null,
+      "rarity": 93.502,
+      "rarityRank": 3883,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x2ba3c2a8807334cf419f00266126ff8655e2191c"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xe656fe7ff124f2b92a1b1e87d523797d702edebb464aaf926a7839cb41ee2752",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "70000000000000000",
+            "decimal": 0.07,
+            "usd": 83.07445,
+            "native": 0.07
+          }
+        },
+        "maker": "0x2ba3c2a8807334cf419f00266126ff8655e2191c",
+        "validFrom": 1671283490,
+        "validUntil": 1671888290,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6fd053bff10512d743fa36c859e49351a4920df6/8220"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "4765",
+      "name": "C-01 #4765",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a819f63449b91ed645bdd6b0e84ced3a95cf81cba653d576cd334f234f1ca4817a5dab788739a92f7b323d83343f78621136a3210f8c3d755d5cab92b89238f648ae8172e418f63c439138ffcac40d957c7238b1759e6b1cfdc2a98013b26d8affa238d0ec6f21783eff28f69cb6d0e881e9cbf17948473242070ca80b70c6daf",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T11:21:34.975Z",
+      "lastFlagChange": null,
+      "rarity": 91.258,
+      "rarityRank": 4099,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.02001,
+        "timestamp": 1666093475
+      },
+      "owner": "0x96b5074abc1655266afeb5596104919d6dc5fb1d"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x2ba4401a5fe02cb4ede23d125d7116637e49ab1f70f16056fac650abe965727d",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "74400000000000000",
+            "decimal": 0.0744,
+            "usd": 88.29628,
+            "native": 0.0744
+          }
+        },
+        "maker": "0x96b5074abc1655266afeb5596104919d6dc5fb1d",
+        "validFrom": 1668969164,
+        "validUntil": 1671561164,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6fd053bff10512d743fa36c859e49351a4920df6/4765"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "65",
+      "name": "C-01 #65",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aab8fd9d03183d9950f9a092852464f450c0d3db712a29074d6221b0a7dc1f2c89ed3e748d580d4421e77b9e41577cea465afcbc57b734a2205d6989152b751c66a6a2f10e67d19efb06b275855e68c1316cea2ba76210d588ab7fb00c2b91ba5e3a62c35ede78118ae71dc1644c8d4f5e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T11:26:38.490Z",
+      "lastFlagChange": null,
+      "rarity": 92.646,
+      "rarityRank": 3963,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": 0.0381,
+        "timestamp": 1657184603
+      },
+      "lastSell": {
+        "value": 0.075,
+        "timestamp": 1656998581
+      },
+      "owner": "0xbb93664780e5e4e22f5255c774bfc455ebfa789e"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x8073beacdb16af6012e778b6474efbcad3f1e604c506131deeacaa310a7a10da",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "78000000000000000",
+            "decimal": 0.078,
+            "usd": 92.56868,
+            "native": 0.078
+          }
+        },
+        "maker": "0xbb93664780e5e4e22f5255c774bfc455ebfa789e",
+        "validFrom": 1665450749,
+        "validUntil": 1681002749,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6fd053bff10512d743fa36c859e49351a4920df6/65"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "7696",
+      "name": "C-01 #7696",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aaf5f0d6aea5ef64719c5c8c9a4079a14315b2026763eb974b8f59ac862bd7d92818a89cce3537a04e1e220ae7caa6b01fb72835391180d13e970c21aef7662af977d2c3e0e29c2f3326be40de268ed322a3e676c57f812574bc8ad3b3ebbad013105ec0278551e72f7619b9d80e0266be1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T11:18:51.324Z",
+      "lastFlagChange": null,
+      "rarity": 54.703,
+      "rarityRank": 8478,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.02001,
+        "timestamp": 1666093139
+      },
+      "owner": "0xbb93664780e5e4e22f5255c774bfc455ebfa789e"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xe7949a5d4014e2d5a9b3d4bce0aac4e15cf9492a965ce216f12a0829f8740ff0",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "79000000000000000",
+            "decimal": 0.079,
+            "usd": 93.75545,
+            "native": 0.079
+          }
+        },
+        "maker": "0xbb93664780e5e4e22f5255c774bfc455ebfa789e",
+        "validFrom": 1666094232,
+        "validUntil": 1681646232,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6fd053bff10512d743fa36c859e49351a4920df6/7696"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "8072",
+      "name": "C-01 #8072",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af0dc4842cbb990f60f0f1d1a7353ce091a37e8a2984a610c75a413111a2207499c9b1a7bd2a6e904f0a3988bfcb2189920ce0124eb85e051a0029b1268999589ca2f2985a89e980c0d17d3dc309ac4e6bc0ff67d2d8fa23c3f7707f3730f285349cae0f8e650a935934098c34ddeaa70e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T11:18:25.449Z",
+      "lastFlagChange": null,
+      "rarity": 85.183,
+      "rarityRank": 4806,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x04c7aa3362c199350adcaf31fc7f5a29e23c9708"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xe4ec78b69daebdd071219d379fbbe8e661eff84dd87533586bf67c1064c895db",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "79000000000000000",
+            "decimal": 0.079,
+            "usd": 93.75545,
+            "native": 0.079
+          }
+        },
+        "maker": "0x04c7aa3362c199350adcaf31fc7f5a29e23c9708",
+        "validFrom": 1670652311,
+        "validUntil": 1673330711,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6fd053bff10512d743fa36c859e49351a4920df6/8072"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "3277",
+      "name": "C-01 #3277",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af5ae58a278aee82908c7f3baf2c227d871d3c0dc90242d82c753547588f377650f40750e19d37d2b8046f507d22d3c2487df1206919ffc1591658f05da288229544eec1c3476bc769fdc025c1229759b91118dac3278ea7ca7d4668f662b48e21f6f6508ac1fde1f33c47f53b4f0ecf8e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T11:22:47.446Z",
+      "lastFlagChange": null,
+      "rarity": 86.704,
+      "rarityRank": 4610,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.02001,
+        "timestamp": 1666093475
+      },
+      "owner": "0x96b5074abc1655266afeb5596104919d6dc5fb1d"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xafa59ed848c20402d86ee3e41390986c7556d06cd7815fe2a9c5ba94c5ce7d10",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "79400000000000000",
+            "decimal": 0.0794,
+            "usd": 94.23017,
+            "native": 0.0794
+          }
+        },
+        "maker": "0x96b5074abc1655266afeb5596104919d6dc5fb1d",
+        "validFrom": 1668969201,
+        "validUntil": 1671561201,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6fd053bff10512d743fa36c859e49351a4920df6/3277"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "6214",
+      "name": "C-01 #6214",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a36b819e94b8bec74af21a8ff2416a7e1c5c6fbe7dd284045ddf4b1c89ff5756ef8d28bf266d6213821c2366b4d786d4939d0339537902025105589b8c538586f1569a94d3dc60b43c3b9f496d008b7fc2b021d1120608c698cb927194fa649dc69491133fa0793377408371bf724843523c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T11:20:30.757Z",
+      "lastFlagChange": null,
+      "rarity": 163.227,
+      "rarityRank": 920,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x8204175def438ecb8bf1842456d2f34c57e6f4d1"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xd940b29043149b47675faaf055f3806cfeacd394a6bde6e058fd6f08a8d9ef6f",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "83000000000000000",
+            "decimal": 0.083,
+            "usd": 98.50257,
+            "native": 0.083
+          }
+        },
+        "maker": "0x8204175def438ecb8bf1842456d2f34c57e6f4d1",
+        "validFrom": 1671033274,
+        "validUntil": 1673711674,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6fd053bff10512d743fa36c859e49351a4920df6/6214"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "7991",
+      "name": "C-01 #7991",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a0d57a08807886149ec5981cd638cd76f9f700d59ad4063a1f2b3a9364a20dcb738ea7315cbd296e64d046eed0f2486f93d1632a437019cc70fda52c639cd600c2716b844299d66a946abb2104d119e9d16206e563d61af503eb02ce07e264fe6861e12e154ddecbfaa8b021cb7f78838058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T11:18:38.057Z",
+      "lastFlagChange": null,
+      "rarity": 136.077,
+      "rarityRank": 1500,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x4a90e18f3e90074a820532a3da62b347ea86711b"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x4f81c4f66ac2cccbde83b7c92fa2b2615f7835bbdc22a50c3737cd853c00581b",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "87500000000000000",
+            "decimal": 0.0875,
+            "usd": 103.84307,
+            "native": 0.0875
+          }
+        },
+        "maker": "0x4a90e18f3e90074a820532a3da62b347ea86711b",
+        "validFrom": 1670619340,
+        "validUntil": 1672088100,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6fd053bff10512d743fa36c859e49351a4920df6/7991"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "7705",
+      "name": "C-01 #7705",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a9a14a9e7ab4c923478db8f2c60c74bde830f74fa32cf8e574a9a8c50730f4e0de543a7cef2d3c69b53e9733831a8a1134cdb0a9d3ee1ac6212221f4786fc8866cdad0d9bc9d27f49d3c5424f0496fec30739e26b022fdf61310785b00655c4ee4a634cf41207fe45273329657bce599023c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T11:18:51.323Z",
+      "lastFlagChange": null,
+      "rarity": 73.018,
+      "rarityRank": 6517,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.02001,
+        "timestamp": 1666093139
+      },
+      "owner": "0xbb93664780e5e4e22f5255c774bfc455ebfa789e"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x52c0028aca4f0dfd04132cbbde6be0dfc8a135265100f0dbf223adf0655abc5b",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "88000000000000000",
+            "decimal": 0.088,
+            "usd": 104.43646,
+            "native": 0.088
+          }
+        },
+        "maker": "0xbb93664780e5e4e22f5255c774bfc455ebfa789e",
+        "validFrom": 1666094097,
+        "validUntil": 1681646097,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6fd053bff10512d743fa36c859e49351a4920df6/7705"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "5424",
+      "name": "C-01 #5424",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7c6dba9f4c0b19ea4006ecf99d90830f78e4a9f180e4076a9f44f0e0a57f19972be003f2b001d3bc1498dba3e9ee31ecdcec6fa7f4015a928f43554ba301c45500d09ee313a44338fc9babca55a83789f2a622f94b8d011b3d4612b758ad90bb8ebd942b2b6e1a3c088510eba4c3891ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T11:21:07.127Z",
+      "lastFlagChange": null,
+      "rarity": 76.437,
+      "rarityRank": 6012,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.02001,
+        "timestamp": 1666093139
+      },
+      "owner": "0xbb93664780e5e4e22f5255c774bfc455ebfa789e"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xdb63207e4c8e71a8341559aa38a0d64ad66490a410d2e747e03750befb05bac6",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "89000000000000000",
+            "decimal": 0.089,
+            "usd": 105.62323,
+            "native": 0.089
+          }
+        },
+        "maker": "0xbb93664780e5e4e22f5255c774bfc455ebfa789e",
+        "validFrom": 1666094294,
+        "validUntil": 1681646294,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6fd053bff10512d743fa36c859e49351a4920df6/5424"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "1044",
+      "name": "C-01 #1044",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a6ecc0fdf9f26263ad1941e729426fb86ea2b175d88de12557b9928ba39007a6f4d11d86349b30c760b2175d5b9f2c5eaf03cd8b6da194aa60d3653e2193fdc3b3b67e3901ff6001aa7fd5b8ac162fad099a5ab29408270365dca26633ac1672fd45e301fa91d52f8c02854833811dab7e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T11:25:05.488Z",
+      "lastFlagChange": null,
+      "rarity": 92.748,
+      "rarityRank": 3955,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.25,
+        "timestamp": 1645644848
+      },
+      "owner": "0xbe34164bffc7f8e827484ea8606c43aeac0d2720"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x0d952a95761e43854eb9839052dfa8b9d9283ce531d2990675d1ed67235a4406",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "90000000000000000",
+            "decimal": 0.09,
+            "usd": 106.81001,
+            "native": 0.09
+          }
+        },
+        "maker": "0xbe34164bffc7f8e827484ea8606c43aeac0d2720",
+        "validFrom": 1658724453,
+        "validUntil": 1674276453,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6fd053bff10512d743fa36c859e49351a4920df6/1044"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "1862",
+      "name": "C-01 #1862",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7873b38d501944e319b9b09549a9da316b44b3c29ac53d543b2ad8dad4ccfa842bc47ac31da93ba3dc42b0da5e350e0500d7231b5fd8f57f3312cd1db9a454187d8a1b2a0833827e4cea7fe7072411a40a5d736c8dfb351f41295e13dd68a0de160bd28593f3e0489b6953fee5a2ddefe1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T11:24:23.529Z",
+      "lastFlagChange": null,
+      "rarity": 82.588,
+      "rarityRank": 5130,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x7d31fad9a16d314707e1c9823045eceb566b18d6"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x47d9515cd9727de2481bb0946691ff5efa5be30104e895ee69cdaac453ee2b5b",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "90000000000000000",
+            "decimal": 0.09,
+            "usd": 106.81001,
+            "native": 0.09
+          }
+        },
+        "maker": "0x7d31fad9a16d314707e1c9823045eceb566b18d6",
+        "validFrom": 1667219658,
+        "validUntil": 1682771658,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6fd053bff10512d743fa36c859e49351a4920df6/1862"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "5101",
+      "name": "C-01 #5101",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a65bc060328c28a7d1d651db394053da07727f75e421c0f893d321df74841a105c76e4cc6b31c3f32818babe4fa39e71eda511b4eb05bdaea06b83f15e9647ff777470c1f435a63b6fec5c66420a864225834ffb56a6d81149d085eeb42b26b8f6faa3423a18cd41999190822175ccb4423c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T11:21:20.938Z",
+      "lastFlagChange": null,
+      "rarity": 154.568,
+      "rarityRank": 1071,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x862bb4dae420ad9bbf9292b8915e4bc6a4de6802"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xfd06252c3807a6cd6b1663f49e3be5a5d8b0195f45fd15688a405fca9b5cab1a",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "90000000000000000",
+            "decimal": 0.09,
+            "usd": 106.81001,
+            "native": 0.09
+          }
+        },
+        "maker": "0x862bb4dae420ad9bbf9292b8915e4bc6a4de6802",
+        "validFrom": 1671200258,
+        "validUntil": 1673792223,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0x6fd053bff10512d743fa36c859e49351a4920df6/5101"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "7369",
+      "name": "C-01 #7369",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7fb0341c5a52efa3d86c1122854f363eb2ec8a5a1344ad82f43b61148401300601af83fadef2117a0c407223389557f205bb2868ef34b68b281728ea7beb7c62606187216a32f4568d5a6bbf94617f0136d5c4170382bb3908c5832d4d7774e9f07ab48bd73a5b87aac7706784c632dce1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T11:19:07.833Z",
+      "lastFlagChange": null,
+      "rarity": 69.526,
+      "rarityRank": 7041,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": 0.0191,
+        "timestamp": 1668342359
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xef1e7ec8e1894f34f4d6d6eff8d9a55233c77ca2"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x70307bd72431edd1c408f00eacc2e7ae0975fe566257a070dc630275f00e5726",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "94900000000000000",
+            "decimal": 0.0949,
+            "usd": 112.62522,
+            "native": 0.0949
+          }
+        },
+        "maker": "0xef1e7ec8e1894f34f4d6d6eff8d9a55233c77ca2",
+        "validFrom": 1668349950,
+        "validUntil": 1676125940,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0x6fd053bff10512d743fa36c859e49351a4920df6/7369"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "674",
+      "name": "C-01 #674",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a9c8061047460d5a5ff6ffeb8b515b7dee0274e0adbba7432419230bcf3f0e12ae4c1d9909f376e05d23ebce035d10af8ec67d4aadc5634ae7244ce02572cc22035717631d2bc42a6078e32e2786c387b089113c3e0480cc33ea5d186dd7bce19e79c06f06d5ccce9073dbe31931951dd058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T11:26:07.673Z",
+      "lastFlagChange": null,
+      "rarity": 94.509,
+      "rarityRank": 3782,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.02001,
+        "timestamp": 1666081535
+      },
+      "owner": "0xbb93664780e5e4e22f5255c774bfc455ebfa789e"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x8b2b85ffa1f55b535f2f00a602b184fa50fc91feb30e01ef6f780333100b61f9",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "98000000000000000",
+            "decimal": 0.098,
+            "usd": 116.30424,
+            "native": 0.098
+          }
+        },
+        "maker": "0xbb93664780e5e4e22f5255c774bfc455ebfa789e",
+        "validFrom": 1666082453,
+        "validUntil": 1681634453,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6fd053bff10512d743fa36c859e49351a4920df6/674"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "4618",
+      "name": "C-01 #4618",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae17bb5af18534ac12e74b655269d79cbf5667db98764e1969716dfde2ebf4c632d6c4821aa59e16178aa683e69738331305841f509f14b74b9370c8cb50ed6c0503a8a14bce409c84ba8ae9ff7ed4deb9f4275b1ff548e741a372c310c1ef2a67e63c7d3395218b393e933dbfd9aed3023c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T11:21:42.604Z",
+      "lastFlagChange": null,
+      "rarity": 73.725,
+      "rarityRank": 6412,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.02001,
+        "timestamp": 1666093823
+      },
+      "owner": "0xbb93664780e5e4e22f5255c774bfc455ebfa789e"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xfeb0dbc204a33d6c2ae4a667f386dafd5f84384071bdeb546df94244d1644314",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "98000000000000000",
+            "decimal": 0.098,
+            "usd": 116.30424,
+            "native": 0.098
+          }
+        },
+        "maker": "0xbb93664780e5e4e22f5255c774bfc455ebfa789e",
+        "validFrom": 1668863015,
+        "validUntil": 1684415014,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6fd053bff10512d743fa36c859e49351a4920df6/4618"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "5395",
+      "name": "C-01 #5395",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a0de685637d745d4cd2ca27b07ec03978c0e9ed0cac15959b64eb1b82fbf6b11a0c84bc65b0e8e7ec7a3941d9565c7ccaeacea8080ab35e8578a126c0daef295935188e4607471216539a2a3b0d437ef9a8a00b0066b3b638fdcee2053235ebf87503634e7e21e0041d100199e8bbfd75e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T11:21:08.393Z",
+      "lastFlagChange": null,
+      "rarity": 73.974,
+      "rarityRank": 6375,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.02001,
+        "timestamp": 1666093139
+      },
+      "owner": "0xbb93664780e5e4e22f5255c774bfc455ebfa789e"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x423c73fedcfd9e1215ddc9ad465be5f39916b131d358f078857b7337e193ecb2",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "98000000000000000",
+            "decimal": 0.098,
+            "usd": 116.30424,
+            "native": 0.098
+          }
+        },
+        "maker": "0xbb93664780e5e4e22f5255c774bfc455ebfa789e",
+        "validFrom": 1666094328,
+        "validUntil": 1681646328,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6fd053bff10512d743fa36c859e49351a4920df6/5395"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "6298",
+      "name": "C-01 #6298",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a2a4fb281818307fea3d43a6fc7a2abbfb77b99f5a109a709d709fd7de9fd6fa4670a5ede31ee9b643ecf5297b3db742a87d73a37ac6cd1684c6aad762d88be366effd3eaaa8a1d035be91b24b939b67f7d66931ae68d5a4775cbc0c75d27e2fe0a6b6f4bf66a7c0f8d298bbcc8d79fb5e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T11:20:27.319Z",
+      "lastFlagChange": null,
+      "rarity": 145.055,
+      "rarityRank": 1273,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.03,
+        "timestamp": 1662820423
+      },
+      "owner": "0xbb93664780e5e4e22f5255c774bfc455ebfa789e"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xcac670eab2a5f0b7c357e7250b1e4491e7b308908646566b9a949ac97fea05da",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "98000000000000000",
+            "decimal": 0.098,
+            "usd": 116.30424,
+            "native": 0.098
+          }
+        },
+        "maker": "0xbb93664780e5e4e22f5255c774bfc455ebfa789e",
+        "validFrom": 1665450663,
+        "validUntil": 1681002663,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x6fd053bff10512d743fa36c859e49351a4920df6/6298"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "612",
+      "name": "C-01 #612",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a24778dce67ee9f0112bd68f49e9ded522550f2f41c36295ecaac1f95384c3399b8edb3c3a4dd28df027accaef134ef87ec00d3afcbda05e2c7c2ac13629e02fa6e2f1332cd5f4f8cfaf0a4776a611b375493e1b7343b40527f81337cab263372ee930c795654ff1f010412b6cb83494a23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T11:26:10.871Z",
+      "lastFlagChange": null,
+      "rarity": 79.826,
+      "rarityRank": 5512,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.02,
+        "timestamp": 1666953755
+      },
+      "owner": "0xef1e7ec8e1894f34f4d6d6eff8d9a55233c77ca2"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x0b2c3a67856691b288ee4eca27920b91645cbcb3aff9eceea83570e8446980b9",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "98900000000000000",
+            "decimal": 0.0989,
+            "usd": 117.37234,
+            "native": 0.0989
+          }
+        },
+        "maker": "0xef1e7ec8e1894f34f4d6d6eff8d9a55233c77ca2",
+        "validFrom": 1671360731,
+        "validUntil": 1679136690,
+        "source": {
+          "id": "0xdc28ffaea1f91a88fb6fd0a8fe70d71bdd64284c",
+          "domain": "x2y2.io",
+          "name": "X2Y2",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/x2y2-logo.png",
+          "url": "https://x2y2.io/eth/0x6fd053bff10512d743fa36c859e49351a4920df6/612"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "3191",
+      "name": "C-01 #3191",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aff1a7e3497371b7c028ae154455428ebda03da3443d4043c9318cfe748a557711262cb6aae871443b0aaa13e577358838cad83a9e9f58fad658de82037ac256917b49fed47d96dda25cbcebf5e4ff250b0ee415c4a730b72e092a99fbf4527850a59df30f042b992b250c7f4a134ac04058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T11:22:50.949Z",
+      "lastFlagChange": null,
+      "rarity": 63.555,
+      "rarityRank": 7766,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.101,
+        "timestamp": 1650313763
+      },
+      "owner": "0xef1e7ec8e1894f34f4d6d6eff8d9a55233c77ca2"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xe37f2e7f25bee9916b13c0ee9ba5de8b02c937f9164038389e127f5acbbd6b67",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "98900000000000000",
+            "decimal": 0.0989,
+            "usd": 117.37234,
+            "native": 0.0989
+          }
+        },
+        "maker": "0xef1e7ec8e1894f34f4d6d6eff8d9a55233c77ca2",
+        "validFrom": 1671360731,
+        "validUntil": 1679136690,
+        "source": {
+          "id": "0xdc28ffaea1f91a88fb6fd0a8fe70d71bdd64284c",
+          "domain": "x2y2.io",
+          "name": "X2Y2",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/x2y2-logo.png",
+          "url": "https://x2y2.io/eth/0x6fd053bff10512d743fa36c859e49351a4920df6/3191"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "4815",
+      "name": "C-01 #4815",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a9ba3a92499a1c22f107aabf359e9761e9e5874ad2a6f8df1f7baa818bcf87356c16f588518518c08213bae0b5f271f9febc11aab0dc6406f3e8411d5c9a7580a67a0f8970656cf7aff683c2c6e42bebd24471e84762428e52d8033e516a8d73791260226959f9aa5bcafeec6555fe818058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T11:21:32.520Z",
+      "lastFlagChange": null,
+      "rarity": 69.366,
+      "rarityRank": 7069,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.02,
+        "timestamp": 1666953755
+      },
+      "owner": "0xef1e7ec8e1894f34f4d6d6eff8d9a55233c77ca2"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x2b93c65707d44590dd20017cb13c4db25944abd80037f27892a279f076e08660",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "98900000000000000",
+            "decimal": 0.0989,
+            "usd": 117.37234,
+            "native": 0.0989
+          }
+        },
+        "maker": "0xef1e7ec8e1894f34f4d6d6eff8d9a55233c77ca2",
+        "validFrom": 1671360731,
+        "validUntil": 1679136690,
+        "source": {
+          "id": "0xdc28ffaea1f91a88fb6fd0a8fe70d71bdd64284c",
+          "domain": "x2y2.io",
+          "name": "X2Y2",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/x2y2-logo.png",
+          "url": "https://x2y2.io/eth/0x6fd053bff10512d743fa36c859e49351a4920df6/4815"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "5271",
+      "name": "C-01 #5271",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a2d580c4adf2f269695f0663787399134fba212d3075fe14ba82d69b4e9340ab41e8b48d6f7b495f791f1e3e06a03ffa05b81a4c4ec4ccbb5be1450c19444bfe072be8e178d360e8b7a35cc9392be7fd2464dabffa1ab362f9d1da8d4dd2c94c399d9918459c22ef4b53770f64ebcaf0b23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T11:21:13.213Z",
+      "lastFlagChange": null,
+      "rarity": 104.34,
+      "rarityRank": 3037,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.02,
+        "timestamp": 1666953755
+      },
+      "owner": "0xef1e7ec8e1894f34f4d6d6eff8d9a55233c77ca2"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x02ed343badeede544c7e35dbcbb796afade5efce3c57cc6ace60d3b24f7cbae6",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "98900000000000000",
+            "decimal": 0.0989,
+            "usd": 117.37234,
+            "native": 0.0989
+          }
+        },
+        "maker": "0xef1e7ec8e1894f34f4d6d6eff8d9a55233c77ca2",
+        "validFrom": 1671360731,
+        "validUntil": 1679136690,
+        "source": {
+          "id": "0xdc28ffaea1f91a88fb6fd0a8fe70d71bdd64284c",
+          "domain": "x2y2.io",
+          "name": "X2Y2",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/x2y2-logo.png",
+          "url": "https://x2y2.io/eth/0x6fd053bff10512d743fa36c859e49351a4920df6/5271"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "5826",
+      "name": "C-01 #5826",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a78abf83dcb9d8893b278c588c937b44bd3a852e7a425a473080144b9f046a63f74f68df160e2976c5ecd378f5e95de888c2601bc1c3f6d09d9791a498f5c1c9b674da5df1f680e10c49a8b4149ec611d88a459c7599f109610c0300ed61c6fbad5575ee3afdcdc16f9ad8e0a9b751494e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T11:20:48.302Z",
+      "lastFlagChange": null,
+      "rarity": 63.791,
+      "rarityRank": 7737,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": 0.0304,
+        "timestamp": 1665094523
+      },
+      "lastSell": {
+        "value": 0.2379,
+        "timestamp": 1645753578
+      },
+      "owner": "0xef1e7ec8e1894f34f4d6d6eff8d9a55233c77ca2"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x00138c110975d4fa32f465f5281cc7fd43b8e7b217bdeefc3af2226cd65292e3",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "98900000000000000",
+            "decimal": 0.0989,
+            "usd": 117.37234,
+            "native": 0.0989
+          }
+        },
+        "maker": "0xef1e7ec8e1894f34f4d6d6eff8d9a55233c77ca2",
+        "validFrom": 1671360731,
+        "validUntil": 1679136690,
+        "source": {
+          "id": "0xdc28ffaea1f91a88fb6fd0a8fe70d71bdd64284c",
+          "domain": "x2y2.io",
+          "name": "X2Y2",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/x2y2-logo.png",
+          "url": "https://x2y2.io/eth/0x6fd053bff10512d743fa36c859e49351a4920df6/5826"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "5987",
+      "name": "C-01 #5987",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7f1fe851fc0917ba6815e885d352dcbcf5468e5a3fad5862490033597fc7b7895c5adc263107d5848fa25c65d5d612ffe7c17e5a8be54c225c3314e5970e629a1d003b15a8da8fbe88572cccd17db497dc88cb9eabaa6c054f4398b9070d10eea97d5740487749e2259818011c0d1b9b058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T11:20:40.026Z",
+      "lastFlagChange": null,
+      "rarity": 81.494,
+      "rarityRank": 5277,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.02,
+        "timestamp": 1666953755
+      },
+      "owner": "0xef1e7ec8e1894f34f4d6d6eff8d9a55233c77ca2"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x2d3a239eed90ce265746fb47eb4af048b03467ff0f53ddf9abeb4af38b6fa9c7",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "98900000000000000",
+            "decimal": 0.0989,
+            "usd": 117.37234,
+            "native": 0.0989
+          }
+        },
+        "maker": "0xef1e7ec8e1894f34f4d6d6eff8d9a55233c77ca2",
+        "validFrom": 1671360731,
+        "validUntil": 1679136690,
+        "source": {
+          "id": "0xdc28ffaea1f91a88fb6fd0a8fe70d71bdd64284c",
+          "domain": "x2y2.io",
+          "name": "X2Y2",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/x2y2-logo.png",
+          "url": "https://x2y2.io/eth/0x6fd053bff10512d743fa36c859e49351a4920df6/5987"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "6562",
+      "name": "C-01 #6562",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae0ed03594a2a4ef6f706737092d646c7f4d061b0923f431432ae4161074f2624349d83a9b90bc7d14af44d342ecffd250b4bb7730b103561dea7c1d0d52a59d63641f12b1f6e0a685fb4d5e4e1bd4fd1c3545f596c4c36eb99771d7c14b3dddf239dd4eee856a671abc26d723e1d4cf423c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T11:20:13.925Z",
+      "lastFlagChange": null,
+      "rarity": 79.926,
+      "rarityRank": 5495,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": 0.0331,
+        "timestamp": 1663262447
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xef1e7ec8e1894f34f4d6d6eff8d9a55233c77ca2"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xe6cb1299615c21b856b6d01ddf98863e847f8667f9095501c91015a32626f2a4",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "98900000000000000",
+            "decimal": 0.0989,
+            "usd": 117.37234,
+            "native": 0.0989
+          }
+        },
+        "maker": "0xef1e7ec8e1894f34f4d6d6eff8d9a55233c77ca2",
+        "validFrom": 1671360731,
+        "validUntil": 1679136690,
+        "source": {
+          "id": "0xdc28ffaea1f91a88fb6fd0a8fe70d71bdd64284c",
+          "domain": "x2y2.io",
+          "name": "X2Y2",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/x2y2-logo.png",
+          "url": "https://x2y2.io/eth/0x6fd053bff10512d743fa36c859e49351a4920df6/6562"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "7146",
+      "name": "C-01 #7146",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae9ff914864760056d2b22d1afd23416eecf20e8e10122bd6b6757afb23e061a8dc78f9610fd387e800f04ffdf2fe79a113c6de7bbe4ad3a538687eca0f9398dd2f0eddc28c51eba4e5e2c7c4c76f3281b90ca2ab970e54ae0d9049551035275e226f171e2fea113e8a9d531f0f2a6cd223c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T11:19:18.312Z",
+      "lastFlagChange": null,
+      "rarity": 88.319,
+      "rarityRank": 4438,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": 0.0216,
+        "timestamp": 1661771373
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xef1e7ec8e1894f34f4d6d6eff8d9a55233c77ca2"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x24e74ee37ef74854f5e109b45c2b29747c0ded2d001957b039986b73bea2e059",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "98900000000000000",
+            "decimal": 0.0989,
+            "usd": 117.37234,
+            "native": 0.0989
+          }
+        },
+        "maker": "0xef1e7ec8e1894f34f4d6d6eff8d9a55233c77ca2",
+        "validFrom": 1671360731,
+        "validUntil": 1679136690,
+        "source": {
+          "id": "0xdc28ffaea1f91a88fb6fd0a8fe70d71bdd64284c",
+          "domain": "x2y2.io",
+          "name": "X2Y2",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/x2y2-logo.png",
+          "url": "https://x2y2.io/eth/0x6fd053bff10512d743fa36c859e49351a4920df6/7146"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+"category": ["Humanoid", "Person", "Realistic", "3d", "Futuristic", "Normal", "Other"],
+      "tokenId": "8648",
+      "name": "C-01 #8648",
+      "description": "Created by C-01",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab60485b6758dc2db9885367bf34fd0579751b1590a1c6afe4886dc1850617e58d569011169752cd9792f75ff578ee9e93b8ca38d4266b07fadda39e79bda36210c5ee1d127f41b8adcc415a77bceed763449c40deecc59d25e48094d7f9fe9bd259b8c7be2769b24a1ca97763706b2bc23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T11:17:59.057Z",
+      "lastFlagChange": null,
+      "rarity": 77.627,
+      "rarityRank": 5832,
+      "collection": {
+        "id": "0x6fd053bff10512d743fa36c859e49351a4920df6",
+        "name": "C-01 Official Collection",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae2d6dfd9d59b7f335f90ff0115917bb956ecb987ebaac742fc8e6c0f747298a0d276f4939d39611cc164743e2e189fba9dc20898c350278b11f16c8f64e0641a3c7391d44c8302f4f4ac758dc4bd01fa6548be74fbb973763c8a598de9cb7c1a1816368eae3cf249ad25ec50a17658cd23c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "c-01-official-collection"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.02,
+        "timestamp": 1666953755
+      },
+      "owner": "0xef1e7ec8e1894f34f4d6d6eff8d9a55233c77ca2"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xc6c61ae4dc4b5075f7845a7a9454c5cdb69e787194e4251a98521184ab82712a",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "98900000000000000",
+            "decimal": 0.0989,
+            "usd": 117.37234,
+            "native": 0.0989
+          }
+        },
+        "maker": "0xef1e7ec8e1894f34f4d6d6eff8d9a55233c77ca2",
+        "validFrom": 1671360731,
+        "validUntil": 1679136690,
+        "source": {
+          "id": "0xdc28ffaea1f91a88fb6fd0a8fe70d71bdd64284c",
+          "domain": "x2y2.io",
+          "name": "X2Y2",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/x2y2-logo.png",
+          "url": "https://x2y2.io/eth/0x6fd053bff10512d743fa36c859e49351a4920df6/8648"
+        }
+      }
+    }
+  }
+]

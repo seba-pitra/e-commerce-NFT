@@ -1,0 +1,212 @@
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #1c2331;
+  color: white;
+  min-height: 92vh;
+}
+
+h1,h2{
+  margin: 25px 0;
+}
+
+.createNft {
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+.createNft input {
+  max-width: 250px;
+  border-radius: 10px;
+  border: 2px solid rgb(211, 68, 139, 1);
+  outline: none;
+  cursor: pointer;
+  appearance: none;
+  padding-left: 5px;
+}
+
+.inputContainer{
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid white;
+  margin: 20px;
+}
+
+.inputContainer .upload-file{
+  margin-left: 170px;
+  border: 2px solid rgb(211, 68, 139, 1);
+  outline: none;
+  cursor: pointer;
+  appearance: none;
+  background-color: white;
+}
+
+.inputContainer .upload-file:hover{
+  background-color: #cb4183;
+  color: white;
+  cursor: pointer;
+  border: 2px solid white;
+}
+
+.inputContainer input{
+  margin-bottom: 14px;
+}
+
+.inputContainer button{
+  margin-bottom: 14px;
+}
+
+.inputContainer select{
+  margin-bottom: 20px;
+  border: 2px solid white;
+  background-color: #1c2331;
+  color: white;
+  border-radius: 8px;
+}
+
+.upload-file{
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+}
+
+.inputAndErrorsMsg{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.inputAndErrorsMsg p{
+  margin-bottom: 8px;
+  margin-left: 50px;
+}
+
+.greenMsg{
+  color:green
+}
+.redMsg{
+  color:red
+}
+.upload-icon{
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+}
+.ilustration-validations{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+}
+
+.ilustrationContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ilustration-validations .submit{
+  width: 180px;
+  height: 50px;
+  border-radius: 15px;
+  border: 2px solid rgb(211, 68, 139, 1);
+  background-color: white;
+}
+
+.ilustration-validations .submit:hover{
+  background-color: #cb4183;
+  color: white;
+  cursor: pointer;
+  border: 2px solid white;
+}
+
+.errorSubmit{
+  width: 180px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: white;
+  border: 2px solid  #d1d1d1;
+}
+
+.flex-row2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first-field-collections{
+  margin: 60px auto;
+  padding: 24px;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+}
+
+.first-field-collections .divs-separet{
+  margin: 20px;
+}
+
+.first-field-collections .divs-separet input{
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  margin-right: 20px;
+}
+
+.first-field-collections .divs-separet button{
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+  margin-right: 12px;
+}
+
+.buttons-next-prev{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+
+.buttons-next-prev button{
+  width: 60px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 15px;
+  border: 2px solid rgb(211, 68, 139, 1);
+  background-color: white;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: monospace;
+}
+
+.buttons-next-prev button:hover{
+  background-color: rgb(211, 68, 139, 1);
+  border: 2px solid white;
+  color: white;
+}
+
+.rigth-side{
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.aling-bottom-next{
+  padding-bottom: 240px;
+}
+
+.aling-bottom-next2{
+  padding-bottom: 140px;
+}

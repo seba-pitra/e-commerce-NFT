@@ -1,0 +1,3452 @@
+[
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "4864",
+      "name": "Angry Cat #4864",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a379bc30d81f740d9b68b379c0b676ea50bb38633122f3eb7c249090aac39f9309639ce2211403b39102619604fcf5e6437e6a00ed8d26bc0fb39c5d583963cd01dfb3fcc8b85fd9429563eadc4a3d591b89d58670cf9a2c9c74dd10ddbe781d47d517f4f9859db4d5ffcc812a426af61058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T03:56:17.281Z",
+      "lastFlagChange": null,
+      "rarity": 459.103,
+      "rarityRank": 4414,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": 0.16,
+        "timestamp": 1671356567
+      },
+      "lastSell": {
+        "value": 0.142,
+        "timestamp": 1665171767
+      },
+      "owner": "0x9e283377f1953ada966856d3c83d63b637202e03"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xcea6dd9180cd3b7a71fe5250615d0875f58818d0a226cc03952569e06d22aed4",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "169000000000000000",
+            "decimal": 0.169,
+            "usd": 200.56547,
+            "native": 0.169
+          }
+        },
+        "maker": "0x9e283377f1953ada966856d3c83d63b637202e03",
+        "validFrom": 1671508427,
+        "validUntil": 1671767747,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/4864"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "9813",
+      "name": "Angry Cat #9813",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3997fecfde9e2c19d003e97e9ed320b4f1e3692d4c9499790f1ff464767d8311be09fd3610c144d4ec3f9707138048ef67d218a0ea84fcbae35d884a4007ac1817dd98dee388d11ab6f7acd113bb5e7022adb3a5555385e381c6cb397e4d4d596ade1e095ecfb58557448c38ac6b76ed23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T15:00:43.796Z",
+      "lastFlagChange": null,
+      "rarity": 327.24,
+      "rarityRank": 6819,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.27,
+        "timestamp": 1667496047
+      },
+      "owner": "0x3b92ab705bb8a58e0037120a8f643635cc86db72"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xcdf91e82c662b94eaf255d53b2c31dfef47fa89b7ecb66e2af92dc3d2eadf592",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "178000000000000000",
+            "decimal": 0.178,
+            "usd": 211.24647,
+            "native": 0.178
+          }
+        },
+        "maker": "0x3b92ab705bb8a58e0037120a8f643635cc86db72",
+        "validFrom": 1671507375,
+        "validUntil": 1674177323,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/9813"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "8804",
+      "name": "Angry Cat #8804",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aa9d40276cd94bcef4b4b691a9f8392e53209ead9f7286581af2e1e04f22785939081d7aca8b03f6d091e1e6756b6a1df3ae8ec51cd0147929d276311c87c606cdb50ea9950c323842377f870bb7b559626c8adf9a7e4b32311e51011ec7a1404ba43bfc31a97439eece90636ea8508c023c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T09:24:10.233Z",
+      "lastFlagChange": null,
+      "rarity": 595.65,
+      "rarityRank": 2555,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": 0.53,
+        "timestamp": 1665494243
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xd1c44ea37590325e55fa2fcea6674f128205644e"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xa5c7230b98cab6ff02503fcc3b5b426b916f4c540c5ceb0d1f16afb4b573bd4d",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "179000000000000000",
+            "decimal": 0.179,
+            "usd": 212.43325,
+            "native": 0.179
+          }
+        },
+        "maker": "0xd1c44ea37590325e55fa2fcea6674f128205644e",
+        "validFrom": 1671441620,
+        "validUntil": 1674120020,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/8804"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "8437",
+      "name": "Angry Cat #8437",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ad8704369706d54d5d0f8cd0b380970df1010b20ea5f9305ff1a4900ab6711cd02c726890f142ae4dcee3a99e367d530b14218740499457b8bec8cd6be5a0b289f8e7108f5203409c251fb8b9fefe3964940f2a3861092d71273bc5d33563457efa213c6415b0e4f6b7d8a4b9a510f60123c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-19T03:00:24.330Z",
+      "lastFlagChange": null,
+      "rarity": 645.62,
+      "rarityRank": 2108,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.3,
+        "timestamp": 1666158887
+      },
+      "owner": "0xb3d5fc63a7adcdc4fe9ba833baae682e2ac84999"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x8fe034d9e3247a7b4514f911e7cfa89c45b5399c300cedc03273effa5ad10d98",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "180000000000000000",
+            "decimal": 0.18,
+            "usd": 213.62002,
+            "native": 0.18
+          }
+        },
+        "maker": "0xb3d5fc63a7adcdc4fe9ba833baae682e2ac84999",
+        "validFrom": 1671418681,
+        "validUntil": 1673676228,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/8437"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "1842",
+      "name": "Angry Cat #1842",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a019250eda060362d8e950568a867895fc874f6e9b443dc82ee4b832afe4e90ec4830dc1c8823bb9677605da19842bf80938adf79e71b3bbe542bd5f21917c71df261a3b255df92cebfad550d5d77a87fc128290f22d737ddd62eb69c15ab720ef022103013d0fef7fd08f6343a499f5123c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-15T10:35:00.265Z",
+      "lastFlagChange": null,
+      "rarity": 529.235,
+      "rarityRank": 3336,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": 0.2,
+        "timestamp": 1670944775
+      },
+      "lastSell": {
+        "value": 0.22,
+        "timestamp": 1670070155
+      },
+      "owner": "0x858e63ab5fda761489ac569bf86af829cdf4d054"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x71b4c35937f6b1497ad41e89930d7a065f05943925e80fc5832f6412c8c33cd9",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "181400000000000000",
+            "decimal": 0.1814,
+            "usd": 215.28151,
+            "native": 0.1814
+          }
+        },
+        "maker": "0x858e63ab5fda761489ac569bf86af829cdf4d054",
+        "validFrom": 1671547284,
+        "validUntil": 1672152083,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/1842"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "9787",
+      "name": "Angry Cat #9787",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5c2385dd160216a5c8b184ba25dbb0fd54c0d415e04de7742aed743f8bfbe9091490b5e388b6e7dd9e21472f07011c5e65335165fb6c58730c7047955f553b0a7bd9830570f9f824f75cf05e16acee5ca782e19d74a9658fa6e52a0c612c1953f810340d9940ab001ec3b8f091a3ccb023c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T15:00:44.578Z",
+      "lastFlagChange": null,
+      "rarity": 392.194,
+      "rarityRank": 5631,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": 0.15,
+        "timestamp": 1671534695
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x72b2ec1d1d9d937ef092498f9f5a6bfc1102c5cc"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x50e794704e8b57dfadec9d8c35aa3acf71cb11957dcf617b520dd7d23119c20b",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "182200000000000000",
+            "decimal": 0.1822,
+            "usd": 216.23094,
+            "native": 0.1822
+          }
+        },
+        "maker": "0x72b2ec1d1d9d937ef092498f9f5a6bfc1102c5cc",
+        "validFrom": 1671544924,
+        "validUntil": 1672149723,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/9787"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "8395",
+      "name": "Angry Cat #8395",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aa96e060779323b8ab83cca8385547a0af58561a335b3182f27881595c5f6f91f3ed79b1ac586dd27fb09085ae94262672879aab101b508d1c70b8df6649b1abf691875d63d027b16897c877af1fc8a66a2ea3b5da0c31bc2f52aefd2d9d15fe7d964baf303247c1e16c6ab88dcf18fc823c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-17T10:04:34.383Z",
+      "lastFlagChange": null,
+      "rarity": 826.715,
+      "rarityRank": 1051,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.4,
+        "timestamp": 1666335995
+      },
+      "owner": "0x0013fadb2294a00005b334f40f767a3eb4f6bbc4"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xb21db311144446d4e31d3e5ad43f71b6d06b22d937bf071bd7a236d2d8b794e8",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "189000000000000000",
+            "decimal": 0.189,
+            "usd": 224.30103,
+            "native": 0.189
+          }
+        },
+        "maker": "0x0013fadb2294a00005b334f40f767a3eb4f6bbc4",
+        "validFrom": 1671271471,
+        "validUntil": 1673821315,
+        "source": {
+          "id": "0xdc28ffaea1f91a88fb6fd0a8fe70d71bdd64284c",
+          "domain": "x2y2.io",
+          "name": "X2Y2",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/x2y2-logo.png",
+          "url": "https://x2y2.io/eth/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/8395"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "539",
+      "name": "Angry Cat #539",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af60f5720e567f6399554dc9633a24fed80126d6880bfd89a74b43d34dbf70f658e49dcc74ce68d8abbb6bd3e4d9f0e925a94f7ea7c9aac9782db09c656741ba38710d5bab9584efdf9bd0a90db9fcc4f0c3f33487193bdd0c0c73a82cdeaa2f2faa2dcf0aa57f5935bbdadc8db251c1423c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T18:48:45.889Z",
+      "lastFlagChange": null,
+      "rarity": 243.42,
+      "rarityRank": 8894,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.098,
+        "timestamp": 1663993367
+      },
+      "owner": "0x0db9b275761b7c9b14c60009abc8f4ab81202056"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x5c2a9622fb4afd83d921670626eda45e0e37b5c965d5754241d782d0fc4dfdd2",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "190000000000000000",
+            "decimal": 0.19,
+            "usd": 225.4878,
+            "native": 0.19
+          }
+        },
+        "maker": "0x0db9b275761b7c9b14c60009abc8f4ab81202056",
+        "validFrom": 1671370033,
+        "validUntil": 1674048433,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/539"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "5259",
+      "name": "Angry Cat #5259",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a48c0b57b0bfba2c477b71b5834c00ff58030d7828a4de9c326a69e226121e344bb9c7324adb4d50ee7600f913756adf932b7c37abb698e4e2eed574d734b389645f0bcedd9565b7ac89416f636ae7527b64e8f005ea3049c05f321386ded60f68fdfb5d6e594b119fcb066bf5315e997058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T15:13:37.603Z",
+      "lastFlagChange": null,
+      "rarity": 232.074,
+      "rarityRank": 9341,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.298,
+        "timestamp": 1667798615
+      },
+      "owner": "0xcf1adbef62c57104324d20f11197e420e81e6ac7"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x130526bab3539e49edcde60aa93702c7dd45a60db564a7732e58e4a4c84a6421",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "190000000000000000",
+            "decimal": 0.19,
+            "usd": 225.4878,
+            "native": 0.19
+          }
+        },
+        "maker": "0xcf1adbef62c57104324d20f11197e420e81e6ac7",
+        "validFrom": 1671330388,
+        "validUntil": 1674008788,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/5259"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "7981",
+      "name": "Angry Cat #7981",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ad45efa6e2eec298dd756b11cb2d8ba9f596a0414424b4de388871d2e334643f0c792ad812dae600f4d9d892d0b277eb96b6217afcc22826dab18ea627d69cd1f1b55e8792769b4aaf8e0782a0a7893dd581a93ecd2598d6f9edafd614b5cf5af5d475d9bd3ab099b36616437e653fc49e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T15:09:22.460Z",
+      "lastFlagChange": null,
+      "rarity": 1824.645,
+      "rarityRank": 150,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.075,
+        "timestamp": 1664031095
+      },
+      "owner": "0x5a1b39f31e894729217fc10ee7ba1d602a56accd"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x60bce77941aa65417828603dc95886f327ff5b19ae60d50a1b67047b4984fcec",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "194000000000000000",
+            "decimal": 0.194,
+            "usd": 230.23492,
+            "native": 0.194
+          }
+        },
+        "maker": "0x5a1b39f31e894729217fc10ee7ba1d602a56accd",
+        "validFrom": 1671450036,
+        "validUntil": 1674128436,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/7981"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "9983",
+      "name": "Angry Cat #9983",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a732ab176ad6249089b18bcab6c2a6b506c448dcf815eea81cd964ca6a8143e035b957a6e20876a2fabd521b68664bb8413d36dc3978c6873feae036f6010e076d4bf326296cf8efe95fc0417d53652bd52258a916bdce23e30ec833de6ef7c9c5274b8d43fcc30de42a1766c328908ec058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T15:00:36.186Z",
+      "lastFlagChange": null,
+      "rarity": 349.973,
+      "rarityRank": 6410,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": 0.18,
+        "timestamp": 1671076151
+      },
+      "lastSell": {
+        "value": 0.118,
+        "timestamp": 1664198843
+      },
+      "owner": "0x6445de698dd7f3cd983fa0b57bcb677d6add590c"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x5880e1fbd8c5184abe4b2e729161d2aad8a10a2bb34232f67bb61ce83e5e40ae",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "197300000000000000",
+            "decimal": 0.1973,
+            "usd": 234.15128,
+            "native": 0.1973
+          }
+        },
+        "maker": "0x6445de698dd7f3cd983fa0b57bcb677d6add590c",
+        "validFrom": 1671271621,
+        "validUntil": 1673770895,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/9983"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "1185",
+      "name": "Angry Cat #1185",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ac24168efc77c25c167b123a81d5863c4c9ed7dabca7dd2c53ce8cf843c5e90cb58bd0b700d1f0b36ffeebd950e72fb6455c05970dcfc59de8dc5cafb6f4ea2a2bda99d6d5eec9b333cbc9965edf857e90e3cca0e23ff38069d8292ef390c9a2851a60763ebff77f05971aefb41aa8e6ce1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-16T12:22:39.384Z",
+      "lastFlagChange": null,
+      "rarity": 470.685,
+      "rarityRank": 4215,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xe70b7f52737c726b81acfdb8adf0080b708d27b7"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x6b7b5847fe192a01a9e35ac80b092f8247647005bd8466148ca55cd07c1056a6",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "199000000000000000",
+            "decimal": 0.199,
+            "usd": 236.16881,
+            "native": 0.199
+          }
+        },
+        "maker": "0xe70b7f52737c726b81acfdb8adf0080b708d27b7",
+        "validFrom": 1671193201,
+        "validUntil": 1673871601,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/1185"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "1937",
+      "name": "Angry Cat #1937",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a74c9a1893b061027c3f99ea4745c9527620a80099403cf5f682b7b9866b718d11e0ba774e2a2db9077753a82c08d6c1fbd699b3e78d75f5bfc060aeb17d4b23502bd9c2e888d9da9dc726c315e352995987923c9754789f12664d319b8c5ca54ab1562a8b9eec09b68195ade952a16ca23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T17:45:06.748Z",
+      "lastFlagChange": null,
+      "rarity": 1330.556,
+      "rarityRank": 320,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.09,
+        "timestamp": 1663998659
+      },
+      "owner": "0x3bf0db430221a4f4820fcc79dbac72341aa2f325"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x4b1aa84884173049ca68fea9b2d70272c465022554666b9aac01ea401e6c96f2",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "199900000000000000",
+            "decimal": 0.1999,
+            "usd": 237.23691,
+            "native": 0.1999
+          }
+        },
+        "maker": "0x3bf0db430221a4f4820fcc79dbac72341aa2f325",
+        "validFrom": 1671199747,
+        "validUntil": 1673878147,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/1937"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "8534",
+      "name": "Angry Cat #8534",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a54038a9d4bdb2f7601c4b07b77363a73bb853d08bcd5b9fbf06cbf7ffa3590fedb9649d5568c9cb641a097c39f0a15df9b5ca187f64b101b456d50cd82f9d29c42369e17753ce6bcd7e2788696773e31ece7d18b8fe7c203e240e6d29e5f7bbdf8a81110acbfdecbd6006a8a4f120174e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T15:08:11.409Z",
+      "lastFlagChange": null,
+      "rarity": 224,
+      "rarityRank": 9608,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": 0.17,
+        "timestamp": 1671157679
+      },
+      "lastSell": {
+        "value": 0.119,
+        "timestamp": 1664198843
+      },
+      "owner": "0x665084f8c21bff391bf38f290ad912b643ee6cd5"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xfb6691c602b2f7257d3db258459480c612d18cf14119e91d9fef97875226b1c5",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "199940000000000000",
+            "decimal": 0.19994,
+            "usd": 237.28438,
+            "native": 0.19994
+          }
+        },
+        "maker": "0x665084f8c21bff391bf38f290ad912b643ee6cd5",
+        "validFrom": 1671195685,
+        "validUntil": 1671763698,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/8534"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "1143",
+      "name": "Angry Cat #1143",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4f7477befab67b4728b0cd2cfecd66407756181b3b102f20c53339d51c9b1484c29b70daea95a0296eace12ae14589f3254148b7d3b81ac4f55a5913bee19f0e2076b4a42c60033ff8802353454136b412573fa3af8acaa4758c286f6d7d0a7ce25cec002c17b817d06281c21752e46c23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-15T13:41:17.698Z",
+      "lastFlagChange": null,
+      "rarity": 301.477,
+      "rarityRank": 7329,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xb5a03c23869d658bf3aea5e4e07b7f89110f6a2c"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x6f66af9752d3dd3bf79363db38c5aa1671c57b07115c7fe599e7e8036c97c6d1",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "200000000000000000",
+            "decimal": 0.2,
+            "usd": 237.35558,
+            "native": 0.2
+          }
+        },
+        "maker": "0xb5a03c23869d658bf3aea5e4e07b7f89110f6a2c",
+        "validFrom": 1671111660,
+        "validUntil": 1671716459,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/1143"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "1290",
+      "name": "Angry Cat #1290",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae66cc3ba67fe407a2dab5427e66f1c664d5d45f75eaadebdcd10ac10a752ef639dc0473c2d05ff25e0c67ea3eda616da05c859bac29646d550a0906911ffe03252820b99a03cea265b90b4d0b3a5e8f908c2c5178cb78bb47ff8e193ccfec7bd44e6a0ef8b69a728e0b5d8043942307ee1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-15T13:40:52.283Z",
+      "lastFlagChange": null,
+      "rarity": 512.499,
+      "rarityRank": 3553,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xb5a03c23869d658bf3aea5e4e07b7f89110f6a2c"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xddddd334dd368df8e32636d37bcefe7029285029e2637a82dcaaef27226bad62",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "200000000000000000",
+            "decimal": 0.2,
+            "usd": 237.35558,
+            "native": 0.2
+          }
+        },
+        "maker": "0xb5a03c23869d658bf3aea5e4e07b7f89110f6a2c",
+        "validFrom": 1671111639,
+        "validUntil": 1671716438,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/1290"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "1404",
+      "name": "Angry Cat #1404",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ac24ff7cc1e39b48530ada1e35edbbc54f833d48897a7e24aab1ae3d25e1ba572c79e2c6ed116a405dd7b8d61ff018832e30332343fc4e5e003e46b64adb649949de96802e3129b638eba130292b70dc5d4331a55660143ba692ef22f9162ed76104445c65d1ee5ac438f1b5a887bd86623c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-15T13:40:32.381Z",
+      "lastFlagChange": null,
+      "rarity": 298.954,
+      "rarityRank": 7386,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xb5a03c23869d658bf3aea5e4e07b7f89110f6a2c"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x6ff3a1e556fc4695467fb94a245b33358794826c7a27b9b6311d939e5ea30c5c",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "200000000000000000",
+            "decimal": 0.2,
+            "usd": 237.35558,
+            "native": 0.2
+          }
+        },
+        "maker": "0xb5a03c23869d658bf3aea5e4e07b7f89110f6a2c",
+        "validFrom": 1671111620,
+        "validUntil": 1671716419,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/1404"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "8820",
+      "name": "Angry Cat #8820",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a367bfcd1d0b753324445d4cad41efecdeba988d134104eb5b2a5ce2aa6c72648ba52747453fad4beba39e726994c8e18a3d0c00486d187e0cd06eba374d1e51318c9d9c0b9b80e69dbcc296bad2aca0d7d02edca901688b8b502b0929b2367df27fae6dfb9d11072373e019cf6bf6c3ee1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T15:08:03.421Z",
+      "lastFlagChange": null,
+      "rarity": 245.033,
+      "rarityRank": 8814,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x6047eb37d54cc9d98b84b837a85bea37aa62243f"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x093b51d69586cf1a6d6f7c66735f442069020494ffb8281bdfbc40baffd24692",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "200000000000000000",
+            "decimal": 0.2,
+            "usd": 237.35558,
+            "native": 0.2
+          }
+        },
+        "maker": "0x6047eb37d54cc9d98b84b837a85bea37aa62243f",
+        "validFrom": 1671334845,
+        "validUntil": 1673413807,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/8820"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "2118",
+      "name": "Angry Cat #2118",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a9aa4e0c4faf44ec23902742e52e81b7f93f2566c4009a52ae3d27289284a0fada719f8f96d8da9261638876ac8ba441629eae1818d65ff857586467668b02782779d26c292d8b940d5d2cb74e7a6d8155cb502889c032dbdc7ba35478855243984786632b3f18a0cc03238fbb244eb63e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T17:27:01.067Z",
+      "lastFlagChange": null,
+      "rarity": 466.266,
+      "rarityRank": 4285,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": 0.17,
+        "timestamp": 1671217271
+      },
+      "lastSell": {
+        "value": 0.106,
+        "timestamp": 1664350703
+      },
+      "owner": "0xdac073bf7ab0ff2d1df7383be6ae36b9185af59a"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x473961e6fffa0c56b618726022f330480c38863d7bf68c24d5341cee58bff7f4",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "203100000000000000",
+            "decimal": 0.2031,
+            "usd": 241.03459,
+            "native": 0.2031
+          }
+        },
+        "maker": "0xdac073bf7ab0ff2d1df7383be6ae36b9185af59a",
+        "validFrom": 1671240305,
+        "validUntil": 1671845104,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/2118"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "4755",
+      "name": "Angry Cat #4755",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ac83fe34e39f62b2ea21ddd77d41963c23b2c3f546dc44a85fab3a58af24dee6bb6d9f0eecb395e18d424b3648691cb84610c14b0190921bd5994ea70a3662998abdf35699abfeb1bfc72548c3aa88baaea0261a44181bfe77322cf7a292545d81226ec39784d405ac6650329795e18c91e9cbf17948473242070ca80b70c6daf",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-15T08:18:37.932Z",
+      "lastFlagChange": null,
+      "rarity": 236.394,
+      "rarityRank": 9175,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": 0.2,
+        "timestamp": 1670991647
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xa9e9cb53470fc8c38c17ccca1e1e6f22be29f594"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xd1df0080cf710c262fe1b0a587b1e6fa9c903e1725a48d8f35bd9b8a88ce3336",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "204000000000000000",
+            "decimal": 0.204,
+            "usd": 242.1027,
+            "native": 0.204
+          }
+        },
+        "maker": "0xa9e9cb53470fc8c38c17ccca1e1e6f22be29f594",
+        "validFrom": 1671102667,
+        "validUntil": 1671707467,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/4755"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "4527",
+      "name": "Angry Cat #4527",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae9044f69f2349cf2d94291b2226d48b596b1b7b33133ee9329ad43a0e92b35dfecbf856f5921546a000aa265be266cbbec76533ceefd13ea8cf43d770a2494c491e391774550aac39c059f4c1c888365e20b1dde1a6c25642838fd09420f808958d26efeeeecd5c64a60bb26b2ed679f23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T15:17:52.720Z",
+      "lastFlagChange": null,
+      "rarity": 471.42,
+      "rarityRank": 4206,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.093,
+        "timestamp": 1664554415
+      },
+      "owner": "0xd7e3b0ecf0bdfb05c4690d5433380728763f3840"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xf4231e6707bbcba52f476b9fe1c5b1cc8d997216120da756a3dfaa103b8f5d23",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "220000000000000000",
+            "decimal": 0.22,
+            "usd": 261.09114,
+            "native": 0.22
+          }
+        },
+        "maker": "0xd7e3b0ecf0bdfb05c4690d5433380728763f3840",
+        "validFrom": 1671251885,
+        "validUntil": 1673257713,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/4527"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "5281",
+      "name": "Angry Cat #5281",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a44a0c31b3e2c0b857706e06efcf02965e4392e34b24adaffbbb9ef26953fec23010e6d16519f90aabab7b23dfa375e8a3acae0c333e06f59d7c4ab53d83de53a712d9de2d68e183d258ffb0c83a7266ab8c2242bfdcc423fd395afba135a6c6ad898aa5179d03edec84a1201b8271e8423c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-14T03:48:08.942Z",
+      "lastFlagChange": null,
+      "rarity": 961.307,
+      "rarityRank": 705,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x9a621e73d0613e0e87ba7cc928d4cddbdee22c40"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xc63a8d5469d3b7698689455bd60e7d02c78a4492cfdec0b3b1d4ae55c31052e9",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "220000000000000000",
+            "decimal": 0.22,
+            "usd": 261.09114,
+            "native": 0.22
+          }
+        },
+        "maker": "0x9a621e73d0613e0e87ba7cc928d4cddbdee22c40",
+        "validFrom": 1670989681,
+        "validUntil": 1673581680,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/5281"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "1819",
+      "name": "Angry Cat #1819",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75afae09bc4bb478f35c7846f2a569a3501129f145a9deb7892481a99b2823d7966466a328de1fdb1e350bf3a7e4b5678b176cc8a426851c53f6f36a45565d448d30a2f2e280e05ecc45ecd670437c1111211287eff393ce95b90d791ab12fd489bbc6d42fb766c223e6e326dd394620e27058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T17:45:12.107Z",
+      "lastFlagChange": null,
+      "rarity": 538.665,
+      "rarityRank": 3194,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": 0.19291,
+        "timestamp": 1670981879
+      },
+      "lastSell": {
+        "value": 0.18,
+        "timestamp": 1664858687
+      },
+      "owner": "0xf322b2d0d810837a689b518baf25654f860da96d"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x3ae3cb86bf969454bd565e55c23adf5ae76f06c93626e4f9925c6326ddd3bc68",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "224500000000000000",
+            "decimal": 0.2245,
+            "usd": 266.43164,
+            "native": 0.2245
+          }
+        },
+        "maker": "0xf322b2d0d810837a689b518baf25654f860da96d",
+        "validFrom": 1671153135,
+        "validUntil": 1671691579,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/1819"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "5217",
+      "name": "Angry Cat #5217",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aa7c671257ee912e4dcee53db4bd9736ed28a4ba3e6b71c550a9ec96c6c0f591d0208682cbe58ec0c7e5637cce2dc97f93093f317af64d57cf1f80ba074ba3c6baee07eaabc10806b7054a9d2fa9bb9c4130261e56d272c3545d8dc746e0b4e39ec3d0a688db39a9e0bbc702fe953ba6de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:51:05.235Z",
+      "lastFlagChange": null,
+      "rarity": 646.043,
+      "rarityRank": 2103,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x9a621e73d0613e0e87ba7cc928d4cddbdee22c40"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x529cc075cb28e0965a30c52d7e5b9922a3e4bc245a0e937fa7bfa970106d1ced",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "225000000000000000",
+            "decimal": 0.225,
+            "usd": 267.02503,
+            "native": 0.225
+          }
+        },
+        "maker": "0x9a621e73d0613e0e87ba7cc928d4cddbdee22c40",
+        "validFrom": 1670824356,
+        "validUntil": 1673416356,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/5217"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "407",
+      "name": "Angry Cat #407",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a9195cf7a0a734f9e4f19977ac083d2fcc637b212ddd331ddd5fe459a16bb5fca4894f7afc65b97c7b7bf2ca5c4b980a2def5c4dc7e9c608f25d4d6fe594b93935573e1a187aebaa4effaa71c791739331c38c8f44e5726222c61ccfb950cd7a77d9f49bce38f57806b36a01085aedb7623c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-15T13:41:30.932Z",
+      "lastFlagChange": null,
+      "rarity": 629.456,
+      "rarityRank": 2243,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xb5a03c23869d658bf3aea5e4e07b7f89110f6a2c"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x2570be0939d5b7d8791392297f7def7d8feef8a36c77dfd9e43a9cfd4f746f9a",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "230000000000000000",
+            "decimal": 0.23,
+            "usd": 272.95892,
+            "native": 0.23
+          }
+        },
+        "maker": "0xb5a03c23869d658bf3aea5e4e07b7f89110f6a2c",
+        "validFrom": 1671007569,
+        "validUntil": 1671612368,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/407"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "4460",
+      "name": "Angry Cat #4460",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aa294e48e3ea569a6130cd41194ae7c09e892df28c60fa3ace086c0ba4629e13519a61759a5059c7b5982df469d138b90584d72aafa81acee04e469c2ec17378eedcce3751ecf13a52ba435c68c017c89ec64186f9184b39d3662215683842118fa776f185abc460968662ad0b0e2b0dc058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T15:17:55.783Z",
+      "lastFlagChange": null,
+      "rarity": 398.752,
+      "rarityRank": 5499,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": 0.238,
+        "timestamp": 1667448443
+      },
+      "lastSell": {
+        "value": 0.096,
+        "timestamp": 1664847947
+      },
+      "owner": "0xa788936677b89ede19e6269362100229040edb18"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xf5d686ab7222ad80e0ff882ff577b9b89f05bb8caec91466c8616ee0a87c4860",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "230000000000000000",
+            "decimal": 0.23,
+            "usd": 272.95892,
+            "native": 0.23
+          }
+        },
+        "maker": "0xa788936677b89ede19e6269362100229040edb18",
+        "validFrom": 1671032202,
+        "validUntil": 1672934963,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/4460"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "866",
+      "name": "Angry Cat #866",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a9a071b77f497bf7bde5e9c3e9b5730990a57bc89380e051371f0410378eb7f5da73f6da64f0087cb39ffc18b4034c154066e0e73a6cbf0e84054b478fc6f0de6cda604182d198da892d74b20329bf630637eb6b9ad439fa45b86d46d35ac1f664fb7cca4243f17d28d53b2635229eca523c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T18:48:25.096Z",
+      "lastFlagChange": null,
+      "rarity": 358.336,
+      "rarityRank": 6256,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": 0.085,
+        "timestamp": 1664496563
+      },
+      "lastSell": {
+        "value": 0.079,
+        "timestamp": 1663999247
+      },
+      "owner": "0x13724ffe0c1ab439401fe9b4b86087e7e2263db0"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x7a09c06da720f42b87e29fa7117035dabb81e7b63f013adecf4849222f56b491",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "240000000000000000",
+            "decimal": 0.24,
+            "usd": 284.8267,
+            "native": 0.24
+          }
+        },
+        "maker": "0x13724ffe0c1ab439401fe9b4b86087e7e2263db0",
+        "validFrom": 1670890152,
+        "validUntil": 1673320170,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/866"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "7271",
+      "name": "Angry Cat #7271",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a07a2bf67f7a4d9ab7d0ef04853f95f5a93e212e512ae3f06f9b487e7e762268879dceef0609be6799006131ea908abadf93fe1e6b76932621ce9a22bf136fe0bb29041c049ac45ee1a9cf3dacaa38d94be0606a34592224bb822b3441dec248ced99205e001e91334faad2bf1eb5bc1d23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T15:09:50.578Z",
+      "lastFlagChange": null,
+      "rarity": 1144.365,
+      "rarityRank": 454,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": 0.53,
+        "timestamp": 1665535871
+      },
+      "lastSell": {
+        "value": 0.3,
+        "timestamp": 1665452711
+      },
+      "owner": "0xd1c44ea37590325e55fa2fcea6674f128205644e"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x4e6f2d713d59a977edf31cd7a082a49a4ef6a55eb1b33df7ba7156dab1f29db5",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "240000000000000000",
+            "decimal": 0.24,
+            "usd": 284.8267,
+            "native": 0.24
+          }
+        },
+        "maker": "0xd1c44ea37590325e55fa2fcea6674f128205644e",
+        "validFrom": 1671441940,
+        "validUntil": 1674120340,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/7271"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "9018",
+      "name": "Angry Cat #9018",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75abd84c2d18bbae90e5b24bcf12cd16b44d47f914dabe76815fd7d18e09e1c0796d599e496afc0642c46583bca839bd27c1e5704e77d9a6fab7acaacb9147a7769c007470781f833e923f7e5bc3704bd6a2f0d5d636f57934a04d0957e06010b4a554dfc36c33721b48c1de1d31d06ff5e23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T15:07:43.364Z",
+      "lastFlagChange": null,
+      "rarity": 626.393,
+      "rarityRank": 2274,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.12,
+        "timestamp": 1664862983
+      },
+      "owner": "0xfc93aaca3f4cc2224ffb724b7a27611dc8f3be57"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x90e67c7a611439901adda8c3f1a60ee2d9e02443fca57eed143fa4319e0a65d5",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "240000000000000000",
+            "decimal": 0.24,
+            "usd": 284.8267,
+            "native": 0.24
+          }
+        },
+        "maker": "0xfc93aaca3f4cc2224ffb724b7a27611dc8f3be57",
+        "validFrom": 1670990650,
+        "validUntil": 1673669050,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/9018"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "196",
+      "name": "Angry Cat #196",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aaff2fb55656aedf7752c397955da6880d78f343cc3789f6ccdda7565c20bf8b01f84d2873ddd7a9af0f0f4f89aacf555bf730e6ee2aa50e325dfa462c8249a452c80e17a13dae4a6e6fa0fbe9024b8ff9ccb403c6fa6e16ae9b9ba29e96106912f4ec7518276d3fa9c6b3b38f38bdf4323c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T05:34:58.953Z",
+      "lastFlagChange": null,
+      "rarity": 225.09,
+      "rarityRank": 9570,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.115,
+        "timestamp": 1664805251
+      },
+      "owner": "0xd632c0c03f815778afcb6e1d9c0d44787a358a84"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x2a8e658f0bfb0505b1bd0488d75874a65a0a76c76cdd76a43a98e1735b301207",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "244000000000000000",
+            "decimal": 0.244,
+            "usd": 289.57381,
+            "native": 0.244
+          }
+        },
+        "maker": "0xd632c0c03f815778afcb6e1d9c0d44787a358a84",
+        "validFrom": 1670736765,
+        "validUntil": 1673415165,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/196"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "1688",
+      "name": "Angry Cat #1688",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a0baf8f99e951d0a2d3ac5e36286a4fa7224fad82dab570ea01bd266ebcd691f177b029fff0cc8e489603a3e9f1e216a92367582941abf38f2c0237be8d341293bc1f88c8c64d351e1aea82c4720f2484312a7d93d689d7083053e3c076c764a4631d00c5eb1d0b5004187ad53cfe488023c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T17:45:17.680Z",
+      "lastFlagChange": null,
+      "rarity": 419.475,
+      "rarityRank": 5120,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x92ff5e11b77ef660ce1d46773dc0ebffa40fe012"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x6ef1e79dc3239ea0f7303837785c78f38bfe8150049511828560b3854765a743",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "245000000000000000",
+            "decimal": 0.245,
+            "usd": 290.76059,
+            "native": 0.245
+          }
+        },
+        "maker": "0x92ff5e11b77ef660ce1d46773dc0ebffa40fe012",
+        "validFrom": 1670910535,
+        "validUntil": 1672630655,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/1688"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "3635",
+      "name": "Angry Cat #3635",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a219d7b1587468e867a5634d112b043ddd87b866fbbdb7838c3f95825b7f87941560cb39b0392803bf78d21720fee0e35bf0b4c29b4fdbf77215ed88156f1da79406b8cbbfd94fe12fd51fb0bb93c45822f26123d0ca4e8e827b103d27cea26dcb10c77d60ca62ea3ca09b4a2999bbf56e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T15:55:43.908Z",
+      "lastFlagChange": null,
+      "rarity": 1382.309,
+      "rarityRank": 292,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.1,
+        "timestamp": 1664213387
+      },
+      "owner": "0xfc93aaca3f4cc2224ffb724b7a27611dc8f3be57"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xdd4bf7727b7d2db716f1075dc9db25694cd52f86916569dad78e80613791ae39",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "245000000000000000",
+            "decimal": 0.245,
+            "usd": 290.76059,
+            "native": 0.245
+          }
+        },
+        "maker": "0xfc93aaca3f4cc2224ffb724b7a27611dc8f3be57",
+        "validFrom": 1670990694,
+        "validUntil": 1673669094,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/3635"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "4877",
+      "name": "Angry Cat #4877",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a904cecbeda6115885adac06156e20e6d168788616a8da7e44fbc21c27f0b9b49ca8619f1af0286ea7b79c3c6b0335df4b0481d66aea41cee9548f8dcc936d558ea7730f4feed124fce35e53dbc47c1486275009605cfd86cb0147d8651fffded1345dde5dd19ca9019393bab74b900d723c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T15:17:38.566Z",
+      "lastFlagChange": null,
+      "rarity": 340.949,
+      "rarityRank": 6581,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x4b4a9b49758ab2b4bee3b8940cbe9492d03fd916"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xc1f70f08de1928b09c125298f96c810a0a756697e770abdedd447b93dcedd5f1",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "245000000000000000",
+            "decimal": 0.245,
+            "usd": 290.76059,
+            "native": 0.245
+          }
+        },
+        "maker": "0x4b4a9b49758ab2b4bee3b8940cbe9492d03fd916",
+        "validFrom": 1670631007,
+        "validUntil": 1673309407,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/4877"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "8539",
+      "name": "Angry Cat #8539",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4662b8d4a402264edbd01b3d3b74fb5728e15bd30cd483305525fb90b9cb99414547e1551c4c51a4822c2ad3ef23b4bd02a4068a6581c9edb86bfcc699d0bc61c3a0f671cd03fdeaad7d8ae11f38e2f3595a5762d156bb963dfce3fcbe42adc581101d065cbabb8d638d84637139957623c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T15:08:11.437Z",
+      "lastFlagChange": null,
+      "rarity": 291.725,
+      "rarityRank": 7519,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": 0.17505,
+        "timestamp": 1670481059
+      },
+      "lastSell": {
+        "value": 0.098,
+        "timestamp": 1664103827
+      },
+      "owner": "0xe1de31587d1c52199f804eaded4b59da50c51611"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xfd045afe0b88af73996bcb8cbf50e537c59c1910d5afb42d2272573e153c2a13",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "247000000000000000",
+            "decimal": 0.247,
+            "usd": 293.13415,
+            "native": 0.247
+          }
+        },
+        "maker": "0xe1de31587d1c52199f804eaded4b59da50c51611",
+        "validFrom": 1671299965,
+        "validUntil": 1686851965,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/8539"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "2305",
+      "name": "Angry Cat #2305",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a33fa5608d42993ef5c40b424f46437dada7299bf14ef66b14a3c6f4dbd02d6cdc8b652be13c896f65181080a3417f7756f7d28ea9d95a31078a459b462621c3f6cb7581663d797a2dadffbf3c468b51c027b497520affc24e36fcfcb76661abf11e052ea3b83aa92efdd82a7c754b7ee058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T17:26:51.854Z",
+      "lastFlagChange": null,
+      "rarity": 997.469,
+      "rarityRank": 628,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": 0.265,
+        "timestamp": 1665492623
+      },
+      "lastSell": {
+        "value": 0.188,
+        "timestamp": 1665315863
+      },
+      "owner": "0xa27503e089ef0e37d6eaf28aa444c46eb9fd9e40"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x1f899c7a8f9675852e51b4980af1a988739bc9159ee156306fc6f5d23837dc2d",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "250000000000000000",
+            "decimal": 0.25,
+            "usd": 296.69448,
+            "native": 0.25
+          }
+        },
+        "maker": "0xa27503e089ef0e37d6eaf28aa444c46eb9fd9e40",
+        "validFrom": 1671439981,
+        "validUntil": 1674118381,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/2305"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "2329",
+      "name": "Angry Cat #2329",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a910122227dba95d8633b0fce6833172d878282b97838e80fca438437041230db03bc1fc201e1dc0a9bb657e62263e2963a984606bedaac4c1035c6f3290281991f023ecdab607e9b92e3df20426ad1fcf9ba66d5ec2ab74adbf247700e6f877d4f865f2106eb2a2b3217d2abf4795caf23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T17:26:51.181Z",
+      "lastFlagChange": null,
+      "rarity": 806.054,
+      "rarityRank": 1142,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xd9238b2483177cf180b0fabff31033b5374ca7b6"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x0935a58ccbacf9f43a9caa0610fcdcb0b58f130c4ef535c32b23be4bd8e6a860",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "250000000000000000",
+            "decimal": 0.25,
+            "usd": 296.69448,
+            "native": 0.25
+          }
+        },
+        "maker": "0xd9238b2483177cf180b0fabff31033b5374ca7b6",
+        "validFrom": 1669993548,
+        "validUntil": 1672671948,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/2329"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "2343",
+      "name": "Angry Cat #2343",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a60ec05ddaa2638775d8d57cdfb1bec1b591137146ebb288082ee4da595566b9fb6ff4a1cc7417fa4d7a934471a061b2eb768866d3325fcd0f4dfbd56f477f999c5f785fe4b8e7255e7106187720d6dd722e59b80320ae742ac66df37a914abe64c65b6c25571d6e774dffda9052767a223c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T17:26:50.051Z",
+      "lastFlagChange": null,
+      "rarity": 200.656,
+      "rarityRank": 9972,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.15,
+        "timestamp": 1665236255
+      },
+      "owner": "0xd2aa3829e19cbcead1bc9b42ebc7585ed4f28288"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xf5b6d05f72fda05825d2e457600fc782bfb67153200f4fa209ec933d0ed25b09",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "250000000000000000",
+            "decimal": 0.25,
+            "usd": 296.69448,
+            "native": 0.25
+          }
+        },
+        "maker": "0xd2aa3829e19cbcead1bc9b42ebc7585ed4f28288",
+        "validFrom": 1671434776,
+        "validUntil": 1679210776,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/2343"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "8374",
+      "name": "Angry Cat #8374",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75afc058f7fa6c92cded74ba034486d0125b19ca85a30a0069d1acc4e86b3b106b2abd853112b338e503c78e0e294c6c6fecf4943ffac844e1118c298eb599fa7605139a34ef737fb90c453f8ed4af5c8a168c91b3854f19f2dbf06da263d137a0944350209111cea50cc5371ca1753801723c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T15:08:14.306Z",
+      "lastFlagChange": null,
+      "rarity": 238.629,
+      "rarityRank": 9095,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.0925,
+        "timestamp": 1664816879
+      },
+      "owner": "0x774ed29792180cb84ab04db61deefe9477bae83f"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x5a1f86c87f0c683d3cd1d7a9991aec1d5e1adaa9db3785f557398b63a9bdd72e",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "250000000000000000",
+            "decimal": 0.25,
+            "usd": 296.69448,
+            "native": 0.25
+          }
+        },
+        "maker": "0x774ed29792180cb84ab04db61deefe9477bae83f",
+        "validFrom": 1669657223,
+        "validUntil": 1672249223,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/8374"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "8400",
+      "name": "Angry Cat #8400",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ad63f50638d4f11922cdbb33bbf35d8d10a3130b83fc6329fba808f51be7475c43e038249535a04371420adfef96dcbd98d578e54422fc06db7b2313b95cf350a5e0b1fe046474514e40a43610a5223f39c1acd98fe0a1f8ca8323f6f1b2d980f134a114abec550e919a336b7c5f8a55123c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T15:08:14.076Z",
+      "lastFlagChange": null,
+      "rarity": 414.894,
+      "rarityRank": 5212,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.07,
+        "timestamp": 1664014415
+      },
+      "owner": "0x67b1ee15b0f33c84227b06fd5e5b81d857129d68"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xb6a5f449ae242338fed8877796e2833e72c87fc64b19ebddaa738b500c4d6090",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "250000000000000000",
+            "decimal": 0.25,
+            "usd": 296.69448,
+            "native": 0.25
+          }
+        },
+        "maker": "0x67b1ee15b0f33c84227b06fd5e5b81d857129d68",
+        "validFrom": 1671076509,
+        "validUntil": 1673754909,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/8400"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "9034",
+      "name": "Angry Cat #9034",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af6eae2e50864eb49dfe088856bebc9c2063a1bd67afce906a4758c3b0125f02c768c67331a64548adb3f85c10d2beae562e29568732177bd74ea3f8ea85c42b564a59ad9a90c4e50e867a67198f2befefc3f352c7b17311aa35945562b1a348bc2be2d3919abf73c4092b80204fcf7e8e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T15:07:02.550Z",
+      "lastFlagChange": null,
+      "rarity": 558.902,
+      "rarityRank": 2948,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.15,
+        "timestamp": 1665236195
+      },
+      "owner": "0xd2aa3829e19cbcead1bc9b42ebc7585ed4f28288"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x5b2fca286fbe18177d93a0b7c1aaac7a9fa878fdc880deea0852a1133de93819",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "250000000000000000",
+            "decimal": 0.25,
+            "usd": 296.69448,
+            "native": 0.25
+          }
+        },
+        "maker": "0xd2aa3829e19cbcead1bc9b42ebc7585ed4f28288",
+        "validFrom": 1671434691,
+        "validUntil": 1679210691,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/9034"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "9529",
+      "name": "Angry Cat #9529",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4b50079c6412ad50750d1a2413dc0cde169c7e78613f04d4da5f7ee3b599e96dcc952d767fec5fb579de5438a72affd94fd14cba5d7fe423cf1f501fecb2b3f41f0fdf0868aae92124ba81cff5c16f522660b39f46e9da843f19bad685104f2f1a2b1c1936cfce25c08e04851370278223c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T15:00:56.471Z",
+      "lastFlagChange": null,
+      "rarity": 1494.808,
+      "rarityRank": 245,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.289,
+        "timestamp": 1667071151
+      },
+      "owner": "0xc4628b96d229cd8b77aae662cc597769a52a5917"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x69404d41eddebe7e612b45bf52dd314e1fda93eda9f31dd750c002f08fb9d470",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "250000000000000000",
+            "decimal": 0.25,
+            "usd": 296.69448,
+            "native": 0.25
+          }
+        },
+        "maker": "0xc4628b96d229cd8b77aae662cc597769a52a5917",
+        "validFrom": 1671219745,
+        "validUntil": 1673898145,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/9529"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "5395",
+      "name": "Angry Cat #5395",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ad759771051b1e5d3208f247223dc488ca3252bac458e72ddabef5cf6577de61b018bef4588fa41f0e53b53835cc765c851daae09de670a3d4a2d7701a72681e128bc0a1b96bc494ea29713cb59060eaa1c67a0c3b786362c441a003a64f8c09c7325f6db56173a3a0be8b3601abadcdd23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T15:13:32.131Z",
+      "lastFlagChange": null,
+      "rarity": 219.308,
+      "rarityRank": 9733,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x9ee11a802b593b053a8489fb27f6fc3b9c0262b8"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x6ab95b7718506e0964bda0136f1b6e22e16e699e96f878ade76976e808f735de",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "259000000000000000",
+            "decimal": 0.259,
+            "usd": 307.37548,
+            "native": 0.259
+          }
+        },
+        "maker": "0x9ee11a802b593b053a8489fb27f6fc3b9c0262b8",
+        "validFrom": 1670672328,
+        "validUntil": 1686224325,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/5395"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "578",
+      "name": "Angry Cat #578",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ace89335e6188c576ba2efa1f0b18e946876b8b782a88eb65e800d1e570a1a9edbfa7c39aeb0625c8b145bafe14ef1d0a80480b076793e57899a4ed7c41380f4bd0dc072f8fdd121f79f5b7c2eab2d6bd43d6c4689993ad3b6cac052a4aa0adfce84211dc72acfa11f7c0867a87f1086823c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T18:48:42.215Z",
+      "lastFlagChange": null,
+      "rarity": 642.477,
+      "rarityRank": 2136,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x52b75731fc67f262aa35fc2bb7d9087b4be8b8f9"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xf581a97666a0ffcce865a1df827a5073298c990650bfeb3db16dac838157d6be",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "260000000000000000",
+            "decimal": 0.26,
+            "usd": 308.56226,
+            "native": 0.26
+          }
+        },
+        "maker": "0x52b75731fc67f262aa35fc2bb7d9087b4be8b8f9",
+        "validFrom": 1670984850,
+        "validUntil": 1673663250,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/578"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "8439",
+      "name": "Angry Cat #8439",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a004b9be225198f30bb0a3dd8c843424b19deccba9714747bfe529eb9958c1230648632276628abda06866c00ada504223cc20510a7a39a677269ffa03371bdc90a122ccd71c4a0e2f37b3e2dbb8780c3429afe5478e5b944ace55c53efb77d5eb6749911500ff32c872968b7522e909ee1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T15:08:13.325Z",
+      "lastFlagChange": null,
+      "rarity": 331.027,
+      "rarityRank": 6758,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.114,
+        "timestamp": 1664107655
+      },
+      "owner": "0xbe0d1865a785915a6fd47592f1e11ce3be131111"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xdd00f3581defcb19114afe8121566fd74235d175d725275d3d547e0382c7a6e4",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "260000000000000000",
+            "decimal": 0.26,
+            "usd": 308.56226,
+            "native": 0.26
+          }
+        },
+        "maker": "0xbe0d1865a785915a6fd47592f1e11ce3be131111",
+        "validFrom": 1671525042,
+        "validUntil": 1687077041,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/8439"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "9089",
+      "name": "Angry Cat #9089",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a28c02183b005d4627f694a0366bb7eefc01295cf5af095bcc579023e3b8bb966ae22d0d755c5eb30bd388d2e787f04df6d3cb789c99e0721dd48e8a2f9ca3934c81e9cdbb728bbb9185e081e5a6a94fe7302db5ca13f17005536cd049f433b08d5f52996f1187d6b97b493f0a5056915e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T15:06:59.423Z",
+      "lastFlagChange": null,
+      "rarity": 226.383,
+      "rarityRank": 9528,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.0879,
+        "timestamp": 1664671115
+      },
+      "owner": "0xfc93aaca3f4cc2224ffb724b7a27611dc8f3be57"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x0f5dd9b25e0ac3f40045154888883c62a533100181569c3dd3bd1fe609430e6f",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "260000000000000000",
+            "decimal": 0.26,
+            "usd": 308.56226,
+            "native": 0.26
+          }
+        },
+        "maker": "0xfc93aaca3f4cc2224ffb724b7a27611dc8f3be57",
+        "validFrom": 1670582135,
+        "validUntil": 1673260535,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/9089"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "9146",
+      "name": "Angry Cat #9146",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a58a4773695802e596720e69b64ba91b9a7b516762775df56ed041aba2aafc0daa9e524499aeeabdef88f680b7b62493b8e27493b7d2566c0334315c9844d2dca22ff3039f47c74f6fdb1486902231b05272cd34e43972be2e5426958c71a3e0fecaa6059c898ee1f977cb8b8d9e6a80d23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T15:06:55.274Z",
+      "lastFlagChange": null,
+      "rarity": 447.198,
+      "rarityRank": 4632,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.095,
+        "timestamp": 1664815175
+      },
+      "owner": "0x1fd00885df1c24aec7ebe239b9b22b3db039dccb"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xe653aa09c0f47fffdadfeb4b468bd6c15b89b74216e8d18dca03dda200de12a4",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "260000000000000000",
+            "decimal": 0.26,
+            "usd": 308.56226,
+            "native": 0.26
+          }
+        },
+        "maker": "0x1fd00885df1c24aec7ebe239b9b22b3db039dccb",
+        "validFrom": 1670742537,
+        "validUntil": 1673420937,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/9146"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "8963",
+      "name": "Angry Cat #8963",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a89ee15a6cc7d5a63782c679ae5387653c095433ca360a703484041c2a3c026fce7a88c124b2253541610a2c1a998236d15eda1da08dbb0f0150334c2f6056174331fd6740fd6be3ee3bf3b0658b9527b5b54e7b0e1d21d24c4cbd221f7e92e153488a03df23e95b9e680e25108b680f7058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T15:07:59.596Z",
+      "lastFlagChange": null,
+      "rarity": 975.959,
+      "rarityRank": 676,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xf8abd70944787ad0860e4896d6aa21e56208fd0b"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x1ab00e9b07edc10c1fc83c665579c58ea5bfac77c559f487e135b6828827a025",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "265000000000000000",
+            "decimal": 0.265,
+            "usd": 314.49615,
+            "native": 0.265
+          }
+        },
+        "maker": "0xf8abd70944787ad0860e4896d6aa21e56208fd0b",
+        "validFrom": 1671265643,
+        "validUntil": 1673944043,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/8963"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "8566",
+      "name": "Angry Cat #8566",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a38e71709fe67ac7bf052b249285ff7d2209553e738e5511405fd060af44ed28f44715d09eb0fc098b3cc888e8a2e24d1dd8cc5775fa7af956eea8cb39119da37c1e4dd6edc363f2123270d47f09bdbcac17763bbdf0963803b2e6d114c01114f0f9e053129485f60e010be541760ec36e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T15:08:10.096Z",
+      "lastFlagChange": null,
+      "rarity": 394.982,
+      "rarityRank": 5573,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.0788,
+        "timestamp": 1664079647
+      },
+      "owner": "0x8ecd108a3ee5f2c8ba6435bc334dc4410b70242b"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xbb27be1322e529921e5d22996c07a0d0bd1bd14aff57d3705df5d44a28e74a10",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "266000000000000000",
+            "decimal": 0.266,
+            "usd": 315.68293,
+            "native": 0.266
+          }
+        },
+        "maker": "0x8ecd108a3ee5f2c8ba6435bc334dc4410b70242b",
+        "validFrom": 1669535474,
+        "validUntil": 1672127474,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/8566"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "4871",
+      "name": "Angry Cat #4871",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a76a07296d215881add0054063325c2c72bfdf314a0da5a4597795bdb77de9f599b2ddccfde687cc45c859c3d7ad9e04818dc7743ea3968536264fbba7ca2836d0951791eb04ff94e3b48a2cc0c456f7df4b1c283f043db2dee9f1128fe0f321e07021ab94aa2b3a3d6eeae1e2d0dba95058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-10T00:14:28.904Z",
+      "lastFlagChange": null,
+      "rarity": 1603.871,
+      "rarityRank": 202,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.24,
+        "timestamp": 1670631263
+      },
+      "owner": "0xd11efe96527fda776b1530ad157c8160533cb5e4"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x75a766dca124b671ce423e35068d2ba6526b4c2aadd38a5a8169d7732325c007",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "266300000000000000",
+            "decimal": 0.2663,
+            "usd": 316.03896,
+            "native": 0.2663
+          }
+        },
+        "maker": "0xd11efe96527fda776b1530ad157c8160533cb5e4",
+        "validFrom": 1670823084,
+        "validUntil": 1673415083,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/4871"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+      "category": [
+        "Animal",
+        "Cat",
+        "Cartoon",
+        "2d",
+        "Casual",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "1461",
+      "name": "Angry Cat #1461",
+      "description": "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a54782051023da46997694b03812fa5cd8dc31e96775671206c9664d581781706f371c40475aa946d1034b98c652642b6e0d2642f0221f0da23caa04d100c2f931bc5c7fcb7c80ce37d80f3002fdcc8faac31d10ae97c50c9379b4acc000cabd43dc9076122c1a747d96229d3ab69dbaa058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-04T17:45:30.839Z",
+      "lastFlagChange": null,
+      "rarity": 408.374,
+      "rarityRank": 5331,
+      "collection": {
+        "id": "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
+        "name": "AngryCat - official",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7240f3a725bde758878a19ead0dc2a13b0e7c269ab5114a05c718201005f0bec3f3838688ac3f4dc7f0743e8372a4870ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "angrycat-official"
+      },
+      "lastBuy": {
+        "value": 0.53,
+        "timestamp": 1665539039
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xd1c44ea37590325e55fa2fcea6674f128205644e"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xacd00a855e7e7e223412d267dc5e33921a7a284549bce2ffa2f16ba2ed6585ae",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "270000000000000000",
+            "decimal": 0.27,
+            "usd": 320.43004,
+            "native": 0.27
+          }
+        },
+        "maker": "0xd1c44ea37590325e55fa2fcea6674f128205644e",
+        "validFrom": 1671441488,
+        "validUntil": 1674119888,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c/1461"
+        }
+      }
+    }
+  }
+]

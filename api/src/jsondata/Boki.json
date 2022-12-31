@@ -1,0 +1,3452 @@
+[
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "3412",
+      "name": "Boki #4348",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4ba123fda3a57b2dd02ced17a97040bd0022399e2614e22acab878c66185a43a5b590d66ba9fa0bc15fbec6845925dd9640aec5883c685db410514712a840890dcff5945ea9f955840c4041440e108427bf512cee90895a19f7143d51b4af6681784a0cf5c52ce5f8b8368f81c7dbdcd23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": true,
+      "lastFlagUpdate": "2022-12-20T01:36:06.054Z",
+      "lastFlagChange": "2022-12-16T21:02:00.677Z",
+      "rarity": 66.099,
+      "rarityRank": 3002,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": 0.0313,
+        "timestamp": 1671222599
+      },
+      "lastSell": {
+        "value": 0.069,
+        "timestamp": 1671249011
+      },
+      "owner": "0xabf69c469742d0ff5aac3607177e8e5722d7fe0a"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x0ea9b0f8e83506673613c7ef83a59bf1f2b6294dc6e916ba97f0efb67e93fa64",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "59000000000000000",
+            "decimal": 0.059,
+            "usd": 70.0199,
+            "native": 0.059
+          }
+        },
+        "maker": "0xabf69c469742d0ff5aac3607177e8e5722d7fe0a",
+        "validFrom": 1671511460,
+        "validUntil": 1672065674,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/3412"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "2795",
+      "name": "Boki #3731",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ac8f2aebabdbf25c9e8b515bc7c083569edec5f47ce87e95618f3d9d2fa4334c3ecc5d56479018d43d9881dccafbb4b702d8457be5c90ae6025c2ebda72b87bb36a1046161b9afdeb578e2b71c0f4462ea7e83cc69c416bd5187e6ef82e35e0578843acf316c7d6b96368b04b21493c2c23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T14:37:18.615Z",
+      "lastFlagChange": null,
+      "rarity": 45.585,
+      "rarityRank": 6472,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": 0.06361,
+        "timestamp": 1671465119
+      },
+      "lastSell": {
+        "value": 0.071,
+        "timestamp": 1671391523
+      },
+      "owner": "0xc926653632a40d3c59919f4d153c736aac17328c"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xa2e6e385eb02e0da629ad099d28b5cf618c5a4b027e43dc4a463cd888a4be156",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "72290000000000000",
+            "decimal": 0.07229,
+            "usd": 85.79218,
+            "native": 0.07229
+          }
+        },
+        "maker": "0xc926653632a40d3c59919f4d153c736aac17328c",
+        "validFrom": 1671546760,
+        "validUntil": 1671550360,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/2795"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "4910",
+      "name": "Boki #5846",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ac997c3067285fbecf9cdeb2447e55036a7112cc8afa22cebae5288453dc1f32c27d59535975c93966087bb18f798be15a5bfcf21300a493b757830eaae9029a5309466223b9d635ddeba4954a08ab00c476a73f062cf9ab58c37085da8770d6c4b18d3f43e12a9add44380da6a5c6302058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T06:20:07.442Z",
+      "lastFlagChange": null,
+      "rarity": 76.31,
+      "rarityRank": 1397,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": 0.06,
+        "timestamp": 1671496235
+      },
+      "lastSell": {
+        "value": 0.666,
+        "timestamp": 1654457544
+      },
+      "owner": "0xa432e6479d089170b578c75332af834a723941da"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x5d1f975cf7e51d986d2767fa1de47f908c4e7204c276a0573edb287a83337bbd",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "72390000000000000",
+            "decimal": 0.07239,
+            "usd": 85.91085,
+            "native": 0.07239
+          }
+        },
+        "maker": "0xa432e6479d089170b578c75332af834a723941da",
+        "validFrom": 1671517006,
+        "validUntil": 1672121806,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/4910"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "7742",
+      "name": "Boki #901",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aa090cc9c8df09ce3766a38f585ffaa631776aec3f9cd3f50f8261cad29e0faf8758bebc7248c0ad2707238b39506d0233e9869b366ec5a96b5a7e09a8a901da6620a19b2482c511f36c07b8195b99c1308eafa0ca9f0255bac83974e045e9cdbeb5b2815e29369c713f03256756b6b7a23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T14:03:20.413Z",
+      "lastFlagChange": null,
+      "rarity": 70.894,
+      "rarityRank": 2731,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": 0.06,
+        "timestamp": 1671496235
+      },
+      "lastSell": {
+        "value": 0.725,
+        "timestamp": 1654458525
+      },
+      "owner": "0xa432e6479d089170b578c75332af834a723941da"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x1c8a923928a924cea34e0fa2a3aab31b564a5b8a2d930ca4169db6fcdbae5862",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "72390000000000000",
+            "decimal": 0.07239,
+            "usd": 85.91085,
+            "native": 0.07239
+          }
+        },
+        "maker": "0xa432e6479d089170b578c75332af834a723941da",
+        "validFrom": 1671516950,
+        "validUntil": 1672121750,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/7742"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "3727",
+      "name": "Boki #4663",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aa6126e3369946ec3160395e8d71a162d6ade4d8127290c5658c12e04372ed4c7f1d18fd46361384f0c01c4bed6200bd4f0622991784997d6cbe72f61e404825100e7cddc0f47adb835aa8ef9fc108c20b128c0fec2f1d19c0f413710ac452a304bf2e2fb21e8e95e31e89e969a3c51a323c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T01:35:52.507Z",
+      "lastFlagChange": null,
+      "rarity": 77.481,
+      "rarityRank": 1216,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": 0.0709,
+        "timestamp": 1670980403
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x63329fd6bf322f8eb5a555dd0e0e29ed08336471"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xdbdadb10dadfb2f84769461d7a338cce010717a19609d0c89f1571555ade21be",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "72400000000000000",
+            "decimal": 0.0724,
+            "usd": 85.92272,
+            "native": 0.0724
+          }
+        },
+        "maker": "0x63329fd6bf322f8eb5a555dd0e0e29ed08336471",
+        "validFrom": 1671545794,
+        "validUntil": 1671594469,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/3727"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "2010",
+      "name": "Boki #2946",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af469d6a2ce6129e1814c6577a4eedefa736a8adb5dc1b96cfdcf180daeb6771666a71b8368dcfdb78c57b16ffed26e7d5a78d2529455aefd4aab9230033e138bb2055ec510c9b48ec297fc9378a41fcbc3448187e925933b683d2afd2e286471f6e5a5e6154d40bd05a9917389976ac823c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T02:32:27.012Z",
+      "lastFlagChange": null,
+      "rarity": 46.505,
+      "rarityRank": 6189,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": 0.0914,
+        "timestamp": 1664056763
+      },
+      "lastSell": {
+        "value": 0.0949,
+        "timestamp": 1664143295
+      },
+      "owner": "0x3d84301264593ef35d19ac8ec515ee1967f9c2f1"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x3bf106ab3c240d7111cdade5d0d68c022913d0e909a9a6c6da5cf1163308403c",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "72500000000000000",
+            "decimal": 0.0725,
+            "usd": 86.0414,
+            "native": 0.0725
+          }
+        },
+        "maker": "0x3d84301264593ef35d19ac8ec515ee1967f9c2f1",
+        "validFrom": 1671503422,
+        "validUntil": 1677463228,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/2010"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "4809",
+      "name": "Boki #5745",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a19e91599335bf00599cdd2782e3e042d9d4101624cc01cdc6437b721f03f6a2b732ab95ed63a6845f6084013875868a630738b7298a974a1825d8aba85dd36fd8e36914a4432c15df99157da82a1b411cbfab51d96b12b6d90b22e4f3450cc3232355e1c70f5bba334c39651095f664323c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T01:35:06.427Z",
+      "lastFlagChange": null,
+      "rarity": 73.488,
+      "rarityRank": 2153,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.093,
+        "timestamp": 1665469847
+      },
+      "owner": "0xc132224d1b8254dd104d8fb6d41f69dc671748a0"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x54ba3c3928e495d8c5dab9e37346e0a79e41f8bf7df37db40276dbe320326597",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "72500000000000000",
+            "decimal": 0.0725,
+            "usd": 86.0414,
+            "native": 0.0725
+          }
+        },
+        "maker": "0xc132224d1b8254dd104d8fb6d41f69dc671748a0",
+        "validFrom": 1671545598,
+        "validUntil": 1674223998,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/4809"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "6135",
+      "name": "Boki #7071",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3f76ae4e53fc594b4f6d5fe93b6d58875cd5c09d61c2abe6952bf08955b95f715dbc0a8a0a71054688f0e1b52df9ba53868dfc7e279f5ca95e8d6887bce3b5ebcc35a42c7f3e64d2fde6e12b4aca229869c4652559d4bcc284549696f059fd12321f5cf7b84f78d0af24a32a4f733684e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T01:34:02.474Z",
+      "lastFlagChange": null,
+      "rarity": 64.026,
+      "rarityRank": 3063,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": 0.0637,
+        "timestamp": 1671482363
+      },
+      "lastSell": {
+        "value": 0.13,
+        "timestamp": 1653180908
+      },
+      "owner": "0xff09189560b13228f703696ce1dc29d846f61181"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x7b4194bea715af5f1b114d310cff3842ebce426b4319617ec833e26b91f6e414",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "72900000000000000",
+            "decimal": 0.0729,
+            "usd": 86.51611,
+            "native": 0.0729
+          }
+        },
+        "maker": "0xff09189560b13228f703696ce1dc29d846f61181",
+        "validFrom": 1671492748,
+        "validUntil": 1671579148,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/6135"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "7116",
+      "name": "Boki #275",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a0919d48b04b3b88ac1d87e76d8ec703a7af20ed56e9eac6fd4e0b879fe4c2a56df9b0da4280713ae4513d6abd76cae7c5a949a08a550395792c4985b16d31fd34bc0da126fbfb6e1601cfe0d5eba4083f2f55d34fbb07d164eecb4b238472141cb3ab3546c0c9c8bbc38dd34c90f08d423c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T14:05:10.314Z",
+      "lastFlagChange": null,
+      "rarity": 63.61,
+      "rarityRank": 3084,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": 0.0634,
+        "timestamp": 1671471875
+      },
+      "lastSell": {
+        "value": 0.0073,
+        "timestamp": 1671471875
+      },
+      "owner": "0xff09189560b13228f703696ce1dc29d846f61181"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x119cd6f95fe8510d6cf21c0a3aa88ae7b18fc563e0f0c617c4fede4f806594b9",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "72900000000000000",
+            "decimal": 0.0729,
+            "usd": 86.51611,
+            "native": 0.0729
+          }
+        },
+        "maker": "0xff09189560b13228f703696ce1dc29d846f61181",
+        "validFrom": 1671492831,
+        "validUntil": 1671579231,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/7116"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "4906",
+      "name": "Boki #5842",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75afbea50539409d7da6f23babb4cc40bd84ccdbc66d4e043fc915f27b55c3feb51893ff56c1c376712b71d38a5f6ea524707284a811aa9d7503197f19cd3dcee3d88644056f7cbd8037e7ccc9a7231a666341865600accb4732815930caeb38a694a9a2416dcc398ffd0330d26ceb65451e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T01:35:03.739Z",
+      "lastFlagChange": null,
+      "rarity": 71.583,
+      "rarityRank": 2619,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": 0.11,
+        "timestamp": 1667337395
+      },
+      "lastSell": {
+        "value": 0.151,
+        "timestamp": 1666707539
+      },
+      "owner": "0x8e9575faa5afb0c55cbe3056636e4fe733953c13"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x6d468126494a85e206ba716bc37dd0b8405a47ade2a3d150cf3d519769867c83",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "73000000000000000",
+            "decimal": 0.073,
+            "usd": 86.63479,
+            "native": 0.073
+          }
+        },
+        "maker": "0x8e9575faa5afb0c55cbe3056636e4fe733953c13",
+        "validFrom": 1671476416,
+        "validUntil": 1671562816,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/4906"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "3978",
+      "name": "Boki #4914",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a6789239db7e124a13f20eb84c313b129e05fb543ccc8c329ea84ea2f275469d2968a5e0052dec506a4d73dd81bc57b989222f9afab011b9e6c1acf1633f8aff1d47d2ffc7a8e336924bc5bec4895f3c75b6df78901bcd72902f81c42bc4a06c6e9a52c2f9920078308024ac746c1152023c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T01:35:44.058Z",
+      "lastFlagChange": null,
+      "rarity": 76.314,
+      "rarityRank": 1396,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": 0.0991,
+        "timestamp": 1663652615
+      },
+      "lastSell": {
+        "value": 0.156,
+        "timestamp": 1666703495
+      },
+      "owner": "0xcca1e07bcf9c4e747536a24801136c80b97ad9a3"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xe300c52a06d1d0f12ebdf7fa46b3baff3d369a79397b08587bccad29cf44219c",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "73800000000000000",
+            "decimal": 0.0738,
+            "usd": 87.58421,
+            "native": 0.0738
+          }
+        },
+        "maker": "0xcca1e07bcf9c4e747536a24801136c80b97ad9a3",
+        "validFrom": 1671440773,
+        "validUntil": 1673293294,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/3978"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "177",
+      "name": "Boki #1113",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a8055b9584f404c6f25c656b95acb3a9ad0a4930430f4011bc258949676e6d2457b4745ad0dcfb9bc7ce230f2597b7173e40a3d64376bb78e5d37856f7e35e40ad1525d9eca9c887c30ea3ce4e63e1c9a418a353fef5280f96e18488f3da9a2ae804224dc704c45f187418f5d3535cde5058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T01:38:33.975Z",
+      "lastFlagChange": null,
+      "rarity": 49.911,
+      "rarityRank": 4463,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.0785,
+        "timestamp": 1669119251
+      },
+      "owner": "0xedb2fb1dfc519a0a4d9c03503501fef52016e603"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x2fec94881c8312c812c45f5320b1a952416cab3fcbbd9ccb432f1569a85ebeff",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "74000000000000000",
+            "decimal": 0.074,
+            "usd": 87.82157,
+            "native": 0.074
+          }
+        },
+        "maker": "0xedb2fb1dfc519a0a4d9c03503501fef52016e603",
+        "validFrom": 1671536661,
+        "validUntil": 1671623061,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/177"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "2177",
+      "name": "Boki #3113",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ad1c21e77b68b878476fd3125ba8d46e0e32f23c4093e14437e516cfb0bab435480f04b48b4282b05cb54d21cd05f366f76f24e200394cb4c8b4cda3c8464a3ac9b1630ccdda549eda1fcf37739de77e9d32bd89f7afc6f70124fdf013251cafcc692d40a26523a1f684974993d2a5612058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T01:37:06.726Z",
+      "lastFlagChange": null,
+      "rarity": 49.724,
+      "rarityRank": 4539,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": 0.06,
+        "timestamp": 1671158879
+      },
+      "lastSell": {
+        "value": 0.095,
+        "timestamp": 1666871099
+      },
+      "owner": "0x4806ecd29540109cfd861424c455c02ecb896548"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x6ea71db9c6b7fa2c600c06c50d11a5f9b72f9a90b43671efed01d17108d19ee9",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "74490000000000000",
+            "decimal": 0.07449,
+            "usd": 88.40309,
+            "native": 0.07449
+          }
+        },
+        "maker": "0x4806ecd29540109cfd861424c455c02ecb896548",
+        "validFrom": 1671482680,
+        "validUntil": 1674074678,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/2177"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "2278",
+      "name": "Boki #3214",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab318ac4459b1fd96f7a990cd495886954955b9c518e6d68b7ef60e7e3a6ef6a8906824e52d06b4aa627a4256d5721ce1dd6247f2680beac0ad779e2469d9bf290e14e14d016f21980ccdbd4a821962b91a226927336928beeacc75c0eef08bb0099951ea6de92528451caf36d8cb02a6058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T01:36:57.567Z",
+      "lastFlagChange": null,
+      "rarity": 73.531,
+      "rarityRank": 2134,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": 0.06,
+        "timestamp": 1671158879
+      },
+      "lastSell": {
+        "value": 0.0949,
+        "timestamp": 1666871099
+      },
+      "owner": "0x4806ecd29540109cfd861424c455c02ecb896548"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xa5ab240ca52be66c32d406edb6a7eb0cec069ebfb0795baeff9d1ba601662fe2",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "74490000000000000",
+            "decimal": 0.07449,
+            "usd": 88.40309,
+            "native": 0.07449
+          }
+        },
+        "maker": "0x4806ecd29540109cfd861424c455c02ecb896548",
+        "validFrom": 1671482685,
+        "validUntil": 1674074684,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/2278"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "2753",
+      "name": "Boki #3689",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a93e9aa0431eefaadb54a5c1213ca0bec378101d098ad6531bcee99fbe507054e7f023c5ad01147f2cd785955da6200c81333d4d37cfdf90ef364007bf69947663be5ffd4ea0fa311e36d018efe0dc493453cb1d1c89d0feac236ae33e586ca7d8ad9f5071ab3afaa45547367638c5e9f058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T01:36:34.738Z",
+      "lastFlagChange": null,
+      "rarity": 42.302,
+      "rarityRank": 6971,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": 0.06,
+        "timestamp": 1671158879
+      },
+      "lastSell": {
+        "value": 0.0956,
+        "timestamp": 1666871111
+      },
+      "owner": "0x4806ecd29540109cfd861424c455c02ecb896548"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x43bce1f69c7c3cdb96d13d26f8cf7e5bc9da60b55be490bb2326c1366f022e86",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "74490000000000000",
+            "decimal": 0.07449,
+            "usd": 88.40309,
+            "native": 0.07449
+          }
+        },
+        "maker": "0x4806ecd29540109cfd861424c455c02ecb896548",
+        "validFrom": 1671482689,
+        "validUntil": 1674074688,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/2753"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "782",
+      "name": "Boki #1718",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab850b434bdb225776afc3409acd437c213b315aa98a31095acb1c2850e93be6f76607f8d57e9030a0158535b6c4d232a7fe3fde49482e0abb7fbe9fe0d5ca06abbfd5e1452167833cd42b4ee252198473e584a7975b770a9812d748971a4bcc5dee2c81cd46a5bfb3dafea5863e32ec7e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T01:38:06.561Z",
+      "lastFlagChange": null,
+      "rarity": 74.507,
+      "rarityRank": 1857,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.9,
+        "timestamp": 1654562175
+      },
+      "owner": "0x3122f680da4ae4206b791c9a4056a237db9d0749"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x5cb6ca59755d2ea4f5ad066d6f0b25fe11d49ef3bfd01e8c9a79e4ab3ede58e2",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "74500000000000000",
+            "decimal": 0.0745,
+            "usd": 88.41496,
+            "native": 0.0745
+          }
+        },
+        "maker": "0x3122f680da4ae4206b791c9a4056a237db9d0749",
+        "validFrom": 1671350834,
+        "validUntil": 1672189122,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/782"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "1237",
+      "name": "Boki #2173",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3a98768e579777e97165df33b669b1777708600fa8f0891c0e9e8e1626641a18076660cc95c9abafef57b94151574cf188d0e81567b8292778e21b5e368da493b877deda29c3df992bd10248fa63d2cd1ece257bb07d8d42769c20172ec91e15847ca6956c1eb45b93d3eb28232f1979e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T01:37:45.398Z",
+      "lastFlagChange": null,
+      "rarity": 51.125,
+      "rarityRank": 4099,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.4969,
+        "timestamp": 1654887079
+      },
+      "owner": "0xe1cc38453c0106b4a61f93e68f4a4cf2183550c8"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xa2da1b3f750713f20c347a1284c40b4538e4ecb0aea5afe56f2359a17a5d6aee",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "74500000000000000",
+            "decimal": 0.0745,
+            "usd": 88.41496,
+            "native": 0.0745
+          }
+        },
+        "maker": "0xe1cc38453c0106b4a61f93e68f4a4cf2183550c8",
+        "validFrom": 1671502351,
+        "validUntil": 1673481215,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/1237"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "5626",
+      "name": "Boki #6562",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a634f7bacbfc75e6c6bb3cac4e2b19cc729ccbb6c196a7841e9d8dd314c30545a76a9c65159e5b6f0b36832a697598721250316039a5e4b6d377bdc39a37726b185d7f8f341eaf8e6df1735a7ea6bfd7da230fdc940c9087fc2964c6d2b88d5346131414d3624cb4e61496fdc3edb5bec23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T01:34:29.946Z",
+      "lastFlagChange": null,
+      "rarity": 48.919,
+      "rarityRank": 4931,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 1.25,
+        "timestamp": 1654543400
+      },
+      "owner": "0xe1cc38453c0106b4a61f93e68f4a4cf2183550c8"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xfaaef683f5a2c48df610aa27449a2fc1bfecb5f7ba3d14ff49c6a49e575389f2",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "74500000000000000",
+            "decimal": 0.0745,
+            "usd": 88.41496,
+            "native": 0.0745
+          }
+        },
+        "maker": "0xe1cc38453c0106b4a61f93e68f4a4cf2183550c8",
+        "validFrom": 1671502380,
+        "validUntil": 1673481256,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/5626"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "3161",
+      "name": "Boki #4097",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75acd8b4397c9cf1664c1f16bba550576899cb86e17e1c97b4f9abcf5057a1d359a01ddef3ff968e0bee197961d8ea951fc98b22ce00f2ffacffb90448e082da0661c994268cf720edf202020436b7f4d0d9447c79a34e4c55b06ce978a365aac242b1cc293b2466bb44a5fc67326a49836e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T01:36:16.540Z",
+      "lastFlagChange": null,
+      "rarity": 40.158,
+      "rarityRank": 7285,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": 0.21,
+        "timestamp": 1658315630
+      },
+      "lastSell": {
+        "value": 1.25,
+        "timestamp": 1654268699
+      },
+      "owner": "0x9210ab626ec7478ce0432cc189ab3b3a53a6dde1"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x8f6e5b94ac01f45cbd43f8baf372477b295f44b6cdcbfa81003b8f7340002b82",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "75000000000000000",
+            "decimal": 0.075,
+            "usd": 89.00834,
+            "native": 0.075
+          }
+        },
+        "maker": "0x9210ab626ec7478ce0432cc189ab3b3a53a6dde1",
+        "validFrom": 1671472658,
+        "validUntil": 1672077458,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/3161"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "4059",
+      "name": "Boki #4995",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aff6c933bfef94367a6b555778ab96ed9e23c17f1d8bfc3cf89c393b1faf7d607f20317473231314b88b1f2189d210910c08333ce455495f4a0a803a88e50240a371565288d307aed247ea7b411737829f1f822030ce8273a5cd28edf9bf4b33e04584fabb61658c21aae534f61d07b1c058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T01:35:41.565Z",
+      "lastFlagChange": null,
+      "rarity": 47.573,
+      "rarityRank": 5669,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.865,
+        "timestamp": 1654562175
+      },
+      "owner": "0x3122f680da4ae4206b791c9a4056a237db9d0749"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xca5dba8d2385c1564fd7ff6e9da5758b0eb661552ccae5581be63fecf3596e0c",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "75590000000000000",
+            "decimal": 0.07559,
+            "usd": 89.70854,
+            "native": 0.07559
+          }
+        },
+        "maker": "0x3122f680da4ae4206b791c9a4056a237db9d0749",
+        "validFrom": 1671350852,
+        "validUntil": 1674029252,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/4059"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "4443",
+      "name": "Boki #5379",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4bdd460abaa3b5efa742277df22d0962e8bf0f7c3572638bd3559e97ace52e3b22511d01c9bc315c689f4af28de3ad67d627d4824a7b81f97f0746a360b23600d4b7e7ee539e7b72b781e19b630edb9e7a9cef2b0d6bb45ce2764294f30d6ad2226d5eadeda4d3b7cff1c33b6de2080923c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T01:35:24.718Z",
+      "lastFlagChange": null,
+      "rarity": 46.857,
+      "rarityRank": 6049,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": 0.29361,
+        "timestamp": 1657978463
+      },
+      "lastSell": {
+        "value": 0.201,
+        "timestamp": 1658310091
+      },
+      "owner": "0x9210ab626ec7478ce0432cc189ab3b3a53a6dde1"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x3221ade342f4f18d3546b2bbb9f457295a676a7f3737eb46fbdf9abf8e83fbb6",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "76000000000000000",
+            "decimal": 0.076,
+            "usd": 90.19512,
+            "native": 0.076
+          }
+        },
+        "maker": "0x9210ab626ec7478ce0432cc189ab3b3a53a6dde1",
+        "validFrom": 1671472658,
+        "validUntil": 1672077458,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/4443"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "6937",
+      "name": "Boki #96",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7460d140a82d8d5155435455ccfd389a50cc400efa852510ce936fb82430b01985afe938d38bbeb59cf863dc3667b7068e9ede99caf46fed400695d32bd0cbd7db0b2099142ff501e09897b2ad6f3b0b5726665685e1983be54d113cc61bd5ef44e0c130af8be7a1c66815cb0937f50e23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T14:05:31.301Z",
+      "lastFlagChange": null,
+      "rarity": 49.493,
+      "rarityRank": 4636,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.88,
+        "timestamp": 1654562175
+      },
+      "owner": "0x3122f680da4ae4206b791c9a4056a237db9d0749"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x91808070021e5ffed614cfdc9cd05cf0dc95014f0e87e5a8863e42eec4125094",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "76000000000000000",
+            "decimal": 0.076,
+            "usd": 90.19512,
+            "native": 0.076
+          }
+        },
+        "maker": "0x3122f680da4ae4206b791c9a4056a237db9d0749",
+        "validFrom": 1671351354,
+        "validUntil": 1674029754,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/6937"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "2703",
+      "name": "Boki #3639",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75acf3beeb104bbdc227b363e2646aa46b413bf3cdb116b8ed25fe523b433e94b01b853bfcfe9566008a107c0ea3ef4d41df7ba99cee264fa48327c0608fde8e4c36911414fbe121396d4ed7d54cb18176fb0e98532eb0a6dc18da9d845b3a64854a375cae30a210396df654521e3d4aff5e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T01:36:35.824Z",
+      "lastFlagChange": null,
+      "rarity": 74.1,
+      "rarityRank": 1968,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": 0.0755,
+        "timestamp": 1670788391
+      },
+      "lastSell": {
+        "value": 0.19,
+        "timestamp": 1659992661
+      },
+      "owner": "0x1fce3b3da269a2d2486648707ec92379d416b264"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x12538b6053d2069ad7e22fba5deabc5c12b03a83ea165903ac6c3d8a7de79bf5",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "76500000000000000",
+            "decimal": 0.0765,
+            "usd": 90.78851,
+            "native": 0.0765
+          }
+        },
+        "maker": "0x1fce3b3da269a2d2486648707ec92379d416b264",
+        "validFrom": 1671485894,
+        "validUntil": 1671607025,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/2703"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "2022",
+      "name": "Boki #2958",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae214abf2a41a31a712d5308c2a3806adb438f5b2258ebc1358331792ff9d6d018d32abf3a20cd2f243042d1589d77162a9afd1aca157b4efc4ac87cfb6883d2a1ccfd207c001800998e59326c0e6a880926bfa03518fd356a6d870671a93033a15a1ced7a09698ec089735d6b4de4cc023c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T01:37:12.749Z",
+      "lastFlagChange": null,
+      "rarity": 47.914,
+      "rarityRank": 5492,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.22,
+        "timestamp": 1658310091
+      },
+      "owner": "0x9210ab626ec7478ce0432cc189ab3b3a53a6dde1"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x718f5c5ab49bd16cdd5f2302f32be7f98a6af23987d218f03bde68654ebdc5dd",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "77000000000000000",
+            "decimal": 0.077,
+            "usd": 91.3819,
+            "native": 0.077
+          }
+        },
+        "maker": "0x9210ab626ec7478ce0432cc189ab3b3a53a6dde1",
+        "validFrom": 1671472658,
+        "validUntil": 1672077458,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/2022"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "5427",
+      "name": "Boki #6363",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a5b163d6ec583d7faefa5c27dc0d17745a5b56a8b2214521956680e273e95dfabaa68a9c4a0fb8765cf50d1575d9b3e29dba756989fea7227da7eb1ac13bac40cb657ac7b0a0192e9f6320c6f990fb83fe0cc6797cf88824e16d3c6b365bfd8ed83fb85ad780f54969a4e5b452ab2e51523c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T01:34:40.841Z",
+      "lastFlagChange": null,
+      "rarity": 52.05,
+      "rarityRank": 3877,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": 0.21,
+        "timestamp": 1658364915
+      },
+      "lastSell": {
+        "value": 0.835,
+        "timestamp": 1654395410
+      },
+      "owner": "0x9210ab626ec7478ce0432cc189ab3b3a53a6dde1"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x6f2ac7d718193e5e1bc6101bfa042f66aee5d6abc7347a39338c6d0d346cef59",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "77000000000000000",
+            "decimal": 0.077,
+            "usd": 91.3819,
+            "native": 0.077
+          }
+        },
+        "maker": "0x9210ab626ec7478ce0432cc189ab3b3a53a6dde1",
+        "validFrom": 1671472658,
+        "validUntil": 1672077458,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/5427"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "1298",
+      "name": "Boki #2234",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aff888b898affb7b1b01c0eb4d86900d7943a613fee1c66afdde4476316e1c626ef361e2250273c04e295146f649e4e116fb0e3052efe3eecc6114ae7912ae0296114f9e6b86ab2a6c5b54a2e54de900bb63e1db4b51fa11549f8581d02f12458b84ea36155ce6deaf7626f5687ceb3f3058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": true,
+      "lastFlagUpdate": "2022-12-20T01:37:43.450Z",
+      "lastFlagChange": "2022-12-15T20:09:11.835Z",
+      "rarity": 71.107,
+      "rarityRank": 2692,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": 0.041,
+        "timestamp": 1671127463
+      },
+      "lastSell": {
+        "value": 0.145,
+        "timestamp": 1653031827
+      },
+      "owner": "0xe852c2189316ec5eee9f36272962ade430f38531"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x6de34e628102119c99eb4a8990e5c55ef2d7c945ad7ce122f41f396204947258",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "77700000000000000",
+            "decimal": 0.0777,
+            "usd": 92.21264,
+            "native": 0.0777
+          }
+        },
+        "maker": "0xe852c2189316ec5eee9f36272962ade430f38531",
+        "validFrom": 1671134938,
+        "validUntil": 1673726922,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/1298"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "5500",
+      "name": "Boki #6436",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab3320c9353879cb7c5291dc5d1c400c4187ada89c38c965a627dc739b63bdb927643bef08a053270d56b4db6d0bda26e5ed6f2e5f9bc11e1ae3ef36ac31b10c327293f0893d76a264564ec9e62358cc0e054a1ff2ef0c9533aefd000bc15953234d0c2e45ce7912558fbc9cbe6c22857058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T01:34:35.881Z",
+      "lastFlagChange": null,
+      "rarity": 49.876,
+      "rarityRank": 4474,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": 0.0661,
+        "timestamp": 1671090611
+      },
+      "lastSell": {
+        "value": 0.37,
+        "timestamp": 1657454571
+      },
+      "owner": "0x2366a7121f6717df2d26c912684fc4151d5ef8f8"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x8d3e0734ef87b72c7bce02651a291ccbe5a6b4d18ae52588a019964fbb2b86db",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "79000000000000000",
+            "decimal": 0.079,
+            "usd": 93.75545,
+            "native": 0.079
+          }
+        },
+        "maker": "0x2366a7121f6717df2d26c912684fc4151d5ef8f8",
+        "validFrom": 1671091869,
+        "validUntil": 1673770269,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/5500"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "1324",
+      "name": "Boki #2260",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a713173c05a1f74a1e8a74d693f51fc290de5546fa1617deb3570e3cbcc467db2f6f99681d5ea444d7972243666fb629937ca3d4e65229a87fb7420b3a6e2dfbf42a64d3a26ecf281442f976796ded6f57126b82435827ac3c3849a63f3f056ffed58909347831fd5df5a5d7c9c184bf4e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T01:37:41.821Z",
+      "lastFlagChange": null,
+      "rarity": 49.709,
+      "rarityRank": 4550,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": 0.0647,
+        "timestamp": 1671261779
+      },
+      "lastSell": {
+        "value": 0.6,
+        "timestamp": 1655700583
+      },
+      "owner": "0x2366a7121f6717df2d26c912684fc4151d5ef8f8"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x73ba87ab756c589fabf3caace741a8f5330abf6c3d1352fb76bbdd5cf4566ae0",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "79900000000000000",
+            "decimal": 0.0799,
+            "usd": 94.82355,
+            "native": 0.0799
+          }
+        },
+        "maker": "0x2366a7121f6717df2d26c912684fc4151d5ef8f8",
+        "validFrom": 1671270890,
+        "validUntil": 1673949290,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/1324"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "7636",
+      "name": "Boki #795",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a023b874890fd35ecacc8bb2da92aa56a5d079ea6d69a9b58adddc5aba6790f88854549e942fd05996f9016e3ad8575707a757c2e2e49d5677f662f67417115a6a4b49f140e7d619eeb501df3a96250a0c9e2d6b53934011fc5086b8d26d80638006490be7fb8183da27608741e1f2c1a23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T14:03:32.964Z",
+      "lastFlagChange": null,
+      "rarity": 62.92,
+      "rarityRank": 3121,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": 0.0667,
+        "timestamp": 1671133115
+      },
+      "lastSell": {
+        "value": 0.205,
+        "timestamp": 1653506883
+      },
+      "owner": "0x2366a7121f6717df2d26c912684fc4151d5ef8f8"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x034cc7825e3885b13fdefbce39188f151ae199d63f4c3ac23a3f3e49286f0dba",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "79900000000000000",
+            "decimal": 0.0799,
+            "usd": 94.82355,
+            "native": 0.0799
+          }
+        },
+        "maker": "0x2366a7121f6717df2d26c912684fc4151d5ef8f8",
+        "validFrom": 1671133628,
+        "validUntil": 1673812028,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/7636"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "1014",
+      "name": "Boki #1950",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a86411ce3f1ea7a5b0dd449c8abb71e2171409872dc0651218728c405840afe5fc99413bda151fa7c31e1157789f76294ad7f02516e00b8e5d6ecd40941957720dee16070b93d0d72bef72ae27c4da711eed714caa133c161317a39448c458ebbf0ebc08f7b571a1dd0d9187350a6197a058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T01:37:56.053Z",
+      "lastFlagChange": null,
+      "rarity": 48.441,
+      "rarityRank": 5189,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": 0.1653,
+        "timestamp": 1659718171
+      },
+      "lastSell": {
+        "value": 0.189,
+        "timestamp": 1659754439
+      },
+      "owner": "0x614b75bd9a479b55557bc251740e78a11ae592ae"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xf8ccccc18b83d44a2edf1b98cbb9e524a26c32a92c4581e4c0d33ba0da7f8338",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "80000000000000000",
+            "decimal": 0.08,
+            "usd": 94.94223,
+            "native": 0.08
+          }
+        },
+        "maker": "0x614b75bd9a479b55557bc251740e78a11ae592ae",
+        "validFrom": 1671281274,
+        "validUntil": 1677532200,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/1014"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "2905",
+      "name": "Boki #3841",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a0093e62a671a980e8542572243e942eab07aa4c1b73f65955a12164e1051dae386b2c9f34a7b6f076640650b423dc02065095cc8aa71ce6eb43e65e494208ef63af695af7e45be61b6fb71a03d9858a08871ae425cb05e576dc2fed8a1fa97d70a170d7c4fe95bbd09e5541f347b2250058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T01:36:28.282Z",
+      "lastFlagChange": null,
+      "rarity": 43.577,
+      "rarityRank": 6842,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.58,
+        "timestamp": 1656284832
+      },
+      "owner": "0xc96725016c0713b03274f09bcbd2d08e4e90abcb"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x755bc44e33d87e4b6bf09bbe8b849826bece69f978808ab7b53fb138997a33f7",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "80000000000000000",
+            "decimal": 0.08,
+            "usd": 94.94223,
+            "native": 0.08
+          }
+        },
+        "maker": "0xc96725016c0713b03274f09bcbd2d08e4e90abcb",
+        "validFrom": 1671527240,
+        "validUntil": 1674205640,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/2905"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "3450",
+      "name": "Boki #4386",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a034fc0df971719ac06dc698771a31526e0c6d61ac77d669afdc9c937124d0537143e7fb2463a39f221145e4f5dbe491aefa30513dda20e44527a8b7ca97890b69f568f47216601f1de60b3b13df68c7aaa919d7d88704210b1fe988e633d1857004848d633750b331fdb11f1ece7cb4b058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T01:36:04.707Z",
+      "lastFlagChange": null,
+      "rarity": 47.827,
+      "rarityRank": 5542,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.35,
+        "timestamp": 1655114306
+      },
+      "owner": "0x28290987440fae66536b32cb45214c03067e0a08"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xe822d0027a6da046950e9daab93450753d4af3890d95fb9e576327c2e9363c55",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "80000000000000000",
+            "decimal": 0.08,
+            "usd": 94.94223,
+            "native": 0.08
+          }
+        },
+        "maker": "0x28290987440fae66536b32cb45214c03067e0a08",
+        "validFrom": 1671346911,
+        "validUntil": 1673939031,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/3450"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "3926",
+      "name": "Boki #4862",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4b2cb13ffa6fc07f31c510e2c2c8bffb65f006f78ae22703757ea924b8c139aa14d51705724a4a0aa2b60a016156ebf9611c29ace8a74414fd1f1891d3d87d7e1f9e713cffcc42dc66e4801235ca2e3c2653427bef186dc2fdbca7e820d96fc18345933c0dd98058c23308a5bea7a7f3058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T01:35:45.746Z",
+      "lastFlagChange": null,
+      "rarity": 47.036,
+      "rarityRank": 5967,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.33,
+        "timestamp": 1657674627
+      },
+      "owner": "0x614b75bd9a479b55557bc251740e78a11ae592ae"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x9ee42d21056f31f1ed1e66530465fb15b3cb217365a4342e351add3732796540",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "80000000000000000",
+            "decimal": 0.08,
+            "usd": 94.94223,
+            "native": 0.08
+          }
+        },
+        "maker": "0x614b75bd9a479b55557bc251740e78a11ae592ae",
+        "validFrom": 1671281917,
+        "validUntil": 1679054317,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/3926"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "4414",
+      "name": "Boki #5350",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab9498be82fa45b561a9a1925e93ee08846a3d4ed1904eb50051b01abb981ca6fbf70a23b147c128073f569d5c0a4027a773f5013a6071acd0376021f7e760d07e0a86536d7b4a889105842391a5086a62559fe8078ec715c951e3ca12c62a48cb47f632113cd36f73a3c8833e1af946c058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T01:35:26.061Z",
+      "lastFlagChange": null,
+      "rarity": 43.651,
+      "rarityRank": 6834,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.069,
+        "timestamp": 1669996187
+      },
+      "owner": "0xad82693db82590126027375e1df3b22f908b75e1"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x8c0aefde548cfe590a4533b2837010b01e706b466ab254a41f60cc13cf9079ab",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "80000000000000000",
+            "decimal": 0.08,
+            "usd": 94.94223,
+            "native": 0.08
+          }
+        },
+        "maker": "0xad82693db82590126027375e1df3b22f908b75e1",
+        "validFrom": 1670999582,
+        "validUntil": 1673506236,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/4414"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "4778",
+      "name": "Boki #5714",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a13b274821faa43aa60146d682f50ae33a090968bbc7b631712016967afa3c4e14257971abf9e0e34d0efe369c469bac48a5cc172e7a2d6d9fabbbc022336542095cf2631e64821d5d0e3fdf0e423f56d2487267d8866fb025e2cadc06b36727f35a2c4fd2a8059af55451177d0ed8a5d23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T01:35:08.430Z",
+      "lastFlagChange": null,
+      "rarity": 66.621,
+      "rarityRank": 2994,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": 0.0651,
+        "timestamp": 1670089031
+      },
+      "lastSell": {
+        "value": 0.0748,
+        "timestamp": 1670119319
+      },
+      "owner": "0x9dc7a6f4e01a854caecbb89eac4f247f04de8806"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xca12189c9fc0e144440bede9ee58eef26bec7b6938ae6d8916aca0ffc803bd0f",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "80000000000000000",
+            "decimal": 0.08,
+            "usd": 94.94223,
+            "native": 0.08
+          }
+        },
+        "maker": "0x9dc7a6f4e01a854caecbb89eac4f247f04de8806",
+        "validFrom": 1671016584,
+        "validUntil": 1673461193,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/4778"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "4963",
+      "name": "Boki #5899",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a0d52ae55b1e7c983aa557122ce80fa199f71caa17f2602ee6b83f5619a26cd29d6c404a5ad61194d120718a020bf05e90dfc1b4fd355092ec7145a468e61ed02d796bbd00b554a3b8c15cd8ca9544a6ac032226c5a742137cc65d036fa96949a2a3cd0647efec0aaf6a2110c956bb215058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T01:35:01.038Z",
+      "lastFlagChange": null,
+      "rarity": 75.106,
+      "rarityRank": 1694,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.65,
+        "timestamp": 1655820580
+      },
+      "owner": "0x3122f680da4ae4206b791c9a4056a237db9d0749"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x6581a5013022d3fab707e183b95d95af5d960ad58949dea0134f8f063b1035c9",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "80000000000000000",
+            "decimal": 0.08,
+            "usd": 94.94223,
+            "native": 0.08
+          }
+        },
+        "maker": "0x3122f680da4ae4206b791c9a4056a237db9d0749",
+        "validFrom": 1671350903,
+        "validUntil": 1674029303,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/4963"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "6718",
+      "name": "Boki #7654",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a2bc824c2fb5dc18a7587d99e3ffd09d6b881de2a766fca7113c6a0360ed7c02257de643f0a1ffa052feb49895f1e505d3efcb4356af345f3984942a8033f2e1518832f9e4f50452343cc73821299a2e6ef5e17690d087e845e4cd62ea2c566fb27a62176e58a2eb2de4237e36307d923058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T14:05:55.047Z",
+      "lastFlagChange": null,
+      "rarity": 40.243,
+      "rarityRank": 7270,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": 0.2261,
+        "timestamp": 1658427153
+      },
+      "lastSell": {
+        "value": 0.2644,
+        "timestamp": 1658430602
+      },
+      "owner": "0x614b75bd9a479b55557bc251740e78a11ae592ae"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xa22b0fda0a70a99e32eecf3c6e0a413dc098981116ecc26d7149c24c8e02dc1c",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "80000000000000000",
+            "decimal": 0.08,
+            "usd": 94.94223,
+            "native": 0.08
+          }
+        },
+        "maker": "0x614b75bd9a479b55557bc251740e78a11ae592ae",
+        "validFrom": 1671281394,
+        "validUntil": 1677532200,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/6718"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "7037",
+      "name": "Boki #196",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75afbdefbc7120980ed8f9e969e69b46aad0e5ea9f4decc78a5c435dbd8061174c7519769d2e8656042810d714ec003576b7da999645438c234280b052236b41f30632fc9404e69be28a77e99d30dd493e10c9a1d9471512f782194324300f3bea4ff7310c99d15c14028f2c4700d7da96223c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T14:05:24.937Z",
+      "lastFlagChange": null,
+      "rarity": 73.154,
+      "rarityRank": 2256,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": 0.0666,
+        "timestamp": 1671151967
+      },
+      "lastSell": {
+        "value": 0.22,
+        "timestamp": 1653280651
+      },
+      "owner": "0x2366a7121f6717df2d26c912684fc4151d5ef8f8"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xdf9db2ca633881e5ed59d4e4c880888314453c307daf4a48067af7145e5dcc4b",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "81000000000000000",
+            "decimal": 0.081,
+            "usd": 96.12901,
+            "native": 0.081
+          }
+        },
+        "maker": "0x2366a7121f6717df2d26c912684fc4151d5ef8f8",
+        "validFrom": 1671178922,
+        "validUntil": 1673857322,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/7037"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "1226",
+      "name": "Boki #2162",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a66011b43fe368636233fb8cbde2a185b0bb893738a9ba01a8a27ba768291a0c76810b2ed8758ce6b95052c456296611920e29ba802c6280f546214d9b8f46fe165cb812e3809b037026cb5b7f29925e84104d63f19ea9d5f23a5310eeacd8b6e88d15ca959d55f0f5a5cdae6f47b200a23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T01:37:46.261Z",
+      "lastFlagChange": null,
+      "rarity": 48.211,
+      "rarityRank": 5317,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": 0.0704,
+        "timestamp": 1670980487
+      },
+      "lastSell": {
+        "value": 0.157,
+        "timestamp": 1653063116
+      },
+      "owner": "0x2366a7121f6717df2d26c912684fc4151d5ef8f8"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x9519007cd19e6180e04fd0077d5652cdfcaddc28dc13fa5e4070d8917553163f",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "81500000000000000",
+            "decimal": 0.0815,
+            "usd": 96.7224,
+            "native": 0.0815
+          }
+        },
+        "maker": "0x2366a7121f6717df2d26c912684fc4151d5ef8f8",
+        "validFrom": 1671005919,
+        "validUntil": 1673684319,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/1226"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "1874",
+      "name": "Boki #2810",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7264130e15459bc29dc1e631bc091c600b611b37fee931c9cfa5499cb9ea995c76910bad3cbf4f048bf2d26228e359b6a0b1b3267e7d929c73b7c785870300157be3a335c8ece0ac2fb32d7553e49c5a5486282d1ce1e498cba9499dd64c32dceb22d6d99c9758ba5d7f2c52992f91cc23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T01:37:19.738Z",
+      "lastFlagChange": null,
+      "rarity": 49.392,
+      "rarityRank": 4684,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": 0.0703,
+        "timestamp": 1671033743
+      },
+      "lastSell": {
+        "value": 0.0984,
+        "timestamp": 1664686583
+      },
+      "owner": "0x2366a7121f6717df2d26c912684fc4151d5ef8f8"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x4a81e90e7763fe442d00cf772991fe38618e03452c57b2b0559ff9d1a42b5fcf",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "81900000000000000",
+            "decimal": 0.0819,
+            "usd": 97.19711,
+            "native": 0.0819
+          }
+        },
+        "maker": "0x2366a7121f6717df2d26c912684fc4151d5ef8f8",
+        "validFrom": 1671034000,
+        "validUntil": 1673712400,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/1874"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "3026",
+      "name": "Boki #3962",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a9ae7033c9e049a730e0883183f81584f717a25a371024a83edcbf05c02b3357f14bf2dedfd5e07c625a51d97d76e7d6459568ac3591a226747431aaac88c6f77a0f6c375e784b658ec486d05ea20ffc17091406b258e4dbd9506b620512af745d9a667739245a7ddd0655e7a9e86a0a3e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T01:36:21.809Z",
+      "lastFlagChange": null,
+      "rarity": 48.033,
+      "rarityRank": 5418,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": 0.0703,
+        "timestamp": 1670980559
+      },
+      "lastSell": {
+        "value": 0.147,
+        "timestamp": 1653066141
+      },
+      "owner": "0xc7683e193a2e800fcc0c276ae3bee6eb976b9966"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x47acb7b7911f7f4f708773b5156de5611fcb1f8d53f729aa82e8b3a072027b2a",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "82500000000000000",
+            "decimal": 0.0825,
+            "usd": 97.90918,
+            "native": 0.0825
+          }
+        },
+        "maker": "0xc7683e193a2e800fcc0c276ae3bee6eb976b9966",
+        "validFrom": 1671009417,
+        "validUntil": 1686561417,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/3026"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "7554",
+      "name": "Boki #713",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75acf7c3cc789dc664bf7cbe2dfde9e2dc7092da0656e024a514b68045132ba4bfc1d0484dcfbdb135ae84937c65e11f66e5abc375375a0810f3c962a8a7b0728f53df6d12fc1c55190ec40afa7b1efd0ddd50a8262906cbc9240cdb3438e5d3bd4ddcbc04e6cafc3f14246488e9edfdfa923c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T14:03:43.420Z",
+      "lastFlagChange": null,
+      "rarity": 50.818,
+      "rarityRank": 4171,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": 0.0704,
+        "timestamp": 1670967995
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x2366a7121f6717df2d26c912684fc4151d5ef8f8"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x6ac58be0ac59a6cef6735cd24e3f172ef0fb01cc588216e642e5b1ab401771e7",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "82800000000000000",
+            "decimal": 0.0828,
+            "usd": 98.26521,
+            "native": 0.0828
+          }
+        },
+        "maker": "0x2366a7121f6717df2d26c912684fc4151d5ef8f8",
+        "validFrom": 1670967939,
+        "validUntil": 1673646339,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/7554"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "1903",
+      "name": "Boki #2839",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75abecf2a42fbd47cadbb9363ef32915e20949c45c39565ba349b7c97ce6dc77419c5cf088102f8eeee267ce0269117813eb69d74452dd3fa4098bbbfc524509d00a82416fd93516768ebb65af341be50be3dee3c401da2015d852d3459b25494880f68c7ac36d1a83ee6d25d024098e89de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T01:37:16.842Z",
+      "lastFlagChange": null,
+      "rarity": 48.052,
+      "rarityRank": 5409,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": 0.0731,
+        "timestamp": 1670881967
+      },
+      "lastSell": {
+        "value": 0.634,
+        "timestamp": 1654189028
+      },
+      "owner": "0x2366a7121f6717df2d26c912684fc4151d5ef8f8"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xfd6717f23dbe179cd6c296ab19074e08bdb1660ce10b6d11c10cbfd7b2d73f43",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "82900000000000000",
+            "decimal": 0.0829,
+            "usd": 98.38389,
+            "native": 0.0829
+          }
+        },
+        "maker": "0x2366a7121f6717df2d26c912684fc4151d5ef8f8",
+        "validFrom": 1670884388,
+        "validUntil": 1673562788,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/1903"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "3889",
+      "name": "Boki #4825",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab84f05b7d2097dcf76e91787a363887f718def7781f0a3f1287335851e9e64223c4917785a4a44c8f431ba04c0a29f7cc064b8e46aa6197c864e56f515d23d2192b15f6a110605a51df9d67b35e4ee96cd89ad6d36c74f97185b53f64ced1a26230650d04b72b9975aefacdecc32317023c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T01:35:46.763Z",
+      "lastFlagChange": null,
+      "rarity": 47.472,
+      "rarityRank": 5730,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": 0.0731,
+        "timestamp": 1670877779
+      },
+      "lastSell": {
+        "value": 0.6,
+        "timestamp": 1654188909
+      },
+      "owner": "0x2366a7121f6717df2d26c912684fc4151d5ef8f8"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x21cabefc1095e8fb6ebae5fafff65befb6693802197a082c01b1dc58be8f42fb",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "82900000000000000",
+            "decimal": 0.0829,
+            "usd": 98.38389,
+            "native": 0.0829
+          }
+        },
+        "maker": "0x2366a7121f6717df2d26c912684fc4151d5ef8f8",
+        "validFrom": 1670877755,
+        "validUntil": 1673556155,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/3889"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "5085",
+      "name": "Boki #6021",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4f0ec3febaf4a606591031b5449f77f27fc9da888c10faca14a7e68a5ffcb8a3dcf83b247ab1c3c4fb0ff243096b9c24a1f02a4250eaf276b7508261fedc48516e07004f29d1c06af01b19a9b070154d2bfe8e30a15a55dd0c7c088b2f7ab7c4d76ee699fa90dec6eef32102776f99f8058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T01:34:56.373Z",
+      "lastFlagChange": null,
+      "rarity": 76.692,
+      "rarityRank": 1327,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.3899,
+        "timestamp": 1653794145
+      },
+      "owner": "0xdff51fe0fff61619ef332075196f478ae8368b7c"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xd498f5f9668a22ca4a1843e930cb7b4b8b8bc481c86afaf7bd5099d31e6ace2d",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "83000000000000000",
+            "decimal": 0.083,
+            "usd": 98.50257,
+            "native": 0.083
+          }
+        },
+        "maker": "0xdff51fe0fff61619ef332075196f478ae8368b7c",
+        "validFrom": 1671462972,
+        "validUntil": 1674141372,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/5085"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "6588",
+      "name": "Boki #7524",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab7d84b9cce9bec646b07b850834e97d14bcf12f532b1b5354018941f9e2c9caf62b439bf44d600c72e7461b35f5ca3e326c1f7553cb794f35c0cd71fbfca88d85713cc6cfbaf117548831c64364bf129f426c7fbb4a8c7901f19c57a65ef8b709eaf8345abacf398a0b5847fb6f28f4423c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T01:33:34.892Z",
+      "lastFlagChange": null,
+      "rarity": 47.997,
+      "rarityRank": 5442,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.075,
+        "timestamp": 1669779923
+      },
+      "owner": "0xa331c3ad808ed56a29d3409c5552b8c046114dfc"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xc820481d1321dd123a9bfde31e245fef34b32b3823b5db0bb4f91bccca4e4644",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "83000000000000000",
+            "decimal": 0.083,
+            "usd": 98.50257,
+            "native": 0.083
+          }
+        },
+        "maker": "0xa331c3ad808ed56a29d3409c5552b8c046114dfc",
+        "validFrom": 1670999664,
+        "validUntil": 1672555011,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/6588"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "3444",
+      "name": "Boki #4380",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a757dcd3a5ed9a3c454f2c38dcefd7dda2c74d165012210a22b2341e640c85a1d118a49d0338590aa7c10cea66033842365cfaf814ab2f3e6421d38800c01360b6a56af6aa89e51d2a6620a7fac39465e2d1bd4cd232475ca8ccebcc92ab5f55ab24514f0e3b7fb4195e32460e7e0fd2323c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T01:36:04.712Z",
+      "lastFlagChange": null,
+      "rarity": 46.707,
+      "rarityRank": 6112,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.5,
+        "timestamp": 1655261833
+      },
+      "owner": "0x8d78e0398cc672087a43b21e4d3d943b8e7f8191"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x4a415fefe676bb5d6d25e952b26e249bc236aea2db4bc04b75645469b64f0326",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "83500000000000000",
+            "decimal": 0.0835,
+            "usd": 99.09596,
+            "native": 0.0835
+          }
+        },
+        "maker": "0x8d78e0398cc672087a43b21e4d3d943b8e7f8191",
+        "validFrom": 1671476871,
+        "validUntil": 1671736071,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/3444"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "1709",
+      "name": "Boki #2645",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a717832364a98d9dee919558205ce68112e0f5aa64b607711f18b530eaa2608527574a859f7aa818a7058bb33d95d93366797fbe00d22f6805cd2f26a7476223b016e445d2501a1443f2a364f76ce036758ddb9e616d1790b93f9a07ca88682c45582e6f84a82cd1de40664f768edfae923c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T01:37:26.114Z",
+      "lastFlagChange": null,
+      "rarity": 46.195,
+      "rarityRank": 6296,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": 0.24,
+        "timestamp": 1658426904
+      },
+      "lastSell": {
+        "value": 0.46,
+        "timestamp": 1654806431
+      },
+      "owner": "0x9210ab626ec7478ce0432cc189ab3b3a53a6dde1"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xd2402b976f6d4b3cc1f5acaa43f60c1e2e2259334a51aaa9e715986842ad5113",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "84000000000000000",
+            "decimal": 0.084,
+            "usd": 99.68935,
+            "native": 0.084
+          }
+        },
+        "maker": "0x9210ab626ec7478ce0432cc189ab3b3a53a6dde1",
+        "validFrom": 1671014794,
+        "validUntil": 1671619594,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/1709"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "876",
+      "name": "Boki #1812",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a2b39cf982802eedd53a997c2c71545ba878582c3920ee07d61c2a9870d82f0751f43d843b1173bf80dfadc440a04729598696d96c2406fcb37ea38039c08cc1636c8a3395fe43d5ed3d7f24e1f093531bffaea5c615ba3afb26f99932d791df98f4deaf0617ff5cf941c097103f005c1e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T01:38:01.117Z",
+      "lastFlagChange": null,
+      "rarity": 72.685,
+      "rarityRank": 2370,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": 0.071,
+        "timestamp": 1670980355
+      },
+      "lastSell": {
+        "value": 0.148,
+        "timestamp": 1653260786
+      },
+      "owner": "0x2366a7121f6717df2d26c912684fc4151d5ef8f8"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xcd5233a147844dafd6ffb97f43c5627d222ae2333dacbe53443a90f1b03da97b",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "84900000000000000",
+            "decimal": 0.0849,
+            "usd": 100.75745,
+            "native": 0.0849
+          }
+        },
+        "maker": "0x2366a7121f6717df2d26c912684fc4151d5ef8f8",
+        "validFrom": 1671005936,
+        "validUntil": 1673684336,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/876"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+      "category": [
+        "Humanoid",
+        "Person",
+        "Painting",
+        "2d",
+        "Cute",
+        "Normal",
+        "Flat"
+      ],
+      "tokenId": "99",
+      "name": "Boki #1035",
+      "description": "Boki is a community-focused project centered around collaboration and connection. Welcome to our World, where child-like imagination runs free and fantasy is celebrated.",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aae6477b55b40fa3180bc24d49188b9051f7ba32d91a8e3f3570ccff501ce419b03d68a104570c66cd03ff69672140e58b62e9c9869e76a5ae2f0e865e81e1f04708e2033382345e9f8f919bf6d6ef5505f78f3efeee09ffe5deee0069189353fde558203fb62e941c7912d649135d4b923c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T01:38:38.077Z",
+      "lastFlagChange": null,
+      "rarity": 48.013,
+      "rarityRank": 5430,
+      "collection": {
+        "id": "0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7",
+        "name": "Boki",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a130be0a0f63a707f4dc624450b74a5ee411deeb6ab92edbe9497334d67b7477da972c6e7c4a61288890c0a66eec24e92dd538aa83c0a67e3d0ae739ba96e86b373e2c11066bf068abfbe8cac638bfcc38fbf9168eaa623c32f92af54e12a116b5f250338d57fb3483f02b839b97de1d723c5e4198f99eda3f3b783c3322e8c56",
+        "slug": "bokinftofficial"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.33,
+        "timestamp": 1657674627
+      },
+      "owner": "0x614b75bd9a479b55557bc251740e78a11ae592ae"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xc3f352c6db5f35bf931d858dd8c04c395164f1eddadf3ad1a5e137fd52cb1630",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "85000000000000000",
+            "decimal": 0.085,
+            "usd": 100.87612,
+            "native": 0.085
+          }
+        },
+        "maker": "0x614b75bd9a479b55557bc251740e78a11ae592ae",
+        "validFrom": 1671281917,
+        "validUntil": 1679054317,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x248139afb8d3a2e16154fbe4fb528a3a214fd8e7/99"
+        }
+      }
+    }
+  }
+]

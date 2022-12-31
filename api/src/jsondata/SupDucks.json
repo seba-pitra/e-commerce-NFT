@@ -1,0 +1,3052 @@
+[
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "5635",
+      "name": "SupDuck 5635",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a08798c0556bfa91b224087744bebb8265e35ff8c676b2a7d47070c95935df248ca17aac390e34bb4eedef494aa3b747aea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T14:55:08.757Z",
+      "lastFlagChange": null,
+      "rarity": 17.572,
+      "rarityRank": 6567,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": 0.1431,
+        "timestamp": 1671548051
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x9667857f0461354a7e2caeb6c86a560eeca1d2da"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x0d02a815496fda1b37ad275611f606b8c7809160ad334e69f66ec631323c8bd3",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "171900000000000000",
+            "decimal": 0.1719,
+            "usd": 204.00712,
+            "native": 0.1719
+          }
+        },
+        "maker": "0x9667857f0461354a7e2caeb6c86a560eeca1d2da",
+        "validFrom": 1671548070,
+        "validUntil": 1671551670,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/5635"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "6016",
+      "name": "SupDuck 6016",
+      "description": "**BEHOLD! THE WACKENING!**\n\nThis SupDuck has become Super Wacky from licking a MegaToad in [Dr. Drool's Lab](https://supducks.com/wackyducks). Having officially blasted off to a parallel universe, this Duck will now be seen in the eyes of the DuckGod as a Duck who has become Enlightened. With Enlightenment comes great responsibility and privileged perks.\n\n**Wacky Level:** 3\n\n**Image Links:**\n\n[OG Duck Image](ipfs://Qmc85dcLJQdfrsEbTUp2aJqcxkcxaRA135Rq4Gnc4YnPxf)\n\n[Static Wacky Image](https://api.supducks.com/supducks/png/3/6016)",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ad9ed64e6aa5eafeed408d16bcd9c09bcc14a516dda0d53807e75403c8779fae065e63ff1a235e7a2b60866c4c7c88fdca078fa9c4e8aab29a7e1a30b151045ef48ea79c2781f581b097549243d9b31d794cafd2d01e19d71657a7e74513dc33f0e1f18238b41e23bc39ecacd165e734723c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T14:14:22.952Z",
+      "lastFlagChange": null,
+      "rarity": 17.087,
+      "rarityRank": 7036,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": 0.152,
+        "timestamp": 1671107975
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x263eddfec9e8450f6b12e1d5cab77ac0ed050adc"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xd86a62d70e934710abe12b6f256ebcc83c525ebab6a236766236abc0654ac607",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "171900000000000000",
+            "decimal": 0.1719,
+            "usd": 204.00712,
+            "native": 0.1719
+          }
+        },
+        "maker": "0x263eddfec9e8450f6b12e1d5cab77ac0ed050adc",
+        "validFrom": 1671544825,
+        "validUntil": 1673792723,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/6016"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "9463",
+      "name": "SupDuck 9463",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7a6b9e31e5b613c6deeafc126612a667428e583446497902056a83af9c921760c529f4888b511dd3c9e9ff8efd387d1f2976284c58f8fc735c42e0678d7901d65b48b57bd111d1356fef5ec83dc99732ca7ead68270ab0be57916e6476c2708e190b865527fc7db53ea3193922b37a2e23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-20T10:16:38.350Z",
+      "lastFlagChange": null,
+      "rarity": 18.007,
+      "rarityRank": 6174,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xe83d3bcfd8513ac799367529c182cb4f71657cb1"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x6dc16ac0c41684c7678d5fabecadadba68c55983cce75e253467e5fe9cbe249d",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "172000000000000000",
+            "decimal": 0.172,
+            "usd": 204.1258,
+            "native": 0.172
+          }
+        },
+        "maker": "0xe83d3bcfd8513ac799367529c182cb4f71657cb1",
+        "validFrom": 1671531141,
+        "validUntil": 1674209541,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/9463"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "8850",
+      "name": "SupDuck 8850",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3618d368df2e48043991b4c1e5b08ce6b2cf087c4effddc8cd8ad537b7972b3e657f631a39eaff7f3a7cffc496fbca888a4c15af5b4141d7eb6a193696a3259713a13956db2898d9567a25bb8ed58de0d3115ef19707c24792f4c4e1ad768513d1ac260797f2225b9ec8bc8d40ffdaf2e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:35:04.440Z",
+      "lastFlagChange": null,
+      "rarity": 13.717,
+      "rarityRank": 9854,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": 0.1972,
+        "timestamp": 1665660011
+      },
+      "lastSell": {
+        "value": 0.2455,
+        "timestamp": 1664428439
+      },
+      "owner": "0xc2b46c60afe93cda3855f67fcda6d6844723ddb8"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x89394ad7766010aec9e174766ed471f37e4c347a963ff79c6a9289c7a36f3c6a",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "173500000000000000",
+            "decimal": 0.1735,
+            "usd": 205.90597,
+            "native": 0.1735
+          }
+        },
+        "maker": "0xc2b46c60afe93cda3855f67fcda6d6844723ddb8",
+        "validFrom": 1671200674,
+        "validUntil": 1673792672,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/8850"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "4211",
+      "name": "SupDuck 4211",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a903439a99265bfb37459148e36b0eaa564538e96f4c899a520bc637d4900bd640a3cad6fc957ccf8f936a6b4ea29a73066bd88e8bb1d5dcc16bad1d97c653c1ec40f760c91398979be2ce166f2c5fd80ff6b915f50028a577944b84a0421298f1bd9ec39d0ba5284f5d8753c9d1d673ee1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:47:45.053Z",
+      "lastFlagChange": null,
+      "rarity": 15.289,
+      "rarityRank": 8840,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": 0.147,
+        "timestamp": 1669762355
+      },
+      "lastSell": {
+        "value": 0.1937,
+        "timestamp": 1667657735
+      },
+      "owner": "0xe27619767421f16d1513a6591008b7d07817fd26"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x3015b59c1dce25635e4ee3e0784bd88ef8db7101e79a7b0f8fa0dc68db32bbb2",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "174200000000000000",
+            "decimal": 0.1742,
+            "usd": 206.73671,
+            "native": 0.1742
+          }
+        },
+        "maker": "0xe27619767421f16d1513a6591008b7d07817fd26",
+        "validFrom": 1671499294,
+        "validUntil": 1672104060,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/4211"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "7126",
+      "name": "SupDuck 7126",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a866e0eb72e7c4dea0238b154b91559f7cc54ebe4088f53fb064a7c10e467701671b624f9fd05acdd1a5b66a4b1c30b463b0dde7aec0414e9753b07bef59c80f677ba2efddcc1d1133f0810c8b935bbc910c6ea7774170a3a388fc986615977670deb84cd815409016b1027d2882b08df058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:36:07.449Z",
+      "lastFlagChange": null,
+      "rarity": 28.202,
+      "rarityRank": 2147,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": 0.15,
+        "timestamp": 1671247319
+      },
+      "lastSell": {
+        "value": 0.71,
+        "timestamp": 1650757778
+      },
+      "owner": "0x8b65d6b7a9f194a6f64df51a365e624c58a85821"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x70967d1aefc7c33effc24af8e40aed87bfe6cd5874230d4519ef4e763fc25be3",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "174500000000000000",
+            "decimal": 0.1745,
+            "usd": 207.09275,
+            "native": 0.1745
+          }
+        },
+        "maker": "0x8b65d6b7a9f194a6f64df51a365e624c58a85821",
+        "validFrom": 1671469887,
+        "validUntil": 1673939938,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/7126"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "4412",
+      "name": "SupDuck 4412",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aed7249f315fb26b25dce44159871dda52ab728a939221f4b8c6028ad0f28a4cc9699715fde3f5342e1f0755a7a19012503fae085dde85b8f9b6e828a246d4b7f5b7f81fd6d58de7078125dd1b35c219cc13489924782d83eabd46fd3ca2273b8aaf9e9636eddba5763dc56e0232f9a9923c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:47:29.321Z",
+      "lastFlagChange": null,
+      "rarity": 17.666,
+      "rarityRank": 6485,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 1.01,
+        "timestamp": 1646780625
+      },
+      "owner": "0x011556a7af8b591bb8c475e3384c47dad4f0f089"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x5c9b6a3ca5943fb311d9800f9b126fe45da76dfde50eb6841d7fe61f7de347a6",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "175500000000000000",
+            "decimal": 0.1755,
+            "usd": 208.27953,
+            "native": 0.1755
+          }
+        },
+        "maker": "0x011556a7af8b591bb8c475e3384c47dad4f0f089",
+        "validFrom": 1671488922,
+        "validUntil": 1674167322,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/4412"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "5512",
+      "name": "SupDuck 5512",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4783fc8b09faba9dd49273c0ff6dacc053e10ca848d00a5fee8775421fd144ffec641edc1161980c63242905d93acd4f34e17089da28115bb698d6e0a0a79920959d316cd767b5ff4e280fbec7d6fad5811ac5b6be8184f9965bd76212e8ee95c181bfbb1b1095dfec675a54315c687de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:46:16.421Z",
+      "lastFlagChange": null,
+      "rarity": 18.22,
+      "rarityRank": 5994,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": 0.141,
+        "timestamp": 1671367283
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x1cefd1809ac0c45e983a81be52e0be98fea9f653"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xc743303c698a8386d54f0d1d335ad9ce7d7db1e84a18368014c869adb8f42fe8",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "176000000000000000",
+            "decimal": 0.176,
+            "usd": 208.87291,
+            "native": 0.176
+          }
+        },
+        "maker": "0x1cefd1809ac0c45e983a81be52e0be98fea9f653",
+        "validFrom": 1671369050,
+        "validUntil": 1686917450,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/5512"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "7781",
+      "name": "SupDuck 7781",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a9dbd2644a862f11bb4f126dab06244604383ebb5afbd3956b539405608ae7e9efeff1dc0a68c76f74a871d6f9d36e55ae23c2e348081a780c487f34865cb705d31c7fde118fa7c4d75214434cc15881de31e67459ce5ecb3300a2794e8e1159d54efecc0c90b977add42cb4e2faf443e23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:35:43.810Z",
+      "lastFlagChange": null,
+      "rarity": 15.694,
+      "rarityRank": 8445,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": 0.151,
+        "timestamp": 1671498971
+      },
+      "lastSell": {
+        "value": 0.1788,
+        "timestamp": 1671307331
+      },
+      "owner": "0x2366a7121f6717df2d26c912684fc4151d5ef8f8"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x8a8128c9e7d14d6b482c13cbdcf15d4e727992f4c3ee207294bdfb938c68bb49",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "176900000000000000",
+            "decimal": 0.1769,
+            "usd": 209.94101,
+            "native": 0.1769
+          }
+        },
+        "maker": "0x2366a7121f6717df2d26c912684fc4151d5ef8f8",
+        "validFrom": 1671499211,
+        "validUntil": 1674177611,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/7781"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "1199",
+      "name": "SupDuck 1199",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3c6ce32821fe103be051d56c7a2ddc4d73b1e4339a7284a4be20c04c25274f534ed7e3dcdd1c20b5aafb305f9f8fd9963b7a74ded3e3790bfa81d16222d829ab34845c314f20debed45d2a5a44eea7ad0c78aa52d4e7f660a1d353b7b225a3ed5d80ecdd677d9b867ac237c3ce7bd7f7058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:51:15.117Z",
+      "lastFlagChange": null,
+      "rarity": 17.824,
+      "rarityRank": 6352,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": 0.1506,
+        "timestamp": 1671148775
+      },
+      "lastSell": {
+        "value": 0.17,
+        "timestamp": 1670351423
+      },
+      "owner": "0x2366a7121f6717df2d26c912684fc4151d5ef8f8"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xbc5b99a2d6f5bbcae32b94903ca809af3b387023a751605130ad0d80df64a56d",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "177000000000000000",
+            "decimal": 0.177,
+            "usd": 210.05969,
+            "native": 0.177
+          }
+        },
+        "maker": "0x2366a7121f6717df2d26c912684fc4151d5ef8f8",
+        "validFrom": 1671148789,
+        "validUntil": 1673827189,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/1199"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "4351",
+      "name": "SupDuck 4351",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aa73fb05876fed79ba767d17d53c8a507c1342bd7b810c2a27a530aab869c53807ed14f65a57cd4cb9eaa226448bd855fac48bc014006c8584c3d5c9f9384049ab20ece535b61e7a32f1ab65fe912a0f70cd23fbc40c23402b15563abf7020e85a684c796579b1028e0fcef499763aeb2058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:47:36.043Z",
+      "lastFlagChange": null,
+      "rarity": 15.976,
+      "rarityRank": 8169,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": 0.14556,
+        "timestamp": 1671303347
+      },
+      "lastSell": {
+        "value": 0.2049,
+        "timestamp": 1661980997
+      },
+      "owner": "0x2366a7121f6717df2d26c912684fc4151d5ef8f8"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x3582351d1966bedb0983cecdce112e151ab0d33dd753a13fce4cde380ac110c4",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "178000000000000000",
+            "decimal": 0.178,
+            "usd": 211.24647,
+            "native": 0.178
+          }
+        },
+        "maker": "0x2366a7121f6717df2d26c912684fc4151d5ef8f8",
+        "validFrom": 1671397279,
+        "validUntil": 1674075679,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/4351"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "2578",
+      "name": "SupDuck 2578",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4635b22fcf1d4175748cca279fd3ae8b9192a5be40a98992b9a4f42e236ff5dfbfcbf6558b4566a66e24e684638306320ade522e0b6907f6ea3b6b70f4bbd33cf978623b99c03887d7d4465c6e6623d05ab6597d794020d254fa8163b4d9134a7f77997d33ebc02bf98f6e47207ca1f5058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:49:49.545Z",
+      "lastFlagChange": null,
+      "rarity": 26.706,
+      "rarityRank": 2583,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": 0.1461,
+        "timestamp": 1671213515
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x2366a7121f6717df2d26c912684fc4151d5ef8f8"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x1a43d0a057021110fcb06eb2721219f6a541100d9c577c459e900797d7f015d4",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "179900000000000000",
+            "decimal": 0.1799,
+            "usd": 213.50135,
+            "native": 0.1799
+          }
+        },
+        "maker": "0x2366a7121f6717df2d26c912684fc4151d5ef8f8",
+        "validFrom": 1671213841,
+        "validUntil": 1673892241,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/2578"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "8516",
+      "name": "SupDuck 8516",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a23f2e992c992b12ae4209c07990c4d460973938caf5156f1a2c3a1e007d290a1a19b09e76bb8f4b56cc0674078bd95078f17c88c2cfd9929d46f4bbc37250b5025fb99a102fc51ae95c3b443b9c00a0d34c5d8ce736c50bcb13960677863513ea047933ef834adf991277cc9a5e4e22b058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:35:17.626Z",
+      "lastFlagChange": null,
+      "rarity": 16.041,
+      "rarityRank": 8106,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.45,
+        "timestamp": 1651448055
+      },
+      "owner": "0x64fe38b25b414b986ebdd090a5c8a1eebada28f8"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x36e9d1724633c9b0029af1196f91013afddf0b97b8ed1f75776c762062f71c1f",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "180000000000000000",
+            "decimal": 0.18,
+            "usd": 213.62002,
+            "native": 0.18
+          }
+        },
+        "maker": "0x64fe38b25b414b986ebdd090a5c8a1eebada28f8",
+        "validFrom": 1671539585,
+        "validUntil": 1671798785,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/8516"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "7279",
+      "name": "SupDuck 7279",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aa524a3f9083930fa4e936a53606fdd9b1ec4aab843f9ad61e5b501ff3a9c15bf67c720e3e7578013d3f4eedb40bb1f37d414b85e76dbb927f64a6cc2c6696a7d78d2d435b56533211b3caf43198a49e72fc9e4cc9a0d8d836ba32e504b6b57f3e5a9730c68af3f146054afac2cb8b075058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:36:02.378Z",
+      "lastFlagChange": null,
+      "rarity": 22.189,
+      "rarityRank": 3965,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": 0.165,
+        "timestamp": 1670697263
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x99829cd1de380ea1fea8381eec10c5c999b42de5"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x55f6b65eab9d341efb8e759b277385c27c3160745e1c025970833a2dd4acfb98",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "185000000000000000",
+            "decimal": 0.185,
+            "usd": 219.55391,
+            "native": 0.185
+          }
+        },
+        "maker": "0x99829cd1de380ea1fea8381eec10c5c999b42de5",
+        "validFrom": 1671489570,
+        "validUntil": 1673486450,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/7279"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "3763",
+      "name": "SupDuck 3763",
+      "description": "**BEHOLD! THE WACKENING!**\n\nThis SupDuck has become Super Wacky from licking a MegaToad in [Dr. Drool's Lab](https://supducks.com/wackyducks). Having officially blasted off to a parallel universe, this Duck will now be seen in the eyes of the DuckGod as a Duck who has become Enlightened. With Enlightenment comes great responsibility and privileged perks.\n\n**Wacky Level:** 1\n\n**Image Links:**\n\n[OG Duck Image](ipfs://QmTH3phBYQxM6wmT3t5TDGhui4evY1JD5BW2tg1Rkz9feG)\n\n[Static Wacky Image](https://api.supducks.com/supducks/png/1/3763)",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a2e69bd1b88d56add54ae6d10e86978432974a8defbb9b0a70ef11dcfa7988a4747863b5dd014857afed92946d5a6fae66111d723d7e97793693c840a7c6f19f8d3de52798863885ab9ed84b5f219bfb463d657d7457e213099139b41ac76598cb52788bf4406b17bed72f88a5a0bf22923c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:48:08.188Z",
+      "lastFlagChange": null,
+      "rarity": 17.424,
+      "rarityRank": 6701,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.17,
+        "timestamp": 1671086735
+      },
+      "owner": "0xaa9d39f9a6c3cde9d2785069adfdf29302186772"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xa1d38c820dae9172c7e0004c8cb7f4d344024741007f9251b7d060b32ebf13c0",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "190000000000000000",
+            "decimal": 0.19,
+            "usd": 225.4878,
+            "native": 0.19
+          }
+        },
+        "maker": "0xaa9d39f9a6c3cde9d2785069adfdf29302186772",
+        "validFrom": 1671496433,
+        "validUntil": 1671582833,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/3763"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "6671",
+      "name": "SupDuck 6671",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ab66eb9246521922d6b8e9c28754d571206b558665d93ec038080f9eddaed505cbf85fe75cb173e24150d6e0537fdd8f5bfa86c07dae820ecfebe337d6774ee818aae96977f4ba158ec4887f11acc38f22b4f0727bfd38008f90ed266bafbc66a287631c237d63a40c9bf33e9c6aeee18058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:36:25.199Z",
+      "lastFlagChange": null,
+      "rarity": 17.465,
+      "rarityRank": 6654,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": 0.4,
+        "timestamp": 1652036529
+      },
+      "lastSell": {
+        "value": 0.46,
+        "timestamp": 1652065295
+      },
+      "owner": "0x911a6ad1b0811a909a22a071d421998aa3ccece8"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x1a6d1e4ffa81918efba283e889a06001cc9f5c090202fddf58fa093ab1865950",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "190000000000000000",
+            "decimal": 0.19,
+            "usd": 225.4878,
+            "native": 0.19
+          }
+        },
+        "maker": "0x911a6ad1b0811a909a22a071d421998aa3ccece8",
+        "validFrom": 1671078945,
+        "validUntil": 1671683719,
+        "source": {
+          "id": "0x5924a28caaf1cc016617874a2f0c3710d881f3c1",
+          "domain": "looksrare.org",
+          "name": "LooksRare",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/looksrare-logo.svg",
+          "url": "https://looksrare.org/collections/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/6671"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "7574",
+      "name": "SupDuck 7574",
+      "description": "**BEHOLD! THE WACKENING!**\n\nThis SupDuck has become Super Wacky from licking a MegaToad in [Dr. Drool's Lab](https://supducks.com/wackyducks). Having officially blasted off to a parallel universe, this Duck will now be seen in the eyes of the DuckGod as a Duck who has become Enlightened. With Enlightenment comes great responsibility and privileged perks.\n\n**Wacky Level:** 3\n\n**Image Links:**\n\n[OG Duck Image](ipfs://QmU1qPF5dxgNRwwdEUeZsTZGxpshd4fMHxbKchrL7mYdkc)\n\n[Static Wacky Image](https://api.supducks.com/supducks/png/3/7574)",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a95375cbc8dffbd9a572a1a6615d1511c11ce81ec07f3eca901d61392d16649b5e31662f7ca6f1f258fe0c93a4d5110aaa5075b8ea02d050a0da64b0ded06828b1cce296ba2ef69187d58194b5420b54f5e8608b8981c146baa60d384235b928cbf1811f544b1ddb3d97d52ef6cc69972e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:35:50.945Z",
+      "lastFlagChange": null,
+      "rarity": 16.94,
+      "rarityRank": 7198,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": 0.156,
+        "timestamp": 1671107747
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x057097671ace29a2171a5a155de88a2ce857ff8d"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xd1e311bbcd40b583500cdfb2d6f420d5e33c89c61316585945a0960dba5cfc88",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "194500000000000000",
+            "decimal": 0.1945,
+            "usd": 230.82831,
+            "native": 0.1945
+          }
+        },
+        "maker": "0x057097671ace29a2171a5a155de88a2ce857ff8d",
+        "validFrom": 1671546451,
+        "validUntil": 1671586621,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/7574"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "2934",
+      "name": "SupDuck 2934",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a2c3c94254753ef9548c184b01cc0dbd44a6613c9b604fb7bbb2a8cbca5e4ce01a6199f7c733c8c1e0ca78a12dcd829810879cbb7c970d9169c6c2026458629885d9c8ba689f63f2c6b3b30c4e453989b81163f347444e4fa22eb2e59e4252a498bca50ebb4582a379444b2a7c79ff759e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:49:23.563Z",
+      "lastFlagChange": null,
+      "rarity": 19.536,
+      "rarityRank": 5115,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": 0.2159,
+        "timestamp": 1665848795
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xd61f7d5bd592769f8dbd9ddb858b0acc8daa12f4"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x48502fe576b0d123bc66fcb5de1e723f2841df04dc82f5be59f7631f1c043567",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "197777000000000000",
+            "decimal": 0.19778,
+            "usd": 234.71738,
+            "native": 0.19778
+          }
+        },
+        "maker": "0xd61f7d5bd592769f8dbd9ddb858b0acc8daa12f4",
+        "validFrom": 1670993867,
+        "validUntil": 1671930419,
+        "source": {
+          "id": "0xdc28ffaea1f91a88fb6fd0a8fe70d71bdd64284c",
+          "domain": "x2y2.io",
+          "name": "X2Y2",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/x2y2-logo.png",
+          "url": "https://x2y2.io/eth/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/2934"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "7670",
+      "name": "SupDuck 7670",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75acacc7e8705dbc797017c6928f8d88360723876691b69434ef9ac4d8f18b83522f1356b9e7dc92f0c15c21f38ea632cc464e0ac5c09d9dce0655aa3181aab1f2eaabb5036ee5117cdce3f3af7c71e483b8b06d37e3c09b1f143e55c8d567f0a526abbd15a8dd76b1f087401e8998953ae23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:35:47.494Z",
+      "lastFlagChange": null,
+      "rarity": 14.309,
+      "rarityRank": 9572,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": 0.189,
+        "timestamp": 1667072243
+      },
+      "lastSell": {
+        "value": 0.24,
+        "timestamp": 1665845855
+      },
+      "owner": "0xbbf02b1d31b8b99cc02b2a22f51813f62aff9148"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x37bc0f58dad4eb7a16908a2afec3fdc0c92bc2c0d36dd213bd9beecbe86acf96",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "199000000000000000",
+            "decimal": 0.199,
+            "usd": 236.16881,
+            "native": 0.199
+          }
+        },
+        "maker": "0xbbf02b1d31b8b99cc02b2a22f51813f62aff9148",
+        "validFrom": 1669803384,
+        "validUntil": 1677579384,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/7670"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "2719",
+      "name": "SupDuck 2719",
+      "description": "**BEHOLD! THE WACKENING!**\n\nThis SupDuck has become Super Wacky from licking a MegaToad in [Dr. Drool's Lab](https://supducks.com/wackyducks). Having officially blasted off to a parallel universe, this Duck will now be seen in the eyes of the DuckGod as a Duck who has become Enlightened. With Enlightenment comes great responsibility and privileged perks.\n\n**Wacky Level:** 3\n\n**Image Links:**\n\n[OG Duck Image](ipfs://QmVQsd7nZwF4rowiEs4W1yGLw4MsCSnJ17dTs7ufpugZJj)\n\n[Static Wacky Image](https://api.supducks.com/supducks/png/3/2719)",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aa23ce2d624cb25a15437b682a499ffe59bb944b9653fbafa2fc1c1d0afb13126bdae691bfdffa726e7cdca6a92dfcb97e76263cc0753090b17b6bda9ee8965ee81dc2916be0810e4af9e2f0975db8c166b5057e783c7b390466246474363e5a466718e24f8266a9ea9b13c98c177a2fa23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:49:41.585Z",
+      "lastFlagChange": null,
+      "rarity": 18.301,
+      "rarityRank": 5942,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": 0.1461,
+        "timestamp": 1671214835
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x2366a7121f6717df2d26c912684fc4151d5ef8f8"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x87a4e30636981b900194e993118a03f44531a9685d71ba9461b878d402f36511",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "199900000000000000",
+            "decimal": 0.1999,
+            "usd": 237.23691,
+            "native": 0.1999
+          }
+        },
+        "maker": "0x2366a7121f6717df2d26c912684fc4151d5ef8f8",
+        "validFrom": 1671222336,
+        "validUntil": 1673900736,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/2719"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "3655",
+      "name": "SupDuck 3655",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adb443470d3384290b700adea9fb14868609da20e2949b86a8d976727d02f8fa9a1ebb94404214bad16ecf4db1f0c2b0f71a17dfec5f381b17dfb5d7803c73611722de4e055dcfdb689ec6dafc0866ac2e96a20c4fa784d1d39351e1428c40d3563f8b9311628baae47de1598614317b0e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:48:18.975Z",
+      "lastFlagChange": null,
+      "rarity": 26.762,
+      "rarityRank": 2566,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.945,
+        "timestamp": 1649067098
+      },
+      "owner": "0x64fe38b25b414b986ebdd090a5c8a1eebada28f8"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xa554f0eace26c931e44c4a79b708ecdc3dd3fca83cf040e85f6bd68119d43468",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "200000000000000000",
+            "decimal": 0.2,
+            "usd": 237.35558,
+            "native": 0.2
+          }
+        },
+        "maker": "0x64fe38b25b414b986ebdd090a5c8a1eebada28f8",
+        "validFrom": 1671539547,
+        "validUntil": 1671798747,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/3655"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "4662",
+      "name": "SupDuck 4662",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75abdb808f9f10296d95d0e855b93b69b18b8396de20ce282fb045bfc4f25c52466a82b510aa61633f12b376a014a28fae310950d0b56197fb66853561f63cbe138ccc45da00e63d7cc777071c11c552f30854995f20ff153e80a30d38783f43b40ae43f2ec162da19e45b0e4a8f062f96223c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:46:56.411Z",
+      "lastFlagChange": null,
+      "rarity": 20.439,
+      "rarityRank": 4662,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": 0.15531,
+        "timestamp": 1670978507
+      },
+      "lastSell": {
+        "value": 0.36,
+        "timestamp": 1658086808
+      },
+      "owner": "0xef97e9018be0269ea4b74cf87a6bd0712f3a27f9"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x21f1f310e5b5e3bc5e3a4cc1335c2c860e895c55830ac52722623f2c9c15bbdc",
+        "price": {
+          "currency": {
+            "contract": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "name": "Wrapped Ether",
+            "symbol": "WETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "200000000000000000",
+            "decimal": 0.2,
+            "usd": 233.46083,
+            "native": 0.2
+          }
+        },
+        "maker": "0xef97e9018be0269ea4b74cf87a6bd0712f3a27f9",
+        "validFrom": 1670978714,
+        "validUntil": 1673657114,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/4662"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "9948",
+      "name": "SupDuck 9948",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a9a3f963b6a597a603f955c7b78f80891291c8522c2c96fad48c6829cda712b4b5110bf70ff4e12403fd6816623eefee26be32b0a58c8aeca1c49b28ce1b4cf9fc9f0b10ac000a0bb74121336868d52a5bc56f5038bb1c92c78f6f92efaf89fbee4a7de46134ac40cb07d065fafc81d0f058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:34:18.992Z",
+      "lastFlagChange": null,
+      "rarity": 19.189,
+      "rarityRank": 5321,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.39,
+        "timestamp": 1651786627
+      },
+      "owner": "0x64fe38b25b414b986ebdd090a5c8a1eebada28f8"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x2054786a8c7a91be708a15a20f97fd0e5386ed176bfb65156d9c8e50f3c46f91",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "200000000000000000",
+            "decimal": 0.2,
+            "usd": 237.35558,
+            "native": 0.2
+          }
+        },
+        "maker": "0x64fe38b25b414b986ebdd090a5c8a1eebada28f8",
+        "validFrom": 1671539415,
+        "validUntil": 1671798615,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/9948"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "8059",
+      "name": "SupDuck 8059",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a22523f7e220fb28cf71d8fe3f07aebf91a38ca75806274a036f74aeace2f399c26a7ae68326da4b54f3db4891b46c76ac0950ad2ea3c11e40c4215a3b81e51826f1ea18486fad747ec9b562d11c78c98e861f47f6f63b2cc31fd81019dee334e69827244259e8201b1410138c9839364058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:35:34.378Z",
+      "lastFlagChange": null,
+      "rarity": 22.535,
+      "rarityRank": 3856,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": 0.14321,
+        "timestamp": 1671548099
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x9667857f0461354a7e2caeb6c86a560eeca1d2da"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x9fadb3966ce46dd0e892f6bfabee0cc1e38a19d2a1a7edd7d9a39ae375733637",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "202720000000000000",
+            "decimal": 0.20272,
+            "usd": 240.58362,
+            "native": 0.20272
+          }
+        },
+        "maker": "0x9667857f0461354a7e2caeb6c86a560eeca1d2da",
+        "validFrom": 1671548164,
+        "validUntil": 1671551764,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/8059"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "4475",
+      "name": "SupDuck 4475",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a762c9cd1473067885ebad3daf7f62424446ddd6264286d1a6666b9d617a1a61106107ee3b7943c4a2ecd7429cc9fe4ad55ace726329f4b7522515ec5ecc9b63ab969efa1a9adc669cf2f82d2a0a1431561ca05e0a26d4040ebbc0097df12b7a2ec5dee87315843d09052351e7e255e1c23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:47:18.177Z",
+      "lastFlagChange": null,
+      "rarity": 14.661,
+      "rarityRank": 9346,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x280a061b6eb5935c8b557a278e09ab875b4027ff"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x5fb37ad06b8b26c0b03980593f969c64c572bd116296a240e2c50ab5bdee249c",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "209000000000000000",
+            "decimal": 0.209,
+            "usd": 248.03659,
+            "native": 0.209
+          }
+        },
+        "maker": "0x280a061b6eb5935c8b557a278e09ab875b4027ff",
+        "validFrom": 1669802516,
+        "validUntil": 1672394516,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/4475"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "9064",
+      "name": "SupDuck 9064",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7043bcc747cd9d3bedf8af93f49ce04c61dcbe323d64d103ef7d2d589f6ef7ea561db10307d80ae5b51a127b86ef1f3a2be1424524e24119fa2ade2f51c34077352759872c9cdd628475800a2df63b2b92b1452c1397c507fdc28b1f72f2cc49e8e45f6ac2590615a1160ea7f46a8695058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:34:56.149Z",
+      "lastFlagChange": null,
+      "rarity": 24.624,
+      "rarityRank": 3236,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x4026b3da349c2952255ca9db4f055ea57f4e037c"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x8b8f8b643c3d33c5612c92b72c678999c79645bb35a098d10bb7463f4d4268da",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "210000000000000000",
+            "decimal": 0.21,
+            "usd": 249.22336,
+            "native": 0.21
+          }
+        },
+        "maker": "0x4026b3da349c2952255ca9db4f055ea57f4e037c",
+        "validFrom": 1671422923,
+        "validUntil": 1672027722,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/9064"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "6761",
+      "name": "SupDuck 6761",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae03f558bd052bfff99ac3e1783a7b07ac173ebb47efda0f209eb33e5893d7ca6634b1c18f7c460c7265e81877e86cb2812964b2ea568bc129e286a2bfdbf3187a6a912e31ab185c61214a1f3247c012898516bda2cd1f005415aa911320bc6eab29c48d613d8d1c0934880ab7e5b08b0058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:36:21.801Z",
+      "lastFlagChange": null,
+      "rarity": 18.34,
+      "rarityRank": 5916,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x2604eb8f88947e6835d61fdeddfa49577e1e6ed4"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xf4adbe2552a19fad9bd077b703bddb51016e7de5e79932c698041892a4d183ec",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "219000000000000000",
+            "decimal": 0.219,
+            "usd": 259.90436,
+            "native": 0.219
+          }
+        },
+        "maker": "0x2604eb8f88947e6835d61fdeddfa49577e1e6ed4",
+        "validFrom": 1670765996,
+        "validUntil": 1674445107,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/6761"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "4676",
+      "name": "SupDuck 4676",
+      "description": "**BEHOLD! THE WACKENING!**\n\nThis SupDuck has become Super Wacky from licking a MegaToad in [Dr. Drool's Lab](https://supducks.com/wackyducks). Having officially blasted off to a parallel universe, this Duck will now be seen in the eyes of the DuckGod as a Duck who has become Enlightened. With Enlightenment comes great responsibility and privileged perks.\n\n**Wacky Level:** 10\n\n**Image Links:**\n\n[OG Duck Image](ipfs://QmTr3vzFZRm7Xi3PKcy6YhkbtphUR13xK4ggHzhGvqrkaB)\n\n[Static Wacky Image](https://api.supducks.com/supducks/png/10/4676)",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ad9f57dc35c6602029e8236e6f26267382e0244ea648779966c45e7410338d7b7ec0032c7bd23b374d2d8c96f5a0e19f9be2d305e986fb90878d77d820fe5fd553b131a42b37a29b9cc43a8fc62a6b8b86346c9322307e3b59f7bff2583caed79077e849e399a981de16f1433db3d9b4823c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:46:54.742Z",
+      "lastFlagChange": null,
+      "rarity": 14.869,
+      "rarityRank": 9202,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": 0.1341,
+        "timestamp": 1669918691
+      },
+      "lastSell": {
+        "value": 0.271,
+        "timestamp": 1668848843
+      },
+      "owner": "0x68861258a5d3a938b936268581d1e895c39d9c04"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xc85078b7373dd61192dba6e141528d0ed8ba23412eccde4eaf833d0242cc59bd",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "219999999000000000",
+            "decimal": 0.22,
+            "usd": 261.09114,
+            "native": 0.22
+          }
+        },
+        "maker": "0x68861258a5d3a938b936268581d1e895c39d9c04",
+        "validFrom": 1671548421,
+        "validUntil": 1671782274,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/4676"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "3923",
+      "name": "SupDuck 3923",
+      "description": "**BEHOLD! THE WACKENING!**\n\nThis SupDuck has become Super Wacky from licking a MegaToad in [Dr. Drool's Lab](https://supducks.com/wackyducks). Having officially blasted off to a parallel universe, this Duck will now be seen in the eyes of the DuckGod as a Duck who has become Enlightened. With Enlightenment comes great responsibility and privileged perks.\n\n**Wacky Level:** 10\n\n**Image Links:**\n\n[OG Duck Image](ipfs://QmeMPoEPn8zv1P31xHNaNAHFQygCMABWq3nvDRAS7FCcET)\n\n[Static Wacky Image](https://api.supducks.com/supducks/png/10/3923)",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a448285db0185e3344bed9aeb137d8e1f5447dc536e0220e7b1d39a3ce90b6b9278b21f113e30740d15a4c0163f19fb6d94a6f8d75561ae2c50c0b5a0b35bb400f5949d0bfa214cc6384b89656bc218c03b0c6cc2d2dd8a574474b50c4e05e86d7c0a81e47e9ffbbdab848594c741955723c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:47:58.219Z",
+      "lastFlagChange": null,
+      "rarity": 21,
+      "rarityRank": 4401,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.19,
+        "timestamp": 1671086735
+      },
+      "owner": "0xaa9d39f9a6c3cde9d2785069adfdf29302186772"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x6f133d03ce24ecf4f9989633f26a3203df279d672cfe9a9b7bdd8d53aeda9e68",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "220000000000000000",
+            "decimal": 0.22,
+            "usd": 261.09114,
+            "native": 0.22
+          }
+        },
+        "maker": "0xaa9d39f9a6c3cde9d2785069adfdf29302186772",
+        "validFrom": 1671548043,
+        "validUntil": 1671634443,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/3923"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "3926",
+      "name": "SupDuck 3926",
+      "description": "**BEHOLD! THE WACKENING!**\n\nThis SupDuck has become Super Wacky from licking a MegaToad in [Dr. Drool's Lab](https://supducks.com/wackyducks). Having officially blasted off to a parallel universe, this Duck will now be seen in the eyes of the DuckGod as a Duck who has become Enlightened. With Enlightenment comes great responsibility and privileged perks.\n\n**Wacky Level:** 10\n\n**Image Links:**\n\n[OG Duck Image](ipfs://QmcbJfh1REVuBo4up8GqDNhtoSA4Jg9VLk1Z7fwcE6qhYR)\n\n[Static Wacky Image](https://api.supducks.com/supducks/png/10/3926)",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75acbdb9e9ac907b91fb46705800027d4bdd43ff1b8b554fa19b67e3484f42ef61b8d492bc869532733bb238b1dc75c5b47ba001fac796fa5246fb6ac6704bfcde5634e6f8350040aa2ef371a6912caaaa3094d0eb48c2a95f5cc37e766253e3bce39f4f5b5522ea0f1a7612638f927beb323c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:47:58.189Z",
+      "lastFlagChange": null,
+      "rarity": 22.063,
+      "rarityRank": 4003,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.183,
+        "timestamp": 1671086735
+      },
+      "owner": "0xaa9d39f9a6c3cde9d2785069adfdf29302186772"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xafbfd03a67d4929cb337f6a826eb3b1dfa2142e2236387d92b7ab760b9dfea8a",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "220000000000000000",
+            "decimal": 0.22,
+            "usd": 261.09114,
+            "native": 0.22
+          }
+        },
+        "maker": "0xaa9d39f9a6c3cde9d2785069adfdf29302186772",
+        "validFrom": 1671469581,
+        "validUntil": 1674147981,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/3926"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "6754",
+      "name": "SupDuck 6754",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a381504ec42625fbedddb4367f1bf4945e1cc5af67b2ba278578838af8a5364d04e723b6a3566e10e5b807af29ea6fa7c59e5be566059c81ebeeb80048e925c854a43986362c989a037788c0c7ef532f8194ccb6265e4b40cc14969e42d5342ed95e38735f59ab31d8fbddd0d319859b023c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:36:21.802Z",
+      "lastFlagChange": null,
+      "rarity": 21.661,
+      "rarityRank": 4134,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": 0.152,
+        "timestamp": 1670104907
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xdd565623cce485199df3917dee890989183423a7"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x2259395eb722f00ca3646b5cdab8a2a335cecf03685d0a21402c009ddc0dfb25",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "220000000000000000",
+            "decimal": 0.22,
+            "usd": 261.09114,
+            "native": 0.22
+          }
+        },
+        "maker": "0xdd565623cce485199df3917dee890989183423a7",
+        "validFrom": 1670741028,
+        "validUntil": 1673419428,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/6754"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "2127",
+      "name": "SupDuck 2127",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75adf4f06abc68fbcbe7bcd7ad0c3f525d4cf55ffba090604158393426e6033804dec1f736313c2dfa09476f0ccd6ddd76f3c227d11415e16e9740b5aa9ec1749d1b30628d50363a89ab39a988cf6356d3e0e4610d34521d1923785a13074000b7e8379888f96039c47a97688c89e4f48f0e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:50:34.228Z",
+      "lastFlagChange": null,
+      "rarity": 29.424,
+      "rarityRank": 1878,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x00bc5b61042fa8375dba651a2309bc5595302ec1"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x9aa56d45f7f8599cf3c6f36f12553a50b9f4da9818888d5fb8b67aba943ddb51",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "222000000000000000",
+            "decimal": 0.222,
+            "usd": 263.4647,
+            "native": 0.222
+          }
+        },
+        "maker": "0x00bc5b61042fa8375dba651a2309bc5595302ec1",
+        "validFrom": 1671505642,
+        "validUntil": 1687057642,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/2127"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "2312",
+      "name": "SupDuck 2312",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a46edc2cceb98783aa2405f3de7e6dd61e0fc4738d161c3e752e6d3afcc8779a4c6004c17f35825ede4c1aba152fd3a9e05976377580c768a07729b33b103ff1c15a6ff5834321c373f6751c3778552e5450e3c8176b3f6abdcb3ab38c2b0fa391f25161e6b5af9fd6cc078ba2ea8c58323c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:50:17.540Z",
+      "lastFlagChange": null,
+      "rarity": 28.937,
+      "rarityRank": 1986,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x00bc5b61042fa8375dba651a2309bc5595302ec1"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x5da1c77437d58ef5a8483edcd511b6ba1b5d8bf5f2f631a630728ebea3ff8fdb",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "222000000000000000",
+            "decimal": 0.222,
+            "usd": 263.4647,
+            "native": 0.222
+          }
+        },
+        "maker": "0x00bc5b61042fa8375dba651a2309bc5595302ec1",
+        "validFrom": 1671505612,
+        "validUntil": 1687057611,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/2312"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "5250",
+      "name": "SupDuck 5250",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ac464a0fccc6916d29b70c9927f8632e36b6bb4bd53abfc95d3a9a764cae6ecdc4d6fc4df72140efe7771a11e4c6b9f62f2d2e9ba67603ec399329281024807a93be5c36d0bbaca442e18d1ff3995f2c17203c419249aef1a8b86497544d33b0b1301d3743926cd5e4f079a66b5d2041a058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:46:26.833Z",
+      "lastFlagChange": null,
+      "rarity": 28.512,
+      "rarityRank": 2073,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x00bc5b61042fa8375dba651a2309bc5595302ec1"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x98ef95ea132cfc69a9d31d9fa69ee9f48f4eb3941990ef15680efc0ea5095526",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "222000000000000000",
+            "decimal": 0.222,
+            "usd": 263.4647,
+            "native": 0.222
+          }
+        },
+        "maker": "0x00bc5b61042fa8375dba651a2309bc5595302ec1",
+        "validFrom": 1671505627,
+        "validUntil": 1687057626,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/5250"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "1252",
+      "name": "SupDuck 1252",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae5760e046d4fde042e368fe859989562d2812a64a370d2173fdbe17630381177693ed028c53a119dda0ce13147caa0998b91d3366a1a88b88927ce823ad58b9ffa5dac7abec53c83a7f50af8013ddc41e334fa67851abe791c82edd85c08ca7a38b157ad8c470f773b04503c1c01e8f723c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:51:13.350Z",
+      "lastFlagChange": null,
+      "rarity": 17.838,
+      "rarityRank": 6341,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x280a061b6eb5935c8b557a278e09ab875b4027ff"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xba51f1fbd27783e19716de4a1d691564aa6fb361c32ce056b4400546f74c41b3",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "227000000000000000",
+            "decimal": 0.227,
+            "usd": 269.39859,
+            "native": 0.227
+          }
+        },
+        "maker": "0x280a061b6eb5935c8b557a278e09ab875b4027ff",
+        "validFrom": 1669978766,
+        "validUntil": 1672657166,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/1252"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "5879",
+      "name": "SupDuck 5879",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4dc0cdd6f00c22698ca50e8ad8a1927bf7178e8a0cd7ab3f7fe6e8c610cc036142524132a2dbff41784aff8566ecc7fbe39cbdb9ac906eb5b669e4a4a08a8ba74167abc08a7189151ef57da6dd6ebd508f25a4df757b6ebe9f90c4d5dda1b04f76d831fa77a92c19da70886156491f0ae1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:36:53.424Z",
+      "lastFlagChange": null,
+      "rarity": 18.379,
+      "rarityRank": 5878,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.16039,
+        "timestamp": 1670534699
+      },
+      "owner": "0xdcb22cf7d29756d962375fc404b4fbdea5607a65"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xf4fe871b88fb18f05a6e055dff382e133a1801a6a4da923c80e2cecd00904a1f",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "230000000000000000",
+            "decimal": 0.23,
+            "usd": 272.95892,
+            "native": 0.23
+          }
+        },
+        "maker": "0xdcb22cf7d29756d962375fc404b4fbdea5607a65",
+        "validFrom": 1670534726,
+        "validUntil": 1678310726,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/5879"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "2430",
+      "name": "SupDuck 2430",
+      "description": "**BEHOLD! THE WACKENING!**\n\nThis SupDuck has become Super Wacky from licking a MegaToad in [Dr. Drool's Lab](https://supducks.com/wackyducks). Having officially blasted off to a parallel universe, this Duck will now be seen in the eyes of the DuckGod as a Duck who has become Enlightened. With Enlightenment comes great responsibility and privileged perks.\n\n**Wacky Level:** 3\n\n**Image Links:**\n\n[OG Duck Image](ipfs://QmQz4fuarTkENz7HKwHe3MZG4iiaGtiBCSHyztRHGxynF6)\n\n[Static Wacky Image](https://api.supducks.com/supducks/png/3/2430)",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a94e9bfb8f2e95c657104e6617ca9af6ac12612997e15ce7f249d4b75f41a95ddc5e70e8cdd49fe136626b3f6beb176b06c6c7e71a383e15bf32b403f0d611cab7091fcb550c33bd6ecbfa3f0e2563bfb8f2de2bd12b2e4689b7cc82d2e6e59f0ce3180bf775ec5e1f59fcbc318b19bdfe1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:49:59.813Z",
+      "lastFlagChange": null,
+      "rarity": 18.309,
+      "rarityRank": 5939,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": 0.14,
+        "timestamp": 1669939151
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xb868d8db6e91e0b7b60ece4396bf76ca8cefb2cb"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xbabd2f38b87862d3321dc0860723d23ce65ced89e76bada4adee759831e1fbb4",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "235000000000000000",
+            "decimal": 0.235,
+            "usd": 278.89281,
+            "native": 0.235
+          }
+        },
+        "maker": "0xb868d8db6e91e0b7b60ece4396bf76ca8cefb2cb",
+        "validFrom": 1671231509,
+        "validUntil": 1673909909,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/2430"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "4132",
+      "name": "SupDuck 4132",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a0cc39a267883d3eaefa0fa517456e87a7da296ced048219e3814f2be496c576983ccba2b2666c5d87928a585cc153290f1f6f4ca3a13c8a64afcd83c5c9c8650347640334499832a12366ddf5d97d79a8633f888da5e8d5df1b0589e08b9960c9abbfc8da734ce880bfe421bbe5df17123c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:47:50.858Z",
+      "lastFlagChange": null,
+      "rarity": 25.66,
+      "rarityRank": 2899,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xa0ef6e5d5f891fc6dbfdc4628b698b6d3c547525"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x682fe12f373f7a880c65baac1779dcc1f83611257f0fbd48a054194c333ef45e",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "235000000000000000",
+            "decimal": 0.235,
+            "usd": 278.89281,
+            "native": 0.235
+          }
+        },
+        "maker": "0xa0ef6e5d5f891fc6dbfdc4628b698b6d3c547525",
+        "validFrom": 1668073934,
+        "validUntil": 1683712334,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/4132"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "1089",
+      "name": "SupDuck 1089",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a68cf73d7ab940eb9eeea8f6608f72f25422cab38dea1ef22e2a2146ed0b1fd35c30dd04ae531fbdceb8ddf256af896a3570be123ba068c95d0e0e06521a96abebb0b98ab1e366b23f0537c59e8f2221d015f42d6645e0babd692fc50d30f33edb26882b015e5a3a9eb481f02ced450dd23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:51:20.282Z",
+      "lastFlagChange": null,
+      "rarity": 24.062,
+      "rarityRank": 3401,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xa0ef6e5d5f891fc6dbfdc4628b698b6d3c547525"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xc890909f3c165ac44d5e14c8a8ee52c9e9e23bcd4e6625bf63d7e696c4a63cb0",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "237000000000000000",
+            "decimal": 0.237,
+            "usd": 281.26637,
+            "native": 0.237
+          }
+        },
+        "maker": "0xa0ef6e5d5f891fc6dbfdc4628b698b6d3c547525",
+        "validFrom": 1668073934,
+        "validUntil": 1683712334,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/1089"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "1087",
+      "name": "SupDuck 1087",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a82fe007cbdf6b5d8227b6910db5733a840bbee4d2d633a19412a3c654499c2303c6853a6bba7be3a4ba7a0169da7154a9599a5baba04398a7f405a5fcc65116fd62a53c481d2cda1be62eed162000e7a298b502bb73d6bfe454241628060fe33a7532dd2250ed980250f5392317de6c323c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:51:20.239Z",
+      "lastFlagChange": null,
+      "rarity": 27.516,
+      "rarityRank": 2352,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xa0ef6e5d5f891fc6dbfdc4628b698b6d3c547525"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x5011b00fc428a91fa1f7eaeb8728bc5c4cc377ba253a73fb35c568c4f2ed2930",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "238000000000000000",
+            "decimal": 0.238,
+            "usd": 282.45315,
+            "native": 0.238
+          }
+        },
+        "maker": "0xa0ef6e5d5f891fc6dbfdc4628b698b6d3c547525",
+        "validFrom": 1668073934,
+        "validUntil": 1683712334,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/1087"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "9634",
+      "name": "SupDuck 9634",
+      "description": "**BEHOLD! THE WACKENING!**\n\nThis SupDuck has become Super Wacky from licking a MegaToad in [Dr. Drool's Lab](https://supducks.com/wackyducks). Having officially blasted off to a parallel universe, this Duck will now be seen in the eyes of the DuckGod as a Duck who has become Enlightened. With Enlightenment comes great responsibility and privileged perks.\n\n**Wacky Level:** 10\n\n**Image Links:**\n\n[OG Duck Image](ipfs://QmWzhnUtp9eKokonQzoQemYULwGzjQ5fBXXavnkBwNdhWh)\n\n[Static Wacky Image](https://api.supducks.com/supducks/png/10/9634)",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75afed8160fcf86371be04bdeb2e4bc100fa0afe5175dcce4a877be7ec17ef6c5b816e6fe9aad6ad3d85ed1d781981db35038facdf72404fac72fed19fad65284df3ca92853b65f3b6024e936bc4d2254f9d79213f5b9b3fc6a45ba7e6ac5a83e19334899f3c412fb94672d70cf51edfcf2058ed9feecb44e991ea6b299d1f7ae6c",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:34:32.383Z",
+      "lastFlagChange": null,
+      "rarity": 22.542,
+      "rarityRank": 3852,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.18,
+        "timestamp": 1670750087
+      },
+      "owner": "0xe1cf53a2257e2d9c0c6ce99012a1f4dfca18439c"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x56fa84513d4a50b1650cbc296ee2707e1a8ee53d3741ef977ce08a64137862ad",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "240000000000000000",
+            "decimal": 0.24,
+            "usd": 284.8267,
+            "native": 0.24
+          }
+        },
+        "maker": "0xe1cf53a2257e2d9c0c6ce99012a1f4dfca18439c",
+        "validFrom": 1671444199,
+        "validUntil": 1672048999,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/9634"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "4311",
+      "name": "SupDuck 4311",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a647e98773a8ef724720fa237e653ef27501cbd06399e004f017049f49e17bdd3c6db28ba699cfbb551c3439b9c6d0758bc889a80a8f802c68dddc5b8c02ed5e5a2d06fb566515fa12f9c6df0bb1e8e5b8846539e83ed92eefbc68fb1c9a7aeba4b146c04f9358a16ea60ad4bded6fc6923c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:47:39.339Z",
+      "lastFlagChange": null,
+      "rarity": 32.785,
+      "rarityRank": 1358,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.1761,
+        "timestamp": 1671025391
+      },
+      "owner": "0x057097671ace29a2171a5a155de88a2ce857ff8d"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x245333f51ec082a90237b5a4af71214704f5e0d3164a1d77a68f87ab18e7cf4f",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "245000000000000000",
+            "decimal": 0.245,
+            "usd": 290.76059,
+            "native": 0.245
+          }
+        },
+        "maker": "0x057097671ace29a2171a5a155de88a2ce857ff8d",
+        "validFrom": 1671546466,
+        "validUntil": 1671630099,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/4311"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "7997",
+      "name": "SupDuck 7997",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a3465c66e955aff022153e9b8fc64568593d12e96e59143d43c495186283466d606df03ac1388295fe417c4c636b47a756ad9b2dba684c07fb3e0a5bfa031b11bceecf5eb05eb673c23f217d1d4de5e33b5f20286dc54bbd54868fb20ebecef7fdd476d85361cff0bf4417de2d1bd5b1c23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:35:36.216Z",
+      "lastFlagChange": null,
+      "rarity": 26.163,
+      "rarityRank": 2740,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.51824,
+        "timestamp": 1653372594
+      },
+      "owner": "0x73ad061eccdd611914ce75cb457f1f25db3c556a"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xc45d03fda53bfaf913859f51d1e298e28d5ed8d0f27c2134a78c058b58cd558f",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "245000000000000000",
+            "decimal": 0.245,
+            "usd": 290.76059,
+            "native": 0.245
+          }
+        },
+        "maker": "0x73ad061eccdd611914ce75cb457f1f25db3c556a",
+        "validFrom": 1671369925,
+        "validUntil": 1671629125,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/7997"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "3259",
+      "name": "SupDuck 3259",
+      "description": "**BEHOLD! THE WACKENING!**\n\nThis SupDuck has become Super Wacky from licking a MegaToad in [Dr. Drool's Lab](https://supducks.com/wackyducks). Having officially blasted off to a parallel universe, this Duck will now be seen in the eyes of the DuckGod as a Duck who has become Enlightened. With Enlightenment comes great responsibility and privileged perks.\n\n**Wacky Level:** 5\n\n**Image Links:**\n\n[OG Duck Image](ipfs://QmPoLWW64CaACyXi6JgY1CFbvEuCntoukEn1W26wKEMASu)\n\n[Static Wacky Image](https://api.supducks.com/supducks/png/5/3259)",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a6b3d931fd50e3e8390f508684549342a357b04a8655ea2fc86c093d6aa584db989af3537c1d5e09618e1f7601a944a6b4a8ef94307a25939b5ce66b6b10f3d16848edd37f466a79633f2dbf59c9c855619ea8a281ed18d8347c330ceee14b4d86f90bf7397e634e0d91090c0382f4328e1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:48:56.803Z",
+      "lastFlagChange": null,
+      "rarity": 24.645,
+      "rarityRank": 3228,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": 0.1477,
+        "timestamp": 1661048510
+      },
+      "lastSell": {
+        "value": 0.179,
+        "timestamp": 1661061481
+      },
+      "owner": "0x309eeda43bfadda07343e089bacca95d201fc518"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x39931c7eecc4c417eb3fd38a661eee2d40378bcfe627427532950bf6d5849c17",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "246000000000000000",
+            "decimal": 0.246,
+            "usd": 291.94737,
+            "native": 0.246
+          }
+        },
+        "maker": "0x309eeda43bfadda07343e089bacca95d201fc518",
+        "validFrom": 1670734327,
+        "validUntil": 1673412727,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/3259"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "826",
+      "name": "SupDuck 826",
+      "description": "**BEHOLD! THE WACKENING!**\n\nThis SupDuck has become Super Wacky from licking a MegaToad in [Dr. Drool's Lab](https://supducks.com/wackyducks). Having officially blasted off to a parallel universe, this Duck will now be seen in the eyes of the DuckGod as a Duck who has become Enlightened. With Enlightenment comes great responsibility and privileged perks.\n\n**Wacky Level:** 4\n\n**Image Links:**\n\n[OG Duck Image](ipfs://QmbUq4Pxs8dwc45ui6WViNwQTNXWHdz7yszLuY6QKUADU7)\n\n[Static Wacky Image](https://api.supducks.com/supducks/png/4/826)",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75af20f0449d4fb0aaddbecbf6aa6221df5805c1826792e99ba3c788add1c0c0af4a5f11a9ff3e1fb7c7d72bbfb9bc5aba1feac2f256e64940f80389f56696c4652568f78a385420b5e65d98785f92ef58e425dfcb9e6889920b9924db9a8d45e3ea3f2e964c76e53148bfecf8236fee56b23c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:51:29.195Z",
+      "lastFlagChange": null,
+      "rarity": 37.864,
+      "rarityRank": 892,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": 0.1843,
+        "timestamp": 1670978759
+      },
+      "lastSell": {
+        "value": 0.39,
+        "timestamp": 1659211030
+      },
+      "owner": "0xc35de3eb8d2cb560bf90c4a0caa737d2a701f695"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xda8f0f2d04b5ca955c920d3adea13f198772b0c130909864c7a8af2854a4b286",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "248000000000000000",
+            "decimal": 0.248,
+            "usd": 294.32092,
+            "native": 0.248
+          }
+        },
+        "maker": "0xc35de3eb8d2cb560bf90c4a0caa737d2a701f695",
+        "validFrom": 1670980036,
+        "validUntil": 1673658436,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/826"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "4459",
+      "name": "SupDuck 4459",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a7e0164548bab8d55803b651203624445ebbcef5ecbe820fb431bd71712a39d8cb9d128735bbcf87219492d4a2fdd134699ff3a54c554f6e17bf6a4a66090b702ac641e20aa81de3c83dfdbe68f4388fb7dd45817608fc3fb78127df671318de17791a47806c8508397b33dd290f245b423c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:47:20.449Z",
+      "lastFlagChange": null,
+      "rarity": 24.428,
+      "rarityRank": 3281,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0x4a90e18f3e90074a820532a3da62b347ea86711b"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xb31517975fd27d1a74c8558f794934b84e15a6743955e75a05a29708fec202db",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "248800000000000000",
+            "decimal": 0.2488,
+            "usd": 295.27035,
+            "native": 0.2488
+          }
+        },
+        "maker": "0x4a90e18f3e90074a820532a3da62b347ea86711b",
+        "validFrom": 1670616447,
+        "validUntil": 1672085220,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/4459"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "3084",
+      "name": "SupDuck 3084",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a8b48ab23f8ce8f12b1fb5f423cbb567a4b313dfc8f01f29c1129a0d0b0aa1bbdc4768439942abe4dbefc09534333adbe50c003284c0c09ee09ea68c0db99adf693507b7139e6a0d77f64a49434d0a5f328c6dd1c34e47b52a09924366246493e5554b2045711d8093e46693ef7cee1a123c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:49:09.865Z",
+      "lastFlagChange": null,
+      "rarity": 14.575,
+      "rarityRank": 9405,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.19,
+        "timestamp": 1666829423
+      },
+      "owner": "0x3ddf19947022fd6aceb5b079e158da69464ad658"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x692281414ecf72b79741802ed8a21e3a02dfe15b973c87d0828c875152997c96",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "249000000000000000",
+            "decimal": 0.249,
+            "usd": 295.5077,
+            "native": 0.249
+          }
+        },
+        "maker": "0x3ddf19947022fd6aceb5b079e158da69464ad658",
+        "validFrom": 1671175004,
+        "validUntil": 1671914504,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/3084"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "6093",
+      "name": "SupDuck 6093",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75aeda8b3fb6911eca57d84d7bfb86238c6605503f839907a04e099ea014f7daeb77356765796b03e8f22975e78980ac9f88e1339bd54c041a87c3a65f7d66539e7b077e82d5ce8479e90d08a0afc28d90e51ec97d7c41afff84c056272fb83d18d1ce3c1aa0569171cd98a0ace45bb58d623c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:36:46.155Z",
+      "lastFlagChange": null,
+      "rarity": 15.312,
+      "rarityRank": 8818,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": 0.46,
+        "timestamp": 1651341887
+      },
+      "owner": "0xc108be0eb7875c4517391769afdec33a9910b3d8"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0xd0a3705695c1352d355ab9944b458123b6d8a8a91ef534eeb6e1ffc57db26b20",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "249000000000000000",
+            "decimal": 0.249,
+            "usd": 295.5077,
+            "native": 0.249
+          }
+        },
+        "maker": "0xc108be0eb7875c4517391769afdec33a9910b3d8",
+        "validFrom": 1670762606,
+        "validUntil": 1673441006,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/6093"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "8519",
+      "name": "SupDuck 8519",
+      "description": "**BEHOLD! THE WACKENING!**\n\nThis SupDuck has become Super Wacky from licking a MegaToad in [Dr. Drool's Lab](https://supducks.com/wackyducks). Having officially blasted off to a parallel universe, this Duck will now be seen in the eyes of the DuckGod as a Duck who has become Enlightened. With Enlightenment comes great responsibility and privileged perks.\n\n**Wacky Level:** 1\n\n**Image Links:**\n\n[OG Duck Image](ipfs://QmTtJDDgfforFohUE2g8FiTLx6D7MkkTra5B8UUVnLfX4E)\n\n[Static Wacky Image](https://api.supducks.com/supducks/png/1/8519)",
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4ed3de32fceaff6f8a8d32ebdc17be60d8aaf6897e538f08dcd297b6071d7d37181812e88b5fc247f5422e3d5e6bd4cf74257254b55b6c3dce9f4d9cbc3cdc6252c614a61139e81296969bc5a3dfc0c635244c3617295235f7b1e2715f64a26040b214a79200f257599fe9efcb520db023c5e4198f99eda3f3b783c3322e8c56",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:35:17.625Z",
+      "lastFlagChange": null,
+      "rarity": 36.853,
+      "rarityRank": 976,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": 0.1642,
+        "timestamp": 1669920239
+      },
+      "lastSell": {
+        "value": 0.1935,
+        "timestamp": 1660836202
+      },
+      "owner": "0xab8f298fb36b2fc68168316776e5bf8bd05fac55"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x2ce66e8faff749d54c886e1396e0cd79b30d91707235c10a19386299e2c00dec",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "249000000000000000",
+            "decimal": 0.249,
+            "usd": 295.5077,
+            "native": 0.249
+          }
+        },
+        "maker": "0xab8f298fb36b2fc68168316776e5bf8bd05fac55",
+        "validFrom": 1669920705,
+        "validUntil": 1672599105,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/8519"
+        }
+      }
+    }
+  },
+  {
+    "token": {
+      "contract": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+"category": ["Animal", "Duck", "Painting", "2d", "Bizarre", "Normal", "Other"],
+      "tokenId": "159",
+      "name": "SupDuck 159",
+      "description": null,
+      "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75ae45b8b48e5cdbfbf1d183c8f648eefa90b3a8e4ea620765e53f6c00da29891f9d732eaa42d0cf67218f59a49ab3f671f940b82f17441aa7c33eef7ce839f036e78fb05900e126bb0f3ac5368aa1bbf76309bc5152d7e49c61aadef8f4968acfb8a3a4483cc63560448962ab60bccd83de1c36adca3539e5ec9b326e73d154fcd9d90547028f7a3eab3abf92c17a43f5a",
+      "media": null,
+      "kind": "erc721",
+      "isFlagged": false,
+      "lastFlagUpdate": "2022-12-11T16:51:54.164Z",
+      "lastFlagChange": null,
+      "rarity": 34.661,
+      "rarityRank": 1181,
+      "collection": {
+        "id": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
+        "name": "SupDucks",
+        "image": "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a818fc81d5228cafe989527c2626e4ad838e041153efe49e02d35932dae764f4301ded54ee8ae04ab945f7a74b45d12f1ea4ed5a4d740f5709928267c775f4eff2573e7e40288fee9530d283ebd0a413d",
+        "slug": "supducks"
+      },
+      "lastBuy": {
+        "value": null,
+        "timestamp": null
+      },
+      "lastSell": {
+        "value": null,
+        "timestamp": null
+      },
+      "owner": "0xf8d101b33a948fc07b2dd8cbf392c04b586ed56d"
+    },
+    "market": {
+      "floorAsk": {
+        "id": "0x30688c2f1b3872fd46faa20096b4bad48d6e223af3e6bd569fab11173223f573",
+        "price": {
+          "currency": {
+            "contract": "0x0000000000000000000000000000000000000000",
+            "name": "Ether",
+            "symbol": "ETH",
+            "decimals": 18
+          },
+          "amount": {
+            "raw": "250000000000000000",
+            "decimal": 0.25,
+            "usd": 296.69448,
+            "native": 0.25
+          }
+        },
+        "maker": "0xf8d101b33a948fc07b2dd8cbf392c04b586ed56d",
+        "validFrom": 1671471927,
+        "validUntil": 1674150327,
+        "source": {
+          "id": "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073",
+          "domain": "opensea.io",
+          "name": "OpenSea",
+          "icon": "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
+          "url": "https://opensea.io/assets/0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5/159"
+        }
+      }
+    }
+  }
+]
