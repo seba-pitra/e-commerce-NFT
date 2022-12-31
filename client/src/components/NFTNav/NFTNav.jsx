@@ -91,9 +91,6 @@ export default function NFTNav() {
               <Link className="brand-colorized-text" to="/createNft">
                 Create
               </Link>
-              <Link className="brand-colorized-text" to="/myAccount">
-                My account
-              </Link>
             </Nav>
             <SearchBar />
             <Nav>
