@@ -5,10 +5,12 @@ import issueIcon from "../../images/icons/issue-icon.png";
 import pendingIcon from "../../images/icons/pending-icon.png";
 import styles from "./PayResult.module.css";
 import { Link } from "react-router-dom";
+import React, { useState } from "react";
 
 function PayResult(props) {
   const dispatch = useDispatch();
 
+  const activeUserIs = useSelector((state) => state.activeUser);
   
 
   let userNfts = JSON.parse(localStorage.getItem("nftsOnShoppingCart"));
@@ -50,7 +52,7 @@ function PayResult(props) {
   );
 
   const failureContainer = (
-    <div className={styles["pay-result-failure-container"]}>
+	  <div className={styles["pay-result-failure-container"]}>
       <div className={styles["pay-result-failure-line"]}></div>
       <img
         src={issueIcon}
@@ -124,19 +126,21 @@ function PayResult(props) {
         ...mercadoPagoBuyData,
         statusPay: "Successed",
       };
-
+ dispatch(actions.sendFungibleMail({correoUser: activeUserIs, accion: "exito"})) ; 
     } else if (window.location.href.includes("failure")) {
       resultContainer = failureContainer;
       mercadoPagoBuyData = {
         ...mercadoPagoBuyData,
         statusPay: "Rejected",
       };
+ dispatch(actions.sendFungibleMail({correoUser: activeUserIs, accion: "error"})) ; 
     } else if (window.location.href.includes("pending")) {
       resultContainer = pendingContainer;
       mercadoPagoBuyData = {
         ...mercadoPagoBuyData,
         statusPay: "Pending",
       };
+ dispatch(actions.sendFungibleMail({correoUser: activeUserIs, accion: "pendiente"})) ; 
     }
 
     dispatch(actions.addBuyAtHistoryBuys(mercadoPagoBuyData));

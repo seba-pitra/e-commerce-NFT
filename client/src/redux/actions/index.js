@@ -394,7 +394,7 @@ export const addBuyAtHistoryBuys = (buyData) => {
 
 // Email
 export const sendFungibleMail = (sendData) => {
-  return async (dispatch) => {
+	return async (dispatch) => {
     await fetch(`http://localhost:3001/fungiblemail`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
