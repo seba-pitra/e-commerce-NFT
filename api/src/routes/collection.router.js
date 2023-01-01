@@ -12,7 +12,7 @@ const collectionRouter = Router();
 
 collectionRouter.get("/", getCollections);
 
-collectionRouter.post("/", createNewCollection);
+collectionRouter.post("/create", createNewCollection);
 
 collectionRouter.get("/:id", getCollectionById);
 

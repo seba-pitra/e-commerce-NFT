@@ -1,5 +1,4 @@
 import * as actions from "../../redux/actions";
-import Ordering from "./Ordering/Ordering";
 import Filtering from "./Filtering/Filtering";
 import PriceSelector from "./PriceSelector/PriceSelector";
 // import NFTSPerPageSelector from "./NFTSPerPageSelector/NFTSPerPageSelector";
@@ -11,7 +10,6 @@ export default function Options() {
 
   return (
     <div className="alllFilters-container">
-      <Ordering />
       <Filtering />
       <PriceSelector />
       {/* <NFTSPerPageSelector/> */}
