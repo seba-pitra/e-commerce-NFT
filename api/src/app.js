@@ -4,8 +4,8 @@ const bodyParser = require('body-parser');
 const morgan = require('morgan');
 const routes = require('./routes/index.js');
 
-const cors = require('cors');
 
+const cors = require('cors');
 require('./db.js');
 
 const server = express();
