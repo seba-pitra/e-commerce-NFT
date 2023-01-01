@@ -21,6 +21,7 @@ let loginStatusStorage = localStorage.getItem("Logged");
   useEffect(() => {
     validateUser();
   }, [dispatch]);
+
   const validateUser = async () => {
     if (loginStatusStorage) {
       dispatch(actions.getAllNfts());

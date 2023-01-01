@@ -1,5 +1,5 @@
 
-import "../../NFTCard/NFTCard.css";
+import "../../../NFTCard/NFTCard.css";
 
 import FavoriteIcon from "@material-ui/icons/Favorite";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";

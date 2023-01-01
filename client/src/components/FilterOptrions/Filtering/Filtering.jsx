@@ -56,33 +56,6 @@ export default function Filtering() {
   category.Style = Array.from(new Set(category.Style))
   category.Rest = Array.from(new Set(category.Rest))
   category.Backg = Array.from(new Set(category.Backg))
-  
-  let category2 = { Species: [], Species2: [], Art: [], Type: [], Style: [], Rest: [], Backg: [] }
-
-  filteredNfts.forEach(c => {
-    category2.Species.push(c.category[0])
-    category2.Species2.push(c.category[1])
-    category2.Art.push(c.category[2])
-    category2.Type.push(c.category[3])
-    category2.Style.push(c.category[4])
-    category2.Rest.push(c.category[5])
-    category2.Backg.push(c.category[6])
-  })
-
-  category2.Species = new Set(category2.Species)
-  category2.Species = Array.from(category2.Species)
-  category2.Species2 = new Set(category2.Species2)
-  category2.Species2 = Array.from(category2.Species2)
-  category2.Art = new Set(category2.Art)
-  category2.Art = Array.from(category2.Art)
-  category2.Type = new Set(category2.Type)
-  category2.Type = Array.from(category2.Type)
-  category2.Style = new Set(category2.Style)
-  category2.Style = Array.from(category2.Style)
-  category2.Rest = new Set(category2.Rest)
-  category2.Rest = Array.from(category2.Rest)
-  category2.Backg = new Set(category2.Backg)
-  category2.Backg = Array.from(category2.Backg)
 
   const selectCollection = (e) => {
     if(selectedCollection.includes(e.target.value)) {

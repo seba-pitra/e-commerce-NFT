@@ -7,6 +7,7 @@ export const GET_ALL_USERS = "GET_ALL_USERS";
 export const GET_NFT_DETAIL = "GET_NFT_DETAIL";
 export const GET_USER_BY_ID = "GET_USER_BY_ID";
 export const GET_LOGGED_USER = "GET_LOGGED_USER";
+export const REMOVE_LOGGED_USER = "REMOVE_LOGGED_USER";
 
 // -- ADMIN ACTIONS --
 export const CREATE_NFT = "CREATE_NFT";
@@ -49,7 +50,7 @@ export const SET_ACTIVE_PAGE = "SET_ACTIVE_PAGE";
 export const SELECT_PAGE = "SELECT_PAGE";
 export const PREV_PAGE = "PREV_PAGE";
 export const NEXT_PAGE = "NEXT_PAGE";
-export const SET_NFTS_PER_PAGE = "SET_GAMES_PER_PAGE";
+export const SET_NFTS_PER_PAGE = "SET_NFTS_PER_PAGE";
 
 // -- LOCALSTORAGE --
 export const GET_ACTIVE_USER = "GET_ACTIVE_USER";
@@ -76,6 +77,7 @@ export const getAllNfts = () => {
       dispatch({ type: GET_ALL_NFTS, payload: allNfts.data });
     } catch (e) {
       alert("There was a connection error, please try again later NFT");
+      console.log(e.message)
     }
   };
 };
@@ -90,6 +92,7 @@ export const getEthPrice = () => {
       dispatch({ type: GET_ETH_PRICE, payload: ethPrice.data });
     } catch (e) {
       alert("There was a error whit the API, please try again later");
+      console.log(e.message)
     }
   };
 };
@@ -102,6 +105,7 @@ export const getAllCollections = () => {
       dispatch({ type: GET_ALL_COLLECTIONS, payload: allCollections.data });
     } catch (e) {
       alert("There was a connection error, please try again later collections");
+      console.log(e.message);
     }
   };
 };
@@ -124,6 +128,7 @@ export const getUserByID = (id) => {
     dispatch({ type: LOADING });
     try {
       const user = await axios.get(`/user/${id}`);
+      console.log(user)
       dispatch({ type: GET_USER_BY_ID, payload: user.data });
     } catch (e) {
       alert("There was a connection error, please try again later user");
@@ -149,9 +154,14 @@ export const getLoggedUser = (id) => {
       dispatch({ type: GET_LOGGED_USER, payload: loggedUser.data });
     } catch (error) {
       alert("logged user doesn exist");
+      console.warn(error.message)
     }
   };
 };
+
+export const removeLoggedUser = () => {
+  return { type: REMOVE_LOGGED_USER}
+}
 
 export const getNftDetail = (id) => {
   return async (dispatch) => {
@@ -259,17 +269,18 @@ export const changeOrderDirection = () => {
   return { type: CHANGE_ORDER_DIRECTION };
 };
 
-// --- ADMIN ONLY ---
+// --- VERIFIED USERS ONLY ---
 
 export const createNft = (payload) => {
   return async (dispatch) => {
     try {
-      const createdNft = await axios.post(`/nft`, payload);
+      const createdNft = await axios.post(`/nft/create`, payload);
       dispatch({ type: CREATE_NFT, payload: createdNft.data }); // msj desde el back
       alert("NFT created successfully");
       window.location.href = "/";
     } catch (e) {
-      alert(e.response.data);
+      console.log(e.response.data.error)
+      alert(e.response.data.error);
     }
   };
 };
@@ -277,12 +288,13 @@ export const createNft = (payload) => {
 export const createCollection = (payload) => {
   return async (dispatch) => {
     try {
-      const createdNft = await axios.post(`/collection`, payload);
+      console.log(payload)
+      const createdNft = await axios.post(`/collection/create`, payload);
       dispatch({ type: CREATE_COLLECTION, payload: createdNft.data }); // msj desde el back
       alert("Collection created successfully");
       window.location.href = "/";
     } catch (e) {
-      alert(e.response.data);
+      console.log(e.response.data.error);
     }
   };
 };
@@ -326,8 +338,8 @@ export const nextPage = () => {
   return { type: NEXT_PAGE };
 };
 
-export const setNftsPerPage = (gamesPerPage) => {
-  return { type: SET_NFTS_PER_PAGE, payload: gamesPerPage };
+export const nftsxpage = (payload) => {
+  return { type: SET_NFTS_PER_PAGE, payload };
 };
 
 export const addNftOnShoppingCart = (nftData) => {

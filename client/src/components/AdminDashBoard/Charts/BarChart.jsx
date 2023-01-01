@@ -113,7 +113,6 @@ const BarChart = ({ chartNfts, chartCollections }) => {
 
   return (
     <div className="graficos">
-      <h1>Test</h1>
       <div className="grafic-container">
         <Bar data={chartData} options={opciones} />
       </div>

@@ -1,0 +1,51 @@
+{
+    "allCategories" : {
+        "species": [
+            "Animal",
+            "Humanoid",
+            "Other"
+        ],
+        "species2": [
+            "Cat",
+            "Person",
+            "Monkey",
+            "Robot",
+            "Monster",
+            "Penguin",
+            "Duck",
+            "Reptile",
+            "Skull",
+            "Owl",
+            "Rabbit",
+            "Bear",
+            "Other"
+        ],
+        "art": [
+            "Cartoon", 
+            "Painting", 
+            "Realistic", 
+            "Other"
+        ],
+        "type": [
+            "2d", 
+            "8bit",
+            "3d",
+            "Other"
+        ],
+        "style": [
+            "Casual",
+            "Cute",
+            "Futuristic",
+            "Street",
+            "Bizarre",
+            "Other"],
+        "rest": [
+            "Normal",
+            "Adult"
+        ],
+        "flat": [
+            "Flat",
+            "Other"
+        ]
+    }
+}

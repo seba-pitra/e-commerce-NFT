@@ -13,8 +13,13 @@ import "./NFTNav.css";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
+import UserIcon from "./UserIcon/UserIcon";
+
+import AccountCircleIcon from "@material-ui/icons/AccountCircle";
+
 export default function NFTNav() {
   const [show, setShow] = useState(false);
+  const [showUserList, setShowUserList] = useState(false);
   const cartItemsCount = useSelector((state) => state.userNfts);
   const activeUserIs = useSelector((state) => state.activeUser);
   const userNfts = useSelector((state) => state.userNfts);
@@ -40,10 +45,15 @@ export default function NFTNav() {
     }
   };
 
-  const handdleCick = (e) => {
+  const handleLogoutClick = (e) => {
     saveLocalStorage();
     dispatch(freeShoppingCartState());
     logOutFunction();
+  };
+
+  const handleShowUserList = (e) => {
+    e.preventDefault();
+    setShowUserList(!showUserList);
   };
 
   function saveLocalStorage() {
@@ -75,42 +85,35 @@ export default function NFTNav() {
               style={{ maxHeight: "100px" }}
               navbarScroll
             >
-              <Link className="brand-colorized-text" to={"/home"}>
+              <Link className="brand-colorized-text" to="/home">
                 Home
               </Link>
-              <Link className="brand-colorized-text" to={"/createNft"}>
+              <Link className="brand-colorized-text" to="/createNft">
                 Create
-              </Link>
-              <Link className="brand-colorized-text" to={`/user/${loggedUser}`}>
-                My account
               </Link>
             </Nav>
             <SearchBar />
             <Nav>
-              {/* <Nav.Link className="brand-colorized-text" href="/login">Log in</Nav.Link> */}
-              <Link className="brand-colorized-text" to={"/marketplace"}>
+              <Link className="brand-colorized-text" to="/marketplace">
                 MarketPlace
               </Link>
-              <Link to={"/collections"} className="brand-colorized-text">
+              <Link to="/collections" className="brand-colorized-text">
                 Collections
               </Link>
-              <Link to={"/developerTeam"} className="brand-colorized-text">
+              <Link to="/developerTeam" className="brand-colorized-text">
                 Developer Team
               </Link>
-              <Nav.Link onClick={handdleCick} className="brand-colorized-text">
-                Logout
-              </Nav.Link>
+              <div className="nav-bar-accountIcon">
+                <AccountCircleIcon onClick={(e) => handleShowUserList(e)} />
+              </div>
+
               {/* slide kart trigger*/}
               <button
-                style={{
-                  backgroundColor: "black",
-                  color: "#D3448B",
-                  border: "none",
-                }}
+                className="testeandooooooooooooooooooo2"
                 onClick={handleShow}
               >
                 <ShoppingCartIcon />
-                <span id="cart_Numer_Items" class="badge rounded-circle">
+                <span id="cart_Numer_Items" className="badge rounded-circle">
                   {cartItemsCount.length}
                 </span>
               </button>
@@ -127,6 +130,7 @@ export default function NFTNav() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
+      <UserIcon setVisible={handleShowUserList} visible={showUserList} />
     </div>
   );
 }
