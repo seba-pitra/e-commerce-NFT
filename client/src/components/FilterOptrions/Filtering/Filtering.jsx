@@ -6,6 +6,7 @@ import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import "./Filtering.css";
+import PriceSelector from "../PriceSelector/PriceSelector";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 export default function Filtering() {
@@ -21,7 +22,6 @@ export default function Filtering() {
   const dispatch = useDispatch();
 
   const nfts = useSelector((state) => state.nfts);
-  const filteredNfts = useSelector((state) => state.filteredNfts);
   const collections = useSelector((state) => state.collections);
 
   useEffect(() => {
@@ -123,7 +123,7 @@ export default function Filtering() {
 
   return (
     <>
-      <Accordion>
+      <Accordion style={{ backgroundColor: "#313c52", color: "white", marginTop: "16px" }}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
@@ -136,7 +136,7 @@ export default function Filtering() {
         <AccordionDetails>
               {collections.map((collection) => {
                 return (
-                  <>
+                  <div className="input-checkbox">
                     <label htmlFor={collection.id}>{collection.name}</label>
                     <input
                     type="checkbox"
@@ -145,12 +145,12 @@ export default function Filtering() {
                     onClick={(e) => {selectCollection(e)}}
                     className="option-btn btn-filter"
                     />
-                  </>
+                  </div>
                 );
               })}
         </AccordionDetails>
       </Accordion>
-      <Accordion>
+      <Accordion style={{ backgroundColor: "#313c52", color: "white" }}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
@@ -163,7 +163,7 @@ export default function Filtering() {
         <AccordionDetails>
               {category.Species?.map((specie) => {
                 return (
-                  <>
+                  <div className="input-checkbox">
                     <label htmlFor={specie}>{specie}</label>
                     <input
                     type="checkbox"
@@ -172,12 +172,12 @@ export default function Filtering() {
                     onClick={(e) => {selectCategorySpecies(e)}}
                     className="option-btn btn-filter"
                     />
-                  </>
+                  </div>
                 );
               })}
         </AccordionDetails>
       </Accordion>
-      <Accordion>
+      <Accordion style={{ backgroundColor: "#313c52", color: "white" }}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
@@ -190,7 +190,7 @@ export default function Filtering() {
         <AccordionDetails>
               {category.Species2?.map((specie) => {
                 return (
-                  <>
+                  <div className="input-checkbox">
                     <label htmlFor={specie}>{specie}</label>
                     <input
                     type="checkbox"
@@ -199,12 +199,12 @@ export default function Filtering() {
                     onClick={(e) => {selectCategorySpecies2(e)}}
                     className="option-btn btn-filter"
                     />
-                  </>
+                  </div>
                 );
               })}
         </AccordionDetails>
       </Accordion>
-      <Accordion>
+      <Accordion style={{ backgroundColor: "#313c52", color: "white" }}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
@@ -217,7 +217,7 @@ export default function Filtering() {
         <AccordionDetails>
               {category.Art?.map((specie) => {
                 return (
-                  <>
+                  <div className="input-checkbox">
                     <label htmlFor={specie}>{specie}</label>
                     <input
                     type="checkbox"
@@ -226,12 +226,12 @@ export default function Filtering() {
                     onClick={(e) => {selectCategoryArt(e)}}
                     className="option-btn btn-filter"
                     />
-                  </>
+                  </div>
                 );
               })}
         </AccordionDetails>
       </Accordion>
-      <Accordion>
+      <Accordion style={{ backgroundColor: "#313c52", color: "white" }}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
@@ -244,7 +244,7 @@ export default function Filtering() {
         <AccordionDetails>
               {category.Type?.map((specie) => {
                 return (
-                  <>
+                  <div className="input-checkbox">
                     <label htmlFor={specie}>{specie}</label>
                     <input
                     type="checkbox"
@@ -253,12 +253,12 @@ export default function Filtering() {
                     onClick={(e) => {selectCategoryType(e)}}
                     className="option-btn btn-filter"
                     />
-                  </>
+                  </div>
                 );
               })}
         </AccordionDetails>
       </Accordion>
-      <Accordion>
+      <Accordion style={{ backgroundColor: "#313c52", color: "white" }}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
@@ -271,7 +271,7 @@ export default function Filtering() {
         <AccordionDetails>
               {category.Style?.map((value) => {
                 return (
-                  <>
+                  <div className="input-checkbox">
                     <label htmlFor={value}>{value}</label>
                     <input
                     type="checkbox"
@@ -280,12 +280,12 @@ export default function Filtering() {
                     onClick={(e) => {selectCategoryStyle(e)}}
                     className="option-btn btn-filter"
                     />
-                  </>
+                  </div>
                 );
               })}
         </AccordionDetails>
       </Accordion>
-      <Accordion>
+      <Accordion style={{ backgroundColor: "#313c52", color: "white" }}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
@@ -298,7 +298,7 @@ export default function Filtering() {
         <AccordionDetails>
               {category.Rest?.map((value) => {
                 return (
-                  <>
+                  <div className="input-checkbox">
                     <label htmlFor={value}>{value}</label>
                     <input
                     type="checkbox"
@@ -307,12 +307,12 @@ export default function Filtering() {
                     onClick={(e) => {selectCategoryRest(e)}}
                     className="option-btn btn-filter"
                     />
-                  </>
+                  </div>
                 );
               })}
         </AccordionDetails>
-      </Accordion>
-      <Accordion>
+        </Accordion>
+      <Accordion style={{ backgroundColor: "#313c52", color: "white" }}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
@@ -325,7 +325,7 @@ export default function Filtering() {
         <AccordionDetails>
               {category.Backg?.map((value) => {
                 return (
-                  <>
+                  <div className="input-checkbox">
                     <label htmlFor={value}>{value}</label>
                     <input
                     type="checkbox"
@@ -334,9 +334,23 @@ export default function Filtering() {
                     onClick={(e) => {selectCategoryBackg(e)}}
                     className="option-btn btn-filter"
                     />
-                  </>
+                  </div>
                 );
               })}
+        </AccordionDetails>
+      </Accordion>
+      <Accordion style={{ backgroundColor: "#313c52", color: "white" }}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <label className="label" htmlFor="genres">
+            Price Selector:
+          </label>
+        </AccordionSummary>
+        <AccordionDetails>
+            <PriceSelector/>
         </AccordionDetails>
       </Accordion>
     </>
