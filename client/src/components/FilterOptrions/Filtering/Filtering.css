@@ -17,3 +17,17 @@
     color: rgb(3, 6, 21) ;
     font-weight: 600;
 }
+
+.input-checkbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 220px;
+}
+
+.input-checkbox input{
+    width: 20px;
+    padding: 0px;
+    margin: 4px 0px;
+}

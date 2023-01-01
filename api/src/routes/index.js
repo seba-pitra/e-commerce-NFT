@@ -5,6 +5,7 @@ const paymentRouter = require("./paymentRouter");
 const userRouter = require("./user.router.js");
 const dbRouter = require("./db.router")
 const buyRouter = require("./buy.router")
+const fungiblemail = require ("./fungiblemailRouter.js")
 
 const router = Router();
 
@@ -14,5 +15,6 @@ router.use("/database", dbRouter);
 router.use("/payment", paymentRouter);
 router.use("/user", userRouter);
 router.use("/buy", buyRouter)
+router.use("/fungiblemail", fungiblemail);
 
 module.exports = router;

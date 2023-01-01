@@ -1,7 +1,5 @@
 import * as actions from "../../redux/actions";
 import Filtering from "./Filtering/Filtering";
-import PriceSelector from "./PriceSelector/PriceSelector";
-// import NFTSPerPageSelector from "./NFTSPerPageSelector/NFTSPerPageSelector";
 import { useDispatch } from "react-redux";
 import "./Options.css";
 
@@ -11,8 +9,6 @@ export default function Options() {
   return (
     <div className="alllFilters-container">
       <Filtering />
-      <PriceSelector />
-      {/* <NFTSPerPageSelector/> */}
       <div className="options-container">
         <button
           className="resetfilters-btn"

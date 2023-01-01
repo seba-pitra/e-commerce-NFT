@@ -14,11 +14,10 @@ import "./Login.css";
 // sendPasswordResetEmail
 const Login = () => {
   const users = useSelector((state) => state.users);
- // const loggedUser = useSelector((state) => state.loggedUser);
-let loginStatusStorage = localStorage.getItem("Logged");
+  // const loggedUser = useSelector((state) => state.loggedUser);
+  let loginStatusStorage = localStorage.getItem("Logged");
 
-
-	const dispatch = useDispatch();
+  const dispatch = useDispatch();
 
   const history = useHistory();
 
@@ -53,7 +52,7 @@ let loginStatusStorage = localStorage.getItem("Logged");
       profile_pic: auth.currentUser.photoURL,
     };
     fetch("http://localhost:3001/user", {
-      method: "post",
+      method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(user),
     });
@@ -128,24 +127,6 @@ let loginStatusStorage = localStorage.getItem("Logged");
   } else
     return (
       <form>
-        <div className="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
-          <p className="lead fw-normal mb-0 me-3 text-light">Sign in with</p>
-          <button
-            type="button"
-            className="btn btn-dark btn-floating mx-1"
-            onClick={signGoogle}
-          >
-            <GoogleIcon />
-          </button>{" "}
-          */
-        </div>
-
-        {/* <div className="divider d-flex align-items-center my-4">
-        <p className="text-center fw-bold mx-3 mb-0 text-light">
-          Or if you have an Account:
-        </p>
-      </div> */}
-
         <div className="form-outline mb-4">
           <label className="form-label text-light" for="EmailField">
             Email address
@@ -155,8 +136,8 @@ let loginStatusStorage = localStorage.getItem("Logged");
             name="email"
             type="email"
             id="EmailField"
-            className="form-control form-control-lg"
-            placeholder="Enter a valid email address"
+            className="form-control form-control-lg col-md-2"
+            placeholder="example@gmail.com"
             value={logginForm.email}
           />
         </div>
@@ -180,62 +161,23 @@ let loginStatusStorage = localStorage.getItem("Logged");
           <p>{error}</p>
         </div>
 
-        {/* <div className="d-flex justify-content-between align-items-center">
-        <div className="form-check mb-0">
-          <input
-            className="form-check-input me-2"
-            type="checkbox"
-            value=""
-            id="RememberCheck"
-          />
-          <label
-            className="form-check-label text-light"
-            htmlFor="RememberCheck"
-          >
-            Remember me
-          </label>
-        </div>
-
-        <a href="#!" className=" text-light">
-          Forgot your password?
-        </a>
-      </div> */}
-
         <div className="text-center text-lg-start mt-4 pt-2">
           <button
             onClick={handdleSubmit}
             type="button"
-            className="btn btn-dark btn-lg"
+            className={"sing-in"}
             style={{ paddingLeft: "2.5rem", paddingRight: "2.5rem" }}
             disabled={!users.length}
           >
-            Login
+            Log in
           </button>
-
-          {/* <Link to="/home">
-          <button
-            type="button"
-            className="btn btn-dark btn-lg"
-            style={{
-              paddingLeft: "2.5rem",
-              paddingRight: "2.5rem",
-              marginLeft: "50px",
-            }}
-          >
-            DEMO
+          <button className={"sing-in"} type="button" onClick={signGoogle}>
+            <div className={"sing-in-container"}>
+              <GoogleIcon />
+              <span> </span>
+              <span>Sign in with Google</span>
+            </div>
           </button>
-        </Link> */}
-
-          <p className="small fw-bold mt-2 pt-1 mb-0 text-light">
-            Don't have an account?{" "}
-            <a href="/registrer" className="link-danger">
-              Register
-            </a>
-            <> </>
-            <a href="/recovery" className="link-danger">
-              Recovery your password
-            </a>
-          </p>
         </div>
       </form>
     );

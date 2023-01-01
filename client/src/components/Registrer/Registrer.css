@@ -1,65 +1,90 @@
-.login-errormessage{
-    display: flex;
-    width: 300px;
-    background-color: #202633;
-    color: white
+@import url("https://fonts.googleapis.com/css?family=Numans");
+
+.login-errormessage {
+  display: flex;
+  width: 300px;
+  background-color: #202633;
+  color: white;
 }
-.noneDisplay{
-    display: none;
-}
-
-
-@import url('https://fonts.googleapis.com/css?family=Numans');
-
-.generalContainer{
-background-image: url('https://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
-background-size: cover;
-background-repeat: no-repeat;
-height: 100%;
-font-family: 'Numans', sans-serif;
+.noneDisplay {
+  display: none;
 }
 
-.container{
-height: 750px;
- align-content: center; 
+.register {
+  background-color: #1c2331;
+  height: 100%;
+  font-family: "Numans", sans-serif;
+  color: #fff;
+  margin: 0 auto;
+  padding: 30px;
 }
 
-.card{
-height: 570px;
-margin-top: 50px;
-margin-bottom: auto;
-width: 400px;
-background-color: rgba(0,0,0,0.5) !important;
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-
-.card-header h3{
-color: #D3448B;
+.register-title {
+  margin: 0 0 15px;
+  color: #d3448b;
 }
 
-
-input:focus{
-outline: 0 0 0 0  !important;
-box-shadow: 0 0 0 0 !important;
-
+.register-form-input {
+  margin-bottom: 10px;
+  width: 70vh;
 }
 
-
-.login_btn{
-color: black;
-background-color: #FFC312;
-width: 100px;
+@media (max-width: 769px) {
+  .register-form-input {
+    width: 50vh;
+  }
 }
 
-.login_btn:hover{
-color: black;
-background-color: white;
+.register-button {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 15px;
+  background: #d3448b;
+  color: #fff;
+  padding: 16px;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+  text-decoration: none;
 }
 
-.links{
-color: white;
+@media (max-width: 769px) {
+  .register-button {
+    width: 50vh;
+  }
 }
 
-.links a{
-margin-left: 4px;
+.register-button:hover {
+  background: #d3448b;
+  color: #000;
+}
+
+.register-button::after {
+  content: "";
+  background: #fff;
+  position: absolute;
+  z-index: -1;
+  padding: 16px 20px;
+  display: block;
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+  transition: all 0.3s ease;
+}
+
+.register-button:hover::after {
+  transition: all 0.3s ease-out;
+  transform: skewX(-45deg) scale(1, 1);
 }
