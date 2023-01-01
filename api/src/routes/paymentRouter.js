@@ -24,4 +24,5 @@ paymentRouter.get("/subscription", function (req, res, next) {
   PaymentInstance.getSubscriptionLink(req, res);
 });
 
+
 module.exports = paymentRouter;
