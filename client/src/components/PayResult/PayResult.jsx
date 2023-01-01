@@ -11,7 +11,7 @@ function PayResult(props) {
   const dispatch = useDispatch();
 
   const activeUserIs = useSelector((state) => state.activeUser);
-  
+  const loggedUser = useSelector((state) => state.loggedUser);
 
   let userNfts = JSON.parse(localStorage.getItem("nftsOnShoppingCart"));
 
