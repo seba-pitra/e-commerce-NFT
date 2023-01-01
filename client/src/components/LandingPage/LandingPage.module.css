@@ -15,14 +15,14 @@
   }
 
   to {
-    margin-left: 100%;
+    margin-left: 200%;
     width: 300%;
   }
 }
 
 @keyframes slideInToLeft {
   from {
-    margin-left: 100%;
+    margin-left: 200%;
     width: 300%;
   }
 
@@ -180,35 +180,53 @@
 
 .landing {
   background-color: #1c2331;
-  padding: 5vh 0;
-  height: 92.5vh;
+  height: 100vh;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 }
+
+.landing title {
+  margin: 0;
+}
+
 .landing-container {
-  display: flex;
-  height: 80vh;
-  justify-content: space-evenly;
-  background-color: #1c2331;
-}
-
-.slide-container {
+  height: fit-content;
   display: flex;
   justify-content: space-evenly;
-  background-color: #1c2331;
-  animation-name: slideInToRight;
-  animation-duration: 2s;
-  margin-left: 100%;
-  width: 300%;
+  align-items: center;
+  width: 85em;
 }
 
-.account-container {
+.disabled-container {
   display: none;
 }
 
-.slide-account-container {
-  animation-name: slideInToLeft;
-  animation-duration: 2s;
-  margin-top: -100vh;
+.login-container {
+  animation-name: opacityIn;
+  animation-duration: 1s;
+  color: #e966a8;
+  width: 70vh;
+}
+
+.to-account-section {
+  cursor: pointer;
+}
+
+.register-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation-name: opacityIn;
+  animation-duration: 1s;
+}
+
+.recovery-container {
+  animation-name: opacityIn;
+  animation-duration: 1s;
 }
 
 .landing-text-container {
@@ -267,8 +285,99 @@
   transform: skewX(-45deg) scale(1, 1);
 }
 
+.back-to-login-button {
+  width: 70vh;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 15px;
+  background: #313c52;
+  border: none;
+  color: #fff;
+  padding: 13px;
+  border-radius: 8px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.back-to-login-button:hover {
+  background: #313c52;
+  color: #000;
+}
+
+.back-to-login-button::after {
+  content: "";
+  background: #fff;
+  position: absolute;
+  z-index: -1;
+  padding: 16px 20px;
+  display: block;
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+  transition: all 0.3s ease;
+}
+
+.back-to-login-button:hover::after {
+  transition: all 0.3s ease-out;
+  transform: skewX(-45deg) scale(1, 1);
+}
+
+.link-home-back {
+  text-align: center;
+  font-size: 20px;
+  margin-left: -10px;
+  border-radius: 15px;
+  background: #d3448b;
+  color: #fff;
+  padding: 10px;
+  margin-left: 6px;
+  border-radius: 15px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.link-home-back:hover {
+  background: #d3448b;
+  color: #000;
+}
+
+.link-home-back::after {
+  content: "";
+  background: #fff;
+  position: absolute;
+  z-index: -1;
+  padding: 16px 20px;
+  display: block;
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+  transition: all 0.3s ease;
+}
+
+.link-home-back:hover::after {
+  transition: all 0.3s ease-out;
+  transform: skewX(-45deg) scale(1, 1);
+}
+@media (max-width: 769px) {
+  .link-home,
+  .back-to-login-button,
+  .link-home-back {
+    width: 50vh;
+  }
+}
+
 .landing-img {
-  height: 100%;
+  max-height: 27.5em;
   border-radius: 10px;
   animation-name: opacityIn;
   animation-duration: 7s;
@@ -277,7 +386,6 @@
 .landing-title {
   color: #fff;
   font-size: 0.8em;
-  margin-bottom: 24vh;
   text-decoration: none;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -285,7 +393,6 @@
 }
 
 .landing-text-container .landing-title {
-  /* color: #228dff; */
   color: #d3448b;
   font-family: Iceland;
 }
@@ -322,7 +429,6 @@
   white-space: nowrap;
   overflow: hidden;
   position: relative;
-  /* width: 650px; */
 }
 
 .title-presentation-words .title-presentation-span {
