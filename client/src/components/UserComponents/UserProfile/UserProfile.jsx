@@ -220,6 +220,10 @@ export default function UserProfile() {
         historial de compras de usuarios
         actualizar tipo de usuario
         etc */}
+          <h6>2 NFT's bought</h6>
+          <h6>You dont have permitions to create an NFT ,you need to upgrade your account</h6>
+          <div className="upgrade-button">Upgrade to Premium</div>
+
         </div>
         <div className="history">
           <PurchaseHistory props={history} />

@@ -61,11 +61,37 @@
 }
 
 .available-functionalities{
-   
     width: 95%;
     height: 35%;
     border-radius: 15px;
     border:2px solid  #d3448b;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.upgrade-button{
+    width: 200px;
+    height: 60px;
+    background-color: #D4AF37;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    
+
+}
+.upgrade-button:hover{
+    
+    color: #D4AF37;
+    background-color: black;
+    border:2px solid #D4AF37;
+    cursor: pointer;
+    
+    
 }
 .history{
     
