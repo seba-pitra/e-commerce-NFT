@@ -133,7 +133,7 @@ export default function UserProfile() {
   //   };
 
   useEffect(() => {}, [dispatch]);
-
+  console.log(userDetail)
   return (
     <div className="main-container">
       <button onClick={() => navHistory.goBack()} className="back-button">

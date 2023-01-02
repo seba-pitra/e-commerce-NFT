@@ -55,11 +55,14 @@ const Details = (props) => {
     });
 
     console.log(transactionMetamask);
+    //aca muestra quien hizo la compra y quien recibio la plata.
     let buyData = {
       price: nftDetail.price + " ETH",
       contract: nftDetail.contract,
       payMethod: "Metamask",
       statusPay: "Created",
+      from: transactionMetamask.from,
+      to: transactionMetamask.to
     };
 
     if (transactionMetamask.hash) {
@@ -67,6 +70,7 @@ const Details = (props) => {
       buyData = {
         ...buyData,
         statusPay: "Successed",
+
       };
     } else if (transactionMetamask.includes("rejected")) {
       //si se rechazo en metamask

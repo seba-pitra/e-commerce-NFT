@@ -97,7 +97,42 @@
 
 
   /*edit */
+  .edit-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .edit-form div{
+    margin-bottom: 5px;
+    width: 100%;
+  }
+
+
   .edit-input{
     display: flex;
     flex-direction: column;
+    border-bottom: 2px solid #892859;
   }
+  .edit-input input {
+    background-color: #1c2331;
+    color: white;
+    border-style: none;
+    
+  }
+  #submit{
+    background-color: #1c2331;
+    color: white;
+    border-color:#892859;
+    border-radius: 15px;
+    width: 120px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+  }
+  #submit:hover{
+    
+   background-color:#d3448b;
+   border-color: white;
+  }
+ 
