@@ -43,12 +43,15 @@ const BarChart = ({ chartNfts, chartCollections }) => {
         (data) => data.collection?.name === element
       );
       datos.push(collectionArray.length);
+      console.log("nftArray", nftArray);
       precioMedio.push(
-        nftArray.map((elem) => elem.price).reduce((a, c) => a + c) /
-          nftArray.length
+        nftArray.length &&
+          nftArray.map((elem) => elem.price).reduce((a, c) => a + c) /
+            nftArray.length
       );
       totalPrecio.push(
-        nftArray.map((elem) => elem.price).reduce((a, c) => a + c)
+        nftArray.length &&
+          nftArray.map((elem) => elem.price).reduce((a, c) => a + c)
       );
     });
     setData(datos);
@@ -96,7 +99,7 @@ const BarChart = ({ chartNfts, chartCollections }) => {
     plugins: {
       title: {
         display: true,
-        text: "Grafica",
+        text: "Bar chart",
       },
     },
     scales: {
