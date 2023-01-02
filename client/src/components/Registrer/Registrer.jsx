@@ -42,7 +42,7 @@ const Register = () => {
           last_name: params.last_name,
           age: Number(params.age),
         };
-        fetch("http://localhost:3001/user", {
+        await fetch("http://localhost:3001/user/register", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(user),
@@ -72,9 +72,12 @@ const Register = () => {
     });
   };
 
-  const handdleSubmit = (e) => {
+  const handdleSubmit = async (e) => {
     e.preventDefault();
-    createUser(signUp);
+    await createUser(signUp);
+
+    history.push("/marketplace");
+
     setSignUpForm({
       email: "",
       password: "",

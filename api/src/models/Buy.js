@@ -45,6 +45,12 @@ module.exports = (sequelize) => {
         type: DataTypes.ARRAY(DataTypes.JSON),
         allowNull: false,
       },
+      from: {
+        type: DataTypes.STRING,
+      },
+      to: {
+        type: DataTypes.STRING,
+      },
     },
     {
       timestamps: true,

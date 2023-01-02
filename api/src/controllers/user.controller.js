@@ -3,19 +3,20 @@ const { superUser } = require("../jsondata/superUserData.json");
 
 const createUser = async (req, res) => {
   try {
+    const newUser = await User.create(req.body);
+    res.status(200).json(newUser);
+  } catch (err) {
+    console.log(err.message);
+    res.status(404).json({ error: err.message });
+  }
+};
+
+const signInWithGoogle = async (req, res) => {
+  try {
     const userData = req.body;
     const [newUser, created] = await User.findOrCreate({
-      where: {
-        id: userData.id,
-      },
-      defaults: {
-        id: userData.id,
-        name: userData.name,
-        last_name: userData.last_name,
-        age: userData.age || null,
-        email: userData.email,
-        profile_pic: userData.profile_pic || null,
-      },
+      where: { id: userData.id },
+      defaults: userData,
     });
     if (!created) {
       newUser.set(userData);
@@ -115,14 +116,12 @@ const restoreDeletedUser = async (req, res) => {
         id: id,
       },
     });
-    const restoredUser = await Nft.findByPk({
-      where: {
-        id: id,
-      },
-    });
+
+    const restoredUser = await User.findByPk(id);
+
     if (restoredUser) {
       return res.status(200).json({
-        nft: restoredUser,
+        user: restoredUser,
         message: `${restoredUser.name} successfully restored`,
       });
     } else {
@@ -168,13 +167,11 @@ const verifiedToAdmin = async (req, res) => {
     if (user.type === "Verified") {
       if (user) {
         user.set({
-          dni: dni,
           type: "Admin",
         });
         await user.save();
         return res.status(200).json({
           user: user,
-          dni: user.dni,
           type: user.type,
         });
       } else {
@@ -197,13 +194,11 @@ const adminToVerified = async (req, res) => {
     if (user.type === "Admin") {
       if (user) {
         user.set({
-          dni: dni,
           type: "Verified",
         });
         await user.save();
         return res.status(200).json({
           user: user,
-          dni: user.dni,
           type: user.type,
         });
       } else {
@@ -252,6 +247,7 @@ module.exports = {
   getUserById,
   deleteUser,
   createUser,
+  signInWithGoogle,
   updateUser,
   restoreDeletedUser,
   verifyUser,
