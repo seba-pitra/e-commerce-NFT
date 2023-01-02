@@ -400,8 +400,8 @@ export const buyNftOnShoppingCart = (nftsOnShoppingCart) => {
     })
       .then((res) => res.json())
       .then((data) => {
-        // window.location.replace(data.sandbox_init_point) // => prueba
-        window.location.replace(data.init_point);
+        window.location.replace(data.sandbox_init_point); // => prueba
+        // window.location.replace(data.init_point);
       });
   };
 };
