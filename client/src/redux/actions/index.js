@@ -91,7 +91,7 @@ export const getEthPrice = () => {
       const ethPrice = await axios.get(
         "https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=USD,ARS"
       );
-      console.log(ethPrice.data);
+      // console.log(ethPrice.data);
       dispatch({ type: GET_ETH_PRICE, payload: ethPrice.data });
     } catch (e) {
       alert("There was a error whit the API, please try again later");

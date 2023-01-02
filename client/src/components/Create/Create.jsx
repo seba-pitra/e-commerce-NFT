@@ -35,13 +35,13 @@ export default function Create() {
     name: undefined,
     description: undefined,
     image: undefined,
-    price: undefined,
+    price: 0,
     categories: ["", "", "", "", "", "", ""],
   });
 
-  console.log(createdNft)
-  console.log(createdCollection)
-  console.log(errors)
+  // console.log(createdNft)
+  // console.log(createdCollection)
+  // console.log(errors)
 
   // -- STEP --
   const next = (e) => {
@@ -52,12 +52,6 @@ export default function Create() {
     e.preventDefault();
     setStep(step - 1);
   };
-
-  // const restart = (e) => {
-  //   e.preventDefault();
-  //   setStep(1);
-  // };
-
 
   // SUBMIT NFT
   const handleSubmit = (e) => {
@@ -127,21 +121,18 @@ export default function Create() {
 
             <div className="ilustration-validations">
             <input
-                className={
-                errors.name === "Name is correct" &&
-                errors.price === "Price is correct"
-                    ? "submit"
-                    : "errorSubmit"
-                }
-                type="submit"
-                value={"Create NFT"}
-                disabled={createdNft.categories.includes("")}
-                onClick={(e) => handleSubmit(e)}
-            />
+              className={
+                createdNft.categories.includes("") ? "errorSubmit" : "submit"
+              }
+              type="submit"
+              value={"Create NFT"}
+              disabled={createdNft.categories.includes("")}
+              onClick={(e) => handleSubmit(e)}
+              />
             </div>
 
-                <div className="buttons-next-prev">
-                <button onClick={back}> back</button>
+            <div className="buttons-next-prev">
+              <button onClick={back}> back</button>
             </div>
 
           </fieldset>
