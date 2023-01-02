@@ -8,7 +8,6 @@ import React from "react";
 import { Route, Switch } from "react-router-dom";
 import { useDispatch } from "react-redux";
 
-
 // -- Component imports ---
 import LandingPage from "./components/LandingPage/LandingPage";
 import HomePage from "./components/HomePage/HomePage";
@@ -17,7 +16,7 @@ import NotFoundException from "./components/404Page/404Page";
 import NFTNav from "./components/NFTNav/NFTNav";
 import Footer from "./components/Footer/Footer";
 import Create from "./components/Create/Create";
-import UserProfile from './components/UserComponents/UserProfile/UserProfile.jsx'
+import UserProfile from "./components/UserComponents/UserProfile/UserProfile.jsx";
 import AdminDashboard from "./components/AdminDashBoard/AdminDashboard";
 import Register from "./components/Registrer/Registrer";
 import MarketPlace from "./components/MarketPlace/MarketPlace";
@@ -40,14 +39,18 @@ function App() {
 
   onAuthStateChanged(auth, (user) => {
     if (user) {
-      dispatch(getLoggedUser(auth.currentUser.uid));
       console.warn("Estoy loggeado con los siguientes datos");
-      console.log(auth.currentUser)
+      console.log(auth.currentUser);
       localStorage.setItem("Logged", "Estoy loggeado");
+      localStorage.setItem(
+        "firebaseCurrentUser",
+        JSON.stringify(auth.currentUser)
+      );
     } else {
       console.log("NO estoy loggeado");
       dispatch(removeLoggedUser());
       localStorage.setItem("Logged", "No loggeadoX2");
+      localStorage.setItem("firebaseCurrentUser", JSON.stringify({}));
     }
   });
 
@@ -68,15 +71,11 @@ function App() {
             render={() => <CollectionDetail />}
           />
           <Route exact path="/developerTeam" render={() => <DeveloperTeam />} />
-          <Route exact path="/createNft" render={() => <Create/>} />
+          <Route exact path="/createNft" render={() => <Create />} />
           <Route exact path="/pay/success" render={() => <PayResult />} />
           <Route exact path="/pay/failure" render={() => <PayResult />} />
           <Route exact path="/pay/pending" render={() => <PayResult />} />
-          <Route
-            exact
-            path="/myAccount"
-            render={() => <UserProfile/>}
-          />
+          <Route exact path="/myAccount" render={() => <UserProfile />} />
           <Route
             exact
             path="/admin/user/:id"

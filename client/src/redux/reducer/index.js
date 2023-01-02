@@ -96,13 +96,16 @@ const rootReducer = (state = initialState, action) => {
         setCategoryRest: [],
         setCategoryBackg: [],
       };
-      
+
     case GET_ALL_COLLECTIONS:
       return { ...state, collections: action.payload, isLoading: false };
     case GET_ALL_USERS:
       return { ...state, users: action.payload };
     case GET_USER_BY_ID:
-      return { ...state, userDetail: action.payload };
+      return {
+        ...state,
+        userDetail: action.payload,
+      };
     case GET_LOGGED_USER:
       return { ...state, loggedUser: action.payload };
     case REMOVE_LOGGED_USER:
@@ -403,10 +406,10 @@ const rootReducer = (state = initialState, action) => {
 
     // --- FAVS ---
     case ADD_FAV:
-        console.log('Se Agrego a Favoritos..');
-        return {
-      ...state,   
-        }
+      console.log("Se Agrego a Favoritos..");
+      return {
+        ...state,
+      };
 
     case ADD_BUY_AT_HISTORY_BUYS:
       return {
@@ -417,8 +420,6 @@ const rootReducer = (state = initialState, action) => {
     default:
       return { ...state };
   }
-
-
 };
 
 export default rootReducer;
