@@ -12,6 +12,12 @@ const AdminDashboard = () => {
   const { nfts, users, collections, loggedUser } = useSelector(
     (state) => state
   );
+
+  console.log("nft", nfts);
+  console.log("user", users);
+  console.log("collection", collections);
+  console.log("logged", loggedUser);
+
   const dispatch = useDispatch();
   const history = useHistory();
 
@@ -21,10 +27,11 @@ const AdminDashboard = () => {
 
   const validateUser = () => {
     let loginStatusStorage = localStorage.getItem("Logged");
-    if (
-      !loginStatusStorage === "Estoy loggeado" &&
-      !loggedUser.type === "Admin"
-    ) {
+    if (loginStatusStorage === "Estoy loggeado") {
+      dispatch(actions.getAllNfts());
+      dispatch(actions.getAllUsers());
+      dispatch(actions.getAllCollections());
+    } else {
       history.push("/");
     }
   };
