@@ -9,13 +9,16 @@ const {
   verifyUser,
   verifiedToAdmin,
   adminToVerified,
+  signInWithGoogle,
 } = require("../controllers/user.controller");
 
 const userRouter = Router();
 
 userRouter.get("/", getAllUsers);
 
-userRouter.post("/", createUser);
+userRouter.post("/register", createUser);
+
+userRouter.post("/google/signin", signInWithGoogle);
 
 userRouter.get("/:id", getUserById);
 
