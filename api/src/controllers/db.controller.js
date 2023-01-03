@@ -7,18 +7,9 @@ const { Nft, Collection, Buy, User } = require("../db");
 //Creates every initial data, and posts it to the database.
 const postNftsToDB = async (req, res) => {
     try {
-        let { nftQuantity } = req.params
-        if (!nftQuantity){
-            nftQuantity = 1600
-        }else{
-            nftQuantity = parseInt(nftQuantity)
-        }
-        if(nftQuantity > 1600){
-            throw new Error("Number should be equal or less than 1600");
-        }
-        console.log("Starting database injection of " + nftQuantity + " nfts... " + new Date().toString())
+        console.log("Starting database injection of " + req.params.nftQuantity + " nfts... " + new Date().toString())
         
-        const [superUser, allCollections, allNfts] = await generateEverything(nftQuantity);
+        const [superUser, allCollections, allNfts] = await generateEverything(req);
 
         if(allCollections.length > 0 && allNfts.length > 0 && superUser){
             console.log("Everything on database: " + new Date().toString())
@@ -78,31 +69,8 @@ const getEverythingFromDB = async (req, res) => {
     }
 }
 
-//Generate only one hundred nfts.
-const generateEverythingByChoice = async (nftQuantity) => {
-    try {
-        const response = [];
-
-        const superUser = await createSuperUser();
-
-        response.push(superUser);
-
-        const allCollections = await createAllInitialCollections();
-
-        response.push(allCollections);
-
-        const hundredNfts = await createInitialNFTs(nftQuantity);
-
-        response.push(hundredNfts);
-
-        return response;
-    }catch(error) {
-        throw new Error(error.message);
-    }
-}
-
 //Generate all nfts and all collections
-const generateEverything = async (nftQuantity) => {
+const generateEverything = async (req) => {
     try {
         const response = [];
 
@@ -113,13 +81,14 @@ const generateEverything = async (nftQuantity) => {
         const allCollections = await createAllInitialCollections();
         response.push(allCollections);
 
-        const allNfts = await createInitialNFTs(nftQuantity);
+        const allNfts = await createInitialNFTs(req);
 
         response.push(allNfts);
 
         return response;
     }catch(error) {
-        throw new Error(error.message);
+        console.log(error.message);
+        throw new Error(error.message + " generateEverything");
     }
 }
 

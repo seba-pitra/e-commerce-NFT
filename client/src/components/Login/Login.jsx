@@ -56,6 +56,7 @@ const Login = () => {
     };
     await axios.post("user/google/signin", user);
     const userDb = await axios.get(`user/${user.id}`);
+    localStorage.setItem("currentUser", JSON.stringify(userDb));
 
     if (userDb) {
       history.push("/marketplace");

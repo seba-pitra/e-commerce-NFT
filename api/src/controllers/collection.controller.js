@@ -200,7 +200,8 @@ const createAllInitialCollections = async () => {
     "Date: " + new Date().toString());
     return response;
   } catch (err) {
-    throw new Error(err.message);
+    console.log(error.message);
+    throw new Error(err.message + "(create all initial collections)");
   }
 };
 

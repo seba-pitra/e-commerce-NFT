@@ -1,4 +1,6 @@
 const allNFTs = require("../jsondata");
+const testNFTs = require("../jsondata/indexTest")
+
 const { Nft, Collection, User } = require("../db");
 
 const { superUser } = require("../jsondata/superUserData.json");
@@ -142,7 +144,8 @@ const createNewNFT = async (req, res) => {
     } catch (err) {
       res.status(400).json({error : err.message});
     }
-  };
+};
+
 // Borra el nft de la base de datos (Soft-delete)
 const deleteNft = async (req, res) => {
     try {
@@ -166,6 +169,7 @@ const deleteNft = async (req, res) => {
     return res.status(400).json({ error: err.message });
   }
 };
+
 //Restaura el nft borrado previamente.
 const restoreDeletedNft = async (req, res) => {
   try {
@@ -197,30 +201,42 @@ const restoreDeletedNft = async (req, res) => {
  * function to add all nfts to the database using jsons as the base data.
  */
 
-const createInitialNFTs = async (nftQuantity) => {
+const createInitialNFTs = async (req) => {
   try {
     let allCreatedNfts = await Nft.findAll({});
 
     if (allCreatedNfts.length === 0) {
-
-      console.log("Starting NFTs creation database. " + new Date().toString());
-
-      const nfts = allNFTs.slice(0, nftQuantity);
-
-      allCreatedNfts = await nftCreator(nfts, allCreatedNfts)
-      
-      } else {
-        throw new Error("Database already contains data.");
+      let nfts = req.query.test === "true" ? testNFTs : allNFTs;
+      let { nftQuantity } = req.params
+      if (!nftQuantity){
+          nftQuantity = nfts.length
+      }else{
+          nftQuantity = parseInt(nftQuantity)
       }
+      if(nftQuantity > nfts.length){
+          throw new Error("Number should be equal or less than" + nfts.length);
+      }
+    console.log("Starting NFTs creation database. " + new Date().toString());
+
+    nfts = nfts.slice(0, nftQuantity);
+
+    allCreatedNfts = await nftCreator(nfts, allCreatedNfts)
+    
+    } else {
+      throw new Error("Database already contains data.");
+    }
+
     console.log(
       "NFT Creation SUCCESS " +
       allCreatedNfts.length +
         " NFTS on DB " +
         new Date().toString()
     );
+
     return allCreatedNfts;
   } catch (err) {
-    throw new Error(err.message);
+    console.log(err.message);
+    throw new Error(err.message + "create all initial collections");
   }
 };
 
