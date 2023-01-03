@@ -24,12 +24,7 @@ const Details = (props) => {
     }
   };
 
-  //useEffect(() => {
-  //     validateUser();
-  // }, []);
-
   const { id } = props.match.params;
-  let sales;
   const nftDetail = useSelector((state) => state.nftDetail);
   const isLoading = useSelector((state) => state.isLoading);
 
@@ -39,6 +34,7 @@ const Details = (props) => {
   useEffect(() => {
     validateUser();
     dispatch(actions.getNftDetail(id));
+    dispatch(actions.addViewNft(id));
   }, [dispatch, id]);
 
   const handlePay = async (e) => {

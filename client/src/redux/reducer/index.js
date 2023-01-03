@@ -26,7 +26,7 @@ import {
   ORDER_NFT_FAVS,
   ORDER_NFT_STARS,
   ORDER_NFT_LASTBUY,
-  ORDER_NFT_LASTBUYTS,
+  ORDER_NFT_CREATEDTS,
   GET_USER_BY_ID,
   GET_LOGGED_USER,
   REMOVE_LOGGED_USER,
@@ -336,13 +336,13 @@ const rootReducer = (state = initialState, action) => {
       );
       return { ...state, filteredNfts: orderedbyLastBuy, activePage: 1 };
 
-    case ORDER_NFT_LASTBUYTS:
-      let orderedbyLastBuyTs = controllers.orderNFTBy(
-        "lastbuyts",
+    case ORDER_NFT_CREATEDTS:
+      let orderedbyCreatedTs = controllers.orderNFTBy(
+        "createdTs",
         state.orderDirection,
         state.filteredNfts
       );
-      return { ...state, filteredNfts: orderedbyLastBuyTs, activePage: 1 };
+      return { ...state, filteredNfts: orderedbyCreatedTs, activePage: 1 };
 
     // --- PAGINATION ---
     case SELECT_PAGE:

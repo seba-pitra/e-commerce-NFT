@@ -40,7 +40,7 @@ export const ORDER_NFT_RARITY = "ORDER_NFT_RARITY";
 export const ORDER_NFT_FAVS = "ORDER_NFT_FAVS";
 export const ORDER_NFT_STARS = "ORDER_NFT_STARS";
 export const ORDER_NFT_LASTBUY = "ORDER_NFT_LASTBUY";
-export const ORDER_NFT_LASTBUYTS = "ORDER_NFT_LASTBUYTS";
+export const ORDER_NFT_CREATEDTS = "ORDER_NFT_CREATEDTS";
 export const ORDER_NFT_AMOUNT = "ORDER_NFT_AMOUNT";
 export const ORDER_NFT_CREATED_AT = "ORDER_NFT_CREATED_AT";
 export const CHANGE_ORDER_DIRECTION = "CHANGE_ORDER_DIRECTION";
@@ -281,8 +281,8 @@ export const orderLastBuy = (payload) => {
   return { type: ORDER_NFT_LASTBUY, payload };
 };
 
-export const orderLastBuyTs = (payload) => {
-  return { type: ORDER_NFT_LASTBUYTS, payload };
+export const orderCreatedTs = (payload) => {
+  return { type: ORDER_NFT_CREATEDTS, payload };
 };
 
 export const orderAmount = (payload) => {
@@ -346,6 +346,17 @@ export const updateNft = (id, payload) => {
       const updateNft = await axios.put(`/nft/${id}`, payload);
       dispatch({ type: UPDATE_NFT, payload: updateNft.data }); // msj desde el back
       alert("NFT updated successfully");
+    } catch (e) {
+      alert(e.response.data);
+    }
+  };
+};
+
+
+export const addViewNft = (id) => {
+  return async () => {
+    try {
+      await axios.put(`/nft/addView/${id}`);
     } catch (e) {
       alert(e.response.data);
     }
