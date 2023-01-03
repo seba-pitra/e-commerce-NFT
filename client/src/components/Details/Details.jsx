@@ -134,7 +134,7 @@ const Details = (props) => {
               </div>
 
               <div className={styles["flex-row3"]}>
-                <h6>Favs: {nftDetail.favs}</h6>
+                <h6>Views: {nftDetail.favs}</h6>
                 <h6>Stars: {nftDetail.stars}</h6>
                 <h6>Rarity: {nftDetail.rarity}</h6>
               </div>
