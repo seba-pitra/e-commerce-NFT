@@ -85,8 +85,9 @@ export default function EditUserINfo(props) {
           onChange={(e) => handleChange(e)}
           value={input.mobile}
         />
-        <input type={"submit"} onClick={(e) => handleSubmit(e)} />
+        
       </div>
+      <input id="submit" type={"submit"} onClick={(e) => handleSubmit(e)} />
     </form>
   );
 }
