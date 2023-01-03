@@ -48,49 +48,43 @@ const Recovery = () => {
   };
 
   return (
-	  <div class="generalContainer">
-	  <div class="container2">
-	  <div class="d-flex justify-content-center w-100">
-	  <div class="card2">
-	  <div class="card-header">
-	  <h3>Password Recovery</h3>
-	  </div>
-	  <form>
-	  <div className="form-outline mb-4">
-	  <label className="form-label text-light" for="EmailField">
-	  Email address
-	  </label>
+    <div className="generalContainer">
+      <div className="card2">
+        <div className="card-header">
+          <h3>Password Recovery</h3>
+        </div>
+        <form>
+          <div className="form-outline mb-4">
+            <label className="form-label text-light" for="EmailField">
+              Email address
+            </label>
 
-	  <input
-	  onChange={handdleChange}
-	  name="email"
-	  type="email"
-	  id="EmailField"
-	  className="form-control form-control-lg"
-	  placeholder="Enter a valid email address"
-	  value={recuperation.email}
-	  />
-	  </div>
+            <input
+              onChange={handdleChange}
+              name="email"
+              type="email"
+              id="EmailField"
+              className="form-control form-control-lg"
+              placeholder="your_email@gmail.com"
+              value={recuperation.email}
+            />
+          </div>
 
-	  <div className={`login-errormessage ${error ? "" : "noneDisplay"}`}>
-	  <p>{error}</p>
-	  </div>
-	  <div className="text-center text-lg-start mt-4 pt-2">
-	  <button
-	  onClick={handdleSubmit}
-	  type="button"
-	  className="btn btn-dark btn-lg"
-	  style={{ paddingLeft: "2.5rem", paddingRight: "2.5rem" }}
-	  >
-	  Send Email
-	  </button>
-	  </div>
-	  </form>
-
-	  </div>
-	  </div>
-	  </div>
-	  </div>
+          <div className={`login-errormessage ${error ? "" : "noneDisplay"}`}>
+            <p>{error}</p>
+          </div>
+          <div className="text-center text-lg-start ">
+            <button
+              onClick={handdleSubmit}
+              type="button"
+              className="button-back"
+            >
+              Send Email
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
   );
 };
 

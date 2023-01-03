@@ -4,21 +4,23 @@ import {
   gettingActiveUserToState,
   injectLocalStorageCart,
   getAllUsers,
+  signInWithGoogle,
 } from "../../redux/actions";
 import { useHistory } from "react-router-dom";
 import GoogleIcon from "@mui/icons-material/Google";
 import { auth, loginGoogle } from "../../firebase.js";
 import { signInWithEmailAndPassword, signOut } from "firebase/auth";
 import "./Login.css";
+import { Link } from "react-router-dom";
+import axios from "axios";
 
 // sendPasswordResetEmail
 const Login = () => {
   const users = useSelector((state) => state.users);
- // const loggedUser = useSelector((state) => state.loggedUser);
-let loginStatusStorage = localStorage.getItem("Logged");
+  // const loggedUser = useSelector((state) => state.loggedUser);
+  // let loginStatusStorage = localStorage.getItem("Logged");
 
-
-	const dispatch = useDispatch();
+  const dispatch = useDispatch();
 
   const history = useHistory();
 
@@ -42,7 +44,7 @@ let loginStatusStorage = localStorage.getItem("Logged");
 
   const signGoogle = async () => {
     await loginGoogle();
-    dispatch(gettingActiveUserToState(auth.currentUser.email));
+    // dispatch(gettingActiveUserToState(auth.currentUser.email)); //no hace nada
     loadLocalStorage(auth.currentUser.email);
     let fullName = auth.currentUser.displayName;
     let user = {
@@ -52,14 +54,17 @@ let loginStatusStorage = localStorage.getItem("Logged");
       last_name: fullName.split(" ")[1],
       profile_pic: auth.currentUser.photoURL,
     };
-    fetch("http://localhost:3001/user", {
-      method: "post",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify(user),
-    });
-    setTimeout(() => {
+    await axios.post("user/google/signin", user);
+    const userDb = await axios.get(`user/${user.id}`);
+
+    if (userDb) {
       history.push("/marketplace");
-    }, 1000);
+    }
+    // await dispatch(signInWithGoogle(user));
+
+    // setTimeout(() => {
+    //   history.push("/marketplace");
+    // }, 7000);
   };
 
   const logginFunction = async (params) => {
@@ -74,6 +79,8 @@ let loginStatusStorage = localStorage.getItem("Logged");
         await signOut(auth);
         throw new Error("Firebase: Error (auth/user-not-found).");
       }
+
+      console.log("auth", auth);
 
       if (auth.currentUser.emailVerified && loggedUserX2) {
         // dispatch(gettingActiveUserToState(auth.currentUser.email));
@@ -119,126 +126,70 @@ let loginStatusStorage = localStorage.getItem("Logged");
     });
   };
 
-  if (loginStatusStorage === "Estoy loggeado") {
-    return (
-      <div className="login-loggedmessage">
-        <p>You've been logged</p>
+  // if (loginStatusStorage === "Estoy loggeado") {
+  //   return (
+  //     <div className="login-loggedmessage">
+  //       <Link to={"/marketplace"}>Home</Link>
+  //       <p>You've been logged</p>
+  //     </div>
+  //   );
+  // } else
+  return (
+    <form>
+      <div className="form-outline mb-4">
+        <label className="form-label text-light" for="EmailField">
+          Email address
+        </label>
+        <input
+          onChange={handdleChange}
+          name="email"
+          type="email"
+          id="EmailField"
+          className="form-control form-control-lg col-md-2"
+          placeholder="example@gmail.com"
+          value={logginForm.email}
+        />
       </div>
-    );
-  } else
-    return (
-      <form>
-        <div className="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
-          <p className="lead fw-normal mb-0 me-3 text-light">Sign in with</p>
-          <button
-            type="button"
-            className="btn btn-dark btn-floating mx-1"
-            onClick={signGoogle}
-          >
+
+      <div className="form-outline mb-3">
+        <label className="form-label text-light" for="PassField">
+          Password
+        </label>
+        <input
+          onChange={handdleChange}
+          name="password"
+          type="password"
+          id="PassField"
+          className="form-control form-control-lg"
+          placeholder="Enter password"
+          value={logginForm.password}
+        />
+      </div>
+
+      <div className={`login-errormessage ${error ? "" : "noneDisplay"}`}>
+        <p>{error}</p>
+      </div>
+
+      <div className="text-center text-lg-start mt-4 pt-2">
+        <button
+          onClick={handdleSubmit}
+          type="button"
+          className={"sing-in"}
+          style={{ paddingLeft: "2.5rem", paddingRight: "2.5rem" }}
+          disabled={!users.length}
+        >
+          Log in
+        </button>
+        <button className={"sing-in"} type="button" onClick={signGoogle}>
+          <div className={"sing-in-container"}>
             <GoogleIcon />
-          </button>{" "}
-          */
-        </div>
-
-        {/* <div className="divider d-flex align-items-center my-4">
-        <p className="text-center fw-bold mx-3 mb-0 text-light">
-          Or if you have an Account:
-        </p>
-      </div> */}
-
-        <div className="form-outline mb-4">
-          <label className="form-label text-light" for="EmailField">
-            Email address
-          </label>
-          <input
-            onChange={handdleChange}
-            name="email"
-            type="email"
-            id="EmailField"
-            className="form-control form-control-lg"
-            placeholder="Enter a valid email address"
-            value={logginForm.email}
-          />
-        </div>
-
-        <div className="form-outline mb-3">
-          <label className="form-label text-light" for="PassField">
-            Password
-          </label>
-          <input
-            onChange={handdleChange}
-            name="password"
-            type="password"
-            id="PassField"
-            className="form-control form-control-lg"
-            placeholder="Enter password"
-            value={logginForm.password}
-          />
-        </div>
-
-        <div className={`login-errormessage ${error ? "" : "noneDisplay"}`}>
-          <p>{error}</p>
-        </div>
-
-        {/* <div className="d-flex justify-content-between align-items-center">
-        <div className="form-check mb-0">
-          <input
-            className="form-check-input me-2"
-            type="checkbox"
-            value=""
-            id="RememberCheck"
-          />
-          <label
-            className="form-check-label text-light"
-            htmlFor="RememberCheck"
-          >
-            Remember me
-          </label>
-        </div>
-
-        <a href="#!" className=" text-light">
-          Forgot your password?
-        </a>
-      </div> */}
-
-        <div className="text-center text-lg-start mt-4 pt-2">
-          <button
-            onClick={handdleSubmit}
-            type="button"
-            className="btn btn-dark btn-lg"
-            style={{ paddingLeft: "2.5rem", paddingRight: "2.5rem" }}
-            disabled={!users.length}
-          >
-            Login
-          </button>
-
-          {/* <Link to="/home">
-          <button
-            type="button"
-            className="btn btn-dark btn-lg"
-            style={{
-              paddingLeft: "2.5rem",
-              paddingRight: "2.5rem",
-              marginLeft: "50px",
-            }}
-          >
-            DEMO
-          </button>
-        </Link> */}
-
-          <p className="small fw-bold mt-2 pt-1 mb-0 text-light">
-            Don't have an account?{" "}
-            <a href="/registrer" className="link-danger">
-              Register
-            </a>
-            <> </>
-            <a href="/recovery" className="link-danger">
-              Recovery your password
-            </a>
-          </p>
-        </div>
-      </form>
-    );
+            <span> </span>
+            <span>Sign in with Google</span>
+          </div>
+        </button>
+      </div>
+    </form>
+  );
 };
 
 export default Login;

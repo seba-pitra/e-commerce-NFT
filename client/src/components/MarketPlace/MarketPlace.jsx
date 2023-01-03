@@ -26,26 +26,18 @@ function MarketPlace({ loggedIn }) {
   //   });
 
   useEffect(() => {
-    // if (loggedIn !== undefined) {
-    //   dispatch(actions.getAllNfts());
-    //   dispatch(actions.getAllCollections());
-    //   // console.log(auth.currentUser)
-    //   fetch("http://localhost:3001/payment/userEmail", {
-    //     method: "POST",
-    //     headers: { "Content-Type": "application/json" },
-    //     body: JSON.stringify(auth.currentUser),
-    //   });
-    // } else {
-    //   history.push("/");
-    // }
     validateUser();
   }, []);
 
   const validateUser = async () => {
-    console.log(loggedUser);
-let loginStatusStorage = localStorage.getItem("Logged");
-console.log('Aqui estoy !!', loginStatusStorage)
+    let firebaseCurrentUser = JSON.parse(
+      localStorage.getItem("firebaseCurrentUser")
+    );
+    let loginStatusStorage = localStorage.getItem("Logged");
+    console.log("Aqui estoy !!", loginStatusStorage);
     if (loginStatusStorage === "Estoy loggeado") {
+      console.log("firebase,", firebaseCurrentUser.uid);
+      dispatch(actions.getLoggedUser(firebaseCurrentUser.uid));
       dispatch(actions.getAllCollections());
       dispatch(actions.getAllNfts());
       dispatch(actions.getEthPrice());
@@ -53,7 +45,7 @@ console.log('Aqui estoy !!', loginStatusStorage)
       history.push("/");
     }
   };
-  console.log(loggedUser)
+
   useEffect(() => {}, [order]);
   return (
     <>

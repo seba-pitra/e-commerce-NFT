@@ -12,10 +12,12 @@
   border-radius: 5px;
   font-size: 18px;
   font-weight: 600;
-  background-color: rgb(211, 68, 139, 1) ;
+  border: 1px solid rgb(211, 68, 139, 1);
+  background-color: rgb(211, 68, 139, 1);
   color: white;
   transition: all 0.2s ease-in-out;
 }
 .resetfilters-btn:hover{
   background-color:rgb(3, 6, 21);
+  border: 1px solid white;
 }

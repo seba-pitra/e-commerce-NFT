@@ -7,30 +7,26 @@ import styles from "./Details.module.css";
 import ethereumLogo from "../../images/ethereum-logo.png";
 import { startPayment } from "../../utils";
 
-
 const Details = (props) => {
+  const dispatch = useDispatch();
+  const history = useHistory();
 
-	const dispatch = useDispatch();
-	const history = useHistory();
+  let loginStatusStorage = localStorage.getItem("Logged");
 
-	let loginStatusStorage = localStorage.getItem("Logged");
+  const validateUser = async () => {
+    let loginStatusStorage = localStorage.getItem("Logged");
+    if (loginStatusStorage === "Estoy loggeado") {
+      // dispatch(actions.getAllNfts());
+      dispatch(actions.getAllCollections());
+      dispatch(actions.getEthPrice());
+    } else {
+      history.push("/");
+    }
+  };
 
-
-	const validateUser = async () => {
-		let loginStatusStorage = localStorage.getItem("Logged");
-		if (loginStatusStorage === "Estoy loggeado") {
-			// dispatch(actions.getAllNfts());
-			dispatch(actions.getAllCollections());
-			dispatch(actions.getEthPrice());
-		} else {
-			history.push("/");
-		}
-	};
-
- //useEffect(() => {
- //     validateUser();
- // }, []);
-
+  //useEffect(() => {
+  //     validateUser();
+  // }, []);
 
   const { id } = props.match.params;
   let sales;
@@ -41,8 +37,8 @@ const Details = (props) => {
   const [txs, setTxs] = useState([]);
 
   useEffect(() => {
-      validateUser();
-	  dispatch(actions.getNftDetail(id));
+    validateUser();
+    dispatch(actions.getNftDetail(id));
   }, [dispatch, id]);
 
   const handlePay = async (e) => {
@@ -55,11 +51,13 @@ const Details = (props) => {
     });
 
     console.log(transactionMetamask);
+    //aca muestra quien hizo la compra y quien recibio la plata.
     let buyData = {
       price: nftDetail.price + " ETH",
       contract: nftDetail.contract,
       payMethod: "Metamask",
       statusPay: "Created",
+      purchases: [nftDetail],
     };
 
     if (transactionMetamask.hash) {
@@ -67,6 +65,7 @@ const Details = (props) => {
       buyData = {
         ...buyData,
         statusPay: "Successed",
+
       };
     } else if (transactionMetamask.includes("rejected")) {
       //si se rechazo en metamask
@@ -91,9 +90,9 @@ const Details = (props) => {
 
   console.log(nftDetail);
 
-  let date = new Date(nftDetail.createdTs)
-  date = date.toString()
-  date = date.slice(4, 16)
+  let date = new Date(nftDetail.createdTs);
+  date = date.toString();
+  date = date.slice(4, 16);
 
   return (
     <>
@@ -101,25 +100,38 @@ const Details = (props) => {
         <Loading />
       ) : (
         <div className={styles["detail-all-container"]}>
-          <button onClick={() => history.goBack()} className={styles["back-button"]}> {"< "}Back </button>
+          <button
+            onClick={() => history.goBack()}
+            className={styles["back-button"]}
+          >
+            {" "}
+            {"< "}Back{" "}
+          </button>
           <div className={styles["detail-card-container"]}>
-            <img src={nftDetail.image} alt="nft-detail" className={styles["nft-img"]} />
-            
-            <div className={styles["nft-data-container"]}>
+            <img
+              src={nftDetail.image}
+              alt="nft-detail"
+              className={styles["nft-img"]}
+            />
 
+            <div className={styles["nft-data-container"]}>
               <div>
                 <h1>{nftDetail.name}</h1>
                 <span className={styles["detail-span"]}>
                   Included from {nftDetail.ownerName + " "}
-                  <img src={nftDetail.ownerIcon} alt="icon-detail" className={styles["source-icon"]} />
+                  <img
+                    src={nftDetail.ownerIcon}
+                    alt="icon-detail"
+                    className={styles["source-icon"]}
+                  />
                 </span>
               </div>
 
               <div>
                 <span className={styles["detail-span"]}>
-                  {"Item from "} 
+                  {"Item from "}
                   <Link to={"/collections/" + nftDetail.collection?.id}>
-                  {nftDetail.collection?.name}
+                    {nftDetail.collection?.name}
                   </Link>
                   {" collection"}
                 </span>
@@ -133,18 +145,26 @@ const Details = (props) => {
 
               <div className={styles["price-container"]}>
                 <div className={styles["ethereum-container"]}>
-                <span className={styles["detail-span"]}>Price</span>
-                <div className="flex-row">
-                  <img src={ethereumLogo} alt="ethereum-logo" className={styles["ethereum-logo-price"]} />
-                  <h4>{nftDetail.price?.toFixed(3)}</h4>
-                </div>
+                  <span className={styles["detail-span"]}>Price</span>
+                  <div className="flex-row">
+                    <img
+                      src={ethereumLogo}
+                      alt="ethereum-logo"
+                      className={styles["ethereum-logo-price"]}
+                    />
+                    <h4>{nftDetail.price?.toFixed(3)}</h4>
+                  </div>
                 </div>
                 <div className={styles["ethereum-container"]}>
-                <span className={styles["detail-span"]}>Last Buy</span>
-                <div className="flex-row">
-                  <img src={ethereumLogo} alt="ethereum-logo" className={styles["ethereum-logo-price"]} />
-                  <h4>{nftDetail.lastBuyValue?.toFixed(3)}</h4>
-                </div>
+                  <span className={styles["detail-span"]}>Last Buy</span>
+                  <div className="flex-row">
+                    <img
+                      src={ethereumLogo}
+                      alt="ethereum-logo"
+                      className={styles["ethereum-logo-price"]}
+                    />
+                    <h4>{nftDetail.lastBuyValue?.toFixed(3)}</h4>
+                  </div>
                 </div>
               </div>
 
@@ -157,13 +177,21 @@ const Details = (props) => {
               </div>
 
               <div className={styles["buttons-container"]}>
-                <button className={styles["button-detail"]} onClick={handlePay}> Buy now </button>
-                <button className={styles["button-detail"]} onClick={handleClickOnShoppingCart} > Add to Cart </button>
+                <button className={styles["button-detail"]} onClick={handlePay}>
+                  {" "}
+                  Buy now{" "}
+                </button>
+                <button
+                  className={styles["button-detail"]}
+                  onClick={handleClickOnShoppingCart}
+                >
+                  {" "}
+                  Add to Cart{" "}
+                </button>
               </div>
 
               {error && <p>{error}</p>}
               {txs && <p>{txs}</p>}
-
             </div>
           </div>
         </div>

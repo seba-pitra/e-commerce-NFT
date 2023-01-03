@@ -14,10 +14,9 @@ export default function CreateCollection({
         })
     {
     const user = useSelector((state) => state.loggedUser);
-    console.log(user);
     const dispatch = useDispatch();
     let render = false;
-    console.log(user)
+    // console.log(user)
 
     const selectCollection = (e) => {
         e.preventDefault();
@@ -49,6 +48,8 @@ export default function CreateCollection({
         render = false
     }, [user, render])
 
+    console.log(createdNft)
+
     return (
         <>
             <div className="inputContainer">
@@ -59,12 +60,10 @@ export default function CreateCollection({
 
                 <div className="divs-separet">
                     <h6>Choose the collection in which your nft will be created.</h6>
-                            <h6 hidden disabled selected>
-                                Select Collection
-                            </h6>
-                            {user.collections?.map((collection) => (
-                                <>
-                                <label htmlFor={collection.id}>{collection.name}</label>
+                    <div className="div-created-collections">
+                        {user.collections?.map((collection) => (
+                            <div className="created-collections">
+                                <label htmlFor={collection.id}> <b>{collection.name}</b> </label>
                                 <input
                                 type="checkbox"
                                 key={collection.id}
@@ -72,34 +71,42 @@ export default function CreateCollection({
                                 onClick={(e) => {selectCollection(e)}}
                                 className="option-btn btn-filter"
                                 />
-                              </>
-                            ))}
+                            </div>
+                        ))}
+                    </div>
                 </div>
 
                 <div className="divs-separet">
                     <h6>Or create a new collection.</h6>
+                    <div className="div-create-collection">
                         <input
                             type="text"
                             name="collection"
                             value={createdCollection.name}
                             onChange={(e) => inputCollectionName(e)}
                             />
-                        <div className="inputContainer">
+                        <div className="cloudinary-collections-create">
+                        <span>Add Collection Image</span>
                             <CloudinaryImageInput
                                 setImage={setCreatedCollection}
                             />
                         </div>
-                    <button onClick={(e) => submitCreatedCollection(e)}>Create</button>
+                    <button 
+                        className={ createdCollection.name?.length > 3 ? "button-create" : "disabled" } 
+                        onClick={(e) => submitCreatedCollection(e)}
+                        disabled={createdCollection.name?.length <= 3}
+                        >Create</button>
+                    </div>
                 </div>
 
             </div>
             <div className="buttons-next-prev">
                 <button
-                    className="button-next"
+                    className={createdNft.collectionId ? "button-next" : "disabled"}
                     onClick={next}
-                    disabled={createdNft.collectionId === null}
+                    disabled={createdNft.collectionId === undefined}
                 >
-                next
+                Next
                 </button>
             </div>
         </>

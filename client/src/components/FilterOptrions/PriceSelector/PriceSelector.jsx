@@ -36,7 +36,7 @@ const App = () => {
     <form
       className="filters-price-container"
       onSubmit={(e) => handleRangeSubmit(e)}
-    >
+    > 
       <label>Price : </label>
       <select name="" id="" onChange={(e) => { handleCurrencyClick(e) }}>
         <option disabled selected value="null">Select currency</option>
@@ -50,25 +50,31 @@ const App = () => {
           );
         })}
       </select>
-      <label htmlFor="min">Min: </label>
-      <input
-        name="min"
-        type="number"
-        placeholder="min"
-        value={range.min}
-        onChange={(e) => handleMinChange(e)}
-        min="0"
-        step="0.00001"
-      />
-      <label htmlFor="max">Max: </label>
-      <input
-        name="max"
-        type="number"
-        value={range.max}
-        onChange={(e) => handleMaxChange(e)}
-        min={range.min}
-        step="0.00001"
-      />
+      <div className="testeandoooo2323232">
+        <div>
+          <label htmlFor="min">Min: </label>
+          <input
+            name="min"
+            type="number"
+            placeholder="min"
+            value={range.min}
+            onChange={(e) => handleMinChange(e)}
+            min="0"
+            step="0.00001"
+            />
+        </div>
+        <div>
+          <label htmlFor="max">Max: </label>
+          <input
+            name="max"
+            type="number"
+            value={range.max}
+            onChange={(e) => handleMaxChange(e)}
+            min={range.min}
+            step="0.00001"
+          />
+        </div>
+      </div>
       <input type="submit" value="Apply" />
     </form>
   );

@@ -19,6 +19,8 @@ export default function Shoppingkart() {
     localStorage.setItem("nftsOnShoppingCart", JSON.stringify(userNfts));
 
     dispatch(actions.buyNftOnShoppingCart(userNfts));
+    console.log("SendingMail");
+    // test only >> dispatch(actions.sendFungibleMail({correoUser: "yomero@gmail.com",accion: "pago"}));
   };
 
   const handlePay = async ({ nftPrice, nftContract, nftObj }) => {
@@ -31,12 +33,16 @@ export default function Shoppingkart() {
       addr: nftContract,
     });
 
+    console.log("transactionMetamask", transactionMetamask);
+
     let metamaskBuyData = {
       price: nftPrice + " ETH",
       contract: nftContract,
       payMethod: "Metamask",
       statusPay: "Created",
-      purchases: nftObj,
+      purchases: [nftObj],
+      // from: transactionMetamask.from,
+      // to: transactionMetamask.to,
     };
 
     if (transactionMetamask.hash) {
@@ -94,7 +100,7 @@ export default function Shoppingkart() {
                       handlePay({
                         nftPrice: nft.price,
                         nftContract: nft.contract,
-                        purchases: nft,
+                        nftObj: nft,
                       })
                     }
                   >

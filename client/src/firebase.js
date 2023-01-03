@@ -8,7 +8,16 @@ import {
 import * as dotenv from "dotenv";
 dotenv.config();
 
-export const firebaseConfig = JSON.parse(process.env.REACT_APP_FIREBASE_CONFIG);
+/* const reactAppFirebaseConfig = `"{"apiKey":"AIzaSyDhV9QdxK22E8GsLuKlgaFPTf4_b-yZ748",
+"authDomain":"auth-firebase-35df1.firebaseapp.com",
+"projectId":"auth-firebase-35df1",
+"storageBucket":"auth-firebase-35df1.appspot.com",
+"messagingSenderId":"237752112629",
+"appId":"1:237752112629:web:47d99cd16e2c774c463cbc",
+"measurementId":"G-KTEE8W2F80"}` */
+
+export const firebaseConfig = require("./firebaseConfig.json")
+console.log(firebaseConfig)
 
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
