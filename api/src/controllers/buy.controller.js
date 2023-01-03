@@ -10,6 +10,7 @@ const createNewBuy = async (req, res) => {
     }
     res.status(201).json(await Buy.create(req.body));
   } catch (err) {
+    console.error(err)
     res.status(400).send({ error: err.message });
   }
 };
@@ -30,6 +31,7 @@ const getBuyById = async (req, res) => {
       throw new Error(`Could not find Buy in database with id: ${id}`);
     }
   } catch (err) {
+    console.error(err);
     res.status(404).send({ error: err.message });
   }
 };
@@ -45,6 +47,7 @@ const getAllBuy = async (req, res) => {
     });
     res.status(200).json(dbBuys);
   } catch (err) {
+    console.error(err);
     res.status(404).send({ error: err.message });
   }
 };

@@ -26,7 +26,7 @@ const getNfts = async (req, res) => {
     }
     res.status(200).send(dbNfts);
   } catch (err) {
-    res.status(404).send(err.message);
+    res.status(404).json({error: err.message});
   }
 };
 // Devuelve el nft que busca mediante id.
@@ -49,7 +49,7 @@ const getNftById = async (req, res) => {
       throw new Error(`No nft with id ${id}`);
     }
   } catch (err) {
-    res.status(400).send(err.message);
+    res.status(404).json({error: err.message});
   }
 };
 
@@ -67,7 +67,7 @@ const updateNft = async (req, res) => {
       throw new Error(`No nft with id ${id}`);
     }
   } catch (err) {
-    res.status(400).send(err.message);
+    res.status(404).json({error: err.message});
   }
 };
 //Crea el nuevo nft a partir de nombre, descripcion, imagen, contrato, id del token, precio, dueño e imagen.
@@ -205,38 +205,37 @@ const createInitialNFTs = async (req) => {
   try {
     let allCreatedNfts = await Nft.findAll({});
 
-    if (allCreatedNfts.length === 0) {
-      let nfts = req.query.test === "true" ? testNFTs : allNFTs;
-      let { nftQuantity } = req.params
-      if (!nftQuantity){
-          nftQuantity = nfts.length
-      }else{
-          nftQuantity = parseInt(nftQuantity)
+      if (allCreatedNfts.length === 0) {
+        let nfts = req.query.test === "true" ? testNFTs : allNFTs;
+        console.log(nfts.length);
+        let { nftQuantity } = req.params
+        if (!nftQuantity){
+            nftQuantity = nfts.length
+        }else{
+            nftQuantity = parseInt(nftQuantity)
+        }
+        if(nftQuantity > nfts.length){
+            throw new Error("Number should be equal or less than" + nfts.length);
+        }
+      console.log("Starting NFTs creation database. " + new Date().toString());
+
+      nfts = nfts.slice(0, nftQuantity);
+
+      allCreatedNfts = await nftCreator(nfts, allCreatedNfts)
+      
+      } else {
+        throw new Error("Database already contains data.");
       }
-      if(nftQuantity > nfts.length){
-          throw new Error("Number should be equal or less than" + nfts.length);
-      }
-    console.log("Starting NFTs creation database. " + new Date().toString());
-
-    nfts = nfts.slice(0, nftQuantity);
-
-    allCreatedNfts = await nftCreator(nfts, allCreatedNfts)
-    
-    } else {
-      throw new Error("Database already contains data.");
-    }
-
-    console.log(
-      "NFT Creation SUCCESS " +
-      allCreatedNfts.length +
-        " NFTS on DB " +
-        new Date().toString()
-    );
-
+      console.log(
+        "NFT Creation SUCCESS " +
+        allCreatedNfts.length +
+          " NFTS on DB " +
+          new Date().toString()
+      );
     return allCreatedNfts;
   } catch (err) {
-    console.log(err.message);
-    throw new Error(err.message + "create all initial collections");
+    console.error(err.message);
+    throw new Error(`Function: createAllInitialNFTs() caught error: ${err.message}`);
   }
 };
 
@@ -248,28 +247,25 @@ const nftCreator = async (nftsToCreate, responseArray) => {
       id: superUserId,
     },
   });
-
+  console.log("im on the nft Creator");
   for (const nft of nftsToCreate) {
     //se diseña el name en base a los datos.
     let nftName =  utils.nftNameCreatorFor(nft)
-
+    console.log(nftName);
     //se calcula el precio de la ultima compra
     let priceLastBuy = utils.priceLastBuyCalculatorFor(nft);
-
+    console.log(priceLastBuy)
     //se genera el objeto para inyectar en la base de datos.
     let nftToDb = utils.nftObjectCreatorFrom(nft, nftName, priceLastBuy);
-
+    console.log(nftToDb);
     const nftInDb = await Nft.create(nftToDb);
-    
+    console.log(nftInDb);
+
     const correspondingCollection = await Collection.findOne({
       where: {
         contract: nft.token.collection.id,
       },
     });
-
-    console.log(
-      correspondingCollection.contract + " " + correspondingCollection.id
-    );
 
     await nftInDb.setCollection(correspondingCollection);
     await nftInDb.setUser(superUser);

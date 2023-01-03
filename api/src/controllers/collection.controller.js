@@ -21,6 +21,7 @@ const getCollections = async (req, res) => {
     }
     return res.status(200).json(dbCollections);
   } catch (err) {
+    console.error(err);
     return res.status(400).json({ error: err.message });
   }
 };
@@ -43,6 +44,7 @@ const getCollectionById = async (req, res) => {
       throw new Error(`Could not find collection in db with id ${id}`);
     }
   } catch (err) {
+    console.error(err);
     res.status(400).json({ error: err.message });
   }
 };
@@ -74,6 +76,7 @@ const createNewCollection = async (req, res) => {
       res.status(200).json(newCollection); //devuelve la coleccion creada.
     }
   } catch (err) {
+    console.error(err);
     res.status(400).json({ error: err.message });
   }
 };
@@ -100,6 +103,7 @@ const deleteCollection = async (req, res) => {
       throw new Error(`no Collection found with id: ${id}`);
     }
   } catch (err) {
+    console.error(err);
     return res.status(400).json({ err: err.message });
   }
 };
@@ -118,6 +122,7 @@ const updateCollection = async (req, res) => {
       throw new Error(`No collection with id ${id}`);
     }
   } catch (err) {
+    console.error(err);
     res.status(400).send(err.message);
   }
 };
@@ -144,6 +149,7 @@ const restoreDeletedCollection = async (req, res) => {
       throw new Error(`No collection found with id ${id}`);
     }
   } catch (err) {
+    console.error(err);
     return res.status(400).json({ err: err.message });
   }
 };
@@ -156,6 +162,7 @@ const postAllCollectionsToDB = async (req, res) => {
     const allCollections = createAllInitialCollections();
     res.status(200).json(allCollections);
   } catch (err) {
+    console.error(err);
     res.status(400).json({ error: err.message });
   }
 };
@@ -200,8 +207,8 @@ const createAllInitialCollections = async () => {
     "Date: " + new Date().toString());
     return response;
   } catch (err) {
-    console.log(error.message);
-    throw new Error(err.message + "(create all initial collections)");
+    console.log(err);
+    throw new Error(`Function: createAllInitialCollections() caught => ${err.message}`);
   }
 };
 

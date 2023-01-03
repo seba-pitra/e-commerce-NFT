@@ -23,6 +23,7 @@ const postNftsToDB = async (req, res) => {
             throw new Error(`something went wrong`)
         }
     }catch (error) {
+        console.error(error)
         res.status(400).json({error : error.message})
     }
 }
@@ -65,6 +66,7 @@ const getEverythingFromDB = async (req, res) => {
             allBuys : allBuys
         })
     }catch (error) {
+        console.error(error)
         res.status(400).json({error : error.message})
     }
 }
@@ -87,8 +89,8 @@ const generateEverything = async (req) => {
 
         return response;
     }catch(error) {
-        console.log(error.message);
-        throw new Error(error.message + " generateEverything");
+        console.error(error);
+        throw new Error(`Function: generateEverything() caught => ${error.message}`);
     }
 }
 

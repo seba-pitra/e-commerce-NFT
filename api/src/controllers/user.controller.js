@@ -24,7 +24,7 @@ const signInWithGoogle = async (req, res) => {
     }
     res.status(200).json(newUser);
   } catch (err) {
-    console.log(err.message);
+    console.error(err.message);
     res.status(404).json({ error: err.message });
   }
 };
@@ -40,6 +40,7 @@ const getAllUsers = async (req, res) => {
       return res.status(200).json(allUsers);
     }
   } catch (error) {
+    console.error(error);
     return res.status(404).json({ error: error.message });
   }
 };
@@ -57,7 +58,8 @@ const updateUser = async (req, res) => {
       throw new Error(`No user with id ${id}`);
     }
   } catch (err) {
-    res.status(400).send(err.message);
+    console.error(err);
+    res.status(400).json({error: err.message});
   }
 };
 
@@ -83,6 +85,7 @@ const getUserById = async (req, res) => {
       throw new Error(`No user found with id: ${id}`);
     }
   } catch (error) {
+    console.error(error);
     return res.status(400).json({ error: error.message });
   }
 };
@@ -103,7 +106,7 @@ const deleteUser = async (req, res) => {
       throw new Error(`no NFT found with id: ${id}`);
     }
   } catch (err) {
-    console.log(err.message);
+    console.error(err.message);
     return res.status(400).json({ error: err.message });
   }
 };
@@ -128,6 +131,7 @@ const restoreDeletedUser = async (req, res) => {
       throw new Error(`No nft found with id ${id}`);
     }
   } catch (err) {
+    console.error(err.message);
     return res.status(400).json({ err: err.message });
   }
 };
@@ -156,6 +160,7 @@ const verifyUser = async (req, res) => {
       res.status(200).send("User already verified");
     }
   } catch (error) {
+    console.error(error);
     return res.status(400).json({ error: error.message });
   }
 };
@@ -183,6 +188,7 @@ const verifiedToAdmin = async (req, res) => {
       res.status(200).send(`User is already an admin`);
     }
   } catch (error) {
+    console.error(error);
     return res.status(400).json({ error: error.message });
   }
 };
@@ -210,6 +216,7 @@ const adminToVerified = async (req, res) => {
       res.status(200).send(`User is already an verified`);
     }
   } catch (error) {
+    console.error(error);
     return res.status(400).json({ error: error.message });
   }
 };
