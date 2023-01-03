@@ -29,7 +29,6 @@
   }
   
   .inputContainer{
-      border-bottom: 1px solid white;
       display: flex;
       flex-direction: column;
       display: flex;
@@ -63,7 +62,7 @@
   
   .inputContainer select{
     margin-bottom: 20px;
-    border: 2px solid rgb(211, 68, 139, 1);
+    border: 2px solid  black;
     background-color: white;
     border-radius: 8px;
   }
@@ -116,13 +115,15 @@
     width: 180px;
     height: 50px;
     border-radius: 15px;
-    border: 2px solid rgb(211, 68, 139, 1);
-    background-color: white;
+    background-color: transparent;
+    border: 2px solid #cb4183;
+    color: white;
+    font-weight: 600;
   }
   
   .ilustration-validations .submit:hover{
-    background-color: #cb4183;
-    color: white;
+    color: #cb4183;
+    box-shadow: 0px 0px 14px 4px #cb4183;
     cursor: pointer;
     border: 2px solid white;
   }
@@ -130,9 +131,11 @@
   .errorSubmit{
     width: 180px;
     height: 50px;
+    border-radius: 4px;
     border-radius: 15px;
-    background-color: white;
-    border: 2px solid  #d1d1d1;
+    color: rgb(158, 158, 158) !important;
+    border: 2px solid rgb(158, 158, 158) !important;
+    background-color: transparent !important;
   }
   
   .flex-row2{
@@ -151,6 +154,24 @@
   
   .first-field-collections .divs-separet{
     margin: 20px;
+    border-bottom: 1px dotted whitesmoke;
+    max-width: 800px;
+  }
+
+  .div-created-collections{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .created-collections{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 60px;
+  }
+
+  .created-collections input{
+    width: 22px;
   }
   
   .buttons-next-prev{
@@ -158,19 +179,24 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin: 20px;
   }
   
   .buttons-next-prev button{
-    width: 60px;
+    width: 100px;
     height: 40px;
-    margin: 10px;
-    border-radius: 15px;
-    border: 2px solid rgb(211, 68, 139, 1);
-    background-color: white;
+    border-radius: 4px;
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
     font-size: 18px;
-    font-weight: 400;
-    font-family: monospace;
+    font-weight: 500;
+    margin: 20px;
+  }
+
+  .buttons-next-prev button:hover{
+    color: black;
+    border: 2px solid black;
+    background-color: whitesmoke;
   }
   
   .rigth-side{
@@ -180,3 +206,57 @@
     align-items: center;
     justify-content: space-around;
   }
+
+  .div-create-collection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 60px;
+  }
+
+  .div-create-collection input{
+    margin-right: 40px;
+  }
+
+  .cloudinary-collections-create h5, .cloudinary-collections-create p{
+    display: none;
+  }
+
+  .cloudinary-collections-create button{
+    width: 100px;
+    height: 40px;
+    position: relative;
+    left: -160px;
+  }
+
+  .button-create{
+    height: 40px;
+    width: 100px;
+    background-color: transparent;
+    color: white;
+    border-radius: 4px;
+    border: 2px solid white;
+  }
+  
+  .button-create:hover{
+    height: 40px;
+    width: 100px;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 4px;
+    border: 2px solid black;
+  }
+
+  .disabled{
+    height: 40px;
+    border-radius: 4px;
+    width: 100px;
+    color: rgb(158, 158, 158) !important;
+    border: 2px solid rgb(158, 158, 158) !important;
+    background-color: transparent !important;
+  }
+
+  .disabled:hover{
+    background-color: transparent !important;
+  }
+  
