@@ -169,7 +169,9 @@ export default function UserProfile() {
           email ={userDetail.email}
           age ={userDetail.age}
           phone ={userDetail.phone}
-          mobile ={userDetail.mobile}/>
+          mobile ={userDetail.mobile}
+          id = {userDetail.id}/>
+          
         ) : (
           <div className="user-info">
             <div className="info">
