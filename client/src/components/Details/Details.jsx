@@ -173,7 +173,7 @@ const Details = (props) => {
                 <h6>{nftDetail.description}</h6>
                 {/* {nftDetail.available ? ( <span className={styles.available}>Available</span> ) : ( <span className={styles.unavailable}>Unavailable</span> )} */}
                 <h6>Categories: {nftDetail.category?.join(", ")}</h6>
-                <h6>Created At: {date}</h6>
+                {/* <h6>Created At: {date}</h6> */}
               </div>
 
               <div className={styles["buttons-container"]}>

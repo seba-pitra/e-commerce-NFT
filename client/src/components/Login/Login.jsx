@@ -81,16 +81,18 @@ const Login = () => {
         throw new Error("Firebase: Error (auth/user-not-found).");
       }
 
-      console.log("auth", auth);
-
       if (auth.currentUser.emailVerified && loggedUserX2) {
         // dispatch(gettingActiveUserToState(auth.currentUser.email));
         // loadLocalStorage(auth.currentUser.email);
-        fetch("http://localhost:3001/payment/userEmail", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(auth.currentUser),
-        });
+
+        // fetch("http://localhost:3001/payment/userEmail", {
+        //   method: "POST",
+        //   headers: { "Content-Type": "application/json" },
+        //   body: JSON.stringify(auth.currentUser),
+        // });
+
+        await axios.post("/payment/userEmail", auth.currentUser);
+
         setTimeout(() => {
           setError("");
           history.push("/marketplace");

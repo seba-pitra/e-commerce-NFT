@@ -1,4 +1,5 @@
 import axios from "axios";
+import { notify } from "../../utils";
 
 // -- USER ACTIONS --
 export const GET_ALL_USERS = "GET_ALL_USERS";
@@ -392,43 +393,24 @@ export const freeShoppingCartState = () => {
 
 export const buyNftOnShoppingCart = (nftsOnShoppingCart) => {
   return async (dispatch) => {
-    await fetch(`http://localhost:3001/payment`, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      mode: "cors",
-      body: JSON.stringify(nftsOnShoppingCart),
-    })
-      .then((res) => res.json())
-      .then((data) => {
-        // window.location.replace(data.sandbox_init_point) // => prueba
-        window.location.replace(data.init_point);
-      });
+    const buyApi = await axios.post(`/payment`, nftsOnShoppingCart);
+
+    window.location.replace(buyApi.data.sandbox_init_point); // => prueba
+    // window.location.replace(buyApi.data.init_point);
   };
 };
 
 export const addBuyAtHistoryBuys = (buyData) => {
   return async (dispatch) => {
-    await fetch(`http://localhost:3001/buy`, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(buyData),
-    })
-      .then((res) => res.json())
-      .then((data) => {
-        dispatch({ type: ADD_BUY_AT_HISTORY_BUYS, payload: data });
-      });
+    const buy = await axios.post(`/buy`, buyData);
+    dispatch({ type: ADD_BUY_AT_HISTORY_BUYS, payload: buy.data });
   };
 };
 
 // Email
 export const sendFungibleMail = (sendData) => {
   return async (dispatch) => {
-    await fetch(`http://localhost:3001/fungiblemail`, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      mode: "cors",
-      body: JSON.stringify(sendData),
-    }).then((res) => res.json());
+    await axios.post(`/fungiblemail`, sendData);
   };
 };
 

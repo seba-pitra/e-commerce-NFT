@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import "./NFTsCard_dash.css";
+import axios from "axios";
 
 import EditIcon from "@material-ui/icons/Edit";
 import DeleteIcon from "@material-ui/icons/Delete";
 import DoneIcon from "@material-ui/icons/Done";
+import * as actions from "../../../redux/actions/index";
 
 const NFTsCard_dash = ({ id, name, price, userId }) => {
   const [edit, setEdit] = useState(false);
@@ -19,22 +21,18 @@ const NFTsCard_dash = ({ id, name, price, userId }) => {
     setPriceState(e.target.value);
   };
 
-  const handleUpdate = (e) => {
+  const handleUpdate = async (e) => {
     e.preventDefault();
-    fetch(`http://localhost:3001/nft/${id}`, {
-      method: "PUT",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ price: Number(priceState) }),
-    })
-      .then((res) => res.json())
-      .then((data) => {
-        setEdit(!edit);
-        setShowPrice(data.price);
-        setPriceState("");
-      })
-      .catch((err) => {
-        alert(err.message);
-      });
+    let priceObj = { price: Number(priceState) };
+    try {
+      const res = await axios.put(`/nft/${id}`, priceObj);
+
+      setEdit(!edit);
+      setShowPrice(res.data.price);
+      setPriceState("");
+    } catch (err) {
+      alert(err.message);
+    }
   };
   return (
     <div className="nfts-dash-card">
