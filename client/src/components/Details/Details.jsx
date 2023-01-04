@@ -6,6 +6,7 @@ import { Link, useHistory } from "react-router-dom";
 import styles from "./Details.module.css";
 import ethereumLogo from "../../images/ethereum-logo.png";
 import { startPayment } from "../../utils";
+import StarRating from "../StarRating/StarRating";
 
 const Details = (props) => {
   const dispatch = useDispatch();
@@ -30,6 +31,12 @@ const Details = (props) => {
 
   const [error, setError] = useState();
   const [txs, setTxs] = useState([]);
+
+  const [rating, setRating] = useState([]);
+
+  useEffect(() => {
+    dispatch(actions.addStars({id, rating: rating.value}));
+  }, [rating, id]);
 
   useEffect(() => {
     validateUser();
@@ -112,6 +119,7 @@ const Details = (props) => {
 
             <div className={styles["nft-data-container"]}>
               <div>
+                <StarRating rating={rating} setRating={setRating}/>
                 <h1>{nftDetail.name}</h1>
                 <span className={styles["detail-span"]}>
                   Included from {nftDetail.ownerName + " "}

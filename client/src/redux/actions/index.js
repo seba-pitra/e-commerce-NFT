@@ -339,6 +339,7 @@ export const deleteNft = (id) => {
   };
 };
 
+// --- UPDATES NFTS
 export const updateNft = (id, payload) => {
   // mmh?
   return async (dispatch) => {
@@ -352,11 +353,22 @@ export const updateNft = (id, payload) => {
   };
 };
 
-
 export const addViewNft = (id) => {
   return async () => {
     try {
       await axios.put(`/nft/addView/${id}`);
+    } catch (e) {
+      alert(e.response.data);
+    }
+  };
+};
+
+export const addStars = (payload) => {
+  return async () => {
+    try {
+      console.log("id", payload.id);
+      console.log("rating", payload.rating);
+      await axios.put(`/nft/addStar/${payload.id}`, {rating: payload.rating});
     } catch (e) {
       alert(e.response.data);
     }

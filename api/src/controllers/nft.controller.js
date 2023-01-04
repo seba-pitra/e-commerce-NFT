@@ -85,6 +85,24 @@ const addViewsNft = async (req, res) => {
   }
 };
 
+const addStarsNft = async (req, res) => {
+  try {
+    console.log("body", req.body)
+    console.log("params", req.params);
+    const { id } = req.params;
+    const foundNft = await Nft.findByPk(id);
+    if (foundNft) { 
+      // foundNft.set({favs: foundNft.favs + 1});
+      // await foundNft.save();
+      return res.status(200).send(foundNft);
+    } else {
+      throw new Error(`No nft with id ${id}`);
+    }
+  } catch (err) {
+    res.status(400).send(err.message);
+  }
+};
+
 //Crea el nuevo nft a partir de nombre, descripcion, imagen, contrato, id del token, precio, dueño e imagen.
 const createNewNFT = async (req, res) => {
   try {
@@ -306,6 +324,7 @@ module.exports = {
   createInitialNFTs,
   updateNft,
   addViewsNft,
+  addStarsNft,
   createNewNFT,
   deleteNft,
   restoreDeletedNft,
