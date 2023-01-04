@@ -46,6 +46,8 @@ import {
   ADD_FAV,
 } from "../actions";
 import * as controllers from "../../utils";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const initialState = {
   nfts: [],
@@ -357,7 +359,7 @@ const rootReducer = (state = initialState, action) => {
     case PREV_PAGE:
       return { ...state, activePage: state.activePage - 1 };
 
-    // --- OTROS ---
+    // --- OTHERS ---
     case GET_ETH_PRICE:
       return { ...state, ethPrice: action.payload };
 
@@ -365,7 +367,12 @@ const rootReducer = (state = initialState, action) => {
       const foundNft = state.userNfts.find(
         (nft) => nft.id === action.payload.id
       );
-      if (foundNft) return { ...state };
+      if (foundNft) {
+        toast.error("This NFT is already in your shopping cart");
+        return { ...state };
+      }
+
+      toast.success("NFT added to shopping cart successfully");
 
       return {
         ...state,
@@ -373,6 +380,10 @@ const rootReducer = (state = initialState, action) => {
       };
 
     case REMOVE_NFT_OF_SHOOPING_CART:
+      toast.success("NFT removed to shopping cart successfully", {
+        theme: "dark",
+      });
+
       return {
         ...state,
         userNfts: state.userNfts.filter((nft) => nft.id !== action.payload),

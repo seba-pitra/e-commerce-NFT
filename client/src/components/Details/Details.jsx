@@ -6,6 +6,8 @@ import { Link, useHistory } from "react-router-dom";
 import styles from "./Details.module.css";
 import ethereumLogo from "../../images/ethereum-logo.png";
 import { startPayment } from "../../utils";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Details = (props) => {
   const dispatch = useDispatch();
@@ -50,7 +52,6 @@ const Details = (props) => {
       addr: nftDetail.contract,
     });
 
-    console.log(transactionMetamask);
     //aca muestra quien hizo la compra y quien recibio la plata.
     let buyData = {
       price: nftDetail.price + " ETH",
@@ -62,19 +63,21 @@ const Details = (props) => {
 
     if (transactionMetamask.hash) {
       //si salio bien...
+      toast.success("Payment successfully");
       buyData = {
         ...buyData,
         statusPay: "Successed",
-
       };
     } else if (transactionMetamask.includes("rejected")) {
       //si se rechazo en metamask
+      toast.error("Something was wrong. Try again later");
       buyData = {
         ...buyData,
         statusPay: "Rejected",
       };
     } else if (transactionMetamask.includes("insufficient funds")) {
       //si faltan fondos
+      toast.warning("You have insufficient funds in Metamask");
       buyData = {
         ...buyData,
         statusPay: "Pending",
@@ -173,7 +176,7 @@ const Details = (props) => {
                 <h6>{nftDetail.description}</h6>
                 {/* {nftDetail.available ? ( <span className={styles.available}>Available</span> ) : ( <span className={styles.unavailable}>Unavailable</span> )} */}
                 <h6>Categories: {nftDetail.category?.join(", ")}</h6>
-                <h6>Created At: {date}</h6>
+                {/* <h6>Created At: {date}</h6> */}
               </div>
 
               <div className={styles["buttons-container"]}>
