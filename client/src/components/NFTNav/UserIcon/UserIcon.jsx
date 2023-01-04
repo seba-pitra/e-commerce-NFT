@@ -5,6 +5,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { signOut } from "firebase/auth";
 import { auth } from "../../../firebase";
 import "./UserIcon.css";
+import { toast } from "react-toastify";
 
 // Components
 import LogoutIcon from "@material-ui/icons/ExitToApp";
@@ -23,7 +24,8 @@ const UserIcon = ({ setVisible, visible }) => {
       await signOut(auth);
       history.push("/");
     } catch (error) {
-      alert(error.message);
+      toast.error("Something was wrong. try again later");
+      // alert(error.message);
     }
   };
   const handdleCick = (e) => {
@@ -47,7 +49,7 @@ const UserIcon = ({ setVisible, visible }) => {
       </li>
 
       <li
-        onClick={(e)=>setVisible(e)}
+        onClick={(e) => setVisible(e)}
         className={` ${loggedUser.type === "Admin" ? "" : "noneDisplay"}`}
       >
         <Link className={`user-icon-list-link`} to="/admin/adminDashboard">
@@ -55,7 +57,7 @@ const UserIcon = ({ setVisible, visible }) => {
         </Link>
       </li>
 
-      <li onClick={(e)=>handdleCick(e)}>
+      <li onClick={(e) => handdleCick(e)}>
         <div className="user-list-noLink">
           Logout
           <div className="logOut-icon">
