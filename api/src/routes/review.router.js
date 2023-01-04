@@ -20,6 +20,6 @@ reviewRouter.put("/update/:id", updateReview);
 
 reviewRouter.delete("/delete/:id", deleteReview);
 
-module.exports = userRouter;
+module.exports = reviewRouter;
 
 

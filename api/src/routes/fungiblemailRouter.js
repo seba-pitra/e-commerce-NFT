@@ -6,6 +6,6 @@ const emailRouter = Router();
 
 emailRouter.post("/", sendMail);
 
-module.exports = userRouter;
+module.exports = emailRouter;
 
 

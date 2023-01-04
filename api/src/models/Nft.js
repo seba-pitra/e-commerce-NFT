@@ -40,13 +40,6 @@ module.exports = (sequelize) => {
       price: {
         type: DataTypes.FLOAT,
         allowNull: false,
-        validate: {
-          customValidator: (value) => {
-            if (typeof value !== "number") {
-              throw new Error("Price must be a number");
-            }
-          },
-        },
       },
       rarity: {
         type: DataTypes.FLOAT,
@@ -61,10 +54,10 @@ module.exports = (sequelize) => {
         type: DataTypes.FLOAT,
       },
       lastBuyTs: {
-        type: DataTypes.FLOAT,
+        type: DataTypes.DATE,
       },
       createdTs: {
-        type: DataTypes.FLOAT,
+        type: DataTypes.DATE,
       },
       ownerName: {
         type: DataTypes.STRING,
