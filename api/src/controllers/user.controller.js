@@ -326,6 +326,7 @@ const createSuperUser = async () => {
     if (!response) {
       response = await User.create({
         id: superUser.id,
+        username: superUser.username,
         name: superUser.name,
         last_name: superUser.last_name,
         email: superUser.email,
