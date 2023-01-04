@@ -55,7 +55,7 @@ module.exports = (sequelize) => {
         type: DataTypes.FLOAT,
       },
       stars: {
-        type: DataTypes.FLOAT,
+        type: DataTypes.ARRAY(DataTypes.INTEGER),
       },
       lastBuyValue: {
         type: DataTypes.FLOAT,
