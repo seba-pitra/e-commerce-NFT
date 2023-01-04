@@ -14,7 +14,7 @@ export default function Ordering() {
   const [favsOrderUp, setFavsOrderUp] = useState(true);
   const [starsOrderUp, setStarsOrderUp] = useState(true);
   const [lastBuyOrderUp, setLastBuyOrderUp] = useState(true);
-  const [lastBuyTsOrderUp, setLastBuyTsOrderUp] = useState(true);
+  const [createdTsOrderUp, setCreatedTsOrderUp] = useState(true);
 
   // const [amountOrderUp, setAmountOrderUp] = useState(true);
   // const [releaseOrderUp, setReleaseOrderUp] = useState(true);
@@ -57,23 +57,11 @@ export default function Ordering() {
     dispatch(actions.orderLastBuy());
   };
 
-  const orderByLastBuyTs = () => {
-    setLastBuyTsOrderUp(!lastBuyTsOrderUp);
+  const orderByCreatedTs = () => {
+    setCreatedTsOrderUp(!createdTsOrderUp);
     dispatch(actions.changeOrderDirection());
-    dispatch(actions.orderLastBuyTs());
+    dispatch(actions.orderCreatedTs());
   };
-
-  // const orderByAmount = () => {
-  //     setAmountOrderUp(!amountOrderUp)
-  //     dispatch(actions.changeOrderDirection())
-  //     dispatch(actions.orderAmount())
-  // }
-
-  // const orderByRelease  = () => {
-  //     setReleaseOrderUp(!releaseOrderUp)
-  //     dispatch(actions.changeOrderDirection())
-  //     dispatch(actions.orderCreatedAt())
-  // }
 
   return (
     <div className="options-container">
@@ -159,27 +147,18 @@ export default function Ordering() {
         </button>
 
         <button
-          id="lastbuyts-option"
-          className={lastBuyTsOrderUp ? "btn-order-down" : "btn-order-up"}
-          onClick={() => orderByLastBuyTs()}
+          id="createdts-option"
+          className={createdTsOrderUp ? "btn-order-down" : "btn-order-up"}
+          onClick={() => orderByCreatedTs()}
         >
-          LastBuyTs
+          Created At
           {
-            lastBuyTsOrderUp ? 
+            createdTsOrderUp ? 
             <KeyboardArrowUpIcon></KeyboardArrowUpIcon> :
             <KeyboardArrowDownIcon></KeyboardArrowDownIcon>
           }
         </button>
-        {/* <button
-                    id='amount-option'
-                    className={amountOrderUp ? 'btn-order-up' : 'btn-order-down'}
-                    onClick={()=> orderByAmount()}
-                    >Amount</button>
-                <button
-                    id='releasedate-option'
-                    className={releaseOrderUp ? 'btn-order-up' : 'btn-order-down'}
-                    onClick={()=> orderByRelease()}
-                    >Creation Date</button> */}
+        
         {/*boton para cambiar de orden descendente a ascendente y visceversa*/}
         {/* <button 
                     className='option-btn button-order'

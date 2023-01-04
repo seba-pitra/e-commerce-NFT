@@ -17,6 +17,7 @@ import {
   SET_CATEGORY_REST,
   SET_CATEGORY_BACKG,
   SET_NFTS_PRICE,
+  SET_VIEW_CARDS,
   FILTER_NFTS,
   SEARCH_NFT_NAME,
   RESET_FILTERS,
@@ -26,7 +27,7 @@ import {
   ORDER_NFT_FAVS,
   ORDER_NFT_STARS,
   ORDER_NFT_LASTBUY,
-  ORDER_NFT_LASTBUYTS,
+  ORDER_NFT_CREATEDTS,
   GET_USER_BY_ID,
   GET_LOGGED_USER,
   REMOVE_LOGGED_USER,
@@ -62,6 +63,7 @@ const initialState = {
   setCategoryRest: [],
   setCategoryBackg: [],
   setNftsPrice: {},
+  viewCards: "info",
   users: [],
   userNfts: [],
   nftDetail: {},
@@ -141,7 +143,9 @@ const rootReducer = (state = initialState, action) => {
     case SET_CATEGORY_BACKG:
       return { ...state, setCategoryBackg: action.payload };
     case SET_NFTS_PRICE:
-      return { ...state, setNftsPrice: action.payload };
+      return { ...state, setNftsPrice: action.payload }; 
+    case SET_VIEW_CARDS:
+      return { ...state, viewCards: action.payload}; 
 
     // --- FILTERS ---
     case FILTER_NFTS:
@@ -338,13 +342,13 @@ const rootReducer = (state = initialState, action) => {
       );
       return { ...state, filteredNfts: orderedbyLastBuy, activePage: 1 };
 
-    case ORDER_NFT_LASTBUYTS:
-      let orderedbyLastBuyTs = controllers.orderNFTBy(
-        "lastbuyts",
+    case ORDER_NFT_CREATEDTS:
+      let orderedbyCreatedTs = controllers.orderNFTBy(
+        "createdTs",
         state.orderDirection,
         state.filteredNfts
       );
-      return { ...state, filteredNfts: orderedbyLastBuyTs, activePage: 1 };
+      return { ...state, filteredNfts: orderedbyCreatedTs, activePage: 1 };
 
     // --- PAGINATION ---
     case SELECT_PAGE:

@@ -20,6 +20,10 @@ function Pages() {
 
   const dispatch = useDispatch();
 
+  const setViewCards = (view) => {
+    dispatch(actions.setViewCards(view))
+  };
+
   const setNftPage = (e) => {
     dispatch(actions.nftsxpage(e.target.value))
   };
@@ -62,8 +66,8 @@ function Pages() {
             <Ordering />
             <MaterialUISwitch className="switch-dark-ligth"/>
             <div className="cards-styles">
-              <button className="buttons-cards-styles"><ImageIcon/></button>
-              <button className="buttons-cards-styles"><SubtitlesIcon/></button>
+              <button className="buttons-cards-styles" onClick={() => setViewCards("clear")}><ImageIcon/></button>
+              <button className="buttons-cards-styles" onClick={() => setViewCards("info")}><SubtitlesIcon/></button>
             </div>
             <span className="amount-nfts"> <b>{filteredNfts.length}</b> items</span>
           </div>

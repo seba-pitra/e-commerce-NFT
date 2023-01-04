@@ -30,6 +30,8 @@ export const SET_CATEGORY_STYLE = "SET_CATEGORY_STYLE";
 export const SET_CATEGORY_REST = "SET_CATEGORY_REST";
 export const SET_CATEGORY_BACKG = "SET_CATEGORY_BACKG";
 
+export const SET_VIEW_CARDS = "SET_VIEW_CARDS";
+
 // -- FILTERS --
 export const RESET_FILTERS = "RESET_FILTERS";
 export const FILTER_NFTS = "FILTER_NFTS";
@@ -41,7 +43,7 @@ export const ORDER_NFT_RARITY = "ORDER_NFT_RARITY";
 export const ORDER_NFT_FAVS = "ORDER_NFT_FAVS";
 export const ORDER_NFT_STARS = "ORDER_NFT_STARS";
 export const ORDER_NFT_LASTBUY = "ORDER_NFT_LASTBUY";
-export const ORDER_NFT_LASTBUYTS = "ORDER_NFT_LASTBUYTS";
+export const ORDER_NFT_CREATEDTS = "ORDER_NFT_CREATEDTS";
 export const ORDER_NFT_AMOUNT = "ORDER_NFT_AMOUNT";
 export const ORDER_NFT_CREATED_AT = "ORDER_NFT_CREATED_AT";
 export const CHANGE_ORDER_DIRECTION = "CHANGE_ORDER_DIRECTION";
@@ -240,6 +242,10 @@ export const setCategoryBackg = (payload) => {
   return { type: SET_CATEGORY_BACKG, payload };
 };
 
+export const setViewCards = (payload) => {
+  return { type: SET_VIEW_CARDS, payload };
+};
+
 // --- FILTERS ---
 
 export const resetFilters = () => {
@@ -284,8 +290,8 @@ export const orderLastBuy = (payload) => {
   return { type: ORDER_NFT_LASTBUY, payload };
 };
 
-export const orderLastBuyTs = (payload) => {
-  return { type: ORDER_NFT_LASTBUYTS, payload };
+export const orderCreatedTs = (payload) => {
+  return { type: ORDER_NFT_CREATEDTS, payload };
 };
 
 export const orderAmount = (payload) => {
@@ -342,6 +348,7 @@ export const deleteNft = (id) => {
   };
 };
 
+// --- UPDATES NFTS
 export const updateNft = (id, payload) => {
   // mmh?
   return async (dispatch) => {
@@ -352,6 +359,28 @@ export const updateNft = (id, payload) => {
     } catch (e) {
       toast.error(e.response.data);
       // console.log(e.response.data);
+    }
+  };
+};
+
+export const addViewNft = (id) => {
+  return async () => {
+    try {
+      await axios.put(`/nft/addView/${id}`);
+    } catch (e) {
+      alert(e.response.data);
+    }
+  };
+};
+
+export const addStars = (payload) => {
+  return async () => {
+    try {
+      console.log("id", payload.id);
+      console.log("rating", payload.rating);
+      await axios.put(`/nft/addStar/${payload.id}`, {rating: payload.rating});
+    } catch (e) {
+      alert(e.response.data);
     }
   };
 };
