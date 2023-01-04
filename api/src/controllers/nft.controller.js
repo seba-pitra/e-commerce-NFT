@@ -207,7 +207,6 @@ const createInitialNFTs = async (req) => {
 
       if (allCreatedNfts.length === 0) {
         let nfts = req.query.test === "true" ? testNFTs : allNFTs;
-        console.log(nfts.length);
         let { nftQuantity } = req.params
         if (!nftQuantity){
             nftQuantity = nfts.length
@@ -247,19 +246,14 @@ const nftCreator = async (nftsToCreate, responseArray) => {
       id: superUserId,
     },
   });
-  console.log("im on the nft Creator");
   for (const nft of nftsToCreate) {
     //se diseña el name en base a los datos.
     let nftName =  utils.nftNameCreatorFor(nft)
-    console.log(nftName);
     //se calcula el precio de la ultima compra
     let priceLastBuy = utils.priceLastBuyCalculatorFor(nft);
-    console.log(priceLastBuy)
     //se genera el objeto para inyectar en la base de datos.
     let nftToDb = utils.nftObjectCreatorFrom(nft, nftName, priceLastBuy);
-    console.log(nftToDb);
     const nftInDb = await Nft.create(nftToDb);
-    console.log(nftInDb);
 
     const correspondingCollection = await Collection.findOne({
       where: {

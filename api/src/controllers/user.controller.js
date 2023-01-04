@@ -240,7 +240,6 @@ const createSuperUser = async () => {
         profile_pic: superUser.profile_pic,
       });
     }
-    console.log(superUser);
     console.log("Super user created");
     return response;
   } catch (error) {

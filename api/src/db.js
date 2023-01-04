@@ -35,19 +35,30 @@ sequelize.models = Object.fromEntries(capsEntries);
 
 // En sequelize.models están todos los modelos importados como propiedades
 // Para relacionarlos hacemos un destructuring
-const { User, Nft, Collection, Buy } = sequelize.models;
+const { User, Nft, Collection, Buy, Review } = sequelize.models;
 
+//-- USER RELATIONS
 User.hasMany(Nft);
-Nft.belongsTo(User);
-
 User.hasMany(Collection);
-Collection.belongsTo(User);
+User.hasMany(Buy);
+User.hasOne(Review)
 
+//-- NFT RELATIONS
+Nft.belongsTo(User);
 Nft.belongsTo(Collection);
+Nft.hasMany(Review);
+
+//--COLLECTION RELATIONS
+Collection.belongsTo(User);
 Collection.hasMany(Nft);
 
-User.hasMany(Buy);
+//--PURCHASES RELATIONS
 Buy.belongsTo(User);
+User.hasMany(Buy);
+
+//--REVIEW RELATIONS
+Review.belongsTo(User);
+Review.belongsTo(Nft);
 
 module.exports = {
   ...sequelize.models, // para poder importar los modelos así: const { Product, User } = require('./db.js');
