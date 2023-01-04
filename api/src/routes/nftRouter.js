@@ -3,6 +3,8 @@ const {
   getNfts,
   getNftById,
   updateNft,
+  addViewsNft,
+  addStarsNft,
   createNewNFT,
   deleteNft,
   restoreDeletedNft
@@ -17,6 +19,10 @@ nftRouter.post("/create", createNewNFT)
 nftRouter.get("/:id", getNftById);
 
 nftRouter.put("/:id", updateNft);
+
+nftRouter.put("/addView/:id", addViewsNft);
+
+nftRouter.put("/addStar/:id", addStarsNft);
 
 nftRouter.delete("/:id", deleteNft);
 
