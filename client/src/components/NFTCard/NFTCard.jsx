@@ -36,8 +36,6 @@ const handleClickOnFavorites = (e) => {
   let starsValue = props.stars?.reduce((a, b) => a + b, 0);
   starsValue = starsValue / props.stars?.length
 
-  console.log(viewCards);
-
   if(viewCards === "clear"){
     return (
       <div className="cardContainer">
