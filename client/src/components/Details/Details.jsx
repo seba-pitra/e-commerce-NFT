@@ -34,9 +34,11 @@ const Details = (props) => {
 
   const [rating, setRating] = useState([]);
 
+  console.log("rating detail > ", rating)
+
   useEffect(() => {
     dispatch(actions.addStars({id, rating: rating.value}));
-  }, [rating, id]);
+  }, [rating]);
 
   useEffect(() => {
     validateUser();
@@ -97,6 +99,9 @@ const Details = (props) => {
   date = date.toString();
   date = date.slice(4, 16);
 
+  let starsValue = nftDetail.stars?.reduce((a, b) => a + b, 0);
+  starsValue = starsValue / nftDetail.stars?.length
+
   return (
     <>
       {isLoading ? (
@@ -143,7 +148,7 @@ const Details = (props) => {
 
               <div className={styles["flex-row3"]}>
                 <h6>Views: {nftDetail.favs}</h6>
-                <h6>Stars: {nftDetail.stars}</h6>
+                <h6>Stars: {starsValue}</h6>
                 <h6>Rarity: {nftDetail.rarity}</h6>
               </div>
 

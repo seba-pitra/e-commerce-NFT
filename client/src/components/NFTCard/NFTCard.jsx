@@ -32,6 +32,9 @@ const handleClickOnFavorites = (e) => {
 		dispatch(actions.addToFav());
 	};
 
+  let starsValue = props.stars?.reduce((a, b) => a + b, 0);
+  starsValue = starsValue / props.stars?.length
+
 
   return (
     <div className="cardContainer">
@@ -65,7 +68,7 @@ const handleClickOnFavorites = (e) => {
                 </div>
                 <div className="flex-row">
                   <img src={starsLogo} alt="ethereum-logo" className="eth-logo"/>
-                  <h3>{props.stars}</h3>
+                  <h3>{starsValue || 0}</h3>
                 </div>
               </div>
               <h4>
