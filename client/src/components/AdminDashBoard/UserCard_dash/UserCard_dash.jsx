@@ -1,7 +1,5 @@
 import React from "react";
 import "./UserCard_dash.css";
-import { auth } from "../../../firebase.js";
-import { deleteUser } from "firebase/auth";
 import { Link } from "react-router-dom";
 // Components
 import BlockIcon from "@material-ui/icons/Block";
@@ -16,13 +14,13 @@ const UserCard_dash = ({ id, name, last_name, email, dni }) => {
       .then((data) => console.log(data));
   };
 
-  const handleClick = (e) => {
-    e.preventDefault();
-    console.log(auth.currentUser);
-  };
+  // const handleClick = (e) => {
+  //   e.preventDefault();
+  //   console.log(auth.currentUser);
+  // };
 
   return (
-    <div className="user-dash-card">
+    <div key={id} className="user-dash-card">
       <div className="user-dash-id">
         <Link to={`/admin/user/${id}`}>
           <p>{id}</p>

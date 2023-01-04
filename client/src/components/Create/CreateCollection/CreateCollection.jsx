@@ -1,7 +1,5 @@
 import { useEffect } from "react";
-import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { useHistory } from "react-router-dom";
 import * as actions from "../../../redux/actions";
 import CloudinaryImageInput from "../CloudinaryImageInput/CloudinaryImageInput";
 
@@ -62,7 +60,7 @@ export default function CreateCollection({
                     <h6>Choose the collection in which your nft will be created.</h6>
                     <div className="div-created-collections">
                         {user.collections?.map((collection) => (
-                            <div className="created-collections">
+                            <div key={collection} className="created-collections">
                                 <label htmlFor={collection.id}> <b>{collection.name}</b> </label>
                                 <input
                                 type="checkbox"

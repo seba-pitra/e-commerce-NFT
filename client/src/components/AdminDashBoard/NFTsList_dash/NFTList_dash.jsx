@@ -3,8 +3,8 @@ import { useEffect } from "react";
 import "./NFTList_dash.css";
 
 // Components
-import NFTsCard_dash from "../NFTsCard_dash/NFTsCard_dash";
-import UserCard_dash from "../UserCard_dash/UserCard_dash";
+import NftsCardDash from "../NFTsCard_dash/NFTsCard_dash";
+import UserCardDash from "../UserCard_dash/UserCard_dash";
 
 const NFTList_dash = ({ users, nfts }) => {
   // const { nfts } = useSelector((state) => state);
@@ -112,7 +112,8 @@ const NFTList_dash = ({ users, nfts }) => {
       {users ? (
         <div className="dash-nfts-list">
           {displayNFTs.map((user) => (
-            <UserCard_dash
+            <UserCardDash
+              key={user.id}
               id={user.id}
               name={user.name}
               last_name={user.last_name}
@@ -124,7 +125,7 @@ const NFTList_dash = ({ users, nfts }) => {
       ) : (
         <div className="dash-nfts-list">
           {displayNFTs.map((nft) => (
-            <NFTsCard_dash
+            <NftsCardDash
               key={nft.id}
               id={nft.id}
               name={nft.name}
@@ -142,7 +143,7 @@ const NFTList_dash = ({ users, nfts }) => {
           <option value={30}>30</option>
           <option value={50}>50</option>
         </select>
-        <button onClick={decrementCp} disabled={cp == 0}>
+        <button onClick={decrementCp} disabled={cp === 0}>
           {"<"}
         </button>
         <button

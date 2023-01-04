@@ -10,7 +10,7 @@ import { startPayment } from "../../utils";
 const Details = (props) => {
   const dispatch = useDispatch();
   const history = useHistory();
-
+  // No se usa
   let loginStatusStorage = localStorage.getItem("Logged");
 
   const validateUser = async () => {
@@ -29,6 +29,7 @@ const Details = (props) => {
   // }, []);
 
   const { id } = props.match.params;
+  // No se usa
   let sales;
   const nftDetail = useSelector((state) => state.nftDetail);
   const isLoading = useSelector((state) => state.isLoading);

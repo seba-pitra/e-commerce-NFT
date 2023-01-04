@@ -15,7 +15,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { useDispatch } from "react-redux";
 import * as actions from "../../redux/actions";
 import { useHistory } from "react-router-dom";
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 const DeveloperTeam = (props) => {
 
 const history = useHistory();
@@ -37,7 +37,7 @@ console.log('Aqui estoy !!', loginStatusStorage)
 
  useEffect(() => {
       validateUser();
-  }, []);
+  }, [dispatch]);
 
 
 
@@ -56,7 +56,7 @@ console.log('Aqui estoy !!', loginStatusStorage)
           </AccordionSummary>
           <AccordionDetails className={styles["about-us-card-accordion"]}>
             <img src={img1} alt="about-us" className={styles["about-us-img"]} />
-            <div lassName={styles["about-accordion-text"]}>
+            <div className={styles["about-accordion-text"]}>
               <h1 className={styles["about-accordion-title"]}>
                 Valentin Coellar
               </h1>
@@ -102,7 +102,7 @@ console.log('Aqui estoy !!', loginStatusStorage)
           </AccordionSummary>
           <AccordionDetails className={styles["about-us-card-accordion"]}>
             <img src={img2} alt="about-us" className={styles["about-us-img"]} />
-            <div lassName={styles["about-accordion-text"]}>
+            <div className={styles["about-accordion-text"]}>
               <h1 className={styles["about-accordion-title"]}>Miguel Villa</h1>
               <p className={styles["about-accordion-description"]}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -146,7 +146,7 @@ console.log('Aqui estoy !!', loginStatusStorage)
           </AccordionSummary>
           <AccordionDetails className={styles["about-us-card-accordion"]}>
             <img src={img3} alt="about-us" className={styles["about-us-img"]} />
-            <div lassName={styles["about-accordion-text"]}>
+            <div className={styles["about-accordion-text"]}>
               <h1 className={styles["about-accordion-title"]}>
                 Sebastian Pitra
               </h1>
@@ -192,7 +192,7 @@ console.log('Aqui estoy !!', loginStatusStorage)
           </AccordionSummary>
           <AccordionDetails className={styles["about-us-card-accordion"]}>
             <img src={img4} alt="about-us" className={styles["about-us-img"]} />
-            <div lassName={styles["about-accordion-text"]}>
+            <div className={styles["about-accordion-text"]}>
               <h1 className={styles["about-accordion-title"]}>
                 Francisco Schlatter
               </h1>
@@ -238,7 +238,7 @@ console.log('Aqui estoy !!', loginStatusStorage)
           </AccordionSummary>
           <AccordionDetails className={styles["about-us-card-accordion"]}>
             <img src={img5} alt="about-us" className={styles["about-us-img"]} />
-            <div lassName={styles["about-accordion-text"]}>
+            <div className={styles["about-accordion-text"]}>
               <h1 className={styles["about-accordion-title"]}>Bruno Osuna</h1>
               <p className={styles["about-accordion-description"]}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -282,7 +282,7 @@ console.log('Aqui estoy !!', loginStatusStorage)
           </AccordionSummary>
           <AccordionDetails className={styles["about-us-card-accordion"]}>
             <img src={img6} alt="about-us" className={styles["about-us-img"]} />
-            <div lassName={styles["about-accordion-text"]}>
+            <div className={styles["about-accordion-text"]}>
               <h1 className={styles["about-accordion-title"]}>James Santos</h1>
               <p className={styles["about-accordion-description"]}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -326,7 +326,7 @@ console.log('Aqui estoy !!', loginStatusStorage)
           </AccordionSummary>
           <AccordionDetails className={styles["about-us-card-accordion"]}>
             <img src={img7} alt="about-us" className={styles["about-us-img"]} />
-            <div lassName={styles["about-accordion-text"]}>
+            <div className={styles["about-accordion-text"]}>
               <h1 className={styles["about-accordion-title"]}>
                 Daniel Molinaro
               </h1>

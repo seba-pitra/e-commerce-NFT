@@ -5,7 +5,7 @@ import * as actions from "../../redux/actions/index";
 import "./AdminDashboard.css";
 
 // Components
-import NFTList_dash from "./NFTsList_dash/NFTList_dash";
+import NftListDash from "./NFTsList_dash/NFTList_dash";
 import Charts from "./Charts/BarChart.jsx";
 
 const AdminDashboard = () => {
@@ -46,11 +46,11 @@ const AdminDashboard = () => {
       </div>
       <div className="dahsboard-nfts">
         <h3>Admin NFTs</h3>
-        <NFTList_dash nfts={nfts} />
+        <NftListDash nfts={nfts} />
       </div>
       <div className="dashboard-users">
         <h3>Admin Users</h3>
-        <NFTList_dash users={users} />
+        <NftListDash users={users} />
       </div>
     </div>
   );

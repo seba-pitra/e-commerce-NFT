@@ -129,15 +129,16 @@ export default function Filtering() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <label className="label" htmlFor="genres">
+          <label  className="label" htmlFor="genres">
             Collections:
           </label>
+          
         </AccordionSummary>
         <AccordionDetails>
-              {collections.map((collection) => {
+              {collections.map((collection,i) => {
                 return (
-                  <div className="input-checkbox">
-                    <label htmlFor={collection.id}>{collection.name}</label>
+                  <div key={i} className="input-checkbox">
+                    <label  htmlFor={collection.id}>{collection.name}</label>
                     <input
                     type="checkbox"
                     key={collection.id}
@@ -163,7 +164,7 @@ export default function Filtering() {
         <AccordionDetails>
               {category.Species?.map((specie) => {
                 return (
-                  <div className="input-checkbox">
+                  <div key={specie} className="input-checkbox">
                     <label htmlFor={specie}>{specie}</label>
                     <input
                     type="checkbox"
@@ -188,10 +189,11 @@ export default function Filtering() {
           </label>
         </AccordionSummary>
         <AccordionDetails>
-              {category.Species2?.map((specie) => {
+              {category.Species2?.map((specie, i) => {
                 return (
-                  <div className="input-checkbox">
+                  <div key={specie} className="input-checkbox">
                     <label htmlFor={specie}>{specie}</label>
+                    
                     <input
                     type="checkbox"
                     key={specie}
@@ -217,7 +219,7 @@ export default function Filtering() {
         <AccordionDetails>
               {category.Art?.map((specie) => {
                 return (
-                  <div className="input-checkbox">
+                  <div key={specie} className="input-checkbox">
                     <label htmlFor={specie}>{specie}</label>
                     <input
                     type="checkbox"
@@ -244,7 +246,7 @@ export default function Filtering() {
         <AccordionDetails>
               {category.Type?.map((specie) => {
                 return (
-                  <div className="input-checkbox">
+                  <div key={specie} className="input-checkbox">
                     <label htmlFor={specie}>{specie}</label>
                     <input
                     type="checkbox"
@@ -271,7 +273,7 @@ export default function Filtering() {
         <AccordionDetails>
               {category.Style?.map((value) => {
                 return (
-                  <div className="input-checkbox">
+                  <div key={value} className="input-checkbox">
                     <label htmlFor={value}>{value}</label>
                     <input
                     type="checkbox"
@@ -298,7 +300,7 @@ export default function Filtering() {
         <AccordionDetails>
               {category.Rest?.map((value) => {
                 return (
-                  <div className="input-checkbox">
+                  <div key={value} className="input-checkbox">
                     <label htmlFor={value}>{value}</label>
                     <input
                     type="checkbox"
@@ -325,7 +327,7 @@ export default function Filtering() {
         <AccordionDetails>
               {category.Backg?.map((value) => {
                 return (
-                  <div className="input-checkbox">
+                  <div key={value} className="input-checkbox">
                     <label htmlFor={value}>{value}</label>
                     <input
                     type="checkbox"

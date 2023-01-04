@@ -31,7 +31,7 @@ import { auth } from "./firebase.js";
 import { onAuthStateChanged } from "firebase/auth";
 
 //-- actions imports
-import { getLoggedUser, removeLoggedUser } from "./redux/actions";
+import { removeLoggedUser } from "./redux/actions";
 import UserDetail from "./components/UserComponents/UserProfile/UserDetail.jsx";
 
 function App() {

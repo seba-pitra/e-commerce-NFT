@@ -5,12 +5,13 @@ import issueIcon from "../../images/icons/issue-icon.png";
 import pendingIcon from "../../images/icons/pending-icon.png";
 import styles from "./PayResult.module.css";
 import { Link } from "react-router-dom";
-import React, { useState } from "react";
+import React from "react";
 
 function PayResult(props) {
   const dispatch = useDispatch();
 
   const activeUserIs = useSelector((state) => state.activeUser);
+  // No se usa
   const loggedUser = useSelector((state) => state.loggedUser);
 
   let userNfts = JSON.parse(localStorage.getItem("nftsOnShoppingCart"));

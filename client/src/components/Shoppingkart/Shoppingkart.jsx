@@ -7,6 +7,7 @@ import { startPayment } from "../../utils";
 
 export default function Shoppingkart() {
   const userNfts = useSelector((state) => state.userNfts);
+  // No se usa
   const activeUserIs = useSelector((state) => state.activeUser);
 
   const [error, setError] = useState();

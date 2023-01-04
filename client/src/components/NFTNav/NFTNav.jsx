@@ -23,6 +23,7 @@ export default function NFTNav() {
   const cartItemsCount = useSelector((state) => state.userNfts);
   const activeUserIs = useSelector((state) => state.activeUser);
   const userNfts = useSelector((state) => state.userNfts);
+  // No se usa
   const loggedUser = useSelector((state) => state.loggedUser);
 
   const location = useLocation();
@@ -45,6 +46,7 @@ export default function NFTNav() {
     }
   };
 
+  // No se usa
   const handleLogoutClick = (e) => {
     saveLocalStorage();
     dispatch(freeShoppingCartState());

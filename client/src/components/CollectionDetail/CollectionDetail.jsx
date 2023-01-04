@@ -4,7 +4,6 @@ import NFTCard from "../NFTCard/NFTCard";
 import NotFoundResults from "../NotFoundResults/NotFoundResults";
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
-import ethereumLogo from "../../images/ethereum-logo.png";
 import { useParams } from "react-router-dom";
 import "./CollectionDetail.css";
 

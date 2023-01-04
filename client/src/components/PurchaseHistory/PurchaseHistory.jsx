@@ -22,9 +22,9 @@ const PurchaseHistory = ({props}) => {
       )}
 
       {props &&
-        props.map((elem) => {
+        props.map((elem, i) => {
           return(
-          <div className="history-title-container">
+          <div key={i} className="history-title-container">
             <div className="sale">{elem.price} Eth</div>
             <div className="from">{elem.contract}</div>
             <div className="to">{elem.contract}</div>

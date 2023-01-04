@@ -38,17 +38,18 @@ const App = () => {
       onSubmit={(e) => handleRangeSubmit(e)}
     > 
       <label>Price : </label>
-      <select name="" id="" onChange={(e) => { handleCurrencyClick(e) }}>
-        <option disabled selected value="null">Select currency</option>
+      <select  defaultValue="default" onChange={(e) => { handleCurrencyClick(e) }}>
+      <option value="default"  >Select currency</option>
         {currencies.map((currency) => {
           return (
             <option
+              key={currency}
               value={currency}
             >
               {currency}
             </option>
           );
-        })}
+        })} 
       </select>
       <div className="testeandoooo2323232">
         <div>

@@ -1,6 +1,6 @@
 // import * as actions from "../../../redux/actions";
-import React, { useState } from "react";
-import { useEffect, useRef } from "react";
+import React from "react";
+import { useEffect } from "react";
 
 import "./UserProfile/UserProfile.css";
 

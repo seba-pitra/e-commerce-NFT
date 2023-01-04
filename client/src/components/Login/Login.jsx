@@ -4,14 +4,14 @@ import {
   gettingActiveUserToState,
   injectLocalStorageCart,
   getAllUsers,
-  signInWithGoogle,
+
 } from "../../redux/actions";
 import { useHistory } from "react-router-dom";
 import GoogleIcon from "@mui/icons-material/Google";
 import { auth, loginGoogle } from "../../firebase.js";
 import { signInWithEmailAndPassword, signOut } from "firebase/auth";
 import "./Login.css";
-import { Link } from "react-router-dom";
+
 import axios from "axios";
 
 // sendPasswordResetEmail
@@ -137,7 +137,7 @@ const Login = () => {
   return (
     <form>
       <div className="form-outline mb-4">
-        <label className="form-label text-light" for="EmailField">
+        <label className="form-label text-light" htmlFor="EmailField">
           Email address
         </label>
         <input
@@ -152,7 +152,7 @@ const Login = () => {
       </div>
 
       <div className="form-outline mb-3">
-        <label className="form-label text-light" for="PassField">
+        <label className="form-label text-light" htmlFor="PassField">
           Password
         </label>
         <input
