@@ -22,6 +22,9 @@ module.exports = (sequelize) => {
         type: DataTypes.INTEGER,
         allowNull: true,
       },
+      metamask_wallet: {
+        type: DataTypes.STRING,
+      },
       email: {
         type: DataTypes.STRING,
         allowNull: false,

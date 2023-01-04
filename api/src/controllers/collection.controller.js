@@ -68,7 +68,7 @@ const createNewCollection = async (req, res) => {
         name: name,
         image: image,
         origin : "USER",
-        contract : "Here goes the metamask contract",
+        contract : userOwner.metamask_wallet
       }); // Crea la coleccion con los datos recibidos
 
       newCollection.setUser(userOwner) //setea el usuario como dueño de la db.

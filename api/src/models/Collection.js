@@ -13,7 +13,6 @@ module.exports = (sequelize) => {
       },
       contract : {
         type : DataTypes.STRING,
-        allowNull : false
       },
       name: {
         type: DataTypes.STRING,

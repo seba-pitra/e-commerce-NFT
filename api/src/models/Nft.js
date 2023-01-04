@@ -31,7 +31,6 @@ module.exports = (sequelize) => {
       },
       contract: {
         type: DataTypes.STRING,
-        allowNull: false,
       },
       tokenId: {
         type: DataTypes.STRING,

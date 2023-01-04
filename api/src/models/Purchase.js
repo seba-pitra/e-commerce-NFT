@@ -13,11 +13,9 @@ module.exports = (sequelize) => {
       },
       price: {
         type: DataTypes.STRING,
-        // allowNull: false,
       },
       contract: {
         type: DataTypes.STRING,
-        // allowNull: false,
       },
       statusPay: {
         type: DataTypes.STRING,

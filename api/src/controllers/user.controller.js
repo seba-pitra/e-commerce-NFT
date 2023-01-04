@@ -92,7 +92,6 @@ const getUserById = async (req, res) => {
 
 const deleteUser = async (req, res) => {
   try {
-    console.log("Delete user id ", req.params.id);
     const { id } = req.params;
     const deletedUser = await User.findByPk(id);
     if (deletedUser) {

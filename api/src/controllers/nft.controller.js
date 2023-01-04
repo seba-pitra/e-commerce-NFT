@@ -296,6 +296,8 @@ const nftCreator = async (nftsToCreate, responseArray) => {
   return responseArray;
 }
 
+
+
 module.exports = {
   getNfts,
   getNftById,
