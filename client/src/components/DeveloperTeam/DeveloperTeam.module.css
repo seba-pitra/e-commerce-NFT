@@ -18,9 +18,11 @@
 .about-us-container {
   width: 70em;
 }
+
 .about-us-card-accordion {
   display: flex;
 }
+
 .about-us-img {
   border-radius: 20px;
   height: 25em;
@@ -28,4 +30,14 @@
 }
 .about-accordion-description {
   font-size: 20px;
+}
+
+@media (max-width: 1050px) {
+  .about-us-container {
+    width: 100%;
+  }
+  .about-us-card-accordion {
+    display: flex;
+    flex-direction: column;
+  }
 }
