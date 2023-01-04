@@ -29,6 +29,8 @@ export const SET_CATEGORY_STYLE = "SET_CATEGORY_STYLE";
 export const SET_CATEGORY_REST = "SET_CATEGORY_REST";
 export const SET_CATEGORY_BACKG = "SET_CATEGORY_BACKG";
 
+export const SET_VIEW_CARDS = "SET_VIEW_CARDS";
+
 // -- FILTERS --
 export const RESET_FILTERS = "RESET_FILTERS";
 export const FILTER_NFTS = "FILTER_NFTS";
@@ -235,6 +237,10 @@ export const setCategoryRest = (payload) => {
 
 export const setCategoryBackg = (payload) => {
   return { type: SET_CATEGORY_BACKG, payload };
+};
+
+export const setViewCards = (payload) => {
+  return { type: SET_VIEW_CARDS, payload };
 };
 
 // --- FILTERS ---

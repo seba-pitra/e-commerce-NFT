@@ -63,18 +63,6 @@ export default function Ordering() {
     dispatch(actions.orderCreatedTs());
   };
 
-  // const orderByAmount = () => {
-  //     setAmountOrderUp(!amountOrderUp)
-  //     dispatch(actions.changeOrderDirection())
-  //     dispatch(actions.orderAmount())
-  // }
-
-  // const orderByRelease  = () => {
-  //     setReleaseOrderUp(!releaseOrderUp)
-  //     dispatch(actions.changeOrderDirection())
-  //     dispatch(actions.orderCreatedAt())
-  // }
-
   return (
     <div className="options-container">
       {/* <label id="order-by-label" className="label" htmlFor="order">
@@ -170,16 +158,7 @@ export default function Ordering() {
             <KeyboardArrowDownIcon></KeyboardArrowDownIcon>
           }
         </button>
-        {/* <button
-                    id='amount-option'
-                    className={amountOrderUp ? 'btn-order-up' : 'btn-order-down'}
-                    onClick={()=> orderByAmount()}
-                    >Amount</button>
-                <button
-                    id='releasedate-option'
-                    className={releaseOrderUp ? 'btn-order-up' : 'btn-order-down'}
-                    onClick={()=> orderByRelease()}
-                    >Creation Date</button> */}
+        
         {/*boton para cambiar de orden descendente a ascendente y visceversa*/}
         {/* <button 
                     className='option-btn button-order'

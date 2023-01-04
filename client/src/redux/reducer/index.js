@@ -17,6 +17,7 @@ import {
   SET_CATEGORY_REST,
   SET_CATEGORY_BACKG,
   SET_NFTS_PRICE,
+  SET_VIEW_CARDS,
   FILTER_NFTS,
   SEARCH_NFT_NAME,
   RESET_FILTERS,
@@ -60,6 +61,7 @@ const initialState = {
   setCategoryRest: [],
   setCategoryBackg: [],
   setNftsPrice: {},
+  viewCards: "info",
   users: [],
   userNfts: [],
   nftDetail: {},
@@ -139,7 +141,9 @@ const rootReducer = (state = initialState, action) => {
     case SET_CATEGORY_BACKG:
       return { ...state, setCategoryBackg: action.payload };
     case SET_NFTS_PRICE:
-      return { ...state, setNftsPrice: action.payload };
+      return { ...state, setNftsPrice: action.payload }; 
+    case SET_VIEW_CARDS:
+      return { ...state, viewCards: action.payload}; 
 
     // --- FILTERS ---
     case FILTER_NFTS:
