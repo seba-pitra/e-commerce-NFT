@@ -1,4 +1,4 @@
-const { User, Nft, Collection, Buy } = require("../db");
+const { User, Nft, Collection, Purchase } = require("../db");
 const { superUser } = require("../jsondata/superUserData.json");
 
 const createUser = async (req, res) => {
@@ -32,7 +32,7 @@ const signInWithGoogle = async (req, res) => {
 const getAllUsers = async (req, res) => {
   try {
     const allUsers = await User.findAll({
-      include: [{ model: Nft }, { model: Collection }, { model: Buy }],
+      include: [{ model: Nft }, { model: Collection }, { model: Purchase }],
     });
     if (allUsers.length === 0) {
       throw new Error(`No users found on database`);
@@ -75,7 +75,7 @@ const getUserById = async (req, res) => {
           model: Collection,
         },
         {
-          model: Buy,
+          model: Purchase,
         },
       ],
     });

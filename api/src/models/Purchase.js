@@ -2,7 +2,7 @@ const { DataTypes } = require("sequelize");
 
 module.exports = (sequelize) => {
   sequelize.define(
-    "buy",
+    "purchase",
     {
       id: {
         type: DataTypes.UUID,
@@ -41,10 +41,19 @@ module.exports = (sequelize) => {
           },
         },
       },
-      purchases: {
+      /*
+      Esto se maneja mediante asignar los nfts a la compra,
+      no hace falta agregar al modelo un arreglo de JSONS
+      */
+      pruchases: {
         type: DataTypes.ARRAY(DataTypes.JSON),
         allowNull: false,
       },
+
+      /*
+        Preguntarle a los chicos para que es esto
+        o averiguarlo.
+      */
       from: {
         type: DataTypes.STRING,
       },

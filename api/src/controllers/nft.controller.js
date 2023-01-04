@@ -19,6 +19,9 @@ const getNfts = async (req, res) => {
         {
           model: User,
         },
+        {
+          model: Review,
+        }
       ],
     });
     if (dbNfts.length === 0) {
@@ -41,6 +44,9 @@ const getNftById = async (req, res) => {
         {
           model: User,
         },
+        {
+          model: Review,
+        }
       ],
     });
     if (foundNftFromDB) {
@@ -128,13 +134,14 @@ const createNewNFT = async (req, res) => {
         stars: 0,
         lastBuyValue: null, // null ?
         lastBuyTs: null, // null ?
-/*         createdTs: Date.now(), */
+        createdTs: Date.now(),
         ownerName: userOwner.name || "Non Fungible Town",
         ownerIcon: userOwner.profile_pic || "https://raw.githubusercontent.com/seba-pitra/e-commerce-NFT/main/client/src/images/logo/logo.png"
       });
 
         //si la encuentra la relaciona al nuevo nft.
         await newNFT.setCollection(correspondingCollection);
+        await newNFT.setUser(userOwner);
         res.status(200).json(newNFT);
 
       } else {

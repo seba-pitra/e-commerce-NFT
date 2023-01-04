@@ -1,7 +1,7 @@
 const { createAllInitialCollections } = require("../controllers/collection.controller")
 const { createInitialNFTs } = require("../controllers/nft.controller")
 const { createSuperUser } = require("../controllers/user.controller");
-const { Nft, Collection, Buy, User } = require("../db");
+const { Nft, Collection, Purchase, User } = require("../db");
 
 
 //Creates every initial data, and posts it to the database.
@@ -45,7 +45,7 @@ const getEverythingFromDB = async (req, res) => {
                 model : User,
             }]
         });
-        const allBuys = await Buy.findAll({
+        const allPurchases = await Purchase.findAll({
             include : {
                 model : User,
             }
@@ -56,14 +56,14 @@ const getEverythingFromDB = async (req, res) => {
             },{
                 model: Nft
             },{
-                model : Buy,
+                model : Purchase,
             }]
         });
         res.status(200).json({
             allUsers : allUsers,
             allNfts : allNfts,
             allCollections : allCollections,
-            allBuys : allBuys
+            allPurchases : allPurchases
         })
     }catch (error) {
         console.error(error)
