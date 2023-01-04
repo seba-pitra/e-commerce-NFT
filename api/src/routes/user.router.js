@@ -3,20 +3,22 @@ const {
   getAllUsers,
   getUserById,
   deleteUser,
-  createUser,
+  registerUser,
   updateUser,
   restoreDeletedUser,
-  verifyUser,
+  userAsksForVerification,
   verifiedToAdmin,
   adminToVerified,
   signInWithGoogle,
+  verifyUser,
+  rejectVerification
 } = require("../controllers/user.controller");
 
 const userRouter = Router();
 
 userRouter.get("/", getAllUsers);
 
-userRouter.post("/register", createUser);
+userRouter.post("/register", registerUser);
 
 userRouter.post("/google/signin", signInWithGoogle);
 
@@ -28,7 +30,11 @@ userRouter.delete("/:id", deleteUser);
 
 userRouter.get("/restore/:id", restoreDeletedUser);
 
+userRouter.put("/ask/:id", userAsksForVerification);
+
 userRouter.put("/verify/:id", verifyUser);
+
+userRouter.put("/reject/:id", rejectVerification);
 
 userRouter.put("/upgrade/:id", verifiedToAdmin);
 

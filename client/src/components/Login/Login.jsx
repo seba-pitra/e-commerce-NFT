@@ -46,12 +46,10 @@ const Login = () => {
     await loginGoogle();
     // dispatch(gettingActiveUserToState(auth.currentUser.email)); //no hace nada
     loadLocalStorage(auth.currentUser.email);
-    let fullName = auth.currentUser.displayName;
     let user = {
       id: auth.currentUser.uid,
       email: auth.currentUser.email,
-      name: fullName.split(" ")[0],
-      last_name: fullName.split(" ")[1],
+      username: auth.currentUser.displayName + (Math.random() * 100000),
       profile_pic: auth.currentUser.photoURL,
     };
     await axios.post("user/google/signin", user);
@@ -59,13 +57,8 @@ const Login = () => {
     localStorage.setItem("currentUser", JSON.stringify(userDb));
 
     if (userDb) {
-      history.push("/marketplace");
+      history.push("/home");
     }
-    // await dispatch(signInWithGoogle(user));
-
-    // setTimeout(() => {
-    //   history.push("/marketplace");
-    // }, 7000);
   };
 
   const logginFunction = async (params) => {
@@ -129,14 +122,6 @@ const Login = () => {
     });
   };
 
-  // if (loginStatusStorage === "Estoy loggeado") {
-  //   return (
-  //     <div className="login-loggedmessage">
-  //       <Link to={"/marketplace"}>Home</Link>
-  //       <p>You've been logged</p>
-  //     </div>
-  //   );
-  // } else
   return (
     <form>
       <div className="form-outline mb-4">

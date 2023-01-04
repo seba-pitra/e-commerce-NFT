@@ -11,23 +11,18 @@ const superUserId = superUser.id;
 // Devuelve todos los nfts de la base da datos junto con su coleccion asignada.
 const getNfts = async (req, res) => {
   try {
-    const dbNfts = await Nft.findAll({
-      include: [
-        {
-          model: Collection,
-        },
-        {
-          model: User,
-        },
-        {
-          model: Review,
-        }
-      ],
-    });
-    if (dbNfts.length === 0) {
+    const allNfts = req.query.deleted === "include" ? 
+      await Nft.findAll({
+        include: [{ model: User }, { model: Collection }, { model: Review }],
+        paranoid : false,
+      }) :
+      await Nft.findAll({
+        include: [{ model: Nft }, { model: Collection }, { model: Review }],
+      })
+    if (allNfts.length === 0) {
       throw new Error("nothing on database please contact Mr. Miguel Villa");
     }
-    res.status(200).send(dbNfts);
+    res.status(200).send(allNfts);
   } catch (err) {
     res.status(404).json({error: err.message});
   }

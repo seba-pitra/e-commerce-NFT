@@ -10,25 +10,27 @@ module.exports = (sequelize) => {
         unique: true,
         allowNull: false,
       },
-      name: {
-        type: DataTypes.STRING,
-        allowNull: false,
-      },
-      last_name: {
-        type: DataTypes.STRING,
-        allowNull: false,
-      },
-      age: {
-        type: DataTypes.INTEGER,
-        allowNull: true,
-      },
-      metamask_wallet: {
-        type: DataTypes.STRING,
+      username : {
+        type : DataTypes.STRING,
+        allowNull : false,
+        unique: true,
       },
       email: {
         type: DataTypes.STRING,
         allowNull: false,
         unique: true,
+      },
+      name: {
+        type: DataTypes.STRING,
+      },
+      last_name: {
+        type: DataTypes.STRING,
+      },
+      age: {
+        type: DataTypes.INTEGER,
+      },
+      metamask_wallet: {
+        type: DataTypes.STRING,
       },
       type: {
         type: DataTypes.STRING,
@@ -41,16 +43,32 @@ module.exports = (sequelize) => {
             }
           },
         },
-        allowNull: true,
+      },
+      face_picture: {
+        type: DataTypes.TEXT,
+      },
+      dni_image_front: {
+        type : DataTypes.TEXT,
+      },
+      dni_image_back: {
+        type : DataTypes.TEXT,
+      },
+      phone_number: {
+        type : DataTypes.STRING,
+        unique : true,
+      },
+      nationality : {
+        type : DataTypes.STRING,
+      },
+      address : {
+        type : DataTypes.STRING,
       },
       dni: {
-        type: DataTypes.INTEGER,
-        allowNull: true,
+        type: DataTypes.STRING,
         unique: true,
       },
       profile_pic: {
         type : DataTypes.TEXT,
-        allowNull: true,
       }
     },
     {

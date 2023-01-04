@@ -65,14 +65,13 @@ const getReviewByID = async (req, res) => {
 // Conseguir el listado de todas las compras.
 const getAllReviews = async (req, res) => {
     try {
-        const allReviews = await Review.findAll({
-            include : [{
-                model : User
-            },{
-                model : Collection
-            },{
-                model : Nft
-            }]
+        const allReviews = req.query.deleted === "include" ? 
+        await Review.findAll({
+            include: [{ model: Nft }, { model: Collection }, { model: User }],
+            paranoid : false,
+        }) :
+        await Review.findAll({
+            include: [{ model: Nft }, { model: Collection }, { model: User }],
         })
         res.status(200).json(allReviews)
     } catch (error) {

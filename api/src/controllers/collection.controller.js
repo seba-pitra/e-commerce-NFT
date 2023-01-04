@@ -9,17 +9,18 @@ const superUserId = superUser.id;
 // Conseguir todas las colecciones de la base de datos.
 const getCollections = async (req, res) => {
   try {
-    const dbCollections = await Collection.findAll({
-      include: [{
-        model: Nft,
-      },{
-        model : User,
-      }],
-    });
-    if (dbCollections.length === 0) {
+    const allCollections = req.query.deleted === "include" ? 
+      await Collection.findAll({
+        include: [{ model: User }, { model: Nft }, { model: Review }],
+        paranoid : false,
+      }) :
+      await Collection.findAll({
+        include: [{ model: User }, { model: Nft }, { model: Review }],
+      })
+    if (allCollections.length === 0) {
       throw new Error("nothing on database");
     }
-    return res.status(200).json(dbCollections);
+    return res.status(200).json(allCollections);
   } catch (err) {
     console.error(err);
     return res.status(400).json({ error: err.message });
