@@ -34,6 +34,9 @@ import { onAuthStateChanged } from "firebase/auth";
 import { getLoggedUser, removeLoggedUser } from "./redux/actions";
 import UserDetail from "./components/UserComponents/UserProfile/UserDetail.jsx";
 
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 function App() {
   const dispatch = useDispatch();
 
@@ -99,6 +102,7 @@ function App() {
         </Switch>
       </React.Fragment>
       <Footer />
+      <ToastContainer />
     </div>
   );
 }

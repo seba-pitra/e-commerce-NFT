@@ -3,17 +3,14 @@ import "./UserCard_dash.css";
 import { auth } from "../../../firebase.js";
 import { deleteUser } from "firebase/auth";
 import { Link } from "react-router-dom";
+import axios from "axios";
 // Components
 import BlockIcon from "@material-ui/icons/Block";
 
 const UserCard_dash = ({ id, name, last_name, email, dni }) => {
-  const handleBlock = () => {
-    fetch(`http://localhost:3001/user/${id}`, {
-      method: "DELETE",
-      headers: { "Content-Type": "application/json" },
-    })
-      .then((res) => res.json())
-      .then((data) => console.log(data));
+  const handleBlock = async () => {
+    const res = await axios.delete(`/user/${id}`);
+    console.log(res.data);
   };
 
   const handleClick = (e) => {
