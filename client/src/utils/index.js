@@ -24,7 +24,7 @@ export function orderNFTBy(orderOption, orderDirection, nftsToSort) {
     case LASTBUY:
       return orderNFTByLastBuy(orderDirection, nftsToSort);
     case CREATEDTS:
-      return orderNFTByCreatedTs(orderDirection, nftsToSort);;
+      return orderNFTByCreatedTs(orderDirection, nftsToSort);
     default:
       return nftsToSort;
   }
@@ -285,6 +285,32 @@ export function validate(input) {
   if (input.price <= 0)
     errors = { ...errors, price: "Price can not be 0 or less" };
   else errors = { ...errors, price: "Price is correct" };
+
+  return errors;
+}
+
+export function validateUser(input) {
+  let errors = {};
+  if(input.name === ''){
+    errors = { ...errors, name: "Last name cant be empty" };
+  }else{
+    if (!/([A-Z])/.test(input.name))
+    errors = { ...errors, name: "Name cant contain special characters" };
+  else errors = { ...errors, name: "Name is correct" };
+  }
+    
+  
+  if(input.last_name === ""){
+    errors = { ...errors, last_name: "Last name cant be empty" };
+  }else{
+    if (!/([A-Z])/.test(input.last_name))
+      errors = {
+        ...errors,
+        last_name: "Last name cant contain special characters",
+      };
+    else errors = { ...errors, last_name: "Last name is correct" };
+  }
+  
 
   return errors;
 }

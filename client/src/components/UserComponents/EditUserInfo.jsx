@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { useEffect, useRef } from "react";
 import { useDispatch } from "react-redux";
 import { updateUser } from "../../redux/actions";
-
+import {validateUser} from '../../utils/index'
 import "./UserProfile/UserProfile.css";
 
 export default function EditUserINfo(props) {
@@ -18,30 +18,46 @@ export default function EditUserINfo(props) {
     mobile: props.mobile,
     id: props.id,
   });
-  let [errors, setErrors] = React.useState({});
+  let [errors, setErrors] = React.useState({
+    
+  });
   const dispatch = useDispatch();
 
-  useEffect(() => {}, []);
+  useEffect(() => {
+    
+    
+    
+
+  }, []);
 
   let handleChange = (e) => {
     e.preventDefault();
     setInput((prev) => ({ ...prev, [e.target.name]: e.target.value }));
-    setErrors(validateUser({ [e.target.name]: e.target.value }));
+
+    setErrors(validateUser({...input,
+      [e.target.name]: e.target.value,}));
+    
   };
   console.log(props);
 
   let handleSubmit = (e) => {
     //al apretar enviar tendria q hacer el dispatch con los cambios,y volver a cargar el componente,pero el lo
     e.preventDefault();
+    
     let obj = { ...input };
     console.log(obj);
     console.log(input);
-    if (props === obj) {
+    if (obj.name === props.name &&
+      obj.last_name === props.last_name &&
+      obj.email === props.email &&
+      obj.phone === props.phone &&
+      obj.mobile === props.mobile &&
+      obj.age === props.age) {
       //si esto se da significa que no hubo ningun cambio .entonces no deberia hacer el dispatch
-      alert("There was no change in your data.");
+      console.log("There was no change in your data.");
       return;
     } else {
-      console.log(obj);
+      console.log('there was a change');
       // dispatch(updateUser(obj))
     }
   };
@@ -73,6 +89,8 @@ export default function EditUserINfo(props) {
           type="text"
           onChange={(e) => handleChange(e)}
           value={input.email}
+          placeholder = 'brunoosuna8@gmail.com'
+          disabled = {true}
         />
       </div>
       <div className="edit-input">
@@ -104,9 +122,16 @@ export default function EditUserINfo(props) {
         />
       </div>
       <input id="submit" type={"submit"} onClick={(e) => handleSubmit(e)} />
+      
+
       {errors.name && <p>{errors.name}</p>}
       {errors.last_name && <p>{errors.last_name}</p>}
-      {errors.email && <p>{errors.email}</p>}
+      
     </form>
   );
 }
+
+
+let s = ['vsv','vsvs','dsdsd','dsds'];
+s.splice(0,2);
+console.log(s)
