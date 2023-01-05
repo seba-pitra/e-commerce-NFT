@@ -1,7 +1,7 @@
 const allNFTs = require("../jsondata");
 const testNFTs = require("../jsondata/indexTest")
 
-const { Nft, Collection, User } = require("../db");
+const { Nft, Collection, User, Review } = require("../db");
 
 const { superUser } = require("../jsondata/superUserData.json");
 
