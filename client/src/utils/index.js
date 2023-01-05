@@ -288,3 +288,27 @@ export function validate(input) {
 
   return errors;
 }
+
+export function validateUserData(errors, data) {
+  errors.name = validateUserName(data.name)
+  errors.last_name = validateUserLastName(data.last_name)
+  console.log(data)
+
+
+
+
+
+  return errors
+}
+
+function validateUserName(property) {
+  if(!property) return "This field must be filled"
+  if(property.length < 4) return "The name is too short"
+  else return "False"
+}
+
+function validateUserLastName(property) {
+  if(!property) return "This field must be filled"
+  if(property.length < 4) return "The name is too short"
+  else return "False"
+}

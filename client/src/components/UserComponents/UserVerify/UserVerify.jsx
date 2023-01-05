@@ -6,6 +6,9 @@ import { useHistory } from "react-router-dom";
 
 import "./UserVerify.css";
 import UserBasicInfo from "./UserBasicInfo";
+import UserMediumInfo from "./UserMediumInfo"; 
+import UserAdvancedInfo from "./UserAdvancedInfo"; 
+
 
 export default function UserVerify() {
   const user = useSelector((state) => state.loggedUser);
@@ -22,21 +25,23 @@ export default function UserVerify() {
   const [userData, setUserData] = useState({
     // step 1
     name: "",
-    last_name: " ",
-    age: " ",
-    dni: " ",
-    phone_number: " ",
-    nationality: " ",
-    address: " ",
-    metamask_wallet: " ",
+    last_name: "",
+    age: "",
+    dni: "",
+    phone_number: "",
+    nationality: "",
+    address: "",
+    metamask_wallet: "",
 
     // step 2
-    dni_image_front: " ",
-    dni_image_back: " ",
-
+    face_picture: "",
+    
     // step 3
-    face_picture: " ",
+    dni_image_front: "",
+    dni_image_back: "",
   });
+
+  // console.log(userData)
 
   // -- STEPS --
   const next = (e) => {
@@ -82,23 +87,20 @@ export default function UserVerify() {
     <>
       <div className="mainContainer">
         <fieldset className={`info-fieldset ${ step !== 1 ? "noneDisplay" : "first-field-collections" }`} >
-          <UserBasicInfo userData={userData} setUserData={setUserData} back={back} next={next}/>
+          <UserBasicInfo userData={userData} setUserData={setUserData} next={next}/>
         </fieldset>
 
         <fieldset className={`info-fieldset ${step !== 2 ? "noneDisplay" : ""}`}>
-          <UserBasicInfo userData={userData} setUserData={setUserData} back={back} next={next}/>
+          <UserMediumInfo userData={userData} setUserData={setUserData} back={back} next={next}/>
         </fieldset>
 
         <fieldset className={`info-fieldset ${ step !== 3 ? "noneDisplay" : "first-field-collections"}`}>
-          <UserBasicInfo userData={userData} setUserData={setUserData} back={back} next={next}/>
+          <UserAdvancedInfo userData={userData} setUserData={setUserData} back={back} next={next}/>
 
           <div className="ilustration-validations">
-            <input className={ userData.name === "" ? "errorSubmit" : "submit" } type="submit" value={"Create NFT"} disabled={ userData.name === "" } onClick={(e) => handleSubmit(e)} />
+            <input className={ userData.name === "" ? "errorSubmit" : "submit" } type="submit" value={"Ask for verify"} disabled={ userData.name === "" } onClick={(e) => handleSubmit(e)} />
           </div>
 
-          <div className="buttons-next-prev">
-            <button onClick={back}> back</button>
-          </div>
         </fieldset>
 
       </div>
