@@ -2,7 +2,7 @@ const { DataTypes } = require("sequelize");
 
 module.exports = (sequelize) => {
   sequelize.define(
-    "buy",
+    "purchase",
     {
       id: {
         type: DataTypes.UUID,
@@ -13,17 +13,13 @@ module.exports = (sequelize) => {
       },
       price: {
         type: DataTypes.STRING,
-        // allowNull: false,
-      },
-      contract: {
-        type: DataTypes.STRING,
-        // allowNull: false,
       },
       statusPay: {
         type: DataTypes.STRING,
+        defaultValue: "Created",
         validate: {
           customValidator: (value) => {
-            const enums = ["Created", "Pending", "Rejected", "Successed"];
+            const enums = ["Created", "Pending", "Rejected", "Successful" ];
             if (!enums.includes(value)) {
               throw new Error("not a valid option");
             }
@@ -41,19 +37,10 @@ module.exports = (sequelize) => {
           },
         },
       },
-      purchases: {
-        type: DataTypes.ARRAY(DataTypes.JSON),
-        allowNull: false,
-      },
-      from: {
-        type: DataTypes.STRING,
-      },
-      to: {
-        type: DataTypes.STRING,
-      },
     },
     {
       timestamps: true,
+      paranoid: true,
     }
   );
 };

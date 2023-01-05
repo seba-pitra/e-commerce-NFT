@@ -1,7 +1,7 @@
 const express = require("express");
 const paymentRouter = express.Router();
 const PaymentController = require("../controllers/PaymentController");
-const {PaymentService, getLoggedUser} = require("../services/PaymentService");
+const { PaymentService, getLoggedUser } = require("../services/PaymentService");
 
 const PaymentInstance = new PaymentController(new PaymentService());
 
@@ -15,14 +15,13 @@ paymentRouter.post("/", async (req, res, next) => {
   }
 });
 
-paymentRouter.post("/userEmail", async (req, res)=> {
-  // console.log(req.body)
-  getLoggedUser(req.body)
-})
-
-paymentRouter.get("/subscription", function (req, res, next) {
-  PaymentInstance.getSubscriptionLink(req, res);
+paymentRouter.post("/userEmail", async (req, res) => {
+  getLoggedUser(req.body);
+  return res.sendStatus(201);
 });
 
+paymentRouter.get("/subscription", function (req, res) {
+  PaymentInstance.getSubscriptionLink(req, res);
+});
 
 module.exports = paymentRouter;

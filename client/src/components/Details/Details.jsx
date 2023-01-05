@@ -6,6 +6,9 @@ import { Link, useHistory } from "react-router-dom";
 import styles from "./Details.module.css";
 import ethereumLogo from "../../images/ethereum-logo.png";
 import { startPayment } from "../../utils";
+import StarRating from "../StarRating/StarRating";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Details = (props) => {
   const dispatch = useDispatch();
@@ -24,21 +27,25 @@ const Details = (props) => {
     }
   };
 
-  //useEffect(() => {
-  //     validateUser();
-  // }, []);
-
   const { id } = props.match.params;
-  let sales;
   const nftDetail = useSelector((state) => state.nftDetail);
   const isLoading = useSelector((state) => state.isLoading);
 
   const [error, setError] = useState();
   const [txs, setTxs] = useState([]);
 
+  const [rating, setRating] = useState([]);
+
+  console.log("rating detail > ", rating)
+
+  useEffect(() => {
+    dispatch(actions.addStars({id, rating: rating.value}));
+  }, [rating]);
+
   useEffect(() => {
     validateUser();
     dispatch(actions.getNftDetail(id));
+    dispatch(actions.addViewNft(id));
   }, [dispatch, id]);
 
   const handlePay = async (e) => {
@@ -50,7 +57,6 @@ const Details = (props) => {
       addr: nftDetail.contract,
     });
 
-    console.log(transactionMetamask);
     //aca muestra quien hizo la compra y quien recibio la plata.
     let buyData = {
       price: nftDetail.price + " ETH",
@@ -62,19 +68,21 @@ const Details = (props) => {
 
     if (transactionMetamask.hash) {
       //si salio bien...
+      toast.success("Payment successfully");
       buyData = {
         ...buyData,
         statusPay: "Successed",
-
       };
     } else if (transactionMetamask.includes("rejected")) {
       //si se rechazo en metamask
+      toast.error("Something was wrong. Try again later");
       buyData = {
         ...buyData,
         statusPay: "Rejected",
       };
     } else if (transactionMetamask.includes("insufficient funds")) {
       //si faltan fondos
+      toast.warning("You have insufficient funds in Metamask");
       buyData = {
         ...buyData,
         statusPay: "Pending",
@@ -93,6 +101,9 @@ const Details = (props) => {
   let date = new Date(nftDetail.createdTs);
   date = date.toString();
   date = date.slice(4, 16);
+
+  let starsValue = nftDetail.stars?.reduce((a, b) => a + b, 0);
+  starsValue = starsValue / nftDetail.stars?.length
 
   return (
     <>
@@ -116,6 +127,7 @@ const Details = (props) => {
 
             <div className={styles["nft-data-container"]}>
               <div>
+                <StarRating rating={rating} setRating={setRating}/>
                 <h1>{nftDetail.name}</h1>
                 <span className={styles["detail-span"]}>
                   Included from {nftDetail.ownerName + " "}
@@ -138,8 +150,8 @@ const Details = (props) => {
               </div>
 
               <div className={styles["flex-row3"]}>
-                <h6>Favs: {nftDetail.favs}</h6>
-                <h6>Stars: {nftDetail.stars}</h6>
+                <h6>Views: {nftDetail.favs}</h6>
+                <h6>Stars: {starsValue}</h6>
                 <h6>Rarity: {nftDetail.rarity}</h6>
               </div>
 
@@ -173,7 +185,7 @@ const Details = (props) => {
                 <h6>{nftDetail.description}</h6>
                 {/* {nftDetail.available ? ( <span className={styles.available}>Available</span> ) : ( <span className={styles.unavailable}>Unavailable</span> )} */}
                 <h6>Categories: {nftDetail.category?.join(", ")}</h6>
-                <h6>Created At: {date}</h6>
+                {/* <h6>Created At: {date}</h6> */}
               </div>
 
               <div className={styles["buttons-container"]}>

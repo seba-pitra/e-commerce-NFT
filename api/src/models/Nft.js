@@ -1,4 +1,4 @@
-const { DataTypes, STRING } = require("sequelize");
+const { DataTypes } = require("sequelize");
 
 module.exports = (sequelize) => {
   sequelize.define(
@@ -31,7 +31,6 @@ module.exports = (sequelize) => {
       },
       contract: {
         type: DataTypes.STRING,
-        allowNull: false,
       },
       tokenId: {
         type: DataTypes.STRING,
@@ -40,13 +39,6 @@ module.exports = (sequelize) => {
       price: {
         type: DataTypes.FLOAT,
         allowNull: false,
-        validate: {
-          customValidator: (value) => {
-            if (typeof value !== "number") {
-              throw new Error("Price must be a number");
-            }
-          },
-        },
       },
       rarity: {
         type: DataTypes.FLOAT,
@@ -54,17 +46,14 @@ module.exports = (sequelize) => {
       favs: {
         type: DataTypes.FLOAT,
       },
-      stars: {
-        type: DataTypes.FLOAT,
-      },
       lastBuyValue: {
         type: DataTypes.FLOAT,
       },
       lastBuyTs: {
-        type: DataTypes.FLOAT,
+        type: DataTypes.DATE,
       },
       createdTs: {
-        type: DataTypes.FLOAT,
+        type: DataTypes.DATE,
       },
       ownerName: {
         type: DataTypes.STRING,

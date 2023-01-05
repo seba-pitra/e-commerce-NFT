@@ -3,12 +3,10 @@ import { ethers } from "ethers";
 const NAME = "name";
 const PRICE = "price";
 const RARITY = "rarity";
-const RARITYRANK = "rarityrank";
+const FAVS = "favs";
+const STARS = "stars";
 const LASTBUY = "lastbuy";
-const LASTBUYTS = "lastbuyts";
-const AMOUNT = "amount";
-const CREATION = "creationDate";
-const RATING = "rating";
+const CREATEDTS = "createdTs";
 
 // recibe la base del ordenamiento, la direccion y los nft que va a ordernar;
 export function orderNFTBy(orderOption, orderDirection, nftsToSort) {
@@ -19,18 +17,14 @@ export function orderNFTBy(orderOption, orderDirection, nftsToSort) {
       return orderNFTByPrice(orderDirection, nftsToSort);
     case RARITY:
       return orderNFTByRarity(orderDirection, nftsToSort);
-    case RARITYRANK:
-      return orderNFTByRarityRank(orderDirection, nftsToSort);
+    case FAVS:
+      return orderNFTByFavs(orderDirection, nftsToSort);
+    case STARS:
+      return orderNFTByStars(orderDirection, nftsToSort);
     case LASTBUY:
       return orderNFTByLastBuy(orderDirection, nftsToSort);
-    case LASTBUYTS:
-      return orderNFTByLastBuyTs(orderDirection, nftsToSort);
-    case AMOUNT:
-      return orderNFTByAmount(orderDirection, nftsToSort);
-    case CREATION:
-      return orderNFTByCreation(orderDirection, nftsToSort);
-    case RATING:
-      return orderNFTByRating(orderDirection, nftsToSort);
+    case CREATEDTS:
+      return orderNFTByCreatedTs(orderDirection, nftsToSort);;
     default:
       return nftsToSort;
   }
@@ -109,23 +103,23 @@ export function orderNFTByRarity(order, nfts) {
 }
 
 // FALTA BOTON
-export function orderNFTByRarityRank(order, nfts) {
+export function orderNFTByFavs(order, nfts) {
   if (order === "up-down") {
     return nfts.sort((nftA, nftB) => {
-      if (nftA.rarityRank > nftB.rarityRank) {
+      if (nftA.favs > nftB.favs) {
         return 1;
       }
-      if (nftB.rarityRank > nftA.rarityRank) {
+      if (nftB.favs > nftA.favs) {
         return -1;
       }
       return 0;
     });
   } else if (order === "down-up") {
     return nfts.sort((nftA, nftB) => {
-      if (nftA.rarityRank > nftB.rarityRank) {
+      if (nftA.favs > nftB.favs) {
         return -1;
       }
-      if (nftB.rarityRank > nftA.rarityRank) {
+      if (nftB.favs > nftA.favs) {
         return 1;
       }
       return 0;
@@ -159,23 +153,23 @@ export function orderNFTByLastBuy(order, nfts) {
 }
 
 // FALTA BOTON
-export function orderNFTByLastBuyTs(order, nfts) {
+export function orderNFTByCreatedTs(order, nfts) {
   if (order === "up-down") {
     return nfts.sort((nftA, nftB) => {
-      if (nftA.lastBuyTs > nftB.lastBuyTs) {
+      if (nftA.createdTs > nftB.createdTs) {
         return 1;
       }
-      if (nftB.lastBuyTs > nftA.lastBuyTs) {
+      if (nftB.createdTs > nftA.createdTs) {
         return -1;
       }
       return 0;
     });
   } else if (order === "down-up") {
     return nfts.sort((nftA, nftB) => {
-      if (nftA.lastBuyTs > nftB.lastBuyTs) {
+      if (nftA.createdTs > nftB.createdTs) {
         return -1;
       }
-      if (nftB.lastBuyTs > nftA.lastBuyTs) {
+      if (nftB.createdTs > nftA.createdTs) {
         return 1;
       }
       return 0;
@@ -183,23 +177,23 @@ export function orderNFTByLastBuyTs(order, nfts) {
   }
 }
 
-export function orderNFTByAmount(order, nfts) {
+export function orderNFTByStars(order, nfts) {
   if (order === "up-down") {
     return nfts.sort((nftA, nftB) => {
-      if (nftA.amount > nftB.amount) {
+      if (nftA.stars > nftB.stars) {
         return 1;
       }
-      if (nftB.amount > nftA.amount) {
+      if (nftB.stars > nftA.stars) {
         return -1;
       }
       return 0;
     });
   } else if (order === "down-up") {
     return nfts.sort((nftA, nftB) => {
-      if (nftA.amount > nftB.amount) {
+      if (nftA.stars > nftB.stars) {
         return -1;
       }
-      if (nftB.amount > nftA.amount) {
+      if (nftB.stars > nftA.stars) {
         return 1;
       }
       return 0;

@@ -17,6 +17,7 @@ import {
   SET_CATEGORY_REST,
   SET_CATEGORY_BACKG,
   SET_NFTS_PRICE,
+  SET_VIEW_CARDS,
   FILTER_NFTS,
   SEARCH_NFT_NAME,
   RESET_FILTERS,
@@ -26,7 +27,7 @@ import {
   ORDER_NFT_FAVS,
   ORDER_NFT_STARS,
   ORDER_NFT_LASTBUY,
-  ORDER_NFT_LASTBUYTS,
+  ORDER_NFT_CREATEDTS,
   GET_USER_BY_ID,
   GET_LOGGED_USER,
   REMOVE_LOGGED_USER,
@@ -46,6 +47,8 @@ import {
   ADD_FAV,
 } from "../actions";
 import * as controllers from "../../utils";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const initialState = {
   nfts: [],
@@ -60,6 +63,7 @@ const initialState = {
   setCategoryRest: [],
   setCategoryBackg: [],
   setNftsPrice: {},
+  viewCards: "info",
   users: [],
   userNfts: [],
   nftDetail: {},
@@ -140,7 +144,9 @@ const rootReducer = (state = initialState, action) => {
     case SET_CATEGORY_BACKG:
       return { ...state, setCategoryBackg: action.payload };
     case SET_NFTS_PRICE:
-      return { ...state, setNftsPrice: action.payload };
+      return { ...state, setNftsPrice: action.payload }; 
+    case SET_VIEW_CARDS:
+      return { ...state, viewCards: action.payload}; 
 
     // --- FILTERS ---
     case FILTER_NFTS:
@@ -337,13 +343,13 @@ const rootReducer = (state = initialState, action) => {
       );
       return { ...state, filteredNfts: orderedbyLastBuy, activePage: 1 };
 
-    case ORDER_NFT_LASTBUYTS:
-      let orderedbyLastBuyTs = controllers.orderNFTBy(
-        "lastbuyts",
+    case ORDER_NFT_CREATEDTS:
+      let orderedbyCreatedTs = controllers.orderNFTBy(
+        "createdTs",
         state.orderDirection,
         state.filteredNfts
       );
-      return { ...state, filteredNfts: orderedbyLastBuyTs, activePage: 1 };
+      return { ...state, filteredNfts: orderedbyCreatedTs, activePage: 1 };
 
     // --- PAGINATION ---
     case SELECT_PAGE:
@@ -358,7 +364,7 @@ const rootReducer = (state = initialState, action) => {
     case PREV_PAGE:
       return { ...state, activePage: state.activePage - 1 };
 
-    // --- OTROS ---
+    // --- OTHERS ---
     case GET_ETH_PRICE:
       return { ...state, ethPrice: action.payload };
 
@@ -366,7 +372,12 @@ const rootReducer = (state = initialState, action) => {
       const foundNft = state.userNfts.find(
         (nft) => nft.id === action.payload.id
       );
-      if (foundNft) return { ...state };
+      if (foundNft) {
+        toast.error("This NFT is already in your shopping cart");
+        return { ...state };
+      }
+
+      toast.success("NFT added to shopping cart successfully");
 
       return {
         ...state,
@@ -374,6 +385,10 @@ const rootReducer = (state = initialState, action) => {
       };
 
     case REMOVE_NFT_OF_SHOOPING_CART:
+      toast.success("NFT removed to shopping cart successfully", {
+        theme: "dark",
+      });
+
       return {
         ...state,
         userNfts: state.userNfts.filter((nft) => nft.id !== action.payload),
