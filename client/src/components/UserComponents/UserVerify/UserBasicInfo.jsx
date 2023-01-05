@@ -24,17 +24,10 @@ export default function UserBasicInfo({ userData, setUserData, next }) {
     setErrors(validateUserData(errors, {...userData, [e.target.name]: e.target.value}))
   }
 
-  let cont = 0
-  useEffect(()=> {
-    cont++;
-    console.log(userData)
-    console.log(cont);
-  }, [errors])
-  
   return (
     <>
       <div className="inputContainer">
-        <h6>Basic information about you</h6>
+        <h6>Add your personal data</h6>
         <div className="divs-separet">
 
           <div className="div-user-basic">
@@ -52,26 +45,31 @@ export default function UserBasicInfo({ userData, setUserData, next }) {
           <div className="div-user-basic">
             <label>Age</label>
             <input type="text" name="age" value={userData.age} onChange={(e) => inputChange(e)} />
+            <span className={errors.age === "False" ? "error-false" : "error-true"}>{errors.age}</span>
           </div>
 
           <div className="div-user-basic">
             <label>DNI</label>
             <input type="text" name="dni" value={userData.dni} onChange={(e) => inputChange(e)} />
+            <span className={errors.dni === "False" ? "error-false" : "error-true"}>{errors.dni}</span>
           </div>
 
           <div className="div-user-basic">
             <label>Phone Number</label>
             <input type="text" name="phone_number" value={userData.phone_number} onChange={(e) => inputChange(e)} />
+            <span className={errors.phone_number === "False" ? "error-false" : "error-true"}>{errors.phone_number}</span>
           </div>
 
           <div className="div-user-basic">
             <label>Nationality</label>
             <input type="text" name="nationality" value={userData.nationality} onChange={(e) => inputChange(e)} />
+            <span className={errors.nationality === "False" ? "error-false" : "error-true"}>{errors.nationality}</span>
           </div>
 
           <div className="div-user-basic">
             <label>Address</label>
             <input type="text" name="address" value={userData.address} onChange={(e) => inputChange(e)} />
+            <span className={errors.address === "False" ? "error-false" : "error-true"}>{errors.address}</span>
           </div>
 
           <div className="div-user-basic">
@@ -83,8 +81,10 @@ export default function UserBasicInfo({ userData, setUserData, next }) {
       </div>
 
       <div className="buttons-next-prev">
-          <button className={userData.name === "" ? "disabled" : "button-next"} 
-          onClick={next} disabled={userData.name === "" } > Next </button>
+          <button className={(errors.name !== "False" || errors.last_name !== "False" || errors.age !== "False" || errors.dni !== "False" || 
+          errors.phone_number !== "False" || errors.nationality !== "False" || errors.address !== "False") ? "disabled" : "button-next"} 
+          onClick={next} disabled={(errors.name !== "False" || errors.last_name !== "False" || errors.age !== "False" || errors.dni !== "False" || 
+          errors.phone_number !== "False" || errors.nationality !== "False" || errors.address !== "False")} > Next </button>
       </div>
     </>
   );
