@@ -9,18 +9,20 @@ const superUserId = superUser.id;
 // Conseguir todas las colecciones de la base de datos.
 const getCollections = async (req, res) => {
   try {
-    const dbCollections = await Collection.findAll({
-      include: [{
-        model: Nft,
-      },{
-        model : User,
-      }],
-    });
-    if (dbCollections.length === 0) {
+    const allCollections = req.query.deleted === "include" ? 
+      await Collection.findAll({
+        include: [{ model: User }, { model: Nft }, { model: Review }],
+        paranoid : false,
+      }) :
+      await Collection.findAll({
+        include: [{ model: User }, { model: Nft }, { model: Review }],
+      })
+    if (allCollections.length === 0) {
       throw new Error("nothing on database");
     }
-    return res.status(200).json(dbCollections);
+    return res.status(200).json(allCollections);
   } catch (err) {
+    console.error(err);
     return res.status(400).json({ error: err.message });
   }
 };
@@ -43,6 +45,7 @@ const getCollectionById = async (req, res) => {
       throw new Error(`Could not find collection in db with id ${id}`);
     }
   } catch (err) {
+    console.error(err);
     res.status(400).json({ error: err.message });
   }
 };
@@ -66,7 +69,7 @@ const createNewCollection = async (req, res) => {
         name: name,
         image: image,
         origin : "USER",
-        contract : "Here goes the metamask contract",
+        contract : userOwner.metamask_wallet
       }); // Crea la coleccion con los datos recibidos
 
       newCollection.setUser(userOwner) //setea el usuario como dueño de la db.
@@ -74,6 +77,7 @@ const createNewCollection = async (req, res) => {
       res.status(200).json(newCollection); //devuelve la coleccion creada.
     }
   } catch (err) {
+    console.error(err);
     res.status(400).json({ error: err.message });
   }
 };
@@ -100,6 +104,7 @@ const deleteCollection = async (req, res) => {
       throw new Error(`no Collection found with id: ${id}`);
     }
   } catch (err) {
+    console.error(err);
     return res.status(400).json({ err: err.message });
   }
 };
@@ -118,6 +123,7 @@ const updateCollection = async (req, res) => {
       throw new Error(`No collection with id ${id}`);
     }
   } catch (err) {
+    console.error(err);
     res.status(400).send(err.message);
   }
 };
@@ -144,6 +150,7 @@ const restoreDeletedCollection = async (req, res) => {
       throw new Error(`No collection found with id ${id}`);
     }
   } catch (err) {
+    console.error(err);
     return res.status(400).json({ err: err.message });
   }
 };
@@ -156,6 +163,7 @@ const postAllCollectionsToDB = async (req, res) => {
     const allCollections = createAllInitialCollections();
     res.status(200).json(allCollections);
   } catch (err) {
+    console.error(err);
     res.status(400).json({ error: err.message });
   }
 };
@@ -200,7 +208,8 @@ const createAllInitialCollections = async () => {
     "Date: " + new Date().toString());
     return response;
   } catch (err) {
-    throw new Error(err.message);
+    console.log(err);
+    throw new Error(`Function: createAllInitialCollections() caught => ${err.message}`);
   }
 };
 
