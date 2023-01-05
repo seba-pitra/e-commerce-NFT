@@ -14,12 +14,12 @@ reviewRouter.get("/", getAllReviews);
 
 reviewRouter.get("/:id", getReviewByID);
 
-reviewRouter.get("/user/:id", getReviewsFromUser)
+reviewRouter.get("/user/:id", getReviewsFromUser);
 
 reviewRouter.post("/create", createReview);
 
-reviewRouter.put("/update/:id", updateReview);
+reviewRouter.put("/:id", updateReview);
 
-reviewRouter.delete("/delete/:id", deleteReview);
+reviewRouter.delete("/:id", deleteReview);
 
 module.exports = reviewRouter;

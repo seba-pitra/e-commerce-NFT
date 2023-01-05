@@ -121,12 +121,15 @@ const updateReview = async (req, res) => {
 const deleteReview = async (req, res) => {
     try {
         const { id } = req.params;
-        await Review.destroy({
-            where : {
-                id : id
-            }
-        });
-        res.status(200).json({message : "review succesfully deleted"})
+        const reviewToDelete = await Review.findByPk(id);
+        if (reviewToDelete){
+            await Review.destroy({
+                where : { id : id }
+            });
+            res.status(200).json({message : "review succesfully deleted"})
+        }else{
+            throw new Error(`No review found with id : ${id}`)
+        }
     } catch (error) {
         console.error(error);
         res.status(400).json({error: error.message});
