@@ -4,15 +4,17 @@ const {
     getReviewByID,
     createReview,
     updateReview,
-    deleteReview
+    deleteReview,
+    getReviewsFromUser
 } = require ("../controllers/review.controller.js");
-
 
 const reviewRouter = Router();
 
 reviewRouter.get("/", getAllReviews);
 
 reviewRouter.get("/:id", getReviewByID);
+
+reviewRouter.get("/user/:id", getReviewsFromUser)
 
 reviewRouter.post("/create", createReview);
 
@@ -21,5 +23,3 @@ reviewRouter.put("/update/:id", updateReview);
 reviewRouter.delete("/delete/:id", deleteReview);
 
 module.exports = reviewRouter;
-
-

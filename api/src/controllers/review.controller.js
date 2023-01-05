@@ -61,6 +61,26 @@ const getReviewByID = async (req, res) => {
     }
 };
 
+const getReviewsFromUser = async (req, res) => {
+    try {
+        const { id } = req.params
+
+        const user = await User.findByPk(id, {
+            include : [{
+                model : Review
+                }]
+            });
+
+        if (!user) throw new Error(`No user found with id: ${id}`)
+
+        res.status(200).json({user_reviews : user.reviews})
+        
+    } catch (error) {
+        console.error(error);
+        res.status(404).json({error : error.message})
+    }
+}
+
 // Get a list of all purchases.
 // Conseguir el listado de todas las compras.
 const getAllReviews = async (req, res) => {
@@ -113,12 +133,11 @@ const deleteReview = async (req, res) => {
     }
 };
 
-
-
 module.exports = {
     createReview,
     getAllReviews,
     getReviewByID,
     updateReview,
     deleteReview,
+    getReviewsFromUser
 };
