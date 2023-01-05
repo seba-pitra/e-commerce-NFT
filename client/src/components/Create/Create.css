@@ -218,10 +218,6 @@
     margin-right: 40px;
   }
 
-  .cloudinary-collections-create h5, .cloudinary-collections-create p{
-    display: none;
-  }
-
   .cloudinary-collections-create button{
     width: 100px;
     height: 40px;

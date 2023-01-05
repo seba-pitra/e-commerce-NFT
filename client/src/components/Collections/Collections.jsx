@@ -33,7 +33,7 @@ let loginStatusStorage = localStorage.getItem("Logged");
 
   const collectionsCards = collections.map((collection) => {
 
-    if(collection.nfts.length > 5) {
+    if(collection.nfts.length > 4) {
       let floorPrice = 100
       collection.nfts.map(nft => { if(nft.price < floorPrice) floorPrice = nft.price })
       return (

@@ -1,0 +1,24 @@
+.inputContainer{
+  min-width: 300px;
+}
+
+.inputContainer h6{
+  text-align: center;
+}
+
+.div-user-basic{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.error-false{
+  display: none;
+}
+
+.error-true{
+  margin-top: -12px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fadc8b;
+}
