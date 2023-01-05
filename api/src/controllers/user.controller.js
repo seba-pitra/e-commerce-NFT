@@ -44,11 +44,11 @@ const getAllUsers = async (req, res) => {
   try {
     const allUsers = req.query.deleted === "include" ? 
       await User.findAll({
-        include: [{ model: Nft }, { model: Collection }, { model: Purchase, as : "purchases"}, { model: Purchase, as : "purchases"}],
+        include: [{ model: Nft }, { model: Collection }, { model: Purchase, as : "sales"}, { model: Purchase, as : "purchases"}],
         paranoid : false,
       }) :
       await User.findAll({
-        include: [{ model: Nft }, { model: Collection }, { model: Purchase, as : "purchases"}, { model: Purchase, as : "purchases"}],
+        include: [{ model: Nft }, { model: Collection }, { model: Purchase, as : "sales"}, { model: Purchase, as : "purchases"}],
       })
     if (allUsers.length === 0) {
       throw new Error(`No users found on database`);
