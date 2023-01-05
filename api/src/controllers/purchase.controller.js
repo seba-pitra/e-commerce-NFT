@@ -59,29 +59,62 @@ const createNewPurchase = async (req, res) => {
 
 // Get purchase through id.
 // Conseguir una compra a través del id.
-const getPurchaseById = async (req, res) => {
+const getPurchasesByUserAsBuyer = async (req, res) => {
   try {
     const { id } = req.params;
-    const foundPurchase = await Purchase.findByPk(id, {
-      include : [{
-        model : User,
-        as: "buyer"
-      },{
-        model : User,
-        as: "seller"
-      },{
-        model : Nft,
-        as : 'tokens'
-      }]
-    });
-    if (foundPurchase) {
-      res.status(200).json(foundPurchase);
+      const foundPurchases = await Purchase.findAll({
+        where: { 
+          buyerId: id 
+        },
+        include: [{
+          model: User,
+          as: "buyer",
+        },{
+          model: User,
+          as: "seller",
+        },{
+          model: Nft,
+          as: "tokens",
+        }],
+      });
+    if (foundPurchases) {
+      res.status(200).json(foundPurchases);
     } else {
-      throw new Error(`Could not find Purchase in database with id: ${id}`);
+      throw new Error(`Could not find any purchases for user with id: ${id}`);
     }
   } catch (err) {
-    console.error(err);
-    res.status(404).send({ error: err.message });
+  console.error(err);
+  res.status(404).send({ error: err.message });
+  }
+};
+
+
+const getPurchasesByUserAsSeller = async (req, res) => {
+  try {
+    const { id } = req.params;
+      const foundPurchases = await Purchase.findAll({
+        where: { 
+          sellerId: id 
+        },
+        include: [{
+          model: User,
+          as: "buyer",
+        },{
+          model: User,
+          as: "seller",
+        },{
+          model: Nft,
+          as: "tokens",
+        }],
+      });
+    if (foundPurchases) {
+      res.status(200).json(foundPurchases);
+    } else {
+      throw new Error(`Could not find any purchases for user with id: ${id}`);
+    }
+  } catch (err) {
+  console.error(err);
+  res.status(404).send({ error: err.message });
   }
 };
 
@@ -182,15 +215,12 @@ const purchaseSuccess = async (req, res) => {
   }
 }
 
-// inicia el servidor de Express
-app.listen(3000, () => {
-  console.log('Servidor iniciado en el puerto 3000');
-});
-
 module.exports = {
   createNewPurchase,
   getAllPurchases,
-  getPurchaseById,
+  getPurchasesByUserAsBuyer,
+  getPurchasesByUserAsSeller,
   rejectPurchase,
-  purchaseSuccess
+  purchaseSuccess,
+  setPurchaseAsPending
 };
