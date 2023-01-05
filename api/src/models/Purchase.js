@@ -19,7 +19,7 @@ module.exports = (sequelize) => {
         defaultValue: "Created",
         validate: {
           customValidator: (value) => {
-            const enums = ["Created", "Pending", "Rejected", "Successful", ];
+            const enums = ["Created", "Pending", "Rejected", "Successful" ];
             if (!enums.includes(value)) {
               throw new Error("not a valid option");
             }
