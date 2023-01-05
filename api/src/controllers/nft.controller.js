@@ -13,11 +13,11 @@ const getNfts = async (req, res) => {
   try {
     const allNfts = req.query.deleted === "include" ? 
       await Nft.findAll({
-        include: [{ model: User }, { model: Collection }, { model: Review }],
+        include: [{ model: User }, { model: Collection }, { model: Review }, { model: Purchase }],
         paranoid : false,
       }) :
       await Nft.findAll({
-        include: [{ model: Nft }, { model: Collection }, { model: Review }],
+        include: [{ model: Nft }, { model: Collection }, { model: Review }, { model: Purchase }],
       })
     if (allNfts.length === 0) {
       throw new Error("nothing on database please contact Mr. Miguel Villa");
@@ -41,6 +41,9 @@ const getNftById = async (req, res) => {
         },
         {
           model: Review,
+        },
+        {
+          model: Purchase 
         }
       ],
     });

@@ -11,7 +11,7 @@ const {
 
 const purchaseRouter = Router();
 
-purchaseRouter.post("/", createNewPurchase)
+purchaseRouter.post("/create", createNewPurchase)
 
 purchaseRouter.get("/", getAllPurchases)
 

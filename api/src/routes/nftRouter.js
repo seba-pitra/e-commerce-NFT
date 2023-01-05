@@ -21,7 +21,7 @@ nftRouter.put("/:id", updateNft);
 
 nftRouter.delete("/:id", deleteNft);
 
-nftRouter.put("/restore/:id", restoreDeletedNft)
+nftRouter.get("/restore/:id", restoreDeletedNft)
 
 nftRouter.put("/transfer/:id", changeNftOwner)
 

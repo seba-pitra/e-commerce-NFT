@@ -37,6 +37,8 @@ const getCollectionById = async (req, res) => {
         model: Nft,
       },{
         model : User,
+      },{
+        model : Review
       }],
     });
     if (foundCollectionInDB) {

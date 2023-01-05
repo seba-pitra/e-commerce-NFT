@@ -36,6 +36,10 @@ const getEverythingFromDB = async (req, res) => {
                 model : Collection
             }, {
                 model : User,
+            }, {
+                model : Review
+            },{
+                model : Purchase
             }]
         });
         const allCollections = await Collection.findAll({
@@ -43,12 +47,21 @@ const getEverythingFromDB = async (req, res) => {
                 model : Nft
             },{
                 model : User,
+            }, {
+                model : Review
             }]
         });
         const allPurchases = await Purchase.findAll({
-            include : {
+            include : [{
                 model : User,
-            }
+                as : "buyer"
+            },{
+                model : User,
+                as : "seller"
+            },{
+                model : Nft,
+                as : "tokens"
+            }]
         });
         const allUsers = await User.findAll({
             include : [{
@@ -57,6 +70,10 @@ const getEverythingFromDB = async (req, res) => {
                 model: Nft
             },{
                 model : Purchase,
+                as: "sales"
+            },{
+                model : Purchase,
+                as : "purchases"
             }]
         });
         res.status(200).json({
