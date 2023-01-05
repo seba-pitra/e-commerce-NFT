@@ -5,7 +5,8 @@ const {
   updateNft,
   createNewNFT,
   deleteNft,
-  restoreDeletedNft
+  restoreDeletedNft,
+  changeNftOwner
 } = require("../controllers/nft.controller");
 
 const nftRouter = Router();
@@ -21,5 +22,7 @@ nftRouter.put("/:id", updateNft);
 nftRouter.delete("/:id", deleteNft);
 
 nftRouter.put("/restore/:id", restoreDeletedNft)
+
+nftRouter.put("/transfer/:id", changeNftOwner)
 
 module.exports = nftRouter;

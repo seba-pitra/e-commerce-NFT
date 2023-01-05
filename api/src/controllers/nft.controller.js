@@ -199,6 +199,25 @@ const restoreDeletedNft = async (req, res) => {
   }
 };
 
+const changeNftOwner =  async (req, res) => {
+  try {
+    const { id } = req.params;
+    const { newOwnerId } = req.body
+    // busca el NFT por su ID
+    const nft = await Nft.findByPk(id);
+    if(!nft) throw new Error(`no nft found with id: ${id}`)
+    // busca el nuevo dueño (owner) por su ID
+    const newOwner = await User.findByPk(newOwnerId);
+    if(!newOwner) throw new Error(`No user found with id ${newOwnerId}`)
+    // asigna el nuevo dueño (owner) al NFT
+    await nft.setOwner(newOwner);
+    res.json({ message: 'Dueño del NFT cambiado con éxito' });
+  } catch (error) {
+    console.error(error)
+    res.status(400).json({error : error.message})
+  }
+};
+
 /*
  * function to add all nfts to the database using jsons as the base data.
  */
@@ -301,4 +320,5 @@ module.exports = {
   createNewNFT,
   deleteNft,
   restoreDeletedNft,
+  changeNftOwner
 };

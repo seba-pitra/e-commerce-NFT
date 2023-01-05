@@ -182,6 +182,11 @@ const purchaseSuccess = async (req, res) => {
   }
 }
 
+// inicia el servidor de Express
+app.listen(3000, () => {
+  console.log('Servidor iniciado en el puerto 3000');
+});
+
 module.exports = {
   createNewPurchase,
   getAllPurchases,
