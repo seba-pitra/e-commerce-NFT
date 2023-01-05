@@ -101,7 +101,7 @@ const addViewsNft = async (req, res) => {
   }
 };
 
-/* const addStarsNft = async (req, res) => {
+const addStarsNft = async (req, res) => {
   try {
     const { rating } = req.body;
     const { id } = req.params;
@@ -118,7 +118,7 @@ const addViewsNft = async (req, res) => {
   } catch (err) {
     res.status(400).send(err.message);
   }
-}; */
+};
 
 //Crea el nuevo nft a partir de nombre, descripcion, imagen, contrato, id del token, precio, dueño e imagen.
 const createNewNFT = async (req, res) => {
