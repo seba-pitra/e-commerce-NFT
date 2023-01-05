@@ -44,11 +44,11 @@ const getAllUsers = async (req, res) => {
   try {
     const allUsers = req.query.deleted === "include" ? 
       await User.findAll({
-        include: [{ model: Nft }, { model: Collection }, { model: Purchase, as : "buyer"}, { model: Purchase, as : "seller"}],
+        include: [{ model: Nft }, { model: Collection }, { model: Purchase, as : "sales"}, { model: Purchase, as : "purchases"}],
         paranoid : false,
       }) :
       await User.findAll({
-        include: [{ model: Nft }, { model: Collection }, { model: Purchase, as : "buyer"}, { model: Purchase, as : "seller"}],
+        include: [{ model: Nft }, { model: Collection }, { model: Purchase, as : "sales"}, { model: Purchase, as : "purchases"}],
       })
     if (allUsers.length === 0) {
       throw new Error(`No users found on database`);
@@ -83,7 +83,7 @@ const getUserById = async (req, res) => {
   try {
     const { id } = req.params;
     const foundUser = await User.findByPk(id, {
-      include: [{ model: Nft }, { model: Collection }, { model: Purchase, as : "buyer"}, { model: Purchase, as : "seller"}],
+      include: [{ model: Nft }, { model: Collection }, { model: Purchase, as : "sales"}, { model: Purchase, as : "purchases"}],
     });
     if (foundUser) {
       return res.status(200).json(foundUser);
