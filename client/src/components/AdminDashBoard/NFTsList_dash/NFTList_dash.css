@@ -30,11 +30,9 @@
 .dash-nfts-titles p{
     margin: 5px 0;
 }
-.dash-users-IdTitle,
 .dash-users-NameTitle,
-.dash-users-Last_NameTitle,
 .dash-users-EmailTitle,
-.dash-users-DNITitle,
+.dash-users-TypeTitle,
 .dash-nfts-idTitle,
 .dash-nfts-NameTitle,
 .dash-nfts-PriceTitle,
@@ -57,20 +55,15 @@
     width: 70px;
     margin: 0 5px;
 }
-.dash-users-IdTitle{
-    width: 260px;
-    margin: 0 5px;
-}
-.dash-users-NameTitle,
-.dash-users-Last_NameTitle{
-    width: 80px;
+.dash-users-NameTitle{
+    width: 120px;
     margin: 0 5px;
 }
 .dash-users-EmailTitle{
     width: 300px;
     margin: 0 5px;
 }
-.dash-users-DNITitle{
-    width: 200px;
+.dash-users-TypeTitle{
+    width: 80px;
     margin: 0 5px;
 }

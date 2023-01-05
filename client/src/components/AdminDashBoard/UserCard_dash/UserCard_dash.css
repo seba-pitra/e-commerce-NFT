@@ -15,16 +15,15 @@
     width: 260px;
     margin: 0 5px;
 }
-.user-dash-last_name,
 .user-dash-name{
-    width: 80px;
+    width: 120px;
     margin: 0 5px;
 }
 .user-dash-email{
     width: 300px;
     margin: 0 5px;
 }
-.user-dash-dni{
-    width: 200px;
+.user-dash-type{
+    width: 80px;
     margin: 0 5px;
 }

@@ -7,7 +7,7 @@ import axios from "axios";
 // Components
 import BlockIcon from "@material-ui/icons/Block";
 
-const UserCard_dash = ({ id, name, last_name, email, dni }) => {
+const UserCard_dash = ({ id, username, email, type }) => {
   const handleBlock = async () => {
     const res = await axios.delete(`/user/${id}`);
     console.log(res.data);
@@ -20,22 +20,14 @@ const UserCard_dash = ({ id, name, last_name, email, dni }) => {
 
   return (
     <div className="user-dash-card">
-      <div className="user-dash-id">
-        <Link to={`/admin/user/${id}`}>
-          <p>{id}</p>
-        </Link>
-      </div>
       <div className="user-dash-name">
-        <p>{name}</p>
-      </div>
-      <div className="user-dash-last_name">
-        <p>{last_name}</p>
+        <p>{username}</p>
       </div>
       <div className="user-dash-email">
         <p>{email}</p>
       </div>
-      <div className="user-dash-dni">
-        <p>{`${dni || "No DNI"}`}</p>
+      <div className="user-dash-type">
+        <p>{type}</p>
       </div>
       <div className="dash-card-icons">
         <div className="card-dash-icon">

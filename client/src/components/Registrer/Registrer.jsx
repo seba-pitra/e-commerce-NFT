@@ -13,7 +13,7 @@ import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
 // import Row from "react-bootstrap/Row";
 
-const Register = () => {
+const Register = ({ setLoginClass, setRegisterClass }) => {
   const history = useHistory();
 
   const [signUp, setSignUpForm] = useState({
@@ -37,7 +37,7 @@ const Register = () => {
         let user = {
           id: auth.currentUser.uid,
           email: auth.currentUser.email,
-          username: params.username
+          username: params.username,
         };
         await fetch("http://localhost:3001/user/register", {
           method: "POST",
@@ -47,7 +47,8 @@ const Register = () => {
         sendEmailVerification(auth.currentUser);
         await signOut(auth);
         setError("");
-        history.push("/");
+        setLoginClass("login-container");
+        setRegisterClass("disabled-container");
       }
     } catch (error) {
       if (error.message === "Firebase: Error (auth/invalid-email).") {
@@ -69,18 +70,18 @@ const Register = () => {
     });
   };
 
-  const handdleSubmit = async (e) => { // JAMES FALTA MANEJAR ERRORES Y VALIDAR DATOS
+  const handdleSubmit = async (e) => {
+    // JAMES FALTA MANEJAR ERRORES Y VALIDAR DATOS
     e.preventDefault();
-    if(signUp.password === signUp.password2) { // ACA POR EJEMPLO XD
+    if (signUp.password === signUp.password2) {
+      // ACA POR EJEMPLO XD
       await createUser(signUp);
-
-      history.push("/marketplace");
 
       setSignUpForm({
         username: "",
         email: "",
         password: "",
-        password2: ""
+        password2: "",
       });
     } else {
       alert("The passwords do not match"); // XD
@@ -122,7 +123,7 @@ const Register = () => {
               Please choose a username
             </Form.Control.Feedback>
           </Form.Group>
-          
+
           <Form.Group
             as={Col}
             className="register-form-input"

@@ -1,4 +1,4 @@
-const { Collection, Nft, User } = require("../db");
+const { Collection, Nft, User, Review } = require("../db");
 const { collections } = require("../jsondata/collections.json");
 
 const { superUser } = require("../jsondata/superUserData.json");
@@ -9,14 +9,15 @@ const superUserId = superUser.id;
 // Conseguir todas las colecciones de la base de datos.
 const getCollections = async (req, res) => {
   try {
-    const allCollections = req.query.deleted === "include" ? 
-      await Collection.findAll({
-        include: [{ model: User }, { model: Nft }, { model: Review }],
-        paranoid : false,
-      }) :
-      await Collection.findAll({
-        include: [{ model: User }, { model: Nft }, { model: Review }],
-      })
+    const allCollections =
+      req.query.deleted === "include"
+        ? await Collection.findAll({
+            include: [{ model: User }, { model: Nft }, { model: Review }],
+            paranoid: false,
+          })
+        : await Collection.findAll({
+            include: [{ model: User }, { model: Nft }, { model: Review }],
+          });
     if (allCollections.length === 0) {
       throw new Error("nothing on database");
     }
@@ -33,11 +34,14 @@ const getCollectionById = async (req, res) => {
   try {
     const { id } = req.params;
     const foundCollectionInDB = await Collection.findByPk(id, {
-      include: [{
-        model: Nft,
-      },{
-        model : User,
-      }],
+      include: [
+        {
+          model: Nft,
+        },
+        {
+          model: User,
+        },
+      ],
     });
     if (foundCollectionInDB) {
       res.status(200).json(foundCollectionInDB);
@@ -61,18 +65,19 @@ const createNewCollection = async (req, res) => {
         received name ${name}
         received image ${image}
         received userId ${userId}
-        `);
+        `
+      );
     } else {
       const userOwner = await User.findByPk(userId); // busca usuario en la db
 
       const newCollection = await Collection.create({
         name: name,
         image: image,
-        origin : "USER",
-        contract : userOwner.metamask_wallet
+        origin: "USER",
+        contract: userOwner.metamask_wallet,
       }); // Crea la coleccion con los datos recibidos
 
-      newCollection.setUser(userOwner) //setea el usuario como dueño de la db.
+      newCollection.setUser(userOwner); //setea el usuario como dueño de la db.
 
       res.status(200).json(newCollection); //devuelve la coleccion creada.
     }
@@ -172,18 +177,18 @@ const createAllInitialCollections = async () => {
   try {
     let response = await Collection.findAll({});
     const userOwner = await User.findOne({
-      where : {
-        id : superUserId,
-      }
-    })
-    if(response.length === 0){
-      console.log("Starting collections creation " + new Date().toString())
-      for(const collection of collections){
+      where: {
+        id: superUserId,
+      },
+    });
+    if (response.length === 0) {
+      console.log("Starting collections creation " + new Date().toString());
+      for (const collection of collections) {
         const collectionInDB = await Collection.create({
           contract: collection.id,
           name: collection.name || "No name",
           image: collection.image || "No image",
-          origin: "API"
+          origin: "API",
         });
         collectionInDB.setUser(userOwner);
         response.push(collectionInDB);
@@ -198,18 +203,25 @@ const createAllInitialCollections = async () => {
             "Created at: " +
             new Date().toString() +
             " \n" +
-            userOwner.name + " \n" +
+            userOwner.name +
+            " \n" +
             "---------------------------"
         );
       }
     }
-    console.log("Collection Creation SUCESSFUL" + 
-    response.length + " collections created " +
-    "Date: " + new Date().toString());
+    console.log(
+      "Collection Creation SUCESSFUL" +
+        response.length +
+        " collections created " +
+        "Date: " +
+        new Date().toString()
+    );
     return response;
   } catch (err) {
     console.log(err);
-    throw new Error(`Function: createAllInitialCollections() caught => ${err.message}`);
+    throw new Error(
+      `Function: createAllInitialCollections() caught => ${err.message}`
+    );
   }
 };
 
