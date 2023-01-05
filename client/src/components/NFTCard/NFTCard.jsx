@@ -29,7 +29,7 @@ export default function NFTCard(props) {
 		saveLocalStorage();
 	};
 const handleClickOnFavorites = (e) => {
-		dispatch(actions.addToFav());
+		dispatch(actions.addToFav(props));
 	};
 
 

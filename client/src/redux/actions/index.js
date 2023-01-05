@@ -433,6 +433,6 @@ export const sendFungibleMail = (sendData) => {
 };
 
 // --- FAVS ---
-export const addToFav = () => {
-  return { type: ADD_FAV };
+export const addToFav = (payload) => {
+  return { type: ADD_FAV, payload};
 };

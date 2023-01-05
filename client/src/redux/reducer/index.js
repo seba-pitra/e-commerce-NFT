@@ -73,6 +73,7 @@ const initialState = {
   ethPrice: {},
   activeUser: {},
   historyBuys: [],
+  userFavs:[],
 };
 
 const rootReducer = (state = initialState, action) => {
@@ -409,6 +410,7 @@ const rootReducer = (state = initialState, action) => {
       console.log("Se Agrego a Favoritos..");
       return {
         ...state,
+	      userFavs: [...state.userFavs,action.payload],
       };
 
     case ADD_BUY_AT_HISTORY_BUYS:
