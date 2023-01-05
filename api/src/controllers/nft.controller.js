@@ -127,10 +127,10 @@ const createNewNFT = async (req, res) => {
         rarity: Math.floor(Math.random() * 20000 + 9000),
         favs: 0,
         stars: 0,
-        lastBuyValue: null, // null ?
-        lastBuyTs: null, // null ?
+        lastBuyValue: null,
+        lastBuyTs: null,
         createdTs: Date.now(),
-        ownerName: userOwner.name || "Non Fungible Town",
+        ownerName: userOwner.username || "Non Fungible Town",
         ownerIcon: userOwner.profile_pic || "https://raw.githubusercontent.com/seba-pitra/e-commerce-NFT/main/client/src/images/logo/logo.png"
       });
 
@@ -210,6 +210,10 @@ const changeNftOwner =  async (req, res) => {
     const newOwner = await User.findByPk(newOwnerId);
     if(!newOwner) throw new Error(`No user found with id ${newOwnerId}`)
     // asigna el nuevo dueño (owner) al NFT
+    nft.set({
+      ownerName: newOwner.username,
+      ownerIcon: newOwner.profile_pic
+    })
     await nft.setOwner(newOwner);
     res.json({ message: 'Dueño del NFT cambiado con éxito' });
   } catch (error) {
