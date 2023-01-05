@@ -1,0 +1,107 @@
+import { useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import * as actions from "../../../redux/actions/index";
+import { useEffect, useRef } from "react";
+import { useHistory } from "react-router-dom";
+
+import "./UserVerify.css";
+import UserBasicInfo from "./UserBasicInfo";
+
+export default function UserVerify() {
+  const user = useSelector((state) => state.loggedUser);
+  const dispatch = useDispatch();
+  const history = useHistory();
+  const loginStatusStorage = localStorage.getItem("Logged");
+  const [step, setStep] = useState(1);
+
+  const [errors, setErrors] = useState({
+    name: "",
+    last_name: "",
+  });
+
+  const [userData, setUserData] = useState({
+    // step 1
+    name: "",
+    last_name: " ",
+    age: " ",
+    dni: " ",
+    phone_number: " ",
+    nationality: " ",
+    address: " ",
+    metamask_wallet: " ",
+
+    // step 2
+    dni_image_front: " ",
+    dni_image_back: " ",
+
+    // step 3
+    face_picture: " ",
+  });
+
+  // -- STEPS --
+  const next = (e) => {
+    e.preventDefault();
+    setStep(step + 1);
+  };
+  const back = (e) => {
+    e.preventDefault();
+    setStep(step - 1);
+  };
+
+  // SUBMIT USER
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    let userDataObj = {
+      ...userData,
+      userId: user.id,
+    };
+    console.log(userDataObj);
+    // dispatch(actions.createNft(userDataObj));
+  };
+
+  // const validateUser = async () => {
+  //   if (loginStatusStorage === "Estoy loggeado") {
+  //     dispatch(actions.getAllNfts());
+  //     dispatch(actions.getAllCollections());
+  //     dispatch(actions.getEthPrice());
+  //   } else {
+  //     history.push("/");
+  //   }
+  // };
+    
+    // useEffect(() => {
+    //   setCreatedNft((prev) => ({
+    //     ...prev,
+    //     userId: user.id,
+    //   }));
+    //   validateUser();
+    // }, [user]);
+    
+
+  return (
+    <>
+      <div className="mainContainer">
+        <fieldset className={`info-fieldset ${ step !== 1 ? "noneDisplay" : "first-field-collections" }`} >
+          <UserBasicInfo userData={userData} setUserData={setUserData} back={back} next={next}/>
+        </fieldset>
+
+        <fieldset className={`info-fieldset ${step !== 2 ? "noneDisplay" : ""}`}>
+          <UserBasicInfo userData={userData} setUserData={setUserData} back={back} next={next}/>
+        </fieldset>
+
+        <fieldset className={`info-fieldset ${ step !== 3 ? "noneDisplay" : "first-field-collections"}`}>
+          <UserBasicInfo userData={userData} setUserData={setUserData} back={back} next={next}/>
+
+          <div className="ilustration-validations">
+            <input className={ userData.name === "" ? "errorSubmit" : "submit" } type="submit" value={"Create NFT"} disabled={ userData.name === "" } onClick={(e) => handleSubmit(e)} />
+          </div>
+
+          <div className="buttons-next-prev">
+            <button onClick={back}> back</button>
+          </div>
+        </fieldset>
+
+      </div>
+    </>
+  );
+}
