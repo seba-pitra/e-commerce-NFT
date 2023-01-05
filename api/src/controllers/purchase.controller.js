@@ -148,7 +148,7 @@ const rejectPurchase = async (req, res) => {
     }else if(foundPurchase.statusPay === "Rejected"){
       res.status(200).json({message : "purchase already rejected"})
     }else{
-      throw new Error(`Something went wrong`)
+      res.status(200).send({message : `Purchase was successful, cannot set as rejected`})
     }
   } catch (error) {
     console.error(err);
@@ -174,7 +174,7 @@ const purchaseSuccess = async (req, res) => {
     }else if(foundPurchase.statusPay === "Successful"){
       res.status(200).json({message : "purchase already successful"})
     }else{
-      throw new Error(`Something went wrong`)
+      res.status(200).send({message : `Purchase was rejected, cannot set as successful`});
     }
   } catch (error) {
     console.error(err);
