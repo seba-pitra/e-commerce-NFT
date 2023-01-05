@@ -69,7 +69,7 @@ const Login = () => {
         params.password
       );
 
-      if (!users.filter((user) => user.id === loggedUserX2.user.uid).length) {
+      if (!users.some(user => user.id === loggedUserX2.user.uid)) {
         await signOut(auth);
         throw new Error("Firebase: Error (auth/user-not-found).");
       }
