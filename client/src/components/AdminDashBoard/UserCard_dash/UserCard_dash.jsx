@@ -21,13 +21,15 @@ const UserCard_dash = ({ id, username, email, type }) => {
   return (
     <div className="user-dash-card">
       <div className="user-dash-name">
-        <p>{username}</p>
+        <Link to={`/admin/user/${id}`}>
+          <p>{username}</p>
+        </Link>
       </div>
       <div className="user-dash-email">
         <p>{email}</p>
       </div>
       <div className="user-dash-type">
-        <p>{type}</p>
+        <p>{type === "VerificationInProcess" ? "In process" : type}</p>
       </div>
       <div className="dash-card-icons">
         <div className="card-dash-icon">

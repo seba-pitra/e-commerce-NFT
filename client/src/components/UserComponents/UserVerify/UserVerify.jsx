@@ -62,6 +62,11 @@ export default function UserVerify() {
     };
     console.log(userDataObj);
     // dispatch(actions.createNft(userDataObj));
+    fetch(`http://localhost:3001/user/ask/${user.id}`,{
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(userDataObj),
+    })
   };
 
   // const validateUser = async () => {

@@ -6,7 +6,7 @@ import "./NFTList_dash.css";
 import NFTsCard_dash from "../NFTsCard_dash/NFTsCard_dash";
 import UserCard_dash from "../UserCard_dash/UserCard_dash";
 
-const NFTList_dash = ({ users, nfts }) => {
+const NFTList_dash = ({ users, nfts, verifyingUsers }) => {
   // const { nfts } = useSelector((state) => state);
   // const dispatch = useDispatch();
 
@@ -28,15 +28,17 @@ const NFTList_dash = ({ users, nfts }) => {
   useEffect(() => {
     if (users) {
       setFilteredNFTs(users);
+    } else if(verifyingUsers){
+      setFilteredNFTs(verifyingUsers)
     } else {
       setFilteredNFTs(nfts);
     }
-  }, [nfts, users]);
+  }, [nfts, users, verifyingUsers]);
 
   const search = (e) => {
     if (users) {
       let nftsxName = users.filter((user) =>
-        user.name.toLowerCase().includes(e.target.value.toLowerCase())
+        user.username.toLowerCase().includes(e.target.value.toLowerCase())
       );
       if (cp !== 0) setCp(0);
       setFilteredNFTs(nftsxName);
@@ -114,7 +116,9 @@ const NFTList_dash = ({ users, nfts }) => {
             />
           ))}
         </div>
-      ) : (
+      ) : verifyingUsers?<div>{
+        verifyingUsers.map(user=><p>Soy un user por verificar</p>)
+      }</div> :(
         <div className="dash-nfts-list">
           {displayNFTs.map((nft) => (
             <NFTsCard_dash

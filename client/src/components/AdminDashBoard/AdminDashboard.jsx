@@ -52,6 +52,10 @@ const AdminDashboard = () => {
         <h3>Admin Users</h3>
         <NFTList_dash users={users} />
       </div>
+      <div>
+        <h3>Admin verifying process</h3>
+        <NFTList_dash verifyingUsers={users.filter(user=>user.type==="VerificationInProcess")} />
+      </div>
     </div>
   );
 };
