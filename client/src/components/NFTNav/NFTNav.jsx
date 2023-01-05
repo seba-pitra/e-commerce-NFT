@@ -12,6 +12,7 @@ import { auth } from "../../firebase";
 import "./NFTNav.css";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
+import { toast } from "react-toastify";
 
 import UserIcon from "./UserIcon/UserIcon";
 
@@ -41,7 +42,8 @@ export default function NFTNav() {
       await signOut(auth);
       history.push("/");
     } catch (error) {
-      alert(error.message);
+      toast.error("Something was wrong. try again later");
+      // alert(error.message);
     }
   };
 
@@ -104,7 +106,7 @@ export default function NFTNav() {
                 Developer Team
               </Link>
               <div className="nav-bar-accountIcon">
-                <AccountCircleIcon onClick={(e)=>handleShowUserList(e)} />
+                <AccountCircleIcon onClick={(e) => handleShowUserList(e)} />
               </div>
 
               {/* slide kart trigger*/}
