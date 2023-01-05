@@ -1,11 +1,11 @@
-import React, { useState } from "react";
-import "./NFTsCard_dash.css";
-import axios from "axios";
-
-import EditIcon from "@material-ui/icons/Edit";
-import DeleteIcon from "@material-ui/icons/Delete";
-import DoneIcon from "@material-ui/icons/Done";
 import * as actions from "../../../redux/actions/index";
+import axios from "axios";
+import React, { useState } from "react";
+import { toast } from "react-toastify";
+import DeleteIcon from "@material-ui/icons/Delete";
+import EditIcon from "@material-ui/icons/Edit";
+import DoneIcon from "@material-ui/icons/Done";
+import "./NFTsCard_dash.css";
 
 const NFTsCard_dash = ({ id, name, price, userId }) => {
   const [edit, setEdit] = useState(false);
@@ -31,7 +31,8 @@ const NFTsCard_dash = ({ id, name, price, userId }) => {
       setShowPrice(res.data.price);
       setPriceState("");
     } catch (err) {
-      alert(err.message);
+      toast.error("Something was wrong. try again later");
+      // alert(err.message);
     }
   };
   return (
