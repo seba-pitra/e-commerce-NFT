@@ -5,6 +5,7 @@ import "./NFTList_dash.css";
 // Components
 import NFTsCard_dash from "../NFTsCard_dash/NFTsCard_dash";
 import UserCard_dash from "../UserCard_dash/UserCard_dash";
+import VUserCard_dash from "../VUserCard_dash/VUserCard_dash";
 
 const NFTList_dash = ({ users, nfts, verifyingUsers }) => {
   // const { nfts } = useSelector((state) => state);
@@ -28,8 +29,8 @@ const NFTList_dash = ({ users, nfts, verifyingUsers }) => {
   useEffect(() => {
     if (users) {
       setFilteredNFTs(users);
-    } else if(verifyingUsers){
-      setFilteredNFTs(verifyingUsers)
+    } else if (verifyingUsers) {
+      setFilteredNFTs(verifyingUsers);
     } else {
       setFilteredNFTs(nfts);
     }
@@ -86,6 +87,30 @@ const NFTList_dash = ({ users, nfts, verifyingUsers }) => {
             <p>Type</p>
           </div>
         </div>
+      ) : verifyingUsers ? (
+        <div className="dash-nfts-titles">
+          <div>
+            <p>Name</p>
+          </div>
+          <div>
+            <p>Last Name</p>
+          </div>
+          <div>
+            <p>DNI</p>
+          </div>
+          <div>
+            <p>Age</p>
+          </div>
+          <div>
+            <p>PhoneNumber</p>
+          </div>
+          <div>
+            <p>Nacionality</p>
+          </div>
+          <div>
+            <p>Pp1</p>
+          </div>
+        </div>
       ) : (
         <div className="dash-nfts-titles">
           <div className="dash-nfts-idTitle">
@@ -116,9 +141,21 @@ const NFTList_dash = ({ users, nfts, verifyingUsers }) => {
             />
           ))}
         </div>
-      ) : verifyingUsers?<div>{
-        verifyingUsers.map(user=><p>Soy un user por verificar</p>)
-      }</div> :(
+      ) : verifyingUsers ? (
+        <div>
+          {verifyingUsers.map((user) => (
+            <VUserCard_dash
+              id={user.id}
+              name={user.name}
+              last_name={user.last_name}
+              dni={user.dni}
+              age={user.age}
+              phoneNumber={user.phone_number}
+              nacionality={user.nationality}
+            />
+          ))}
+        </div>
+      ) : (
         <div className="dash-nfts-list">
           {displayNFTs.map((nft) => (
             <NFTsCard_dash
