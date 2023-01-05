@@ -13,7 +13,6 @@ const createNewPurchase = async (req, res) => {
     } = req.body;
     if (
       !payMethod || 
-      !statusPay ||
       !price ||
       !buyerId ||
       !sellerId ||

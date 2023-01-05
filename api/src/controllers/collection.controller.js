@@ -1,4 +1,4 @@
-const { Collection, Nft, User } = require("../db");
+const { Collection, Nft, User, Review} = require("../db");
 const { collections } = require("../jsondata/collections.json");
 
 const { superUser } = require("../jsondata/superUserData.json");
@@ -88,11 +88,7 @@ const createNewCollection = async (req, res) => {
 const deleteCollection = async (req, res) => {
   try {
     const { id } = req.params;
-    const deletedCollection = await Collection.findByPk({
-      where: {
-        id: id,
-      },
-    });
+    const deletedCollection = await Collection.findByPk(id);
     if (deletedCollection) {
       await Collection.destroy({
         where: {
@@ -138,11 +134,7 @@ const restoreDeletedCollection = async (req, res) => {
         id: id,
       },
     });
-    const restoredCollection = await Collection.findByPk({
-      where: {
-        id: id,
-      },
-    });
+    const restoredCollection = await Collection.findByPk(id);
     if (restoredCollection) {
       return res.status(200).json({
         nft: restoredCollection,
