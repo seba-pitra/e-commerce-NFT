@@ -14,14 +14,12 @@ module.exports = (sequelize) => {
       price: {
         type: DataTypes.STRING,
       },
-      contract: {
-        type: DataTypes.STRING,
-      },
       statusPay: {
         type: DataTypes.STRING,
+        defaultValue: "Created",
         validate: {
           customValidator: (value) => {
-            const enums = ["Created", "Pending", "Rejected", "Successed"];
+            const enums = ["Created", "Pending", "Rejected", "Successful" ];
             if (!enums.includes(value)) {
               throw new Error("not a valid option");
             }
@@ -39,28 +37,10 @@ module.exports = (sequelize) => {
           },
         },
       },
-      /*
-      Esto se maneja mediante asignar los nfts a la compra,
-      no hace falta agregar al modelo un arreglo de JSONS
-      */
-      pruchases: {
-        type: DataTypes.ARRAY(DataTypes.JSON),
-        allowNull: false,
-      },
-
-      /*
-        Preguntarle a los chicos para que es esto
-        o averiguarlo.
-      */
-      from: {
-        type: DataTypes.STRING,
-      },
-      to: {
-        type: DataTypes.STRING,
-      },
     },
     {
       timestamps: true,
+      paranoid: true,
     }
   );
 };

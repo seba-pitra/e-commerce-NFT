@@ -4,12 +4,12 @@ const {
   getUserById,
   deleteUser,
   registerUser,
+  signInWithGoogle,
   updateUser,
   restoreDeletedUser,
   userAsksForVerification,
   verifiedToAdmin,
   adminToVerified,
-  signInWithGoogle,
   verifyUser,
   rejectVerification
 } = require("../controllers/user.controller");

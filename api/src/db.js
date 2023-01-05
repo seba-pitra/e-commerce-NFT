@@ -40,13 +40,15 @@ const { User, Nft, Collection, Purchase, Review } = sequelize.models;
 //-- USER RELATIONS
 User.hasMany(Nft);
 User.hasMany(Collection);
-User.hasMany(Purchase);
 User.hasMany(Review)
-User.hasMany(Purchase);
+User.hasMany(Purchase, { as: 'sales' });
+User.hasMany(Purchase, { as: 'purchases' });
+
 
 //-- NFT RELATIONS
 Nft.belongsTo(User);
 Nft.belongsTo(Collection);
+Nft.belongsTo(Purchase);
 Nft.hasMany(Review);
 
 //--COLLECTION RELATIONS
@@ -55,7 +57,9 @@ Collection.hasMany(Nft);
 Collection.hasMany(Review)
 
 //--PURCHASES RELATIONS
-Purchase.belongsTo(User);
+Purchase.belongsTo(User, {as : "buyer" });
+Purchase.belongsTo(User, {as : "seller" });
+Purchase.hasMany(Nft, {as : "tokens"});
 
 //--REVIEW RELATIONS
 Review.belongsTo(User);

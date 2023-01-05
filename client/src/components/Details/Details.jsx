@@ -71,7 +71,7 @@ const Details = (props) => {
       toast.success("Payment successfully");
       buyData = {
         ...buyData,
-        statusPay: "Successed",
+        statusPay: "Successful",
       };
     } else if (transactionMetamask.includes("rejected")) {
       //si se rechazo en metamask
@@ -181,11 +181,18 @@ const Details = (props) => {
               </div>
 
               <div className={styles["data-detail-nft"]}>
-                <h3>Details</h3>
-                <h6>{nftDetail.description}</h6>
-                {/* {nftDetail.available ? ( <span className={styles.available}>Available</span> ) : ( <span className={styles.unavailable}>Unavailable</span> )} */}
-                <h6>Categories: {nftDetail.category?.join(", ")}</h6>
-                {/* <h6>Created At: {date}</h6> */}
+                {/* <span >
+                  {nftDetail.description}
+                </span> */}
+                <h6 className={styles.categories}>
+                  Categories: <br /> {nftDetail.category?.join(", ")}
+                </h6>
+                {nftDetail.available ? (
+                  <span className={styles.available}>Available</span>
+                ) : (
+                  <span className={styles.unavailable}>Unavailable</span>
+                )}
+                <h6>Created At: {date}</h6>
               </div>
 
               <div className={styles["buttons-container"]}>
