@@ -71,7 +71,10 @@ function LandingPage() {
         </div>
       </div>
       <div className={styles[registerClass]}>
-        <Register />
+        <Register
+          setLoginClass={setLoginClass}
+          setRegisterClass={setRegisterClass}
+        />
         <button
           onClick={() => {
             setLoginClass("login-container");

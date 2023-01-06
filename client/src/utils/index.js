@@ -1,4 +1,6 @@
 import { ethers } from "ethers";
+import { toast } from "react-toastify";
+import { injectLocalStorageCart } from "../redux/actions";
 
 const NAME = "name";
 const PRICE = "price";
@@ -8,7 +10,6 @@ const STARS = "stars";
 const LASTBUY = "lastbuy";
 const CREATEDTS = "createdTs";
 
-// recibe la base del ordenamiento, la direccion y los nft que va a ordernar;
 export function orderNFTBy(orderOption, orderDirection, nftsToSort) {
   switch (orderOption) {
     case NAME:
@@ -380,11 +381,51 @@ function validateUserDni_image_back(property) {
   else return "False";
 }
 
+export function handleErrorLoginAndRegister(error) {
+  switch (error.code) {
+    case "auth/email-already-in-use":
+      toast.error("Email alredy in use", { position: "bottom-left" });
+      break;
+
+    case "auth/invalid-email":
+      toast.error("Invalid email", { position: "bottom-left" });
+      break;
+
+    case "auth/operation-not-allowed":
+      toast.error("Operation not allowed", { position: "bottom-left" });
+      break;
+
+    case "auth/weak-password":
+      toast.error("Weak password", { position: "bottom-left" });
+      break;
+
+    case "auth/wrong-password":
+      toast.error("Wrong password", { position: "bottom-left" });
+      break;
+
+    case "Password do not match":
+      toast.error("Password do not match", { position: "bottom-left" });
+      break;
+
+    case "auth/user-not-found":
+      toast.error("User not found", { position: "bottom-left" });
+      break;
+
+    case "Email not verified":
+      toast.error("Email not verified", { position: "bottom-left" });
+      break;
+
+    default:
+      toast.error("Something was wrong", { position: "bottom-left" });
+      break;
+  }
+}
+
 export function saveLocalStorage(userNfts) {
   localStorage.setItem("nftsOnShoppingCart", JSON.stringify(userNfts));
 }
 
-export function loadLocalStorage(dispatch, injectLocalStorageCart) {
+export function loadLocalStorage(dispatch) {
   const localCart = JSON.parse(localStorage.getItem("nftsOnShoppingCart"));
 
   if (localCart) dispatch(injectLocalStorageCart(localCart));

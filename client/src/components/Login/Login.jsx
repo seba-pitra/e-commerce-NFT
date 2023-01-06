@@ -1,39 +1,21 @@
-import React, { useEffect, useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import {
-  gettingActiveUserToState,
-  injectLocalStorageCart,
-  getAllUsers,
-  signInWithGoogle,
-} from "../../redux/actions";
+import React, { useState } from "react";
+import { useDispatch } from "react-redux";
 import { useHistory } from "react-router-dom";
 import GoogleIcon from "@mui/icons-material/Google";
-import { signInWithEmailAndPassword, signOut } from "firebase/auth";
-import "./Login.css";
-import { Link } from "react-router-dom";
 import * as helpers from "./LoginHelpers";
+import * as actions from "../../redux/actions";
 import { loadLocalStorage } from "../../utils";
+import "./Login.css";
 
 // sendPasswordResetEmail
 const Login = () => {
-  const users = useSelector((state) => state.users);
-  // const loggedUser = useSelector((state) => state.loggedUser);
-  // let loginStatusStorage = localStorage.getItem("Logged");
-
   const dispatch = useDispatch();
-
   const history = useHistory();
 
   const [logginForm, setLogginForm] = useState({
     email: "",
     password: "",
   });
-
-  const [error, setError] = useState("");
-
-  useEffect(() => {
-    dispatch(getAllUsers());
-  }, [dispatch]);
 
   const handdleChange = (e) => {
     setLogginForm({
@@ -42,18 +24,31 @@ const Login = () => {
     });
   };
 
-  const handdleSubmit = (e) => {
+  const handleLogInGoogle = async () => {
+    const user = await helpers.signGoogle();
+
+    if (user) {
+      dispatch(actions.signInWithGoogle(user));
+      history.push("/marketplace");
+    }
+
+    loadLocalStorage(dispatch);
+  };
+
+  const handdleSubmit = async (e) => {
     e.preventDefault();
-    dispatch(gettingActiveUserToState(logginForm.email));
+    loadLocalStorage(dispatch);
 
-    loadLocalStorage(dispatch, injectLocalStorageCart);
+    const userFirebaseFound = await helpers.logginFunction(logginForm);
 
-    helpers.logginFunction(logginForm);
+    if (userFirebaseFound) {
+      history.push("/home");
 
-    setLogginForm({
-      email: "",
-      password: "",
-    });
+      setLogginForm({
+        email: "",
+        password: "",
+      });
+    }
   };
 
   return (
@@ -88,9 +83,10 @@ const Login = () => {
         />
       </div>
 
+      {/* 
       <div className={`login-errormessage ${error ? "" : "noneDisplay"}`}>
         <p>{error}</p>
-      </div>
+      </div> */}
 
       <div className="text-center text-lg-start mt-4 pt-2">
         <button
@@ -98,15 +94,10 @@ const Login = () => {
           type="button"
           className={"sing-in"}
           style={{ paddingLeft: "2.5rem", paddingRight: "2.5rem" }}
-          disabled={!users.length}
         >
           Log in
         </button>
-        <button
-          className={"sing-in"}
-          type="button"
-          onClick={() => helpers.signGoogle(history, dispatch)}
-        >
+        <button className={"sing-in"} type="button" onClick={handleLogInGoogle}>
           <div className={"sing-in-container"}>
             <GoogleIcon />
             <span> </span>
