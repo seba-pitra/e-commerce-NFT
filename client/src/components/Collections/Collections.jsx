@@ -31,11 +31,10 @@ function Collections() {
   const isLoading = useSelector((state) => state.isLoading);
 
   const collectionsCards = collections.map((collection) => {
-    if (collection.nfts.length > 5) {
-      let floorPrice = 100;
-      collection.nfts.map((nft) => {
-        if (nft.price < floorPrice) floorPrice = nft.price;
-      });
+    if(collection.nfts.length > 4) {
+      let floorPrice = 100
+      collection.nfts.map(nft => { if(nft.price < floorPrice) floorPrice = nft.price })
+
       return (
         <Link to={`/collections/${collection.id}`} className="nolink">
           <div className="collections-conteiner">

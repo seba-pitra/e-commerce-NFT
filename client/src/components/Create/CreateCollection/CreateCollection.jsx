@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useHistory } from "react-router-dom";
 import * as actions from "../../../redux/actions";
-import CloudinaryImageInput from "../CloudinaryImageInput/CloudinaryImageInput";
+import CloudinaryImageInput2 from "../CloudinaryImageInput/CloudinaryImageInput2";
 
 export default function CreateCollection({
         createdCollection,
@@ -87,7 +87,7 @@ export default function CreateCollection({
                             />
                         <div className="cloudinary-collections-create">
                         <span>Add Collection Image</span>
-                            <CloudinaryImageInput
+                            <CloudinaryImageInput2
                                 setImage={setCreatedCollection}
                             />
                         </div>
