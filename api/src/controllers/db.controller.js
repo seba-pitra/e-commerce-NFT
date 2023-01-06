@@ -1,7 +1,7 @@
 const { createAllInitialCollections } = require("../controllers/collection.controller")
 const { createInitialNFTs } = require("../controllers/nft.controller")
 const { createSuperUser } = require("../controllers/user.controller");
-const { Nft, Collection, Purchase, User } = require("../db");
+const { Nft, Collection, Purchase, User, Review} = require("../db");
 
 
 //Creates every initial data, and posts it to the database.
