@@ -5,13 +5,7 @@ import styles from "./Ufavorites.module.css";
 import { useDispatch, useSelector } from "react-redux";
 import Button from "react-bootstrap/Button";
 
-// TO-DO
-// Items Styles
-// horizontal visuals
-// polish
-//
-//
-//
+
 export default function Ufavorites(){
  const userFavs = useSelector((state) => state.userFavs);
 console.log(userFavs);
