@@ -7,6 +7,7 @@ import { useDispatch } from "react-redux";
 import ethereumLogo from "../../images/ethereum-logo.png";
 import { useParams } from "react-router-dom";
 import "./CollectionDetail.css";
+import VerifiedIcon from "@mui/icons-material/Verified";
 
 const CollectionDetail = () => {
   const { id } = useParams();
@@ -14,7 +15,7 @@ const CollectionDetail = () => {
   const collections = useSelector((state) => state.collections);
   const foundCollection = collections.find((coll) => coll.id === id);
 
-  console.log(foundCollection)
+  console.log(foundCollection);
 
   const dispatch = useDispatch();
 
@@ -30,7 +31,7 @@ const CollectionDetail = () => {
     createdAt = 0;
 
   const cards = foundCollection?.nfts.map((nft) => {
-    console.log(nft)
+    console.log(nft);
     collectionPrice = nft.price + collectionPrice;
     amountNfts++;
     if (description === "No description") description = nft.description;
@@ -56,9 +57,9 @@ const CollectionDetail = () => {
     );
   });
 
-  let date = new Date(createdAt)
-  date = date.toString()
-  date = date.slice(4, 16)
+  let date = new Date(createdAt);
+  date = date.toString();
+  date = date.slice(4, 16);
 
   return (
     <div>
@@ -70,25 +71,59 @@ const CollectionDetail = () => {
             <div className="img-collection">
               <img src={foundCollection?.image} alt="collection-detail" />
             </div>
-            <div className="flex-row4">
-              <h2>{foundCollection?.name}</h2>
-              <span>Created by <span className="negrita">{foundCollection?.user.name}</span></span>
+            <div className="collection-titles">
+              <h1>
+                {foundCollection?.name} <VerifiedIcon />{" "}
+              </h1>
+              <span>
+                Created by{" "}
+                <span className="negrita">{foundCollection?.user.name}</span>
+              </span>
             </div>
-            <div className="flex-row4">
-              <span>Items <span className="negrita">{amountNfts}</span></span>
-              <span><span className="negrita">-</span></span>
-              <span>Created At <span className="negrita">{date}</span></span>
-              <span><span className="negrita">-</span></span>
-              <span>Cadena <span className="negrita">Ethereum</span></span>
-              <span><span className="negrita">-</span></span>
-              <span>Comisión del creador <span className="negrita">5%</span></span>
+            <span className="collection-description">{description}</span>
+            <div className="collection-data">
+              <span>
+                Items <span className="negrita">{amountNfts}</span>
+              </span>
+              <span>
+                <span className="negrita">-</span>
+              </span>
+              <span>
+                Created At <span className="negrita">{date}</span>
+              </span>
+              <span>
+                <span className="negrita">-</span>
+              </span>
+              <span>
+                <span className="negrita">Ethereum</span>
+              </span>
+              <span>
+                <span className="negrita">-</span>
+              </span>
+              <span>
+                Creator commission <span className="negrita">5%</span>
+              </span>
             </div>
-              <div className="flex-row4">
-                <h6>{description}</h6>
+            <div className="d-flex justify-content-around w-100">
+              <span className="ethereum-price-collection-detail">
+                Collection Price <span>{collectionPrice?.toFixed(3)}</span>
+                <img
+                  src={ethereumLogo}
+                  alt="icon-ethereum"
+                  className="ethereum-logo-price"
+                />
+              </span>
+              <div className="ethereum-price-collection-detail">
+                FloorPrice{" "}
+                <span>
+                  {floorPrice?.toFixed(3)}{" "}
+                  <img
+                    src={ethereumLogo}
+                    alt="icon-ethereum"
+                    className="ethereum-logo-price"
+                  />
+                </span>
               </div>
-            <div className="flex-row4">
-              <span>Collection Price <span className="negrita">{collectionPrice?.toFixed(3)}</span></span>
-              <span>FloorPrice <span className="negrita">{floorPrice?.toFixed(3)}</span></span>
             </div>
           </div>
           <div className="pageSelector-Container">{cards}</div>

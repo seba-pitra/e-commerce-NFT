@@ -3,17 +3,12 @@ const { superUser } = require("../jsondata/superUserData.json");
 
 const registerUser = async (req, res) => {
   try {
-    const {
-      id,
-      username,
-      email,
-      profile_pic
-    } = req.body;
+    const { id, username, email, profile_pic } = req.body;
     const newUser = await User.create({
       id: id,
       username: username,
       email: email,
-      profile_pic: profile_pic
+      profile_pic: profile_pic,
     });
     res.status(200).json(newUser);
   } catch (err) {
@@ -42,14 +37,25 @@ const signInWithGoogle = async (req, res) => {
 
 const getAllUsers = async (req, res) => {
   try {
-    const allUsers = req.query.deleted === "include" ? 
-      await User.findAll({
-        include: [{ model: Nft }, { model: Collection }, { model: Purchase, as : "sales"}, { model: Purchase, as : "purchases"}],
-        paranoid : false,
-      }) :
-      await User.findAll({
-        include: [{ model: Nft }, { model: Collection }, { model: Purchase, as : "sales"}, { model: Purchase, as : "purchases"}],
-      })
+    const allUsers =
+      req.query.deleted === "include"
+        ? await User.findAll({
+            include: [
+              { model: Nft },
+              { model: Collection },
+              { model: Purchase, as: "sales" },
+              { model: Purchase, as: "purchases" },
+            ],
+            paranoid: false,
+          })
+        : await User.findAll({
+            include: [
+              { model: Nft },
+              { model: Collection },
+              { model: Purchase, as: "sales" },
+              { model: Purchase, as: "purchases" },
+            ],
+          });
     if (allUsers.length === 0) {
       throw new Error(`No users found on database`);
     } else {
@@ -75,7 +81,7 @@ const updateUser = async (req, res) => {
     }
   } catch (err) {
     console.error(err);
-    res.status(400).json({error: err.message});
+    res.status(400).json({ error: err.message });
   }
 };
 
@@ -83,7 +89,12 @@ const getUserById = async (req, res) => {
   try {
     const { id } = req.params;
     const foundUser = await User.findByPk(id, {
-      include: [{ model: Nft }, { model: Collection }, { model: Purchase, as : "sales"}, { model: Purchase, as : "purchases"}],
+      include: [
+        { model: Nft },
+        { model: Collection },
+        { model: Purchase, as: "sales" },
+        { model: Purchase, as: "purchases" },
+      ],
     });
     if (foundUser) {
       return res.status(200).json(foundUser);
@@ -106,7 +117,9 @@ const deleteUser = async (req, res) => {
           id: id,
         },
       });
-      return res.status(200).send(`${deletedUser.name}  successfully deleted`);
+      return res
+        .status(200)
+        .send(`${deletedUser.username}  successfully deleted`);
     } else {
       throw new Error(`no NFT found with id: ${id}`);
     }
@@ -130,7 +143,7 @@ const restoreDeletedUser = async (req, res) => {
     if (restoredUser) {
       return res.status(200).json({
         user: restoredUser,
-        message: `${restoredUser.name} successfully restored`,
+        message: `${restoredUser.username} successfully restored`,
       });
     } else {
       throw new Error(`No nft found with id ${id}`);
@@ -164,16 +177,16 @@ const userAsksForVerification = async (req, res) => {
     if (user) {
       if (user.type === "Basic") {
         user.set({
-          name : name,
-          last_name : last_name,
-          age : age,
-          metamask_wallet : metamask_wallet,
-          face_picture : face_picture,
-          dni_image_front : dni_image_front,
-          dni_image_back : dni_image_back,
-          phone_number : phone_number,
+          name: name,
+          last_name: last_name,
+          age: age,
+          metamask_wallet: metamask_wallet,
+          face_picture: face_picture,
+          dni_image_front: dni_image_front,
+          dni_image_back: dni_image_back,
+          phone_number: phone_number,
           nationality: nationality,
-          address : address,
+          address: address,
           dni: dni,
           type: "VerificationInProcess",
         });
@@ -181,8 +194,10 @@ const userAsksForVerification = async (req, res) => {
         return res.status(200).json({
           user: user,
         });
-      } else if(user.type === "VerificationInProcess" ){
-        res.status(200).send("User already asked for verification, waiting for admin");
+      } else if (user.type === "VerificationInProcess") {
+        res
+          .status(200)
+          .send("User already asked for verification, waiting for admin");
       } else {
         res.status(200).send("User already verified");
       }
@@ -209,7 +224,10 @@ const verifiedToAdmin = async (req, res) => {
           user: user,
           type: user.type,
         });
-      } else if (user.type === "Basic" || user.type === "VerificationInProcess") {
+      } else if (
+        user.type === "Basic" ||
+        user.type === "VerificationInProcess"
+      ) {
         throw new Error(`User not verified`);
       } else {
         res.status(200).send(`User is already an admin`);
@@ -255,13 +273,13 @@ const verifyUser = async (req, res) => {
     const user = await User.findByPk(id);
     if (user) {
       if (user.type === "VerificationInProcess") {
-          user.set({
-            type: "Verified",
-          });
-          await user.save();
-          return res.status(200).json({
-            user: user,
-          });
+        user.set({
+          type: "Verified",
+        });
+        await user.save();
+        return res.status(200).json({
+          user: user,
+        });
       } else if (user.type === "Basic") {
         throw new Error(`User did not ask for verification`);
       } else {
@@ -274,7 +292,7 @@ const verifyUser = async (req, res) => {
     console.error(error);
     return res.status(400).json({ error: error.message });
   }
-}
+};
 
 const rejectVerification = async (req, res) => {
   try {
@@ -284,34 +302,30 @@ const rejectVerification = async (req, res) => {
       if (user.type === "VerificationInProcess") {
         user.set({
           type: "Basic",
-          name : null,
-          last_name : null,
-          age : null,
-          metamask_wallet : null,
-          face_picture : null,
-          dni_image_front : null,
-          dni_image_back : null,
-          phone_number : null,
+          name: null,
+          last_name: null,
+          age: null,
+          metamask_wallet: null,
+          face_picture: null,
+          dni_image_front: null,
+          dni_image_back: null,
+          phone_number: null,
           nationality: null,
-          address : null,
+          address: null,
           dni: null,
         });
         await user.save();
         res.status(200).json(user);
-      }else if (user.type === "Basic") {
+      } else if (user.type === "Basic") {
         throw new Error(`User did not ask for verification`);
       } else {
         res.status(200).send(`User is already verified`);
       }
-    }else{
+    } else {
       throw new Error(`No user found with id ${id}`);
     }
-  } catch (error) {
-    
-  }
-}
-
-
+  } catch (error) {}
+};
 
 /*
  * Super user data
@@ -355,5 +369,5 @@ module.exports = {
   verifiedToAdmin,
   adminToVerified,
   verifyUser,
-  rejectVerification
+  rejectVerification,
 };
