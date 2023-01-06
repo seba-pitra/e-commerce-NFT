@@ -20,7 +20,7 @@ paymentRouter.post("/userEmail", async (req, res) => {
   return res.sendStatus(201);
 });
 
-paymentRouter.get("/subscription", function (req, res, next) {
+paymentRouter.get("/subscription", function (req, res) {
   PaymentInstance.getSubscriptionLink(req, res);
 });
 

@@ -1,10 +1,12 @@
 import { useState } from 'react';
+import starlogo from "../../images/stars-logo.png"
 import './StarRating.css'
 // A MODIFICAR.
 export default function StarRating({rating, setRating}) {
     const [hover, setHover] = useState(0);
     const stars = new Array(5);
-    stars.fill(star_logo)
+    stars.fill(starlogo)
+
     return (
     <div className="single-input-container">
         <label
@@ -27,14 +29,14 @@ export default function StarRating({rating, setRating}) {
                 onMouseEnter={() => setHover(index)}
                 onMouseLeave={() => setHover(rating.value)}
                 >
-            <span className="star">
-                <img 
-                    id="img-btn"
-                    className={index <= ((hover) || rating) ? "img-btn-on" : "img-btn-off"}
-                    src={'star icon'} 
-                    alt="Star" />
-            </span>
-            </button>
+                    <span className="star">
+                        <img 
+                            id="img-btn"
+                            className={index <= ((hover) || rating) ? "img-btn-on" : "img-btn-off"}
+                            src={star} 
+                            alt="Star" />
+                    </span>
+                </button>
         );
         })}
         </div>

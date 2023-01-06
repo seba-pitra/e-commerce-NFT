@@ -5,7 +5,7 @@ const {
     createNewCollection,
     deleteCollection,
     updateCollection,
-    restoreDeletedCollection
+    restoreDeletedCollection,
 } = require("../controllers/collection.controller");
 
 const collectionRouter = Router();
@@ -20,7 +20,7 @@ collectionRouter.put("/:id", updateCollection);
 
 collectionRouter.delete("/:id", deleteCollection);
 
-collectionRouter.put("/restore/:id", restoreDeletedCollection);
+collectionRouter.get("/restore/:id", restoreDeletedCollection);
 
 
 module.exports = collectionRouter;
