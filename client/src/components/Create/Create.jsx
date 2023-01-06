@@ -93,6 +93,7 @@ export default function Create() {
               >
                   <CreateCollection
                     createdNft={createdNft}
+                    image_prop={"image"}
                     setCreatedNft={setCreatedNft}
                     createdCollection={createdCollection}
                     setCreatedCollection={setCreatedCollection}

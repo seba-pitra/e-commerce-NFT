@@ -25,6 +25,7 @@ import Collections from "./components/Collections/Collections.jsx";
 import CollectionDetail from "./components/CollectionDetail/CollectionDetail.jsx";
 import Recovery from "./components/Recovery/Recovery";
 import PayResult from "./components/PayResult/PayResult";
+import UserVerify from "./components/UserComponents/UserVerify/UserVerify";
 
 // Firebase imports
 import { auth } from "./firebase.js";
@@ -75,6 +76,7 @@ function App() {
           />
           <Route exact path="/developerTeam" render={() => <DeveloperTeam />} />
           <Route exact path="/createNft" render={() => <Create />} />
+          <Route exact path="/myAccount/verify" render={() => <UserVerify />} />
           <Route exact path="/pay/success" render={() => <PayResult />} />
           <Route exact path="/pay/failure" render={() => <PayResult />} />
           <Route exact path="/pay/pending" render={() => <PayResult />} />

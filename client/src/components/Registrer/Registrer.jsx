@@ -7,21 +7,20 @@ import {
   signOut,
 } from "firebase/auth";
 import "./Registrer.css";
-import Button from "react-bootstrap/Button";
+// import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
-import Row from "react-bootstrap/Row";
+// import Row from "react-bootstrap/Row";
 
 const Register = () => {
   const history = useHistory();
 
   const [signUp, setSignUpForm] = useState({
+    username: "",
     email: "",
     password: "",
-    name: "",
-    last_name: "",
-    age: "",
+    password2: "",
   });
 
   const [error, setError] = useState("");
@@ -38,9 +37,7 @@ const Register = () => {
         let user = {
           id: auth.currentUser.uid,
           email: auth.currentUser.email,
-          name: params.name,
-          last_name: params.last_name,
-          age: Number(params.age),
+          username: params.username
         };
         await fetch("http://localhost:3001/user/register", {
           method: "POST",
@@ -72,19 +69,22 @@ const Register = () => {
     });
   };
 
-  const handdleSubmit = async (e) => {
+  const handdleSubmit = async (e) => { // JAMES FALTA MANEJAR ERRORES Y VALIDAR DATOS
     e.preventDefault();
-    await createUser(signUp);
+    if(signUp.password === signUp.password2) { // ACA POR EJEMPLO XD
+      await createUser(signUp);
 
-    history.push("/marketplace");
+      history.push("/marketplace");
 
-    setSignUpForm({
-      email: "",
-      password: "",
-      name: "",
-      last_name: "",
-      age: "",
-    });
+      setSignUpForm({
+        username: "",
+        email: "",
+        password: "",
+        password2: ""
+      });
+    } else {
+      alert("The passwords do not match"); // XD
+    }
   };
 
   const [validated, setValidated] = useState(false);
@@ -109,37 +109,20 @@ const Register = () => {
             className="register-form-input"
             controlId="validationCustom01"
           >
-            <Form.Label>First name</Form.Label>
+            <Form.Label>Username</Form.Label>
             <Form.Control
               required
               type="text"
-              placeholder="First name"
+              placeholder="Username"
               onChange={handdleChange}
               value={signUp.name}
-              name="name"
+              name="username"
             />
             <Form.Control.Feedback type="invalid">
-              Please type a name.
+              Please choose a username
             </Form.Control.Feedback>
           </Form.Group>
-          <Form.Group
-            as={Col}
-            className="register-form-input"
-            controlId="validationCustom02"
-          >
-            <Form.Label>Last name</Form.Label>
-            <Form.Control
-              required
-              type="text"
-              placeholder="Last name example"
-              onChange={handdleChange}
-              value={signUp.last_name}
-              name="last_name"
-            />
-            <Form.Control.Feedback type="invalid">
-              Please type a last name
-            </Form.Control.Feedback>
-          </Form.Group>
+          
           <Form.Group
             as={Col}
             className="register-form-input"
@@ -159,7 +142,7 @@ const Register = () => {
                 required
               />
               <Form.Control.Feedback type="invalid">
-                Please choose a username.
+                Please type an email
               </Form.Control.Feedback>
             </InputGroup>
           </Form.Group>
@@ -180,20 +163,25 @@ const Register = () => {
               Please type a password
             </Form.Control.Feedback>
           </Form.Group>
+
           <Form.Group
             as={Col}
             className="register-form-input"
-            controlId="validationCustom03"
+            controlId="validationCustom02"
           >
-            <Form.Label>Age</Form.Label>
+            <Form.Label>Repeat password</Form.Label>
             <Form.Control
-              type="number"
-              placeholder="Age"
+              required
+              type="password"
               onChange={handdleChange}
-              value={signUp.age}
-              name="age"
+              name="password2"
+              value={signUp.password2}
             />
+            <Form.Control.Feedback type="invalid">
+              Please repeat your password
+            </Form.Control.Feedback>
           </Form.Group>
+
           <button
             className="register-button"
             onClick={handdleSubmit}
