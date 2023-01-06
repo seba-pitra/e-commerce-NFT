@@ -117,7 +117,9 @@ const deleteUser = async (req, res) => {
           id: id,
         },
       });
-      return res.status(200).send(`${deletedUser.name}  successfully deleted`);
+      return res
+        .status(200)
+        .send(`${deletedUser.username}  successfully deleted`);
     } else {
       throw new Error(`no NFT found with id: ${id}`);
     }
@@ -141,7 +143,7 @@ const restoreDeletedUser = async (req, res) => {
     if (restoredUser) {
       return res.status(200).json({
         user: restoredUser,
-        message: `${restoredUser.name} successfully restored`,
+        message: `${restoredUser.username} successfully restored`,
       });
     } else {
       throw new Error(`No nft found with id ${id}`);

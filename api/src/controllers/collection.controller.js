@@ -41,6 +41,9 @@ const getCollectionById = async (req, res) => {
         {
           model: User,
         },
+        {
+          model: Review,
+        },
       ],
     });
     if (foundCollectionInDB) {
@@ -82,7 +85,6 @@ const createNewCollection = async (req, res) => {
       res.status(200).json(newCollection); //devuelve la coleccion creada.
     }
   } catch (err) {
-    console.error(err);
     res.status(400).json({ error: err.message });
   }
 };
@@ -91,11 +93,8 @@ const createNewCollection = async (req, res) => {
 const deleteCollection = async (req, res) => {
   try {
     const { id } = req.params;
-    const deletedCollection = await Collection.findByPk({
-      where: {
-        id: id,
-      },
-    });
+    const deletedCollection = await Collection.findByPk(id);
+
     if (deletedCollection) {
       await Collection.destroy({
         where: {
@@ -109,7 +108,6 @@ const deleteCollection = async (req, res) => {
       throw new Error(`no Collection found with id: ${id}`);
     }
   } catch (err) {
-    console.error(err);
     return res.status(400).json({ err: err.message });
   }
 };
@@ -141,11 +139,8 @@ const restoreDeletedCollection = async (req, res) => {
         id: id,
       },
     });
-    const restoredCollection = await Collection.findByPk({
-      where: {
-        id: id,
-      },
-    });
+    const restoredCollection = await Collection.findByPk(id);
+
     if (restoredCollection) {
       return res.status(200).json({
         nft: restoredCollection,

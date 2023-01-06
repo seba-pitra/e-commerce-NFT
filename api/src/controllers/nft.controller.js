@@ -1,7 +1,7 @@
 const allNFTs = require("../jsondata");
 const testNFTs = require("../jsondata/indexTest");
 
-const { Nft, Collection, User, Review } = require("../db");
+const { Nft, Collection, User, Review, Purchase } = require("../db");
 
 const { superUser } = require("../jsondata/superUserData.json");
 
@@ -18,11 +18,16 @@ const getNfts = async (req, res) => {
               { model: User },
               { model: Collection },
               { model: Review },
+              { model: Purchase },
             ],
             paranoid: false,
           })
         : await Nft.findAll({
-            include: [{ model: Collection }, { model: Review }],
+            include: [
+              { model: Collection },
+              { model: Review },
+              { model: Purchase },
+            ],
           });
     if (allNfts.length === 0) {
       throw new Error("nothing on database please contact Mr. Miguel Villa");
@@ -46,6 +51,9 @@ const getNftById = async (req, res) => {
         },
         {
           model: Review,
+        }
+        {
+          model: Purchase,
         },
       ],
     });
@@ -256,8 +264,8 @@ const changeNftOwner = async (req, res) => {
       ownerName: newOwner.username,
       ownerIcon: newOwner.profile_pic,
     });
-    await nft.setOwner(newOwner);
-    res.json({ message: "Dueño del NFT cambiado con éxito" });
+    await nft.setUser(newOwner);
+    res.json({ message: "Owner NFT changed succesfully" });
   } catch (error) {
     console.error(error);
     res.status(400).json({ error: error.message });

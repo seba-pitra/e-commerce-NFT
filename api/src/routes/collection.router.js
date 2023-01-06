@@ -20,7 +20,7 @@ collectionRouter.put("/:id", updateCollection);
 
 collectionRouter.delete("/:id", deleteCollection);
 
-collectionRouter.put("/restore/:id", restoreDeletedCollection);
+collectionRouter.get("/restore/:id", restoreDeletedCollection);
 
 
 module.exports = collectionRouter;
