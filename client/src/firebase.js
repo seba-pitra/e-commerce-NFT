@@ -9,7 +9,7 @@ import * as dotenv from "dotenv";
 dotenv.config();
 
 export const firebaseConfig = JSON.parse(
-  process.env.PUBLIC_REACT_APP_FIREBASE_CONFIG
+  process.env.NEXT_PUBLIC_REACT_APP_FIREBASE_CONFIG
 );
 
 const app = initializeApp(firebaseConfig);
