@@ -1,0 +1,29 @@
+.main-op {
+ display: flex;
+ align-items: center;
+ /* overflow: hidden; */
+}
+
+.img-container {
+    /* justify-content: space-between; */
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding: 5px;
+  background-color: #228dff;
+  color: #fff;
+  border: solid 1px rgb(194, 194, 194);
+  border-radius: 10px;
+  width: 140px;
+  transform: skew(-0.06turn, 5deg);
+  margin-top: 5px;
+  margin-left: 25px;
+
+ 
+ }
+
+.fav-nft-img {
+  height: 7em;
+  border-radius: 10px;
+}
+
+

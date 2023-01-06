@@ -229,7 +229,9 @@ export default function UserProfile() {
         etc */}
           <h6>2 NFT's bought</h6>
           <h6>You dont have permitions to create an NFT ,you need to upgrade your account</h6>
-          <div className="upgrade-button">Upgrade to Premium</div>
+          <Link to="/myAccount/verify">
+            <div className="upgrade-button">Upgrade to Premium</div>
+          </Link>
 
         </div>
         <div className="history">
