@@ -19,10 +19,9 @@ export default function NFTCard(props) {
   const dispatch = useDispatch();
 
   const handleClickOnShoppingCart = (e) => {
-    localStorage.setItem("nftsOnShoppingCart", JSON.stringify(userNfts));
     dispatch(actions.addNftOnShoppingCart(props));
-    saveLocalStorage(userNfts);
   };
+
   const handleClickOnFavorites = (e) => {
     dispatch(actions.addToFav());
   };
