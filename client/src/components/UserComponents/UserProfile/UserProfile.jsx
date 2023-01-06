@@ -103,6 +103,7 @@ export default function UserProfile() {
 
   const dispatch = useDispatch();
   const userDetail = useSelector((state) => state.loggedUser);
+
   // const { userDetail } = useSelector((state) => state);
 
   // FALTA TRAER EL COMPONENTE PurchaseHistory y pasarle por params las relaciones con buy para q muestre el historial
@@ -134,6 +135,8 @@ export default function UserProfile() {
 
   useEffect(() => {}, [dispatch]);
   console.log(userDetail)
+ 
+
   return (
     <div className="main-container">
       <button onClick={() => navHistory.goBack()} className="back-button">
@@ -149,7 +152,7 @@ export default function UserProfile() {
             referrerpolicy="no-referrer"
           />
           {/* falta nombre de usuario  */}
-          <p className="text-muted mb-1">NOMBRE DE USARIO</p>
+          <p className="text-muted mb-1">{userDetail.username}</p>
           <img
             className="edit-info"
             src={
@@ -170,7 +173,9 @@ export default function UserProfile() {
           age ={userDetail.age}
           phone ={userDetail.phone}
           mobile ={userDetail.mobile}
-          id = {userDetail.id}/>
+          id = {userDetail.id}
+          />
+          
           
         ) : (
           <div className="user-info">

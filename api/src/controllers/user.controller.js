@@ -69,7 +69,7 @@ const getAllUsers = async (req, res) => {
 
 const updateUser = async (req, res) => {
   try {
-    const { id } = req.body;
+    const { id } = req.params;
     const dataToUpdate = req.body;
     const foundUser = await User.findByPk(id);
     if (foundUser) {

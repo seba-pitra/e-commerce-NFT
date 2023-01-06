@@ -10,13 +10,11 @@ export default function EditUserINfo(props) {
   // props : name,last_name,email,age,type,phone,mobile,id
 
   let [input, setInput] = React.useState({
-    name: props.name,
-    last_name: props.last_name,
     email: props.email,
     age: props.age,
-    phone: props.phone,
-    mobile: props.mobile,
-    id: props.id,
+    phone_number: props.phone,
+    dni: props.dni,
+    id: props.id
   });
   let [errors, setErrors] = React.useState({
     
@@ -33,7 +31,7 @@ export default function EditUserINfo(props) {
   let handleChange = (e) => {
     e.preventDefault();
     setInput((prev) => ({ ...prev, [e.target.name]: e.target.value }));
-
+    console.log(input);
     setErrors(validateUser({...input,
       [e.target.name]: e.target.value,}));
     
@@ -47,24 +45,22 @@ export default function EditUserINfo(props) {
     let obj = { ...input };
     console.log(obj);
     console.log(input);
-    if (obj.name === props.name &&
-      obj.last_name === props.last_name &&
+    if (
       obj.email === props.email &&
-      obj.phone === props.phone &&
-      obj.mobile === props.mobile &&
+      obj.phone_number === props.phone_number &&
       obj.age === props.age) {
       //si esto se da significa que no hubo ningun cambio .entonces no deberia hacer el dispatch
       console.log("There was no change in your data.");
       return;
     } else {
       console.log('there was a change');
-      // dispatch(updateUser(obj))
+      dispatch(updateUser(obj))
     }
   };
 
   return (
     <form className="edit-form">
-      <div className="edit-input">
+      {/* <div className="edit-input">
         <label>First Name</label>
         <input
           name="name"
@@ -81,7 +77,7 @@ export default function EditUserINfo(props) {
           onChange={(e) => handleChange(e)}
           value={input.last_name}
         />
-      </div>
+      </div> */}
       <div className="edit-input">
         <label>Email</label>
         <input
