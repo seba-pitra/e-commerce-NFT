@@ -36,10 +36,10 @@ const Details = (props) => {
 
   const [rating, setRating] = useState([]);
 
-  console.log("rating detail > ", rating);
+  console.log("rating detail > ", rating)
 
   useEffect(() => {
-    dispatch(actions.addStars({ id, rating: rating.value }));
+    dispatch(actions.addStars({id, rating: rating.value}));
   }, [rating]);
 
   useEffect(() => {
@@ -103,7 +103,7 @@ const Details = (props) => {
   date = date.slice(4, 16);
 
   let starsValue = nftDetail.stars?.reduce((a, b) => a + b, 0);
-  starsValue = starsValue / nftDetail.stars?.length;
+  starsValue = starsValue / nftDetail.stars?.length
 
   return (
     <>
@@ -127,7 +127,7 @@ const Details = (props) => {
 
             <div className={styles["nft-data-container"]}>
               <div>
-                <StarRating rating={rating} setRating={setRating} />
+                <StarRating rating={rating} setRating={setRating}/>
                 <h1>{nftDetail.name}</h1>
                 <span className={styles["detail-span"]}>
                   Included from {nftDetail.ownerName + " "}

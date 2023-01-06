@@ -51,8 +51,10 @@
 
 .login-errormessage {
   display: flex;
-  color: white;
+  color: rgb(252, 81, 81) !important;
+  background-color: transparent !important;
 }
+
 .login-loggedmessage {
   color: white;
   font-size: 16px;

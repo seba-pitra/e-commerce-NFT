@@ -37,7 +37,6 @@
   }
   
   .inputContainer .upload-file{
-    margin-left: 170px;
     border: 2px solid rgb(211, 68, 139, 1);
     outline: none;
     cursor: pointer;
@@ -216,10 +215,6 @@
 
   .div-create-collection input{
     margin-right: 40px;
-  }
-
-  .cloudinary-collections-create h5, .cloudinary-collections-create p{
-    display: none;
   }
 
   .cloudinary-collections-create button{
