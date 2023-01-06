@@ -35,8 +35,6 @@ export default function Shoppingkart() {
       addr: nftContract,
     });
 
-    console.log("transactionMetamask", transactionMetamask);
-
     let metamaskBuyData = {
       price: nftPrice + " ETH",
       contract: nftContract,
@@ -52,7 +50,7 @@ export default function Shoppingkart() {
       toast.success("Payment successfully");
       metamaskBuyData = {
         ...metamaskBuyData,
-        statusPay: "Successed",
+        statusPay: "Successful",
       };
     } else if (transactionMetamask.includes("rejected")) {
       //si se rechazo en metamask
