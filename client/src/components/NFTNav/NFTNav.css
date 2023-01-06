@@ -44,7 +44,7 @@
   padding: 2px;
 }
 
-.testeandooooooooooooooooooo2{
+.control-icon{
     background-color: transparent;
     color: rgb(211, 68, 139);
     border: 1px solid rgb(3, 6, 21);
@@ -55,4 +55,13 @@
 
 .margin-left{
     margin-left: 40px;
+}
+
+@keyframes pulse {
+  from {
+    color: red;
+  }
+  to {
+    color: black;
+  }
 }
