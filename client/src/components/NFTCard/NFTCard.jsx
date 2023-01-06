@@ -30,7 +30,7 @@ export default function NFTCard(props) {
 		saveLocalStorage();
 	};
 const handleClickOnFavorites = (e) => {
-		dispatch(actions.addToFav());
+		dispatch(actions.addToFav(props));
 	};
 
   let starsValue = props.stars?.reduce((a, b) => a + b, 0);
