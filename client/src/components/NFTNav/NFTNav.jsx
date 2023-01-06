@@ -15,6 +15,7 @@ import "./NFTNav.css";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
+import { saveLocalStorage } from "../../utils";
 
 import UserIcon from "./UserIcon/UserIcon";
 
@@ -37,7 +38,7 @@ export default function NFTNav() {
   const handleClose = () => setShow(false);
   const handleShow = () => {
     setShow(true);
-    saveLocalStorage();
+    saveLocalStorage(userNfts);
   };
   const handleCloseFav = () => setShowFav(false);
   const handleShowFav = () => setShowFav(true);
@@ -51,7 +52,7 @@ export default function NFTNav() {
       await signOut(auth);
       history.push("/");
     } catch (error) {
-      toast.error("Something was wrong. try again later");
+      toast.error("Something was wrong. Try again later");
       // alert(error.message);
     }
   };
@@ -66,12 +67,6 @@ export default function NFTNav() {
     e.preventDefault();
     setShowUserList(!showUserList);
   };
-
-  function saveLocalStorage() {
-    localStorage.setItem(activeUserIs, JSON.stringify(userNfts));
-    // activeUserIs == tag of item in localStorage
-    console.log(cartItemsCount);
-  }
 
   return (
     <div className={areWeInLanding ? "hidden" : "nav-bar"}>

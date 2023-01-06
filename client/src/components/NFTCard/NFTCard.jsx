@@ -1,42 +1,36 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "./NFTCard.css";
-import {  useDispatch, useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import FavoriteIcon from "@material-ui/icons/Favorite";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 import * as actions from "../../redux/actions";
-import "./NFTCard.css";
 import ethereumLogo from "../../images/ethereum-logo.png";
 import favsLogo from "../../images/favs-logo.png";
 import starsLogo from "../../images/stars-logo.png";
+import { saveLocalStorage } from "../../utils";
+import "./NFTCard.css";
 
 export default function NFTCard(props) {
-	const activeUserIs = useSelector((state) => state.activeUser);
-	const cartItemsCount = useSelector((state) => state.userNfts);
-	const userNfts = useSelector((state) => state.userNfts);
-	const viewCards = useSelector((state) => state.viewCards);
+  const activeUserIs = useSelector((state) => state.activeUser);
+  const userNfts = useSelector((state) => state.userNfts);
+  const viewCards = useSelector((state) => state.viewCards);
 
   const ethPrice = useSelector((state) => state.ethPrice);
   const dispatch = useDispatch();
 
-
-	function saveLocalStorage(){
-		localStorage.setItem(activeUserIs,JSON.stringify(userNfts));
-		console.log(cartItemsCount );
-	}
-
-	const handleClickOnShoppingCart = (e) => {
-		dispatch(actions.addNftOnShoppingCart(props));
-		saveLocalStorage();
-	};
-const handleClickOnFavorites = (e) => {
-		dispatch(actions.addToFav(props));
-	};
+  const handleClickOnShoppingCart = (e) => {
+    localStorage.setItem("nftsOnShoppingCart", JSON.stringify(userNfts));
+    dispatch(actions.addNftOnShoppingCart(props));
+    saveLocalStorage(userNfts);
+  };
+  const handleClickOnFavorites = (e) => {
+    dispatch(actions.addToFav());
+  };
 
   let starsValue = props.stars?.reduce((a, b) => a + b, 0);
-  starsValue = starsValue / props.stars?.length
+  starsValue = starsValue / props.stars?.length;
 
-  if(viewCards === "clear"){
+  if (viewCards === "clear") {
     return (
       <div className="cardContainer">
         <div className="nftCard-image-info">
@@ -54,9 +48,10 @@ const handleClickOnFavorites = (e) => {
             </div>
           </Link>
           <div className="CardButtons">
-            <div className="nftCard-icon-container"
+            <div
+              className="nftCard-icon-container"
               onClick={handleClickOnFavorites}
-              >
+            >
               <FavoriteIcon />
             </div>
             <div
@@ -97,28 +92,42 @@ const handleClickOnFavorites = (e) => {
               <div>
                 <div className="eth-rarity">
                   <div className="flex-row">
-                    <img src={ethereumLogo} alt="ethereum-logo" className="eth-logo"/>
+                    <img
+                      src={ethereumLogo}
+                      alt="ethereum-logo"
+                      className="eth-logo"
+                    />
                     <h3>{props.price.toFixed(3)}</h3>
                   </div>
                   <div className="flex-row">
-                    <img src={favsLogo} alt="ethereum-logo" className="eth-logo"/>
+                    <img
+                      src={favsLogo}
+                      alt="ethereum-logo"
+                      className="eth-logo"
+                    />
                     <h3>{props.favs}</h3>
                   </div>
                   <div className="flex-row">
-                    <img src={starsLogo} alt="ethereum-logo" className="eth-logo"/>
+                    <img
+                      src={starsLogo}
+                      alt="ethereum-logo"
+                      className="eth-logo"
+                    />
                     <h3>{starsValue || 0}</h3>
                   </div>
                 </div>
                 <h4>
-                  Last Buy: ETH {props.lastBuy} - ${(props.lastBuy * ethPrice.USD).toFixed(2)} USD
+                  Last Buy: ETH {props.lastBuy} - $
+                  {(props.lastBuy * ethPrice.USD).toFixed(2)} USD
                 </h4>
               </div>
             </div>
           </Link>
           <div className="CardButtons">
-            <div className="nftCard-icon-container"
-      onClick={handleClickOnFavorites}
-      >
+            <div
+              className="nftCard-icon-container"
+              onClick={handleClickOnFavorites}
+            >
               <FavoriteIcon />
             </div>
             <div
