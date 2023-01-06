@@ -123,7 +123,7 @@ export default function NFTNav() {
                 className="control-icon"
                 onClick={handleShowFav}
               >
-                <FavoriteIcon />
+                <FavoriteIcon style={{color: 'red',animation: 'pulse 1s infinite alternate'}}/>
                 <span id="cart_Numer_Items" className="badge rounded-circle">
                   {userFavorites.length}    
                 </span>
@@ -154,11 +154,8 @@ export default function NFTNav() {
               </Offcanvas>
 
               {/* favorites comp */}
-              <Offcanvas show={showFav} onHide={handleCloseFav} placement={"bottom"}>
-                <Offcanvas.Header closeButton>
-                  <Offcanvas.Title>Favorites</Offcanvas.Title>
-                </Offcanvas.Header>
-                <Offcanvas.Body>
+	       <Offcanvas style={{height: '200px',backgroundColor: 'transparent',boxShadow: 'none'}} show={showFav} onHide={handleCloseFav} placement={"bottom"} className="offcanvas-scrollbar"> 
+	        <Offcanvas.Body>
           	 <Ufavorites />       
                 </Offcanvas.Body>
               </Offcanvas>

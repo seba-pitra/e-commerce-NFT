@@ -56,3 +56,21 @@
 .margin-left{
     margin-left: 40px;
 }
+
+.offcanvas-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  background-color: red;
+}
+
+.offcanvas-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #666;
+}
+
+@keyframes pulse {
+  from {
+    color: red;
+  }
+  to {
+    color: black;
+  }
+}

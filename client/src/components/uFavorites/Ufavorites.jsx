@@ -1,7 +1,7 @@
 import { React, useState } from "react";
 import { useLocation, useHistory } from "react-router-dom";
 import FavoriteIcon from '@material-ui/icons/Favorite';
-import styles from "./Ufavorites.css";
+import styles from "./Ufavorites.module.css";
 import { useDispatch, useSelector } from "react-redux";
 import Button from "react-bootstrap/Button";
 
@@ -18,28 +18,17 @@ console.log(userFavs);
 
 	return (
 	
-<div className={styles["shopping-cart"]}>
-      <div className={styles["shopping-cart-nft-cards"]}>
+<div className={styles["main-op"]}>
+      <div class="d-flex flex-row">
         {userFavs &&
-          userFavs.map((nft) => {
+          userFavs.map((idx) => {
             return (
-              <div className={styles["cart-nfts-container"]}>
+              <div className={styles["img-container"]}>
                 <img
-                  src={nft.image}
-                  alt="nft-cart"
-                  className={styles["cart-nft-img"]}
+                  src={idx.image}
+                  alt="nft"
+                  className={styles["fav-nft-img"]}
                 />
-                <div>
-                  <p>Price</p>
-                  <p className={styles["cart-nft-price"]}>
-                    ${(nft.price * 1271).toFixed(2)} USD
-                  </p>
-                </div>
-                <button
-                  className={styles["cart-nft-remove-button"]}
-                >
-                  X
-                </button>
               </div>
             );
           })}
