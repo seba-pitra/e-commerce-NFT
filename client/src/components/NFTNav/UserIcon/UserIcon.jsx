@@ -25,21 +25,14 @@ const UserIcon = ({ setVisible, visible }) => {
       history.push("/");
     } catch (error) {
       toast.error("Something was wrong. try again later");
-      // alert(error.message);
     }
   };
   const handdleCick = (e) => {
-    saveLocalStorage();
     dispatch(freeShoppingCartState());
     logOutFunction();
     setVisible(e);
   };
 
-  function saveLocalStorage() {
-    localStorage.setItem(activeUserIs, JSON.stringify(userNfts));
-    // activeUserIs == tag of item in localStorage
-    console.log(cartItemsCount);
-  }
   return (
     <ul className={`user-icon-list ${visible ? "" : "noneDisplay"}`}>
       <li onClick={setVisible}>

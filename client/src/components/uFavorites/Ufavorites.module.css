@@ -5,25 +5,39 @@
 }
 
 .img-container {
-    /* justify-content: space-between; */
   font-size: 18px;
   margin-bottom: 20px;
   padding: 5px;
-  background-color: #228dff;
+/*  background-color: #c59400; */
   color: #fff;
-  border: solid 1px rgb(194, 194, 194);
+  border: solid 0px rgb(194, 194, 194);
   border-radius: 10px;
   width: 140px;
-  transform: skew(-0.06turn, 5deg);
+  height: 136px;
   margin-top: 5px;
   margin-left: 25px;
 
- 
+  background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+  radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+
  }
+
+.img-container:hover{transform: scale(1.05);}
+
 
 .fav-nft-img {
   height: 7em;
   border-radius: 10px;
 }
 
+.favs-remove-button {
+ position: relative;
+ margin-left: 120px;
+ top: -140px;
+ border-radius: 20%; 
+ background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+  radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
 
+color: white;
+/* height:22px */
+}

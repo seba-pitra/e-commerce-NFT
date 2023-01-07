@@ -5,7 +5,7 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 import SearchBar from "../SearchBar/SearchBar";
 import logo from "../../images/logo/logo.png";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
-import FavoriteIcon from '@material-ui/icons/Favorite';
+import FavoriteIcon from "@material-ui/icons/Favorite";
 import Shoppingkart from "../Shoppingkart/Shoppingkart";
 import Ufavorites from "../uFavorites/Ufavorites.jsx";
 import Offcanvas from "react-bootstrap/Offcanvas";
@@ -15,9 +15,9 @@ import "./NFTNav.css";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
+import { saveLocalStorage } from "../../utils";
 
 import UserIcon from "./UserIcon/UserIcon";
-
 
 import AccountCircleIcon from "@material-ui/icons/AccountCircle";
 
@@ -25,6 +25,7 @@ export default function NFTNav() {
   const [show, setShow] = useState(false);
   const [showFav, setShowFav] = useState(false);
   const [showUserList, setShowUserList] = useState(false);
+
   const cartItemsCount = useSelector((state) => state.userNfts);
   const activeUserIs = useSelector((state) => state.activeUser);
   const userNfts = useSelector((state) => state.userNfts);
@@ -33,16 +34,15 @@ export default function NFTNav() {
 
   const location = useLocation();
   const history = useHistory();
+
   const areWeInLanding = location.pathname === "/";
+
   const handleClose = () => setShow(false);
   const handleShow = () => {
     setShow(true);
-    saveLocalStorage();
   };
   const handleCloseFav = () => setShowFav(false);
   const handleShowFav = () => setShowFav(true);
-
-
 
   const dispatch = useDispatch();
 
@@ -51,7 +51,7 @@ export default function NFTNav() {
       await signOut(auth);
       history.push("/");
     } catch (error) {
-      toast.error("Something was wrong. try again later");
+      toast.error("Something was wrong. Try again later");
       // alert(error.message);
     }
   };
@@ -66,12 +66,6 @@ export default function NFTNav() {
     e.preventDefault();
     setShowUserList(!showUserList);
   };
-
-  function saveLocalStorage() {
-    localStorage.setItem(activeUserIs, JSON.stringify(userNfts));
-    // activeUserIs == tag of item in localStorage
-    console.log(cartItemsCount);
-  }
 
   return (
     <div className={areWeInLanding ? "hidden" : "nav-bar"}>
@@ -119,25 +113,22 @@ export default function NFTNav() {
               </div>
 
               {/* favorite */}
+
                 <button
                 className="control-icon"
                 onClick={handleShowFav}
               >
-                <FavoriteIcon style={{color: 'red',animation: 'pulse 1s infinite alternate'}}/>
+                <FavoriteIcon />
+
                 <span id="cart_Numer_Items" className="badge rounded-circle">
-                  {userFavorites.length}    
+                  {userFavorites.length}
                 </span>
               </button>
 
-
               {/* end favorite-*/}
 
-
               {/* slide kart trigger*/}
-              <button
-                className="control-icon"
-                onClick={handleShow}
-              >
+              <button className="control-icon" onClick={handleShow}>
                 <ShoppingCartIcon />
                 <span id="cart_Numer_Items" className="badge rounded-circle">
                   {cartItemsCount.length}
@@ -154,13 +145,22 @@ export default function NFTNav() {
               </Offcanvas>
 
               {/* favorites comp */}
-	       <Offcanvas style={{height: '200px',backgroundColor: 'transparent',boxShadow: 'none'}} show={showFav} onHide={handleCloseFav} placement={"bottom"} className="offcanvas-scrollbar"> 
-	        <Offcanvas.Body>
-          	 <Ufavorites />       
+              <Offcanvas
+                style={{
+                  height: "200px",
+                  backgroundColor: "transparent",
+                  boxShadow: "none",
+                }}
+                show={showFav}
+                onHide={handleCloseFav}
+                placement={"bottom"}
+                className="offcanvas-scrollbar"
+              >
+                <Offcanvas.Body>
+                  <Ufavorites />
                 </Offcanvas.Body>
               </Offcanvas>
-
-                     </Nav>
+            </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>

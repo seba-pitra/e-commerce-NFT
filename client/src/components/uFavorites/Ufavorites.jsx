@@ -5,7 +5,10 @@ import styles from "./Ufavorites.module.css";
 import { useDispatch, useSelector } from "react-redux";
 import Button from "react-bootstrap/Button";
 
-
+// colocar el boton en otro lado
+// redondear el boton 
+//
+//
 export default function Ufavorites(){
  const userFavs = useSelector((state) => state.userFavs);
 console.log(userFavs);
@@ -23,6 +26,10 @@ console.log(userFavs);
                   alt="nft"
                   className={styles["fav-nft-img"]}
                 />
+   		<button className={styles["favs-remove-button"]}>
+                  ×
+                </button>
+
               </div>
             );
           })}
