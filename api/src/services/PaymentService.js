@@ -1,6 +1,5 @@
 const axios = require("axios");
 require("dotenv").config();
-// const { validateUser } = require("../firebase");
 let loggedUser = { providerData: [{ email: "initialEmail@gmail.com" }] };
 
 const setUserEmailForPaymentService = (userInfo) => {

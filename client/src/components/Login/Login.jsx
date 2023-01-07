@@ -12,8 +12,6 @@ import { toast } from "react-toastify";
 const Login = () => {
   const dispatch = useDispatch();
   const history = useHistory();
-  const isLoadingUser = useSelector(state => state.isLoadingUser);
-
   const [logginForm, setLogginForm] = useState({
     email: "",
     password: "",
@@ -28,42 +26,37 @@ const Login = () => {
 
   const handleLogInGoogle = async () => {
     const user = await helpers.signGoogle();
-
     if (user) {
       dispatch(actions.signInWithGoogle(user));
-      history.push("/marketplace");
+      history.push("/home");
     }
-
     loadLocalStorage(dispatch);
   };
 
   const handdleSubmit = async (e) => {
     e.preventDefault();
-
     loadLocalStorage(dispatch);
-
     const userId = await helpers.logginFunction(logginForm);
     if (userId) {
-      dispatch(actions.logInUser(userId));
-      history.push("/home");
       setLogginForm({
         email: "",
         password: "",
       });
+      dispatch(actions.logInUser(userId));
+      history.push("/home");
     }
   };
 
   return (
-    <form>
+    <form onSubmit={handdleSubmit}>
       <div className="form-outline mb-4">
-        <label className="form-label text-light" for="EmailField">
+        <label className="form-label text-light" htmlFor="email">
           Email address
         </label>
         <input
           onChange={handdleChange}
           name="email"
           type="email"
-          id="EmailField"
           className="form-control form-control-lg col-md-2"
           placeholder="example@gmail.com"
           value={logginForm.email}
@@ -71,7 +64,7 @@ const Login = () => {
       </div>
 
       <div className="form-outline mb-3">
-        <label className="form-label text-light" for="PassField">
+        <label className="form-label text-light" htmlFor="PassField">
           Password
         </label>
         <input
@@ -82,23 +75,17 @@ const Login = () => {
           className="form-control form-control-lg"
           placeholder="Enter password"
           value={logginForm.password}
+          autoComplete="off"
         />
       </div>
 
-      {/* 
-      <div className={`login-errormessage ${error ? "" : "noneDisplay"}`}>
-        <p>{error}</p>
-      </div> */}
-
       <div className="text-center text-lg-start mt-4 pt-2">
-        <button
-          onClick={handdleSubmit}
-          type="button"
+        <input
+          type="submit"
+          value="Log in"
           className={"sing-in"}
           style={{ paddingLeft: "2.5rem", paddingRight: "2.5rem" }}
-        >
-          Log in
-        </button>
+        />
         <button className={"sing-in"} type="button" onClick={handleLogInGoogle}>
           <div className={"sing-in-container"}>
             <GoogleIcon />

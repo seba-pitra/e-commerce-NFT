@@ -14,7 +14,7 @@ export default function UserVerify() {
   const user = useSelector((state) => state.loggedUser);
   const dispatch = useDispatch();
   const history = useHistory();
-  const loginStatusStorage = localStorage.getItem("Logged");
+  const loginStatusStorage = localStorage.getItem("loginStatus");
   const [step, setStep] = useState(1);
 
   const [userData, setUserData] = useState({
@@ -36,8 +36,6 @@ export default function UserVerify() {
     dni_image_back: "",
   });
 
-  // console.log(userData)
-
   // -- STEPS --
   const next = (e) => {
     e.preventDefault();
@@ -55,27 +53,8 @@ export default function UserVerify() {
       ...userData,
       userId: user.id,
     };
-    console.log(userDataObj);
-    // dispatch(actions.createNft(userDataObj));
   };
 
-  // const validateUser = async () => {
-  //   if (loginStatusStorage === "Estoy loggeado") {
-  //     dispatch(actions.getAllNfts());
-  //     dispatch(actions.getAllCollections());
-  //     dispatch(actions.getEthPrice());
-  //   } else {
-  //     history.push("/");
-  //   }
-  // };
-    
-    // useEffect(() => {
-    //   setCreatedNft((prev) => ({
-    //     ...prev,
-    //     userId: user.id,
-    //   }));
-    //   validateUser();
-    // }, [user]);
     
 
   return (

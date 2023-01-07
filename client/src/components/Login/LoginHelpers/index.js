@@ -28,8 +28,6 @@ export const logginFunction = async (logginForm) => {
       logginForm.email,
       logginForm.password
     );
-    
-    console.log(responseFirebase.user);
 
     if (!responseFirebase.user.emailVerified) {
       let err = { code: "Email not verified" };
@@ -39,7 +37,7 @@ export const logginFunction = async (logginForm) => {
 
     // await axios.post("/payment/userEmail", auth.currentUser);
 
-    return responseFirebase.user.id;
+    return responseFirebase.user.uid;
   } catch (error) {
     handleErrorLoginAndRegister(error);
     await signOut(auth);

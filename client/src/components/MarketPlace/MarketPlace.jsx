@@ -16,36 +16,6 @@ function MarketPlace({ loggedIn }) {
   const dispatch = useDispatch();
   const history = useHistory();
 
-  //   const [loggedIn, setLoggedIn] = useState(true);
-  //   onAuthStateChanged(auth, (user) => {
-  //     if (user) {
-  //       setLoggedIn(true);
-  //     } else {
-  //       setLoggedIn(false);
-  //     }
-  //   });
-
-  useEffect(() => {
-    validateUser();
-  }, []);
-
-  const validateUser = async () => {
-    let firebaseCurrentUser = JSON.parse(
-      localStorage.getItem("firebaseCurrentUser")
-    );
-    let loginStatusStorage = localStorage.getItem("Logged");
-    console.log("Aqui estoy !!", loginStatusStorage);
-    if (loginStatusStorage === "Estoy loggeado") {
-      console.log("firebase,", firebaseCurrentUser.uid);
-      /* dispatch(actions.getLoggedUser(firebaseCurrentUser.uid)); */
-      dispatch(actions.getAllCollections());
-      dispatch(actions.getAllNfts());
-      dispatch(actions.getEthPrice());
-    } else {
-      history.push("/");
-    }
-  };
-
   useEffect(() => {}, [order]);
   return (
     <>

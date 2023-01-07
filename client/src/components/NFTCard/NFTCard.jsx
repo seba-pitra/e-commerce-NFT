@@ -11,8 +11,8 @@ import { saveLocalStorage } from "../../utils";
 import "./NFTCard.css";
 
 export default function NFTCard(props) {
-  const activeUserIs = useSelector((state) => state.activeUser);
-  const userNfts = useSelector((state) => state.userNfts);
+  const loggedUserEmail = useSelector((state) => state.loggedUser.email);
+  const shoppingCartContents = useSelector((state) => state.shoppingCartContents);
   const viewCards = useSelector((state) => state.viewCards);
 
   const ethPrice = useSelector((state) => state.ethPrice);
@@ -23,18 +23,18 @@ export default function NFTCard(props) {
   };
 
 
-	function saveLocalStorage(){
-		localStorage.setItem(activeUserIs,JSON.stringify(userNfts));
-	}
+/* 	function saveLocalStorage(){
+		localStorage.setItem(loggedUserEmail,JSON.stringify(shoppingCartContents));
+	} */
 
 	function saveFavsLocalStorage(){
-          localStorage.setItem((activeUserIs + 'Fav'),JSON.stringify(userNfts));
+          localStorage.setItem((loggedUserEmail + 'Fav'),JSON.stringify(shoppingCartContents));
 	}
 
-	const handleClickOnShoppingCart = (e) => {
+/* 	const handleClickOnShoppingCart = (e) => {
 		dispatch(actions.addNftOnShoppingCart(props));
 		saveLocalStorage();
-	};
+	}; */
 const handleClickOnFavorites = (e) => {
 	dispatch(actions.addToFav(props));
 	saveFavsLocalStorage();

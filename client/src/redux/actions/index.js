@@ -4,11 +4,11 @@ import { toast } from "react-toastify";
 // -- USER ACTIONS --
 export const GET_ALL_USERS = "GET_ALL_USERS";
 export const GET_USER_BY_ID = "GET_USER_BY_ID";
-export const GET_LOGGED_USER = "GET_LOGGED_USER";
-export const REMOVE_LOGGED_USER = "REMOVE_LOGGED_USER";
 export const REGISTER_USER = "REGISTER_USER";
 export const SIGN_IN_WITH_GOOGLE = "SIGN_IN_WITH_GOOGLE";
 export const LOG_IN = "LOG_IN"
+export const LOG_OUT = "LOG_OUT";
+export const LOG_IN_SUCCESS = "LOG_IN_SUCCESS";
 
 // -- GETTERS --
 export const GET_ALL_NFTS = "GET_ALL_NFTS";
@@ -144,7 +144,6 @@ export const getAllUsers = () => {
     }
   };
 };
-
 export const getUserByID = (id) => {
   return async (dispatch) => {
     dispatch({ type: LOADING });
@@ -157,19 +156,6 @@ export const getUserByID = (id) => {
     }
   };
 };
-export const logInUser = (id) => {
-  return async (dispatch) => {
-    dispatch({ type: LOADING });
-    try {
-      const user = await axios.get(`/user/${id}`);
-      dispatch({ type: LOG_IN, payload: user.data });
-    } catch (e) {
-      /* toast.error("Can't get user data from back. Try again later"); */
-      console.log(e);
-    }
-  };
-};
-
 export const updateUser = (id, body) => {
   return async (dispatch) => {
     try {
@@ -180,7 +166,6 @@ export const updateUser = (id, body) => {
     }
   };
 };
-
 export const registerUser = (userData) => {
   return async (dispatch) => {
     try {
@@ -193,7 +178,6 @@ export const registerUser = (userData) => {
     }
   };
 };
-
 export const signInWithGoogle = (userData) => {
   return async (dispatch) => {
     try {
@@ -204,22 +188,25 @@ export const signInWithGoogle = (userData) => {
     }
   };
 };
-
-export const getLoggedUser = (id) => {
+export const logOutUser = () => {
+  return { type: LOG_OUT };
+};
+export const logInUser = (id) => {
   return async (dispatch) => {
+    dispatch({ type: LOADING });
     try {
-      const loggedUser = await axios.get(`/user/${id}`);
-      dispatch({ type: GET_LOGGED_USER, payload: loggedUser.data });
-    } catch (error) {
-      toast.error("Logged user doesn exist");
-      // console.warn(error.message);
+      const user = await axios.get(`/user/${id}`);
+      console.log(user.data);
+      dispatch({ type: LOG_IN, payload: user.data});
+    } catch (e) {
+      toast.error("Can't get user data from back. Try again later");
+      console.log(e);
     }
   };
 };
-
-export const removeLoggedUser = () => {
-  return { type: REMOVE_LOGGED_USER };
-};
+export const successfulLogin = () => {
+  return { type : LOG_IN_SUCCESS }
+}
 
 // --- SETTERS ---
 
@@ -325,7 +312,7 @@ export const createNft = (payload) => {
   return async (dispatch) => {
     try {
       const createdNft = await axios.post(`/nft/create`, payload);
-      dispatch({ type: CREATE_NFT, payload: createdNft.data }); // msj desde el back
+      dispatch({ type: CREATE_NFT, payload: createdNft.data }); // el back esta devolviendo el nft creado.
       toast.success("Collection created successfully");
       // window.location.href = "/marketplace";
     } catch (e) {
@@ -338,7 +325,7 @@ export const createCollection = (payload) => {
   return async (dispatch) => {
     try {
       const createdNft = await axios.post(`/collection/create`, payload);
-      dispatch({ type: CREATE_COLLECTION, payload: createdNft.data }); // msj desde el back
+      dispatch({ type: CREATE_COLLECTION, payload: createdNft.data }); // el back devuelve la collection creada
 
       toast.success("Collection created successfully");
       // window.location.href = "/marketplace";
@@ -352,7 +339,7 @@ export const deleteNft = (id) => {
   return async (dispatch) => {
     try {
       const deletedNft = await axios.delete(`/nft/${id}`);
-      dispatch({ type: DELETE_NFT, payload: deletedNft.data }); // msj desde el back
+      dispatch({ type: DELETE_NFT, payload: deletedNft.data }); // el back devuelve un mensaje de que fue eliminada exitosamente.
       toast.success("NFT deleted successfully");
     } catch (e) {
       toast.error("Something was wrong. try again later");
@@ -367,7 +354,7 @@ export const updateNft = (id, payload) => {
   return async (dispatch) => {
     try {
       const updateNft = await axios.put(`/nft/${id}`, payload);
-      dispatch({ type: UPDATE_NFT, payload: updateNft.data }); // msj desde el back
+      dispatch({ type: UPDATE_NFT, payload: updateNft.data }); // el back devuelve el nft actualizado.
       toast.success("NFT updated successfully");
     } catch (e) {
       toast.error(e.response.data);

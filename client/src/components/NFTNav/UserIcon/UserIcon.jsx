@@ -6,23 +6,21 @@ import { signOut } from "firebase/auth";
 import { auth } from "../../../firebase";
 import "./UserIcon.css";
 import { toast } from "react-toastify";
+import * as actions from "../../../redux/actions"
 
 // Components
 import LogoutIcon from "@material-ui/icons/ExitToApp";
 
 const UserIcon = ({ setVisible, visible }) => {
-  const { userNfts, cartItemsCount, activeUserIs, loggedUser } = useSelector(
+  const { loggedUser } = useSelector(
     (state) => state
   );
-
   const dispatch = useDispatch();
-
-  const history = useHistory();
 
   const logOutFunction = async () => {
     try {
       await signOut(auth);
-      history.push("/");
+      dispatch(actions.logOutUser());
     } catch (error) {
       toast.error("Something was wrong. try again later");
     }
@@ -37,7 +35,7 @@ const UserIcon = ({ setVisible, visible }) => {
     <ul className={`user-icon-list ${visible ? "" : "noneDisplay"}`}>
       <li onClick={setVisible}>
         <Link className="user-icon-list-link" to="/myAccount">
-          My Acount{" "}
+          My Acount
         </Link>
       </li>
 

@@ -14,18 +14,7 @@ const Details = (props) => {
   const dispatch = useDispatch();
   const history = useHistory();
 
-  let loginStatusStorage = localStorage.getItem("Logged");
-
-  const validateUser = async () => {
-    let loginStatusStorage = localStorage.getItem("Logged");
-    if (loginStatusStorage === "Estoy loggeado") {
-      // dispatch(actions.getAllNfts());
-      dispatch(actions.getAllCollections());
-      dispatch(actions.getEthPrice());
-    } else {
-      history.push("/");
-    }
-  };
+  let loginStatusStorage = localStorage.getItem("loginStatus");
 
   const { id } = props.match.params;
   const nftDetail = useSelector((state) => state.nftDetail);
@@ -43,7 +32,6 @@ const Details = (props) => {
   }, [rating]);
 
   useEffect(() => {
-    validateUser();
     dispatch(actions.getNftDetail(id));
     dispatch(actions.addViewNft(id));
   }, [dispatch, id]);

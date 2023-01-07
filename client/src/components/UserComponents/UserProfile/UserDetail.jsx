@@ -123,21 +123,6 @@ export default function UserProfile(props) {
       });
     };
 
-  const validateUser = () => {
-    let loginStatusStorage = localStorage.getItem("Logged");
-    if(loginStatusStorage==="Estoy loggeado"){
-      dispatch(actions.getUserByID(id))
-    } else {
-      navHistory.push("/")
-    }
-  }
-
-  useEffect(() => {
-    validateUser()
-  }, [dispatch, id]);
-
-  
-  console.log(userDetails);
   return (
     <div className="main-container">
       <button onClick={() => navHistory.goBack()} className="back-button"> {"< "}Back </button>

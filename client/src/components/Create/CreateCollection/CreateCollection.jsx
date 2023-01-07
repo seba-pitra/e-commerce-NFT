@@ -38,14 +38,6 @@ export default function CreateCollection({
     render = true;
   };
 
-  // useEffect(() => {
-  //   setCreatedCollection((prev) => ({
-  //     ...prev,
-  //     userId: user.id,
-  //   }));
-  //   render = false;
-  // }, [user, render]);
-
   console.log(createdNft);
 
   return (

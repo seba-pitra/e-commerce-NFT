@@ -8,7 +8,7 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 export default function Shoppingkart() {
-  const userNfts = useSelector((state) => state.userNfts);
+  const shoppingCartContents = useSelector((state) => state.shoppingCartContents);
   const activeUserIs = useSelector((state) => state.activeUser);
 
   const [error, setError] = useState();
@@ -18,9 +18,9 @@ export default function Shoppingkart() {
 
   const handleBuyNftsOnShoppingCart = async () => {
     //localStorage for payment for mercago pago in component "PayResult"
-    localStorage.setItem("nftsOnShoppingCart", JSON.stringify(userNfts));
+    localStorage.setItem("nftsOnShoppingCart", JSON.stringify(shoppingCartContents));
 
-    dispatch(actions.buyNftOnShoppingCart(userNfts));
+    dispatch(actions.buyNftOnShoppingCart(shoppingCartContents));
     console.log("SendingMail");
     // test only >> dispatch(actions.sendFungibleMail({correoUser: "yomero@gmail.com",accion: "pago"}));
   };
@@ -76,15 +76,15 @@ export default function Shoppingkart() {
   };
 
   let totalAmount = 0;
-  for (const nft of userNfts) {
+  for (const nft of shoppingCartContents) {
     totalAmount += nft.price;
   }
 
   return (
     <div className={styles["shopping-cart"]}>
       <div className={styles["shopping-cart-nft-cards"]}>
-        {userNfts &&
-          userNfts.map((nft) => {
+        {shoppingCartContents &&
+          shoppingCartContents.map((nft) => {
             return (
               <div className={styles["cart-nfts-container"]}>
                 <img

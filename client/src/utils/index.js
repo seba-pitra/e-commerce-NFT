@@ -421,8 +421,8 @@ export function handleErrorLoginAndRegister(error) {
   }
 }
 
-export function saveLocalStorage(userNfts) {
-  localStorage.setItem("nftsOnShoppingCart", JSON.stringify(userNfts));
+export function saveLocalStorage(shoppingCartContents) {
+  localStorage.setItem("nftsOnShoppingCart", JSON.stringify(shoppingCartContents));
 }
 
 export function loadLocalStorage(dispatch) {

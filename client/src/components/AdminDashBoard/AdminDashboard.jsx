@@ -21,21 +21,6 @@ const AdminDashboard = () => {
   const dispatch = useDispatch();
   const history = useHistory();
 
-  useEffect(() => {
-    validateUser();
-  }, [dispatch]);
-
-  const validateUser = () => {
-    let loginStatusStorage = localStorage.getItem("Logged");
-    if (loginStatusStorage === "Estoy loggeado") {
-      dispatch(actions.getAllNfts());
-      dispatch(actions.getAllUsers());
-      dispatch(actions.getAllCollections());
-    } else {
-      history.push("/");
-    }
-  };
-
   if (!nfts.length || !users.length || !collections.length)
     return <h1>Loading</h1>;
   return (
