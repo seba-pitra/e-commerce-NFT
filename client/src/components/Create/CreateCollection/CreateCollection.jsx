@@ -50,7 +50,7 @@ export default function CreateCollection({
 
   return (
     <>
-      <div className="inputContainer">
+      <div className="create-collection-container">
         <div className="divs-separet">
           <h1>Create your Collection</h1>
           <h4>This is the collection where your NFT will appear.</h4>
@@ -110,7 +110,7 @@ export default function CreateCollection({
           </div>
         </div>
       </div>
-      <div className="buttons-next-prev">
+      <div className="buttons-next-prev-container">
         <button
           className={createdNft.collectionId ? "button-next" : "disabled"}
           onClick={next}

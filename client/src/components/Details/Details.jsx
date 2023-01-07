@@ -193,11 +193,11 @@ const Details = (props) => {
                 <h6 className={styles.categories}>
                   Categories: <br /> {nftDetail.category?.join(", ")}
                 </h6>
-                {nftDetail.available ? (
+                {/* {nftDetail.available ? (
                   <span className={styles.available}>Available</span>
                 ) : (
                   <span className={styles.unavailable}>Unavailable</span>
-                )}
+                )} */}
                 <h6>Created At: {date}</h6>
               </div>
 
