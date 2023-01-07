@@ -184,8 +184,7 @@ export const signInWithGoogle = (userData) => {
   return async (dispatch) => {
     try {
       const newUser = await axios.post("user/google/signin", userData);
-      console.log("SIGN WITH GOOGLE", newUser);
-      dispatch({ type: SIGN_IN_WITH_GOOGLE });
+      dispatch({ type: SIGN_IN_WITH_GOOGLE, payload: newUser.data });
     } catch (error) {
       throw new Error(error.message);
     }
@@ -378,7 +377,7 @@ export const addStars = (payload) => {
     try {
       console.log("id", payload.id);
       console.log("rating", payload.rating);
-      await axios.put(`/nft/addStar/${payload.id}`, {rating: payload.rating});
+      await axios.put(`/nft/addStar/${payload.id}`, { rating: payload.rating });
     } catch (e) {
       alert(e.response.data);
     }
@@ -453,6 +452,8 @@ export const sendFungibleMail = (sendData) => {
 
 // --- FAVS ---
 export const addToFav = (payload) => {
+
   console.log(payload);
 	return { type: ADD_FAV, payload};
+
 };
