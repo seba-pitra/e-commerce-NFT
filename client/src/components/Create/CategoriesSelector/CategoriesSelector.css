@@ -1,0 +1,31 @@
+.categories-selector-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 15px;
+}
+
+.categories-selector-container select {
+  margin-bottom: 20px;
+  border: none;
+  background-color: white;
+  border-radius: 10px;
+  background-color: #222b3c;
+  color: #fff;
+  padding: 5px;
+}
+
+.ilustration-validations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+}
+
+.ilustrationContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

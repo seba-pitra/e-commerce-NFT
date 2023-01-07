@@ -39,5 +39,16 @@
   .about-us-card-accordion {
     display: flex;
     flex-direction: column;
+    align-items: center;
+  }
+  .about-us-img {
+    height: 23em;
+    margin-left: 17px;
+  }
+}
+
+@media (max-width: 750px) {
+  .about-us-img {
+    height: 20em;
   }
 }
