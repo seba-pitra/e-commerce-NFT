@@ -42,6 +42,7 @@ import {
   BUY_NFT_ON_SHOOPING_CART,
   GET_ACTIVE_USER,
   LOCAL_STORAGE_CART,
+  LOCAL_STORAGE_FAVS,
   DELETE_NFT_ON_SIGNOUT,
   ADD_BUY_AT_HISTORY_BUYS,
   ADD_FAV,
@@ -68,6 +69,7 @@ const initialState = {
   viewCards: "info",
   users: [],
   userNfts: [],
+  userFavsNfts: [],	
   nftDetail: {},
   userDetail: {},
   loggedUser: {},
@@ -422,6 +424,13 @@ const rootReducer = (state = initialState, action) => {
         userNfts: action.payload,
       };
 
+    case LOCAL_STORAGE_FAVS:
+		  return {
+			  ...state,
+			  userFavsNfts: action.payload,
+		  };
+
+
     case DELETE_NFT_ON_SIGNOUT:
       return {
         ...state,
@@ -437,6 +446,16 @@ const rootReducer = (state = initialState, action) => {
 
     // --- FAVS ---
     case ADD_FAV:
+     const SelectedNft = state.userFavs.find(
+        (nft) => nft.id === action.payload.id
+      );
+ if (SelectedNft) {
+        toast.error("This NFT is already in your Favorites");
+        return { ...state };
+      }
+toast.success("NFT added to your Favorites List successfully");
+
+
       console.log("Se Agrego a Favoritos..");
       return {
         ...state,
