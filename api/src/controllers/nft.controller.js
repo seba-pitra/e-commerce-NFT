@@ -11,24 +11,21 @@ const superUserId = superUser.id;
 // Devuelve todos los nfts de la base da datos junto con su coleccion asignada.
 const getNfts = async (req, res) => {
   try {
-    const allNfts =
-      req.query.deleted === "include"
-        ? await Nft.findAll({
+    const pageSize = req.query.pageSize || 20;
+    const pageNumber = req.query.pageNumber || 1;
+    const limit = pageSize;
+    const offset = (pageNumber - 1) * pageSize;
+    const allNfts = await Nft.findAll({
             include: [
               { model: User },
               { model: Collection },
               { model: Review },
               { model: Purchase },
             ],
-            paranoid: false,
+            paranoid: req.query.deleted === "include"  ? false : true,
+            limit : pageSize,
+            offset : (pageNumber - 1) * pageSize
           })
-        : await Nft.findAll({
-            include: [
-              { model: Collection },
-              { model: Review },
-              { model: Purchase },
-            ],
-          });
     if (allNfts.length === 0) {
       throw new Error("nothing on database please contact Mr. Miguel Villa");
     }
@@ -37,6 +34,21 @@ const getNfts = async (req, res) => {
     res.status(404).json({ error: err.message });
   }
 };
+
+const getNftQuantity = async (req, res) => {
+  try {
+    const column = req.query.column;
+    const value = req.query.value;
+    const paranoid = !(req.query.deleted === "include")
+    let options = { paranoid: paranoid };
+    if(column && value) options.where = { [column]: value };
+    const nftQuantity = await Nft.count(options);
+    res.status(200).json({ quantity : nftQuantity });
+  }catch (error){
+    res.status(400).json({error : error.message})
+  }
+}
+
 // Devuelve el nft que busca mediante id.
 const getNftById = async (req, res) => {
   try {
@@ -375,4 +387,5 @@ module.exports = {
   deleteNft,
   restoreDeletedNft,
   changeNftOwner,
+  getNftQuantity
 };

@@ -51,6 +51,7 @@ const getReviewByID = async (req, res) => {
           model: Nft,
         },
       ],
+      paranoid: req.query.deleted === "include" ? false : true
     });
     if (!review) throw new Error(`No review found with id : ${id}`);
     return res.status(200).json({ review: review });

@@ -37,25 +37,15 @@ const signInWithGoogle = async (req, res) => {
 
 const getAllUsers = async (req, res) => {
   try {
-    const allUsers =
-      req.query.deleted === "include"
-        ? await User.findAll({
+    const allUsers =  await User.findAll({
             include: [
               { model: Nft },
               { model: Collection },
               { model: Purchase, as: "sales" },
               { model: Purchase, as: "purchases" },
             ],
-            paranoid: false,
+            paranoid: req.query.deleted === "include" ? false : true
           })
-        : await User.findAll({
-            include: [
-              { model: Nft },
-              { model: Collection },
-              { model: Purchase, as: "sales" },
-              { model: Purchase, as: "purchases" },
-            ],
-          });
     if (allUsers.length === 0) {
       throw new Error(`No users found on database`);
     } else {

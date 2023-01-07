@@ -9,15 +9,10 @@ const superUserId = superUser.id;
 // Conseguir todas las colecciones de la base de datos.
 const getCollections = async (req, res) => {
   try {
-    const allCollections =
-      req.query.deleted === "include"
-        ? await Collection.findAll({
+    const allCollections = await Collection.findAll({
             include: [{ model: User }, { model: Nft }, { model: Review }],
-            paranoid: false,
+            paranoid: req.query.deleted === "include" ? false : true
           })
-        : await Collection.findAll({
-            include: [{ model: User }, { model: Nft }, { model: Review }],
-          });
     if (allCollections.length === 0) {
       throw new Error("nothing on database");
     }
