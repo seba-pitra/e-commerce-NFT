@@ -16,13 +16,14 @@ dotenv.config();
 "appId":"1:237752112629:web:47d99cd16e2c774c463cbc",
 "measurementId":"G-KTEE8W2F80"}` */
 
-export const firebaseConfig = require("./firebaseConfig.json")
-console.log(firebaseConfig)
+// export const firebaseConfig = require("./firebaseConfig.json")
+// console.log(firebaseConfig)
+
+export const firebaseConfig = JSON.parse(process.env.REACT_APP_FIREBASE_CONFIG);
 
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
 const provider = new GoogleAuthProvider();
-
 
 // Validate User
 export let loggedIn = false;
