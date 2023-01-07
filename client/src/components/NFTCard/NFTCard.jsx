@@ -28,6 +28,7 @@ export default function NFTCard(props) {
     saveFavsLocalStorage();
   };
 
+
   function saveLocalStorage() {
     localStorage.setItem(activeUserIs, JSON.stringify(userNfts));
   }
