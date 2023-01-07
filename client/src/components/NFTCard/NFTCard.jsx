@@ -22,7 +22,10 @@ export default function NFTCard(props) {
 
 	function saveLocalStorage(){
 		localStorage.setItem(activeUserIs,JSON.stringify(userNfts));
-		console.log(cartItemsCount );
+	}
+
+	function saveFavsLocalStorage(){
+          localStorage.setItem((activeUserIs + 'Fav'),JSON.stringify(userNfts));
 	}
 
 	const handleClickOnShoppingCart = (e) => {
@@ -30,8 +33,9 @@ export default function NFTCard(props) {
 		saveLocalStorage();
 	};
 const handleClickOnFavorites = (e) => {
-		dispatch(actions.addToFav(props));
-	};
+	dispatch(actions.addToFav(props));
+	saveFavsLocalStorage();
+};
 
   let starsValue = props.stars?.reduce((a, b) => a + b, 0);
   starsValue = starsValue / props.stars?.length
