@@ -1,7 +1,9 @@
 import {
   GET_ALL_NFTS,
+  GET_ALL_ADMIN_NFTS,
   GET_ALL_COLLECTIONS,
   GET_ALL_USERS,
+  GET_ALL_ADMIN_USERS,
   GET_NFT_DETAIL,
   CREATE_NFT,
   DELETE_NFT,
@@ -52,6 +54,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 const initialState = {
   nfts: [],
+  adminNfts: [],
   filteredNfts: [],
   collections: [],
   setCollections: [],
@@ -65,6 +68,7 @@ const initialState = {
   setNftsPrice: {},
   viewCards: "info",
   users: [],
+  adminUsers: [],
   userNfts: [],
   nftDetail: {},
   userDetail: {},
@@ -100,11 +104,14 @@ const rootReducer = (state = initialState, action) => {
         setCategoryRest: [],
         setCategoryBackg: [],
       };
-
+    case GET_ALL_ADMIN_NFTS:
+      return { ...state, adminNfts: action.payload };
     case GET_ALL_COLLECTIONS:
       return { ...state, collections: action.payload, isLoading: false };
     case GET_ALL_USERS:
       return { ...state, users: action.payload };
+    case GET_ALL_ADMIN_USERS:
+      return { ...state, adminUsers: action.payload };
     case GET_USER_BY_ID:
       return {
         ...state,
@@ -143,9 +150,9 @@ const rootReducer = (state = initialState, action) => {
     case SET_CATEGORY_BACKG:
       return { ...state, setCategoryBackg: action.payload };
     case SET_NFTS_PRICE:
-      return { ...state, setNftsPrice: action.payload }; 
+      return { ...state, setNftsPrice: action.payload };
     case SET_VIEW_CARDS:
-      return { ...state, viewCards: action.payload}; 
+      return { ...state, viewCards: action.payload };
 
     // --- FILTERS ---
     case FILTER_NFTS:

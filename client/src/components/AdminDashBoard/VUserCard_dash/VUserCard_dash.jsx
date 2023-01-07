@@ -6,6 +6,8 @@ import { Link } from "react-router-dom";
 import axios from "axios";
 // Components
 import BlockIcon from "@material-ui/icons/Block";
+import CheckIcon from "@material-ui/icons/Check";
+import CloseIcon from "@material-ui/icons/Close";
 
 const VUserCard_dash = ({
   id,
@@ -15,39 +17,56 @@ const VUserCard_dash = ({
   age,
   phoneNumber,
   nacionality,
+  pp1,
+  pp2,
+  pp3,
 }) => {
-  const handleBlock = async () => {
-    const res = await axios.delete(`/user/${id}`);
-    console.log(res.data);
-  };
-
-  const handleClick = (e) => {
+  const handleVerify = async (e) => {
     e.preventDefault();
-    console.log(auth.currentUser);
+    const res = await axios.put(`/user/verify/${id}`);
+    console.log(res);
+  };
+  const handleReject = async (e) => {
+    e.preventDefault();
+    const res = await axios.put(`/user/reject/${id}`);
+    console.log(res);
   };
 
   return (
     <div className="user-dash-card">
-      <div className="user-dash-name">
-        <p>{name}</p>
+      <div className="vUser-dash-name">
+        <p>{`${name} ${last_name}`}</p>
       </div>
-      <div className="user-dash-email">
-        <p>{last_name}</p>
-      </div>
-      <div className="user-dash-email">
+      <div className="vUser-dash-dni">
         <p>{dni}</p>
       </div>
-      <div className="user-dash-email">
+      <div className="vUser-dash-age">
         <p>{age}</p>
       </div>
-      <div className="user-dash-email">
+      <div className="vUser-dash-pn">
         <p>{phoneNumber}</p>
       </div>
-      <div className="user-dash-email">
+      <div className="vUser-dash-nacionality">
         <p>{nacionality}</p>
       </div>
-      <div className="user-dash-email">
-        <p>Pp1</p>
+      <div className="vUser-dash-pp1">
+        <a href={pp1} target={"_blank"}>
+          Face
+        </a>
+        <a href={pp2} target={"_blank"}>
+          DNI-Front
+        </a>
+        <a href={pp3} target={"_blank"}>
+          DNI-Back
+        </a>
+      </div>
+      <div className="dash-card-icons">
+        <div className="dash-card-icon">
+          <CheckIcon onClick={(e) => handleVerify(e)} />
+        </div>
+        <div className="dash-card-icon">
+          <CloseIcon onClick={(e) => handleReject(e)} />
+        </div>
       </div>
     </div>
   );

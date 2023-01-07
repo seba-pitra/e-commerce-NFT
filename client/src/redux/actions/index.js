@@ -3,6 +3,7 @@ import { toast } from "react-toastify";
 
 // -- USER ACTIONS --
 export const GET_ALL_USERS = "GET_ALL_USERS";
+export const GET_ALL_ADMIN_USERS = "GET_ALL_ADMIN_USERS";
 export const GET_USER_BY_ID = "GET_USER_BY_ID";
 export const GET_LOGGED_USER = "GET_LOGGED_USER";
 export const REMOVE_LOGGED_USER = "REMOVE_LOGGED_USER";
@@ -11,6 +12,7 @@ export const SIGN_IN_WITH_GOOGLE = "SIGN_IN_WITH_GOOGLE";
 
 // -- GETTERS --
 export const GET_ALL_NFTS = "GET_ALL_NFTS";
+export const GET_ALL_ADMIN_NFTS = "GET_ALL_ADMIN_NFTS";
 export const GET_ALL_COLLECTIONS = "GET_ALL_COLLECTIONS";
 export const GET_NFT_DETAIL = "GET_NFT_DETAIL";
 
@@ -74,6 +76,17 @@ export const ADD_FAV = "ADD_FAV";
 
 // -- GETTERS --
 
+export const getAllAdminNfts = () => {
+  return async (dispatch) => {
+    try {
+      const allNfts = await axios.get("/nft?deleted=include");
+      dispatch({ type: GET_ALL_ADMIN_NFTS, payload: allNfts.data });
+    } catch (error) {
+      toast.error("Something was wrong. Try again later");
+    }
+  };
+};
+
 export const getAllNfts = () => {
   return async (dispatch) => {
     dispatch({ type: LOADING });
@@ -130,6 +143,17 @@ export const getNftDetail = (id) => {
 };
 
 // --- USER ACTIONS ---
+
+export const getAllAdminUsers = () => {
+  return async (dispatch) => {
+    try {
+      const allUsers = await axios.get("/user?deleted=include");
+      dispatch({ type: GET_ALL_ADMIN_USERS, payload: allUsers.data });
+    } catch (error) {
+      toast.error("Something was wrong. Try again later");
+    }
+  };
+};
 
 export const getAllUsers = () => {
   return async (dispatch) => {
@@ -378,7 +402,7 @@ export const addStars = (payload) => {
     try {
       console.log("id", payload.id);
       console.log("rating", payload.rating);
-      await axios.put(`/nft/addStar/${payload.id}`, {rating: payload.rating});
+      await axios.put(`/nft/addStar/${payload.id}`, { rating: payload.rating });
     } catch (e) {
       alert(e.response.data);
     }

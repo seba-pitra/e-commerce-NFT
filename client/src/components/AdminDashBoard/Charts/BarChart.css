@@ -1,7 +1,5 @@
-.graficos{ 
-    width: 85%;
-    height: 800px;
-  }
-  .grafic-container{
-    height: 500px
-  }
+.grafic-container{
+  width: 1200px;
+  height: 600px;
+  color: white;
+}

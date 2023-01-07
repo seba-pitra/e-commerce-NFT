@@ -51,7 +51,7 @@ const getNftById = async (req, res) => {
         },
         {
           model: Review,
-        }
+        },
         {
           model: Purchase,
         },
@@ -202,17 +202,9 @@ const createNewNFT = async (req, res) => {
 const deleteNft = async (req, res) => {
   try {
     const { id } = req.params;
-    const deletedNFT = await Nft.findByPk({
-      where: {
-        id: id,
-      },
-    });
+    const deletedNFT = await Nft.findByPk(id);
     if (deletedNFT) {
-      await Nft.destroy({
-        where: {
-          id: id,
-        },
-      });
+      await deletedNFT.destroy();
       return res.status(200).send(`${deletedNFT.name}  successfully deleted`);
     } else {
       throw new Error(`no NFT found with id: ${id}`);
@@ -231,11 +223,7 @@ const restoreDeletedNft = async (req, res) => {
         id: id,
       },
     });
-    const restoredNft = await Nft.findByPk({
-      where: {
-        id: id,
-      },
-    });
+    const restoredNft = await Nft.findByPk(id);
     if (restoredNft) {
       return res.status(200).json({
         nft: restoredNft,
