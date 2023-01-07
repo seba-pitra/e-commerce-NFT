@@ -2,12 +2,13 @@ import axios from "axios";
 import { toast } from "react-toastify";
 
 // -- USER ACTIONS --
-export const GET_ALL_USERS = "GET_ALL_USERS"; // moved
-export const GET_USER_BY_ID = "GET_USER_BY_ID";// moved
-export const GET_LOGGED_USER = "GET_LOGGED_USER";// moved
-export const REMOVE_LOGGED_USER = "REMOVE_LOGGED_USER";// moved
-export const REGISTER_USER = "REGISTER_USER";// moved
-export const SIGN_IN_WITH_GOOGLE = "SIGN_IN_WITH_GOOGLE";// moved
+export const GET_ALL_USERS = "GET_ALL_USERS";
+export const GET_USER_BY_ID = "GET_USER_BY_ID";
+export const GET_LOGGED_USER = "GET_LOGGED_USER";
+export const REMOVE_LOGGED_USER = "REMOVE_LOGGED_USER";
+export const REGISTER_USER = "REGISTER_USER";
+export const SIGN_IN_WITH_GOOGLE = "SIGN_IN_WITH_GOOGLE";
+export const LOG_IN = "LOG_IN"
 
 // -- GETTERS --
 export const GET_ALL_NFTS = "GET_ALL_NFTS";
@@ -82,8 +83,8 @@ export const getAllNfts = () => {
       console.log(allNfts.data.length);
       dispatch({ type: GET_ALL_NFTS, payload: allNfts.data });
     } catch (e) {
+      console.log(e.message);
       toast.error("Something was wrong. Try again later");
-      // console.log(e.message);
     }
   };
 };
@@ -124,7 +125,7 @@ export const getNftDetail = (id) => {
       dispatch({ type: GET_NFT_DETAIL, payload: nftId.data });
     } catch (e) {
       toast.error("Something was wrong. Try again later");
-      // console.log(e.response.data);
+      console.log(e.message);
     }
   };
 };
@@ -139,7 +140,7 @@ export const getAllUsers = () => {
       dispatch({ type: GET_ALL_USERS, payload: allUsers.data });
     } catch (e) {
       toast.error("Something was wrong. Try again later");
-      // console.log(e.message);
+      console.log(e.message);
     }
   };
 };
@@ -152,7 +153,19 @@ export const getUserByID = (id) => {
       dispatch({ type: GET_USER_BY_ID, payload: user.data });
     } catch (e) {
       toast.error("Something was wrong. Try again later");
-      // console.log("There was a connection error, please try again later user");
+      console.log(e.message);
+    }
+  };
+};
+export const logInUser = (id) => {
+  return async (dispatch) => {
+    dispatch({ type: LOADING });
+    try {
+      const user = await axios.get(`/user/${id}`);
+      dispatch({ type: LOG_IN, payload: user.data });
+    } catch (e) {
+      /* toast.error("Can't get user data from back. Try again later"); */
+      console.log(e);
     }
   };
 };
@@ -175,7 +188,8 @@ export const registerUser = (userData) => {
       console.log("REGISTER", newUser);
       dispatch({ type: REGISTER_USER });
     } catch (error) {
-      throw new Error(error.message);
+      console.log(error.message);
+      /* throw new Error(error.message); */
     }
   };
 };

@@ -416,7 +416,7 @@ export function handleErrorLoginAndRegister(error) {
       break;
 
     default:
-      toast.error("Something was wrong", { position: "bottom-left" });
+      console.error(error);
       break;
   }
 }

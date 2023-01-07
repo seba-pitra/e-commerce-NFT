@@ -46,6 +46,8 @@ import {
   ADD_BUY_AT_HISTORY_BUYS,
   ADD_FAV,
   SIGN_IN_WITH_GOOGLE,
+  LOG_IN,
+  REGISTER_USER
 } from "../actions";
 import * as controllers from "../../utils";
 import { toast } from "react-toastify";
@@ -86,7 +88,6 @@ const rootReducer = (state = initialState, action) => {
   switch (action.type) {
     case LOADING:
       return { ...state, isLoading: true };
-
     // --- GETTERS ---
     case GET_ALL_NFTS:
       return {
@@ -103,11 +104,14 @@ const rootReducer = (state = initialState, action) => {
         setCategoryRest: [],
         setCategoryBackg: [],
       };
-
+    case REGISTER_USER: 
+      return { ...state }
     case GET_ALL_COLLECTIONS:
       return { ...state, collections: action.payload, isLoading: false };
     case GET_ALL_USERS:
       return { ...state, users: action.payload };
+    case LOG_IN:
+      return { ...state, loggedUser: action.payload };
     case GET_USER_BY_ID:
       return {
         ...state,

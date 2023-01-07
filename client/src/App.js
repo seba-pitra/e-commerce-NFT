@@ -6,7 +6,6 @@ import "./App.css";
 //---  React imports ---
 import React from "react";
 import { Route, Switch } from "react-router-dom";
-import { useDispatch } from "react-redux";
 
 // -- Component imports ---
 import LandingPage from "./components/LandingPage/LandingPage";
@@ -32,14 +31,12 @@ import { auth } from "./firebase.js";
 import { onAuthStateChanged } from "firebase/auth";
 
 //-- actions imports
-import { getLoggedUser, removeLoggedUser } from "./redux/actions";
 import UserDetail from "./components/UserComponents/UserProfile/UserDetail.jsx";
 
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 function App() {
-  const dispatch = useDispatch();
 
   onAuthStateChanged(auth, (user) => {
     if (user) {

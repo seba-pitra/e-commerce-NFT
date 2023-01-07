@@ -37,7 +37,7 @@ function MarketPlace({ loggedIn }) {
     console.log("Aqui estoy !!", loginStatusStorage);
     if (loginStatusStorage === "Estoy loggeado") {
       console.log("firebase,", firebaseCurrentUser.uid);
-      dispatch(actions.getLoggedUser(firebaseCurrentUser.uid));
+      /* dispatch(actions.getLoggedUser(firebaseCurrentUser.uid)); */
       dispatch(actions.getAllCollections());
       dispatch(actions.getAllNfts());
       dispatch(actions.getEthPrice());

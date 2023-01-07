@@ -9,7 +9,6 @@ import "./Registrer.css";
 import { useDispatch } from "react-redux";
 
 const Register = ({ setRegisterClass, setLoginClass }) => {
-  const history = useHistory();
   const dispatch = useDispatch();
 
   const [signUp, setSignUpForm] = useState({
@@ -45,8 +44,10 @@ const Register = ({ setRegisterClass, setLoginClass }) => {
     }
   };
 
+  
+  
+  //Esto para que es?
   const [validated, setValidated] = useState(false);
-
   const handleSubmit = (event) => {
     const form = event.currentTarget;
     if (form.checkValidity() === false) {

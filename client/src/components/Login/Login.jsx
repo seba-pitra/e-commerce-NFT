@@ -1,16 +1,18 @@
 import React, { useState } from "react";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { useHistory } from "react-router-dom";
 import GoogleIcon from "@mui/icons-material/Google";
 import * as helpers from "./LoginHelpers";
 import * as actions from "../../redux/actions";
 import { loadLocalStorage } from "../../utils";
 import "./Login.css";
+import { toast } from "react-toastify";
 
 // sendPasswordResetEmail
 const Login = () => {
   const dispatch = useDispatch();
   const history = useHistory();
+  const isLoadingUser = useSelector(state => state.isLoadingUser);
 
   const [logginForm, setLogginForm] = useState({
     email: "",
@@ -37,13 +39,13 @@ const Login = () => {
 
   const handdleSubmit = async (e) => {
     e.preventDefault();
+
     loadLocalStorage(dispatch);
 
-    const userFirebaseFound = await helpers.logginFunction(logginForm);
-
-    if (userFirebaseFound) {
+    const userId = await helpers.logginFunction(logginForm);
+    if (userId) {
+      dispatch(actions.logInUser(userId));
       history.push("/home");
-
       setLogginForm({
         email: "",
         password: "",
