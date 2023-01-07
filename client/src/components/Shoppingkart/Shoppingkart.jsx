@@ -4,6 +4,8 @@ import { useDispatch, useSelector } from "react-redux";
 import * as actions from "../../redux/actions";
 import styles from "./ShoppingCart.module.css";
 import { startPayment } from "../../utils";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function Shoppingkart() {
   const userNfts = useSelector((state) => state.userNfts);
@@ -33,8 +35,6 @@ export default function Shoppingkart() {
       addr: nftContract,
     });
 
-    console.log("transactionMetamask", transactionMetamask);
-
     let metamaskBuyData = {
       price: nftPrice + " ETH",
       contract: nftContract,
@@ -47,18 +47,21 @@ export default function Shoppingkart() {
 
     if (transactionMetamask.hash) {
       //si salio bien...
+      toast.success("Payment successfully");
       metamaskBuyData = {
         ...metamaskBuyData,
-        statusPay: "Successed",
+        statusPay: "Successful",
       };
     } else if (transactionMetamask.includes("rejected")) {
       //si se rechazo en metamask
+      toast.error("Something was wrong. Try again later");
       metamaskBuyData = {
         ...metamaskBuyData,
         statusPay: "Rejected",
       };
     } else if (transactionMetamask.includes("insufficient funds")) {
       //si faltan fondos
+      toast.warning("You have insufficient funds in Metamask");
       metamaskBuyData = {
         ...metamaskBuyData,
         statusPay: "Pending",

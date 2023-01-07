@@ -13,7 +13,6 @@ module.exports = (sequelize) => {
       },
       contract : {
         type : DataTypes.STRING,
-        allowNull : false
       },
       name: {
         type: DataTypes.STRING,
@@ -35,6 +34,7 @@ module.exports = (sequelize) => {
       }
   },
   {
-    timestamps: false,
+    timestamps: true,
+    paranoid: true
   });
 };
