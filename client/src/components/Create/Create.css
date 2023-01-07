@@ -12,6 +12,12 @@
   margin: 20px;
 }
 
+.create-collection-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .inputContainer select {
   margin-bottom: 20px;
   border: 2px solid black;
@@ -24,6 +30,7 @@
   width: 150px;
   height: 150px;
 }
+
 .ilustration-validations {
   display: flex;
   flex-direction: column;
@@ -64,6 +71,8 @@
   border: 2px solid rgb(158, 158, 158) !important;
   background-color: transparent !important;
 }
+
+/* CREATE COLLECTION */
 
 .first-field-collections {
   margin: 60px auto;
@@ -151,12 +160,20 @@
   flex-direction: column;
 }
 
+/* CREATE NFT */
+
 .createNft {
   display: flex;
   flex-direction: column;
   max-width: 500px;
   width: 100%;
   height: auto;
+}
+
+@media (max-width: 1050px) {
+  .createNft {
+    width: 350px;
+  }
 }
 
 .createNft input {
@@ -314,7 +331,6 @@
     height: 45px;
     width: 100%;
     gap: 20px;
-    padding: 0 10px;
   }
 }
 
