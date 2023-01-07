@@ -43,18 +43,9 @@ function App() {
 
   onAuthStateChanged(auth, (user) => {
     if (user) {
-      console.warn("Estoy loggeado con los siguientes datos");
-      console.log(auth.currentUser);
-      localStorage.setItem("Logged", "Estoy loggeado");
-      localStorage.setItem(
-        "firebaseCurrentUser",
-        JSON.stringify(auth.currentUser)
-      );
+      localStorage.setItem("loginStatus", "log-in");
     } else {
-      console.log("NO estoy loggeado");
-      dispatch(removeLoggedUser());
-      localStorage.setItem("Logged", "No loggeadoX2");
-      localStorage.setItem("firebaseCurrentUser", JSON.stringify({}));
+      localStorage.setItem("loginStatus", "log-out");
     }
   });
 

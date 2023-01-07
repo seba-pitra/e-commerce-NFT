@@ -10,6 +10,9 @@ import React, { useState } from "react";
 function PayResult(props) {
   const dispatch = useDispatch();
 
+  let firebaseCurrentUser = JSON.parse(
+    localStorage.getItem("firebaseCurrentUser")
+  );
   const activeUserIs = useSelector((state) => state.activeUser);
   const loggedUser = useSelector((state) => state.loggedUser);
 
@@ -52,7 +55,7 @@ function PayResult(props) {
   );
 
   const failureContainer = (
-	  <div className={styles["pay-result-failure-container"]}>
+    <div className={styles["pay-result-failure-container"]}>
       <div className={styles["pay-result-failure-line"]}></div>
       <img
         src={issueIcon}
@@ -114,10 +117,11 @@ function PayResult(props) {
     purchases: userNfts,
   };
 
-
   const validate =
     window.location.href.includes("collection_status") &&
     window.location.href.includes("external_reference");
+
+  console.log("loggedUser", firebaseCurrentUser);
 
   if (validate) {
     if (window.location.href.includes("success")) {
@@ -126,21 +130,37 @@ function PayResult(props) {
         ...mercadoPagoBuyData,
         statusPay: "Successed",
       };
- dispatch(actions.sendFungibleMail({correoUser: activeUserIs, accion: "exito"})) ; 
+
+      dispatch(
+        actions.sendFungibleMail({
+          correoUser: firebaseCurrentUser.email,
+          accion: "exito",
+        })
+      );
     } else if (window.location.href.includes("failure")) {
       resultContainer = failureContainer;
       mercadoPagoBuyData = {
         ...mercadoPagoBuyData,
         statusPay: "Rejected",
       };
- dispatch(actions.sendFungibleMail({correoUser: activeUserIs, accion: "error"})) ; 
+      dispatch(
+        actions.sendFungibleMail({
+          correoUser: firebaseCurrentUser.email,
+          accion: "error",
+        })
+      );
     } else if (window.location.href.includes("pending")) {
       resultContainer = pendingContainer;
       mercadoPagoBuyData = {
         ...mercadoPagoBuyData,
         statusPay: "Pending",
       };
- dispatch(actions.sendFungibleMail({correoUser: activeUserIs, accion: "pendiente"})) ; 
+      dispatch(
+        actions.sendFungibleMail({
+          correoUser: firebaseCurrentUser.email,
+          accion: "pendiente",
+        })
+      );
     }
 
     dispatch(actions.addBuyAtHistoryBuys(mercadoPagoBuyData));
