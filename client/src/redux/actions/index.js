@@ -63,7 +63,7 @@ export const SET_NFTS_PER_PAGE = "SET_NFTS_PER_PAGE";
 // -- LOCALSTORAGE --
 export const GET_ACTIVE_USER = "GET_ACTIVE_USER";
 export const LOCAL_STORAGE_CART = "LOCAL_STORAGE_CART";
-
+export const LOCAL_STORAGE_FAVS = "LOCAL_STORAGE_FAVS";
 // -- SHOPPING KART --
 export const ADD_NFT_ON_SHOOPING_CART = "ADD_NFT_ON_SHOOPING_CART";
 export const REMOVE_NFT_OF_SHOOPING_CART = "REMOVE_NFT_OF_SHOOPING_CART";
@@ -432,6 +432,11 @@ export const injectLocalStorageCart = (payload) => {
   return { type: LOCAL_STORAGE_CART, payload };
 };
 
+export const injectLocalStorageFavs = (payload) => {
+  return { type: LOCAL_STORAGE_FAVS, payload };
+}
+
+
 export const freeShoppingCartState = () => {
   return { type: DELETE_NFT_ON_SIGNOUT };
 };
@@ -461,5 +466,8 @@ export const sendFungibleMail = (sendData) => {
 
 // --- FAVS ---
 export const addToFav = (payload) => {
-  return { type: ADD_FAV, payload };
+
+  console.log(payload);
+	return { type: ADD_FAV, payload};
+
 };

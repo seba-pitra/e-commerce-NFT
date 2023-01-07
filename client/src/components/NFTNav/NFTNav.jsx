@@ -113,13 +113,13 @@ export default function NFTNav() {
               </div>
 
               {/* favorite */}
-              <button className="control-icon" onClick={handleShowFav}>
-                <FavoriteIcon
-                  style={{
-                    color: "red",
-                    animation: "pulse 1s infinite alternate",
-                  }}
-                />
+
+                <button
+                className="control-icon"
+                onClick={handleShowFav}
+              >
+                <FavoriteIcon />
+
                 <span id="cart_Numer_Items" className="badge rounded-circle">
                   {userFavorites.length}
                 </span>
