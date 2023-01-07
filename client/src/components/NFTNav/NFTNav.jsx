@@ -82,10 +82,8 @@ export default function NFTNav() {
               </Link>
               <ProfilePicture handleShowUserList={handleShowUserList}/>
               {/* favorite */}
-                <button
-                className="control-icon"
-                onClick={handleShowFav}
-              >
+
+              <button className="control-icon" onClick={handleShowFav}>
                 <FavoriteIcon />
 
                 <span id="cart_Numer_Items" className="badge rounded-circle">

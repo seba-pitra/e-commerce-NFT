@@ -22,7 +22,9 @@ const UserIcon = ({ setVisible, visible }) => {
       await signOut(auth);
       dispatch(actions.logOutUser());
     } catch (error) {
-      toast.error("Something was wrong. try again later");
+      toast.error("Something was wrong. Try again later", {
+        position: "bottom-left",
+      });
     }
   };
   const handdleCick = (e) => {

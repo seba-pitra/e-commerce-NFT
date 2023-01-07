@@ -25,10 +25,10 @@ const Details = (props) => {
 
   const [rating, setRating] = useState([]);
 
-  console.log("rating detail > ", rating)
+  console.log("rating detail > ", rating);
 
   useEffect(() => {
-    dispatch(actions.addStars({id, rating: rating.value}));
+    dispatch(actions.addStars({ id, rating: rating.value }));
   }, [rating]);
 
   useEffect(() => {
@@ -56,21 +56,27 @@ const Details = (props) => {
 
     if (transactionMetamask.hash) {
       //si salio bien...
-      toast.success("Payment successfully");
+      toast.success("Payment successfully", {
+        position: "bottom-left",
+      });
       buyData = {
         ...buyData,
         statusPay: "Successful",
       };
     } else if (transactionMetamask.includes("rejected")) {
       //si se rechazo en metamask
-      toast.error("Something was wrong. Try again later");
+      toast.error("Something was wrong. Try again later", {
+        position: "bottom-left",
+      });
       buyData = {
         ...buyData,
         statusPay: "Rejected",
       };
     } else if (transactionMetamask.includes("insufficient funds")) {
       //si faltan fondos
-      toast.warning("You have insufficient funds in Metamask");
+      toast.warning("You have insufficient funds in Metamask", {
+        position: "bottom-left",
+      });
       buyData = {
         ...buyData,
         statusPay: "Pending",
@@ -91,7 +97,7 @@ const Details = (props) => {
   date = date.slice(4, 16);
 
   let starsValue = nftDetail.stars?.reduce((a, b) => a + b, 0);
-  starsValue = starsValue / nftDetail.stars?.length
+  starsValue = starsValue / nftDetail.stars?.length;
 
   return (
     <>
@@ -115,7 +121,7 @@ const Details = (props) => {
 
             <div className={styles["nft-data-container"]}>
               <div>
-                <StarRating rating={rating} setRating={setRating}/>
+                <StarRating rating={rating} setRating={setRating} />
                 <h1>{nftDetail.name}</h1>
                 <span className={styles["detail-span"]}>
                   Included from {nftDetail.ownerName + " "}
@@ -175,11 +181,11 @@ const Details = (props) => {
                 <h6 className={styles.categories}>
                   Categories: <br /> {nftDetail.category?.join(", ")}
                 </h6>
-                {nftDetail.available ? (
+                {/* {nftDetail.available ? (
                   <span className={styles.available}>Available</span>
                 ) : (
                   <span className={styles.unavailable}>Unavailable</span>
-                )}
+                )} */}
                 <h6>Created At: {date}</h6>
               </div>
 

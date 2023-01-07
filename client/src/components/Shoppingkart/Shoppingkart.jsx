@@ -47,21 +47,25 @@ export default function Shoppingkart() {
 
     if (transactionMetamask.hash) {
       //si salio bien...
-      toast.success("Payment successfully");
+      toast.success("Payment successfully", { position: "bottom-left" });
       metamaskBuyData = {
         ...metamaskBuyData,
         statusPay: "Successful",
       };
     } else if (transactionMetamask.includes("rejected")) {
       //si se rechazo en metamask
-      toast.error("Something was wrong. Try again later");
+      toast.error("Something was wrong. Try again later", {
+        position: "bottom-left",
+      });
       metamaskBuyData = {
         ...metamaskBuyData,
         statusPay: "Rejected",
       };
     } else if (transactionMetamask.includes("insufficient funds")) {
       //si faltan fondos
-      toast.warning("You have insufficient funds in Metamask");
+      toast.warning("You have insufficient funds in Metamask", {
+        position: "bottom-left",
+      });
       metamaskBuyData = {
         ...metamaskBuyData,
         statusPay: "Pending",

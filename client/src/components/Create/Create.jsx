@@ -38,10 +38,6 @@ export default function Create() {
     categories: ["", "", "", "", "", "", ""],
   });
 
-  // console.log(createdNft)
-  // console.log(createdCollection)
-  // console.log(errors)
-
   // -- STEP --
   const next = (e) => {
     e.preventDefault();
@@ -106,20 +102,23 @@ export default function Create() {
           />
 
           <div className="ilustration-validations">
-            <input
+            <button
               className={
-                createdNft.categories.includes("") ? "errorSubmit" : "submit"
+                createdNft.categories.includes("")
+                  ? "disabled"
+                  : "button-create"
               }
               type="submit"
-              value={"Create NFT"}
               disabled={createdNft.categories.includes("")}
               onClick={(e) => handleSubmit(e)}
-            />
+            >
+              Create NFT
+            </button>
           </div>
-
-          <div className="buttons-next-prev">
-            <button onClick={back}> back</button>
-          </div>
+          <button className="categories-back-button" onClick={back}>
+            {" "}
+            Back
+          </button>
         </fieldset>
       </div>
     </>

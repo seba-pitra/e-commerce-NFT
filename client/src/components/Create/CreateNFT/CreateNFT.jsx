@@ -4,6 +4,7 @@ import * as utils from "../../../utils";
 import CloudinaryImageInput from "../CloudinaryImageInput/CloudinaryImageInput";
 import PreviewNft from "./PreviewNft/PreviewNft";
 import * as actions from "../../../redux/actions";
+import "./CreateNFT.css";
 
 export default function CreateNFT({
   createdNft,
@@ -40,8 +41,8 @@ export default function CreateNFT({
     <>
       <div className="create-nft-container">
         <div className="second-field-nft">
-          <form className="createNft">
-            <div className="inputContainer">
+          <form className="create-nft-form">
+            <div className="create-nft-input-container">
               <h4>Name</h4>
               <div className="inputAndErrorsMsg">
                 <input
@@ -61,15 +62,15 @@ export default function CreateNFT({
               </div>
             </div>
 
-            <div className="inputContainer">
+            <div className="create-nft-input-container">
               <CloudinaryImageInput setImage={setCreatedNft} />
             </div>
 
-            <div className="inputContainer">
+            <div className="create-nft-input-container">
               <h4>Description</h4>
               <p>
-                The description will be included on the item's detail page below
-                its image.
+                The description will be included <br />
+                on the item's detail page
               </p>
               <input
                 type={"text"}
@@ -80,7 +81,7 @@ export default function CreateNFT({
               />
             </div>
 
-            <div className="inputContainer">
+            <div className="create-nft-input-container">
               <h4>Price</h4>
               <p>Put the price in Ethereum</p>
               <div className="inputAndErrorsMsg">
@@ -102,7 +103,7 @@ export default function CreateNFT({
           </form>
         </div>
 
-        <div className="rigth-side">
+        <div className="preview-nft-container">
           <div className="ilustration-validations">
             <div className="ilustrationContainer">
               <h2>Nft preview</h2>
