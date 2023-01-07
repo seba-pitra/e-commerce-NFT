@@ -2,12 +2,12 @@ import axios from "axios";
 import { toast } from "react-toastify";
 
 // -- USER ACTIONS --
-export const GET_ALL_USERS = "GET_ALL_USERS";
-export const GET_USER_BY_ID = "GET_USER_BY_ID";
-export const GET_LOGGED_USER = "GET_LOGGED_USER";
-export const REMOVE_LOGGED_USER = "REMOVE_LOGGED_USER";
-export const REGISTER_USER = "REGISTER_USER";
-export const SIGN_IN_WITH_GOOGLE = "SIGN_IN_WITH_GOOGLE";
+export const GET_ALL_USERS = "GET_ALL_USERS"; // moved
+export const GET_USER_BY_ID = "GET_USER_BY_ID";// moved
+export const GET_LOGGED_USER = "GET_LOGGED_USER";// moved
+export const REMOVE_LOGGED_USER = "REMOVE_LOGGED_USER";// moved
+export const REGISTER_USER = "REGISTER_USER";// moved
+export const SIGN_IN_WITH_GOOGLE = "SIGN_IN_WITH_GOOGLE";// moved
 
 // -- GETTERS --
 export const GET_ALL_NFTS = "GET_ALL_NFTS";

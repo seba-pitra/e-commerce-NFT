@@ -148,6 +148,7 @@ const getAllPurchases = async (req, res) => {
           as: "tokens",
         },
       ],
+      paranoid : req.query.deleted === "include" ? false : true
     });
     res.status(200).json(dbPurchases);
   } catch (err) {
