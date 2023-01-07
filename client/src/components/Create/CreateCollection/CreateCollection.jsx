@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useHistory } from "react-router-dom";
 import * as actions from "../../../redux/actions";
 import CloudinaryImageInput2 from "../CloudinaryImageInput/CloudinaryImageInput2";
+import "./CreateCollection.css";
 
 export default function CreateCollection({
   createdCollection,
@@ -45,8 +46,6 @@ export default function CreateCollection({
   //   }));
   //   render = false;
   // }, [user, render]);
-
-  console.log(createdNft);
 
   return (
     <>
