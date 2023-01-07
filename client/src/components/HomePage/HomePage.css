@@ -1,0 +1,59 @@
+.main-container-homepage{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1c2331;
+}
+
+.testeandoestilospapurri{
+  width: 1200px;
+  margin: 60px;
+}
+
+.card-container-carousel{
+  display: flex;
+  color: white;
+}
+
+.card-container-carousel button{
+  position: relative;
+  top: 150px;
+  width: 36px;
+  height: 36px;
+  background-color: transparent;
+  border: none;
+  font-size: 28px;
+  cursor: pointer;
+  color: whitesmoke;
+}
+
+.buttons-paginated button{
+  background-color: transparent;
+  border: none;
+  color: whitesmoke;
+}
+
+.buttons-paginated button:hover{
+  color: rgb(0, 255, 213);
+}
+
+.container-nfts{
+  margin: 20px;
+}
+
+.card-carousel{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid white;
+  padding: 0px 40px 30px 40px;
+}
+
+.card-h4{
+  color: white;
+  position: relative;
+  top: -40px;
+  right: 420px;
+  background-color:#1c2331;
+  padding: 24px;
+}
