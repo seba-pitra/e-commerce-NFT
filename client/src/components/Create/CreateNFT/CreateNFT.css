@@ -7,7 +7,8 @@
   min-height: 92vh;
 }
 
-h1,h2{
+h1,
+h2 {
   margin: 25px 0;
 }
 
@@ -29,7 +30,7 @@ h1,h2{
   padding-left: 5px;
 }
 
-.inputContainer{
+.inputContainer {
   display: flex;
   flex-direction: column;
   display: flex;
@@ -37,7 +38,7 @@ h1,h2{
   border-bottom: 1px solid white;
   margin: 20px;
 }
-
+/* 
 .inputContainer .upload-file{
   margin-left: 170px;
   border: 2px solid rgb(211, 68, 139, 1);
@@ -45,24 +46,24 @@ h1,h2{
   cursor: pointer;
   appearance: none;
   background-color: white;
-}
+} */
 
-.inputContainer .upload-file:hover{
+/* .inputContainer .upload-file:hover {
   background-color: #cb4183;
   color: white;
   cursor: pointer;
   border: 2px solid white;
-}
+} */
 
-.inputContainer input{
+.inputContainer input {
   margin-bottom: 14px;
 }
 
-.inputContainer button{
+.inputContainer button {
   margin-bottom: 14px;
 }
 
-.inputContainer select{
+.inputContainer select {
   margin-bottom: 20px;
   border: 2px solid white;
   background-color: #1c2331;
@@ -70,35 +71,29 @@ h1,h2{
   border-radius: 8px;
 }
 
-.upload-file{
-  width: 100px;
-  height: 100px;
-  border-radius: 20px;
-}
-
-.inputAndErrorsMsg{
+.inputAndErrorsMsg {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.inputAndErrorsMsg p{
+.inputAndErrorsMsg p {
   margin-bottom: 8px;
   margin-left: 50px;
 }
 
-.greenMsg{
-  color:green
+.greenMsg {
+  color: green;
 }
-.redMsg{
-  color:red
+.redMsg {
+  color: red;
 }
-.upload-icon{
+.upload-icon {
   margin: 0 auto;
   width: 150px;
   height: 150px;
 }
-.ilustration-validations{
+.ilustration-validations {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -106,14 +101,14 @@ h1,h2{
   height: fit-content;
 }
 
-.ilustrationContainer{
+.ilustrationContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.ilustration-validations .submit{
+.ilustration-validations .submit {
   width: 180px;
   height: 50px;
   border-radius: 15px;
@@ -121,47 +116,47 @@ h1,h2{
   background-color: white;
 }
 
-.ilustration-validations .submit:hover{
+.ilustration-validations .submit:hover {
   background-color: #cb4183;
   color: white;
   cursor: pointer;
   border: 2px solid white;
 }
 
-.errorSubmit{
+.errorSubmit {
   width: 180px;
   height: 50px;
   border-radius: 15px;
   background-color: white;
-  border: 2px solid  #d1d1d1;
+  border: 2px solid #d1d1d1;
 }
 
-.flex-row2{
+.flex-row2 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
 
-.first-field-collections{
+.first-field-collections {
   margin: 60px auto;
   padding: 24px;
   border-left: 2px solid white;
   border-right: 2px solid white;
 }
 
-.first-field-collections .divs-separet{
+.first-field-collections .divs-separet {
   margin: 20px;
 }
 
-.first-field-collections .divs-separet input{
+.first-field-collections .divs-separet input {
   background-color: transparent;
   border: none;
   border-bottom: 1px solid white;
   margin-right: 20px;
 }
 
-.first-field-collections .divs-separet button{
+.first-field-collections .divs-separet button {
   background-color: transparent;
   color: white;
   border: 1px solid white;
@@ -169,7 +164,7 @@ h1,h2{
   margin-right: 12px;
 }
 
-.buttons-next-prev{
+.buttons-next-prev {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -177,7 +172,7 @@ h1,h2{
   margin: 20px;
 }
 
-.buttons-next-prev button{
+.buttons-next-prev button {
   width: 60px;
   height: 40px;
   margin: 10px;
@@ -189,13 +184,13 @@ h1,h2{
   font-family: monospace;
 }
 
-.buttons-next-prev button:hover{
+.buttons-next-prev button:hover {
   background-color: rgb(211, 68, 139, 1);
   border: 2px solid white;
   color: white;
 }
 
-.rigth-side{
+.rigth-side {
   display: flex;
   flex-direction: column;
   padding: 40px;
@@ -203,10 +198,10 @@ h1,h2{
   justify-content: space-around;
 }
 
-.aling-bottom-next{
+.aling-bottom-next {
   padding-bottom: 240px;
 }
 
-.aling-bottom-next2{
+.aling-bottom-next2 {
   padding-bottom: 140px;
 }
