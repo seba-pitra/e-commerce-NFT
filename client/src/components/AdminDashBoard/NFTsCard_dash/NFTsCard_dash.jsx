@@ -63,7 +63,6 @@ const NFTsCard_dash = ({ id, name, price, userId, deletedAt }) => {
       toast.error("Something was wrong. Try again later", {
         position: "bottom-left",
       });
-      // alert(err.message);
     }
   };
   return (
