@@ -144,8 +144,7 @@ export default function UserProfile(props) {
   return (
     <div className="main-container">
       <button onClick={() => navHistory.goBack()} className="back-button">
-        {" "}
-        {"< "}Back{" "}
+        Back
       </button>
       <div className="profile-container">
         <div className="avatar-nickname-container">

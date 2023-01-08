@@ -1,27 +1,10 @@
-import "../../../NFTCard/NFTCard.css";
+import styles from "../../stylesheets/PreviewNFT.module.css";
 
-import FavoriteIcon from "@material-ui/icons/Favorite";
-import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
-
-export default function NFTCard(props) {
-  //{
-  // id,
-  // price,
-  // image,
-  // type,
-  // contract,
-  // last price,
-  //tokenId
-
-  //}
-  //faltaria transformar precio eth a usd en el momento
+export default function PreviewNFT(props) {
   return (
-    <div className="cardContainer">
-      {/*coloque un link rodeando a todo el card para que cuando el usuario hace click en **la tarjeta... lo lleve al detalle del nft** */}
-
-      {/*estructura de la tarjeta del nft*/}
-      <div className="nftCard-image-info">
-        <div className="nftCard-img-container">
+    <div className={styles["card-container"]}>
+      <div className={styles["nft-card-image-info"]}>
+        <div className={styles["nft-card-img-container"]}>
           <img
             className={"nftImage"}
             src={`${
@@ -33,8 +16,8 @@ export default function NFTCard(props) {
           />
         </div>
 
-        <div className={"bottom-img-info"}>
-          <div className="nftCard-nameToken">
+        <div className={styles["bottom-img-info"]}>
+          <div className={styles["nft-card-token-name"]}>
             <h3>{props.name}</h3>
           </div>
           <div>
@@ -42,19 +25,6 @@ export default function NFTCard(props) {
             <h4>Usd: ${(props.price * 1271).toFixed(2)}</h4>
           </div>
         </div>
-        <div className="CardButtons">
-          <div className="nftCard-icon-container">
-            <FavoriteIcon />
-          </div>
-          <div className="nftCard-icon-container">
-            <ShoppingCartIcon />
-          </div>
-        </div>
-      </div>
-      {/* <h3>Last sale: falta esto</h3> */}
-      <div className="CardButtons">
-        <img src="" alt="add-to-favs" />
-        <img src="" alt="shopping-cart" />
       </div>
     </div>
   );

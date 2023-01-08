@@ -17,7 +17,7 @@ import Filtering from "../FilterOptrions/Filtering/Filtering";
 
 // THEME imports
 import "./Pages.css"; // tema ligth
-import "./Pages2.css"; // tema dark
+// import "./Pages2.css"; // tema dark
 import { toggleTheme } from "../../redux/actions";
 
 function Pages() {
@@ -110,7 +110,6 @@ function Pages() {
             </div>
           </div>
 
-          {/* paginado va abajo */}
           <span className="amount-nfts">
             <b>{filteredNfts.length}</b> items
           </span>

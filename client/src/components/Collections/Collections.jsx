@@ -1,12 +1,11 @@
 import * as actions from "../../redux/actions";
 import { useHistory } from "react-router-dom";
-import { useSelector } from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
 import { useEffect } from "react";
-import { useDispatch } from "react-redux";
 import Loading from "../Loading/Loading";
 import { Link } from "react-router-dom";
-import "./Collections.css";
 import VerifiedIcon from "@mui/icons-material/Verified";
+import styles from "./stylesheets/Collections.module.css";
 
 function Collections() {
   //  const loggedUser = useSelector((state) => state.loggedUser);
@@ -38,27 +37,28 @@ function Collections() {
       });
 
       return (
-        <Link to={`/collections/${collection.id}`} className="nolink">
-          <div className="collections-conteiner">
+        <Link to={`/collections/${collection.id}`} className={styles["link"]}>
+          <div className={styles["collections-container"]}>
             <img
-              className="collections-img-main"
+              className={styles["collections-img-main"]}
               src={collection.image}
               alt="img-collections"
             />
-            <div className="img-name-conteiner">
+            <div className={styles["img-name-container"]}>
               <img
-                className="collections-img-owner"
+                className={styles["collections-img-owner"]}
                 src={collection.nfts[0].image}
                 alt="img-collections"
               />
               <div>
-                <div className="collection-name-conteiner">
+                <div className={styles["collection-name-container"]}>
                   <VerifiedIcon />
-                  <h3 className="collections-name"> {collection.name} </h3>
+                  <h3 className={styles["collections-name"]}>
+                    {collection.name}
+                  </h3>
                 </div>
-                <div className="collection-name-conteiner">
-                  <h3 className="collections-name">
-                    {" "}
+                <div className={styles["collection-name-container"]}>
+                  <h3 className={styles["collections-name"]}>
                     Floor Price ETH: {floorPrice.toFixed(3)}
                   </h3>
                 </div>
@@ -71,7 +71,7 @@ function Collections() {
   });
 
   return (
-    <div className="conteiner-main-collections">
+    <div className={styles["container-main-collections"]}>
       {isLoading ? <Loading /> : collectionsCards}
     </div>
   );

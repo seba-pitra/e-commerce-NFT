@@ -1,3 +1,17 @@
+@keyframes pulse_51 {
+  0% {
+    opacity: 1;
+  }
+
+  16.666% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
 .loading-page-container {
   position: relative;
   background-color: #1c2331;
@@ -14,12 +28,11 @@
   color: white;
 }
 
-.loading-message{
+.loading-message {
   margin-top: auto;
-  margin-bottom: auto ;
+  margin-bottom: auto;
 }
 
-/* entry */
 .triangles {
   height: 81px;
   width: 90px;
@@ -89,18 +102,4 @@
   top: 54px;
   left: 60px;
   animation-delay: -500ms;
-}
-
-@keyframes pulse_51 {
-  0% {
-    opacity: 1;
-  }
-
-  16.666% {
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 0;
-  }
 }
