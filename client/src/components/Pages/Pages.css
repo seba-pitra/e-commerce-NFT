@@ -1,4 +1,8 @@
-.pageSelector-Container{
+.dark{ background-color: black}
+
+
+
+.pageSelector-Container {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -38,9 +42,14 @@
     padding: 2px;
 }
 
-.ordering-buttons-nav option{
+.ordering-buttons-nav option .light{
     background-color: rgb(3, 6, 21);
 }
+
+.ordering-buttons-nav option .dark{
+    background-color: rgb(3, 6, 21);
+}
+
 
 .cards-styles{
     border-right: 1px solid white;
@@ -61,3 +70,4 @@
 .switch-dark-ligth{
     margin-left: 20px;
 }
+
