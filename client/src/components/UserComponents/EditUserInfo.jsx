@@ -119,7 +119,6 @@ export default function EditUserINfo(props) {
         <label>Phone Number</label>
         <input
           name="phone"
-          name="phone"
           type="number"
           onChange={(e) => handleChange(e)}
           value={input.phone}
