@@ -1,7 +1,9 @@
 import {
   GET_ALL_NFTS,
+  GET_ALL_ADMIN_NFTS,
   GET_ALL_COLLECTIONS,
   GET_ALL_USERS,
+  GET_ALL_ADMIN_USERS,
   GET_NFT_DETAIL,
   CREATE_NFT,
   DELETE_NFT,
@@ -48,7 +50,8 @@ import {
   LOG_IN,
   LOG_OUT,
   LOG_IN_SUCCESS,
-  REGISTER_USER
+  REGISTER_USER,
+  ASKED_FOR_VERIFICATION
 } from "../actions";
 import * as controllers from "../../utils";
 import { toast } from "react-toastify";
@@ -59,6 +62,8 @@ const initialState = {
   nfts: [], //ok
   filteredNfts: [], // ok
   collections: [], // ok
+  adminNfts: [],
+
   // estos son todos filtros
   setCollections: [],
   setCategorySpecies: [],
@@ -70,7 +75,6 @@ const initialState = {
   setCategoryBackg: [],
   setNftsPrice: {},
   // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^	
-
   viewCards: "info", //Vista de las cards
   users: [], // todos los usuarios
   shoppingCartContents: [], // carrito de compras
@@ -83,6 +87,8 @@ const initialState = {
   orderDirection: "up-down", // ordenamiento... REVISAR
   activePage: 1, //PAGINA ACTIVA
   nftsPerPage: 100, // CANTIDAD DE NFTS POR PAGINA
+  users: [],
+  adminUsers: [],
   ethPrice: {},
   activeUser: {},
   historyBuys: [],
@@ -113,6 +119,8 @@ const rootReducer = (state = initialState, action) => {
       };
     case REGISTER_USER: 
       return { ...state }
+    case GET_ALL_ADMIN_NFTS:
+      return { ...state, adminNfts: action.payload };
     case GET_ALL_COLLECTIONS:
       return { ...state, collections: action.payload, isLoading: false };
     case GET_ALL_USERS:
@@ -123,6 +131,8 @@ const rootReducer = (state = initialState, action) => {
       return { ...state, loginStatus: true }
     case LOG_OUT:
         return { ...state, loggedUser: {}, loginStatus : false};
+    case GET_ALL_ADMIN_USERS:
+      return { ...state, adminUsers: action.payload };
     case GET_USER_BY_ID:
       return {
         ...state,

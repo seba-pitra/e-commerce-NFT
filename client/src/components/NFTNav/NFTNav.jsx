@@ -65,7 +65,7 @@ export default function NFTNav() {
               <Link className="brand-colorized-text" to="/home">
                 Home
               </Link>
-              <Link className="brand-colorized-text" to="/createNft">
+              <Link className={`brand-colorized-text ${loggedUser?(loggedUser.type==="Basic"?"noneDisplay":""):""}`} to="/createNft">
                 Create
               </Link>
             </Nav>

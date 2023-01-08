@@ -53,10 +53,9 @@ export default function UserVerify() {
       ...userData,
       userId: user.id,
     };
+    dispatch(actions.askForVerification(userDataObj));
   };
-
-    
-
+  
   return (
     <>
       <div className="mainContainer">

@@ -183,6 +183,7 @@ const userAsksForVerification = async (req, res) => {
         await user.save();
         return res.status(200).json({
           user: user,
+          message: "Verification Reques Successful"
         });
       } else if (user.type === "VerificationInProcess") {
         res

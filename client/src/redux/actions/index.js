@@ -3,15 +3,18 @@ import { toast } from "react-toastify";
 
 // -- USER ACTIONS --
 export const GET_ALL_USERS = "GET_ALL_USERS";
+export const GET_ALL_ADMIN_USERS = "GET_ALL_ADMIN_USERS";
 export const GET_USER_BY_ID = "GET_USER_BY_ID";
 export const REGISTER_USER = "REGISTER_USER";
 export const SIGN_IN_WITH_GOOGLE = "SIGN_IN_WITH_GOOGLE";
 export const LOG_IN = "LOG_IN"
 export const LOG_OUT = "LOG_OUT";
 export const LOG_IN_SUCCESS = "LOG_IN_SUCCESS";
+export const ASKED_FOR_VERIFICATION = "ASKED_FOR_VERIFICATION";
 
 // -- GETTERS --
 export const GET_ALL_NFTS = "GET_ALL_NFTS";
+export const GET_ALL_ADMIN_NFTS = "GET_ALL_ADMIN_NFTS";
 export const GET_ALL_COLLECTIONS = "GET_ALL_COLLECTIONS";
 export const GET_NFT_DETAIL = "GET_NFT_DETAIL";
 
@@ -75,6 +78,17 @@ export const ADD_FAV = "ADD_FAV";
 
 // -- GETTERS --
 
+export const getAllAdminNfts = () => {
+  return async (dispatch) => {
+    try {
+      const allNfts = await axios.get("/nft?deleted=include");
+      dispatch({ type: GET_ALL_ADMIN_NFTS, payload: allNfts.data });
+    } catch (error) {
+      toast.error("Something was wrong. Try again later");
+    }
+  };
+};
+
 export const getAllNfts = () => {
   return async (dispatch) => {
     dispatch({ type: LOADING });
@@ -126,14 +140,24 @@ export const getNftDetail = (id) => {
       const nftId = await axios.get(`/nft/${id}`);
       dispatch({ type: GET_NFT_DETAIL, payload: nftId.data });
     } catch (e) {
+      toast.error("Something was wrong. Try again later");
+      // console.log(e.response.data);
+    }
+  };
+};
+
+export const getAllAdminUsers = () => {
+  return async (dispatch) => {
+    try {
+      const allUsers = await axios.get("/user?deleted=include");
+      dispatch({ type: GET_ALL_ADMIN_USERS, payload: allUsers.data });
+    } catch (error) {
       toast.error("Something was wrong. Try again later", {
         position: "bottom-left",
       });
     }
   };
 };
-
-// --- USER ACTIONS ---
 
 export const getAllUsers = () => {
   return async (dispatch) => {
@@ -211,6 +235,17 @@ export const logInUser = (id) => {
 };
 export const successfulLogin = () => {
   return { type : LOG_IN_SUCCESS }
+}
+
+export const askForVerification = (userData) => {
+  return async (dispatch) => {
+    try {
+      const response = await axios.get(`/user/ask/${userData.userId}`, userData);
+      dispatch({ type: ASKED_FOR_VERIFICATION, payload: response.data.message})
+    } catch (error) {
+      toast.error("Something went wrong with verification request", { position: "bottom-left" });
+    }
+  };
 }
 
 // --- SETTERS ---
