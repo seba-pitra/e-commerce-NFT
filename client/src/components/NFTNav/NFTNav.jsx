@@ -11,11 +11,12 @@ import Ufavorites from "../uFavorites/Ufavorites.jsx";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import { signOut } from "firebase/auth";
 import { auth } from "../../firebase";
-import "./NFTNav.css";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
 import { saveLocalStorage } from "../../utils";
+import "./NFTNav.css";
+import styles from "./stylesheets/NFTNav.module.css";
 
 import UserIcon from "./UserIcon/UserIcon";
 
@@ -94,7 +95,16 @@ export default function NFTNav() {
               <Link className="brand-colorized-text" to="/home">
                 Home
               </Link>
-              <Link className={`brand-colorized-text ${loggedUser?(loggedUser.type==="Basic"?"noneDisplay":""):""}`} to="/createNft">
+              <Link
+                className={`brand-colorized-text ${
+                  loggedUser
+                    ? loggedUser.type === "Basic"
+                      ? "noneDisplay"
+                      : ""
+                    : ""
+                }`}
+                to="/createNft"
+              >
                 Create
               </Link>
             </Nav>

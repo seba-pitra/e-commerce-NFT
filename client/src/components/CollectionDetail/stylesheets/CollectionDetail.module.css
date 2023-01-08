@@ -117,6 +117,15 @@
   }
 }
 
-.negrita {
+.collection-data-important {
   font-weight: 700;
+}
+
+.collection-details-cards-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 650px;
+  align-items: center;
 }

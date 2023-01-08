@@ -3,9 +3,9 @@ import * as actions from "../../redux/actions";
 import successIcon from "../../images/icons/success-icon.png";
 import issueIcon from "../../images/icons/issue-icon.png";
 import pendingIcon from "../../images/icons/pending-icon.png";
-import styles from "./PayResult.module.css";
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
+import styles from "./stylesheets/PayResult.module.css";
 
 function PayResult(props) {
   const dispatch = useDispatch();
@@ -24,6 +24,8 @@ function PayResult(props) {
   }
 
   let resultContainer;
+
+  // className={styles[]}
 
   const sucessContainer = (
     <div className={styles["pay-result-container"]}>
@@ -46,9 +48,6 @@ function PayResult(props) {
           to={"/marketplace"}
         >
           MarketPlace
-        </Link>
-        <Link className={styles["pay-result-success-details-button"]}>
-          View Details
         </Link>
       </div>
     </div>
@@ -76,9 +75,6 @@ function PayResult(props) {
         >
           MarketPlace
         </Link>
-        <Link className={styles["pay-result-failure-details-button"]}>
-          View Details
-        </Link>
       </div>
     </div>
   );
@@ -102,9 +98,6 @@ function PayResult(props) {
           to={"/marketplace"}
         >
           MarketPlace
-        </Link>
-        <Link className={styles["pay-result-peding-details-button"]}>
-          View Details
         </Link>
       </div>
     </div>
