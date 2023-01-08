@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react";
+import styles from "../stylesheets/Create.module.css";
 
 export default function CloudinaryImageInput({ setImage, image_prop }) {
   const cloudinaryRef = useRef();
@@ -29,7 +30,7 @@ export default function CloudinaryImageInput({ setImage, image_prop }) {
   };
 
   return (
-    <button className="upload-file" onClick={(e) => handleUpload(e)}>
+    <button className={styles["upload-file"]} onClick={(e) => handleUpload(e)}>
       Upload
     </button>
   );

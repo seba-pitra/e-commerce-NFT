@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import "../Create.css";
+import styles from "../stylesheets/Create.module.css";
 
 export default function CloudinaryImageInput({ setImage }) {
   // cloudinary >>>
@@ -33,12 +33,14 @@ export default function CloudinaryImageInput({ setImage }) {
     <>
       <h5>Image, video, audio or 3D model</h5>
       <p>
-        {" "}
         File types supported: <br />
         JPG, PNG, GIF, SVG, MP4, WEBM, MP3,
         <br /> WAV, OGG, GLB, GLTF. Max size: 100 MB{" "}
       </p>
-      <button className="upload-file" onClick={(e) => handleUpload(e)}>
+      <button
+        className={styles["upload-file"]}
+        onClick={(e) => handleUpload(e)}
+      >
         Upload
       </button>
     </>
