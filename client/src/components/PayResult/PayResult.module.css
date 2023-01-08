@@ -26,13 +26,20 @@
   align-items: center;
   text-align: center;
   background-color: #16191f;
-  border: white solid 2px;
   border-radius: 10px;
   width: fit-content;
   box-shadow: 0px 0px 10px 10px rgb(56, 110, 56);
   margin-left: 50px;
   animation-name: opacityIn;
   animation-duration: 2.5s;
+}
+
+@media (max-width: 1050px) {
+  .pay-result-container,
+  .pay-result-failure-container,
+  .pay-result-pending-container {
+    margin-left: 0;
+  }
 }
 
 .pay-result-failure-container {
@@ -66,12 +73,26 @@
   height: 100px;
 }
 
+@media (max-width: 769px) {
+  .pay-result-img-icon {
+    height: 70px;
+  }
+}
+
 .pay-result-success-title,
 .pay-result-failure-title,
 .pay-result-pending-title {
   color: rgb(56, 199, 56);
   font-size: 75px;
   font-weight: 700;
+}
+
+@media (max-width: 769px) {
+  .pay-result-success-title,
+  .pay-result-failure-title,
+  .pay-result-pending-title {
+    font-size: 45px;
+  }
 }
 
 .pay-result-failure-title {
@@ -102,6 +123,12 @@
   padding: 0 30px;
 }
 
+@media (max-width: 769px) {
+  .pay-result-span {
+    width: 350px;
+  }
+}
+
 .pay-result-buttons-container {
   padding: 10px 0 30px;
   display: flex;
@@ -118,6 +145,15 @@
   color: rgb(56, 199, 56);
   padding: 10px;
   text-decoration: none;
+}
+
+@media (max-width: 769px) {
+  .pay-result-success-marketplace-button,
+  .pay-result-failure-marketplace-button,
+  .pay-result-peding-marketplace-button {
+    padding: 5px;
+    text-align: center;
+  }
 }
 
 .pay-result-failure-marketplace-button {
@@ -151,6 +187,15 @@
   border-radius: 10px;
   padding: 10px;
   text-decoration: none;
+}
+
+@media (max-width: 769px) {
+  .pay-result-success-details-button,
+  .pay-result-failure-details-button,
+  .pay-result-peding-details-button {
+    padding: 5px;
+    text-align: center;
+  }
 }
 
 .pay-result-failure-details-button {

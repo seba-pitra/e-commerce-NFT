@@ -49,7 +49,8 @@ import {
   LOG_OUT,
   LOG_IN_SUCCESS,
   REGISTER_USER,
-  ASKED_FOR_VERIFICATION
+  ASKED_FOR_VERIFICATION,
+  TOGGLE_THEME,
 } from "../actions";
 import * as controllers from "../../utils";
 import { toast } from "react-toastify";
@@ -99,6 +100,7 @@ const initialState = {
   ethPrice: {}, //para calcular los precios en ars y usd
 
   historyBuys: [], //historial de compras.
+  activeThemeIsDark: false,
 };
 
 
@@ -462,6 +464,12 @@ const rootReducer = (state = initialState, action) => {
         ...state,
         shoppingCartContents: [],
       };
+    // -- THEME --
+    case TOGGLE_THEME:
+      return {
+      ...state,
+        activeThemeIsDark: !state.activeThemeIsDark,
+      }
 
     // --- FAVS ---
     case ADD_FAV:

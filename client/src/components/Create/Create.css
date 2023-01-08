@@ -17,10 +17,10 @@
 
 .buttons-next-prev-container {
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  margin-bottom: 30px;
+  margin: 30px 0;
+  justify-content: space-between;
 }
 
 @media (max-width: 1050px) {

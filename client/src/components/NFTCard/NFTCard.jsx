@@ -18,6 +18,7 @@ export default function NFTCard(props) {
   const ethPrice = useSelector((state) => state.ethPrice);
   const dispatch = useDispatch();
 
+
   const handleClickOnShoppingCart = (e) => {
     dispatch(actions.addNftOnShoppingCart(props));
     saveLocalStorage();

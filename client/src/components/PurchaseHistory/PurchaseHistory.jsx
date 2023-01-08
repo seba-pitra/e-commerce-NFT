@@ -1,16 +1,11 @@
 // import * as actions from "../actions/actions.js";
-import './PurchaseHistory.css'
+import "./PurchaseHistory.css";
 
-const PurchaseHistory = ({props}) => {
+const PurchaseHistory = ({ props }) => {
   //price,statusPay,purchases
-  console.log(props)
-  
   return (
     <div className="detail-shopping-history">
-      
-      
-       {props ? (
-
+      {props ? (
         <div className="history-title-container">
           <div className="sale">Sale Price</div>
           <div className="from">From</div>
