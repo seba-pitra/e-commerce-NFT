@@ -138,10 +138,10 @@ export default function UserProfile() {
 
   return (
     <div className="main-container">
-      <button onClick={() => navHistory.goBack()} className="back-button">
+      {/* <button onClick={() => navHistory.goBack()} className="back-button">
         {" "}
         {"< "}Back{" "}
-      </button>
+      </button> */}
       <div className="profile-container">
         <div className="avatar-nickname-container">
           <img
@@ -244,7 +244,7 @@ export default function UserProfile() {
             {/* <div className="upgrade-button">Upgrade to Premium</div> */}
           </NavLink>
         </div>
-        <div className="history">
+        <div className="history-purchases">
           <PurchaseHistory props={history} />
         </div>
       </div>

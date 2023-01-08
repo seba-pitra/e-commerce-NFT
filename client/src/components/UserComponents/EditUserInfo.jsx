@@ -89,7 +89,6 @@ export default function EditUserINfo(props) {
           type="text"
           onChange={(e) => handleChange(e)}
           value={input.last_name}
-          
         />
       </div> 
       <div className="edit-input">
@@ -119,6 +118,7 @@ export default function EditUserINfo(props) {
        <div className="edit-input">
         <label>Phone Number</label>
         <input
+          name="phone"
           name="phone"
           type="number"
           onChange={(e) => handleChange(e)}
