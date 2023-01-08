@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useHistory } from "react-router-dom";
 import * as actions from "../../../redux/actions";
 import CloudinaryImageInput2 from "../CloudinaryImageInput/CloudinaryImageInput2";
+import "./CreateCollection.css";
 
 export default function CreateCollection({
   createdCollection,
@@ -46,11 +47,9 @@ export default function CreateCollection({
   //   render = false;
   // }, [user, render]);
 
-  console.log(createdNft);
-
   return (
     <>
-      <div className="inputContainer">
+      <div className="create-collection-container">
         <div className="divs-separet">
           <h1>Create your Collection</h1>
           <h4>This is the collection where your NFT will appear.</h4>
@@ -110,7 +109,7 @@ export default function CreateCollection({
           </div>
         </div>
       </div>
-      <div className="buttons-next-prev">
+      <div className="buttons-next-prev-container">
         <button
           className={createdNft.collectionId ? "button-next" : "disabled"}
           onClick={next}

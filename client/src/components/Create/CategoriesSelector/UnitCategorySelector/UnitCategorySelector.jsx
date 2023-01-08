@@ -18,7 +18,7 @@ export default function UnitCategorySelector(props) {
         name="categories"
       >
         <option hidden disabled selected>
-          Select {props.categoryName}
+          Choose {props.categoryName}
         </option>
         {allCategories[props.categoryType].map((category) => (
           <option value={category} name="categories" key={category}>

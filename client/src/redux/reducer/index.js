@@ -70,7 +70,7 @@ const initialState = {
   viewCards: "info",
   users: [],
   userNfts: [],
-  userFavsNfts: [],	
+  userFavsNfts: [],
   nftDetail: {},
   userDetail: {},
   loggedUser: {},
@@ -380,7 +380,9 @@ const rootReducer = (state = initialState, action) => {
       );
 
       if (foundNft) {
-        toast.error("This NFT is already in your shopping cart");
+        toast.error("This NFT is already in your shopping cart", {
+          position: "bottom-left",
+        });
         return { ...state };
       }
 
@@ -388,7 +390,9 @@ const rootReducer = (state = initialState, action) => {
 
       saveLocalStorage(newShoppingCartContent);
 
-      toast.success("NFT added to shopping cart successfully");
+      toast.success("NFT added to shopping cart successfully", {
+        position: "bottom-left",
+      });
 
       return {
         ...state,
@@ -398,6 +402,8 @@ const rootReducer = (state = initialState, action) => {
     case REMOVE_NFT_OF_SHOOPING_CART:
       toast.success("NFT removed to shopping cart successfully", {
         theme: "dark",
+
+        position: "bottom-left",
       });
 
       const newShoppingCartContentRemoved = state.userNfts.filter(
@@ -418,20 +424,16 @@ const rootReducer = (state = initialState, action) => {
       };
 
     case LOCAL_STORAGE_CART:
-      console.error("LOCAL STORAGE CART");
-      console.log(action.payload);
-
       return {
         ...state,
         userNfts: action.payload,
       };
 
     case LOCAL_STORAGE_FAVS:
-		  return {
-			  ...state,
-			  userFavsNfts: action.payload,
-		  };
-
+      return {
+        ...state,
+        userFavsNfts: action.payload,
+      };
 
     case DELETE_NFT_ON_SIGNOUT:
       return {
@@ -454,17 +456,21 @@ case TOGGLE_THEME:
 
     // --- FAVS ---
     case ADD_FAV:
-     const SelectedNft = state.userFavs.find(
+      const SelectedNft = state.userFavs.find(
         (nft) => nft.id === action.payload.id
       );
- if (SelectedNft) {
-        toast.error("This NFT is already in your Favorites");
+
+      if (SelectedNft) {
+        toast.error("This NFT is already in your Favorites", {
+          position: "bottom-left",
+        });
         return { ...state };
       }
-toast.success("NFT added to your Favorites List successfully");
 
+      toast.success("NFT added to your Favorites List successfully", {
+        position: "bottom-left",
+      });
 
-      console.log("Se Agrego a Favoritos..");
       return {
         ...state,
         userFavs: [...state.userFavs, action.payload],
