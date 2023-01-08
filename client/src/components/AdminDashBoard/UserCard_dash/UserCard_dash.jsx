@@ -1,7 +1,5 @@
 import React from "react";
 import "./UserCard_dash.css";
-import { auth } from "../../../firebase.js";
-import { deleteUser } from "firebase/auth";
 import { Link } from "react-router-dom";
 import axios from "axios";
 // Components

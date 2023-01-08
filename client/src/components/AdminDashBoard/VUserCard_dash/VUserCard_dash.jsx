@@ -1,12 +1,8 @@
 import React from "react";
 import "./VUserCard_dash.css";
-import { auth } from "../../../firebase.js";
-import { deleteUser } from "firebase/auth";
-import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
 import axios from "axios";
 // Components
-import BlockIcon from "@material-ui/icons/Block";
 import CheckIcon from "@material-ui/icons/Check";
 import CloseIcon from "@material-ui/icons/Close";
 

@@ -95,7 +95,7 @@ const NFTList_dash = ({ users, nfts, verifyingUsers }) => {
             <option value={30}>30</option>
             <option value={50}>50</option>
           </select>
-          <button onClick={decrementCp} disabled={cp == 0}>
+          <button onClick={decrementCp} disabled={cp === 0}>
             <ArrowBackIosIcon />
           </button>
           <button
@@ -160,6 +160,7 @@ const NFTList_dash = ({ users, nfts, verifyingUsers }) => {
         <div className="dash-nfts-list">
           {displayNFTs.map((user) => (
             <UserCard_dash
+              key={`usc${user.id}`}
               id={user.id}
               username={user.username}
               email={user.email}
@@ -172,6 +173,7 @@ const NFTList_dash = ({ users, nfts, verifyingUsers }) => {
         <div className="dash-nfts-list">
           {displayNFTs.map((user) => (
             <VUserCard_dash
+              key={`vusc${user.id}`}
               id={user.id}
               name={user.name}
               last_name={user.last_name}
@@ -189,7 +191,7 @@ const NFTList_dash = ({ users, nfts, verifyingUsers }) => {
         <div className="dash-nfts-list">
           {displayNFTs.map((nft) => (
             <NFTsCard_dash
-              key={nft.id}
+              key={`nft${nft.id}`}
               id={nft.id}
               name={nft.name}
               price={nft.price}

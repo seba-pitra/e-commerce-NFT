@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { useSelector, useDispatch } from "react-redux";
-import * as actions from "../../../redux/actions/index.js";
 import {
   CategoryScale,
   Chart,

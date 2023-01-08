@@ -1,4 +1,3 @@
-import * as actions from "../../../redux/actions/index";
 import axios from "axios";
 import React, { useState } from "react";
 import { toast } from "react-toastify";

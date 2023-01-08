@@ -144,6 +144,19 @@ export const getNftDetail = (id) => {
   };
 };
 
+export const getAllAdminUsers = () => {
+  return async (dispatch) => {
+    try {
+      const allUsers = await axios.get("/user?deleted=include");
+      dispatch({ type: GET_ALL_ADMIN_USERS, payload: allUsers.data });
+    } catch (error) {
+      toast.error("Something was wrong. Try again later", {
+        position: "bottom-left",
+      });
+    }
+  };
+};
+
 export const getAllUsers = () => {
   return async (dispatch) => {
     try {
