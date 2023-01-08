@@ -1,7 +1,6 @@
 // import * as actions from "../../../redux/actions";
 import React, { useState } from "react";
 import { useEffect, useRef } from "react";
-
 import "./UserProfile/UserProfile.css";
 
 export default function EditUserINfo(props) {
@@ -46,13 +45,12 @@ export default function EditUserINfo(props) {
           type="text"
           onChange={(e) => handleChange(e)}
           value={input.last_name}
-          
         />
       </div>
       <div className="edit-input">
         <label>Email</label>
         <input
-        name="email"
+          name="email"
           type="text"
           onChange={(e) => handleChange(e)}
           value={input.email}
@@ -61,7 +59,7 @@ export default function EditUserINfo(props) {
       <div className="edit-input">
         <label>Age</label>
         <input
-        name="age"
+          name="age"
           type="number"
           onChange={(e) => handleChange(e)}
           value={input.age}
@@ -71,7 +69,7 @@ export default function EditUserINfo(props) {
       <div className="edit-input">
         <label>Phone Number</label>
         <input
-        name="phone"
+          name="phone"
           type="number"
           onChange={(e) => handleChange(e)}
           value={input.phone}
@@ -80,12 +78,11 @@ export default function EditUserINfo(props) {
       <div className="edit-input">
         <label>Mobile Number</label>
         <input
-        name="mobile"
+          name="mobile"
           type="number"
           onChange={(e) => handleChange(e)}
           value={input.mobile}
         />
-        
       </div>
       <input id="submit" type={"submit"} onClick={(e) => handleSubmit(e)} />
     </form>
