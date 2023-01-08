@@ -7,25 +7,25 @@ import * as actions from "../../redux/actions";
 import ethereumLogo from "../../images/ethereum-logo.png";
 import { saveLocalStorage } from "../../utils";
 import "./NFTCard.css";
+// import styles from "./stylesheets/NFTCard.module.css";
 
 export default function NFTCard(props) {
   const activeUserIs = useSelector((state) => state.activeUser);
   const userNfts = useSelector((state) => state.userNfts);
   const dispatch = useDispatch();
 
+  function saveLocalStorage() {
+    localStorage.setItem(activeUserIs, JSON.stringify(userNfts));
+  }
 
-	function saveLocalStorage(){
-		localStorage.setItem(activeUserIs,JSON.stringify(userNfts));
-	}
+  function saveFavsLocalStorage() {
+    localStorage.setItem(activeUserIs + "Fav", JSON.stringify(userNfts));
+  }
 
-	function saveFavsLocalStorage(){
-    localStorage.setItem((activeUserIs + 'Fav'),JSON.stringify(userNfts));
-	}
-
-	const handleClickOnShoppingCart = (e) => {
-		dispatch(actions.addNftOnShoppingCart(props));
-		saveLocalStorage();
-	};
+  const handleClickOnShoppingCart = (e) => {
+    dispatch(actions.addNftOnShoppingCart(props));
+    saveLocalStorage();
+  };
 
   const handleClickOnFavorites = (e) => {
     dispatch(actions.addToFav(props));
@@ -33,10 +33,9 @@ export default function NFTCard(props) {
   };
 
   return (
-    <div className="cardContainer">
+    <div className={"cardContainer"}>
       <div className="nftCard-image-info">
         <Link className="link" to={`/details/${props.id}`}>
-
           <div className="nftCard-img-container">
             <img
               className={"nftImage"}
@@ -53,24 +52,32 @@ export default function NFTCard(props) {
             <div className="nftCard-nameToken separeted">
               <h3>{props.name}</h3>
               <div className="display-flexrow">
-                <img src={ethereumLogo} alt="ethereum-logo" className="eth-logo" />
+                <img
+                  src={ethereumLogo}
+                  alt="ethereum-logo"
+                  className="eth-logo"
+                />
                 <h3>{props.price.toFixed(3)}</h3>
               </div>
             </div>
           </div>
-
         </Link>
 
         <div className="CardButtons">
-          <div className="nftCard-icon-container" onClick={handleClickOnFavorites} >
+          <div
+            className="nftCard-icon-container"
+            onClick={handleClickOnFavorites}
+          >
             <FavoriteIcon />
           </div>
-          <div className="nftCard-icon-container" onClick={handleClickOnShoppingCart} >
+          <div
+            className="nftCard-icon-container"
+            onClick={handleClickOnShoppingCart}
+          >
             <ShoppingCartIcon />
           </div>
         </div>
       </div>
-      
     </div>
   );
 }
