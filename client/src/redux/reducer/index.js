@@ -39,8 +39,6 @@ import {
   SET_NFTS_PER_PAGE,
   ADD_NFT_ON_SHOOPING_CART,
   REMOVE_NFT_OF_SHOOPING_CART,
-  BUY_NFT_ON_SHOOPING_CART,
-  GET_ACTIVE_USER,
   LOCAL_STORAGE_CART,
   LOCAL_STORAGE_FAVS,
   DELETE_NFT_ON_SIGNOUT,
@@ -62,7 +60,8 @@ const initialState = {
   nfts: [], //ok
   filteredNfts: [], // ok
   collections: [], // ok
-  adminNfts: [],
+
+  adminNfts: [], // preguntarle a james
 
   // estos son todos filtros
   setCollections: [],
@@ -75,24 +74,31 @@ const initialState = {
   setCategoryBackg: [],
   setNftsPrice: {},
   // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^	
+
   viewCards: "info", //Vista de las cards
-  users: [], // todos los usuarios
+
+  adminUsers: [], //todos los usuarios para que los vea el admin
+
   shoppingCartContents: [], // carrito de compras
   userFavsNfts: [],	// favoritos del usuario
+  userFavs: [], //favoritos del usuario
+
   nftDetail: {}, //detale del nft seleccionado
+
   userDetail: {}, // userDetail para el admin
+
   loggedUser: {}, // el estado mas importante... datos del usuario loggueado
+
   loginStatus: false, // estado del login, esta es la llave
+
   isLoading: false, // estado de la carga de datos para mostrar animacion de carga
+
   orderDirection: "up-down", // ordenamiento... REVISAR
   activePage: 1, //PAGINA ACTIVA
   nftsPerPage: 100, // CANTIDAD DE NFTS POR PAGINA
-  users: [],
-  adminUsers: [],
-  ethPrice: {},
-  activeUser: {},
-  historyBuys: [],
-  userFavs: [],
+  ethPrice: {}, //para calcular los precios en ars y usd
+
+  historyBuys: [], //historial de compras.
 };
 
 
@@ -131,6 +137,8 @@ const rootReducer = (state = initialState, action) => {
       return { ...state, loginStatus: true }
     case LOG_OUT:
         return { ...state, loggedUser: {}, loginStatus : false};
+    case ASKED_FOR_VERIFICATION:
+        return { ...state }
     case GET_ALL_ADMIN_USERS:
       return { ...state, adminUsers: action.payload };
     case GET_USER_BY_ID:
@@ -437,12 +445,6 @@ const rootReducer = (state = initialState, action) => {
         shoppingCartContents: newShoppingCartContentRemoved,
       };
 
-    case GET_ACTIVE_USER:
-      return {
-        ...state,
-        // activeUser: action.payload,
-      };
-
     case LOCAL_STORAGE_CART:
       return {
         ...state,
@@ -459,13 +461,6 @@ const rootReducer = (state = initialState, action) => {
       return {
         ...state,
         shoppingCartContents: [],
-      };
-
-    // --- CART ---
-    case BUY_NFT_ON_SHOOPING_CART:
-      return {
-        ...state,
-        activeUser: action.payload,
       };
 
     // --- FAVS ---

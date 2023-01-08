@@ -26,6 +26,7 @@ export default function NFTNav() {
 
   const cartItemsCount = useSelector((state) => state.shoppingCartContents);
   const userFavorites = useSelector((state) => state.userFavs);
+  const loggedUser = useSelector((state) => state.loggedUser);
 
   const areWeInLanding = location.pathname === "/";
 

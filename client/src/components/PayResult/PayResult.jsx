@@ -13,8 +13,6 @@ function PayResult(props) {
   let firebaseCurrentUser = JSON.parse(
     localStorage.getItem("firebaseCurrentUser")
   );
-  const activeUserIs = useSelector((state) => state.activeUser);
-  const loggedUser = useSelector((state) => state.loggedUser);
 
   let shoppingCartContents = JSON.parse(localStorage.getItem("nftsOnShoppingCart"));
 

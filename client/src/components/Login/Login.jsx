@@ -28,7 +28,6 @@ const Login = () => {
     const user = await helpers.signGoogle();
     if (user) {
       dispatch(actions.signInWithGoogle(user));
-      history.push("/home");
     }
     loadLocalStorage(dispatch);
   };
@@ -43,7 +42,6 @@ const Login = () => {
         password: "",
       });
       dispatch(actions.logInUser(userId));
-      history.push("/home");
     }
   };
 
