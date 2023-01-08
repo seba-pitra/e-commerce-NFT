@@ -5,11 +5,11 @@ import * as actions from "../../redux/actions";
 import { useEffect, useRef } from "react";
 import { useHistory } from "react-router-dom";
 
-import "./Create.css";
-import "../NFTCard/NFTCard.css";
 import CreateCollection from "./CreateCollection/CreateCollection";
 import CreateNFT from "./CreateNFT/CreateNFT";
 import CategoriesSelector from "./CategoriesSelector/CategoriesSelector";
+import "./Create.css";
+import styles from "./stylesheets/Create.module.css";
 
 export default function Create() {
   // const user = useSelector((state) => state.loggedUser);
@@ -83,67 +83,70 @@ export default function Create() {
   // }, [user]);
 
   return (
-    <>
-      <div className="mainContainer">
-        <fieldset
-          className={`info-fieldset ${
-            step !== 1 ? "noneDisplay" : "first-field-collections"
-          }`}
-        >
-          <CreateCollection
-            createdNft={createdNft}
-            image_prop={"image"}
-            setCreatedNft={setCreatedNft}
-            createdCollection={createdCollection}
-            setCreatedCollection={setCreatedCollection}
-            back={back}
-            next={next}
-          />
-        </fieldset>
+    <div className={styles["create-container"]}>
+      <fieldset
+        className={
+          step !== 1
+            ? styles["display-none"]
+            : styles["first-field-collections"]
+        }
+      >
+        <CreateCollection
+          createdNft={createdNft}
+          image_prop={"image"}
+          setCreatedNft={setCreatedNft}
+          createdCollection={createdCollection}
+          setCreatedCollection={setCreatedCollection}
+          back={back}
+          next={next}
+        />
+      </fieldset>
 
-        <fieldset
-          className={`info-fieldset ${step !== 2 ? "noneDisplay" : ""}`}
-        >
-          <CreateNFT
-            createdNft={createdNft}
-            setCreatedNft={setCreatedNft}
-            back={back}
-            next={next}
-            errors={errors}
-            setErrors={setErrors}
-          />
-        </fieldset>
+      <fieldset
+        className={
+          step !== 2
+            ? styles["display-none"]
+            : styles["second-field-collections"]
+        }
+      >
+        <CreateNFT
+          createdNft={createdNft}
+          setCreatedNft={setCreatedNft}
+          back={back}
+          next={next}
+          errors={errors}
+          setErrors={setErrors}
+        />
+      </fieldset>
 
-        <fieldset
-          className={`info-fieldset ${
-            step !== 3 ? "noneDisplay" : "first-field-collections"
-          }`}
-        >
-          <CategoriesSelector
-            createdNft={createdNft}
-            setCreatedNft={setCreatedNft}
-          />
+      <fieldset
+        className={
+          step !== 3 ? styles["display-none"] : styles["third-field-create"]
+        }
+      >
+        <CategoriesSelector
+          createdNft={createdNft}
+          setCreatedNft={setCreatedNft}
+        />
 
-          <div className="ilustration-validations">
-            <button
-              className={
-                createdNft.categories.includes("")
-                  ? "disabled"
-                  : "button-create"
-              }
-              type="submit"
-              disabled={createdNft.categories.includes("")}
-              onClick={(e) => handleSubmit(e)}
-            >
-              Create NFT
-            </button>
-          </div>
-          <button className="categories-back-button" onClick={back}>
-            {" "}
+        <div className={styles["buttons-next-prev-container"]}>
+          <button className={styles["button-create"]} onClick={back}>
             Back
           </button>
-        </fieldset>
-      </div>
-    </>
+          <button
+            className={
+              createdNft.categories.includes("")
+                ? styles["disabled"]
+                : styles["button-create"]
+            }
+            type="submit"
+            disabled={createdNft.categories.includes("")}
+            onClick={(e) => handleSubmit(e)}
+          >
+            Create NFT
+          </button>
+        </div>
+      </fieldset>
+    </div>
   );
 }
