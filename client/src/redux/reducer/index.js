@@ -47,6 +47,7 @@ import {
   ADD_BUY_AT_HISTORY_BUYS,
   ADD_FAV,
   SIGN_IN_WITH_GOOGLE,
+  TOGGLE_THEME,
 } from "../actions";
 import * as controllers from "../../utils";
 import { toast } from "react-toastify";
@@ -82,6 +83,7 @@ const initialState = {
   activeUser: {},
   historyBuys: [],
   userFavs: [],
+  activeThemeIsDark: false,
 };
 
 const rootReducer = (state = initialState, action) => {
@@ -443,6 +445,12 @@ const rootReducer = (state = initialState, action) => {
         ...state,
         activeUser: action.payload,
       };
+    // -- THEME --
+case TOGGLE_THEME:
+	return {
+	...state,
+		activeThemeIsDark: !state.activeThemeIsDark,
+	}
 
     // --- FAVS ---
     case ADD_FAV:

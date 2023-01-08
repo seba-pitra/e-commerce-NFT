@@ -72,6 +72,10 @@ export const ADD_BUY_AT_HISTORY_BUYS = "ADD_BUY_AT_HISTORY_BUYS";
 
 export const ADD_FAV = "ADD_FAV";
 
+// -- THEMES SWITCH
+export const TOGGLE_THEME = "TOGGLE_THEME";
+
+
 // -- GETTERS --
 
 export const getAllNfts = () => {
@@ -457,3 +461,11 @@ export const addToFav = (payload) => {
 	return { type: ADD_FAV, payload};
 
 };
+
+// --- THEME THINGS ---
+
+export const toggleTheme = () => {
+	return { type: TOGGLE_THEME};
+	 };
+
+
