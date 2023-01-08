@@ -2,6 +2,7 @@ import * as actions from "../../../redux/actions/index";
 import axios from "axios";
 import React, { useState } from "react";
 import { toast } from "react-toastify";
+import { Link } from "react-router-dom";
 
 // Components
 import DeleteIcon from "@material-ui/icons/Delete";
@@ -65,11 +66,10 @@ const NFTsCard_dash = ({ id, name, price, userId, deletedAt }) => {
   };
   return (
     <div className="nfts-dash-card">
-      <div className="dash-card-id">
-        <p>{id}</p>
-      </div>
       <div className="dash-card-name">
-        <p>{name}</p>
+        <Link className="user-dash-link" to={`/details/${id}`}>
+          <p>{name}</p>
+        </Link>
       </div>
       <div className="dash-card-price">
         {edit ? (

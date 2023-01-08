@@ -3,6 +3,7 @@ import "./VUserCard_dash.css";
 import { auth } from "../../../firebase.js";
 import { deleteUser } from "firebase/auth";
 import { Link } from "react-router-dom";
+import { toast } from "react-toastify";
 import axios from "axios";
 // Components
 import BlockIcon from "@material-ui/icons/Block";
@@ -23,13 +24,19 @@ const VUserCard_dash = ({
 }) => {
   const handleVerify = async (e) => {
     e.preventDefault();
-    const res = await axios.put(`/user/verify/${id}`);
-    console.log(res);
+    try {
+      const res = await axios.put(`/user/verify/${id}`);
+    } catch (error) {
+      toast.error("Something was wrong. try again later");
+    }
   };
   const handleReject = async (e) => {
     e.preventDefault();
-    const res = await axios.put(`/user/reject/${id}`);
-    console.log(res);
+    try {
+      const res = await axios.put(`/user/reject/${id}`);
+    } catch (error) {
+      toast.error("Something was wrong. try again later");
+    }
   };
 
   return (
@@ -50,13 +57,13 @@ const VUserCard_dash = ({
         <p>{nacionality}</p>
       </div>
       <div className="vUser-dash-pp1">
-        <a href={pp1} target={"_blank"}>
+        <a className="user-dash-link" href={pp1} target={"_blank"}>
           Face
         </a>
-        <a href={pp2} target={"_blank"}>
+        <a className="user-dash-link" href={pp2} target={"_blank"}>
           DNI-Front
         </a>
-        <a href={pp3} target={"_blank"}>
+        <a className="user-dash-link" href={pp3} target={"_blank"}>
           DNI-Back
         </a>
       </div>

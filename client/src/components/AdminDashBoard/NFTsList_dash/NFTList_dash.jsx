@@ -142,9 +142,6 @@ const NFTList_dash = ({ users, nfts, verifyingUsers }) => {
         </div>
       ) : (
         <div className="dash-nfts-titles">
-          <div className="dash-nfts-idTitle">
-            <p>id</p>
-          </div>
           <div className="dash-nfts-NameTitle">
             <p>Name</p>
           </div>

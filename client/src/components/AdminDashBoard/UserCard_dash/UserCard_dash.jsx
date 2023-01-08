@@ -27,7 +27,7 @@ const UserCard_dash = ({ id, username, email, type, deletedAt }) => {
   return (
     <div className="user-dash-card">
       <div className="user-dash-name">
-        <Link to={`/admin/user/${id}`}>
+        <Link className="user-dash-link" to={`/admin/user/${id}`}>
           <p>{username}</p>
         </Link>
       </div>

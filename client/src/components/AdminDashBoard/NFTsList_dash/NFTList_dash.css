@@ -63,7 +63,6 @@
 .dash-users-NameTitle,
 .dash-users-EmailTitle,
 .dash-users-TypeTitle,
-.dash-nfts-idTitle,
 .dash-nfts-NameTitle,
 .dash-nfts-PriceTitle,
 .dash-nfts-UserIdTitle{
@@ -73,9 +72,8 @@
     border-bottom: 4px solid rgba(211, 68, 139, 1);
     margin: 0 5px;
 }
-.dash-nfts-UserIdTitle,
-.dash-nfts-idTitle{
-    width: 310px;
+.dash-nfts-UserIdTitle{
+    width: 235px;
     margin: 0 5px;
 }
 .dash-nfts-NameTitle{
