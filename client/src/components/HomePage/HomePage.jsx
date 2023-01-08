@@ -2,9 +2,12 @@ import * as actions from "../../redux/actions";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import { useHistory } from "react-router-dom";
-import UncontrolledExample from "./Carousel/Carousel";
 import "./HomePage.css";
-import CardCarousel from "./Carousel/test";
+import CardCarousel1 from "./Carousel/Carousel-views";
+import CardCarousel2 from "./Carousel/Carousel-stars";
+import CardCarousel3 from "./Carousel/Carousel-rarity";
+import CollectionCarousel from "./Carousel/Collections-home.jsx";
+import CollectionTable from "./Carousel/Collections-table.jsx";
 
 function HomePage() {
 	const nfts = useSelector((state) => state.nfts);
@@ -25,11 +28,7 @@ function HomePage() {
 		if(nftB.favs > nftA.favs) return 1;
 		return 0;
 	});
-
 	nftsMostViews = nftsMostViews.slice(0,16)
-
-	console.log(nftsMostViews)
-
 
 	// STARS
 	let nftsMostStars = nfts.sort((nftA, nftB) => {
@@ -37,10 +36,19 @@ function HomePage() {
 		if(nftB.stars > nftA.stars) return 1;
 		return 0;
 	});
-
 	nftsMostStars = nftsMostStars.slice(0,16)
 
-	console.log(nftsMostStars)
+	// RARITY
+	let nftsMostRarity = nfts.sort((nftA, nftB) => {
+		if(nftA.rarity > nftB.rarity) return -1;
+		if(nftB.rarity > nftA.rarity) return 1;
+		return 0;
+	});
+	nftsMostRarity = nftsMostRarity.slice(0,16)
+
+	// COLLECTIONS
+	let collectionsSlice = collections.slice(0,10)
+	console.log(collectionsSlice)
 
   useEffect(() => {
     validateUser();
@@ -57,19 +65,31 @@ function HomePage() {
 
   return (
     <div className="main-container-homepage">
-			<div className="testeandoestilospapurri">
-				<UncontrolledExample/>
-			</div>
+			<span className="verification-msj">If you want to sell nfts you must verify your account</span>
+			<h1>Explore, collect and sell NFTs</h1>
+
 			<div className="container-nfts">
-				<CardCarousel cards={nftsMostViews}/>
+				<CollectionCarousel cards={collectionsSlice}/> 
 			</div>
 
 			<div className="container-nfts">
-				<CardCarousel cards={nftsMostViews}/>
+				<CollectionTable cards={collectionsSlice}/> 
+			</div>
+
+			{/* <div className="main-carousel-images">
+				<UncontrolledExample/> 
+			</div> */}
+
+			<div className="container-nfts">
+				<CardCarousel1 cards={nftsMostViews}/>
+			</div>
+
+			<div className="container-nfts">
+				<CardCarousel2 cards={nftsMostStars}/>
 			</div>
 			
 			<div className="container-nfts">
-				<CardCarousel cards={nftsMostViews}/>
+				<CardCarousel3 cards={nftsMostRarity}/>
 			</div>
     </div>
   );

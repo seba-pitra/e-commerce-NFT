@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import NFTCard from '../../NFTCard/NFTCard';
-import Brightness1Icon from '@mui/icons-material/Brightness1';
+import NFTCard2 from '../../NFTCard/NFTCard2';
 
 const CardCarousel = ({ cards }) => {
   const [currentCardsRange, setCurrentCardsRange] = useState([0, 1, 2, 3]);
@@ -28,27 +27,29 @@ const CardCarousel = ({ cards }) => {
 
   if(cards.length > 0) {
     return (
-      <div className="card-carousel">
-        <h4 className='card-h4'>Most Views NFTS</h4>
-        <div className="card-container-carousel">
+      <div className="main-conteiner-cards">
+			  <h1>Rareest Nfts</h1>
+        <div className="conteiner-cards-buttons">
           <button onClick={handlePrevClick}>{"<"}</button>
-          {currentCardsRange.map(index => (
-            <NFTCard
-              key={cards[index]?.id}
-              collectionId={cards[index]?.collectionId}
-              contract={cards[index]?.contract}
-              id={cards[index]?.id}
-              image={cards[index]?.image}
-              name={cards[index]?.name}
-              price={cards[index]?.price}
-              tokenId={cards[index]?.tokenId}
-              userId={cards[index]?.userId}
-              rarity={cards[index]?.rarity}
-              favs={cards[index]?.favs}
-              stars={cards[index]?.stars}
-              lastBuy={cards[index]?.lastBuyValue || 0.01}
-            />
-          ))}
+          <div className='conteiner-cards'>
+            {currentCardsRange.map(index => (
+              <NFTCard2
+                key={cards[index]?.id}
+                collectionId={cards[index]?.collectionId}
+                contract={cards[index]?.contract}
+                id={cards[index]?.id}
+                image={cards[index]?.image}
+                name={cards[index]?.name}
+                price={cards[index]?.price}
+                tokenId={cards[index]?.tokenId}
+                userId={cards[index]?.userId}
+                rarity={cards[index]?.rarity}
+                favs={cards[index]?.favs}
+                stars={cards[index]?.stars}
+                lastBuy={cards[index]?.lastBuyValue || 0.01}
+              />
+            ))}
+          </div>
           <button onClick={handleNextClick}>{">"}</button>
         </div>
       </div>

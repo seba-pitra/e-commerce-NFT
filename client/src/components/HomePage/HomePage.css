@@ -1,21 +1,40 @@
 .main-container-homepage{
   display: flex;
+  width: 100%;
   flex-direction: column;
   align-items: center;
   background-color: #1c2331;
 }
 
-.testeandoestilospapurri{
-  width: 1200px;
-  margin: 60px;
+.main-container-homepage h1{
+  margin-top: 40px;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-family: sans-serif;
 }
 
-.card-container-carousel{
+.main-container-homepage .verification-msj{
+  background-color: pink;
+  width: 100%;
+  text-align: center;
+  font-weight: 700;
+  color: white;
+  height: 26px;
+}
+
+.main-carousel-images{
+  width: 92%;
+  margin: 30px;
+}
+
+.conteiner-cards-buttons{
   display: flex;
+  width: 100%;
   color: white;
 }
 
-.card-container-carousel button{
+.conteiner-cards-buttons button{
   position: relative;
   top: 150px;
   width: 36px;
@@ -27,7 +46,7 @@
   color: whitesmoke;
 }
 
-.buttons-paginated button{
+/* .buttons-paginated button{
   background-color: transparent;
   border: none;
   color: whitesmoke;
@@ -35,25 +54,77 @@
 
 .buttons-paginated button:hover{
   color: rgb(0, 255, 213);
-}
+} */
 
 .container-nfts{
+  width: 100%;
   margin: 20px;
 }
 
-.card-carousel{
+/* CAROUSEL CARDS */
+.main-conteiner-cards{
+  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  border-top: 1px solid white;
-  padding: 0px 40px 30px 40px;
+  align-items: left;
+  padding: 0px 40px;
 }
 
-.card-h4{
-  color: white;
-  position: relative;
-  top: -40px;
-  right: 420px;
-  background-color:#1c2331;
-  padding: 24px;
+.main-conteiner-cards h1{
+  padding: 10px 4%;
+}
+
+.conteiner-cards{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  height: 320px;
+  overflow: hidden;
+}
+
+/* COLLECTION CARDS */
+.conteiner-collections{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  height: 360px;
+  overflow: hidden;
+}
+
+/* OTROS */
+.display-flexrow{
+  display: flex;
+  flex-direction: row;
+}
+.separeted{
+  justify-content: space-around;
+}
+
+/* COLLECTIONS TABLES */
+.conteiner-collections-tables{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border: 2px solid white;
+}
+
+.conteiner-collections-tables-div{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  border: 2px solid red;
+}
+
+.table-collection-main{
+  display: flex;
+  flex-direction: row;
+}
+
+.table-collection-main img{
+  width: 70px;
+  height: 70px;
 }
