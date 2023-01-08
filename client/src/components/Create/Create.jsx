@@ -8,7 +8,6 @@ import { useHistory } from "react-router-dom";
 import CreateCollection from "./CreateCollection/CreateCollection";
 import CreateNFT from "./CreateNFT/CreateNFT";
 import CategoriesSelector from "./CategoriesSelector/CategoriesSelector";
-import "./Create.css";
 import styles from "./stylesheets/Create.module.css";
 
 export default function Create() {
