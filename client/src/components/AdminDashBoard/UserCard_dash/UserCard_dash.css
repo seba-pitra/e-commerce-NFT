@@ -5,26 +5,31 @@
     align-items: center;
     height: 30px;
     border-radius: 5px;
-    background-color: #e0e0e0;
     margin: 10px 0;
+}
+.user-dash-link{
+    color: rgba(251, 118, 219, 1);
+}
+.user-dash-link:hover{
+    color: rgba(211, 68, 139, 1);
 }
 .user-dash-card p{
     margin: 0;
+    text-decoration: none;
 }
 .user-dash-id{
     width: 260px;
     margin: 0 5px;
 }
-.user-dash-last_name,
 .user-dash-name{
-    width: 80px;
+    width: 120px;
     margin: 0 5px;
 }
 .user-dash-email{
     width: 300px;
     margin: 0 5px;
 }
-.user-dash-dni{
-    width: 200px;
+.user-dash-type{
+    width: 80px;
     margin: 0 5px;
 }

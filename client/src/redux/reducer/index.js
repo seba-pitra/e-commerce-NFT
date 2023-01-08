@@ -1,7 +1,9 @@
 import {
   GET_ALL_NFTS,
+  GET_ALL_ADMIN_NFTS,
   GET_ALL_COLLECTIONS,
   GET_ALL_USERS,
+  GET_ALL_ADMIN_USERS,
   GET_NFT_DETAIL,
   CREATE_NFT,
   DELETE_NFT,
@@ -56,6 +58,7 @@ import { loadLocalStorage, saveLocalStorage } from "../../utils";
 
 const initialState = {
   nfts: [],
+  adminNfts: [],
   filteredNfts: [],
   collections: [],
   setCollections: [],
@@ -69,6 +72,7 @@ const initialState = {
   setNftsPrice: {},
   viewCards: "info",
   users: [],
+  adminUsers: [],
   userNfts: [],
   userFavsNfts: [],
   nftDetail: {},
@@ -107,11 +111,14 @@ const rootReducer = (state = initialState, action) => {
         setCategoryRest: [],
         setCategoryBackg: [],
       };
-
+    case GET_ALL_ADMIN_NFTS:
+      return { ...state, adminNfts: action.payload };
     case GET_ALL_COLLECTIONS:
       return { ...state, collections: action.payload, isLoading: false };
     case GET_ALL_USERS:
       return { ...state, users: action.payload };
+    case GET_ALL_ADMIN_USERS:
+      return { ...state, adminUsers: action.payload };
     case GET_USER_BY_ID:
       return {
         ...state,
