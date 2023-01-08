@@ -3,16 +3,18 @@ import React, { useState } from "react";
 import { useEffect, useRef } from "react";
 import { useDispatch } from "react-redux";
 import { updateUser } from "../../redux/actions";
-import {validateUser} from '../../utils/index'
+import {validate, validateUserData} from '../../utils/index'
 import "./UserProfile/UserProfile.css";
 
 export default function EditUserINfo(props) {
   // props : name,last_name,email,age,type,phone,mobile,id
 
   let [input, setInput] = React.useState({
+    name: props.name,
+    last_name : props.last_name,
     email: props.email,
     age: props.age,
-    phone_number: props.phone,
+    phone_number: props.phone_number,
     dni: props.dni,
     id: props.id
   });
@@ -32,8 +34,11 @@ export default function EditUserINfo(props) {
     e.preventDefault();
     setInput((prev) => ({ ...prev, [e.target.name]: e.target.value }));
     console.log(input);
-    setErrors(validateUser({...input,
-      [e.target.name]: e.target.value,}));
+    let err ={};
+     validateUserData(err,{...input,
+     [e.target.name]: e.target.value,});
+    setErrors(err)
+    console.log(errors)
     
   };
   console.log(props);
@@ -46,8 +51,8 @@ export default function EditUserINfo(props) {
     console.log(obj);
     console.log(input);
     if (
-      obj.email === props.email &&
-      obj.phone_number === props.phone_number &&
+      obj.name === props.name &&
+      obj.last_name === props.last_name &&
       obj.age === props.age) {
       //si esto se da significa que no hubo ningun cambio .entonces no deberia hacer el dispatch
       console.log("There was no change in your data.");
@@ -60,24 +65,33 @@ export default function EditUserINfo(props) {
 
   return (
     <form className="edit-form">
-      {/* <div className="edit-input">
-        <label>First Name</label>
+      {console.log(errors)}
+       <div className="edit-input">
+        <label className="edit-label"
+        >First Name  *
+        <p className={errors.name === 'False' ? 'greenMsg' : 'redMsg'}>
+        {errors.name === 'False' ? 'Name is correct ' : errors.name}</p></label>
         <input
           name="name"
           type="text"
           onChange={(e) => handleChange(e)}
           value={input.name}
+          
         />
       </div>
       <div className="edit-input">
-        <label>Last Name</label>
+        <label className="edit-label">Last Name  *
+        <p className={errors.last_name === 'False' ? 'greenMsg' : 'redMsg'}>
+        {errors.last_name=== 'False' ? 'Last Name is correct ' : errors.last_name}</p>
+          </label>
         <input
           name="last_name"
           type="text"
           onChange={(e) => handleChange(e)}
           value={input.last_name}
+          
         />
-      </div> */}
+      </div> 
       <div className="edit-input">
         <label>Email</label>
         <input
@@ -90,7 +104,10 @@ export default function EditUserINfo(props) {
         />
       </div>
       <div className="edit-input">
-        <label>Age</label>
+        <label className="edit-label">Age   *
+        <p className={errors.age === 'False' ? 'greenMsg' : 'redMsg'}>
+        {errors.age=== 'False' ? 'Age is correct ' : errors.age}</p>
+        </label>
         <input
           name="age"
           type="number"
@@ -99,35 +116,29 @@ export default function EditUserINfo(props) {
         />
       </div>
 
-      <div className="edit-input">
+       <div className="edit-input">
         <label>Phone Number</label>
         <input
           name="phone"
           type="number"
           onChange={(e) => handleChange(e)}
           value={input.phone}
+          disabled = {true}
         />
-      </div>
-      <div className="edit-input">
-        <label>Mobile Number</label>
-        <input
-          name="mobile"
-          type="number"
-          onChange={(e) => handleChange(e)}
-          value={input.mobile}
-        />
-      </div>
-      <input id="submit" type={"submit"} onClick={(e) => handleSubmit(e)} />
+      </div> 
+      
+      <input 
+      id="submit"
+      className={errors.name !== 'False' || errors.age !== 'False' || errors.last_name !== 'False' ? 'disabled-submit' : 'submit'}
+      type={"submit"} 
+      onClick={(e) => handleSubmit(e)}
+      disabled={errors.name !== 'False' || errors.age !== 'False' || errors.last_name  !== 'False'  ? true : false} />
       
 
-      {errors.name && <p>{errors.name}</p>}
-      {errors.last_name && <p>{errors.last_name}</p>}
+     
       
     </form>
   );
 }
 
 
-let s = ['vsv','vsvs','dsdsd','dsds'];
-s.splice(0,2);
-console.log(s)
