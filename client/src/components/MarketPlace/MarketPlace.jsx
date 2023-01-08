@@ -1,20 +1,25 @@
 import * as actions from "../../redux/actions";
 import { useDispatch, useSelector } from "react-redux";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useHistory } from "react-router-dom";
 import { auth } from "../../firebase.js";
 import Pages from "../Pages/Pages";
 import FilterOptions from "../FilterOptrions/Options";
 import Loading from "../Loading/Loading";
+import Offcanvas from "react-bootstrap/Offcanvas";
+import FilterAltIcon from "@mui/icons-material/FilterAlt";
 
 import "./MarketPlace.css";
 
 function MarketPlace({ loggedIn }) {
+  const dispatch = useDispatch();
+  const history = useHistory();
+
   const order = useSelector((state) => state.orderDirection);
   const isLoading = useSelector((state) => state.isLoading);
   const loggedUser = useSelector((state) => state.loggedUser);
-  const dispatch = useDispatch();
-  const history = useHistory();
+
+  const [showFilters, setShowFilters] = useState(false);
 
   //   const [loggedIn, setLoggedIn] = useState(true);
   //   onAuthStateChanged(auth, (user) => {
@@ -28,6 +33,11 @@ function MarketPlace({ loggedIn }) {
   useEffect(() => {
     validateUser();
   }, []);
+
+  const handleClose = () => setShowFilters(false);
+  const handleShow = () => {
+    setShowFilters(true);
+  };
 
   const validateUser = async () => {
     let firebaseCurrentUser = JSON.parse(
@@ -47,23 +57,17 @@ function MarketPlace({ loggedIn }) {
   };
 
   useEffect(() => {}, [order]);
+
   return (
-    <>
-      <div className="home-background">
-        <div className="home-container">
-          {isLoading ? (
-            <Loading />
-          ) : (
-            <div className="container_mainpage">
-              <div className="test">
-                <FilterOptions />
-              </div>
-              <Pages />
-            </div>
-          )}
+    <div className="home-container">
+      {isLoading ? (
+        <Loading />
+      ) : (
+        <div className="container_mainpage">
+          <Pages />
         </div>
-      </div>
-    </>
+      )}
+    </div>
   );
 }
 

@@ -1,55 +1,104 @@
-.inputContainer{
-  min-width: 400px;
+.user-basic-info-verify-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.inputContainer h6{
+.user-basic-info-verify-details-container {
+  min-width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 769px) {
+  .user-basic-info-verify-details-container {
+    min-width: 0;
+  }
+}
+
+.user-basic-verify-inputs-container {
+  margin: 0;
+  max-width: 800px;
   text-align: center;
 }
 
-.div-user-basic{
+.div-user-basic {
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
+  text-align: start;
+  padding: 10px 0;
 }
 
-.error-false{
+.div-user-basic input {
+  background-color: #fafafa;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  width: 350px;
+  height: 40px;
+}
+
+@media (max-width: 769px) {
+  .div-user-basic input {
+    width: 300px;
+  }
+}
+
+.user-medium-info-verify-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.error-false {
   display: none;
 }
 
-.error-true{
+.error-true {
   margin-top: -12px;
   font-size: 14px;
   font-weight: 600;
   color: #fadc8b;
 }
 
-.divs-add-face-pictures{
+.divs-add-face-pictures {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 20px;
 }
 
-.divs-add-face-pictures button{
-  background-color: transparent;
-  margin-top: 40px;
-  margin-bottom: 100px;
+.divs-add-face-pictures button {
   border: none;
-  width: 100px;
-  height: 50px;
   border-radius: 8px;
 }
 
-.divs-add-face-pictures img{
-  width: 400px;
-  border-radius: 12px;
+.divs-add-face-pictures img {
+  width: 300px;
+  border-radius: 15px;
+  margin-bottom: 20px;
 }
 
-.separate-in-two{
+.user-advanced-info-container {
   display: flex;
-  flex-direction: row;
   align-items: center;
+  gap: 60px;
+  width: 100%;
 }
 
-.margin-bottom{
+@media (max-width: 975px) {
+  .user-advanced-info-container {
+    flex-direction: column;
+  }
+}
+
+.user-advanced-info-front {
+}
+
+.user-advanced-info-back {
+}
+
+.margin-bottom {
   margin-bottom: 12px;
 }

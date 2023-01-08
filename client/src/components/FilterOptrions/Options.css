@@ -1,11 +1,11 @@
-.alllFilters-container{
-  color: rgb(3, 6, 21) ;
+.alllFilters-container {
+  color: rgb(3, 6, 21);
 }
-.alllFilters-container label{
+.alllFilters-container label {
   margin: 5px 0;
   font-weight: 600;
 }
-.resetfilters-btn{
+.resetfilters-btn {
   width: 100%;
   height: 30px;
   border: none;
@@ -17,7 +17,7 @@
   color: white;
   transition: all 0.2s ease-in-out;
 }
-.resetfilters-btn:hover{
-  background-color:rgb(3, 6, 21);
+.resetfilters-btn:hover {
+  background-color: rgb(3, 6, 21);
   border: 1px solid white;
 }

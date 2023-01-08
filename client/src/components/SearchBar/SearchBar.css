@@ -1,12 +1,15 @@
-.search-input-text {
-    border-bottom: 1px;
-    border-color: rgb(211, 68, 139);
+.search-bar-component {
+  background-color: #313c52;
+  border-radius: 10px;
 }
 
-.search-button{
-    background-color: transparent;
-    color: rgb(211, 68, 139);
-    border: 1px solid rgb(211, 68, 139);
-    border-radius: 4px;
+.search-input {
+  background-color: transparent;
 }
 
+.search-button {
+  background-color: transparent;
+  color: rgb(211, 68, 139);
+  border-radius: 4px;
+  border: none;
+}
