@@ -113,6 +113,7 @@ const NFTList_dash = ({ users, nfts }) => {
         <div className="dash-nfts-list">
           {displayNFTs.map((user) => (
             <UserCard_dash
+              key={user.id}
               id={user.id}
               name={user.name}
               last_name={user.last_name}

@@ -134,13 +134,15 @@ export default function Filtering() {
           </label>
         </AccordionSummary>
         <AccordionDetails>
-              {collections.map((collection) => {
+              {collections.map((collection, index) => {
                 return (
-                  <div className="input-checkbox">
+                  <div
+                    key={index}
+                    className="input-checkbox"
+                    >
                     <label htmlFor={collection.id}>{collection.name}</label>
                     <input
                     type="checkbox"
-                    key={collection.id}
                     value={collection.id}
                     onClick={(e) => {selectCollection(e)}}
                     className="option-btn btn-filter"
@@ -161,13 +163,12 @@ export default function Filtering() {
           </label>
         </AccordionSummary>
         <AccordionDetails>
-              {category.Species?.map((specie) => {
+              {category.Species?.map((specie, index) => {
                 return (
-                  <div className="input-checkbox">
+                  <div key={index} className="input-checkbox">
                     <label htmlFor={specie}>{specie}</label>
                     <input
                     type="checkbox"
-                    key={specie}
                     value={specie}
                     onClick={(e) => {selectCategorySpecies(e)}}
                     className="option-btn btn-filter"
@@ -188,13 +189,12 @@ export default function Filtering() {
           </label>
         </AccordionSummary>
         <AccordionDetails>
-              {category.Species2?.map((specie) => {
+              {category.Species2?.map((specie, index) => {
                 return (
-                  <div className="input-checkbox">
+                  <div key={index} className="input-checkbox">
                     <label htmlFor={specie}>{specie}</label>
                     <input
                     type="checkbox"
-                    key={specie}
                     value={specie}
                     onClick={(e) => {selectCategorySpecies2(e)}}
                     className="option-btn btn-filter"
@@ -215,13 +215,12 @@ export default function Filtering() {
           </label>
         </AccordionSummary>
         <AccordionDetails>
-              {category.Art?.map((specie) => {
+              {category.Art?.map((specie, index) => {
                 return (
-                  <div className="input-checkbox">
+                  <div key={index} className="input-checkbox">
                     <label htmlFor={specie}>{specie}</label>
                     <input
                     type="checkbox"
-                    key={specie}
                     value={specie}
                     onClick={(e) => {selectCategoryArt(e)}}
                     className="option-btn btn-filter"
@@ -242,13 +241,12 @@ export default function Filtering() {
           </label>
         </AccordionSummary>
         <AccordionDetails>
-              {category.Type?.map((specie) => {
+              {category.Type?.map((specie, index) => {
                 return (
-                  <div className="input-checkbox">
+                  <div key={index} className="input-checkbox">
                     <label htmlFor={specie}>{specie}</label>
                     <input
                     type="checkbox"
-                    key={specie}
                     value={specie}
                     onClick={(e) => {selectCategoryType(e)}}
                     className="option-btn btn-filter"
@@ -269,13 +267,12 @@ export default function Filtering() {
           </label>
         </AccordionSummary>
         <AccordionDetails>
-              {category.Style?.map((value) => {
+              {category.Style?.map((value, index) => {
                 return (
-                  <div className="input-checkbox">
+                  <div key={index} className="input-checkbox">
                     <label htmlFor={value}>{value}</label>
                     <input
                     type="checkbox"
-                    key={value}
                     value={value}
                     onClick={(e) => {selectCategoryStyle(e)}}
                     className="option-btn btn-filter"
@@ -296,13 +293,12 @@ export default function Filtering() {
           </label>
         </AccordionSummary>
         <AccordionDetails>
-              {category.Rest?.map((value) => {
+              {category.Rest?.map((value, index) => {
                 return (
-                  <div className="input-checkbox">
+                  <div key={index} className="input-checkbox">
                     <label htmlFor={value}>{value}</label>
                     <input
                     type="checkbox"
-                    key={value}
                     value={value}
                     onClick={(e) => {selectCategoryRest(e)}}
                     className="option-btn btn-filter"
@@ -323,13 +319,12 @@ export default function Filtering() {
           </label>
         </AccordionSummary>
         <AccordionDetails>
-              {category.Backg?.map((value) => {
+              {category.Backg?.map((value, index) => {
                 return (
-                  <div className="input-checkbox">
+                  <div key={index} className="input-checkbox">
                     <label htmlFor={value}>{value}</label>
                     <input
                     type="checkbox"
-                    key={value}
                     value={value}
                     onClick={(e) => {selectCategoryBackg(e)}}
                     className="option-btn btn-filter"

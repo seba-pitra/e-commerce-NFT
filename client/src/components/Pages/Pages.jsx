@@ -56,7 +56,7 @@ function Pages() {
         <>
           <div className="ordering-buttons-nav">
             <select onChange={(e) => setNftPage(e)}>
-              <option disabled selected value="null">Items-Page</option>
+              <option disabled value="itemsxpage">Items-Page</option>
               <option value="40">40</option>
               <option value="80">80</option>
               <option value="120">120</option>

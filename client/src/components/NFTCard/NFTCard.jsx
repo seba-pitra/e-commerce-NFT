@@ -30,15 +30,16 @@ export default function NFTCard(props) {
 
 
   function saveLocalStorage() {
-    localStorage.setItem(activeUserIs, JSON.stringify(userNfts));
+    localStorage.setItem(loggedUserEmail, JSON.stringify(shoppingCartContents));
   }
 
   function saveFavsLocalStorage() {
-    localStorage.setItem(activeUserIs + "Fav", JSON.stringify(userNfts));
+    localStorage.setItem(loggedUserEmail + "Fav", JSON.stringify(shoppingCartContents));
   }
 
-  let starsValue = props.stars?.reduce((a, b) => a + b, 0);
-  starsValue = starsValue / props.stars?.length;
+  /* let starsValue = props.stars?.reduce((a, b) => a + b, 0);
+  starsValue = starsValue / props.stars?.length; */
+  let starsValue = 0;
 
   if (viewCards === "clear") {
     return (

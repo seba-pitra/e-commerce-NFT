@@ -203,7 +203,7 @@ export const logInUser = (id) => {
     dispatch({ type: LOADING });
     try {
       const loggedUser = await axios.get(`/user/${id}`);
-      dispatch({ type: GET_LOGGED_USER, payload: loggedUser.data });
+      dispatch({ type: LOG_IN, payload: loggedUser.data });
     } catch (error) {
       toast.error("Can't get user data from back. Try again later", { position: "bottom-left" });
     }

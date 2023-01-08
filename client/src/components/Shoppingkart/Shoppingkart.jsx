@@ -88,9 +88,11 @@ export default function Shoppingkart() {
     <div className={styles["shopping-cart"]}>
       <div className={styles["shopping-cart-nft-cards"]}>
         {shoppingCartContents &&
-          shoppingCartContents.map((nft) => {
+          shoppingCartContents.map((nft, index) => {
             return (
-              <div className={styles["cart-nfts-container"]}>
+              <div 
+                key={index}
+                className={styles["cart-nfts-container"]}>
                 <img
                   src={nft.image}
                   alt="nft-cart"

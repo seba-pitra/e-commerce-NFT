@@ -96,8 +96,9 @@ const Details = (props) => {
   date = date.toString();
   date = date.slice(4, 16);
 
-  let starsValue = nftDetail.stars?.reduce((a, b) => a + b, 0);
-  starsValue = starsValue / nftDetail.stars?.length;
+  /* let starsValue = nftDetail.stars?.reduce((a, b) => a + b, 0);
+  starsValue = starsValue / nftDetail.stars?.length; */
+  let starsValue = 0;
 
   return (
     <>

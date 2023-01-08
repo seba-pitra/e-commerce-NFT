@@ -16,6 +16,10 @@ function MarketPlace({ loggedIn }) {
   const dispatch = useDispatch();
   const history = useHistory();
 
+  useEffect(() => {
+    dispatch(actions.getAllNfts());
+    dispatch(actions.getAllCollections());
+  }, []);
   useEffect(() => {}, [order]);
   return (
     <>

@@ -26,7 +26,7 @@ console.log(userFavs);
                   alt="nft"
                   className={styles["fav-nft-img"]}
                 />
-   		<button className={styles["favs-remove-button"]}>
+   		            <button className={styles["favs-remove-button"]}>
                   ×
                 </button>
 
