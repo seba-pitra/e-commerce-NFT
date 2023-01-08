@@ -6,26 +6,39 @@ import NotFoundResults from "../NotFoundResults/NotFoundResults";
 import Ordering from "../FilterOptrions/Ordering/Ordering";
 import PageSelector from "../PageSelector/PageSelector";
 import "./Pages.css";
-import SubtitlesIcon from '@mui/icons-material/Subtitles';
-import ImageIcon from '@mui/icons-material/Image';
+import SubtitlesIcon from "@mui/icons-material/Subtitles";
+import ImageIcon from "@mui/icons-material/Image";
 import MaterialUISwitch from "./switch";
+import Offcanvas from "react-bootstrap/Offcanvas";
+import FilterAltIcon from "@mui/icons-material/FilterAlt";
+import FilterOptions from "../FilterOptrions/Options";
+import { useState } from "react";
+import Filtering from "../FilterOptrions/Filtering/Filtering";
 
 function Pages() {
   const filteredNfts = useSelector((state) => state.filteredNfts);
   const activePage = useSelector((state) => state.activePage);
   const nftsPerPage = useSelector((state) => state.nftsPerPage);
+
   const lastNftInPage = activePage * nftsPerPage;
   const firstNftInPage = lastNftInPage - nftsPerPage;
   const nftsInPage = filteredNfts.slice(firstNftInPage, lastNftInPage);
 
+  const [showFilters, setShowFilters] = useState(false);
+
+  const handleClose = () => setShowFilters(false);
+  const handleShow = () => {
+    setShowFilters(true);
+  };
+
   const dispatch = useDispatch();
 
   const setViewCards = (view) => {
-    dispatch(actions.setViewCards(view))
+    dispatch(actions.setViewCards(view));
   };
 
   const setNftPage = (e) => {
-    dispatch(actions.nftsxpage(e.target.value))
+    dispatch(actions.nftsxpage(e.target.value));
   };
 
   const cards = nftsInPage.map((nft) => {
@@ -53,29 +66,47 @@ function Pages() {
       {cards.length === 0 ? (
         <NotFoundResults />
       ) : (
-        <>
-          <div className="ordering-buttons-nav">
+        <div className="pages-all-container">
+          <div className="orders-container">
             <select onChange={(e) => setNftPage(e)}>
-              <option disabled selected value="null">Items-Page</option>
+              <option disabled selected value="null">
+                Items-Page
+              </option>
               <option value="40">40</option>
               <option value="80">80</option>
               <option value="120">120</option>
               <option value="160">160</option>
               <option value="200">200</option>
             </select>
+            <Filtering />
             <Ordering />
-            <MaterialUISwitch className="switch-dark-ligth"/>
+            {/* switch al navbar */}
+            <MaterialUISwitch className="switch-dark-ligth" />
             <div className="cards-styles">
-              <button className="buttons-cards-styles" onClick={() => setViewCards("clear")}><ImageIcon/></button>
-              <button className="buttons-cards-styles" onClick={() => setViewCards("info")}><SubtitlesIcon/></button>
+              <button
+                className="buttons-cards-styles"
+                onClick={() => setViewCards("clear")}
+              >
+                <ImageIcon />
+              </button>
+              <button
+                className="buttons-cards-styles"
+                onClick={() => setViewCards("info")}
+              >
+                <SubtitlesIcon />
+              </button>
             </div>
-            <span className="amount-nfts"> <b>{filteredNfts.length}</b> items</span>
           </div>
+
+          {/* paginado va abajo */}
+          <span className="amount-nfts">
+            <b>{filteredNfts.length}</b> items
+          </span>
 
           <PageSelector />
           <div className="pageSelector-Container">{cards}</div>
           <PageSelector />
-        </>
+        </div>
       )}
     </div>
   );
