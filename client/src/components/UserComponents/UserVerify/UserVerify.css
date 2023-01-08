@@ -1,5 +1,5 @@
 .inputContainer{
-  min-width: 300px;
+  min-width: 400px;
 }
 
 .inputContainer h6{
@@ -21,4 +21,35 @@
   font-size: 14px;
   font-weight: 600;
   color: #fadc8b;
+}
+
+.divs-add-face-pictures{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.divs-add-face-pictures button{
+  background-color: transparent;
+  margin-top: 40px;
+  margin-bottom: 100px;
+  border: none;
+  width: 100px;
+  height: 50px;
+  border-radius: 8px;
+}
+
+.divs-add-face-pictures img{
+  width: 400px;
+  border-radius: 12px;
+}
+
+.separate-in-two{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.margin-bottom{
+  margin-bottom: 12px;
 }

@@ -17,11 +17,6 @@ export default function UserVerify() {
   const loginStatusStorage = localStorage.getItem("Logged");
   const [step, setStep] = useState(1);
 
-  const [errors, setErrors] = useState({
-    name: "",
-    last_name: "",
-  });
-
   const [userData, setUserData] = useState({
     // step 1
     name: "",
@@ -101,13 +96,7 @@ export default function UserVerify() {
 
         <fieldset className={`info-fieldset ${ step !== 3 ? "noneDisplay" : "first-field-collections"}`}>
           <UserAdvancedInfo userData={userData} setUserData={setUserData} back={back} next={next}/>
-
-          <div className="ilustration-validations">
-            <input className={ userData.name === "" ? "errorSubmit" : "submit" } type="submit" value={"Ask for verify"} disabled={ userData.name === "" } onClick={(e) => handleSubmit(e)} />
-          </div>
-
         </fieldset>
-
       </div>
     </>
   );

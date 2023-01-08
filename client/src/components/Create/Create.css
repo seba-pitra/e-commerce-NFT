@@ -1,258 +1,105 @@
 .mainContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    background-color: #1c2331;
-    color: white;
-  }
-  
-  h1,h2{
-    margin: 25px 0;
-  }
-  
-  .createNft {
-    max-width: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #1c2331;
+  color: white;
+  font-size: 18px;
+}
+
+.errorSubmit {
+  width: 180px;
+  height: 50px;
+  border-radius: 15px;
+  color: rgb(158, 158, 158) !important;
+  border: 2px solid rgb(158, 158, 158) !important;
+  background-color: transparent !important;
+}
+
+.buttons-next-prev-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 1050px) {
+  .buttons-next-prev-container {
+    height: 45px;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    height: auto;
+    gap: 20px;
   }
-  
-  .createNft input {
-    max-width: 250px;
-    border-radius: 10px;
-    border: 2px solid rgb(211, 68, 139, 1);
-    outline: none;
-    cursor: pointer;
-    appearance: none;
-    padding-left: 5px;
-  }
-  
-  .inputContainer{
-      display: flex;
-      flex-direction: column;
-      display: flex;
-      flex-direction: column;
-      margin: 20px;
-  }
-  
-  .inputContainer .upload-file{
-    margin-left: 170px;
-    border: 2px solid rgb(211, 68, 139, 1);
-    outline: none;
-    cursor: pointer;
-    appearance: none;
-    background-color: white;
-  }
-  
-  .inputContainer .upload-file:hover{
-    background-color: #cb4183;
-    color: white;
-    cursor: pointer;
-    border: 2px solid white;
-  }
-  
-  .inputContainer input{
-    margin-bottom: 14px;
-  }
-  
-  .inputContainer button{
-    margin-bottom: 14px;
-  }
-  
-  .inputContainer select{
-    margin-bottom: 20px;
-    border: 2px solid  black;
-    background-color: white;
-    border-radius: 8px;
-  }
-  
-  .upload-file{
-    width: 100px;
-    height: 100px;
-    border-radius: 20px;
-  }
-  
-  .inputAndErrorsMsg{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-  
-  .inputAndErrorsMsg p{
-    margin-bottom: 8px;
-    margin-left: 50px;
-  }
-  
-  .greenMsg{
-    color:green
-  }
-  .redMsg{
-    color:red
-  }
-  
-  .upload-icon{
-    margin: 0 auto;
-    width: 150px;
-    height: 150px;
-  }
-  .ilustration-validations{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: fit-content;
-  }
-  
-  .ilustrationContainer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .ilustration-validations .submit{
-    width: 180px;
-    height: 50px;
-    border-radius: 15px;
-    background-color: transparent;
-    border: 2px solid #cb4183;
-    color: white;
-    font-weight: 600;
-  }
-  
-  .ilustration-validations .submit:hover{
-    color: #cb4183;
-    box-shadow: 0px 0px 14px 4px #cb4183;
-    cursor: pointer;
-    border: 2px solid white;
-  }
-  
-  .errorSubmit{
-    width: 180px;
-    height: 50px;
-    border-radius: 4px;
-    border-radius: 15px;
-    color: rgb(158, 158, 158) !important;
-    border: 2px solid rgb(158, 158, 158) !important;
-    background-color: transparent !important;
-  }
-  
-  .flex-row2{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .first-field-collections{
-    margin: 60px auto;
-    padding: 24px;
-    border-left: 2px solid white;
-    border-right: 2px solid white;
-  }
-  
-  .first-field-collections .divs-separet{
-    margin: 20px;
-    border-bottom: 1px dotted whitesmoke;
-    max-width: 800px;
-  }
+}
 
-  .div-created-collections{
-    display: flex;
-    flex-wrap: wrap;
-  }
+.disabled {
+  height: 45px;
+  border-radius: 10px;
+  width: 300px;
+  background-color: #313c52;
+  color: white;
+  border-bottom: solid 1px #1c2331;
+}
 
-  .created-collections{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-right: 60px;
-  }
+.button-next,
+.create-back-button,
+.categories-back-button,
+.button-create,
+.upload-file {
+  border: none;
+  cursor: pointer;
+  height: 45px;
+  width: 300px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 10px;
+  background: #d3448b;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+  text-decoration: none;
+}
 
-  .created-collections input{
-    width: 22px;
-  }
-  
-  .buttons-next-prev{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-  }
-  
-  .buttons-next-prev button{
-    width: 100px;
-    height: 40px;
-    border-radius: 4px;
-    color: white;
-    border: 2px solid white;
-    background-color: transparent;
-    font-size: 18px;
-    font-weight: 500;
-    margin: 20px;
-  }
+.categories-back-button {
+  margin: 15px 0;
+  width: 100px;
+  height: 40px;
+}
 
-  .buttons-next-prev button:hover{
-    color: black;
-    border: 2px solid black;
-    background-color: whitesmoke;
-  }
-  
-  .rigth-side{
-    display: flex;
-    flex-direction: column;
-    padding: 40px;
-    align-items: center;
-    justify-content: space-around;
-  }
+.button-next:hover,
+.create-back-button:hover,
+.categories-back-button:hover,
+.button-create:hover,
+.upload-file:hover {
+  background: #d3448b;
+  color: #000;
+}
 
-  .div-create-collection{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    height: 60px;
-  }
+.button-next::after,
+.create-back-button::after,
+.categories-back-button::after,
+.button-create::after,
+.upload-file::after {
+  content: "";
+  background: #fff;
+  position: absolute;
+  z-index: -1;
+  padding: 16px 20px;
+  display: block;
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+  transition: all 0.3s ease;
+}
 
-  .div-create-collection input{
-    margin-right: 40px;
-  }
-
-  .cloudinary-collections-create button{
-    width: 100px;
-    height: 40px;
-    position: relative;
-    left: -160px;
-  }
-
-  .button-create{
-    height: 40px;
-    width: 100px;
-    background-color: transparent;
-    color: white;
-    border-radius: 4px;
-    border: 2px solid white;
-  }
-  
-  .button-create:hover{
-    height: 40px;
-    width: 100px;
-    background-color: whitesmoke;
-    color: black;
-    border-radius: 4px;
-    border: 2px solid black;
-  }
-
-  .disabled{
-    height: 40px;
-    border-radius: 4px;
-    width: 100px;
-    color: rgb(158, 158, 158) !important;
-    border: 2px solid rgb(158, 158, 158) !important;
-    background-color: transparent !important;
-  }
-
-  .disabled:hover{
-    background-color: transparent !important;
-  }
-  
+.button-next:hover::after,
+.create-back-button:hover::after,
+.categories-back-button:hover::after,
+.button-create:hover::after,
+.upload-file:hover::after {
+  transition: all 0.3s ease-out;
+  transform: skewX(-45deg) scale(1, 1);
+}

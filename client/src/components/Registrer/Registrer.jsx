@@ -1,20 +1,16 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useHistory } from "react-router-dom";
-import { auth } from "../../firebase.js";
-import {
-  createUserWithEmailAndPassword,
-  sendEmailVerification,
-  signOut,
-} from "firebase/auth";
-import "./Registrer.css";
-// import Button from "react-bootstrap/Button";
+import * as helpers from "./RegisterHelpers";
+import * as actions from "../../redux/actions";
 import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
-// import Row from "react-bootstrap/Row";
+import "./Registrer.css";
+import { useDispatch } from "react-redux";
 
-const Register = ({ setLoginClass, setRegisterClass }) => {
+const Register = ({ setRegisterClass, setLoginClass }) => {
   const history = useHistory();
+  const dispatch = useDispatch();
 
   const [signUp, setSignUpForm] = useState({
     username: "",
@@ -22,46 +18,6 @@ const Register = ({ setLoginClass, setRegisterClass }) => {
     password: "",
     password2: "",
   });
-
-  const [error, setError] = useState("");
-
-  const createUser = async (params) => {
-    try {
-      const signUp = await createUserWithEmailAndPassword(
-        auth,
-        params.email,
-        params.password
-      );
-      if (signUp) {
-        console.log(auth.currentUser);
-        let user = {
-          id: auth.currentUser.uid,
-          email: auth.currentUser.email,
-          username: params.username,
-        };
-        await fetch("http://localhost:3001/user/register", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(user),
-        });
-        sendEmailVerification(auth.currentUser);
-        await signOut(auth);
-        setError("");
-        setLoginClass("login-container");
-        setRegisterClass("disabled-container");
-      }
-    } catch (error) {
-      if (error.message === "Firebase: Error (auth/invalid-email).") {
-        setError("Invalid email");
-      }
-      if (error.message === "Firebase: Error (auth/email-already-in-use).") {
-        setError("Email already in use");
-      }
-      if (error.message === "Firebase: Error (auth/weak-password).") {
-        setError("Weak password");
-      }
-    }
-  };
 
   const handdleChange = (e) => {
     setSignUpForm({
@@ -71,11 +27,14 @@ const Register = ({ setLoginClass, setRegisterClass }) => {
   };
 
   const handdleSubmit = async (e) => {
-    // JAMES FALTA MANEJAR ERRORES Y VALIDAR DATOS
     e.preventDefault();
-    if (signUp.password === signUp.password2) {
-      // ACA POR EJEMPLO XD
-      await createUser(signUp);
+    const createdUser = await helpers.createUser(signUp);
+
+    if (createdUser) {
+      dispatch(actions.registerUser(createdUser));
+
+      setLoginClass("login-container");
+      setRegisterClass("disabled-container");
 
       setSignUpForm({
         username: "",
@@ -83,8 +42,6 @@ const Register = ({ setLoginClass, setRegisterClass }) => {
         password: "",
         password2: "",
       });
-    } else {
-      alert("The passwords do not match"); // XD
     }
   };
 
