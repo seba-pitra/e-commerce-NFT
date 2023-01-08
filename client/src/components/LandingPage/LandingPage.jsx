@@ -47,7 +47,7 @@ function LandingPage() {
       </div>
       <div className={styles[loginClass]}>
         <div>
-          <Login />
+          <Login loginClass={loginClass} />
         </div>
         <div className="d-flex justify-content-evenly ">
           <span

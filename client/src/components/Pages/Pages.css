@@ -2,6 +2,10 @@
   text-align: end;
 }
 
+.dark {
+  background-color: black;
+}
+
 .pageSelector-Container {
   width: 100%;
   display: flex;
@@ -15,11 +19,6 @@
   color: #fff;
   background-color: transparent;
   cursor: pointer;
-}
-
-@media (max-width: 975px) {
-  .pageSelector-Container {
-  }
 }
 
 .amount-nfts {
@@ -49,7 +48,12 @@
   padding: 10px 15px;
 }
 
-.ordering-buttons-nav option {
+.ordering-buttons-nav option .light {
+  background-color: rgb(3, 6, 21);
+  font-size: 20px;
+}
+
+.ordering-buttons-nav option .dark {
   background-color: rgb(3, 6, 21);
   background-color: #313c52;
   font-size: 20px;

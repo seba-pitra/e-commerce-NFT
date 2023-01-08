@@ -5,7 +5,7 @@ import NFTCard from "../NFTCard/NFTCard";
 import NotFoundResults from "../NotFoundResults/NotFoundResults";
 import Ordering from "../FilterOptrions/Ordering/Ordering";
 import PageSelector from "../PageSelector/PageSelector";
-import "./Pages.css";
+// import "./Pages.css";
 import SubtitlesIcon from "@mui/icons-material/Subtitles";
 import ImageIcon from "@mui/icons-material/Image";
 import MaterialUISwitch from "./switch";
@@ -14,6 +14,11 @@ import FilterAltIcon from "@mui/icons-material/FilterAlt";
 import FilterOptions from "../FilterOptrions/Options";
 import { useState } from "react";
 import Filtering from "../FilterOptrions/Filtering/Filtering";
+
+// THEME imports
+import "./Pages.css"; // tema ligth
+import "./Pages2.css"; // tema dark
+import { toggleTheme } from "../../redux/actions";
 
 function Pages() {
   const filteredNfts = useSelector((state) => state.filteredNfts);
@@ -60,9 +65,17 @@ function Pages() {
       />
     );
   });
+  // THEME SWITCHER
 
+  const activeThemeIsDark = useSelector((state) => state.activeThemeIsDark);
+
+  const onSwitch = () => {
+    dispatch(toggleTheme());
+  };
+
+  // el primer div className condicional para el tema
   return (
-    <div>
+    <div className={activeThemeIsDark ? "dark" : "light"}>
       {cards.length === 0 ? (
         <NotFoundResults />
       ) : (
@@ -80,7 +93,6 @@ function Pages() {
             </select>
             <Filtering />
             <Ordering />
-            {/* switch al navbar */}
             <MaterialUISwitch className="switch-dark-ligth" />
             <div className="cards-styles">
               <button

@@ -10,6 +10,7 @@ import { useDispatch } from "react-redux";
 
 // -- Component imports ---
 import LandingPage from "./components/LandingPage/LandingPage";
+import Mycollections from "./components/Mycollections/Mycollections"
 import HomePage from "./components/HomePage/HomePage";
 import Details from "./components/Details/Details";
 import NotFoundException from "./components/404Page/404Page";
@@ -60,7 +61,8 @@ function App() {
           <Route exact path="/recovery" render={() => <Recovery />} />
           <Route exact path="/marketplace" render={() => <MarketPlace />} />
           <Route exact path="/collections" render={() => <Collections />} />
-          <Route
+          <Route exact path="/mycollections" render={() => <Mycollections /> } />
+	  <Route
             exact
             path="/collections/:id"
             render={() => <CollectionDetail />}

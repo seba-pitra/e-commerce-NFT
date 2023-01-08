@@ -3,6 +3,7 @@ import { toast } from "react-toastify";
 
 // -- USER ACTIONS --
 export const GET_ALL_USERS = "GET_ALL_USERS";
+export const GET_ALL_ADMIN_USERS = "GET_ALL_ADMIN_USERS";
 export const GET_USER_BY_ID = "GET_USER_BY_ID";
 export const GET_LOGGED_USER = "GET_LOGGED_USER";
 export const REMOVE_LOGGED_USER = "REMOVE_LOGGED_USER";
@@ -11,6 +12,7 @@ export const SIGN_IN_WITH_GOOGLE = "SIGN_IN_WITH_GOOGLE";
 
 // -- GETTERS --
 export const GET_ALL_NFTS = "GET_ALL_NFTS";
+export const GET_ALL_ADMIN_NFTS = "GET_ALL_ADMIN_NFTS";
 export const GET_ALL_COLLECTIONS = "GET_ALL_COLLECTIONS";
 export const GET_NFT_DETAIL = "GET_NFT_DETAIL";
 
@@ -72,7 +74,22 @@ export const ADD_BUY_AT_HISTORY_BUYS = "ADD_BUY_AT_HISTORY_BUYS";
 
 export const ADD_FAV = "ADD_FAV";
 
+// -- THEMES SWITCH
+export const TOGGLE_THEME = "TOGGLE_THEME";
+
+
 // -- GETTERS --
+
+export const getAllAdminNfts = () => {
+  return async (dispatch) => {
+    try {
+      const allNfts = await axios.get("/nft?deleted=include");
+      dispatch({ type: GET_ALL_ADMIN_NFTS, payload: allNfts.data });
+    } catch (error) {
+      toast.error("Something was wrong. Try again later");
+    }
+  };
+};
 
 export const getAllNfts = () => {
   return async (dispatch) => {
@@ -125,14 +142,24 @@ export const getNftDetail = (id) => {
       const nftId = await axios.get(`/nft/${id}`);
       dispatch({ type: GET_NFT_DETAIL, payload: nftId.data });
     } catch (e) {
+      toast.error("Something was wrong. Try again later");
+      // console.log(e.response.data);
+    }
+  };
+};
+
+export const getAllAdminUsers = () => {
+  return async (dispatch) => {
+    try {
+      const allUsers = await axios.get("/user?deleted=include");
+      dispatch({ type: GET_ALL_ADMIN_USERS, payload: allUsers.data });
+    } catch (error) {
       toast.error("Something was wrong. Try again later", {
         position: "bottom-left",
       });
     }
   };
 };
-
-// --- USER ACTIONS ---
 
 export const getAllUsers = () => {
   return async (dispatch) => {
@@ -469,3 +496,11 @@ export const addToFav = (payload) => {
   console.log(payload);
   return { type: ADD_FAV, payload };
 };
+
+// --- THEME THINGS ---
+
+export const toggleTheme = () => {
+	return { type: TOGGLE_THEME};
+	 };
+
+

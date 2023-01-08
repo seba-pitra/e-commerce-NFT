@@ -5,11 +5,11 @@ import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import Loading from "../Loading/Loading";
 import { Link } from "react-router-dom";
-import "./Collections.css";
+import "./Mycollections.module.css";
 import VerifiedIcon from "@mui/icons-material/Verified";
 
-function Collections() {
-  //  const loggedUser = useSelector((state) => state.loggedUser);
+function Mycollections() {
+  const loggedUser = useSelector((state) => state.loggedUser);
   const history = useHistory();
   const dispatch = useDispatch();
   let loginStatusStorage = localStorage.getItem("Logged");
@@ -30,16 +30,19 @@ function Collections() {
   const collections = useSelector((state) => state.collections);
   const isLoading = useSelector((state) => state.isLoading);
 
-  const collectionsCards = collections.map((collection) => {
-    if (collection.nfts.length > 4) {
-      let floorPrice = 100;
-      collection.nfts.map((nft) => {
-        if (nft.price < floorPrice) floorPrice = nft.price;
-      });
+// -------------------
+//console.log('HERE!!');
+//console.log(loggedUser.collections);
+// -------------------
+
+  const collectionsCards = loggedUser.collections.map((collection) => {
+    if(collection.nfts.length > 4) {
+      let floorPrice = 100
+      collection.nfts.map(nft => { if(nft.price < floorPrice) floorPrice = nft.price })
 
       return (
         <Link to={`/collections/${collection.id}`} className="nolink">
-          <div className="collections-conteiner">
+	      <div className="collections-conteiner">
             <img
               className="collections-img-main"
               src={collection.image}
@@ -77,4 +80,4 @@ function Collections() {
   );
 }
 
-export default Collections;
+export default Mycollections;

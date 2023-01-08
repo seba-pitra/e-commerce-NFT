@@ -7,6 +7,9 @@ import InstagramIcon from "@material-ui/icons/Instagram";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
 
+
+import { Link } from "react-router-dom";
+
 export default function Footer() {
   return (
     <div className="full-footer-container">
@@ -120,10 +123,12 @@ export default function Footer() {
                   </a>
                 </p>
                 <p>
-                  <a href="#!" className="text-white">
+               <Link to="/mycollections">   
+	  <a href="#!" className="text-white">
                     My Collections
                   </a>
-                </p>
+          </Link>
+	  </p>
                 <p>
                   <a href="#!" className="text-white">
                     I am admin

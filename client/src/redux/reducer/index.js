@@ -1,7 +1,9 @@
 import {
   GET_ALL_NFTS,
+  GET_ALL_ADMIN_NFTS,
   GET_ALL_COLLECTIONS,
   GET_ALL_USERS,
+  GET_ALL_ADMIN_USERS,
   GET_NFT_DETAIL,
   CREATE_NFT,
   DELETE_NFT,
@@ -47,6 +49,7 @@ import {
   ADD_BUY_AT_HISTORY_BUYS,
   ADD_FAV,
   SIGN_IN_WITH_GOOGLE,
+  TOGGLE_THEME,
 } from "../actions";
 import * as controllers from "../../utils";
 import { toast } from "react-toastify";
@@ -55,6 +58,7 @@ import { loadLocalStorage, saveLocalStorage } from "../../utils";
 
 const initialState = {
   nfts: [],
+  adminNfts: [],
   filteredNfts: [],
   collections: [],
   setCollections: [],
@@ -68,6 +72,7 @@ const initialState = {
   setNftsPrice: {},
   viewCards: "info",
   users: [],
+  adminUsers: [],
   userNfts: [],
   userFavsNfts: [],
   nftDetail: {},
@@ -82,6 +87,7 @@ const initialState = {
   activeUser: {},
   historyBuys: [],
   userFavs: [],
+  activeThemeIsDark: false,
 };
 
 const rootReducer = (state = initialState, action) => {
@@ -105,11 +111,14 @@ const rootReducer = (state = initialState, action) => {
         setCategoryRest: [],
         setCategoryBackg: [],
       };
-
+    case GET_ALL_ADMIN_NFTS:
+      return { ...state, adminNfts: action.payload };
     case GET_ALL_COLLECTIONS:
       return { ...state, collections: action.payload, isLoading: false };
     case GET_ALL_USERS:
       return { ...state, users: action.payload };
+    case GET_ALL_ADMIN_USERS:
+      return { ...state, adminUsers: action.payload };
     case GET_USER_BY_ID:
       return {
         ...state,
@@ -445,6 +454,12 @@ const rootReducer = (state = initialState, action) => {
         ...state,
         activeUser: action.payload,
       };
+    // -- THEME --
+case TOGGLE_THEME:
+	return {
+	...state,
+		activeThemeIsDark: !state.activeThemeIsDark,
+	}
 
     // --- FAVS ---
     case ADD_FAV:
