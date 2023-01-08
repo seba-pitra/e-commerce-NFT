@@ -1,13 +1,14 @@
 import UnitCategorySelector from "./UnitCategorySelector/UnitCategorySelector";
+import "./CategoriesSelector.css";
 
 export default function CategoriesSelector({ createdNft, setCreatedNft }) {
   return (
     <>
-      <div className="inputContainer">
-        <h5>Category</h5>
+      <div className="categories-selector-container">
+        <h2>Select categories</h2>
         <p>
-          Classify your nft from the following categories. You must select all
-          of them or you will not be able to create the nft
+          Classify your nft from the following categories. <br /> If you do not
+          select all of them, you will not be able to create the nft
         </p>
         <UnitCategorySelector
           index={0}

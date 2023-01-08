@@ -8,11 +8,13 @@ import {
 import * as dotenv from "dotenv";
 dotenv.config();
 
+
 // export const firebaseConfig = JSON.parse(
 //   process.env.NEXT_PUBLIC_REACT_APP_FIREBASE_CONFIG
 // );
 
 export const firebaseConfig = require("./firebaseConfig.json");
+
 
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
