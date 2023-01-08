@@ -5,10 +5,16 @@ import NFTCard from "../NFTCard/NFTCard";
 import NotFoundResults from "../NotFoundResults/NotFoundResults";
 import Ordering from "../FilterOptrions/Ordering/Ordering";
 import PageSelector from "../PageSelector/PageSelector";
-import "./Pages.css";
+// import "./Pages.css";
 import SubtitlesIcon from '@mui/icons-material/Subtitles';
 import ImageIcon from '@mui/icons-material/Image';
 import MaterialUISwitch from "./switch";
+
+// THEME imports
+import './Pages.css';    // tema ligth
+import './Pages2.css';    // tema dark
+import { toggleTheme } from '../../redux/actions';
+
 
 function Pages() {
   const filteredNfts = useSelector((state) => state.filteredNfts);
@@ -47,10 +53,20 @@ function Pages() {
       />
     );
   });
+// THEME SWITCHER 
+	 
+	const activeThemeIsDark = useSelector((state) => state.activeThemeIsDark);
 
+	const onSwitch = () =>{
+		dispatch(toggleTheme());
+		
+	}
+
+// el primer div className condicional para el tema
   return (
-    <div>
-      {cards.length === 0 ? (
+    <div className={activeThemeIsDark ? 'dark' : 'light'}>
+      
+     {cards.length === 0 ? (
         <NotFoundResults />
       ) : (
         <>
@@ -64,7 +80,7 @@ function Pages() {
               <option value="200">200</option>
             </select>
             <Ordering />
-            <MaterialUISwitch className="switch-dark-ligth"/>
+            <MaterialUISwitch className="switch-dark-ligth" onClick={onSwitch}/>
             <div className="cards-styles">
               <button className="buttons-cards-styles" onClick={() => setViewCards("clear")}><ImageIcon/></button>
               <button className="buttons-cards-styles" onClick={() => setViewCards("info")}><SubtitlesIcon/></button>

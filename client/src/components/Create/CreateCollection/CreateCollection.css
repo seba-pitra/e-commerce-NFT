@@ -1,0 +1,85 @@
+.create-collection-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.first-field-collections {
+  margin: 60px auto;
+  padding: 24px;
+  background-color: #313c52;
+  border-radius: 20px;
+}
+
+@media (max-width: 1050px) {
+  .first-field-collections {
+    margin: 60px 15px;
+  }
+}
+
+.first-field-collections .divs-separet {
+  margin: 20px;
+  max-width: 800px;
+  text-align: center;
+}
+
+.choose-collections-created {
+  background-color: #252d3b;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.create-collection {
+  border-radius: 15px;
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+  padding: 15px;
+}
+
+.input-name-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.create-collection-input {
+  border-radius: 5px;
+  width: 300px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.867);
+}
+
+.div-created-collections {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.created-collections {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 60px;
+}
+
+.created-collections input {
+  width: 22px;
+}
+
+.div-create-collection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 15px;
+}
+
+.cloudinary-collections-create {
+  display: flex;
+  flex-direction: column;
+}

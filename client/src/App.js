@@ -10,6 +10,7 @@ import { useDispatch } from "react-redux";
 
 // -- Component imports ---
 import LandingPage from "./components/LandingPage/LandingPage";
+import Mycollections from "./components/Mycollections/Mycollections"
 import HomePage from "./components/HomePage/HomePage";
 import Details from "./components/Details/Details";
 import NotFoundException from "./components/404Page/404Page";
@@ -43,18 +44,9 @@ function App() {
 
   onAuthStateChanged(auth, (user) => {
     if (user) {
-      console.warn("Estoy loggeado con los siguientes datos");
-      console.log(auth.currentUser);
-      localStorage.setItem("Logged", "Estoy loggeado");
-      localStorage.setItem(
-        "firebaseCurrentUser",
-        JSON.stringify(auth.currentUser)
-      );
+      localStorage.setItem("loginStatus", "log-in");
     } else {
-      console.log("NO estoy loggeado");
-      dispatch(removeLoggedUser());
-      localStorage.setItem("Logged", "No loggeadoX2");
-      localStorage.setItem("firebaseCurrentUser", JSON.stringify({}));
+      localStorage.setItem("loginStatus", "log-out");
     }
   });
 
@@ -69,7 +61,8 @@ function App() {
           <Route exact path="/recovery" render={() => <Recovery />} />
           <Route exact path="/marketplace" render={() => <MarketPlace />} />
           <Route exact path="/collections" render={() => <Collections />} />
-          <Route
+          <Route exact path="/mycollections" render={() => <Mycollections /> } />
+	  <Route
             exact
             path="/collections/:id"
             render={() => <CollectionDetail />}
