@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { useSelector, useDispatch } from "react-redux";
-import * as actions from "../../../redux/actions/index.js";
 import {
   CategoryScale,
   Chart,
@@ -13,7 +11,7 @@ import {
 import { Bar } from "react-chartjs-2";
 import "./BarChart.css";
 
-Chart.defaults.color = "black";
+Chart.defaults.color = "rgba(211, 68, 139, 1)";
 Chart.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
 
 const BarChart = ({ chartNfts, chartCollections }) => {
@@ -23,7 +21,6 @@ const BarChart = ({ chartNfts, chartCollections }) => {
   const [collectionName, setCollectionName] = useState(
     chartCollections.map((names) => names.name)
   );
-  console.log(chartNfts);
   const [NftsCollection, setNftsCollection] = useState(
     chartNfts.map((names) =>
       names.collection ? names.collection.name : "No name"
@@ -43,7 +40,6 @@ const BarChart = ({ chartNfts, chartCollections }) => {
         (data) => data.collection?.name === element
       );
       datos.push(collectionArray.length);
-      console.log("nftArray", nftArray);
       precioMedio.push(
         nftArray.length &&
           nftArray.map((elem) => elem.price).reduce((a, c) => a + c) /
@@ -68,57 +64,60 @@ const BarChart = ({ chartNfts, chartCollections }) => {
     datasets: [
       {
         label: "Nfts Quantity",
-        backgroundColor: "rgba(211, 68, 139, 1)",
+        color: "black",
+        backgroundColor: "#38a3a5",
         borderRadius: 5,
-        borderWidth: 1,
-        hoverBackgroundColor: "rgba(211, 68, 139, 0.5)",
+        hoverBackgroundColor: "#10002b",
         data: data,
       },
       {
         label: "Collection Average Price",
-        backgroundColor: "rgba(0, 68, 139, 1)",
+        backgroundColor: "#6930c3",
         borderRadius: 5,
-        borderWidth: 1,
-        hoverBackgroundColor: "rgba(0, 68, 139, 0.5)",
+        hoverBackgroundColor: "#10002b",
         data: avgPrice,
       },
       {
         label: "Collection Total Price",
-        backgroundColor: "rgba(211, 68, 0, 1)",
+        backgroundColor: "#c7f9cc",
         borderRadius: 5,
-        borderWidth: 1,
-        hoverBackgroundColor: "rgba(211, 68, 0, 0.5)",
+        hoverBackgroundColor: "#10002b",
         data: totalPrice,
       },
     ],
   };
 
   const opciones = {
-    maintainAspectRatio: false,
+    maintainAspectRatio: true,
     responsive: true,
     plugins: {
-      title: {
+      legend: {
         display: true,
-        text: "Bar chart",
+        labels: {
+          font: {
+            size: 20,
+            weight: "bold",
+          },
+          boxWidth: 20,
+        },
       },
     },
     scales: {
       y: {
         min: 0,
-        suggestedMax: 10,
+        max: 80,
+        // suggestedMax: 100,
       },
     },
     ticks: {
       // forces step size to be 50 units
-      stepSize: 1,
+      stepSize: 5,
     },
   };
 
   return (
-    <div className="graficos">
-      <div className="grafic-container">
-        <Bar data={chartData} options={opciones} />
-      </div>
+    <div className="grafic-container">
+      <Bar data={chartData} options={opciones} />
     </div>
   );
 };

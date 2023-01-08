@@ -18,27 +18,25 @@ export default function NFTCard(props) {
   const ethPrice = useSelector((state) => state.ethPrice);
   const dispatch = useDispatch();
 
+
   const handleClickOnShoppingCart = (e) => {
     dispatch(actions.addNftOnShoppingCart(props));
+    saveLocalStorage();
+  };
+
+  const handleClickOnFavorites = (e) => {
+    dispatch(actions.addToFav());
+    saveFavsLocalStorage();
   };
 
 
-	function saveLocalStorage(){
-		localStorage.setItem(activeUserIs,JSON.stringify(userNfts));
-	}
+  function saveLocalStorage() {
+    localStorage.setItem(activeUserIs, JSON.stringify(userNfts));
+  }
 
-	function saveFavsLocalStorage(){
-          localStorage.setItem((activeUserIs + 'Fav'),JSON.stringify(userNfts));
-	}
-
-	const handleClickOnShoppingCart = (e) => {
-		dispatch(actions.addNftOnShoppingCart(props));
-		saveLocalStorage();
-	};
-const handleClickOnFavorites = (e) => {
-	dispatch(actions.addToFav(props));
-	saveFavsLocalStorage();
-};
+  function saveFavsLocalStorage() {
+    localStorage.setItem(activeUserIs + "Fav", JSON.stringify(userNfts));
+  }
 
 
   let starsValue = props.stars?.reduce((a, b) => a + b, 0);

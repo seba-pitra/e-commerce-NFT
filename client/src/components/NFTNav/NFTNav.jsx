@@ -51,8 +51,9 @@ export default function NFTNav() {
       await signOut(auth);
       history.push("/");
     } catch (error) {
-      toast.error("Something was wrong. Try again later");
-      // alert(error.message);
+      toast.error("Something was wrong. Try again later", {
+        position: "bottom-left",
+      });
     }
   };
 
@@ -93,7 +94,7 @@ export default function NFTNav() {
               <Link className="brand-colorized-text" to="/home">
                 Home
               </Link>
-              <Link className="brand-colorized-text" to="/createNft">
+              <Link className={`brand-colorized-text ${loggedUser?(loggedUser.type==="Basic"?"noneDisplay":""):""}`} to="/createNft">
                 Create
               </Link>
             </Nav>
@@ -114,10 +115,7 @@ export default function NFTNav() {
 
               {/* favorite */}
 
-                <button
-                className="control-icon"
-                onClick={handleShowFav}
-              >
+              <button className="control-icon" onClick={handleShowFav}>
                 <FavoriteIcon />
 
                 <span id="cart_Numer_Items" className="badge rounded-circle">
