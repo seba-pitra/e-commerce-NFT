@@ -18,6 +18,7 @@ export default function NFTCard(props) {
   const ethPrice = useSelector((state) => state.ethPrice);
   const dispatch = useDispatch();
 
+
   const handleClickOnShoppingCart = (e) => {
     dispatch(actions.addNftOnShoppingCart(props));
     saveLocalStorage();
@@ -36,6 +37,7 @@ export default function NFTCard(props) {
   function saveFavsLocalStorage() {
     localStorage.setItem(activeUserIs + "Fav", JSON.stringify(userNfts));
   }
+
 
   let starsValue = props.stars?.reduce((a, b) => a + b, 0);
   starsValue = starsValue / props.stars?.length;
