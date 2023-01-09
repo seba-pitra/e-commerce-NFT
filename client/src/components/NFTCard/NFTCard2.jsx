@@ -5,31 +5,18 @@ import FavoriteIcon from "@material-ui/icons/Favorite";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 import * as actions from "../../redux/actions";
 import ethereumLogo from "../../images/ethereum-logo.png";
-import { saveLocalStorage } from "../../utils";
 import "./NFTCard.css";
 // import styles from "./stylesheets/NFTCard.module.css";
 
 export default function NFTCard(props) {
-  const activeUserIs = useSelector((state) => state.activeUser);
-  const userNfts = useSelector((state) => state.userNfts);
   const dispatch = useDispatch();
-
-  function saveLocalStorage() {
-    localStorage.setItem(activeUserIs, JSON.stringify(userNfts));
-  }
-
-  function saveFavsLocalStorage() {
-    localStorage.setItem(activeUserIs + "Fav", JSON.stringify(userNfts));
-  }
 
   const handleClickOnShoppingCart = (e) => {
     dispatch(actions.addNftOnShoppingCart(props));
-    saveLocalStorage();
   };
 
   const handleClickOnFavorites = (e) => {
     dispatch(actions.addToFav(props));
-    saveFavsLocalStorage();
   };
 
   return (

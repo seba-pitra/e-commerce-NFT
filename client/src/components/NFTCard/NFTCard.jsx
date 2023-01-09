@@ -9,35 +9,22 @@ import favsLogo from "../../images/favs-logo.png";
 // import StarIcon from "../../images/stars-logo.png";
 import StarIcon from "@mui/icons-material/Star";
 import VisibilityIcon from "@mui/icons-material/Visibility";
-import { saveLocalStorage } from "../../utils";
 import "./NFTCard.css";
 import styles from "./stylesheets/NFTCard.module.css";
 
 export default function NFTCard(props) {
-  const loggedUserEmail = useSelector((state) => state.loggedUser.email);
-  const shoppingCartContents = useSelector((state) => state.shoppingCartContents);
-  const viewCards = useSelector((state) => state.viewCards);
-
-  const ethPrice = useSelector((state) => state.ethPrice);
   const dispatch = useDispatch();
 
-  const handleClickOnShoppingCart = (e) => {
+  const viewCards = useSelector((state) => state.viewCards);
+  const ethPrice = useSelector((state) => state.ethPrice);
+
+  const handleClickOnShoppingCart = () => {
     dispatch(actions.addNftOnShoppingCart(props));
-    saveLocalStorage();
   };
 
-  const handleClickOnFavorites = (e) => {
-    dispatch(actions.addToFav());
-    saveFavsLocalStorage();
+  const handleClickOnFavorites = () => {
+    dispatch(actions.addToFav(props));
   };
-
-  function saveLocalStorage() {
-    localStorage.setItem(loggedUserEmail, JSON.stringify(shoppingCartContents));
-  }
-
-  function saveFavsLocalStorage() {
-    localStorage.setItem(loggedUserEmail + "Fav", JSON.stringify(shoppingCartContents));
-  }
 
   let starsValue = 0;
 

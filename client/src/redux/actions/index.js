@@ -74,7 +74,10 @@ export const REMOVE_NFT_OF_SHOOPING_CART = "REMOVE_NFT_OF_SHOOPING_CART";
 export const DELETE_NFT_ON_SIGNOUT = "DELETE_NFT_ON_SIGNOUT";
 export const ADD_BUY_AT_HISTORY_BUYS = "ADD_BUY_AT_HISTORY_BUYS";
 
+// -- FAVS --
 export const ADD_FAV = "ADD_FAV";
+export const REMOVE_FROM_FAVS = "REMOVE_FROM_FAVS";
+export const DELETE_FAVS_ON_SIGN_OUT = "DELETE_FAVS_ON_SIGN_OUT";
 
 // -- THEMES SWITCH
 export const TOGGLE_THEME = "TOGGLE_THEME";
@@ -175,6 +178,7 @@ export const getAllAdminUsers = () => {
   };
 };
 
+// Esta funcion no la esta usando nadie.
 export const getAllUsers = () => {
   return async (dispatch) => {
     try {
@@ -444,6 +448,7 @@ export const addReview = (payload) => {
         nftId : nftId,
         value : value
       });
+      // Falta el dispatch ya sea para setear el value fijo o para mostrar un mensaje.
     } catch (error) {
       console.error(error.response.data);
       toast.error(error.response.data, { position: "bottom-left" });
@@ -469,8 +474,8 @@ export const nftsxpage = (payload) => {
   return { type: SET_NFTS_PER_PAGE, payload };
 };
 
-export const addNftOnShoppingCart = (nftData) => {
-  return { type: ADD_NFT_ON_SHOOPING_CART, payload: nftData };
+export const addNftOnShoppingCart = (nft) => {
+  return { type: ADD_NFT_ON_SHOOPING_CART, payload : nft };
 };
 
 export const removeNftOfShoppingCart = (nftId) => {
@@ -480,10 +485,6 @@ export const removeNftOfShoppingCart = (nftId) => {
 
 export const injectLocalStorageCart = (payload) => {
   return { type: LOCAL_STORAGE_CART, payload };
-};
-
-export const injectLocalStorageFavs = (payload) => {
-  return { type: LOCAL_STORAGE_FAVS, payload };
 };
 
 export const freeShoppingCartState = () => {
@@ -516,6 +517,17 @@ export const sendFungibleMail = (sendData) => {
 // --- FAVS ---
 export const addToFav = (payload) => {
   return { type: ADD_FAV, payload };
+};
+
+export const removeFromFav = (nftId) => {
+  return { type: REMOVE_FROM_FAVS, payload: nftId };
+}
+
+export const freeUserFavsState = () => {
+  return { type: DELETE_FAVS_ON_SIGN_OUT };
+}
+export const injectLocalStorageFavs = (payload) => {
+  return { type: LOCAL_STORAGE_FAVS, payload };
 };
 
 // --- THEME THINGS ---

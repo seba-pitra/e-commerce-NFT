@@ -4,13 +4,12 @@ import { useHistory } from "react-router-dom";
 import GoogleIcon from "@mui/icons-material/Google";
 import * as helpers from "./LoginHelpers";
 import * as actions from "../../redux/actions";
-import { loadCartLocalStorage } from "../../utils";
+import * as utils  from "../../utils";
 import styles from "./stylesheets/Login.module.css";
 
 // sendPasswordResetEmail
 const Login = () => {
   const dispatch = useDispatch();
-  const history = useHistory();
   const [logginForm, setLogginForm] = useState({
     email: "",
     password: "",
@@ -23,29 +22,48 @@ const Login = () => {
     });
   };
 
+ /**
+ * Handles the login process using Google Sign-In.
+ */
   const handleLogInGoogle = async () => {
+    // Attempt to sign the user in using Google Sign-In
     const user = await helpers.signGoogle();
+    // If the user was successfully signed in
     if (user) {
+      // Dispatch the signInWithGoogle action
       dispatch(actions.signInWithGoogle(user));
+      // Load the user's cart and favorites from local storage
+      utils.loadCartLocalStorage(dispatch, user.email);
+      utils.loadFavsLocalStorage(dispatch, user.email);
     }
-    loadCartLocalStorage(dispatch);
   };
-
-  const handdleSubmit = async (e) => {
+  /**
+   * Handles the login process using the login form
+   */
+  const handleSubmit = async (e) => {
+    // Prevent the default form submission behavior
     e.preventDefault();
-    loadCartLocalStorage(dispatch);
-    const userId = await helpers.logginFunction(logginForm);
-    if (userId) {
+  
+    // Attempt to log the user in using the logginFunction helper
+    const user = await helpers.logginFunction(logginForm);
+  
+    // If the user was successfully logged in
+    if (user.id) {
+      // Reset the form fields
       setLogginForm({
         email: "",
         password: "",
       });
-      dispatch(actions.logInUser(userId));
+      // Dispatch the logInUser action to get the user data to global state.
+      dispatch(actions.logInUser(user.id));
+      // Load the user's cart and favorites from local storage
+      utils.loadCartLocalStorage(dispatch, user.email);
+      utils.loadFavsLocalStorage(dispatch, user.email);
     }
   };
 
   return (
-    <form onSubmit={handdleSubmit}>
+    <form onSubmit={handleSubmit}>
       <div className="form-outline mb-4">
         <label className="form-label text-light" htmlFor="email">
           Email address
@@ -78,7 +96,7 @@ const Login = () => {
 
       <div className="text-center text-lg-start mt-4 pt-2">
         <button
-          onClick={handdleSubmit}
+          onClick={handleSubmit}
           type="button"
           className={styles["sing-in"]}
           style={{ paddingLeft: "2.5rem", paddingRight: "2.5rem" }}

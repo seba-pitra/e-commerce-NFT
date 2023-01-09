@@ -52,11 +52,13 @@ import {
   REGISTER_USER,
   ASKED_FOR_VERIFICATION,
   TOGGLE_THEME,
+  DELETE_FAVS_ON_SIGN_OUT,
+  REMOVE_FROM_FAVS,
 } from "../actions";
 import * as controllers from "../../utils";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { loadCartLocalStorage, saveCartLocalStorage } from "../../utils";
+import * as utils from "../../utils";
 
 const initialState = {
   nfts: [], //ok
@@ -128,13 +130,21 @@ const rootReducer = (state = initialState, action) => {
         setCategoryBackg: [],
       };
     case REGISTER_USER: 
-      return { ...state }
+      return { ...state}
     case GET_ALL_ADMIN_NFTS:
       return { ...state, adminNfts: action.payload };
     case GET_ALL_COLLECTIONS:
       return { ...state, collections: action.payload, isLoading: false };
+
+    // Este case no lo esta usando nadie.
     case GET_ALL_USERS:
       return { ...state, users: action.payload };
+    // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    case SIGN_IN_WITH_GOOGLE: 
+      return {
+        ...state,
+        loggedUser: action.payload,
+      };
     case LOG_IN:
       return { ...state, loggedUser: action.payload };
     case LOG_IN_SUCCESS:
@@ -143,8 +153,10 @@ const rootReducer = (state = initialState, action) => {
         return { ...state, loggedUser: {}, loginStatus : false};
     case ASKED_FOR_VERIFICATION:
         return { ...state }
+    // Trae incluso los deleted.
     case GET_ALL_ADMIN_USERS:
       return { ...state, adminUsers: action.payload };
+    // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
     case GET_USER_BY_ID:
       return {
         ...state,
@@ -154,6 +166,7 @@ const rootReducer = (state = initialState, action) => {
       return { ...state, nftDetail: action.payload, isLoading: false };
     case GET_COLLECTION_DETAIL:
       return { ...state, collectionDetail: action.payload };
+
     // estos hay que revisar la logica, en este momento no coinciden back con front,
     // saque lo del msj para revisarlo bien despues
     case CREATE_NFT:
@@ -164,7 +177,7 @@ const rootReducer = (state = initialState, action) => {
       return { ...state } ;
     case CREATE_COLLECTION:
       return { ...state };
-
+    // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
     // --- SETTERS ---
     case SET_COLLECTIONS:
       return { ...state, setCollections: action.payload };
@@ -320,6 +333,10 @@ const rootReducer = (state = initialState, action) => {
         setCategoryBackg: [],
       };
 
+    // La logica de busqueda solo incluye nombres.
+    // Y modifica el estado de los filtered permanentemente hasta que
+    // se haga un RESET_FILTERS o se recargue...
+    // no se pueden hacer dos busquedas consecutivas con esta logica
     case SEARCH_NFT_NAME:
       let filterByName = [];
       filterByName = state.nfts.filter((e) =>
@@ -407,6 +424,7 @@ const rootReducer = (state = initialState, action) => {
     case GET_ETH_PRICE:
       return { ...state, ethPrice: action.payload };
 
+    // -- SHOPPING CART
     case ADD_NFT_ON_SHOOPING_CART:
       const foundNft = state.shoppingCartContents.find(
         (nft) => nft.id === action.payload.id
@@ -418,49 +436,44 @@ const rootReducer = (state = initialState, action) => {
         });
         return { ...state };
       }
-
+      // crea un nuevo "carrito de compras" con el nft agregado.
       const newShoppingCartContent = [...state.shoppingCartContents, action.payload];
-
-      saveCartLocalStorage(newShoppingCartContent);
-
+      // lo guarda el el local storage
+      utils.saveCartLocalStorage(newShoppingCartContent, state.loggedUser.email);
+      //responde que fue exitoso.
       toast.success("NFT added to shopping cart successfully", {
         position: "bottom-left",
       });
-
+      // modifica el estado.
       return {
         ...state,
         shoppingCartContents: newShoppingCartContent,
       };
 
     case REMOVE_NFT_OF_SHOOPING_CART:
+      // remueve el nft del carrito de compras.
+      const newShoppingCartContentRemoved = state.shoppingCartContents.filter(
+        (nft) => nft.id !== action.payload
+        );
+
       toast.success("NFT removed to shopping cart successfully", {
         theme: "dark",
-
         position: "bottom-left",
       });
 
-      const newShoppingCartContentRemoved = state.shoppingCartContents.filter(
-        (nft) => nft.id !== action.payload
-      );
-
-      saveCartLocalStorage(newShoppingCartContentRemoved);
-
+      //guarda el nuevo carrito
+      utils.saveCartLocalStorage(newShoppingCartContentRemoved, state.loggedUser.email);
+      // modifica el estado
       return {
         ...state,
         shoppingCartContents: newShoppingCartContentRemoved,
       };
 
     case LOCAL_STORAGE_CART:
+      //carga lo que esta en el local storage en el carrito.
       return {
         ...state,
         shoppingCartContents: action.payload,
-      };
-
-    case LOCAL_STORAGE_FAVS:
-      return {
-        ...state,
-        userFavsNfts: action.payload,
-        //¿esta action se esta usando para colocar de nuevo lo que estaba en el local storage?
       };
 
     case DELETE_NFT_ON_SIGNOUT:
@@ -468,33 +481,64 @@ const rootReducer = (state = initialState, action) => {
         ...state,
         shoppingCartContents: [],
       };
-    // -- THEME --
-    case TOGGLE_THEME:
-      return {
-      ...state,
-        activeThemeIsDark: !state.activeThemeIsDark,
-      }
-
+    
     // --- FAVS ---
+    case LOCAL_STORAGE_FAVS:
+      //carga lo que esta en el local storage en los favoritos del usuario.
+      return {
+        ...state,
+        userFavs: action.payload,
+      };
     case ADD_FAV:
-      const SelectedNft = state.userFavs.find(
-        (nft) => nft.id === action.payload.id
-      );
+        //verifica que no este ya en el estado.
+        const SelectedNft = state.userFavs.find(
+          (nft) => nft.id === action.payload.id
+        );
+        
+        // devuelve mensaje y no modifica el estado si es asi
+        if (SelectedNft) {
+          toast.error("This NFT is already in your Favorites", {
+            position: "bottom-left",
+          });
+          return { ...state };
+        }
+        //crea un nuevo listado de favoritos.
+        const newFavs = [...state.userFavs, action.payload]
+        // guarda el estado usando el mail del usuario como tag
 
-      if (SelectedNft) {
-        toast.error("This NFT is already in your Favorites", {
+        utils.saveFavsLocalStorage(newFavs, state.loggedUser.email)
+
+        toast.success("NFT added to your Favorites List successfully", {
           position: "bottom-left",
         });
-        return { ...state };
-      }
 
-      toast.success("NFT added to your Favorites List successfully", {
+        // modifica el estado.
+        return {
+          ...state,
+          userFavs: newFavs
+        };
+    case DELETE_FAVS_ON_SIGN_OUT:
+      return {
+        ...state,
+        userFavs: [],
+      };
+    case REMOVE_FROM_FAVS:
+      // remueve el nft de los favoritos.
+      const newFavsRemoved = state.userFavs.filter(
+        (nft) => nft.id !== action.payload
+        );
+
+      toast.success("NFT removed to favs successfully", {
+        theme: "dark",
         position: "bottom-left",
       });
 
+      //guarda el nuevo carrito
+      utils.saveFavsLocalStorage(newFavsRemoved, state.loggedUser.email);
+      // modifica el estado
       return {
         ...state,
-        userFavs: [...state.userFavs, action.payload],
+        userFavs: newFavsRemoved,
       };
 
     case ADD_BUY_AT_HISTORY_BUYS:
@@ -503,12 +547,13 @@ const rootReducer = (state = initialState, action) => {
         historyBuys: [...state.historyBuys, action.payload],
       };
 
-    case SIGN_IN_WITH_GOOGLE: {
+    // -- THEME --
+    case TOGGLE_THEME:
       return {
-        ...state,
-        loggedUser: action.payload,
-      };
+      ...state,
+        activeThemeIsDark: !state.activeThemeIsDark,
     }
+
     default:
       return { ...state };
   }
