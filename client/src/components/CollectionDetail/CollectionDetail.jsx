@@ -10,6 +10,8 @@ import "./CollectionDetail.css";
 import VerifiedIcon from "@mui/icons-material/Verified";
 
 const CollectionDetail = () => {
+  // Esto hay que modificar como trae los datos....
+  // porque ya existe el get collection by id.
   const { id } = useParams();
 
   const collections = useSelector((state) => state.collections);
@@ -57,7 +59,7 @@ const CollectionDetail = () => {
     );
   });
 
-  let date = new Date(createdAt);
+  let date = new Date(foundCollection.createdAt); 
   date = date.toString();
   date = date.slice(4, 16);
 
