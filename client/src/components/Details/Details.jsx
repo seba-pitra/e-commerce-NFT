@@ -14,8 +14,6 @@ const Details = (props) => {
   const dispatch = useDispatch();
   const history = useHistory();
 
-  let loginStatusStorage = localStorage.getItem("loginStatus");
-
   const { id } = props.match.params;
   const nftDetail = useSelector((state) => state.nftDetail);
   const isLoading = useSelector((state) => state.isLoading);
@@ -23,13 +21,6 @@ const Details = (props) => {
   const [error, setError] = useState();
   const [txs, setTxs] = useState([]);
 
-  const [rating, setRating] = useState([]);
-
-  console.log("rating detail > ", rating);
-
-  useEffect(() => {
-    dispatch(actions.addStars({ id, rating: rating.value }));
-  }, [rating]);
 
   useEffect(() => {
     dispatch(actions.getNftDetail(id));
@@ -96,8 +87,8 @@ const Details = (props) => {
   date = date.toString();
   date = date.slice(4, 16);
 
-  /* let starsValue = nftDetail.stars?.reduce((a, b) => a + b, 0);
-  starsValue = starsValue / nftDetail.stars?.length; */
+  //esto va a traer el promedio directamente del model
+  
   let starsValue = 0;
 
   return (
@@ -122,7 +113,7 @@ const Details = (props) => {
 
             <div className={styles["nft-data-container"]}>
               <div>
-                <StarRating rating={rating} setRating={setRating} />
+                <StarRating nftId={nftDetail.id}/>
                 <h1>{nftDetail.name}</h1>
                 <span className={styles["detail-span"]}>
                   Included from {nftDetail.ownerName + " "}

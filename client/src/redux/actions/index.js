@@ -425,13 +425,19 @@ export const addViewNft = (id) => {
   };
 };
 
-export const addStars = (payload) => {
+export const addReview = (payload) => {
   return async () => {
     try {
-      console.log("id", payload.id);
-      console.log("rating", payload.rating);
-      await axios.put(`/nft/addStar/${payload.id}`, { rating: payload.rating });
+      const { userId, nftId, value } = payload;
+      console.log(payload);
+      const response = await axios.post(`/review/create`, {
+        userId : userId,
+        nftId : nftId,
+        value : value
+      });
+      console.log(response);
     } catch (error) {
+      console.error(error.response.data);
       toast.error(error.response.data, { position: "bottom-left" });
     }
   };
