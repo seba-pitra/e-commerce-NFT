@@ -190,10 +190,10 @@ export const getUserByID = (id) => {
   };
 };
 
-export const updateUser = (id, body) => {
+export const updateUser = (body) => {
   return async (dispatch) => {
     try {
-      const update = await axios.put(`/user/${id}`, body);
+      const update = await axios.put(`/user/${body.id}`, body);
       dispatch({ type: GET_USER_BY_ID, payload: update.data });
     } catch (error) {
       toast.error("Something was wrong. Try again later", {
