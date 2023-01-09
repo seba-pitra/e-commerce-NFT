@@ -55,7 +55,7 @@ const Recovery = () => {
         </div>
         <form>
           <div className="form-outline mb-4">
-            <label className="form-label text-light" htmlFor="emailField">
+            <label className="form-label text-light" htmlFor="email">
               Email address
             </label>
 
@@ -63,7 +63,6 @@ const Recovery = () => {
               onChange={handdleChange}
               name="email"
               type="email"
-              id="emailField"
               className="form-control form-control-lg"
               placeholder="your_email@gmail.com"
               value={recuperation.email}

@@ -4,7 +4,7 @@ const port = process.env.PORT || 3001;
 require("./src/services/PaymentService");
 
 conn.sync({ alter: true }).then(() => {
-  server.listen(3001, () => {
+  server.listen(port, () => {
     console.log(`%s listening at ${port}`); // eslint-disable-line no-console
   });
 });

@@ -1,69 +1,22 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useHistory } from "react-router-dom";
-import { auth } from "../../firebase.js";
-import {
-  createUserWithEmailAndPassword,
-  sendEmailVerification,
-  signOut,
-} from "firebase/auth";
-import "./Registrer.css";
-
+import * as helpers from "./RegisterHelpers";
+import * as actions from "../../redux/actions";
 import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
+import "./Registrer.css";
+import { useDispatch } from "react-redux";
 
-
-const Register = () => {
-  const history = useHistory();
+const Register = ({ setRegisterClass, setLoginClass }) => {
+  const dispatch = useDispatch();
 
   const [signUp, setSignUpForm] = useState({
+    username: "",
     email: "",
     password: "",
-    name: "",
-    last_name: "",
-    age: "",
+    password2: "",
   });
-
-  const [error, setError] = useState("");
-
-  const createUser = async (params) => {
-    try {
-      const signUp = await createUserWithEmailAndPassword(
-        auth,
-        params.email,
-        params.password
-      );
-      if (signUp) {
-        console.log(auth.currentUser);
-        let user = {
-          id: auth.currentUser.uid,
-          email: auth.currentUser.email,
-          name: params.name,
-          last_name: params.last_name,
-          age: Number(params.age),
-        };
-        await fetch("http://localhost:3001/user/register", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(user),
-        });
-        sendEmailVerification(auth.currentUser);
-        await signOut(auth);
-        setError("");
-        history.push("/");
-      }
-    } catch (error) {
-      if (error.message === "Firebase: Error (auth/invalid-email).") {
-        setError("Invalid email");
-      }
-      if (error.message === "Firebase: Error (auth/email-already-in-use).") {
-        setError("Email already in use");
-      }
-      if (error.message === "Firebase: Error (auth/weak-password).") {
-        setError("Weak password");
-      }
-    }
-  };
 
   const handdleChange = (e) => {
     setSignUpForm({
@@ -74,21 +27,27 @@ const Register = () => {
 
   const handdleSubmit = async (e) => {
     e.preventDefault();
-    await createUser(signUp);
+    const createdUser = await helpers.createUser(signUp);
 
-    history.push("/marketplace");
+    if (createdUser) {
+      dispatch(actions.registerUser(createdUser));
 
-    setSignUpForm({
-      email: "",
-      password: "",
-      name: "",
-      last_name: "",
-      age: "",
-    });
+      setLoginClass("login-container");
+      setRegisterClass("disabled-container");
+
+      setSignUpForm({
+        username: "",
+        email: "",
+        password: "",
+        password2: "",
+      });
+    }
   };
 
+  
+  
+  //Esto para que es?
   const [validated, setValidated] = useState(false);
-
   const handleSubmit = (event) => {
     const form = event.currentTarget;
     if (form.checkValidity() === false) {
@@ -109,37 +68,20 @@ const Register = () => {
             className="register-form-input"
             controlId="validationCustom01"
           >
-            <Form.Label>First name</Form.Label>
+            <Form.Label>Username</Form.Label>
             <Form.Control
               required
               type="text"
-              placeholder="First name"
+              placeholder="Username"
               onChange={handdleChange}
               value={signUp.name}
-              name="name"
+              name="username"
             />
             <Form.Control.Feedback type="invalid">
-              Please type a name.
+              Please choose a username
             </Form.Control.Feedback>
           </Form.Group>
-          <Form.Group
-            as={Col}
-            className="register-form-input"
-            controlId="validationCustom02"
-          >
-            <Form.Label>Last name</Form.Label>
-            <Form.Control
-              required
-              type="text"
-              placeholder="Last name example"
-              onChange={handdleChange}
-              value={signUp.last_name}
-              name="last_name"
-            />
-            <Form.Control.Feedback type="invalid">
-              Please type a last name
-            </Form.Control.Feedback>
-          </Form.Group>
+
           <Form.Group
             as={Col}
             className="register-form-input"
@@ -159,14 +101,13 @@ const Register = () => {
                 required
               />
               <Form.Control.Feedback type="invalid">
-                Please choose a username.
+                Please type an email
               </Form.Control.Feedback>
             </InputGroup>
           </Form.Group>
           <Form.Group
             as={Col}
             className="register-form-input"
-            controlId="validationCustom03"
           >
             <Form.Label>Password</Form.Label>
             <Form.Control
@@ -175,25 +116,31 @@ const Register = () => {
               onChange={handdleChange}
               name="password"
               value={signUp.password}
+              autoComplete="off"
             />
             <Form.Control.Feedback type="invalid">
               Please type a password
             </Form.Control.Feedback>
           </Form.Group>
+
           <Form.Group
             as={Col}
             className="register-form-input"
-            controlId="validationCustom04"
           >
-            <Form.Label>Age</Form.Label>
+            <Form.Label>Repeat password</Form.Label>
             <Form.Control
-              type="number"
-              placeholder="Age"
+              required
+              type="password"
               onChange={handdleChange}
-              value={signUp.age}
-              name="age"
+              name="password2"
+              value={signUp.password2}
+              autoComplete="off"
             />
+            <Form.Control.Feedback type="invalid">
+              Please repeat your password
+            </Form.Control.Feedback>
           </Form.Group>
+
           <button
             className="register-button"
             onClick={handdleSubmit}

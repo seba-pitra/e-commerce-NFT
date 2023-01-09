@@ -1,68 +1,44 @@
 import { React, useState } from "react";
-import { freeShoppingCartState } from "../../redux/actions";
-import { useLocation, useHistory } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import SearchBar from "../SearchBar/SearchBar";
 import logo from "../../images/logo/logo.png";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
+import FavoriteIcon from "@material-ui/icons/Favorite";
 import Shoppingkart from "../Shoppingkart/Shoppingkart";
+import Ufavorites from "../uFavorites/Ufavorites.jsx";
 import Offcanvas from "react-bootstrap/Offcanvas";
-import { signOut } from "firebase/auth";
-import { auth } from "../../firebase";
-import "./NFTNav.css";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
 import UserIcon from "./UserIcon/UserIcon";
+import ProfilePicture from "../UserComponents/ProfilePicture/Profile.Picture";
 
-import AccountCircleIcon from "@material-ui/icons/AccountCircle";
+import styles from "./stylesheets/NFTNav.module.css";
+import "./NFTNav.css";
 
 export default function NFTNav() {
+  const location = useLocation();
+
   const [show, setShow] = useState(false);
+  const [showFav, setShowFav] = useState(false);
   const [showUserList, setShowUserList] = useState(false);
-  const cartItemsCount = useSelector((state) => state.userNfts);
-  const activeUserIs = useSelector((state) => state.activeUser);
-  const userNfts = useSelector((state) => state.userNfts);
-  // No se usa
+
+  const cartItemsCount = useSelector((state) => state.shoppingCartContents);
+  const userFavorites = useSelector((state) => state.userFavs);
   const loggedUser = useSelector((state) => state.loggedUser);
 
-  const location = useLocation();
-  const history = useHistory();
   const areWeInLanding = location.pathname === "/";
+
   const handleClose = () => setShow(false);
-  const handleShow = () => {
-    setShow(true);
-    saveLocalStorage();
-  };
-
-  const dispatch = useDispatch();
-
-  const logOutFunction = async () => {
-    try {
-      await signOut(auth);
-      history.push("/");
-    } catch (error) {
-      alert(error.message);
-    }
-  };
-
-  // No se usa
-  const handleLogoutClick = (e) => {
-    saveLocalStorage();
-    dispatch(freeShoppingCartState());
-    logOutFunction();
-  };
+  const handleShow = () =>  setShow(true);
+  const handleCloseFav = () => setShowFav(false);
+  const handleShowFav = () => setShowFav(true);
 
   const handleShowUserList = (e) => {
     e.preventDefault();
     setShowUserList(!showUserList);
   };
-
-  function saveLocalStorage() {
-    localStorage.setItem(activeUserIs, JSON.stringify(userNfts));
-    // activeUserIs == tag of item in localStorage
-    console.log(cartItemsCount);
-  }
 
   return (
     <div className={areWeInLanding ? "hidden" : "nav-bar"}>
@@ -90,7 +66,16 @@ export default function NFTNav() {
               <Link className="brand-colorized-text" to="/home">
                 Home
               </Link>
-              <Link className="brand-colorized-text" to="/createNft">
+              <Link
+                className={`brand-colorized-text ${
+                  loggedUser
+                    ? loggedUser.type === "Basic"
+                      ? "noneDisplay"
+                      : ""
+                    : ""
+                }`}
+                to="/createNft"
+              >
                 Create
               </Link>
             </Nav>
@@ -105,15 +90,21 @@ export default function NFTNav() {
               <Link to="/developerTeam" className="brand-colorized-text">
                 Developer Team
               </Link>
-              <div className="nav-bar-accountIcon">
-                <AccountCircleIcon onClick={(e)=>handleShowUserList(e)} />
-              </div>
+              <ProfilePicture handleShowUserList={handleShowUserList}/>
+              {/* favorite */}
+
+              <button className="control-icon" onClick={handleShowFav}>
+                <FavoriteIcon />
+
+                <span id="cart_Numer_Items" className="badge rounded-circle">
+                  {userFavorites.length}
+                </span>
+              </button>
+
+              {/* end favorite-*/}
 
               {/* slide kart trigger*/}
-              <button
-                className="testeandooooooooooooooooooo2"
-                onClick={handleShow}
-              >
+              <button className="control-icon" onClick={handleShow}>
                 <ShoppingCartIcon />
                 <span id="cart_Numer_Items" className="badge rounded-circle">
                   {cartItemsCount.length}
@@ -126,6 +117,23 @@ export default function NFTNav() {
                 </Offcanvas.Header>
                 <Offcanvas.Body>
                   <Shoppingkart />
+                </Offcanvas.Body>
+              </Offcanvas>
+
+              {/* favorites comp */}
+              <Offcanvas
+                style={{
+                  height: "200px",
+                  backgroundColor: "transparent",
+                  boxShadow: "none",
+                }}
+                show={showFav}
+                onHide={handleCloseFav}
+                placement={"bottom"}
+                className="offcanvas-scrollbar"
+              >
+                <Offcanvas.Body>
+                  <Ufavorites />
                 </Offcanvas.Body>
               </Offcanvas>
             </Nav>

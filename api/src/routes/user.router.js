@@ -1,37 +1,30 @@
 const { Router } = require("express");
-const {
-  getAllUsers,
-  getUserById,
-  deleteUser,
-  createUser,
-  updateUser,
-  restoreDeletedUser,
-  verifyUser,
-  verifiedToAdmin,
-  adminToVerified,
-  signInWithGoogle,
-} = require("../controllers/user.controller");
+const userControllers = require("../controllers/user.controller");
 
 const userRouter = Router();
 
-userRouter.get("/", getAllUsers);
+userRouter.get("/", userControllers.getAllUsers);
 
-userRouter.post("/register", createUser);
+userRouter.post("/register", userControllers.registerUser);
 
-userRouter.post("/google/signin", signInWithGoogle);
+userRouter.post("/google/signin", userControllers.signInWithGoogle);
 
-userRouter.get("/:id", getUserById);
+userRouter.get("/:id", userControllers.getUserById);
 
-userRouter.put("/:id", updateUser);
+userRouter.put("/:id", userControllers.updateUser);
 
-userRouter.delete("/:id", deleteUser);
+userRouter.delete("/:id", userControllers.deleteUser);
 
-userRouter.get("/restore/:id", restoreDeletedUser);
+userRouter.get("/restore/:id", userControllers.restoreDeletedUser);
 
-userRouter.put("/verify/:id", verifyUser);
+userRouter.put("/ask/:id", userControllers.userAsksForVerification);
 
-userRouter.put("/upgrade/:id", verifiedToAdmin);
+userRouter.put("/verify/:id", userControllers.verifyUser);
 
-userRouter.put("/downgrade/:id", adminToVerified);
+userRouter.put("/reject/:id", userControllers.rejectVerification);
+
+userRouter.put("/upgrade/:id", userControllers.verifiedToAdmin);
+
+userRouter.put("/downgrade/:id", userControllers.adminToVerified);
 
 module.exports = userRouter;

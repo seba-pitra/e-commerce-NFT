@@ -1,6 +1,7 @@
 {
-    "superUser" : {
+    "SUPER_USER_DATA" : {
         "id" : "zbhAE68vRxVetZpviZWSsuv4zfh1",
+        "username" : "skynetnashe",
         "name" : "Skynet",
         "last_name" : "S.R.L",
         "email": "miguel.villlam96@gmail.com",

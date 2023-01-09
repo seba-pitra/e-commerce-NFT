@@ -1,29 +1,55 @@
-const { Collection, Nft, User } = require("../db");
-const { collections } = require("../jsondata/collections.json");
+const { Collection, Nft, User, Review } = require("../db");
 
-const { superUser } = require("../jsondata/superUserData.json");
-
-const superUserId = superUser.id;
 
 // Get all collections from the database.
 // Conseguir todas las colecciones de la base de datos.
 const getCollections = async (req, res) => {
   try {
-    const dbCollections = await Collection.findAll({
-      include: [{
-        model: Nft,
-      },{
-        model : User,
-      }],
+    const allCollections = await Collection.findAll({
+            include: [{ model: User }, { model: Nft }, { model: Review }],
+            paranoid: req.query.deleted === "include" ? false : true
+          })
+    if (allCollections.length === 0) throw new Error("Collections empty");
+    return res.status(200).json(allCollections);
+  } catch (error) {
+    return res.status(400).json({
+      message: error.message,
+      error_detail: error
     });
-    if (dbCollections.length === 0) {
-      throw new Error("nothing on database");
-    }
-    return res.status(200).json(dbCollections);
-  } catch (err) {
-    return res.status(400).json({ error: err.message });
   }
 };
+
+const getCollectionsFromUser = async (req, res) => {
+  try {
+    const { userId } = req.body;
+    const ownedCollections = await Collection.findAll({
+      where: { userId : userId },
+      include: [{ model: User }, { model: Nft }, { model: Review }],
+      paranoid: req.query.deleted === "include" ? false : true
+    })
+    return res.status(200).json(ownedCollections);
+  } catch (error) {
+    return res.status(400).json({
+      message: error.message,
+      error_detail: error
+    });
+  }
+}
+
+const getCollectionsCount = async (req, res) => {
+  try {
+    const userId = req.query.fromUser;
+    let options;
+    if (userId) options.where = { userId : userId };
+    const quantity = await Collection.count({});
+    res.status(200).json({ collectionQuantity: quantity });
+  } catch (error) {
+    return res.status(400).json({
+      message: error.message,
+      error_detail: error
+    });
+  }
+}
 
 //Get a collection through id from the database.
 //Conseguir una colleccion de la base de datos usando el id.
@@ -31,11 +57,7 @@ const getCollectionById = async (req, res) => {
   try {
     const { id } = req.params;
     const foundCollectionInDB = await Collection.findByPk(id, {
-      include: [{
-        model: Nft,
-      },{
-        model : User,
-      }],
+      include: [{ model: Nft},{ model: User },{ model: Review }],
     });
     if (foundCollectionInDB) {
       res.status(200).json(foundCollectionInDB);
@@ -43,7 +65,10 @@ const getCollectionById = async (req, res) => {
       throw new Error(`Could not find collection in db with id ${id}`);
     }
   } catch (err) {
-    res.status(400).json({ error: err.message });
+    res.status(400).json({
+      message: err.message,
+      error_detail: err
+    });
   }
 };
 
@@ -53,28 +78,30 @@ const createNewCollection = async (req, res) => {
   try {
     const { name, image, userId } = req.body; //recibe nombre, url de imagen y usuario.
     if (!name || !userId) {
-      throw new Error(
-        `insufficient parameters for creating collection
-        received name ${name}
-        received image ${image}
-        received userId ${userId}
-        `);
+      throw new Error({
+        message: `insufficient parameters for creating collection`,
+        name : name,
+        image : image,
+        userId : userId,
+      });
     } else {
       const userOwner = await User.findByPk(userId); // busca usuario en la db
-
       const newCollection = await Collection.create({
         name: name,
         image: image,
-        origin : "USER",
-        contract : "Here goes the metamask contract",
+        origin: "USER",
+        contract: userOwner.metamask_wallet,
       }); // Crea la coleccion con los datos recibidos
 
-      newCollection.setUser(userOwner) //setea el usuario como dueño de la db.
+      newCollection.setUser(userOwner); //setea el usuario como dueño de la db.
 
       res.status(200).json(newCollection); //devuelve la coleccion creada.
     }
   } catch (err) {
-    res.status(400).json({ error: err.message });
+    res.status(400).json({
+      message: err.message,
+      error_detail: err
+    });
   }
 };
 
@@ -82,11 +109,8 @@ const createNewCollection = async (req, res) => {
 const deleteCollection = async (req, res) => {
   try {
     const { id } = req.params;
-    const deletedCollection = await Collection.findByPk({
-      where: {
-        id: id,
-      },
-    });
+    const deletedCollection = await Collection.findByPk(id);
+
     if (deletedCollection) {
       await Collection.destroy({
         where: {
@@ -118,6 +142,7 @@ const updateCollection = async (req, res) => {
       throw new Error(`No collection with id ${id}`);
     }
   } catch (err) {
+    console.error(err);
     res.status(400).send(err.message);
   }
 };
@@ -130,11 +155,8 @@ const restoreDeletedCollection = async (req, res) => {
         id: id,
       },
     });
-    const restoredCollection = await Collection.findByPk({
-      where: {
-        id: id,
-      },
-    });
+    const restoredCollection = await Collection.findByPk(id);
+
     if (restoredCollection) {
       return res.status(200).json({
         nft: restoredCollection,
@@ -144,63 +166,8 @@ const restoreDeletedCollection = async (req, res) => {
       throw new Error(`No collection found with id ${id}`);
     }
   } catch (err) {
+    console.error(err);
     return res.status(400).json({ err: err.message });
-  }
-};
-
-/*
-  controllers to create and post collections to db
-*/
-const postAllCollectionsToDB = async (req, res) => {
-  try {
-    const allCollections = createAllInitialCollections();
-    res.status(200).json(allCollections);
-  } catch (err) {
-    res.status(400).json({ error: err.message });
-  }
-};
-
-const createAllInitialCollections = async () => {
-  try {
-    let response = await Collection.findAll({});
-    const userOwner = await User.findOne({
-      where : {
-        id : superUserId,
-      }
-    })
-    if(response.length === 0){
-      console.log("Starting collections creation " + new Date().toString())
-      for(const collection of collections){
-        const collectionInDB = await Collection.create({
-          contract: collection.id,
-          name: collection.name || "No name",
-          image: collection.image || "No image",
-          origin: "API"
-        });
-        collectionInDB.setUser(userOwner);
-        response.push(collectionInDB);
-        console.log(
-          "---------------------------\n" +
-            "Collection n°" +
-            response.length +
-            " \n" +
-            "Name: " +
-            collectionInDB.name +
-            " \n" +
-            "Created at: " +
-            new Date().toString() +
-            " \n" +
-            userOwner.name + " \n" +
-            "---------------------------"
-        );
-      }
-    }
-    console.log("Collection Creation SUCESSFUL" + 
-    response.length + " collections created " +
-    "Date: " + new Date().toString());
-    return response;
-  } catch (err) {
-    throw new Error(err.message);
   }
 };
 
@@ -211,6 +178,4 @@ module.exports = {
   deleteCollection,
   updateCollection,
   restoreDeletedCollection,
-  postAllCollectionsToDB,
-  createAllInitialCollections,
 };

@@ -1,0 +1,279 @@
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes opacityin {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.detail-all-container {
+  background-color: #1c2331;
+  overflow: hidden;
+  padding-top: 10px;
+}
+
+@media (max-width: 1050px) {
+  .detail-all-container {
+    padding: 20px 0;
+  }
+}
+
+.back-button {
+  text-decoration: none;
+  align-items: center;
+  padding: 8px;
+  color: #fff;
+  border-radius: 10px;
+  background-color: #d3448b;
+  font-family: "Roboto", sans-serif;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+@media (max-width: 1050px) {
+  .back-button {
+    display: none;
+  }
+}
+
+.back-button:hover {
+  background-color: #892859;
+  color: #fff;
+}
+
+.detail-card-container {
+  padding: 30px 10px;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  animation-name: slidein;
+  animation-duration: 1.5s;
+}
+
+@media (max-width: 1050px) {
+  .detail-card-container {
+    flex-direction: column;
+    animation-name: slidein;
+    animation-duration: 1.5s;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.nft-data-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  margin-left: 20px;
+}
+
+@media (max-width: 1050px) {
+  .nft-data-container {
+    align-items: center;
+    margin: 0;
+  }
+}
+
+.nft-img {
+  border-radius: 10px;
+  height: 70vh;
+  width: 70vh;
+  margin-bottom: 20px;
+  animation-name: opacityin;
+  animation-duration: 3s;
+  margin-left: 30px;
+}
+
+@media (max-width: 1050px) {
+  .nft-img {
+    height: 50vh;
+    width: 50vh;
+    margin: 0;
+    border-radius: 40px;
+  }
+}
+
+.source-icon {
+  height: 25px;
+}
+
+.price-container {
+  display: flex;
+  flex-direction: row;
+  margin: 15px 0;
+}
+
+@media (max-width: 1050px) {
+  .price-container {
+    margin: 0;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+}
+
+.available {
+  background-color: #d3448b;
+  width: fit-content;
+  padding: 7px;
+  border-radius: 15px;
+}
+
+.unavailable {
+  background-color: red;
+  color: black;
+  width: fit-content;
+  padding: 7px;
+  border-radius: 15px;
+}
+
+.detail-span {
+  color: rgba(255, 255, 255, 0.651);
+}
+
+.ethereum-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 60px;
+}
+
+@media (max-width: 1050px) {
+  .ethereum-container {
+    margin: 15px 0;
+  }
+}
+
+.ethereum-logo-price {
+  height: 35px;
+  margin-left: -10px;
+}
+
+.flex-row3 {
+  display: flex;
+  margin-top: 20px;
+}
+
+@media (max-width: 1050px) {
+  .flex-row3 {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+}
+
+.flex-row3 * {
+  margin-right: 60px;
+}
+
+@media (max-width: 1050px) {
+  .flex-row3 * {
+    margin: 0;
+  }
+}
+
+.data-detail-nft {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: left;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #d3448b;
+  border-top: 1px solid #d3448b;
+  padding: 30px 0;
+}
+
+@media (max-width: 1050px) {
+  .data-detail-nft {
+    align-items: center;
+  }
+}
+
+.data-detail-nft div {
+  display: flex;
+  flex-direction: column;
+}
+
+.data-detail-nft span {
+  font-size: 20px;
+  margin-right: 40px;
+}
+
+@media (max-width: 1050px) {
+  .data-detail-nft span {
+    margin: 0;
+  }
+}
+
+.categories {
+  background-color: #313c52;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: fit-content;
+}
+
+.contract-adress {
+  background-color: #d3448b;
+  width: 200px;
+  padding: 7px;
+  border-radius: 15px;
+  margin-left: -10px;
+}
+
+.buttons-container {
+  display: flex;
+  gap: 20px;
+}
+
+.button-detail {
+  width: 160px;
+  font-size: 20px;
+  margin-left: -10px;
+  border-radius: 20px;
+  background: #d3448b;
+  color: #fff;
+  padding: 16px 20px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.button-detail:hover {
+  background-color: #d3448b;
+  color: #000;
+}
+
+.button-detail::after {
+  content: "";
+  background: #fff;
+  position: absolute;
+  z-index: -1;
+  padding: 16px 20px;
+  display: block;
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+  transition: all 0.3s ease;
+}
+
+.button-detail:hover::after {
+  transition: all 0.3s ease-out;
+  transform: skewX(-45deg) scale(1, 1);
+}

@@ -1,0 +1,212 @@
+@keyframes opacityIn {
+  from {
+    opacity: 0.1;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.pay-result {
+  background-color: #1c2331;
+  color: rgb(223, 221, 221);
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  overflow: hidden;
+}
+
+.pay-result-container,
+.pay-result-failure-container,
+.pay-result-pending-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #16191f;
+  border-radius: 10px;
+  width: fit-content;
+  box-shadow: 0px 0px 10px 10px rgb(56, 110, 56);
+  margin-left: 50px;
+  animation-name: opacityIn;
+  animation-duration: 2.5s;
+}
+
+@media (max-width: 1050px) {
+  .pay-result-container,
+  .pay-result-failure-container,
+  .pay-result-pending-container {
+    margin-left: 0;
+  }
+}
+
+.pay-result-failure-container {
+  box-shadow: 0px 0px 10px 10px rgb(165, 33, 33);
+}
+
+.pay-result-pending-container {
+  box-shadow: 0px 0px 5px 8px rgb(130, 85, 1);
+}
+
+.pay-result-success-line,
+.pay-result-failure-line,
+.pay-result-pending-line {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 100%;
+  height: 30px;
+  background-color: rgb(56, 199, 56);
+  margin-bottom: 20px;
+}
+
+.pay-result-failure-line {
+  background-color: rgb(214, 14, 14);
+}
+
+.pay-result-pending-line {
+  background-color: rgb(253, 177, 34);
+}
+
+.pay-result-img-icon {
+  height: 100px;
+}
+
+@media (max-width: 769px) {
+  .pay-result-img-icon {
+    height: 70px;
+  }
+}
+
+.pay-result-success-title,
+.pay-result-failure-title,
+.pay-result-pending-title {
+  color: rgb(56, 199, 56);
+  font-size: 75px;
+  font-weight: 700;
+}
+
+@media (max-width: 769px) {
+  .pay-result-success-title,
+  .pay-result-failure-title,
+  .pay-result-pending-title {
+    font-size: 45px;
+  }
+}
+
+.pay-result-failure-title {
+  color: rgb(214, 14, 14);
+}
+
+.pay-result-pending-title {
+  color: rgb(252, 183, 55);
+}
+
+.pay-result-success-space-line,
+.pay-result-failure-space-line,
+.pay-result-pending-space-line {
+  color: rgb(56, 199, 56);
+  margin-bottom: 50px;
+}
+
+.pay-result-failure-space-line {
+  color: rgb(214, 14, 14);
+}
+
+.pay-result-pending-space-line {
+  color: rgb(252, 183, 55);
+}
+
+.pay-result-span {
+  width: 600px;
+  padding: 0 30px;
+}
+
+@media (max-width: 769px) {
+  .pay-result-span {
+    width: 350px;
+  }
+}
+
+.pay-result-buttons-container {
+  padding: 10px 0 30px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.pay-result-success-marketplace-button,
+.pay-result-failure-marketplace-button,
+.pay-result-peding-marketplace-button {
+  background-color: transparent;
+  border: white solid 1px;
+  border-radius: 10px;
+  color: rgb(56, 199, 56);
+  padding: 10px;
+  text-decoration: none;
+}
+
+@media (max-width: 769px) {
+  .pay-result-success-marketplace-button,
+  .pay-result-failure-marketplace-button,
+  .pay-result-peding-marketplace-button {
+    padding: 5px;
+    text-align: center;
+  }
+}
+
+.pay-result-failure-marketplace-button {
+  color: rgb(214, 14, 14);
+}
+.pay-result-failure-marketplace-button:hover {
+  color: rgb(214, 14, 14);
+  background-color: rgb(152, 44, 44);
+}
+
+.pay-result-peding-marketplace-button {
+  color: rgb(252, 183, 55);
+}
+
+.pay-result-peding-marketplace-button:hover {
+  color: rgb(252, 183, 55);
+  background-color: rgb(143, 117, 69);
+}
+
+.pay-result-success-marketplace-button:hover {
+  color: rgb(56, 199, 56);
+  background-color: rgb(45, 76, 45);
+}
+
+.pay-result-success-details-button,
+.pay-result-failure-details-button,
+.pay-result-peding-details-button {
+  background-color: rgb(56, 199, 56);
+  border: white solid 1px;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+@media (max-width: 769px) {
+  .pay-result-success-details-button,
+  .pay-result-failure-details-button,
+  .pay-result-peding-details-button {
+    padding: 5px;
+    text-align: center;
+  }
+}
+
+.pay-result-failure-details-button {
+  background-color: rgb(214, 14, 14);
+}
+
+.pay-result-success-details-button:hover {
+  color: #fff;
+  background-color: rgb(45, 76, 45);
+}
+
+.pay-result-peding-details-button {
+  background-color: rgb(137, 89, 0);
+}

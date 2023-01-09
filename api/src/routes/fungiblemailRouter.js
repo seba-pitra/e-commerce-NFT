@@ -1,13 +1,10 @@
 const { Router } = require ("express");
 const { sendMail } = require ("../controllers/fungiblemail.controller.js");
 
+const emailRouter = Router();
 
-const userRouter = Router();
+emailRouter.post("/", sendMail);
 
-userRouter.post("/", sendMail);
-
-
-
-module.exports = userRouter;
+module.exports = emailRouter;
 
 

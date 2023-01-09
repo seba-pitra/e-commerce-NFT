@@ -1,36 +1,33 @@
 // import * as actions from "../actions/actions.js";
-import './PurchaseHistory.css'
+import styles from "./stylesheets/PurchaseHistory.module.css";
 
-const PurchaseHistory = ({props}) => {
+const PurchaseHistory = ({ props }) => {
   //price,statusPay,purchases
-  console.log(props)
-  
   return (
-    <div className="detail-shopping-history">
-      
-      
-       {props ? (
-
-        <div className="history-title-container">
-          <div className="sale">Sale Price</div>
-          <div className="from">From</div>
-          <div className="to">To</div>
-          <div className="date">Date</div>
+    <div className={styles["detail-shopping-history"]}>
+      {props ? (
+        <div className={styles["history-title-container"]}>
+          <div className={styles["sale"]}>Sale Price</div>
+          <div className={styles["from"]}>From</div>
+          <div className={styles["to"]}>To</div>
+          <div className={styles["date"]}>Date</div>
         </div>
       ) : (
         <div>There isn't shopping history</div>
       )}
 
       {props &&
-        props.map((elem, i) => {
-          return(
-          <div key={i} className="history-title-container">
-            <div className="sale">{elem.price} Eth</div>
-            <div className="from">{elem.contract}</div>
-            <div className="to">{elem.contract}</div>
-            <div className="date">{elem.createdAt}</div>
-          </div>)
-        })} 
+        props.map((elem, index) => {
+          return (
+            <div 
+            key={index}
+            className={styles["history-title-container"]}>
+              <div className={styles["from"]}>{elem.contract}</div>
+              <div className={styles["to"]}>{elem.contract}</div>
+              <div className={styles["date"]}>{elem.createdAt}</div>
+            </div>
+          );
+        })}
     </div>
   );
 };

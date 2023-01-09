@@ -1,26 +1,19 @@
 const { Router } = require("express");
-const {
-    getCollections,
-    getCollectionById,
-    createNewCollection,
-    deleteCollection,
-    updateCollection,
-    restoreDeletedCollection
-} = require("../controllers/collection.controller");
+const collectionControllers = require("../controllers/collection.controller");
 
 const collectionRouter = Router();
 
-collectionRouter.get("/", getCollections);
+collectionRouter.get("/", collectionControllers.getCollections);
 
-collectionRouter.post("/create", createNewCollection);
+collectionRouter.post("/create", collectionControllers.createNewCollection);
 
-collectionRouter.get("/:id", getCollectionById);
+collectionRouter.get("/:id", collectionControllers.getCollectionById);
 
-collectionRouter.put("/:id", updateCollection);
+collectionRouter.put("/:id", collectionControllers.updateCollection);
 
-collectionRouter.delete("/:id", deleteCollection);
+collectionRouter.delete("/:id", collectionControllers.deleteCollection);
 
-collectionRouter.put("/restore/:id", restoreDeletedCollection);
+collectionRouter.get("/restore/:id", collectionControllers.restoreDeletedCollection);
 
 
 module.exports = collectionRouter;

@@ -1,0 +1,64 @@
+.sing-in {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 15px;
+  background: #d3448b;
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.sing-in-container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.sing-in span {
+  margin-right: 10px;
+}
+
+.sing-in:hover {
+  background: #d3448b;
+  color: #000;
+}
+
+.sing-in::after {
+  content: "";
+  background: #fff;
+  position: absolute;
+  z-index: -1;
+  padding: 16px 20px;
+  display: block;
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+  transition: all 0.3s ease;
+}
+
+.sing-in:hover::after {
+  transition: all 0.3s ease-out;
+  transform: skewX(-45deg) scale(1, 1);
+}
+
+.login-errormessage {
+  display: flex;
+  color: rgb(252, 81, 81) !important;
+  background-color: transparent !important;
+}
+
+.login-loggedmessage {
+  color: white;
+  font-size: 16px;
+}
+.noneDisplay {
+  display: none;
+}

@@ -5,22 +5,20 @@ import NotFoundResults from "../NotFoundResults/NotFoundResults";
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { useParams } from "react-router-dom";
-import "./CollectionDetail.css";
+import VerifiedIcon from "@mui/icons-material/Verified";
+import styles from "./stylesheets/CollectionDetail.module.css";
 
 const CollectionDetail = () => {
   const { id } = useParams();
-
-  const collections = useSelector((state) => state.collections);
-  const foundCollection = collections.find((coll) => coll.id === id);
-
-  console.log(foundCollection)
+  //modificado para que traiga mediante el fetch de id y no que traiga todas las colecciones y filtre.
+  const collectionDetail = useSelector((state) => state.collectionDetail); 
 
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(actions.getAllCollections());
+    dispatch(actions.getCollectionById(id));
     dispatch(actions.getEthPrice());
-  }, [dispatch]);
+  }, [dispatch, id]);
 
   let collectionPrice = 0,
     amountNfts = 0,
@@ -28,8 +26,7 @@ const CollectionDetail = () => {
     floorPrice = 100,
     createdAt = 0;
 
-  const cards = foundCollection?.nfts.map((nft) => {
-    console.log(nft)
+  const cards = collectionDetail?.nfts.map((nft) => {
     collectionPrice = nft.price + collectionPrice;
     amountNfts++;
     if (description === "No description") description = nft.description;
@@ -55,42 +52,91 @@ const CollectionDetail = () => {
     );
   });
 
-  let date = new Date(createdAt)
-  date = date.toString()
-  date = date.slice(4, 16)
+  let date = new Date(collectionDetail.createdAt); 
+  date = date.toString();
+  date = date.slice(4, 16);
 
   return (
     <div>
       {cards?.length === 0 ? (
         <NotFoundResults />
       ) : (
-        <div className="collection-details">
-          <div className="collection-details-container">
-            <div className="img-collection">
-              <img src={foundCollection?.image} alt="collection-detail" />
+        <div className={styles["collection-details"]}>
+          <div className={styles["collection-details-container"]}>
+            <div className={styles["img-collection"]}>
+              <img src={collectionDetail?.image} alt="collection-detail" />
             </div>
-            <div className="flex-row4">
-              <h2>{foundCollection?.name}</h2>
-              <span>Created by <span className="negrita">{foundCollection?.user.name}</span></span>
+            <div className={styles["collection-titles"]}>
+              <h1>
+                {collectionDetail?.name} <VerifiedIcon />{" "}
+              </h1>
+              <span>
+                Created by{" "}
+                <span className={styles.negrita}>
+                  {collectionDetail?.user.name}
+                </span>
+              </span>
             </div>
-            <div className="flex-row4">
-              <span>Items <span className="negrita">{amountNfts}</span></span>
-              <span><span className="negrita">-</span></span>
-              <span>Created At <span className="negrita">{date}</span></span>
-              <span><span className="negrita">-</span></span>
-              <span>Cadena <span className="negrita">Ethereum</span></span>
-              <span><span className="negrita">-</span></span>
-              <span>Comisión del creador <span className="negrita">5%</span></span>
+            <span className={styles["collection-description"]}>
+              {description}
+            </span>
+            <div className={styles["collection-data"]}>
+              <span>
+                Items{" "}
+                <span className={styles["collection-data-important"]}>
+                  {amountNfts}
+                </span>
+              </span>
+              <span>
+                <span className={styles["collection-data-important"]}>-</span>
+              </span>
+              <span>
+                Created At{" "}
+                <span className={styles["collection-data-important"]}>
+                  {date}
+                </span>
+              </span>
+              <span>
+                <span className={styles["collection-data-important"]}>-</span>
+              </span>
+              <span>
+                <span className={styles["collection-data-important"]}>
+                  Ethereum
+                </span>
+              </span>
+              <span>
+                <span className={styles["collection-data-important"]}>-</span>
+              </span>
+              <span>
+                Creator commission{" "}
+                <span className={styles["collection-data-important"]}>5%</span>
+              </span>
             </div>
-              <div className="flex-row4">
-                <h6>{description}</h6>
+            <div className="d-flex justify-content-around w-100">
+              <span className={styles["ethereum-price-collection-detail"]}>
+                Collection Price <span>{collectionPrice?.toFixed(3)}</span>
+                <img
+                  src={ethereumLogo}
+                  alt="icon-ethereum"
+                  className={styles["ethereum-logo-price"]}
+                />
+              </span>
+              <div className={styles["ethereum-price-collection-detail"]}>
+                Floor Price{" "}
+                <span>
+                  {floorPrice?.toFixed(3)}{" "}
+                  <img
+                    src={ethereumLogo}
+                    alt="icon-ethereum"
+                    className={styles["ethereum-logo-price"]}
+                  />
+                </span>
               </div>
-            <div className="flex-row4">
-              <span>Collection Price <span className="negrita">{collectionPrice?.toFixed(3)}</span></span>
-              <span>FloorPrice <span className="negrita">{floorPrice?.toFixed(3)}</span></span>
             </div>
           </div>
-          <div className="pageSelector-Container">{cards}</div>
+          <div className={styles["collection-details-cards-container"]}>
+            {cards}
+          </div>
         </div>
       )}
     </div>

@@ -3,25 +3,27 @@ import * as actions from "../../redux/actions";
 import successIcon from "../../images/icons/success-icon.png";
 import issueIcon from "../../images/icons/issue-icon.png";
 import pendingIcon from "../../images/icons/pending-icon.png";
-import styles from "./PayResult.module.css";
 import { Link } from "react-router-dom";
-import React from "react";
+import React, { useState } from "react";
+import styles from "./stylesheets/PayResult.module.css";
 
 function PayResult(props) {
   const dispatch = useDispatch();
 
-  const activeUserIs = useSelector((state) => state.activeUser);
-  // No se usa
-  const loggedUser = useSelector((state) => state.loggedUser);
+  let firebaseCurrentUser = JSON.parse(
+    localStorage.getItem("firebaseCurrentUser")
+  );
 
-  let userNfts = JSON.parse(localStorage.getItem("nftsOnShoppingCart"));
+  let shoppingCartContents = JSON.parse(localStorage.getItem("nftsOnShoppingCart"));
 
   let totalAmount = 0;
-  for (const nft of userNfts) {
+  for (const nft of shoppingCartContents) {
     totalAmount += nft.price;
   }
 
   let resultContainer;
+
+  // className={styles[]}
 
   const sucessContainer = (
     <div className={styles["pay-result-container"]}>
@@ -45,15 +47,12 @@ function PayResult(props) {
         >
           MarketPlace
         </Link>
-        <Link className={styles["pay-result-success-details-button"]}>
-          View Details
-        </Link>
       </div>
     </div>
   );
 
   const failureContainer = (
-	  <div className={styles["pay-result-failure-container"]}>
+    <div className={styles["pay-result-failure-container"]}>
       <div className={styles["pay-result-failure-line"]}></div>
       <img
         src={issueIcon}
@@ -73,9 +72,6 @@ function PayResult(props) {
           to={"/marketplace"}
         >
           MarketPlace
-        </Link>
-        <Link className={styles["pay-result-failure-details-button"]}>
-          View Details
         </Link>
       </div>
     </div>
@@ -101,9 +97,6 @@ function PayResult(props) {
         >
           MarketPlace
         </Link>
-        <Link className={styles["pay-result-peding-details-button"]}>
-          View Details
-        </Link>
       </div>
     </div>
   );
@@ -112,9 +105,8 @@ function PayResult(props) {
     price: totalAmount,
     payMethod: "MercadoPago",
     statusPay: "Created",
-    purchases: userNfts,
+    purchases: shoppingCartContents,
   };
-
 
   const validate =
     window.location.href.includes("collection_status") &&
@@ -127,21 +119,37 @@ function PayResult(props) {
         ...mercadoPagoBuyData,
         statusPay: "Successed",
       };
- dispatch(actions.sendFungibleMail({correoUser: activeUserIs, accion: "exito"})) ; 
+
+      dispatch(
+        actions.sendFungibleMail({
+          correoUser: firebaseCurrentUser.email,
+          accion: "exito",
+        })
+      );
     } else if (window.location.href.includes("failure")) {
       resultContainer = failureContainer;
       mercadoPagoBuyData = {
         ...mercadoPagoBuyData,
         statusPay: "Rejected",
       };
- dispatch(actions.sendFungibleMail({correoUser: activeUserIs, accion: "error"})) ; 
+      dispatch(
+        actions.sendFungibleMail({
+          correoUser: firebaseCurrentUser.email,
+          accion: "error",
+        })
+      );
     } else if (window.location.href.includes("pending")) {
       resultContainer = pendingContainer;
       mercadoPagoBuyData = {
         ...mercadoPagoBuyData,
         statusPay: "Pending",
       };
- dispatch(actions.sendFungibleMail({correoUser: activeUserIs, accion: "pendiente"})) ; 
+      dispatch(
+        actions.sendFungibleMail({
+          correoUser: firebaseCurrentUser.email,
+          accion: "pendiente",
+        })
+      );
     }
 
     dispatch(actions.addBuyAtHistoryBuys(mercadoPagoBuyData));

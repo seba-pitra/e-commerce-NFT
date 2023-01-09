@@ -4,11 +4,11 @@ import { useDispatch, useSelector } from "react-redux";
 import * as actions from "../../redux/actions";
 import styles from "./ShoppingCart.module.css";
 import { startPayment } from "../../utils";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function Shoppingkart() {
-  const userNfts = useSelector((state) => state.userNfts);
-  // No se usa
-  const activeUserIs = useSelector((state) => state.activeUser);
+  const shoppingCartContents = useSelector((state) => state.shoppingCartContents);
 
   const [error, setError] = useState();
   const [txs, setTxs] = useState([]);
@@ -17,10 +17,9 @@ export default function Shoppingkart() {
 
   const handleBuyNftsOnShoppingCart = async () => {
     //localStorage for payment for mercago pago in component "PayResult"
-    localStorage.setItem("nftsOnShoppingCart", JSON.stringify(userNfts));
+    localStorage.setItem("nftsOnShoppingCart", JSON.stringify(shoppingCartContents));
 
-    dispatch(actions.buyNftOnShoppingCart(userNfts));
-    console.log("SendingMail");
+    dispatch(actions.buyNftOnShoppingCart(shoppingCartContents));
     // test only >> dispatch(actions.sendFungibleMail({correoUser: "yomero@gmail.com",accion: "pago"}));
   };
 
@@ -34,8 +33,6 @@ export default function Shoppingkart() {
       addr: nftContract,
     });
 
-    console.log("transactionMetamask", transactionMetamask);
-
     let metamaskBuyData = {
       price: nftPrice + " ETH",
       contract: nftContract,
@@ -48,18 +45,25 @@ export default function Shoppingkart() {
 
     if (transactionMetamask.hash) {
       //si salio bien...
+      toast.success("Payment successfully", { position: "bottom-left" });
       metamaskBuyData = {
         ...metamaskBuyData,
-        statusPay: "Successed",
+        statusPay: "Successful",
       };
     } else if (transactionMetamask.includes("rejected")) {
       //si se rechazo en metamask
+      toast.error("Something was wrong. Try again later", {
+        position: "bottom-left",
+      });
       metamaskBuyData = {
         ...metamaskBuyData,
         statusPay: "Rejected",
       };
     } else if (transactionMetamask.includes("insufficient funds")) {
       //si faltan fondos
+      toast.warning("You have insufficient funds in Metamask", {
+        position: "bottom-left",
+      });
       metamaskBuyData = {
         ...metamaskBuyData,
         statusPay: "Pending",
@@ -74,17 +78,19 @@ export default function Shoppingkart() {
   };
 
   let totalAmount = 0;
-  for (const nft of userNfts) {
+  for (const nft of shoppingCartContents) {
     totalAmount += nft.price;
   }
 
   return (
     <div className={styles["shopping-cart"]}>
       <div className={styles["shopping-cart-nft-cards"]}>
-        {userNfts &&
-          userNfts.map((nft) => {
+        {shoppingCartContents &&
+          shoppingCartContents.map((nft, index) => {
             return (
-              <div className={styles["cart-nfts-container"]}>
+              <div 
+                key={index}
+                className={styles["cart-nfts-container"]}>
                 <img
                   src={nft.image}
                   alt="nft-cart"

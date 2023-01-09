@@ -1,25 +1,18 @@
 .container_mainpage {
-  width: 100%;
   display: flex;
   background-color: #1c2331;
 }
 
-.test {
-  border: none;
-  border-right: 1px solid lightgray;
-  width: 14vw;
-  min-width: 270px;
-  display: flex;
-  flex-direction: column;
-  margin: 0px;
-  display: flex;
-  padding: 0 10px;
-  min-height: 750px;
+@media (max-width: 975px) {
+  .container_mainpage {
+    display: inherit;
+  }
 }
 
-.hola {
+.filters-container {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0px auto;
+  border: none;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0 10px;
 }

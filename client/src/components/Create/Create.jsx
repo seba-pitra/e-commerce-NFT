@@ -4,17 +4,16 @@ import * as actions from "../../redux/actions";
 import { useEffect } from "react";
 import { useHistory } from "react-router-dom";
 
-import "./Create.css";
-import "../NFTCard/NFTCard.css";
 import CreateCollection from "./CreateCollection/CreateCollection";
 import CreateNFT from "./CreateNFT/CreateNFT";
 import CategoriesSelector from "./CategoriesSelector/CategoriesSelector";
 
+import styles from "./stylesheets/Create.module.css";
+
 export default function Create() {
   const user = useSelector((state) => state.loggedUser);
+
   const dispatch = useDispatch();
-  const history = useHistory();
-  const loginStatusStorage = localStorage.getItem("Logged");
   const [step, setStep] = useState(1);
 
   const [errors, setErrors] = useState({
@@ -23,13 +22,13 @@ export default function Create() {
   });
 
   const [createdCollection, setCreatedCollection] = useState({
-    userId: undefined,
+    userId: user.id,
     name: undefined,
     image: undefined,
   });
 
   const [createdNft, setCreatedNft] = useState({
-    userId: undefined,
+    userId: user.id,
     collectionId: undefined,
     name: undefined,
     description: undefined,
@@ -37,10 +36,6 @@ export default function Create() {
     price: 0,
     categories: ["", "", "", "", "", "", ""],
   });
-
-  // console.log(createdNft)
-  // console.log(createdCollection)
-  // console.log(errors)
 
   // -- STEP --
   const next = (e) => {
@@ -63,79 +58,71 @@ export default function Create() {
     dispatch(actions.createNft(createdNftObj));
   };
 
-  const validateUser = async () => {
-    if (loginStatusStorage === "Estoy loggeado") {
-        dispatch(actions.getAllNfts());
-        dispatch(actions.getAllCollections());
-        dispatch(actions.getEthPrice());
-      } else {
-        history.push("/");
-      }
-    };
-    
-    useEffect(() => {
-      setCreatedNft((prev) => ({
-        ...prev,
-        userId: user.id,
-      }));
-      validateUser();
-    }, [user]);
-    
-
   return (
-    <>
-        <div className="mainContainer">
-          <fieldset
-              className={`info-fieldset ${
-                  step !== 1 ? "noneDisplay" : "first-field-collections"
-              }`}
-              >
-                  <CreateCollection
-                    createdNft={createdNft}
-                    setCreatedNft={setCreatedNft}
-                    createdCollection={createdCollection}
-                    setCreatedCollection={setCreatedCollection}
-                    back={back}
-                    next={next}/>
+    <div className={styles["create-container"]}>
+      <fieldset
+        className={
+          step !== 1
+            ? styles["display-none"]
+            : styles["first-field-collections"]
+        }
+      >
+        <CreateCollection
+          createdNft={createdNft}
+          image_prop={"image"}
+          setCreatedNft={setCreatedNft}
+          createdCollection={createdCollection}
+          setCreatedCollection={setCreatedCollection}
+          back={back}
+          next={next}
+        />
+      </fieldset>
 
-          </fieldset>
+      <fieldset
+        className={
+          step !== 2
+            ? styles["display-none"]
+            : styles["second-field-collections"]
+        }
+      >
+        <CreateNFT
+          createdNft={createdNft}
+          setCreatedNft={setCreatedNft}
+          back={back}
+          next={next}
+          errors={errors}
+          setErrors={setErrors}
+        />
+      </fieldset>
 
-          <fieldset className={`info-fieldset ${step !== 2 ? "noneDisplay" : ""}`}>
-            <CreateNFT
-              createdNft={createdNft}
-              setCreatedNft={setCreatedNft}
-              back={back}
-              next={next}
-              errors={errors}
-              setErrors={setErrors}
-            />
-          </fieldset>
+      <fieldset
+        className={
+          step !== 3 ? styles["display-none"] : styles["third-field-create"]
+        }
+      >
+        <CategoriesSelector
+          createdNft={createdNft}
+          setCreatedNft={setCreatedNft}
+        />
 
-          <fieldset className={`info-fieldset ${ step !== 3 ? "noneDisplay" : "first-field-collections"}`}>
-
-            <CategoriesSelector
-              createdNft={createdNft}
-              setCreatedNft={setCreatedNft}
-              />
-
-            <div className="ilustration-validations">
-            <input
-              className={
-                createdNft.categories.includes("") ? "errorSubmit" : "submit"
-              }
-              type="submit"
-              value={"Create NFT"}
-              disabled={createdNft.categories.includes("")}
-              onClick={(e) => handleSubmit(e)}
-              />
-            </div>
-
-            <div className="buttons-next-prev">
-              <button onClick={back}> back</button>
-            </div>
-
-          </fieldset>
-      </div>
-    </>
+        <div className={styles["buttons-next-prev-container"]}>
+          <button className={styles["button-create"]} onClick={back}>
+            Back
+          </button>
+          <button
+            className={
+              createdNft.categories.includes("")
+                ? styles["disabled"]
+                : styles["button-create"]
+            }
+            type="submit"
+            disabled={createdNft.categories.includes("")}
+            onClick={(e) => handleSubmit(e)}
+          >
+            Create NFT
+          </button>
+        </div>
+      </fieldset>
+    </div>
   );
 }

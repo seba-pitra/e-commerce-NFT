@@ -1,4 +1,9 @@
-import styles from "./DeveloperTeam.module.css";
+import React, { useEffect, useState } from "react";
+import { useDispatch } from "react-redux";
+import * as actions from "../../redux/actions";
+import { useHistory } from "react-router-dom";
+import styles from "./stylesheets/DeveloperTeam.module.css";
+
 import img1 from "../../images/developerTeam/developer-team-1.jfif";
 import img2 from "../../images/developerTeam/developer-team-2.jfif";
 import img3 from "../../images/developerTeam/developer-team-3.jfif";
@@ -12,37 +17,11 @@ import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import { useDispatch } from "react-redux";
-import * as actions from "../../redux/actions";
-import { useHistory } from "react-router-dom";
-import React, { useEffect } from "react";
 const DeveloperTeam = (props) => {
+  const history = useHistory();
+  const dispatch = useDispatch();
 
-const history = useHistory();
-const dispatch = useDispatch();
-
-const validateUser = async () => {
-let loginStatusStorage = localStorage.getItem("Logged");
-console.log('Aqui estoy !!', loginStatusStorage)
-    if (loginStatusStorage === "Estoy loggeado") {
-      dispatch(actions.getAllNfts());
-      dispatch(actions.getAllCollections());
-      dispatch(actions.getEthPrice());
-    } else {
-      history.push("/");
-    }
-  };
-
-
-
- useEffect(() => {
-      validateUser();
-  }, [dispatch]);
-
-
-
-
-
+  
   return (
     <div className={styles["about-us"]}>
       <div className={styles["about-us-container"]}>

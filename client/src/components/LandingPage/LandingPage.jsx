@@ -47,7 +47,7 @@ function LandingPage() {
       </div>
       <div className={styles[loginClass]}>
         <div>
-          <Login />
+          <Login loginClass={loginClass} />
         </div>
         <div className="d-flex justify-content-evenly ">
           <span
@@ -71,7 +71,10 @@ function LandingPage() {
         </div>
       </div>
       <div className={styles[registerClass]}>
-        <Register />
+        <Register
+          setLoginClass={setLoginClass}
+          setRegisterClass={setRegisterClass}
+        />
         <button
           onClick={() => {
             setLoginClass("login-container");
