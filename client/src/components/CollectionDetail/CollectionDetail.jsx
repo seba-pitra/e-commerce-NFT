@@ -13,52 +13,53 @@ import stylesLight from "./stylesheets/LightCollectionDetail.module.css";
 const CollectionDetail = () => {
   const { id } = useParams();
 
+  const dispatch = useDispatch();
+
   const foundCollection = useSelector((state) => state.collectionDetail); 
 
   const  isDark  = useSelector((state) => state.activeThemeIsDark);
   console.log(isDark)
 
-  console.log(foundCollection);
-  //modificado para que traiga mediante el fetch de id y no que traiga todas las colecciones y filtre.
-
-  const dispatch = useDispatch();
-
   useEffect(() => {
     dispatch(actions.getCollectionById(id));
     dispatch(actions.getEthPrice());
   }, [dispatch, id]);
-
+  
   let collectionPrice = 0,
     amountNfts = 0,
     description = "No description",
     floorPrice = 100,
     createdAt = 0;
 
-  const cards = foundCollection?.nfts.map((nft) => {
-    collectionPrice = nft.price + collectionPrice;
-    amountNfts++;
-    if (description === "No description") description = nft.description;
-    if (createdAt < nft.lastBuyTs) createdAt = nft.createdTs;
-    if (floorPrice > nft.price) floorPrice = nft.price;
-    if (createdAt < nft.lastSellTs) createdAt = nft.lastSellTs;
-    return (
-      <NFTCard
-        key={nft.id}
-        collectionId={nft.collectionId}
-        contract={nft.contract}
-        id={nft.id}
-        image={nft.image}
-        name={nft.name}
-        price={nft.price}
-        tokenId={nft.tokenId}
-        userId={nft.userId}
-        rarity={nft.rarity}
-        favs={nft.favs}
-        stars={nft.stars}
-        lastBuy={nft.lastBuyValue || 0.01}
-      />
-    );
-  });
+  let cards = [];
+
+  if (foundCollection.id) {
+    cards = foundCollection?.nfts.map((nft) => {
+      collectionPrice = nft.price + collectionPrice;
+      amountNfts++;
+      if (description === "No description") description = nft.description;
+      if (createdAt < nft.lastBuyTs) createdAt = nft.createdTs;
+      if (floorPrice > nft.price) floorPrice = nft.price;
+      if (createdAt < nft.lastSellTs) createdAt = nft.lastSellTs;
+      return (
+        <NFTCard
+          key={nft.id}
+          collectionId={nft.collectionId}
+          contract={nft.contract}
+          id={nft.id}
+          image={nft.image}
+          name={nft.name}
+          price={nft.price}
+          tokenId={nft.tokenId}
+          userId={nft.userId}
+          rarity={nft.rarity}
+          favs={nft.favs}
+          stars={nft.stars}
+          lastBuy={nft.lastBuyValue || 0.01}
+        />
+      );
+    });
+  }
 
   let date = new Date(foundCollection.createdAt); 
   date = date.toString();
@@ -81,7 +82,7 @@ const CollectionDetail = () => {
               <span>
                 Created by{" "}
                 <span className={ isDark ? stylesDark["negrita"] : stylesLight["negrita"] }>
-                  {foundCollection?.user.name}
+                  {foundCollection?.user.username}
                 </span>
               </span>
             </div>

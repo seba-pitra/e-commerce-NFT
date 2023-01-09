@@ -9,7 +9,7 @@ import FavoriteIcon from "@material-ui/icons/Favorite";
 import Shoppingkart from "../Shoppingkart/Shoppingkart";
 import Ufavorites from "../uFavorites/Ufavorites.jsx";
 import Offcanvas from "react-bootstrap/Offcanvas";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import MaterialUISwitch from "../Pages/switch";
 
@@ -21,6 +21,8 @@ import "./NFTNav.css";
 
 export default function NFTNav() {
   const location = useLocation();
+
+  const dispatch = useDispatch();
 
   const [show, setShow] = useState(false);
   const [showFav, setShowFav] = useState(false);
