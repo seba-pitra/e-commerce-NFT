@@ -104,6 +104,12 @@
   text-decoration: none;
 }
 
+@media (max-width: 1050px) {
+  .upload-file {
+    width: 200px;
+  }
+}
+
 .categories-back-button {
   margin: 15px 0;
   width: 100px;
