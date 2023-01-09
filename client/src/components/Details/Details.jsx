@@ -81,14 +81,13 @@ const Details = (props) => {
     dispatch(actions.addNftOnShoppingCart(nftDetail));
   };
 
-  console.log(nftDetail);
 
   let date = new Date(nftDetail.createdTs);
   date = date.toString();
   date = date.slice(4, 16);
 
   //esto va a traer el promedio directamente del model
-  
+
   let starsValue = 0;
 
   return (

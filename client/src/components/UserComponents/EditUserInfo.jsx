@@ -22,7 +22,6 @@ export default function EditUserINfo(props) {
     setInput((prev) => ({ ...prev, [e.target.name]: e.target.value }));
     // setErrors(Validate({ ...input, [e.target.name]: e.target.value }));
   };
-  console.log(props);
   let handleSubmit = (e) => {
     //al apretar enviar tendria q hacer el dispatch con los cambios,y volver a cargar el componente,pero el lo
   };

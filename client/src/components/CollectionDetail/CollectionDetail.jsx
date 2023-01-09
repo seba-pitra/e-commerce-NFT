@@ -10,21 +10,16 @@ import "./CollectionDetail.css";
 import VerifiedIcon from "@mui/icons-material/Verified";
 
 const CollectionDetail = () => {
-  // Esto hay que modificar como trae los datos....
-  // porque ya existe el get collection by id.
   const { id } = useParams();
-
-  const collections = useSelector((state) => state.collections);
-  const foundCollection = collections.find((coll) => coll.id === id);
-
-  console.log(foundCollection);
+  //modificado para que traiga mediante el fetch de id y no que traiga todas las colecciones y filtre.
+  const collectionDetail = useSelector((state) => state.collectionDetail); 
 
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(actions.getAllCollections());
+    dispatch(actions.getCollectionById(id));
     dispatch(actions.getEthPrice());
-  }, [dispatch]);
+  }, [dispatch, id]);
 
   let collectionPrice = 0,
     amountNfts = 0,
@@ -32,8 +27,7 @@ const CollectionDetail = () => {
     floorPrice = 100,
     createdAt = 0;
 
-  const cards = foundCollection?.nfts.map((nft) => {
-    console.log(nft);
+  const cards = collectionDetail?.nfts.map((nft) => {
     collectionPrice = nft.price + collectionPrice;
     amountNfts++;
     if (description === "No description") description = nft.description;
@@ -59,7 +53,7 @@ const CollectionDetail = () => {
     );
   });
 
-  let date = new Date(foundCollection.createdAt); 
+  let date = new Date(collectionDetail.createdAt); 
   date = date.toString();
   date = date.slice(4, 16);
 
@@ -71,15 +65,15 @@ const CollectionDetail = () => {
         <div className="collection-details">
           <div className="collection-details-container">
             <div className="img-collection">
-              <img src={foundCollection?.image} alt="collection-detail" />
+              <img src={collectionDetail?.image} alt="collection-detail" />
             </div>
             <div className="collection-titles">
               <h1>
-                {foundCollection?.name} <VerifiedIcon />{" "}
+                {collectionDetail?.name} <VerifiedIcon />{" "}
               </h1>
               <span>
                 Created by{" "}
-                <span className="negrita">{foundCollection?.user.name}</span>
+                <span className="negrita">{collectionDetail?.user.name}</span>
               </span>
             </div>
             <span className="collection-description">{description}</span>

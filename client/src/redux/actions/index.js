@@ -14,9 +14,10 @@ export const ASKED_FOR_VERIFICATION = "ASKED_FOR_VERIFICATION";
 
 // -- GETTERS --
 export const GET_ALL_NFTS = "GET_ALL_NFTS";
+export const GET_NFT_DETAIL = "GET_NFT_DETAIL";
 export const GET_ALL_ADMIN_NFTS = "GET_ALL_ADMIN_NFTS";
 export const GET_ALL_COLLECTIONS = "GET_ALL_COLLECTIONS";
-export const GET_NFT_DETAIL = "GET_NFT_DETAIL";
+export const GET_COLLECTION_DETAIL = "GET_COLLECTION_DETAIL";
 
 // -- ADMIN ACTIONS --
 export const CREATE_NFT = "CREATE_NFT";
@@ -97,7 +98,6 @@ export const getAllNfts = () => {
     dispatch({ type: LOADING });
     try {
       const allNfts = await axios.get("/nft");
-      console.log(allNfts.data.length);
       dispatch({ type: GET_ALL_NFTS, payload: allNfts.data });
     } catch (e) {
       toast.error("Something was wrong. Try again later", {
@@ -136,6 +136,20 @@ export const getAllCollections = () => {
   };
 };
 
+export const getCollectionById = (id) => {
+  return async (dispatch) => {
+    dispatch({type : LOADING});
+    try {
+      const collectionDetail = await axios.get(`/collection/${id}`);
+      dispatch({ type: GET_COLLECTION_DETAIL, payload: collectionDetail.data});
+    } catch (error) {
+      toast.error("Something was wrong. Try again later", {
+        position: "bottom-left",
+      });
+    }
+  }
+}
+
 export const getNftDetail = (id) => {
   return async (dispatch) => {
     dispatch({ type: LOADING });
@@ -144,7 +158,6 @@ export const getNftDetail = (id) => {
       dispatch({ type: GET_NFT_DETAIL, payload: nftId.data });
     } catch (e) {
       toast.error("Something was wrong. Try again later");
-      // console.log(e.response.data);
     }
   };
 };
@@ -166,13 +179,11 @@ export const getAllUsers = () => {
   return async (dispatch) => {
     try {
       const allUsers = await axios.get("/user");
-      console.log(allUsers.data);
       dispatch({ type: GET_ALL_USERS, payload: allUsers.data });
     } catch (e) {
       toast.error("Something was wrong. Try again later", {
         position: "bottom-left",
       });
-      // console.log(e.message);
     }
   };
 };
@@ -207,8 +218,7 @@ export const registerUser = (userData) => {
       const newUser = await axios.post("/user/register", userData);
       dispatch({ type: REGISTER_USER });
     } catch (error) {
-      console.log(error.message);
-      /* throw new Error(error.message); */
+      toast.error("Something was wrong. Try again later");
     }
   };
 };
@@ -396,7 +406,6 @@ export const deleteNft = (id) => {
       toast.error("Something was wrong. Try again later", {
         position: "bottom-left",
       });
-      console.log(e.response.data);
     }
   };
 };
@@ -429,13 +438,11 @@ export const addReview = (payload) => {
   return async () => {
     try {
       const { userId, nftId, value } = payload;
-      console.log(payload);
       const response = await axios.post(`/review/create`, {
         userId : userId,
         nftId : nftId,
         value : value
       });
-      console.log(response);
     } catch (error) {
       console.error(error.response.data);
       toast.error(error.response.data, { position: "bottom-left" });
@@ -507,7 +514,6 @@ export const sendFungibleMail = (sendData) => {
 
 // --- FAVS ---
 export const addToFav = (payload) => {
-  console.log(payload);
   return { type: ADD_FAV, payload };
 };
 

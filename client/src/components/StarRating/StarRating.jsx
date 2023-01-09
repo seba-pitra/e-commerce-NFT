@@ -12,8 +12,6 @@ export default function StarRating({nftId}) {
     const stars = new Array(5);
     stars.fill(starlogo)
 
-    console.log(rating)
-
     return (
     <div className="single-input-container">
         <label

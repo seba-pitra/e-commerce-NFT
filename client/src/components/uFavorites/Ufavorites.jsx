@@ -10,8 +10,7 @@ import Button from "react-bootstrap/Button";
 //
 //
 export default function Ufavorites(){
- const userFavs = useSelector((state) => state.userFavs);
-console.log(userFavs);
+  const userFavs = useSelector((state) => state.userFavs);
 
 	return (
 	

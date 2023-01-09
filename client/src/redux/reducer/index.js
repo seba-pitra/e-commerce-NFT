@@ -2,6 +2,7 @@ import {
   GET_ALL_NFTS,
   GET_ALL_ADMIN_NFTS,
   GET_ALL_COLLECTIONS,
+  GET_COLLECTION_DETAIL,
   GET_ALL_USERS,
   GET_ALL_ADMIN_USERS,
   GET_NFT_DETAIL,
@@ -61,8 +62,9 @@ const initialState = {
   nfts: [], //ok
   filteredNfts: [], // ok
   collections: [], // ok
+  collectionDetail: [],
 
-  adminNfts: [], // preguntarle a james
+  adminNfts: [], //incluye deleted
 
   // estos son todos filtros
   setCollections: [],
@@ -150,7 +152,8 @@ const rootReducer = (state = initialState, action) => {
       };
     case GET_NFT_DETAIL:
       return { ...state, nftDetail: action.payload, isLoading: false };
-
+    case GET_COLLECTION_DETAIL:
+      return { ...state, collectionDetail: action.payload };
     // estos hay que revisar la logica, en este momento no coinciden back con front,
     // saque lo del msj para revisarlo bien despues
     case CREATE_NFT:

@@ -15,6 +15,7 @@ const AdminDashboard = () => {
     (state) => state
   );
 
+  //Favor de eliminar los console.logs cuando este listo esto.
   console.log("nft", adminNfts);
   console.log("user", adminUsers);
   console.log("collection", collections);

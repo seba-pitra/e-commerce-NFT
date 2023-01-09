@@ -119,8 +119,6 @@ function PayResult(props) {
     window.location.href.includes("collection_status") &&
     window.location.href.includes("external_reference");
 
-  console.log("loggedUser", firebaseCurrentUser);
-
   if (validate) {
     if (window.location.href.includes("success")) {
       resultContainer = sucessContainer;

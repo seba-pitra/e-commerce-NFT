@@ -20,7 +20,6 @@ export default function Shoppingkart() {
     localStorage.setItem("nftsOnShoppingCart", JSON.stringify(shoppingCartContents));
 
     dispatch(actions.buyNftOnShoppingCart(shoppingCartContents));
-    console.log("SendingMail");
     // test only >> dispatch(actions.sendFungibleMail({correoUser: "yomero@gmail.com",accion: "pago"}));
   };
 

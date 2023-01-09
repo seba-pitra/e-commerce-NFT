@@ -1,10 +1,13 @@
 
-import "./HomePage.css";
 import CardCarousel1 from "./Carousel/Carousel-views";
 import CardCarousel2 from "./Carousel/Carousel-stars";
 import CardCarousel3 from "./Carousel/Carousel-rarity";
 import CollectionCarousel from "./Carousel/Collections-home.jsx";
 import CollectionTable from "./Carousel/Collections-table.jsx";
+import { useSelector, useDispatch } from "react-redux";
+import { useEffect } from "react";
+import * as actions from "../../redux/actions"
+import "./HomePage.css";
 
 function HomePage() {
 	const nfts = useSelector((state) => state.nfts);
@@ -43,7 +46,6 @@ function HomePage() {
 
 	// COLLECTIONS
 	let collectionsSlice = collections.slice(0,10)
-	console.log(collectionsSlice)
 
 return (
     <div className="main-container-homepage">

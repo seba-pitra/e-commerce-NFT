@@ -9,7 +9,6 @@ export default function ProfilePicture({handleShowUserList}) {
     useEffect(() => {
         const img = new window.Image();
         img.src = profile_picture_url;
-        console.log(img);
         img.onload = () => setProfilePicture(img.src);
     }, [profile_picture_url]);
     return (

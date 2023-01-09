@@ -39,8 +39,6 @@ export default function CreateCollection({
     render = true;
   };
 
-  console.log(createdNft);
-
   return (
     <>
       <div className="create-collection-container">

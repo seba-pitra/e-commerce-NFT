@@ -13,7 +13,7 @@ const registerUser = async (req, res) => {
     res.status(200).json(newUser);
   } catch (err) {
     console.log(err.message);
-    res.status(404).json({ error: err.message });
+    res.status(404).json({ message: err.message, error_detail : err });
   }
 };
 
