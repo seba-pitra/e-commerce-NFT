@@ -4,9 +4,12 @@ import { useHistory } from "react-router-dom";
 import EditIcon from "@material-ui/icons/Edit";
 import DoneIcon from "@material-ui/icons/Done";
 import PurchaseHistory from "../../PurchaseHistory/PurchaseHistory";
-import EditUserInfo from "./../EditUserInfo";
+import EditUserInfo from "../EditUserInfo/EditUserInfo";
+// import EditUserInfo from "./../EditUserInfo";
 import { NavLink } from "react-router-dom";
-import "./UserProfile.css";
+
+// import "./UserProfile.css";
+import styles from "./stylesheets/UserProfile.module.css";
 
 export default function UserProfile() {
   let [edit, setEdit] = useState({
@@ -134,26 +137,21 @@ export default function UserProfile() {
   //   };
 
   useEffect(() => {}, [dispatch]);
-  console.log(userDetail);
 
   return (
-    <div className="main-container">
-      {/* <button onClick={() => navHistory.goBack()} className="back-button">
-        {" "}
-        {"< "}Back{" "}
-      </button> */}
-      <div className="profile-container">
-        <div className="avatar-nickname-container">
+    <div className={styles["user-profile-container"]}>
+      <div className={styles["profile-container"]}>
+        <div className={styles["avatar-nickname-container"]}>
           <img
-            className="profile-pic"
+            className={styles["profile-pic"]}
             src={userDetail.profile_pic}
             alt="avatar"
             referrerpolicy="no-referrer"
           />
           <p className="text-muted mb-1">{userDetail.username}</p>
           <img
-            hidden = {userDetail.type === "Verified" ? false : true}
-            className="edit-info"
+            hidden={userDetail.type === "Verified" ? false : true}
+            className={styles["edit-info"]}
             src={
               "https://iconsplace.com/wp-content/uploads/_icons/ffc0cb/256/png/edit-icon-12-256.png"
             }
@@ -175,76 +173,70 @@ export default function UserProfile() {
             dni={userDetail.dni}
           />
         ) : (
-          <div className="user-info">
-            <div className="info">
+          <div className={styles["user-info"]}>
+            <div className={styles["info"]}>
               <h6>Email</h6>
               <h6 className="text-muted">{userDetail.email}</h6>
             </div>
-            <div className="info">
+            <div className={styles["info"]}>
               <h6>Type</h6>
               <h6 className="text-muted">{userDetail.type}</h6>
             </div>
             {userDetail.type === "Verified" && (
               <div>
-                <div className="info">
+                <div className={styles["info"]}>
                   <h6>Full Name</h6>
                   <h6 className="text-muted">
                     {userDetail.name} {userDetail.last_name}
                   </h6>
                 </div>
 
-                <div className="info">
-              <h6>Phone</h6>
-              <h6 className="text-muted">
-                {userDetail.phone ? userDetail.phone : "No phone founded"}
-              </h6>
-            </div>
-            <div className="info">
-              <h6>Age</h6>
-              <h6 className="text-muted">
-                {userDetail.age ? userDetail.age : "No age founded"}
-              </h6>
-            </div>
-            <div className="info">
-              <h6>Adress</h6>
-              <h6 className="text-muted">
-                {userDetail.adress ? userDetail.adress : "No adress founded"}
-              </h6>
-            </div>
-            <div className="info">
-              <h6>Identification</h6>
-              <h6 className="text-muted">
-                {userDetail.dni ? userDetail.dni : "No identification founded"}
-              </h6>
-            </div>
-              
+                <div className={styles["info"]}>
+                  <h6>Phone</h6>
+                  <h6 className="text-muted">
+                    {userDetail.phone ? userDetail.phone : "No phone founded"}
+                  </h6>
+                </div>
+                <div className={styles["info"]}>
+                  <h6>Age</h6>
+                  <h6 className="text-muted">
+                    {userDetail.age ? userDetail.age : "No age founded"}
+                  </h6>
+                </div>
+                <div className={styles["info"]}>
+                  <h6>Adress</h6>
+                  <h6 className="text-muted">
+                    {userDetail.adress
+                      ? userDetail.adress
+                      : "No adress founded"}
+                  </h6>
+                </div>
+                <div className={styles["info"]}>
+                  <h6>Identification</h6>
+                  <h6 className="text-muted">
+                    {userDetail.dni
+                      ? userDetail.dni
+                      : "No identification founded"}
+                  </h6>
+                </div>
               </div>
             )}
-
-            
-
-            
           </div>
         )}
       </div>
-      <div className="functionalities-history-container">
-        <div className="available-functionalities">
-          {/* aca estaria bueno marcar que cosas puede hacer este tipo de usuario:
-        si es admin que diga
-        disponible informacion de usuarios
-        historial de compras de usuarios
-        actualizar tipo de usuario
-        etc */}
+      <div className={styles["functionalities-history-container"]}>
+        <div className={styles["available-functionalities"]}>
           <h6>2 NFT's bought</h6>
-          <h6>
+          <h6 className={styles["user-profile-not-permition"]}>
             You dont have permitions to create an NFT ,you need to upgrade your
             account
           </h6>
-          <NavLink className='upgrade-button' to="/myAccount/verify">Upgrade to Premium
+          <NavLink className={styles["upgrade-button"]} to="/myAccount/verify">
+            Upgrade to Premium
             {/* <div className="upgrade-button">Upgrade to Premium</div> */}
           </NavLink>
         </div>
-        <div className="history-purchases">
+        <div className={styles["history-purchases"]}>
           <PurchaseHistory props={history} />
         </div>
       </div>

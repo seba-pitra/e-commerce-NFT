@@ -10,6 +10,7 @@ import Offcanvas from "react-bootstrap/Offcanvas";
 import FilterAltIcon from "@mui/icons-material/FilterAlt";
 
 import "./MarketPlace.css";
+import styles from "./stylesheets/MarketPlace.module.css";
 
 function MarketPlace({ loggedIn }) {
   const dispatch = useDispatch();
@@ -58,15 +59,19 @@ function MarketPlace({ loggedIn }) {
 
   useEffect(() => {}, [order]);
 
+  //
+
   return (
     <div className="home-container">
-      {isLoading ? (
-        <Loading />
-      ) : (
-        <div className="container_mainpage">
-          <Pages />
-        </div>
-      )}
+      <div className={styles["market-place-container"]}>
+        {isLoading ? (
+          <Loading />
+        ) : (
+          <div className={styles["container_mainpage"]}>
+            <Pages />
+          </div>
+        )}
+      </div>
     </div>
   );
 }
