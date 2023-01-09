@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import * as actions from "../../redux/actions";
 import Loading from "../Loading/Loading";
 import { Link, useHistory } from "react-router-dom";
-import styles from "./Details.module.css";
+import styles from "./stylesheets/Details.module.css";
 import ethereumLogo from "../../images/ethereum-logo.png";
 import { startPayment } from "../../utils";
 import StarRating from "../StarRating/StarRating";

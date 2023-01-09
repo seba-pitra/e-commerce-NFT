@@ -208,13 +208,6 @@
   flex-direction: column;
 }
 
-/* @media (min-width: 975px) {
-  .data-detail-nft div {
-    flex-direction: row;
-    align-items: center;
-  }
-} */
-
 .data-detail-nft span {
   font-size: 20px;
   margin-right: 40px;

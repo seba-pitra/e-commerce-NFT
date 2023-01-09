@@ -108,7 +108,6 @@ function Pages() {
             </div>
           </div>
 
-          {/* paginado va abajo */}
           <span className="amount-nfts">
             <b>{filteredNfts.length}</b> items
           </span>

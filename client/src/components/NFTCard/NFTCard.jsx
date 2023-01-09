@@ -6,9 +6,12 @@ import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 import * as actions from "../../redux/actions";
 import ethereumLogo from "../../images/ethereum-logo.png";
 import favsLogo from "../../images/favs-logo.png";
-import starsLogo from "../../images/stars-logo.png";
+// import StarIcon from "../../images/stars-logo.png";
+import StarIcon from "@mui/icons-material/Star";
+import VisibilityIcon from "@mui/icons-material/Visibility";
 import { saveLocalStorage } from "../../utils";
 import "./NFTCard.css";
+import styles from "./stylesheets/NFTCard.module.css";
 
 export default function NFTCard(props) {
   const loggedUserEmail = useSelector((state) => state.loggedUser.email);
@@ -17,7 +20,6 @@ export default function NFTCard(props) {
 
   const ethPrice = useSelector((state) => state.ethPrice);
   const dispatch = useDispatch();
-
 
   const handleClickOnShoppingCart = (e) => {
     dispatch(actions.addNftOnShoppingCart(props));
@@ -28,7 +30,6 @@ export default function NFTCard(props) {
     dispatch(actions.addToFav());
     saveFavsLocalStorage();
   };
-
 
   function saveLocalStorage() {
     localStorage.setItem(loggedUserEmail, JSON.stringify(shoppingCartContents));
@@ -44,7 +45,7 @@ export default function NFTCard(props) {
 
   if (viewCards === "clear") {
     return (
-      <div className="cardContainer">
+      <div className={styles["cardContainer"]}>
         <div className="nftCard-image-info">
           <Link className="link" to={`/details/${props.id}`}>
             <div className="nftCard-img-container">
@@ -82,13 +83,13 @@ export default function NFTCard(props) {
     );
   } else {
     return (
-      <div className="cardContainer">
-        <div className="nftCard-image-info">
-          <Link className="link" to={`/details/${props.id}`}>
-            <h3 className="raritymove">{props.rarity}</h3>
-            <div className="nftCard-img-container">
+      <div className={styles["cardContainer"]}>
+        <div className={styles["nftCard-image-info"]}>
+          <Link className={styles.link} to={`/details/${props.id}`}>
+            <h3 className={styles["raritymove"]}>{props.rarity}</h3>
+            <div className={styles["nftCard-img-container"]}>
               <img
-                className={"nftImage"}
+                className={styles["nftImage"]}
                 src={`${
                   props.image === "No image"
                     ? "https://preview.redd.it/j82jl2vpg4n71.jpg?auto=webp&s=e8431005571759e9fd9b5cd2e82dd27696d0b6c4"
@@ -97,60 +98,51 @@ export default function NFTCard(props) {
                 alt="nft-preview"
               />
             </div>
-            <div className={"bottom-img-info"}>
-              <div className="nftCard-nameToken">
+            <div className={styles["bottom-img-info"]}>
+              <div className={styles["nftCard-nameToken"]}>
                 <h3>{props.name}</h3>
               </div>
-              <div>
-                <div className="eth-rarity">
-                  <div className="flex-row">
-                    <img
-                      src={ethereumLogo}
-                      alt="ethereum-logo"
-                      className="eth-logo"
-                    />
-                    <h3>{props.price.toFixed(3)}</h3>
-                  </div>
-                  <div className="flex-row">
-                    <img
-                      src={favsLogo}
-                      alt="ethereum-logo"
-                      className="eth-logo"
-                    />
-                    <h3>{props.favs}</h3>
-                  </div>
-                  <div className="flex-row">
-                    <img
-                      src={starsLogo}
-                      alt="ethereum-logo"
-                      className="eth-logo"
-                    />
-                    <h3>{starsValue || 0}</h3>
-                  </div>
+              <div className={styles["eth-rarity"]}>
+                <div className={styles["flex-row"]}>
+                  <img
+                    src={ethereumLogo}
+                    alt="ethereum-logo"
+                    className={styles["eth-logo"]}
+                  />
+                  <h3>{props.price.toFixed(3)}</h3>
                 </div>
-                <h4>
-                  Last Buy: ETH {props.lastBuy} - $
-                  {(props.lastBuy * ethPrice.USD).toFixed(2)} USD
-                </h4>
+                <div className="flex-row">
+                  <VisibilityIcon />
+                  <h3>{props.favs}</h3>
+                </div>
+                <div className="flex-row">
+                  <StarIcon />
+
+                  <h3>{starsValue || 0}</h3>
+                </div>
               </div>
+              <h4>
+                Last Buy: ETH {props.lastBuy} - $
+                {(props.lastBuy * ethPrice.USD).toFixed(2)} USD
+              </h4>
             </div>
           </Link>
-          <div className="CardButtons">
+          <div className={styles["CardButtons"]}>
             <div
-              className="nftCard-icon-container"
+              className={styles["nftCard-icon-container"]}
               onClick={handleClickOnFavorites}
             >
               <FavoriteIcon />
             </div>
             <div
-              className="nftCard-icon-container"
+              className={styles["nftCard-icon-container"]}
               onClick={handleClickOnShoppingCart}
             >
               <ShoppingCartIcon />
             </div>
           </div>
         </div>
-        <div className="CardButtons">
+        <div className={styles["CardButtons"]}>
           <img src="" alt="add-to-favs" />
           <img src="" alt="shopping-cart" />
         </div>

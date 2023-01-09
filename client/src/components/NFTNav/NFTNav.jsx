@@ -1,4 +1,4 @@
-import { React, useState, useEffect } from "react";
+import { React, useState } from "react";
 import { useLocation } from "react-router-dom";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import SearchBar from "../SearchBar/SearchBar";
@@ -10,11 +10,11 @@ import Ufavorites from "../uFavorites/Ufavorites.jsx";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
+
 import UserIcon from "./UserIcon/UserIcon";
 import ProfilePicture from "../UserComponents/ProfilePicture/Profile.Picture";
 
-
-
+import styles from "./stylesheets/NFTNav.module.css";
 import "./NFTNav.css";
 
 export default function NFTNav() {
@@ -66,7 +66,16 @@ export default function NFTNav() {
               <Link className="brand-colorized-text" to="/home">
                 Home
               </Link>
-              <Link className={`brand-colorized-text ${loggedUser?(loggedUser.type==="Basic"?"noneDisplay":""):""}`} to="/createNft">
+              <Link
+                className={`brand-colorized-text ${
+                  loggedUser
+                    ? loggedUser.type === "Basic"
+                      ? "noneDisplay"
+                      : ""
+                    : ""
+                }`}
+                to="/createNft"
+              >
                 Create
               </Link>
             </Nav>

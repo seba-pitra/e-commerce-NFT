@@ -1,20 +1,15 @@
 import { React, useState } from "react";
 import { useLocation, useHistory } from "react-router-dom";
-import FavoriteIcon from '@material-ui/icons/Favorite';
+import FavoriteIcon from "@material-ui/icons/Favorite";
 import styles from "./Ufavorites.module.css";
 import { useDispatch, useSelector } from "react-redux";
 import Button from "react-bootstrap/Button";
 
-// colocar el boton en otro lado
-// redondear el boton 
-//
-//
-export default function Ufavorites(){
+export default function Ufavorites() {
   const userFavs = useSelector((state) => state.userFavs);
 
-	return (
-	
-<div className={styles["main-op"]}>
+  return (
+    <div className={styles["main-op"]}>
       <div class="d-flex flex-row">
         {userFavs &&
           userFavs.map((idx) => {
@@ -25,10 +20,7 @@ export default function Ufavorites(){
                   alt="nft"
                   className={styles["fav-nft-img"]}
                 />
-   		            <button className={styles["favs-remove-button"]}>
-                  ×
-                </button>
-
+                <button className={styles["favs-remove-button"]}>×</button>
               </div>
             );
           })}

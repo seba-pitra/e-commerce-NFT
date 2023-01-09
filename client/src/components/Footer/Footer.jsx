@@ -1,12 +1,11 @@
 import React from "react";
-import "./Footer.css";
+// import "./Footer.css";
 
 import FacebookIcon from "@material-ui/icons/Facebook";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
-
 
 import { Link } from "react-router-dom";
 

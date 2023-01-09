@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 import * as actions from "../../redux/actions";
 import { useHistory } from "react-router-dom";
-import styles from "./DeveloperTeam.module.css";
+import styles from "./stylesheets/DeveloperTeam.module.css";
 
 import img1 from "../../images/developerTeam/developer-team-1.jfif";
 import img2 from "../../images/developerTeam/developer-team-2.jfif";

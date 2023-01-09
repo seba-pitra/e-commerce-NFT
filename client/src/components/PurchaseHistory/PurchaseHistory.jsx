@@ -1,22 +1,23 @@
 // import * as actions from "../actions/actions.js";
-import "./PurchaseHistory.css";
+import styles from "./stylesheets/PurchaseHistory.module.css";
 
 const PurchaseHistory = ({ props }) => {
   //price,statusPay,purchases
   return (
-    <div className="detail-shopping-history">
+    <div className={styles["detail-shopping-history"]}>
       {props ? (
-        <div className="history-title-container">
-          <div className="sale">Sale Price</div>
-          <div className="from">From</div>
-          <div className="to">To</div>
-          <div className="date">Date</div>
+        <div className={styles["history-title-container"]}>
+          <div className={styles["sale"]}>Sale Price</div>
+          <div className={styles["from"]}>From</div>
+          <div className={styles["to"]}>To</div>
+          <div className={styles["date"]}>Date</div>
         </div>
       ) : (
         <div>There isn't shopping history</div>
       )}
 
       {props &&
+<<<<<<< HEAD
         props.map((elem, index) => {
           return(
           <div 
@@ -28,6 +29,17 @@ const PurchaseHistory = ({ props }) => {
             <div className="date">{elem.createdAt}</div>
           </div>)
         })} 
+=======
+        props.map((elem) => {
+          return (
+            <div className={styles["history-title-container"]}>
+              <div className={styles["from"]}>{elem.contract}</div>
+              <div className={styles["to"]}>{elem.contract}</div>
+              <div className={styles["date"]}>{elem.createdAt}</div>
+            </div>
+          );
+        })}
+>>>>>>> origin/development
     </div>
   );
 };

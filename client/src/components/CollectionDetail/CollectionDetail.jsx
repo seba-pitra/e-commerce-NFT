@@ -6,8 +6,8 @@ import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import ethereumLogo from "../../images/ethereum-logo.png";
 import { useParams } from "react-router-dom";
-import "./CollectionDetail.css";
 import VerifiedIcon from "@mui/icons-material/Verified";
+import styles from "./stylesheets/CollectionDetail.module.css";
 
 const CollectionDetail = () => {
   const { id } = useParams();
@@ -62,67 +62,82 @@ const CollectionDetail = () => {
       {cards?.length === 0 ? (
         <NotFoundResults />
       ) : (
-        <div className="collection-details">
-          <div className="collection-details-container">
-            <div className="img-collection">
+        <div className={styles["collection-details"]}>
+          <div className={styles["collection-details-container"]}>
+            <div className={styles["img-collection"]}>
               <img src={collectionDetail?.image} alt="collection-detail" />
             </div>
-            <div className="collection-titles">
+            <div className={styles["collection-titles"]}>
               <h1>
                 {collectionDetail?.name} <VerifiedIcon />{" "}
               </h1>
               <span>
                 Created by{" "}
-                <span className="negrita">{collectionDetail?.user.name}</span>
+                <span className={styles.negrita}>
+                  {collectionDetail?.user.name}
+                </span>
               </span>
             </div>
-            <span className="collection-description">{description}</span>
-            <div className="collection-data">
+            <span className={styles["collection-description"]}>
+              {description}
+            </span>
+            <div className={styles["collection-data"]}>
               <span>
-                Items <span className="negrita">{amountNfts}</span>
+                Items{" "}
+                <span className={styles["collection-data-important"]}>
+                  {amountNfts}
+                </span>
               </span>
               <span>
-                <span className="negrita">-</span>
+                <span className={styles["collection-data-important"]}>-</span>
               </span>
               <span>
-                Created At <span className="negrita">{date}</span>
+                Created At{" "}
+                <span className={styles["collection-data-important"]}>
+                  {date}
+                </span>
               </span>
               <span>
-                <span className="negrita">-</span>
+                <span className={styles["collection-data-important"]}>-</span>
               </span>
               <span>
-                <span className="negrita">Ethereum</span>
+                <span className={styles["collection-data-important"]}>
+                  Ethereum
+                </span>
               </span>
               <span>
-                <span className="negrita">-</span>
+                <span className={styles["collection-data-important"]}>-</span>
               </span>
               <span>
-                Creator commission <span className="negrita">5%</span>
+                Creator commission{" "}
+                <span className={styles["collection-data-important"]}>5%</span>
               </span>
             </div>
             <div className="d-flex justify-content-around w-100">
-              <span className="ethereum-price-collection-detail">
+              <span className={styles["ethereum-price-collection-detail"]}>
                 Collection Price <span>{collectionPrice?.toFixed(3)}</span>
                 <img
                   src={ethereumLogo}
                   alt="icon-ethereum"
-                  className="ethereum-logo-price"
+                  className={styles["ethereum-logo-price"]}
                 />
               </span>
-              <div className="ethereum-price-collection-detail">
-                FloorPrice{" "}
+              <div className={styles["ethereum-price-collection-detail"]}>
+                Floor Price{" "}
                 <span>
                   {floorPrice?.toFixed(3)}{" "}
                   <img
                     src={ethereumLogo}
                     alt="icon-ethereum"
-                    className="ethereum-logo-price"
+                    className={styles["ethereum-logo-price"]}
                   />
                 </span>
               </div>
             </div>
           </div>
-          <div className="pageSelector-Container">{cards}</div>
+          <div className={styles["collection-details-cards-container"]}>
+            {cards}
+          </div>
         </div>
       )}
     </div>

@@ -7,6 +7,8 @@ import CollectionTable from "./Carousel/Collections-table.jsx";
 import { useSelector, useDispatch } from "react-redux";
 import { useEffect } from "react";
 import * as actions from "../../redux/actions"
+import UncontrolledExample from "./Carousel/Carousel.jsx";
+
 import "./HomePage.css";
 
 function HomePage() {
@@ -47,36 +49,39 @@ function HomePage() {
 	// COLLECTIONS
 	let collectionsSlice = collections.slice(0,10)
 
-return (
-    <div className="main-container-homepage">
-			<span className="verification-msj">If you want to sell nfts you must verify your account</span>
-			<h1>Explore, collect and sell NFTs</h1>
+	return (
+		<div className="main-container-homepage">
+				
+				<span className="verification-msj">If you want to sell nfts you must verify your account</span>
 
-			<div className="container-nfts">
-				<CollectionCarousel cards={collectionsSlice}/> 
-			</div>
+				<div className="main-carousel-images">
+					<UncontrolledExample/> 
+				</div>
 
-			<div className="container-nfts">
-				<CollectionTable cards={collectionsSlice}/> 
-			</div>
+				<h1>Explore, collect and sell NFTs</h1>
 
-			{/* <div className="main-carousel-images">
-				<UncontrolledExample/> 
-			</div> */}
+					<div className="container-nfts">
+						<CollectionCarousel cards={collectionsSlice}/> 
+					</div>
 
-			<div className="container-nfts">
-				<CardCarousel1 cards={nftsMostViews}/>
-			</div>
+					<div className="container-nfts">
+						<CollectionTable cards={collectionsSlice}/> 
+					</div>
 
-			<div className="container-nfts">
-				<CardCarousel2 cards={nftsMostStars}/>
+
+					<div className="container-nfts">
+						<CardCarousel1 cards={nftsMostViews}/>
+					</div>
+
+					<div className="container-nfts">
+						<CardCarousel2 cards={nftsMostStars}/>
+					</div>
+					
+					<div className="container-nfts">
+						<CardCarousel3 cards={nftsMostRarity}/>
+					</div>
 			</div>
-			
-			<div className="container-nfts">
-				<CardCarousel3 cards={nftsMostRarity}/>
-			</div>
-    </div>
-  );
+		);
 }
 
 export default HomePage;
