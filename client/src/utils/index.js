@@ -416,13 +416,13 @@ export function handleErrorLoginAndRegister(error) {
       break;
 
     default:
-      toast.error("Something was wrong", { position: "bottom-left" });
+      console.error(error);
       break;
   }
 }
 
-export function saveLocalStorage(userNfts) {
-  localStorage.setItem("nftsOnShoppingCart", JSON.stringify(userNfts));
+export function saveLocalStorage(shoppingCartContents) {
+  localStorage.setItem("nftsOnShoppingCart", JSON.stringify(shoppingCartContents));
 }
 
 export function loadLocalStorage(dispatch) {

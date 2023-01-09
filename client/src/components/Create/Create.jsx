@@ -12,13 +12,9 @@ import CategoriesSelector from "./CategoriesSelector/CategoriesSelector";
 import styles from "./stylesheets/Create.module.css";
 
 export default function Create() {
-  // const user = useSelector((state) => state.loggedUser);
-
-  const user = JSON.parse(localStorage.getItem("currentUser"));
+  const user = useSelector((state) => state.loggedUser);
 
   const dispatch = useDispatch();
-  const history = useHistory();
-  const loginStatusStorage = localStorage.getItem("Logged");
   const [step, setStep] = useState(1);
 
   const [errors, setErrors] = useState({
@@ -27,14 +23,13 @@ export default function Create() {
   });
 
   const [createdCollection, setCreatedCollection] = useState({
-    userId: undefined,
-    // userId: user.id,
+    userId: user.id,
     name: undefined,
     image: undefined,
   });
 
   const [createdNft, setCreatedNft] = useState({
-    userId: undefined,
+    userId: user.id,
     collectionId: undefined,
     name: undefined,
     description: undefined,
@@ -63,24 +58,6 @@ export default function Create() {
     };
     dispatch(actions.createNft(createdNftObj));
   };
-
-  const validateUser = async () => {
-    if (loginStatusStorage === "Estoy loggeado") {
-      dispatch(actions.getAllNfts());
-      dispatch(actions.getAllCollections());
-      dispatch(actions.getEthPrice());
-    } else {
-      history.push("/");
-    }
-  };
-
-  // useEffect(() => {
-  //   setCreatedNft((prev) => ({
-  //     ...prev,
-  //     userId: user.id,
-  //   }));
-  //   validateUser();
-  // }, [user]);
 
   return (
     <div className={styles["create-container"]}>

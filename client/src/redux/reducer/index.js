@@ -2,6 +2,7 @@ import {
   GET_ALL_NFTS,
   GET_ALL_ADMIN_NFTS,
   GET_ALL_COLLECTIONS,
+  GET_COLLECTION_DETAIL,
   GET_ALL_USERS,
   GET_ALL_ADMIN_USERS,
   GET_NFT_DETAIL,
@@ -31,8 +32,6 @@ import {
   ORDER_NFT_LASTBUY,
   ORDER_NFT_CREATEDTS,
   GET_USER_BY_ID,
-  GET_LOGGED_USER,
-  REMOVE_LOGGED_USER,
   GET_ETH_PRICE,
   CHANGE_ORDER_DIRECTION,
   SELECT_PAGE,
@@ -41,14 +40,17 @@ import {
   SET_NFTS_PER_PAGE,
   ADD_NFT_ON_SHOOPING_CART,
   REMOVE_NFT_OF_SHOOPING_CART,
-  BUY_NFT_ON_SHOOPING_CART,
-  GET_ACTIVE_USER,
   LOCAL_STORAGE_CART,
   LOCAL_STORAGE_FAVS,
   DELETE_NFT_ON_SIGNOUT,
   ADD_BUY_AT_HISTORY_BUYS,
   ADD_FAV,
   SIGN_IN_WITH_GOOGLE,
+  LOG_IN,
+  LOG_OUT,
+  LOG_IN_SUCCESS,
+  REGISTER_USER,
+  ASKED_FOR_VERIFICATION,
   TOGGLE_THEME,
 } from "../actions";
 import * as controllers from "../../utils";
@@ -57,10 +59,14 @@ import "react-toastify/dist/ReactToastify.css";
 import { loadLocalStorage, saveLocalStorage } from "../../utils";
 
 const initialState = {
-  nfts: [],
-  adminNfts: [],
-  filteredNfts: [],
-  collections: [],
+  nfts: [], //ok
+  filteredNfts: [], // ok
+  collections: [], // ok
+  collectionDetail: [],
+
+  adminNfts: [], //incluye deleted
+
+  // estos son todos filtros
   setCollections: [],
   setCategorySpecies: [],
   setCategorySpecies2: [],
@@ -70,31 +76,41 @@ const initialState = {
   setCategoryRest: [],
   setCategoryBackg: [],
   setNftsPrice: {},
-  viewCards: "info",
-  users: [],
-  adminUsers: [],
-  userNfts: [],
-  userFavsNfts: [],
-  nftDetail: {},
-  userDetail: {},
-  loggedUser: {},
-  isLoading: false,
-  orderDirection: "up-down",
-  activePage: 1,
-  nftsPerPage: 100,
-  msj: "",
-  ethPrice: {},
-  activeUser: {},
-  historyBuys: [],
-  userFavs: [],
+  // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^	
+
+  viewCards: "info", //Vista de las cards
+
+  adminUsers: [], //todos los usuarios para que los vea el admin
+
+  shoppingCartContents: [], // carrito de compras
+  userFavsNfts: [],	// favoritos del usuario
+  userFavs: [], //favoritos del usuario
+
+  nftDetail: {}, //detale del nft seleccionado
+
+  userDetail: {}, // userDetail para el admin
+
+  loggedUser: {}, // el estado mas importante... datos del usuario loggueado
+
+  loginStatus: false, // estado del login, esta es la llave
+
+  isLoading: false, // estado de la carga de datos para mostrar animacion de carga
+
+  orderDirection: "up-down", // ordenamiento... REVISAR
+  activePage: 1, //PAGINA ACTIVA
+  nftsPerPage: 100, // CANTIDAD DE NFTS POR PAGINA
+  ethPrice: {}, //para calcular los precios en ars y usd
+
+  historyBuys: [], //historial de compras.
   activeThemeIsDark: false,
 };
 
+
 const rootReducer = (state = initialState, action) => {
+  console.log(action);
   switch (action.type) {
     case LOADING:
       return { ...state, isLoading: true };
-
     // --- GETTERS ---
     case GET_ALL_NFTS:
       return {
@@ -111,12 +127,22 @@ const rootReducer = (state = initialState, action) => {
         setCategoryRest: [],
         setCategoryBackg: [],
       };
+    case REGISTER_USER: 
+      return { ...state }
     case GET_ALL_ADMIN_NFTS:
       return { ...state, adminNfts: action.payload };
     case GET_ALL_COLLECTIONS:
       return { ...state, collections: action.payload, isLoading: false };
     case GET_ALL_USERS:
       return { ...state, users: action.payload };
+    case LOG_IN:
+      return { ...state, loggedUser: action.payload };
+    case LOG_IN_SUCCESS:
+      return { ...state, loginStatus: true }
+    case LOG_OUT:
+        return { ...state, loggedUser: {}, loginStatus : false};
+    case ASKED_FOR_VERIFICATION:
+        return { ...state }
     case GET_ALL_ADMIN_USERS:
       return { ...state, adminUsers: action.payload };
     case GET_USER_BY_ID:
@@ -124,20 +150,20 @@ const rootReducer = (state = initialState, action) => {
         ...state,
         userDetail: action.payload,
       };
-    case GET_LOGGED_USER:
-      return { ...state, loggedUser: action.payload };
-    case REMOVE_LOGGED_USER:
-      return { ...state, loggedUser: {} };
     case GET_NFT_DETAIL:
       return { ...state, nftDetail: action.payload, isLoading: false };
+    case GET_COLLECTION_DETAIL:
+      return { ...state, collectionDetail: action.payload };
+    // estos hay que revisar la logica, en este momento no coinciden back con front,
+    // saque lo del msj para revisarlo bien despues
     case CREATE_NFT:
-      return { ...state, msj: action.payload };
+      return { ...state };
     case DELETE_NFT:
-      return { ...state, msj: action.payload };
+      return { ...state };
     case UPDATE_NFT:
-      return { ...state, msj: action.payload };
+      return { ...state } ;
     case CREATE_COLLECTION:
-      return { ...state, msj: action.payload };
+      return { ...state };
 
     // --- SETTERS ---
     case SET_COLLECTIONS:
@@ -382,7 +408,7 @@ const rootReducer = (state = initialState, action) => {
       return { ...state, ethPrice: action.payload };
 
     case ADD_NFT_ON_SHOOPING_CART:
-      const foundNft = state.userNfts.find(
+      const foundNft = state.shoppingCartContents.find(
         (nft) => nft.id === action.payload.id
       );
 
@@ -393,7 +419,7 @@ const rootReducer = (state = initialState, action) => {
         return { ...state };
       }
 
-      const newShoppingCartContent = [...state.userNfts, action.payload];
+      const newShoppingCartContent = [...state.shoppingCartContents, action.payload];
 
       saveLocalStorage(newShoppingCartContent);
 
@@ -403,7 +429,7 @@ const rootReducer = (state = initialState, action) => {
 
       return {
         ...state,
-        userNfts: newShoppingCartContent,
+        shoppingCartContents: newShoppingCartContent,
       };
 
     case REMOVE_NFT_OF_SHOOPING_CART:
@@ -413,7 +439,7 @@ const rootReducer = (state = initialState, action) => {
         position: "bottom-left",
       });
 
-      const newShoppingCartContentRemoved = state.userNfts.filter(
+      const newShoppingCartContentRemoved = state.shoppingCartContents.filter(
         (nft) => nft.id !== action.payload
       );
 
@@ -421,19 +447,13 @@ const rootReducer = (state = initialState, action) => {
 
       return {
         ...state,
-        userNfts: newShoppingCartContentRemoved,
-      };
-
-    case GET_ACTIVE_USER:
-      return {
-        ...state,
-        // activeUser: action.payload,
+        shoppingCartContents: newShoppingCartContentRemoved,
       };
 
     case LOCAL_STORAGE_CART:
       return {
         ...state,
-        userNfts: action.payload,
+        shoppingCartContents: action.payload,
       };
 
     case LOCAL_STORAGE_FAVS:
@@ -445,21 +465,14 @@ const rootReducer = (state = initialState, action) => {
     case DELETE_NFT_ON_SIGNOUT:
       return {
         ...state,
-        userNfts: [],
-      };
-
-    // --- CART ---
-    case BUY_NFT_ON_SHOOPING_CART:
-      return {
-        ...state,
-        activeUser: action.payload,
+        shoppingCartContents: [],
       };
     // -- THEME --
-case TOGGLE_THEME:
-	return {
-	...state,
-		activeThemeIsDark: !state.activeThemeIsDark,
-	}
+    case TOGGLE_THEME:
+      return {
+      ...state,
+        activeThemeIsDark: !state.activeThemeIsDark,
+      }
 
     // --- FAVS ---
     case ADD_FAV:

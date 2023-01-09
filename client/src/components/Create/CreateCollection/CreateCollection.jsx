@@ -39,14 +39,6 @@ export default function CreateCollection({
     render = true;
   };
 
-  // useEffect(() => {
-  //   setCreatedCollection((prev) => ({
-  //     ...prev,
-  //     userId: user.id,
-  //   }));
-  //   render = false;
-  // }, [user, render]);
-
   return (
     <>
       <div className={styles["create-collection-container"]}>
@@ -62,11 +54,10 @@ export default function CreateCollection({
             {user.collections?.map((collection) => (
               <div className={styles["created-collections"]}>
                 <label htmlFor={collection.id}>
-                  <b>{collection.name}</b>{" "}
+                  <b>{collection.name}</b>
                 </label>
                 <input
                   type="checkbox"
-                  key={collection.id}
                   value={collection.id}
                   onClick={(e) => {
                     selectCollection(e);

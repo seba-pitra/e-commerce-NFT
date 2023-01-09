@@ -13,20 +13,20 @@ import stylesLight from "./stylesheets/LightCollectionDetail.module.css";
 const CollectionDetail = () => {
   const { id } = useParams();
 
-  const collections = useSelector((state) => state.collections);
-  const foundCollection = collections.find((coll) => coll.id === id);
+  const foundCollection = useSelector((state) => state.collectionDetail); 
 
   const  isDark  = useSelector((state) => state.activeThemeIsDark);
   console.log(isDark)
 
   console.log(foundCollection);
+  //modificado para que traiga mediante el fetch de id y no que traiga todas las colecciones y filtre.
 
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(actions.getAllCollections());
+    dispatch(actions.getCollectionById(id));
     dispatch(actions.getEthPrice());
-  }, [dispatch]);
+  }, [dispatch, id]);
 
   let collectionPrice = 0,
     amountNfts = 0,
@@ -35,7 +35,6 @@ const CollectionDetail = () => {
     createdAt = 0;
 
   const cards = foundCollection?.nfts.map((nft) => {
-    console.log(nft);
     collectionPrice = nft.price + collectionPrice;
     amountNfts++;
     if (description === "No description") description = nft.description;
@@ -61,7 +60,7 @@ const CollectionDetail = () => {
     );
   });
 
-  let date = new Date(createdAt);
+  let date = new Date(foundCollection.createdAt); 
   date = date.toString();
   date = date.slice(4, 16);
 

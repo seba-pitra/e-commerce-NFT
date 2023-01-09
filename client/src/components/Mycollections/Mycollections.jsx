@@ -10,24 +10,6 @@ import VerifiedIcon from "@mui/icons-material/Verified";
 
 function Mycollections() {
   const loggedUser = useSelector((state) => state.loggedUser);
-  const history = useHistory();
-  const dispatch = useDispatch();
-  let loginStatusStorage = localStorage.getItem("Logged");
-
-  useEffect(() => {
-    validateUser();
-  }, [dispatch]);
-
-  const validateUser = async () => {
-    if (loginStatusStorage) {
-      dispatch(actions.getAllNfts());
-      dispatch(actions.getAllCollections());
-    } else {
-      history.push("/");
-    }
-  };
-
-  const collections = useSelector((state) => state.collections);
   const isLoading = useSelector((state) => state.isLoading);
 
   // -------------------

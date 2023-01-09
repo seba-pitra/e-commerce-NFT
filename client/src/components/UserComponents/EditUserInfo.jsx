@@ -41,8 +41,6 @@ export default function EditUserINfo(props) {
     console.log(errors)
     
   };
-  console.log(props);
-
   let handleSubmit = (e) => {
     //al apretar enviar tendria q hacer el dispatch con los cambios,y volver a cargar el componente,pero el lo
     e.preventDefault();

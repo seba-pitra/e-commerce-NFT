@@ -6,7 +6,6 @@ import "./App.css";
 //---  React imports ---
 import React from "react";
 import { Route, Switch } from "react-router-dom";
-import { useDispatch } from "react-redux";
 
 // -- Component imports ---
 import LandingPage from "./components/LandingPage/LandingPage";
@@ -27,33 +26,51 @@ import CollectionDetail from "./components/CollectionDetail/CollectionDetail.jsx
 import Recovery from "./components/Recovery/Recovery";
 import PayResult from "./components/PayResult/PayResult";
 import UserVerify from "./components/UserComponents/UserVerify/UserVerify";
+import LoginChecker from "./components/HelperComponents/LoginChecker/LoginChecker";
 
 // Firebase imports
 import { auth } from "./firebase.js";
 import { onAuthStateChanged } from "firebase/auth";
 
 //-- actions imports
-import { getLoggedUser, removeLoggedUser } from "./redux/actions";
 import UserDetail from "./components/UserComponents/UserProfile/UserDetail.jsx";
 
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { useDispatch, useStore} from "react-redux";
+import { useEffect } from "react";
+
+import * as actions from "./redux/actions"
 
 function App() {
-  const dispatch = useDispatch();
-
+  const dispatch = useDispatch()
+  const store = useStore()
   onAuthStateChanged(auth, (user) => {
     if (user) {
       localStorage.setItem("loginStatus", "log-in");
+      dispatch(actions.successfulLogin())
     } else {
       localStorage.setItem("loginStatus", "log-out");
+      dispatch(actions.logOutUser());
     }
+    console.log(localStorage.getItem("loginStatus"));
   });
+
+
+  // funcion para consologuear el estado siempre que se modifique
+  // DESCOMENTAR PARA TESTING
+  /* useEffect(() => {
+    const unsubscribe = store.subscribe(() => {
+      console.log(store.getState())
+    })
+    return unsubscribe
+  }, [store]) */
 
   return (
     <div className="App">
       <NFTNav></NFTNav>
       <React.Fragment>
+        <LoginChecker/>
         <Switch>
           <Route exact path="/" render={() => <LandingPage />} />
           <Route exact path="/home" render={() => <HomePage />} />
