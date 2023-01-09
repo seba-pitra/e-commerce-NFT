@@ -1,38 +1,27 @@
 const { Router } = require("express");
-const {
-  getNfts,
-  getNftById,
-  updateNft,
-  addViewsNft,
-  addStarsNft,
-  createNewNFT,
-  deleteNft,
-  restoreDeletedNft,
-  changeNftOwner,
-  getNftQuantity
-} = require("../controllers/nft.controller");
+const nftControllers = require("../controllers/nft.controller");
 
 const nftRouter = Router();
 
-nftRouter.get("/", getNfts);
+nftRouter.get("/", nftControllers.getNfts);
 
-nftRouter.get("/howMany", getNftQuantity);
+nftRouter.get("/howMany", nftControllers.getNftQuantity);
 
-nftRouter.post("/create", createNewNFT)
+nftRouter.post("/create", nftControllers.createNewNFT)
 
-nftRouter.get("/:id", getNftById);
+nftRouter.get("/:id", nftControllers.getNftById);
 
-nftRouter.put("/:id", updateNft);
+nftRouter.put("/:id", nftControllers.updateNft);
 
-nftRouter.put("/addView/:id", addViewsNft);
+nftRouter.put("/addView/:id", nftControllers.addViewsNft);
 
-nftRouter.put("/addStar/:id", addStarsNft);
+/* nftRouter.put("/addStar/:id", nftControllers.addStarsNft); */ // esto se calcula automaticamente en add review.
 
-nftRouter.delete("/:id", deleteNft);
+nftRouter.delete("/:id", nftControllers.deleteNft);
 
-nftRouter.get("/restore/:id", restoreDeletedNft)
+nftRouter.get("/restore/:id", nftControllers.restoreDeletedNft)
 
-nftRouter.put("/transfer/:id", changeNftOwner)
+nftRouter.put("/transferTo/:id", nftControllers.changeNftOwner)
 
 
 module.exports = nftRouter;

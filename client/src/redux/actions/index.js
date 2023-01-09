@@ -14,9 +14,10 @@ export const ASKED_FOR_VERIFICATION = "ASKED_FOR_VERIFICATION";
 
 // -- GETTERS --
 export const GET_ALL_NFTS = "GET_ALL_NFTS";
+export const GET_NFT_DETAIL = "GET_NFT_DETAIL";
 export const GET_ALL_ADMIN_NFTS = "GET_ALL_ADMIN_NFTS";
 export const GET_ALL_COLLECTIONS = "GET_ALL_COLLECTIONS";
-export const GET_NFT_DETAIL = "GET_NFT_DETAIL";
+export const GET_COLLECTION_DETAIL = "GET_COLLECTION_DETAIL";
 
 // -- ADMIN ACTIONS --
 export const CREATE_NFT = "CREATE_NFT";
@@ -75,6 +76,10 @@ export const ADD_BUY_AT_HISTORY_BUYS = "ADD_BUY_AT_HISTORY_BUYS";
 
 export const ADD_FAV = "ADD_FAV";
 
+// -- THEMES SWITCH
+export const TOGGLE_THEME = "TOGGLE_THEME";
+
+
 // -- GETTERS --
 
 export const getAllAdminNfts = () => {
@@ -93,7 +98,6 @@ export const getAllNfts = () => {
     dispatch({ type: LOADING });
     try {
       const allNfts = await axios.get("/nft");
-      console.log(allNfts.data.length);
       dispatch({ type: GET_ALL_NFTS, payload: allNfts.data });
     } catch (e) {
       toast.error("Something was wrong. Try again later", {
@@ -132,6 +136,20 @@ export const getAllCollections = () => {
   };
 };
 
+export const getCollectionById = (id) => {
+  return async (dispatch) => {
+    dispatch({type : LOADING});
+    try {
+      const collectionDetail = await axios.get(`/collection/${id}`);
+      dispatch({ type: GET_COLLECTION_DETAIL, payload: collectionDetail.data});
+    } catch (error) {
+      toast.error("Something was wrong. Try again later", {
+        position: "bottom-left",
+      });
+    }
+  }
+}
+
 export const getNftDetail = (id) => {
   return async (dispatch) => {
     dispatch({ type: LOADING });
@@ -140,7 +158,6 @@ export const getNftDetail = (id) => {
       dispatch({ type: GET_NFT_DETAIL, payload: nftId.data });
     } catch (e) {
       toast.error("Something was wrong. Try again later");
-      // console.log(e.response.data);
     }
   };
 };
@@ -162,13 +179,11 @@ export const getAllUsers = () => {
   return async (dispatch) => {
     try {
       const allUsers = await axios.get("/user");
-      console.log(allUsers.data);
       dispatch({ type: GET_ALL_USERS, payload: allUsers.data });
     } catch (e) {
       toast.error("Something was wrong. Try again later", {
         position: "bottom-left",
       });
-      // console.log(e.message);
     }
   };
 };
@@ -185,10 +200,11 @@ export const getUserByID = (id) => {
     }
   };
 };
-export const updateUser = (id, body) => {
+
+export const updateUser = (body) => {
   return async (dispatch) => {
     try {
-      const update = await axios.put(`/user/${id}`, body);
+      const update = await axios.put(`/user/${body.id}`, body);
       dispatch({ type: GET_USER_BY_ID, payload: update.data });
     } catch (error) {
       toast.error("Something was wrong. Try again later", {
@@ -203,8 +219,7 @@ export const registerUser = (userData) => {
       const newUser = await axios.post("/user/register", userData);
       dispatch({ type: REGISTER_USER });
     } catch (error) {
-      console.log(error.message);
-      /* throw new Error(error.message); */
+      toast.error("Something was wrong. Try again later");
     }
   };
 };
@@ -392,7 +407,6 @@ export const deleteNft = (id) => {
       toast.error("Something was wrong. Try again later", {
         position: "bottom-left",
       });
-      console.log(e.response.data);
     }
   };
 };
@@ -421,13 +435,17 @@ export const addViewNft = (id) => {
   };
 };
 
-export const addStars = (payload) => {
+export const addReview = (payload) => {
   return async () => {
     try {
-      console.log("id", payload.id);
-      console.log("rating", payload.rating);
-      await axios.put(`/nft/addStar/${payload.id}`, { rating: payload.rating });
+      const { userId, nftId, value } = payload;
+      const response = await axios.post(`/review/create`, {
+        userId : userId,
+        nftId : nftId,
+        value : value
+      });
     } catch (error) {
+      console.error(error.response.data);
       toast.error(error.response.data, { position: "bottom-left" });
     }
   };
@@ -497,6 +515,13 @@ export const sendFungibleMail = (sendData) => {
 
 // --- FAVS ---
 export const addToFav = (payload) => {
-  console.log(payload);
   return { type: ADD_FAV, payload };
 };
+
+// --- THEME THINGS ---
+
+export const toggleTheme = () => {
+	return { type: TOGGLE_THEME};
+	 };
+
+

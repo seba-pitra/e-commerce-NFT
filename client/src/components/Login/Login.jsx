@@ -5,8 +5,7 @@ import GoogleIcon from "@mui/icons-material/Google";
 import * as helpers from "./LoginHelpers";
 import * as actions from "../../redux/actions";
 import { loadLocalStorage } from "../../utils";
-import "./Login.css";
-import { toast } from "react-toastify";
+import styles from "./stylesheets/Login.module.css";
 
 // sendPasswordResetEmail
 const Login = () => {
@@ -78,14 +77,20 @@ const Login = () => {
       </div>
 
       <div className="text-center text-lg-start mt-4 pt-2">
-        <input
-          type="submit"
-          value="Log in"
-          className={"sing-in"}
+        <button
+          onClick={handdleSubmit}
+          type="button"
+          className={styles["sing-in"]}
           style={{ paddingLeft: "2.5rem", paddingRight: "2.5rem" }}
-        />
-        <button className={"sing-in"} type="button" onClick={handleLogInGoogle}>
-          <div className={"sing-in-container"}>
+        >
+          Log in
+        </button>
+        <button
+          className={styles["sing-in"]}
+          type="button"
+          onClick={handleLogInGoogle}
+        >
+          <div className={styles["sing-in-contaienr"]}>
             <GoogleIcon />
             <span> </span>
             <span>Sign in with Google</span>

@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import * as actions from "../../redux/actions";
 import Loading from "../Loading/Loading";
 import { Link, useHistory } from "react-router-dom";
-import styles from "./Details.module.css";
+import styles from "./stylesheets/Details.module.css";
 import ethereumLogo from "../../images/ethereum-logo.png";
 import { startPayment } from "../../utils";
 import StarRating from "../StarRating/StarRating";
@@ -14,8 +14,6 @@ const Details = (props) => {
   const dispatch = useDispatch();
   const history = useHistory();
 
-  let loginStatusStorage = localStorage.getItem("loginStatus");
-
   const { id } = props.match.params;
   const nftDetail = useSelector((state) => state.nftDetail);
   const isLoading = useSelector((state) => state.isLoading);
@@ -23,13 +21,6 @@ const Details = (props) => {
   const [error, setError] = useState();
   const [txs, setTxs] = useState([]);
 
-  const [rating, setRating] = useState([]);
-
-  console.log("rating detail > ", rating);
-
-  useEffect(() => {
-    dispatch(actions.addStars({ id, rating: rating.value }));
-  }, [rating]);
 
   useEffect(() => {
     dispatch(actions.getNftDetail(id));
@@ -90,14 +81,13 @@ const Details = (props) => {
     dispatch(actions.addNftOnShoppingCart(nftDetail));
   };
 
-  console.log(nftDetail);
 
   let date = new Date(nftDetail.createdTs);
   date = date.toString();
   date = date.slice(4, 16);
 
-  /* let starsValue = nftDetail.stars?.reduce((a, b) => a + b, 0);
-  starsValue = starsValue / nftDetail.stars?.length; */
+  //esto va a traer el promedio directamente del model
+
   let starsValue = 0;
 
   return (
@@ -122,7 +112,7 @@ const Details = (props) => {
 
             <div className={styles["nft-data-container"]}>
               <div>
-                <StarRating rating={rating} setRating={setRating} />
+                <StarRating nftId={nftDetail.id}/>
                 <h1>{nftDetail.name}</h1>
                 <span className={styles["detail-span"]}>
                   Included from {nftDetail.ownerName + " "}

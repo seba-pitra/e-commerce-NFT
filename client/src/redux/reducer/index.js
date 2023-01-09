@@ -2,6 +2,7 @@ import {
   GET_ALL_NFTS,
   GET_ALL_ADMIN_NFTS,
   GET_ALL_COLLECTIONS,
+  GET_COLLECTION_DETAIL,
   GET_ALL_USERS,
   GET_ALL_ADMIN_USERS,
   GET_NFT_DETAIL,
@@ -49,7 +50,8 @@ import {
   LOG_OUT,
   LOG_IN_SUCCESS,
   REGISTER_USER,
-  ASKED_FOR_VERIFICATION
+  ASKED_FOR_VERIFICATION,
+  TOGGLE_THEME,
 } from "../actions";
 import * as controllers from "../../utils";
 import { toast } from "react-toastify";
@@ -60,8 +62,9 @@ const initialState = {
   nfts: [], //ok
   filteredNfts: [], // ok
   collections: [], // ok
+  collectionDetail: [],
 
-  adminNfts: [], // preguntarle a james
+  adminNfts: [], //incluye deleted
 
   // estos son todos filtros
   setCollections: [],
@@ -99,6 +102,7 @@ const initialState = {
   ethPrice: {}, //para calcular los precios en ars y usd
 
   historyBuys: [], //historial de compras.
+  activeThemeIsDark: false,
 };
 
 
@@ -148,7 +152,8 @@ const rootReducer = (state = initialState, action) => {
       };
     case GET_NFT_DETAIL:
       return { ...state, nftDetail: action.payload, isLoading: false };
-
+    case GET_COLLECTION_DETAIL:
+      return { ...state, collectionDetail: action.payload };
     // estos hay que revisar la logica, en este momento no coinciden back con front,
     // saque lo del msj para revisarlo bien despues
     case CREATE_NFT:
@@ -462,6 +467,12 @@ const rootReducer = (state = initialState, action) => {
         ...state,
         shoppingCartContents: [],
       };
+    // -- THEME --
+    case TOGGLE_THEME:
+      return {
+      ...state,
+        activeThemeIsDark: !state.activeThemeIsDark,
+      }
 
     // --- FAVS ---
     case ADD_FAV:

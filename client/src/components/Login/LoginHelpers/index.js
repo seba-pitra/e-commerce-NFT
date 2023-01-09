@@ -13,8 +13,6 @@ export const signGoogle = async () => {
       profile_pic: auth.currentUser.photoURL,
     };
 
-    console.log("user", user);
-
     return user;
   } catch (error) {
     handleErrorLoginAndRegister(error);

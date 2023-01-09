@@ -3,6 +3,7 @@
   flex-direction: column;
   text-align: center;
   gap: 15px;
+  margin-bottom: 20px;
 }
 
 .categories-selector-container select {
@@ -10,9 +11,15 @@
   border: none;
   background-color: white;
   border-radius: 10px;
-  background-color: #222b3c;
+  background-color: #293447;
   color: #fff;
   padding: 5px;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 10px #40495a;
+}
+
+.categories-selector-container select:hover {
+  background-color: #1d283b;
 }
 
 .ilustration-validations {

@@ -6,9 +6,8 @@ import { useHistory } from "react-router-dom";
 
 import "./UserVerify.css";
 import UserBasicInfo from "./UserBasicInfo";
-import UserMediumInfo from "./UserMediumInfo"; 
-import UserAdvancedInfo from "./UserAdvancedInfo"; 
-
+import UserMediumInfo from "./UserMediumInfo";
+import UserAdvancedInfo from "./UserAdvancedInfo";
 
 export default function UserVerify() {
   const user = useSelector((state) => state.loggedUser);
@@ -30,7 +29,7 @@ export default function UserVerify() {
 
     // step 2
     face_picture: "",
-    
+
     // step 3
     dni_image_front: "",
     dni_image_back: "",
@@ -41,6 +40,7 @@ export default function UserVerify() {
     e.preventDefault();
     setStep(step + 1);
   };
+
   const back = (e) => {
     e.preventDefault();
     setStep(step - 1);
@@ -59,16 +59,40 @@ export default function UserVerify() {
   return (
     <>
       <div className="mainContainer">
-        <fieldset className={`info-fieldset ${ step !== 1 ? "noneDisplay" : "first-field-collections" }`} >
-          <UserBasicInfo userData={userData} setUserData={setUserData} next={next}/>
+        <fieldset
+          className={`info-fieldset ${
+            step !== 1 ? "noneDisplay" : "first-field-collections"
+          }`}
+        >
+          <UserBasicInfo
+            userData={userData}
+            setUserData={setUserData}
+            next={next}
+          />
         </fieldset>
 
-        <fieldset className={`info-fieldset ${step !== 2 ? "noneDisplay" : ""}`}>
-          <UserMediumInfo userData={userData} setUserData={setUserData} back={back} next={next}/>
+        <fieldset
+          className={`info-fieldset ${step !== 2 ? "noneDisplay" : ""}`}
+        >
+          <UserMediumInfo
+            userData={userData}
+            setUserData={setUserData}
+            back={back}
+            next={next}
+          />
         </fieldset>
 
-        <fieldset className={`info-fieldset ${ step !== 3 ? "noneDisplay" : "first-field-collections"}`}>
-          <UserAdvancedInfo userData={userData} setUserData={setUserData} back={back} next={next}/>
+        <fieldset
+          className={`info-fieldset ${
+            step !== 3 ? "noneDisplay" : "first-field-collections"
+          }`}
+        >
+          <UserAdvancedInfo
+            userData={userData}
+            setUserData={setUserData}
+            back={back}
+            next={next}
+          />
         </fieldset>
       </div>
     </>

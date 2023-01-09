@@ -4,8 +4,8 @@ import { useHistory } from "react-router-dom";
 import EditIcon from "@material-ui/icons/Edit";
 import DoneIcon from "@material-ui/icons/Done";
 import PurchaseHistory from "../../PurchaseHistory/PurchaseHistory";
-import EditUserInfo from './../EditUserInfo'
-import { Link } from "react-router-dom";
+import EditUserInfo from "./../EditUserInfo";
+import { NavLink } from "react-router-dom";
 import "./UserProfile.css";
 
 export default function UserProfile() {
@@ -103,6 +103,7 @@ export default function UserProfile() {
 
   const dispatch = useDispatch();
   const userDetail = useSelector((state) => state.loggedUser);
+
   // const { userDetail } = useSelector((state) => state);
 
   // FALTA TRAER EL COMPONENTE PurchaseHistory y pasarle por params las relaciones con buy para q muestre el historial
@@ -133,13 +134,14 @@ export default function UserProfile() {
   //   };
 
   useEffect(() => {}, [dispatch]);
-  console.log(userDetail)
+  console.log(userDetail);
+
   return (
     <div className="main-container">
-      <button onClick={() => navHistory.goBack()} className="back-button">
+      {/* <button onClick={() => navHistory.goBack()} className="back-button">
         {" "}
         {"< "}Back{" "}
-      </button>
+      </button> */}
       <div className="profile-container">
         <div className="avatar-nickname-container">
           <img
@@ -148,9 +150,9 @@ export default function UserProfile() {
             alt="avatar"
             referrerPolicy="no-referrer"
           />
-          {/* falta nombre de usuario  */}
-          <p className="text-muted mb-1">NOMBRE DE USARIO</p>
+          <p className="text-muted mb-1">{userDetail.username}</p>
           <img
+            hidden = {userDetail.type === "Verified" ? false : true}
             className="edit-info"
             src={
               "https://iconsplace.com/wp-content/uploads/_icons/ffc0cb/256/png/edit-icon-12-256.png"
@@ -163,24 +165,39 @@ export default function UserProfile() {
           />
         </div>
         {edit.state ? (
-          <EditUserInfo 
-          name ={userDetail.name}
-          last_name ={userDetail.last_name}
-          email ={userDetail.email}
-          age ={userDetail.age}
-          phone ={userDetail.phone}
-          mobile ={userDetail.mobile}/>
+          <EditUserInfo
+            name={userDetail.name}
+            last_name={userDetail.last_name}
+            email={userDetail.email}
+            age={userDetail.age}
+            phone_number={userDetail.phone_number}
+            id={userDetail.id}
+            dni={userDetail.dni}
+          />
         ) : (
           <div className="user-info">
             <div className="info">
-              <h6>Full Name</h6>
-              <h6 className="text-muted">
-                {userDetail.name} {userDetail.last_name}
-              </h6>
-            </div>
-            <div className="info">
               <h6>Email</h6>
               <h6 className="text-muted">{userDetail.email}</h6>
+            </div>
+            <div className="info">
+              <h6>Type</h6>
+              <h6 className="text-muted">{userDetail.type}</h6>
+            </div>
+            {userDetail.type === "Verified" && (
+              <div>
+                <div className="info">
+                  <h6>Full Name</h6>
+                  <h6 className="text-muted">
+                    {userDetail.name} {userDetail.last_name}
+                  </h6>
+                </div>
+
+                <div className="info">
+              <h6>Phone</h6>
+              <h6 className="text-muted">
+                {userDetail.phone ? userDetail.phone : "No phone founded"}
+              </h6>
             </div>
             <div className="info">
               <h6>Age</h6>
@@ -188,27 +205,25 @@ export default function UserProfile() {
                 {userDetail.age ? userDetail.age : "No age founded"}
               </h6>
             </div>
-
             <div className="info">
-              <h6>Type</h6>
-              <h6 className="text-muted">{userDetail.type}</h6>
-
-              <div className="info">
-                <h6>Phone</h6>
-                <h6 className="text-muted">
-                  {userDetail.phone ? userDetail.phone : "No phone founded"}
-                </h6>
-
-                <div className="info">
-                  <h6>Mobile-Phone</h6>
-                  <h6 className="text-muted">
-                    {userDetail.mobile
-                      ? userDetail.mobile
-                      : "No mobile founded"}
-                  </h6>
-                </div>
-              </div>
+              <h6>Adress</h6>
+              <h6 className="text-muted">
+                {userDetail.adress ? userDetail.adress : "No adress founded"}
+              </h6>
             </div>
+            <div className="info">
+              <h6>Identification</h6>
+              <h6 className="text-muted">
+                {userDetail.dni ? userDetail.dni : "No identification founded"}
+              </h6>
+            </div>
+              
+              </div>
+            )}
+
+            
+
+            
           </div>
         )}
       </div>
@@ -221,13 +236,15 @@ export default function UserProfile() {
         actualizar tipo de usuario
         etc */}
           <h6>2 NFT's bought</h6>
-          <h6>You dont have permitions to create an NFT ,you need to upgrade your account</h6>
-          <Link to="/myAccount/verify">
-            <div className="upgrade-button">Upgrade to Premium</div>
-          </Link>
-
+          <h6>
+            You dont have permitions to create an NFT ,you need to upgrade your
+            account
+          </h6>
+          <NavLink className='upgrade-button' to="/myAccount/verify">Upgrade to Premium
+            {/* <div className="upgrade-button">Upgrade to Premium</div> */}
+          </NavLink>
         </div>
-        <div className="history">
+        <div className="history-purchases">
           <PurchaseHistory props={history} />
         </div>
       </div>

@@ -1,63 +1,80 @@
-.pageSelector-Container{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    flex-wrap: wrap;
-    justify-content: center;
-    min-height: 650px;
-    align-items: center;
+.pages-all-container {
+  text-align: end;
 }
 
-.amount-nfts{
-    color: white;
-    font-size: 16px;
-    text-align: center;
-    margin: 12px;
+.dark {
+  background-color: black;
 }
 
-.ordering-buttons-nav{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: right;
-    height: 40px;
-    margin: 20px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid white;
+.pageSelector-Container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 650px;
+  align-items: center;
 }
 
-.ordering-buttons-nav select{
-    color: white;
-    background-color: transparent;
-    font-weight: 600;
-    border: none;
-    border: 2px solid rgb(3, 6, 21);
-    border-radius: 4px;
-    margin-right: 24px;
-    padding: 2px;
+.filter-icon {
+  color: #fff;
+  background-color: transparent;
+  cursor: pointer;
 }
 
-.ordering-buttons-nav option{
-    background-color: rgb(3, 6, 21);
+.amount-nfts {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  margin: 12px;
 }
 
-.cards-styles{
-    border-right: 1px solid white;
-    border-left: 1px solid white;
-    border-radius: 2px;
-    padding: 2px;
-    margin-left: 20px;
+.orders-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: right;
+  height: 40px;
+  padding: 40px 0;
+  margin-bottom: 5px;
 }
 
-.buttons-cards-styles{
-    background-color: transparent;
-    border: none;
-    color: white;
-    margin: 4px 12px;
-    padding: 0px;
+.orders-container select {
+  color: white;
+  background-color: #313c52;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  margin-right: 24px;
+  padding: 10px 15px;
 }
 
-.switch-dark-ligth{
-    margin-left: 20px;
+.ordering-buttons-nav option .light {
+  background-color: rgb(3, 6, 21);
+  font-size: 20px;
+}
+
+.ordering-buttons-nav option .dark {
+  background-color: rgb(3, 6, 21);
+  background-color: #313c52;
+  font-size: 20px;
+}
+
+.cards-styles {
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  border-radius: 2px;
+  padding: 2px;
+  margin-left: 20px;
+}
+
+.buttons-cards-styles {
+  background-color: transparent;
+  border: none;
+  color: white;
+  margin: 4px 12px;
+  padding: 0px;
+}
+
+.switch-dark-ligth {
+  margin-left: 20px;
 }

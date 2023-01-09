@@ -1,26 +1,23 @@
-import './Loading.css';
+import styles from "./stylesheets/Loading.module.css";
 
-export default function Loading(){
-    return (
-        <div className="loading-page-container">
-            <div className='loading-icon'>
-            <div className='triangles-container'>
-                <div className="triangles">
-                    <div className="tri invert"></div>
-                    <div className="tri invert"></div>
-                    <div className="tri"></div>
-                    <div className="tri invert"></div>
-                    <div className="tri invert"></div>
-                    <div className="tri"></div>
-                    <div className="tri invert"></div>
-                    <div className="tri"></div>
-                    <div className="tri invert"></div>
-                </div>
-            </div>
-                <h1 className="loading-message">
-                Loading..
-                </h1>
-            </div>
+export default function Loading() {
+  return (
+    <div className={styles["loading-page-container"]}>
+      <div className={styles["loading-icon"]}>
+        <div className={styles["triangles-container"]}>
+          <div className={styles["triangles"]}>
+            <div className={styles["tri invert"]}></div>
+            <div className={styles["tri invert"]}></div>
+            <div className={styles["tri"]}></div>
+            <div className={styles["tri invert"]}></div>
+            <div className={styles["tri invert"]}></div>
+            <div className={styles["tri"]}></div>
+            <div className={styles["tri invert"]}></div>
+            <div className={styles["tri"]}></div>
+            <div className={styles["tri invert"]}></div>
+          </div>
         </div>
-    )
+      </div>
+    </div>
+  );
 }

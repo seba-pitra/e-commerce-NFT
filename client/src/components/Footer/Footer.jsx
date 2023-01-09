@@ -1,11 +1,13 @@
 import React from "react";
-import "./Footer.css";
+// import "./Footer.css";
 
 import FacebookIcon from "@material-ui/icons/Facebook";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
+
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -120,10 +122,10 @@ export default function Footer() {
                   </a>
                 </p>
                 <p>
-                  <a href="#!" className="text-white">
+               <Link to="/mycollections" className="text-white">   
                     My Collections
-                  </a>
-                </p>
+               </Link>
+	  </p>
                 <p>
                   <a href="#!" className="text-white">
                     I am admin

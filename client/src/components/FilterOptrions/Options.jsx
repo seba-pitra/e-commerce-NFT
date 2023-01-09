@@ -9,7 +9,7 @@ export default function Options() {
   return (
     <div className="alllFilters-container">
       <Filtering />
-      <div className="options-container">
+      {/* <div className="options-container">
         <button
           className="resetfilters-btn"
           onClick={() => {
@@ -18,7 +18,7 @@ export default function Options() {
         >
           Reset Filters
         </button>
-      </div>
+      </div> */}
     </div>
   );
 }
