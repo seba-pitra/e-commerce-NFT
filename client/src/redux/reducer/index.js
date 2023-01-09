@@ -56,7 +56,7 @@ import {
 import * as controllers from "../../utils";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { loadLocalStorage, saveLocalStorage } from "../../utils";
+import { loadCartLocalStorage, saveCartLocalStorage } from "../../utils";
 
 const initialState = {
   nfts: [], //ok
@@ -421,7 +421,7 @@ const rootReducer = (state = initialState, action) => {
 
       const newShoppingCartContent = [...state.shoppingCartContents, action.payload];
 
-      saveLocalStorage(newShoppingCartContent);
+      saveCartLocalStorage(newShoppingCartContent);
 
       toast.success("NFT added to shopping cart successfully", {
         position: "bottom-left",
@@ -443,7 +443,7 @@ const rootReducer = (state = initialState, action) => {
         (nft) => nft.id !== action.payload
       );
 
-      saveLocalStorage(newShoppingCartContentRemoved);
+      saveCartLocalStorage(newShoppingCartContentRemoved);
 
       return {
         ...state,
@@ -460,6 +460,7 @@ const rootReducer = (state = initialState, action) => {
       return {
         ...state,
         userFavsNfts: action.payload,
+        //¿esta action se esta usando para colocar de nuevo lo que estaba en el local storage?
       };
 
     case DELETE_NFT_ON_SIGNOUT:

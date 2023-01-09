@@ -4,7 +4,7 @@ import { useHistory } from "react-router-dom";
 import GoogleIcon from "@mui/icons-material/Google";
 import * as helpers from "./LoginHelpers";
 import * as actions from "../../redux/actions";
-import { loadLocalStorage } from "../../utils";
+import { loadCartLocalStorage } from "../../utils";
 import styles from "./stylesheets/Login.module.css";
 
 // sendPasswordResetEmail
@@ -28,12 +28,12 @@ const Login = () => {
     if (user) {
       dispatch(actions.signInWithGoogle(user));
     }
-    loadLocalStorage(dispatch);
+    loadCartLocalStorage(dispatch);
   };
 
   const handdleSubmit = async (e) => {
     e.preventDefault();
-    loadLocalStorage(dispatch);
+    loadCartLocalStorage(dispatch);
     const userId = await helpers.logginFunction(logginForm);
     if (userId) {
       setLogginForm({

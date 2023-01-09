@@ -421,12 +421,20 @@ export function handleErrorLoginAndRegister(error) {
   }
 }
 
-export function saveLocalStorage(shoppingCartContents) {
-  localStorage.setItem("nftsOnShoppingCart", JSON.stringify(shoppingCartContents));
+export function saveCartLocalStorage(shoppingCartContents, userEmail) {
+  localStorage.setItem(userEmail, JSON.stringify(shoppingCartContents));
 }
 
-export function loadLocalStorage(dispatch) {
-  const localCart = JSON.parse(localStorage.getItem("nftsOnShoppingCart"));
-
+export function loadCartLocalStorage(dispatch, userEmail) {
+  const localCart = JSON.parse(localStorage.getItem(userEmail));
   if (localCart) dispatch(injectLocalStorageCart(localCart));
+}
+
+export function saveFavsLocalStorage(shoppingCartContents, userEmail) {
+  localStorage.setItem(userEmail+"favs", JSON.stringify(shoppingCartContents));
+}
+
+export function loadFavsLocalStorage(dispatch, userEmail) {
+  const localFavs = JSON.parse(localStorage.getItem(userEmail+"favs"));
+  if (localFavs) dispatch(injectLocalStorageCart(localFavs));
 }
