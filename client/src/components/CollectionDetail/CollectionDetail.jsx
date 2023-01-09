@@ -7,13 +7,17 @@ import { useDispatch } from "react-redux";
 import ethereumLogo from "../../images/ethereum-logo.png";
 import { useParams } from "react-router-dom";
 import VerifiedIcon from "@mui/icons-material/Verified";
-import styles from "./stylesheets/CollectionDetail.module.css";
+import stylesDark from "./stylesheets/DarkCollectionDetail.module.css";
+import stylesLight from "./stylesheets/LightCollectionDetail.module.css";
 
 const CollectionDetail = () => {
   const { id } = useParams();
 
   const collections = useSelector((state) => state.collections);
   const foundCollection = collections.find((coll) => coll.id === id);
+
+  const  isDark  = useSelector((state) => state.activeThemeIsDark);
+  console.log(isDark)
 
   console.log(foundCollection);
 
@@ -64,82 +68,82 @@ const CollectionDetail = () => {
   return (
     <div>
       {cards?.length === 0 ? (
-        <NotFoundResults />
+        <NotFoundResults /> 
       ) : (
-        <div className={styles["collection-details"]}>
-          <div className={styles["collection-details-container"]}>
-            <div className={styles["img-collection"]}>
+        <div className={ isDark ? stylesDark["collection-details"] : stylesLight["collection-details"] }>
+          <div className={ isDark ? stylesDark["collection-details-container"] : stylesLight["collection-details-container"] }>
+            <div className={ isDark ? stylesDark["img-collection"] : stylesLight["img-collection"] }>
               <img src={foundCollection?.image} alt="collection-detail" />
             </div>
-            <div className={styles["collection-titles"]}>
+            <div className={ isDark ? stylesDark["collection-titles"] : stylesLight["collection-titles"] }>
               <h1>
                 {foundCollection?.name} <VerifiedIcon />{" "}
               </h1>
               <span>
                 Created by{" "}
-                <span className={styles.negrita}>
+                <span className={ isDark ? stylesDark["negrita"] : stylesLight["negrita"] }>
                   {foundCollection?.user.name}
                 </span>
               </span>
             </div>
-            <span className={styles["collection-description"]}>
+            <span className={ isDark ? stylesDark["collection-description"] : stylesLight["collection-description"] }>
               {description}
             </span>
-            <div className={styles["collection-data"]}>
+            <div className={ isDark ? stylesDark["collection-data"] : stylesLight["collection-data"] }>
               <span>
                 Items{" "}
-                <span className={styles["collection-data-important"]}>
+                <span className={ isDark ? stylesDark["collection-data-important"] : stylesLight["collection-data-important"] }>
                   {amountNfts}
                 </span>
               </span>
               <span>
-                <span className={styles["collection-data-important"]}>-</span>
+                <span className={ isDark ? stylesDark["collection-data-important"] : stylesLight["collection-data-important"] }>-</span>
               </span>
               <span>
                 Created At{" "}
-                <span className={styles["collection-data-important"]}>
+                <span className={ isDark ? stylesDark["collection-data-important"] : stylesLight["collection-data-important"] }>
                   {date}
                 </span>
               </span>
               <span>
-                <span className={styles["collection-data-important"]}>-</span>
+                <span className={ isDark ? stylesDark["collection-data-important"] : stylesLight["collection-data-important"] }>-</span>
               </span>
               <span>
-                <span className={styles["collection-data-important"]}>
+                <span className={ isDark ? stylesDark["collection-data-important"] : stylesLight["collection-data-important"] }>
                   Ethereum
                 </span>
               </span>
               <span>
-                <span className={styles["collection-data-important"]}>-</span>
+                <span className={ isDark ? stylesDark["collection-data-important"] : stylesLight["collection-data-important"] }>-</span>
               </span>
               <span>
                 Creator commission{" "}
-                <span className={styles["collection-data-important"]}>5%</span>
+                <span className={ isDark ? stylesDark["collection-data-important"] : stylesLight["collection-data-important"] }>5%</span>
               </span>
             </div>
             <div className="d-flex justify-content-around w-100">
-              <span className={styles["ethereum-price-collection-detail"]}>
+              <span className={ isDark ? stylesDark["ethereum-price-collection-detail"] : stylesLight["ethereum-price-collection-detail"] }>
                 Collection Price <span>{collectionPrice?.toFixed(3)}</span>
                 <img
                   src={ethereumLogo}
                   alt="icon-ethereum"
-                  className={styles["ethereum-logo-price"]}
+                  className={ isDark ? stylesDark["ethereum-logo-price"] : stylesLight["ethereum-logo-price"] }
                 />
               </span>
-              <div className={styles["ethereum-price-collection-detail"]}>
+              <div className={ isDark ? stylesDark["ethereum-price-collection-detail"] : stylesLight["ethereum-price-collection-detail"] }>
                 Floor Price{" "}
                 <span>
                   {floorPrice?.toFixed(3)}{" "}
                   <img
                     src={ethereumLogo}
                     alt="icon-ethereum"
-                    className={styles["ethereum-logo-price"]}
+                    className={ isDark ? stylesDark["ethereum-logo-price"] : stylesLight["ethereum-logo-price"] }
                   />
                 </span>
               </div>
             </div>
           </div>
-          <div className={styles["collection-details-cards-container"]}>
+          <div className={ isDark ? stylesDark["collection-details-cards-container"] : stylesLight["collection-details-cards-container"] }>
             {cards}
           </div>
         </div>

@@ -1,3 +1,4 @@
+import * as actions from "../../redux/actions/index";
 import { React, useState } from "react";
 import { freeShoppingCartState } from "../../redux/actions";
 import { useLocation, useHistory } from "react-router-dom";
@@ -16,6 +17,7 @@ import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
 import { saveLocalStorage } from "../../utils";
 import "./NFTNav.css";
+import MaterialUISwitch from "../Pages/switch";
 import styles from "./stylesheets/NFTNav.module.css";
 
 import UserIcon from "./UserIcon/UserIcon";
@@ -69,6 +71,10 @@ export default function NFTNav() {
     setShowUserList(!showUserList);
   };
 
+  const onSwitch = () => {
+    dispatch(actions.toggleTheme());
+  };
+
   return (
     <div className={areWeInLanding ? "hidden" : "nav-bar"}>
       <Navbar className="brand-colorized-background-color" expand="lg">
@@ -119,6 +125,9 @@ export default function NFTNav() {
               <Link to="/developerTeam" className="brand-colorized-text">
                 Developer Team
               </Link>
+
+              <MaterialUISwitch className="switch-dark-ligth" onClick={onSwitch} />
+
               <div className="nav-bar-accountIcon">
                 <AccountCircleIcon onClick={(e) => handleShowUserList(e)} />
               </div>
