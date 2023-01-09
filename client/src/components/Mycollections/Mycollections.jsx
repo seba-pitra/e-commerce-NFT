@@ -20,7 +20,7 @@ function Mycollections() {
   const collectionsCards =
     loggedUser.collections &&
     loggedUser.collections.map((collection) => {
-      if (collection.nfts.length > 4) {
+      if (collection.nfts) {
         let floorPrice = 100;
         collection.nfts.map((nft) => {
           if (nft.price < floorPrice) floorPrice = nft.price;
