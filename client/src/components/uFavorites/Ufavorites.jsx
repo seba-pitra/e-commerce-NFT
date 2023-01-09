@@ -10,7 +10,7 @@ export default function Ufavorites() {
 
   return (
     <div className={styles["main-op"]}>
-      <div class="d-flex flex-row">
+      <div className="d-flex flex-row">
         {userFavs &&
           userFavs.map((idx) => {
             return (
