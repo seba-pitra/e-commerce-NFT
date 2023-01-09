@@ -21,7 +21,7 @@ const CardCarousel = ({ cards }) => {
   };
 
   useEffect(() => {
-    const interval = setInterval(handleNextClick, 7000);
+    const interval = setInterval(handleNextClick, 15000);
     return () => clearInterval(interval);
   }, []);
 

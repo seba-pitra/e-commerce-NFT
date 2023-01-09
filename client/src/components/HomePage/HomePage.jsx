@@ -8,6 +8,7 @@ import CardCarousel2 from "./Carousel/Carousel-stars";
 import CardCarousel3 from "./Carousel/Carousel-rarity";
 import CollectionCarousel from "./Carousel/Collections-home.jsx";
 import CollectionTable from "./Carousel/Collections-table.jsx";
+import UncontrolledExample from "./Carousel/Carousel.jsx";
 
 function HomePage() {
 	const nfts = useSelector((state) => state.nfts);
@@ -65,7 +66,13 @@ function HomePage() {
 
   return (
     <div className="main-container-homepage">
+			
 			<span className="verification-msj">If you want to sell nfts you must verify your account</span>
+
+			<div className="main-carousel-images">
+				<UncontrolledExample/> 
+			</div>
+
 			<h1>Explore, collect and sell NFTs</h1>
 
 			<div className="container-nfts">
@@ -76,9 +83,6 @@ function HomePage() {
 				<CollectionTable cards={collectionsSlice}/> 
 			</div>
 
-			{/* <div className="main-carousel-images">
-				<UncontrolledExample/> 
-			</div> */}
 
 			<div className="container-nfts">
 				<CardCarousel1 cards={nftsMostViews}/>
