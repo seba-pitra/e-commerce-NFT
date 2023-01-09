@@ -8,19 +8,12 @@ const sendMail = async (req, res) => {
 
 	// create transporter SMTP transport
 	let transporter = nodemailer.createTransport({
-		host: "mail.gruponucleon.com",
-		port: 587,
-		secure: false, // true for 465, false for other ports
+		service: "gmail",
 		auth: {
-			user: "andresarzate@gruponucleon.com", 
-			pass: "Henry-Nodejs-2022", 
+			user: "valcoellar@gmail.com", 
+			pass: "rnrlnllvfcbjcvsf", 
 		},
-		tls:{ 
-			secure: false,
-			ignoreTLS: true,
-			rejectUnauthorized: false
-		},
-	});  
+		});  
 
 	// messages ----------------------
 	if (accion == "error"){
