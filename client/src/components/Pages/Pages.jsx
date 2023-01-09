@@ -12,7 +12,14 @@ import FilterAltIcon from "@mui/icons-material/FilterAlt";
 import FilterOptions from "../FilterOptrions/Options";
 import { useState } from "react";
 import Filtering from "../FilterOptrions/Filtering/Filtering";
-import "./Pages.css";
+
+// THEME imports
+import "./Pages.css"; // tema ligth
+// import "./Pages2.css"; // tema dark
+import styles from "./stylesheets/Pages.module.css";
+
+import { toggleTheme } from "../../redux/actions";
+import { useEffect } from "react";
 
 function Pages() {
   const filteredNfts = useSelector((state) => state.filteredNfts);
@@ -59,9 +66,84 @@ function Pages() {
       />
     );
   });
-  // THEME SWITCHER
 
+  // THEME SWITCHER
   const activeThemeIsDark = useSelector((state) => state.activeThemeIsDark);
+
+  let navToShow;
+  //The nav content depends of the user's screen width.
+  if (window.screen.width > 975) {
+    //If the widht is less than 957
+    const containerDesktop = (
+      <div className={styles["orders-container"]}>
+        <Filtering />
+
+        <select defaultValue="itemsxpage" onChange={(e) => setNftPage(e)}>
+          <option disabled value="itemsxpage">
+            Items-Page
+          </option>
+          <option value="40">40</option>
+          <option value="80">80</option>
+          <option value="120">120</option>
+          <option value="160">160</option>
+          <option value="200">200</option>
+        </select>
+
+        <PageSelector />
+
+        <Ordering />
+
+        <div className={styles["cards-styles"]}>
+          <button
+            className={styles["buttons-cards-styles"]}
+            onClick={() => setViewCards("clear")}
+          >
+            <ImageIcon />
+          </button>
+          <button
+            className={styles["buttons-cards-styles"]}
+            onClick={() => setViewCards("info")}
+          >
+            <SubtitlesIcon />
+          </button>
+        </div>
+
+        <span className="amount-nfts">
+          <b>{filteredNfts.length}</b> items
+        </span>
+      </div>
+    );
+    navToShow = containerDesktop;
+  } else {
+    // If the widht is greater than 957
+    const containerPhone = (
+      <div className={styles["orders-container"]}>
+        <Filtering />
+
+        <Ordering />
+
+        <div className={styles["cards-styles"]}>
+          <button
+            className={styles["buttons-cards-styles"]}
+            onClick={() => setViewCards("clear")}
+          >
+            <ImageIcon />
+          </button>
+          <button
+            className={styles["buttons-cards-styles"]}
+            onClick={() => setViewCards("info")}
+          >
+            <SubtitlesIcon />
+          </button>
+        </div>
+
+        <span className="amount-nfts">
+          <b>{filteredNfts.length}</b> items
+        </span>
+      </div>
+    );
+    navToShow = containerPhone;
+  }
 
   // el primer div className condicional para el tema
   return (
@@ -69,41 +151,9 @@ function Pages() {
       {cards.length === 0 ? (
         <NotFoundResults />
       ) : (
-        <div className="pages-all-container">
-          <div className="orders-container">
-            <select onChange={(e) => setNftPage(e)}>
-              <option disabled value="itemsxpage">Items-Page</option>
-              <option value="40">40</option>
-              <option value="80">80</option>
-              <option value="120">120</option>
-              <option value="160">160</option>
-              <option value="200">200</option>
-            </select>
-            <Filtering />
-            <Ordering />
-            <div className="cards-styles">
-              <button
-                className="buttons-cards-styles"
-                onClick={() => setViewCards("clear")}
-              >
-                <ImageIcon />
-              </button>
-              <button
-                className="buttons-cards-styles"
-                onClick={() => setViewCards("info")}
-              >
-                <SubtitlesIcon />
-              </button>
-            </div>
-          </div>
-
-          <span className="amount-nfts">
-            <b>{filteredNfts.length}</b> items
-          </span>
-
-          <PageSelector />
-          <div className="pageSelector-Container">{cards}</div>
-          <PageSelector />
+        <div className={styles["pages-all-container"]}>
+          {navToShow}
+          <div className={styles["cards-container"]}>{cards}</div>
         </div>
       )}
     </div>
