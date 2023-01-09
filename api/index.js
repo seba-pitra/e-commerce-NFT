@@ -8,3 +8,9 @@ conn.sync({ alter: true }).then(() => {
     console.log(`%s listening at ${port}`); // eslint-disable-line no-console
   });
 });
+
+
+
+
+
+className={ isDark ? stylesDark["collection-details-cards-container"] : stylesLight["collection-details-cards-container"] }
