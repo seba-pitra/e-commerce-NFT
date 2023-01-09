@@ -39,14 +39,6 @@ export default function CreateCollection({
     render = true;
   };
 
-  // useEffect(() => {
-  //   setCreatedCollection((prev) => ({
-  //     ...prev,
-  //     userId: user.id,
-  //   }));
-  //   render = false;
-  // }, [user, render]);
-
   return (
     <>
       <div className={styles["create-collection-container"]}>
@@ -62,11 +54,10 @@ export default function CreateCollection({
             {user.collections?.map((collection) => (
               <div className={styles["created-collections"]}>
                 <label htmlFor={collection.id}>
-                  <b>{collection.name}</b>{" "}
+                  <b>{collection.name}</b>
                 </label>
                 <input
                   type="checkbox"
-                  key={collection.id}
                   value={collection.id}
                   onClick={(e) => {
                     selectCollection(e);
@@ -117,7 +108,9 @@ export default function CreateCollection({
       </div>
       <div className="buttons-next-prev-container">
         <button
-          className={createdNft.collectionId ? "button-next" : "disabled"}
+          className={
+            createdNft.collectionId ? styles["button-next"] : styles["disabled"]
+          }
           onClick={next}
           disabled={createdNft.collectionId === undefined}
         >

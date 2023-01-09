@@ -5,16 +5,19 @@ import { toast } from "react-toastify";
 export const GET_ALL_USERS = "GET_ALL_USERS";
 export const GET_ALL_ADMIN_USERS = "GET_ALL_ADMIN_USERS";
 export const GET_USER_BY_ID = "GET_USER_BY_ID";
-export const GET_LOGGED_USER = "GET_LOGGED_USER";
-export const REMOVE_LOGGED_USER = "REMOVE_LOGGED_USER";
 export const REGISTER_USER = "REGISTER_USER";
 export const SIGN_IN_WITH_GOOGLE = "SIGN_IN_WITH_GOOGLE";
+export const LOG_IN = "LOG_IN"
+export const LOG_OUT = "LOG_OUT";
+export const LOG_IN_SUCCESS = "LOG_IN_SUCCESS";
+export const ASKED_FOR_VERIFICATION = "ASKED_FOR_VERIFICATION";
 
 // -- GETTERS --
 export const GET_ALL_NFTS = "GET_ALL_NFTS";
+export const GET_NFT_DETAIL = "GET_NFT_DETAIL";
 export const GET_ALL_ADMIN_NFTS = "GET_ALL_ADMIN_NFTS";
 export const GET_ALL_COLLECTIONS = "GET_ALL_COLLECTIONS";
-export const GET_NFT_DETAIL = "GET_NFT_DETAIL";
+export const GET_COLLECTION_DETAIL = "GET_COLLECTION_DETAIL";
 
 // -- ADMIN ACTIONS --
 export const CREATE_NFT = "CREATE_NFT";
@@ -68,7 +71,6 @@ export const LOCAL_STORAGE_FAVS = "LOCAL_STORAGE_FAVS";
 // -- SHOPPING KART --
 export const ADD_NFT_ON_SHOOPING_CART = "ADD_NFT_ON_SHOOPING_CART";
 export const REMOVE_NFT_OF_SHOOPING_CART = "REMOVE_NFT_OF_SHOOPING_CART";
-export const BUY_NFT_ON_SHOOPING_CART = "BUY_NFT_ON_SHOOPING_CART";
 export const DELETE_NFT_ON_SIGNOUT = "DELETE_NFT_ON_SIGNOUT";
 export const ADD_BUY_AT_HISTORY_BUYS = "ADD_BUY_AT_HISTORY_BUYS";
 
@@ -96,7 +98,6 @@ export const getAllNfts = () => {
     dispatch({ type: LOADING });
     try {
       const allNfts = await axios.get("/nft");
-      console.log(allNfts.data.length);
       dispatch({ type: GET_ALL_NFTS, payload: allNfts.data });
     } catch (e) {
       toast.error("Something was wrong. Try again later", {
@@ -135,6 +136,20 @@ export const getAllCollections = () => {
   };
 };
 
+export const getCollectionById = (id) => {
+  return async (dispatch) => {
+    dispatch({type : LOADING});
+    try {
+      const collectionDetail = await axios.get(`/collection/${id}`);
+      dispatch({ type: GET_COLLECTION_DETAIL, payload: collectionDetail.data});
+    } catch (error) {
+      toast.error("Something was wrong. Try again later", {
+        position: "bottom-left",
+      });
+    }
+  }
+}
+
 export const getNftDetail = (id) => {
   return async (dispatch) => {
     dispatch({ type: LOADING });
@@ -143,7 +158,6 @@ export const getNftDetail = (id) => {
       dispatch({ type: GET_NFT_DETAIL, payload: nftId.data });
     } catch (e) {
       toast.error("Something was wrong. Try again later");
-      // console.log(e.response.data);
     }
   };
 };
@@ -165,17 +179,14 @@ export const getAllUsers = () => {
   return async (dispatch) => {
     try {
       const allUsers = await axios.get("/user");
-      console.log(allUsers.data);
       dispatch({ type: GET_ALL_USERS, payload: allUsers.data });
     } catch (e) {
       toast.error("Something was wrong. Try again later", {
         position: "bottom-left",
       });
-      // console.log(e.message);
     }
   };
 };
-
 export const getUserByID = (id) => {
   return async (dispatch) => {
     dispatch({ type: LOADING });
@@ -202,18 +213,16 @@ export const updateUser = (body) => {
     }
   };
 };
-
 export const registerUser = (userData) => {
   return async (dispatch) => {
     try {
       const newUser = await axios.post("/user/register", userData);
       dispatch({ type: REGISTER_USER });
     } catch (error) {
-      throw new Error(error.message);
+      toast.error("Something was wrong. Try again later");
     }
   };
 };
-
 export const signInWithGoogle = (userData) => {
   return async (dispatch) => {
     try {
@@ -224,21 +233,34 @@ export const signInWithGoogle = (userData) => {
     }
   };
 };
-
-export const getLoggedUser = (id) => {
+export const logOutUser = () => {
+  return { type: LOG_OUT };
+};
+export const logInUser = (id) => {
   return async (dispatch) => {
+    dispatch({ type: LOADING });
     try {
       const loggedUser = await axios.get(`/user/${id}`);
-      dispatch({ type: GET_LOGGED_USER, payload: loggedUser.data });
+      dispatch({ type: LOG_IN, payload: loggedUser.data });
     } catch (error) {
-      toast.error("Logged user doesn exist", { position: "bottom-left" });
+      toast.error("Can't get user data from back. Try again later", { position: "bottom-left" });
     }
   };
 };
+export const successfulLogin = () => {
+  return { type : LOG_IN_SUCCESS }
+}
 
-export const removeLoggedUser = () => {
-  return { type: REMOVE_LOGGED_USER };
-};
+export const askForVerification = (userData) => {
+  return async (dispatch) => {
+    try {
+      const response = await axios.get(`/user/ask/${userData.userId}`, userData);
+      dispatch({ type: ASKED_FOR_VERIFICATION, payload: response.data.message})
+    } catch (error) {
+      toast.error("Something went wrong with verification request", { position: "bottom-left" });
+    }
+  };
+}
 
 // --- SETTERS ---
 
@@ -361,7 +383,7 @@ export const createCollection = (payload) => {
   return async (dispatch) => {
     try {
       const createdNft = await axios.post(`/collection/create`, payload);
-      dispatch({ type: CREATE_COLLECTION, payload: createdNft.data }); // msj desde el back
+      dispatch({ type: CREATE_COLLECTION, payload: createdNft.data }); // el back devuelve la collection creada
 
       toast.success("Collection created successfully", {
         position: "bottom-left",
@@ -385,7 +407,6 @@ export const deleteNft = (id) => {
       toast.error("Something was wrong. Try again later", {
         position: "bottom-left",
       });
-      console.log(e.response.data);
     }
   };
 };
@@ -414,13 +435,17 @@ export const addViewNft = (id) => {
   };
 };
 
-export const addStars = (payload) => {
+export const addReview = (payload) => {
   return async () => {
     try {
-      console.log("id", payload.id);
-      console.log("rating", payload.rating);
-      await axios.put(`/nft/addStar/${payload.id}`, { rating: payload.rating });
+      const { userId, nftId, value } = payload;
+      const response = await axios.post(`/review/create`, {
+        userId : userId,
+        nftId : nftId,
+        value : value
+      });
     } catch (error) {
+      console.error(error.response.data);
       toast.error(error.response.data, { position: "bottom-left" });
     }
   };
@@ -452,9 +477,6 @@ export const removeNftOfShoppingCart = (nftId) => {
   return { type: REMOVE_NFT_OF_SHOOPING_CART, payload: nftId };
 };
 
-export const gettingActiveUserToState = (payload) => {
-  return { type: GET_ACTIVE_USER, payload };
-};
 
 export const injectLocalStorageCart = (payload) => {
   return { type: LOCAL_STORAGE_CART, payload };
@@ -493,7 +515,6 @@ export const sendFungibleMail = (sendData) => {
 
 // --- FAVS ---
 export const addToFav = (payload) => {
-  console.log(payload);
   return { type: ADD_FAV, payload };
 };
 
