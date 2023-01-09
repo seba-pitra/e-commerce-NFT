@@ -117,7 +117,9 @@ export default function CreateCollection({
       </div>
       <div className="buttons-next-prev-container">
         <button
-          className={createdNft.collectionId ? "button-next" : "disabled"}
+          className={
+            createdNft.collectionId ? styles["button-next"] : styles["disabled"]
+          }
           onClick={next}
           disabled={createdNft.collectionId === undefined}
         >

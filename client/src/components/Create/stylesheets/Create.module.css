@@ -86,11 +86,8 @@
   border-bottom: solid 1px #1c2331;
 }
 
-.button-next,
-.create-back-button,
-.categories-back-button,
-.button-create,
-.upload-file {
+.upload-file,
+.button-create {
   border: none;
   cursor: pointer;
   height: 45px;
