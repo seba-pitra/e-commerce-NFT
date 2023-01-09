@@ -13,7 +13,7 @@
 }
 
 .collection-details-container span{
-  color: #BDBDBD;
+  color: #9E9E9E;
   font-size: 18px;
 }
 
@@ -42,7 +42,7 @@
   padding: 0px 60px;
   margin: 10px 20px;
   width: 100%;
-  color: #BDBDBD;
+  color: #9E9E9E;
 }
 
 .collection-titles h1{
@@ -65,7 +65,7 @@
 
 
 .collection-description {
-  color: #BDBDBD;
+  color: #9E9E9E;
   font-size: 18px;
   padding: 0px 68px;
   margin: 0 15px;
@@ -75,7 +75,7 @@
 
 @media (max-width: 1050px) {
   .collection-description {
-    color: #BDBDBD;
+    color: #9E9E9E;
     font-size: 18px;
     padding: 0px 16px;
     margin: 0 0px;
