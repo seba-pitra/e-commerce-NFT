@@ -6,7 +6,7 @@ import EditIcon from "@material-ui/icons/Edit";
 import DoneIcon from "@material-ui/icons/Done";
 import PurchaseHistory from "../../PurchaseHistory/PurchaseHistory";
 import { Link } from "react-router-dom";
-import "./UserProfile.css";
+// import "./UserProfile.css";
 
 export default function UserProfile(props) {
   const { id } = useParams();

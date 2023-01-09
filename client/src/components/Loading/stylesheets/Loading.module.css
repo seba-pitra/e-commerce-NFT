@@ -16,21 +16,18 @@
   position: relative;
   background-color: #1c2331;
   min-height: 92vh;
-  padding-top: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .loading-icon {
   display: flex;
   flex-direction: row;
   position: relative;
-  width: 300px;
-  margin: auto;
   color: white;
-}
-
-.loading-message {
-  margin-top: auto;
-  margin-bottom: auto;
 }
 
 .triangles {
