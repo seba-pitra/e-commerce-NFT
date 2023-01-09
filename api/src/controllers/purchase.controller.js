@@ -4,63 +4,42 @@ const { Purchase, User, Nft } = require("../db");
 // Crear una nueva compra y agregarla a la base de datos
 const createNewPurchase = async (req, res) => {
   try {
-    // Obtiene los valores del cuerpo de la solicitud
     const { payMethod, price, statusPay, buyerId, sellerId, nftIds } = req.body;
-    
-    // Si alguno de los valores especificados es `null` o `undefined`, lanza un error
     if (!payMethod || !price || !buyerId || !sellerId || !nftIds) {
       throw new Error("There are missing values");
     }
-    
-    // Busca al comprador y al vendedor de acuerdo a sus IDs
     const buyer = await User.findByPk(buyerId);
     const seller = await User.findByPk(sellerId);
-    
-    // Si no se encuentra al comprador, lanza un error
     if (!buyer) throw new Error(`No buyer found with id : ${buyerId}`);
-    
-    // Si no se encuentra al vendedor, lanza un error
     if (!seller) throw new Error(`No buyer found with id : ${seller}`);
-    
-    // Busca los NFTs que se están comprando, verificando que el vendedor sea el propietario de estos
     const tokens = await Nft.findAll({
       where: { id: nftIds, userId : sellerId },
     });
-    
-    // Si la cantidad de NFTs encontrados es menor a la cantidad de IDs especificados, lanza un error
     if (tokens.length < nftIds.length) {
       throw new Error(
         "Something went wrong, check that all NFTs you are trying to buy belong to the seller and are available for purchase"
       );
     }
-    
-    // Crea una nueva compra en la base de datos con los valores especificados
     const newPurchase = await Purchase.create({
       price: price,
       payMethod: payMethod,
       statusPay: statusPay,
     });
-    
-    // Establece las relaciones entre la compra y el comprador, vendedor y los NFTs involucrados
     await newPurchase.setBuyer(buyer);
     await newPurchase.setSeller(seller);
     await newPurchase.addTokens(tokens);
-    
-    // Si el pago fue exitoso, actualiza los propietarios de los NFTs
+    await newPurchase.save();
     if(newPurchase.statusPay === "Successful") {
       await seller.removeNfts(tokens)
       await buyer.addNfts(tokens);
     }
     
-    // Busca la compra recién creada y devuelve su información, incluyendo los detalles del comprador, vendedor y los NFTs involucrados
     const response = await Purchase.findByPk(newPurchase.id, {
       include: [{ model: User, as: "buyer" }, { model: User, as: "seller" }, { model: Nft, as: "tokens" }],
     });
-    
-    // Devuelve una respuesta con el estado 201 y la información de la compra
+  
     res.status(201).json(response);
   } catch (err) {
-    // Si ocurre un error, lo imprime en la consola y devuelve una respuesta con el error
     console.error(err);
     res.status(400).send({ error: err.message });
   }
