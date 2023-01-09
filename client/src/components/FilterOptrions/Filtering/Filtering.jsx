@@ -184,9 +184,12 @@ export default function Filtering() {
               </label>
             </AccordionSummary>
             <AccordionDetails>
-              {collections.map((collection) => {
+              {collections.map((collection, index) => {
                 return (
-                  <div className="input-checkbox">
+                  <div
+                    key={index}
+                    className="input-checkbox"
+                    >
                     <label htmlFor={collection.id}>{collection.name}</label>
                     <input
                       type="checkbox"
@@ -213,9 +216,9 @@ export default function Filtering() {
               </label>
             </AccordionSummary>
             <AccordionDetails>
-              {category.Species?.map((specie) => {
+              {category.Species?.map((specie, index) => {
                 return (
-                  <div className="input-checkbox">
+                  <div key={index} className="input-checkbox">
                     <label htmlFor={specie}>{specie}</label>
                     <input
                       type="checkbox"
@@ -242,9 +245,9 @@ export default function Filtering() {
               </label>
             </AccordionSummary>
             <AccordionDetails>
-              {category.Species2?.map((specie) => {
+              {category.Species2?.map((specie, index) => {
                 return (
-                  <div className="input-checkbox">
+                  <div key={index} className="input-checkbox">
                     <label htmlFor={specie}>{specie}</label>
                     <input
                       type="checkbox"
@@ -271,9 +274,9 @@ export default function Filtering() {
               </label>
             </AccordionSummary>
             <AccordionDetails>
-              {category.Art?.map((specie) => {
+              {category.Art?.map((specie, index) => {
                 return (
-                  <div className="input-checkbox">
+                  <div key={index} className="input-checkbox">
                     <label htmlFor={specie}>{specie}</label>
                     <input
                       type="checkbox"
@@ -300,9 +303,9 @@ export default function Filtering() {
               </label>
             </AccordionSummary>
             <AccordionDetails>
-              {category.Type?.map((specie) => {
+              {category.Type?.map((specie, index) => {
                 return (
-                  <div className="input-checkbox">
+                  <div key={index} className="input-checkbox">
                     <label htmlFor={specie}>{specie}</label>
                     <input
                       type="checkbox"
@@ -329,9 +332,9 @@ export default function Filtering() {
               </label>
             </AccordionSummary>
             <AccordionDetails>
-              {category.Style?.map((value) => {
+              {category.Style?.map((value, index) => {
                 return (
-                  <div className="input-checkbox">
+                  <div key={index} className="input-checkbox">
                     <label htmlFor={value}>{value}</label>
                     <input
                       type="checkbox"
@@ -358,9 +361,9 @@ export default function Filtering() {
               </label>
             </AccordionSummary>
             <AccordionDetails>
-              {category.Rest?.map((value) => {
+              {category.Rest?.map((value, index) => {
                 return (
-                  <div className="input-checkbox">
+                  <div key={index} className="input-checkbox">
                     <label htmlFor={value}>{value}</label>
                     <input
                       type="checkbox"
@@ -387,9 +390,9 @@ export default function Filtering() {
               </label>
             </AccordionSummary>
             <AccordionDetails>
-              {category.Backg?.map((value) => {
+              {category.Backg?.map((value, index) => {
                 return (
-                  <div className="input-checkbox">
+                  <div key={index} className="input-checkbox">
                     <label htmlFor={value}>{value}</label>
                     <input
                       type="checkbox"

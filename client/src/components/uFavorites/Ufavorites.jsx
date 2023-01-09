@@ -7,11 +7,10 @@ import Button from "react-bootstrap/Button";
 
 export default function Ufavorites() {
   const userFavs = useSelector((state) => state.userFavs);
-  console.log(userFavs);
 
   return (
     <div className={styles["main-op"]}>
-      <div class="d-flex flex-row">
+      <div className="d-flex flex-row">
         {userFavs &&
           userFavs.map((idx) => {
             return (

@@ -13,7 +13,7 @@ const registerUser = async (req, res) => {
     res.status(200).json(newUser);
   } catch (err) {
     console.log(err.message);
-    res.status(404).json({ error: err.message });
+    res.status(404).json({ message: err.message, error_detail : err });
   }
 };
 
@@ -37,25 +37,15 @@ const signInWithGoogle = async (req, res) => {
 
 const getAllUsers = async (req, res) => {
   try {
-    const allUsers =
-      req.query.deleted === "include"
-        ? await User.findAll({
+    const allUsers =  await User.findAll({
             include: [
               { model: Nft },
               { model: Collection },
               { model: Purchase, as: "sales" },
               { model: Purchase, as: "purchases" },
             ],
-            paranoid: false,
+            paranoid: req.query.deleted === "include" ? false : true
           })
-        : await User.findAll({
-            include: [
-              { model: Nft },
-              { model: Collection },
-              { model: Purchase, as: "sales" },
-              { model: Purchase, as: "purchases" },
-            ],
-          });
     if (allUsers.length === 0) {
       throw new Error(`No users found on database`);
     } else {
@@ -193,6 +183,7 @@ const userAsksForVerification = async (req, res) => {
         await user.save();
         return res.status(200).json({
           user: user,
+          message: "Verification Reques Successful"
         });
       } else if (user.type === "VerificationInProcess") {
         res

@@ -116,31 +116,17 @@ export default function UserProfile(props) {
     setType(e.target.value);
   };
 
-  const handleUpdate = (e) => {
-    e.preventDefault();
-    let body = {
-      type: type,
+    const handleUpdate = (e) => {
+      e.preventDefault();
+      let body = {
+        type: type,
+      };
+      dispatch(actions.updateUser(id, body)).then((data) => {
+        setUpdate(!update);
+        setEdit(!edit);
+      });
     };
-    dispatch(actions.updateUser(id, body)).then((data) => {
-      setUpdate(!update);
-      setEdit(!edit);
-    });
-  };
 
-  const validateUser = () => {
-    let loginStatusStorage = localStorage.getItem("Logged");
-    if (loginStatusStorage === "Estoy loggeado") {
-      dispatch(actions.getUserByID(id));
-    } else {
-      navHistory.push("/");
-    }
-  };
-
-  useEffect(() => {
-    validateUser();
-  }, [dispatch, id]);
-
-  console.log(userDetails);
   return (
     <div className="main-container">
       <button onClick={() => navHistory.goBack()} className="back-button">

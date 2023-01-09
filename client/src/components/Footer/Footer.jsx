@@ -122,12 +122,10 @@ export default function Footer() {
                   </a>
                 </p>
                 <p>
-                  <Link to="/mycollections">
-                    <a href="#!" className="text-white">
-                      My Collections
-                    </a>
-                  </Link>
-                </p>
+               <Link to="/mycollections" className="text-white">   
+                    My Collections
+               </Link>
+	  </p>
                 <p>
                   <a href="#!" className="text-white">
                     I am admin

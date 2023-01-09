@@ -148,7 +148,7 @@ export default function UserProfile() {
             className="profile-pic"
             src={userDetail.profile_pic}
             alt="avatar"
-            referrerpolicy="no-referrer"
+            referrerPolicy="no-referrer"
           />
           <p className="text-muted mb-1">{userDetail.username}</p>
           <img
@@ -158,7 +158,7 @@ export default function UserProfile() {
               "https://iconsplace.com/wp-content/uploads/_icons/ffc0cb/256/png/edit-icon-12-256.png"
             }
             alt="edit-info"
-            referrerpolicy="no-referrer"
+            referrerPolicy="no-referrer"
             onClick={() => {
               handleEdit();
             }}

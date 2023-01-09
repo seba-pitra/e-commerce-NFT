@@ -12,6 +12,7 @@ import RestoreIcon from "@material-ui/icons/Restore";
 
 import "./NFTsCard_dash.css";
 
+//Por favor no olvidarse de eliminar los console.logs antes de entregar
 const NFTsCard_dash = ({ id, name, price, userId, deletedAt }) => {
   const [edit, setEdit] = useState(false);
   const [priceState, setPriceState] = useState("");
@@ -26,7 +27,6 @@ const NFTsCard_dash = ({ id, name, price, userId, deletedAt }) => {
   const handlePriceChange = (e) => {
     setPriceState(e.target.value);
   };
-
   const handleDelete = async (e) => {
     try {
       const res = await axios.delete(`/nft/${id}`);
@@ -44,7 +44,6 @@ const NFTsCard_dash = ({ id, name, price, userId, deletedAt }) => {
       res.data && setDeleted(false);
       console.log(res.data);
     } catch (error) {
-      console.log(error.message);
       toast.error("Something was wrong. try again later");
     }
   };

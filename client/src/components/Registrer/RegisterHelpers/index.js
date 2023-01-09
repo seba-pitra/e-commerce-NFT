@@ -37,13 +37,10 @@ export const createUser = async (signUpData) => {
 };
 
 const sendEmail = () => {
-  try {
-    sendEmailVerification(auth.currentUser);
-    toast.success(
-      "You have successfully registered. Please, check your email for verify",
-      { position: "bottom-left", autoClose: false }
-    );
-  } catch (err) {
-    handleErrorLoginAndRegister(err);
-  }
+    sendEmailVerification(auth.currentUser).then(() => {
+      toast.success(
+        "You have successfully registered. Please, check your email for verify",
+        { position: "bottom-left", autoClose: false }
+      );
+    }).catch(err => {console.error(err);});
 };

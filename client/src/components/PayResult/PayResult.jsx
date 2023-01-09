@@ -13,13 +13,11 @@ function PayResult(props) {
   let firebaseCurrentUser = JSON.parse(
     localStorage.getItem("firebaseCurrentUser")
   );
-  const activeUserIs = useSelector((state) => state.activeUser);
-  const loggedUser = useSelector((state) => state.loggedUser);
 
-  let userNfts = JSON.parse(localStorage.getItem("nftsOnShoppingCart"));
+  let shoppingCartContents = JSON.parse(localStorage.getItem("nftsOnShoppingCart"));
 
   let totalAmount = 0;
-  for (const nft of userNfts) {
+  for (const nft of shoppingCartContents) {
     totalAmount += nft.price;
   }
 
@@ -107,14 +105,12 @@ function PayResult(props) {
     price: totalAmount,
     payMethod: "MercadoPago",
     statusPay: "Created",
-    purchases: userNfts,
+    purchases: shoppingCartContents,
   };
 
   const validate =
     window.location.href.includes("collection_status") &&
     window.location.href.includes("external_reference");
-
-  console.log("loggedUser", firebaseCurrentUser);
 
   if (validate) {
     if (window.location.href.includes("success")) {

@@ -11,18 +11,15 @@ import styles from "./stylesheets/CollectionDetail.module.css";
 
 const CollectionDetail = () => {
   const { id } = useParams();
-
-  const collections = useSelector((state) => state.collections);
-  const foundCollection = collections.find((coll) => coll.id === id);
-
-  console.log(foundCollection);
+  //modificado para que traiga mediante el fetch de id y no que traiga todas las colecciones y filtre.
+  const collectionDetail = useSelector((state) => state.collectionDetail); 
 
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(actions.getAllCollections());
+    dispatch(actions.getCollectionById(id));
     dispatch(actions.getEthPrice());
-  }, [dispatch]);
+  }, [dispatch, id]);
 
   let collectionPrice = 0,
     amountNfts = 0,
@@ -30,8 +27,7 @@ const CollectionDetail = () => {
     floorPrice = 100,
     createdAt = 0;
 
-  const cards = foundCollection?.nfts.map((nft) => {
-    console.log(nft);
+  const cards = collectionDetail?.nfts.map((nft) => {
     collectionPrice = nft.price + collectionPrice;
     amountNfts++;
     if (description === "No description") description = nft.description;
@@ -57,7 +53,7 @@ const CollectionDetail = () => {
     );
   });
 
-  let date = new Date(createdAt);
+  let date = new Date(collectionDetail.createdAt); 
   date = date.toString();
   date = date.slice(4, 16);
 
@@ -69,16 +65,16 @@ const CollectionDetail = () => {
         <div className={styles["collection-details"]}>
           <div className={styles["collection-details-container"]}>
             <div className={styles["img-collection"]}>
-              <img src={foundCollection?.image} alt="collection-detail" />
+              <img src={collectionDetail?.image} alt="collection-detail" />
             </div>
             <div className={styles["collection-titles"]}>
               <h1>
-                {foundCollection?.name} <VerifiedIcon />{" "}
+                {collectionDetail?.name} <VerifiedIcon />{" "}
               </h1>
               <span>
                 Created by{" "}
                 <span className={styles.negrita}>
-                  {foundCollection?.user.name}
+                  {collectionDetail?.user.name}
                 </span>
               </span>
             </div>
