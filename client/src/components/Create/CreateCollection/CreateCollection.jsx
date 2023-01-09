@@ -52,17 +52,9 @@ export default function CreateCollection({
           <h4>Choose the collection in which your nft will be created</h4>
           <div className={styles["div-created-collections"]}>
             {user.collections?.map((collection) => (
-<<<<<<< HEAD
-              <div
-              key={collection.id}
-              className="created-collections">
-                <label htmlFor={collection.id}>
-                  <b>{collection.name}</b>
-=======
               <div className={styles["created-collections"]}>
                 <label htmlFor={collection.id}>
-                  <b>{collection.name}</b>{" "}
->>>>>>> origin/development
+                  <b>{collection.name}</b>
                 </label>
                 <input
                   type="checkbox"

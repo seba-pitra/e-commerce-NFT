@@ -17,29 +17,17 @@ const PurchaseHistory = ({ props }) => {
       )}
 
       {props &&
-<<<<<<< HEAD
         props.map((elem, index) => {
-          return(
-          <div 
-            key={index}
-            className="history-title-container">
-            <div className="sale">{elem.price} Eth</div>
-            <div className="from">{elem.contract}</div>
-            <div className="to">{elem.contract}</div>
-            <div className="date">{elem.createdAt}</div>
-          </div>)
-        })} 
-=======
-        props.map((elem) => {
           return (
-            <div className={styles["history-title-container"]}>
+            <div 
+            key={index}
+            className={styles["history-title-container"]}>
               <div className={styles["from"]}>{elem.contract}</div>
               <div className={styles["to"]}>{elem.contract}</div>
               <div className={styles["date"]}>{elem.createdAt}</div>
             </div>
           );
         })}
->>>>>>> origin/development
     </div>
   );
 };
