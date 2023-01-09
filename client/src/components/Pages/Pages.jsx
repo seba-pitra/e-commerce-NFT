@@ -78,8 +78,8 @@ function Pages() {
       <div className={styles["orders-container"]}>
         <Filtering />
 
-        <select onChange={(e) => setNftPage(e)}>
-          <option disabled selected value="null">
+        <select defaultValue="itemsxpage" onChange={(e) => setNftPage(e)}>
+          <option disabled value="itemsxpage">
             Items-Page
           </option>
           <option value="40">40</option>

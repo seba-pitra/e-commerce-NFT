@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { validateUserData } from "../../../utils";
-import "./UserVerify.css";
 import styles from "./stylesheets/UserVerify.module.css";
 
 export default function UserBasicInfo({ userData, setUserData, next }) {

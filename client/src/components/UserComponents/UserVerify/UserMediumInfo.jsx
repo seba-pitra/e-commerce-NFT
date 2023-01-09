@@ -7,8 +7,6 @@ import * as actions from "../../../redux/actions/index";
 import CloudinaryImageInput2 from "../../Create/CloudinaryImageInput/CloudinaryImageInput2";
 import styles from "./stylesheets/UserVerify.module.css";
 
-import "./UserVerify.css";
-
 export default function UserMediumInfo({ userData, setUserData, next, back }) {
   const user = useSelector((state) => state.loggedUser);
   const img =
