@@ -1,3 +1,4 @@
+import * as actions from "../../redux/actions/index";
 import { React, useState } from "react";
 import { useLocation } from "react-router-dom";
 import { Container, Nav, Navbar } from "react-bootstrap";
@@ -8,17 +9,20 @@ import FavoriteIcon from "@material-ui/icons/Favorite";
 import Shoppingkart from "../Shoppingkart/Shoppingkart";
 import Ufavorites from "../uFavorites/Ufavorites.jsx";
 import Offcanvas from "react-bootstrap/Offcanvas";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
+import MaterialUISwitch from "../Pages/switch";
 
 import UserIcon from "./UserIcon/UserIcon";
 import ProfilePicture from "../UserComponents/ProfilePicture/Profile.Picture";
 
-import styles from "./stylesheets/NFTNav.module.css";
+// import styles from "./stylesheets/NFTNav.module.css";
 import "./NFTNav.css";
 
 export default function NFTNav() {
   const location = useLocation();
+
+  const dispatch = useDispatch();
 
   const [show, setShow] = useState(false);
   const [showFav, setShowFav] = useState(false);
@@ -38,6 +42,10 @@ export default function NFTNav() {
   const handleShowUserList = (e) => {
     e.preventDefault();
     setShowUserList(!showUserList);
+  };
+
+  const onSwitch = () => {
+    dispatch(actions.toggleTheme());
   };
 
   return (
@@ -90,7 +98,13 @@ export default function NFTNav() {
               <Link to="/developerTeam" className="brand-colorized-text">
                 Developer Team
               </Link>
-              <ProfilePicture handleShowUserList={handleShowUserList}/>
+
+              <MaterialUISwitch className="switch-dark-ligth" onClick={onSwitch} />
+
+              <div className="nav-bar-accountIcon">
+               <ProfilePicture handleShowUserList={handleShowUserList}/>
+              </div>
+
               {/* favorite */}
 
               <button className="control-icon" onClick={handleShowFav}>
