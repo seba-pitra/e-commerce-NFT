@@ -10,24 +10,6 @@ import VerifiedIcon from "@mui/icons-material/Verified";
 
 function Mycollections() {
   const loggedUser = useSelector((state) => state.loggedUser);
-  const history = useHistory();
-  const dispatch = useDispatch();
-  let loginStatusStorage = localStorage.getItem("Logged");
-
-  useEffect(() => {
-    validateUser();
-  }, [dispatch]);
-
-  const validateUser = async () => {
-    if (loginStatusStorage) {
-      dispatch(actions.getAllNfts());
-      dispatch(actions.getAllCollections());
-    } else {
-      history.push("/");
-    }
-  };
-
-  const collections = useSelector((state) => state.collections);
   const isLoading = useSelector((state) => state.isLoading);
 
   // -------------------
@@ -38,7 +20,7 @@ function Mycollections() {
   const collectionsCards =
     loggedUser.collections &&
     loggedUser.collections.map((collection) => {
-      if (collection.nfts.length > 4) {
+      if (collection.nfts) {
         let floorPrice = 100;
         collection.nfts.map((nft) => {
           if (nft.price < floorPrice) floorPrice = nft.price;

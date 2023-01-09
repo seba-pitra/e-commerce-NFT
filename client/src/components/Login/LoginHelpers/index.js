@@ -13,14 +13,6 @@ export const signGoogle = async () => {
       profile_pic: auth.currentUser.photoURL,
     };
 
-    // await axios.post("user/google/signin", user);
-
-    // const userDb = await axios.get(`user/${user.id}`);
-
-    // localStorage.setItem("currentUser", JSON.stringify(userDb));
-
-    console.log("user", user);
-
     return user;
   } catch (error) {
     handleErrorLoginAndRegister(error);
@@ -39,10 +31,11 @@ export const logginFunction = async (logginForm) => {
       let err = { code: "Email not verified" };
       throw err;
     }
+    
 
     // await axios.post("/payment/userEmail", auth.currentUser);
 
-    return responseFirebase.user;
+    return responseFirebase.user.uid;
   } catch (error) {
     handleErrorLoginAndRegister(error);
     await signOut(auth);

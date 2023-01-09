@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { useHistory } from "react-router-dom";
 import GoogleIcon from "@mui/icons-material/Google";
 import * as helpers from "./LoginHelpers";
@@ -11,7 +11,6 @@ import styles from "./stylesheets/Login.module.css";
 const Login = () => {
   const dispatch = useDispatch();
   const history = useHistory();
-
   const [logginForm, setLogginForm] = useState({
     email: "",
     password: "",
@@ -26,42 +25,35 @@ const Login = () => {
 
   const handleLogInGoogle = async () => {
     const user = await helpers.signGoogle();
-
     if (user) {
       dispatch(actions.signInWithGoogle(user));
-      history.push("/marketplace");
     }
-
     loadLocalStorage(dispatch);
   };
 
   const handdleSubmit = async (e) => {
     e.preventDefault();
     loadLocalStorage(dispatch);
-
-    const userFirebaseFound = await helpers.logginFunction(logginForm);
-
-    if (userFirebaseFound) {
-      history.push("/home");
-
+    const userId = await helpers.logginFunction(logginForm);
+    if (userId) {
       setLogginForm({
         email: "",
         password: "",
       });
+      dispatch(actions.logInUser(userId));
     }
   };
 
   return (
-    <form>
+    <form onSubmit={handdleSubmit}>
       <div className="form-outline mb-4">
-        <label className="form-label text-light" for="EmailField">
+        <label className="form-label text-light" htmlFor="email">
           Email address
         </label>
         <input
           onChange={handdleChange}
           name="email"
           type="email"
-          id="EmailField"
           className="form-control form-control-lg col-md-2"
           placeholder="example@gmail.com"
           value={logginForm.email}
@@ -69,7 +61,7 @@ const Login = () => {
       </div>
 
       <div className="form-outline mb-3">
-        <label className="form-label text-light" for="PassField">
+        <label className="form-label text-light" htmlFor="PassField">
           Password
         </label>
         <input
@@ -80,6 +72,7 @@ const Login = () => {
           className="form-control form-control-lg"
           placeholder="Enter password"
           value={logginForm.password}
+          autoComplete="off"
         />
       </div>
 

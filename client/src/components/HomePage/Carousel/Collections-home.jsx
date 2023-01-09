@@ -8,7 +8,7 @@ const CollectionCarousel = ({ cards }) => {
   const handleNextClick = () => {
     const nextRange = [currentCardsRange[0] + 3, currentCardsRange[1] + 3, currentCardsRange[2] + 3];
     console.log(nextRange)
-    if (nextRange[2] > cards.length +1) setCurrentCardsRange([0, 1, 2]);
+    if (nextRange[2] > cards.length) setCurrentCardsRange([0, 1, 2]);
     else setCurrentCardsRange(nextRange);
   };
 
@@ -19,42 +19,40 @@ const CollectionCarousel = ({ cards }) => {
   };
 
   useEffect(() => {
-    const interval = setInterval(handleNextClick, 7000);
+    const interval = setInterval(handleNextClick, 15000);
     return () => clearInterval(interval);
   }, []);
 
   if(cards.length > 0) {
-    let floorPrice = 100
-    cards[0].nfts?.map(nft => { if(nft.price < floorPrice) floorPrice = nft.price })
+    
 
     return (
       <div className="main-conteiner-cards">
-        <div className="conteiner-cards-buttons">
+        <div className="conteiner-cards-buttons collections-buttons">
           <button onClick={handlePrevClick}>{"<"}</button>
           <div className='conteiner-collections'>
-            {currentCardsRange.map(index => (
-              <Link to={`/collections/${cards[index].id}`} className="nolink">
-              <div className="collections-conteiner">
-                <img className="collections-img-main" src={cards[index].image} alt="img-collections" />
+            {currentCardsRange.map(index => {
+              
+              let floorPrice = 100
+              cards[index].nfts?.map(nft => { if(nft.price < floorPrice) floorPrice = nft.price })
+              
+              return (
+                <Link to={`/collections/${cards[index].id}`} className="nolink">
+                  <div className="collections-conteiner">
+                    <img className="collections-img-main" src={cards[index].image} alt="img-collections" />
 
-                <div className="img-name-conteiner">
-                  <img className="collections-img-owner" src={cards[index].nfts[0].image} alt="img-collections" />
-                  <div>
+                    <div className="name-floor-conteiner">
+                        <div className="collection-name-conteiner">
+                          <VerifiedIcon />
+                          <h6 className="collections-name"> {cards[index].name} </h6>
+                        </div>
+                        <h6 className="collections-name"> {" "} Floor: {floorPrice.toFixed(3)} ETH</h6>
+                    </div>
 
-                    <div className="collection-name-conteiner">
-                      <VerifiedIcon />
-                      <h3 className="collections-name"> {cards[index].name} </h3>
-                    </div>
-                    
-                    <div className="collection-name-conteiner">
-                      <h3 className="collections-name"> {" "} Floor Price ETH: {floorPrice.toFixed(3)} </h3>
-                    </div>
                   </div>
-                </div>
-
-              </div>
-              </Link>
-            ))}
+                </Link>
+              )
+            })}
           </div>
           <button onClick={handleNextClick}>{">"}</button>
         </div>

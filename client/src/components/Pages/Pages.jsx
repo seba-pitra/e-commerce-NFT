@@ -5,10 +5,8 @@ import NFTCard from "../NFTCard/NFTCard";
 import NotFoundResults from "../NotFoundResults/NotFoundResults";
 import Ordering from "../FilterOptrions/Ordering/Ordering";
 import PageSelector from "../PageSelector/PageSelector";
-// import "./Pages.css";
 import SubtitlesIcon from "@mui/icons-material/Subtitles";
 import ImageIcon from "@mui/icons-material/Image";
-import MaterialUISwitch from "./switch";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import FilterAltIcon from "@mui/icons-material/FilterAlt";
 import FilterOptions from "../FilterOptrions/Options";
@@ -71,10 +69,6 @@ function Pages() {
 
   // THEME SWITCHER
   const activeThemeIsDark = useSelector((state) => state.activeThemeIsDark);
-
-  const onSwitch = () => {
-    dispatch(toggleTheme());
-  };
 
   let navToShow;
   //The nav content depends of the user's screen width.
