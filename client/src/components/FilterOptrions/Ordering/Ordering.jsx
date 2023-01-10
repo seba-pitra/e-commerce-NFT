@@ -6,7 +6,7 @@ import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import SortIcon from "@mui/icons-material/Sort";
 import Offcanvas from "react-bootstrap/Offcanvas";
 
-import "./Ordering.css";
+import styles from "./stylesheets/Ordering.module.css";
 
 export default function Ordering() {
   //estos estados son para cambiar el estilo.
@@ -72,7 +72,7 @@ export default function Ordering() {
   };
 
   return (
-    <div className="sort-container">
+    <div className={styles["sort-container"]}>
       <SortIcon className="sort-icon" fontSize="large" onClick={handleShow} />
       <Offcanvas
         show={showOrders}
@@ -89,7 +89,9 @@ export default function Ordering() {
           <div className="button-list">
             <button
               id="name-option"
-              className={nameOrderUp ? "btn-order-down" : "btn-order-up"}
+              className={
+                nameOrderUp ? styles["btn-order-down"] : styles["btn-order-up"]
+              }
               onClick={() => orderByName()}
             >
               Name
@@ -101,7 +103,9 @@ export default function Ordering() {
             </button>
             <button
               id="price-option"
-              className={priceOrderUp ? "btn-order-down" : "btn-order-up"}
+              className={
+                priceOrderUp ? styles["btn-order-down"] : styles["btn-order-up"]
+              }
               onClick={() => orderByPrice()}
             >
               Price
@@ -113,7 +117,11 @@ export default function Ordering() {
             </button>
             <button
               id="rarity-option"
-              className={rarityOrderUp ? "btn-order-down" : "btn-order-up"}
+              className={
+                rarityOrderUp
+                  ? styles["btn-order-down"]
+                  : styles["btn-order-up"]
+              }
               onClick={() => orderByRarity()}
             >
               Rarity
@@ -125,7 +133,9 @@ export default function Ordering() {
             </button>
             <button
               id="favs-option"
-              className={favsOrderUp ? "btn-order-down" : "btn-order-up"}
+              className={
+                favsOrderUp ? styles["btn-order-down"] : styles["btn-order-up"]
+              }
               onClick={() => orderByFavs()}
             >
               Favs
@@ -138,7 +148,9 @@ export default function Ordering() {
 
             <button
               id="stars-option"
-              className={starsOrderUp ? "btn-order-down" : "btn-order-up"}
+              className={
+                starsOrderUp ? styles["btn-order-down"] : styles["btn-order-up"]
+              }
               onClick={() => orderByStars()}
             >
               Stars
@@ -151,7 +163,11 @@ export default function Ordering() {
 
             <button
               id="lastbuy-option"
-              className={lastBuyOrderUp ? "btn-order-down" : "btn-order-up"}
+              className={
+                lastBuyOrderUp
+                  ? styles["btn-order-down"]
+                  : styles["btn-order-up"]
+              }
               onClick={() => orderByLastBuy()}
             >
               LastBuy
@@ -164,7 +180,11 @@ export default function Ordering() {
 
             <button
               id="createdts-option"
-              className={createdTsOrderUp ? "btn-order-down" : "btn-order-up"}
+              className={
+                createdTsOrderUp
+                  ? styles["btn-order-down"]
+                  : styles["btn-order-up"]
+              }
               onClick={() => orderByCreatedTs()}
             >
               Created At

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import * as actions from "../../../redux/actions";
 import { useDispatch } from "react-redux";
-import "./PriceSelector.css";
+import styles from "./stylesheets/PriceSelector.module.css";
 
 const App = () => {
   const dispatch = useDispatch();
@@ -13,7 +13,6 @@ const App = () => {
   });
 
   const currencies = ["ETH", "USD", "ARS"];
-
 
   const handleMinChange = (e) => {
     setRange({ ...range, min: parseFloat(e.target.value) });
@@ -32,28 +31,31 @@ const App = () => {
     dispatch(actions.filterNfts());
   };
 
+  // className={styles[]}
+
   return (
     <form
-      className="filters-price-container"
+      className={styles["filters-price-container"]}
       onSubmit={(e) => handleRangeSubmit(e)}
-    > 
+    >
       <label>Price : </label>
-      <select 
-
-        onChange={(e) => { handleCurrencyClick(e) }}>
-        <option disabled value="price">Select currency</option>
+      <select
+        onChange={(e) => {
+          handleCurrencyClick(e);
+        }}
+      >
+        <option disabled value="price">
+          Select currency
+        </option>
         {currencies.map((currency, index) => {
           return (
-            <option
-              key={index}
-              value={currency}
-            >
+            <option key={index} value={currency}>
               {currency}
             </option>
           );
         })}
       </select>
-      <div className="testeandoooo2323232">
+      <div className={styles["max-min-container"]}>
         <div>
           <label htmlFor="min">Min: </label>
           <input
@@ -64,7 +66,7 @@ const App = () => {
             onChange={(e) => handleMinChange(e)}
             min="0"
             step="0.00001"
-            />
+          />
         </div>
         <div>
           <label htmlFor="max">Max: </label>

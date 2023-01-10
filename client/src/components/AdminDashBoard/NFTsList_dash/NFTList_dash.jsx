@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
-import "./NFTList_dash.css";
+import styles from "./stylesheets/NFTList_dash.module.css";
 
 // Components
 import NFTsCard_dash from "../NFTsCard_dash/NFTsCard_dash";
@@ -77,10 +77,11 @@ const NFTList_dash = ({ users, nfts, verifyingUsers }) => {
     setCp(cp - 1);
   };
 
-  // if (!nfts.length) return <h1>Loading</h1>;
+  // className={styles[]}
+
   return (
-    <div className="nfts-dash-container">
-      <div className="nft-dash-search-container">
+    <div className={styles["nfts-dash-container"]}>
+      <div className={styles["nft-dash-search-container"]}>
         <label htmlFor="">
           Search by name:
           <input onChange={search} type="text" />
@@ -88,7 +89,7 @@ const NFTList_dash = ({ users, nfts, verifyingUsers }) => {
         <p>
           Showing {nftsxPage} out of {filteredNFTs.length}
         </p>
-        <div className="nft-dash-show-container">
+        <div className={styles["nft-dash-show-container"]}>
           <label htmlFor="nftsxPage">Show: </label>
           <select onChange={handleShowChange} name="nftsxPage">
             <option value={10}>10</option>
@@ -106,49 +107,50 @@ const NFTList_dash = ({ users, nfts, verifyingUsers }) => {
           </button>
         </div>
       </div>
+
       {/* Conditional Div (nft/user) */}
       {users ? (
-        <div className="dash-nfts-titles">
-          <div className="dash-users-NameTitle">
+        <div className={styles["dash-nfts-titles"]}>
+          <div className={styles["dash-users-NameTitle"]}>
             <p>Username</p>
           </div>
-          <div className="dash-users-EmailTitle">
+          <div className={styles["dash-users-EmailTitle"]}>
             <p>email</p>
           </div>
-          <div className="dash-users-TypeTitle">
+          <div className={styles["dash-users-TypeTitle"]}>
             <p>Type</p>
           </div>
         </div>
       ) : verifyingUsers ? (
-        <div className="dash-nfts-titles">
-          <div className="dash-vUsers-fn">
+        <div className={styles["dash-nfts-titles"]}>
+          <div className={styles["dash-vUsers-fn"]}>
             <p>Full Name</p>
           </div>
-          <div className="dash-vUsers-dni">
+          <div className={styles["dash-vUsers-dni"]}>
             <p>DNI</p>
           </div>
-          <div className="dash-vUsers-age">
+          <div className={styles["dash-vUsers-age"]}>
             <p>Age</p>
           </div>
-          <div className="dash-vUsers-pn">
+          <div className={styles["dash-vUsers-pn"]}>
             <p>PhoneNumber</p>
           </div>
-          <div className="dash-vUsers-nc">
+          <div className={styles["dash-vUsers-nc"]}>
             <p>Nacionality</p>
           </div>
-          <div className="dash-vUsers-pps">
+          <div className={styles["dash-vUsers-pps"]}>
             <p>User Pictures</p>
           </div>
         </div>
       ) : (
-        <div className="dash-nfts-titles">
-          <div className="dash-nfts-NameTitle">
+        <div className={styles["dash-nfts-titles"]}>
+          <div className={styles["dash-nfts-NameTitle"]}>
             <p>Name</p>
           </div>
-          <div className="dash-nfts-PriceTitle">
+          <div className={styles["dash-nfts-PriceTitle"]}>
             <p>Price</p>
           </div>
-          <div className="dash-nfts-UserIdTitle">
+          <div className={styles["dash-nfts-UserIdTitle"]}>
             <p>UserId</p>
           </div>
         </div>
@@ -157,7 +159,7 @@ const NFTList_dash = ({ users, nfts, verifyingUsers }) => {
       {/* Conditional Div (nft/user) */}
       {/* Conditional Div (nft/user) */}
       {users ? (
-        <div className="dash-nfts-list">
+        <div className={styles["dash-nfts-list"]}>
           {displayNFTs.map((user) => (
             <UserCard_dash
               key={`usc${user.id}`}
@@ -170,7 +172,7 @@ const NFTList_dash = ({ users, nfts, verifyingUsers }) => {
           ))}
         </div>
       ) : verifyingUsers ? (
-        <div className="dash-nfts-list">
+        <div className={styles["dash-nfts-list"]}>
           {displayNFTs.map((user) => (
             <VUserCard_dash
               key={`vusc${user.id}`}
@@ -188,7 +190,7 @@ const NFTList_dash = ({ users, nfts, verifyingUsers }) => {
           ))}
         </div>
       ) : (
-        <div className="dash-nfts-list">
+        <div className={styles["dash-nfts-list"]}>
           {displayNFTs.map((nft) => (
             <NFTsCard_dash
               key={`nft${nft.id}`}

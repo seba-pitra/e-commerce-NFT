@@ -49,12 +49,14 @@ export default function NFTNav() {
     setShowUserList(!showUserList);
   };
 
-
   const onSwitch = () => {
     dispatch(actions.toggleTheme());
-// Theme LocalStorage Saver 
-	  console.log(activeThemeIsDark); 
-localStorage.setItem(JSON.stringify(loggedUser.email+'theme'),JSON.stringify(activeThemeIsDark));
+    // Theme LocalStorage Saver
+    console.log(activeThemeIsDark);
+    localStorage.setItem(
+      JSON.stringify(loggedUser.email + "theme"),
+      JSON.stringify(activeThemeIsDark)
+    );
   };
 
   // className={styles[]}
@@ -81,14 +83,14 @@ localStorage.setItem(JSON.stringify(loggedUser.email+'theme'),JSON.stringify(act
               Explore
             </Link>
             <Link
-              // className={styles["nav-bar-link"]}
-              className={`brand-colorized-text ${
-                loggedUser
-                  ? loggedUser.type === "Basic"
-                    ? styles["noneDisplay"]
-                    : styles["nav-bar-link"]
-                  : ""
-              }`}
+              className={styles["nav-bar-link"]}
+              // className={`brand-colorized-text ${
+              //   loggedUser
+              //     ? loggedUser.type === "Basic"
+              //       ? styles["noneDisplay"]
+              //       : styles["nav-bar-link"]
+              //     : ""
+              // }`}
               to="/createNft"
             >
               Create

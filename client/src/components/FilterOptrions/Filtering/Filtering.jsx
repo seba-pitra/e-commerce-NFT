@@ -5,7 +5,6 @@ import { useDispatch } from "react-redux";
 import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
-import "./Filtering.css";
 import PriceSelector from "../PriceSelector/PriceSelector";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
@@ -169,7 +168,7 @@ export default function Filtering() {
         <Offcanvas.Body className={styles["offcanvas-body"]}>
           <Accordion
             style={{
-              backgroundColor: "#424242",
+              backgroundColor: "#757575",
               color: "white",
             }}
           >
@@ -185,10 +184,7 @@ export default function Filtering() {
             <AccordionDetails>
               {collections.map((collection, index) => {
                 return (
-                  <div
-                    key={index}
-                    className="input-checkbox"
-                    >
+                  <div key={index} className="input-checkbox">
                     <label htmlFor={collection.id}>{collection.name}</label>
                     <input
                       type="checkbox"
@@ -206,7 +202,7 @@ export default function Filtering() {
           </Accordion>
           <Accordion
             style={{
-              backgroundColor: "#424242",
+              backgroundColor: "#757575",
               color: "white",
               cursor: "pointer",
             }}
@@ -241,7 +237,7 @@ export default function Filtering() {
           </Accordion>
           <Accordion
             style={{
-              backgroundColor: "#424242",
+              backgroundColor: "#757575",
               color: "white",
               cursor: "pointer",
             }}
@@ -276,7 +272,7 @@ export default function Filtering() {
           </Accordion>
           <Accordion
             style={{
-              backgroundColor: "#424242",
+              backgroundColor: "#757575",
               color: "white",
               cursor: "pointer",
             }}
@@ -311,7 +307,7 @@ export default function Filtering() {
           </Accordion>
           <Accordion
             style={{
-              backgroundColor: "#424242",
+              backgroundColor: "#757575",
               color: "white",
               cursor: "pointer",
             }}
@@ -346,7 +342,7 @@ export default function Filtering() {
           </Accordion>
           <Accordion
             style={{
-              backgroundColor: "#424242",
+              backgroundColor: "#757575",
               color: "white",
               cursor: "pointer",
             }}
@@ -381,7 +377,7 @@ export default function Filtering() {
           </Accordion>
           <Accordion
             style={{
-              backgroundColor: "#424242",
+              backgroundColor: "#757575",
               color: "white",
               cursor: "pointer",
             }}
@@ -416,7 +412,7 @@ export default function Filtering() {
           </Accordion>
           <Accordion
             style={{
-              backgroundColor: "#424242",
+              backgroundColor: "#757575",
               color: "white",
               cursor: "pointer",
             }}
@@ -451,7 +447,7 @@ export default function Filtering() {
           </Accordion>
           <Accordion
             style={{
-              backgroundColor: "#424242",
+              backgroundColor: "#757575",
               color: "white",
               cursor: "pointer",
             }}

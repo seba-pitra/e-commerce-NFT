@@ -29,13 +29,15 @@
   margin: 30px;
 }
 
-.conteiner-cards-buttons {
+.conteiner-cards-buttons,
+.conteiner-collections-buttons {
   display: flex;
   width: 100%;
   color: white;
 }
 
-.conteiner-cards-buttons button {
+.conteiner-cards-buttons button,
+.conteiner-collections-buttons button {
   position: relative;
   top: 150px;
   width: 36px;
@@ -45,6 +47,11 @@
   font-size: 28px;
   cursor: pointer;
   color: whitesmoke;
+}
+
+.conteiner-collections-buttons button,
+.conteiner-collections-buttons button:hover {
+  top: 224px;
 }
 
 .conteiner-cards-buttons button:hover {
@@ -143,14 +150,27 @@
   width: 100%;
 }
 
-.conteiner-collections-tables-div {
+.conteiner-collections-tables-left-div {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 760px;
+  border-right: 1px solid rgb(59, 59, 59);
+}
+
+.conteiner-collections-tables-left-div span {
+  color: rgb(170, 170, 170);
+  font-size: 12px;
+}
+
+.conteiner-collections-tables-right-div {
   display: flex;
   flex-direction: column;
   width: 50%;
   height: 760px;
 }
 
-.conteiner-collections-tables-div span {
+.conteiner-collections-tables-right-div span {
   color: rgb(170, 170, 170);
   font-size: 12px;
 }
