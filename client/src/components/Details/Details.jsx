@@ -9,6 +9,7 @@ import { startPayment } from "../../utils";
 import StarRating from "../StarRating/StarRating";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import axios from 'axios';
 
 const Details = (props) => {
   const dispatch = useDispatch();
@@ -17,7 +18,7 @@ const Details = (props) => {
   const { id } = props.match.params;
   const nftDetail = useSelector((state) => state.nftDetail);
   const isLoading = useSelector((state) => state.isLoading);
-
+  const userDetail = useSelector((state) => state.loggedUser)
   const [error, setError] = useState();
   const [txs, setTxs] = useState([]);
 
@@ -42,7 +43,9 @@ const Details = (props) => {
       contract: nftDetail.contract,
       payMethod: "Metamask",
       statusPay: "Created",
-      purchases: [nftDetail],
+      nftIds: [nftDetail.id],
+      buyerId: userDetail.id,
+      sellerId : nftDetail.user.id
     };
 
     if (transactionMetamask.hash) {
@@ -54,6 +57,7 @@ const Details = (props) => {
         ...buyData,
         statusPay: "Successful",
       };
+
     } else if (transactionMetamask.includes("rejected")) {
       //si se rechazo en metamask
       toast.error("Something was wrong. Try again later", {
@@ -73,8 +77,12 @@ const Details = (props) => {
         statusPay: "Pending",
       };
     }
-
-    dispatch(actions.addBuyAtHistoryBuys(buyData));
+    console.log(buyData);
+    // console.log(transactionMetamask);
+    // console.log(userDetail)
+    let newPurchase = await axios.post(`/purchase/create/`,buyData)
+    console.log(newPurchase)
+    
   };
 
   const handleClickOnShoppingCart = (e) => {

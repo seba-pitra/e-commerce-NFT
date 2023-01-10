@@ -57,14 +57,14 @@ function App() {
   });
 
 
-  // funcion para consologuear el estado siempre que se modifique
-  // DESCOMENTAR PARA TESTING
-  /* useEffect(() => {
+  // // funcion para consologuear el estado siempre que se modifique
+  // // DESCOMENTAR PARA TESTING
+   useEffect(() => {
     const unsubscribe = store.subscribe(() => {
-      console.log(store.getState())
+       console.log(store.getState())
     })
     return unsubscribe
-  }, [store]) */
+   }, [store]) 
 
   return (
     <div className="App">

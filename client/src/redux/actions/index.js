@@ -493,7 +493,7 @@ export const freeShoppingCartState = () => {
 export const buyNftOnShoppingCart = (nftsOnShoppingCart) => {
   return async (dispatch) => {
     const buyApi = await axios.post(`/payment`, nftsOnShoppingCart);
-
+    console.log(buyApi)
     window.location.replace(buyApi.data.sandbox_init_point); // => prueba
     // window.location.replace(buyApi.data.init_point);
   };
