@@ -53,7 +53,7 @@ const App = () => {
               {currency}
             </option>
           );
-        })}
+        })} 
       </select>
       <div className={styles["max-min-container"]}>
         <div>

@@ -18,8 +18,9 @@ export default function Shoppingkart() {
   const handleBuyNftsOnShoppingCart = async () => {
     //localStorage for payment for mercago pago in component "PayResult"
     localStorage.setItem("nftsOnShoppingCart", JSON.stringify(shoppingCartContents));
-
     dispatch(actions.buyNftOnShoppingCart(shoppingCartContents));
+    console.log(shoppingCartContents)
+    localStorage.setItem("compras", JSON.stringify(shoppingCartContents))
     // test only >> dispatch(actions.sendFungibleMail({correoUser: "yomero@gmail.com",accion: "pago"}));
   };
 

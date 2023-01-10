@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useHistory } from "react-router-dom";
-import EditIcon from "@material-ui/icons/Edit";
-import DoneIcon from "@material-ui/icons/Done";
+
 import PurchaseHistory from "../../PurchaseHistory/PurchaseHistory";
 import EditUserInfo from "../EditUserInfo/EditUserInfo";
 // import EditUserInfo from "./../EditUserInfo";
