@@ -76,9 +76,7 @@ const CollectionDetail = () => {
               <img src={foundCollection?.image} alt="collection-detail" />
             </div>
             <div className={ isDark ? stylesDark["collection-titles"] : stylesLight["collection-titles"] }>
-              <h1>
-                {foundCollection?.name} <VerifiedIcon />{" "}
-              </h1>
+              <h1> {foundCollection?.name} <VerifiedIcon />{" "} </h1>
               <span>
                 Created by{" "}
                 <span className={ isDark ? stylesDark["negrita"] : stylesLight["negrita"] }>
@@ -86,62 +84,36 @@ const CollectionDetail = () => {
                 </span>
               </span>
             </div>
+            <div className={ isDark ? stylesDark["collection-data"] : stylesLight["collection-data"] }>
+              <span>
+                Items{" "} <span className={ isDark ? stylesDark["negrita"] : stylesLight["negrita"] }> {amountNfts} </span>
+              </span>
+              <span>
+                Created At{" "} <span className={ isDark ? stylesDark["negrita"] : stylesLight["negrita"] }> {date} </span>
+              </span>
+              <span>
+                <span className={ isDark ? stylesDark["negrita"] : stylesLight["negrita"] }> Ethereum </span>
+              </span>
+              <span> Creator commission{" "} <span className={ isDark ? stylesDark["negrita"] : stylesLight["negrita"] }>5%</span>
+              </span>
+            </div>
+
             <span className={ isDark ? stylesDark["collection-description"] : stylesLight["collection-description"] }>
               {description}
             </span>
-            <div className={ isDark ? stylesDark["collection-data"] : stylesLight["collection-data"] }>
-              <span>
-                Items{" "}
-                <span className={ isDark ? stylesDark["collection-data-important"] : stylesLight["collection-data-important"] }>
-                  {amountNfts}
-                </span>
-              </span>
-              <span>
-                <span className={ isDark ? stylesDark["collection-data-important"] : stylesLight["collection-data-important"] }>-</span>
-              </span>
-              <span>
-                Created At{" "}
-                <span className={ isDark ? stylesDark["collection-data-important"] : stylesLight["collection-data-important"] }>
-                  {date}
-                </span>
-              </span>
-              <span>
-                <span className={ isDark ? stylesDark["collection-data-important"] : stylesLight["collection-data-important"] }>-</span>
-              </span>
-              <span>
-                <span className={ isDark ? stylesDark["collection-data-important"] : stylesLight["collection-data-important"] }>
-                  Ethereum
-                </span>
-              </span>
-              <span>
-                <span className={ isDark ? stylesDark["collection-data-important"] : stylesLight["collection-data-important"] }>-</span>
-              </span>
-              <span>
-                Creator commission{" "}
-                <span className={ isDark ? stylesDark["collection-data-important"] : stylesLight["collection-data-important"] }>5%</span>
-              </span>
-            </div>
-            <div className="d-flex justify-content-around w-100">
-              <span className={ isDark ? stylesDark["ethereum-price-collection-detail"] : stylesLight["ethereum-price-collection-detail"] }>
-                Collection Price <span>{collectionPrice?.toFixed(3)}</span>
-                <img
-                  src={ethereumLogo}
-                  alt="icon-ethereum"
-                  className={ isDark ? stylesDark["ethereum-logo-price"] : stylesLight["ethereum-logo-price"] }
-                />
-              </span>
-              <div className={ isDark ? stylesDark["ethereum-price-collection-detail"] : stylesLight["ethereum-price-collection-detail"] }>
-                Floor Price{" "}
-                <span>
-                  {floorPrice?.toFixed(3)}{" "}
-                  <img
-                    src={ethereumLogo}
-                    alt="icon-ethereum"
-                    className={ isDark ? stylesDark["ethereum-logo-price"] : stylesLight["ethereum-logo-price"] }
-                  />
-                </span>
+            
+            <div className={ isDark ? stylesDark["price-collection"] : stylesLight["price-collection"] }>
+              <div className={ isDark ? stylesDark["price-collection-detail"] : stylesLight["price-collection-detail"] }>
+                <span className={ isDark ? stylesDark["negrita"] : stylesLight["negrita"] }>{collectionPrice?.toFixed(3)} ETH</span> 
+                <span>Volumen</span>
+              </div>
+              <div className={ isDark ? stylesDark["price-collection-detail"] : stylesLight["price-collection-detail"] }>
+                <span className={ isDark ? stylesDark["negrita"] : stylesLight["negrita"] }>{floorPrice?.toFixed(3)} ETH</span> 
+                <span>Floor</span>
               </div>
             </div>
+
+
           </div>
           <div className={ isDark ? stylesDark["collection-details-cards-container"] : stylesLight["collection-details-cards-container"] }>
             {cards}

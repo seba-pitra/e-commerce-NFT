@@ -34,15 +34,22 @@ const UserIcon = ({ setVisible, visible }) => {
   };
 
   return (
-    <ul className={`user-icon-list ${visible ? "" : "noneDisplay"}`}>
-      <li onClick={setVisible}>
-        <Link className="user-icon-list-link" to="/myAccount">
-          My Acount
-        </Link>
-      </li>
+	  <ul className={`user-icon-list ${visible ? "" : "noneDisplay"}`}>
+	  <li onClick={setVisible}>
+	  <Link className="user-icon-list-link" to="/myAccount">
+	  My Account
+	  </Link>
+	  </li>
+	  <li>
+	  <Link className="user-icon-list-link" to="/mycollections">
+	  My Collections
+	  </Link>
 
-      <li
-        onClick={(e) => setVisible(e)}
+
+	  </li>
+
+	  <li
+	  onClick={(e) => setVisible(e)}
         className={` ${loggedUser.type === "Admin" ? "" : "noneDisplay"}`}
       >
         <Link className={`user-icon-list-link`} to="/admin/adminDashboard">

@@ -9,7 +9,8 @@ import { Route, Switch } from "react-router-dom";
 
 // -- Component imports ---
 import LandingPage from "./components/LandingPage/LandingPage";
-import Mycollections from "./components/Mycollections/Mycollections"
+import Mycollections from "./components/Mycollections/Mycollections";
+import Aboutus from './components/Aboutus/Aboutus.jsx';
 import HomePage from "./components/HomePage/HomePage";
 import Details from "./components/Details/Details";
 import NotFoundException from "./components/404Page/404Page";
@@ -79,6 +80,7 @@ function App() {
           <Route exact path="/marketplace" render={() => <MarketPlace />} />
           <Route exact path="/collections" render={() => <Collections />} />
           <Route exact path="/mycollections" render={() => <Mycollections /> } />
+	  <Route exact path="/aboutus" render={() => <Aboutus />} />
 	  <Route
             exact
             path="/collections/:id"

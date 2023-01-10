@@ -1,6 +1,6 @@
 .container_mainpage {
   display: flex;
-  background-color: #1c2331;
+  background-color: #212121;
 }
 
 @media (max-width: 975px) {

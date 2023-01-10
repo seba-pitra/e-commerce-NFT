@@ -3,7 +3,6 @@ import { useSelector, useDispatch } from "react-redux";
 import * as actions from "../../redux/actions";
 import Loading from "../Loading/Loading";
 import { Link, useHistory } from "react-router-dom";
-import styles from "./stylesheets/Details.module.css";
 import ethereumLogo from "../../images/ethereum-logo.png";
 import { startPayment } from "../../utils";
 import StarRating from "../StarRating/StarRating";
@@ -11,9 +10,15 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import axios from 'axios';
 
+//dark-light theme
+import useStyles from "../../customHooks/useStyles";
+import darkStyles from "./stylesheets/DarkDetail.module.css"
+import lightStyles from "./stylesheets/LightDetail.module.css"
+
 const Details = (props) => {
   const dispatch = useDispatch();
   const history = useHistory();
+  const styles = useStyles(darkStyles, lightStyles);
 
   const { id } = props.match.params;
   const nftDetail = useSelector((state) => state.nftDetail);
@@ -109,7 +114,7 @@ const Details = (props) => {
             className={styles["back-button"]}
           >
             {" "}
-            {"< "}Back{" "}
+            {"Back"}{" "}
           </button>
           <div className={styles["detail-card-container"]}>
             <img
