@@ -37,8 +37,6 @@ const Login = () => {
       utils.loadCartLocalStorage(dispatch, user.email);
       utils.loadFavsLocalStorage(dispatch, user.email);
     }
-  loadLocalStorage(dispatch);  // << No entiendo que despacha ?? "dispatch" que valor tiene ??
-    
       // Theme LocalStorage Loader for logInGoogle only
       console.log('EL TEMA DESDE LOGIN ES: !!');  // << para saber si lo esta tomando
       let SavedTheme = JSON.parse(localStorage.getItem(JSON.stringify(user.email+'theme')));  
