@@ -1,0 +1,18 @@
+.container_mainpage {
+  display: flex;
+  background-color: #212121;
+}
+
+@media (max-width: 975px) {
+  .container_mainpage {
+    display: inherit;
+  }
+}
+
+.filters-container {
+  display: flex;
+  border: none;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0 10px;
+}

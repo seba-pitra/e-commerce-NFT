@@ -14,10 +14,6 @@ export default function StarRating({nftId}) {
 
     return (
     <div className="single-input-container">
-        <label
-            className='add-game-form-label'
-            htmlFor="rating">Rating: </label>
-
         <div className='star-rating'>
         {stars.map((star, index) => {
             index += 1;

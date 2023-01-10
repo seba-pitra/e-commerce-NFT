@@ -14,23 +14,31 @@
 
 .loading-page-container {
   position: relative;
-  background-color: #1c2331;
+  background-color: #FAFAFA;
   min-height: 92vh;
-  padding-top: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .loading-icon {
   display: flex;
   flex-direction: row;
   position: relative;
-  width: 300px;
-  margin: auto;
-  color: white;
+  color: #212121;
 }
 
-.loading-message {
-  margin-top: auto;
-  margin-bottom: auto;
+.triangles-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.triangles-container span{
+  padding-top: 28px;
+  font-weight: 600;
 }
 
 .triangles {
