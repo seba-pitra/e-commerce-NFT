@@ -7,9 +7,15 @@
   width: 100%;
   text-decoration: none;
   z-index: 1000;
-  background-color: #1c2331;
+  background-color: #212121;
   border-bottom: solid 1px #424242;
   /* float: left; */
+}
+
+@media (max-width: 990px) {
+  .nav-bar-container {
+    width: 100%;
+  }
 }
 
 .nav-bar-company-links-container {
@@ -20,6 +26,13 @@
   /* justify-content: space-evenly; */
   gap: 20px;
   overflow: hidden;
+}
+
+@media (max-width: 990px) {
+  .nav-bar-company-links-container {
+    flex-direction: column;
+    align-items: flex-end;
+  }
 }
 
 .nav-bar-link {

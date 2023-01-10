@@ -8,8 +8,14 @@
   text-decoration: none;
   z-index: 1000;
   background-color: #fafafa;
-  border-bottom: solid 1px #424242;
+  border-bottom: solid 1px #bdbdbd;
   /* float: left; */
+}
+
+@media (max-width: 990px) {
+  .nav-bar-container {
+    width: 100%;
+  }
 }
 
 .nav-bar-company-links-container {
@@ -20,6 +26,15 @@
   overflow: hidden;
 }
 
+@media (max-width: 990px) {
+  .nav-bar-company-links-container {
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 30px;
+    margin-top: 30px;
+  }
+}
+
 .nav-bar-link {
   color: #000;
   text-decoration: none;
@@ -27,7 +42,7 @@
   font-weight: 500;
 }
 .nav-bar-link:hover {
-  color: #fafafa;
+  color: #000;
 }
 
 .nav-bar-company-name-header {
@@ -61,16 +76,16 @@
 
 .cart_Numer_Items {
   position: relative;
-  top: -30px;
+  top: -33px;
   left: 55%;
-  background: black;
+  background: transparent;
+  color: black;
   width: 16px;
   height: 16px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
   padding: 2px;
 }
 

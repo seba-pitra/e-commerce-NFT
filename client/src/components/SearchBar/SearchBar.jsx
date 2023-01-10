@@ -3,11 +3,16 @@ import { useState } from "react";
 import { useDispatch } from "react-redux";
 import SearchIcon from "@mui/icons-material/Search";
 
-import styles from "./stylesheets/SearchBar.module.css";
-// import styles from "./stylesheets/LightSearchBar.module.css";
+// import styles from "./stylesheets/SearchBar.module.css";
+import darkStyles from "./stylesheets/DarkSearchBar.module.css";
+import lightStyles from "./stylesheets/LightSearchBar.module.css";
+import useStyles from "../../customHooks/useStyles";
 
 function SearchBar() {
   const [searchQuery, setSearchQuery] = useState("");
+
+  const styles = useStyles(darkStyles, lightStyles);
+
   const dispatch = useDispatch();
 
   //funcion de busqueda

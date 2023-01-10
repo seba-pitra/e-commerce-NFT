@@ -16,13 +16,17 @@ import MaterialUISwitch from "../Pages/switch";
 import UserIcon from "./UserIcon/UserIcon";
 import ProfilePicture from "../UserComponents/ProfilePicture/Profile.Picture";
 
-import styles from "./stylesheets/NFTNav.module.css";
-// import styles from "./stylesheets/LightNFTNav.module.css";
+import useStyles from "../../customHooks/useStyles";
+// import styles from "./stylesheets/NFTNav.module.css";
+import lightStyles from "./stylesheets/LightNFTNav.module.css";
+import darkStyles from "./stylesheets/DarkNFTNav.module.css";
 
 export default function NFTNav() {
   const location = useLocation();
 
   const dispatch = useDispatch();
+
+  const styles = useStyles(darkStyles, lightStyles);
 
   const [show, setShow] = useState(false);
   const [showFav, setShowFav] = useState(false);
