@@ -1,6 +1,7 @@
-const { User, Nft, Collection, Purchase } = require("../db");
+const { User, Nft, Collection, Transaction,UserPurchases,UserSales } = require("../db");
 const { superUser } = require("../jsondata/superUserData.json");
-
+const { SUPER_USER_DATA } = require("../jsondata/superUserData.json");
+const SUPER_USER_DATA_ID = SUPER_USER_DATA.id;
 const registerUser = async (req, res) => {
   try {
     const { id, username, email, profile_pic } = req.body;
@@ -13,7 +14,7 @@ const registerUser = async (req, res) => {
     res.status(200).json(newUser);
   } catch (err) {
     console.log(err.message);
-    res.status(404).json({ message: err.message, error_detail : err });
+    res.status(404).json({ message: err.message, error_detail: err });
   }
 };
 
@@ -23,6 +24,28 @@ const signInWithGoogle = async (req, res) => {
     const [newUser, created] = await User.findOrCreate({
       where: { id: userData.id },
       defaults: userData,
+      include: [
+        { model: Nft },
+        { model: Collection },
+        {
+          model: Transaction,
+          as: "purchases",
+          through: {
+            model: UserPurchases,
+            as: "purchases",
+          },
+          foreignKey: "buyerId",
+        },
+        {
+          model: Transaction,
+          as: "sales",
+          through: {
+            model: UserSales,
+            as: "sales",
+          },
+          foreignKey: "sellerId",
+        },
+      ],
     });
     if (!created) {
       newUser.set(userData);
@@ -37,15 +60,31 @@ const signInWithGoogle = async (req, res) => {
 
 const getAllUsers = async (req, res) => {
   try {
-    const allUsers =  await User.findAll({
-            include: [
-              { model: Nft },
-              { model: Collection },
-              { model: Purchase, as: "sales" },
-              { model: Purchase, as: "purchases" },
-            ],
-            paranoid: req.query.deleted === "include" ? false : true
-          })
+    const allUsers = await User.findAll({
+      include: [
+        { model: Nft },
+        { model: Collection },
+        {
+          model: Transaction,
+          as: "purchases",
+          through: {
+            model: UserPurchases,
+            as: "purchases",
+          },
+          foreignKey: "purchaseId",
+        },
+        {
+          model: Transaction,
+          as: "sales",
+          through: {
+            model: UserSales,
+            as: "sales",
+          },
+          foreignKey: "saleId",
+        },
+      ],
+      paranoid: req.query.deleted === "include" ? false : true,
+    });
     if (allUsers.length === 0) {
       throw new Error(`No users found on database`);
     } else {
@@ -82,8 +121,24 @@ const getUserById = async (req, res) => {
       include: [
         { model: Nft },
         { model: Collection },
-        { model: Purchase, as: "sales" },
-        { model: Purchase, as: "purchases" },
+        {
+          model: Transaction,
+          as: "purchases",
+          through: {
+            model: UserPurchases,
+            as: "purchases",
+          },
+          foreignKey: "buyerId",
+        },
+        {
+          model: Transaction,
+          as: "sales",
+          through: {
+            model: UserSales,
+            as: "sales",
+          },
+          foreignKey: "sellerId",
+        },
       ],
     });
     if (foundUser) {
@@ -183,7 +238,7 @@ const userAsksForVerification = async (req, res) => {
         await user.save();
         return res.status(200).json({
           user: user,
-          message: "Verification Reques Successful"
+          message: "Verification Reques Successful",
         });
       } else if (user.type === "VerificationInProcess") {
         res
@@ -325,18 +380,18 @@ const createSuperUser = async () => {
   try {
     let response = await User.findOne({
       where: {
-        id: superUser.id,
+        id: SUPER_USER_DATA.id,
       },
     });
     if (!response) {
       response = await User.create({
-        id: superUser.id,
-        username: superUser.username,
-        name: superUser.name,
-        last_name: superUser.last_name,
-        email: superUser.email,
-        type: superUser.type,
-        profile_pic: superUser.profile_pic,
+        id: SUPER_USER_DATA.id,
+        username: SUPER_USER_DATA.username,
+        name: SUPER_USER_DATA.name,
+        last_name: SUPER_USER_DATA.last_name,
+        email: SUPER_USER_DATA.email,
+        type: SUPER_USER_DATA.type,
+        profile_pic: SUPER_USER_DATA.profile_pic,
       });
     }
     console.log("Super user created");
