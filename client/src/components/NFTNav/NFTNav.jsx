@@ -31,6 +31,7 @@ export default function NFTNav() {
   const cartItemsCount = useSelector((state) => state.shoppingCartContents);
   const userFavorites = useSelector((state) => state.userFavs);
   const loggedUser = useSelector((state) => state.loggedUser);
+  const activeThemeIsDark = useSelector((state) => state.activeThemeIsDark);
 
   const areWeInLanding = location.pathname === "/";
 
@@ -44,8 +45,12 @@ export default function NFTNav() {
     setShowUserList(!showUserList);
   };
 
+
   const onSwitch = () => {
     dispatch(actions.toggleTheme());
+// Theme LocalStorage Saver 
+	  console.log(activeThemeIsDark); 
+localStorage.setItem(JSON.stringify(loggedUser.email+'theme'),JSON.stringify(activeThemeIsDark));
   };
 
   return (
