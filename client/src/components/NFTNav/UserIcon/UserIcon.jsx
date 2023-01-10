@@ -39,6 +39,11 @@ const UserIcon = ({ setVisible, visible }) => {
         <Link className="user-icon-list-link" to="/myAccount">
           My Acount
         </Link>
+	<Link className="user-icon-list-link" to="/mycollections">
+          My Collections
+        </Link>
+
+
       </li>
 
       <li
