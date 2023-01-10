@@ -7,8 +7,9 @@
   width: 100%;
   text-decoration: none;
   z-index: 1000;
-  background-color: #1c2331;
+  background-color: #fafafa;
   border-bottom: solid 1px #424242;
+  /* float: left; */
 }
 
 .nav-bar-company-links-container {
@@ -16,10 +17,11 @@
   width: 100%;
   justify-content: flex-end;
   gap: 20px;
+  overflow: hidden;
 }
 
 .nav-bar-link {
-  color: #fafafa;
+  color: #000;
   text-decoration: none;
   align-items: center;
   font-weight: 500;

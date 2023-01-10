@@ -9,13 +9,17 @@
   z-index: 1000;
   background-color: #1c2331;
   border-bottom: solid 1px #424242;
+  /* float: left; */
 }
 
 .nav-bar-company-links-container {
   display: flex;
   width: 100%;
+  /* background-color: red; */
   justify-content: flex-end;
+  /* justify-content: space-evenly; */
   gap: 20px;
+  overflow: hidden;
 }
 
 .nav-bar-link {
