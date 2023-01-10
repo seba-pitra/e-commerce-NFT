@@ -1,5 +1,5 @@
 .pages-all-container{
-  background-color: #212121;
+  background-color: #FAFAFA;
   overflow: hidden;
 }
 
@@ -20,7 +20,7 @@
 }
 
 .filter-icon {
-  color: #fff;
+  color: #212121;
   background-color: transparent;
   cursor: pointer;
 }
@@ -68,7 +68,7 @@
 }
 
 .amount-nfts{
-  color: white !important;
+  color: #212121 !important;
   font-size: 18px;
   text-align: center;
   margin: 12px;
@@ -92,8 +92,8 @@
 }
 
 .orders-container select {
-  background-color: #424242;
-  color: #FAFAFA;
+  background-color: #F5F5F5;
+  color: #212121;
   font-weight: 700;
   border: none;
   border-radius: 16px;
@@ -110,15 +110,15 @@
 .cards-styles {
   display: flex;
   flex-direction: row;
-  border-right: 1px solid #bdbdbd;
-  border-left: 1px solid #bdbdbd;
+  border-right: 1px solid #9E9E9E;
+  border-left: 1px solid #9E9E9E;
   border-radius: 2px;
 }
 
 .buttons-cards-styles {
   background-color: transparent;
   border: none;
-  color: white;
+  color: #212121;
   margin: 4px 12px;
   padding: 0px;
 }

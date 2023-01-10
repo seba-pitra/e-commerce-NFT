@@ -1,15 +1,14 @@
 import React from "react";
-// import "./Footer.css";
-
 import FacebookIcon from "@material-ui/icons/Facebook";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
-
 import { Link } from "react-router-dom";
+// import { useSelector } from "react-redux";
 
 export default function Footer() {
+  // const  isDark  = useSelector((state) => state.activeThemeIsDark);
   return (
     <div className="full-footer-container">
       {/* Footer  Start */}
