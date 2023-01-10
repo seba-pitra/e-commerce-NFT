@@ -10,7 +10,6 @@ function SearchBar() {
 
   //funcion de busqueda
   function search(e) {
-    console.log(searchQuery);
     e.preventDefault();
     dispatch(actions.filterName(searchQuery)); //resetea los filtos
     setSearchQuery("");

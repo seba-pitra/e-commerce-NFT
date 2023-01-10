@@ -1,12 +1,12 @@
 const { Router } = require("express");
-const { postNftsToDB, getEverythingFromDB } = require("../controllers/db.controller")
+const dbControllers = require("../controllers/db.controller")
 
 const dbRouter = Router();
 
-dbRouter.get("/getAll", getEverythingFromDB);
+dbRouter.get("/getAll", dbControllers.getEverythingFromDB);
 
-dbRouter.get("/create", postNftsToDB);
+dbRouter.get("/create", dbControllers.postNftsToDB);
 
-dbRouter.get("/create/:nftQuantity", postNftsToDB);
+dbRouter.get("/create/:nftQuantity", dbControllers.postNftsToDB);
 
 module.exports = dbRouter;

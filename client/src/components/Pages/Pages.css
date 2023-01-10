@@ -15,12 +15,6 @@
   align-items: center;
 }
 
-.filter-icon {
-  color: #fff;
-  background-color: transparent;
-  cursor: pointer;
-}
-
 .amount-nfts {
   color: white;
   font-size: 18px;

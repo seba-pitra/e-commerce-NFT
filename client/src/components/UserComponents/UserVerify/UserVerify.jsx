@@ -4,16 +4,16 @@ import * as actions from "../../../redux/actions/index";
 import { useEffect, useRef } from "react";
 import { useHistory } from "react-router-dom";
 
-import "./UserVerify.css";
 import UserBasicInfo from "./UserBasicInfo";
 import UserMediumInfo from "./UserMediumInfo";
 import UserAdvancedInfo from "./UserAdvancedInfo";
+import styles from "./stylesheets/UserVerify.module.css";
 
 export default function UserVerify() {
   const user = useSelector((state) => state.loggedUser);
   const dispatch = useDispatch();
   const history = useHistory();
-  const loginStatusStorage = localStorage.getItem("Logged");
+  const loginStatusStorage = localStorage.getItem("loginStatus");
   const [step, setStep] = useState(1);
 
   const [userData, setUserData] = useState({
@@ -35,8 +35,6 @@ export default function UserVerify() {
     dni_image_back: "",
   });
 
-  // console.log(userData)
-
   // -- STEPS --
   const next = (e) => {
     e.preventDefault();
@@ -55,72 +53,44 @@ export default function UserVerify() {
       ...userData,
       userId: user.id,
     };
-    console.log(userDataObj);
-    // dispatch(actions.createNft(userDataObj));
-    fetch(`http://localhost:3001/user/ask/${user.id}`,{
-      method: "PUT",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(userDataObj),
-    })
+    dispatch(actions.askForVerification(userDataObj));
   };
 
-  // const validateUser = async () => {
-  //   if (loginStatusStorage === "Estoy loggeado") {
-  //     dispatch(actions.getAllNfts());
-  //     dispatch(actions.getAllCollections());
-  //     dispatch(actions.getEthPrice());
-  //   } else {
-  //     history.push("/");
-  //   }
-  // };
-
-  // useEffect(() => {
-  //   setCreatedNft((prev) => ({
-  //     ...prev,
-  //     userId: user.id,
-  //   }));
-  //   validateUser();
-  // }, [user]);
-
   return (
-    <>
-      <div className="mainContainer">
-        <fieldset
-          className={`info-fieldset ${
-            step !== 1 ? "noneDisplay" : "first-field-collections"
-          }`}
-        >
-          <UserBasicInfo
-            userData={userData}
-            setUserData={setUserData}
-            next={next}
-          />
-        </fieldset>
+    <div className={styles["user-verify-container"]}>
+      <fieldset
+        className={
+          step !== 1 ? styles["noneDisplay"] : styles["first-field-collections"]
+        }
+      >
+        <UserBasicInfo
+          userData={userData}
+          setUserData={setUserData}
+          next={next}
+        />
+      </fieldset>
 
-        <fieldset
-          className={`info-fieldset ${step !== 2 ? "noneDisplay" : ""}`}
-        >
-          <UserMediumInfo
-            userData={userData}
-            setUserData={setUserData}
-            back={back}
-            next={next}
-          />
-        </fieldset>
+      <fieldset className={`info-fieldset ${step !== 2 ? "noneDisplay" : ""}`}>
+        <UserMediumInfo
+          userData={userData}
+          setUserData={setUserData}
+          back={back}
+          next={next}
+        />
+      </fieldset>
 
-        <fieldset
-          className={`info-fieldset ${
-            step !== 3 ? "noneDisplay" : "first-field-collections"
-          }`}
-        >
-          <UserAdvancedInfo
-            userData={userData}
-            setUserData={setUserData}
-            back={back}
-            next={next}
-          />
-        </fieldset>
-      </div>
-    </>
+      <fieldset
+        className={`info-fieldset ${
+          step !== 3 ? "noneDisplay" : "first-field-collections"
+        }`}
+      >
+        <UserAdvancedInfo
+          userData={userData}
+          setUserData={setUserData}
+          back={back}
+          next={next}
+        />
+      </fieldset>
+    </div>
   );
 }

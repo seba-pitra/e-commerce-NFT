@@ -1,7 +1,7 @@
 const express = require("express");
 const paymentRouter = express.Router();
 const PaymentController = require("../controllers/PaymentController");
-const { PaymentService, getLoggedUser } = require("../services/PaymentService");
+const { PaymentService, setUserEmailForPaymentService } = require("../services/PaymentService");
 
 const PaymentInstance = new PaymentController(new PaymentService());
 
@@ -16,7 +16,7 @@ paymentRouter.post("/", async (req, res, next) => {
 });
 
 paymentRouter.post("/userEmail", async (req, res) => {
-  getLoggedUser(req.body);
+  setUserEmailForPaymentService(req.body);
   return res.sendStatus(201);
 });
 

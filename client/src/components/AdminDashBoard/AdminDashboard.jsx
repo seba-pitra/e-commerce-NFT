@@ -15,26 +15,18 @@ const AdminDashboard = () => {
     (state) => state
   );
 
+  //Favor de eliminar los console.logs cuando este listo esto.
   console.log("nft", adminNfts);
   console.log("user", adminUsers);
   console.log("collection", collections);
   console.log("logged", loggedUser);
 
   const dispatch = useDispatch();
-  const history = useHistory();
 
-  const validateUser = () => {
-    let loginStatusStorage = localStorage.getItem("Logged");
-    if (loginStatusStorage === "Estoy loggeado") {
+  useEffect(() => {
       dispatch(actions.getAllAdminNfts());
       dispatch(actions.getAllAdminUsers());
       dispatch(actions.getAllCollections());
-    } else {
-      history.push("/");
-    }
-  };
-  useEffect(() => {
-    validateUser();
   }, [dispatch]);
 
   if (!adminNfts.length || !adminUsers.length || !collections.length)

@@ -10,6 +10,7 @@ import Offcanvas from "react-bootstrap/Offcanvas";
 import FilterAltIcon from "@mui/icons-material/FilterAlt";
 
 import "./MarketPlace.css";
+import styles from "./stylesheets/MarketPlace.module.css";
 
 function MarketPlace({ loggedIn }) {
   const dispatch = useDispatch();
@@ -21,52 +22,29 @@ function MarketPlace({ loggedIn }) {
 
   const [showFilters, setShowFilters] = useState(false);
 
-  //   const [loggedIn, setLoggedIn] = useState(true);
-  //   onAuthStateChanged(auth, (user) => {
-  //     if (user) {
-  //       setLoggedIn(true);
-  //     } else {
-  //       setLoggedIn(false);
-  //     }
-  //   });
-
   useEffect(() => {
-    validateUser();
+    dispatch(actions.getAllNfts());
+    dispatch(actions.getAllCollections());
   }, []);
 
   const handleClose = () => setShowFilters(false);
-  const handleShow = () => {
-    setShowFilters(true);
-  };
-
-  const validateUser = async () => {
-    let firebaseCurrentUser = JSON.parse(
-      localStorage.getItem("firebaseCurrentUser")
-    );
-    let loginStatusStorage = localStorage.getItem("Logged");
-    console.log("Aqui estoy !!", loginStatusStorage);
-    if (loginStatusStorage === "Estoy loggeado") {
-      console.log("firebase,", firebaseCurrentUser.uid);
-      dispatch(actions.getLoggedUser(firebaseCurrentUser.uid));
-      dispatch(actions.getAllCollections());
-      dispatch(actions.getAllNfts());
-      dispatch(actions.getEthPrice());
-    } else {
-      history.push("/");
-    }
-  };
+  const handleShow = () => setShowFilters(true);  
 
   useEffect(() => {}, [order]);
 
+  //
+
   return (
     <div className="home-container">
-      {isLoading ? (
-        <Loading />
-      ) : (
-        <div className="container_mainpage">
-          <Pages />
-        </div>
-      )}
+      <div className={styles["market-place-container"]}>
+        {isLoading ? (
+          <Loading />
+        ) : (
+          <div className={styles["container_mainpage"]}>
+            <Pages />
+          </div>
+        )}
+      </div>
     </div>
   );
 }
