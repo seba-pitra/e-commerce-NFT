@@ -5,6 +5,7 @@ import NFTCard from "../NFTCard/NFTCard";
 import NotFoundResults from "../NotFoundResults/NotFoundResults";
 import Ordering from "../FilterOptrions/Ordering/Ordering";
 import PageSelector from "../PageSelector/PageSelector";
+
 import SubtitlesIcon from "@mui/icons-material/Subtitles";
 import ImageIcon from "@mui/icons-material/Image";
 import Offcanvas from "react-bootstrap/Offcanvas";
@@ -21,30 +22,23 @@ import styles from "./stylesheets/Pages.module.css";
 import { toggleTheme } from "../../redux/actions";
 import { useEffect } from "react";
 
+
 function Pages() {
   const filteredNfts = useSelector((state) => state.filteredNfts);
   const activePage = useSelector((state) => state.activePage);
   const nftsPerPage = useSelector((state) => state.nftsPerPage);
-
   const lastNftInPage = activePage * nftsPerPage;
   const firstNftInPage = lastNftInPage - nftsPerPage;
   const nftsInPage = filteredNfts.slice(firstNftInPage, lastNftInPage);
 
-  const [showFilters, setShowFilters] = useState(false);
-
-  const handleClose = () => setShowFilters(false);
-  const handleShow = () => {
-    setShowFilters(true);
-  };
-
   const dispatch = useDispatch();
 
   const setViewCards = (view) => {
-    dispatch(actions.setViewCards(view));
+    dispatch(actions.setViewCards(view))
   };
 
   const setNftPage = (e) => {
-    dispatch(actions.nftsxpage(e.target.value));
+    dispatch(actions.nftsxpage(e.target.value))
   };
 
   const cards = nftsInPage.map((nft) => {
@@ -66,6 +60,7 @@ function Pages() {
       />
     );
   });
+
 
   // THEME SWITCHER
   const activeThemeIsDark = useSelector((state) => state.activeThemeIsDark);
@@ -145,12 +140,15 @@ function Pages() {
     navToShow = containerPhone;
   }
 
-  // el primer div className condicional para el tema
+
+// el primer div className condicional para el tema
   return (
-    <div className={activeThemeIsDark ? "dark" : "light"}>
-      {cards.length === 0 ? (
+    <div className={activeThemeIsDark ? 'dark' : 'light'}>
+      
+     {cards.length === 0 ? (
         <NotFoundResults />
       ) : (
+
         <div className={styles["pages-all-container"]}>
           {navToShow}
           <div className={styles["cards-container"]}>{cards}</div>
