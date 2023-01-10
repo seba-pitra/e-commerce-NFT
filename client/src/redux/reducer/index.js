@@ -52,6 +52,7 @@ import {
   REGISTER_USER,
   ASKED_FOR_VERIFICATION,
   TOGGLE_THEME,
+  LOCAL_STORAGE_THEME,
 } from "../actions";
 import * as controllers from "../../utils";
 import { toast } from "react-toastify";
@@ -473,6 +474,13 @@ const rootReducer = (state = initialState, action) => {
       ...state,
         activeThemeIsDark: !state.activeThemeIsDark,
       }
+
+	  case LOCAL_STORAGE_THEME:
+		  return {
+			  ...state,
+			  activeThemeIsDark: action.payload
+		  }
+
 
     // --- FAVS ---
     case ADD_FAV:

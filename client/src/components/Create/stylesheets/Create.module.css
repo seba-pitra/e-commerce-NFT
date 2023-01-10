@@ -30,9 +30,6 @@
   text-align: center;
 }
 
-.third-field-create {
-}
-
 .display-none {
   display: none;
 }
@@ -102,6 +99,12 @@
   overflow: hidden;
   display: inline-block;
   text-decoration: none;
+}
+
+@media (max-width: 1050px) {
+  .upload-file {
+    width: 200px;
+  }
 }
 
 .categories-back-button {

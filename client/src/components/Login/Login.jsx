@@ -8,7 +8,10 @@ import { loadLocalStorage } from "../../utils";
 import styles from "./stylesheets/Login.module.css";
 
 // sendPasswordResetEmail
+
 const Login = () => {
+
+  const loggedUser = useSelector((state) => state.loggedUser);
   const dispatch = useDispatch();
   const history = useHistory();
   const [logginForm, setLogginForm] = useState({
@@ -28,7 +31,13 @@ const Login = () => {
     if (user) {
       dispatch(actions.signInWithGoogle(user));
     }
-    loadLocalStorage(dispatch);
+  loadLocalStorage(dispatch);  // << No entiendo que despacha ?? "dispatch" que valor tiene ??
+	 
+	  // Theme LocalStorage Loader for logInGoogle only
+	  console.log('EL TEMA DESDE LOGIN ES: !!');  // << para saber si lo esta tomando
+	  let SavedTheme = JSON.parse(localStorage.getItem(JSON.stringify(user.email+'theme')));  
+	  console.log(SavedTheme);
+	  if (SavedTheme) { dispatch(actions.injectLocalStorageTheme(SavedTheme))}; 
   };
 
   const handdleSubmit = async (e) => {
@@ -43,6 +52,8 @@ const Login = () => {
       dispatch(actions.logInUser(userId));
     }
   };
+
+
 
   return (
     <form onSubmit={handdleSubmit}>

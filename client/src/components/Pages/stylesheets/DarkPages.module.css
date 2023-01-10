@@ -1,0 +1,128 @@
+.pages-all-container{
+  background-color: #212121;
+  overflow: hidden;
+}
+
+.orders-container-phone{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 650px;
+  align-items: center;
+}
+
+.filter-icon {
+  color: #fff;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.left-hand-conteiner{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  width: 30%;
+}
+
+@media (max-width: 975px) {
+  .left-hand-conteiner{
+    width: 50%;
+  }
+}
+
+.middle-conteiner{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  width: 30%;
+}
+
+@media (max-width: 975px) {
+  .middle-conteiner{
+    width: 100%;
+  }
+}
+
+.right-hand-conteiner{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  width: 30%;
+}
+
+@media (max-width: 975px) {
+  .right-hand-conteiner{
+    width: 50%;
+  }
+}
+
+.amount-nfts{
+  color: white !important;
+  font-size: 18px;
+  text-align: center;
+  margin: 12px;
+}
+
+.orders-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 40px;
+  padding: 40px 0;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 975px) {
+  .orders-container {
+    padding: 20px;
+    margin: 20px;
+  }
+}
+
+.orders-container select {
+  background-color: #424242;
+  color: #FAFAFA;
+  font-weight: 700;
+  border: none;
+  border-radius: 16px;
+  margin-right: 24px;
+  padding: 16px;
+}
+
+@media (max-width: 975px) {
+  .orders-container select {
+  padding: 8px;
+  }
+}
+
+.cards-styles {
+  display: flex;
+  flex-direction: row;
+  border-right: 1px solid #bdbdbd;
+  border-left: 1px solid #bdbdbd;
+  border-radius: 2px;
+}
+
+.buttons-cards-styles {
+  background-color: transparent;
+  border: none;
+  color: white;
+  margin: 4px 12px;
+  padding: 0px;
+}
+
+.pagited-bottom{
+  width: 100%;
+}

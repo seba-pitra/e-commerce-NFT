@@ -39,8 +39,6 @@ export default function NFTCard(props) {
     localStorage.setItem(loggedUserEmail + "Fav", JSON.stringify(shoppingCartContents));
   }
 
-  /* let starsValue = props.stars?.reduce((a, b) => a + b, 0);
-  starsValue = starsValue / props.stars?.length; */
   let starsValue = 0;
 
   if (viewCards === "clear") {
@@ -117,7 +115,6 @@ export default function NFTCard(props) {
                 </div>
                 <div className="flex-row">
                   <StarIcon />
-
                   <h3>{starsValue || 0}</h3>
                 </div>
               </div>

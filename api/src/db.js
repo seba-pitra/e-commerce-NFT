@@ -38,20 +38,28 @@ sequelize.models = Object.fromEntries(capsEntries);
 
 // En sequelize.models están todos los modelos importados como propiedades
 // Para relacionarlos hacemos un destructuring
-const { User, Nft, Collection, Purchase, Review } = sequelize.models;
+const { User, Nft, Collection, Transaction, Review,UserSales,UserPurchases } = sequelize.models;
 
 //-- USER RELATIONS
 User.hasMany(Nft);
 User.hasMany(Collection);
 User.hasMany(Review)
-User.hasMany(Purchase, { as: 'sales' });
-User.hasMany(Purchase, { as: 'purchases' });
+User.belongsToMany(Transaction, {
+  through: UserSales,
+  as: 'sales',
+  foreignKey: 'sellerId'
+});
+User.belongsToMany(Transaction, {
+  through: UserPurchases,
+  as: 'purchases',
+  foreignKey: 'buyerId'
+});
 
 
 //-- NFT RELATIONS
 Nft.belongsTo(User);
 Nft.belongsTo(Collection);
-Nft.belongsTo(Purchase);
+Nft.belongsTo(Transaction);
 Nft.hasMany(Review);
 
 //--COLLECTION RELATIONS
@@ -59,10 +67,18 @@ Collection.belongsTo(User);
 Collection.hasMany(Nft);
 Collection.hasMany(Review)
 
-//--PURCHASES RELATIONS
-Purchase.belongsTo(User, {as : "buyer" });
-Purchase.belongsTo(User, {as : "seller" });
-Purchase.hasMany(Nft, {as : "tokens"});
+//--TRANSACTIONS RELATIONS
+Transaction.belongsToMany(User, {
+  through: UserPurchases,
+  as: 'buyer',
+  foreignKey: 'purchaseId'
+});
+Transaction.belongsToMany(User, {
+  through: UserSales,
+  as: 'seller',
+  foreignKey: 'saleId'
+});
+Transaction.hasMany(Nft, {as : "tokens"});
 
 //--REVIEW RELATIONS
 Review.belongsTo(User);

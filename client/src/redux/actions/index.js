@@ -78,7 +78,7 @@ export const ADD_FAV = "ADD_FAV";
 
 // -- THEMES SWITCH
 export const TOGGLE_THEME = "TOGGLE_THEME";
-
+export const LOCAL_STORAGE_THEME = "LOCAL_STORAGE_THEME";
 
 // -- GETTERS --
 
@@ -493,7 +493,7 @@ export const freeShoppingCartState = () => {
 export const buyNftOnShoppingCart = (nftsOnShoppingCart) => {
   return async (dispatch) => {
     const buyApi = await axios.post(`/payment`, nftsOnShoppingCart);
-
+    console.log(buyApi)
     window.location.replace(buyApi.data.sandbox_init_point); // => prueba
     // window.location.replace(buyApi.data.init_point);
   };
@@ -524,4 +524,8 @@ export const toggleTheme = () => {
 	return { type: TOGGLE_THEME};
 	 };
 
+export const injectLocalStorageTheme = (payload) => {
+console.log('ACTION !!');
+	return { type: LOCAL_STORAGE_THEME, payload } ;
 
+};
