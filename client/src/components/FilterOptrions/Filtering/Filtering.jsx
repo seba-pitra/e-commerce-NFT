@@ -260,6 +260,7 @@ export default function Filtering() {
                 return (
                   <div key={index} className="input-checkbox">
                     <label htmlFor={specie}>{specie}</label>
+                    
                     <input
                       type="checkbox"
                       key={specie}

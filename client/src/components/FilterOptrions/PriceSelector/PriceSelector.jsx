@@ -51,7 +51,7 @@ const App = () => {
               {currency}
             </option>
           );
-        })}
+        })} 
       </select>
       <div className="testeandoooo2323232">
         <div>

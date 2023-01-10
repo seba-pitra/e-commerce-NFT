@@ -54,7 +54,7 @@ function App() {
       localStorage.setItem("loginStatus", "log-out");
       dispatch(actions.logOutUser());
     }
-    console.log(localStorage.getItem("loginStatus"));
+    // console.log(localStorage.getItem("loginStatus"));
   });
 
 
@@ -62,7 +62,7 @@ function App() {
   // // DESCOMENTAR PARA TESTING
    useEffect(() => {
     const unsubscribe = store.subscribe(() => {
-       console.log(store.getState())
+       store.getState()
     })
     return unsubscribe
    }, [store]) 
