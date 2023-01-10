@@ -54,6 +54,7 @@ import {
   TOGGLE_THEME,
   DELETE_FAVS_ON_SIGN_OUT,
   REMOVE_FROM_FAVS,
+  LOCAL_STORAGE_THEME,
 } from "../actions";
 import * as controllers from "../../utils";
 import { toast } from "react-toastify";
@@ -481,7 +482,20 @@ const rootReducer = (state = initialState, action) => {
         ...state,
         shoppingCartContents: [],
       };
-    
+    // -- THEME --
+    case TOGGLE_THEME:
+      return {
+      ...state,
+        activeThemeIsDark: !state.activeThemeIsDark,
+      }
+
+      case LOCAL_STORAGE_THEME:
+        return {
+          ...state,
+          activeThemeIsDark: action.payload
+        }
+
+
     // --- FAVS ---
     case LOCAL_STORAGE_FAVS:
       //carga lo que esta en el local storage en los favoritos del usuario.

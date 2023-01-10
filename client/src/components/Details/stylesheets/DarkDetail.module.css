@@ -21,7 +21,7 @@
   }
   
   .detail-all-container {
-    background-color: #1c2331;
+    background-color: #212121;
     overflow: hidden;
     padding-top: 10px;
   }
@@ -36,10 +36,12 @@
     text-decoration: none;
     align-items: center;
     padding: 8px;
-    color: #fff;
+    color: #FAFAFA;
     border-radius: 10px;
-    background-color: #d3448b;
+    background-color: #212121;
     font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    border: 1px solid #FAFAFA;
     margin-left: 30px;
     margin-top: 30px;
   }
@@ -51,13 +53,12 @@
   }
   
   .back-button:hover {
-    background-color: #892859;
-    color: #fff;
+    border: 1px solid #d3448b;
   }
   
   .detail-card-container {
     padding: 30px 10px;
-    color: #fff;
+    color: #FAFAFA;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -144,7 +145,7 @@
   }
   
   .detail-span {
-    color: rgba(255, 255, 255, 0.651);
+    color: #BDBDBD;
   }
   
   .ethereum-container {
@@ -192,8 +193,8 @@
     gap: 30px;
     align-items: left;
     margin-bottom: 40px;
-    border-bottom: 1px solid #d3448b;
-    border-top: 1px solid #d3448b;
+    border-bottom: 1px solid #424242;
+    border-top: 1px solid #424242;
     padding: 30px 0;
   }
   
@@ -220,7 +221,7 @@
   }
   
   .categories {
-    background-color: #313c52;
+    background-color: #424242;
     padding: 10px;
     border-radius: 5px;
     max-width: fit-content;
@@ -251,6 +252,7 @@
     z-index: 1;
     overflow: hidden;
     display: inline-block;
+    border: none;
   }
   
   .button-detail:hover {

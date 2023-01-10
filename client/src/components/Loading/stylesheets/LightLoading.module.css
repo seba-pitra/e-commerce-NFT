@@ -14,7 +14,7 @@
 
 .loading-page-container {
   position: relative;
-  background-color: #1c2331;
+  background-color: #FAFAFA;
   min-height: 92vh;
   display: flex;
   flex-direction: column;
@@ -27,7 +27,18 @@
   display: flex;
   flex-direction: row;
   position: relative;
-  color: white;
+  color: #212121;
+}
+
+.triangles-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.triangles-container span{
+  padding-top: 28px;
+  font-weight: 600;
 }
 
 .triangles {

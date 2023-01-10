@@ -9,8 +9,10 @@ import Loading from "../Loading/Loading";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import FilterAltIcon from "@mui/icons-material/FilterAlt";
 
-import "./MarketPlace.css";
-import styles from "./stylesheets/MarketPlace.module.css";
+//dark-light theme
+import useStyles from "../../customHooks/useStyles";
+import darkStyles from "./stylesheets/DarkMarketPlace.module.css"
+import lightStyles from "./stylesheets/LightMarketPlace.module.css"
 
 function MarketPlace({ loggedIn }) {
   const dispatch = useDispatch();
@@ -22,6 +24,8 @@ function MarketPlace({ loggedIn }) {
 
   const [showFilters, setShowFilters] = useState(false);
 
+  const styles = useStyles(darkStyles, lightStyles);
+  
   useEffect(() => {
     dispatch(actions.getAllNfts());
     dispatch(actions.getAllCollections());

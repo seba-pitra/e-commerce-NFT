@@ -8,6 +8,7 @@ import * as utils  from "../../utils";
 import styles from "./stylesheets/Login.module.css";
 
 // sendPasswordResetEmail
+
 const Login = () => {
   const dispatch = useDispatch();
   const [logginForm, setLogginForm] = useState({
@@ -36,6 +37,13 @@ const Login = () => {
       utils.loadCartLocalStorage(dispatch, user.email);
       utils.loadFavsLocalStorage(dispatch, user.email);
     }
+  loadLocalStorage(dispatch);  // << No entiendo que despacha ?? "dispatch" que valor tiene ??
+    
+      // Theme LocalStorage Loader for logInGoogle only
+      console.log('EL TEMA DESDE LOGIN ES: !!');  // << para saber si lo esta tomando
+      let SavedTheme = JSON.parse(localStorage.getItem(JSON.stringify(user.email+'theme')));  
+      console.log(SavedTheme);
+      if (SavedTheme) { dispatch(actions.injectLocalStorageTheme(SavedTheme))}; 
   };
   /**
    * Handles the login process using the login form
@@ -61,6 +69,8 @@ const Login = () => {
       utils.loadFavsLocalStorage(dispatch, user.email);
     }
   };
+
+
 
   return (
     <form onSubmit={handleSubmit}>

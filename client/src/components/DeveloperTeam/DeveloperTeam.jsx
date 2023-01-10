@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from "react";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import * as actions from "../../redux/actions";
 import { useHistory } from "react-router-dom";
-import styles from "./stylesheets/DeveloperTeam.module.css";
-
 import img1 from "../../images/developerTeam/developer-team-1.jfif";
 import img2 from "../../images/developerTeam/developer-team-2.jfif";
 import img3 from "../../images/developerTeam/developer-team-3.jfif";
@@ -18,15 +16,24 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
+//dark-light theme
+import useStyles from "../../customHooks/useStyles";
+import darkStyles from "./stylesheets/DarkDeveloperTeam.module.css"
+import lightStyles from "./stylesheets/LightDeveloperTeam.module.css"
+
+
 const DeveloperTeam = (props) => {
   const history = useHistory();
   const dispatch = useDispatch();
+  
+  const  isDark  = useSelector((state) => state.activeThemeIsDark);
 
+  const styles = useStyles(darkStyles, lightStyles);
   
   return (
     <div className={styles["about-us"]}>
       <div className={styles["about-us-container"]}>
-        <Accordion style={{ backgroundColor: "#313c52", color: "white" }}>
+        <Accordion style={ isDark ? { backgroundColor: "#616161", color: "#FAFAFA" } : { backgroundColor: "#EEEEEE", color: "#212121" }}>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel1a-content"
@@ -55,7 +62,7 @@ const DeveloperTeam = (props) => {
                     target="_blank"
                     rel="noreferrer"
                     href="https://www.linkedin.com/"
-                    className="text-white me-4"
+                    className={isDark ? "text-white me-4" : "text-dark me-4"}
                   >
                     <LinkedInIcon />
                   </a>
@@ -63,7 +70,7 @@ const DeveloperTeam = (props) => {
                     target="_blank"
                     rel="noreferrer"
                     href="https://github.com/seba-pitra/e-commerce-NFT"
-                    className="text-white me-4"
+                    className={isDark ? "text-white me-4" : "text-dark me-4"}
                   >
                     <GitHubIcon />
                   </a>
@@ -72,7 +79,7 @@ const DeveloperTeam = (props) => {
             </div>
           </AccordionDetails>
         </Accordion>
-        <Accordion style={{ backgroundColor: "#313c52", color: "white" }}>
+        <Accordion style={ isDark ? { backgroundColor: "#616161", color: "#FAFAFA" } : { backgroundColor: "#EEEEEE", color: "#212121" }}>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel1a-content"
@@ -99,7 +106,7 @@ const DeveloperTeam = (props) => {
                     target="_blank"
                     rel="noreferrer"
                     href="https://www.linkedin.com/"
-                    className="text-white me-4"
+                    className={isDark ? "text-white me-4" : "text-dark me-4"}
                   >
                     <LinkedInIcon />
                   </a>
@@ -107,7 +114,7 @@ const DeveloperTeam = (props) => {
                     target="_blank"
                     rel="noreferrer"
                     href="https://github.com/seba-pitra/e-commerce-NFT"
-                    className="text-white me-4"
+                    className={isDark ? "text-white me-4" : "text-dark me-4"}
                   >
                     <GitHubIcon />
                   </a>
@@ -116,7 +123,7 @@ const DeveloperTeam = (props) => {
             </div>
           </AccordionDetails>
         </Accordion>
-        <Accordion style={{ backgroundColor: "#313c52", color: "white" }}>
+        <Accordion style={ isDark ? { backgroundColor: "#616161", color: "#FAFAFA" } : { backgroundColor: "#EEEEEE", color: "#212121" }}>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel1a-content"
@@ -145,7 +152,7 @@ const DeveloperTeam = (props) => {
                     target="_blank"
                     rel="noreferrer"
                     href="https://www.linkedin.com/"
-                    className="text-white me-4"
+                    className={isDark ? "text-white me-4" : "text-dark me-4"}
                   >
                     <LinkedInIcon />
                   </a>
@@ -153,7 +160,7 @@ const DeveloperTeam = (props) => {
                     target="_blank"
                     rel="noreferrer"
                     href="https://github.com/seba-pitra/e-commerce-NFT"
-                    className="text-white me-4"
+                    className={isDark ? "text-white me-4" : "text-dark me-4"}
                   >
                     <GitHubIcon />
                   </a>
@@ -162,7 +169,7 @@ const DeveloperTeam = (props) => {
             </div>
           </AccordionDetails>
         </Accordion>
-        <Accordion style={{ backgroundColor: "#313c52", color: "white" }}>
+        <Accordion style={ isDark ? { backgroundColor: "#616161", color: "#FAFAFA" } : { backgroundColor: "#EEEEEE", color: "#212121" }}>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel1a-content"
@@ -191,7 +198,7 @@ const DeveloperTeam = (props) => {
                     target="_blank"
                     rel="noreferrer"
                     href="https://www.linkedin.com/"
-                    className="text-white me-4"
+                    className={isDark ? "text-white me-4" : "text-dark me-4"}
                   >
                     <LinkedInIcon />
                   </a>
@@ -199,7 +206,7 @@ const DeveloperTeam = (props) => {
                     target="_blank"
                     rel="noreferrer"
                     href="https://github.com/seba-pitra/e-commerce-NFT"
-                    className="text-white me-4"
+                    className={isDark ? "text-white me-4" : "text-dark me-4"}
                   >
                     <GitHubIcon />
                   </a>
@@ -208,7 +215,7 @@ const DeveloperTeam = (props) => {
             </div>
           </AccordionDetails>
         </Accordion>
-        <Accordion style={{ backgroundColor: "#313c52", color: "white" }}>
+        <Accordion style={ isDark ? { backgroundColor: "#616161", color: "#FAFAFA" } : { backgroundColor: "#EEEEEE", color: "#212121" }}>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel1a-content"
@@ -235,7 +242,7 @@ const DeveloperTeam = (props) => {
                     target="_blank"
                     rel="noreferrer"
                     href="https://www.linkedin.com/"
-                    className="text-white me-4"
+                    className={isDark ? "text-white me-4" : "text-dark me-4"}
                   >
                     <LinkedInIcon />
                   </a>
@@ -243,7 +250,7 @@ const DeveloperTeam = (props) => {
                     target="_blank"
                     rel="noreferrer"
                     href="https://github.com/seba-pitra/e-commerce-NFT"
-                    className="text-white me-4"
+                    className={isDark ? "text-white me-4" : "text-dark me-4"}
                   >
                     <GitHubIcon />
                   </a>
@@ -252,7 +259,7 @@ const DeveloperTeam = (props) => {
             </div>
           </AccordionDetails>
         </Accordion>
-        <Accordion style={{ backgroundColor: "#313c52", color: "white" }}>
+        <Accordion style={ isDark ? { backgroundColor: "#616161", color: "#FAFAFA" } : { backgroundColor: "#EEEEEE", color: "#212121" }}>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel1a-content"
@@ -279,7 +286,7 @@ const DeveloperTeam = (props) => {
                     target="_blank"
                     rel="noreferrer"
                     href="https://www.linkedin.com/"
-                    className="text-white me-4"
+                    className={isDark ? "text-white me-4" : "text-dark me-4"}
                   >
                     <LinkedInIcon />
                   </a>
@@ -287,7 +294,7 @@ const DeveloperTeam = (props) => {
                     target="_blank"
                     rel="noreferrer"
                     href="https://github.com/seba-pitra/e-commerce-NFT"
-                    className="text-white me-4"
+                    className={isDark ? "text-white me-4" : "text-dark me-4"}
                   >
                     <GitHubIcon />
                   </a>
@@ -296,7 +303,7 @@ const DeveloperTeam = (props) => {
             </div>
           </AccordionDetails>
         </Accordion>
-        <Accordion style={{ backgroundColor: "#313c52", color: "white" }}>
+        <Accordion style={ isDark ? { backgroundColor: "#616161", color: "#FAFAFA" } : { backgroundColor: "#EEEEEE", color: "#212121" }}>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel1a-content"
@@ -325,7 +332,7 @@ const DeveloperTeam = (props) => {
                     target="_blank"
                     rel="noreferrer"
                     href="https://www.linkedin.com/"
-                    className="text-white me-4"
+                    className={isDark ? "text-white me-4" : "text-dark me-4"}
                   >
                     <LinkedInIcon />
                   </a>
@@ -333,7 +340,7 @@ const DeveloperTeam = (props) => {
                     target="_blank"
                     rel="noreferrer"
                     href="https://github.com/seba-pitra/e-commerce-NFT"
-                    className="text-white me-4"
+                    className={isDark ? "text-white me-4" : "text-dark me-4"}
                   >
                     <GitHubIcon />
                   </a>

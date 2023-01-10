@@ -81,7 +81,7 @@ export const DELETE_FAVS_ON_SIGN_OUT = "DELETE_FAVS_ON_SIGN_OUT";
 
 // -- THEMES SWITCH
 export const TOGGLE_THEME = "TOGGLE_THEME";
-
+export const LOCAL_STORAGE_THEME = "LOCAL_STORAGE_THEME";
 
 // -- GETTERS --
 
@@ -536,4 +536,8 @@ export const toggleTheme = () => {
 	return { type: TOGGLE_THEME};
 	 };
 
+export const injectLocalStorageTheme = (payload) => {
+console.log('ACTION !!');
+	return { type: LOCAL_STORAGE_THEME, payload } ;
 
+};

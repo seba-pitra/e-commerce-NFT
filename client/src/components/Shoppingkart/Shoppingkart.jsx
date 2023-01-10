@@ -9,6 +9,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 export default function Shoppingkart() {
   const shoppingCartContents = useSelector((state) => state.shoppingCartContents);
+
   const [error, setError] = useState();
   const [txs, setTxs] = useState([]);
 
