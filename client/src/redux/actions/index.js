@@ -78,6 +78,7 @@ export const ADD_FAV = "ADD_FAV";
 
 // -- THEMES SWITCH
 export const TOGGLE_THEME = "TOGGLE_THEME";
+export const LOCAL_STORAGE_THEME = "LOCAL_STORAGE_THEME";
 
 // -- GETTERS --
 
@@ -530,4 +531,9 @@ export const addToFav = (payload) => {
 
 export const toggleTheme = () => {
   return { type: TOGGLE_THEME };
+};
+
+export const injectLocalStorageTheme = (payload) => {
+  console.log("ACTION !!");
+  return { type: LOCAL_STORAGE_THEME, payload };
 };
