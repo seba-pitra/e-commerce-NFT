@@ -3,21 +3,27 @@ import { useSelector, useDispatch } from "react-redux";
 import * as actions from "../../redux/actions";
 import Loading from "../Loading/Loading";
 import { Link, useHistory } from "react-router-dom";
-import styles from "./stylesheets/Details.module.css";
 import ethereumLogo from "../../images/ethereum-logo.png";
 import { startPayment } from "../../utils";
 import StarRating from "../StarRating/StarRating";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import axios from 'axios';
+
+//dark-light theme
+import useStyles from "../../customHooks/useStyles";
+import darkStyles from "./stylesheets/DarkDetail.module.css"
+import lightStyles from "./stylesheets/LightDetail.module.css"
 
 const Details = (props) => {
   const dispatch = useDispatch();
   const history = useHistory();
+  const styles = useStyles(darkStyles, lightStyles);
 
   const { id } = props.match.params;
   const nftDetail = useSelector((state) => state.nftDetail);
   const isLoading = useSelector((state) => state.isLoading);
-
+  const userDetail = useSelector((state) => state.loggedUser)
   const [error, setError] = useState();
   const [txs, setTxs] = useState([]);
 
@@ -42,7 +48,9 @@ const Details = (props) => {
       contract: nftDetail.contract,
       payMethod: "Metamask",
       statusPay: "Created",
-      purchases: [nftDetail],
+      nftIds: [nftDetail.id],
+      buyerId: userDetail.id,
+      sellerId : nftDetail.user.id
     };
 
     if (transactionMetamask.hash) {
@@ -54,6 +62,7 @@ const Details = (props) => {
         ...buyData,
         statusPay: "Successful",
       };
+
     } else if (transactionMetamask.includes("rejected")) {
       //si se rechazo en metamask
       toast.error("Something was wrong. Try again later", {
@@ -73,8 +82,12 @@ const Details = (props) => {
         statusPay: "Pending",
       };
     }
-
-    dispatch(actions.addBuyAtHistoryBuys(buyData));
+    console.log(buyData);
+    // console.log(transactionMetamask);
+    // console.log(userDetail)
+    let newPurchase = await axios.post(`/purchase/create/`,buyData)
+    console.log(newPurchase)
+    
   };
 
   const handleClickOnShoppingCart = (e) => {
@@ -101,7 +114,7 @@ const Details = (props) => {
             className={styles["back-button"]}
           >
             {" "}
-            {"< "}Back{" "}
+            {"Back"}{" "}
           </button>
           <div className={styles["detail-card-container"]}>
             <img

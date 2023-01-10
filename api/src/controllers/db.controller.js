@@ -2,11 +2,11 @@ const JSON_NFTS = require("../jsondata");
 const TEST_NFTS = require("../jsondata/indexTest");
 const { COLLETION_DATA } = require("../jsondata/collections.json");
 const { SUPER_USER_DATA } = require("../jsondata/superUserData.json");
+const SUPER_USER_DATA_ID = SUPER_USER_DATA.id;
 
 const { createSuperUser } = require("../controllers/user.controller");
-const { Nft, Collection, Purchase, User, Review } = require("../db");
+const { Nft, Collection, Transaction, User, Review } = require("../db");
 const utils = require("../utils");
-const SUPER_USER_DATA_ID = SUPER_USER_DATA.id;
 
 
 //Creates every initial data, and posts it to the database.
@@ -44,7 +44,7 @@ const getEverythingFromDB = async (req, res) => {
             }, {
                 model : Review
             },{
-                model : Purchase
+                model : Transaction
             }]
         });
         const allCollections = await Collection.findAll({
@@ -56,7 +56,7 @@ const getEverythingFromDB = async (req, res) => {
                 model : Review
             }]
         });
-        const allPurchases = await Purchase.findAll({
+        const allTransactions = await Transaction.findAll({
             include : [{
                 model : User,
                 as : "buyer"
@@ -74,10 +74,10 @@ const getEverythingFromDB = async (req, res) => {
             },{
                 model: Nft
             },{
-                model : Purchase,
+                model : Transaction,
                 as: "sales"
             },{
-                model : Purchase,
+                model : Transaction,
                 as : "purchases"
             }]
         });
@@ -85,7 +85,7 @@ const getEverythingFromDB = async (req, res) => {
             allUsers : allUsers,
             allNfts : allNfts,
             allCollections : allCollections,
-            allPurchases : allPurchases
+            allTransactions : allTransactions
         })
     }catch (error) {
         console.error(error)

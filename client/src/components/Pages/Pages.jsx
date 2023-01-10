@@ -13,38 +13,29 @@ import FilterOptions from "../FilterOptrions/Options";
 import { useState } from "react";
 import Filtering from "../FilterOptrions/Filtering/Filtering";
 
-// THEME imports
-import "./Pages.css"; // tema ligth
-// import "./Pages2.css"; // tema dark
-import styles from "./stylesheets/Pages.module.css";
-
-import { toggleTheme } from "../../redux/actions";
-import { useEffect } from "react";
+//dark-light theme
+import useStyles from "../../customHooks/useStyles";
+import darkStyles from "./stylesheets/DarkPages.module.css"
+import lightStyles from "./stylesheets/LightPages.module.css"
 
 function Pages() {
   const filteredNfts = useSelector((state) => state.filteredNfts);
   const activePage = useSelector((state) => state.activePage);
   const nftsPerPage = useSelector((state) => state.nftsPerPage);
-
   const lastNftInPage = activePage * nftsPerPage;
   const firstNftInPage = lastNftInPage - nftsPerPage;
   const nftsInPage = filteredNfts.slice(firstNftInPage, lastNftInPage);
 
-  const [showFilters, setShowFilters] = useState(false);
-
-  const handleClose = () => setShowFilters(false);
-  const handleShow = () => {
-    setShowFilters(true);
-  };
+  const styles = useStyles(darkStyles, lightStyles);
 
   const dispatch = useDispatch();
 
   const setViewCards = (view) => {
-    dispatch(actions.setViewCards(view));
+    dispatch(actions.setViewCards(view))
   };
 
   const setNftPage = (e) => {
-    dispatch(actions.nftsxpage(e.target.value));
+    dispatch(actions.nftsxpage(e.target.value))
   };
 
   const cards = nftsInPage.map((nft) => {
@@ -67,6 +58,7 @@ function Pages() {
     );
   });
 
+
   // THEME SWITCHER
   const activeThemeIsDark = useSelector((state) => state.activeThemeIsDark);
 
@@ -76,85 +68,100 @@ function Pages() {
     //If the widht is less than 957
     const containerDesktop = (
       <div className={styles["orders-container"]}>
-        <Filtering />
 
-        <select defaultValue="itemsxpage" onChange={(e) => setNftPage(e)}>
-          <option disabled value="itemsxpage">
-            Items-Page
-          </option>
-          <option value="40">40</option>
-          <option value="80">80</option>
-          <option value="120">120</option>
-          <option value="160">160</option>
-          <option value="200">200</option>
-        </select>
+        <div className={styles["left-hand-conteiner"]}>
+          <Filtering />
+          <select defaultValue="itemsxpage" onChange={(e) => setNftPage(e)}>
+            <option disabled value="itemsxpage"> Items-Page </option>
+            <option value="40">40</option>
+            <option value="80">80</option>
+            <option value="120">120</option>
+            <option value="160">160</option>
+            <option value="200">200</option>
+          </select>
+        </div>
+        
 
-        <PageSelector />
-
-        <Ordering />
-
-        <div className={styles["cards-styles"]}>
-          <button
-            className={styles["buttons-cards-styles"]}
-            onClick={() => setViewCards("clear")}
-          >
-            <ImageIcon />
-          </button>
-          <button
-            className={styles["buttons-cards-styles"]}
-            onClick={() => setViewCards("info")}
-          >
-            <SubtitlesIcon />
-          </button>
+        <div className={styles["middle-conteiner"]}>
+          <PageSelector />
         </div>
 
-        <span className="amount-nfts">
-          <b>{filteredNfts.length}</b> items
-        </span>
+        <div className={styles["right-hand-conteiner"]}>
+          <Ordering />
+          <div className={styles["cards-styles"]}>
+            <button className={styles["buttons-cards-styles"]} onClick={() => setViewCards("clear")} >
+              <ImageIcon />
+            </button>
+            <button className={styles["buttons-cards-styles"]} onClick={() => setViewCards("info")} >
+              <SubtitlesIcon />
+            </button>
+          </div>
+
+          <span className={styles["amount-nfts"]}>
+            <b>{filteredNfts.length}</b> items
+          </span>
+        </div>
       </div>
     );
     navToShow = containerDesktop;
   } else {
     // If the widht is greater than 957
     const containerPhone = (
-      <div className={styles["orders-container"]}>
-        <Filtering />
+      <div className={styles["orders-container-phone"]}>
+        <div className={styles["orders-container"]}>
 
-        <Ordering />
+          <div className={styles["left-hand-conteiner"]}>
+            <Filtering />
+            <select defaultValue="itemsxpage" onChange={(e) => setNftPage(e)}>
+              <option disabled value="itemsxpage"> Items-Page </option>
+              <option value="40">40</option>
+              <option value="80">80</option>
+              <option value="120">120</option>
+              <option value="160">160</option>
+              <option value="200">200</option>
+            </select>
+          </div>
+          
 
-        <div className={styles["cards-styles"]}>
-          <button
-            className={styles["buttons-cards-styles"]}
-            onClick={() => setViewCards("clear")}
-          >
-            <ImageIcon />
-          </button>
-          <button
-            className={styles["buttons-cards-styles"]}
-            onClick={() => setViewCards("info")}
-          >
-            <SubtitlesIcon />
-          </button>
+
+          <div className={styles["right-hand-conteiner"]}>
+            <Ordering />
+            <div className={styles["cards-styles"]}>
+              <button className={styles["buttons-cards-styles"]} onClick={() => setViewCards("clear")} >
+                <ImageIcon />
+              </button>
+              <button className={styles["buttons-cards-styles"]} onClick={() => setViewCards("info")} >
+                <SubtitlesIcon />
+              </button>
+            </div>
+
+            <span className={styles["amount-nfts"]}>
+              <b>{filteredNfts.length}</b> items
+            </span>
+          </div>
         </div>
-
-        <span className="amount-nfts">
-          <b>{filteredNfts.length}</b> items
-        </span>
+        <div className={styles["middle-conteiner"]}>
+          <PageSelector />
+        </div>
       </div>
     );
     navToShow = containerPhone;
   }
 
-  // el primer div className condicional para el tema
+
+// el primer div className condicional para el tema
   return (
-    <div className={activeThemeIsDark ? "dark" : "light"}>
-      {cards.length === 0 ? (
-        <NotFoundResults />
+    <div> 
+     {cards.length === 0 ? (
+          <div className={styles["pages-all-container"]}>
+            {navToShow}
+            <div className={styles["cards-container"]}><NotFoundResults /></div>
+          </div>
       ) : (
-        <div className={styles["pages-all-container"]}>
-          {navToShow}
-          <div className={styles["cards-container"]}>{cards}</div>
-        </div>
+          <div className={styles["pages-all-container"]}>
+            {navToShow}
+            <div className={styles["cards-container"]}>{cards}</div>
+          </div>
       )}
     </div>
   );
