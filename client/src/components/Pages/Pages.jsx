@@ -143,15 +143,16 @@ function Pages() {
 
 // el primer div className condicional para el tema
   return (
-    <div className={activeThemeIsDark ? 'dark' : 'light'}>
-      
+    <div className={activeThemeIsDark ? 'dark' : 'light'}> 
      {cards.length === 0 ? (
-        <NotFoundResults />
+          <div className={styles["pages-all-container"]}>
+            {navToShow}
+            <div className={styles["cards-container"]}><NotFoundResults /></div>
+          </div>
       ) : (
-
-        <div className={styles["pages-all-container"]}>
-          {navToShow}
-          <div className={styles["cards-container"]}>{cards}</div>
+          <div className={styles["pages-all-container"]}>
+            {navToShow}
+            <div className={styles["cards-container"]}>{cards}</div>
         </div>
       )}
     </div>
