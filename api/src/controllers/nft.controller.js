@@ -1,4 +1,4 @@
-const { Nft, Collection, User, Review, Purchase } = require("../db");
+const { Nft, Collection, User, Review, Transaction } = require("../db");
 
 
 /*
@@ -19,7 +19,7 @@ const getNfts = async (req, res) => {
         { model: User },
         { model: Collection },
         { model: Review },
-        { model: Purchase },
+        { model: Transaction },
       ],
     };
     // Agregar ordenamiento si se especificaron los parámetros de ordenamiento en la solicitud
@@ -63,7 +63,7 @@ const getNftById = async (req, res) => {
   try {
     const { id } = req.params;
     const foundNftFromDB = await Nft.findByPk(id, {
-      include: [{ model: Collection }, { model: User }, { model: Review }, { model: Purchase } ],
+      include: [{ model: Collection }, { model: User }, { model: Review }, { model: Transaction } ],
     });
     if (foundNftFromDB) res.status(200).json(foundNftFromDB);
     else throw new Error(`No nft with id ${id}`);
