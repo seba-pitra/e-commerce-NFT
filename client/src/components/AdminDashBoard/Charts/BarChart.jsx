@@ -9,7 +9,7 @@ import {
   Legend,
 } from "chart.js";
 import { Bar } from "react-chartjs-2";
-import "./BarChart.css";
+import styles from "./stylesheets/BarChart.module.css";
 
 Chart.defaults.color = "rgba(211, 68, 139, 1)";
 Chart.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
@@ -114,9 +114,8 @@ const BarChart = ({ chartNfts, chartCollections }) => {
       stepSize: 5,
     },
   };
-
   return (
-    <div className="grafic-container">
+    <div className={styles["grafic-container"]}>
       <Bar data={chartData} options={opciones} />
     </div>
   );

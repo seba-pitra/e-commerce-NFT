@@ -2,7 +2,9 @@ import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { useHistory } from "react-router-dom";
 import * as actions from "../../redux/actions/index";
-import "./AdminDashboard.css";
+// import "./AdminDashboard.css";
+
+import styles from "./stylesheets/AdminDashboard.module.css";
 
 // Components
 import NFTList_dash from "./NFTsList_dash/NFTList_dash";
@@ -24,31 +26,31 @@ const AdminDashboard = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-      dispatch(actions.getAllAdminNfts());
-      dispatch(actions.getAllAdminUsers());
-      dispatch(actions.getAllCollections());
+    dispatch(actions.getAllAdminNfts());
+    dispatch(actions.getAllAdminUsers());
+    dispatch(actions.getAllCollections());
   }, [dispatch]);
 
   if (!adminNfts.length || !adminUsers.length || !collections.length)
     return <Loading />;
   return (
-    <div className="dashboard-container">
-      <div className="dashboard-barchart">
+    <div className={styles["dashboard-container"]}>
+      <div className={styles["dashboard-barchart"]}>
         <Charts chartNfts={adminNfts} chartCollections={collections} />
       </div>
-      <div className="dashboard-users-info">
-        <div className="dashboard-users">
+      <div className={styles["dashboard-users-info"]}>
+        <div className={styles["dashboard-users"]}>
           <h3>Manage Users</h3>
           <NFTList_dash users={adminUsers} />
         </div>
         <DoughChart users={adminUsers} />
       </div>
-      <div className="dasboard-left-side">
-        <div className="dahsboard-nfts">
+      <div className={styles["dasboard-left-side"]}>
+        <div className={styles["dahsboard-nfts"]}>
           <h3>Manage NFTs</h3>
           <NFTList_dash nfts={adminNfts} />
         </div>
-        <div className="dashboard-verify">
+        <div className={styles["dashboard-verify"]}>
           <h3>Manage Verifications</h3>
           <NFTList_dash
             verifyingUsers={adminUsers.filter(

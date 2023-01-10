@@ -7,7 +7,7 @@ export const GET_ALL_ADMIN_USERS = "GET_ALL_ADMIN_USERS";
 export const GET_USER_BY_ID = "GET_USER_BY_ID";
 export const REGISTER_USER = "REGISTER_USER";
 export const SIGN_IN_WITH_GOOGLE = "SIGN_IN_WITH_GOOGLE";
-export const LOG_IN = "LOG_IN"
+export const LOG_IN = "LOG_IN";
 export const LOG_OUT = "LOG_OUT";
 export const LOG_IN_SUCCESS = "LOG_IN_SUCCESS";
 export const ASKED_FOR_VERIFICATION = "ASKED_FOR_VERIFICATION";
@@ -138,17 +138,17 @@ export const getAllCollections = () => {
 
 export const getCollectionById = (id) => {
   return async (dispatch) => {
-    dispatch({type : LOADING});
+    dispatch({ type: LOADING });
     try {
       const collectionDetail = await axios.get(`/collection/${id}`);
-      dispatch({ type: GET_COLLECTION_DETAIL, payload: collectionDetail.data});
+      dispatch({ type: GET_COLLECTION_DETAIL, payload: collectionDetail.data });
     } catch (error) {
       toast.error("Something was wrong. Try again later", {
         position: "bottom-left",
       });
     }
-  }
-}
+  };
+};
 
 export const getNftDetail = (id) => {
   return async (dispatch) => {
@@ -243,24 +243,34 @@ export const logInUser = (id) => {
       const loggedUser = await axios.get(`/user/${id}`);
       dispatch({ type: LOG_IN, payload: loggedUser.data });
     } catch (error) {
-      toast.error("Can't get user data from back. Try again later", { position: "bottom-left" });
+      toast.error("Can't get user data from back. Try again later", {
+        position: "bottom-left",
+      });
     }
   };
 };
 export const successfulLogin = () => {
-  return { type : LOG_IN_SUCCESS }
-}
+  return { type: LOG_IN_SUCCESS };
+};
 
 export const askForVerification = (userData) => {
   return async (dispatch) => {
     try {
-      const response = await axios.get(`/user/ask/${userData.userId}`, userData);
-      dispatch({ type: ASKED_FOR_VERIFICATION, payload: response.data.message})
+      const response = await axios.get(
+        `/user/ask/${userData.userId}`,
+        userData
+      );
+      dispatch({
+        type: ASKED_FOR_VERIFICATION,
+        payload: response.data.message,
+      });
     } catch (error) {
-      toast.error("Something went wrong with verification request", { position: "bottom-left" });
+      toast.error("Something went wrong with verification request", {
+        position: "bottom-left",
+      });
     }
   };
-}
+};
 
 // --- SETTERS ---
 
@@ -367,7 +377,7 @@ export const createNft = (payload) => {
     try {
       const createdNft = await axios.post(`/nft/create`, payload);
       dispatch({ type: CREATE_NFT, payload: createdNft.data }); // msj desde el back
-      toast.success("Collection created successfully", {
+      toast.success("NFT created successfully", {
         position: "bottom-left",
       });
       // window.location.href = "/marketplace";
@@ -440,9 +450,9 @@ export const addReview = (payload) => {
     try {
       const { userId, nftId, value } = payload;
       const response = await axios.post(`/review/create`, {
-        userId : userId,
-        nftId : nftId,
-        value : value
+        userId: userId,
+        nftId: nftId,
+        value: value,
       });
     } catch (error) {
       console.error(error.response.data);
@@ -477,7 +487,6 @@ export const removeNftOfShoppingCart = (nftId) => {
   return { type: REMOVE_NFT_OF_SHOOPING_CART, payload: nftId };
 };
 
-
 export const injectLocalStorageCart = (payload) => {
   return { type: LOCAL_STORAGE_CART, payload };
 };
@@ -493,7 +502,7 @@ export const freeShoppingCartState = () => {
 export const buyNftOnShoppingCart = (nftsOnShoppingCart) => {
   return async (dispatch) => {
     const buyApi = await axios.post(`/payment`, nftsOnShoppingCart);
-    console.log(buyApi)
+    console.log(buyApi);
     window.location.replace(buyApi.data.sandbox_init_point); // => prueba
     // window.location.replace(buyApi.data.init_point);
   };
@@ -521,11 +530,10 @@ export const addToFav = (payload) => {
 // --- THEME THINGS ---
 
 export const toggleTheme = () => {
-	return { type: TOGGLE_THEME};
-	 };
+  return { type: TOGGLE_THEME };
+};
 
 export const injectLocalStorageTheme = (payload) => {
-console.log('ACTION !!');
-	return { type: LOCAL_STORAGE_THEME, payload } ;
-
+  console.log("ACTION !!");
+  return { type: LOCAL_STORAGE_THEME, payload };
 };

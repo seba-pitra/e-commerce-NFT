@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import styles from "../stylesheets/Create.module.css";
+import styles from "../stylesheets/LightCreate.module.css";
 
 export default function CloudinaryImageInput({ setImage, image_prop }) {
   const cloudinaryRef = useRef();

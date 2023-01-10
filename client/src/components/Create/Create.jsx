@@ -8,10 +8,14 @@ import CreateCollection from "./CreateCollection/CreateCollection";
 import CreateNFT from "./CreateNFT/CreateNFT";
 import CategoriesSelector from "./CategoriesSelector/CategoriesSelector";
 
-import styles from "./stylesheets/Create.module.css";
+import darkStyles from "./stylesheets/DarkCreate.module.css";
+import lightStyles from "./stylesheets/LightCreate.module.css";
+import useStyles from "../../customHooks/useStyles";
 
 export default function Create() {
   const user = useSelector((state) => state.loggedUser);
+
+  const styles = useStyles(darkStyles, lightStyles);
 
   const dispatch = useDispatch();
   const [step, setStep] = useState(1);
@@ -106,7 +110,7 @@ export default function Create() {
         />
 
         <div className={styles["buttons-next-prev-container"]}>
-          <button className={styles["button-create"]} onClick={back}>
+          <button className={styles["disabled"]} onClick={back}>
             Back
           </button>
           <button
