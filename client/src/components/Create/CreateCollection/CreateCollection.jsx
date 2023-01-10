@@ -1,7 +1,5 @@
 import { useEffect } from "react";
-import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { useHistory } from "react-router-dom";
 import * as actions from "../../../redux/actions";
 import CloudinaryImageInput2 from "../CloudinaryImageInput/CloudinaryImageInput2";
 import styles from "../stylesheets/CreateCollection.module.css";

@@ -6,14 +6,25 @@ import pendingIcon from "../../images/icons/pending-icon.png";
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
 import styles from "./stylesheets/PayResult.module.css";
+import axios from "axios";
 
 function PayResult(props) {
   const dispatch = useDispatch();
 
   let firebaseCurrentUser = JSON.parse(
-    localStorage.getItem("firebaseCurrentUser")
+    localStorage.getItem("User")
   );
 
+  let buyer = JSON.parse(
+    localStorage.getItem("User")
+  );
+
+  let compras = JSON.parse(
+    localStorage.getItem("compras")
+  )
+  console.log(compras)
+  
+  console.log(firebaseCurrentUser)
   let shoppingCartContents = JSON.parse(localStorage.getItem("nftsOnShoppingCart"));
 
   let totalAmount = 0;
@@ -120,6 +131,24 @@ function PayResult(props) {
         statusPay: "Successed",
       };
 
+      let sellers = new Array(...new Set(compras.map((data) => data.userId)))
+
+      sellers.forEach( async seller => {
+        let dataBuy = {
+          price: compras.filter(nfts=>nfts.userId===seller).map((data) => data.price).reduce((a, b) => a + b),
+          payMethod: "MercadoPago",
+          statusPay: "Successful",
+          buyerId: buyer.id,
+          sellerId: seller,
+          nftIds: compras.filter(nfts=>nfts.userId===seller).map(nfts=>nfts.id),
+        }
+        
+        console.log("dataBuy" , dataBuy)
+        let newPurchase = await axios.post(`/purchase/create`,dataBuy)
+        console.log(newPurchase)
+        
+      })
+
       dispatch(
         actions.sendFungibleMail({
           correoUser: firebaseCurrentUser.email,
@@ -152,7 +181,7 @@ function PayResult(props) {
       );
     }
 
-    dispatch(actions.addBuyAtHistoryBuys(mercadoPagoBuyData));
+    // dispatch(actions.addBuyAtHistoryBuys(mercadoPagoBuyData)); --> Esto que hace? xD
   }
 
   return <div className={styles["pay-result"]}>{resultContainer}</div>;
