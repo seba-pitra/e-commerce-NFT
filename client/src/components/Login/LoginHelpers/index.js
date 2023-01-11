@@ -19,7 +19,7 @@ export const signGoogle = async () => {
   }
 };
 /**
- * 
+ *
  * @param {object} logginForm - the loggin form with email and password properties to pass to firebase.
  * @returns the user from the firebase response.
  */
@@ -31,18 +31,23 @@ export const logginFunction = async (logginForm) => {
       logginForm.password
     );
 
-    if (!responseFirebase.user.emailVerified &&
-      responseFirebase.user.uid !== "zbhAE68vRxVetZpviZWSsuv4zfh1") {
+    if (
+      !responseFirebase.user.emailVerified &&
+      responseFirebase.user.uid !== "zbhAE68vRxVetZpviZWSsuv4zfh1"
+    ) {
       let err = { code: "Email not verified" };
       throw err;
     }
-    
-    localStorage.setItem("User",JSON.stringify({
-      id: auth.currentUser.uid,
-      email: auth.currentUser.email,
-      username: auth.currentUser.displayName + Math.random() * 100000,
-      profile_pic: auth.currentUser.photoURL,
-    }));
+
+    localStorage.setItem(
+      "User",
+      JSON.stringify({
+        id: auth.currentUser.uid,
+        email: auth.currentUser.email,
+        username: auth.currentUser.displayName + Math.random() * 100000,
+        profile_pic: auth.currentUser.photoURL,
+      })
+    );
     // await axios.post("/payment/userEmail", auth.currentUser);
 
     return responseFirebase.user;
