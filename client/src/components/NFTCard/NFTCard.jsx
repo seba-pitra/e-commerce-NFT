@@ -28,7 +28,7 @@ export default function NFTCard(props) {
 
   const handleClickOnFavorites = (e) => {
     dispatch(actions.addToFav(props));
-    saveFavsLocalStorage();
+     saveFavsLocalStorage();
   };
 
   function saveLocalStorage() {

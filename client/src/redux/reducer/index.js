@@ -46,6 +46,7 @@ import {
   DELETE_NFT_ON_SIGNOUT,
   ADD_BUY_AT_HISTORY_BUYS,
   ADD_FAV,
+  DEL_FAV,
   SIGN_IN_WITH_GOOGLE,
   LOG_IN,
   LOG_OUT,
@@ -511,6 +512,14 @@ const rootReducer = (state = initialState, action) => {
         ...state,
         userFavs: [...state.userFavs, action.payload],
       };
+
+     case DEL_FAV:
+ 	const NftsToRemove = state.userFavs.filter((nft) => nft.id !== action.payload);	
+ 	return {
+		...state,
+		userFavs: NftsToRemove,
+	};
+    // ------------
 
     case ADD_BUY_AT_HISTORY_BUYS:
       return {

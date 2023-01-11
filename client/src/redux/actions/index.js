@@ -76,6 +76,7 @@ export const DELETE_NFT_ON_SIGNOUT = "DELETE_NFT_ON_SIGNOUT";
 export const ADD_BUY_AT_HISTORY_BUYS = "ADD_BUY_AT_HISTORY_BUYS";
 
 export const ADD_FAV = "ADD_FAV";
+export const DEL_FAV = "DEL_FAV";
 
 // -- THEMES SWITCH
 export const TOGGLE_THEME = "TOGGLE_THEME";
@@ -531,6 +532,12 @@ export const sendFungibleMail = (sendData) => {
 export const addToFav = (payload) => {
   return { type: ADD_FAV, payload };
 };
+
+
+export const delToFav = (payload) => {
+	return {type: DEL_FAV, payload };
+};
+
 
 // --- THEME THINGS ---
 
