@@ -1,29 +1,21 @@
 const { Router } = require("express");
-const {
-  createNewPurchase,
-  getAllPurchases,
-  getPurchasesByUserAsBuyer,
-  getPurchasesByUserAsSeller,
-  rejectPurchase,
-  purchaseSuccess,
-  setPurchaseAsPending
-} = require("../controllers/purchase.controller");
+const purchaseControllers = require("../controllers/purchase.controller");
 
 const purchaseRouter = Router();
 
-purchaseRouter.post("/create", createNewPurchase)
+purchaseRouter.post("/create", purchaseControllers.createNewTransaction)
 
-purchaseRouter.get("/", getAllPurchases)
+purchaseRouter.get("/", purchaseControllers.getAllTransactions)
 
-purchaseRouter.get("/from-buyer/:id", getPurchasesByUserAsBuyer)
+purchaseRouter.get("/from-buyer/:id", purchaseControllers.getTransactionsByUserAsBuyer)
 
-purchaseRouter.get("/from-seller/:id", getPurchasesByUserAsSeller)
+purchaseRouter.get("/from-seller/:id", purchaseControllers.getTransactionsByUserAsSeller)
 
-purchaseRouter.put("/pending/:id", setPurchaseAsPending)
+purchaseRouter.put("/pending/:id", purchaseControllers.setTransactionAsPending)
 
-purchaseRouter.put("/reject/:id", rejectPurchase)
+purchaseRouter.put("/reject/:id", purchaseControllers.rejectTransaction)
 
-purchaseRouter.put("/approve/:id", purchaseSuccess)
+purchaseRouter.put("/approve/:id", purchaseControllers.purchaseSuccess)
 
 
 

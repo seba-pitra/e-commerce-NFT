@@ -1,15 +1,15 @@
 import * as actions from "../../redux/actions";
 import Filtering from "./Filtering/Filtering";
 import { useDispatch } from "react-redux";
-import "./Options.css";
+import styles from "./stylesheets/Option.module.css";
 
 export default function Options() {
   const dispatch = useDispatch();
 
   return (
-    <div className="alllFilters-container">
+    <div className={styles["all-filters-container"]}>
       <Filtering />
-      <div className="options-container">
+      {/* <div className="options-container">
         <button
           className="resetfilters-btn"
           onClick={() => {
@@ -18,7 +18,7 @@ export default function Options() {
         >
           Reset Filters
         </button>
-      </div>
+      </div> */}
     </div>
   );
 }

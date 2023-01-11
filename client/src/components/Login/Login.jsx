@@ -1,39 +1,21 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import {
-  gettingActiveUserToState,
-  injectLocalStorageCart,
-  getAllUsers,
-  signInWithGoogle,
-} from "../../redux/actions";
 import { useHistory } from "react-router-dom";
 import GoogleIcon from "@mui/icons-material/Google";
-import { auth, loginGoogle } from "../../firebase.js";
-import { signInWithEmailAndPassword, signOut } from "firebase/auth";
-import "./Login.css";
-import { Link } from "react-router-dom";
-import axios from "axios";
+import * as helpers from "./LoginHelpers";
+import * as actions from "../../redux/actions";
+import * as utils  from "../../utils";
+import styles from "./stylesheets/Login.module.css";
 
 // sendPasswordResetEmail
+
 const Login = () => {
-  const users = useSelector((state) => state.users);
-  // const loggedUser = useSelector((state) => state.loggedUser);
-  // let loginStatusStorage = localStorage.getItem("Logged");
-
   const dispatch = useDispatch();
-
   const history = useHistory();
-
   const [logginForm, setLogginForm] = useState({
     email: "",
     password: "",
   });
-
-  const [error, setError] = useState("");
-
-  useEffect(() => {
-    dispatch(getAllUsers());
-  }, [dispatch]);
 
   const handdleChange = (e) => {
     setLogginForm({
@@ -42,97 +24,66 @@ const Login = () => {
     });
   };
 
-  const signGoogle = async () => {
-    await loginGoogle();
-    // dispatch(gettingActiveUserToState(auth.currentUser.email)); //no hace nada
-    loadLocalStorage(auth.currentUser.email);
-    let user = {
-      id: auth.currentUser.uid,
-      email: auth.currentUser.email,
-      username: auth.currentUser.displayName + (Math.random() * 100000),
-      profile_pic: auth.currentUser.photoURL,
-    };
-    await axios.post("user/google/signin", user);
-    const userDb = await axios.get(`user/${user.id}`);
-    localStorage.setItem("currentUser", JSON.stringify(userDb));
-
-    if (userDb) {
-      history.push("/home");
+ /**
+ * Handles the login process using Google Sign-In.
+ */
+  const handleLogInGoogle = async () => {
+    // Attempt to sign the user in using Google Sign-In
+    const user = await helpers.signGoogle();
+    // If the user was successfully signed in
+    if (user) {
+      // Dispatch the signInWithGoogle action
+      dispatch(actions.signInWithGoogle(user));
+      // Load the user's cart and favorites from local storage
+      utils.loadCartLocalStorage(dispatch, user.email);
+      utils.loadFavsLocalStorage(dispatch, user.email);
+      history.push("/home")
+      // Theme LocalStorage Loader for logInGoogle only
+      let SavedTheme = JSON.parse(localStorage.getItem(JSON.stringify(user.email+'theme')));  
+      if (SavedTheme) { dispatch(actions.injectLocalStorageTheme(SavedTheme))}; 
+      localStorage.setItem("User",JSON.stringify(user)); 
     }
   };
-
-  const logginFunction = async (params) => {
-    try {
-      const loggedUserX2 = await signInWithEmailAndPassword(
-        auth,
-        params.email,
-        params.password
-      );
-
-      if (!users.some(user => user.id === loggedUserX2.user.uid)) {
-        await signOut(auth);
-        throw new Error("Firebase: Error (auth/user-not-found).");
-      }
-
-      if (auth.currentUser.emailVerified && loggedUserX2) {
-        // dispatch(gettingActiveUserToState(auth.currentUser.email));
-        // loadLocalStorage(auth.currentUser.email);
-
-        // fetch("http://localhost:3001/payment/userEmail", {
-        //   method: "POST",
-        //   headers: { "Content-Type": "application/json" },
-        //   body: JSON.stringify(auth.currentUser),
-        // });
-
-        await axios.post("/payment/userEmail", auth.currentUser);
-
-        setTimeout(() => {
-          setError("");
-          history.push("/marketplace");
-        }, 1000);
-      } else {
-        setError("Email not verified");
-        await signOut(auth);
-      }
-    } catch (error) {
-      if (error.message === "Firebase: Error (auth/user-not-found).") {
-        setError("User not found");
-      }
-      if (error.message === "Firebase: Error (auth/wrong-password).") {
-        setError("Wrong password");
-      }
-    }
-  };
-
-  function loadLocalStorage(email) {
-    let localCart = JSON.parse(localStorage.getItem(email));
-    if (localCart) {
-      dispatch(injectLocalStorageCart(localCart));
-    }
-  }
-
-  const handdleSubmit = (e) => {
+  /**
+   * Handles the login process using the login form
+   */
+  const handleSubmit = async (e) => {
+    // Prevent the default form submission behavior
     e.preventDefault();
-    dispatch(gettingActiveUserToState(logginForm.email));
-    loadLocalStorage(logginForm.email);
-    logginFunction(logginForm);
-    setLogginForm({
-      email: "",
-      password: "",
-    });
+  
+    // Attempt to log the user in using the logginFunction helper
+    const user = await helpers.logginFunction(logginForm);
+  
+    // If the user was successfully logged in
+    if (user && user.uid) {
+      // Reset the form fields
+      setLogginForm({
+        email: "",
+        password: "",
+      });
+      // // Dispatch the logInUser action to get the user data to global state.
+      dispatch(actions.logInUser(user.uid));
+      // Load the user's cart and favorites from local storage
+      history.push("/home")
+      utils.loadCartLocalStorage(dispatch, user.email);
+      utils.loadFavsLocalStorage(dispatch, user.email);
+      let SavedTheme = JSON.parse(localStorage.getItem(JSON.stringify(user.email+'theme')));  
+      if (SavedTheme) { dispatch(actions.injectLocalStorageTheme(SavedTheme))}; 
+    }
   };
+
+
 
   return (
-    <form>
+    <form onSubmit={handleSubmit}>
       <div className="form-outline mb-4">
-        <label className="form-label text-light" for="EmailField">
+        <label className="form-label text-light" htmlFor="email">
           Email address
         </label>
         <input
           onChange={handdleChange}
           name="email"
           type="email"
-          id="EmailField"
           className="form-control form-control-lg col-md-2"
           placeholder="example@gmail.com"
           value={logginForm.email}
@@ -140,7 +91,7 @@ const Login = () => {
       </div>
 
       <div className="form-outline mb-3">
-        <label className="form-label text-light" for="PassField">
+        <label className="form-label text-light" htmlFor="PassField">
           Password
         </label>
         <input
@@ -151,25 +102,25 @@ const Login = () => {
           className="form-control form-control-lg"
           placeholder="Enter password"
           value={logginForm.password}
+          autoComplete="off"
         />
-      </div>
-
-      <div className={`login-errormessage ${error ? "" : "noneDisplay"}`}>
-        <p>{error}</p>
       </div>
 
       <div className="text-center text-lg-start mt-4 pt-2">
         <button
-          onClick={handdleSubmit}
+          onClick={handleSubmit}
           type="button"
-          className={"sing-in"}
+          className={styles["sing-in"]}
           style={{ paddingLeft: "2.5rem", paddingRight: "2.5rem" }}
-          disabled={!users.length}
         >
           Log in
         </button>
-        <button className={"sing-in"} type="button" onClick={signGoogle}>
-          <div className={"sing-in-container"}>
+        <button
+          className={styles["sing-in"]}
+          type="button"
+          onClick={handleLogInGoogle}
+        >
+          <div className={styles["sing-in-contaienr"]}>
             <GoogleIcon />
             <span> </span>
             <span>Sign in with Google</span>

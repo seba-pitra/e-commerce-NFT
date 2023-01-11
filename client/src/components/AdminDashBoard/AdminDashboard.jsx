@@ -2,55 +2,62 @@ import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { useHistory } from "react-router-dom";
 import * as actions from "../../redux/actions/index";
-import "./AdminDashboard.css";
+// import "./AdminDashboard.css";
+
+import styles from "./stylesheets/AdminDashboard.module.css";
 
 // Components
 import NFTList_dash from "./NFTsList_dash/NFTList_dash";
 import Charts from "./Charts/BarChart.jsx";
+import DoughChart from "./Charts/DougnoutChart.jsx";
+import Loading from "../Loading/Loading";
 
 const AdminDashboard = () => {
-  const { nfts, users, collections, loggedUser } = useSelector(
+  const { adminNfts, adminUsers, collections, loggedUser, shouldUpdate } = useSelector(
     (state) => state
   );
 
-  console.log("nft", nfts);
-  console.log("user", users);
+  //Favor de eliminar los console.logs cuando este listo esto.
+  console.log("nft", adminNfts);
+  console.log("user", adminUsers);
   console.log("collection", collections);
   console.log("logged", loggedUser);
 
   const dispatch = useDispatch();
-  const history = useHistory();
 
   useEffect(() => {
-    validateUser();
-  }, [dispatch]);
+    dispatch(actions.getAllAdminNfts());
+    dispatch(actions.getAllAdminUsers());
+    dispatch(actions.getAllCollections());
+  }, [dispatch, shouldUpdate]);
 
-  const validateUser = () => {
-    let loginStatusStorage = localStorage.getItem("Logged");
-    if (loginStatusStorage === "Estoy loggeado") {
-      dispatch(actions.getAllNfts());
-      dispatch(actions.getAllUsers());
-      dispatch(actions.getAllCollections());
-    } else {
-      history.push("/");
-    }
-  };
-
-  if (!nfts.length || !users.length || !collections.length)
-    return <h1>Loading</h1>;
+  if (!adminNfts.length || !adminUsers.length || !collections.length)
+    return <Loading />;
   return (
-    <div>
-      <h1>Admin Dashboard</h1>
-      <div>
-        <Charts chartNfts={nfts} chartCollections={collections} />
+    <div className={styles["dashboard-container"]}>
+      <div className={styles["dashboard-barchart"]}>
+        <Charts chartNfts={adminNfts} chartCollections={collections} />
       </div>
-      <div className="dahsboard-nfts">
-        <h3>Admin NFTs</h3>
-        <NFTList_dash nfts={nfts} />
+      <div className={styles["dashboard-users-info"]}>
+        <div className={styles["dashboard-users"]}>
+          <h3>Manage Users</h3>
+          <NFTList_dash users={adminUsers} />
+        </div>
+        <DoughChart users={adminUsers} />
       </div>
-      <div className="dashboard-users">
-        <h3>Admin Users</h3>
-        <NFTList_dash users={users} />
+      <div className={styles["dasboard-left-side"]}>
+        <div className={styles["dahsboard-nfts"]}>
+          <h3>Manage NFTs</h3>
+          <NFTList_dash nfts={adminNfts} />
+        </div>
+        <div className={styles["dashboard-verify"]}>
+          <h3>Manage Verifications</h3>
+          <NFTList_dash
+            verifyingUsers={adminUsers.filter(
+              (user) => user.type === "VerificationInProcess"
+            )}
+          />
+        </div>
       </div>
     </div>
   );

@@ -1,0 +1,27 @@
+.vUser-dash-name,
+.vUser-dash-dni,
+.vUser-dash-age,
+.vUser-dash-pn,
+.vUser-dash-nacionality,
+.vUser-dash-pp1 {
+  margin: 0 5px;
+}
+.vUser-dash-name {
+  width: 150px;
+}
+.vUser-dash-dni {
+  width: 100px;
+}
+.vUser-dash-age {
+  width: 20px;
+}
+.vUser-dash-pn {
+  width: 130px;
+}
+.vUser-dash-nacionality {
+  width: 120px;
+}
+.vUser-dash-pp1 a {
+  margin: 0 5px;
+  width: 200px;
+}

@@ -1,0 +1,16 @@
+.notfound-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #212121;
+  width: 99.4vw;
+  height: 84vh;
+  color: #FAFAFA;
+  overflow: hidden;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.notfound-container span{
+  padding: 24px;
+}

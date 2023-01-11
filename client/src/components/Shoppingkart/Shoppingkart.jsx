@@ -8,29 +8,26 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 export default function Shoppingkart() {
-  const userNfts = useSelector((state) => state.userNfts);
-  const activeUserIs = useSelector((state) => state.activeUser);
-
-  const [error, setError] = useState();
-  const [txs, setTxs] = useState([]);
+  const shoppingCartContents = useSelector(
+    (state) => state.shoppingCartContents
+  );
 
   const dispatch = useDispatch();
 
   const handleBuyNftsOnShoppingCart = async () => {
     //localStorage for payment for mercago pago in component "PayResult"
-    localStorage.setItem("nftsOnShoppingCart", JSON.stringify(userNfts));
-
-    dispatch(actions.buyNftOnShoppingCart(userNfts));
-    console.log("SendingMail");
+    localStorage.setItem(
+      "nftsOnShoppingCart",
+      JSON.stringify(shoppingCartContents)
+    );
+    dispatch(actions.buyNftOnShoppingCart(shoppingCartContents));
+    console.log(shoppingCartContents);
+    localStorage.setItem("compras", JSON.stringify(shoppingCartContents));
     // test only >> dispatch(actions.sendFungibleMail({correoUser: "yomero@gmail.com",accion: "pago"}));
   };
 
   const handlePay = async ({ nftPrice, nftContract, nftObj }) => {
-    setError();
-
     const transactionMetamask = await startPayment({
-      setError,
-      setTxs,
       ether: nftPrice.toString(),
       addr: nftContract,
     });
@@ -47,21 +44,22 @@ export default function Shoppingkart() {
 
     if (transactionMetamask.hash) {
       //si salio bien...
-      toast.success("Payment successfully");
+      toast.success("Payment successfully", { position: "bottom-left" });
       metamaskBuyData = {
         ...metamaskBuyData,
         statusPay: "Successful",
       };
     } else if (transactionMetamask.includes("rejected")) {
       //si se rechazo en metamask
-      toast.error("Something was wrong. Try again later");
       metamaskBuyData = {
         ...metamaskBuyData,
         statusPay: "Rejected",
       };
     } else if (transactionMetamask.includes("insufficient funds")) {
       //si faltan fondos
-      toast.warning("You have insufficient funds in Metamask");
+      toast.warning("You have insufficient funds in Metamask", {
+        position: "bottom-left",
+      });
       metamaskBuyData = {
         ...metamaskBuyData,
         statusPay: "Pending",
@@ -76,17 +74,17 @@ export default function Shoppingkart() {
   };
 
   let totalAmount = 0;
-  for (const nft of userNfts) {
+  for (const nft of shoppingCartContents) {
     totalAmount += nft.price;
   }
 
   return (
     <div className={styles["shopping-cart"]}>
       <div className={styles["shopping-cart-nft-cards"]}>
-        {userNfts &&
-          userNfts.map((nft) => {
+        {shoppingCartContents &&
+          shoppingCartContents.map((nft, index) => {
             return (
-              <div className={styles["cart-nfts-container"]}>
+              <div key={index} className={styles["cart-nfts-container"]}>
                 <img
                   src={nft.image}
                   alt="nft-cart"
@@ -97,18 +95,6 @@ export default function Shoppingkart() {
                   <p className={styles["cart-nft-price"]}>
                     ${(nft.price * 1271).toFixed(2)} USD
                   </p>
-                  <button
-                    className={styles["button-buy-fast"]}
-                    onClick={() =>
-                      handlePay({
-                        nftPrice: nft.price,
-                        nftContract: nft.contract,
-                        nftObj: nft,
-                      })
-                    }
-                  >
-                    Buy fast
-                  </button>
                 </div>
                 <button
                   className={styles["cart-nft-remove-button"]}
@@ -119,8 +105,6 @@ export default function Shoppingkart() {
               </div>
             );
           })}
-        {error && <p>{error}</p>}
-        {txs && <p>{txs}</p>}
       </div>
       <div className="text-center text-lg-bottom mt-4 pt-2">
         <h3>Total</h3>

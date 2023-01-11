@@ -1,0 +1,174 @@
+.create-nft-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 900px) {
+  .create-nft-container {
+    padding: 0 20px;
+    flex-direction: column;
+  }
+}
+
+.second-field-nft {
+  margin: 60px auto;
+  padding: 24px;
+  background-color: #313c52;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 10px #40495a;
+  width: 600px;
+}
+
+@media (max-width: 950px) {
+  .second-field-nft {
+    padding: 0;
+    margin: 60px 30px 0;
+    flex-direction: column;
+  }
+}
+
+.create-nft-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 1050px) {
+  .create-nft-form {
+    width: 350px;
+  }
+}
+
+.create-nft-input-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+@media (max-width: 1050px) {
+  .create-nft-input-container {
+    margin: 20px 0 20px 20px;
+  }
+}
+
+.create-nft-form input {
+  width: 300px;
+  height: 45px;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  padding-left: 5px;
+}
+
+.preview-nft-container {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 0;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 30px;
+}
+
+@media (max-width: 1050px) {
+  .preview-nft-container {
+    margin: 30px 0;
+    padding: 0;
+  }
+}
+
+.input-error-msg {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.success-msg {
+  background-color: rgb(12, 189, 12);
+  color: #fff;
+  padding: 2px 10px;
+  border-radius: 10px;
+}
+
+.error-msg {
+  background-color: red;
+  color: #fff;
+  padding: 2px 10px;
+  border-radius: 10px;
+}
+
+.buttons-next-prev-container {
+  display: flex;
+  align-items: center;
+  margin: 30px 0;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+@media (max-width: 1050px) {
+  .buttons-next-prev-container {
+    height: 45px;
+    width: 100%;
+    gap: 20px;
+    padding: 0;
+  }
+}
+
+.disabled {
+  height: 45px;
+  border-radius: 10px;
+  width: 300px;
+  background-color: #313c52;
+  color: white;
+  border-bottom: solid 1px #1c2331;
+}
+
+.button-next,
+.create-back-button {
+  border: none;
+  cursor: pointer;
+  height: 45px;
+  width: 300px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 10px;
+  background: #d3448b;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.button-next:hover,
+.create-back-button:hover {
+  background: #d3448b;
+  color: #000;
+}
+
+.button-next::after,
+.create-back-button::after {
+  content: "";
+  background: #fff;
+  position: absolute;
+  z-index: -1;
+  padding: 16px 20px;
+  display: block;
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+  transition: all 0.3s ease;
+}
+
+.button-next:hover::after,
+.create-back-button:hover::after {
+  transition: all 0.3s ease-out;
+  transform: skewX(-45deg) scale(1, 1);
+}

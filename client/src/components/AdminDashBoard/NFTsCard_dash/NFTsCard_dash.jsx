@@ -1,16 +1,23 @@
-import * as actions from "../../../redux/actions/index";
 import axios from "axios";
 import React, { useState } from "react";
 import { toast } from "react-toastify";
+import { Link } from "react-router-dom";
+
+// Components
 import DeleteIcon from "@material-ui/icons/Delete";
 import EditIcon from "@material-ui/icons/Edit";
 import DoneIcon from "@material-ui/icons/Done";
-import "./NFTsCard_dash.css";
+import CloseIcon from "@material-ui/icons/Close";
+import RestoreIcon from "@material-ui/icons/Restore";
 
-const NFTsCard_dash = ({ id, name, price, userId }) => {
+import styles from "./stylesheets/NFTsCard_dash.module.css";
+
+//Por favor no olvidarse de eliminar los console.logs antes de entregar
+const NFTsCard_dash = ({ id, name, price, userId, deletedAt }) => {
   const [edit, setEdit] = useState(false);
   const [priceState, setPriceState] = useState("");
   const [showPrice, setShowPrice] = useState(price);
+  const [deleted, setDeleted] = useState(deletedAt);
 
   const handleteEdit = (e) => {
     e.preventDefault();
@@ -19,6 +26,26 @@ const NFTsCard_dash = ({ id, name, price, userId }) => {
 
   const handlePriceChange = (e) => {
     setPriceState(e.target.value);
+  };
+  const handleDelete = async (e) => {
+    try {
+      const res = await axios.delete(`/nft/${id}`);
+      res.data && setDeleted(true);
+      console.log(res.data);
+    } catch (error) {
+      console.log(error.message);
+      toast.error("Something was wrong. try again later");
+    }
+  };
+
+  const handleRestore = async (e) => {
+    try {
+      const res = await axios.get(`/nft/restore/${id}`);
+      res.data && setDeleted(false);
+      console.log(res.data);
+    } catch (error) {
+      toast.error("Something was wrong. try again later");
+    }
   };
 
   const handleUpdate = async (e) => {
@@ -31,19 +58,22 @@ const NFTsCard_dash = ({ id, name, price, userId }) => {
       setShowPrice(res.data.price);
       setPriceState("");
     } catch (err) {
-      toast.error("Something was wrong. try again later");
-      // alert(err.message);
+      toast.error("Something was wrong. Try again later", {
+        position: "bottom-left",
+      });
     }
   };
+
+  // className={styles[]}
+
   return (
-    <div className="nfts-dash-card">
-      <div className="dash-card-id">
-        <p>{id}</p>
+    <div className={styles["nfts-dash-card"]}>
+      <div className={styles["dash-card-name"]}>
+        <Link className={styles["user-dash-link"]} to={`/details/${id}`}>
+          <p>{name}</p>
+        </Link>
       </div>
-      <div className="dash-card-name">
-        <p>{name}</p>
-      </div>
-      <div className="dash-card-price">
+      <div className={styles["dash-card-price"]}>
         {edit ? (
           <input
             value={priceState}
@@ -54,21 +84,32 @@ const NFTsCard_dash = ({ id, name, price, userId }) => {
           <p>{showPrice}</p>
         )}
       </div>
-      <div className="dash-card-userId">
+      <div className={styles["dash-card-userId"]}>
         <p>{userId === "null" ? "No Owner" : userId}</p>
       </div>
-      <div className="dash-card-icons">
-        <div className="dash-card-icon">
-          {edit ? (
+      {edit ? (
+        <div className={styles["dash-card-icons"]}>
+          <div className={styles["dash-card-icon"]}>
             <DoneIcon onClick={handleUpdate} />
-          ) : (
+          </div>
+          <div className={styles["dash-card-icon"]}>
+            <CloseIcon onClick={handleteEdit} />
+          </div>
+        </div>
+      ) : (
+        <div className={styles["dash-card-icons"]}>
+          <div className={styles["dash-card-icon"]}>
             <EditIcon onClick={handleteEdit} />
-          )}
+          </div>
+          <div className={styles["dash-card-icon"]}>
+            {deleted ? (
+              <RestoreIcon onClick={handleRestore} />
+            ) : (
+              <DeleteIcon onClick={handleDelete} />
+            )}
+          </div>
         </div>
-        <div className="dash-card-icon">
-          <DeleteIcon />
-        </div>
-      </div>
+      )}
     </div>
   );
 };

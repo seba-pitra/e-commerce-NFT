@@ -46,6 +46,9 @@ module.exports = (sequelize) => {
       favs: {
         type: DataTypes.FLOAT,
       },
+      stars: {
+        type: DataTypes.FLOAT,
+      },
       lastBuyValue: {
         type: DataTypes.FLOAT,
       },

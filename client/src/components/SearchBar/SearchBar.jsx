@@ -1,43 +1,57 @@
-import * as actions from '../../redux/actions'
-import { useState } from 'react';
-import { useDispatch } from 'react-redux';
-import './SearchBar.css'
+import * as actions from "../../redux/actions";
+import { useState } from "react";
+import { useDispatch } from "react-redux";
+import SearchIcon from "@mui/icons-material/Search";
+// import styles from "./stylesheets/SearchBar.module.css";
+import darkStyles from "./stylesheets/DarkSearchBar.module.css";
+import lightStyles from "./stylesheets/LightSearchBar.module.css";
+import useStyles from "../../customHooks/useStyles";
+import { useLocation } from "react-router-dom";
 
-function SearchBar(){
-    const [searchQuery, setSearchQuery] = useState("");
-    const dispatch = useDispatch();
+function SearchBar() {
 
+  const location = useLocation();
+  const [searchQuery, setSearchQuery] = useState("");
 
-    //funcion de busqueda
-    function search(e){
-        console.log(searchQuery)
-        e.preventDefault();
-        dispatch(actions.filterName(searchQuery)) //resetea los filtos
-        setSearchQuery("");
+  const styles = useStyles(darkStyles, lightStyles);
+
+  const dispatch = useDispatch();
+
+  
+
+  //funcion de busqueda
+  function search(e) {
+    if(location.pathname === "/collections") {
+      e.preventDefault();
+      dispatch(actions.filterCollectionName(searchQuery));
+      setSearchQuery("");
     }
+    else{
+      e.preventDefault();
+       //resetea los filtos
+       dispatch(actions.filterName(searchQuery)); //resetea los filtos
+      setSearchQuery("");
+    }
+  }
 
-    return (
-        <div className='search-bar-container'>    
-	        <form onSubmit={search} className='search-bar-component'>
-                <input
-                    className="search-input
-                        brand-colorized-border-color
-                        brand-colorized-background-color
-                        brand-colorized-text"
-                    type="text"
-                    placeholder="Search..."
-                    value={searchQuery}
-                    onChange={e => setSearchQuery(e.target.value)}
-                    />
-                <button 
-                    className="search-button"
-                    id="search-btn"
-                    type="submit">
-                    Search
-                </button>
-            </form>
-        </div>
-    );
+  // className={styles[]}
+
+  return (
+    <div className={styles["search-bar-container"]}>
+      <form onSubmit={search} className={styles["search-bar-component"]}>
+        <input
+          className={styles["search-input"]}
+          type="text"
+          placeholder="Look for your NFT"
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+        />
+        <button className={styles["search-button"]} type="submit">
+          <SearchIcon />
+        </button>
+      </form>
+    </div>
+  );
 }
 
 export default SearchBar;

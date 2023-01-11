@@ -1,0 +1,157 @@
+.collection-details {
+  background-color: #FAFAFA;
+}
+
+.collection-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: #212121;
+  border-bottom: 1px solid #F5F5F5;
+  padding-bottom: 20px;
+  overflow: hidden;
+}
+
+.collection-details-container span{
+  color: #9E9E9E;
+  font-size: 18px;
+}
+
+@media (max-width: 1050px) {
+  .collection-details-container {
+    align-items: center;
+  }
+}
+
+.img-collection {
+  overflow: hidden;
+  width: 99vw;
+  height: 300px;
+}
+
+.img-collection img {
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+}
+
+.collection-titles {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 60px;
+  margin: 10px 20px;
+  width: 100%;
+  color: #9E9E9E;
+}
+
+.collection-titles h1{
+  margin-right: 60px;
+  color: #212121;
+}
+
+@media (max-width: 1050px) {
+  .collection-titles {
+    justify-content: space-around;
+    padding: 0px 14px;
+  }
+}
+
+.negrita{
+  font-weight: 700;
+  color: #212121 !important;
+  font-size: 22px !important;
+}
+
+
+.collection-description {
+  color: #9E9E9E;
+  font-size: 18px;
+  padding: 0px 68px;
+  margin: 0 15px;
+  width: 50%;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 1050px) {
+  .collection-description {
+    color: #9E9E9E;
+    font-size: 18px;
+    padding: 0px 16px;
+    margin: 0 0px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+.collection-data {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  margin: 10px 20px 30px;
+  font-size: 20px;
+}
+
+@media (max-width: 1050px) {
+  .collection-data {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 50px;
+  }
+}
+
+.flex-row4 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 20px;
+}
+
+@media (max-width: 1050px) {
+  .collections-conteiner {
+    width: 340px;
+    height: 340px;
+  }
+}
+
+.flex-row4 * {
+  margin-right: 60px;
+}
+
+@media (max-width: 1050px) {
+  .flex-row4 * {
+    margin: 0;
+  }
+}
+
+@media (max-width: 1050px) {
+  .price-collection-detail {
+    padding: 10px 0 7px 10px;
+  }
+}
+
+.price-collection{
+  display: flex;
+  flex-direction: row;
+  padding: 0px 80px;
+}
+
+.price-collection-detail{
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+}
+
+.collection-data-important {
+  font-weight: 700;
+}
+
+.collection-details-cards-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 650px;
+  align-items: center;
+}

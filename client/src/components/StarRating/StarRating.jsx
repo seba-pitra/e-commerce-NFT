@@ -1,18 +1,19 @@
 import { useState } from 'react';
+import { useSelector, useDispatch } from "react-redux";
+import * as actions from "../../redux/actions";
 import starlogo from "../../images/stars-logo.png"
 import './StarRating.css'
 // A MODIFICAR.
-export default function StarRating({rating, setRating}) {
+export default function StarRating({nftId}) {
+    const dispatch = useDispatch();
+    const loggedUser = useSelector(state => state.loggedUser);
+    const [rating, setRating] = useState(0);
     const [hover, setHover] = useState(0);
     const stars = new Array(5);
     stars.fill(starlogo)
 
     return (
     <div className="single-input-container">
-        <label
-            className='add-game-form-label'
-            htmlFor="rating">Rating: </label>
-
         <div className='star-rating'>
         {stars.map((star, index) => {
             index += 1;
@@ -21,13 +22,17 @@ export default function StarRating({rating, setRating}) {
                 id="star-rating-star"
                 type="button"
                 key={index}
-                onClick={() => setRating({
-                    ...rating,
-                    value : index,
-                    valid : true
-                })}
+                value={index}
+                onClick={() => {
+                    setRating(index)
+                    dispatch(actions.addReview({
+                        userId : loggedUser.id,
+                        nftId : nftId,
+                        value : index
+                    }))
+                }}
                 onMouseEnter={() => setHover(index)}
-                onMouseLeave={() => setHover(rating.value)}
+                onMouseLeave={() => setHover(rating)}
                 >
                     <span className="star">
                         <img 

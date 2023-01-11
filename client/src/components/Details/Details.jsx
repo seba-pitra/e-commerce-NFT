@@ -3,56 +3,35 @@ import { useSelector, useDispatch } from "react-redux";
 import * as actions from "../../redux/actions";
 import Loading from "../Loading/Loading";
 import { Link, useHistory } from "react-router-dom";
-import styles from "./Details.module.css";
 import ethereumLogo from "../../images/ethereum-logo.png";
 import { startPayment } from "../../utils";
 import StarRating from "../StarRating/StarRating";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import axios from "axios";
+
+//dark-light theme
+import useStyles from "../../customHooks/useStyles";
+import darkStyles from "./stylesheets/DarkDetail.module.css";
+import lightStyles from "./stylesheets/LightDetail.module.css";
 
 const Details = (props) => {
   const dispatch = useDispatch();
   const history = useHistory();
-
-  let loginStatusStorage = localStorage.getItem("Logged");
-
-  const validateUser = async () => {
-    let loginStatusStorage = localStorage.getItem("Logged");
-    if (loginStatusStorage === "Estoy loggeado") {
-      // dispatch(actions.getAllNfts());
-      dispatch(actions.getAllCollections());
-      dispatch(actions.getEthPrice());
-    } else {
-      history.push("/");
-    }
-  };
+  const styles = useStyles(darkStyles, lightStyles);
 
   const { id } = props.match.params;
   const nftDetail = useSelector((state) => state.nftDetail);
   const isLoading = useSelector((state) => state.isLoading);
-
-  const [error, setError] = useState();
-  const [txs, setTxs] = useState([]);
-
-  const [rating, setRating] = useState([]);
-
-  console.log("rating detail > ", rating);
+  const userDetail = useSelector((state) => state.loggedUser);
 
   useEffect(() => {
-    dispatch(actions.addStars({ id, rating: rating.value }));
-  }, [rating]);
-
-  useEffect(() => {
-    validateUser();
     dispatch(actions.getNftDetail(id));
     dispatch(actions.addViewNft(id));
   }, [dispatch, id]);
 
   const handlePay = async (e) => {
-    setError();
     const transactionMetamask = await startPayment({
-      setError,
-      setTxs,
       ether: nftDetail.price.toString(),
       addr: nftDetail.contract,
     });
@@ -63,47 +42,52 @@ const Details = (props) => {
       contract: nftDetail.contract,
       payMethod: "Metamask",
       statusPay: "Created",
-      purchases: [nftDetail],
+      nftIds: [nftDetail.id],
+      buyerId: userDetail.id,
+      sellerId: nftDetail.user.id,
     };
 
     if (transactionMetamask.hash) {
       //si salio bien...
-      toast.success("Payment successfully");
+      toast.success("Payment successfully", {
+        position: "bottom-left",
+      });
       buyData = {
         ...buyData,
         statusPay: "Successful",
       };
     } else if (transactionMetamask.includes("rejected")) {
       //si se rechazo en metamask
-      toast.error("Something was wrong. Try again later");
       buyData = {
         ...buyData,
         statusPay: "Rejected",
       };
     } else if (transactionMetamask.includes("insufficient funds")) {
       //si faltan fondos
-      toast.warning("You have insufficient funds in Metamask");
+      toast.warning("You have insufficient funds in Metamask", {
+        position: "bottom-left",
+      });
       buyData = {
         ...buyData,
         statusPay: "Pending",
       };
     }
-
-    dispatch(actions.addBuyAtHistoryBuys(buyData));
+    console.log(buyData);
+    // console.log(transactionMetamask);
+    // console.log(userDetail)
+    let newPurchase = await axios.post(`/purchase/create/`, buyData);
+    console.log(newPurchase);
   };
 
   const handleClickOnShoppingCart = (e) => {
     dispatch(actions.addNftOnShoppingCart(nftDetail));
   };
 
-  console.log(nftDetail);
-
   let date = new Date(nftDetail.createdTs);
   date = date.toString();
   date = date.slice(4, 16);
 
-  let starsValue = nftDetail.stars?.reduce((a, b) => a + b, 0);
-  starsValue = starsValue / nftDetail.stars?.length;
+  //esto va a traer el promedio directamente del model
 
   return (
     <>
@@ -115,8 +99,7 @@ const Details = (props) => {
             onClick={() => history.goBack()}
             className={styles["back-button"]}
           >
-            {" "}
-            {"< "}Back{" "}
+            {"Back"}
           </button>
           <div className={styles["detail-card-container"]}>
             <img
@@ -127,12 +110,13 @@ const Details = (props) => {
 
             <div className={styles["nft-data-container"]}>
               <div>
-                <StarRating rating={rating} setRating={setRating} />
+                <StarRating nftId={nftDetail.id} />
                 <h1>{nftDetail.name}</h1>
                 <span className={styles["detail-span"]}>
                   Included from {nftDetail.ownerName + " "}
                   <img
                     src={nftDetail.ownerIcon}
+                    referrerPolicy="no-referrer"
                     alt="icon-detail"
                     className={styles["source-icon"]}
                   />
@@ -151,7 +135,7 @@ const Details = (props) => {
 
               <div className={styles["flex-row3"]}>
                 <h6>Views: {nftDetail.favs}</h6>
-                <h6>Stars: {starsValue}</h6>
+                <h6>Stars: {nftDetail.stars}</h6>
                 <h6>Rarity: {nftDetail.rarity}</h6>
               </div>
 
@@ -187,30 +171,20 @@ const Details = (props) => {
                 <h6 className={styles.categories}>
                   Categories: <br /> {nftDetail.category?.join(", ")}
                 </h6>
-                {nftDetail.available ? (
-                  <span className={styles.available}>Available</span>
-                ) : (
-                  <span className={styles.unavailable}>Unavailable</span>
-                )}
                 <h6>Created At: {date}</h6>
               </div>
 
               <div className={styles["buttons-container"]}>
                 <button className={styles["button-detail"]} onClick={handlePay}>
-                  {" "}
-                  Buy now{" "}
+                  Buy now
                 </button>
                 <button
                   className={styles["button-detail"]}
                   onClick={handleClickOnShoppingCart}
                 >
-                  {" "}
-                  Add to Cart{" "}
+                  Add to Cart
                 </button>
               </div>
-
-              {error && <p>{error}</p>}
-              {txs && <p>{txs}</p>}
             </div>
           </div>
         </div>

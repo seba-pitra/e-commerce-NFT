@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+
 import React from "react";
 import styles from "./LandingPage.module.css";
 import img from "../../images/city-landing.jpg";
@@ -6,6 +6,7 @@ import Login from "../Login/Login";
 import { useState } from "react";
 import Register from "../Registrer/Registrer";
 import Recovery from "../Recovery/Recovery";
+import useAuth from "../../customHooks/useAuth";
 
 function LandingPage() {
   //The changes of classname is executing in the "onClick" event of buttons
@@ -13,7 +14,7 @@ function LandingPage() {
   const [loginClass, setLoginClass] = useState("disabled-container");
   const [registerClass, setRegisterClass] = useState("disabled-container");
   const [recoveryClass, setRecoveryClass] = useState("disabled-container");
-
+  
   return (
     <div className={styles["landing"]}>
       <div className={styles[customClass]}>
@@ -47,7 +48,7 @@ function LandingPage() {
       </div>
       <div className={styles[loginClass]}>
         <div>
-          <Login />
+          <Login loginClass={loginClass} />
         </div>
         <div className="d-flex justify-content-evenly ">
           <span
@@ -71,7 +72,10 @@ function LandingPage() {
         </div>
       </div>
       <div className={styles[registerClass]}>
-        <Register />
+        <Register
+          setLoginClass={setLoginClass}
+          setRegisterClass={setRegisterClass}
+        />
         <button
           onClick={() => {
             setLoginClass("login-container");

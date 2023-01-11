@@ -1,138 +1,154 @@
+import * as actions from "../../redux/actions/index";
 import { React, useState } from "react";
-import { freeShoppingCartState } from "../../redux/actions";
-import { useLocation, useHistory } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import SearchBar from "../SearchBar/SearchBar";
 import logo from "../../images/logo/logo.png";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
+import FavoriteIcon from "@material-ui/icons/Favorite";
 import Shoppingkart from "../Shoppingkart/Shoppingkart";
+import Ufavorites from "../uFavorites/Ufavorites.jsx";
 import Offcanvas from "react-bootstrap/Offcanvas";
-import { signOut } from "firebase/auth";
-import { auth } from "../../firebase";
-import "./NFTNav.css";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-import { toast } from "react-toastify";
+import MaterialUISwitch from "../Pages/switch";
 
 import UserIcon from "./UserIcon/UserIcon";
+import ProfilePicture from "../UserComponents/ProfilePicture/Profile.Picture";
 
-import AccountCircleIcon from "@material-ui/icons/AccountCircle";
+import useStyles from "../../customHooks/useStyles";
+// import styles from "./stylesheets/NFTNav.module.css";
+import lightStyles from "./stylesheets/LightNFTNav.module.css";
+import darkStyles from "./stylesheets/DarkNFTNav.module.css";
 
 export default function NFTNav() {
-  const [show, setShow] = useState(false);
-  const [showUserList, setShowUserList] = useState(false);
-  const cartItemsCount = useSelector((state) => state.userNfts);
-  const activeUserIs = useSelector((state) => state.activeUser);
-  const userNfts = useSelector((state) => state.userNfts);
-  const loggedUser = useSelector((state) => state.loggedUser);
-
   const location = useLocation();
-  const history = useHistory();
-  const areWeInLanding = location.pathname === "/";
-  const handleClose = () => setShow(false);
-  const handleShow = () => {
-    setShow(true);
-    saveLocalStorage();
-  };
 
   const dispatch = useDispatch();
 
-  const logOutFunction = async () => {
-    try {
-      await signOut(auth);
-      history.push("/");
-    } catch (error) {
-      toast.error("Something was wrong. try again later");
-      // alert(error.message);
-    }
-  };
+  const styles = useStyles(darkStyles, lightStyles);
 
-  const handleLogoutClick = (e) => {
-    saveLocalStorage();
-    dispatch(freeShoppingCartState());
-    logOutFunction();
-  };
+  const [show, setShow] = useState(false);
+  const [showFav, setShowFav] = useState(false);
+  const [showUserList, setShowUserList] = useState(false);
+
+  const cartItemsCount = useSelector((state) => state.shoppingCartContents);
+  const userFavorites = useSelector((state) => state.userFavs);
+  const loggedUser = useSelector((state) => state.loggedUser);
+  const activeThemeIsDark = useSelector((state) => state.activeThemeIsDark);
+
+  const areWeInLanding = location.pathname === "/";
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+  const handleCloseFav = () => setShowFav(false);
+  const handleShowFav = () => setShowFav(true);
 
   const handleShowUserList = (e) => {
     e.preventDefault();
     setShowUserList(!showUserList);
   };
 
-  function saveLocalStorage() {
-    localStorage.setItem(activeUserIs, JSON.stringify(userNfts));
-    // activeUserIs == tag of item in localStorage
-    console.log(cartItemsCount);
-  }
+  const onSwitch = () => {
+    dispatch(actions.toggleTheme());
+    // Theme LocalStorage Saver
+    console.log(activeThemeIsDark);
+    localStorage.setItem(
+      JSON.stringify(loggedUser.email + "theme"),
+      JSON.stringify(activeThemeIsDark)
+    );
+  };
 
   return (
     <div className={areWeInLanding ? "hidden" : "nav-bar"}>
-      <Navbar className="brand-colorized-background-color" expand="lg">
+      <Navbar className={styles["nav-bar-container"]} expand="lg">
         <Container fluid>
-          <img
-            alt=""
-            src={logo}
-            width="60"
-            height="60"
-            className="d-inline-block align-top"
-          />{" "}
           <Navbar.Brand>
-            <Navbar.Text className="navbar-company-name-header brand-colorized-text">
-              Non Fungible Town
-            </Navbar.Text>
+            <Link className={styles["nav-bar-link"]} to="/home">
+              <Navbar.Text className={styles["nav-bar-company-name-header"]}>
+                Non Fungible Town
+              </Navbar.Text>
+            </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
-          <Navbar.Collapse id="navbarScroll">
-            <Nav
-              className="me-auto my-2 my-lg-0"
-              style={{ maxHeight: "100px" }}
-              navbarScroll
-            >
-              <Link className="brand-colorized-text" to="/home">
-                Home
-              </Link>
-              <Link className="brand-colorized-text" to="/createNft">
-                Create
-              </Link>
-            </Nav>
-            <SearchBar />
-            <Nav>
-              <Link className="brand-colorized-text" to="/marketplace">
-                MarketPlace
-              </Link>
-              <Link to="/collections" className="brand-colorized-text">
-                Collections
-              </Link>
-              <Link to="/developerTeam" className="brand-colorized-text">
-                Developer Team
-              </Link>
-              <div className="nav-bar-accountIcon">
-                <AccountCircleIcon onClick={(e) => handleShowUserList(e)} />
-              </div>
 
-              {/* slide kart trigger*/}
-              <button
-                className="testeandooooooooooooooooooo2"
-                onClick={handleShow}
-              >
-                <ShoppingCartIcon />
-                <span id="cart_Numer_Items" className="badge rounded-circle">
-                  {cartItemsCount.length}
-                </span>
-              </button>
-              {/* slide kart*/}
-              <Offcanvas show={show} onHide={handleClose} placement={"end"}>
-                <Offcanvas.Header closeButton>
-                  <Offcanvas.Title>Your Shopping Cart</Offcanvas.Title>
-                </Offcanvas.Header>
-                <Offcanvas.Body>
-                  <Shoppingkart />
-                </Offcanvas.Body>
-              </Offcanvas>
-            </Nav>
+          <Navbar.Collapse
+            className={styles["nav-bar-company-links-container"]}
+          >
+            <SearchBar />
+
+            <Link className={styles["nav-bar-link"]} to="/marketplace">
+              Explore
+            </Link>
+            <Link
+              // className={styles["nav-bar-link"]}
+              className={`brand-colorized-text ${
+                loggedUser
+                  ? loggedUser.type === "Basic"
+                    ? styles["noneDisplay"]
+                    : styles["nav-bar-link"]
+                  : styles["nav-bar-link"]
+              }`}
+              to="/createNft"
+            >
+              Create
+            </Link>
+            <Link to="/collections" className={styles["nav-bar-link"]}>
+              Collections
+            </Link>
+            <Link to="/developerTeam" className={styles["nav-bar-link"]}>
+              Developer Team
+            </Link>
+            <MaterialUISwitch
+              className={styles["switch-dark-ligth"]}
+              onClick={onSwitch}
+            />
+            <div className="nav-bar-accountIcon">
+              <ProfilePicture handleShowUserList={handleShowUserList} />
+            </div>
+            {/* favorite */}
+            <button className={styles["control-icon"]} onClick={handleShowFav}>
+              <FavoriteIcon />
+
+              <span className={styles["cart_Numer_Items"]}>
+                {userFavorites.length}
+              </span>
+            </button>
+
+            {/* slide kart trigger*/}
+            <button className={styles["control-icon"]} onClick={handleShow}>
+              <ShoppingCartIcon />
+              <span className={styles["cart_Numer_Items"]}>
+                {cartItemsCount.length}
+              </span>
+            </button>
+
+            {/* slide kart*/}
+            <Offcanvas show={show} onHide={handleClose} placement={"end"}>
+              <Offcanvas.Header closeButton>
+                <Offcanvas.Title>Your Shopping Cart</Offcanvas.Title>
+              </Offcanvas.Header>
+              <Offcanvas.Body>
+                <Shoppingkart />
+              </Offcanvas.Body>
+            </Offcanvas>
+
+            {/* favorites comp */}
+            <Offcanvas
+              show={showFav}
+              onHide={handleCloseFav}
+              placement={"bottom"}
+              className={styles["offcanvas-scrollbar"]}
+            >
+              <Offcanvas.Body>
+                <Ufavorites />
+              </Offcanvas.Body>
+            </Offcanvas>
+            {/* </Nav> */}
           </Navbar.Collapse>
         </Container>
+        <UserIcon setVisible={handleShowUserList} visible={showUserList} />
       </Navbar>
-      <UserIcon setVisible={handleShowUserList} visible={showUserList} />
     </div>
   );
 }
