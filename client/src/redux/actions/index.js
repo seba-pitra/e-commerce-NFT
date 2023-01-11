@@ -42,6 +42,7 @@ export const RESET_FILTERS = "RESET_FILTERS";
 export const FILTER_NFTS = "FILTER_NFTS";
 export const SET_NFTS_PRICE = "SET_NFTS_PRICE";
 export const SEARCH_NFT_NAME = "SEARCH_NFT_NAME";
+export const SEARCH_COLLECTION_NAME = "SEARCH_COLLECTION_NAME";
 export const ORDER_NFT_NAME = "ORDER_NFT_NAME";
 export const ORDER_NFT_PRICE = "ORDER_NFT_PRICE";
 export const ORDER_NFT_RARITY = "ORDER_NFT_RARITY";
@@ -326,6 +327,10 @@ export const setPrice = (payload) => {
 
 export const filterName = (payload) => {
   return { type: SEARCH_NFT_NAME, payload };
+};
+
+export const filterCollectionName = (payload) => {
+  return { type: SEARCH_COLLECTION_NAME, payload };
 };
 
 // --- ORDERS ---
