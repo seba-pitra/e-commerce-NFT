@@ -247,7 +247,7 @@ export function orderNFTByRating(order, nfts) {
   }
 }
 
-export const startPayment = async ({ setError, setTxs, ether, addr }) => {
+export const startPayment = async ({ ether, addr }) => {
   try {
     if (!window.ethereum)
       throw new Error("No cripto wallet found. Please install it.");
@@ -264,10 +264,9 @@ export const startPayment = async ({ setError, setTxs, ether, addr }) => {
       value: ethers.utils.parseEther(ether), //can not pay with ethereum directly.We need to pass the ethereum to "wei"
     });
 
-    setTxs(tx.hash);
+    // setTxs(tx.hash);
     return tx;
   } catch (err) {
-    setError(err.message);
     return err.message;
   }
 };

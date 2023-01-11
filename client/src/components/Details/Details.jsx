@@ -8,12 +8,12 @@ import { startPayment } from "../../utils";
 import StarRating from "../StarRating/StarRating";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import axios from 'axios';
+import axios from "axios";
 
 //dark-light theme
 import useStyles from "../../customHooks/useStyles";
-import darkStyles from "./stylesheets/DarkDetail.module.css"
-import lightStyles from "./stylesheets/LightDetail.module.css"
+import darkStyles from "./stylesheets/DarkDetail.module.css";
+import lightStyles from "./stylesheets/LightDetail.module.css";
 
 const Details = (props) => {
   const dispatch = useDispatch();
@@ -23,10 +23,7 @@ const Details = (props) => {
   const { id } = props.match.params;
   const nftDetail = useSelector((state) => state.nftDetail);
   const isLoading = useSelector((state) => state.isLoading);
-  const userDetail = useSelector((state) => state.loggedUser)
-  const [error, setError] = useState();
-  const [txs, setTxs] = useState([]);
-
+  const userDetail = useSelector((state) => state.loggedUser);
 
   useEffect(() => {
     dispatch(actions.getNftDetail(id));
@@ -34,10 +31,7 @@ const Details = (props) => {
   }, [dispatch, id]);
 
   const handlePay = async (e) => {
-    setError();
     const transactionMetamask = await startPayment({
-      setError,
-      setTxs,
       ether: nftDetail.price.toString(),
       addr: nftDetail.contract,
     });
@@ -50,7 +44,7 @@ const Details = (props) => {
       statusPay: "Created",
       nftIds: [nftDetail.id],
       buyerId: userDetail.id,
-      sellerId : nftDetail.user.id
+      sellerId: nftDetail.user.id,
     };
 
     if (transactionMetamask.hash) {
@@ -62,12 +56,8 @@ const Details = (props) => {
         ...buyData,
         statusPay: "Successful",
       };
-
     } else if (transactionMetamask.includes("rejected")) {
       //si se rechazo en metamask
-      toast.error("Something was wrong. Try again later", {
-        position: "bottom-left",
-      });
       buyData = {
         ...buyData,
         statusPay: "Rejected",
@@ -85,15 +75,13 @@ const Details = (props) => {
     console.log(buyData);
     // console.log(transactionMetamask);
     // console.log(userDetail)
-    let newPurchase = await axios.post(`/purchase/create/`,buyData)
-    console.log(newPurchase)
-    
+    let newPurchase = await axios.post(`/purchase/create/`, buyData);
+    console.log(newPurchase);
   };
 
   const handleClickOnShoppingCart = (e) => {
     dispatch(actions.addNftOnShoppingCart(nftDetail));
   };
-
 
   let date = new Date(nftDetail.createdTs);
   date = date.toString();
@@ -111,8 +99,7 @@ const Details = (props) => {
             onClick={() => history.goBack()}
             className={styles["back-button"]}
           >
-            {" "}
-            {"Back"}{" "}
+            {"Back"}
           </button>
           <div className={styles["detail-card-container"]}>
             <img
@@ -123,12 +110,13 @@ const Details = (props) => {
 
             <div className={styles["nft-data-container"]}>
               <div>
-                <StarRating nftId={nftDetail.id}/>
+                <StarRating nftId={nftDetail.id} />
                 <h1>{nftDetail.name}</h1>
                 <span className={styles["detail-span"]}>
                   Included from {nftDetail.ownerName + " "}
                   <img
                     src={nftDetail.ownerIcon}
+                    referrerPolicy="no-referrer"
                     alt="icon-detail"
                     className={styles["source-icon"]}
                   />
@@ -183,30 +171,20 @@ const Details = (props) => {
                 <h6 className={styles.categories}>
                   Categories: <br /> {nftDetail.category?.join(", ")}
                 </h6>
-                {/* {nftDetail.available ? (
-                  <span className={styles.available}>Available</span>
-                ) : (
-                  <span className={styles.unavailable}>Unavailable</span>
-                )} */}
                 <h6>Created At: {date}</h6>
               </div>
 
               <div className={styles["buttons-container"]}>
                 <button className={styles["button-detail"]} onClick={handlePay}>
-                  {" "}
-                  Buy now{" "}
+                  Buy now
                 </button>
                 <button
                   className={styles["button-detail"]}
                   onClick={handleClickOnShoppingCart}
                 >
-                  {" "}
-                  Add to Cart{" "}
+                  Add to Cart
                 </button>
               </div>
-
-              {error && <p>{error}</p>}
-              {txs && <p>{txs}</p>}
             </div>
           </div>
         </div>

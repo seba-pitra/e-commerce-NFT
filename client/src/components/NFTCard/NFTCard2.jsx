@@ -19,8 +19,6 @@ export default function NFTCard(props) {
     dispatch(actions.addToFav(props));
   };
 
-  // className={styles[]}
-
   return (
     <div className={styles["cardContainer"]}>
       <div className={styles["nftCard-image-info"]}>

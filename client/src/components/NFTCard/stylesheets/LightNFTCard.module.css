@@ -4,8 +4,9 @@
   width: 300px;
   border: none;
   border-radius: 10px;
+  border-bottom-left-radius: none;
   margin: 10px;
-  color: #212121;
+  color: white;
   box-sizing: border-box;
   position: relative;
   /* display: block; */
@@ -13,7 +14,9 @@
 
 .nftCard-image-info {
   width: 100%;
-  border-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: none;
   position: relative;
   overflow: hidden;
   transition: all 0.15s ease-in-out;
@@ -65,9 +68,9 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-color: #bdbdbd;
+  background-color: #eeeeee;
   bottom: 0px;
-  color: #212121;
+  color: #616161;
   height: 125px;
   /* position: absolute; */
 }
@@ -92,7 +95,7 @@
 
 .bottom-img-info h4 {
   font-size: 12px;
-  color: #fafafa;
+  color: rgb(182, 182, 182);
   margin: 2px 0 5px 20px;
 }
 
