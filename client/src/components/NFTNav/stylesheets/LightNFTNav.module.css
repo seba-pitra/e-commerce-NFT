@@ -99,6 +99,10 @@
   margin-right: 5px;
 }
 
+.noneDisplay {
+  display: none;
+}
+
 .margin-left {
   margin-left: 40px;
 }

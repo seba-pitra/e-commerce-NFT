@@ -59,8 +59,6 @@ export default function NFTNav() {
     );
   };
 
-  // className={styles[]}
-
   return (
     <div className={areWeInLanding ? "hidden" : "nav-bar"}>
       <Navbar className={styles["nav-bar-container"]} expand="lg">
@@ -83,14 +81,14 @@ export default function NFTNav() {
               Explore
             </Link>
             <Link
-              className={styles["nav-bar-link"]}
-              // className={`brand-colorized-text ${
-              //   loggedUser
-              //     ? loggedUser.type === "Basic"
-              //       ? styles["noneDisplay"]
-              //       : styles["nav-bar-link"]
-              //     : ""
-              // }`}
+              // className={styles["nav-bar-link"]}
+              className={`brand-colorized-text ${
+                loggedUser
+                  ? loggedUser.type === "Basic"
+                    ? styles["noneDisplay"]
+                    : styles["nav-bar-link"]
+                  : styles["nav-bar-link"]
+              }`}
               to="/createNft"
             >
               Create
@@ -149,8 +147,8 @@ export default function NFTNav() {
             {/* </Nav> */}
           </Navbar.Collapse>
         </Container>
+        <UserIcon setVisible={handleShowUserList} visible={showUserList} />
       </Navbar>
-      <UserIcon setVisible={handleShowUserList} visible={showUserList} />
     </div>
   );
 }

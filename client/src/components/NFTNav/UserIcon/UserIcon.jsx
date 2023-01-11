@@ -4,17 +4,19 @@ import { freeShoppingCartState } from "../../../redux/actions";
 import { useDispatch, useSelector } from "react-redux";
 import { signOut } from "firebase/auth";
 import { auth } from "../../../firebase";
-import "./UserIcon.css";
+// import "./UserIcon.css";
 import { toast } from "react-toastify";
-import * as actions from "../../../redux/actions"
+import * as actions from "../../../redux/actions";
+import useStyles from "../../../customHooks/useStyles";
+import darkStyles from "./stylesheets/DarkUserIcon.module.css";
+import lightStyles from "./stylesheets/LightUserIcon.module.css";
 
 // Components
 import LogoutIcon from "@material-ui/icons/ExitToApp";
 
 const UserIcon = ({ setVisible, visible }) => {
-  const { loggedUser } = useSelector(
-    (state) => state
-  );
+  const styles = useStyles(darkStyles, lightStyles);
+  const { loggedUser } = useSelector((state) => state);
   const dispatch = useDispatch();
 
   const logOutFunction = async () => {
@@ -33,34 +35,37 @@ const UserIcon = ({ setVisible, visible }) => {
     setVisible(e);
   };
 
+  // className={styles[]}
+
   return (
-	  <ul className={`user-icon-list ${visible ? "" : "noneDisplay"}`}>
-	  <li onClick={setVisible}>
-	  <Link className="user-icon-list-link" to="/myAccount">
-	  My Account
-	  </Link>
-	  </li>
-	  <li>
-	  <Link className="user-icon-list-link" to="/mycollections">
-	  My Collections
-	  </Link>
+    <ul className={visible ? styles["user-icon-list"] : styles["noneDisplay"]}>
+      <li onClick={setVisible}>
+        <Link className={styles["user-icon-list-link"]} to="/myAccount">
+          My Account
+        </Link>
+      </li>
+      <li>
+        <Link className={styles["user-icon-list-link"]} to="/mycollections">
+          My Collections
+        </Link>
+      </li>
 
-
-	  </li>
-
-	  <li
-	  onClick={(e) => setVisible(e)}
+      <li
+        onClick={(e) => setVisible(e)}
         className={` ${loggedUser.type === "Admin" ? "" : "noneDisplay"}`}
       >
-        <Link className={`user-icon-list-link`} to="/admin/adminDashboard">
+        <Link
+          className={styles[`user-icon-list-link`]}
+          to="/admin/adminDashboard"
+        >
           Admin DashBoard
         </Link>
       </li>
 
       <li onClick={(e) => handdleCick(e)}>
-        <div className="user-list-noLink">
+        <div className={styles["user-list-noLink"]}>
           Logout
-          <div className="logOut-icon">
+          <div className={styles["logOut-icon"]}>
             <LogoutIcon />
           </div>
         </div>

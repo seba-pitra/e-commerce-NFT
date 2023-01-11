@@ -33,8 +33,6 @@ export default function NFTCard(props) {
     saveFavsLocalStorage();
   };
 
-  // className={styles[]}
-
   return (
     <div className={styles["cardContainer"]}>
       <div className={styles["nftCard-image-info"]}>
