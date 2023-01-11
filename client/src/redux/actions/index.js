@@ -268,7 +268,7 @@ export const succesfulLogOut = () => {
 export const askForVerification = (userData) => {
   return async (dispatch) => {
     try {
-      const response = await axios.get(
+      const response = await axios.put(
         `/user/ask/${userData.userId}`,
         userData
       );
@@ -285,6 +285,33 @@ export const askForVerification = (userData) => {
   };
 };
 
+export const verifyUser = (userId) => {
+  return async (dispatch) => {
+    try {
+      const response = await axios.put(
+        `/user/verify/${userId}`)
+      dispatch({ type: SHOULD_UPDATE });
+    } catch (error) {
+      toast.error("Something went wrong with verification request", {
+        position: "bottom-left",
+      });
+    }
+  };
+}
+
+export const rejectVerification = (userId) => {
+  return async (dispatch) => {
+    try {
+      const response = await axios.put(
+        `/user/reject/${userId}`)
+      dispatch({ type: SHOULD_UPDATE });
+    } catch (error) {
+      toast.error("Something went wrong with verification request", {
+        position: "bottom-left",
+      });
+    }
+  };
+}
 // --- SETTERS ---
 
 export const setCollections = (payload) => {

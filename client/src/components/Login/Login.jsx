@@ -55,14 +55,14 @@ const Login = () => {
     const user = await helpers.logginFunction(logginForm);
   
     // If the user was successfully logged in
-    if (user && user.id) {
+    if (user && user.uid) {
       // Reset the form fields
       setLogginForm({
         email: "",
         password: "",
       });
       // // Dispatch the logInUser action to get the user data to global state.
-      dispatch(actions.logInUser(user.id));
+      dispatch(actions.logInUser(user.uid));
       // Load the user's cart and favorites from local storage
       history.push("/home")
       utils.loadCartLocalStorage(dispatch, user.email);
