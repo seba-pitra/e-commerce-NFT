@@ -13,11 +13,10 @@ export default function EditUserINfo(props) {
   let [input, setInput] = useState({
     name: props.name,
     last_name: props.last_name,
-    email: props.email,
     age: props.age,
-    phone_number: props.phone_number,
-    dni: props.dni,
     id: props.id,
+    address: props.address,
+    username: props.username,
   });
   let [errors, setErrors] = useState({});
   const dispatch = useDispatch();
@@ -41,7 +40,10 @@ export default function EditUserINfo(props) {
     if (
       obj.name === props.name &&
       obj.last_name === props.last_name &&
-      obj.age === props.age
+      obj.age === props.age &&
+      obj.address === props.address &&
+      obj.username === props.username 
+
     ) {
       //si esto se da significa que no hubo ningun cambio .entonces no deberia hacer el dispatch
       console.log("There was no change in your data.");
@@ -49,6 +51,7 @@ export default function EditUserINfo(props) {
     } else {
       console.log("there was a change");
       dispatch(updateUser(obj));
+      props.setEdit(false)
     }
   };
 
@@ -93,15 +96,21 @@ export default function EditUserINfo(props) {
         </p>
       </div>
       <div className={styles["edit-input"]}>
-        <label>Email</label>
+        <label className={styles["edit-label"]}>Address</label>
         <input
-          name="email"
+          name="address"
           type="text"
           onChange={(e) => handleChange(e)}
-          value={input.email}
-          placeholder={input.email}
-          disabled={true}
+          value={input.address}
+          placeholder={input.address}
         />
+        <p
+          className={
+            errors.address === "False" ? styles["success-msg"] : styles["error-msg"]
+          }
+        >
+          {errors.address === "False" ? "Age is correct " : errors.address}
+        </p>
       </div>
       <div className={styles["edit-input"]}>
         <label className={styles["edit-label"]}>Age *</label>
@@ -121,14 +130,14 @@ export default function EditUserINfo(props) {
       </div>
 
       <div className={styles["edit-input"]}>
-        <label>Phone Number</label>
+        <label >Username</label>
         <input
-          name="phone"
-          type="number"
+          name="username"
+          type="text"
           onChange={(e) => handleChange(e)}
-          value={input.phone}
-          disabled={true}
+          value={input.username}
         />
+        
       </div>
 
       {/* <input
