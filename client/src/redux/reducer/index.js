@@ -114,6 +114,7 @@ const initialState = {
 
 
 const rootReducer = (state = initialState, action) => {
+  // console.log(action);
   switch (action.type) {
     case LOADING:
       return { ...state, isLoading: true };

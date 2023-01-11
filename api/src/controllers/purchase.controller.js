@@ -53,7 +53,7 @@ const createNewTransaction = async (req, res) => {
       for (const nft of tokens) {
         nft.set({
           ownerName: buyer.username,
-          ownerIcon: buyer.profile_pic,
+          userId:seller.id
         });
         // Guarda los cambios en la base de datos
         await nft.save();

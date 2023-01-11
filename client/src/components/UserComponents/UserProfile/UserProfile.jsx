@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useHistory } from "react-router-dom";
-import EditIcon from "@material-ui/icons/Edit";
-import DoneIcon from "@material-ui/icons/Done";
+
 import PurchaseHistory from "../../PurchaseHistory/PurchaseHistory";
 import EditUserInfo from "../EditUserInfo/EditUserInfo";
 // import EditUserInfo from "./../EditUserInfo";
@@ -20,89 +19,6 @@ export default function UserProfile() {
     setEdit(() => ({ state: true }));
   };
   let navHistory = useHistory();
-
-  let history = [
-    {
-      id: "dsnkk242n3kd",
-      price: 23,
-      contract: "0x000000",
-      statusPay: "Successed",
-      payMethod: "Metamask",
-      purchases: {
-        id: "7c24694f-ee92-4473-a6d4-d9d912e3d008",
-        name: "Angry Cat #9529",
-        description:
-          "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
-        category: [
-          "Animal",
-          "Cat",
-          "Cartoon",
-          "2d",
-          "Casual",
-          "Normal",
-          "Flat",
-        ],
-        image:
-          "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4b50079c6412ad50750d1a2413dc0cde169c7e78613f04d4da5f7ee3b599e96dcc952d767fec5fb579de5438a72affd94fd14cba5d7fe423cf1f501fecb2b3f41f0fdf0868aae92124ba81cff5c16f522660b39f46e9da843f19bad685104f2f1a2b1c1936cfce25c08e04851370278223c5e4198f99eda3f3b783c3322e8c56",
-        contract: "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
-        tokenId: "9529",
-        price: 0.25,
-        rarity: 1494,
-        rarityRank: 245,
-        lastBuyValue: 0.29,
-        lastBuyTs: 1633157767,
-        ownerName: "OpenSea",
-        ownerIcon:
-          "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-        createdAt: "2022-12-27T21:23:08.798Z",
-        updatedAt: "2022-12-27T21:23:09.301Z",
-        deletedAt: null,
-        userId: "BbSKyKizFvWGpSqkBqCM2ardrkm1",
-        collectionId: "0e2b2530-6f1b-472c-8d41-02c80fd0ab1a",
-      },
-      createdAt: "2022-12-27T21:23:08.798Z",
-    },
-    {
-      id: "dsnkk242n3kd",
-      price: 23,
-      contract: "0x00000",
-      statusPay: "Successed",
-      payMethod: "Metamask",
-      purchases: {
-        id: "7c24694f-ee92-4473-a6d4-d9d912e3d008",
-        name: "Angry Cat #9529",
-        description:
-          "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
-        category: [
-          "Animal",
-          "Cat",
-          "Cartoon",
-          "2d",
-          "Casual",
-          "Normal",
-          "Flat",
-        ],
-        image:
-          "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4b50079c6412ad50750d1a2413dc0cde169c7e78613f04d4da5f7ee3b599e96dcc952d767fec5fb579de5438a72affd94fd14cba5d7fe423cf1f501fecb2b3f41f0fdf0868aae92124ba81cff5c16f522660b39f46e9da843f19bad685104f2f1a2b1c1936cfce25c08e04851370278223c5e4198f99eda3f3b783c3322e8c56",
-        contract: "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
-        tokenId: "9529",
-        price: 0.25,
-        rarity: 1494,
-        rarityRank: 245,
-        lastBuyValue: 0.29,
-        lastBuyTs: 1633157767,
-        ownerName: "OpenSea",
-        ownerIcon:
-          "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-        createdAt: "2022-12-27T21:23:08.798Z",
-        updatedAt: "2022-12-27T21:23:09.301Z",
-        deletedAt: null,
-        userId: "BbSKyKizFvWGpSqkBqCM2ardrkm1",
-        collectionId: "0e2b2530-6f1b-472c-8d41-02c80fd0ab1a",
-      },
-      createdAt: "2022-12-27T21:23:08.798Z",
-    },
-  ];
 
   const dispatch = useDispatch();
   const userDetail = useSelector((state) => state.loggedUser);
@@ -135,7 +51,7 @@ export default function UserProfile() {
   //       setEdit(!edit);
   //     });
   //   };
-
+  console.log(userDetail);
   useEffect(() => {}, [dispatch]);
 
   return (
@@ -150,7 +66,11 @@ export default function UserProfile() {
           />
           <p className="text-muted mb-1">{userDetail.username}</p>
           <img
-            hidden={userDetail.type === "Verified" ? false : true}
+            hidden={
+              userDetail.type === "Verified" || userDetail.type === "Admin"
+                ? false
+                : true
+            }
             className={styles["edit-info"]}
             src={
               "https://iconsplace.com/wp-content/uploads/_icons/ffc0cb/256/png/edit-icon-12-256.png"
@@ -182,7 +102,8 @@ export default function UserProfile() {
               <h6>Type</h6>
               <h6 className="text-muted">{userDetail.type}</h6>
             </div>
-            {userDetail.type === "Verified" && (
+            {(userDetail.type === "Verified" ||
+              userDetail.type === "Admin") && (
               <div>
                 <div className={styles["info"]}>
                   <h6>Full Name</h6>
@@ -225,19 +146,36 @@ export default function UserProfile() {
         )}
       </div>
       <div className={styles["functionalities-history-container"]}>
-        <div className={styles["available-functionalities"]}>
-          <h6>2 NFT's bought</h6>
-          <h6 className={styles["user-profile-not-permition"]}>
-            You dont have permitions to create an NFT ,you need to upgrade your
-            account
-          </h6>
-          <NavLink className={styles["upgrade-button"]} to="/myAccount/verify">
-            Upgrade to Premium
-            {/* <div className="upgrade-button">Upgrade to Premium</div> */}
-          </NavLink>
-        </div>
+        {userDetail.type === "Basic" ? (
+          <div className={styles["available-functionalities"]}>
+            <h6>2 NFT's bought</h6>
+            <h6 className={styles["user-profile-not-permition"]}>
+              You dont have permitions to create an NFT ,you need to upgrade
+              your account
+            </h6>
+            <NavLink
+              className={styles["upgrade-button"]}
+              to="/myAccount/verify"
+            >
+              Upgrade to Premium
+              {/* <div className="upgrade-button">Upgrade to Premium</div> */}
+            </NavLink>
+          </div>
+        ) : (
+          <div className={styles["available-functionalities"]}>
+            <h5>You are Premium User !</h5>
+            <h6>You can :</h6>
+            <h6>Buy NFTs</h6>
+            <h6>Sell NFTs</h6>
+            <h6>Create NFTs</h6>
+          </div>
+        )}
+
         <div className={styles["history-purchases"]}>
-          <PurchaseHistory props={history} />
+          <PurchaseHistory
+            purchases={userDetail.purchases}
+            sales={userDetail.sales}
+          />
         </div>
       </div>
     </div>

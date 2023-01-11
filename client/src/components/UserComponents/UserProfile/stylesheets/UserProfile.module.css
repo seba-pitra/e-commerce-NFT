@@ -305,3 +305,39 @@
   align-items: center;
   margin-top: 15px;
 }
+
+
+.main-wrapper {
+  max-width: 100%;
+  min-width: 300px;
+  border: 1px solid #ff0000;
+  overflow-x: auto;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+.responsive-table {
+  display: inline-block;
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.responsive-table > table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.responsive-table > table td,
+th {
+  border: 1px solid #cccccc;
+  padding: 8px;
+  font-family: Arial;
+  font-size: 16px;
+}
+
+th,tr {
+  color: white;
+}
+.col{
+  color: white;
+}

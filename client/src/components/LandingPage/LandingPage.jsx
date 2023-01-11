@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import React, { useEffect } from "react";
+
+import React from "react";
 import styles from "./LandingPage.module.css";
 import img from "../../images/city-landing.jpg";
 import Login from "../Login/Login";

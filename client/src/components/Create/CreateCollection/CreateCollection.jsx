@@ -1,10 +1,11 @@
 import { useEffect } from "react";
-import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { useHistory } from "react-router-dom";
 import * as actions from "../../../redux/actions";
 import CloudinaryImageInput2 from "../CloudinaryImageInput/CloudinaryImageInput2";
-import styles from "../stylesheets/CreateCollection.module.css";
+
+import lightStyles from "./stylesheets/LightCreateCollection.module.css";
+import darkStyles from "./stylesheets/DarkCreateCollection.module.css";
+import useStyles from "../../../customHooks/useStyles";
 import UserCollectionsSelector from "./UserCollectionsSelector/UserCollectionsSelector";
 
 export default function CreateCollection({
@@ -14,6 +15,7 @@ export default function CreateCollection({
   createdNft,
   next,
 }) {
+  const styles = useStyles(darkStyles, lightStyles);
   const user = useSelector((state) => state.loggedUser);
   const shouldRender = useSelector(state => state.shouldRender);
   const dispatch = useDispatch();
@@ -99,7 +101,9 @@ export default function CreateCollection({
       <div className="buttons-next-prev-container">
         <button
           className={
-            createdNft.collectionId ? styles["button-next"] : styles["disabled"]
+            createdNft.collectionId
+              ? styles["button-create"]
+              : styles["disabled"]
           }
           onClick={next}
           disabled={createdNft.collectionId === undefined}

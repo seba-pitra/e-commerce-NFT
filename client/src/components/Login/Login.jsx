@@ -41,6 +41,7 @@ const Login = () => {
       // Theme LocalStorage Loader for logInGoogle only
       let SavedTheme = JSON.parse(localStorage.getItem(JSON.stringify(user.email+'theme')));  
       if (SavedTheme) { dispatch(actions.injectLocalStorageTheme(SavedTheme))}; 
+      localStorage.setItem("User",JSON.stringify(user)); 
     }
   };
   /**

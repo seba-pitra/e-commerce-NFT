@@ -55,20 +55,17 @@ function App() {
       localStorage.setItem("loginStatus", "log-out");
       dispatch(actions.logOutUser());
     }
-    console.log(localStorage.getItem("loginStatus"));
+    // console.log(localStorage.getItem("loginStatus"));
   });
 
   // // funcion para consologuear el estado siempre que se modifique
   // // DESCOMENTAR PARA TESTING
-   useEffect(() => {
+   /* useEffect(() => {
     const unsubscribe = store.subscribe(() => {
-       console.log({
-        loginStatus : store.getState().loginStatus, 
-        loggedUser : store.getState().loggedUser
-      })
+       console.log(store.getState())
     })
     return unsubscribe
-   }, [store.getState().loginStatus]) 
+   }, [store.getState().loginStatus])  */
 
   return (
     <div className="App">

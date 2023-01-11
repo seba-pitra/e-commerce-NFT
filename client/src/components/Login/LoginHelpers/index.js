@@ -37,7 +37,12 @@ export const logginFunction = async (logginForm) => {
       throw err;
     }
     
-
+    localStorage.setItem("User",JSON.stringify({
+      id: auth.currentUser.uid,
+      email: auth.currentUser.email,
+      username: auth.currentUser.displayName + Math.random() * 100000,
+      profile_pic: auth.currentUser.photoURL,
+    }));
     // await axios.post("/payment/userEmail", auth.currentUser);
 
     return responseFirebase.user;

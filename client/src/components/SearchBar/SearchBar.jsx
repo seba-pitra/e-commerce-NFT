@@ -2,10 +2,17 @@ import * as actions from "../../redux/actions";
 import { useState } from "react";
 import { useDispatch } from "react-redux";
 import SearchIcon from "@mui/icons-material/Search";
-import "./SearchBar.css";
+
+// import styles from "./stylesheets/SearchBar.module.css";
+import darkStyles from "./stylesheets/DarkSearchBar.module.css";
+import lightStyles from "./stylesheets/LightSearchBar.module.css";
+import useStyles from "../../customHooks/useStyles";
 
 function SearchBar() {
   const [searchQuery, setSearchQuery] = useState("");
+
+  const styles = useStyles(darkStyles, lightStyles);
+
   const dispatch = useDispatch();
 
   //funcion de busqueda
@@ -15,17 +22,19 @@ function SearchBar() {
     setSearchQuery("");
   }
 
+  // className={styles[]}
+
   return (
-    <div className="search-bar-container">
-      <form onSubmit={search} className="search-bar-component">
+    <div className={styles["search-bar-container"]}>
+      <form onSubmit={search} className={styles["search-bar-component"]}>
         <input
-          className="search-input"
+          className={styles["search-input"]}
           type="text"
-          placeholder="Look for your nft"
+          placeholder="Look for your NFT"
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
         />
-        <button className="search-button" id="search-btn" type="submit">
+        <button className={styles["search-button"]} type="submit">
           <SearchIcon />
         </button>
       </form>
