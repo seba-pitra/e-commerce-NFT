@@ -11,7 +11,7 @@ import { firebaseConfig } from "./firebase.js";
 import { FirebaseAppProvider } from "reactfire";
 
 // axios.defaults.baseURL = process.env.REACT_APP_API || "http://localhost:3001";
-axios.defaults.baseURL = "http://localhost:3001";
+axios.defaults.baseURL = process.env.REACT_APP_API || "http://localhost:3001";
 
 ReactDOM.render(
   <FirebaseAppProvider firebaseConfig={firebaseConfig}>
