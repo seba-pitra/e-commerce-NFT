@@ -117,7 +117,7 @@ export default function Footer() {
                   </Link>
                 </p>
                 <p>
-                  <Link to="/developerTeam" className={`text-white ${pathname==="/"&&"footerLink-disabled"}`}>
+                  <Link to="/aboutus" className={`text-white ${pathname==="/"&&"footerLink-disabled"}`}>
                     About Us
                   </Link>
                 </p>
