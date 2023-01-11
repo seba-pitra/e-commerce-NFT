@@ -13,7 +13,7 @@ import { logInUser } from "../../../redux/actions";
 
 export default function UserProfile() {
   let [edit, setEdit] = useState(false);
-
+  const shouldUpdate = useSelector(state => state.shouldUpdate)
   let handleEdit = () => {
     setEdit(!edit);
   };
@@ -26,8 +26,8 @@ export default function UserProfile() {
   const dispatch = useDispatch();
   const userDetail = useSelector((state) => state.loggedUser);
   useEffect(()=>{
-    
-  },[userDetail])
+    dispatch(logInUser(userDetail.id))
+  },[shouldUpdate])
   // const { userDetail } = useSelector((state) => state);
 
   // FALTA TRAER EL COMPONENTE PurchaseHistory y pasarle por params las relaciones con buy para q muestre el historial
@@ -57,7 +57,7 @@ export default function UserProfile() {
   //     });
   //   };
   console.log(userDetail);
-  useEffect(() => {}, [dispatch]);
+  
 
   return (
     <div className={styles["user-profile-container"]}>
@@ -112,6 +112,7 @@ export default function UserProfile() {
             address={userDetail.address}
             username={userDetail.username}
             setEdit = {setEdit}
+            image = {userDetail.profile_pic}
           />
         ) : (
           <div className={styles["user-info"]}>

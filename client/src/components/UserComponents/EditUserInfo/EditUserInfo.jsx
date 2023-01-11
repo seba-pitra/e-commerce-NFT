@@ -4,6 +4,7 @@ import { useEffect, useRef } from "react";
 import { useDispatch } from "react-redux";
 import { updateUser } from "../../../redux/actions";
 import { validate, validateUserData } from "../../../utils";
+import CloudinaryImageInput2 from "../../Create/CloudinaryImageInput/CloudinaryImageInput2";
 // import "./UserProfile/UserProfile.css";
 import styles from "./EditUserInfo.module.css";
 
@@ -17,6 +18,7 @@ export default function EditUserINfo(props) {
     id: props.id,
     address: props.address,
     username: props.username,
+    profile_pic: props.image,
   });
   let [errors, setErrors] = useState({});
   const dispatch = useDispatch();
@@ -31,7 +33,7 @@ export default function EditUserINfo(props) {
     console.log(errors);
   };
   console.log(props);
-
+  console.log(input);
   let handleSubmit = (e) => {
     //al apretar enviar tendria q hacer el dispatch con los cambios,y volver a cargar el componente,pero el lo
     e.preventDefault();
@@ -42,16 +44,18 @@ export default function EditUserINfo(props) {
       obj.last_name === props.last_name &&
       obj.age === props.age &&
       obj.address === props.address &&
-      obj.username === props.username 
-
+      obj.username === props.username &&
+      obj.profile_pic === props.image 
     ) {
       //si esto se da significa que no hubo ningun cambio .entonces no deberia hacer el dispatch
       console.log("There was no change in your data.");
+      console.log(obj);
+
       return;
     } else {
       console.log("there was a change");
       dispatch(updateUser(obj));
-      props.setEdit(false)
+      props.setEdit(false);
     }
   };
 
@@ -106,7 +110,9 @@ export default function EditUserINfo(props) {
         />
         <p
           className={
-            errors.address === "False" ? styles["success-msg"] : styles["error-msg"]
+            errors.address === "False"
+              ? styles["success-msg"]
+              : styles["error-msg"]
           }
         >
           {errors.address === "False" ? "Age is correct " : errors.address}
@@ -130,14 +136,13 @@ export default function EditUserINfo(props) {
       </div>
 
       <div className={styles["edit-input"]}>
-        <label >Username</label>
+        <label>Username</label>
         <input
           name="username"
           type="text"
           onChange={(e) => handleChange(e)}
           value={input.username}
         />
-        
       </div>
 
       {/* <input
@@ -173,13 +178,17 @@ export default function EditUserINfo(props) {
         disabled={
           errors.name !== "False" ||
           errors.age !== "False" ||
-          errors.last_name !== "False"
+          errors.last_name !== "False" ||
+          props.image !== input.profile_pic
             ? true
             : false
         }
       >
         Edit
       </button>
+      <div className={styles["create-nft-input-container"]}>
+        <CloudinaryImageInput2 setImage={setInput} image_prop={'profile_pic'} />
+      </div>
     </form>
   );
 }
