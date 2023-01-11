@@ -10,20 +10,25 @@ import { NavLink } from "react-router-dom";
 
 // import "./UserProfile.css";
 import styles from "./stylesheets/UserProfile.module.css";
+import { logInUser } from "../../../redux/actions";
 
 export default function UserProfile() {
-  let [edit, setEdit] = useState({
-    state: false,
-  });
+  let [edit, setEdit] = useState(false);
 
   let handleEdit = () => {
-    setEdit(() => ({ state: true }));
+    setEdit(!edit);
+  };
+  let  handleRefresh =  ()  => {
+    
+    dispatch(logInUser(userDetail.id))
   };
   let navHistory = useHistory();
 
   const dispatch = useDispatch();
   const userDetail = useSelector((state) => state.loggedUser);
-
+  useEffect(()=>{
+    
+  },[userDetail])
   // const { userDetail } = useSelector((state) => state);
 
   // FALTA TRAER EL COMPONENTE PurchaseHistory y pasarle por params las relaciones con buy para q muestre el historial
@@ -79,19 +84,35 @@ export default function UserProfile() {
             alt="edit-info"
             referrerPolicy="no-referrer"
             onClick={() => {
-              handleEdit();
+              handleEdit()
+            }}
+          />
+          <img
+            hidden={
+              userDetail.type === "Verified" || userDetail.type === "Admin"
+                ? false
+                : true
+            }
+            className={styles["refresh-info"]}
+            src={
+              "https://www.svgrepo.com/show/172157/refresh.svg"
+            }
+            alt="refresh-info"
+            referrerPolicy="no-referrer"
+            onClick={() => {
+              handleRefresh()
             }}
           />
         </div>
-        {edit.state ? (
+        {edit ? (
           <EditUserInfo
             name={userDetail.name}
             last_name={userDetail.last_name}
-            email={userDetail.email}
             age={userDetail.age}
-            phone_number={userDetail.phone_number}
             id={userDetail.id}
-            dni={userDetail.dni}
+            address={userDetail.address}
+            username={userDetail.username}
+            setEdit = {setEdit}
           />
         ) : (
           <div className={styles["user-info"]}>

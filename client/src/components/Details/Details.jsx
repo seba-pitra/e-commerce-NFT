@@ -131,6 +131,7 @@ const Details = (props) => {
                   Included from {nftDetail.ownerName + " "}
                   <img
                     src={nftDetail.ownerIcon}
+                    referrerPolicy="no-referrer"
                     alt="icon-detail"
                     className={styles["source-icon"]}
                   />
