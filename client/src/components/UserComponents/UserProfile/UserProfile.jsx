@@ -112,7 +112,7 @@ export default function UserProfile() {
             address={userDetail.address}
             username={userDetail.username}
             setEdit = {setEdit}
-            image = {userDetail.profile_pic}
+            
           />
         ) : (
           <div className={styles["user-info"]}>
@@ -192,7 +192,7 @@ export default function UserProfile() {
             <h6>Create NFTs</h6>
           </div>
         )}
-
+  
         <div className={styles["history-purchases"]}>
           <PurchaseHistory
             purchases={userDetail.purchases}

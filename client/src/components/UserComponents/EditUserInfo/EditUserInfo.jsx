@@ -18,7 +18,7 @@ export default function EditUserINfo(props) {
     id: props.id,
     address: props.address,
     username: props.username,
-    profile_pic: props.image,
+    
   });
   let [errors, setErrors] = useState({});
   const dispatch = useDispatch();
@@ -178,17 +178,15 @@ export default function EditUserINfo(props) {
         disabled={
           errors.name !== "False" ||
           errors.age !== "False" ||
-          errors.last_name !== "False" ||
-          props.image !== input.profile_pic
+          errors.last_name !== "False" 
+          
             ? true
             : false
         }
       >
         Edit
       </button>
-      <div className={styles["create-nft-input-container"]}>
-        <CloudinaryImageInput2 setImage={setInput} image_prop={'profile_pic'} />
-      </div>
+      
     </form>
   );
 }
