@@ -318,12 +318,7 @@ const DeveloperTeam = (props) => {
                 Daniel Molinaro
               </h1>
               <p className={styles["about-accordion-description"]}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-                eget. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Dolore voluptatem reprehenderit velit ab in itaque minima facere
-                quo, aspernatur amet perferendis sint excepturi incidunt!
-                Deserunt distinctio impedit numquam repudiandae illum!
+              Con una gran pasión por aprender, me considero un joven programador con una gran habilidad para colaborar en proyectos. He trabajado con lenguajes de programación como JavaScript, React, HTML, CSS, y actualmente estoy estudiando Java. Me esfuerzo por utilizar la tecnología de manera inteligente para solucionar problemas de manera eficiente y efectiva. Siempre estoy dispuesto a adquirir nuevas habilidades y trabajo duro para ayudar a mi equipo y resolver problemas.
               </p>
               <div>
                 <h2>Find me: </h2>

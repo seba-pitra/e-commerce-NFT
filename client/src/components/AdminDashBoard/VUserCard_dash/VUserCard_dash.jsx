@@ -1,10 +1,11 @@
 import React from "react";
 import { toast } from "react-toastify";
-import axios from "axios";
+import * as actions from "../../../redux/actions"
 import styles from "./stylesheets/VUserCard_dash.module.css";
 // Components
 import CheckIcon from "@material-ui/icons/Check";
 import CloseIcon from "@material-ui/icons/Close";
+import { useDispatch } from "react-redux";
 
 const VUserCard_dash = ({
   id,
@@ -18,10 +19,12 @@ const VUserCard_dash = ({
   pp2,
   pp3,
 }) => {
+
+  const dispatch = useDispatch();
   const handleVerify = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.put(`/user/verify/${id}`);
+      dispatch(actions.verifyUser(id))
     } catch (error) {
       toast.error("Something was wrong. try again later");
     }
@@ -29,7 +32,7 @@ const VUserCard_dash = ({
   const handleReject = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.put(`/user/reject/${id}`);
+      dispatch(actions.rejectVerification(id))
     } catch (error) {
       toast.error("Something was wrong. try again later");
     }
