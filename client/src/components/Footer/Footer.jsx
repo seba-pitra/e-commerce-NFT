@@ -4,11 +4,14 @@ import TwitterIcon from "@material-ui/icons/Twitter";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 // import { useSelector } from "react-redux";
+import "./Footer.css"
 
 export default function Footer() {
   // const  isDark  = useSelector((state) => state.activeThemeIsDark);
+  const { pathname } = useLocation();
+
   return (
     <div className="full-footer-container">
       {/* Footer  Start */}
@@ -38,6 +41,8 @@ export default function Footer() {
             </a>
             <a
               href="https://github.com/seba-pitra/e-commerce-NFT"
+              target="_blank"
+              rel="noreferrer noopener"
               className="text-white me-4"
             >
               <GitHubIcon />
@@ -77,24 +82,15 @@ export default function Footer() {
                   }}
                 />
                 <p>
-                  <a href="#!" className="text-white">
+                <Link to="/marketplace" className={`text-white ${pathname==="/"&&"footerLink-disabled"}`}>
                     All NFTs
-                  </a>
+                  </Link>
                 </p>
+
                 <p>
-                  <a href="#!" className="text-white">
-                    Art
-                  </a>
-                </p>
-                <p>
-                  <a href="#!" className="text-white">
+                  <Link to="/collections" className={`text-white ${pathname==="/"&&"footerLink-disabled"}`}>
                     Collectibles
-                  </a>
-                </p>
-                <p>
-                  <a href="#!" className="text-white">
-                    Virtual Worlds
-                  </a>
+                  </Link>
                 </p>
               </div>
 
@@ -111,26 +107,24 @@ export default function Footer() {
                   }}
                 />
                 <p>
-                  <a href="#!" className="text-white">
+                  <Link to="/myAccount" className={`text-white ${pathname==="/"&&"footerLink-disabled"}`}>
                     Profile
-                  </a>
+                  </Link>
                 </p>
                 <p>
-          <Link to="/mycollections" className="text-white">    
-	  <a href="#!" className="text-white">
-                    My Collections
-                  </a>
-	  </Link>
+                  <Link to="/mycollections" className={`text-white ${pathname==="/"&&"footerLink-disabled"}`}>  
+                      My Collections  
+                  </Link>
                 </p>
                 <p>
-               <Link to="/aboutus" className="text-white">   
-                    About Us  
-               </Link>
-	  </p>
+                  <Link to="/developerTeam" className={`text-white ${pathname==="/"&&"footerLink-disabled"}`}>
+                    About Us
+                  </Link>
+                </p>
                 <p>
-                  <a href="#!" className="text-white">
+                  <Link to="/admin/adminDashboard" className={`text-white ${pathname==="/"&&"footerLink-disabled"}`}>
                     I am admin
-                  </a>
+                  </Link>
                 </p>
               </div>
 
