@@ -1,0 +1,52 @@
+.user-icon-list {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  position: absolute;
+  background-color: #212121;
+  right: 0;
+  justify-content: left;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding: 0 0 10px 0;
+  margin: 0;
+  border-bottom-left-radius: 10px;
+  z-index: 1000;
+  margin-top: 158px;
+}
+.user-icon-list li {
+  width: 100%;
+  text-align: left;
+  margin-top: 5px;
+  color: #fafafa;
+  cursor: pointer;
+  padding-left: 10px;
+}
+.user-icon-list li:hover {
+  color: #fafafa;
+}
+.user-list-noLink {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: left;
+}
+
+.user-list-noLink:hover {
+  color: rgb(211, 68, 139);
+}
+.user-icon-list-link {
+  text-decoration: none;
+  color: #fafafa;
+}
+.user-icon-list-link:hover {
+  color: rgb(211, 68, 139);
+}
+.logOut-icon {
+  color: rgb(211, 68, 139);
+  margin-left: 5px;
+}
+.noneDisplay {
+  display: none;
+}
