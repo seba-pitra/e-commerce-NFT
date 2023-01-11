@@ -3,10 +3,11 @@ import { useSelector, useDispatch } from "react-redux";
 import * as actions from "../../redux/actions";
 import starlogo from "../../images/stars-logo.png"
 import './StarRating.css'
+import { useLoggedUser } from "../../customHooks/useLoggedUser"
 // A MODIFICAR.
 export default function StarRating({nftId}) {
     const dispatch = useDispatch();
-    const loggedUser = useSelector(state => state.loggedUser);
+    const [loggedUser, updateLoggedUser, handleLogOut] = useLoggedUser()
     const [rating, setRating] = useState(0);
     const [hover, setHover] = useState(0);
     const stars = new Array(5);

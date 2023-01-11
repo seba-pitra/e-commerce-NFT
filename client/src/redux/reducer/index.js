@@ -157,6 +157,12 @@ const rootReducer = (state = initialState, action) => {
         ...state,
         loggedUser: action.payload,
       };
+    case UPDATE_LOGGED_USER:
+    // Actualiza el estado con los nuevos datos del usuario
+      return { ...state, loggedUser: action.payload };
+    case LOGOUT_USER:
+    // Limpia el estado del usuario
+      return { ...state, loggedUser: {} };
     case LOG_IN:
       return { ...state, loggedUser: action.payload };
     case LOG_IN_SUCCESS:

@@ -11,13 +11,14 @@ import VerifiedIcon from "@mui/icons-material/Verified";
 import useStyles from "../../customHooks/useStyles";
 import darkStyles from "./stylesheets/DarkCollections.module.css"
 import lightStyles from "./stylesheets/LightCollections.module.css"
+import { useLoggedUser } from "../../customHooks/useLoggedUser"
 
 
 
 
 
 function Mycollections() {
-  const loggedUser = useSelector((state) => state.loggedUser);
+  const [loggedUser, updateLoggedUser, handleLogOut] = useLoggedUser()
   const isLoading = useSelector((state) => state.isLoading);
   const styles = useStyles(darkStyles, lightStyles);
 

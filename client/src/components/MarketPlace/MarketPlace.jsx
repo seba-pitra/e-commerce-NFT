@@ -14,13 +14,15 @@ import useStyles from "../../customHooks/useStyles";
 import darkStyles from "./stylesheets/DarkMarketPlace.module.css"
 import lightStyles from "./stylesheets/LightMarketPlace.module.css"
 
+import { useLoggedUser } from "../../customHooks/useLoggedUser"
+
 function MarketPlace({ loggedIn }) {
   const dispatch = useDispatch();
   const history = useHistory();
 
   const order = useSelector((state) => state.orderDirection);
   const isLoading = useSelector((state) => state.isLoading);
-  const loggedUser = useSelector((state) => state.loggedUser);
+  const [loggedUser, updateLoggedUser, handleLogOut] = useLoggedUser()
 
   const [showFilters, setShowFilters] = useState(false);
 

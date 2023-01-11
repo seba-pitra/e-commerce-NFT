@@ -10,6 +10,7 @@ import * as actions from "../../../redux/actions";
 import useStyles from "../../../customHooks/useStyles";
 import darkStyles from "./stylesheets/DarkUserIcon.module.css";
 import lightStyles from "./stylesheets/LightUserIcon.module.css";
+import { useLoggedUser } from "../../customHooks/useLoggedUser"
 
 // Components
 import LogoutIcon from "@material-ui/icons/ExitToApp";
@@ -17,7 +18,7 @@ import LogoutIcon from "@material-ui/icons/ExitToApp";
 const UserIcon = ({ setVisible, visible }) => {
   const history = useHistory();
   const styles = useStyles(darkStyles, lightStyles);
-  const { loggedUser } = useSelector((state) => state);
+  const [loggedUser, updateLoggedUser, handleLogOut] = useLoggedUser()
   const dispatch = useDispatch();
 
   const logOutFunction = async () => {

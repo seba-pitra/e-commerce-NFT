@@ -15,6 +15,7 @@ import useStyles from "../../customHooks/useStyles";
 import darkStyles from "./stylesheets/DarkDetail.module.css";
 import lightStyles from "./stylesheets/LightDetail.module.css";
 
+import { useLoggedUser } from "../../customHooks/useLoggedUser"
 const Details = (props) => {
   const dispatch = useDispatch();
   const history = useHistory();
@@ -23,7 +24,8 @@ const Details = (props) => {
   const { id } = props.match.params;
   const nftDetail = useSelector((state) => state.nftDetail);
   const isLoading = useSelector((state) => state.isLoading);
-  const userDetail = useSelector((state) => state.loggedUser);
+  const [loggedUser, updateLoggedUser, handleLogOut] = useLoggedUser()
+  const userDetail = loggedUser
 
   useEffect(() => {
     dispatch(actions.getNftDetail(id));

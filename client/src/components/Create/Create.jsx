@@ -11,9 +11,11 @@ import CategoriesSelector from "./CategoriesSelector/CategoriesSelector";
 import darkStyles from "./stylesheets/DarkCreate.module.css";
 import lightStyles from "./stylesheets/LightCreate.module.css";
 import useStyles from "../../customHooks/useStyles";
+import { useLoggedUser } from "../../customHooks/useLoggedUser"
 
 export default function Create() {
-  const user = useSelector((state) => state.loggedUser);
+  const [loggedUser, updateLoggedUser, handleLogOut] = useLoggedUser()
+  const user = loggedUser;
 
   const styles = useStyles(darkStyles, lightStyles);
 

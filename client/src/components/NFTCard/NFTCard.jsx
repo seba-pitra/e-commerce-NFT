@@ -17,10 +17,11 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
 
+import { useLoggedUser } from "../../customHooks/useLoggedUser"
 // import "./NFTCard.css";
 
 export default function NFTCard(props) {
-  const loggedUser = useSelector((state) => state.loggedUser);
+  const [loggedUser, updateLoggedUser, handleLogOut] = useLoggedUser()
   const viewCards = useSelector((state) => state.viewCards);
   const ethPrice = useSelector((state) => state.ethPrice);
   const styles = useStyles(darkStyles, lightStyles);
