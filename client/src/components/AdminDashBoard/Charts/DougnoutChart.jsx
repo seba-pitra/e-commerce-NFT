@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Chart, ArcElement, Tooltip, Legend } from "chart.js";
 import { Doughnut } from "react-chartjs-2";
-import "./DougnoutChart.css";
+import styles from "./stylesheets/DoungnoutChart.module.css";
 
 Chart.defaults.color = "rgba(211, 68, 139, 1)";
 Chart.register(ArcElement, Tooltip, Legend);
@@ -40,8 +40,10 @@ const DougnoutChart = ({ users }) => {
     ],
   };
 
+  // className={styles[]}
+
   return (
-    <div className="doughnut-chart-container">
+    <div className={styles["doughnut-chart-container"]}>
       <Doughnut data={chartData} />
     </div>
   );

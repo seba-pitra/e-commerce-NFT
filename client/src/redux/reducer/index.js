@@ -23,6 +23,7 @@ import {
   SET_VIEW_CARDS,
   FILTER_NFTS,
   SEARCH_NFT_NAME,
+  SEARCH_COLLECTION_NAME,
   RESET_FILTERS,
   ORDER_NFT_NAME,
   ORDER_NFT_PRICE,
@@ -327,6 +328,13 @@ const rootReducer = (state = initialState, action) => {
         e.name.toUpperCase().includes(action.payload.toUpperCase())
       );
       return { ...state, filteredNfts: filterByName };
+
+    case SEARCH_COLLECTION_NAME:
+      let filterByCollections = [];
+      filterByCollections = state.collections.filter((e) =>
+        e.name.toUpperCase().includes(action.payload.toUpperCase())
+      );
+      return { ...state, collections: filterByCollections };
 
     // --- ORDERS ---
     case CHANGE_ORDER_DIRECTION:

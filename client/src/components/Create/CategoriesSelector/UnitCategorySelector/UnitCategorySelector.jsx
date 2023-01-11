@@ -18,16 +18,11 @@ export default function UnitCategorySelector(props) {
         name="categories"
         defaultValue="message"
       >
-        <option 
-          value="message"
-          hidden
-          disabled>
+        <option value="message" hidden disabled>
           Choose {props.categoryName}
         </option>
         {allCategories[props.categoryType].map((category) => (
-          <option value={category}
-            name="categories"
-            key={category}>
+          <option value={category} name="categories" key={category}>
             {category}
           </option>
         ))}

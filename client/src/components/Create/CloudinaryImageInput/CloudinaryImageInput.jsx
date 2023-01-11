@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import styles from "../stylesheets/Create.module.css";
+import styles from "../stylesheets/DarkCreate.module.css";
 
 export default function CloudinaryImageInput({ setImage }) {
   // cloudinary >>>
@@ -33,10 +33,11 @@ export default function CloudinaryImageInput({ setImage }) {
     <>
       <h5>Image, video, audio or 3D model</h5>
       <p>
-        File types supported: <br />
-        JPG, PNG, GIF, SVG, MP4, WEBM, MP3,
-        <br /> WAV, OGG, GLB, GLTF. Max size: 100 MB{" "}
+        <br />
+        File types supported: JPG, PNG, GIF, SVG, MP4, WEBM, MP3,
+        <br /> WAV, OGG, GLB, GLTF. Max size: 100 MB
       </p>
+      <span className={styles["error-message"]}>You must to add a file</span>
       <button
         className={styles["upload-file"]}
         onClick={(e) => handleUpload(e)}

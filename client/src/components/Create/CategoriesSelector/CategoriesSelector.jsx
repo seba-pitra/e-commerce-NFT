@@ -1,8 +1,12 @@
 import UnitCategorySelector from "./UnitCategorySelector/UnitCategorySelector";
-// import "./CategoriesSelector.css";
-import styles from "../stylesheets/CategoriesSelector.module.css";
+
+import darkStyles from "./stylesheets/DarkCategoriesSelector.module.css";
+import lightStyles from "./stylesheets/LightCategoriesSelector.module.css";
+import useStyles from "../../../customHooks/useStyles";
 
 export default function CategoriesSelector({ createdNft, setCreatedNft }) {
+  const styles = useStyles(darkStyles, lightStyles);
+
   return (
     <div className={styles["categories-selector-container"]}>
       <h2>Select categories</h2>
