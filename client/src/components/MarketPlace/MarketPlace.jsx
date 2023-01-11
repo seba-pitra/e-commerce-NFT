@@ -2,14 +2,17 @@ import * as actions from "../../redux/actions";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect, useState } from "react";
 import { useHistory } from "react-router-dom";
-import { auth } from "../../firebase.js";
+
 import Pages from "../Pages/Pages";
 import FilterOptions from "../FilterOptrions/Options";
 import Loading from "../Loading/Loading";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import FilterAltIcon from "@mui/icons-material/FilterAlt";
 
-import "./MarketPlace.css";
+//dark-light theme
+import useStyles from "../../customHooks/useStyles";
+import darkStyles from "./stylesheets/DarkMarketPlace.module.css"
+import lightStyles from "./stylesheets/LightMarketPlace.module.css"
 
 function MarketPlace({ loggedIn }) {
   const dispatch = useDispatch();
@@ -21,6 +24,8 @@ function MarketPlace({ loggedIn }) {
 
   const [showFilters, setShowFilters] = useState(false);
 
+  const styles = useStyles(darkStyles, lightStyles);
+  
   useEffect(() => {
     dispatch(actions.getAllNfts());
     dispatch(actions.getAllCollections());
@@ -31,15 +36,19 @@ function MarketPlace({ loggedIn }) {
 
   useEffect(() => {}, [order]);
 
+  //
+
   return (
     <div className="home-container">
-      {isLoading ? (
-        <Loading />
-      ) : (
-        <div className="container_mainpage">
-          <Pages />
-        </div>
-      )}
+      <div className={styles["market-place-container"]}>
+        {isLoading ? (
+          <Loading />
+        ) : (
+          <div className={styles["container_mainpage"]}>
+            <Pages />
+          </div>
+        )}
+      </div>
     </div>
   );
 }

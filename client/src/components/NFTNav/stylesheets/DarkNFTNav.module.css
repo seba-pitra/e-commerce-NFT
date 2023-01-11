@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css");
+
+.nav-bar-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-decoration: none;
+  z-index: 1000;
+  background-color: #212121;
+  border-bottom: solid 1px #424242;
+  /* float: left; */
+}
+
+@media (max-width: 990px) {
+  .nav-bar-container {
+    width: 100%;
+  }
+}
+
+.nav-bar-company-links-container {
+  display: flex;
+  width: 100%;
+  /* background-color: red; */
+  justify-content: flex-end;
+  /* justify-content: space-evenly; */
+  gap: 20px;
+  overflow: hidden;
+}
+
+@media (max-width: 990px) {
+  .nav-bar-company-links-container {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
+
+.nav-bar-link {
+  color: #fafafa;
+  text-decoration: none;
+  align-items: center;
+  font-weight: 500;
+}
+.nav-bar-link:hover {
+  color: #fafafa;
+}
+
+.nav-bar-company-name-header {
+  margin-left: 10%;
+  font-family: "Bebas Neue", cursive;
+  font-weight: bolder;
+  font-size: 100%;
+  color: rgb(211, 68, 139);
+}
+
+.nav-bar-accountIcon {
+  color: rgb(211, 68, 139);
+}
+
+.search-input {
+  border: none;
+  border-bottom: 1px solid;
+}
+
+.search-input:focus {
+  outline: none;
+}
+.search-input::placeholder {
+  color: rgb(211, 68, 139, 0.5);
+}
+
+.brand-colorized-background-color * {
+  text-align: center;
+  margin: auto 4px;
+}
+
+.cart_Numer_Items {
+  position: relative;
+  top: -33px;
+  left: 55%;
+  background: transparent;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 2px;
+}
+
+.control-icon {
+  background-color: transparent;
+  color: rgb(211, 68, 139);
+  border: none;
+  margin: 0px;
+  padding: 0px;
+  height: 32px;
+  margin-right: 5px;
+}
+
+.noneDisplay {
+  display: none;
+}
+
+.margin-left {
+  margin-left: 40px;
+}
+
+.offcanvas-scrollbar {
+  height: 200px;
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
+}

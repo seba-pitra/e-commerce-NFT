@@ -5,13 +5,17 @@ import { useEffect } from "react";
 import Loading from "../Loading/Loading";
 import { Link } from "react-router-dom";
 import VerifiedIcon from "@mui/icons-material/Verified";
-import styles from "./stylesheets/Collections.module.css";
+//dark-light theme
+import useStyles from "../../customHooks/useStyles";
+import darkStyles from "./stylesheets/DarkCollections.module.css"
+import lightStyles from "./stylesheets/LightCollections.module.css"
+
 
 function Collections() {
   const isLoading = useSelector(state => state.isLoading)
   const collections = useSelector((state) => state.collections);
-
-  console.log(collections);
+  
+  const styles = useStyles(darkStyles, lightStyles);
 
   const collectionsCards = collections.map((collection) => {
     if (collection.nfts.length > 4) {

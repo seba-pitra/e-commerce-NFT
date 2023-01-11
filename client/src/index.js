@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import { BrowserRouter as Router } from "react-router-dom";
+
 import { Provider } from "react-redux";
 import store from "./redux/store";
 import axios from "axios";
@@ -16,9 +16,7 @@ axios.defaults.baseURL = "http://localhost:3001";
 ReactDOM.render(
   <FirebaseAppProvider firebaseConfig={firebaseConfig}>
     <Provider store={store}>
-      <Router>
         <App />
-      </Router>
     </Provider>
   </FirebaseAppProvider>,
   document.getElementById("root")

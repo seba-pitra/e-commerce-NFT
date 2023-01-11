@@ -18,7 +18,11 @@ export const signGoogle = async () => {
     handleErrorLoginAndRegister(error);
   }
 };
-
+/**
+ *
+ * @param {object} logginForm - the loggin form with email and password properties to pass to firebase.
+ * @returns the user from the firebase response.
+ */
 export const logginFunction = async (logginForm) => {
   try {
     const responseFirebase = await signInWithEmailAndPassword(
@@ -35,9 +39,18 @@ export const logginFunction = async (logginForm) => {
       throw err;
     }
 
+    localStorage.setItem(
+      "User",
+      JSON.stringify({
+        id: auth.currentUser.uid,
+        email: auth.currentUser.email,
+        username: auth.currentUser.displayName + Math.random() * 100000,
+        profile_pic: auth.currentUser.photoURL,
+      })
+    );
     // await axios.post("/payment/userEmail", auth.currentUser);
 
-    return responseFirebase.user.uid;
+    return responseFirebase.user;
   } catch (error) {
     handleErrorLoginAndRegister(error);
     await signOut(auth);

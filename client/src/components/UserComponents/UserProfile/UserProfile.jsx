@@ -1,109 +1,33 @@
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useHistory } from "react-router-dom";
-import EditIcon from "@material-ui/icons/Edit";
-import DoneIcon from "@material-ui/icons/Done";
+
 import PurchaseHistory from "../../PurchaseHistory/PurchaseHistory";
-import EditUserInfo from "./../EditUserInfo";
+import EditUserInfo from "../EditUserInfo/EditUserInfo";
+// import EditUserInfo from "./../EditUserInfo";
 import { NavLink } from "react-router-dom";
-import "./UserProfile.css";
+
+// import "./UserProfile.css";
+import styles from "./stylesheets/UserProfile.module.css";
+import { logInUser } from "../../../redux/actions";
 
 export default function UserProfile() {
-  let [edit, setEdit] = useState({
-    state: false,
-  });
+  let [edit, setEdit] = useState(false);
 
   let handleEdit = () => {
-    setEdit(() => ({ state: true }));
+    setEdit(!edit);
+  };
+  let  handleRefresh =  ()  => {
+    
+    dispatch(logInUser(userDetail.id))
   };
   let navHistory = useHistory();
 
-  let history = [
-    {
-      id: "dsnkk242n3kd",
-      price: 23,
-      contract: "0x000000",
-      statusPay: "Successed",
-      payMethod: "Metamask",
-      purchases: {
-        id: "7c24694f-ee92-4473-a6d4-d9d912e3d008",
-        name: "Angry Cat #9529",
-        description:
-          "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
-        category: [
-          "Animal",
-          "Cat",
-          "Cartoon",
-          "2d",
-          "Casual",
-          "Normal",
-          "Flat",
-        ],
-        image:
-          "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4b50079c6412ad50750d1a2413dc0cde169c7e78613f04d4da5f7ee3b599e96dcc952d767fec5fb579de5438a72affd94fd14cba5d7fe423cf1f501fecb2b3f41f0fdf0868aae92124ba81cff5c16f522660b39f46e9da843f19bad685104f2f1a2b1c1936cfce25c08e04851370278223c5e4198f99eda3f3b783c3322e8c56",
-        contract: "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
-        tokenId: "9529",
-        price: 0.25,
-        rarity: 1494,
-        rarityRank: 245,
-        lastBuyValue: 0.29,
-        lastBuyTs: 1633157767,
-        ownerName: "OpenSea",
-        ownerIcon:
-          "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-        createdAt: "2022-12-27T21:23:08.798Z",
-        updatedAt: "2022-12-27T21:23:09.301Z",
-        deletedAt: null,
-        userId: "BbSKyKizFvWGpSqkBqCM2ardrkm1",
-        collectionId: "0e2b2530-6f1b-472c-8d41-02c80fd0ab1a",
-      },
-      createdAt: "2022-12-27T21:23:08.798Z",
-    },
-    {
-      id: "dsnkk242n3kd",
-      price: 23,
-      contract: "0x00000",
-      statusPay: "Successed",
-      payMethod: "Metamask",
-      purchases: {
-        id: "7c24694f-ee92-4473-a6d4-d9d912e3d008",
-        name: "Angry Cat #9529",
-        description:
-          "Angry cat is a cultural identity. A clean collection of 10,000 different cats to build an interesting brand and cat-city.",
-        category: [
-          "Animal",
-          "Cat",
-          "Cartoon",
-          "2d",
-          "Casual",
-          "Normal",
-          "Flat",
-        ],
-        image:
-          "https://api.reservoir.tools/assets/v1?asset=d13dd00e722beffaf6c818fc35b7e75a4b50079c6412ad50750d1a2413dc0cde169c7e78613f04d4da5f7ee3b599e96dcc952d767fec5fb579de5438a72affd94fd14cba5d7fe423cf1f501fecb2b3f41f0fdf0868aae92124ba81cff5c16f522660b39f46e9da843f19bad685104f2f1a2b1c1936cfce25c08e04851370278223c5e4198f99eda3f3b783c3322e8c56",
-        contract: "0xdcf68c8ebb18df1419c7dff17ed33505faf8a20c",
-        tokenId: "9529",
-        price: 0.25,
-        rarity: 1494,
-        rarityRank: 245,
-        lastBuyValue: 0.29,
-        lastBuyTs: 1633157767,
-        ownerName: "OpenSea",
-        ownerIcon:
-          "https://raw.githubusercontent.com/reservoirprotocol/indexer/v5/src/models/sources/opensea-logo.svg",
-        createdAt: "2022-12-27T21:23:08.798Z",
-        updatedAt: "2022-12-27T21:23:09.301Z",
-        deletedAt: null,
-        userId: "BbSKyKizFvWGpSqkBqCM2ardrkm1",
-        collectionId: "0e2b2530-6f1b-472c-8d41-02c80fd0ab1a",
-      },
-      createdAt: "2022-12-27T21:23:08.798Z",
-    },
-  ];
-
   const dispatch = useDispatch();
   const userDetail = useSelector((state) => state.loggedUser);
-
+  useEffect(()=>{
+    
+  },[userDetail])
   // const { userDetail } = useSelector((state) => state);
 
   // FALTA TRAER EL COMPONENTE PurchaseHistory y pasarle por params las relaciones con buy para q muestre el historial
@@ -132,120 +56,147 @@ export default function UserProfile() {
   //       setEdit(!edit);
   //     });
   //   };
-
-  useEffect(() => {}, [dispatch]);
   console.log(userDetail);
+  useEffect(() => {}, [dispatch]);
 
   return (
-    <div className="main-container">
-      {/* <button onClick={() => navHistory.goBack()} className="back-button">
-        {" "}
-        {"< "}Back{" "}
-      </button> */}
-      <div className="profile-container">
-        <div className="avatar-nickname-container">
+    <div className={styles["user-profile-container"]}>
+      <div className={styles["profile-container"]}>
+        <div className={styles["avatar-nickname-container"]}>
           <img
-            className="profile-pic"
+            className={styles["profile-pic"]}
             src={userDetail.profile_pic}
             alt="avatar"
             referrerPolicy="no-referrer"
           />
           <p className="text-muted mb-1">{userDetail.username}</p>
           <img
-            hidden = {userDetail.type === "Verified" ? false : true}
-            className="edit-info"
+            hidden={
+              userDetail.type === "Verified" || userDetail.type === "Admin"
+                ? false
+                : true
+            }
+            className={styles["edit-info"]}
             src={
               "https://iconsplace.com/wp-content/uploads/_icons/ffc0cb/256/png/edit-icon-12-256.png"
             }
             alt="edit-info"
             referrerPolicy="no-referrer"
             onClick={() => {
-              handleEdit();
+              handleEdit()
+            }}
+          />
+          <img
+            hidden={
+              userDetail.type === "Verified" || userDetail.type === "Admin"
+                ? false
+                : true
+            }
+            className={styles["refresh-info"]}
+            src={
+              "https://www.svgrepo.com/show/172157/refresh.svg"
+            }
+            alt="refresh-info"
+            referrerPolicy="no-referrer"
+            onClick={() => {
+              handleRefresh()
             }}
           />
         </div>
-        {edit.state ? (
+        {edit ? (
           <EditUserInfo
             name={userDetail.name}
             last_name={userDetail.last_name}
-            email={userDetail.email}
             age={userDetail.age}
-            phone_number={userDetail.phone_number}
             id={userDetail.id}
-            dni={userDetail.dni}
+            address={userDetail.address}
+            username={userDetail.username}
+            setEdit = {setEdit}
           />
         ) : (
-          <div className="user-info">
-            <div className="info">
+          <div className={styles["user-info"]}>
+            <div className={styles["info"]}>
               <h6>Email</h6>
               <h6 className="text-muted">{userDetail.email}</h6>
             </div>
-            <div className="info">
+            <div className={styles["info"]}>
               <h6>Type</h6>
               <h6 className="text-muted">{userDetail.type}</h6>
             </div>
-            {userDetail.type === "Verified" && (
+            {(userDetail.type === "Verified" ||
+              userDetail.type === "Admin") && (
               <div>
-                <div className="info">
+                <div className={styles["info"]}>
                   <h6>Full Name</h6>
                   <h6 className="text-muted">
                     {userDetail.name} {userDetail.last_name}
                   </h6>
                 </div>
 
-                <div className="info">
-              <h6>Phone</h6>
-              <h6 className="text-muted">
-                {userDetail.phone ? userDetail.phone : "No phone founded"}
-              </h6>
-            </div>
-            <div className="info">
-              <h6>Age</h6>
-              <h6 className="text-muted">
-                {userDetail.age ? userDetail.age : "No age founded"}
-              </h6>
-            </div>
-            <div className="info">
-              <h6>Adress</h6>
-              <h6 className="text-muted">
-                {userDetail.adress ? userDetail.adress : "No adress founded"}
-              </h6>
-            </div>
-            <div className="info">
-              <h6>Identification</h6>
-              <h6 className="text-muted">
-                {userDetail.dni ? userDetail.dni : "No identification founded"}
-              </h6>
-            </div>
-              
+                <div className={styles["info"]}>
+                  <h6>Phone</h6>
+                  <h6 className="text-muted">
+                    {userDetail.phone ? userDetail.phone : "No phone founded"}
+                  </h6>
+                </div>
+                <div className={styles["info"]}>
+                  <h6>Age</h6>
+                  <h6 className="text-muted">
+                    {userDetail.age ? userDetail.age : "No age founded"}
+                  </h6>
+                </div>
+                <div className={styles["info"]}>
+                  <h6>Adress</h6>
+                  <h6 className="text-muted">
+                    {userDetail.adress
+                      ? userDetail.adress
+                      : "No adress founded"}
+                  </h6>
+                </div>
+                <div className={styles["info"]}>
+                  <h6>Identification</h6>
+                  <h6 className="text-muted">
+                    {userDetail.dni
+                      ? userDetail.dni
+                      : "No identification founded"}
+                  </h6>
+                </div>
               </div>
             )}
-
-            
-
-            
           </div>
         )}
       </div>
-      <div className="functionalities-history-container">
-        <div className="available-functionalities">
-          {/* aca estaria bueno marcar que cosas puede hacer este tipo de usuario:
-        si es admin que diga
-        disponible informacion de usuarios
-        historial de compras de usuarios
-        actualizar tipo de usuario
-        etc */}
-          <h6>2 NFT's bought</h6>
-          <h6>
-            You dont have permitions to create an NFT ,you need to upgrade your
-            account
-          </h6>
-          <NavLink className='upgrade-button' to="/myAccount/verify">Upgrade to Premium
-            {/* <div className="upgrade-button">Upgrade to Premium</div> */}
-          </NavLink>
-        </div>
-        <div className="history-purchases">
-          <PurchaseHistory props={history} />
+      <div className={styles["functionalities-history-container"]}>
+        {userDetail.type === "Basic" ? (
+          <div className={styles["available-functionalities"]}>
+            <h6>2 NFT's bought</h6>
+            <h6 className={styles["user-profile-not-permition"]}>
+              You dont have permitions to create an NFT ,you need to upgrade
+              your account
+            </h6>
+            <NavLink
+              className={styles["upgrade-button"]}
+              to="/myAccount/verify"
+            >
+              Upgrade to Premium
+              {/* <div className="upgrade-button">Upgrade to Premium</div> */}
+            </NavLink>
+          </div>
+        ) : (
+          <div className={styles["available-functionalities"]}>
+            <h5>You are Premium User !</h5>
+            <h6>You can :</h6>
+            <h6>Buy NFTs</h6>
+            <h6>Sell NFTs</h6>
+            <h6>Create NFTs</h6>
+          </div>
+        )}
+
+        <div className={styles["history-purchases"]}>
+          <PurchaseHistory
+            purchases={userDetail.purchases}
+            sales={userDetail.sales}
+          />
         </div>
       </div>
     </div>

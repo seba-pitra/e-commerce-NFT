@@ -8,27 +8,26 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 export default function Shoppingkart() {
-  const shoppingCartContents = useSelector((state) => state.shoppingCartContents);
-
-  const [error, setError] = useState();
-  const [txs, setTxs] = useState([]);
+  const shoppingCartContents = useSelector(
+    (state) => state.shoppingCartContents
+  );
 
   const dispatch = useDispatch();
 
   const handleBuyNftsOnShoppingCart = async () => {
     //localStorage for payment for mercago pago in component "PayResult"
-    localStorage.setItem("nftsOnShoppingCart", JSON.stringify(shoppingCartContents));
-
+    localStorage.setItem(
+      "nftsOnShoppingCart",
+      JSON.stringify(shoppingCartContents)
+    );
     dispatch(actions.buyNftOnShoppingCart(shoppingCartContents));
+    console.log(shoppingCartContents);
+    localStorage.setItem("compras", JSON.stringify(shoppingCartContents));
     // test only >> dispatch(actions.sendFungibleMail({correoUser: "yomero@gmail.com",accion: "pago"}));
   };
 
   const handlePay = async ({ nftPrice, nftContract, nftObj }) => {
-    setError();
-
     const transactionMetamask = await startPayment({
-      setError,
-      setTxs,
       ether: nftPrice.toString(),
       addr: nftContract,
     });
@@ -52,9 +51,6 @@ export default function Shoppingkart() {
       };
     } else if (transactionMetamask.includes("rejected")) {
       //si se rechazo en metamask
-      toast.error("Something was wrong. Try again later", {
-        position: "bottom-left",
-      });
       metamaskBuyData = {
         ...metamaskBuyData,
         statusPay: "Rejected",
@@ -88,9 +84,7 @@ export default function Shoppingkart() {
         {shoppingCartContents &&
           shoppingCartContents.map((nft, index) => {
             return (
-              <div 
-                key={index}
-                className={styles["cart-nfts-container"]}>
+              <div key={index} className={styles["cart-nfts-container"]}>
                 <img
                   src={nft.image}
                   alt="nft-cart"
@@ -101,18 +95,6 @@ export default function Shoppingkart() {
                   <p className={styles["cart-nft-price"]}>
                     ${(nft.price * 1271).toFixed(2)} USD
                   </p>
-                  <button
-                    className={styles["button-buy-fast"]}
-                    onClick={() =>
-                      handlePay({
-                        nftPrice: nft.price,
-                        nftContract: nft.contract,
-                        nftObj: nft,
-                      })
-                    }
-                  >
-                    Buy fast
-                  </button>
                 </div>
                 <button
                   className={styles["cart-nft-remove-button"]}
@@ -123,8 +105,6 @@ export default function Shoppingkart() {
               </div>
             );
           })}
-        {error && <p>{error}</p>}
-        {txs && <p>{txs}</p>}
       </div>
       <div className="text-center text-lg-bottom mt-4 pt-2">
         <h3>Total</h3>

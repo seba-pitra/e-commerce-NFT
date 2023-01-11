@@ -5,12 +5,13 @@ import { useDispatch } from "react-redux";
 import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
-import "./Filtering.css";
 import PriceSelector from "../PriceSelector/PriceSelector";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 import Offcanvas from "react-bootstrap/Offcanvas";
 import FilterAltIcon from "@mui/icons-material/FilterAlt";
+
+import styles from "./stylesheets/Filtering.module.css";
 
 export default function Filtering() {
   const [selectedCollection, setSelectedCollection] = useState("");
@@ -148,10 +149,12 @@ export default function Filtering() {
     } else setSelectedCategoryBackg([...selectedCategoryBackg, e.target.value]);
   };
 
+  // className={styles[]}
+
   return (
-    <div className="filters-container">
+    <div className={styles["filters-container"]}>
       <FilterAltIcon
-        className="filter-icon"
+        className={styles["filter-icon"]}
         fontSize="large"
         onClick={handleShow}
       />
@@ -159,19 +162,14 @@ export default function Filtering() {
         show={showFilters}
         onHide={handleClose}
         placement={"start"}
-        style={{
-          backgroundColor: "transparent",
-        }}
+        className={styles["offcanvas-container"]}
       >
-        <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Filter</Offcanvas.Title>
-        </Offcanvas.Header>
-        <Offcanvas.Body>
+        <Offcanvas.Header closeButton></Offcanvas.Header>
+        <Offcanvas.Body className={styles["offcanvas-body"]}>
           <Accordion
             style={{
-              backgroundColor: "#313c52",
+              backgroundColor: "#757575",
               color: "white",
-              marginTop: "16px",
             }}
           >
             <AccordionSummary
@@ -180,16 +178,13 @@ export default function Filtering() {
               id="panel1a-header"
             >
               <label className="label" htmlFor="genres">
-                Collections:
+                Collections
               </label>
             </AccordionSummary>
             <AccordionDetails>
               {collections.map((collection, index) => {
                 return (
-                  <div
-                    key={index}
-                    className="input-checkbox"
-                    >
+                  <div key={index} className="input-checkbox">
                     <label htmlFor={collection.id}>{collection.name}</label>
                     <input
                       type="checkbox"
@@ -205,14 +200,20 @@ export default function Filtering() {
               })}
             </AccordionDetails>
           </Accordion>
-          <Accordion style={{ backgroundColor: "#313c52", color: "white" }}>
+          <Accordion
+            style={{
+              backgroundColor: "#757575",
+              color: "white",
+              cursor: "pointer",
+            }}
+          >
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
               <label className="label" htmlFor="genres">
-                Select Specie:
+                Select gender
               </label>
             </AccordionSummary>
             <AccordionDetails>
@@ -234,14 +235,20 @@ export default function Filtering() {
               })}
             </AccordionDetails>
           </Accordion>
-          <Accordion style={{ backgroundColor: "#313c52", color: "white" }}>
+          <Accordion
+            style={{
+              backgroundColor: "#757575",
+              color: "white",
+              cursor: "pointer",
+            }}
+          >
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
               <label className="label" htmlFor="genres">
-                Select Species 2:
+                Select Species
               </label>
             </AccordionSummary>
             <AccordionDetails>
@@ -249,6 +256,7 @@ export default function Filtering() {
                 return (
                   <div key={index} className="input-checkbox">
                     <label htmlFor={specie}>{specie}</label>
+                    
                     <input
                       type="checkbox"
                       key={specie}
@@ -263,14 +271,20 @@ export default function Filtering() {
               })}
             </AccordionDetails>
           </Accordion>
-          <Accordion style={{ backgroundColor: "#313c52", color: "white" }}>
+          <Accordion
+            style={{
+              backgroundColor: "#757575",
+              color: "white",
+              cursor: "pointer",
+            }}
+          >
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
               <label className="label" htmlFor="genres">
-                Select Art:
+                Select Art
               </label>
             </AccordionSummary>
             <AccordionDetails>
@@ -292,14 +306,20 @@ export default function Filtering() {
               })}
             </AccordionDetails>
           </Accordion>
-          <Accordion style={{ backgroundColor: "#313c52", color: "white" }}>
+          <Accordion
+            style={{
+              backgroundColor: "#757575",
+              color: "white",
+              cursor: "pointer",
+            }}
+          >
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
               <label className="label" htmlFor="genres">
-                Select Type:
+                Select Type
               </label>
             </AccordionSummary>
             <AccordionDetails>
@@ -321,14 +341,20 @@ export default function Filtering() {
               })}
             </AccordionDetails>
           </Accordion>
-          <Accordion style={{ backgroundColor: "#313c52", color: "white" }}>
+          <Accordion
+            style={{
+              backgroundColor: "#757575",
+              color: "white",
+              cursor: "pointer",
+            }}
+          >
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
               <label className="label" htmlFor="genres">
-                Select Style:
+                Select Style
               </label>
             </AccordionSummary>
             <AccordionDetails>
@@ -350,14 +376,20 @@ export default function Filtering() {
               })}
             </AccordionDetails>
           </Accordion>
-          <Accordion style={{ backgroundColor: "#313c52", color: "white" }}>
+          <Accordion
+            style={{
+              backgroundColor: "#757575",
+              color: "white",
+              cursor: "pointer",
+            }}
+          >
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
               <label className="label" htmlFor="genres">
-                Select Rest:
+                Select Rest
               </label>
             </AccordionSummary>
             <AccordionDetails>
@@ -379,14 +411,20 @@ export default function Filtering() {
               })}
             </AccordionDetails>
           </Accordion>
-          <Accordion style={{ backgroundColor: "#313c52", color: "white" }}>
+          <Accordion
+            style={{
+              backgroundColor: "#757575",
+              color: "white",
+              cursor: "pointer",
+            }}
+          >
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
               <label className="label" htmlFor="genres">
-                Select Background:
+                Select Background
               </label>
             </AccordionSummary>
             <AccordionDetails>
@@ -408,14 +446,20 @@ export default function Filtering() {
               })}
             </AccordionDetails>
           </Accordion>
-          <Accordion style={{ backgroundColor: "#313c52", color: "white" }}>
+          <Accordion
+            style={{
+              backgroundColor: "#757575",
+              color: "white",
+              cursor: "pointer",
+            }}
+          >
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
               <label className="label" htmlFor="genres">
-                Price Selector:
+                Price Selector
               </label>
             </AccordionSummary>
             <AccordionDetails>
@@ -423,7 +467,7 @@ export default function Filtering() {
             </AccordionDetails>
           </Accordion>
           <button
-            className="resetfilters-btn"
+            className={styles["reset-filters"]}
             onClick={() => {
               dispatch(actions.resetFilters());
             }}
