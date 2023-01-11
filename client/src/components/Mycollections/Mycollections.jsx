@@ -22,7 +22,7 @@ function Mycollections() {
   const styles = useStyles(darkStyles, lightStyles);
 
  // -------------------
- // console.log(loggedUser.collections);
+  console.log(loggedUser.collections);
  // -------------------
 
 
@@ -47,7 +47,10 @@ function Mycollections() {
 		    src="https://res.cloudinary.com/dwyhztlkw/image/upload/v1673373417/xx83ajscnftifvyajlrj.jpg"
 		    alt="img-collections"
 		    />
-		    <div>
+
+		    
+
+<div>
 		    <div className={styles["collection-name-container"]}>
 		    <VerifiedIcon />
 		    <h3 className={styles["collections-name"]}>
@@ -62,12 +65,13 @@ function Mycollections() {
 		    </div>
 		    </div>
 		    </div>
-
+<hr></hr>
 </Link>
 
 
 	    );
     }
+
     );
 
   return (
