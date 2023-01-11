@@ -1,10 +1,13 @@
-import { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import * as utils from "../../../utils";
 import CloudinaryImageInput from "../CloudinaryImageInput/CloudinaryImageInput";
 import PreviewNft from "./PreviewNft/PreviewNft";
 import * as actions from "../../../redux/actions";
-import styles from "../stylesheets/CreateNFT.module.css";
+
+// import styles from "./stylesheets/CreateNFT.module.css";
+import darkStyles from "./stylesheets/DarkCreateNFT.module.css";
+import lightStyles from "./stylesheets/LightCreateNFT.module.css";
+import useStyles from "../../../customHooks/useStyles";
 
 export default function CreateNFT({
   createdNft,
@@ -14,6 +17,8 @@ export default function CreateNFT({
   back,
   next,
 }) {
+  const styles = useStyles(darkStyles, lightStyles);
+
   const user = useSelector((state) => state.loggedUser);
   const dispatch = useDispatch();
 
@@ -43,7 +48,7 @@ export default function CreateNFT({
         <div className={styles["second-field-nft"]}>
           <form className={styles["create-nft-form"]}>
             <div className={styles["create-nft-input-container"]}>
-              <h4>Name</h4>
+              <h4>NFT Name</h4>
               <div className={styles["input-error-msg"]}>
                 <input
                   type={"text"}
@@ -69,7 +74,7 @@ export default function CreateNFT({
             </div>
 
             <div className={styles["create-nft-input-container"]}>
-              <h4>Description</h4>
+              <h4>NFT Description</h4>
               <p>
                 The description will be included <br />
                 on the item's detail page
@@ -79,7 +84,7 @@ export default function CreateNFT({
                 name={"description"}
                 value={createdNft.description}
                 onChange={(e) => handleChange(e)}
-                placeholder={"this NFT its about..."}
+                placeholder={"This NFT its about..."}
               />
             </div>
 
@@ -95,7 +100,7 @@ export default function CreateNFT({
                 />
                 <span
                   className={
-                    errors.name === "Name is correct"
+                    errors.price === "Price is correct"
                       ? styles["success-msg"]
                       : styles["error-msg"]
                   }
@@ -108,7 +113,6 @@ export default function CreateNFT({
         </div>
 
         <div className={styles["preview-nft-container"]}>
-          <h2>Nft preview</h2>
           <PreviewNft
             image={
               createdNft.image ||
@@ -121,12 +125,13 @@ export default function CreateNFT({
         </div>
       </div>
       <div className={styles["buttons-next-prev-container"]}>
-        <button className={styles["create-back-button"]} onClick={back}>
+        <button className={styles["disabled"]} onClick={back}>
           Back
         </button>
         <button
           className={
-            errors.name === "Name is correct"
+            errors.name === "Name is correct" &&
+            errors.price === "Price is correct"
               ? styles["button-next"]
               : styles["disabled"]
           }

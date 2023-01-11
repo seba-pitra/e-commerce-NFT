@@ -1,0 +1,50 @@
+.nfts-dash-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 30px;
+  border-radius: 5px;
+  align-items: center;
+  background-color: #232c3d;
+  margin: 10px 0;
+}
+.nfts-dash-card p {
+  margin: 0;
+}
+.dash-card-userId {
+  width: 235px;
+  margin: 0 5px;
+}
+.dash-card-name {
+  width: 270px;
+  margin: 0 5px;
+}
+.dash-card-price {
+  width: 70px;
+  margin: 0 5px;
+}
+.dash-card-price input {
+  width: 100%;
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+  border-bottom: 1px solid rgba(211, 68, 139, 1);
+  background-color: #232c3d;
+  color: rgba(211, 68, 139, 1);
+  outline: none;
+}
+.dash-card-icons {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 60px;
+  justify-content: space-evenly;
+}
+.dash-card-icon {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  color: rgba(211, 68, 139, 1);
+}
+.dash-card-icon:hover {
+  color: rgba(211, 68, 139, 0.5);
+}

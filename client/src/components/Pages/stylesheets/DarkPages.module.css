@@ -1,9 +1,10 @@
-.pages-all-container{
+.pages-all-container {
   background-color: #212121;
   overflow: hidden;
+  margin-top: 58px;
 }
 
-.orders-container-phone{
+.orders-container-phone {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,7 +26,7 @@
   cursor: pointer;
 }
 
-.left-hand-conteiner{
+.left-hand-conteiner {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
@@ -34,12 +35,12 @@
 }
 
 @media (max-width: 975px) {
-  .left-hand-conteiner{
+  .left-hand-conteiner {
     width: 50%;
   }
 }
 
-.middle-conteiner{
+.middle-conteiner {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
@@ -48,12 +49,12 @@
 }
 
 @media (max-width: 975px) {
-  .middle-conteiner{
+  .middle-conteiner {
     width: 100%;
   }
 }
 
-.right-hand-conteiner{
+.right-hand-conteiner {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
@@ -62,12 +63,12 @@
 }
 
 @media (max-width: 975px) {
-  .right-hand-conteiner{
+  .right-hand-conteiner {
     width: 50%;
   }
 }
 
-.amount-nfts{
+.amount-nfts {
   color: white !important;
   font-size: 18px;
   text-align: center;
@@ -93,7 +94,7 @@
 
 .orders-container select {
   background-color: #424242;
-  color: #FAFAFA;
+  color: #fafafa;
   font-weight: 700;
   border: none;
   border-radius: 16px;
@@ -103,7 +104,7 @@
 
 @media (max-width: 975px) {
   .orders-container select {
-  padding: 8px;
+    padding: 8px;
   }
 }
 
@@ -123,6 +124,6 @@
   padding: 0px;
 }
 
-.pagited-bottom{
+.pagited-bottom {
   width: 100%;
 }

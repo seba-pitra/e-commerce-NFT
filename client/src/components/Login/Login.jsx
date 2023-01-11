@@ -31,7 +31,8 @@ const Login = () => {
     if (user) {
       dispatch(actions.signInWithGoogle(user));
     }
-  loadLocalStorage(dispatch);  // << No entiendo que despacha ?? "dispatch" que valor tiene ??
+    localStorage.setItem("User",JSON.stringify(user)); // INFO DE USER LOGEADO
+    loadLocalStorage(dispatch);  // << No entiendo que despacha ?? "dispatch" que valor tiene ??
 	 
 	  // Theme LocalStorage Loader for logInGoogle only
 	  console.log('EL TEMA DESDE LOGIN ES: !!');  // << para saber si lo esta tomando

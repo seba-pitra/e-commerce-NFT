@@ -1,0 +1,116 @@
+.nfts-dash-container {
+  width: fit-content;
+  background-color: #232c3d;
+  border-radius: 5px;
+  color: rgba(211, 68, 139, 1);
+}
+.nft-dash-search-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+.nft-dash-search-container input {
+  width: 100px;
+  margin-left: 5px;
+  margin-right: 10px;
+  outline: none;
+  border: none;
+  background-color: #232c3d;
+  border-bottom: 0.5px solid rgba(211, 68, 139, 1);
+  color: rgba(211, 68, 139, 1);
+}
+.nft-dash-show-container label {
+  margin: 0 5px;
+}
+.nft-dash-show-container button {
+  padding: 0 5px;
+  height: 25px;
+  border: none;
+  background-color: #232c3d;
+  cursor: pointer;
+  color: rgba(211, 68, 139, 1);
+}
+.nft-dash-show-container button:disabled {
+  color: rgba(211, 68, 139, 0.5);
+}
+.nft-dash-show-container select {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: #232c3d;
+  color: rgba(211, 68, 139, 1);
+}
+.dash-nfts-list {
+  padding: 5px 0;
+}
+.dash-nfts-titles {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-size: 18px;
+  font-weight: 600;
+}
+.dash-nfts-titles p {
+  margin: 5px 0;
+}
+.dash-vUsers-fn,
+.dash-vUsers-dni,
+.dash-vUsers-age,
+.dash-vUsers-pn,
+.dash-vUsers-nc,
+.dash-vUsers-pps,
+.dash-users-NameTitle,
+.dash-users-EmailTitle,
+.dash-users-TypeTitle,
+.dash-nfts-NameTitle,
+.dash-nfts-PriceTitle,
+.dash-nfts-UserIdTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 4px solid rgba(211, 68, 139, 1);
+  margin: 0 5px;
+}
+.dash-nfts-UserIdTitle {
+  width: 235px;
+  margin: 0 5px;
+}
+.dash-nfts-NameTitle {
+  width: 270px;
+  margin: 0 5px;
+}
+.dash-nfts-PriceTitle {
+  width: 70px;
+  margin: 0 5px;
+}
+.dash-users-NameTitle {
+  width: 120px;
+  margin: 0 5px;
+}
+.dash-users-EmailTitle {
+  width: 300px;
+  margin: 0 5px;
+}
+.dash-users-TypeTitle {
+  width: 80px;
+  margin: 0 5px;
+}
+.dash-vUsers-fn {
+  width: 150px;
+}
+.dash-vUsers-dni {
+  width: 100px;
+}
+.dash-vUsers-age {
+  width: 20px;
+}
+.dash-vUsers-pn {
+  width: 130px;
+}
+.dash-vUsers-nc {
+  width: 120px;
+}
+.dash-vUsers-pps {
+  width: 200px;
+}

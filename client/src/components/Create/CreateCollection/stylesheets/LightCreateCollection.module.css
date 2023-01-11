@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #212121;
 }
 
 .create-collection-titles-container {
@@ -10,9 +11,9 @@
 }
 
 .choose-collections-created {
-  background-color: #252d3b;
+  background-color: #9e9e9e;
   border-radius: 15px;
-  width: 100%;
+  width: 85%;
   max-width: 800px;
   text-align: center;
   padding: 15px;
@@ -39,18 +40,28 @@
   width: 300px;
   height: 40px;
   background-color: rgba(255, 255, 255, 0.867);
+  border: none;
 }
 
 .div-created-collections {
+  font-size: 18px;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 15px;
+}
+
+@media (max-width: 853px) {
+  .div-created-collections {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
 }
 
 .created-collections {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-right: 60px;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .created-collections input {
@@ -74,9 +85,9 @@
   height: 45px;
   border-radius: 10px;
   width: 300px;
-  background-color: #313c52;
+  background-color: #757575;
   color: white;
-  border: solid 1px #283247;
+  border: none;
 }
 
 .button-create {

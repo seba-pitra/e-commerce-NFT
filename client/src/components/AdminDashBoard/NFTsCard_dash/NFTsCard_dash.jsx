@@ -10,7 +10,7 @@ import DoneIcon from "@material-ui/icons/Done";
 import CloseIcon from "@material-ui/icons/Close";
 import RestoreIcon from "@material-ui/icons/Restore";
 
-import "./NFTsCard_dash.css";
+import styles from "./stylesheets/NFTsCard_dash.module.css";
 
 //Por favor no olvidarse de eliminar los console.logs antes de entregar
 const NFTsCard_dash = ({ id, name, price, userId, deletedAt }) => {
@@ -63,14 +63,17 @@ const NFTsCard_dash = ({ id, name, price, userId, deletedAt }) => {
       });
     }
   };
+
+  // className={styles[]}
+
   return (
-    <div className="nfts-dash-card">
-      <div className="dash-card-name">
-        <Link className="user-dash-link" to={`/details/${id}`}>
+    <div className={styles["nfts-dash-card"]}>
+      <div className={styles["dash-card-name"]}>
+        <Link className={styles["user-dash-link"]} to={`/details/${id}`}>
           <p>{name}</p>
         </Link>
       </div>
-      <div className="dash-card-price">
+      <div className={styles["dash-card-price"]}>
         {edit ? (
           <input
             value={priceState}
@@ -81,24 +84,24 @@ const NFTsCard_dash = ({ id, name, price, userId, deletedAt }) => {
           <p>{showPrice}</p>
         )}
       </div>
-      <div className="dash-card-userId">
+      <div className={styles["dash-card-userId"]}>
         <p>{userId === "null" ? "No Owner" : userId}</p>
       </div>
       {edit ? (
-        <div className="dash-card-icons">
-          <div className="dash-card-icon">
+        <div className={styles["dash-card-icons"]}>
+          <div className={styles["dash-card-icon"]}>
             <DoneIcon onClick={handleUpdate} />
           </div>
-          <div className="dash-card-icon">
+          <div className={styles["dash-card-icon"]}>
             <CloseIcon onClick={handleteEdit} />
           </div>
         </div>
       ) : (
-        <div className="dash-card-icons">
-          <div className="dash-card-icon">
+        <div className={styles["dash-card-icons"]}>
+          <div className={styles["dash-card-icon"]}>
             <EditIcon onClick={handleteEdit} />
           </div>
-          <div className="dash-card-icon">
+          <div className={styles["dash-card-icon"]}>
             {deleted ? (
               <RestoreIcon onClick={handleRestore} />
             ) : (
