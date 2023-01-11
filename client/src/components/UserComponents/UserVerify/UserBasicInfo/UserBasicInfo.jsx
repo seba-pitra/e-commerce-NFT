@@ -1,9 +1,13 @@
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { validateUserData } from "../../../utils";
-import styles from "./stylesheets/UserVerify.module.css";
+import { validateUserData } from "../../../../utils";
+
+import darkStyles from "./stylesheets/DarkUserBasicInfo.module.css";
+import lightStyles from "./stylesheets/LightUserBasicInfo.module.css";
+import useStyles from "../../../../customHooks/useStyles";
 
 export default function UserBasicInfo({ userData, setUserData, next }) {
+  const styles = useStyles(darkStyles, lightStyles);
   const user = useSelector((state) => state.loggedUser);
 
   // ERRORS HANDLERS
