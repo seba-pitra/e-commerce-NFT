@@ -116,11 +116,9 @@ export default function Footer() {
                   </a>
                 </p>
                 <p>
-          <Link to="/mycollections" className="text-white">    
-	  <a href="#!" className="text-white">
-                    My Collections
-                  </a>
-	  </Link>
+            <Link to="/mycollections" className="text-white">    
+                            My Collections
+            </Link>
                 </p>
                 <p>
                <Link to="/aboutus" className="text-white">   

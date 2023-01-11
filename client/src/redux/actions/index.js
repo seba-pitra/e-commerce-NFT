@@ -10,6 +10,7 @@ export const SIGN_IN_WITH_GOOGLE = "SIGN_IN_WITH_GOOGLE";
 export const LOG_IN = "LOG_IN"
 export const LOG_OUT = "LOG_OUT";
 export const LOG_IN_SUCCESS = "LOG_IN_SUCCESS";
+export const LOG_OUT_SUCCESS = "LOG_OUT_SUCCESS";
 export const ASKED_FOR_VERIFICATION = "ASKED_FOR_VERIFICATION";
 
 // -- GETTERS --
@@ -56,6 +57,7 @@ export const CHANGE_ORDER_DIRECTION = "CHANGE_ORDER_DIRECTION";
 // -- HELPERS --
 export const LOADING = "LOADING";
 export const GET_ETH_PRICE = "GET_ETH_PRICE";
+export const SHOULD_UPDATE = "SHOULD_UPDATE";
 
 // -- PAGINATION --
 export const SET_ACTIVE_PAGE = "SET_ACTIVE_PAGE";
@@ -255,6 +257,10 @@ export const successfulLogin = () => {
   return { type : LOG_IN_SUCCESS }
 }
 
+export const succesfulLogOut = () => {
+  return { type : LOG_OUT_SUCCESS }
+}
+
 export const askForVerification = (userData) => {
   return async (dispatch) => {
     try {
@@ -448,6 +454,7 @@ export const addReview = (payload) => {
         nftId : nftId,
         value : value
       });
+      console.log(response)
       // Falta el dispatch ya sea para setear el value fijo o para mostrar un mensaje.
     } catch (error) {
       console.error(error.response.data);

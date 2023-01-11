@@ -49,12 +49,14 @@ import {
   LOG_IN,
   LOG_OUT,
   LOG_IN_SUCCESS,
+  LOG_OUT_SUCCESS,
   REGISTER_USER,
   ASKED_FOR_VERIFICATION,
   TOGGLE_THEME,
   DELETE_FAVS_ON_SIGN_OUT,
   REMOVE_FROM_FAVS,
   LOCAL_STORAGE_THEME,
+  SHOULD_UPDATE
 } from "../actions";
 import * as controllers from "../../utils";
 import { toast } from "react-toastify";
@@ -106,14 +108,21 @@ const initialState = {
 
   historyBuys: [], //historial de compras.
   activeThemeIsDark: false,
+
+  shouldUpdate: false,
 };
 
 
 const rootReducer = (state = initialState, action) => {
-  console.log(action);
   switch (action.type) {
     case LOADING:
       return { ...state, isLoading: true };
+
+    case SHOULD_UPDATE:
+      return {
+        ...state,
+        shouldUpdate : !state.shouldUpdate
+      }
     // --- GETTERS ---
     case GET_ALL_NFTS:
       return {
@@ -150,8 +159,15 @@ const rootReducer = (state = initialState, action) => {
       return { ...state, loggedUser: action.payload };
     case LOG_IN_SUCCESS:
       return { ...state, loginStatus: true }
+    case LOG_OUT_SUCCESS: 
+      return {
+        ...state, loginStatus : false
+      }
     case LOG_OUT:
-        return { ...state, loggedUser: {}, loginStatus : false};
+        return { ...state, 
+          loggedUser: {},
+          loginStatus: false
+      };
     case ASKED_FOR_VERIFICATION:
         return { ...state }
     // Trae incluso los deleted.

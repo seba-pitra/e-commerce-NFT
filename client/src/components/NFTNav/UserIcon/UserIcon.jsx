@@ -4,6 +4,7 @@ import { freeShoppingCartState } from "../../../redux/actions";
 import { useDispatch, useSelector } from "react-redux";
 import { signOut } from "firebase/auth";
 import { auth } from "../../../firebase";
+import useAuth  from "../../../customHooks/useAuth.js";
 import "./UserIcon.css";
 import { toast } from "react-toastify";
 import * as actions from "../../../redux/actions"
@@ -12,6 +13,7 @@ import * as actions from "../../../redux/actions"
 import LogoutIcon from "@material-ui/icons/ExitToApp";
 
 const UserIcon = ({ setVisible, visible }) => {
+  const history = useHistory();
   const { loggedUser } = useSelector(
     (state) => state
   );
@@ -21,6 +23,7 @@ const UserIcon = ({ setVisible, visible }) => {
     try {
       await signOut(auth);
       dispatch(actions.logOutUser());
+      history.push("/");
     } catch (error) {
       toast.error("Something was wrong. Try again later", {
         position: "bottom-left",

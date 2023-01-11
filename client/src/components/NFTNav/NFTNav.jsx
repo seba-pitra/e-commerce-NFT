@@ -50,7 +50,7 @@ export default function NFTNav() {
     dispatch(actions.toggleTheme());
 // Theme LocalStorage Saver 
 	  console.log(activeThemeIsDark); 
-localStorage.setItem(JSON.stringify(loggedUser.email+'theme'),JSON.stringify(activeThemeIsDark));
+  localStorage.setItem(JSON.stringify(loggedUser.email+'theme'),JSON.stringify(activeThemeIsDark));
   };
 
   return (

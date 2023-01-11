@@ -11,6 +11,7 @@ import styles from "./stylesheets/Login.module.css";
 
 const Login = () => {
   const dispatch = useDispatch();
+  const history = useHistory();
   const [logginForm, setLogginForm] = useState({
     email: "",
     password: "",
@@ -36,12 +37,11 @@ const Login = () => {
       // Load the user's cart and favorites from local storage
       utils.loadCartLocalStorage(dispatch, user.email);
       utils.loadFavsLocalStorage(dispatch, user.email);
-    }
+      history.push("/home")
       // Theme LocalStorage Loader for logInGoogle only
-      console.log('EL TEMA DESDE LOGIN ES: !!');  // << para saber si lo esta tomando
       let SavedTheme = JSON.parse(localStorage.getItem(JSON.stringify(user.email+'theme')));  
-      console.log(SavedTheme);
       if (SavedTheme) { dispatch(actions.injectLocalStorageTheme(SavedTheme))}; 
+    }
   };
   /**
    * Handles the login process using the login form
@@ -54,17 +54,20 @@ const Login = () => {
     const user = await helpers.logginFunction(logginForm);
   
     // If the user was successfully logged in
-    if (user.id) {
+    if (user && user.id) {
       // Reset the form fields
       setLogginForm({
         email: "",
         password: "",
       });
-      // Dispatch the logInUser action to get the user data to global state.
+      // // Dispatch the logInUser action to get the user data to global state.
       dispatch(actions.logInUser(user.id));
       // Load the user's cart and favorites from local storage
+      history.push("/home")
       utils.loadCartLocalStorage(dispatch, user.email);
       utils.loadFavsLocalStorage(dispatch, user.email);
+      let SavedTheme = JSON.parse(localStorage.getItem(JSON.stringify(user.email+'theme')));  
+      if (SavedTheme) { dispatch(actions.injectLocalStorageTheme(SavedTheme))}; 
     }
   };
 
