@@ -212,6 +212,7 @@ export const updateUser = (body) => {
     try {
       const update = await axios.put(`/user/${body.id}`, body);
       dispatch({ type: GET_USER_BY_ID, payload: update.data });
+      dispatch({ type: SHOULD_UPDATE });
     } catch (error) {
       toast.error("Something was wrong. Try again later", {
         position: "bottom-left",
@@ -274,6 +275,7 @@ export const askForVerification = (userData) => {
         type: ASKED_FOR_VERIFICATION,
         payload: response.data.message,
       });
+      dispatch({ type: SHOULD_UPDATE });
     } catch (error) {
       toast.error("Something went wrong with verification request", {
         position: "bottom-left",
@@ -390,6 +392,7 @@ export const createNft = (payload) => {
       toast.success("NFT created successfully", {
         position: "bottom-left",
       });
+      dispatch({ type: SHOULD_UPDATE });
       // window.location.href = "/marketplace";
     } catch (e) {
       toast.error("Something was wrong. Try again later", {
@@ -408,6 +411,7 @@ export const createCollection = (payload) => {
       toast.success("Collection created successfully", {
         position: "bottom-left",
       });
+      dispatch({ type: SHOULD_UPDATE });
       // window.location.href = "/marketplace";
     } catch (e) {
       toast.error("Something was wrong. Try again later", {
@@ -423,6 +427,7 @@ export const deleteNft = (id) => {
       const deletedNft = await axios.delete(`/nft/${id}`);
       dispatch({ type: DELETE_NFT, payload: deletedNft.data }); // msj desde el back
       toast.success("NFT deleted successfully", { position: "bottom-left" });
+      dispatch({ type: SHOULD_UPDATE });
     } catch (e) {
       toast.error("Something was wrong. Try again later", {
         position: "bottom-left",
@@ -439,6 +444,7 @@ export const updateNft = (id, payload) => {
       const updateNft = await axios.put(`/nft/${id}`, payload);
       dispatch({ type: UPDATE_NFT, payload: updateNft.data }); // msj desde el back
       toast.success("NFT updated successfully", { position: "bottom-left" });
+      dispatch({ type: SHOULD_UPDATE });
     } catch (error) {
       toast.error(error.response.data, { position: "bottom-left" });
     }
@@ -456,7 +462,7 @@ export const addViewNft = (id) => {
 };
 
 export const addReview = (payload) => {
-  return async () => {
+  return async (dispatch) => {
     try {
       const { userId, nftId, value } = payload;
       const response = await axios.post(`/review/create`, {
@@ -465,6 +471,7 @@ export const addReview = (payload) => {
         value: value,
       });
       console.log(response)
+      dispatch({ type: SHOULD_UPDATE });
       // Falta el dispatch ya sea para setear el value fijo o para mostrar un mensaje.
     } catch (error) {
       console.error(error.response.data);
@@ -553,6 +560,5 @@ export const toggleTheme = () => {
 };
 
 export const injectLocalStorageTheme = (payload) => {
-  console.log("ACTION !!");
   return { type: LOCAL_STORAGE_THEME, payload };
 };
