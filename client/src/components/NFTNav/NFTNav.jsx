@@ -20,7 +20,7 @@ import useStyles from "../../customHooks/useStyles";
 import lightStyles from "./stylesheets/LightNFTNav.module.css";
 import darkStyles from "./stylesheets/DarkNFTNav.module.css";
 
-import { useLoggedUser } from "../../customHooks/useLoggedUser"
+import { useLoggedUser } from "../../customHooks/useLoggedUser";
 export default function NFTNav() {
   const location = useLocation();
 

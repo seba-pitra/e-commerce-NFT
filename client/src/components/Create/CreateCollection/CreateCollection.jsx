@@ -7,7 +7,7 @@ import lightStyles from "./stylesheets/LightCreateCollection.module.css";
 import darkStyles from "./stylesheets/DarkCreateCollection.module.css";
 import useStyles from "../../../customHooks/useStyles";
 import UserCollectionsSelector from "./UserCollectionsSelector/UserCollectionsSelector";
-import { useLoggedUser } from "../../customHooks/useLoggedUser"
+import { useLoggedUser } from "../../../customHooks/useLoggedUser";
 
 export default function CreateCollection({
   createdCollection,

@@ -14,7 +14,7 @@ import useStyles from "../../customHooks/useStyles";
 import darkStyles from "./stylesheets/DarkMarketPlace.module.css"
 import lightStyles from "./stylesheets/LightMarketPlace.module.css"
 
-import { useLoggedUser } from "../../customHooks/useLoggedUser"
+import { useLoggedUser } from "../../customHooks/useLoggedUser";
 
 function MarketPlace({ loggedIn }) {
   const dispatch = useDispatch();

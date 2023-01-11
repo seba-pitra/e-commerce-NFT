@@ -6,7 +6,6 @@ import "./App.css";
 //---  React imports ---
 import React from "react";
 import { Route, Switch } from "react-router-dom";
-import { ProtectedRoute } from "./wrapperComponents/ProtectedRoute";
 
 // -- Component imports ---
 import LandingPage from "./components/LandingPage/LandingPage";
@@ -60,12 +59,13 @@ function App() {
 
   // // funcion para consologuear el estado siempre que se modifique
   // // DESCOMENTAR PARA TESTING
-   /* useEffect(() => {
+   useEffect(() => {
     const unsubscribe = store.subscribe(() => {
-       console.log(store.getState())
+       console.log(store.getState().loginStatus)
+       console.log(store.getState().loggedUser)
     })
     return unsubscribe
-   }, [store.getState().loginStatus])  */
+   }, [store.getState().loginStatus, store.getState().loggedUser]) 
 
   return (
     <div className="App">

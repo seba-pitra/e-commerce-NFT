@@ -9,7 +9,7 @@ import CloudinaryImageInput2 from "../../../Create/CloudinaryImageInput/Cloudina
 import darkStyles from "./stylesheets/DarkUserAdvancedInfo.module.css";
 import lightStyles from "./stylesheets/LightUserAdvancedInfo.module.css";
 import useStyles from "../../../../customHooks/useStyles";
-import { useLoggedUser } from "../../customHooks/useLoggedUser"
+import { useLoggedUser } from "../../../../customHooks/useLoggedUser"
 
 export default function UserAdvancedInfo({ userData, setUserData, back }) {
   const styles = useStyles(darkStyles, lightStyles);

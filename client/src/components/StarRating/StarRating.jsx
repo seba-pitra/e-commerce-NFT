@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import * as actions from "../../redux/actions";
 import starlogo from "../../images/stars-logo.png"
 import './StarRating.css'
-import { useLoggedUser } from "../../customHooks/useLoggedUser"
+import { useLoggedUser } from "../../customHooks/useLoggedUser";
 // A MODIFICAR.
 export default function StarRating({nftId}) {
     const dispatch = useDispatch();

@@ -11,7 +11,7 @@ import UserAdvancedInfo from "./UserAdvancedInfo/UserAdvancedInfo";
 import darkStyles from "./stylesheets/DarkUserVerify.module.css";
 import lightStyles from "./stylesheets/LightUserVerify.module.css";
 import useStyles from "../../../customHooks/useStyles";
-import { useLoggedUser } from "../../customHooks/useLoggedUser"
+import { useLoggedUser } from "../../../customHooks/useLoggedUser"
 
 export default function UserVerify() {
   const styles = useStyles(darkStyles, lightStyles);

@@ -2,7 +2,7 @@ import { useSelector } from "react-redux";
 import { useState, useEffect } from "react";
 import { Avatar } from "@material-ui/core";
 import styles from "./stylesheets/ProfilePicture.module.css";
-import { useLoggedUser } from "../../customHooks/useLoggedUser"
+import { useLoggedUser } from "../../../customHooks/useLoggedUser"
 
 export default function ProfilePicture({ handleShowUserList }) {
   const [profilePicture, setProfilePicture] = useState(null);

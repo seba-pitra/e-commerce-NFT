@@ -8,7 +8,7 @@ import * as actions from "../../../redux/actions";
 import darkStyles from "./stylesheets/DarkCreateNFT.module.css";
 import lightStyles from "./stylesheets/LightCreateNFT.module.css";
 import useStyles from "../../../customHooks/useStyles";
-import { useLoggedUser } from "../../customHooks/useLoggedUser"
+import { useLoggedUser } from "../../../customHooks/useLoggedUser"
 
 export default function CreateNFT({
   createdNft,

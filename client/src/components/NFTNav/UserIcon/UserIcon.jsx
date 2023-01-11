@@ -10,7 +10,7 @@ import * as actions from "../../../redux/actions";
 import useStyles from "../../../customHooks/useStyles";
 import darkStyles from "./stylesheets/DarkUserIcon.module.css";
 import lightStyles from "./stylesheets/LightUserIcon.module.css";
-import { useLoggedUser } from "../../customHooks/useLoggedUser"
+import { useLoggedUser } from "../../../customHooks/useLoggedUser"
 
 // Components
 import LogoutIcon from "@material-ui/icons/ExitToApp";
@@ -33,6 +33,7 @@ const UserIcon = ({ setVisible, visible }) => {
     }
   };
   const handdleCick = (e) => {
+    handleLogOut();
     dispatch(freeShoppingCartState());
     logOutFunction();
     setVisible(e);

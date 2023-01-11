@@ -14,8 +14,8 @@ import axios from "axios";
 import useStyles from "../../customHooks/useStyles";
 import darkStyles from "./stylesheets/DarkDetail.module.css";
 import lightStyles from "./stylesheets/LightDetail.module.css";
+import { useLoggedUser } from "../../customHooks/useLoggedUser";
 
-import { useLoggedUser } from "../../customHooks/useLoggedUser"
 const Details = (props) => {
   const dispatch = useDispatch();
   const history = useHistory();

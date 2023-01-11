@@ -10,7 +10,7 @@ import * as actions from "../../../../redux/actions/index";
 import darkStyles from "./stylesheets/DarkUserMediumInfo.module.css";
 import lightStyles from "./stylesheets/LightUserMediumInfo.module.css";
 
-import { useLoggedUser } from "../../customHooks/useLoggedUser"
+import { useLoggedUser } from "../../../../customHooks/useLoggedUser"
 export default function UserMediumInfo({ userData, setUserData, next, back }) {
   const styles = useStyles(darkStyles, lightStyles);
   const [loggedUser, updateLoggedUser, handleLogOut] = useLoggedUser()

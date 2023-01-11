@@ -5,7 +5,7 @@ import { validateUserData } from "../../../../utils";
 import darkStyles from "./stylesheets/DarkUserBasicInfo.module.css";
 import lightStyles from "./stylesheets/LightUserBasicInfo.module.css";
 import useStyles from "../../../../customHooks/useStyles";
-import { useLoggedUser } from "../../customHooks/useLoggedUser"
+import { useLoggedUser } from "../../../../customHooks/useLoggedUser"
 
 export default function UserBasicInfo({ userData, setUserData, next }) {
   const styles = useStyles(darkStyles, lightStyles);

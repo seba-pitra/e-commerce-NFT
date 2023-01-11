@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { useLoggedUser } from "../../customHooks/useLoggedUser"
+import { useLoggedUser } from "../../customHooks/useLoggedUser";
 import * as actions from "../../redux/actions/index";
 // import "./AdminDashboard.css";
 

@@ -322,12 +322,6 @@ export function updateLoggedUser(userData) {
   return { type: UPDATE_LOGGED_USER, payload : userData };
 }
 
-// Acción para limpiar el estado y almacenamiento local del usuario
-
-export function logOutUser() {
-  return { type: LOGOUT_USER };
-}
-
 
 // --- SETTERS ---
 
