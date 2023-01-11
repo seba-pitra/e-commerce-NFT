@@ -1,4 +1,5 @@
 const { Review, User, Nft, Collection } = require("../db");
+const helpers = require('./contoller.helper.functions/averageStarsCalculator.js')
 
 //Create a new review
 const createReview = async (req, res) => {
@@ -36,6 +37,9 @@ const createReview = async (req, res) => {
     if (nftId) {
       const reviewedNft = await Nft.findByPk(nftId);
       await review.setNft(reviewedNft);
+      if(review.nftId){
+        await helpers.calculateNftStars(review.nftId)
+      }
     }
     // Si se proporcionó un ID de colección, establecer la relación entre la revisión y la colección
     if (collectionId) {
@@ -49,7 +53,10 @@ const createReview = async (req, res) => {
     });
 
     // Enviar la revisión con los modelos asociados en la respuesta
-    return res.status(200).json({ createdReview: reviewWithAssociatedData });
+    return res.status(200).json({
+      createdReview: reviewWithAssociatedData,
+      averageStars : reviewWithAssociatedData.nft.stars
+    });
   } catch (error) {
     // En caso de error, enviar el mensaje de error en la respuesta
     return res.status(400).json({

@@ -89,8 +89,6 @@ const Details = (props) => {
 
   //esto va a traer el promedio directamente del model
 
-  let starsValue = 0;
-
   return (
     <>
       {isLoading ? (
@@ -137,7 +135,7 @@ const Details = (props) => {
 
               <div className={styles["flex-row3"]}>
                 <h6>Views: {nftDetail.favs}</h6>
-                <h6>Stars: {starsValue}</h6>
+                <h6>Stars: {nftDetail.stars}</h6>
                 <h6>Rarity: {nftDetail.rarity}</h6>
               </div>
 
