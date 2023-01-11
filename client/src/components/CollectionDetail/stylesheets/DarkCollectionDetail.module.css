@@ -1,19 +1,20 @@
 .collection-details {
   background-color: #212121;
+  margin-top: 58px;
 }
 
 .collection-details-container {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  color: #FAFAFA;
+  color: #fafafa;
   border-bottom: 1px solid #424242;
   padding-bottom: 20px;
   overflow: hidden;
 }
 
-.collection-details-container span{
-  color: #BDBDBD;
+.collection-details-container span {
+  color: #bdbdbd;
   font-size: 18px;
 }
 
@@ -25,7 +26,7 @@
 
 .img-collection {
   overflow: hidden;
-  width: 99vw;
+  width: 100%;
   height: 300px;
 }
 
@@ -42,12 +43,12 @@
   padding: 0px 60px;
   margin: 10px 20px;
   width: 100%;
-  color: #BDBDBD;
+  color: #bdbdbd;
 }
 
-.collection-titles h1{
+.collection-titles h1 {
   margin-right: 60px;
-  color: #FAFAFA;
+  color: #fafafa;
 }
 
 @media (max-width: 1050px) {
@@ -57,15 +58,14 @@
   }
 }
 
-.negrita{
+.negrita {
   font-weight: 700;
-  color: #FAFAFA !important;
+  color: #fafafa !important;
   font-size: 22px !important;
 }
 
-
 .collection-description {
-  color: #BDBDBD;
+  color: #bdbdbd;
   font-size: 18px;
   padding: 0px 68px;
   margin: 0 15px;
@@ -75,7 +75,7 @@
 
 @media (max-width: 1050px) {
   .collection-description {
-    color: #BDBDBD;
+    color: #bdbdbd;
     font-size: 18px;
     padding: 0px 16px;
     margin: 0 0px;
@@ -131,13 +131,13 @@
   }
 }
 
-.price-collection{
+.price-collection {
   display: flex;
   flex-direction: row;
   padding: 0px 80px;
 }
 
-.price-collection-detail{
+.price-collection-detail {
   display: flex;
   flex-direction: column;
   margin-right: 100px;

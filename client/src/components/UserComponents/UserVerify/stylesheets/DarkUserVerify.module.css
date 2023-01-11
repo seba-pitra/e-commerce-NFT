@@ -1,0 +1,9 @@
+.user-verify-container {
+  background-color: #212121;
+  color: #fafafa;
+  margin-top: 58px;
+}
+
+.noneDisplay {
+  display: none;
+}

@@ -1,13 +1,17 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { validateUserData } from "../../../utils";
 import { useHistory } from "react-router-dom";
-import * as actions from "../../../redux/actions/index";
-import CloudinaryImageInput2 from "../../Create/CloudinaryImageInput/CloudinaryImageInput2";
-import styles from "./stylesheets/UserVerify.module.css";
+import { validateUserData } from "../../../../utils";
+import useStyles from "../../../../customHooks/useStyles";
+import CloudinaryImageInput2 from "../../../Create/CloudinaryImageInput/CloudinaryImageInput2";
+import * as actions from "../../../../redux/actions/index";
+
+import darkStyles from "./stylesheets/DarkUserMediumInfo.module.css";
+import lightStyles from "./stylesheets/LightUserMediumInfo.module.css";
 
 export default function UserMediumInfo({ userData, setUserData, next, back }) {
+  const styles = useStyles(darkStyles, lightStyles);
   const user = useSelector((state) => state.loggedUser);
   const img =
     "https://upload.wikimedia.org/wikipedia/commons/7/75/No_image_available.png";

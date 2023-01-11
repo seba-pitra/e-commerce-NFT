@@ -1,14 +1,16 @@
-import { useEffect } from "react";
-import { useState } from "react";
-import { validateUserData } from "../../../utils";
+import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useHistory } from "react-router-dom";
-import * as actions from "../../../redux/actions/index";
-import CloudinaryImageInput2 from "../../Create/CloudinaryImageInput/CloudinaryImageInput2";
+import { validateUserData } from "../../../../utils";
+import CloudinaryImageInput2 from "../../../Create/CloudinaryImageInput/CloudinaryImageInput2";
+import * as actions from "../../../../redux/actions/index";
 
-import styles from "./stylesheets/UserVerify.module.css";
+import darkStyles from "./stylesheets/DarkUserAdvancedInfo.module.css";
+import lightStyles from "./stylesheets/LightUserAdvancedInfo.module.css";
+import useStyles from "../../../../customHooks/useStyles";
 
 export default function UserAdvancedInfo({ userData, setUserData, back }) {
+  const styles = useStyles(darkStyles, lightStyles);
   const user = useSelector((state) => state.loggedUser);
   const img =
     "https://upload.wikimedia.org/wikipedia/commons/7/75/No_image_available.png";
@@ -47,8 +49,6 @@ export default function UserAdvancedInfo({ userData, setUserData, back }) {
     );
     render = true;
   }, [userData.dni_image_back, render]);
-
-  //   className={styles[]}
 
   return (
     <>
@@ -121,16 +121,6 @@ export default function UserAdvancedInfo({ userData, setUserData, back }) {
         >
           Ask for verify
         </button>
-        {/* <input
-          type="submit"
-          className="button-next"
-          value={"Ask for verify"}
-          onClick={(e) => handleSubmit(e)}
-          disabled={
-            errors.dni_image_front !== "False" ||
-            errors.dni_image_back !== "False"
-          }
-        /> */}
       </div>
     </>
   );
