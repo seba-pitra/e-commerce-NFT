@@ -4,11 +4,14 @@ import { useEffect, useRef } from "react";
 import { useDispatch } from "react-redux";
 import { updateUser } from "../../../redux/actions";
 import { validate, validateUserData } from "../../../utils";
-// import "./UserProfile/UserProfile.css";
-import styles from "./EditUserInfo.module.css";
+
+// import styles from "./stylesheets/EditUserInfo.module.css";
+import darkStyles from "./stylesheets/DarkEditUserInfo.module.css";
+import lightStyles from "./stylesheets/LightEditUserInfo.module.css";
+import useStyles from "../../../customHooks/useStyles";
 
 export default function EditUserINfo(props) {
-  // props : name,last_name,email,age,type,phone,mobile,id
+  const styles = useStyles(darkStyles, lightStyles);
 
   let [input, setInput] = useState({
     name: props.name,
@@ -42,8 +45,7 @@ export default function EditUserINfo(props) {
       obj.last_name === props.last_name &&
       obj.age === props.age &&
       obj.address === props.address &&
-      obj.username === props.username 
-
+      obj.username === props.username
     ) {
       //si esto se da significa que no hubo ningun cambio .entonces no deberia hacer el dispatch
       console.log("There was no change in your data.");
@@ -51,7 +53,7 @@ export default function EditUserINfo(props) {
     } else {
       console.log("there was a change");
       dispatch(updateUser(obj));
-      props.setEdit(false)
+      props.setEdit(false);
     }
   };
 
@@ -106,7 +108,9 @@ export default function EditUserINfo(props) {
         />
         <p
           className={
-            errors.address === "False" ? styles["success-msg"] : styles["error-msg"]
+            errors.address === "False"
+              ? styles["success-msg"]
+              : styles["error-msg"]
           }
         >
           {errors.address === "False" ? "Age is correct " : errors.address}
@@ -130,14 +134,13 @@ export default function EditUserINfo(props) {
       </div>
 
       <div className={styles["edit-input"]}>
-        <label >Username</label>
+        <label>Username</label>
         <input
           name="username"
           type="text"
           onChange={(e) => handleChange(e)}
           value={input.username}
         />
-        
       </div>
 
       {/* <input

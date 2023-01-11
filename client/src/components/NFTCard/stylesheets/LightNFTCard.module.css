@@ -19,7 +19,7 @@
   border-bottom: none;
   position: relative;
   overflow: hidden;
-  transition: all 0.15s ease-in-out;
+  transition: all 0.2s ease-in-out;
   border: solid 1px #bdbdbd;
   display: flex;
   flex-direction: column;
@@ -132,7 +132,7 @@
 
 .but-now-button {
   border: none;
-  transition: all 0.2s ease-in;
+  transition: all 0.25s ease-in;
   width: 80%;
   border-radius: 8px;
   z-index: 1;
@@ -147,7 +147,6 @@
   bottom: -20px;
   visibility: hidden;
   position: absolute;
-  transition: all 0.2s ease-in;
   background: #d3448b;
   color: #fff;
   margin: 10px 0;
