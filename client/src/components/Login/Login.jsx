@@ -4,14 +4,12 @@ import { useHistory } from "react-router-dom";
 import GoogleIcon from "@mui/icons-material/Google";
 import * as helpers from "./LoginHelpers";
 import * as actions from "../../redux/actions";
-import { loadLocalStorage } from "../../utils";
+import * as utils  from "../../utils";
 import styles from "./stylesheets/Login.module.css";
 
 // sendPasswordResetEmail
 
 const Login = () => {
-
-  const loggedUser = useSelector((state) => state.loggedUser);
   const dispatch = useDispatch();
   const history = useHistory();
   const [logginForm, setLogginForm] = useState({
@@ -26,38 +24,58 @@ const Login = () => {
     });
   };
 
+ /**
+ * Handles the login process using Google Sign-In.
+ */
   const handleLogInGoogle = async () => {
+    // Attempt to sign the user in using Google Sign-In
     const user = await helpers.signGoogle();
+    // If the user was successfully signed in
     if (user) {
+      // Dispatch the signInWithGoogle action
       dispatch(actions.signInWithGoogle(user));
+      // Load the user's cart and favorites from local storage
+      utils.loadCartLocalStorage(dispatch, user.email);
+      utils.loadFavsLocalStorage(dispatch, user.email);
+      history.push("/home")
+      // Theme LocalStorage Loader for logInGoogle only
+      let SavedTheme = JSON.parse(localStorage.getItem(JSON.stringify(user.email+'theme')));  
+      if (SavedTheme) { dispatch(actions.injectLocalStorageTheme(SavedTheme))}; 
+      localStorage.setItem("User",JSON.stringify(user)); 
     }
-    localStorage.setItem("User",JSON.stringify(user)); // INFO DE USER LOGEADO
-    loadLocalStorage(dispatch);  // << No entiendo que despacha ?? "dispatch" que valor tiene ??
-	 
-	  // Theme LocalStorage Loader for logInGoogle only
-	  console.log('EL TEMA DESDE LOGIN ES: !!');  // << para saber si lo esta tomando
-	  let SavedTheme = JSON.parse(localStorage.getItem(JSON.stringify(user.email+'theme')));  
-	  console.log(SavedTheme);
-	  if (SavedTheme) { dispatch(actions.injectLocalStorageTheme(SavedTheme))}; 
   };
-
-  const handdleSubmit = async (e) => {
+  /**
+   * Handles the login process using the login form
+   */
+  const handleSubmit = async (e) => {
+    // Prevent the default form submission behavior
     e.preventDefault();
-    loadLocalStorage(dispatch);
-    const userId = await helpers.logginFunction(logginForm);
-    if (userId) {
+  
+    // Attempt to log the user in using the logginFunction helper
+    const user = await helpers.logginFunction(logginForm);
+  
+    // If the user was successfully logged in
+    if (user && user.uid) {
+      // Reset the form fields
       setLogginForm({
         email: "",
         password: "",
       });
-      dispatch(actions.logInUser(userId));
+      // // Dispatch the logInUser action to get the user data to global state.
+      dispatch(actions.logInUser(user.uid));
+      // Load the user's cart and favorites from local storage
+      history.push("/home")
+      utils.loadCartLocalStorage(dispatch, user.email);
+      utils.loadFavsLocalStorage(dispatch, user.email);
+      let SavedTheme = JSON.parse(localStorage.getItem(JSON.stringify(user.email+'theme')));  
+      if (SavedTheme) { dispatch(actions.injectLocalStorageTheme(SavedTheme))}; 
     }
   };
 
 
 
   return (
-    <form onSubmit={handdleSubmit}>
+    <form onSubmit={handleSubmit}>
       <div className="form-outline mb-4">
         <label className="form-label text-light" htmlFor="email">
           Email address
@@ -90,7 +108,7 @@ const Login = () => {
 
       <div className="text-center text-lg-start mt-4 pt-2">
         <button
-          onClick={handdleSubmit}
+          onClick={handleSubmit}
           type="button"
           className={styles["sing-in"]}
           style={{ paddingLeft: "2.5rem", paddingRight: "2.5rem" }}

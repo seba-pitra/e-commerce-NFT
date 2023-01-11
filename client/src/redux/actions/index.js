@@ -10,6 +10,7 @@ export const SIGN_IN_WITH_GOOGLE = "SIGN_IN_WITH_GOOGLE";
 export const LOG_IN = "LOG_IN";
 export const LOG_OUT = "LOG_OUT";
 export const LOG_IN_SUCCESS = "LOG_IN_SUCCESS";
+export const LOG_OUT_SUCCESS = "LOG_OUT_SUCCESS";
 export const ASKED_FOR_VERIFICATION = "ASKED_FOR_VERIFICATION";
 
 // -- GETTERS --
@@ -57,6 +58,7 @@ export const CHANGE_ORDER_DIRECTION = "CHANGE_ORDER_DIRECTION";
 // -- HELPERS --
 export const LOADING = "LOADING";
 export const GET_ETH_PRICE = "GET_ETH_PRICE";
+export const SHOULD_UPDATE = "SHOULD_UPDATE";
 
 // -- PAGINATION --
 export const SET_ACTIVE_PAGE = "SET_ACTIVE_PAGE";
@@ -75,7 +77,10 @@ export const REMOVE_NFT_OF_SHOOPING_CART = "REMOVE_NFT_OF_SHOOPING_CART";
 export const DELETE_NFT_ON_SIGNOUT = "DELETE_NFT_ON_SIGNOUT";
 export const ADD_BUY_AT_HISTORY_BUYS = "ADD_BUY_AT_HISTORY_BUYS";
 
+// -- FAVS --
 export const ADD_FAV = "ADD_FAV";
+export const REMOVE_FROM_FAVS = "REMOVE_FROM_FAVS";
+export const DELETE_FAVS_ON_SIGN_OUT = "DELETE_FAVS_ON_SIGN_OUT";
 
 // -- THEMES SWITCH
 export const TOGGLE_THEME = "TOGGLE_THEME";
@@ -176,6 +181,7 @@ export const getAllAdminUsers = () => {
   };
 };
 
+// Esta funcion no la esta usando nadie.
 export const getAllUsers = () => {
   return async (dispatch) => {
     try {
@@ -207,6 +213,7 @@ export const updateUser = (body) => {
     try {
       const update = await axios.put(`/user/${body.id}`, body);
       dispatch({ type: GET_USER_BY_ID, payload: update.data });
+      dispatch({ type: SHOULD_UPDATE });
     } catch (error) {
       toast.error("Something was wrong. Try again later", {
         position: "bottom-left",
@@ -254,10 +261,14 @@ export const successfulLogin = () => {
   return { type: LOG_IN_SUCCESS };
 };
 
+export const succesfulLogOut = () => {
+  return { type : LOG_OUT_SUCCESS }
+}
+
 export const askForVerification = (userData) => {
   return async (dispatch) => {
     try {
-      const response = await axios.get(
+      const response = await axios.put(
         `/user/ask/${userData.userId}`,
         userData
       );
@@ -265,6 +276,7 @@ export const askForVerification = (userData) => {
         type: ASKED_FOR_VERIFICATION,
         payload: response.data.message,
       });
+      dispatch({ type: SHOULD_UPDATE });
     } catch (error) {
       toast.error("Something went wrong with verification request", {
         position: "bottom-left",
@@ -273,6 +285,33 @@ export const askForVerification = (userData) => {
   };
 };
 
+export const verifyUser = (userId) => {
+  return async (dispatch) => {
+    try {
+      const response = await axios.put(
+        `/user/verify/${userId}`)
+      dispatch({ type: SHOULD_UPDATE });
+    } catch (error) {
+      toast.error("Something went wrong with verification request", {
+        position: "bottom-left",
+      });
+    }
+  };
+}
+
+export const rejectVerification = (userId) => {
+  return async (dispatch) => {
+    try {
+      const response = await axios.put(
+        `/user/reject/${userId}`)
+      dispatch({ type: SHOULD_UPDATE });
+    } catch (error) {
+      toast.error("Something went wrong with verification request", {
+        position: "bottom-left",
+      });
+    }
+  };
+}
 // --- SETTERS ---
 
 export const setCollections = (payload) => {
@@ -385,6 +424,7 @@ export const createNft = (payload) => {
       toast.success("NFT created successfully", {
         position: "bottom-left",
       });
+      dispatch({ type: SHOULD_UPDATE });
       // window.location.href = "/marketplace";
     } catch (e) {
       toast.error("Something was wrong. Try again later", {
@@ -403,6 +443,7 @@ export const createCollection = (payload) => {
       toast.success("Collection created successfully", {
         position: "bottom-left",
       });
+      dispatch({ type: SHOULD_UPDATE });
       // window.location.href = "/marketplace";
     } catch (e) {
       toast.error("Something was wrong. Try again later", {
@@ -418,6 +459,7 @@ export const deleteNft = (id) => {
       const deletedNft = await axios.delete(`/nft/${id}`);
       dispatch({ type: DELETE_NFT, payload: deletedNft.data }); // msj desde el back
       toast.success("NFT deleted successfully", { position: "bottom-left" });
+      dispatch({ type: SHOULD_UPDATE });
     } catch (e) {
       toast.error("Something was wrong. Try again later", {
         position: "bottom-left",
@@ -434,6 +476,7 @@ export const updateNft = (id, payload) => {
       const updateNft = await axios.put(`/nft/${id}`, payload);
       dispatch({ type: UPDATE_NFT, payload: updateNft.data }); // msj desde el back
       toast.success("NFT updated successfully", { position: "bottom-left" });
+      dispatch({ type: SHOULD_UPDATE });
     } catch (error) {
       toast.error(error.response.data, { position: "bottom-left" });
     }
@@ -451,7 +494,7 @@ export const addViewNft = (id) => {
 };
 
 export const addReview = (payload) => {
-  return async () => {
+  return async (dispatch) => {
     try {
       const { userId, nftId, value } = payload;
       const response = await axios.post(`/review/create`, {
@@ -459,6 +502,9 @@ export const addReview = (payload) => {
         nftId: nftId,
         value: value,
       });
+      console.log(response)
+      dispatch({ type: SHOULD_UPDATE });
+      // Falta el dispatch ya sea para setear el value fijo o para mostrar un mensaje.
     } catch (error) {
       console.error(error.response.data);
       toast.error(error.response.data, { position: "bottom-left" });
@@ -484,8 +530,8 @@ export const nftsxpage = (payload) => {
   return { type: SET_NFTS_PER_PAGE, payload };
 };
 
-export const addNftOnShoppingCart = (nftData) => {
-  return { type: ADD_NFT_ON_SHOOPING_CART, payload: nftData };
+export const addNftOnShoppingCart = (nft) => {
+  return { type: ADD_NFT_ON_SHOOPING_CART, payload : nft };
 };
 
 export const removeNftOfShoppingCart = (nftId) => {
@@ -494,10 +540,6 @@ export const removeNftOfShoppingCart = (nftId) => {
 
 export const injectLocalStorageCart = (payload) => {
   return { type: LOCAL_STORAGE_CART, payload };
-};
-
-export const injectLocalStorageFavs = (payload) => {
-  return { type: LOCAL_STORAGE_FAVS, payload };
 };
 
 export const freeShoppingCartState = () => {
@@ -532,6 +574,17 @@ export const addToFav = (payload) => {
   return { type: ADD_FAV, payload };
 };
 
+export const removeFromFav = (nftId) => {
+  return { type: REMOVE_FROM_FAVS, payload: nftId };
+}
+
+export const freeUserFavsState = () => {
+  return { type: DELETE_FAVS_ON_SIGN_OUT };
+}
+export const injectLocalStorageFavs = (payload) => {
+  return { type: LOCAL_STORAGE_FAVS, payload };
+};
+
 // --- THEME THINGS ---
 
 export const toggleTheme = () => {
@@ -539,6 +592,5 @@ export const toggleTheme = () => {
 };
 
 export const injectLocalStorageTheme = (payload) => {
-  console.log("ACTION !!");
   return { type: LOCAL_STORAGE_THEME, payload };
 };

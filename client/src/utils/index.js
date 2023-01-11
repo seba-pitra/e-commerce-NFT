@@ -1,6 +1,6 @@
 import { ethers } from "ethers";
 import { toast } from "react-toastify";
-import { injectLocalStorageCart } from "../redux/actions";
+import { injectLocalStorageCart, injectLocalStorageFavs } from "../redux/actions";
 
 const NAME = "name";
 const PRICE = "price";
@@ -419,16 +419,43 @@ export function handleErrorLoginAndRegister(error) {
       break;
   }
 }
-
-export function saveLocalStorage(shoppingCartContents) {
-  localStorage.setItem(
-    "nftsOnShoppingCart",
-    JSON.stringify(shoppingCartContents)
-  );
+/**
+ * Save the entire shopping cart on the local storage.
+ * 
+ * @param {array} shoppingCartContents - contentes of the shopping cart to set on the local storage
+ * @param {string} userEmail - email of the current logged user.
+ */
+export function saveCartLocalStorage(shoppingCartContents, userEmail) {
+  localStorage.setItem(userEmail, JSON.stringify(shoppingCartContents));
+}
+/**
+ * Dispatch the action to inject the local storage cart in the global state.
+ *
+ * @param {function} dispatch - The dispatch function to use for dispatching actions.
+ * @param {string} userEmail - The email of the user.
+ */
+export function loadCartLocalStorage(dispatch, userEmail) {
+  const localCart = JSON.parse(localStorage.getItem(userEmail));
+  if (localCart) dispatch(injectLocalStorageCart(localCart));
 }
 
-export function loadLocalStorage(dispatch) {
-  const localCart = JSON.parse(localStorage.getItem("nftsOnShoppingCart"));
+/**
+ * Save the favourites on tge local storage.
+ * 
+ * @param {array} userFavs - array of user favorites
+ * @param {string} userEmail  - email of the current logged user
+ */
+export function saveFavsLocalStorage(userFavs, userEmail) {
+  localStorage.setItem(userEmail+"favs", JSON.stringify(userFavs));
+}
 
-  if (localCart) dispatch(injectLocalStorageCart(localCart));
+/**
+ * used to load the contents of the local storage on the global state.
+ * 
+ * @param {function} dispatch  - The dispatch function to use for dispatching actions.
+ * @param {string} userEmail - email of the current logged user
+ */
+export function loadFavsLocalStorage(dispatch, userEmail) {
+  const localFavs = JSON.parse(localStorage.getItem(userEmail+"favs"));
+  if (localFavs) dispatch(injectLocalStorageFavs(localFavs));
 }

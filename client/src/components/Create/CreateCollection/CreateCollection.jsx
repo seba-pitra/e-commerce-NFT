@@ -6,6 +6,7 @@ import CloudinaryImageInput2 from "../CloudinaryImageInput/CloudinaryImageInput2
 import lightStyles from "./stylesheets/LightCreateCollection.module.css";
 import darkStyles from "./stylesheets/DarkCreateCollection.module.css";
 import useStyles from "../../../customHooks/useStyles";
+import UserCollectionsSelector from "./UserCollectionsSelector/UserCollectionsSelector";
 
 export default function CreateCollection({
   createdCollection,
@@ -16,8 +17,8 @@ export default function CreateCollection({
 }) {
   const styles = useStyles(darkStyles, lightStyles);
   const user = useSelector((state) => state.loggedUser);
+  const shouldRender = useSelector(state => state.shouldRender);
   const dispatch = useDispatch();
-  let render = false;
 
   const selectCollection = (e) => {
     e.preventDefault();
@@ -38,7 +39,6 @@ export default function CreateCollection({
   const submitCreatedCollection = (e) => {
     e.preventDefault();
     dispatch(actions.createCollection(createdCollection));
-    render = true;
   };
 
   return (
@@ -53,22 +53,11 @@ export default function CreateCollection({
         <div className={styles["choose-collections-created"]}>
           <h4>Choose the collection in which your nft will be created</h4>
           <div className={styles["div-created-collections"]}>
-            {user.collections?.map((collection) => (
-              <div className={styles["created-collections"]}>
-                <label htmlFor={collection.id}>
-                  <b>{collection.name}</b>
-                </label>
-                <input
-                  type="checkbox"
-                  value={collection.id}
-                  onClick={(e) => {
-                    selectCollection(e);
-                  }}
-                  className={styles["collection-created-input"]}
-                  // className="option-btn btn-filter" SE VA A ROMPER CUANDO FUNCIONE EL CREATE. ES DE OTRO ARCHIVO
-                />
-              </div>
-            ))}
+            <UserCollectionsSelector
+              user={user}
+              styles={styles}
+              selectCollection={selectCollection}
+              />
           </div>
         </div>
 
@@ -87,7 +76,7 @@ export default function CreateCollection({
             </div>
             <div className={styles["cloudinary-collections-create"]}>
               <h5>Add image</h5>
-              <CloudinaryImageInput2 setImage={setCreatedCollection} />
+              <CloudinaryImageInput2 setImage={setCreatedCollection} image_prop={'image'}/>
             </div>
             <button
               className={
@@ -95,6 +84,7 @@ export default function CreateCollection({
                   ? styles["button-create"]
                   : styles["disabled"]
               }
+              // si esto no se necesita mas borrenlo
               // className={
               //   createdCollection.name?.length > 3
               //     ? "button-create"

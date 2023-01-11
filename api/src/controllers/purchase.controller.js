@@ -4,7 +4,6 @@ const { Transaction, User, Nft ,UserPurchases,UserSales} = require("../db");
 // Crear una nueva compra y agregarla a la base de datos
 const createNewTransaction = async (req, res) => {
   try {
-    // Obtiene los valores del cuerpo de la solicitud
     const { payMethod, price, statusPay, buyerId, sellerId, nftIds } = req.body;
 
     // Si alguno de los valores especificados es `null` o `undefined`, lanza un error
@@ -92,7 +91,6 @@ const createNewTransaction = async (req, res) => {
     // Devuelve una respuesta con el estado 201 y la información de la compra
     res.status(201).json(response);
   } catch (err) {
-    // Si ocurre un error, lo imprime en la consola y devuelve una respuesta con el error
     console.error(err);
     res.status(400).send({ error: err.message });
   }

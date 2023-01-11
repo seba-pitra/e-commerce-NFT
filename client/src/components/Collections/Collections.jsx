@@ -16,7 +16,6 @@ function Collections() {
   const collections = useSelector((state) => state.collections);
   
   const styles = useStyles(darkStyles, lightStyles);
-  console.log(collections);
 
   const collectionsCards = collections.map((collection) => {
     if (collection.nfts.length > 4) {

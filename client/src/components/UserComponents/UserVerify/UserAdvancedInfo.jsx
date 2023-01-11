@@ -9,6 +9,7 @@ import CloudinaryImageInput2 from "../../Create/CloudinaryImageInput/CloudinaryI
 import styles from "./stylesheets/UserVerify.module.css";
 
 export default function UserAdvancedInfo({ userData, setUserData, back }) {
+  const dispatch = useDispatch();
   const user = useSelector((state) => state.loggedUser);
   const img =
     "https://upload.wikimedia.org/wikipedia/commons/7/75/No_image_available.png";
@@ -23,7 +24,7 @@ export default function UserAdvancedInfo({ userData, setUserData, back }) {
     e.preventDefault();
     let userDataObj = { ...userData };
     console.log(userDataObj);
-    // dispatch(actions.createNft(userDataObj));
+    dispatch(actions.askForVerification(userDataObj));
   };
 
   useEffect(() => {

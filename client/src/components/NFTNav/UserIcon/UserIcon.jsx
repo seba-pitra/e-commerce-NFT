@@ -15,6 +15,7 @@ import lightStyles from "./stylesheets/LightUserIcon.module.css";
 import LogoutIcon from "@material-ui/icons/ExitToApp";
 
 const UserIcon = ({ setVisible, visible }) => {
+  const history = useHistory();
   const styles = useStyles(darkStyles, lightStyles);
   const { loggedUser } = useSelector((state) => state);
   const dispatch = useDispatch();
@@ -23,6 +24,7 @@ const UserIcon = ({ setVisible, visible }) => {
     try {
       await signOut(auth);
       dispatch(actions.logOutUser());
+      history.push("/");
     } catch (error) {
       toast.error("Something was wrong. Try again later", {
         position: "bottom-left",
