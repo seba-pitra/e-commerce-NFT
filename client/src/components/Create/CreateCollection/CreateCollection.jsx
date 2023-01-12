@@ -42,11 +42,11 @@ export default function CreateCollection({
 
   const submitCreatedCollection = (e) => {
     e.preventDefault();
-    setCreatedCollection((prev) => ({
-      ...prev,
+    let createdCollectionObj = {
+      ...createdCollection,
       userId: user.id,
-    }));
-    dispatch(actions.createCollection(createdCollection));
+    };
+    dispatch(actions.createCollection(createdCollectionObj));
   };
 
   return (
