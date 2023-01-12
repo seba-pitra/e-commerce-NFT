@@ -1,8 +1,4 @@
-import * as actions from "../../redux/actions";
-import { useHistory } from "react-router-dom";
 import { useSelector } from "react-redux";
-import { useEffect } from "react";
-import { useDispatch } from "react-redux";
 import Loading from "../Loading/Loading";
 import { Link } from "react-router-dom";
 //import "./Mycollections.module.css";
@@ -11,13 +7,14 @@ import VerifiedIcon from "@mui/icons-material/Verified";
 import useStyles from "../../customHooks/useStyles";
 import darkStyles from "./stylesheets/DarkCollections.module.css"
 import lightStyles from "./stylesheets/LightCollections.module.css"
+import { useLoggedUser } from "../../customHooks/useLoggedUser";
 
 
 
 
 
 function Mycollections() {
-  const loggedUser = useSelector((state) => state.loggedUser);
+  const [loggedUser, updateLoggedUser, handleLogOut] = useLoggedUser()
   const isLoading = useSelector((state) => state.isLoading);
   const styles = useStyles(darkStyles, lightStyles);
 

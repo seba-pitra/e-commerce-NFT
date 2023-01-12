@@ -6,7 +6,7 @@ import Login from "../Login/Login";
 import { useState } from "react";
 import Register from "../Registrer/Registrer";
 import Recovery from "../Recovery/Recovery";
-import useAuth from "../../customHooks/useAuth";
+import { useLoggedUser } from "../../customHooks/useLoggedUser";
 
 function LandingPage() {
   //The changes of classname is executing in the "onClick" event of buttons
