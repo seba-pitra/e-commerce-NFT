@@ -199,11 +199,10 @@ he is not intimidated by large and complex projects and welcome them as a new op
               </h1>
               <p className={styles["about-accordion-description"]}>
 
-<p>A skilled software developer with strong leadership skills and a natural ability to work well in a team environment.</p>
+                <p>A skilled software developer with strong leadership skills and a natural ability to work well in a team environment.</p>
 
-I am not only an expert in multiple programming languages, but also a good friend and colleague, a great listener and an excellent communicator.</p>
-<p>I like take the time to understand the needs of others and is able to clearly convey his own thoughts and ideas. 
-
+                  I am not only an expert in multiple programming languages, but also a good friend and colleague, a great listener and an excellent communicator.</p>
+                <p>I like take the time to understand the needs of others and is able to clearly convey his own thoughts and ideas. 
 
 
               </p>
@@ -353,7 +352,7 @@ I am a dynamic and intelligent programmer, dedicated and committed to my work.</
 	  <p>I love learning and am constantly seeking new opportunities to grow professionally. My balanced approach and commitment to excellence are some of the characteristics that define me as a programmer. My motto is "Callme Bugs Slayer"
 
 
-              Con una gran pasión por aprender, me considero un joven programador con una gran habilidad para colaborar en proyectos. He trabajado con lenguajes de programación como JavaScript, React, HTML, CSS, y actualmente estoy estudiando Java. Me esfuerzo por utilizar la tecnología de manera inteligente para solucionar problemas de manera eficiente y efectiva. Siempre estoy dispuesto a adquirir nuevas habilidades y trabajo duro para ayudar a mi equipo y resolver problemas.
+              {/* Con una gran pasión por aprender, me considero un joven programador con una gran habilidad para colaborar en proyectos. He trabajado con lenguajes de programación como JavaScript, React, HTML, CSS, y actualmente estoy estudiando Java. Me esfuerzo por utilizar la tecnología de manera inteligente para solucionar problemas de manera eficiente y efectiva. Siempre estoy dispuesto a adquirir nuevas habilidades y trabajo duro para ayudar a mi equipo y resolver problemas. */}
               </p>
               <div>
                 <h2>Find me: </h2>
