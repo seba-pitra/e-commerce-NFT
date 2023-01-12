@@ -111,6 +111,10 @@ export default function UserProfile(props) {
     setEdit(!edit);
   };
 
+  useEffect(()=>{
+    dispatch(actions.getUserByID(id))
+  }, [dispatch, id])
+
   const handleTypeChange = (e) => {
     setType(e.target.value);
   };
@@ -118,9 +122,10 @@ export default function UserProfile(props) {
     const handleUpdate = (e) => {
       e.preventDefault();
       let body = {
+        id:id,
         type: type,
       };
-      dispatch(actions.updateUser(id, body)).then((data) => {
+      dispatch(actions.updateUser(body)).then((data) => {
         setUpdate(!update);
         setEdit(!edit);
       });

@@ -13,7 +13,7 @@ import lightStyles from "./stylesheets/LightCollections.module.css"
 
 function Collections() {
   const isLoading = useSelector(state => state.isLoading)
-  const collections = useSelector((state) => state.collections);
+  const collections = useSelector((state) => state.filteredCollections);
   
   const styles = useStyles(darkStyles, lightStyles);
 
