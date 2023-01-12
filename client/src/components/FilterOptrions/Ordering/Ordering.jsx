@@ -5,21 +5,17 @@ import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import SortIcon from "@mui/icons-material/Sort";
 import Offcanvas from "react-bootstrap/Offcanvas";
+import * as helpers from "./OrderingHelpers"
 
 import styles from "./stylesheets/Ordering.module.css";
+import { formHelperTextClasses } from "@mui/material";
 
 export default function Ordering() {
   //estos estados son para cambiar el estilo.
-  const [nameOrderUp, setNameOrderUp] = useState(true);
-  const [priceOrderUp, setPriceOrderUp] = useState(true);
-  const [rarityOrderUp, setRarityOrderUp] = useState(true);
-  const [favsOrderUp, setFavsOrderUp] = useState(true);
-  const [starsOrderUp, setStarsOrderUp] = useState(true);
-  const [lastBuyOrderUp, setLastBuyOrderUp] = useState(true);
-  const [createdTsOrderUp, setCreatedTsOrderUp] = useState(true);
+  const [option, setOption]= useState("");
   const [showOrders, setShowOrders] = useState(false);
-
   const  isDark  = useSelector((state) => state.activeThemeIsDark);
+  const orderDirection = useSelector((state) => state.orderDirection);
 
   const handleClose = () => setShowOrders(false);
   const handleShow = () => {
@@ -31,46 +27,9 @@ export default function Ordering() {
 
   const dispatch = useDispatch();
 
-  const orderByName = () => {
-    setNameOrderUp(!nameOrderUp);
+  const changeOrderDirection = (option) => {
     dispatch(actions.changeOrderDirection());
-    dispatch(actions.orderName());
-  };
-
-  const orderByPrice = () => {
-    setPriceOrderUp(!priceOrderUp);
-    dispatch(actions.changeOrderDirection());
-    dispatch(actions.orderPrice());
-  };
-
-  const orderByRarity = () => {
-    setRarityOrderUp(!rarityOrderUp);
-    dispatch(actions.changeOrderDirection());
-    dispatch(actions.orderRarity());
-  };
-
-  const orderByFavs = () => {
-    setFavsOrderUp(!favsOrderUp);
-    dispatch(actions.changeOrderDirection());
-    dispatch(actions.orderFavs());
-  };
-
-  const orderByStars = () => {
-    setStarsOrderUp(!starsOrderUp);
-    dispatch(actions.changeOrderDirection());
-    dispatch(actions.orderStars());
-  };
-
-  const orderByLastBuy = () => {
-    setLastBuyOrderUp(!lastBuyOrderUp);
-    dispatch(actions.changeOrderDirection());
-    dispatch(actions.orderLastBuy());
-  };
-
-  const orderByCreatedTs = () => {
-    setCreatedTsOrderUp(!createdTsOrderUp);
-    dispatch(actions.changeOrderDirection());
-    dispatch(actions.orderCreatedTs());
+    helpers.orderOptionDispatcher(dispatch, option);
   };
 
   return (
@@ -94,103 +53,9 @@ export default function Ordering() {
               className={
                 nameOrderUp ? styles["btn-order-down"] : styles["btn-order-up"]
               }
-              onClick={() => orderByName()}
+              onClick={() => changeOrderDirection()}
             >
-              Name
-              {nameOrderUp ? (
-                <KeyboardArrowUpIcon></KeyboardArrowUpIcon>
-              ) : (
-                <KeyboardArrowDownIcon></KeyboardArrowDownIcon>
-              )}
-            </button>
-            <button
-              id="price-option"
-              className={
-                priceOrderUp ? styles["btn-order-down"] : styles["btn-order-up"]
-              }
-              onClick={() => orderByPrice()}
-            >
-              Price
-              {priceOrderUp ? (
-                <KeyboardArrowUpIcon></KeyboardArrowUpIcon>
-              ) : (
-                <KeyboardArrowDownIcon></KeyboardArrowDownIcon>
-              )}
-            </button>
-            <button
-              id="rarity-option"
-              className={
-                rarityOrderUp
-                  ? styles["btn-order-down"]
-                  : styles["btn-order-up"]
-              }
-              onClick={() => orderByRarity()}
-            >
-              Rarity
-              {rarityOrderUp ? (
-                <KeyboardArrowUpIcon></KeyboardArrowUpIcon>
-              ) : (
-                <KeyboardArrowDownIcon></KeyboardArrowDownIcon>
-              )}
-            </button>
-            <button
-              id="favs-option"
-              className={
-                favsOrderUp ? styles["btn-order-down"] : styles["btn-order-up"]
-              }
-              onClick={() => orderByFavs()}
-            >
-              Favs
-              {favsOrderUp ? (
-                <KeyboardArrowUpIcon></KeyboardArrowUpIcon>
-              ) : (
-                <KeyboardArrowDownIcon></KeyboardArrowDownIcon>
-              )}
-            </button>
-
-            <button
-              id="stars-option"
-              className={
-                starsOrderUp ? styles["btn-order-down"] : styles["btn-order-up"]
-              }
-              onClick={() => orderByStars()}
-            >
-              Stars
-              {starsOrderUp ? (
-                <KeyboardArrowUpIcon></KeyboardArrowUpIcon>
-              ) : (
-                <KeyboardArrowDownIcon></KeyboardArrowDownIcon>
-              )}
-            </button>
-
-            <button
-              id="lastbuy-option"
-              className={
-                lastBuyOrderUp
-                  ? styles["btn-order-down"]
-                  : styles["btn-order-up"]
-              }
-              onClick={() => orderByLastBuy()}
-            >
-              LastBuy
-              {lastBuyOrderUp ? (
-                <KeyboardArrowUpIcon></KeyboardArrowUpIcon>
-              ) : (
-                <KeyboardArrowDownIcon></KeyboardArrowDownIcon>
-              )}
-            </button>
-
-            <button
-              id="createdts-option"
-              className={
-                createdTsOrderUp
-                  ? styles["btn-order-down"]
-                  : styles["btn-order-up"]
-              }
-              onClick={() => orderByCreatedTs()}
-            >
-              Created At
-              {createdTsOrderUp ? (
+              {orderDirection ? (
                 <KeyboardArrowUpIcon></KeyboardArrowUpIcon>
               ) : (
                 <KeyboardArrowDownIcon></KeyboardArrowDownIcon>
@@ -199,103 +64,16 @@ export default function Ordering() {
           </div>
         </Offcanvas.Body>
       </Offcanvas>
-
-      {/* 
-      <div className="button-list">
-        <button
-          id="name-option"
-          className={nameOrderUp ? "btn-order-down" : "btn-order-up"}
-          onClick={() => orderByName()}
-        >
-          Name
-          {nameOrderUp ? (
-            <KeyboardArrowUpIcon></KeyboardArrowUpIcon>
-          ) : (
-            <KeyboardArrowDownIcon></KeyboardArrowDownIcon>
-          )}
-        </button>
-        <button
-          id="price-option"
-          className={priceOrderUp ? "btn-order-down" : "btn-order-up"}
-          onClick={() => orderByPrice()}
-        >
-          Price
-          {priceOrderUp ? (
-            <KeyboardArrowUpIcon></KeyboardArrowUpIcon>
-          ) : (
-            <KeyboardArrowDownIcon></KeyboardArrowDownIcon>
-          )}
-        </button>
-        <button
-          id="rarity-option"
-          className={rarityOrderUp ? "btn-order-down" : "btn-order-up"}
-          onClick={() => orderByRarity()}
-        >
-          Rarity
-          {rarityOrderUp ? (
-            <KeyboardArrowUpIcon></KeyboardArrowUpIcon>
-          ) : (
-            <KeyboardArrowDownIcon></KeyboardArrowDownIcon>
-          )}
-        </button>
-        <button
-          id="favs-option"
-          className={favsOrderUp ? "btn-order-down" : "btn-order-up"}
-          onClick={() => orderByFavs()}
-        >
-          Favs
-          {favsOrderUp ? (
-            <KeyboardArrowUpIcon></KeyboardArrowUpIcon>
-          ) : (
-            <KeyboardArrowDownIcon></KeyboardArrowDownIcon>
-          )}
-        </button>
-
-        <button
-          id="stars-option"
-          className={starsOrderUp ? "btn-order-down" : "btn-order-up"}
-          onClick={() => orderByStars()}
-        >
-          Stars
-          {starsOrderUp ? (
-            <KeyboardArrowUpIcon></KeyboardArrowUpIcon>
-          ) : (
-            <KeyboardArrowDownIcon></KeyboardArrowDownIcon>
-          )}
-        </button>
-
-        <button
-          id="lastbuy-option"
-          className={lastBuyOrderUp ? "btn-order-down" : "btn-order-up"}
-          onClick={() => orderByLastBuy()}
-        >
-          LastBuy
-          {lastBuyOrderUp ? (
-            <KeyboardArrowUpIcon></KeyboardArrowUpIcon>
-          ) : (
-            <KeyboardArrowDownIcon></KeyboardArrowDownIcon>
-          )}
-        </button>
-
-        <button
-          id="createdts-option"
-          className={createdTsOrderUp ? "btn-order-down" : "btn-order-up"}
-          onClick={() => orderByCreatedTs()}
-        >
-          Created At
-          {createdTsOrderUp ? (
-            <KeyboardArrowUpIcon></KeyboardArrowUpIcon>
-          ) : (
-            <KeyboardArrowDownIcon></KeyboardArrowDownIcon>
-          )}
-        </button>
-      </div> */}
-
-      {/*boton para cambiar de orden descendente a ascendente y visceversa*/}
-      {/* <button 
-                    className='option-btn button-order'
-                    dangerouslySetInnerHTML={{ __html: currentArrowState ? '&#8648;' : '&#8650;'}} 
-                    onClick={(e)=> reverseAndOrder(e)}></button> */}
+        <select name="" id="">
+          <option value=""></option>
+          <option value=""></option>
+          <option value=""></option>
+          <option value=""></option>
+          <option value=""></option>
+          <option value=""></option>
+          <option value=""></option>
+          <option value=""></option>
+        </select>
     </div>
   );
 }
