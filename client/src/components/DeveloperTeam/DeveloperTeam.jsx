@@ -97,12 +97,19 @@ a positive attitude and an unwavering commitment to delivering high-quality resu
             <div className={styles["about-accordion-text"]}>
               <h1 className={styles["about-accordion-title"]}>Miguel Villa</h1>
               <p className={styles["about-accordion-description"]}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-                eget. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Dolore voluptatem reprehenderit velit ab in itaque minima facere
-                quo, aspernatur amet perferendis sint excepturi incidunt!
-                Deserunt distinctio impedit numquam repudiandae illum!
+                
+	  <p>
+	  A dedicated and dynamic software developer with a strong work ethic and a passion for technology.
+	  </p>
+	  <p>
+	  A responsible and reliable team member, who is always willing to go the extra mile to ensure the success of the project.
+	  </p>
+<p>Professional and friendly, this developer is a true pleasure to work with and has a great ability to build strong relationships with colleagues and clients alike,
+known for his "work hard, play hard" mentality, he balances his dedication to his career with a desire to enjoy life to the fullest.</p>
+
+
+
+
               </p>
               <div>
                 <h2>Find me: </h2>
@@ -143,13 +150,15 @@ a positive attitude and an unwavering commitment to delivering high-quality resu
                 Sebastian Pitra
               </h1>
               <p className={styles["about-accordion-description"]}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-                eget. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Dolore voluptatem reprehenderit velit ab in itaque minima facere
-                quo, aspernatur amet perferendis sint excepturi incidunt!
-                Deserunt distinctio impedit numquam repudiandae illum!
-              </p>
+
+<p>A young and bold software developer with a fearless attitude towards code.</p>
+
+<p>Passionate about programming, driven by the thrill of tackling complex and challenging problems.</p>
+
+ <p>A self-starter with a strong work ethic and a thirst for knowledge, always eager to learn and try new technologies,
+he is not intimidated by large and complex projects and welcome them as a new opportunity to prove his skills and his passion for coding.</p>
+
+	               </p>
               <div>
                 <h2>Find me: </h2>
                 <div>
@@ -189,12 +198,13 @@ a positive attitude and an unwavering commitment to delivering high-quality resu
                 Francisco Schlatter
               </h1>
               <p className={styles["about-accordion-description"]}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-                eget. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Dolore voluptatem reprehenderit velit ab in itaque minima facere
-                quo, aspernatur amet perferendis sint excepturi incidunt!
-                Deserunt distinctio impedit numquam repudiandae illum!
+
+                <p>A skilled software developer with strong leadership skills and a natural ability to work well in a team environment.</p>
+
+                  I am not only an expert in multiple programming languages, but also a good friend and colleague, a great listener and an excellent communicator.</p>
+                <p>I like take the time to understand the needs of others and is able to clearly convey his own thoughts and ideas. 
+
+
               </p>
               <div>
                 <h2>Find me: </h2>
@@ -233,13 +243,20 @@ a positive attitude and an unwavering commitment to delivering high-quality resu
             <div className={styles["about-accordion-text"]}>
               <h1 className={styles["about-accordion-title"]}>Bruno Osuna</h1>
               <p className={styles["about-accordion-description"]}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-                eget. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Dolore voluptatem reprehenderit velit ab in itaque minima facere
-                quo, aspernatur amet perferendis sint excepturi incidunt!
-                Deserunt distinctio impedit numquam repudiandae illum!
-              </p>
+
+<p>I am able to guide, motivate and lead the team to success with my strong analytical and problem-solving skills,
+	  attention to detail and proactive attitude.</p>
+
+<p>I am  committed to ongoing learning and personal development, and always strives to be at the forefront of new technologies and industry best practices.
+As young developer im not afraid to go the extra mile to deliver high-quality results and exceed expectations.
+
+	  "Brinng the Solutions!!" is my motto. 
+</p>
+
+
+
+
+	  </p>
               <div>
                 <h2>Find me: </h2>
                 <div>
@@ -277,12 +294,16 @@ a positive attitude and an unwavering commitment to delivering high-quality resu
             <div className={styles["about-accordion-text"]}>
               <h1 className={styles["about-accordion-title"]}>James Santos</h1>
               <p className={styles["about-accordion-description"]}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-                eget. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Dolore voluptatem reprehenderit velit ab in itaque minima facere
-                quo, aspernatur amet perferendis sint excepturi incidunt!
-                Deserunt distinctio impedit numquam repudiandae illum!
+          
+I am a dynamic programmer, with a strong and fun mentality.</p>
+	  <p>I am always looking for new challenges and opportunities to learn and grow professionally.</p>
+
+<p>I love working in a team and collaborating with my colleagues to achieve common goals; I am characterized by being elegant in my programming style, always seeking the best solution for each problem.</p> <p> I have fun working with new technologies and adapt quickly to changes.
+
+	  As always  --- "Let the Music begins !! " 
+
+
+
               </p>
               <div>
                 <h2>Find me: </h2>
@@ -323,7 +344,15 @@ a positive attitude and an unwavering commitment to delivering high-quality resu
                 Daniel Molinaro
               </h1>
               <p className={styles["about-accordion-description"]}>
-              Con una gran pasión por aprender, me considero un joven programador con una gran habilidad para colaborar en proyectos. He trabajado con lenguajes de programación como JavaScript, React, HTML, CSS, y actualmente estoy estudiando Java. Me esfuerzo por utilizar la tecnología de manera inteligente para solucionar problemas de manera eficiente y efectiva. Siempre estoy dispuesto a adquirir nuevas habilidades y trabajo duro para ayudar a mi equipo y resolver problemas.
+               
+I am a dynamic and intelligent programmer, dedicated and committed to my work.</p>
+
+	  <p>I am characterized by being contemplative and reflective in my approach, always looking for the best solution for each problem.</p>
+	  <p>However, I also enjoy having fun and having a positive attitude in my work. I consider myself an introspective person, constantly evaluating and improving my own skills and processes.</p> 
+	  <p>I love learning and am constantly seeking new opportunities to grow professionally. My balanced approach and commitment to excellence are some of the characteristics that define me as a programmer. My motto is "Callme Bugs Slayer"
+
+
+              {/* Con una gran pasión por aprender, me considero un joven programador con una gran habilidad para colaborar en proyectos. He trabajado con lenguajes de programación como JavaScript, React, HTML, CSS, y actualmente estoy estudiando Java. Me esfuerzo por utilizar la tecnología de manera inteligente para solucionar problemas de manera eficiente y efectiva. Siempre estoy dispuesto a adquirir nuevas habilidades y trabajo duro para ayudar a mi equipo y resolver problemas. */}
               </p>
               <div>
                 <h2>Find me: </h2>

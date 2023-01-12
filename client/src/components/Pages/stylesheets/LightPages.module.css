@@ -1,7 +1,8 @@
 .pages-all-container {
   background-color: #fafafa;
+  width: 97vw;
+  margin: 58px 1.2vw 30px 1.2vw;
   overflow: hidden;
-  margin-top: 58px;
 }
 
 .orders-container-phone {
@@ -36,7 +37,7 @@
 
 @media (max-width: 975px) {
   .left-hand-conteiner {
-    width: 50%;
+    width: 8%;
   }
 }
 
@@ -89,6 +90,7 @@
   .orders-container {
     padding: 20px;
     margin: 20px;
+    justify-content: space-between;
   }
 }
 
@@ -105,6 +107,7 @@
 @media (max-width: 975px) {
   .orders-container select {
     padding: 8px;
+    margin-right: 8px;
   }
 }
 

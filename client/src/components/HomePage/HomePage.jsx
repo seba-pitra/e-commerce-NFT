@@ -8,12 +8,20 @@ import { useEffect } from "react";
 import * as actions from "../../redux/actions";
 import UncontrolledExample from "./Carousel/Carousel.jsx";
 
-import styles from "./stylesheets/HomePage.module.css";
-
+//dark-light theme
+import useStyles from "../../customHooks/useStyles";
+import darkStyles from "./stylesheets/DarkHomePage.module.css"
+import lightStyles from "./stylesheets/LightHomePage.module.css"
+  
 function HomePage() {
   const nfts = useSelector((state) => state.nfts);
   const collections = useSelector((state) => state.collections);
+  const loggedUser = useSelector((state) => state.loggedUser);
   const dispatch = useDispatch();
+    
+  const styles = useStyles(darkStyles, lightStyles);
+
+  console.log(loggedUser.type)
 
   useEffect(() => {
     dispatch(actions.getAllNfts());
@@ -50,9 +58,11 @@ function HomePage() {
 
   return (
     <div className={styles["main-container-homepage"]}>
+      
+      {loggedUser.type === "basic" ?
       <span className={styles["verification-msj"]}>
-        If you want to sell nfts you must verify your account
-      </span>
+         "Please verify your account" 
+      </span> : ""}
 
       <div className={styles["main-carousel-images"]}>
         <UncontrolledExample />
@@ -65,7 +75,7 @@ function HomePage() {
       </div>
 
       <div className={styles["container-nfts"]}>
-        <CollectionTable cards={collectionsSlice} />
+        <CollectionTable cards={collectionsSlice}/>
       </div>
 
       <div className={styles["container-nfts"]}>

@@ -4,11 +4,11 @@ import { useEffect, useRef } from "react";
 import { useDispatch } from "react-redux";
 import { updateUser } from "../../../redux/actions";
 import { validate, validateUserData } from "../../../utils";
-
 // import styles from "./stylesheets/EditUserInfo.module.css";
 import darkStyles from "./stylesheets/DarkEditUserInfo.module.css";
 import lightStyles from "./stylesheets/LightEditUserInfo.module.css";
 import useStyles from "../../../customHooks/useStyles";
+
 
 export default function EditUserINfo(props) {
   const styles = useStyles(darkStyles, lightStyles);
@@ -20,6 +20,8 @@ export default function EditUserINfo(props) {
     id: props.id,
     address: props.address,
     username: props.username,
+    // profile_pic : props.profile_pic
+    
   });
   let [errors, setErrors] = useState({});
   const dispatch = useDispatch();
@@ -34,7 +36,7 @@ export default function EditUserINfo(props) {
     console.log(errors);
   };
   console.log(props);
-
+  console.log(input);
   let handleSubmit = (e) => {
     //al apretar enviar tendria q hacer el dispatch con los cambios,y volver a cargar el componente,pero el lo
     e.preventDefault();
@@ -45,10 +47,13 @@ export default function EditUserINfo(props) {
       obj.last_name === props.last_name &&
       obj.age === props.age &&
       obj.address === props.address &&
-      obj.username === props.username
+      obj.username === props.username 
+      // && obj.profile_pic === props.profile_pic
     ) {
       //si esto se da significa que no hubo ningun cambio .entonces no deberia hacer el dispatch
       console.log("There was no change in your data.");
+      console.log(obj);
+
       return;
     } else {
       console.log("there was a change");
@@ -109,7 +114,9 @@ export default function EditUserINfo(props) {
         <p
           className={
             errors.address === "False"
+             
               ? styles["success-msg"]
+             
               : styles["error-msg"]
           }
         >
@@ -135,6 +142,7 @@ export default function EditUserINfo(props) {
 
       <div className={styles["edit-input"]}>
         <label>Username</label>
+        
         <input
           name="username"
           type="text"
@@ -162,6 +170,7 @@ export default function EditUserINfo(props) {
             : false
         }
       /> */}
+      {/* <CloudinaryImageInput2 setImage={setInput} image_prop= {'profile_pic'}/> */}
       <button
         type="submit"
         id="submit"
@@ -176,13 +185,12 @@ export default function EditUserINfo(props) {
         disabled={
           errors.name !== "False" ||
           errors.age !== "False" ||
-          errors.last_name !== "False"
-            ? true
-            : false
+          errors.last_name !== "False" ? true : false
         }
       >
         Edit
       </button>
+      
     </form>
   );
 }

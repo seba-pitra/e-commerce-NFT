@@ -46,6 +46,7 @@ import {
   DELETE_NFT_ON_SIGNOUT,
   ADD_BUY_AT_HISTORY_BUYS,
   ADD_FAV,
+  DEL_FAV,
   SIGN_IN_WITH_GOOGLE,
   LOG_IN,
   LOG_OUT,
@@ -69,6 +70,7 @@ const initialState = {
   nfts: [], //ok
   filteredNfts: [], // ok
   collections: [], // ok
+  filteredCollections: [], // ok
   collectionDetail: [],
 
   adminNfts: [], //incluye deleted
@@ -147,7 +149,7 @@ const rootReducer = (state = initialState, action) => {
     case GET_ALL_ADMIN_NFTS:
       return { ...state, adminNfts: action.payload };
     case GET_ALL_COLLECTIONS:
-      return { ...state, collections: action.payload, isLoading: false };
+      return { ...state, collections: action.payload, filteredCollections: action.payload ,isLoading: false };
 
     // Este case no lo esta usando nadie.
     case GET_ALL_USERS:
@@ -159,7 +161,6 @@ const rootReducer = (state = initialState, action) => {
         loggedUser: action.payload,
       };
     case UPDATE_LOGGED_USER:
-      console.log(action.payload);
     // Actualiza el estado con los nuevos datos del usuario
       return { ...state, loggedUser: action.payload };
     case LOG_IN:
@@ -373,7 +374,7 @@ const rootReducer = (state = initialState, action) => {
       filterByCollections = state.collections.filter((e) =>
         e.name.toUpperCase().includes(action.payload.toUpperCase())
       );
-      return { ...state, collections: filterByCollections };
+      return { ...state, filteredCollections: filterByCollections };
 
     // --- ORDERS ---
     case CHANGE_ORDER_DIRECTION:
@@ -584,6 +585,14 @@ const rootReducer = (state = initialState, action) => {
         ...state,
         userFavs: newFavsRemoved,
       };
+
+     case DEL_FAV:
+ 	const NftsToRemove = state.userFavs.filter((nft) => nft.id !== action.payload);	
+ 	return {
+		...state,
+		userFavs: NftsToRemove,
+	};
+    // ------------
 
     case ADD_BUY_AT_HISTORY_BUYS:
       return {

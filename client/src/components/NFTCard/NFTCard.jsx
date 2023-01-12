@@ -23,6 +23,8 @@ import { useLoggedUser } from "../../customHooks/useLoggedUser";
 export default function NFTCard(props) {
   const [loggedUser, updateLoggedUser, handleLogOut] = useLoggedUser()
   const viewCards = useSelector((state) => state.viewCards);
+  const userFavs = useSelector((state) => state.userFavs);
+  const shopingCartContents = useSelector((state) => state.shoppingCartContents);
   const ethPrice = useSelector((state) => state.ethPrice);
   const styles = useStyles(darkStyles, lightStyles);
 
@@ -32,7 +34,7 @@ export default function NFTCard(props) {
     dispatch(actions.addNftOnShoppingCart(props));
   };
 
-  const handleClickOnFavorites = () => {
+  const handleClickOnFavorites = (e) => {
     dispatch(actions.addToFav(props));
   };
 
@@ -100,13 +102,14 @@ export default function NFTCard(props) {
           </Link>
           <div className={styles["CardButtons"]}>
             <div
-              className={styles["nftCard-icon-container"]}
+              className={userFavs.map(nft=>nft.id).includes(props.id)?styles["isFav"]:styles["nftCard-icon-container"]}
               onClick={handleClickOnFavorites}
             >
               <FavoriteIcon />
             </div>
             <div
-              className={styles["nftCard-icon-container"]}
+            //  shopingCartContents
+              className={shopingCartContents.map(nft=>nft.id).includes(props.id)?styles["isFav"]:styles["nftCard-icon-container"]}
               onClick={handleClickOnShoppingCart}
             >
               <ShoppingCartIcon />
@@ -126,7 +129,7 @@ export default function NFTCard(props) {
           <Link className={styles.link} to={`/details/${props.id}`}>
             <div className={styles["card-stars"]}>
               <StarIcon className={styles["stars-icon"]} />
-              <span>{starsValue || 0}</span>
+              <span>{props.stars || 0}</span>
             </div>
             <div className={styles["nftCard-img-container"]}>
               <img
@@ -147,21 +150,21 @@ export default function NFTCard(props) {
                 </div>
               </div>
               <div className={styles["eth-rarity"]}>
-                <h3>ETH {props.price}</h3>
-                <h3>${(props.lastBuy * ethPrice.USD).toFixed(2)} USD</h3>
+                <span><span className={styles["price-negrita"]}>{props.price}</span> ETH</span>
+                <span> <span className={styles["price-negrita"]}>${(props.lastBuy * ethPrice.USD).toFixed(2)}</span> USD</span>
               </div>
             </div>
           </Link>
 
           <div className={styles["CardButtons"]}>
             <div
-              className={styles["nftCard-icon-container"]}
+              className={userFavs.map(nft=>nft.id).includes(props.id)?styles["isFav"]:styles["nftCard-icon-container"]}
               onClick={handleClickOnFavorites}
             >
               <FavoriteIcon />
             </div>
             <div
-              className={styles["nftCard-icon-container"]}
+              className={shopingCartContents.map(nft=>nft.id).includes(props.id)?styles["isFav"]:styles["nftCard-icon-container"]}
               onClick={handleClickOnShoppingCart}
             >
               <ShoppingCartIcon />
@@ -175,70 +178,4 @@ export default function NFTCard(props) {
       </div>
     );
   }
-}
-
-{
-  /* <div className={styles["cardContainer"]}>
-        <div className={styles["nftCard-image-info"]}>
-          <Link className={styles.link} to={`/details/${props.id}`}>
-            <h3 className={styles["raritymove"]}>{props.rarity}</h3>
-            <div className={styles["card-stars"]}>
-              <StarIcon className={styles["stars-icon"]} />
-              <span>{starsValue || 0}</span>
-            </div>
-            <div className={styles["nftCard-img-container"]}>
-              <img
-                className={styles["nftImage"]}
-                src={`${
-                  props.image === "No image"
-                    ? "https://preview.redd.it/j82jl2vpg4n71.jpg?auto=webp&s=e8431005571759e9fd9b5cd2e82dd27696d0b6c4"
-                    : props.image
-                }`}
-                alt="nft-preview"
-              />
-            </div>
-            <div className={styles["bottom-img-info"]}>
-              <div className={styles["nftCard-nameToken"]}>
-                <h3>{props.name}</h3>
-                <div className={styles["flex-row"]}>
-                  <img
-                    src={ethereumLogo}
-                    alt="ethereum-logo"
-                    className={styles["eth-logo"]}
-                  />
-                  <h3>{props.price.toFixed(3)}</h3>
-                </div>
-              </div>
-              <div className={styles["eth-rarity"]}>
-                <div className={styles["flex-row"]}>
-                  <StarIcon />
-                  <h3>{starsValue || 0}</h3>
-                </div>
-              </div>
-              <h4>
-                Last Buy: ETH {props.lastBuy} - $
-                {(props.lastBuy * ethPrice.USD).toFixed(2)} USD
-              </h4>
-            </div>
-          </Link>
-          <div className={styles["CardButtons"]}>
-            <div
-              className={styles["nftCard-icon-container"]}
-              onClick={handleClickOnFavorites}
-            >
-              <FavoriteIcon />
-            </div>
-            <div
-              className={styles["nftCard-icon-container"]}
-              onClick={handleClickOnShoppingCart}
-            >
-              <ShoppingCartIcon />
-            </div>
-          </div>
-        </div>
-        <div className={styles["CardButtons"]}>
-          <img src="" alt="add-to-favs" />
-          <img src="" alt="shopping-cart" />
-        </div>
-      </div> */
 }

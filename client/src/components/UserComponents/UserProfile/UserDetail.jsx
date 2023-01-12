@@ -8,7 +8,12 @@ import PurchaseHistory from "../../PurchaseHistory/PurchaseHistory";
 import { Link } from "react-router-dom";
 // import "./UserProfile.css";
 
+import darkStyles from "./stylesheets/DarkUserProfile.module.css";
+import lightStyles from "./stylesheets/LightUserProfile.module.css";
+import useStyles from "../../../customHooks/useStyles";
+
 export default function UserProfile(props) {
+  const styles = useStyles(darkStyles, lightStyles);
   const { id } = useParams();
 
   let navHistory = useHistory();
@@ -111,52 +116,64 @@ export default function UserProfile(props) {
     setEdit(!edit);
   };
 
+  useEffect(() => {
+    dispatch(actions.getUserByID(id));
+  }, [dispatch, id]);
+
   const handleTypeChange = (e) => {
     setType(e.target.value);
   };
 
-    const handleUpdate = (e) => {
-      e.preventDefault();
-      let body = {
-        type: type,
-      };
-      dispatch(actions.updateUser(id, body)).then((data) => {
-        setUpdate(!update);
-        setEdit(!edit);
-      });
+  const handleUpdate = (e) => {
+    e.preventDefault();
+    let body = {
+      id: id,
+      type: type,
     };
+    dispatch(actions.updateUser(body)).then((data) => {
+      setUpdate(!update);
+      setEdit(!edit);
+    });
+  };
 
   return (
-    <div className="main-container">
-      <button onClick={() => navHistory.goBack()} className="back-button">
+    <div className={styles["user-profile-container"]}>
+      <button
+        onClick={() => navHistory.goBack()}
+        className={styles["back-button"]}
+      >
         Back
       </button>
-      <div className="profile-container">
-        <div className="avatar-nickname-container">
-          <img src={userDetails.profile_pic} alt="avatar" />
+      <div className={styles["profile-container"]}>
+        <div className={styles["avatar-nickname-container"]}>
+          <img
+            src={userDetails.profile_pic}
+            alt="avatar"
+            className={styles["profile-pic"]}
+          />
           {/* falta nombre de usuario  */}
           <p className="text-muted mb-1">NOMBRE DE USARIO</p>
         </div>
 
-        <div className="user-info">
-          <div className="info">
+        <div className={styles["user-info"]}>
+          <div className={styles["info"]}>
             <h6>Full Name</h6>
             <h6 className="text-muted">
               {userDetails.name} {userDetails.last_name}
             </h6>
           </div>
-          <div className="info">
+          <div className={styles["info"]}>
             <h6>Email</h6>
             <h6 className="text-muted">{userDetails.email}</h6>
           </div>
-          <div className="info">
+          <div className={styles["info"]}>
             <h6>Age</h6>
             <h6 className="text-muted">
               {userDetails.age ? userDetails.age : "No age founded"}
             </h6>
           </div>
 
-          <div className="info">
+          <div className={styles["info"]}>
             <h6>Type</h6>
             {edit ? (
               <div>
@@ -179,13 +196,13 @@ export default function UserProfile(props) {
               </div>
             )}
 
-            <div className="info">
+            <div className={styles["info"]}>
               <h6>Phone</h6>
               <h6 className="text-muted">
                 {userDetails.phone ? userDetails.phone : "No phone founded"}
               </h6>
 
-              <div className="info">
+              <div className={styles["info"]}>
                 <h6>Mobile-Phone</h6>
                 <h6 className="text-muted">
                   {userDetails.mobile
@@ -197,16 +214,9 @@ export default function UserProfile(props) {
           </div>
         </div>
       </div>
-      <div className="functionalities-history-container">
-        <div className="available-functionalities">
-          {/* aca estaria bueno marcar que cosas puede hacer este tipo de usuario:
-        si es admin que diga
-        disponible informacion de usuarios
-        historial de compras de usuarios
-        actualizar tipo de usuario
-        etc */}
-        </div>
-        <div className="history">
+      <div className={styles["functionalities-history-container"]}>
+        <div className={styles["available-functionalities"]}></div>
+        <div className={styles["history-purchases"]}>
           <PurchaseHistory props={history} />
         </div>
       </div>

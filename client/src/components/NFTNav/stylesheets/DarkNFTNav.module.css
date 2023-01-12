@@ -18,6 +18,13 @@
   }
 }
 
+.conteiner-shopping-cart {
+  background-color: #212121;
+  color: #fafafa;
+  border-left: 1px solid #626262;
+  height: 100vh;
+}
+
 .nav-bar-company-links-container {
   display: flex;
   width: 100%;

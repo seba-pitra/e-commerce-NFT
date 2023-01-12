@@ -1,0 +1,137 @@
+@keyframes slideInToLeft {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes slideInToRight {
+  from {
+    margin-left: 0%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 100%;
+    width: 300%;
+  }
+}
+
+.shopping-cart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.shopping-cart {
+  /* overflow: hidden; */
+  background-color: #212121;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-height: 400px;
+  width: 380px;
+}
+
+.cart-nfts-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding: 5px;
+  background-color: #424242;
+  color: #fff;
+  border: solid 1px rgb(194, 194, 194);
+  border-radius: 10px;
+  animation-name: slideInToLeft;
+  animation-duration: 1s;
+  margin-right: 10px;
+}
+
+.cart-nft-price {
+  color: #e0e0e0;
+  font-size: 16px;
+}
+
+.cart-nft-price .negrita {
+  font-size: 24px;
+  color: #fafafa;
+}
+
+.cart-nft-img {
+  height: 7em;
+  border-radius: 10px;
+}
+
+.button-buy,
+.button-buy-fast {
+  width: 85%;
+  font-size: 20px;
+  border-radius: 10px;
+  background: #d3448b;
+  color: #fff;
+  padding: 10px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+  border: none;
+}
+.button-buy-fast {
+  width: fit-content;
+  padding: 0;
+}
+
+.button-buy-fast {
+  width: fit-content;
+  padding: 5px;
+}
+
+.button-buy:hover,
+.button-buy-fast:hover {
+  background-color: #d3448b;
+  color: #000;
+}
+
+.button-buy::after,
+.button-buy-fast::after {
+  content: "";
+  background: #fff;
+  position: absolute;
+  z-index: -1;
+  padding: 16px 20px;
+  display: block;
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+  transition: all 0.3s ease;
+}
+
+.button-buy:hover::after,
+.button-buy-fast:hover::after {
+  transition: all 0.3s ease-out;
+  transform: skewX(-45deg) scale(1, 1);
+}
+
+.cart-nft-remove-button {
+  height: 30px;
+  border-radius: 50%;
+  margin-top: -100px;
+  margin-right: 5px;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+}
+
+.cart-nft-remove-button:hover {
+  cursor: pointer;
+}

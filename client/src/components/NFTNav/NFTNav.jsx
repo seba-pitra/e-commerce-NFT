@@ -34,7 +34,7 @@ export default function NFTNav() {
 
   const cartItemsCount = useSelector((state) => state.shoppingCartContents);
   const userFavorites = useSelector((state) => state.userFavs);
-  const [loggedUser, updateLoggedUser, handleLogOut] = useLoggedUser()
+  const [loggedUser, updateLoggedUser, handleLogOut] = useLoggedUser();
   const activeThemeIsDark = useSelector((state) => state.activeThemeIsDark);
 
   const areWeInLanding = location.pathname === "/";
@@ -70,13 +70,20 @@ export default function NFTNav() {
               </Navbar.Text>
             </Link>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="navbarScroll" />
+          <Navbar.Toggle
+            aria-controls="navbarScroll"
+            style={
+              activeThemeIsDark
+                ? { backgroundColor: "#fafafa" }
+                : { backgroundColor: "#eaeaea " }
+            }
+          />
 
           <Navbar.Collapse
             className={styles["nav-bar-company-links-container"]}
           >
-            <SearchBar />
-
+            {(location.pathname === "/marketplace" ||
+              location.pathname === "/collections") && <SearchBar />}
             <Link className={styles["nav-bar-link"]} to="/marketplace">
               Explore
             </Link>
@@ -84,7 +91,8 @@ export default function NFTNav() {
               // className={styles["nav-bar-link"]}
               className={`brand-colorized-text ${
                 loggedUser
-                  ? loggedUser.type === "Basic"
+                  ? loggedUser.type === "Basic" ||
+                    loggedUser.type === "VerificationInProcess"
                     ? styles["noneDisplay"]
                     : styles["nav-bar-link"]
                   : styles["nav-bar-link"]
@@ -125,12 +133,14 @@ export default function NFTNav() {
 
             {/* slide kart*/}
             <Offcanvas show={show} onHide={handleClose} placement={"end"}>
-              <Offcanvas.Header closeButton>
-                <Offcanvas.Title>Your Shopping Cart</Offcanvas.Title>
-              </Offcanvas.Header>
-              <Offcanvas.Body>
-                <Shoppingkart />
-              </Offcanvas.Body>
+              <div className={styles["conteiner-shopping-cart"]}>
+                <Offcanvas.Header closeButton>
+                  <Offcanvas.Title>Your Shopping Cart</Offcanvas.Title>
+                </Offcanvas.Header>
+                <Offcanvas.Body>
+                  <Shoppingkart />
+                </Offcanvas.Body>
+              </div>
             </Offcanvas>
 
             {/* favorites comp */}
@@ -139,6 +149,7 @@ export default function NFTNav() {
               onHide={handleCloseFav}
               placement={"bottom"}
               className={styles["offcanvas-scrollbar"]}
+              style={{ height: "fit-content" }}
             >
               <Offcanvas.Body>
                 <Ufavorites />
