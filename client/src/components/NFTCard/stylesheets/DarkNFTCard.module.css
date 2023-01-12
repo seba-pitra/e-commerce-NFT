@@ -209,6 +209,11 @@
   color: white;
   cursor: pointer;
 }
+.isFav{
+  margin: 2.5px 0;
+  color: #d3448b;
+  cursor: pointer;
+}
 
 /* .nftImage{
     width: 300px;
