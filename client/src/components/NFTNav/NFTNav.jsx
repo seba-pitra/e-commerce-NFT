@@ -74,9 +74,10 @@ export default function NFTNav() {
 
           <Navbar.Collapse
             className={styles["nav-bar-company-links-container"]}
-          >
-            <SearchBar />
-
+          > 
+            {
+              (location.pathname==="/marketplace"||location.pathname==="/collections")&&<SearchBar /> 
+            }
             <Link className={styles["nav-bar-link"]} to="/marketplace">
               Explore
             </Link>
@@ -84,7 +85,7 @@ export default function NFTNav() {
               // className={styles["nav-bar-link"]}
               className={`brand-colorized-text ${
                 loggedUser
-                  ? loggedUser.type === "Basic"
+                  ? loggedUser.type === "Basic"|| loggedUser.type === "VerificationInProcess"
                     ? styles["noneDisplay"]
                     : styles["nav-bar-link"]
                   : styles["nav-bar-link"]
