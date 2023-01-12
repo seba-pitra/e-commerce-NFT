@@ -9,13 +9,13 @@ import CloudinaryImageInput2 from "../../../Create/CloudinaryImageInput/Cloudina
 import darkStyles from "./stylesheets/DarkUserAdvancedInfo.module.css";
 import lightStyles from "./stylesheets/LightUserAdvancedInfo.module.css";
 import useStyles from "../../../../customHooks/useStyles";
-import { useLoggedUser } from "../../../../customHooks/useLoggedUser"
+import { useLoggedUser } from "../../../../customHooks/useLoggedUser";
 
 export default function UserAdvancedInfo({ userData, setUserData, back }) {
   const styles = useStyles(darkStyles, lightStyles);
   const dispatch = useDispatch();
-  const [loggedUser, updateLoggedUser, handleLogOut] = useLoggedUser()
-  const user = loggedUser
+  const [loggedUser, updateLoggedUser, handleLogOut] = useLoggedUser();
+  const user = loggedUser;
   const img =
     "https://upload.wikimedia.org/wikipedia/commons/7/75/No_image_available.png";
   let render = false;
@@ -28,7 +28,6 @@ export default function UserAdvancedInfo({ userData, setUserData, back }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     let userDataObj = { ...userData };
-    console.log(userDataObj);
     dispatch(actions.askForVerification(userDataObj));
   };
 

@@ -1,11 +1,11 @@
 .user-dash-card {
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  justify-content: space-between;
   align-items: center;
-  height: 30px;
+  height: fit-content;
   border-radius: 5px;
   margin: 10px 0;
+  border-bottom: solid 1px #9e9e9e;
 }
 .user-dash-link {
   color: rgba(251, 118, 219, 1);
@@ -22,14 +22,29 @@
   margin: 0 5px;
 }
 .user-dash-name {
-  width: 120px;
+  width: 100px;
   margin: 0 5px;
 }
+
+@media (max-width: 1050px) {
+  .user-dash-name {
+    margin-right: 80px;
+  }
+}
+
 .user-dash-email {
   width: 300px;
   margin: 0 5px;
 }
+
+@media (max-width: 1050px) {
+  .user-dash-email {
+    display: none;
+  }
+}
 .user-dash-type {
   width: 80px;
   margin: 0 5px;
+  display: flex;
+  justify-content: space-between;
 }

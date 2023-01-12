@@ -12,8 +12,8 @@ export const LOG_OUT = "LOG_OUT";
 export const LOG_IN_SUCCESS = "LOG_IN_SUCCESS";
 export const LOG_OUT_SUCCESS = "LOG_OUT_SUCCESS";
 export const ASKED_FOR_VERIFICATION = "ASKED_FOR_VERIFICATION";
-export const UPDATE_LOGGED_USER = 'UPDATE_LOGGED_USER';
-export const LOGOUT_USER = 'LOGOUT_USER';
+export const UPDATE_LOGGED_USER = "UPDATE_LOGGED_USER";
+export const LOGOUT_USER = "LOGOUT_USER";
 
 // -- GETTERS --
 export const GET_ALL_NFTS = "GET_ALL_NFTS";
@@ -84,7 +84,6 @@ export const ADD_FAV = "ADD_FAV";
 export const DEL_FAV = "DEL_FAV";
 export const REMOVE_FROM_FAVS = "REMOVE_FROM_FAVS";
 export const DELETE_FAVS_ON_SIGN_OUT = "DELETE_FAVS_ON_SIGN_OUT";
-
 
 // -- THEMES SWITCH
 export const TOGGLE_THEME = "TOGGLE_THEME";
@@ -266,8 +265,8 @@ export const successfulLogin = () => {
 };
 
 export const succesfulLogOut = () => {
-  return { type : LOG_OUT_SUCCESS }
-}
+  return { type: LOG_OUT_SUCCESS };
+};
 
 export const askForVerification = (userData) => {
   return async (dispatch) => {
@@ -281,6 +280,13 @@ export const askForVerification = (userData) => {
         payload: response.data.message,
       });
       dispatch({ type: SHOULD_UPDATE });
+      toast.success(
+        "Your info has been sent successfully. This proccess could take 2 or 3 working days",
+        {
+          position: "bottom-left",
+          autoClose: false,
+        }
+      );
     } catch (error) {
       toast.error("Something went wrong with verification request", {
         position: "bottom-left",
@@ -292,8 +298,7 @@ export const askForVerification = (userData) => {
 export const verifyUser = (userId) => {
   return async (dispatch) => {
     try {
-      const response = await axios.put(
-        `/user/verify/${userId}`)
+      const response = await axios.put(`/user/verify/${userId}`);
       dispatch({ type: SHOULD_UPDATE });
     } catch (error) {
       toast.error("Something went wrong with verification request", {
@@ -301,13 +306,12 @@ export const verifyUser = (userId) => {
       });
     }
   };
-}
+};
 
 export const rejectVerification = (userId) => {
   return async (dispatch) => {
     try {
-      const response = await axios.put(
-        `/user/reject/${userId}`)
+      const response = await axios.put(`/user/reject/${userId}`);
       dispatch({ type: SHOULD_UPDATE });
     } catch (error) {
       toast.error("Something went wrong with verification request", {
@@ -315,15 +319,14 @@ export const rejectVerification = (userId) => {
       });
     }
   };
-}
+};
 
 // actions.js
 
 // Acción para actualizar el estado y almacenamiento local del usuario
 export function updateLoggedUser(userData) {
-  return { type: UPDATE_LOGGED_USER, payload : userData };
+  return { type: UPDATE_LOGGED_USER, payload: userData };
 }
-
 
 // --- SETTERS ---
 
@@ -515,7 +518,7 @@ export const addReview = (payload) => {
         nftId: nftId,
         value: value,
       });
-      console.log(response)
+      console.log(response);
       dispatch({ type: SHOULD_UPDATE });
       // Falta el dispatch ya sea para setear el value fijo o para mostrar un mensaje.
     } catch (error) {
@@ -544,7 +547,7 @@ export const nftsxpage = (payload) => {
 };
 
 export const addNftOnShoppingCart = (nft) => {
-  return { type: ADD_NFT_ON_SHOOPING_CART, payload : nft };
+  return { type: ADD_NFT_ON_SHOOPING_CART, payload: nft };
 };
 
 export const removeNftOfShoppingCart = (nftId) => {
@@ -588,16 +591,16 @@ export const addToFav = (payload) => {
 };
 
 export const delToFav = (payload) => {
-	return {type: DEL_FAV, payload };
+  return { type: DEL_FAV, payload };
 };
 
 export const removeFromFav = (nftId) => {
   return { type: REMOVE_FROM_FAVS, payload: nftId };
-}
+};
 
 export const freeUserFavsState = () => {
   return { type: DELETE_FAVS_ON_SIGN_OUT };
-}
+};
 export const injectLocalStorageFavs = (payload) => {
   return { type: LOCAL_STORAGE_FAVS, payload };
 };
