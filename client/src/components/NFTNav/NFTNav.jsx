@@ -70,7 +70,7 @@ export default function NFTNav() {
               </Navbar.Text>
             </Link>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="navbarScroll" />
+          <Navbar.Toggle aria-controls="navbarScroll" style={ activeThemeIsDark ? { backgroundColor: "#fafafa" } :  { backgroundColor: "#212121" } } /> 
 
           <Navbar.Collapse
             className={styles["nav-bar-company-links-container"]}
@@ -126,13 +126,12 @@ export default function NFTNav() {
             {/* slide kart*/}
             <Offcanvas show={show} onHide={handleClose} placement={"end"}>
               <div className={styles["conteiner-shopping-cart"]}>
-
-              <Offcanvas.Header closeButton>
-                <Offcanvas.Title>Your Shopping Cart</Offcanvas.Title>
-              </Offcanvas.Header>
-              <Offcanvas.Body>
-                <Shoppingkart />
-              </Offcanvas.Body>
+                <Offcanvas.Header closeButton>
+                  <Offcanvas.Title>Your Shopping Cart</Offcanvas.Title>
+                </Offcanvas.Header>
+                <Offcanvas.Body>
+                  <Shoppingkart />
+                </Offcanvas.Body>
               </div>
             </Offcanvas>
 
@@ -142,6 +141,7 @@ export default function NFTNav() {
               onHide={handleCloseFav}
               placement={"bottom"}
               className={styles["offcanvas-scrollbar"]}
+              style={{ height: "fit-content" }}
             >
               <Offcanvas.Body>
                 <Ufavorites />

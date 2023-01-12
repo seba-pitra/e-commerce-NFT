@@ -1,9 +1,13 @@
 import VerifiedIcon from "@mui/icons-material/Verified";
 import { Link } from "react-router-dom";
 import React, { useState, useEffect } from "react";
-import styles from "../stylesheets/HomePage.module.css";
+
+import lightStyles from "../stylesheets/LightHomePage.module.css";
+import darkStyles from "../stylesheets/DarkHomePage.module.css";
+import useStyles from "../../../customHooks/useStyles";
 
 const CollectionCarousel = ({ cards }) => {
+  const styles = useStyles(darkStyles, lightStyles);
   const [currentCardsRange, setCurrentCardsRange] = useState([0, 1, 2]);
 
   const handleNextClick = () => {
@@ -39,7 +43,7 @@ const CollectionCarousel = ({ cards }) => {
 
   if (cards.length > 0) {
     return (
-      <div className={styles["main-conteiner-cards"]}>
+      <div className={styles["main-conteiner-cards-collections"]}>
         {/* ACA ESTA EL ERROR */}
         <div className={styles["conteiner-collections-buttons"]}>
           {/* DE LAS FLECHITAS. Es el nombre de la clase */}
