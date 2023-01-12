@@ -4,11 +4,11 @@ import { useEffect, useRef } from "react";
 import { useDispatch } from "react-redux";
 import { updateUser } from "../../../redux/actions";
 import { validate, validateUserData } from "../../../utils";
-
 // import styles from "./stylesheets/EditUserInfo.module.css";
 import darkStyles from "./stylesheets/DarkEditUserInfo.module.css";
 import lightStyles from "./stylesheets/LightEditUserInfo.module.css";
 import useStyles from "../../../customHooks/useStyles";
+
 
 export default function EditUserINfo(props) {
   const styles = useStyles(darkStyles, lightStyles);
@@ -20,6 +20,7 @@ export default function EditUserINfo(props) {
     id: props.id,
     address: props.address,
     username: props.username,
+    // profile_pic : props.profile_pic
     
   });
   let [errors, setErrors] = useState({});
@@ -46,7 +47,8 @@ export default function EditUserINfo(props) {
       obj.last_name === props.last_name &&
       obj.age === props.age &&
       obj.address === props.address &&
-      obj.username === props.username
+      obj.username === props.username 
+      // && obj.profile_pic === props.profile_pic
     ) {
       //si esto se da significa que no hubo ningun cambio .entonces no deberia hacer el dispatch
       console.log("There was no change in your data.");
@@ -140,7 +142,7 @@ export default function EditUserINfo(props) {
 
       <div className={styles["edit-input"]}>
         <label>Username</label>
-        <label>Username</label>
+        
         <input
           name="username"
           type="text"
@@ -168,6 +170,7 @@ export default function EditUserINfo(props) {
             : false
         }
       /> */}
+      {/* <CloudinaryImageInput2 setImage={setInput} image_prop= {'profile_pic'}/> */}
       <button
         type="submit"
         id="submit"
@@ -182,10 +185,7 @@ export default function EditUserINfo(props) {
         disabled={
           errors.name !== "False" ||
           errors.age !== "False" ||
-          errors.last_name !== "False" 
-          
-            ? true
-            : false
+          errors.last_name !== "False" ? true : false
         }
       >
         Edit

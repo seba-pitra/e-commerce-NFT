@@ -111,7 +111,6 @@ export default function UserProfile() {
             address={userDetail.address}
             username={userDetail.username}
             setEdit = {setEdit}
-            
           />
         ) : (
           <div className={styles["user-info"]}>
