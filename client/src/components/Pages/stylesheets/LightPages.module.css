@@ -1,7 +1,8 @@
 .pages-all-container {
   background-color: #fafafa;
+  width: 97vw;
+  margin: 58px 1.2vw 30px 1.2vw;
   overflow: hidden;
-  margin-top: 58px;
 }
 
 .orders-container-phone {
