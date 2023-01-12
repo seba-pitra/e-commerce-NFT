@@ -9,7 +9,7 @@ import PriceSelector from "../PriceSelector/PriceSelector";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 import Offcanvas from "react-bootstrap/Offcanvas";
-import FilterAltIcon from "@mui/icons-material/FilterAlt";
+import SortIcon from "@mui/icons-material/Sort";
 
 import styles from "./stylesheets/Filtering.module.css";
 
@@ -155,7 +155,7 @@ export default function Filtering() {
 
   return (
     <div className={styles["filters-container"]}>
-      <FilterAltIcon  style={ isDark ? { color: "#fafafa" } :  { color: "#212121" } }
+      <SortIcon  style={ isDark ? { color: "#fafafa" } :  { color: "#212121" } }
         className={styles["filter-icon"]}
         fontSize="large"
         onClick={handleShow}

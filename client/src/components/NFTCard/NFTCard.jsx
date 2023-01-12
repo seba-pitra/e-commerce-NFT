@@ -129,7 +129,7 @@ export default function NFTCard(props) {
           <Link className={styles.link} to={`/details/${props.id}`}>
             <div className={styles["card-stars"]}>
               <StarIcon className={styles["stars-icon"]} />
-              <span>{starsValue || 0}</span>
+              <span>{props.stars || 0}</span>
             </div>
             <div className={styles["nftCard-img-container"]}>
               <img
