@@ -4,13 +4,19 @@ import * as actions from "../../../redux/actions/index";
 import { useEffect, useRef } from "react";
 import { useHistory } from "react-router-dom";
 
-import UserBasicInfo from "./UserBasicInfo";
-import UserMediumInfo from "./UserMediumInfo";
-import UserAdvancedInfo from "./UserAdvancedInfo";
-import styles from "./stylesheets/UserVerify.module.css";
+import UserBasicInfo from "./UserBasicInfo/UserBasicInfo";
+import UserMediumInfo from "./UserMediumInfo/UserMediumInfo";
+import UserAdvancedInfo from "./UserAdvancedInfo/UserAdvancedInfo";
+
+import darkStyles from "./stylesheets/DarkUserVerify.module.css";
+import lightStyles from "./stylesheets/LightUserVerify.module.css";
+import useStyles from "../../../customHooks/useStyles";
+import { useLoggedUser } from "../../../customHooks/useLoggedUser"
 
 export default function UserVerify() {
-  const user = useSelector((state) => state.loggedUser);
+  const styles = useStyles(darkStyles, lightStyles);
+  const [loggedUser, updateLoggedUser, handleLogOut] = useLoggedUser()
+  const user = loggedUser;
   const dispatch = useDispatch();
   const history = useHistory();
   const loginStatusStorage = localStorage.getItem("loginStatus");
@@ -70,7 +76,11 @@ export default function UserVerify() {
         />
       </fieldset>
 
-      <fieldset className={`info-fieldset ${step !== 2 ? "noneDisplay" : ""}`}>
+      <fieldset
+        className={
+          step !== 2 ? styles["noneDisplay"] : styles["first-field-collections"]
+        }
+      >
         <UserMediumInfo
           userData={userData}
           setUserData={setUserData}
@@ -80,9 +90,9 @@ export default function UserVerify() {
       </fieldset>
 
       <fieldset
-        className={`info-fieldset ${
-          step !== 3 ? "noneDisplay" : "first-field-collections"
-        }`}
+        className={
+          step !== 3 ? styles["noneDisplay"] : styles["first-field-collections"]
+        }
       >
         <UserAdvancedInfo
           userData={userData}

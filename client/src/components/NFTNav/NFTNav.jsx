@@ -17,10 +17,10 @@ import UserIcon from "./UserIcon/UserIcon";
 import ProfilePicture from "../UserComponents/ProfilePicture/Profile.Picture";
 
 import useStyles from "../../customHooks/useStyles";
-// import styles from "./stylesheets/NFTNav.module.css";
 import lightStyles from "./stylesheets/LightNFTNav.module.css";
 import darkStyles from "./stylesheets/DarkNFTNav.module.css";
 
+import { useLoggedUser } from "../../customHooks/useLoggedUser";
 export default function NFTNav() {
   const location = useLocation();
 
@@ -34,7 +34,7 @@ export default function NFTNav() {
 
   const cartItemsCount = useSelector((state) => state.shoppingCartContents);
   const userFavorites = useSelector((state) => state.userFavs);
-  const loggedUser = useSelector((state) => state.loggedUser);
+  const [loggedUser, updateLoggedUser, handleLogOut] = useLoggedUser()
   const activeThemeIsDark = useSelector((state) => state.activeThemeIsDark);
 
   const areWeInLanding = location.pathname === "/";

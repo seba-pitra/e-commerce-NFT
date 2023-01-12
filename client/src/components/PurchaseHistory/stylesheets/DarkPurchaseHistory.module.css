@@ -1,0 +1,53 @@
+.detail-shopping-history {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  color: #212121;
+}
+.history-title-container {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid black;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.history-title-container div {
+  justify-content: start;
+}
+
+.main-wrapper {
+  max-width: 100%;
+  min-width: 300px;
+  max-height: 320px;
+  overflow-x: auto;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+.responsive-table {
+  display: inline-block;
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.responsive-table > table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.responsive-table > table td,
+th {
+  border: 1px solid #cccccc;
+  padding: 8px;
+  font-family: Arial;
+  font-size: 16px;
+}
+
+th .tr {
+  color: #fafafa;
+}
+.col {
+  color: #fafafa;
+}

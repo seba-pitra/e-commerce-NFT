@@ -4,30 +4,29 @@ import { useHistory } from "react-router-dom";
 
 import PurchaseHistory from "../../PurchaseHistory/PurchaseHistory";
 import EditUserInfo from "../EditUserInfo/EditUserInfo";
-// import EditUserInfo from "./../EditUserInfo";
 import { NavLink } from "react-router-dom";
 
-// import "./UserProfile.css";
-import styles from "./stylesheets/UserProfile.module.css";
+import darkStyles from "./stylesheets/DarkUserProfile.module.css";
+import lightStyles from "./stylesheets/LightUserProfile.module.css";
+import useStyles from "../../../customHooks/useStyles";
+
 import { logInUser } from "../../../redux/actions";
 
 export default function UserProfile() {
+  const styles = useStyles(darkStyles, lightStyles);
   let [edit, setEdit] = useState(false);
 
   let handleEdit = () => {
     setEdit(!edit);
   };
-  let  handleRefresh =  ()  => {
-    
-    dispatch(logInUser(userDetail.id))
+  let handleRefresh = () => {
+    dispatch(logInUser(userDetail.id));
   };
   let navHistory = useHistory();
 
   const dispatch = useDispatch();
   const userDetail = useSelector((state) => state.loggedUser);
-  useEffect(()=>{
-    
-  },[userDetail])
+  useEffect(() => {}, [userDetail]);
   // const { userDetail } = useSelector((state) => state);
 
   // FALTA TRAER EL COMPONENTE PurchaseHistory y pasarle por params las relaciones con buy para q muestre el historial
@@ -56,7 +55,6 @@ export default function UserProfile() {
   //       setEdit(!edit);
   //     });
   //   };
-  console.log(userDetail);
   useEffect(() => {}, [dispatch]);
 
   return (
@@ -78,12 +76,12 @@ export default function UserProfile() {
             }
             className={styles["edit-info"]}
             src={
-              "https://iconsplace.com/wp-content/uploads/_icons/ffc0cb/256/png/edit-icon-12-256.png"
+              "https://cdn4.iconfinder.com/data/icons/multimedia-24/512/Edit-512.png"
             }
             alt="edit-info"
             referrerPolicy="no-referrer"
             onClick={() => {
-              handleEdit()
+              handleEdit();
             }}
           />
           <img
@@ -93,13 +91,11 @@ export default function UserProfile() {
                 : true
             }
             className={styles["refresh-info"]}
-            src={
-              "https://www.svgrepo.com/show/172157/refresh.svg"
-            }
+            src={"https://www.svgrepo.com/show/172157/refresh.svg"}
             alt="refresh-info"
             referrerPolicy="no-referrer"
             onClick={() => {
-              handleRefresh()
+              handleRefresh();
             }}
           />
         </div>
@@ -111,7 +107,7 @@ export default function UserProfile() {
             id={userDetail.id}
             address={userDetail.address}
             username={userDetail.username}
-            setEdit = {setEdit}
+            setEdit={setEdit}
           />
         ) : (
           <div className={styles["user-info"]}>
