@@ -3,6 +3,7 @@
   background-color: #232c3d;
   border-radius: 5px;
   color: rgba(211, 68, 139, 1);
+  width: 100%;
 }
 .nft-dash-search-container {
   width: 100%;
@@ -43,14 +44,30 @@
 }
 .dash-nfts-list {
   padding: 5px 0;
+  display: flex;
+  flex-direction: column;
 }
-.dash-nfts-titles {
+.dash-nfts-titles,
+.dash-vUsers-titles {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  justify-content: space-between;
   font-size: 18px;
   font-weight: 600;
+  width: 700px;
 }
+
+@media (max-width: 1050px) {
+  .dash-nfts-titles {
+    width: 90%;
+    justify-content: space-around;
+  }
+}
+
+.dash-vUsers-titles {
+  width: 100%;
+}
+
 .dash-nfts-titles p {
   margin: 5px 0;
 }
@@ -69,7 +86,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: 4px solid rgba(211, 68, 139, 1);
   margin: 0 5px;
 }
 .dash-nfts-UserIdTitle {
@@ -80,6 +96,13 @@
   width: 270px;
   margin: 0 5px;
 }
+
+@media (max-width: 1050px) {
+  .dash-nfts-NameTitle {
+    width: 0;
+  }
+}
+
 .dash-nfts-PriceTitle {
   width: 70px;
   margin: 0 5px;
@@ -96,21 +119,20 @@
   width: 80px;
   margin: 0 5px;
 }
-.dash-vUsers-fn {
-  width: 150px;
+
+@media (max-width: 1050px) {
+  .dash-users-EmailTitle,
+  .dash-users-TypeTitle,
+  .dash-nfts-UserIdTitle {
+    display: none;
+  }
 }
-.dash-vUsers-dni {
-  width: 100px;
-}
-.dash-vUsers-age {
-  width: 20px;
-}
-.dash-vUsers-pn {
-  width: 130px;
-}
-.dash-vUsers-nc {
-  width: 120px;
-}
-.dash-vUsers-pps {
-  width: 200px;
+
+@media (max-width: 800px) {
+  .dash-vUsers-dni,
+  .dash-vUsers-age,
+  .dash-vUsers-pn,
+  .dash-vUsers-nc {
+    display: none;
+  }
 }

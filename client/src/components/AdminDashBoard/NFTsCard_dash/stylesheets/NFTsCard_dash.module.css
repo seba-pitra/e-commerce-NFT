@@ -1,6 +1,7 @@
 .nfts-dash-card {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   flex-wrap: nowrap;
   height: 30px;
   border-radius: 5px;
@@ -15,6 +16,13 @@
   width: 235px;
   margin: 0 5px;
 }
+
+@media (max-width: 1050px) {
+  .dash-card-userId {
+    display: none;
+  }
+}
+
 .dash-card-name {
   width: 270px;
   margin: 0 5px;

@@ -34,8 +34,6 @@ const UserCard_dash = ({ id, username, email, type, deletedAt }) => {
       </div>
       <div className={styles["user-dash-type"]}>
         <p>{type === "VerificationInProcess" ? "In process" : type}</p>
-      </div>
-      <div className={styles["dash-card-icons"]}>
         {deleted ? (
           <div className={styles["dash-card-icon"]}>
             <RestoreIcon onClick={handleRestore} />
@@ -45,6 +43,17 @@ const UserCard_dash = ({ id, username, email, type, deletedAt }) => {
             <BlockIcon onClick={handleBlock} />
           </div>
         )}
+      </div>
+      <div className={styles["dash-card-icons"]}>
+        {/* {deleted ? (
+          <div className={styles["dash-card-icon"]}>
+            <RestoreIcon onClick={handleRestore} />
+          </div>
+        ) : (
+          <div className={styles["dash-card-icon"]}>
+            <BlockIcon onClick={handleBlock} />
+          </div>
+        )} */}
       </div>
     </div>
   );

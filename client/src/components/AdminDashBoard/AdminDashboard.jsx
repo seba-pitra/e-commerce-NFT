@@ -19,12 +19,6 @@ const AdminDashboard = () => {
     (state) => state
   );
 
-  //Favor de eliminar los console.logs cuando este listo esto.
-  console.log("nft", adminNfts);
-  console.log("user", adminUsers);
-  console.log("collection", collections);
-  console.log("logged", loggedUser);
-
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -40,25 +34,28 @@ const AdminDashboard = () => {
       <div className={styles["dashboard-barchart"]}>
         <Charts chartNfts={adminNfts} chartCollections={collections} />
       </div>
-      <div className={styles["dashboard-users-info"]}>
-        <div className={styles["dashboard-users"]}>
-          <h3>Manage Users</h3>
-          <NFTList_dash users={adminUsers} />
+      <div className={styles["dashboard-users-info-container"]}>
+        <div className={styles["dashboard-users-info"]}>
+          <div className={styles["dashboard-users"]}>
+            <h3>Manage Users</h3>
+            <NFTList_dash users={adminUsers} />
+          </div>
+          <DoughChart users={adminUsers} />
         </div>
-        <DoughChart users={adminUsers} />
-      </div>
-      <div className={styles["dasboard-left-side"]}>
-        <div className={styles["dahsboard-nfts"]}>
-          <h3>Manage NFTs</h3>
-          <NFTList_dash nfts={adminNfts} />
-        </div>
-        <div className={styles["dashboard-verify"]}>
-          <h3>Manage Verifications</h3>
-          <NFTList_dash
-            verifyingUsers={adminUsers.filter(
-              (user) => user.type === "VerificationInProcess"
-            )}
-          />
+
+        <div className={styles["dasboard-left-side"]}>
+          <div className={styles["dashboard-verify"]}>
+            <h3>Manage Verifications</h3>
+            <NFTList_dash
+              verifyingUsers={adminUsers.filter(
+                (user) => user.type === "VerificationInProcess"
+              )}
+            />
+          </div>
+          <div className={styles["dashboard-nfts"]}>
+            <h3>Manage NFTs</h3>
+            <NFTList_dash nfts={adminNfts} />
+          </div>
         </div>
       </div>
     </div>
