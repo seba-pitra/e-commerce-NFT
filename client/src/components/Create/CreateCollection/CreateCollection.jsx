@@ -7,6 +7,7 @@ import lightStyles from "./stylesheets/LightCreateCollection.module.css";
 import darkStyles from "./stylesheets/DarkCreateCollection.module.css";
 import useStyles from "../../../customHooks/useStyles";
 import UserCollectionsSelector from "./UserCollectionsSelector/UserCollectionsSelector";
+import { useLoggedUser } from "../../../customHooks/useLoggedUser";
 
 export default function CreateCollection({
   createdCollection,
@@ -15,8 +16,10 @@ export default function CreateCollection({
   createdNft,
   next,
 }) {
+
+  const [loggedUser, updateLoggedUser, handleLogOut] = useLoggedUser()
   const styles = useStyles(darkStyles, lightStyles);
-  const user = useSelector((state) => state.loggedUser);
+  const user = loggedUser;
   const shouldRender = useSelector(state => state.shouldRender);
   const dispatch = useDispatch();
 

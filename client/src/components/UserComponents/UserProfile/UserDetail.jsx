@@ -97,7 +97,6 @@ export default function UserProfile(props) {
   ];
 
   const dispatch = useDispatch();
-  // const userDetail = useSelector((state) => state.loggedUser);
   const userDetails = useSelector((state) => state.userDetail);
 
   // FALTA TRAER EL COMPONENTE PurchaseHistory y pasarle por params las relaciones con buy para q muestre el historial

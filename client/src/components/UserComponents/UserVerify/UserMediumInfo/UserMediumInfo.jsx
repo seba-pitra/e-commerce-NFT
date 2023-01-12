@@ -10,9 +10,11 @@ import * as actions from "../../../../redux/actions/index";
 import darkStyles from "./stylesheets/DarkUserMediumInfo.module.css";
 import lightStyles from "./stylesheets/LightUserMediumInfo.module.css";
 
+import { useLoggedUser } from "../../../../customHooks/useLoggedUser"
 export default function UserMediumInfo({ userData, setUserData, next, back }) {
   const styles = useStyles(darkStyles, lightStyles);
-  const user = useSelector((state) => state.loggedUser);
+  const [loggedUser, updateLoggedUser, handleLogOut] = useLoggedUser()
+  const user = loggedUser;
   const img =
     "https://upload.wikimedia.org/wikipedia/commons/7/75/No_image_available.png";
   const dispatch = useDispatch();
