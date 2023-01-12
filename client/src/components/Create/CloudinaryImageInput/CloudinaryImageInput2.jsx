@@ -15,6 +15,7 @@ export default function CloudinaryImageInput({ setImage, image_prop }) {
       function (error, result) {
         if (result.info.files) {
           const urlImg = result.info.files[0].uploadInfo.secure_url;
+          console.log(urlImg)
           setImage((prev) => ({
             ...prev,
             [image_prop]: urlImg,
