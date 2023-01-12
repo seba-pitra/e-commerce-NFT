@@ -1,0 +1,15 @@
+.main-container-about-us{
+  min-height: 96vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fafafa;
+  color: #212121;
+}
+
+.main-container-about-us h4{
+  margin-top: 70px;
+  width: 70%;
+  line-height: 55px;
+}
