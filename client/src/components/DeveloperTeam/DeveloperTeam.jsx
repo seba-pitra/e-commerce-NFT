@@ -345,15 +345,7 @@ I am a dynamic programmer, with a strong and fun mentality.</p>
                 Daniel Molinaro
               </h1>
               <p className={styles["about-accordion-description"]}>
-               
-I am a dynamic and intelligent programmer, dedicated and committed to my work.</p>
-
-	  <p>I am characterized by being contemplative and reflective in my approach, always looking for the best solution for each problem.</p>
-	  <p>However, I also enjoy having fun and having a positive attitude in my work. I consider myself an introspective person, constantly evaluating and improving my own skills and processes.</p> 
-	  <p>I love learning and am constantly seeking new opportunities to grow professionally. My balanced approach and commitment to excellence are some of the characteristics that define me as a programmer. My motto is "Callme Bugs Slayer"
-
-
-              Con una gran pasión por aprender, me considero un joven programador con una gran habilidad para colaborar en proyectos. He trabajado con lenguajes de programación como JavaScript, React, HTML, CSS, y actualmente estoy estudiando Java. Me esfuerzo por utilizar la tecnología de manera inteligente para solucionar problemas de manera eficiente y efectiva. Siempre estoy dispuesto a adquirir nuevas habilidades y trabajo duro para ayudar a mi equipo y resolver problemas.
+              With a great passion for learning, I consider myself a young programmer with great ability to collaborate on projects. I have worked with programming languages such as JavaScript, React, HTML, CSS, and I am currently studying Java. I strive to use technology intelligently to solve problems efficiently and effectively. I am always willing to acquire new skills and work hard to help my team and solve problems.
               </p>
               <div>
                 <h2>Find me: </h2>
