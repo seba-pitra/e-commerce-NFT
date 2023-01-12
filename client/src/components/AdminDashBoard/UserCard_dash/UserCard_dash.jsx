@@ -26,7 +26,7 @@ const UserCard_dash = ({ id, username, email, type, deletedAt }) => {
     <div className={styles["user-dash-card"]}>
       <div className={styles["user-dash-name"]}>
         <Link className={styles["user-dash-link"]} to={`/admin/user/${id}`}>
-          <p>{username}</p>
+          <p>{username.split(" ").length>1?username.split(" ")[0]:username}</p>
         </Link>
       </div>
       <div className={styles["user-dash-email"]}>

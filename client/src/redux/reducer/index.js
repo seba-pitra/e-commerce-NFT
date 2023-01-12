@@ -70,6 +70,7 @@ const initialState = {
   nfts: [], //ok
   filteredNfts: [], // ok
   collections: [], // ok
+  filteredCollections: [], // ok
   collectionDetail: [],
 
   adminNfts: [], //incluye deleted
@@ -148,7 +149,7 @@ const rootReducer = (state = initialState, action) => {
     case GET_ALL_ADMIN_NFTS:
       return { ...state, adminNfts: action.payload };
     case GET_ALL_COLLECTIONS:
-      return { ...state, collections: action.payload, isLoading: false };
+      return { ...state, collections: action.payload, filteredCollections: action.payload ,isLoading: false };
 
     // Este case no lo esta usando nadie.
     case GET_ALL_USERS:
@@ -374,7 +375,7 @@ const rootReducer = (state = initialState, action) => {
       filterByCollections = state.collections.filter((e) =>
         e.name.toUpperCase().includes(action.payload.toUpperCase())
       );
-      return { ...state, collections: filterByCollections };
+      return { ...state, filteredCollections: filterByCollections };
 
     // --- ORDERS ---
     case CHANGE_ORDER_DIRECTION:

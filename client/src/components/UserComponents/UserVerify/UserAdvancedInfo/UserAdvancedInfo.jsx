@@ -12,6 +12,7 @@ import useStyles from "../../../../customHooks/useStyles";
 import { useLoggedUser } from "../../../../customHooks/useLoggedUser"
 
 export default function UserAdvancedInfo({ userData, setUserData, back }) {
+  const history=useHistory()
   const styles = useStyles(darkStyles, lightStyles);
   const dispatch = useDispatch();
   const [loggedUser, updateLoggedUser, handleLogOut] = useLoggedUser()
@@ -30,6 +31,7 @@ export default function UserAdvancedInfo({ userData, setUserData, back }) {
     let userDataObj = { ...userData };
     console.log(userDataObj);
     dispatch(actions.askForVerification(userDataObj));
+    history.goBack()
   };
 
   useEffect(() => {
@@ -122,7 +124,7 @@ export default function UserAdvancedInfo({ userData, setUserData, back }) {
           onClick={handleSubmit}
           disabled={
             errors.dni_image_front !== "False" ||
-            errors.dni_image_back !== "False"
+            errors.dni_image_back !== "False" || user.type==="Verified" || user.type==="Admin"
           }
         >
           Ask for verify
