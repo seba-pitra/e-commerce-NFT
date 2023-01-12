@@ -1,6 +1,6 @@
 import * as actions from "../../../redux/actions";
 import { useState } from "react";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import SortIcon from "@mui/icons-material/Sort";
@@ -18,6 +18,8 @@ export default function Ordering() {
   const [lastBuyOrderUp, setLastBuyOrderUp] = useState(true);
   const [createdTsOrderUp, setCreatedTsOrderUp] = useState(true);
   const [showOrders, setShowOrders] = useState(false);
+
+  const  isDark  = useSelector((state) => state.activeThemeIsDark);
 
   const handleClose = () => setShowOrders(false);
   const handleShow = () => {
@@ -73,7 +75,7 @@ export default function Ordering() {
 
   return (
     <div className={styles["sort-container"]}>
-      <SortIcon className="sort-icon" fontSize="large" onClick={handleShow} />
+      <SortIcon className="sort-icon" style={ isDark ? { color: "#fafafa" } :  { color: "#212121" } } fontSize="large" onClick={handleShow} />
       <Offcanvas
         show={showOrders}
         onHide={handleClose}
