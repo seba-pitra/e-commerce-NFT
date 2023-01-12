@@ -239,6 +239,7 @@
 }
 
 .back-button {
+  border: none;
   text-decoration: none;
   align-items: center;
   padding: 8px;

@@ -34,7 +34,7 @@ export default function NFTNav() {
 
   const cartItemsCount = useSelector((state) => state.shoppingCartContents);
   const userFavorites = useSelector((state) => state.userFavs);
-  const [loggedUser, updateLoggedUser, handleLogOut] = useLoggedUser()
+  const [loggedUser, updateLoggedUser, handleLogOut] = useLoggedUser();
   const activeThemeIsDark = useSelector((state) => state.activeThemeIsDark);
 
   const areWeInLanding = location.pathname === "/";
@@ -70,14 +70,20 @@ export default function NFTNav() {
               </Navbar.Text>
             </Link>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="navbarScroll" style={ activeThemeIsDark ? { backgroundColor: "#fafafa" } :  { backgroundColor: "#212121" } } /> 
+          <Navbar.Toggle
+            aria-controls="navbarScroll"
+            style={
+              activeThemeIsDark
+                ? { backgroundColor: "#fafafa" }
+                : { backgroundColor: "#eaeaea " }
+            }
+          />
 
           <Navbar.Collapse
             className={styles["nav-bar-company-links-container"]}
-          > 
-            {
-              (location.pathname==="/marketplace"||location.pathname==="/collections")&&<SearchBar /> 
-            }
+          >
+            {(location.pathname === "/marketplace" ||
+              location.pathname === "/collections") && <SearchBar />}
             <Link className={styles["nav-bar-link"]} to="/marketplace">
               Explore
             </Link>
@@ -85,7 +91,8 @@ export default function NFTNav() {
               // className={styles["nav-bar-link"]}
               className={`brand-colorized-text ${
                 loggedUser
-                  ? loggedUser.type === "Basic"|| loggedUser.type === "VerificationInProcess"
+                  ? loggedUser.type === "Basic" ||
+                    loggedUser.type === "VerificationInProcess"
                     ? styles["noneDisplay"]
                     : styles["nav-bar-link"]
                   : styles["nav-bar-link"]

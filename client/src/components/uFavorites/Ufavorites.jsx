@@ -22,16 +22,21 @@ export default function Ufavorites() {
         {userFavs &&
           userFavs.map((idx, index) => {
             return (
-              <Link className={styles.link} to={`/details/${idx.id}`}>
-                <div key={index} className={styles["img-container"]}>
+              <div key={index} className={styles["img-container"]}>
+                <Link className={styles.link} to={`/details/${idx.id}`}>
                   <img
                     src={idx.image}
                     alt="nft"
                     className={styles["fav-nft-img"]}
                   />
-                  <button className={styles["favs-remove-button"]} onClick={() => handleClickDelFavorites(idx.id)}>×</button>
-                </div>
-              </Link>
+                </Link>
+                <button
+                  className={styles["favs-remove-button"]}
+                  onClick={() => handleClickDelFavorites(idx.id)}
+                >
+                  ×
+                </button>
+              </div>
             );
           })}
       </div>
