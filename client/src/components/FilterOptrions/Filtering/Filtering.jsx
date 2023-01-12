@@ -14,7 +14,7 @@ import FilterAltIcon from "@mui/icons-material/FilterAlt";
 import styles from "./stylesheets/Filtering.module.css";
 
 export default function Filtering() {
-  const [selectedCollection, setSelectedCollection] = useState("");
+  const [selectedCollection, setSelectedCollection] = useState([]);
   const [selectedCategorySpecies, setSelectedCategorySpecies] = useState([]);
   const [selectedCategorySpecies2, setSelectedCategorySpecies2] = useState([]);
   const [selectedCategoryArt, setSelectedCategoryArt] = useState([]);
@@ -192,6 +192,7 @@ export default function Filtering() {
                       type="checkbox"
                       key={collection.id}
                       value={collection.id}
+                      defaultChecked = {selectedCollection.includes(collection.id)}
                       onClick={(e) => {
                         selectCollection(e);
                       }}
@@ -227,6 +228,7 @@ export default function Filtering() {
                       type="checkbox"
                       key={specie}
                       value={specie}
+                      defaultChecked = {selectedCategorySpecies.includes(specie)}
                       onClick={(e) => {
                         selectCategorySpecies(e);
                       }}
@@ -263,6 +265,7 @@ export default function Filtering() {
                       type="checkbox"
                       key={specie}
                       value={specie}
+                      defaultChecked = {selectedCategorySpecies2.includes(specie)}
                       onClick={(e) => {
                         selectCategorySpecies2(e);
                       }}
@@ -298,6 +301,7 @@ export default function Filtering() {
                       type="checkbox"
                       key={specie}
                       value={specie}
+                      defaultChecked = {selectedCategoryArt.includes(specie)}
                       onClick={(e) => {
                         selectCategoryArt(e);
                       }}
@@ -333,6 +337,7 @@ export default function Filtering() {
                       type="checkbox"
                       key={specie}
                       value={specie}
+                      defaultChecked = {selectedCategoryType.includes(specie)}
                       onClick={(e) => {
                         selectCategoryType(e);
                       }}
@@ -368,6 +373,7 @@ export default function Filtering() {
                       type="checkbox"
                       key={value}
                       value={value}
+                      defaultChecked = {selectedCategoryType.includes(value)}
                       onClick={(e) => {
                         selectCategoryStyle(e);
                       }}
@@ -403,6 +409,8 @@ export default function Filtering() {
                       type="checkbox"
                       key={value}
                       value={value}
+                      defaultChecked = {selectedCategoryRest.includes(value)}
+
                       onClick={(e) => {
                         selectCategoryRest(e);
                       }}
@@ -438,6 +446,7 @@ export default function Filtering() {
                       type="checkbox"
                       key={value}
                       value={value}
+                      defaultChecked = {selectedCategoryBackg.includes(value)}
                       onClick={(e) => {
                         selectCategoryBackg(e);
                       }}

@@ -75,7 +75,7 @@ function HomePage() {
       </div>
 
       <div className={styles["container-nfts"]}>
-        <CollectionTable cards={collectionsSlice} />
+        <CollectionTable cards={collectionsSlice}/>
       </div>
 
       <div className={styles["container-nfts"]}>

@@ -38,7 +38,7 @@ const PurchaseHistory = ({ purchases, sales }) => {
                 return (
                   <tr>
                     <td>Purchase</td>
-                    <td>{elem.price} ETH</td>
+                    <td>{elem.price} </td>
                     <td>{convert(elem.updatedAt)}</td>
                     <td>{elem.payMethod}</td>
                   </tr>

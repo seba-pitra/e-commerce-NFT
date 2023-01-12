@@ -41,6 +41,10 @@ export default function CreateCollection({
 
   const submitCreatedCollection = (e) => {
     e.preventDefault();
+    setCreatedCollection((prev) => ({
+      ...prev,
+      userId: user.id,
+    }));
     dispatch(actions.createCollection(createdCollection));
   };
 
