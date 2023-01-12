@@ -20,7 +20,6 @@ export default function CreateCollection({
   const [loggedUser, updateLoggedUser, handleLogOut] = useLoggedUser()
   const styles = useStyles(darkStyles, lightStyles);
   const user = loggedUser;
-  const shouldRender = useSelector(state => state.shouldRender);
   const dispatch = useDispatch();
 
   const selectCollection = (e) => {
@@ -30,6 +29,8 @@ export default function CreateCollection({
       collectionId: e.target.value,
     }));
   };
+
+  console.log(createdNft)
 
   const inputCollectionName = (e) => {
     e.preventDefault();
@@ -64,6 +65,7 @@ export default function CreateCollection({
               user={user}
               styles={styles}
               selectCollection={selectCollection}
+              createdNft={createdNft}
               />
           </div>
         </div>
