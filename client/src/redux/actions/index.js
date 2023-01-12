@@ -215,6 +215,7 @@ export const getUserByID = (id) => {
 export const updateUser = (body) => {
   return async (dispatch) => {
     try {
+      console.log(body)
       const update = await axios.put(`/user/${body.id}`, body);
       dispatch({ type: GET_USER_BY_ID, payload: update.data });
       dispatch({ type: SHOULD_UPDATE });

@@ -15,7 +15,7 @@ import { logInUser } from "../../../redux/actions";
 export default function UserProfile() {
   const styles = useStyles(darkStyles, lightStyles);
   let [edit, setEdit] = useState(false);
-
+  const shouldUpdate = useSelector(state => state.shouldUpdate)
   let handleEdit = () => {
     setEdit(!edit);
   };
@@ -26,7 +26,9 @@ export default function UserProfile() {
 
   const dispatch = useDispatch();
   const userDetail = useSelector((state) => state.loggedUser);
-  useEffect(() => {}, [userDetail]);
+  useEffect(()=>{
+    dispatch(logInUser(userDetail.id))
+  },[shouldUpdate])
   // const { userDetail } = useSelector((state) => state);
 
   // FALTA TRAER EL COMPONENTE PurchaseHistory y pasarle por params las relaciones con buy para q muestre el historial
@@ -55,7 +57,8 @@ export default function UserProfile() {
   //       setEdit(!edit);
   //     });
   //   };
-  useEffect(() => {}, [dispatch]);
+  console.log(userDetail);
+  
 
   return (
     <div className={styles["user-profile-container"]}>
@@ -107,7 +110,7 @@ export default function UserProfile() {
             id={userDetail.id}
             address={userDetail.address}
             username={userDetail.username}
-            setEdit={setEdit}
+            setEdit = {setEdit}
           />
         ) : (
           <div className={styles["user-info"]}>
@@ -187,7 +190,7 @@ export default function UserProfile() {
             <h6>Create NFTs</h6>
           </div>
         )}
-
+  
         <div className={styles["history-purchases"]}>
           <PurchaseHistory
             purchases={userDetail.purchases}
