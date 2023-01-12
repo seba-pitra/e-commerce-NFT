@@ -1,8 +1,12 @@
 import React, { useState, useEffect } from "react";
 import NFTCard2 from "../../NFTCard/NFTCard2";
-import styles from "../stylesheets/HomePage.module.css";
+
+import darkStyles from "../stylesheets/DarkHomePage.module.css";
+import lightStyles from "../stylesheets/LightHomePage.module.css";
+import useStyles from "../../../customHooks/useStyles";
 
 const CardCarousel = ({ cards }) => {
+  const styles = useStyles(darkStyles, lightStyles);
   const [currentCardsRange, setCurrentCardsRange] = useState([0, 1, 2, 3]);
 
   const handleNextClick = () => {

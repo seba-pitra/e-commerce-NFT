@@ -4,18 +4,18 @@ import { useDispatch, useSelector } from "react-redux";
 import * as actions from "../../redux/actions";
 import { startPayment } from "../../utils";
 import { toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css"; 
+import "react-toastify/dist/ReactToastify.css";
 
 //dark-light theme
 import useStyles from "../../customHooks/useStyles";
-import darkStyles from "./stylesheets/DarkShoppingCart.module.css"
-import lightStyles from "./stylesheets/LightShoppingCart.module.css"
+import darkStyles from "./stylesheets/DarkShoppingCart.module.css";
+import lightStyles from "./stylesheets/LightShoppingCart.module.css";
 
 export default function Shoppingkart() {
   const shoppingCartContents = useSelector(
     (state) => state.shoppingCartContents
   );
-    
+
   const styles = useStyles(darkStyles, lightStyles);
   const dispatch = useDispatch();
 
@@ -84,49 +84,60 @@ export default function Shoppingkart() {
   }
 
   return (
-    <div className={styles["shopping-cart"]}>
-      <div className={styles["shopping-cart-nft-cards"]}>
-        {shoppingCartContents &&
-          shoppingCartContents.map((nft, index) => {
-            return (
-              <div key={index} className={styles["cart-nfts-container"]}>
-                <img
-                  src={nft.image}
-                  alt="nft-cart"
-                  className={styles["cart-nft-img"]}
-                />
-                <div>
-                  <p>{nft.name}</p>
-                <p className={styles["cart-nft-price"]}>
-                  <b className={styles["negrita"]}> ${(nft.price * 1271).toFixed(2)}  </b> USD
-                </p>
+    <div className={styles["shopping-cart-container"]}>
+      <div className={styles["shopping-cart"]}>
+        <div className={styles["shopping-cart-nft-cards"]}>
+          {shoppingCartContents &&
+            shoppingCartContents.map((nft, index) => {
+              return (
+                <div key={index} className={styles["cart-nfts-container"]}>
+                  <img
+                    src={nft.image}
+                    alt="nft-cart"
+                    className={styles["cart-nft-img"]}
+                  />
+                  <div>
+                    <p>{nft.name}</p>
+                    <p className={styles["cart-nft-price"]}>
+                      <b className={styles["negrita"]}>
+                        {" "}
+                        ${(nft.price * 1271).toFixed(2)}{" "}
+                      </b>{" "}
+                      USD
+                    </p>
+                    <button className={styles["button-buy-fast"]}>
+                      Buy Now
+                    </button>
+                  </div>
+                  <button
+                    className={styles["cart-nft-remove-button"]}
+                    onClick={() => handleRemoveButton(nft.id)}
+                  >
+                    X
+                  </button>
                 </div>
-                <button
-                  className={styles["cart-nft-remove-button"]}
-                  onClick={() => handleRemoveButton(nft.id)}
-                >
-                  X
-                </button>
-              </div>
-            );
-          })}
+              );
+            })}
+        </div>
       </div>
       <div className="text-center text-lg-bottom mt-4 pt-2">
         <h4>Total</h4>
         <p className={styles["cart-nft-price"]}>
-          <b className={styles["negrita"]}> ${(totalAmount * 1271).toFixed(2)} </b> USD
+          <b className={styles["negrita"]}>
+            ${(totalAmount * 1271).toFixed(2)}{" "}
+          </b>
+          USD
         </p>
         {/* <h4>Clear cart</h4> */}
       </div>
-      <div className="text-center text-lg-bottom mt-4 pt-2">
-        <Button
-          onClick={(e) => {
-            handleBuyNftsOnShoppingCart();
-          }}
-        >
-          checkout
-        </Button>
-      </div>
+      <button
+        className={styles["button-buy"]}
+        onClick={(e) => {
+          handleBuyNftsOnShoppingCart();
+        }}
+      >
+        Checkout
+      </button>
     </div>
   );
 }

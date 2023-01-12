@@ -1,8 +1,12 @@
 import React, { useState, useEffect } from "react";
 import NFTCard2 from "../../NFTCard/NFTCard2";
-import styles from "../stylesheets/HomePage.module.css";
+
+import darkStyles from "../stylesheets/DarkHomePage.module.css";
+import lightStyles from "../stylesheets/LightHomePage.module.css";
+import useStyles from "../../../customHooks/useStyles";
 
 const CardCarousel = ({ cards }) => {
+  const styles = useStyles(darkStyles, lightStyles);
   const [currentCardsRange, setCurrentCardsRange] = useState([0, 1, 2, 3]);
 
   const handleNextClick = () => {
@@ -54,7 +58,13 @@ const CardCarousel = ({ cards }) => {
       <div className={styles["main-conteiner-cards"]}>
         <h1>Most Viewed Nfts</h1>
         <div className={styles["conteiner-cards-buttons"]}>
-          <button onClick={handlePrevClick}>{"<"}</button>
+          <button
+            className={styles["carrousel-button"]}
+            onClick={handlePrevClick}
+          >
+            {"<"}
+          </button>
+
           <div className={styles["conteiner-cards"]}>
             {currentCardsRange.map((index) => (
               <NFTCard2
@@ -74,6 +84,7 @@ const CardCarousel = ({ cards }) => {
               />
             ))}
           </div>
+
           <button onClick={handleNextClick}>{">"}</button>
         </div>
       </div>

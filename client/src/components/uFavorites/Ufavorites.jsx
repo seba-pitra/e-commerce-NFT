@@ -12,13 +12,9 @@ export default function Ufavorites() {
 
   const dispatch = useDispatch();
 
-	const handleClickDelFavorites = (nftId) => {
-	dispatch(actions.delToFav(nftId));
-	console.log("FAVS HERE !!");
-	console.log(nftId);
-
-}
-
+  const handleClickDelFavorites = (nftId) => {
+    dispatch(actions.delToFav(nftId));
+  };
 
   return (
     <div className={styles["main-op"]}>
