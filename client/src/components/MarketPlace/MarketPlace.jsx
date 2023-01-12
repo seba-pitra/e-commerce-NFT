@@ -31,6 +31,7 @@ function MarketPlace({ loggedIn }) {
   useEffect(() => {
     dispatch(actions.getAllNfts());
     dispatch(actions.getAllCollections());
+    dispatch(actions.getEthPrice());
   }, []);
 
   const handleClose = () => setShowFilters(false);

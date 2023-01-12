@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: #fafafa;
+  background-color: #212121;
   padding: 50px 0px;
 }
 
@@ -15,7 +15,7 @@
 .collections-container {
   width: 420px;
   height: 340px;
-  border: 1px solid #f5f5f5;
+  border: 1px solid #424242;
   margin: 12px;
   border-radius: 20px;
   overflow: hidden;
@@ -31,19 +31,19 @@
 .collections-img-main {
   width: 420px;
   height: 280px;
-  background-color: #212121;
+  background-color: #FAFAFA;
 }
 
 .img-name-container {
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: #f5f5f5;
-  border-top: 1px solid #e0e0e0;
+  background-color: #424242;
+  border-top: 1px solid #757575;
 }
 
 .img-name-container:hover {
-  background-color: #e0e0e0;
+  background-color: #757575;
 }
 
 .collections-img-owner {
@@ -52,13 +52,13 @@
   position: relative;
   top: -35px;
   left: 35px;
-  border: 2px solid #e0e0e0;
+  border: 2px solid #757575;
   border-radius: 16px;
-  background-color: #212121;
+  background-color: #FAFAFA;
 }
 
 .collections-name {
-  color: #212121;
+  color: #FAFAFA;
   font-size: 16px;
   position: relative;
   left: 5px;
@@ -81,4 +81,38 @@
   position: relative;
   left: 45px;
   top: -5px;
+}
+
+.main-container-collections-nfts{
+  min-height: 96vh;
+  display: flex;
+  margin-top: 58px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #FAFAFA;
+  color: #212121;
+  padding: 12px;
+}
+
+.main-container-collections-nfts h1{
+  text-align: center;
+}
+
+.main-container-collections{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.container-collections{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }

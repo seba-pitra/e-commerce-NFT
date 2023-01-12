@@ -14,9 +14,7 @@
 
 .nftCard-image-info {
   width: 100%;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border-bottom: none;
+  border-radius: 10px;
   position: relative;
   overflow: hidden;
   transition: all 0.2s ease-in-out;
@@ -38,6 +36,20 @@
   color: #616161;
   position: absolute;
   margin-left: 5px;
+}
+
+.eth-rarity span{
+  font-size: 12px;
+}
+
+.eth-rarity .price-negrita{
+  color: #212121;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.card-stars span {
+  margin-top: 2.5px;
 }
 
 .card-stars span {
@@ -132,7 +144,7 @@
 
 .but-now-button {
   border: none;
-  transition: all 0.25s ease-in;
+  transition: all 0.2s ease-in;
   width: 80%;
   border-radius: 8px;
   z-index: 1;
@@ -144,7 +156,7 @@
   flex-direction: column;
   padding: 5px;
   border-radius: 5px;
-  bottom: -20px;
+  bottom: -40px;
   visibility: hidden;
   position: absolute;
   background: #d3448b;
@@ -237,7 +249,7 @@
 
 /* CARDS 2 */
 
-.nftCard-nameToken-separated{
+.nftCard-nameToken-separated {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -246,11 +258,11 @@
   color: #757575;
 }
 
-.nftCard-nameToken-separated h3{
+.nftCard-nameToken-separated h3 {
   color: #212121;
 }
 
-.nftCard-nameToken-separated b{
+.nftCard-nameToken-separated b {
   font-size: 18px;
   color: #212121;
 }
