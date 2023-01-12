@@ -8,12 +8,17 @@ import { useEffect } from "react";
 import * as actions from "../../redux/actions";
 import UncontrolledExample from "./Carousel/Carousel.jsx";
 
-import styles from "./stylesheets/HomePage.module.css";
-
+//dark-light theme
+import useStyles from "../../customHooks/useStyles";
+import darkStyles from "./stylesheets/DarkHomePage.module.css"
+import lightStyles from "./stylesheets/LightHomePage.module.css"
+  
 function HomePage() {
   const nfts = useSelector((state) => state.nfts);
   const collections = useSelector((state) => state.collections);
   const dispatch = useDispatch();
+    
+    const styles = useStyles(darkStyles, lightStyles);
 
   useEffect(() => {
     dispatch(actions.getAllNfts());
