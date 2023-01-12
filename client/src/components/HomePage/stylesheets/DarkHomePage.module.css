@@ -1,0 +1,227 @@
+.main-container-homepage {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: #212121;
+    margin-top: 58px;
+  }
+  
+  .main-container-homepage h1 {
+    margin-top: 40px;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-family: sans-serif;
+  }
+  
+  .main-container-homepage .verification-msj {
+    background-color: pink;
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    height: 26px;
+  }
+  
+  .main-carousel-images {
+    width: 80%;
+    margin: 30px;
+  }
+  
+  .conteiner-cards-buttons,
+  .conteiner-collections-buttons {
+    display: flex;
+    width: 100%;
+    color: white;
+  }
+  
+  .conteiner-cards-buttons button,
+  .conteiner-collections-buttons button {
+    position: relative;
+    top: 150px;
+    width: 36px;
+    height: 36px;
+    background-color: transparent;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: whitesmoke;
+  }
+  
+  .conteiner-collections-buttons button,
+  .conteiner-collections-buttons button:hover {
+    top: 224px;
+  }
+  
+  .conteiner-cards-buttons button:hover {
+    color: #d3448b;
+  }
+  
+  .collections-buttons button {
+    top: 224px;
+  }
+  
+  /* .buttons-paginated button{
+    background-color: transparent;
+    border: none;
+    color: whitesmoke;
+  }
+  
+  .buttons-paginated button:hover{
+    color: rgb(0, 255, 213);
+  } */
+  
+  .container-nfts {
+    width: 100%;
+    margin: 20px;
+  }
+  
+  /* CAROUSEL CARDS */
+  .main-conteiner-cards {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 0px 40px;
+  }
+  
+  .main-conteiner-cards h1 {
+    padding: 10px 4%;
+  }
+  
+  .conteiner-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 360px;
+    overflow: hidden;
+  }
+  
+  /* COLLECTION CARDS */
+  .conteiner-collections {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+  }
+  
+  .collections-conteiner img {
+    border-radius: 40px;
+    width: 500px;
+  }
+  
+  .name-floor-conteiner {
+    position: relative;
+    top: -70px;
+    left: 24px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .collection-name-conteiner {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .collection-name-conteiner h6 {
+    padding-top: 2px;
+    padding-left: 4px;
+    font-weight: 700;
+  }
+  
+  /* OTROS */
+  .display-flexrow {
+    display: flex;
+    flex-direction: row;
+  }
+  .separeted {
+    justify-content: space-around;
+  }
+  
+  /* COLLECTIONS TABLES */
+  .conteiner-collections-tables {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  
+  .conteiner-collections-tables-left-div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 760px;
+    border-right: 1px solid #424242;
+  }
+  
+  .conteiner-collections-tables-left-div span {
+    color: #bdbdbd;
+    font-size: 12px;
+  }
+  
+  .conteiner-collections-tables-right-div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 760px;
+  }
+  
+  .conteiner-collections-tables-right-div span {
+    color: #bdbdbd;
+    font-size: 12px;
+  }
+  
+  .line-separeted {
+    border-right: 1px solid #424242;
+  }
+  
+  .table-collection-main {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin: 20px;
+  }
+  
+  .table-collection-main img {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .table-collection-main-left {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  .table-collection-main-rigth {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  
+  .table-collection-name-conteiner {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color: #fafafa;
+    }
+  
+  .table-collection-name {
+    padding-top: 8px;
+    padding-left: 8px;
+  }
+  
+  .nolink {
+    text-decoration: none;
+  }
+  

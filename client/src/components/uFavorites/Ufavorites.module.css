@@ -1,43 +1,38 @@
 .main-op {
  display: flex;
+ justify-content: center;
  align-items: center;
- /* overflow: hidden; */
+ overflow: hidden;
 }
 
 .img-container {
   font-size: 18px;
   margin-bottom: 20px;
   padding: 5px;
-/*  background-color: #c59400; */
   color: #fff;
   border: solid 0px rgb(194, 194, 194);
   border-radius: 10px;
-  width: 140px;
-  height: 136px;
+  width: 160px;
+  height: 160px;
   margin-top: 5px;
   margin-left: 25px;
-
-  background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
-  radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
-
  }
 
 .img-container:hover{transform: scale(1.05);}
 
 
 .fav-nft-img {
-  height: 7em;
+  height: 9em;
   border-radius: 10px;
 }
 
 .favs-remove-button {
  position: relative;
- margin-left: 120px;
- top: -140px;
- border-radius: 20%; 
- background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
-  radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
-
-color: white;
+ margin-left: 130px;
+ top: -170px;
+ font-size: 28px;
+ background-color: transparent;
+ border: none;
+ color: white;
 /* height:22px */
 }
