@@ -1,9 +1,13 @@
 import VerifiedIcon from "@mui/icons-material/Verified";
 import { Link } from "react-router-dom";
 import React, { useState, useEffect } from "react";
-import styles from "../stylesheets/HomePage.module.css";
+
+import lightStyles from "../stylesheets/LightHomePage.module.css";
+import darkStyles from "../stylesheets/DarkHomePage.module.css";
+import useStyles from "../../../customHooks/useStyles";
 
 const CollectionTable = ({ cards }) => {
+  const styles = useStyles(darkStyles, lightStyles);
   const currentCardsRange = [0, 1, 2, 3, 4];
   const currentCardsRange2 = [5, 6, 7, 8, 9];
 
@@ -17,7 +21,7 @@ const CollectionTable = ({ cards }) => {
 
             <div className={styles["table-collection-main"]}>
               <div className={styles["table-collection-main-left"]}>
-                <span>Colections</span>
+                <span>Collections</span>
               </div>
 
               <div className={styles["table-collection-main-rigth"]}>
@@ -76,12 +80,22 @@ const CollectionTable = ({ cards }) => {
           <div className={styles["conteiner-collections-tables-right-div"]}>
             <div className={styles["table-collection-main"]}>
               <div className={styles["table-collection-main-left"]}>
-                <span>Colections</span>
+                <span
+                  className={
+                    styles["table-collection-main-left-colections-span"]
+                  }
+                >
+                  Collections
+                </span>
               </div>
 
               <div className={styles["table-collection-main-rigth"]}>
-                <span>Floor Price</span>
-                <span>Volumen</span>
+                <span className={styles["table-collection-main-rigth-price"]}>
+                  Floor Price
+                </span>
+                <span className={styles["table-collection-main-rigth-price"]}>
+                  Volumen
+                </span>
               </div>
             </div>
 
