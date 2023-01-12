@@ -31,7 +31,7 @@ export function useLoggedUser() {
         localStorage.removeItem("loggedUser");
         dispatch(logOutUser());
     }
-    console.log("localStorage "+  localStorage.getItem('loggedUser'))
-    console.log([loggedUser, updateLoggedUser, handleLogOut])
+    // console.log("localStorage "+  localStorage.getItem('loggedUser'))
+    // console.log([loggedUser, updateLoggedUser, handleLogOut])
     return [loggedUser, updateLoggedUser, handleLogOut];
 }
