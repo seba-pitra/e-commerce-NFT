@@ -79,8 +79,10 @@ export const ADD_BUY_AT_HISTORY_BUYS = "ADD_BUY_AT_HISTORY_BUYS";
 
 // -- FAVS --
 export const ADD_FAV = "ADD_FAV";
+export const DEL_FAV = "DEL_FAV";
 export const REMOVE_FROM_FAVS = "REMOVE_FROM_FAVS";
 export const DELETE_FAVS_ON_SIGN_OUT = "DELETE_FAVS_ON_SIGN_OUT";
+
 
 // -- THEMES SWITCH
 export const TOGGLE_THEME = "TOGGLE_THEME";
@@ -573,6 +575,10 @@ export const sendFungibleMail = (sendData) => {
 // --- FAVS ---
 export const addToFav = (payload) => {
   return { type: ADD_FAV, payload };
+};
+
+export const delToFav = (payload) => {
+	return {type: DEL_FAV, payload };
 };
 
 export const removeFromFav = (nftId) => {
