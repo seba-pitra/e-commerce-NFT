@@ -1,5 +1,6 @@
 import { React, useState } from "react";
 import { useLocation, useHistory } from "react-router-dom";
+import { Link } from "react-router-dom";
 import FavoriteIcon from "@material-ui/icons/Favorite";
 import styles from "./Ufavorites.module.css";
 import { useDispatch, useSelector } from "react-redux";
@@ -25,14 +26,16 @@ export default function Ufavorites() {
         {userFavs &&
           userFavs.map((idx, index) => {
             return (
-              <div key={index} className={styles["img-container"]}>
-                <img
-                  src={idx.image}
-                  alt="nft"
-                  className={styles["fav-nft-img"]}
-                />
-                <button className={styles["favs-remove-button"]} onClick={() => handleClickDelFavorites(idx.id)}>×</button>
-              </div>
+              <Link className={styles.link} to={`/details/${idx.id}`}>
+                <div key={index} className={styles["img-container"]}>
+                  <img
+                    src={idx.image}
+                    alt="nft"
+                    className={styles["fav-nft-img"]}
+                  />
+                  <button className={styles["favs-remove-button"]} onClick={() => handleClickDelFavorites(idx.id)}>×</button>
+                </div>
+              </Link>
             );
           })}
       </div>

@@ -69,7 +69,7 @@ export default function NFTNav() {
               </Navbar.Text>
             </Link>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="navbarScroll" />
+          <Navbar.Toggle aria-controls="navbarScroll" style={ activeThemeIsDark ? { backgroundColor: "#fafafa" } :  { backgroundColor: "#212121" } } /> 
 
           <Navbar.Collapse
             className={styles["nav-bar-company-links-container"]}

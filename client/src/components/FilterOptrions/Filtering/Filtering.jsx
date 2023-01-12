@@ -25,6 +25,8 @@ export default function Filtering() {
 
   const [showFilters, setShowFilters] = useState(false);
 
+  const  isDark  = useSelector((state) => state.activeThemeIsDark);
+
   const handleClose = () => setShowFilters(false);
   const handleShow = () => {
     setShowFilters(true);
@@ -153,7 +155,7 @@ export default function Filtering() {
 
   return (
     <div className={styles["filters-container"]}>
-      <FilterAltIcon
+      <FilterAltIcon  style={ isDark ? { color: "#fafafa" } :  { color: "#212121" } }
         className={styles["filter-icon"]}
         fontSize="large"
         onClick={handleShow}

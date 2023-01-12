@@ -146,8 +146,8 @@ export default function NFTCard(props) {
                 </div>
               </div>
               <div className={styles["eth-rarity"]}>
-                <h3>ETH {props.price}</h3>
-                <h3>${(props.lastBuy * ethPrice.USD).toFixed(2)} USD</h3>
+                <span><span className={styles["price-negrita"]}>{props.price}</span> ETH</span>
+                <span> <span className={styles["price-negrita"]}>${(props.lastBuy * ethPrice.USD).toFixed(2)}</span> USD</span>
               </div>
             </div>
           </Link>
