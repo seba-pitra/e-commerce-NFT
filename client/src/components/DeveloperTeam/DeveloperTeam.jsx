@@ -48,12 +48,17 @@ const DeveloperTeam = (props) => {
                 Valentin Coellar
               </h1>
               <p className={styles["about-accordion-description"]}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-                eget. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Dolore voluptatem reprehenderit velit ab in itaque minima facere
-                quo, aspernatur amet perferendis sint excepturi incidunt!
-                Deserunt distinctio impedit numquam repudiandae illum!
+               
+<p>Dynamic and ambitious software developer.</p>
+
+<p>A personable and friendly individual, with excellent communication skills,
+a positive attitude and an unwavering commitment to delivering high-quality results.</p>
+
+	  <p>
+	  With a true passion for technology and the drive to constantly learn and evolve, 
+	  this developer is a valuable asset to any team looking to push the boundaries of what's possible with web development.
+	  </p>
+"show me the code !!" is my motto.
               </p>
               <div>
                 <h2>Find me: </h2>
@@ -61,7 +66,7 @@ const DeveloperTeam = (props) => {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://www.linkedin.com/"
+                    href="https://www.linkedin.com/in/valentin-coellar-746a833b/"
                     className={isDark ? "text-white me-4" : "text-dark me-4"}
                   >
                     <LinkedInIcon />
@@ -69,7 +74,7 @@ const DeveloperTeam = (props) => {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://github.com/seba-pitra/e-commerce-NFT"
+                    href="https://github.com/valcoellar"
                     className={isDark ? "text-white me-4" : "text-dark me-4"}
                   >
                     <GitHubIcon />

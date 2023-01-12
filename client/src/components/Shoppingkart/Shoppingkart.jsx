@@ -2,16 +2,21 @@ import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import { useDispatch, useSelector } from "react-redux";
 import * as actions from "../../redux/actions";
-import styles from "./ShoppingCart.module.css";
 import { startPayment } from "../../utils";
 import { toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import "react-toastify/dist/ReactToastify.css"; 
+
+//dark-light theme
+import useStyles from "../../customHooks/useStyles";
+import darkStyles from "./stylesheets/DarkShoppingCart.module.css"
+import lightStyles from "./stylesheets/LightShoppingCart.module.css"
 
 export default function Shoppingkart() {
   const shoppingCartContents = useSelector(
     (state) => state.shoppingCartContents
   );
-
+    
+  const styles = useStyles(darkStyles, lightStyles);
   const dispatch = useDispatch();
 
   const handleBuyNftsOnShoppingCart = async () => {
@@ -91,10 +96,10 @@ export default function Shoppingkart() {
                   className={styles["cart-nft-img"]}
                 />
                 <div>
-                  <p>Price</p>
-                  <p className={styles["cart-nft-price"]}>
-                    ${(nft.price * 1271).toFixed(2)} USD
-                  </p>
+                  <p>{nft.name}</p>
+                <p className={styles["cart-nft-price"]}>
+                  <b className={styles["negrita"]}> ${(nft.price * 1271).toFixed(2)}  </b> USD
+                </p>
                 </div>
                 <button
                   className={styles["cart-nft-remove-button"]}
@@ -107,9 +112,11 @@ export default function Shoppingkart() {
           })}
       </div>
       <div className="text-center text-lg-bottom mt-4 pt-2">
-        <h3>Total</h3>
-        <h3>${(totalAmount * 1271).toFixed(2)} USD</h3>
-        <h4>Clear cart</h4>
+        <h4>Total</h4>
+        <p className={styles["cart-nft-price"]}>
+          <b className={styles["negrita"]}> ${(totalAmount * 1271).toFixed(2)} </b> USD
+        </p>
+        {/* <h4>Clear cart</h4> */}
       </div>
       <div className="text-center text-lg-bottom mt-4 pt-2">
         <Button

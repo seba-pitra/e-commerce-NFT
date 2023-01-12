@@ -18,6 +18,13 @@
   }
 }
 
+.conteiner-shopping-cart{
+  background-color: #212121;
+  color: #fafafa;
+  border-left: 1px solid #626262;
+  height: 100vh;
+}
+
 .nav-bar-company-links-container {
   display: flex;
   width: 100%;
@@ -76,8 +83,8 @@
 
 .cart_Numer_Items {
   position: relative;
-  top: -33px;
-  left: 55%;
+  top: -30px;
+  left: 75%;
   background: transparent;
   width: 16px;
   height: 16px;

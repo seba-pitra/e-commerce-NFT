@@ -31,7 +31,7 @@ export default function NFTCard(props) {
     dispatch(actions.addNftOnShoppingCart(props));
   };
 
-  const handleClickOnFavorites = () => {
+  const handleClickOnFavorites = (e) => {
     dispatch(actions.addToFav(props));
   };
 

@@ -17,7 +17,6 @@ import UserIcon from "./UserIcon/UserIcon";
 import ProfilePicture from "../UserComponents/ProfilePicture/Profile.Picture";
 
 import useStyles from "../../customHooks/useStyles";
-// import styles from "./stylesheets/NFTNav.module.css";
 import lightStyles from "./stylesheets/LightNFTNav.module.css";
 import darkStyles from "./stylesheets/DarkNFTNav.module.css";
 
@@ -125,12 +124,15 @@ export default function NFTNav() {
 
             {/* slide kart*/}
             <Offcanvas show={show} onHide={handleClose} placement={"end"}>
+              <div className={styles["conteiner-shopping-cart"]}>
+
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title>Your Shopping Cart</Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Shoppingkart />
               </Offcanvas.Body>
+              </div>
             </Offcanvas>
 
             {/* favorites comp */}

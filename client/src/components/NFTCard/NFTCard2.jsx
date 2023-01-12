@@ -4,12 +4,13 @@ import { useDispatch, useSelector } from "react-redux";
 import FavoriteIcon from "@material-ui/icons/Favorite";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 import * as actions from "../../redux/actions";
-import ethereumLogo from "../../images/ethereum-logo.png";
-import "./NFTCard.css";
-import styles from "./stylesheets/NFTCard.module.css";
+import darkStyles from "./stylesheets/DarkNFTCard.module.css";
+import lightStyles from "./stylesheets/LightNFTCard.module.css";
+import useStyles from "../../customHooks/useStyles";
 
 export default function NFTCard(props) {
   const dispatch = useDispatch();
+  const styles = useStyles(darkStyles, lightStyles);
 
   const handleClickOnShoppingCart = (e) => {
     dispatch(actions.addNftOnShoppingCart(props));
@@ -36,16 +37,9 @@ export default function NFTCard(props) {
           </div>
 
           <div className={styles["bottom-img-info"]}>
-            <div className={styles["nftCard-nameToken separeted"]}>
+            <div className={styles["nftCard-nameToken-separated"]}>
               <h3>{props.name}</h3>
-              <div className={styles["display-flexrow"]}>
-                <img
-                  src={ethereumLogo}
-                  alt="ethereum-logo"
-                  className={styles["eth-logo"]}
-                />
-                <h3>{props.price.toFixed(3)}</h3>
-              </div>
+              <span> <b>{props.price.toFixed(3)}</b> ETH </span>
             </div>
           </div>
         </Link>
