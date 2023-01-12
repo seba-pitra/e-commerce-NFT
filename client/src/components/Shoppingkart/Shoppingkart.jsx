@@ -2,34 +2,37 @@ import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import { useDispatch, useSelector } from "react-redux";
 import * as actions from "../../redux/actions";
-import styles from "./ShoppingCart.module.css";
 import { startPayment } from "../../utils";
 import { toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import "react-toastify/dist/ReactToastify.css"; 
+
+//dark-light theme
+import useStyles from "../../customHooks/useStyles";
+import darkStyles from "./stylesheets/DarkShoppingCart.module.css"
+import lightStyles from "./stylesheets/LightShoppingCart.module.css"
 
 export default function Shoppingkart() {
-  const shoppingCartContents = useSelector((state) => state.shoppingCartContents);
-
-  const [error, setError] = useState();
-  const [txs, setTxs] = useState([]);
-
+  const shoppingCartContents = useSelector(
+    (state) => state.shoppingCartContents
+  );
+    
+  const styles = useStyles(darkStyles, lightStyles);
   const dispatch = useDispatch();
 
   const handleBuyNftsOnShoppingCart = async () => {
     //localStorage for payment for mercago pago in component "PayResult"
-    localStorage.setItem("nftsOnShoppingCart", JSON.stringify(shoppingCartContents));
+    localStorage.setItem(
+      "nftsOnShoppingCart",
+      JSON.stringify(shoppingCartContents)
+    );
     dispatch(actions.buyNftOnShoppingCart(shoppingCartContents));
-    console.log(shoppingCartContents)
-    localStorage.setItem("compras", JSON.stringify(shoppingCartContents))
+    console.log(shoppingCartContents);
+    localStorage.setItem("compras", JSON.stringify(shoppingCartContents));
     // test only >> dispatch(actions.sendFungibleMail({correoUser: "yomero@gmail.com",accion: "pago"}));
   };
 
   const handlePay = async ({ nftPrice, nftContract, nftObj }) => {
-    setError();
-
     const transactionMetamask = await startPayment({
-      setError,
-      setTxs,
       ether: nftPrice.toString(),
       addr: nftContract,
     });
@@ -53,9 +56,6 @@ export default function Shoppingkart() {
       };
     } else if (transactionMetamask.includes("rejected")) {
       //si se rechazo en metamask
-      toast.error("Something was wrong. Try again later", {
-        position: "bottom-left",
-      });
       metamaskBuyData = {
         ...metamaskBuyData,
         statusPay: "Rejected",
@@ -89,31 +89,17 @@ export default function Shoppingkart() {
         {shoppingCartContents &&
           shoppingCartContents.map((nft, index) => {
             return (
-              <div 
-                key={index}
-                className={styles["cart-nfts-container"]}>
+              <div key={index} className={styles["cart-nfts-container"]}>
                 <img
                   src={nft.image}
                   alt="nft-cart"
                   className={styles["cart-nft-img"]}
                 />
                 <div>
-                  <p>Price</p>
-                  <p className={styles["cart-nft-price"]}>
-                    ${(nft.price * 1271).toFixed(2)} USD
-                  </p>
-                  <button
-                    className={styles["button-buy-fast"]}
-                    onClick={() =>
-                      handlePay({
-                        nftPrice: nft.price,
-                        nftContract: nft.contract,
-                        nftObj: nft,
-                      })
-                    }
-                  >
-                    Buy fast
-                  </button>
+                  <p>{nft.name}</p>
+                <p className={styles["cart-nft-price"]}>
+                  <b className={styles["negrita"]}> ${(nft.price * 1271).toFixed(2)}  </b> USD
+                </p>
                 </div>
                 <button
                   className={styles["cart-nft-remove-button"]}
@@ -124,13 +110,13 @@ export default function Shoppingkart() {
               </div>
             );
           })}
-        {error && <p>{error}</p>}
-        {txs && <p>{txs}</p>}
       </div>
       <div className="text-center text-lg-bottom mt-4 pt-2">
-        <h3>Total</h3>
-        <h3>${(totalAmount * 1271).toFixed(2)} USD</h3>
-        <h4>Clear cart</h4>
+        <h4>Total</h4>
+        <p className={styles["cart-nft-price"]}>
+          <b className={styles["negrita"]}> ${(totalAmount * 1271).toFixed(2)} </b> USD
+        </p>
+        {/* <h4>Clear cart</h4> */}
       </div>
       <div className="text-center text-lg-bottom mt-4 pt-2">
         <Button

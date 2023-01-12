@@ -353,8 +353,7 @@ I am a dynamic and intelligent programmer, dedicated and committed to my work.</
 	  <p>I love learning and am constantly seeking new opportunities to grow professionally. My balanced approach and commitment to excellence are some of the characteristics that define me as a programmer. My motto is "Callme Bugs Slayer"
 
 
-
-
+              Con una gran pasión por aprender, me considero un joven programador con una gran habilidad para colaborar en proyectos. He trabajado con lenguajes de programación como JavaScript, React, HTML, CSS, y actualmente estoy estudiando Java. Me esfuerzo por utilizar la tecnología de manera inteligente para solucionar problemas de manera eficiente y efectiva. Siempre estoy dispuesto a adquirir nuevas habilidades y trabajo duro para ayudar a mi equipo y resolver problemas.
               </p>
               <div>
                 <h2>Find me: </h2>

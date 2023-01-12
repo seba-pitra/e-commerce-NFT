@@ -6,6 +6,7 @@ import Login from "../Login/Login";
 import { useState } from "react";
 import Register from "../Registrer/Registrer";
 import Recovery from "../Recovery/Recovery";
+import useAuth from "../../customHooks/useAuth";
 
 function LandingPage() {
   //The changes of classname is executing in the "onClick" event of buttons
@@ -13,7 +14,7 @@ function LandingPage() {
   const [loginClass, setLoginClass] = useState("disabled-container");
   const [registerClass, setRegisterClass] = useState("disabled-container");
   const [recoveryClass, setRecoveryClass] = useState("disabled-container");
-
+  
   return (
     <div className={styles["landing"]}>
       <div className={styles[customClass]}>

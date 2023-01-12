@@ -17,7 +17,6 @@ import UserIcon from "./UserIcon/UserIcon";
 import ProfilePicture from "../UserComponents/ProfilePicture/Profile.Picture";
 
 import useStyles from "../../customHooks/useStyles";
-// import styles from "./stylesheets/NFTNav.module.css";
 import lightStyles from "./stylesheets/LightNFTNav.module.css";
 import darkStyles from "./stylesheets/DarkNFTNav.module.css";
 
@@ -59,8 +58,6 @@ export default function NFTNav() {
     );
   };
 
-  // className={styles[]}
-
   return (
     <div className={areWeInLanding ? "hidden" : "nav-bar"}>
       <Navbar className={styles["nav-bar-container"]} expand="lg">
@@ -83,14 +80,14 @@ export default function NFTNav() {
               Explore
             </Link>
             <Link
-              className={styles["nav-bar-link"]}
-              // className={`brand-colorized-text ${
-              //   loggedUser
-              //     ? loggedUser.type === "Basic"
-              //       ? styles["noneDisplay"]
-              //       : styles["nav-bar-link"]
-              //     : ""
-              // }`}
+              // className={styles["nav-bar-link"]}
+              className={`brand-colorized-text ${
+                loggedUser
+                  ? loggedUser.type === "Basic"
+                    ? styles["noneDisplay"]
+                    : styles["nav-bar-link"]
+                  : styles["nav-bar-link"]
+              }`}
               to="/createNft"
             >
               Create
@@ -127,12 +124,15 @@ export default function NFTNav() {
 
             {/* slide kart*/}
             <Offcanvas show={show} onHide={handleClose} placement={"end"}>
+              <div className={styles["conteiner-shopping-cart"]}>
+
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title>Your Shopping Cart</Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Shoppingkart />
               </Offcanvas.Body>
+              </div>
             </Offcanvas>
 
             {/* favorites comp */}
@@ -149,8 +149,8 @@ export default function NFTNav() {
             {/* </Nav> */}
           </Navbar.Collapse>
         </Container>
+        <UserIcon setVisible={handleShowUserList} visible={showUserList} />
       </Navbar>
-      <UserIcon setVisible={handleShowUserList} visible={showUserList} />
     </div>
   );
 }
