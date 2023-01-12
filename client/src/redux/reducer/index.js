@@ -58,7 +58,8 @@ import {
   DELETE_FAVS_ON_SIGN_OUT,
   REMOVE_FROM_FAVS,
   LOCAL_STORAGE_THEME,
-  SHOULD_UPDATE
+  SHOULD_UPDATE,
+  UPDATE_LOGGED_USER
 } from "../actions";
 import * as controllers from "../../utils";
 import { toast } from "react-toastify";
@@ -158,6 +159,10 @@ const rootReducer = (state = initialState, action) => {
         ...state,
         loggedUser: action.payload,
       };
+    case UPDATE_LOGGED_USER:
+      console.log(action.payload);
+    // Actualiza el estado con los nuevos datos del usuario
+      return { ...state, loggedUser: action.payload };
     case LOG_IN:
       return { ...state, loggedUser: action.payload };
     case LOG_IN_SUCCESS:

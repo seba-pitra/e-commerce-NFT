@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { useHistory } from "react-router-dom";
+import { useLoggedUser } from "../../customHooks/useLoggedUser";
 import * as actions from "../../redux/actions/index";
 // import "./AdminDashboard.css";
 
@@ -13,7 +13,9 @@ import DoughChart from "./Charts/DougnoutChart.jsx";
 import Loading from "../Loading/Loading";
 
 const AdminDashboard = () => {
-  const { adminNfts, adminUsers, collections, loggedUser, shouldUpdate } = useSelector(
+  const [loggedUser, updateLoggedUser, handleLogOut] = useLoggedUser();
+
+  const { adminNfts, adminUsers, collections, shouldUpdate } = useSelector(
     (state) => state
   );
 

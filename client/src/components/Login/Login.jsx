@@ -6,12 +6,14 @@ import * as helpers from "./LoginHelpers";
 import * as actions from "../../redux/actions";
 import * as utils  from "../../utils";
 import styles from "./stylesheets/Login.module.css";
+import { useLoggedUser } from "../../customHooks/useLoggedUser";
 
 // sendPasswordResetEmail
 
 const Login = () => {
   const dispatch = useDispatch();
   const history = useHistory();
+  const [loggedUser, updateLoggedUser, handleLogOut] = useLoggedUser();
   const [logginForm, setLogginForm] = useState({
     email: "",
     password: "",

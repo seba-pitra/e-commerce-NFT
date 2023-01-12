@@ -8,6 +8,7 @@ import * as actions from "../../../redux/actions";
 import darkStyles from "./stylesheets/DarkCreateNFT.module.css";
 import lightStyles from "./stylesheets/LightCreateNFT.module.css";
 import useStyles from "../../../customHooks/useStyles";
+import { useLoggedUser } from "../../../customHooks/useLoggedUser"
 
 export default function CreateNFT({
   createdNft,
@@ -18,8 +19,8 @@ export default function CreateNFT({
   next,
 }) {
   const styles = useStyles(darkStyles, lightStyles);
-
-  const user = useSelector((state) => state.loggedUser);
+  const [loggedUser, updateLoggedUser, handleLogOut] = useLoggedUser()
+  const user = loggedUser;
   const dispatch = useDispatch();
 
   const handleChange = (e) => {
