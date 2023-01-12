@@ -16,7 +16,6 @@ export function useLoggedUser() {
         if (storedData) {
             dispatch(updateLoggedUser(storedData));
         }
-        console.warn("i should appear")
     }, [loginStatus, Object.keys(loggedUser).length]);
 
     // Actualiza el almacenamiento local cuando cambia el estado del usuario
@@ -31,7 +30,5 @@ export function useLoggedUser() {
         localStorage.removeItem("loggedUser");
         dispatch(logOutUser());
     }
-    console.log("localStorage "+  localStorage.getItem('loggedUser'))
-    console.log([loggedUser, updateLoggedUser, handleLogOut])
     return [loggedUser, updateLoggedUser, handleLogOut];
 }

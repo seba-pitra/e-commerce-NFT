@@ -61,8 +61,8 @@ function App() {
   // // DESCOMENTAR PARA TESTING
    useEffect(() => {
     const unsubscribe = store.subscribe(() => {
-       console.log(store.getState().loginStatus)
-       console.log(store.getState().loggedUser)
+       /* console.log(store.getState().loginStatus)
+       console.log(store.getState().loggedUser) */
     })
     return unsubscribe
    }, [store.getState().loginStatus, store.getState().loggedUser]) 

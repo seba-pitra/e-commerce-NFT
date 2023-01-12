@@ -1,17 +1,19 @@
 .dashboard-container {
   display: flex;
-  align-items: center;
   flex-direction: column;
-  background-color: #1c2331;
-  padding-left: 50px;
+  align-items: center;
+  justify-content: center;
+  background-color: #212121;
   margin-top: 58px;
 }
+
 .dashboard-container h3 {
   padding: 5px 0 10px 10px;
   color: rgba(211, 68, 139, 1);
   border-bottom: 4px solid rgba(211, 68, 139, 1);
   margin-bottom: 20px;
 }
+
 .dashboard-barchart {
   display: flex;
   width: calc(100vw * 0.8);
@@ -21,30 +23,82 @@
   box-shadow: 0 0 10px #151b25;
   margin: 20px 0;
 }
-.dahsboard-nfts,
+
+@media (max-width: 1050px) {
+  .dashboard-barchart {
+  }
+}
+
+.dashboard-users-info-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.dashboard-users-info {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+@media (max-width: 1050px) {
+  .dashboard-users-info {
+    flex-direction: column;
+  }
+}
+
+.dasboard-left-side {
+  width: calc(100vw * 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 30px 0;
+  align-items: center;
+}
+
+.dashboard-nfts,
 .dashboard-users,
 .dashboard-verify {
   display: flex;
   flex-direction: column;
-  width: fit-content;
+  width: 800px;
   background-color: #232c3d;
   border-radius: 10px;
   box-shadow: 0 0 10px #151b25;
   padding: 0 10px 5px 10px;
   margin-bottom: 20px;
 }
-.dashboard-users {
-  margin: 0 20px 0 0;
+
+@media (max-width: 1050px) {
+  .dashboard-verify {
+    width: 90%;
+  }
 }
-.dashboard-users-info {
+
+.dashboard-users {
+  width: 850px;
+}
+
+@media (max-width: 1050px) {
+  .dashboard-users,
+  .dashboard-verify,
+  .dashboard-nfts {
+    width: 90%;
+  }
+}
+
+/* .dashboard-users-info {
   width: calc(100vw * 0.8);
   margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 .dashboard-users-info {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
 }
-.dasboard-left-side {
-  width: calc(100vw * 0.8);
-}
+*/

@@ -77,8 +77,6 @@ const NFTList_dash = ({ users, nfts, verifyingUsers }) => {
     setCp(cp - 1);
   };
 
-  // className={styles[]}
-
   return (
     <div className={styles["nfts-dash-container"]}>
       <div className={styles["nft-dash-search-container"]}>
@@ -122,7 +120,7 @@ const NFTList_dash = ({ users, nfts, verifyingUsers }) => {
           </div>
         </div>
       ) : verifyingUsers ? (
-        <div className={styles["dash-nfts-titles"]}>
+        <div className={styles["dash-vUsers-titles"]}>
           <div className={styles["dash-vUsers-fn"]}>
             <p>Full Name</p>
           </div>
@@ -133,7 +131,7 @@ const NFTList_dash = ({ users, nfts, verifyingUsers }) => {
             <p>Age</p>
           </div>
           <div className={styles["dash-vUsers-pn"]}>
-            <p>PhoneNumber</p>
+            <p>Phone</p>
           </div>
           <div className={styles["dash-vUsers-nc"]}>
             <p>Nacionality</p>
@@ -156,8 +154,6 @@ const NFTList_dash = ({ users, nfts, verifyingUsers }) => {
         </div>
       )}
 
-      {/* Conditional Div (nft/user) */}
-      {/* Conditional Div (nft/user) */}
       {users ? (
         <div className={styles["dash-nfts-list"]}>
           {displayNFTs.map((user) => (
@@ -203,7 +199,6 @@ const NFTList_dash = ({ users, nfts, verifyingUsers }) => {
           ))}
         </div>
       )}
-      {/* Conditional Div (nft/user) */}
     </div>
   );
 };
