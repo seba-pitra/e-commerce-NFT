@@ -12,6 +12,8 @@ export const LOG_OUT = "LOG_OUT";
 export const LOG_IN_SUCCESS = "LOG_IN_SUCCESS";
 export const LOG_OUT_SUCCESS = "LOG_OUT_SUCCESS";
 export const ASKED_FOR_VERIFICATION = "ASKED_FOR_VERIFICATION";
+export const UPDATE_LOGGED_USER = 'UPDATE_LOGGED_USER';
+export const LOGOUT_USER = 'LOGOUT_USER';
 
 // -- GETTERS --
 export const GET_ALL_NFTS = "GET_ALL_NFTS";
@@ -315,6 +317,15 @@ export const rejectVerification = (userId) => {
     }
   };
 }
+
+// actions.js
+
+// Acción para actualizar el estado y almacenamiento local del usuario
+export function updateLoggedUser(userData) {
+  return { type: UPDATE_LOGGED_USER, payload : userData };
+}
+
+
 // --- SETTERS ---
 
 export const setCollections = (payload) => {
