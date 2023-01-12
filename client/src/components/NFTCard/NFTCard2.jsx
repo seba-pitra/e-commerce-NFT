@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import FavoriteIcon from "@material-ui/icons/Favorite";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 import * as actions from "../../redux/actions";
+
 import darkStyles from "./stylesheets/DarkNFTCard.module.css";
 import lightStyles from "./stylesheets/LightNFTCard.module.css";
 import useStyles from "../../customHooks/useStyles";
@@ -39,7 +40,10 @@ export default function NFTCard(props) {
           <div className={styles["bottom-img-info"]}>
             <div className={styles["nftCard-nameToken-separated"]}>
               <h3>{props.name}</h3>
-              <span> <b>{props.price.toFixed(3)}</b> ETH </span>
+              <span>
+                {" "}
+                <b>{props.price.toFixed(3)}</b> ETH{" "}
+              </span>
             </div>
           </div>
         </Link>

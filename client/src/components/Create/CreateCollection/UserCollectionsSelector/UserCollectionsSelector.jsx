@@ -11,7 +11,9 @@ export default function UserCollectionsSelector({user, styles, selectCollection,
     useEffect(()=> {
         dispatch(actions.logInUser(user.id))
     }, [shouldUpdate])
-
+    useEffect(()=> {
+        console.log('asddsaasdads')
+    }, [checked])
     const userCollectionsChecks = user.collections?.map((collection) => (
         <div className={styles["created-collections"]}>
         <label htmlFor={collection.id}>

@@ -1,8 +1,8 @@
 .main-op {
- display: flex;
- justify-content: center;
- align-items: center;
- overflow: hidden;
+  overflow-x: scroll;
+  height: fit-content;
+  overflow-y: hidden;
+  height: 200px;
 }
 
 .img-container {
@@ -16,10 +16,11 @@
   height: 160px;
   margin-top: 5px;
   margin-left: 25px;
- }
+}
 
-.img-container:hover{transform: scale(1.05);}
-
+.img-container:hover {
+  transform: scale(1.05);
+}
 
 .fav-nft-img {
   height: 9em;
@@ -27,12 +28,11 @@
 }
 
 .favs-remove-button {
- position: relative;
- margin-left: 130px;
- top: -170px;
- font-size: 28px;
- background-color: transparent;
- border: none;
- color: white;
-/* height:22px */
+  position: relative;
+  margin-left: 130px;
+  top: -170px;
+  font-size: 28px;
+  background-color: transparent;
+  border: none;
+  color: white;
 }
