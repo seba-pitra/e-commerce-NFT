@@ -8,29 +8,47 @@ import Offcanvas from "react-bootstrap/Offcanvas";
 import * as helpers from "./OrderingHelpers"
 
 import styles from "./stylesheets/Ordering.module.css";
-import { formHelperTextClasses } from "@mui/material";
+import { createFilterOptions, formHelperTextClasses } from "@mui/material";
 
 export default function Ordering() {
   //estos estados son para cambiar el estilo.
   const [option, setOption]= useState("");
   const [showOrders, setShowOrders] = useState(false);
   const  isDark  = useSelector((state) => state.activeThemeIsDark);
-  const orderDirection = useSelector((state) => state.orderDirection);
+  const [arrowUp, setArrowUp] = useState(false);
+  const [showArrow, setShowArrow] = useState(false);
 
-  const handleClose = () => setShowOrders(false);
+  const handleClose = () => {
+    setShowArrow(false);
+    setShowOrders(false)
+  };
   const handleShow = () => {
     setShowOrders(true);
   };
 
-  // const [amountOrderUp, setAmountOrderUp] = useState(true);
-  // const [releaseOrderUp, setReleaseOrderUp] = useState(true);
+  const orderingOptions = [
+                    "name",
+                    "price",
+                    "rarity",
+                    "favs",
+                    "stars",
+                    "lastbuy",
+                    "createdts",
+                  ];
 
   const dispatch = useDispatch();
 
-  const changeOrderDirection = (option) => {
+  const changeOrderDirection = (optionValue) => {
+    setArrowUp(!arrowUp)
     dispatch(actions.changeOrderDirection());
-    helpers.orderOptionDispatcher(dispatch, option);
+    helpers.orderOptionDispatcher(dispatch, optionValue);
   };
+
+  const selectOrderType = (e) =>{
+    setShowArrow(true)
+    setOption(e.target.value)
+    helpers.orderOptionDispatcher(dispatch, e.target.value);
+  }
 
   return (
     <div className={styles["sort-container"]}>
@@ -50,30 +68,32 @@ export default function Ordering() {
           <div className="button-list">
             <button
               id="name-option"
-              className={
-                nameOrderUp ? styles["btn-order-down"] : styles["btn-order-up"]
-              }
-              onClick={() => changeOrderDirection()}
+              className={showArrow ? "" : "noneDisplay"}
+              onClick={(e) => changeOrderDirection(option)}
             >
-              {orderDirection ? (
+              {arrowUp ? (
                 <KeyboardArrowUpIcon></KeyboardArrowUpIcon>
               ) : (
                 <KeyboardArrowDownIcon></KeyboardArrowDownIcon>
               )}
             </button>
           </div>
+        <select 
+          onChange={(e) => selectOrderType(e)}
+          defaultValue="selectOrder" name="" id="">
+          <option value="selectOrder" disabled hidden>Order By</option>
+          {
+            orderingOptions.map(option => {
+              return <option 
+                value={option}
+                key={option}>
+                  {option}
+                </option>
+            })
+          }
+        </select>
         </Offcanvas.Body>
       </Offcanvas>
-        <select name="" id="">
-          <option value=""></option>
-          <option value=""></option>
-          <option value=""></option>
-          <option value=""></option>
-          <option value=""></option>
-          <option value=""></option>
-          <option value=""></option>
-          <option value=""></option>
-        </select>
     </div>
   );
 }

@@ -16,7 +16,6 @@ export function useLoggedUser() {
         if (storedData) {
             dispatch(updateLoggedUser(storedData));
         }
-        console.warn("i should appear")
     }, [loginStatus, Object.keys(loggedUser).length]);
 
     // Actualiza el almacenamiento local cuando cambia el estado del usuario

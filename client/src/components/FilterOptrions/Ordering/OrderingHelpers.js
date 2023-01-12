@@ -1,3 +1,5 @@
+import *  as actions from '../../../redux/actions'
+
 const NAME = "name";
 const PRICE = "price";
 const RARITY = "rarity";
@@ -6,7 +8,8 @@ const STARS = "stars";
 const LASTBUY = "lastbuy"
 const CREATEDTS = "createdts"
 
-const orderOptionDispatcher = (dispatch, option) => {
+    export const orderOptionDispatcher = (dispatch, option) => {
+        console.log(option)
     switch (option) {
         case NAME:
             dispatch(actions.orderName());
