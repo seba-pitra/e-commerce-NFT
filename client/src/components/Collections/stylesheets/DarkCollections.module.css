@@ -6,6 +6,7 @@
   flex-wrap: wrap;
   background-color: #212121;
   padding: 50px 0px;
+  margin-top: 58px;
 }
 
 .link {
@@ -31,7 +32,7 @@
 .collections-img-main {
   width: 420px;
   height: 280px;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 
 .img-name-container {
@@ -54,11 +55,11 @@
   left: 35px;
   border: 2px solid #757575;
   border-radius: 16px;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 
 .collections-name {
-  color: #FAFAFA;
+  color: #fafafa;
   font-size: 16px;
   position: relative;
   left: 5px;

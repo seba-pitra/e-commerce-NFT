@@ -77,8 +77,8 @@
 .cart_Numer_Items {
   position: relative;
   top: -30px;
-  left: 55%;
-  background: black;
+  left: 75%;
+  background: transparent;
   width: 16px;
   height: 16px;
   border-radius: 50%;
@@ -97,6 +97,10 @@
   padding: 0px;
   height: 32px;
   margin-right: 5px;
+}
+
+.noneDisplay {
+  display: none;
 }
 
 .margin-left {

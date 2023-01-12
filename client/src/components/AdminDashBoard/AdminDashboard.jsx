@@ -13,7 +13,7 @@ import DoughChart from "./Charts/DougnoutChart.jsx";
 import Loading from "../Loading/Loading";
 
 const AdminDashboard = () => {
-  const { adminNfts, adminUsers, collections, loggedUser } = useSelector(
+  const { adminNfts, adminUsers, collections, loggedUser, shouldUpdate } = useSelector(
     (state) => state
   );
 
@@ -29,7 +29,7 @@ const AdminDashboard = () => {
     dispatch(actions.getAllAdminNfts());
     dispatch(actions.getAllAdminUsers());
     dispatch(actions.getAllCollections());
-  }, [dispatch]);
+  }, [dispatch, shouldUpdate]);
 
   if (!adminNfts.length || !adminUsers.length || !collections.length)
     return <Loading />;
