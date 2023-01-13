@@ -28,6 +28,7 @@ export default function Ufavorites() {
                     </Link>
                     <button className={styles["favs-remove-button"]} onClick={() => handleClickDelFavorites(idx.id)}>×</button>
                   </div>
+
             );
           }) : (
             <div className={styles["favs-no-nfts"]}>
