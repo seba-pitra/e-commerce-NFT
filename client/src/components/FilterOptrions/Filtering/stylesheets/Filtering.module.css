@@ -14,9 +14,20 @@
   cursor: pointer;
 }
 
-.offcanvas-container {
-  background-color: #616161;
+.offcanvas-container-dark {
+  background-color: #424242;
   color: #fff;
+  border-radius: 5px;
+  height: fit-content;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.offcanvas-container-light {
+  background-color: #F5F5F5;
+  color: #212121;
   border-radius: 5px;
   height: fit-content;
   margin-bottom: 20px;
@@ -97,15 +108,23 @@
 }
 
 .input-checkbox {
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 220px;
+  margin-bottom: 4px;
 }
 
 .input-checkbox input {
   width: 20px;
   padding: 0px;
   margin: 4px 0px;
+}
+
+.search-input-filters{
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 8px;
 }
