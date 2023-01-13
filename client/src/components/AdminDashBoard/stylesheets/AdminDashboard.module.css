@@ -5,6 +5,7 @@
   justify-content: center;
   background-color: #212121;
   margin-top: 58px;
+  box-sizing: border-box;
 }
 
 .dashboard-container h3 {
@@ -26,6 +27,7 @@
 
 @media (max-width: 1050px) {
   .dashboard-barchart {
+    display: none;
   }
 }
 
@@ -35,6 +37,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  /* margin-left: 200px; */
 }
 
 .dashboard-users-info {
@@ -83,6 +86,9 @@
 }
 
 @media (max-width: 1050px) {
+  .dashboard-users {
+    margin-top: 58px;
+  }
   .dashboard-users,
   .dashboard-verify,
   .dashboard-nfts {

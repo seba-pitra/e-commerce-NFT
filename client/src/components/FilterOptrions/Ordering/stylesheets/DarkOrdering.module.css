@@ -1,0 +1,51 @@
+.btn-order-down {
+  /* margin: 5px 10px; */
+  border: 2px solid rgb(211, 68, 139, 1);
+  background-color: white;
+  border-radius: 5px;
+  color: rgb(3, 6, 21);
+  font-weight: 600;
+}
+
+.btn-order-up {
+  /* margin: 5px 10px; */
+  border: 2px solid rgb(211, 68, 139, 1);
+  background-color: rgb(3, 6, 21);
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+}
+
+.sort-icon {
+  color: white;
+  cursor: pointer;
+}
+
+.sort-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sort-container select {
+  background-color: #424242;
+  color: #FAFAFA;
+  font-weight: 700;
+  border: none;
+  border-radius: 16px;
+  margin-right: 24px;
+  padding: 16px;
+}
+
+@media (max-width: 975px) {
+  .sort-container select {
+    padding: 8px;
+  }
+}
+
+.sort-container button{
+  border: none;
+  background-color: #424242;
+  color: #FAFAFA;
+  border-radius: 50%;
+}

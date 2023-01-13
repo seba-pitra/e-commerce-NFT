@@ -135,7 +135,7 @@ export default function UserProfile() {
                 <div className={styles["info"]}>
                   <h6>Phone</h6>
                   <h6 className="text-muted">
-                    {userDetail.phone ? userDetail.phone : "No phone founded"}
+                    {userDetail.phone_number ? userDetail.phone_number : "No phone founded"}
                   </h6>
                 </div>
                 <div className={styles["info"]}>
@@ -145,10 +145,10 @@ export default function UserProfile() {
                   </h6>
                 </div>
                 <div className={styles["info"]}>
-                  <h6>Adress</h6>
+                  <h6>Address</h6>
                   <h6 className="text-muted">
-                    {userDetail.adress
-                      ? userDetail.adress
+                    {userDetail.address
+                      ? userDetail.address
                       : "No adress founded"}
                   </h6>
                 </div>
@@ -168,26 +168,20 @@ export default function UserProfile() {
       <div className={styles["functionalities-history-container"]}>
         {userDetail.type === "Basic" ? (
           <div className={styles["available-functionalities"]}>
-            <h6>2 NFT's bought</h6>
             <h6 className={styles["user-profile-not-permition"]}>
-              You dont have permitions to create an NFT ,you need to upgrade
-              your account
+              In order to create and sell NFTs you must verify your identity
             </h6>
             <NavLink
               className={styles["upgrade-button"]}
               to="/myAccount/verify"
             >
-              Upgrade to Premium
-              {/* <div className="upgrade-button">Upgrade to Premium</div> */}
+              Verify identity
             </NavLink>
           </div>
         ) : (
           <div className={styles["available-functionalities"]}>
-            <h5>You are Premium User !</h5>
-            <h6>You can :</h6>
-            <h6>Buy NFTs</h6>
-            <h6>Sell NFTs</h6>
-            <h6>Create NFTs</h6>
+            <h4>Thanks for verifying your identity</h4>
+            <h6>Verified users can buy, sell and create NFTs</h6>
           </div>
         )}
   
