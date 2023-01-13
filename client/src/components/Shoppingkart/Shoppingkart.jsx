@@ -87,7 +87,7 @@ export default function Shoppingkart() {
     <div className={styles["shopping-cart-container"]}>
       <div className={styles["shopping-cart"]}>
         <div className={styles["shopping-cart-nft-cards"]}>
-          {shoppingCartContents &&
+          {shoppingCartContents && shoppingCartContents.length > 0 ?
             shoppingCartContents.map((nft, index) => {
               return (
                 <div key={index} className={styles["cart-nfts-container"]}>
@@ -117,7 +117,11 @@ export default function Shoppingkart() {
                   </button>
                 </div>
               );
-            })}
+            }) : (
+              <div className={styles["cart-no-nfts"]}>
+                <span>There are no items added to the cart yet</span>
+              </div>
+            )}
         </div>
       </div>
       <div className="text-center text-lg-bottom mt-4 pt-2">
