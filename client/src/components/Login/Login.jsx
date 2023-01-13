@@ -70,7 +70,7 @@ const Login = () => {
       utils.loadCartLocalStorage(dispatch, user.email);
       utils.loadFavsLocalStorage(dispatch, user.email);
       let SavedTheme = JSON.parse(localStorage.getItem(JSON.stringify(user.email+'theme')));  
-      if (SavedTheme) { dispatch(actions.injectLocalStorageTheme(SavedTheme))}; 
+      if (SavedTheme) { dispatch(actions.injectLocalStorageTheme(SavedTheme))};
     }
   };
 

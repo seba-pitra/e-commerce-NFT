@@ -26,6 +26,7 @@ export default function NFTCard(props) {
   const ethPrice = useSelector((state) => state.ethPrice);
   const styles = useStyles(darkStyles, lightStyles);
 
+  const userFavs = useSelector((state) => state.userFavs);
   const dispatch = useDispatch();
 
   const handleClickOnShoppingCart = () => {
@@ -34,6 +35,9 @@ export default function NFTCard(props) {
 
   const handleClickOnFavorites = (e) => {
     dispatch(actions.addToFav(props));
+  // guardamos los favoritos en LS
+	  console.log('GUARDANDO FAVS');
+   localStorage.setItem(JSON.stringify(loggedUser.email + "FAVS"),JSON.stringify(userFavs));
   };
 
   let starsValue = 0;

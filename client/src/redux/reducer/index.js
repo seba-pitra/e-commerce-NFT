@@ -160,7 +160,7 @@ const rootReducer = (state = initialState, action) => {
         loggedUser: action.payload,
       };
     case UPDATE_LOGGED_USER:
-      console.log(action.payload);
+     // console.log(action.payload);
     // Actualiza el estado con los nuevos datos del usuario
       return { ...state, loggedUser: action.payload };
     case LOG_IN:

@@ -1,5 +1,5 @@
 import * as actions from "../../redux/actions/index";
-import { React, useState } from "react";
+import { React, useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import SearchBar from "../SearchBar/SearchBar";
@@ -9,7 +9,7 @@ import FavoriteIcon from "@material-ui/icons/Favorite";
 import Shoppingkart from "../Shoppingkart/Shoppingkart";
 import Ufavorites from "../uFavorites/Ufavorites.jsx";
 import Offcanvas from "react-bootstrap/Offcanvas";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch, useSelector, useStore } from "react-redux";
 import { Link } from "react-router-dom";
 import MaterialUISwitch from "../Pages/switch";
 
@@ -34,11 +34,11 @@ export default function NFTNav() {
 
   const cartItemsCount = useSelector((state) => state.shoppingCartContents);
   const userFavorites = useSelector((state) => state.userFavs);
+  const loggedUserGlobal = useSelector((state) => state.loggedUser);	
   const [loggedUser, updateLoggedUser, handleLogOut] = useLoggedUser()
   const activeThemeIsDark = useSelector((state) => state.activeThemeIsDark);
-
   const areWeInLanding = location.pathname === "/";
-
+  
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   const handleCloseFav = () => setShowFav(false);
@@ -52,12 +52,36 @@ export default function NFTNav() {
   const onSwitch = () => {
     dispatch(actions.toggleTheme());
     // Theme LocalStorage Saver
-    console.log(activeThemeIsDark);
-    localStorage.setItem(
-      JSON.stringify(loggedUser.email + "theme"),
-      JSON.stringify(activeThemeIsDark)
-    );
+    //console.log(activeThemeIsDark);
+    localStorage.setItem(JSON.stringify(loggedUser.email + "theme"),JSON.stringify(activeThemeIsDark));
   };
+const store = useStore()
+ useEffect(() => {
+
+// Loading Theme, Favs, ShoppingCart items on refresh
+	// Tema
+	let SavedTheme = JSON.parse(localStorage.getItem(JSON.stringify(loggedUser.email+'theme')));  
+//	console.log('TEMA!!')
+//	 console.log(SavedTheme)
+	// realizar un override del estado
+	 //if (SavedTheme) { dispatch(actions.injectLocalStorageTheme(SavedTheme))}
+//	{ dispatch(actions.toggleTheme())};
+	 
+
+// Favs
+
+	let SavedFavorites = JSON.parse(localStorage.getItem(JSON.stringify(store.getState().loggedUser.email+'FAVS')));  
+//	console.log(store.getState().loggedUser.email)  << aqui obtenemos el correo del usuario
+	console.log('HERE!!')
+	 console.log(SavedFavorites);
+	 if (SavedFavorites){dispatch(actions.addToFav(SavedFavorites))};
+
+// ShoppingCart Items
+
+
+// -------------------------------------------------
+  }, [dispatch]);
+
 
   return (
     <div className={areWeInLanding ? "hidden" : "nav-bar"}>
