@@ -112,17 +112,7 @@ function Pages() {
 
           <div className={styles["left-hand-conteiner"]}>
             <Filtering />
-            <select defaultValue="itemsxpage" onChange={(e) => setNftPage(e)}>
-              <option disabled value="itemsxpage"> Items-Page </option>
-              <option value="40">40</option>
-              <option value="80">80</option>
-              <option value="120">120</option>
-              <option value="160">160</option>
-              <option value="200">200</option>
-            </select>
           </div>
-          
-
 
           <div className={styles["right-hand-conteiner"]}>
             <Ordering />
@@ -134,10 +124,9 @@ function Pages() {
                 <SubtitlesIcon />
               </button>
             </div>
-
-            <span className={styles["amount-nfts"]}>
+            {/* <span className={styles["amount-nfts"]}>
               <b>{filteredNfts.length}</b> items
-            </span>
+            </span> */}
           </div>
         </div>
         <div className={styles["middle-conteiner"]}>

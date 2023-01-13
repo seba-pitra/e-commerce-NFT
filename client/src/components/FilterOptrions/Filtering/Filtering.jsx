@@ -9,11 +9,12 @@ import PriceSelector from "../PriceSelector/PriceSelector";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 import Offcanvas from "react-bootstrap/Offcanvas";
-import FilterAltIcon from "@mui/icons-material/FilterAlt";
+import SortIcon from "@mui/icons-material/Sort";
 
 import styles from "./stylesheets/Filtering.module.css";
 
 export default function Filtering() {
+  // Checkbox filters
   const [selectedCollection, setSelectedCollection] = useState([]);
   const [selectedCategorySpecies, setSelectedCategorySpecies] = useState([]);
   const [selectedCategorySpecies2, setSelectedCategorySpecies2] = useState([]);
@@ -35,7 +36,12 @@ export default function Filtering() {
   const dispatch = useDispatch();
 
   const nfts = useSelector((state) => state.nfts);
-  const collections = useSelector((state) => state.collections);
+  let collections = useSelector((state) => state.collections);
+  collections = collections.sort((nftA, nftB) => {
+    if (nftA.name.toUpperCase() > nftB.name.toUpperCase()) return 1;
+    if (nftB.name.toUpperCase() > nftA.name.toUpperCase()) return -1;
+    return 0;
+  });
 
   useEffect(() => {
     dispatch(actions.setCollections(selectedCollection));
@@ -78,13 +84,13 @@ export default function Filtering() {
     category.Backg.push(n.category[6]);
   });
 
-  category.Species = Array.from(new Set(category.Species));
-  category.Species2 = Array.from(new Set(category.Species2));
-  category.Art = Array.from(new Set(category.Art));
-  category.Type = Array.from(new Set(category.Type));
-  category.Style = Array.from(new Set(category.Style));
-  category.Rest = Array.from(new Set(category.Rest));
-  category.Backg = Array.from(new Set(category.Backg));
+  category.Species = Array.from(new Set(category.Species)).sort();
+  category.Species2 = Array.from(new Set(category.Species2)).sort();
+  category.Art = Array.from(new Set(category.Art)).sort();
+  category.Type = Array.from(new Set(category.Type)).sort();
+  category.Style = Array.from(new Set(category.Style)).sort();
+  category.Rest = Array.from(new Set(category.Rest)).sort();
+  category.Backg = Array.from(new Set(category.Backg)).sort();
 
   const selectCollection = (e) => {
     if (selectedCollection.includes(e.target.value)) {
@@ -151,29 +157,49 @@ export default function Filtering() {
     } else setSelectedCategoryBackg([...selectedCategoryBackg, e.target.value]);
   };
 
-  // className={styles[]}
+  // Inputs filters
+  const [inputCollections, setInputCollections] = useState("");
+  collections = collections.filter(item => item.name.toUpperCase().includes(inputCollections.toUpperCase()));
 
+  // const [inputCategorySpecies, setInputCategorySpecies] = useState("");
+  // category.Species = category.Species.filter(item => item.toUpperCase().includes(inputCategorySpecies.toUpperCase()));
+
+  const [inputCategorySpecies2, setInputCategorySpecies2] = useState("");
+  category.Species2 = category.Species2.filter(item => item.toUpperCase().includes(inputCategorySpecies2.toUpperCase()));
+
+  // const [inputArt, setInputArt] = useState("");
+  // category.Art = category.Art.filter(item => item.toUpperCase().includes(inputArt.toUpperCase()));
+
+  // const [inputType, setInputType] = useState("");
+  // category.Type = category.Type.filter(item => item.toUpperCase().includes(inputType.toUpperCase()));
+
+  // const [inputStyle, setInputStyle] = useState("");
+  // category.Style = category.Style.filter(item => item.toUpperCase().includes(inputStyle.toUpperCase()));
+
+  // const [inputRest, setInputRest] = useState("");
+  // category.Rest = category.Rest.filter(item => item.toUpperCase().includes(inputRest.toUpperCase()));
+
+  // const [inputBackg, setInputBackg] = useState("");
+  // category.Backg = category.Backg.filter(item => item.toUpperCase().includes(inputBackg.toUpperCase()));
+ 
   return (
     <div className={styles["filters-container"]}>
-      <FilterAltIcon  style={ isDark ? { color: "#fafafa" } :  { color: "#212121" } }
+      <SortIcon  style={ isDark ? { color: "#fafafa" } :  { color: "#212121" } }
         className={styles["filter-icon"]}
         fontSize="large"
         onClick={handleShow}
       />
-      <Offcanvas
+      <Offcanvas 
         show={showFilters}
         onHide={handleClose}
         placement={"start"}
-        className={styles["offcanvas-container"]}
+        className={ isDark ? styles["offcanvas-container-dark"] : styles["offcanvas-container-light"] }
       >
         <Offcanvas.Header closeButton></Offcanvas.Header>
-        <Offcanvas.Body className={styles["offcanvas-body"]}>
-          <Accordion
-            style={{
-              backgroundColor: "#757575",
-              color: "white",
-            }}
-          >
+        <Offcanvas.Body className={styles["offcanvas-body"]} >
+
+          <Accordion style={ isDark ? { backgroundColor: "#757575", color: "#fafafa", fontWeight: "600", cursor: "pointer"} 
+          : { backgroundColor: "#E0E0E0", color: "#212121", fontWeight: "600", cursor: "pointer" }}>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
@@ -183,11 +209,15 @@ export default function Filtering() {
                 Collections
               </label>
             </AccordionSummary>
-            <AccordionDetails>
+            <AccordionDetails style={{  maxHeight: "600px",  overflowY: "scroll" }}>
+              <input className={styles["search-input-filters"]} type="text" placeholder=" Search"
+              value={inputCollections} onChange={(e) => setInputCollections(e.target.value)} />
               {collections.map((collection, index) => {
+                let colName = collection.name.toLowerCase();
+                colName = colName[0].toUpperCase() + colName.slice(1);
                 return (
-                  <div key={index} className="input-checkbox">
-                    <label htmlFor={collection.id}>{collection.name}</label>
+                  <div key={index} className={styles["input-checkbox"]}>
+                    <label htmlFor={collection.id}>{colName}</label>
                     <input
                       type="checkbox"
                       key={collection.id}
@@ -203,12 +233,9 @@ export default function Filtering() {
               })}
             </AccordionDetails>
           </Accordion>
-          <Accordion
-            style={{
-              backgroundColor: "#757575",
-              color: "white",
-              cursor: "pointer",
-            }}
+
+          <Accordion style={ isDark ? { backgroundColor: "#757575", color: "#fafafa", fontWeight: "600", cursor: "pointer"} 
+          : { backgroundColor: "#E0E0E0", color: "#212121", fontWeight: "600", cursor: "pointer" }}
           >
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
@@ -220,9 +247,11 @@ export default function Filtering() {
               </label>
             </AccordionSummary>
             <AccordionDetails>
+            {/* <input className={styles["search-input-filters"]} type="text" placeholder="Collections"
+              value={inputCategorySpecies} onChange={(e) => setInputCategorySpecies(e.target.value)} /> */}
               {category.Species?.map((specie, index) => {
                 return (
-                  <div key={index} className="input-checkbox">
+                  <div key={index} className={styles["input-checkbox"]}>
                     <label htmlFor={specie}>{specie}</label>
                     <input
                       type="checkbox"
@@ -239,13 +268,9 @@ export default function Filtering() {
               })}
             </AccordionDetails>
           </Accordion>
-          <Accordion
-            style={{
-              backgroundColor: "#757575",
-              color: "white",
-              cursor: "pointer",
-            }}
-          >
+
+          <Accordion style={ isDark ? { backgroundColor: "#757575", color: "#fafafa", fontWeight: "600", cursor: "pointer"} 
+          : { backgroundColor: "#E0E0E0", color: "#212121", fontWeight: "600", cursor: "pointer" }}>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
@@ -255,10 +280,12 @@ export default function Filtering() {
                 Select Species
               </label>
             </AccordionSummary>
-            <AccordionDetails>
+            <AccordionDetails style={{  maxHeight: "600px",  overflowY: "scroll" }}>
+              <input className={styles["search-input-filters"]} type="text" placeholder=" Search"
+              value={inputCategorySpecies2} onChange={(e) => setInputCategorySpecies2(e.target.value)} />
               {category.Species2?.map((specie, index) => {
                 return (
-                  <div key={index} className="input-checkbox">
+                  <div key={index} className={styles["input-checkbox"]}>
                     <label htmlFor={specie}>{specie}</label>
                     
                     <input
@@ -276,13 +303,9 @@ export default function Filtering() {
               })}
             </AccordionDetails>
           </Accordion>
-          <Accordion
-            style={{
-              backgroundColor: "#757575",
-              color: "white",
-              cursor: "pointer",
-            }}
-          >
+
+          <Accordion style={ isDark ? { backgroundColor: "#757575", color: "#fafafa", fontWeight: "600", cursor: "pointer"} 
+          : { backgroundColor: "#E0E0E0", color: "#212121", fontWeight: "600", cursor: "pointer" }}>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
@@ -293,9 +316,11 @@ export default function Filtering() {
               </label>
             </AccordionSummary>
             <AccordionDetails>
+              {/* <input className={styles["search-input-filters"]} type="text" placeholder="Collections"
+              value={inputArt} onChange={(e) => setInputArt(e.target.value)} /> */}
               {category.Art?.map((specie, index) => {
                 return (
-                  <div key={index} className="input-checkbox">
+                  <div key={index} className={styles["input-checkbox"]}>
                     <label htmlFor={specie}>{specie}</label>
                     <input
                       type="checkbox"
@@ -312,13 +337,9 @@ export default function Filtering() {
               })}
             </AccordionDetails>
           </Accordion>
-          <Accordion
-            style={{
-              backgroundColor: "#757575",
-              color: "white",
-              cursor: "pointer",
-            }}
-          >
+
+          <Accordion style={ isDark ? { backgroundColor: "#757575", color: "#fafafa", fontWeight: "600", cursor: "pointer"} 
+          : { backgroundColor: "#E0E0E0", color: "#212121", fontWeight: "600", cursor: "pointer" }}>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
@@ -329,9 +350,11 @@ export default function Filtering() {
               </label>
             </AccordionSummary>
             <AccordionDetails>
+              {/* <input className={styles["search-input-filters"]} type="text" placeholder="Collections"
+              value={inputType} onChange={(e) => setInputType(e.target.value)} /> */}
               {category.Type?.map((specie, index) => {
                 return (
-                  <div key={index} className="input-checkbox">
+                  <div key={index} className={styles["input-checkbox"]}>
                     <label htmlFor={specie}>{specie}</label>
                     <input
                       type="checkbox"
@@ -348,13 +371,9 @@ export default function Filtering() {
               })}
             </AccordionDetails>
           </Accordion>
-          <Accordion
-            style={{
-              backgroundColor: "#757575",
-              color: "white",
-              cursor: "pointer",
-            }}
-          >
+
+          <Accordion style={ isDark ? { backgroundColor: "#757575", color: "#fafafa", fontWeight: "600", cursor: "pointer"} 
+          : { backgroundColor: "#E0E0E0", color: "#212121", fontWeight: "600", cursor: "pointer" }}>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
@@ -365,9 +384,11 @@ export default function Filtering() {
               </label>
             </AccordionSummary>
             <AccordionDetails>
+              {/* <input className={styles["search-input-filters"]} type="text" placeholder="Collections"
+              value={inputStyle} onChange={(e) => setInputStyle(e.target.value)} /> */}
               {category.Style?.map((value, index) => {
                 return (
-                  <div key={index} className="input-checkbox">
+                  <div key={index} className={styles["input-checkbox"]}>
                     <label htmlFor={value}>{value}</label>
                     <input
                       type="checkbox"
@@ -384,13 +405,9 @@ export default function Filtering() {
               })}
             </AccordionDetails>
           </Accordion>
-          <Accordion
-            style={{
-              backgroundColor: "#757575",
-              color: "white",
-              cursor: "pointer",
-            }}
-          >
+
+          <Accordion style={ isDark ? { backgroundColor: "#757575", color: "#fafafa", fontWeight: "600", cursor: "pointer"} 
+          : { backgroundColor: "#E0E0E0", color: "#212121", fontWeight: "600", cursor: "pointer" }}>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
@@ -401,9 +418,11 @@ export default function Filtering() {
               </label>
             </AccordionSummary>
             <AccordionDetails>
+              {/* <input className={styles["search-input-filters"]} type="text" placeholder="Collections"
+              value={inputRest} onChange={(e) => setInputRest(e.target.value)} /> */}
               {category.Rest?.map((value, index) => {
                 return (
-                  <div key={index} className="input-checkbox">
+                  <div key={index} className={styles["input-checkbox"]}>
                     <label htmlFor={value}>{value}</label>
                     <input
                       type="checkbox"
@@ -421,13 +440,9 @@ export default function Filtering() {
               })}
             </AccordionDetails>
           </Accordion>
-          <Accordion
-            style={{
-              backgroundColor: "#757575",
-              color: "white",
-              cursor: "pointer",
-            }}
-          >
+
+          <Accordion style={ isDark ? { backgroundColor: "#757575", color: "#fafafa", fontWeight: "600", cursor: "pointer"} 
+          : { backgroundColor: "#E0E0E0", color: "#212121", fontWeight: "600", cursor: "pointer" }}>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
@@ -438,9 +453,11 @@ export default function Filtering() {
               </label>
             </AccordionSummary>
             <AccordionDetails>
+              {/* <input className={styles["search-input-filters"]} type="text" placeholder="Collections"
+              value={inputBackg} onChange={(e) => setInputBackg(e.target.value)} /> */}
               {category.Backg?.map((value, index) => {
                 return (
-                  <div key={index} className="input-checkbox">
+                  <div key={index} className={styles["input-checkbox"]}>
                     <label htmlFor={value}>{value}</label>
                     <input
                       type="checkbox"
@@ -457,13 +474,9 @@ export default function Filtering() {
               })}
             </AccordionDetails>
           </Accordion>
-          <Accordion
-            style={{
-              backgroundColor: "#757575",
-              color: "white",
-              cursor: "pointer",
-            }}
-          >
+
+          <Accordion style={ isDark ? { backgroundColor: "#757575", color: "#fafafa", fontWeight: "600", cursor: "pointer"} 
+          : { backgroundColor: "#E0E0E0", color: "#212121", fontWeight: "600", cursor: "pointer" }}>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
@@ -477,6 +490,7 @@ export default function Filtering() {
               <PriceSelector />
             </AccordionDetails>
           </Accordion>
+
           <button
             className={styles["reset-filters"]}
             onClick={() => {
@@ -485,6 +499,7 @@ export default function Filtering() {
           >
             Reset Filters
           </button>
+
         </Offcanvas.Body>
       </Offcanvas>
     </div>

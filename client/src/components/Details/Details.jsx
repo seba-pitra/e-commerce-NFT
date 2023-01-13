@@ -85,9 +85,11 @@ const Details = (props) => {
     dispatch(actions.addNftOnShoppingCart(nftDetail));
   };
 
-  let date = new Date(nftDetail.createdTs);
+  let date = new Date(nftDetail);
   date = date.toString();
   date = date.slice(4, 16);
+
+  console.log(nftDetail.reviews)
 
   //esto va a traer el promedio directamente del model
 

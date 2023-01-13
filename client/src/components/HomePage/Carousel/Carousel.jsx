@@ -7,18 +7,22 @@ function UncontrolledExample() {
   return (
     <Carousel>
       <Carousel.Item>
-        <img className="d-block w-100" src={img3} alt="Third slide" />
+        <img style={{filter: 'brightness(50%)'}} className="d-block w-100" src={img3} alt="Third slide" />
         <Carousel.Caption>
-          <h1>WELCOME</h1>
+          <h2>WELCOME TO NON FUNGIBLE TOWN</h2>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <div className="box-image1">
-          <img className="d-block w-100" src={img1} alt="First slide" />
-        </div>
+          <img style={{filter: 'brightness(50%)'}} className="d-block w-100" src={img1} alt="First slide" />
+        <Carousel.Caption>
+          <h2>WE ACCEPT METAMASK AND MERCADO PAGO</h2>
+        </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100" src={img2} alt="Second slide" />
+        <img style={{filter: 'brightness(50%)'}} className="d-block w-100" src={img2} alt="Second slide" />
+        <Carousel.Caption>
+          <h2>LOWERST COMISSIONS IN THE MARKET</h2>
+        </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
   );

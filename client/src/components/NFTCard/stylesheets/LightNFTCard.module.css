@@ -67,7 +67,7 @@
 }
 
 .nftCard-img-container img {
-  width: 100%;
+  width: 300px;
   height: 300px;
   max-height: 300px;
   box-sizing: border-box;
@@ -208,6 +208,13 @@
   visibility: hidden;
   transition: all 0.2s ease-in;
   background-color: rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 769px) {
+  .CardButtons {
+      visibility: visible;
+      right: 0px;
+  }
 }
 
 .nftCard-icon-container {
