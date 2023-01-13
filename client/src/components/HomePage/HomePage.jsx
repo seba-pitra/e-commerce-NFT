@@ -61,8 +61,10 @@ function HomePage() {
       
       {loggedUser.type === "basic" ?
       <span className={styles["verification-msj"]}>
-         "Please verify your account" 
-      </span> : ""}
+         Please verify your account 
+      </span> : <span className={styles["verification-msj"]}>
+        Install the metamask extension for a better experience 
+      </span>}
 
       <div className={styles["main-carousel-images"]}>
         <UncontrolledExample />
