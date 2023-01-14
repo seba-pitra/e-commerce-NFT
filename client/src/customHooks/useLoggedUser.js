@@ -32,5 +32,6 @@ export function useLoggedUser() {
     }
     //console.log("localStorage "+  localStorage.getItem('loggedUser'))
     //console.log([loggedUser, updateLoggedUser, handleLogOut])
+
     return [loggedUser, updateLoggedUser, handleLogOut];
 }

@@ -64,8 +64,6 @@ const NFTsCard_dash = ({ id, name, price, userId, deletedAt }) => {
     }
   };
 
-  // className={styles[]}
-
   return (
     <div className={styles["nfts-dash-card"]}>
       <div className={styles["dash-card-name"]}>

@@ -9,6 +9,12 @@
   text-align: center;
 }
 
+@media (max-width: 853px) {
+  .create-collection-titles-container {
+    width: 85%;
+  }
+}
+
 .choose-collections-created {
   background-color: #757575;
   border-radius: 15px;

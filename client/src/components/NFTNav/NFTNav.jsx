@@ -94,13 +94,20 @@ const store = useStore()
               </Navbar.Text>
             </Link>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="navbarScroll" style={ activeThemeIsDark ? { backgroundColor: "#fafafa" } :  { backgroundColor: "#212121" } } /> 
+          <Navbar.Toggle
+            aria-controls="navbarScroll"
+            style={
+              activeThemeIsDark
+                ? { backgroundColor: "#fafafa" }
+                : { backgroundColor: "#eaeaea " }
+            }
+          />
 
           <Navbar.Collapse
             className={styles["nav-bar-company-links-container"]}
           >
-            <SearchBar />
-
+            {(location.pathname === "/marketplace" ||
+              location.pathname === "/collections") && <SearchBar />}
             <Link className={styles["nav-bar-link"]} to="/marketplace">
               Explore
             </Link>
@@ -108,7 +115,8 @@ const store = useStore()
               // className={styles["nav-bar-link"]}
               className={`brand-colorized-text ${
                 loggedUser
-                  ? loggedUser.type === "Basic"
+                  ? loggedUser.type === "Basic" ||
+                    loggedUser.type === "VerificationInProcess"
                     ? styles["noneDisplay"]
                     : styles["nav-bar-link"]
                   : styles["nav-bar-link"]

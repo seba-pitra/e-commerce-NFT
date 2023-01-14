@@ -23,6 +23,8 @@ import { useLoggedUser } from "../../customHooks/useLoggedUser";
 export default function NFTCard(props) {
   const [loggedUser, updateLoggedUser, handleLogOut] = useLoggedUser()
   const viewCards = useSelector((state) => state.viewCards);
+  const userFavs = useSelector((state) => state.userFavs);
+  const shopingCartContents = useSelector((state) => state.shoppingCartContents);
   const ethPrice = useSelector((state) => state.ethPrice);
   const styles = useStyles(darkStyles, lightStyles);
 
@@ -104,13 +106,14 @@ export default function NFTCard(props) {
           </Link>
           <div className={styles["CardButtons"]}>
             <div
-              className={styles["nftCard-icon-container"]}
+              className={userFavs.map(nft=>nft.id).includes(props.id)?styles["isFav"]:styles["nftCard-icon-container"]}
               onClick={handleClickOnFavorites}
             >
               <FavoriteIcon />
             </div>
             <div
-              className={styles["nftCard-icon-container"]}
+            //  shopingCartContents
+              className={shopingCartContents.map(nft=>nft.id).includes(props.id)?styles["isFav"]:styles["nftCard-icon-container"]}
               onClick={handleClickOnShoppingCart}
             >
               <ShoppingCartIcon />
@@ -130,7 +133,7 @@ export default function NFTCard(props) {
           <Link className={styles.link} to={`/details/${props.id}`}>
             <div className={styles["card-stars"]}>
               <StarIcon className={styles["stars-icon"]} />
-              <span>{starsValue || 0}</span>
+              <span>{props.stars || 0}</span>
             </div>
             <div className={styles["nftCard-img-container"]}>
               <img
@@ -159,13 +162,13 @@ export default function NFTCard(props) {
 
           <div className={styles["CardButtons"]}>
             <div
-              className={styles["nftCard-icon-container"]}
+              className={userFavs.map(nft=>nft.id).includes(props.id)?styles["isFav"]:styles["nftCard-icon-container"]}
               onClick={handleClickOnFavorites}
             >
               <FavoriteIcon />
             </div>
             <div
-              className={styles["nftCard-icon-container"]}
+              className={shopingCartContents.map(nft=>nft.id).includes(props.id)?styles["isFav"]:styles["nftCard-icon-container"]}
               onClick={handleClickOnShoppingCart}
             >
               <ShoppingCartIcon />

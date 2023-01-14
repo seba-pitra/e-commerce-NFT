@@ -3,299 +3,85 @@ import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
-import SortIcon from "@mui/icons-material/Sort";
-import Offcanvas from "react-bootstrap/Offcanvas";
+import * as helpers from "./OrderingHelpers"
+//dark-light theme
+import useStyles from "../../../customHooks/useStyles";
+import darkStyles from "./stylesheets/DarkOrdering.module.css"
+import lightStyles from "./stylesheets/LightOrdering.module.css"
 
-import styles from "./stylesheets/Ordering.module.css";
 
-export default function Ordering() {
+  
+  export default function Ordering() {
   //estos estados son para cambiar el estilo.
-  const [nameOrderUp, setNameOrderUp] = useState(true);
-  const [priceOrderUp, setPriceOrderUp] = useState(true);
-  const [rarityOrderUp, setRarityOrderUp] = useState(true);
-  const [favsOrderUp, setFavsOrderUp] = useState(true);
-  const [starsOrderUp, setStarsOrderUp] = useState(true);
-  const [lastBuyOrderUp, setLastBuyOrderUp] = useState(true);
-  const [createdTsOrderUp, setCreatedTsOrderUp] = useState(true);
+  const [option, setOption]= useState("");
   const [showOrders, setShowOrders] = useState(false);
-
   const  isDark  = useSelector((state) => state.activeThemeIsDark);
+  const [arrowUp, setArrowUp] = useState(false);
+  const [showArrow, setShowArrow] = useState(false);
 
-  const handleClose = () => setShowOrders(false);
+  const styles = useStyles(darkStyles, lightStyles);
+
+  const handleClose = () => {
+    setShowArrow(false);
+    setShowOrders(false)
+  };
   const handleShow = () => {
     setShowOrders(true);
   };
 
-  // const [amountOrderUp, setAmountOrderUp] = useState(true);
-  // const [releaseOrderUp, setReleaseOrderUp] = useState(true);
+  const orderingOptions = [
+                    "name",
+                    "price",
+                    "rarity",
+                    "favs",
+                    "stars",
+                    "lastbuy",
+                    "createdts",
+                  ];
 
   const dispatch = useDispatch();
 
-  const orderByName = () => {
-    setNameOrderUp(!nameOrderUp);
+  const changeOrderDirection = (optionValue) => {
+    setArrowUp(!arrowUp)
     dispatch(actions.changeOrderDirection());
-    dispatch(actions.orderName());
+    helpers.orderOptionDispatcher(dispatch, optionValue);
   };
 
-  const orderByPrice = () => {
-    setPriceOrderUp(!priceOrderUp);
-    dispatch(actions.changeOrderDirection());
-    dispatch(actions.orderPrice());
-  };
-
-  const orderByRarity = () => {
-    setRarityOrderUp(!rarityOrderUp);
-    dispatch(actions.changeOrderDirection());
-    dispatch(actions.orderRarity());
-  };
-
-  const orderByFavs = () => {
-    setFavsOrderUp(!favsOrderUp);
-    dispatch(actions.changeOrderDirection());
-    dispatch(actions.orderFavs());
-  };
-
-  const orderByStars = () => {
-    setStarsOrderUp(!starsOrderUp);
-    dispatch(actions.changeOrderDirection());
-    dispatch(actions.orderStars());
-  };
-
-  const orderByLastBuy = () => {
-    setLastBuyOrderUp(!lastBuyOrderUp);
-    dispatch(actions.changeOrderDirection());
-    dispatch(actions.orderLastBuy());
-  };
-
-  const orderByCreatedTs = () => {
-    setCreatedTsOrderUp(!createdTsOrderUp);
-    dispatch(actions.changeOrderDirection());
-    dispatch(actions.orderCreatedTs());
-  };
+  const selectOrderType = (e) =>{
+    setShowArrow(true)
+    setOption(e.target.value)
+    helpers.orderOptionDispatcher(dispatch, e.target.value);
+  }
 
   return (
     <div className={styles["sort-container"]}>
-      <SortIcon className="sort-icon" style={ isDark ? { color: "#fafafa" } :  { color: "#212121" } } fontSize="large" onClick={handleShow} />
-      <Offcanvas
-        show={showOrders}
-        onHide={handleClose}
-        placement={"start"}
-        style={{
-          backgroundColor: "transparent",
-        }}
-      >
-        <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Filter</Offcanvas.Title>
-        </Offcanvas.Header>
-        <Offcanvas.Body>
-          <div className="button-list">
+        <select 
+          onChange={(e) => selectOrderType(e)}
+          defaultValue="selectOrder" name="" id="">
+          <option value="selectOrder" disabled hidden>Order By</option>
+          {
+            orderingOptions.map(option => {
+              return <option 
+                value={option}
+                key={option}>
+                  {option}
+                </option>
+            })
+          }
+        </select>
+        <div className="button-list">
             <button
               id="name-option"
-              className={
-                nameOrderUp ? styles["btn-order-down"] : styles["btn-order-up"]
-              }
-              onClick={() => orderByName()}
+              className={showArrow ? "" : "noneDisplay"}
+              onClick={(e) => changeOrderDirection(option)}
             >
-              Name
-              {nameOrderUp ? (
-                <KeyboardArrowUpIcon></KeyboardArrowUpIcon>
-              ) : (
-                <KeyboardArrowDownIcon></KeyboardArrowDownIcon>
-              )}
-            </button>
-            <button
-              id="price-option"
-              className={
-                priceOrderUp ? styles["btn-order-down"] : styles["btn-order-up"]
-              }
-              onClick={() => orderByPrice()}
-            >
-              Price
-              {priceOrderUp ? (
-                <KeyboardArrowUpIcon></KeyboardArrowUpIcon>
-              ) : (
-                <KeyboardArrowDownIcon></KeyboardArrowDownIcon>
-              )}
-            </button>
-            <button
-              id="rarity-option"
-              className={
-                rarityOrderUp
-                  ? styles["btn-order-down"]
-                  : styles["btn-order-up"]
-              }
-              onClick={() => orderByRarity()}
-            >
-              Rarity
-              {rarityOrderUp ? (
-                <KeyboardArrowUpIcon></KeyboardArrowUpIcon>
-              ) : (
-                <KeyboardArrowDownIcon></KeyboardArrowDownIcon>
-              )}
-            </button>
-            <button
-              id="favs-option"
-              className={
-                favsOrderUp ? styles["btn-order-down"] : styles["btn-order-up"]
-              }
-              onClick={() => orderByFavs()}
-            >
-              Favs
-              {favsOrderUp ? (
-                <KeyboardArrowUpIcon></KeyboardArrowUpIcon>
-              ) : (
-                <KeyboardArrowDownIcon></KeyboardArrowDownIcon>
-              )}
-            </button>
-
-            <button
-              id="stars-option"
-              className={
-                starsOrderUp ? styles["btn-order-down"] : styles["btn-order-up"]
-              }
-              onClick={() => orderByStars()}
-            >
-              Stars
-              {starsOrderUp ? (
-                <KeyboardArrowUpIcon></KeyboardArrowUpIcon>
-              ) : (
-                <KeyboardArrowDownIcon></KeyboardArrowDownIcon>
-              )}
-            </button>
-
-            <button
-              id="lastbuy-option"
-              className={
-                lastBuyOrderUp
-                  ? styles["btn-order-down"]
-                  : styles["btn-order-up"]
-              }
-              onClick={() => orderByLastBuy()}
-            >
-              LastBuy
-              {lastBuyOrderUp ? (
-                <KeyboardArrowUpIcon></KeyboardArrowUpIcon>
-              ) : (
-                <KeyboardArrowDownIcon></KeyboardArrowDownIcon>
-              )}
-            </button>
-
-            <button
-              id="createdts-option"
-              className={
-                createdTsOrderUp
-                  ? styles["btn-order-down"]
-                  : styles["btn-order-up"]
-              }
-              onClick={() => orderByCreatedTs()}
-            >
-              Created At
-              {createdTsOrderUp ? (
+              {arrowUp ? (
                 <KeyboardArrowUpIcon></KeyboardArrowUpIcon>
               ) : (
                 <KeyboardArrowDownIcon></KeyboardArrowDownIcon>
               )}
             </button>
           </div>
-        </Offcanvas.Body>
-      </Offcanvas>
-
-      {/* 
-      <div className="button-list">
-        <button
-          id="name-option"
-          className={nameOrderUp ? "btn-order-down" : "btn-order-up"}
-          onClick={() => orderByName()}
-        >
-          Name
-          {nameOrderUp ? (
-            <KeyboardArrowUpIcon></KeyboardArrowUpIcon>
-          ) : (
-            <KeyboardArrowDownIcon></KeyboardArrowDownIcon>
-          )}
-        </button>
-        <button
-          id="price-option"
-          className={priceOrderUp ? "btn-order-down" : "btn-order-up"}
-          onClick={() => orderByPrice()}
-        >
-          Price
-          {priceOrderUp ? (
-            <KeyboardArrowUpIcon></KeyboardArrowUpIcon>
-          ) : (
-            <KeyboardArrowDownIcon></KeyboardArrowDownIcon>
-          )}
-        </button>
-        <button
-          id="rarity-option"
-          className={rarityOrderUp ? "btn-order-down" : "btn-order-up"}
-          onClick={() => orderByRarity()}
-        >
-          Rarity
-          {rarityOrderUp ? (
-            <KeyboardArrowUpIcon></KeyboardArrowUpIcon>
-          ) : (
-            <KeyboardArrowDownIcon></KeyboardArrowDownIcon>
-          )}
-        </button>
-        <button
-          id="favs-option"
-          className={favsOrderUp ? "btn-order-down" : "btn-order-up"}
-          onClick={() => orderByFavs()}
-        >
-          Favs
-          {favsOrderUp ? (
-            <KeyboardArrowUpIcon></KeyboardArrowUpIcon>
-          ) : (
-            <KeyboardArrowDownIcon></KeyboardArrowDownIcon>
-          )}
-        </button>
-
-        <button
-          id="stars-option"
-          className={starsOrderUp ? "btn-order-down" : "btn-order-up"}
-          onClick={() => orderByStars()}
-        >
-          Stars
-          {starsOrderUp ? (
-            <KeyboardArrowUpIcon></KeyboardArrowUpIcon>
-          ) : (
-            <KeyboardArrowDownIcon></KeyboardArrowDownIcon>
-          )}
-        </button>
-
-        <button
-          id="lastbuy-option"
-          className={lastBuyOrderUp ? "btn-order-down" : "btn-order-up"}
-          onClick={() => orderByLastBuy()}
-        >
-          LastBuy
-          {lastBuyOrderUp ? (
-            <KeyboardArrowUpIcon></KeyboardArrowUpIcon>
-          ) : (
-            <KeyboardArrowDownIcon></KeyboardArrowDownIcon>
-          )}
-        </button>
-
-        <button
-          id="createdts-option"
-          className={createdTsOrderUp ? "btn-order-down" : "btn-order-up"}
-          onClick={() => orderByCreatedTs()}
-        >
-          Created At
-          {createdTsOrderUp ? (
-            <KeyboardArrowUpIcon></KeyboardArrowUpIcon>
-          ) : (
-            <KeyboardArrowDownIcon></KeyboardArrowDownIcon>
-          )}
-        </button>
-      </div> */}
-
-      {/*boton para cambiar de orden descendente a ascendente y visceversa*/}
-      {/* <button 
-                    className='option-btn button-order'
-                    dangerouslySetInnerHTML={{ __html: currentArrowState ? '&#8648;' : '&#8650;'}} 
-                    onClick={(e)=> reverseAndOrder(e)}></button> */}
     </div>
   );
 }

@@ -1,3 +1,9 @@
+.vUser-dash-card {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px #9e9e9e;
+}
+
 .vUser-dash-name,
 .vUser-dash-dni,
 .vUser-dash-age,
@@ -6,22 +12,42 @@
 .vUser-dash-pp1 {
   margin: 0 5px;
 }
+
+@media (max-width: 800px) {
+  .vUser-dash-age,
+  .vUser-dash-dni,
+  .vUser-dash-pn,
+  .vUser-dash-nacionality {
+    display: none;
+  }
+}
+
+.vUser-dash-pp1 {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
 .vUser-dash-name {
-  width: 150px;
+  /* width: 150px; */
 }
 .vUser-dash-dni {
-  width: 100px;
+  /* width: 100px; */
 }
 .vUser-dash-age {
-  width: 20px;
+  /* width: 20px; */
 }
 .vUser-dash-pn {
-  width: 130px;
+  /* width: 130px; */
 }
 .vUser-dash-nacionality {
-  width: 120px;
+  /* width: 120px; */
 }
 .vUser-dash-pp1 a {
   margin: 0 5px;
   width: 200px;
+}
+
+.vUser-dash-pictures-answer-verify {
+  display: flex;
 }

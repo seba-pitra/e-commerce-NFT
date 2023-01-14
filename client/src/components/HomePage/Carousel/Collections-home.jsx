@@ -47,7 +47,7 @@ const CollectionCarousel = ({ cards }) => {
         {/* ACA ESTA EL ERROR */}
         <div className={styles["conteiner-collections-buttons"]}>
           {/* DE LAS FLECHITAS. Es el nombre de la clase */}
-          <button onClick={handlePrevClick}>{"<"}</button>
+          <button className={styles["button-left"]} onClick={handlePrevClick}>{"<"}</button>
           <div className={styles["conteiner-collections"]}>
             {currentCardsRange.map((index) => {
               let floorPrice = 100;
@@ -83,7 +83,7 @@ const CollectionCarousel = ({ cards }) => {
               );
             })}
           </div>
-          <button onClick={handleNextClick}>{">"}</button>
+          <button className={styles["button-right"]} onClick={handleNextClick}>{">"}</button>
         </div>
       </div>
     );
