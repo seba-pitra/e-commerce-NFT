@@ -40,11 +40,11 @@
   margin-left: 5px;
 }
 
-.eth-rarity span{
+.eth-rarity span {
   font-size: 12px;
 }
 
-.eth-rarity .price-negrita{
+.eth-rarity .price-negrita {
   color: #fafafa;
   font-size: 18px;
   font-weight: 600;
@@ -216,7 +216,7 @@
   color: white;
   cursor: pointer;
 }
-.isFav{
+.isFav {
   margin: 2.5px 0;
   color: #d3448b;
   cursor: pointer;
@@ -271,4 +271,11 @@
 .nftCard-nameToken-separated b {
   font-size: 18px;
   color: #fafafa;
+}
+
+.offcanvas-scrollbar {
+  height: 200px;
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
 }
