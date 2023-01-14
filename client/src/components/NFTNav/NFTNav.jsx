@@ -9,7 +9,7 @@ import FavoriteIcon from "@material-ui/icons/Favorite";
 import Shoppingkart from "../Shoppingkart/Shoppingkart";
 import Ufavorites from "../uFavorites/Ufavorites.jsx";
 import Offcanvas from "react-bootstrap/Offcanvas";
-import { useDispatch, useSelector, useStore } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import MaterialUISwitch from "../Pages/switch";
 
@@ -61,19 +61,23 @@ export default function NFTNav() {
 
 
 	
-const store = useStore()  
 useEffect(() => {
-console.log(loggedUser.email);  // devuelve null si no logea o se refresca la pag
-console.log(store.getState().loggedUser.email);  // devuelve null si no logea o se refresca la pagina
-console.log(loggedUserGlobal);	// devuelve null si no logea o se regresca la pag 
+// Aqui no estaba el user
+//console.log(loggedUser.email);  // devuelve null si no logea o se refresca la pag
+//console.log(store.getState().loggedUser.email);  // devuelve null si no logea o se refresca la pagina
+//console.log(loggedUserGlobal);	// devuelve null si no logea o se regresca la pag 
 
+	//Aqui si esta el usuario logeado
+      let localStorageUser = JSON.parse(localStorage.getItem("User"));
+	console.log('Usuario Activo');
+	console.log(localStorageUser);
 	// los loaders funcionan bien si el usuario esta logeado y tiene persistencia al refresh
 	
 
 // Loading Theme, Favs, ShoppingCart items on refresh
 
 // Tema
-	let SavedTheme = JSON.parse(localStorage.getItem(JSON.stringify(loggedUser.email+'theme')));  
+	let SavedTheme = JSON.parse(localStorage.getItem(JSON.stringify(localStorageUser+'theme')));  
 	console.log('TEMA!!')
 	 console.log(SavedTheme)
 	 //if (SavedTheme) { dispatch(actions.injectLocalStorageTheme(SavedTheme))}
@@ -81,14 +85,14 @@ console.log(loggedUserGlobal);	// devuelve null si no logea o se regresca la pag
 
 // Favs
 
-	let SavedFavorites = JSON.parse(localStorage.getItem(JSON.stringify(store.getState().loggedUser.email+'FAVS')));  
+	let SavedFavorites = JSON.parse(localStorage.getItem(JSON.stringify(localStorageUser+'FAVS')));  
 	console.log('FAVS!!')
 	console.log(SavedFavorites);
 	if (SavedFavorites){dispatch(actions.addToFav(SavedFavorites))};
 
 // ShoppingCart Items
 
-	let SavedCartItems = JSON.parse(localStorage.getItem(JSON.stringify(store.getState().loggedUser.email+'CART')));  
+	let SavedCartItems = JSON.parse(localStorage.getItem(JSON.stringify(localStorageUser+'CART')));  
 	console.log('CART!!')
 	console.log(SavedCartItems);
 	if (SavedFavorites){dispatch(actions.addNftOnShoppingCart(SavedCartItems))};
