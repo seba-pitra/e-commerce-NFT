@@ -28,11 +28,13 @@ export default function NFTCard(props) {
   const ethPrice = useSelector((state) => state.ethPrice);
   const styles = useStyles(darkStyles, lightStyles);
 
-  const userFavs = useSelector((state) => state.userFavs);
   const dispatch = useDispatch();
 
   const handleClickOnShoppingCart = () => {
     dispatch(actions.addNftOnShoppingCart(props));
+   console.log('GUARDANDO ShoppingCart al LS');
+   localStorage.setItem(JSON.stringify(loggedUser.email + "CART"),JSON.stringify(props));
+ 
   };
 
   const handleClickOnFavorites = (e) => {

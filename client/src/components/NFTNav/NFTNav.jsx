@@ -40,7 +40,9 @@ export default function NFTNav() {
   const areWeInLanding = location.pathname === "/";
   
   const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  const handleShow = () => {
+	  localStorage.setItem(JSON.stringify(loggedUser.email + "CART"),JSON.stringify(cartItemsCount));
+	  setShow(true)};
   const handleCloseFav = () => setShowFav(false);
   const handleShowFav = () => setShowFav(true);
 
@@ -55,29 +57,41 @@ export default function NFTNav() {
     //console.log(activeThemeIsDark);
     localStorage.setItem(JSON.stringify(loggedUser.email + "theme"),JSON.stringify(activeThemeIsDark));
   };
-const store = useStore()
- useEffect(() => {
+
+
+
+	
+const store = useStore()  
+useEffect(() => {
+console.log(loggedUser.email);  // devuelve null si no logea o se refresca la pag
+console.log(store.getState().loggedUser.email);  // devuelve null si no logea o se refresca la pagina
+console.log(loggedUserGlobal);	// devuelve null si no logea o se regresca la pag 
+
+	// los loaders funcionan bien si el usuario esta logeado y tiene persistencia al refresh
+	
 
 // Loading Theme, Favs, ShoppingCart items on refresh
-	// Tema
+
+// Tema
 	let SavedTheme = JSON.parse(localStorage.getItem(JSON.stringify(loggedUser.email+'theme')));  
-//	console.log('TEMA!!')
-//	 console.log(SavedTheme)
-	// realizar un override del estado
+	console.log('TEMA!!')
+	 console.log(SavedTheme)
 	 //if (SavedTheme) { dispatch(actions.injectLocalStorageTheme(SavedTheme))}
-//	{ dispatch(actions.toggleTheme())};
-	 
+	 //{ dispatch(actions.toggleTheme())};
 
 // Favs
 
 	let SavedFavorites = JSON.parse(localStorage.getItem(JSON.stringify(store.getState().loggedUser.email+'FAVS')));  
-//	console.log(store.getState().loggedUser.email)  << aqui obtenemos el correo del usuario
-	console.log('HERE!!')
-	 console.log(SavedFavorites);
-	 if (SavedFavorites){dispatch(actions.addToFav(SavedFavorites))};
+	console.log('FAVS!!')
+	console.log(SavedFavorites);
+	if (SavedFavorites){dispatch(actions.addToFav(SavedFavorites))};
 
 // ShoppingCart Items
 
+	let SavedCartItems = JSON.parse(localStorage.getItem(JSON.stringify(store.getState().loggedUser.email+'CART')));  
+	console.log('CART!!')
+	console.log(SavedCartItems);
+	if (SavedFavorites){dispatch(actions.addNftOnShoppingCart(SavedCartItems))};
 
 // -------------------------------------------------
   }, [dispatch]);
