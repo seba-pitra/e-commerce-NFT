@@ -8,8 +8,36 @@ import InputGroup from "react-bootstrap/InputGroup";
 import "./Registrer.css";
 import { useDispatch } from "react-redux";
 
+
+import GoogleIcon from "@mui/icons-material/Google";
+import * as googleHelpers from "./../Login/LoginHelpers";
+import * as utils  from "../../utils";
+import styles from "./../Login/stylesheets/Login.module.css";
+
+
+
 const Register = ({ setRegisterClass, setLoginClass }) => {
   const dispatch = useDispatch();
+  const history = useHistory();
+
+  const handleLogInGoogle = async () => {
+    // Attempt to sign the user in using Google Sign-In
+    const user = await googleHelpers.signGoogle();
+    // If the user was successfully signed in
+    if (user) {
+      // Dispatch the signInWithGoogle action
+      dispatch(actions.signInWithGoogle(user));
+      // Load the user's cart and favorites from local storage
+      utils.loadCartLocalStorage(dispatch, user.email);
+      utils.loadFavsLocalStorage(dispatch, user.email);
+      history.push("/home")
+      // Theme LocalStorage Loader for logInGoogle only
+      let SavedTheme = JSON.parse(localStorage.getItem(JSON.stringify(user.email+'theme')));  
+      if (SavedTheme) { dispatch(actions.injectLocalStorageTheme(SavedTheme))}; 
+      localStorage.setItem("User",JSON.stringify(user)); 
+    }
+  };
+
 
   const [signUp, setSignUpForm] = useState({
     username: "",
@@ -150,6 +178,17 @@ const Register = ({ setRegisterClass, setLoginClass }) => {
           </button>
         </Form>
       </div>
+      <button
+          className={styles["sing-in"]}
+          type="button"
+          onClick={handleLogInGoogle}
+        >
+          <div className={styles["sing-in-contaienr"]} >
+            <GoogleIcon />
+            <span> </span>
+            <span>Sign in with Google</span>
+          </div>
+        </button>
     </div>
   );
 };
