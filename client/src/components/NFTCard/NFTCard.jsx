@@ -1,3 +1,4 @@
+import axios from "axios";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
@@ -6,42 +7,104 @@ import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 import * as actions from "../../redux/actions";
 import ethereumLogo from "../../images/ethereum-logo.png";
 import favsLogo from "../../images/favs-logo.png";
-// import StarIcon from "../../images/stars-logo.png";
 import StarIcon from "@mui/icons-material/Star";
+import { useLoggedUser } from "../../customHooks/useLoggedUser";
+import { startPayment } from "../../utils";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 import darkStyles from "./stylesheets/DarkNFTCard.module.css";
 import lightStyles from "./stylesheets/LightNFTCard.module.css";
 import useStyles from "../../customHooks/useStyles";
 
-import { startPayment } from "../../utils";
-import { toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
-import axios from "axios";
-
-import { useLoggedUser } from "../../customHooks/useLoggedUser";
-// import "./NFTCard.css";
+import Offcanvas from "react-bootstrap/Offcanvas";
+import Shoppingkart from "../Shoppingkart/Shoppingkart";
+import Ufavorites from "../uFavorites/Ufavorites";
 
 export default function NFTCard(props) {
-  const [loggedUser, updateLoggedUser, handleLogOut] = useLoggedUser()
+  const [loggedUser, updateLoggedUser, handleLogOut] = useLoggedUser();
   const viewCards = useSelector((state) => state.viewCards);
   const userFavs = useSelector((state) => state.userFavs);
-  const shopingCartContents = useSelector((state) => state.shoppingCartContents);
+  const shopingCartContents = useSelector(
+    (state) => state.shoppingCartContents
+  );
   const ethPrice = useSelector((state) => state.ethPrice);
   const styles = useStyles(darkStyles, lightStyles);
 
   const dispatch = useDispatch();
 
+  const [show, setShow] = useState(false);
+  const [showFav, setShowFav] = useState(false);
+  const handleClose = () => setShow(false);
+  const handleCloseFav = () => setShowFav(false);
+
+  const displayMsgShoppingCart = ({ error }) => {
+    // This function is sent to reducer to show the toastify msg
+    if (!error) {
+      //If there isn't a error...
+      toast.success(
+        ({ closeToast }) => (
+          <div onClick={() => setShow(true)}>
+            NFT added to shopping cart successfully
+            <ShoppingCartIcon />
+          </div>
+        ),
+        {
+          position: "bottom-left",
+        }
+      );
+    } else {
+      //If the nft is already in shooping cart...
+      toast.error(
+        ({ closeToast }) => (
+          <div onClick={() => setShow(true)}>
+            This NFT is already in your shopping cart
+            <ShoppingCartIcon />
+          </div>
+        ),
+        {
+          position: "bottom-left",
+        }
+      );
+    }
+  };
+
+  const displayMsgFavorites = ({ error }) => {
+    if (!error) {
+      toast.success(
+        ({ closeToast }) => (
+          <div onClick={() => setShowFav(true)}>
+            NFT added to wish-list successfully. You can see!
+            <FavoriteIcon />
+          </div>
+        ),
+        {
+          position: "bottom-left",
+        }
+      );
+    } else {
+      toast.error(
+        ({ closeToast }) => (
+          <div onClick={() => setShowFav(true)}>
+            This NFT is already in your wish-list. You can see!
+            <FavoriteIcon />
+          </div>
+        ),
+        {
+          position: "bottom-left",
+        }
+      );
+    }
+  };
+
   const handleClickOnShoppingCart = () => {
-    dispatch(actions.addNftOnShoppingCart(props));
-   console.log('GUARDANDO ShoppingCart al LS');
+   dispatch(actions.addNftOnShoppingCart(props, displayMsgShoppingCart));
    localStorage.setItem(JSON.stringify(loggedUser.email + "CART"),JSON.stringify(props));
- 
   };
 
   const handleClickOnFavorites = (e) => {
-    dispatch(actions.addToFav(props));
-  // guardamos los favoritos en LS
-	  console.log('GUARDANDO FAVS');
-   localStorage.setItem(JSON.stringify(loggedUser.email + "FAVS"),JSON.stringify(userFavs));
+    dispatch(actions.addToFav(props, displayMsgFavorites));
+    localStorage.setItem(JSON.stringify(loggedUser.email + "FAVS"),JSON.stringify(userFavs));
   };
 
   let starsValue = 0;
@@ -87,8 +150,6 @@ export default function NFTCard(props) {
     await axios.post(`/purchase/create/`, buyData);
   };
 
-  // className={styles[]}
-
   if (viewCards === "clear") {
     return (
       <div className={styles["cardContainer"]}>
@@ -108,14 +169,22 @@ export default function NFTCard(props) {
           </Link>
           <div className={styles["CardButtons"]}>
             <div
-              className={userFavs.map(nft=>nft.id).includes(props.id)?styles["isFav"]:styles["nftCard-icon-container"]}
+              className={
+                userFavs.map((nft) => nft.id).includes(props.id)
+                  ? styles["isFav"]
+                  : styles["nftCard-icon-container"]
+              }
               onClick={handleClickOnFavorites}
             >
               <FavoriteIcon />
             </div>
             <div
-            //  shopingCartContents
-              className={shopingCartContents.map(nft=>nft.id).includes(props.id)?styles["isFav"]:styles["nftCard-icon-container"]}
+              //  shopingCartContents
+              className={
+                shopingCartContents.map((nft) => nft.id).includes(props.id)
+                  ? styles["isFav"]
+                  : styles["nftCard-icon-container"]
+              }
               onClick={handleClickOnShoppingCart}
             >
               <ShoppingCartIcon />
@@ -126,6 +195,31 @@ export default function NFTCard(props) {
           <img src="" alt="add-to-favs" />
           <img src="" alt="shopping-cart" />
         </div>
+
+        {/* wish-list */}
+        <Offcanvas
+          show={showFav}
+          onHide={handleCloseFav}
+          placement={"bottom"}
+          className={styles["offcanvas-scrollbar"]}
+          style={{ height: "fit-content" }}
+        >
+          <Offcanvas.Body>
+            <Ufavorites />
+          </Offcanvas.Body>
+        </Offcanvas>
+
+        {/* shopping cart */}
+        <Offcanvas show={show} onHide={handleClose} placement={"end"}>
+          <div className={styles["conteiner-shopping-cart"]}>
+            <Offcanvas.Header closeButton>
+              <Offcanvas.Title>Your Shopping Cart</Offcanvas.Title>
+            </Offcanvas.Header>
+            <Offcanvas.Body>
+              <Shoppingkart />
+            </Offcanvas.Body>
+          </div>
+        </Offcanvas>
       </div>
     );
   } else {
@@ -156,21 +250,38 @@ export default function NFTCard(props) {
                 </div>
               </div>
               <div className={styles["eth-rarity"]}>
-                <span><span className={styles["price-negrita"]}>{props.price}</span> ETH</span>
-                <span> <span className={styles["price-negrita"]}>${(props.lastBuy * ethPrice.USD).toFixed(2)}</span> USD</span>
+                <span>
+                  <span className={styles["price-negrita"]}>{props.price}</span>{" "}
+                  ETH
+                </span>
+                <span>
+                  {" "}
+                  <span className={styles["price-negrita"]}>
+                    ${(props.lastBuy * ethPrice.USD).toFixed(2)}
+                  </span>{" "}
+                  USD
+                </span>
               </div>
             </div>
           </Link>
 
           <div className={styles["CardButtons"]}>
             <div
-              className={userFavs.map(nft=>nft.id).includes(props.id)?styles["isFav"]:styles["nftCard-icon-container"]}
+              className={
+                userFavs.map((nft) => nft.id).includes(props.id)
+                  ? styles["isFav"]
+                  : styles["nftCard-icon-container"]
+              }
               onClick={handleClickOnFavorites}
             >
               <FavoriteIcon />
             </div>
             <div
-              className={shopingCartContents.map(nft=>nft.id).includes(props.id)?styles["isFav"]:styles["nftCard-icon-container"]}
+              className={
+                shopingCartContents.map((nft) => nft.id).includes(props.id)
+                  ? styles["isFav"]
+                  : styles["nftCard-icon-container"]
+              }
               onClick={handleClickOnShoppingCart}
             >
               <ShoppingCartIcon />
@@ -181,6 +292,31 @@ export default function NFTCard(props) {
             Buy now
           </button>
         </div>
+
+        {/* wish-list */}
+        <Offcanvas
+          show={showFav}
+          onHide={handleCloseFav}
+          placement={"bottom"}
+          className={styles["offcanvas-scrollbar"]}
+          style={{ height: "fit-content" }}
+        >
+          <Offcanvas.Body>
+            <Ufavorites />
+          </Offcanvas.Body>
+        </Offcanvas>
+
+        {/* shopping cart */}
+        <Offcanvas show={show} onHide={handleClose} placement={"end"}>
+          <div className={styles["conteiner-shopping-cart"]}>
+            <Offcanvas.Header closeButton>
+              <Offcanvas.Title>Your Shopping Cart</Offcanvas.Title>
+            </Offcanvas.Header>
+            <Offcanvas.Body>
+              <Shoppingkart />
+            </Offcanvas.Body>
+          </div>
+        </Offcanvas>
       </div>
     );
   }

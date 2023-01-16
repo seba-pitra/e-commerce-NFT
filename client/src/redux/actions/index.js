@@ -214,7 +214,7 @@ export const getUserByID = (id) => {
 export const updateUser = (body) => {
   return async (dispatch) => {
     try {
-      console.log(body)
+      console.log(body);
       const update = await axios.put(`/user/${body.id}`, body);
       dispatch({ type: GET_USER_BY_ID, payload: update.data });
       dispatch({ type: SHOULD_UPDATE });
@@ -547,8 +547,11 @@ export const nftsxpage = (payload) => {
   return { type: SET_NFTS_PER_PAGE, payload };
 };
 
-export const addNftOnShoppingCart = (nft) => {
-  return { type: ADD_NFT_ON_SHOOPING_CART, payload: nft };
+export const addNftOnShoppingCart = (nft, displayMsgShoppingCart) => {
+  return {
+    type: ADD_NFT_ON_SHOOPING_CART,
+    payload: { nft, displayMsgShoppingCart },
+  };
 };
 
 export const removeNftOfShoppingCart = (nftId) => {
@@ -587,8 +590,8 @@ export const sendFungibleMail = (sendData) => {
 };
 
 // --- FAVS ---
-export const addToFav = (payload) => {
-  return { type: ADD_FAV, payload };
+export const addToFav = (nft, displayMsgFavorites) => {
+  return { type: ADD_FAV, payload: { nft, displayMsgFavorites } };
 };
 
 export const delToFav = (payload) => {
