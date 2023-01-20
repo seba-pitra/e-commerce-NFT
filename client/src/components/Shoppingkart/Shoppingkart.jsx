@@ -12,23 +12,29 @@ import darkStyles from "./stylesheets/DarkShoppingCart.module.css";
 import lightStyles from "./stylesheets/LightShoppingCart.module.css";
 
 export default function Shoppingkart() {
-  const shoppingCartContents = useSelector(
-    (state) => state.shoppingCartContents
-  );
+	const shoppingCartContents = useSelector(
+		(state) => state.shoppingCartContents
+	);
 
   const styles = useStyles(darkStyles, lightStyles);
   const dispatch = useDispatch();
 
   const handleBuyNftsOnShoppingCart = async () => {
     //localStorage for payment for mercago pago in component "PayResult"
-    localStorage.setItem(
+
+// ----Observacion == El siguiente codigo no es multiusuario -----
+// ---- Para que sea multiusuario hay que guardar el tag usuario (el mail del usuarioi) + "compras" 
+// ---- para que de esta forma sea unico ese dato en LS  (Att: Vale)
+   localStorage.setItem(
       "nftsOnShoppingCart",
       JSON.stringify(shoppingCartContents)
     );
     dispatch(actions.buyNftOnShoppingCart(shoppingCartContents));
     console.log(shoppingCartContents);
     localStorage.setItem("compras", JSON.stringify(shoppingCartContents));
-    // test only >> dispatch(actions.sendFungibleMail({correoUser: "yomero@gmail.com",accion: "pago"}));
+// ------------- FIN DEL CODIGO QUE NO ES MULTIUSUARIO -----------    
+	
+// test only >> dispatch(actions.sendFungibleMail({correoUser: "yomero@gmail.com",accion: "pago"}));
   };
 
   const handlePay = async ({ nftPrice, nftContract, nftObj }) => {

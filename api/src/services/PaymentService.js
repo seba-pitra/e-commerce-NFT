@@ -29,9 +29,15 @@ class PaymentService {
 
       back_urls: {
         //Create pages result
-        failure: "https://e-commerce-nft.vercel.app/pay/failure",
-        pending: "https://e-commerce-nft.vercel.app/pay/pending",
-        success: "https://e-commerce-nft.vercel.app/pay/success",
+// for localhost only
+	failure: "http://localhost:3000/pay/failure",
+        pending: "http://localhost:3000/pay/pending",
+        success: "http://localhost:3000/pay/success",
+
+//  Uncomment for Deploy
+//	  failure: "https://e-commerce-nft.vercel.app/pay/failure",
+//        pending: "https://e-commerce-nft.vercel.app/pay/pending",
+//        success: "https://e-commerce-nft.vercel.app/pay/success",
       },
     };
 

@@ -568,9 +568,33 @@ export const buyNftOnShoppingCart = (nftsOnShoppingCart) => {
     const buyApi = await axios.post(`/payment`, nftsOnShoppingCart);
     console.log(buyApi);
     window.location.replace(buyApi.data.sandbox_init_point); // => prueba
-    // window.location.replace(buyApi.data.init_point);
+    //
+	  //window.location.replace(buyApi.data.init_point);
   };
 };
+
+/*
+export const buyNftOnShoppingCart = (nftsOnShoppingCart) => {
+  return async (dispatch) => {
+    await fetch(`http://localhost:3001/payment`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      mode: "cors",
+      body: JSON.stringify(nftsOnShoppingCart),
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        //window.location.replace(data.init_point);
+window.location.replace(data.sandbox_init_point);
+      });
+  };
+};
+*/
+
+
+
+
+
 
 export const addBuyAtHistoryBuys = (buyData) => {
   return async (dispatch) => {
