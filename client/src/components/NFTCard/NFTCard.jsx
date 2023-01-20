@@ -98,11 +98,13 @@ export default function NFTCard(props) {
   };
 
   const handleClickOnShoppingCart = () => {
-    dispatch(actions.addNftOnShoppingCart(props, displayMsgShoppingCart));
+   dispatch(actions.addNftOnShoppingCart(props, displayMsgShoppingCart));
+   localStorage.setItem(JSON.stringify(loggedUser.email + "CART"),JSON.stringify(props));
   };
 
   const handleClickOnFavorites = (e) => {
     dispatch(actions.addToFav(props, displayMsgFavorites));
+    localStorage.setItem(JSON.stringify(loggedUser.email + "FAVS"),JSON.stringify(userFavs));
   };
 
   let starsValue = 0;
