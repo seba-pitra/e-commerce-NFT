@@ -116,6 +116,7 @@ export default function NFTCard(props) {
 //    dispatch(actions.addToFav(props, displayMsgFavorites));
 //  };
 
+
   let starsValue = 0;
 
   const handlePay = async (e) => {
