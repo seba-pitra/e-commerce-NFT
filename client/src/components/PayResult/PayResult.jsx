@@ -25,7 +25,7 @@ function PayResult(props) {
   console.log(compras)
   
   console.log(firebaseCurrentUser)
-  let shoppingCartContents = JSON.parse(localStorage.getItem("nftsOnShoppingCart"));
+  let shoppingCartContents = JSON.parse(localStorage.getItem("nftsOnShoppingCart")); // este es monousuario
 
   let totalAmount = 0;
   for (const nft of shoppingCartContents) {
@@ -149,7 +149,7 @@ function PayResult(props) {
 
       dispatch(
         actions.sendFungibleMail({
-          correoUser: firebaseCurrentUser.email,
+          correoUser: firebaseCurrentUser,
           accion: "exito",
         })
       );
@@ -178,10 +178,19 @@ function PayResult(props) {
       })
 
       dispatch(
+//  Esto esta mal porque cambiaron el opbjeto firebaseCurrentUser
+//        actions.sendFungibleMail({
+//          correoUser: firebaseCurrentUser.email,
+//          accion: "error",
+//        })
+
+// Asi esta bien
         actions.sendFungibleMail({
-          correoUser: firebaseCurrentUser.email,
+          correoUser: firebaseCurrentUser,
           accion: "error",
         })
+
+
       );
     } else if (window.location.href.includes("pending")) {
       resultContainer = pendingContainer;
@@ -209,7 +218,7 @@ function PayResult(props) {
 
       dispatch(
         actions.sendFungibleMail({
-          correoUser: firebaseCurrentUser.email,
+          correoUser: firebaseCurrentUser,
           accion: "pendiente",
         })
       );

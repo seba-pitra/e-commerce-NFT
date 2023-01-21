@@ -2,7 +2,8 @@ const { Transaction, User, Nft ,UserPurchases,UserSales} = require("../db");
 
 // Create a new purchase and add it to the database
 // Crear una nueva compra y agregarla a la base de datos
-const createNewTransaction = async (req, res) => {
+const createNewTransaction = async (req, res) => { 
+/*
   try {
     const { payMethod, price, statusPay, buyerId, sellerId, nftIds } = req.body;
 
@@ -94,6 +95,7 @@ const createNewTransaction = async (req, res) => {
     console.error(err);
     res.status(400).send({ error: err.message });
   }
+*/
 };
 
 // Get purchase through id.
@@ -187,7 +189,8 @@ const getTransactionsByUserAsSeller = async (req, res) => {
 // Get a list of all purchases.
 // Conseguir el listado de todas las compras.
 const getAllTransactions = async (req, res) => {
-  try {
+ /*
+	try {
     const dbTransactions = await Transaction.findAll({
       include: [
         {
@@ -217,6 +220,7 @@ const getAllTransactions = async (req, res) => {
     console.error(err);
     res.status(404).send({ error: err.message });
   }
+*/
 };
 
 const setTransactionAsPending = async (req, res) => {
