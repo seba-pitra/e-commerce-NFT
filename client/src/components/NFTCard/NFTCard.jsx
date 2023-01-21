@@ -98,12 +98,24 @@ export default function NFTCard(props) {
   };
 
   const handleClickOnShoppingCart = () => {
-    dispatch(actions.addNftOnShoppingCart(props, displayMsgShoppingCart));
+    dispatch(actions.addNftOnShoppingCart(props));
+   console.log('GUARDANDO ShoppingCart al LS');
+   localStorage.setItem(JSON.stringify(loggedUser.email + "CART"),JSON.stringify(props));
+ 
   };
 
   const handleClickOnFavorites = (e) => {
-    dispatch(actions.addToFav(props, displayMsgFavorites));
+    dispatch(actions.addToFav(props));
+  // guardamos los favoritos en LS
+	  console.log('GUARDANDO FAVS');
+   localStorage.setItem(JSON.stringify(loggedUser.email + "FAVS"),JSON.stringify(userFavs));
+    dispatch(actions.addNftOnShoppingCart(props, displayMsgShoppingCart));
   };
+
+//  const handleClickOnFavorites = (e) => {
+//    dispatch(actions.addToFav(props, displayMsgFavorites));
+//  };
+
 
   let starsValue = 0;
 
