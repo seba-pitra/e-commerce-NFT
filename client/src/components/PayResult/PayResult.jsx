@@ -7,25 +7,24 @@ import { Link } from "react-router-dom";
 import React, { useState } from "react";
 import styles from "./stylesheets/PayResult.module.css";
 import axios from "axios";
+import { useLoggedUser } from "../../customHooks/useLoggedUser";
 
 function PayResult(props) {
   const dispatch = useDispatch();
 
-  let firebaseCurrentUser = JSON.parse(
-    localStorage.getItem("User")
-  );
+  const [loggedUser, updateLoggedUser, handleLogOut] = useLoggedUser();
 
-  let buyer = JSON.parse(
-    localStorage.getItem("User")
-  );
+  let firebaseCurrentUser = JSON.parse(localStorage.getItem("User"));
 
-  let compras = JSON.parse(
-    localStorage.getItem("compras")
-  )
-  console.log(compras)
-  
-  console.log(firebaseCurrentUser)
-  let shoppingCartContents = JSON.parse(localStorage.getItem("nftsOnShoppingCart")); // este es monousuario
+  let buyer = JSON.parse(localStorage.getItem("User"));
+
+  let compras = JSON.parse(localStorage.getItem("compras"));
+  console.log(compras);
+
+  console.log(firebaseCurrentUser);
+  let shoppingCartContents = JSON.parse(
+    localStorage.getItem("nftsOnShoppingCart")
+  ); // este es monousuario
 
   let totalAmount = 0;
   for (const nft of shoppingCartContents) {
@@ -131,21 +130,25 @@ function PayResult(props) {
         statusPay: "Successed",
       };
 
-      let sellers = new Array(...new Set(compras.map((data) => data.userId)))
+      let sellers = new Array(...new Set(compras.map((data) => data.userId)));
 
-      sellers.forEach( async seller => {
+      sellers.forEach(async (seller) => {
         let dataBuy = {
-          price: compras.filter(nfts=>nfts.userId===seller).map((data) => data.price).reduce((a, b) => a + b),
+          price: compras
+            .filter((nfts) => nfts.userId === seller)
+            .map((data) => data.price)
+            .reduce((a, b) => a + b),
           payMethod: "MercadoPago",
           statusPay: "Successful",
           buyerId: buyer.id,
           sellerId: seller,
-          nftIds: compras.filter(nfts=>nfts.userId===seller).map(nfts=>nfts.id),
-        }
-        let newPurchase = await axios.post(`/purchase/create`,dataBuy)
-        console.log(newPurchase)
-        
-      })
+          nftIds: compras
+            .filter((nfts) => nfts.userId === seller)
+            .map((nfts) => nfts.id),
+        };
+        let newPurchase = await axios.post(`/purchase/create`, dataBuy);
+        console.log(newPurchase);
+      });
 
       dispatch(
         actions.sendFungibleMail({
@@ -160,37 +163,32 @@ function PayResult(props) {
         statusPay: "Rejected",
       };
 
-      let sellers = new Array(...new Set(compras.map((data) => data.userId)))
+      let sellers = new Array(...new Set(compras.map((data) => data.userId)));
 
-      sellers.forEach( async seller => {
+      sellers.forEach(async (seller) => {
         let dataBuy = {
-          price: compras.filter(nfts=>nfts.userId===seller).map((data) => data.price).reduce((a, b) => a + b),
+          price: compras
+            .filter((nfts) => nfts.userId === seller)
+            .map((data) => data.price)
+            .reduce((a, b) => a + b),
           payMethod: "MercadoPago",
           statusPay: "Rejected",
-          buyerId: buyer.id,
+          buyerId: loggedUser.id,
           sellerId: seller,
-          nftIds: compras.filter(nfts=>nfts.userId===seller).map(nfts=>nfts.id),
-        }
-        
-        let newPurchase = await axios.post(`/purchase/create`,dataBuy)
-        console.log(newPurchase)
-        
-      })
+          nftIds: compras
+            .filter((nfts) => nfts.userId === seller)
+            .map((nfts) => nfts.id),
+        };
+
+        let newPurchase = await axios.post(`/purchase/create`, dataBuy);
+        console.log(newPurchase);
+      });
 
       dispatch(
-//  Esto esta mal porque cambiaron el opbjeto firebaseCurrentUser
-//        actions.sendFungibleMail({
-//          correoUser: firebaseCurrentUser.email,
-//          accion: "error",
-//        })
-
-// Asi esta bien
         actions.sendFungibleMail({
           correoUser: firebaseCurrentUser,
           accion: "error",
         })
-
-
       );
     } else if (window.location.href.includes("pending")) {
       resultContainer = pendingContainer;
@@ -199,22 +197,26 @@ function PayResult(props) {
         statusPay: "Pending",
       };
 
-      let sellers = new Array(...new Set(compras.map((data) => data.userId)))
+      let sellers = new Array(...new Set(compras.map((data) => data.userId)));
 
-      sellers.forEach( async seller => {
+      sellers.forEach(async (seller) => {
         let dataBuy = {
-          price: compras.filter(nfts=>nfts.userId===seller).map((data) => data.price).reduce((a, b) => a + b),
+          price: compras
+            .filter((nfts) => nfts.userId === seller)
+            .map((data) => data.price)
+            .reduce((a, b) => a + b),
           payMethod: "MercadoPago",
           statusPay: "Pending",
           buyerId: buyer.id,
           sellerId: seller,
-          nftIds: compras.filter(nfts=>nfts.userId===seller).map(nfts=>nfts.id),
-        }
-        
-        let newPurchase = await axios.post(`/purchase/create`,dataBuy)
-        console.log(newPurchase)
-        
-      })
+          nftIds: compras
+            .filter((nfts) => nfts.userId === seller)
+            .map((nfts) => nfts.id),
+        };
+
+        let newPurchase = await axios.post(`/purchase/create`, dataBuy);
+        console.log(newPurchase);
+      });
 
       dispatch(
         actions.sendFungibleMail({
