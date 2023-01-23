@@ -165,8 +165,8 @@ const rootReducer = (state = initialState, action) => {
         loggedUser: action.payload,
       };
     case UPDATE_LOGGED_USER:
-     // console.log(action.payload);
-    // Actualiza el estado con los nuevos datos del usuario
+      // console.log(action.payload);
+      // Actualiza el estado con los nuevos datos del usuario
       // Actualiza el estado con los nuevos datos del usuario
       return { ...state, loggedUser: action.payload };
     case LOG_IN:
@@ -484,7 +484,8 @@ const rootReducer = (state = initialState, action) => {
       );
 
       //responde que fue exitoso.
-      action.payload.displayMsgShoppingCart({ error: false });
+      action.payload.displayMsgShoppingCart &&
+        action.payload.displayMsgShoppingCart({ error: false });
 
       // modifica el estado.
       return {
@@ -558,7 +559,8 @@ const rootReducer = (state = initialState, action) => {
 
       utils.saveFavsLocalStorage(newFavs, state.loggedUser.email);
 
-      action.payload.displayMsgFavorites({ error: false });
+      action.payload.displayMsgFavorites &&
+        action.payload.displayMsgFavorites({ error: false });
 
       // modifica el estado.
       return {
