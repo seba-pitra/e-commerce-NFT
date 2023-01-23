@@ -1,4 +1,4 @@
-# PF-e-commerce-NFT
+# NFT E-commerce
 
 <div align="center">
 <img width="500"  alt="Captura de pantalla 2023-01-17 143635" src="https://user-images.githubusercontent.com/98099690/214103160-3bd705ac-6e88-402e-ae8c-c59aba52ab22.png">
