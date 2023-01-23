@@ -1,5 +1,5 @@
 import * as actions from "../../redux/actions/index";
-import { React, useState } from "react";
+import { React, useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import SearchBar from "../SearchBar/SearchBar";
@@ -34,13 +34,19 @@ export default function NFTNav() {
 
   const cartItemsCount = useSelector((state) => state.shoppingCartContents);
   const userFavorites = useSelector((state) => state.userFavs);
+  const loggedUserGlobal = useSelector((state) => state.loggedUser);
   const [loggedUser, updateLoggedUser, handleLogOut] = useLoggedUser();
   const activeThemeIsDark = useSelector((state) => state.activeThemeIsDark);
-
   const areWeInLanding = location.pathname === "/";
 
   const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  const handleShow = () => {
+    localStorage.setItem(
+      JSON.stringify(loggedUser.email + "CART"),
+      JSON.stringify(cartItemsCount)
+    );
+    setShow(true);
+  };
   const handleCloseFav = () => setShowFav(false);
   const handleShowFav = () => setShowFav(true);
 
@@ -52,12 +58,57 @@ export default function NFTNav() {
   const onSwitch = () => {
     dispatch(actions.toggleTheme());
     // Theme LocalStorage Saver
-    console.log(activeThemeIsDark);
+    //console.log(activeThemeIsDark);
     localStorage.setItem(
       JSON.stringify(loggedUser.email + "theme"),
       JSON.stringify(activeThemeIsDark)
     );
   };
+
+  useEffect(() => {
+    // Aqui no estaba el user
+    //console.log(loggedUser.email);  // devuelve null si no logea o se refresca la pag
+    //console.log(store.getState().loggedUser.email);  // devuelve null si no logea o se refresca la pagina
+    //console.log(loggedUserGlobal);	// devuelve null si no logea o se regresca la pag
+
+    //Aqui si esta el usuario logeado
+    let localStorageUser = JSON.parse(localStorage.getItem("User"));
+    console.log("Usuario Activo");
+    console.log(localStorageUser);
+    // los loaders funcionan bien si el usuario esta logeado y tiene persistencia al refresh
+
+    // Loading Theme, Favs, ShoppingCart items on refresh
+
+    // Tema
+    let SavedTheme = JSON.parse(
+      localStorage.getItem(JSON.stringify(localStorageUser + "theme"))
+    );
+    console.log("TEMA!!");
+    console.log(SavedTheme);
+    //if (SavedTheme) { dispatch(actions.injectLocalStorageTheme(SavedTheme))}
+    //{ dispatch(actions.toggleTheme())};
+
+    // Favs
+
+    let SavedFavorites = JSON.parse(
+      localStorage.getItem(JSON.stringify(localStorageUser + "FAVS"))
+    );
+
+    if (SavedFavorites) {
+      dispatch(actions.addToFav(SavedFavorites));
+    }
+
+    // ShoppingCart Items
+    let SavedCartItems = JSON.parse(
+      localStorage.getItem(JSON.stringify(localStorageUser + "CART"))
+    );
+
+    if (SavedFavorites) {
+      dispatch(actions.addNftOnShoppingCart(SavedCartItems));
+    }
+
+    // -------------------------------------------------
+  }, [dispatch]);
 
   return (
     <div className={areWeInLanding ? "hidden" : "nav-bar"}>

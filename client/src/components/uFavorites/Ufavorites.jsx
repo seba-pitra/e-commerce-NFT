@@ -19,26 +19,22 @@ export default function Ufavorites() {
   return (
     <div className={styles["main-op"]}>
       <div className="d-flex flex-row">
-        {userFavs &&
+        {userFavs && userFavs.length > 0 ?
           userFavs.map((idx, index) => {
             return (
-              <div key={index} className={styles["img-container"]}>
-                <Link className={styles.link} to={`/details/${idx.id}`}>
-                  <img
-                    src={idx.image}
-                    alt="nft"
-                    className={styles["fav-nft-img"]}
-                  />
-                </Link>
-                <button
-                  className={styles["favs-remove-button"]}
-                  onClick={() => handleClickDelFavorites(idx.id)}
-                >
-                  ×
-                </button>
-              </div>
+                  <div key={index} className={styles["img-container"]}>
+                    <Link className={styles.link} to={`/details/${idx.id}`}>
+                      <img src={idx.image} alt="nft" className={styles["fav-nft-img"]}/>
+                    </Link>
+                    <button className={styles["favs-remove-button"]} onClick={() => handleClickDelFavorites(idx.id)}>×</button>
+                  </div>
+
             );
-          })}
+          }) : (
+            <div className={styles["favs-no-nfts"]}>
+              <span>You have not added any items to your wish-list yet</span>
+            </div>
+          )}
       </div>
     </div>
   );

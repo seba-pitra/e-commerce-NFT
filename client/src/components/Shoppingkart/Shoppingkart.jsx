@@ -12,23 +12,29 @@ import darkStyles from "./stylesheets/DarkShoppingCart.module.css";
 import lightStyles from "./stylesheets/LightShoppingCart.module.css";
 
 export default function Shoppingkart() {
-  const shoppingCartContents = useSelector(
-    (state) => state.shoppingCartContents
-  );
+	const shoppingCartContents = useSelector(
+		(state) => state.shoppingCartContents
+	);
 
   const styles = useStyles(darkStyles, lightStyles);
   const dispatch = useDispatch();
 
   const handleBuyNftsOnShoppingCart = async () => {
     //localStorage for payment for mercago pago in component "PayResult"
-    localStorage.setItem(
+
+// ----Observacion == El siguiente codigo no es multiusuario -----
+// ---- Para que sea multiusuario hay que guardar el tag usuario (el mail del usuarioi) + "compras" 
+// ---- para que de esta forma sea unico ese dato en LS  (Att: Vale)
+   localStorage.setItem(
       "nftsOnShoppingCart",
       JSON.stringify(shoppingCartContents)
     );
     dispatch(actions.buyNftOnShoppingCart(shoppingCartContents));
     console.log(shoppingCartContents);
     localStorage.setItem("compras", JSON.stringify(shoppingCartContents));
-    // test only >> dispatch(actions.sendFungibleMail({correoUser: "yomero@gmail.com",accion: "pago"}));
+// ------------- FIN DEL CODIGO QUE NO ES MULTIUSUARIO -----------    
+	
+// test only >> dispatch(actions.sendFungibleMail({correoUser: "yomero@gmail.com",accion: "pago"}));
   };
 
   const handlePay = async ({ nftPrice, nftContract, nftObj }) => {
@@ -87,7 +93,7 @@ export default function Shoppingkart() {
     <div className={styles["shopping-cart-container"]}>
       <div className={styles["shopping-cart"]}>
         <div className={styles["shopping-cart-nft-cards"]}>
-          {shoppingCartContents &&
+          {shoppingCartContents && shoppingCartContents.length > 0 ?
             shoppingCartContents.map((nft, index) => {
               return (
                 <div key={index} className={styles["cart-nfts-container"]}>
@@ -117,7 +123,11 @@ export default function Shoppingkart() {
                   </button>
                 </div>
               );
-            })}
+            }) : (
+              <div className={styles["cart-no-nfts"]}>
+                <span>There are no items added to the cart yet</span>
+              </div>
+            )}
         </div>
       </div>
       <div className="text-center text-lg-bottom mt-4 pt-2">

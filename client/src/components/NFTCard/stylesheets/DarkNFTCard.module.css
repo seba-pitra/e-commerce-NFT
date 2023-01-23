@@ -40,11 +40,11 @@
   margin-left: 5px;
 }
 
-.eth-rarity span{
+.eth-rarity span {
   font-size: 12px;
 }
 
-.eth-rarity .price-negrita{
+.eth-rarity .price-negrita {
   color: #fafafa;
   font-size: 18px;
   font-weight: 600;
@@ -65,7 +65,7 @@
 }
 
 .nftCard-img-container img {
-  width: 100%;
+  width: 300px;
   height: 300px;
   max-height: 300px;
   box-sizing: border-box;
@@ -138,7 +138,7 @@
 
 .but-now-button {
   border: none;
-  transition: all 0.4s ease-in;
+  transition: all 0.2s ease-in;
   width: 80%;
   border-radius: 8px;
   z-index: 1;
@@ -204,12 +204,19 @@
   background-color: rgba(0, 0, 0, 0.7);
 }
 
+@media (max-width: 769px) {
+  .CardButtons {
+    visibility: visible;
+    right: 0px;
+  }
+}
+
 .nftCard-icon-container {
   margin: 2.5px 0;
   color: white;
   cursor: pointer;
 }
-.isFav{
+.isFav {
   margin: 2.5px 0;
   color: #d3448b;
   cursor: pointer;
@@ -264,4 +271,11 @@
 .nftCard-nameToken-separated b {
   font-size: 18px;
   color: #fafafa;
+}
+
+.offcanvas-scrollbar {
+  height: 200px;
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
 }

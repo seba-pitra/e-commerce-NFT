@@ -4,7 +4,7 @@ import { useHistory } from "react-router-dom";
 import GoogleIcon from "@mui/icons-material/Google";
 import * as helpers from "./LoginHelpers";
 import * as actions from "../../redux/actions";
-import * as utils  from "../../utils";
+import * as utils from "../../utils";
 import styles from "./stylesheets/Login.module.css";
 import { useLoggedUser } from "../../customHooks/useLoggedUser";
 
@@ -26,9 +26,9 @@ const Login = () => {
     });
   };
 
- /**
- * Handles the login process using Google Sign-In.
- */
+  /**
+   * Handles the login process using Google Sign-In.
+   */
   const handleLogInGoogle = async () => {
     // Attempt to sign the user in using Google Sign-In
     const user = await helpers.signGoogle();
@@ -39,11 +39,18 @@ const Login = () => {
       // Load the user's cart and favorites from local storage
       utils.loadCartLocalStorage(dispatch, user.email);
       utils.loadFavsLocalStorage(dispatch, user.email);
-      history.push("/home")
+      history.push("/home");
+
       // Theme LocalStorage Loader for logInGoogle only
-      let SavedTheme = JSON.parse(localStorage.getItem(JSON.stringify(user.email+'theme')));  
-      if (SavedTheme) { dispatch(actions.injectLocalStorageTheme(SavedTheme))}; 
-      localStorage.setItem("User",JSON.stringify(user)); 
+      let SavedTheme = JSON.parse(
+        localStorage.getItem(JSON.stringify(user.email + "theme"))
+      );
+      if (SavedTheme) {
+        dispatch(actions.injectLocalStorageTheme(SavedTheme));
+      }
+
+      //      localStorage.setItem("User",JSON.stringify(user));   // Originalmente solo estaba con user
+      localStorage.setItem("User", JSON.stringify(user.email)); // asi solo enviamos el correo al LS
     }
   };
   /**
@@ -52,10 +59,10 @@ const Login = () => {
   const handleSubmit = async (e) => {
     // Prevent the default form submission behavior
     e.preventDefault();
-  
+
     // Attempt to log the user in using the logginFunction helper
     const user = await helpers.logginFunction(logginForm);
-  
+
     // If the user was successfully logged in
     if (user && user.uid) {
       // Reset the form fields
@@ -66,15 +73,17 @@ const Login = () => {
       // // Dispatch the logInUser action to get the user data to global state.
       dispatch(actions.logInUser(user.uid));
       // Load the user's cart and favorites from local storage
-      history.push("/home")
+      history.push("/home");
       utils.loadCartLocalStorage(dispatch, user.email);
       utils.loadFavsLocalStorage(dispatch, user.email);
-      let SavedTheme = JSON.parse(localStorage.getItem(JSON.stringify(user.email+'theme')));  
-      if (SavedTheme) { dispatch(actions.injectLocalStorageTheme(SavedTheme))}; 
+      let SavedTheme = JSON.parse(
+        localStorage.getItem(JSON.stringify(user.email + "theme"))
+      );
+      if (SavedTheme) {
+        dispatch(actions.injectLocalStorageTheme(SavedTheme));
+      }
     }
   };
-
-
 
   return (
     <form onSubmit={handleSubmit}>

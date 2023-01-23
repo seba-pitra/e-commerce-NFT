@@ -20,7 +20,8 @@
   width: 100%;
   text-align: center;
   font-weight: 700;
-  color: white;
+  color: #212121;
+  padding: 3px 0;
   height: fit-content;
 }
 
