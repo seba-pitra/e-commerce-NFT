@@ -1,4 +1,11 @@
-const { User, Nft, Collection, Transaction,UserPurchases,UserSales } = require("../db");
+const {
+  User,
+  Nft,
+  Collection,
+  Transaction,
+  UserPurchases,
+  UserSales,
+} = require("../db");
 const { superUser } = require("../jsondata/superUserData.json");
 const { SUPER_USER_DATA } = require("../jsondata/superUserData.json");
 const SUPER_USER_DATA_ID = SUPER_USER_DATA.id;
@@ -21,6 +28,7 @@ const registerUser = async (req, res) => {
 const signInWithGoogle = async (req, res) => {
   try {
     const userData = req.body;
+
     const [newUser, created] = await User.findOrCreate({
       where: { id: userData.id },
       defaults: userData,

@@ -24,8 +24,8 @@ const Details = (props) => {
   const { id } = props.match.params;
   const nftDetail = useSelector((state) => state.nftDetail);
   const isLoading = useSelector((state) => state.isLoading);
-  const [loggedUser, updateLoggedUser, handleLogOut] = useLoggedUser()
-  const userDetail = loggedUser
+  const [loggedUser, updateLoggedUser, handleLogOut] = useLoggedUser();
+  const userDetail = loggedUser;
 
   useEffect(() => {
     dispatch(actions.getNftDetail(id));
@@ -74,9 +74,6 @@ const Details = (props) => {
         statusPay: "Pending",
       };
     }
-    console.log(buyData);
-    // console.log(transactionMetamask);
-    // console.log(userDetail)
     let newPurchase = await axios.post(`/purchase/create/`, buyData);
     console.log(newPurchase);
   };
@@ -88,10 +85,6 @@ const Details = (props) => {
   let date = new Date(nftDetail);
   date = date.toString();
   date = date.slice(4, 16);
-
-  console.log(nftDetail.reviews)
-
-  //esto va a traer el promedio directamente del model
 
   return (
     <>

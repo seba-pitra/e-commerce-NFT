@@ -1,9 +1,8 @@
-const { Transaction, User, Nft ,UserPurchases,UserSales} = require("../db");
+const { Transaction, User, Nft, UserPurchases, UserSales } = require("../db");
 
 // Create a new purchase and add it to the database
 // Crear una nueva compra y agregarla a la base de datos
-const createNewTransaction = async (req, res) => { 
-/*
+const createNewTransaction = async (req, res) => {
   try {
     const { payMethod, price, statusPay, buyerId, sellerId, nftIds } = req.body;
 
@@ -54,7 +53,7 @@ const createNewTransaction = async (req, res) => {
       for (const nft of tokens) {
         nft.set({
           ownerName: buyer.username,
-          userId:seller.id
+          userId: seller.id,
         });
         // Guarda los cambios en la base de datos
         await nft.save();
@@ -77,13 +76,11 @@ const createNewTransaction = async (req, res) => {
         {
           model: User,
           as: "seller",
-          through:{
+          through: {
             model: UserSales,
             as: "seller",
-            
           },
-          foreignKey:'sellerId'
-          
+          foreignKey: "sellerId",
         },
         { model: Nft, as: "tokens" },
       ],
@@ -95,7 +92,6 @@ const createNewTransaction = async (req, res) => {
     console.error(err);
     res.status(400).send({ error: err.message });
   }
-*/
 };
 
 // Get purchase through id.
@@ -189,8 +185,7 @@ const getTransactionsByUserAsSeller = async (req, res) => {
 // Get a list of all purchases.
 // Conseguir el listado de todas las compras.
 const getAllTransactions = async (req, res) => {
- /*
-	try {
+  try {
     const dbTransactions = await Transaction.findAll({
       include: [
         {
@@ -220,7 +215,6 @@ const getAllTransactions = async (req, res) => {
     console.error(err);
     res.status(404).send({ error: err.message });
   }
-*/
 };
 
 const setTransactionAsPending = async (req, res) => {
@@ -262,11 +256,9 @@ const rejectTransaction = async (req, res) => {
     } else if (foundTransaction.statusPay === "Rejected") {
       res.status(200).json({ message: "purchase already rejected" });
     } else {
-      res
-        .status(200)
-        .send({
-          message: `Transaction was successful, cannot set as rejected`,
-        });
+      res.status(200).send({
+        message: `Transaction was successful, cannot set as rejected`,
+      });
     }
   } catch (error) {
     console.error(err);
@@ -291,11 +283,9 @@ const purchaseSuccess = async (req, res) => {
     } else if (foundTransaction.statusPay === "Successful") {
       res.status(200).json({ message: "purchase already successful" });
     } else {
-      res
-        .status(200)
-        .send({
-          message: `Transaction was rejected, cannot set as successful`,
-        });
+      res.status(200).send({
+        message: `Transaction was rejected, cannot set as successful`,
+      });
     }
   } catch (error) {
     console.error(err);
