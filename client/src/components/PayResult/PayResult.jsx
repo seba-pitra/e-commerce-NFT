@@ -6,7 +6,6 @@ import axios from "axios";
 import { useLoggedUser } from "../../customHooks/useLoggedUser";
 import SuccessPayResult from "./PayResultComponents/SuccessPayResult/SuccessPayResult";
 
-// import styles from "./stylesheets/PayResult.module.css";
 import useStyles from "../../customHooks/useStyles";
 import darkStyles from "./stylesheets/DarkPayResult.module.css";
 import lightStyles from "./stylesheets/LightPayResult.module.css";
