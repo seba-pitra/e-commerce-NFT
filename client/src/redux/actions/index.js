@@ -572,7 +572,7 @@ export const buyNftOnShoppingCart = (nftsOnShoppingCart) => {
     console.log(buyApi);
     window.location.replace(buyApi.data.sandbox_init_point); // => prueba
     //
-	  //window.location.replace(buyApi.data.init_point);
+    //window.location.replace(buyApi.data.init_point);
   };
 };
 
@@ -593,11 +593,6 @@ window.location.replace(data.sandbox_init_point);
   };
 };
 */
-
-
-
-
-
 
 export const addBuyAtHistoryBuys = (buyData) => {
   return async (dispatch) => {
