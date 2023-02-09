@@ -10,11 +10,15 @@ import "react-toastify/dist/ReactToastify.css";
 import useStyles from "../../customHooks/useStyles";
 import darkStyles from "./stylesheets/DarkShoppingCart.module.css";
 import lightStyles from "./stylesheets/LightShoppingCart.module.css";
+import { useLoggedUser } from "../../customHooks/useLoggedUser";
 
 export default function Shoppingkart() {
   const shoppingCartContents = useSelector(
     (state) => state.shoppingCartContents
   );
+
+  const loggedUser = useLoggedUser();
+  console.log("loggedUser", loggedUser);
 
   const styles = useStyles(darkStyles, lightStyles);
   const dispatch = useDispatch();
@@ -29,7 +33,7 @@ export default function Shoppingkart() {
       "nftsOnShoppingCart",
       JSON.stringify(shoppingCartContents)
     );
-    dispatch(actions.buyNftOnShoppingCart(shoppingCartContents));
+    dispatch(actions.buyNftOnShoppingCart(shoppingCartContents, loggedUser));
     console.log(shoppingCartContents);
     localStorage.setItem("compras", JSON.stringify(shoppingCartContents));
     // ------------- FIN DEL CODIGO QUE NO ES MULTIUSUARIO -----------
