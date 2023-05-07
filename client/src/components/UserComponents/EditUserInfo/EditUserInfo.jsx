@@ -29,14 +29,10 @@ export default function EditUserINfo(props) {
   let handleChange = (e) => {
     e.preventDefault();
     setInput((prev) => ({ ...prev, [e.target.name]: e.target.value }));
-    console.log(input);
     let err = {};
     validateUserData(err, { ...input, [e.target.name]: e.target.value });
     setErrors(err);
-    console.log(errors);
   };
-  console.log(props);
-  console.log(input);
   let handleSubmit = (e) => {
     //al apretar enviar tendria q hacer el dispatch con los cambios,y volver a cargar el componente,pero el lo
     e.preventDefault();
@@ -51,12 +47,8 @@ export default function EditUserINfo(props) {
       // && obj.profile_pic === props.profile_pic
     ) {
       //si esto se da significa que no hubo ningun cambio .entonces no deberia hacer el dispatch
-      console.log("There was no change in your data.");
-      console.log(obj);
-
       return;
     } else {
-      console.log("there was a change");
       dispatch(updateUser(obj));
       props.setEdit(false);
     }

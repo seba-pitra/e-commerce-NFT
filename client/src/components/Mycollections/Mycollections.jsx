@@ -15,7 +15,6 @@ function Mycollections() {
   const styles = useStyles(darkStyles, lightStyles);
 
   const collectionsCards = loggedUser.collections && loggedUser.collections.map((collection) => {
-		console.log(loggedUser)
 			return (
 				<Link to={`/collections/${collection.id}`} className={styles["link"]}>
 					<div className={styles["collections-container"]}>
@@ -34,7 +33,6 @@ function Mycollections() {
     );
 
 		const userNfts = loggedUser.nfts && loggedUser.nfts.map((nft) => {
-			console.log(loggedUser)
 				return (
 						<NFTCard2
 							key={nft?.id}
@@ -54,9 +52,6 @@ function Mycollections() {
 					);
 				}
 			);
-
-			console.log(userNfts)
-			console.log(collectionsCards);
 
   return (
     <div className="conteiner-main-collections">

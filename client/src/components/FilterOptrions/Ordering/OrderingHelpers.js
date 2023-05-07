@@ -9,7 +9,6 @@ const LASTBUY = "lastbuy"
 const CREATEDTS = "createdts"
 
     export const orderOptionDispatcher = (dispatch, option) => {
-        console.log(option)
     switch (option) {
         case NAME:
             dispatch(actions.orderName());

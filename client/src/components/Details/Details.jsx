@@ -75,7 +75,6 @@ const Details = (props) => {
       };
     }
     let newPurchase = await axios.post(`/purchase/create/`, buyData);
-    console.log(newPurchase);
   };
 
   const handleClickOnShoppingCart = (e) => {

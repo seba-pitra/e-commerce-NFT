@@ -16,7 +16,6 @@ const CollectionCarousel = ({ cards }) => {
       currentCardsRange[1] + 3,
       currentCardsRange[2] + 3,
     ];
-    console.log(nextRange);
     if (nextRange[2] > cards.length) setCurrentCardsRange([0, 1, 2]);
     else setCurrentCardsRange(nextRange);
   };

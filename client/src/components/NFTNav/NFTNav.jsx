@@ -58,7 +58,6 @@ export default function NFTNav() {
   const onSwitch = () => {
     dispatch(actions.toggleTheme());
     // Theme LocalStorage Saver
-    //console.log(activeThemeIsDark);
     localStorage.setItem(
       JSON.stringify(loggedUser.email + "theme"),
       JSON.stringify(activeThemeIsDark)
@@ -67,14 +66,8 @@ export default function NFTNav() {
 
   useEffect(() => {
     // Aqui no estaba el user
-    //console.log(loggedUser.email);  // devuelve null si no logea o se refresca la pag
-    //console.log(store.getState().loggedUser.email);  // devuelve null si no logea o se refresca la pagina
-    //console.log(loggedUserGlobal);	// devuelve null si no logea o se regresca la pag
-
     //Aqui si esta el usuario logeado
     let localStorageUser = JSON.parse(localStorage.getItem("User"));
-    console.log("Usuario Activo");
-    console.log(localStorageUser);
     // los loaders funcionan bien si el usuario esta logeado y tiene persistencia al refresh
 
     // Loading Theme, Favs, ShoppingCart items on refresh
@@ -83,8 +76,6 @@ export default function NFTNav() {
     let SavedTheme = JSON.parse(
       localStorage.getItem(JSON.stringify(localStorageUser + "theme"))
     );
-    console.log("TEMA!!");
-    console.log(SavedTheme);
     //if (SavedTheme) { dispatch(actions.injectLocalStorageTheme(SavedTheme))}
     //{ dispatch(actions.toggleTheme())};
 

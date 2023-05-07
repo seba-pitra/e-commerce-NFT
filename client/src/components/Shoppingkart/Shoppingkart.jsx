@@ -30,7 +30,6 @@ export default function Shoppingkart() {
       JSON.stringify(shoppingCartContents)
     );
     dispatch(actions.buyNftOnShoppingCart(shoppingCartContents));
-    console.log(shoppingCartContents);
     localStorage.setItem("compras", JSON.stringify(shoppingCartContents));
 // ------------- FIN DEL CODIGO QUE NO ES MULTIUSUARIO -----------    
 	

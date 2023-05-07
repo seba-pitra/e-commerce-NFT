@@ -117,7 +117,6 @@ const initialState = {
 };
 
 const rootReducer = (state = initialState, action) => {
-  // console.log(action);
   switch (action.type) {
     case LOADING:
       return { ...state, isLoading: true };
@@ -165,7 +164,6 @@ const rootReducer = (state = initialState, action) => {
         loggedUser: action.payload,
       };
     case UPDATE_LOGGED_USER:
-      // console.log(action.payload);
       // Actualiza el estado con los nuevos datos del usuario
       // Actualiza el estado con los nuevos datos del usuario
       return { ...state, loggedUser: action.payload };

@@ -15,14 +15,6 @@ const DougnoutChart = ({ users }) => {
     setTypes([...new Set(users.map((user) => user.type))]);
   }, [users]);
 
-  // por favor no olvidarse de eliminar estos console logs cuando este terminado.
-  console.log(users);
-  console.log("types", types);
-  console.log(
-    "values",
-    types.map((type) => users.filter((user) => user.type === type).length)
-  );
-
   const chartData = {
     labels: types,
     datasets: [

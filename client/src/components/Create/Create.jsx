@@ -32,7 +32,6 @@ export default function Create() {
     name: undefined,
     image: undefined,
   });
-  console.log(createdCollection)
   const [createdNft, setCreatedNft] = useState({
     userId: user.id,
     collectionId: undefined,

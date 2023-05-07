@@ -214,7 +214,6 @@ export const getUserByID = (id) => {
 export const updateUser = (body) => {
   return async (dispatch) => {
     try {
-      console.log(body);
       const update = await axios.put(`/user/${body.id}`, body);
       dispatch({ type: GET_USER_BY_ID, payload: update.data });
       dispatch({ type: SHOULD_UPDATE });
@@ -519,7 +518,6 @@ export const addReview = (payload) => {
         nftId: nftId,
         value: value,
       });
-      console.log(response);
       dispatch({ type: SHOULD_UPDATE });
       // Falta el dispatch ya sea para setear el value fijo o para mostrar un mensaje.
     } catch (error) {
@@ -569,10 +567,7 @@ export const freeShoppingCartState = () => {
 export const buyNftOnShoppingCart = (nftsOnShoppingCart) => {
   return async (dispatch) => {
     const buyApi = await axios.post(`/payment`, nftsOnShoppingCart);
-    console.log(buyApi);
     window.location.replace(buyApi.data.sandbox_init_point); // => prueba
-    //
-    //window.location.replace(buyApi.data.init_point);
   };
 };
 

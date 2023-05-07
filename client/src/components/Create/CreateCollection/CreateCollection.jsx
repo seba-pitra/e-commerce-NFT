@@ -30,8 +30,6 @@ export default function CreateCollection({
     }));
   };
 
-  console.log(createdNft)
-
   const inputCollectionName = (e) => {
     e.preventDefault();
     setCreatedCollection((prev) => ({
