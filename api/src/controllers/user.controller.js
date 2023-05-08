@@ -20,7 +20,6 @@ const registerUser = async (req, res) => {
     });
     res.status(200).json(newUser);
   } catch (err) {
-    console.log(err.message);
     res.status(404).json({ message: err.message, error_detail: err });
   }
 };
@@ -61,7 +60,6 @@ const signInWithGoogle = async (req, res) => {
     }
     res.status(200).json(newUser);
   } catch (err) {
-    console.error(err.message);
     res.status(404).json({ error: err.message });
   }
 };
@@ -99,7 +97,6 @@ const getAllUsers = async (req, res) => {
       return res.status(200).json(allUsers);
     }
   } catch (error) {
-    console.error(error);
     return res.status(404).json({ error: error.message });
   }
 };
@@ -117,7 +114,6 @@ const updateUser = async (req, res) => {
       throw new Error(`No user with id ${id}`);
     }
   } catch (err) {
-    console.error(err);
     res.status(400).json({ error: err.message });
   }
 };
@@ -155,7 +151,6 @@ const getUserById = async (req, res) => {
       throw new Error(`No user found with id: ${id}`);
     }
   } catch (error) {
-    console.error(error);
     return res.status(400).json({ error: error.message });
   }
 };
@@ -177,7 +172,6 @@ const deleteUser = async (req, res) => {
       throw new Error(`no NFT found with id: ${id}`);
     }
   } catch (err) {
-    console.error(err.message);
     return res.status(400).json({ error: err.message });
   }
 };
@@ -202,7 +196,6 @@ const restoreDeletedUser = async (req, res) => {
       throw new Error(`No nft found with id ${id}`);
     }
   } catch (err) {
-    console.error(err.message);
     return res.status(400).json({ err: err.message });
   }
 };
@@ -223,8 +216,6 @@ const userAsksForVerification = async (req, res) => {
       address,
       dni,
     } = req.body;
-
-    // aca iria la valdacion de datos
 
     const user = await User.findByPk(id);
     if (user) {
@@ -259,7 +250,6 @@ const userAsksForVerification = async (req, res) => {
       throw new Error(`No user found with id ${id}`);
     }
   } catch (error) {
-    console.error(error);
     return res.status(400).json({ error: error.message });
   }
 };
@@ -290,7 +280,6 @@ const verifiedToAdmin = async (req, res) => {
       throw new Error(`No user found with id ${id}`);
     }
   } catch (error) {
-    console.error(error);
     return res.status(400).json({ error: error.message });
   }
 };
@@ -316,7 +305,6 @@ const adminToVerified = async (req, res) => {
       throw new Error(`No user found with id ${id}`);
     }
   } catch (error) {
-    console.error(error);
     return res.status(400).json({ error: error.message });
   }
 };
@@ -343,7 +331,6 @@ const verifyUser = async (req, res) => {
       throw new Error(`No user found with id ${id}`);
     }
   } catch (error) {
-    console.error(error);
     return res.status(400).json({ error: error.message });
   }
 };
@@ -381,9 +368,6 @@ const rejectVerification = async (req, res) => {
   } catch (error) {}
 };
 
-/*
- * Super user data
- */
 const createSuperUser = async () => {
   try {
     let response = await User.findOne({
@@ -402,10 +386,8 @@ const createSuperUser = async () => {
         profile_pic: SUPER_USER_DATA.profile_pic,
       });
     }
-    console.log("Super user created");
     return response;
   } catch (error) {
-    console.error("User error message", error.message);
     throw new Error(error.message);
   }
 };

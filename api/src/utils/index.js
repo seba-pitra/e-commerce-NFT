@@ -42,8 +42,8 @@ module.exports = {
             favs: 0,
             stars: null,
             lastBuyValue: priceLastBuy.toFixed(2),
-            lastBuyTs: Math.floor(Math.random() * 28857600000 + 1640995200000), // enero 2022 - actual
-            createdTs: Math.floor(Math.random() * 60000000000 + 1577836800000), // enero 2022 - enero 2022
+            lastBuyTs: Math.floor(Math.random() * 28857600000 + 1640995200000), 
+            createdTs: Math.floor(Math.random() * 60000000000 + 1577836800000),
             ownerName: nft.market.floorAsk.source.name || "Non Fungible Town",
             ownerIcon:
                 nft.market.floorAsk.source.icon ||

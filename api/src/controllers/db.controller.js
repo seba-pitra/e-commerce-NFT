@@ -9,7 +9,6 @@ const { Nft, Collection, Transaction, User, Review } = require("../db");
 const utils = require("../utils");
 
 
-//Creates every initial data, and posts it to the database.
 const postNftsToDB = async (req, res) => {
     try {
         console.log("Starting database injection of " + req.params.nftQuantity + " nfts... " + new Date().toString())
@@ -33,7 +32,6 @@ const postNftsToDB = async (req, res) => {
     }
 }
 
-//Returns all data that is present in the database.
 const getEverythingFromDB = async (req, res) => {
     try {
         const allNfts = await Nft.findAll({
@@ -93,7 +91,6 @@ const getEverythingFromDB = async (req, res) => {
     }
 }
 
-//Generate all nfts and all collections
 const generateEverything = async (req) => {
     try {
         const response = [];
@@ -115,10 +112,6 @@ const generateEverything = async (req) => {
         throw new Error(`Function: generateEverything() caught => ${error.message}`);
     }
 };
-
-/*
-    controllers to create and post collections to db
-*/
 
 const createAllInitialCollections = async () => {
     try {
@@ -218,11 +211,11 @@ const nftCreator = async (nftsToCreate, responseArray) => {
     },
     });
     for (const nft of nftsToCreate) {
-    //se diseña el name en base a los datos.
-    let nftName = utils.nftNameCreatorFor(nft);
-    //se calcula el precio de la ultima compra
+
+        let nftName = utils.nftNameCreatorFor(nft);
+
     let priceLastBuy = utils.priceLastBuyCalculatorFor(nft);
-    //se genera el objeto para inyectar en la base de datos.
+
     let nftToDb = utils.nftObjectCreatorFrom(nft, nftName, priceLastBuy);
     const nftInDb = await Nft.create(nftToDb);
 
