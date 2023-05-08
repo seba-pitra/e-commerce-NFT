@@ -1,8 +1,6 @@
 import { useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import * as actions from "../../redux/actions";
-import { useEffect } from "react";
-import { useHistory } from "react-router-dom";
 
 import CreateCollection from "./CreateCollection/CreateCollection";
 import CreateNFT from "./CreateNFT/CreateNFT";

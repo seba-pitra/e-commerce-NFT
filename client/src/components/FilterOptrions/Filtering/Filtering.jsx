@@ -157,30 +157,14 @@ export default function Filtering() {
     } else setSelectedCategoryBackg([...selectedCategoryBackg, e.target.value]);
   };
 
-  // Inputs filters
   const [inputCollections, setInputCollections] = useState("");
   collections = collections.filter(item => item.name.toUpperCase().includes(inputCollections.toUpperCase()));
 
-  // const [inputCategorySpecies, setInputCategorySpecies] = useState("");
-  // category.Species = category.Species.filter(item => item.toUpperCase().includes(inputCategorySpecies.toUpperCase()));
 
   const [inputCategorySpecies2, setInputCategorySpecies2] = useState("");
   category.Species2 = category.Species2.filter(item => item.toUpperCase().includes(inputCategorySpecies2.toUpperCase()));
 
-  // const [inputArt, setInputArt] = useState("");
-  // category.Art = category.Art.filter(item => item.toUpperCase().includes(inputArt.toUpperCase()));
-
-  // const [inputType, setInputType] = useState("");
-  // category.Type = category.Type.filter(item => item.toUpperCase().includes(inputType.toUpperCase()));
-
-  // const [inputStyle, setInputStyle] = useState("");
-  // category.Style = category.Style.filter(item => item.toUpperCase().includes(inputStyle.toUpperCase()));
-
-  // const [inputRest, setInputRest] = useState("");
-  // category.Rest = category.Rest.filter(item => item.toUpperCase().includes(inputRest.toUpperCase()));
-
-  // const [inputBackg, setInputBackg] = useState("");
-  // category.Backg = category.Backg.filter(item => item.toUpperCase().includes(inputBackg.toUpperCase()));
+  
  
   return (
     <div className={styles["filters-container"]}>

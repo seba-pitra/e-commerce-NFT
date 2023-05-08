@@ -91,12 +91,6 @@ export default function CreateCollection({
                   ? styles["button-create"]
                   : styles["disabled"]
               }
-              // si esto no se necesita mas borrenlo
-              // className={
-              //   createdCollection.name?.length > 3
-              //     ? "button-create"
-              //     : "disabled"
-              // }
               onClick={(e) => submitCreatedCollection(e)}
               disabled={createdCollection.name?.length <= 3}
             >

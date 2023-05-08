@@ -25,7 +25,6 @@ export default function UserCollectionsSelector({user, styles, selectCollection,
                 selectCollection(e);
             }}
             className={styles["option-btn btn-filter"]}
-            // className="option-btn btn-filter" SE VA A ROMPER CUANDO FUNCIONE EL CREATE. ES DE OTRO ARCHIVO
             />
         </div>
     ))

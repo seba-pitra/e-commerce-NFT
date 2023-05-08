@@ -65,22 +65,12 @@ export default function NFTNav() {
   };
 
   useEffect(() => {
-    // Aqui no estaba el user
-    //Aqui si esta el usuario logeado
     let localStorageUser = JSON.parse(localStorage.getItem("User"));
-    // los loaders funcionan bien si el usuario esta logeado y tiene persistencia al refresh
-
-    // Loading Theme, Favs, ShoppingCart items on refresh
-
-    // Tema
     let SavedTheme = JSON.parse(
       localStorage.getItem(JSON.stringify(localStorageUser + "theme"))
     );
-    //if (SavedTheme) { dispatch(actions.injectLocalStorageTheme(SavedTheme))}
-    //{ dispatch(actions.toggleTheme())};
-
+    
     // Favs
-
     let SavedFavorites = JSON.parse(
       localStorage.getItem(JSON.stringify(localStorageUser + "FAVS"))
     );

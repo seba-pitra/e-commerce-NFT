@@ -31,8 +31,6 @@ const App = () => {
     dispatch(actions.filterNfts());
   };
 
-  // className={styles[]}
-
   return (
     <form
       className={styles["filters-price-container"]}

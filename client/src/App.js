@@ -13,7 +13,6 @@ import Mycollections from "./components/Mycollections/Mycollections";
 import Aboutus from './components/Aboutus/Aboutus.jsx';
 import HomePage from "./components/HomePage/HomePage";
 import Details from "./components/Details/Details";
-import NotFoundException from "./components/404Page/404Page";
 import NFTNav from "./components/NFTNav/NFTNav";
 import Footer from "./components/Footer/Footer";
 import Create from "./components/Create/Create";
@@ -56,8 +55,7 @@ function App() {
     }
   });
 
-  // // funcion para consologuear el estado siempre que se modifique
-  // // DESCOMENTAR PARA TESTING
+  //  consolog the state always that it will be modified
   //  useEffect(() => {
   //   const unsubscribe = store.subscribe(() => {
   //      /* console.log(store.getState().loginStatus)
@@ -106,11 +104,6 @@ function App() {
             exact
             path="/admin/adminDashboard"
             render={() => <AdminDashboard />}
-            />
-          <Route
-            render={() => {
-              <NotFoundException />;
-            }}
             />
         </Switch>
       </React.Fragment>

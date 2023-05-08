@@ -32,8 +32,6 @@ const DougnoutChart = ({ users }) => {
     ],
   };
 
-  // className={styles[]}
-
   return (
     <div className={styles["doughnut-chart-container"]}>
       <Doughnut data={chartData} />

@@ -17,9 +17,6 @@ function SearchBar() {
 
   const dispatch = useDispatch();
 
-  
-
-  //funcion de busqueda
   function search(e) {
     if(location.pathname === "/collections") {
       e.preventDefault();
@@ -28,13 +25,10 @@ function SearchBar() {
     }
     else{
       e.preventDefault();
-       //resetea los filtos
-       dispatch(actions.filterName(searchQuery)); //resetea los filtos
+       dispatch(actions.filterName(searchQuery)); 
       setSearchQuery("");
     }
   }
-
-  // className={styles[]}
 
   return (
     <div className={styles["search-bar-container"]}>

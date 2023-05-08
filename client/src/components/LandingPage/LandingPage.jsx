@@ -6,10 +6,8 @@ import Login from "../Login/Login";
 import { useState } from "react";
 import Register from "../Registrer/Registrer";
 import Recovery from "../Recovery/Recovery";
-import { useLoggedUser } from "../../customHooks/useLoggedUser";
 
 function LandingPage() {
-  //The changes of classname is executing in the "onClick" event of buttons
   const [customClass, setCustomClass] = useState("landing-container");
   const [loginClass, setLoginClass] = useState("disabled-container");
   const [registerClass, setRegisterClass] = useState("disabled-container");

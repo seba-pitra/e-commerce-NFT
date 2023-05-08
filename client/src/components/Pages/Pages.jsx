@@ -138,7 +138,6 @@ function Pages() {
   }
 
 
-// el primer div className condicional para el tema
   return (
     <div> 
      {cards.length === 0 ? (
