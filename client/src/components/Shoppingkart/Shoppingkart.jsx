@@ -10,23 +10,30 @@ import "react-toastify/dist/ReactToastify.css";
 import useStyles from "../../customHooks/useStyles";
 import darkStyles from "./stylesheets/DarkShoppingCart.module.css";
 import lightStyles from "./stylesheets/LightShoppingCart.module.css";
+import { useLoggedUser } from "../../customHooks/useLoggedUser";
 
 export default function Shoppingkart() {
-	const shoppingCartContents = useSelector(
-		(state) => state.shoppingCartContents
-	);
+  const shoppingCartContents = useSelector(
+    (state) => state.shoppingCartContents
+  );
+
+  const loggedUser = useLoggedUser();
+  console.log("loggedUser", loggedUser);
 
   const styles = useStyles(darkStyles, lightStyles);
   const dispatch = useDispatch();
 
   const handleBuyNftsOnShoppingCart = async () => {
 
-   localStorage.setItem(
+  
+    localStorage.setItem(
       "nftsOnShoppingCart",
       JSON.stringify(shoppingCartContents)
     );
-    dispatch(actions.buyNftOnShoppingCart(shoppingCartContents));
+    dispatch(actions.buyNftOnShoppingCart(shoppingCartContents, loggedUser));
+    console.log(shoppingCartContents);
     localStorage.setItem("compras", JSON.stringify(shoppingCartContents));
+   
   };
 
   const handlePay = async ({ nftPrice, nftContract, nftObj }) => {
@@ -64,7 +71,7 @@ export default function Shoppingkart() {
       };
     }
 
-    dispatch(actions.addBuyAtHistoryBuys(metamaskBuyData));
+    // dispatch(actions.addBuyAtHistoryBuys(metamaskBuyData));
   };
 
   const handleRemoveButton = async (nftId) => {
@@ -80,7 +87,7 @@ export default function Shoppingkart() {
     <div className={styles["shopping-cart-container"]}>
       <div className={styles["shopping-cart"]}>
         <div className={styles["shopping-cart-nft-cards"]}>
-          {shoppingCartContents && shoppingCartContents.length > 0 ?
+          {shoppingCartContents && shoppingCartContents.length > 0 ? (
             shoppingCartContents.map((nft, index) => {
               return (
                 <div key={index} className={styles["cart-nfts-container"]}>
@@ -98,9 +105,12 @@ export default function Shoppingkart() {
                       </b>{" "}
                       USD
                     </p>
-                    <button className={styles["button-buy-fast"]}>
+                    {/* <button
+                      className={styles["button-buy-fast"]}
+                      onClick={handlePay}
+                    >
                       Buy Now
-                    </button>
+                    </button> */}
                   </div>
                   <button
                     className={styles["cart-nft-remove-button"]}
@@ -110,11 +120,12 @@ export default function Shoppingkart() {
                   </button>
                 </div>
               );
-            }) : (
-              <div className={styles["cart-no-nfts"]}>
-                <span>There are no items added to the cart yet</span>
-              </div>
-            )}
+            })
+          ) : (
+            <div className={styles["cart-no-nfts"]}>
+              <span>There are no items added to the cart yet</span>
+            </div>
+          )}
         </div>
       </div>
       <div className="text-center text-lg-bottom mt-4 pt-2">

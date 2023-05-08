@@ -557,10 +557,16 @@ export const freeShoppingCartState = () => {
   return { type: DELETE_NFT_ON_SIGNOUT };
 };
 
-export const buyNftOnShoppingCart = (nftsOnShoppingCart) => {
+export const buyNftOnShoppingCart = (nftsOnShoppingCart, loggedUser) => {
   return async (dispatch) => {
-    const buyApi = await axios.post(`/payment`, nftsOnShoppingCart);
-    window.location.replace(buyApi.data.init_point); 
+
+    const buyApi = await axios.post(`/payment`, {
+      nftsOnShoppingCart,
+      userEmail: loggedUser[0].email,
+    });
+
+    window.location.replace(buyApi.data.init_point);
+
   };
 };
 
