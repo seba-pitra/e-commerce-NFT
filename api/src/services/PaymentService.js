@@ -10,10 +10,6 @@ class PaymentService {
   async createPayment(shoppingCartDispatchBody) {
     const url = "https://api.mercadopago.com/checkout/preferences";
 
-    let user = loggedUser;
-
-    console.log("userEmail", shoppingCartDispatchBody.userEmail);
-
     const body = {
       payer_email: shoppingCartDispatchBody.userEmail,
       items: shoppingCartDispatchBody.nftsOnShoppingCart.map((nft) => {
