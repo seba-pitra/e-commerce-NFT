@@ -9,16 +9,7 @@ export default function Options() {
   return (
     <div className={styles["all-filters-container"]}>
       <Filtering />
-      {/* <div className="options-container">
-        <button
-          className="resetfilters-btn"
-          onClick={() => {
-            dispatch(actions.resetFilters());
-          }}
-        >
-          Reset Filters
-        </button>
-      </div> */}
+    
     </div>
   );
 }

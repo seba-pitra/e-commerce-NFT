@@ -30,9 +30,7 @@ export default function NFTCard(props) {
   const dispatch = useDispatch();
 
   const displayMsgShoppingCart = ({ error }) => {
-    // This function is sent to reducer to show the toastify msg
     if (!error) {
-      //If there isn't a error...
       toast.success(
         ({ closeToast }) => (
           <div onClick={() => setShow(true)}>
@@ -45,7 +43,6 @@ export default function NFTCard(props) {
         }
       );
     } else {
-      //If the nft is already in shooping cart...
       toast.error(
         ({ closeToast }) => (
           <div onClick={() => setShow(true)}>
@@ -61,9 +58,7 @@ export default function NFTCard(props) {
   };
 
   const displayMsgFavorites = ({ error }) => {
-    // This function is sent to reducer to show the toastify msg
     if (!error) {
-      //If there isn't a error...
       toast.success(
         ({ closeToast }) => (
           <div onClick={() => setShowFav(true)}>
@@ -76,7 +71,6 @@ export default function NFTCard(props) {
         }
       );
     } else {
-      //If the nft is already in favorites...
       toast.error(
         ({ closeToast }) => (
           <div onClick={() => setShowFav(true)}>

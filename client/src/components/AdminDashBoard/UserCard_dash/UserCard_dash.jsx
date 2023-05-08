@@ -12,14 +12,11 @@ const UserCard_dash = ({ id, username, email, type, deletedAt }) => {
 
   const handleBlock = async () => {
     const res = await axios.delete(`/user/${id}`);
-    // const res = await axios.delete(`/user/${id}asasd`);
     res.data && setDeleted(true);
-    console.log(res);
   };
   const handleRestore = async () => {
     const res = await axios.get(`/user/restore/${id}`);
     res.data && setDeleted(false);
-    console.log(res.data);
   };
 
   return (
@@ -45,15 +42,6 @@ const UserCard_dash = ({ id, username, email, type, deletedAt }) => {
         )}
       </div>
       <div className={styles["dash-card-icons"]}>
-        {/* {deleted ? (
-          <div className={styles["dash-card-icon"]}>
-            <RestoreIcon onClick={handleRestore} />
-          </div>
-        ) : (
-          <div className={styles["dash-card-icon"]}>
-            <BlockIcon onClick={handleBlock} />
-          </div>
-        )} */}
       </div>
     </div>
   );

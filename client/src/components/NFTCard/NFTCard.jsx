@@ -113,9 +113,6 @@ export default function NFTCard(props) {
     );
   };
 
-  // const handleClickOnFavorites = (e) => {
-  //   dispatch(actions.addToFav(props, displayMsgFavorites));
-  // };
 
   let starsValue = 0;
 

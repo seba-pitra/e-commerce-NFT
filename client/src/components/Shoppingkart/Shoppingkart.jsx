@@ -24,11 +24,8 @@ export default function Shoppingkart() {
   const dispatch = useDispatch();
 
   const handleBuyNftsOnShoppingCart = async () => {
-    //localStorage for payment for mercago pago in component "PayResult"
 
-    // ----Observacion == El siguiente codigo no es multiusuario -----
-    // ---- Para que sea multiusuario hay que guardar el tag usuario (el mail del usuarioi) + "compras"
-    // ---- para que de esta forma sea unico ese dato en LS  (Att: Vale)
+  
     localStorage.setItem(
       "nftsOnShoppingCart",
       JSON.stringify(shoppingCartContents)
@@ -36,9 +33,7 @@ export default function Shoppingkart() {
     dispatch(actions.buyNftOnShoppingCart(shoppingCartContents, loggedUser));
     console.log(shoppingCartContents);
     localStorage.setItem("compras", JSON.stringify(shoppingCartContents));
-    // ------------- FIN DEL CODIGO QUE NO ES MULTIUSUARIO -----------
-
-    // test only >> dispatch(actions.sendFungibleMail({correoUser: "yomero@gmail.com",accion: "pago"}));
+   
   };
 
   const handlePay = async ({ nftPrice, nftContract, nftObj }) => {
@@ -53,25 +48,20 @@ export default function Shoppingkart() {
       payMethod: "Metamask",
       statusPay: "Created",
       purchases: [nftObj],
-      // from: transactionMetamask.from,
-      // to: transactionMetamask.to,
     };
 
     if (transactionMetamask.hash) {
-      //si salio bien...
       toast.success("Payment successfully", { position: "bottom-left" });
       metamaskBuyData = {
         ...metamaskBuyData,
         statusPay: "Successful",
       };
     } else if (transactionMetamask.includes("rejected")) {
-      //si se rechazo en metamask
       metamaskBuyData = {
         ...metamaskBuyData,
         statusPay: "Rejected",
       };
     } else if (transactionMetamask.includes("insufficient funds")) {
-      //si faltan fondos
       toast.warning("You have insufficient funds in Metamask", {
         position: "bottom-left",
       });

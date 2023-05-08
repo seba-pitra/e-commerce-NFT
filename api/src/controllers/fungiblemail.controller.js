@@ -1,10 +1,8 @@
 const nodemailer = require('nodemailer');
 
 const sendMail = async (req, res) => {
-  // let testAccount = await nodemailer.createTestAccount();
 	const { correoUser, accion } = req.body;
 
-	// create transporter SMTP transport
 	let transporter = nodemailer.createTransport({
 		service: "gmail",
 		auth: {
@@ -13,7 +11,6 @@ const sendMail = async (req, res) => {
 		},
 		});  
 
-	// messages ----------------------
 	if (accion == "error"){
 		let info = await transporter.sendMail({
 			from: '"NonFungibleTown" <andresarzate@gruponucleon.com>', 
@@ -45,7 +42,6 @@ const sendMail = async (req, res) => {
 		});
 	}
 	
-	// -------------------------------
 }
 
 

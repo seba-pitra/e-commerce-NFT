@@ -214,7 +214,6 @@ export const getUserByID = (id) => {
 export const updateUser = (body) => {
   return async (dispatch) => {
     try {
-      console.log(body);
       const update = await axios.put(`/user/${body.id}`, body);
       dispatch({ type: GET_USER_BY_ID, payload: update.data });
       dispatch({ type: SHOULD_UPDATE });
@@ -324,7 +323,6 @@ export const rejectVerification = (userId) => {
 
 // actions.js
 
-// Acción para actualizar el estado y almacenamiento local del usuario
 export function updateLoggedUser(userData) {
   return { type: UPDATE_LOGGED_USER, payload: userData };
 }
@@ -420,29 +418,27 @@ export const orderCreatedTs = (payload) => {
 };
 
 export const orderAmount = (payload) => {
-  return { type: ORDER_NFT_AMOUNT, payload }; // cantidad 1 o 100 unidades FALTA
+  return { type: ORDER_NFT_AMOUNT, payload }; 
 };
 
 export const orderCreatedAt = (payload) => {
-  return { type: ORDER_NFT_CREATED_AT, payload }; // mas nuevos, mas antiguos FALTA
+  return { type: ORDER_NFT_CREATED_AT, payload }; 
 };
 
 export const changeOrderDirection = () => {
   return { type: CHANGE_ORDER_DIRECTION };
 };
 
-// --- VERIFIED USERS ONLY ---
 
 export const createNft = (payload) => {
   return async (dispatch) => {
     try {
       const createdNft = await axios.post(`/nft/create`, payload);
-      dispatch({ type: CREATE_NFT, payload: createdNft.data }); // msj desde el back
+      dispatch({ type: CREATE_NFT, payload: createdNft.data }); 
       toast.success("NFT created successfully", {
         position: "bottom-left",
       });
       dispatch({ type: SHOULD_UPDATE });
-      // window.location.href = "/marketplace";
     } catch (e) {
       toast.error("Something was wrong. Try again later", {
         position: "bottom-left",
@@ -455,13 +451,12 @@ export const createCollection = (payload) => {
   return async (dispatch) => {
     try {
       const createdNft = await axios.post(`/collection/create`, payload);
-      dispatch({ type: CREATE_COLLECTION, payload: createdNft.data }); // el back devuelve la collection creada
+      dispatch({ type: CREATE_COLLECTION, payload: createdNft.data });
 
       toast.success("Collection created successfully", {
         position: "bottom-left",
       });
       dispatch({ type: SHOULD_UPDATE });
-      // window.location.href = "/marketplace";
     } catch (e) {
       toast.error("Something was wrong. Try again later", {
         position: "bottom-left",
@@ -474,7 +469,7 @@ export const deleteNft = (id) => {
   return async (dispatch) => {
     try {
       const deletedNft = await axios.delete(`/nft/${id}`);
-      dispatch({ type: DELETE_NFT, payload: deletedNft.data }); // msj desde el back
+      dispatch({ type: DELETE_NFT, payload: deletedNft.data }); 
       toast.success("NFT deleted successfully", { position: "bottom-left" });
       dispatch({ type: SHOULD_UPDATE });
     } catch (e) {
@@ -491,7 +486,7 @@ export const updateNft = (id, payload) => {
   return async (dispatch) => {
     try {
       const updateNft = await axios.put(`/nft/${id}`, payload);
-      dispatch({ type: UPDATE_NFT, payload: updateNft.data }); // msj desde el back
+      dispatch({ type: UPDATE_NFT, payload: updateNft.data }); 
       toast.success("NFT updated successfully", { position: "bottom-left" });
       dispatch({ type: SHOULD_UPDATE });
     } catch (error) {
@@ -519,17 +514,13 @@ export const addReview = (payload) => {
         nftId: nftId,
         value: value,
       });
-      console.log(response);
       dispatch({ type: SHOULD_UPDATE });
-      // Falta el dispatch ya sea para setear el value fijo o para mostrar un mensaje.
     } catch (error) {
-      console.error(error.response.data);
       toast.error(error.response.data, { position: "bottom-left" });
     }
   };
 };
 
-// --- PAGINATION ---
 
 export const selectPage = (pageNumber) => {
   return { type: SELECT_PAGE, payload: pageNumber };
@@ -568,34 +559,18 @@ export const freeShoppingCartState = () => {
 
 export const buyNftOnShoppingCart = (nftsOnShoppingCart, loggedUser) => {
   return async (dispatch) => {
+
     const buyApi = await axios.post(`/payment`, {
       nftsOnShoppingCart,
       userEmail: loggedUser[0].email,
     });
-    console.log(buyApi);
-    // window.location.replace(buyApi.data.sandbox_init_point); // => prueba
-    //
+
     window.location.replace(buyApi.data.init_point);
+
   };
 };
 
-/*
-export const buyNftOnShoppingCart = (nftsOnShoppingCart) => {
-  return async (dispatch) => {
-    await fetch(`http://localhost:3001/payment`, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      mode: "cors",
-      body: JSON.stringify(nftsOnShoppingCart),
-    })
-      .then((res) => res.json())
-      .then((data) => {
-        //window.location.replace(data.init_point);
-window.location.replace(data.sandbox_init_point);
-      });
-  };
-};
-*/
+
 
 export const addBuyAtHistoryBuys = (buyData) => {
   return async (dispatch) => {

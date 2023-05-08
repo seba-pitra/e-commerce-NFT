@@ -12,7 +12,6 @@ import lightStyles from "./stylesheets/LightOrdering.module.css"
 
   
   export default function Ordering() {
-  //estos estados son para cambiar el estilo.
   const [option, setOption]= useState("");
   const [showOrders, setShowOrders] = useState(false);
   const  isDark  = useSelector((state) => state.activeThemeIsDark);

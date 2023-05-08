@@ -4,10 +4,7 @@ import { useEffect, useState } from "react";
 import { useHistory } from "react-router-dom";
 
 import Pages from "../Pages/Pages";
-import FilterOptions from "../FilterOptrions/Options";
 import Loading from "../Loading/Loading";
-import Offcanvas from "react-bootstrap/Offcanvas";
-import FilterAltIcon from "@mui/icons-material/FilterAlt";
 
 //dark-light theme
 import useStyles from "../../customHooks/useStyles";
@@ -39,7 +36,6 @@ function MarketPlace({ loggedIn }) {
 
   useEffect(() => {}, [order]);
 
-  //
 
   return (
     <div className="home-container">

@@ -5,11 +5,9 @@ import InstagramIcon from "@material-ui/icons/Instagram";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import { Link, useLocation } from "react-router-dom";
-// import { useSelector } from "react-redux";
 import "./Footer.css"
 
 export default function Footer() {
-  // const  isDark  = useSelector((state) => state.activeThemeIsDark);
   const { pathname } = useLocation();
 
   return (

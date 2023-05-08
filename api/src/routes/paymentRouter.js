@@ -6,8 +6,6 @@ const { PaymentService, setUserEmailForPaymentService } = require("../services/P
 const PaymentInstance = new PaymentController(new PaymentService());
 
 paymentRouter.post("/", async (req, res, next) => {
-  //pasar info por body: email del user a quien se le va a comprar el NFT y los NFT's a comprar
-  //cambiar access token a produccion. Ahora esta con credenciales de prueba
   try {
     await PaymentInstance.getPaymentLink(req, res);
   } catch (err) {
