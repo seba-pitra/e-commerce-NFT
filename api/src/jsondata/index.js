@@ -13,24 +13,24 @@ const dEGEN = require("../jsondata/DEGEN-TOONZ.json")
 const eNS = require("../jsondata/ENS-Maxis.json")
 const hAPE = require("../jsondata/HAPE-PRIME.json")
 
-// const kitaroWorld = require("../jsondata/Kitaro-World.json")
-// const lilPudgys = require("../jsondata/Lil-Pudgys.json")
-// const looksRare = require("../jsondata/LooksRare.json")
-// const lOSTPOETS = require("../jsondata/LOSTPOETS.json")
-// const mekaVerse = require("../jsondata/MekaVerse.json")
-// const moonbirds = require("../jsondata/moonbirds.json")
-// const mutantApeYachtClub = require("../jsondata/mutantApeYachtClub.json")
-// const myPetHooligan = require("../jsondata/My-Pet-Hooligan.json")
-// const phantaBear = require("../jsondata/PhantaBear.json")
-// const primeApePlanetPAP = require("../jsondata/Prime-Ape-Planet-PAP.json")
-// const regulars = require("../jsondata/Regulars.json")
-// const rENGA = require("../jsondata/RENGA.json")
-// const supDucks = require("../jsondata/SupDucks.json")
-// const theMV3Universe = require("../jsondata/The-MV3-Universe.json")
-// const tHEPLUTOALLIANCE = require("../jsondata/THE-PLUTO-ALLIANCE.json")
-// const toxicSkullsClub = require("../jsondata/Toxic-Skulls-Club.json")
-// const worldOfWomenGalaxy = require("../jsondata/World-of-Women-Galaxy.json")
-// const YuGiYn = require("../jsondata/YuGiYn.json")
+const kitaroWorld = require("../jsondata/Kitaro-World.json")
+const lilPudgys = require("../jsondata/Lil-Pudgys.json")
+const looksRare = require("../jsondata/LooksRare.json")
+const lOSTPOETS = require("../jsondata/LOSTPOETS.json")
+const mekaVerse = require("../jsondata/MekaVerse.json")
+const moonbirds = require("../jsondata/moonbirds.json")
+const mutantApeYachtClub = require("../jsondata/mutantApeYachtClub.json")
+const myPetHooligan = require("../jsondata/My-Pet-Hooligan.json")
+const phantaBear = require("../jsondata/PhantaBear.json")
+const primeApePlanetPAP = require("../jsondata/Prime-Ape-Planet-PAP.json")
+const regulars = require("../jsondata/Regulars.json")
+const rENGA = require("../jsondata/RENGA.json")
+const supDucks = require("../jsondata/SupDucks.json")
+const theMV3Universe = require("../jsondata/The-MV3-Universe.json")
+const tHEPLUTOALLIANCE = require("../jsondata/THE-PLUTO-ALLIANCE.json")
+const toxicSkullsClub = require("../jsondata/Toxic-Skulls-Club.json")
+const worldOfWomenGalaxy = require("../jsondata/World-of-Women-Galaxy.json")
+const YuGiYn = require("../jsondata/YuGiYn.json")
 
 const allNFTs = [ 
     ...angryCat,
@@ -47,24 +47,24 @@ const allNFTs = [
     ...dEGEN,
     ...eNS,
     ...hAPE,
-    // ...kitaroWorld,
-    // ...lilPudgys,
-    // ...looksRare,
-    // ...lOSTPOETS,
-    // ...mekaVerse,
-    // ...moonbirds,
-    // ...mutantApeYachtClub,
-    // ...myPetHooligan,
-    // ...phantaBear,
-    // ...primeApePlanetPAP,
-    // ...regulars,
-    // ...rENGA,
-    // ...supDucks,
-    // ...theMV3Universe,
-    // ...tHEPLUTOALLIANCE,
-    // ...toxicSkullsClub,
-    // ...worldOfWomenGalaxy,
-    // ...YuGiYn
+    ...kitaroWorld,
+    ...lilPudgys,
+    ...looksRare,
+    ...lOSTPOETS,
+    ...mekaVerse,
+    ...moonbirds,
+    ...mutantApeYachtClub,
+    ...myPetHooligan,
+    ...phantaBear,
+    ...primeApePlanetPAP,
+    ...regulars,
+    ...rENGA,
+    ...supDucks,
+    ...theMV3Universe,
+    ...tHEPLUTOALLIANCE,
+    ...toxicSkullsClub,
+    ...worldOfWomenGalaxy,
+    ...YuGiYn
 ];
 
 module.exports = allNFTs;
