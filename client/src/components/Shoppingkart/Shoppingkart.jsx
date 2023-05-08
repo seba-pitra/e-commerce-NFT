@@ -24,12 +24,14 @@ export default function Shoppingkart() {
 
   const handleBuyNftsOnShoppingCart = async () => {
 
+  
     localStorage.setItem(
       "nftsOnShoppingCart",
       JSON.stringify(shoppingCartContents)
     );
     dispatch(actions.buyNftOnShoppingCart(shoppingCartContents, loggedUser));
     localStorage.setItem("compras", JSON.stringify(shoppingCartContents));
+   
   };
 
   const handlePay = async ({ nftPrice, nftContract, nftObj }) => {
@@ -44,25 +46,20 @@ export default function Shoppingkart() {
       payMethod: "Metamask",
       statusPay: "Created",
       purchases: [nftObj],
-      // from: transactionMetamask.from,
-      // to: transactionMetamask.to,
     };
 
     if (transactionMetamask.hash) {
-      //si salio bien...
       toast.success("Payment successfully", { position: "bottom-left" });
       metamaskBuyData = {
         ...metamaskBuyData,
         statusPay: "Successful",
       };
     } else if (transactionMetamask.includes("rejected")) {
-      //si se rechazo en metamask
       metamaskBuyData = {
         ...metamaskBuyData,
         statusPay: "Rejected",
       };
     } else if (transactionMetamask.includes("insufficient funds")) {
-      //si faltan fondos
       toast.warning("You have insufficient funds in Metamask", {
         position: "bottom-left",
       });

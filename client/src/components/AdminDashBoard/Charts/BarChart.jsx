@@ -27,9 +27,6 @@ const BarChart = ({ chartNfts, chartCollections }) => {
     )
   );
 
-  // const collectionName = collections.map((names) => names.name);
-  // const NftsCollection = nfts.map((names) => names.collection.name);
-
   const creatingData = () => {
     let datos = [];
     let precioMedio = [];
@@ -106,11 +103,9 @@ const BarChart = ({ chartNfts, chartCollections }) => {
       y: {
         min: 0,
         max: 80,
-        // suggestedMax: 100,
       },
     },
     ticks: {
-      // forces step size to be 50 units
       stepSize: 5,
     },
   };

@@ -57,7 +57,6 @@ export default function UserProfile() {
   //       setEdit(!edit);
   //     });
   //   };
-  console.log(userDetail);
   
 
   return (

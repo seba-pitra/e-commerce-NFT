@@ -67,15 +67,14 @@ import "react-toastify/dist/ReactToastify.css";
 import * as utils from "../../utils";
 
 const initialState = {
-  nfts: [], //ok
-  filteredNfts: [], // ok
-  collections: [], // ok
-  filteredCollections: [], // ok
+  nfts: [], 
+  filteredNfts: [], 
+  collections: [], 
+  filteredCollections: [], 
   collectionDetail: [],
 
-  adminNfts: [], //incluye deleted
+  adminNfts: [], 
 
-  // estos son todos filtros
   setCollections: [],
   setCategorySpecies: [],
   setCategorySpecies2: [],
@@ -85,39 +84,37 @@ const initialState = {
   setCategoryRest: [],
   setCategoryBackg: [],
   setNftsPrice: {},
-  // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-  viewCards: "info", //Vista de las cards
+  viewCards: "info",
 
-  adminUsers: [], //todos los usuarios para que los vea el admin
+  adminUsers: [], 
 
-  shoppingCartContents: [], // carrito de compras
-  userFavsNfts: [], // favoritos del usuario
-  userFavs: [], //favoritos del usuario
+  shoppingCartContents: [], 
+  userFavsNfts: [], 
+  userFavs: [], 
 
-  nftDetail: {}, //detale del nft seleccionado
+  nftDetail: {}, 
 
-  userDetail: {}, // userDetail para el admin
+  userDetail: {},
 
-  loggedUser: {}, // el estado mas importante... datos del usuario loggueado
+  loggedUser: {},
 
-  loginStatus: false, // estado del login, esta es la llave
+  loginStatus: false, 
 
-  isLoading: false, // estado de la carga de datos para mostrar animacion de carga
+  isLoading: false, 
 
-  orderDirection: "up-down", // ordenamiento... REVISAR
-  activePage: 1, //PAGINA ACTIVA
-  nftsPerPage: 100, // CANTIDAD DE NFTS POR PAGINA
-  ethPrice: {}, //para calcular los precios en ars y usd
+  orderDirection: "up-down", 
+  activePage: 1, 
+  nftsPerPage: 100, 
+  ethPrice: {}, 
 
-  historyBuys: [], //historial de compras.
+  historyBuys: [], 
   activeThemeIsDark: false,
 
   shouldUpdate: false,
 };
 
 const rootReducer = (state = initialState, action) => {
-  // console.log(action);
   switch (action.type) {
     case LOADING:
       return { ...state, isLoading: true };
@@ -155,19 +152,14 @@ const rootReducer = (state = initialState, action) => {
         isLoading: false,
       };
 
-    // Este case no lo esta usando nadie.
     case GET_ALL_USERS:
       return { ...state, users: action.payload };
-    // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
     case SIGN_IN_WITH_GOOGLE:
       return {
         ...state,
         loggedUser: action.payload,
       };
     case UPDATE_LOGGED_USER:
-      // console.log(action.payload);
-      // Actualiza el estado con los nuevos datos del usuario
-      // Actualiza el estado con los nuevos datos del usuario
       return { ...state, loggedUser: action.payload };
     case LOG_IN:
       return { ...state, loggedUser: action.payload };
@@ -182,10 +174,8 @@ const rootReducer = (state = initialState, action) => {
       return { ...state, loggedUser: {}, loginStatus: false };
     case ASKED_FOR_VERIFICATION:
       return { ...state };
-    // Trae incluso los deleted.
     case GET_ALL_ADMIN_USERS:
       return { ...state, adminUsers: action.payload };
-    // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
     case GET_USER_BY_ID:
       return {
         ...state,
@@ -196,8 +186,6 @@ const rootReducer = (state = initialState, action) => {
     case GET_COLLECTION_DETAIL:
       return { ...state, collectionDetail: action.payload };
 
-    // estos hay que revisar la logica, en este momento no coinciden back con front,
-    // saque lo del msj para revisarlo bien despues
     case CREATE_NFT:
       return { ...state };
     case DELETE_NFT:
@@ -362,10 +350,6 @@ const rootReducer = (state = initialState, action) => {
         setCategoryBackg: [],
       };
 
-    // La logica de busqueda solo incluye nombres.
-    // Y modifica el estado de los filtered permanentemente hasta que
-    // se haga un RESET_FILTERS o se recargue...
-    // no se pueden hacer dos busquedas consecutivas con esta logica
     case SEARCH_NFT_NAME:
       let filterByName = [];
       filterByName = state.nfts.filter((e) =>
@@ -471,7 +455,6 @@ const rootReducer = (state = initialState, action) => {
         return { ...state };
       }
 
-      // crea un nuevo "carrito de compras" con el nft agregado.
       const newShoppingCartContent = [
         ...state.shoppingCartContents,
         action.payload.nft,
@@ -511,7 +494,6 @@ const rootReducer = (state = initialState, action) => {
       };
 
     case LOCAL_STORAGE_CART:
-      //carga lo que esta en el local storage en el carrito.
       return {
         ...state,
         shoppingCartContents: action.payload,
@@ -537,25 +519,20 @@ const rootReducer = (state = initialState, action) => {
 
     // --- FAVS ---
     case LOCAL_STORAGE_FAVS:
-      //carga lo que esta en el local storage en los favoritos del usuario.
       return {
         ...state,
         userFavs: action.payload,
       };
     case ADD_FAV:
-      //verifica que no este ya en el estado.
       const SelectedNft = state.userFavs.find(
         (nft) => nft.id === action.payload.nft.id
       );
 
-      // devuelve mensaje y no modifica el estado si es asi
       if (SelectedNft) {
         action.payload.displayMsgFavorites({ error: true });
         return { ...state };
       }
-      //crea un nuevo listado de favoritos.
       const newFavs = [...state.userFavs, action.payload.nft];
-      // guarda el estado usando el mail del usuario como tag
 
       utils.saveFavsLocalStorage(newFavs, state.loggedUser.email);
 
@@ -573,14 +550,11 @@ const rootReducer = (state = initialState, action) => {
         userFavs: [],
       };
     case REMOVE_FROM_FAVS:
-      // remueve el nft de los favoritos.
       const newFavsRemoved = state.userFavs.filter(
         (nft) => nft.id !== action.payload
       );
 
-      //guarda el nuevo carrito
       utils.saveFavsLocalStorage(newFavsRemoved, state.loggedUser.email);
-      // modifica el estado
       return {
         ...state,
         userFavs: newFavsRemoved,

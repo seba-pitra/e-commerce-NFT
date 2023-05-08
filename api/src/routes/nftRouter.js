@@ -15,8 +15,6 @@ nftRouter.put("/:id", nftControllers.updateNft);
 
 nftRouter.put("/addView/:id", nftControllers.addViewsNft);
 
-/* nftRouter.put("/addStar/:id", nftControllers.addStarsNft); */ // esto se calcula automaticamente en add review.
-
 nftRouter.delete("/:id", nftControllers.deleteNft);
 
 nftRouter.get("/restore/:id", nftControllers.restoreDeletedNft)

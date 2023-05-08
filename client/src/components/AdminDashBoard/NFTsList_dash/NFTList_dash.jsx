@@ -10,17 +10,11 @@ import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
 import ArrowBackIosIcon from "@material-ui/icons/ArrowBackIos";
 
 const NFTList_dash = ({ users, nfts, verifyingUsers }) => {
-  // const { nfts } = useSelector((state) => state);
-  // const dispatch = useDispatch();
 
   const [cp, setCp] = useState(0);
   const [nftsxPage, setNFTsxPage] = useState(10);
   const [displayNFTs, setDisplayNFTs] = useState([]);
   const [filteredNFTs, setFilteredNFTs] = useState([]);
-
-  // useEffect(() => {
-  //   dispatch(actions.getAllNfts());
-  // }, [dispatch]);
 
   useEffect(() => {
     setDisplayNFTs(
@@ -106,7 +100,6 @@ const NFTList_dash = ({ users, nfts, verifyingUsers }) => {
         </div>
       </div>
 
-      {/* Conditional Div (nft/user) */}
       {users ? (
         <div className={styles["dash-nfts-titles"]}>
           <div className={styles["dash-users-NameTitle"]}>

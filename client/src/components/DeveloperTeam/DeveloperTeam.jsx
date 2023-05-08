@@ -1,7 +1,4 @@
-import React, { useEffect, useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import * as actions from "../../redux/actions";
-import { useHistory } from "react-router-dom";
+import { useSelector } from "react-redux";
 import img1 from "../../images/developerTeam/developer-team-1.jfif";
 import img2 from "../../images/developerTeam/developer-team-2.jfif";
 import img3 from "../../images/developerTeam/developer-team-3.jfif";
@@ -23,8 +20,6 @@ import lightStyles from "./stylesheets/LightDeveloperTeam.module.css"
 
 
 const DeveloperTeam = (props) => {
-  const history = useHistory();
-  const dispatch = useDispatch();
   
   const  isDark  = useSelector((state) => state.activeThemeIsDark);
 

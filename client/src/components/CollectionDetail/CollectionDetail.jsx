@@ -17,7 +17,6 @@ const CollectionDetail = () => {
   const foundCollection = useSelector((state) => state.collectionDetail); 
 
   const  isDark  = useSelector((state) => state.activeThemeIsDark);
-  console.log(isDark)
 
   useEffect(() => {
     dispatch(actions.getCollectionById(id));

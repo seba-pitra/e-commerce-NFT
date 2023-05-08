@@ -21,8 +21,6 @@ function HomePage() {
     
   const styles = useStyles(darkStyles, lightStyles);
 
-  console.log(loggedUser.type)
-
   useEffect(() => {
     dispatch(actions.getAllNfts());
     dispatch(actions.getEthPrice());

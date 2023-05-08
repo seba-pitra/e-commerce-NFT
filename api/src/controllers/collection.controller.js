@@ -128,7 +128,6 @@ const deleteCollection = async (req, res) => {
   }
 };
 
-//Actualizar los datos de una collecion a partir de el id.
 const updateCollection = async (req, res) => {
   try {
     const { id } = req.params;
@@ -142,11 +141,10 @@ const updateCollection = async (req, res) => {
       throw new Error(`No collection with id ${id}`);
     }
   } catch (err) {
-    console.error(err);
     res.status(400).send(err.message);
   }
 };
-//Restaurar una colleccion eliminada.
+
 const restoreDeletedCollection = async (req, res) => {
   try {
     const { id } = req.params;
@@ -166,7 +164,6 @@ const restoreDeletedCollection = async (req, res) => {
       throw new Error(`No collection found with id ${id}`);
     }
   } catch (err) {
-    console.error(err);
     return res.status(400).json({ err: err.message });
   }
 };

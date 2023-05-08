@@ -415,7 +415,6 @@ export function handleErrorLoginAndRegister(error) {
       break;
 
     default:
-      console.error(error);
       break;
   }
 }

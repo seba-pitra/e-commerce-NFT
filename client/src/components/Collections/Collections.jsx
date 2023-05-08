@@ -1,7 +1,4 @@
-import * as actions from "../../redux/actions";
-import { useHistory } from "react-router-dom";
-import { useSelector, useDispatch } from "react-redux";
-import { useEffect } from "react";
+import { useSelector } from "react-redux";
 import Loading from "../Loading/Loading";
 import { Link } from "react-router-dom";
 import VerifiedIcon from "@mui/icons-material/Verified";
